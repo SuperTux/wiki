@@ -1,0 +1,3 @@
+The Level format, as well as all other configuration files used by the game (for tiles, worldmap...), make use of the Scheme syntax. The files are merely Scheme lists so it should be pretty straight forward to understand and edit them.
+
+If you want to learn more stuff specifically about the level files, read the LEVELDESIGN file, placed at the root directory of the SuperTux package.
