@@ -1,28 +1,33 @@
-== SuperTux 0.1 ==
+== Debugging cheats ==
 
-For these cheats to work you have to be in debug mode.
+* lifeup - gain an extra life
+* grow - become bigtux
+* fire - become firetux
+* ice - become icetux
+* lifedown - take away a life
+* invincible - become invincible (stars)
+* shrink - become smalltux
+* kill - kill tux
+* gotoend - go to end of level
+* grid - show grid
+* hover - toggle hovering code on/off
 
-Do not type these in, you just press the appropriate key, eg the Tab key.
-{|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
-|end||gain 50 coins
-|-
-|tab||become bigtux
-|-
-|delete||become firetux
-|-
-|l||take away a life
-|-
-|insert||become invincible (stars) [on some keyboards this is the HELP key]
-|-
-|tab||become smalltux
-|}
+==Proposed cheats==
 
-* To get into debug mode on Mac OS X: ctrl-click SuperTux.app, open contents, open MacOS; open a terminal window, drag SuperTux to the terminal window, type "--debug-mode" and hit enter.
-* To get in debug mode on other *nix's start the game with: supertux --debug-mode
-* For Windows users, create a shortcut to supertux.exe, and edit the properties of the shortcut to include --debug-mode at the end of the "Target" box. ( "C:\Program Files\SuperTux\supertux.exe" --debug-mode )<br />Or just run it from a command prompt.
+Many Games have cheats, so why not have some cheats for SuperTux. The credits at the end of the game could list the number of times you've used each cheat code.
 
-== SuperTux 0.3 ==
+===Powerup cheats===
+*Typing: "GreaseLightning" increases Tux's speed by 3x.
+*Typing: "GiftofLife" increases Tux's life by 1. - There is already "lifeup"
 
-Cheat codes got replaced by [[Console]] commands.
+===Level skip cheats===
+*Typing: "HopSkipJump" then pressing Ctrl+(number). (The number is how many levels you want to skip.)
 
-[[Category:For Users]]
+===Bonus level cheats===
+*Typing "BonusLvL" opens up a secret Bonus Island levels.
+*Holding down "Ctrl"+"h" then jump, then crouch, sends you to a special hidden Bonus level
+
+===Misc cheats===
+*Typing: "ColoursoftheRainbow" then "Ctrl+(left or right)" enables you to change Tux's colour.
+*Typing: "TuxbeBeastie" allows you to use the BSD deamon instead.
+*Typing: "WinGame" or "Cheat" ends the game and brings a message saying: "Well Done! You have won in 0.0000001 seconds and have 59 Quintillion points!."
