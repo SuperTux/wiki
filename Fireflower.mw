@@ -1,16 +1,3 @@
-[[Image:Fire flower-0.png|right]]
-The behaviour of the '''fireflower''' is that it gives [[Tux]] the ability to spit bouncing fire bullets. Most badguys are killed when being struck by a fire bullet. A list of badguys which can be killed with firebullets is available in the [[:Category:Burnable badguys|burnable badguys category]].
-
-Any subsequent fireflowers that Tux takes increase the amount of fire bullets that can be on the screen at the same time, but do not increase the amount of hits Tux can take.
-
-== See also ==
-
-* [[Iceflower]]
-
-== Proposed changes ==
-
-The above behaviour is pretty boring and should be reworked to something more interesting, i.e. something that not just kills enemies, but interacts with them in interesting ways.
+The behaviour of the '''fireflower''' in [[Milestone 1]] was that it gives [[Tux]] the ability to spit bouncing fire bullets. If these bullets strike a [[Enemies|badguy]] then they are killed. However that behaviour is pretty boring and should be reworked to something more interesting, ie. something that not just kills enemies, but interacts with them in interesting ways.
 
 There are currently no plans to change the existing behaviour.
-
-[[Category:Action]]
