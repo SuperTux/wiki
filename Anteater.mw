@@ -1,0 +1,7 @@
+Behaviour: walks, runs if ants are in front of it... grows by eating ants
+
+Look: An Anteater
+
+Hurt Tux: if he is smaller than it
+
+Hurt it: jump or spit
