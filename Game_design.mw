@@ -1,23 +1,15 @@
-__NOTOC__ __NOEDITSECTION__
-This section is a central point for collecting the game design of SuperTux. It's meant to be an authoritative source; loose ideas which haven't been agreed on should be clearly marked.
+This section is a central point for collecting the game design of [SuperTux], its ment has authoritative source, loose ideas who havn't been agreed on should be clearly marked.
 
 == Story ==
 
 * [[Story]]
 * [[Characters]]
 * [[Worlds]]
-* [[Cutscene Storyboard]]
-
-== Enemies ==
-* [[Badguys]]
-* [[Minibosses]]
-* [[Bosses]]
-* [[Nolok]]
+* [[Actions]
 
 == Other Stuff ==
 
-* [[Actions]]
-* [[Objects]]
+* [[[Game objects|Objects]]]
 * [[Tiles]]
 * [[Map transformer]]
 * [[Multiplayer mode]]
@@ -30,5 +22,3 @@ This section is a central point for collecting the game design of SuperTux. It's
 
 * [[Milestone 1]]
 * [[Milestone 2]]
-
-[[Category:Development]]
