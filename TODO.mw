@@ -1,76 +1,112 @@
-= Milestone 2 =
+== Milestone 2 ==
 
-Documents and ideas: [[Milestone 2]] esp. [[World 2]]
+Documents and ideas: [[Milestone 2]] esp. [[Forest world]]
 
 == Notes ==
+'''High priority H:''' milestone goals that should be implemented for next milestone
 
-{{Attention|s=Only developers should edit this page. Please add [[User ideas]] and [[Bugs]] to the end of their pages}}
+'''Medium priority M:''' would be nice to have for next milestone, but should be secondary to high priority goals
 
-Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound]] and [[:Category:Needs Graphics]] list articles that describe content which still lacks one of the three. Bugs can be found in our [http://supertux.lethargik.org/bugs bug tracker].
+'''Low priority L:''' things that should be fixed sometime
 
+'''?:''' Things that need to be discussed to determine whether or not they should be implemented
 
-== Game Tasks ==
+== Programming ==
 
-=== Current ===
+=== Collision detection rewrite ===
+* implement ability to cary mriceblock (and other objects) around - delayed for  after big commit...
+* smoke clouds are too fast
+* rethink slopes collision feedback... tux becomes too slow when walking up and starts jumping when walking down
+* think about an attachement mechanism for moving platforms
+* implement paths for the moving platform, implement simple moving platforms
+* fix bullet speed/behaviour
+* check if unducking is actually possible or if something is in the way
+* what to do when stuck under tiles (after using duck-sliding)
+* do we want multi hit scores again?
 
-==== Integration/Organisation ====
-* integrate new bomb sprite, remove the old
-* integrate new green pipe
-* make list of ugly titles that need replacement
-* remove the helper-tiles in levels where enemies should be stay-on-platform
+=== Code Refactoring/Cleanup/Optimisation ===
+* '''H:''' make the title using GameSession instead of reimplementing all the stuff
+* '''L:''' rename gameloop. files to gamesession.
+* '''L:''' rename GameObject::action to GameObject::update()
+* '''L:''' use physfs for loading files
+* '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
+* '''L:''' rename files like tile_manage.* to TileManager.* because they contain a class named TileManager not tile_manager. Eventually use .hpp instead of .h to indicate the usage of c++
+* '''M:''' harmonize to 1 single gameloop that switches between title, worldmap, ingame mode and eventually leveleditor mode
+* '''M:''' Make the gamelogic run in a fixed logical framerate
+* '''M:''' (or '''H:'''?) implement quadtree or grid to speedup collision detection
+* '''M:''' Use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
 
-==== Graphics ====
-* repaint dead-iceblock
-* redraw underground ice tileset
-* design a new ice-castle titleset
-* design enemies that fit into a ice-castle
+=== Actions ===
+* '''H:''' Buttjump:
+** enable buttjump again
+** Should kill enemies with a certain range (Done--now needs to be tweaked - Eventually we only want to "stun" the enemies...)
+** Animation (need images)
+** Should be available when tux is big
+** Should break bricks if Tux is on top of bricks.
+* '''H:''' Flapping:
+** should be modeled after Yoshi's Island flapping
+** Try if it is good that you can reach highe places with flapping
+** We need animations
+* '''H:''' Blowflyer
+** Should be temporarily there for a single sector. Or timeout after tux gained it.
+** We don't know yet how tux could gain that ability. Probably some non-movable objects in the level. (helium bottles were rejected, should be something more "abstract")
 
-==== Coding ====
-* make submenus look different then clickable menu items
-* implement threading in netbrush-server (needed so that new users don't bring the session to a crawl)
-* make lisp reader get(name, bool) handle 0/1 as bool instead of fail
-* getting stuck under a tile as large-tux shouldn't harm you, just unstuck you
+=== Badguys ===
+* '''H:''' Bring back stay on platform flag
+* '''H:''' Reimplement fish
+* '''H:''' Do something with the wingling
+* '''?:''' Do something with the tree?
 
-==== Input ====
-* implement wiimote support (easily done with cwiid), should be #ifdef'ed out if library doesn't exit or better dlopen the library at runtime
-* check that joystick code works with analogsticks properly and fix where necessary
+=== Objects ===
+* '''H:''' Create a "sound object" that is an object or area, that can be placed on the map and constantly plays a .wav file to improve game athmosphere. Good examples would be a water sound which can be placed at waterfalls, a kuckoo sound that can be placed into the wood, bubling sound for lava... The sound object should be configurable:
+** To be position independent (always play);
+** to have a spot position so that it gets louder when tux gets nearer to the spot (or a rectangular area instead of the spot?).
+** You should be able to configure the sound to be constantly looped or to be played in some random fashion (ie. play and then 5-10 seconds pause).
+* '''H:''' Create a "sign" object, ie an object that can be placed on the level and contains messages (like the run sign we have at the moment but programmatically created so that we can translate it)
+* '''H:''' Add a simple rock object that can be carried around
+* '''H:''' Add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
+* '''H:''' redo trampolines
 
-==== Bugs ====
-* german umlauts seem to be broken when switching the language in game
-* In special levels, such as ones were tux walks upside down or levels where the camera moves at a constant speed, spawning at a checkpoint causes tux to die immediately. (Mac OS X Version)
+=== Miscellaneous ===
+* '''?:''' think about how to implement scripting, and how to make a simple and easy to  use api for the scripting interface
+** language will probably be lua - just have to figure out how well we can do    without OO support in the scripting language. Other candidates are python, squirrel, ruby and less likely java, mono/.net, surely no own invention, perl or 1 of these c-like scripting languages
+* '''?:''' Think about icebullet specifics
+* '''M:''' Save score on per-level basis to make high-score
+* '''M:''' Save time on per-level basis to make low-time-score
+* '''M:''' Add bonus score for extra time left when finishing a level
+* '''L:''' when bumping a special with 2 blocks at once, it won't change direction
+* '''L:''' tux get killed if he kicks a iceblock while at the same time bouncing on
+* '''L:''' The camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
+* '''L:''' Allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
+* '''L:''' There is a report that the joypad is always used on windows and more severe it generates random up/down events, though it is callibrated correctly.
 
-=== Future ===
+== Graphics ==
+*'''H:''' Graphics+Animations for the Yeti (see also http://netpanzer.berlios.de/supertux/index.php/Yeti)
+*'''H:''' Graphics for the 5 keys in the forest world, graphics for the castle door with 5 key holes
+*'''H:''' New tiles for the forest worldmap
+*'''H:''' Create a graphics to visually present reset points. (Maybe a bell that starts swinging once tux touched it?)
+* '''M:''' Add graphics for ropes
+* '''L:''' Create graphics for bubbles and soap (not necessary for milestone2)
+new enemies need to be designed and added
 
-* add paralax scrolling to all levels
-* remove old water from levels (bridge levels)
+== Beyond Milestone2 ==
 
-== Editor ==
-(The editor is not release critical therefore no ratings for these TODOS)
-* Scroll TileList with middle mouse, Get different Tilegroups
-*:Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
-*::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else you can. Should be bug (or feature) in GTK, it's not controlled by program.
-* Create an overview widget (where to place this in the GUI?)
-*: Overview for what? -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
-*::The sector. Like a minimap.
-* Grab Mouse Pointer when scrolling so that we can scroll as much as we want (and the mouse is still where it was before scrolling)
-*:I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[[User:AnMaster|AnMaster]] 10:46, 13 Nov 2006 (CET)
-* More custom property editors:
-** Texts
-** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
-**:Why was it disabled? --[[User:WolfgangB|WolfgangB]] 16:45, 13 Jul 2006 (BST)
-**::Because it crash the editor on Windows, and because it add lots of extra deps. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
-**:::"lots of extra deps" anything that is not part of every serious distro? Why not fix the crash instead of removing features?
-* Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
-* Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
-* Tool not working after loading new level
-*:Added a workaround for this by resetting to the Select tool when loading new level. --[[User:AnMaster|AnMaster]] 20:25, 8 Sep 2006 (BST)
-* Windows builds seem to silently crash when loading huge levels
-*:huge as in 100x100 or more like 10000x10000?
-*::the level old world2/airkey.stl crashed both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
-*:::the old airkey was 300x300. It makes the editor slow on my Linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
-*::::The editor crashes on windows certainly. It stops also responding very often. I think it's partly windows, wich causes the crash. --[[User:Yaniel|Yaniel]]
-* Make the right click menu from sector tab a normal menu so that users can easily find it
-*:Maybe add them to a toolbar? that could be useful. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
-* Add a new way to copy parts of one level to another.
+* More things than just levels on the worldmap (similar to SMB3)
+* if we have a logical framerate we could record/play demos by simply storing the pressed keys in each frame... *
 
-[[Category:Development]]
+== SCons ==
+We can just stay with jam for now. Compared to scons jam is at least faster and doesn't suffer from the problems below.
+* '''H:''' Add an install target - done (however scons is creating stupid .sconsign files at the install location :-/, see SConsignFile for possible fix)<br>
+* '''M:''' improve opengl check to work on win32 and eventually more strange systems again <br>
+* '''H:''' Make sure compilation on win32 and cross-compilation works <br>
+* '''M:''' compile some test executables to test for SDL, SDL_mixer and SDL_image. Also test for version of SDL_mixer and SDL_image
+* '''M:''' Create a distclean target<br>
+* '''M:''' Create a dist target<br>
+* '''M:''' Add instructions to the README<br>
+* '''L:''' If all of the <b>H</b> and <b>M</b> issues are fixed, remove autoconf/automake<br>
+* '''L:''' Take a look if it is possible to make it a bit more quiet. (Similar to linux kernel, samba or jam output would be optimum, ie.
+ C++ build/linux/src/bla.o<br>
+ C++ build/linux/src/blup.o<br>
+ C++ build/linux/src/error.o<br>
+ Error on line xx in error.o: This source contained an error<br>
+ g++ -Wall .... -o build/linux/src/error.o src/error.cpp
