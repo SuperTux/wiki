@@ -7,6 +7,8 @@ This list will be traversed 2 times per frame. First the action function is call
 
 The class also contains a flag that indicates if the object should be removed at the end of the frame. You can call remove_me() to set this flag.
 
+
+
 == InteractiveObject ==
 
 These are objects you can interact with. The objects will have an area in the world. And you can send interaction events to them. Typicall interaction events will be activate/push, ~EnterArea/touch, ~LeaveArea, hit with object
