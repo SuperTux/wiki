@@ -1,19 +1,44 @@
-__NOTOC__
-{{Infobox Badguy
-| Name=Zeekling
-| Image=
-| FoundIn=[[Forest]]
-| Appearance=Purple, winged critter
-| Behaviour=Flies left and right high above ground. Dives to hit [[Tux]].
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.3
-}}
-'''Zeekling''' is a [[badguy]] found in the [[Forest]]. It flies left and right in a straight path, usually near the top of the level. When [[Tux]] is below it, will dive down to hit him. Tux can avoid being hit by hiding underneath platform and other solid blocks.
+==Proposal 1==
 
-Should be removed from Forest World for now.
+===Behaviour===
+* zigzag flight
 
-{{Navbox Badguys}}
-[[Category:Badguy.3]]
+===Appearance===
+* paroneayea's domain...
+
+===Attack===
+* can steal your powerups, but no actual getting him (i.e doesn't smallify)
+
+===Vulnerabilities===
+* if you can catch it you can jump on it. You can also retrieve stolen powerups
+
+==Proposal 2==
+
+===Behaviour===
+* flies at tops of levels unless Tux is below, then drops to try to catch him and take him to another area
+
+===Appearance===
+* bigger and different color than #1
+
+===Attack===
+* can drop you in bad places
+
+===Vulnerabilities===
+* with invulnerability shield or maybe electricity
+
+==Proposal 3==
+
+===Behaviour===
+* Flies in a staight path
+* Swoops down when it sees Tux
+
+===Appearance===
+* paroneayea's decision
+
+===Attack===
+* Touches [[Tux]].
+* Most likely to hit Tux during the swoops
+
+===Vulnerabilities===
+* Can be jumped on
+* Ice, fire, electricity
