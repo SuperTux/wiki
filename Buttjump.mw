@@ -1,27 +1,24 @@
-[[Image:Buttjump.png|right|Image of the buttjump action]]
-The '''buttjump''' is an ability that lets [[Tux]] crush boxes from above and destroy some [[badguy]]s that cannot be harmed by a normal jump. It is performed by jumping up into the air and then pressing the ''Down'' key while in the air. Take a look at the [[:Category:Buttjumpable badguys|buttjumpable badguys category]] for a list of badguys that can be harmed by a buttjump.
+The butt-jump is an ability that would let [[Tux]] to jump up into the air and then come crashing down, breaking any blocks beneath him and killing any nearby enemies. Implementation would be as follows:
 
-The buttjump has the following flow of actions
 
-# Tux jumps up as normal
-# Player presses 'down'
-# Tux does some acrobatic movement to get into the 'butt-position'
-# Tux then falls down back to the ground, butt first
-# When smashing on the ground wooden boxes will be destroyed
-# It takes Tux a small amount of time to jump back onto his feet to get back to normal
+==Proposals==
 
-== Proposed action ==
+===Proposal 1===
 
-=== Super-Butt-Jump ===
+* Tux will get the basic ability to butt-jump after a completing a certain part of the game (for example, after the first world). The basic butt-jump has the ability to break wooden boxes (and maybe other special blocks) and can be used by big Tux for an unlimited amount of times.
+* Tux can collect a powerup that enables the butt-jump to kill enemies walking on the ground close to Tux. This powerup may be combined with other items like fire/ice flowers (?) and is lost when Tux gets hit by an enemy (or when he collects another item).
+* Another powerup (or two of the first one) give Tux the power to create a mighty earthquake with the butt-jump that kills every enemy on the screen. This can be done only one time; after that, the butt-jump will return to basic or single-powerup mode.
 
-# Player moves Tux to a high position on the map
-# Player jumps from the ledge
-# Player presses 'down'
-# Tux does some acrobatic movement to get into the 'butt-position'
-# Tux then falls down back to the ground, butt first with increasing speed, due to the higher altitude he will change to Super-Butt-Jump-mode
-# When smashing on the ground nearby enemies might be turned upside down, rendering them unmovable or killing them (might depend on the type of enemy and of the type of ground)
-# It takes Tux a small amount of time to jump back onto his feet to get back to normal
+===Proposal 2===
 
-Proposals featuring special items or power meters have been rejected. For reasons why see [[Special Items Are Evil]].
+* Tux will get the basic ability to butt-jump after a completing a certain part of the game (for example, after the first world). The basic butt-jump has the ability to break brick tiles and can be used by big Tux an unlimited amount of times.
+* Tux can collect coins/kill badguys to increase a [[power meter]]. After this power meter is filled, it will give Tux the power to create a mighty earthquake with the butt-jump that kills every enemy on the screen. This can be done only one time; after that, the meter is empty and must be refilled.
+* The meter can be shared with other powers such as the bullets
+* Perhaps levels could have secret areas that are only opened up with a particular super-move (earthquake causes landslide, revealing cave, etc.)? There could be secret areas that can't be opened up unless you come back to them later with a new power.
 
-[[Category:Action]]
+===Proposal 3===
+
+* Tux will get the basic ability to butt-jump lightly after a completing a certain part of the game (for example, after the first world). The basic butt-jump has the ability to break brick tiles and can be used by big Tux an unlimited amount of times.
+* Tux can collect coins/kill badguys to increase a [[power meter]]. After this power meter is filled to a certain threshold, it will give Tux the ability to do a stronger butt-jump that kills nearby enemies, and each time he does, the meter will be decreased by a relatively small amount. When the meter reaches 0, Tux will go back to the basic butt-jump ability. Note that the threshold does not mean one strong butt-jump, but rather strong butt-jumps enabled (and each strong butt-jump will decrease the meter by a fraction of the threshold). If the meter is filled even more up to a second threshold, Tux will be able to create a mighty earthquake with the butt-jump that kills every enemy on the screen. This can be done only one time; after that, the meter is emptied and must be refilled.
+* The meter can be shared with other powers such as the bullets (i.e. one bullet = one meter unit, one strong butt-jump = 1 meter unit, etc)
+* Perhaps levels could have secret areas that are only opened up with a particular super-move (earthquake causes landslide, revealing cave, etc.)? There could be secret areas that can't be opened up unless you come back to them later with a new power.
