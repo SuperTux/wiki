@@ -6,7 +6,7 @@ I just found an excelent tutorial about this collision stuff. So better go readi
 
 == Rectangle-Rectangle-Sweeptest ==
 
-[[Image:Rect_rect_sweep.png|thumb|Rectangle-rectangle sweeptest]]
+[[Image:Rect_rect_sweep.png]]
 
 We have 2 rectangle r1 and r2, and a movement vector v that represents the relative movement of r1 to r2. The vector v has x and y component written as v.x and v.y, the rectangles have x1, y1 as their upper left point and x2, y2 as the lower right point, written as r.x1, r.y1, r.x2, r.y2.
 
