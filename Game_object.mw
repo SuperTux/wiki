@@ -13,7 +13,7 @@ The class also contains a flag that indicates if the object should be removed at
 
 == InteractiveObject ==
 
-These are objects you can interact with. The objects will have an area in the world. And you can send interaction events to them. Typicall interaction events will be activate/push, ~EnterArea/touch, ~LeaveArea, hit with object
+These are objects you can interact with. The objects will have an area in the world. And you can send interaction events to them. Typical interaction events will be activate/push, ~EnterArea/touch, ~LeaveArea, hit with object
 
 == MovingObject ==
 
