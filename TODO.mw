@@ -79,6 +79,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest world]]
 * '''L:''' The camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
 * '''L:''' There is a report that the joypad is always used on windows and more severe it generates random up/down events, though it is callibrated correctly.
+* '''H:''' Tuxs body is 1 pixel away from his feed in opengl mode. Is opengl rounding where SDL is truncating? Maybe we need to truncate the positions ourself and pass that to opengl.
 
 == Graphics ==
 *'''H:''' Graphics+Animations for the Yeti (see also http://netpanzer.berlios.de/supertux/index.php/Yeti)
