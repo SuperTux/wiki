@@ -56,6 +56,8 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest world]]
 * '''H:''' Reimplement fish
 * '''H:''' Do something with the wingling
 * '''?:''' Do something with the tree?
+* '''L:''' Iceblock should slide over one-space holes
+* '''H:''' Current iceblock hopping and grabbing code broken, fix
 
 === Objects ===
 * '''H:''' Create a "sound object" that is an object or area, that can be placed on the map and constantly plays a .wav file to improve game athmosphere. Good examples would be a water sound which can be placed at waterfalls, a kuckoo sound that can be placed into the wood, bubling sound for lava... The sound object should be configurable:
