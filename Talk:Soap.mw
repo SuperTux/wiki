@@ -2,10 +2,10 @@
 
 Bubbles explode when:
 
-1) Tux jumps on them three times (gives him time to jump on once or twice, and jump off)
-2) Tux doesn't get all the way on but hits the side or bottom
-3) after 10 seconds
-4) if a spit or badguy hits them
+# Tux jumps on them three times (gives him time to jump on once or twice, and jump off)
+# Tux doesn't get all the way on but hits the side or bottom
+# after 10 seconds
+# if a spit or badguy hits them
 
 They should slowly float upwards... also possibly there should be fans or things that can blow them
 
