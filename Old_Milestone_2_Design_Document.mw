@@ -1,0 +1,18 @@
+Features which we will target for Milestone 2:
+
+* replace the Intro text with an [[Story|intro cutscene]]
+* [[Yeti]] will be added as the final boss on the [[Icyisland]]
+* the [[Forest]] tileset will be mainly used on the second island
+* new BadGuys
+* 15-30 new levels
+* Back- and Verticalscrolling, in short full scrolling in all directions
+* tilemap based backgrounds, no more screensizest png/jpegs
+* New actions: [[Buttjump]], [[Flapping]]
+* support for [Sectors|sectors] (sublevels)
+* Non-square tiles [[hills]], maybe the [[Slider|sliding]] action
+* Info-boxes that present a dialog-window on jump would be good to teach the player new moves and actions - completed
+* IceFlower and FireFlower should get more specifc meaning and abilities
+* better input configurations, joystick buttons should be useable as axis and vice versa, really a must have since some joypads give button events for the directional pad
+* all singe-file tile should be merged into larger groups, this will speed up the loading quite a bit, since the png overhead is quite large
+
+See also the [[Meeting log (2005-04-02)|meeting log]] for more info and details.
