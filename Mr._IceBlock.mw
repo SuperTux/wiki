@@ -1,0 +1,7 @@
+[[Image:mriceblock-left-2.png|left]]
+
+Mr Ice Block is a cube of ice with eyes and legs. When jumped on once, it becomes flat. If jumped on twice, it is shot in the direction of the kick, removing all enemies in the way. If it is jumped on again, it either stops or resums gliding.
+
+Mr Ice Block can only be destroyed by being stepped on multiple times, stopping and resuming its glide. Once eliminated, 100 points are given. If destroyed in a combo, scores up to 500 are possible.
+
+Implemented since [[Milestone 1]].
