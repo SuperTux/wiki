@@ -1,16 +1,32 @@
-{{Infobox Badguy
-| Image=Cactus.jpg
-| Name=Cactus
-| FoundIn=Nowhere Yet
-| Appearance= A potted cactus with legs and eyes.
-| Behaviour= Walks around back and forth, will shoot spikes up left and right when disturbed.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=somewhat
-}}
+==Proposal 1==
 
-==Behavior==
+===Behaviour===
+* like [[Spiky]]
 
+===Look===
+* A potted cactus with legs and eyes
 
-[[Category:ProposedBadguy]]
+===Attack===
+* like Spiky
+
+===Vulnerabilities===
+* vulnerable only to ice or electricity
+* fire won't work because cacti are full of water
+
+==Proposal 2==
+
+===Behaviour===
+* Movement
+** No movement
+
+===Look===
+* A cactus, possibly with eyes
+
+===Attack===
+* When [[Tux]] moves too close, cactus spikes will be shot out in 3 directions:
+** Left, Right and Up
+
+===Vulnerabilities===
+* Cannot be squished
+* Ice and Electricity
+* Fire - may take more than one shot
