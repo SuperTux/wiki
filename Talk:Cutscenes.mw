@@ -1,1 +1,2 @@
 To save some code, why not have both demos and cutscenes. Both would use the same format but demos wouldn't contain all the above, just the players movement. The title screen would be a great place for a real demo instead of the current 'run right and jump at random' one. - Drahcir
+: Yeah, if/when we get scripting implemented, we'll probably make a nicer intro that does more than the "run right and jump at random" method. - [[User:Sik0fewl|Sik0fewl]] 17:34, 7 Apr 2005 (BST)
