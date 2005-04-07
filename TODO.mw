@@ -85,7 +85,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest world]]
 * '''M:''' Rework font code to work on unicode pages. The existing fonts already contain the first 3 unicode page or so (ask Benjamin for details). These extra chars are needed for translation in some languages.
 
 == Graphics ==
-*'''H:''' Graphics+Animations for the Yeti (see also http://netpanzer.berlios.de/supertux/index.php/Yeti)
+*'''H:''' Graphics+Animations for the [[Yeti]]
 *'''H:''' Graphics for the 5 keys in the forest world, graphics for the castle door with 5 key holes
 *'''H:''' New tiles for the forest worldmap
 *'''H:''' Create a graphics to visually present reset points. (Maybe a bell that starts swinging once tux touched it?)
