@@ -1,6 +1,7 @@
 ==Pre/Post story movie==
 
-Instead of showing scrolling text, movies can be shown stating Penny's kidnap .. and at-last the re-union.  Wouldn't that be nice?
+Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union.  Wouldn't that be nice?
+:I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the ToDo list, and I guess it will be used for the story intro. --[[User:RavuAlHemio|Ravu]] 14:30, 7 Apr 2005 (BST)
 
 ==Add a gamepad configuration==
 It's currently possible to use a gamepad, but the setup must be done by manually editing the SuperTux configuration file.
