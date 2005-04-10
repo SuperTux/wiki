@@ -26,15 +26,15 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Code Refactoring/Cleanup/Optimisation ===
 * '''H:''' make the title using GameSession instead of reimplementing all the stuff
+* '''M''' (or '''H'''?)''':''' implement quadtree or grid to speedup collision detection
+* '''M:''' harmonize to 1 single gameloop that switches between title, worldmap, ingame mode and eventually leveleditor mode
+* <strike>'''M:''' Make the gamelogic run in a fixed logical framerate</strike> - ''completed by enkrav''
+* '''M:''' Use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
 * '''L:''' rename gameloop. files to gamesession.
 * '''L:''' rename GameObject::action to GameObject::update()
 * '''L:''' use physfs for loading files
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
 * '''L:''' rename files like tile_manage.* to TileManager.* because they contain a class named TileManager not tile_manager. Eventually use .hpp instead of .h to indicate the usage of c++
-* '''M:''' harmonize to 1 single gameloop that switches between title, worldmap, ingame mode and eventually leveleditor mode
-* <strike>'''M:''' Make the gamelogic run in a fixed logical framerate</strike> - completed by enkrav
-* '''M:''' (or '''H:'''?) implement quadtree or grid to speedup collision detection
-* '''M:''' Use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
 
 === Actions ===
 * '''H:''' Buttjump:
@@ -55,9 +55,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Bring back stay on platform flag
 * '''H:''' Reimplement fish
 * '''H:''' Do something with the wingling
-* '''?:''' Do something with the tree?
-* '''L:''' Iceblock should slide over one-space holes
 * '''H:''' Current iceblock hopping and grabbing code broken, fix
+* '''L:''' Iceblock should slide over one-space holes
+* '''?:''' Do something with the tree?
 
 === Objects ===
 * '''H:''' Create a "sound object" that is an object or area, that can be placed on the map and constantly plays a .wav file to improve game athmosphere. Good examples would be a water sound which can be placed at waterfalls, a kuckoo sound that can be placed into the wood, bubling sound for lava... The sound object should be configurable:
@@ -70,9 +70,8 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' redo trampolines
 
 === Miscellaneous ===
-* '''?:''' think about how to implement scripting, and how to make a simple and easy to  use api for the scripting interface
-** language will probably be lua - just have to figure out how well we can do    without OO support in the scripting language. Other candidates are python, squirrel, ruby and less likely java, mono/.net, surely no own invention, perl or 1 of these c-like scripting languages
-* '''?:''' Think about icebullet specifics
+* '''H:''' Tuxs body is 1 pixel away from his feed in opengl mode. Is opengl rounding where SDL is truncating? Maybe we need to truncate the positions ourself and pass that to opengl.
+* '''M:''' Rework font code to work on unicode pages. The existing fonts already contain the first 3 unicode page 
 * '''M:''' Save score on per-level basis to make high-score
 * '''M:''' Save time on per-level basis to make low-time-score
 * '''M:''' Add bonus score for extra time left when finishing a level
@@ -81,15 +80,17 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' The camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
 * '''L:''' There is a report that the joypad is always used on windows and more severe it generates random up/down events, though it is callibrated correctly.
-* '''H:''' Tuxs body is 1 pixel away from his feed in opengl mode. Is opengl rounding where SDL is truncating? Maybe we need to truncate the positions ourself and pass that to opengl.
-* '''M:''' Rework font code to work on unicode pages. The existing fonts already contain the first 3 unicode page or so (ask Benjamin for details). These extra chars are needed for translation in some languages.
+or so (ask Benjamin for details). These extra chars are needed for translation in some languages.
+* '''?:''' think about how to implement scripting, and how to make a simple and easy to  use api for the scripting interface
+** language will probably be lua - just have to figure out how well we can do    without OO support in the scripting language. Other candidates are python, squirrel, ruby and less likely java, mono/.net, surely no own invention, perl or 1 of these c-like scripting languages
+* '''?:''' Think about icebullet specifics
 
 == Graphics ==
 *'''H:''' Graphics+Animations for the [[Yeti]]
 *'''H:''' Graphics for the 5 keys in the forest world, graphics for the castle door with 5 key holes
 *'''H:''' New tiles for the forest worldmap
 *'''H:''' Create a graphics to visually present reset points. (Maybe a bell that starts swinging once tux touched it?)
-* '''M:''' Add graphics for ropes
+* '''L:''' Add graphics for ropes
 * '''L:''' Create graphics for bubbles and soap (not necessary for milestone2)
 new enemies need to be designed and added
 
@@ -101,8 +102,8 @@ new enemies need to be designed and added
 == SCons ==
 We can just stay with jam for now. Compared to scons jam is at least faster and doesn't suffer from the problems below.
 * '''H:''' Add an install target - done (however scons is creating stupid .sconsign files at the install location :-/, see SConsignFile for possible fix)<br>
-* '''M:''' improve opengl check to work on win32 and eventually more strange systems again <br>
 * '''H:''' Make sure compilation on win32 and cross-compilation works <br>
+* '''M:''' improve opengl check to work on win32 and eventually more strange systems again <br>
 * '''M:''' compile some test executables to test for SDL, SDL_mixer and SDL_image. Also test for version of SDL_mixer and SDL_image
 * '''M:''' Create a distclean target<br>
 * '''M:''' Create a dist target<br>
