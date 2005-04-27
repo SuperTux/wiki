@@ -10,5 +10,7 @@ This page is for listing all known bugs, because it seems that some have been es
 ** You try jumping while ducking :) - sik0fewl
 *** It's not any more difficult than jumping three times my height (or smashing bricks with my head, for that matter). :P - NMcCoy
 * Sound lags a bit on my system (only Supertux has this problem, other games work fine - I'm using Fedora Core 2)
-** Is a bug on all systems.
+** Is a bug on all (Linux?) systems. (My win XP, sound goes fine on Linux it lags)
 *Glibc seems to have a problem: <tt>*** glibc detected *** free(): invalid pointer: 0x082e22e8 ***</tt> (Fedora Core 3 fresh install with yum update)
+*Sometimes killed with no reason. Just started a level and baam killed.
+*When are you killed and you started again sometimes time does not reset.
