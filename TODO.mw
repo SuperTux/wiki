@@ -88,6 +88,7 @@ or so (ask Benjamin for details). These extra chars are needed for translation i
 * '''?:''' Think about icebullet specifics
 
 == Graphics ==
+*'''H:''' Create more forest tiles; some of the current ones need fixing. Also create a ghost forest tileset.
 *'''H:''' Graphics+Animations for the [[Yeti]]
 *'''H:''' Graphics for the 5 keys in the forest world, graphics for the castle door with 5 key holes
 *'''H:''' New tiles for the forest worldmap
