@@ -77,7 +77,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''M:''' Save score on per-level basis to make high-score
 * '''M:''' Save time on per-level basis to make low-time-score
 * '''M:''' Add bonus score for extra time left when finishing a level
+* '''M:''' Clean out all the unused stuff from the code and the data directory
 * '''L:''' when bumping a special with 2 blocks at once, it won't change direction
+* '''L:''' Improve the tile manager
 * '''L:''' tux get killed if he kicks a iceblock while at the same time bouncing on
 * '''L:''' The camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
