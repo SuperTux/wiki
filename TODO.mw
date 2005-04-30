@@ -69,6 +69,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
 * '''H:''' redo trampolines
 * '''M:''' Add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
+* '''M:''' Make particle systems like rain react to solid objects.
 
 === Miscellaneous ===
 * '''H:''' Tuxs body is 1 pixel away from his feed in opengl mode. Is opengl rounding where SDL is truncating? Maybe we need to truncate the positions ourself and pass that to opengl.
