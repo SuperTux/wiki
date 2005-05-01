@@ -1,3 +1,4 @@
+__NOTOC__ __NOEDITSECTION__
 This section is a central point for collecting the game design of SuperTux. It's meant to be an authoritative source; loose ideas which haven't been agreed on should be clearly marked.
 
 == Story ==
@@ -5,8 +6,7 @@ This section is a central point for collecting the game design of SuperTux. It's
 * [[Story]]
 * [[Characters]]
 * [[Worlds]]
-* Cutscenes
-** [[Story | Intro]]
+* [[Cutscenes]]
 
 == Enemies ==
 * [[Badguys]]
