@@ -8,7 +8,7 @@ Features which we will target for Milestone 2:
 * Back- and Verticalscrolling, in short full scrolling in all directions
 * tilemap based backgrounds, no more screensizest png/jpegs
 * New actions: [[Buttjump]], [[Flapping]]
-* support for [Sectors|sectors] (sublevels)
+* support for [[Sectors|sectors]] (sublevels)
 * Non-square tiles [[hills]], maybe the [[Slider|sliding]] action
 * Info-boxes that present a dialog-window on jump would be good to teach the player new moves and actions - completed
 * IceFlower and FireFlower should get more specifc meaning and abilities
