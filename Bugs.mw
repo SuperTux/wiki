@@ -13,4 +13,5 @@ This page is for listing all known bugs, because it seems that some have been es
 ** Is a bug on all (Linux?) systems. (My win XP, sound goes fine on Linux it lags)
 *Glibc seems to have a problem: <tt>*** glibc detected *** free(): invalid pointer: 0x082e22e8 ***</tt> (Fedora Core 3 fresh install with yum update)
 *Sometimes killed with no reason. Just started a level and baam killed.
+**Even tho you die, you don't lose a life.
 *When are you killed and you started again sometimes time does not reset.
