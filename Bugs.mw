@@ -3,7 +3,7 @@ This page is for listing all known bugs, because it seems that some have been es
 == Release 0.1.2 ==
 * Sound lags a bit on my system (only Supertux has this problem, other games work fine - I'm using Fedora Core 2)
 
-== Development version ==
+== Development (svn) version ==
 
 * Semi-predictable segfaults (happen when switching into/out of a level, or out of the map)
 * Missing files (arctis2.jpg, mkinstalldirs)
