@@ -34,8 +34,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * <strike>'''L:''' rename GameObject::action to GameObject::update()</strike> - ''patch submitted''
 * '''L:''' use physfs for loading files
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
-* '''L:''' rename files like tile_manage.* to TileManager.* because they contain a class named TileManager not tile_manager. 
-* '''L:''' use the .hpp extension instead of .h to indicate the usage of c++
+* '''L:''' rename files like tile_manage.* to TileManager.* because they contain a class named TileManager not tile_manager.
 
 === Actions ===
 * '''H:''' Buttjump:
