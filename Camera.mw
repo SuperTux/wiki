@@ -6,7 +6,7 @@ Analysis of some [[Cameras in Super Mario]]
 
 Basically these are the same rules as for Yoshis Island. Maybe we will tweak it later or add special exceptions for new abilities.
 
-=== Horizonzal Movement ===
+=== Horizontal Movement ===
 * Keep the middle point of tux at 1/3rd of the screen width. If tux moves looks into the other direction, then slowly move the camera so that tux stands in the 1/3rd of the other side of the screen. This movement has to get faster if tux moves into that direction. When tux gets pushed  into the other direction (but still looks forward) we don't change camera mode but just scroll when he gets pushed nearer than 1/3rd of the other side.
 * We might experiment about changing the camera when tux is running to 1/4th or so. We should test if this is desirable because then you see more stuff that before you. On the other side a too dynamic camera movement can confuse and making it harder to control tux exactly.
 
