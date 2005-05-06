@@ -1,2 +1,7 @@
 I think we should just stay with jam and diss SCons completely. Jam seems to do enough good. --[[User:RavuAlHemio|Ravu]] 07:27, 7 Apr 2005 (BST)
 : Yeah, that's most likely what's going to happen unless somebody volunteers to write a SCons script that suits our needs. - [[User:Sik0fewl|Sik0fewl]] 17:32, 7 Apr 2005 (BST)
+
+----
+
+''* '''L:''' use the .hpp extension instead of .h to indicate the usage of c++''
+: I don't really care for this idea, so I removed it from the TODO list for now. <tt>.h</tt> works just fine and anyone can easily see that the project is a C++ project with all the <tt>.cpp</tt> files. I don't really see any advantage to making this change, but I thought I should bring it here for discussion. - [[User:Sik0fewl|Sik0fewl]] 22:03, 6 May 2005 (BST)
