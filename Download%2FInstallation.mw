@@ -1,1 +1,56 @@
-#REDIRECT [[Download]]
+= Release 0.1.2 =
+
+== Linux ==
+=== Generic Linux x86 Installer ===
+We have an automatic installer create with [http://www.autopackage.org Autopackage]. Just download it here:
+
+   http://download.berlios.de/supertux/supertux-0.1.2.x86.package
+
+and execute it. (You might have to set the executable bit if it doesn't work with "chmod +x supertux-0.1.2.x86.package").
+Also take a look at the [http://www.autopackage.org Autopackage] website for more informations.
+
+=== Debian/Ubuntu Linux ===
+This distribution includes a supertux package. Just do the usual apt-get or install the package with synaptic.
+
+   apt-get install supertux
+
+=== Gentoo Linux ===
+This distribution includes a supertux package. Just do the usual emerge (as root):
+
+   emerge supertux
+
+=== Fedora / RedHat / ASP Linux ===
+There are rpm packages available here:
+
+   http://download.berlios.de/supertux/supertux-0.1.2.-rh-fd-asp.i386.rpm
+
+=== Mandrake/Mandriva Linux ===
+There are rpm packages available here:
+
+   http://download.berlios.de/supertux/supertux-0.1.2-1mdk.i586.rpm
+
+== BeOS ==
+A BeOS package is availabel at
+
+  http://download.berlios.de/supertux/supertux-0.1.2-beos.zip
+
+== Mac OS/X ==
+There's a bundle available here:
+
+  http://download.berlios.de/supertux/supertux-0.1.2-macosx.dmg
+
+== Windows Installer ==
+There's an automatic installer for windows available:
+
+   http://download.berlios.de/supertux/supertux-0.1.2-setup.exe
+
+== Any system ==
+
+Download the source code:
+   http://download.berlios.de/supertux/supertux-0.1.2.tar.bz2
+
+TODO: add information on how to compile it
+
+----
+
+Note: if you have created packages for other operating systems/distributions. Mention them in the discussion page and we'll merge them into this page as soon as possible.
