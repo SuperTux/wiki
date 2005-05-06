@@ -2,3 +2,7 @@ You should put a new section for users on the main page with:
 
 * [[Levels]]
 * [[Demos]]
+
+== Link correction ==
+
+The link to the developer page on BerliOS points to http://developer.berlios.de/, it should point to http://developer.berlios.de/projects/supertux/. <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 19:39, 6 May 2005 (BST)
