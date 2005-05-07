@@ -51,6 +51,18 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 ** Should be temporarily there for a single sector. Or timeout after tux gained it.
 ** We don't know yet how tux could gain that ability. Probably some non-movable objects in the level. (helium bottles were rejected, should be something more "abstract")
 
+=== Scripting/Cutscenes ===
+* '''H:''' Implement fade in/out functions and expose them to the scripts
+* '''H:''' Add a global variable store for scripts or something like that holds information across levels/scripts and save/load cycles.
+* '''M:''' Write a bit of documentation about the scripting API (at least a sentence or two about each function)
+* '''H:''' Implement a lighting effect for nolok
+* '''H:''' Create a script for the intro cutscene
+* '''M:''' Create a script for the yeti outtro
+* '''H:''' make it possible to modify the worldmap after the yeti has been defeated
+* '''H:''' Extract translatable string from the scripts
+* '''H:''' Make it possible to load additional script files
+* '''H:''' Always load some standard script file that contains helper functions like wait
+
 === Badguys ===
 * '''H:''' Bring back stay on platform flag
 * '''H:''' Reimplement fish
