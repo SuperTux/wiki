@@ -9,12 +9,14 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 '''Low priority L:''' things that should be fixed sometime
 
-'''?:''' Things that need to be discussed to determine whether or not they should be implemented
+'''?:''' things that need to be discussed to determine whether or not they should be implemented
+
+'''D:''' features that will be implemented but need further discussion on how to implement them
 
 == Programming ==
 
 === Collision detection rewrite ===
-* implement ability to cary mriceblock (and other objects) around - delayed for  after big commit...
+* implement ability to carry Mr. Iceblock (and other objects) around
 * smoke clouds are too fast
 * rethink slopes collision feedback... tux becomes too slow when walking up and starts jumping when walking down
 * think about an attachement mechanism for moving platforms
@@ -22,114 +24,113 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * fix bullet speed/behaviour
 * check if unducking is actually possible or if something is in the way
 * what to do when stuck under tiles (after using duck-sliding)
-* do we want multi hit scores again?
+* '''?:''' do we want multi hit scores again?
 
 === Code Refactoring/Cleanup/Optimisation ===
 * '''M''' (or '''H'''?)''':''' implement quadtree or grid to speedup collision detection
 * '''M:''' harmonize to 1 single gameloop that switches between title, worldmap, ingame mode and eventually leveleditor mode
-* '''M:''' Use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
-* '''L:''' rename GameObject::action to GameObject::update()
-* '''L:''' use physfs for loading files
+* '''M:''' use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
+* '''L:''' rename GameObject::action() to GameObject::update() (this includes renaming active_action and inactive_action)
+* '''L:''' use [http://icculus.org/physfs physfs] for loading files
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
-* '''L:''' rename files like tile_manage.* to TileManager.* because they contain a class named TileManager not tile_manager.
+* '''L:''' name files according to the classes they contain, e.g. tile_manage.* to TileManager.* because it contains a class named TileManager and not tile_manager
 
 === Actions ===
 * '''H:''' Buttjump:
-** enable buttjump again
-** Should kill enemies with a certain range (Done--now needs to be tweaked - Eventually we only want to "stun" the enemies...)
-** Animation (need images)
-** Should be available when tux is big
-** Should break bricks if Tux is on top of bricks.
+** re-enable buttjump
+** should kill enemies with a certain range (''needs to be tweaked'')
+*** eventually, enemies in a given radius should only be stunned
+** animation (need images)
+** should only be available when tux is big
+** should break bricks if Tux is on top of bricks.
 * '''H:''' Flapping:
 ** should be modeled after Yoshi's Island flapping
-** Try if it is good that you can reach highe places with flapping
-** We need animations
-* '''H:''' Blowflyer
-** Should be temporarily there for a single sector. Or timeout after tux gained it.
-** We don't know yet how tux could gain that ability. Probably some non-movable objects in the level. (helium bottles were rejected, should be something more "abstract")
+** '''?:''' check if this doesn't heavily affect gameplay
+** animation (need images)
+* '''H:''' Blowflyer:
+** should be temporarily active for a single sector or time-limited (i.e. countdown)
+** '''D:''' we don't know yet how Tux could gain that ability; probably some non-movable objects in the level (helium bottles were rejected, should be something more "abstract")
 
 === Scripting/Cutscenes ===
-* '''H:''' Implement fade in/out functions and expose them to the scripts
-* '''H:''' Add a global variable store for scripts or something like that holds information across levels/scripts and save/load cycles.
-* '''M:''' Write a bit of documentation about the scripting API (at least a sentence or two about each function)
-* '''H:''' Implement a lighting effect for nolok
-* '''H:''' Create a script for the intro cutscene
-* '''M:''' Create a script for the yeti outtro
+* '''H:''' implement fade in/out functions and expose them to the scripts
+* '''H:''' add a global variable store for scripts or something like that holds information across levels/scripts and save/load cycles.
+* '''M:''' write a bit of documentation about the scripting API (at least a sentence or two about each function)
+* '''H:''' implement a lighting effect for nolok
+* '''H:''' create a script for the intro cutscene
+* '''M:''' create a script for the yeti outro
 * '''H:''' make it possible to modify the worldmap after the yeti has been defeated
-* '''H:''' Extract translatable string from the scripts
-* '''H:''' Make it possible to load additional script files
-* '''H:''' Always load some standard script file that contains helper functions like wait
+* '''H:''' extract translatable string from the scripts
+* '''H:''' make it possible to load additional script files
+* '''H:''' always load some standard script file that contains helper functions like wait
 
 === Badguys ===
-* '''H:''' Bring back stay on platform flag
-* '''H:''' Reimplement fish
-* '''H:''' Do something with the wingling
-* '''H:''' Current iceblock hopping and grabbing code broken, fix
-* '''L:''' Iceblock should slide over one-space holes
-* '''?:''' Do something with the tree?
+* '''H:''' bring back stay on platform flag
+* '''H:''' reimplement fish
+* '''H:''' do something with the wingling
+* '''H:''' fix current iceblock hopping code
+* '''L:''' iceblock should slide over one-space holes
+* '''?:''' do something with the tree?
 
 === Objects ===
-* '''H:''' Create a "sound object" that is an object or area, that can be placed on the map and constantly plays a .wav file to improve game athmosphere. Good examples would be a water sound which can be placed at waterfalls, a kuckoo sound that can be placed into the wood, bubling sound for lava... The sound object should be configurable:
-** To be position independent (always play);
+* '''H:''' create a "sound object" that is an object or area, that can be placed on the map and constantly plays a .wav file to improve game athmosphere. Good examples would be a water sound which can be placed at waterfalls, a kuckoo sound that can be placed into the wood, bubling sound for lava... The sound object should be configurable:
+** to be position independent (always play);
 ** to have a spot position so that it gets louder when tux gets nearer to the spot (or a rectangular area instead of the spot?).
-** You should be able to configure the sound to be constantly looped or to be played in some random fashion (ie. play and then 5-10 seconds pause).
-* '''H:''' Create a "sign" object, ie an object that can be placed on the level and contains messages (like the run sign we have at the moment but programmatically created so that we can translate it)
-* '''H:''' Add a simple rock object that can be carried around
-* '''H:''' Add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
+** you should be able to configure the sound to be constantly looped or to be played in some random fashion (ie. play and then 5-10 seconds pause).
+* '''H:''' create a "sign" object, ie an object that can be placed on the level and contains messages (like the run sign we have at the moment but programmatically created so that we can translate it)
+* '''H:''' add a simple rock object that can be carried around
+* '''H:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
 * '''H:''' redo trampolines
-* '''M:''' Add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
-* '''M:''' Make particle systems like rain react to solid objects.
+* '''M:''' add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
+* '''M:''' make particle systems like rain react to solid objects.
 
 === Miscellaneous ===
-* '''H:''' Tuxs body is 1 pixel away from his feed in opengl mode. Is opengl rounding where SDL is truncating? Maybe we need to truncate the positions ourself and pass that to opengl.
-* '''M:''' Rework font code to work on UTF-8 pages. The existing fonts already contain the first 3 unicode pages or so (ask Benjamin for details). These extra chars are needed for translation in some languages (e.g. Czech, Slovenian).
-* '''M:''' Save score on per-level basis to make high-score
-* '''M:''' Save time on per-level basis to make low-time-score
-* '''M:''' Add bonus score for extra time left when finishing a level
-* '''M:''' Clean out all the unused stuff from the code and the data directory
+* '''M:''' rework font code to work on UTF-8 pages. The existing fonts already contain the first 3 unicode pages or so (ask Benjamin for details). These extra chars are needed for translation in some languages (e.g. Czech, Slovenian).
+* '''M:''' save score on per-level basis to make high-score
+* '''M:''' save time on per-level basis to make low-time-score
+* '''M:''' add bonus score for extra time left when finishing a level
+* '''M:''' clean out all the unused stuff from the code and the data directory
 * '''L:''' when bumping a special with 2 blocks at once, it won't change direction
-* '''L:''' Improve the tile manager
+* '''L:''' improve the tile manager
 * '''L:''' tux get killed if he kicks a iceblock while at the same time bouncing on
-* '''L:''' The camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
-* '''L:''' Allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
-* '''L:''' There is a report that the joypad is always used on windows and more severe it generates random up/down events, though it is callibrated correctly.
-* '''?:''' think about how to implement scripting, and how to make a simple and easy to  use api for the scripting interface
-** language will probably be lua - just have to figure out how well we can do    without OO support in the scripting language. Other candidates are python, squirrel, ruby and less likely java, mono/.net, surely no own invention, perl or 1 of these c-like scripting languages
-* '''?:''' Think about icebullet specifics
+* '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
+* '''L:''' allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
+* '''L:''' there is a report that the joypad is always used on windows and more severe it generates random up/down events, though it is callibrated correctly.
+* '''D:''' think about icebullet specifics
 
 == Levels ==
-* '''H:''' Create 10-20 new levels of different size and complexity, using the new features of milestone 2.
-* '''H:''' Add compression to the level files, for example by gzipping them and/or delivering them inside .zip archives using PhysFS. Milestone 2 level files can get very large, and zipping them can reduce their size by more than 90 per cent.
+* '''H:''' create 10-20 new levels of different size and complexity, using the new features of milestone 2.
+* '''H:''' add compression to the level files, for example by gzipping them and/or delivering them inside .zip archives using PhysFS. Milestone 2 level files can get very large, and zipping them can reduce their size by more than 90 per cent.
 
 == Graphics ==
-*'''H:''' Graphics for the InfoBox (that box you can jump against that shows you a message)
-*'''H:''' Create more forest tiles; some of the current ones need fixing. Also create a ghost forest tileset.
-*'''H:''' Graphics+Animations for the [[Yeti]]
-*'''H:''' Graphics for the 5 keys in the forest world, graphics for the castle door with 5 key holes
-*'''H:''' New tiles for the forest worldmap
-*'''H:''' Create a graphics to visually present reset points. (Maybe a bell that starts swinging once tux touched it?)
-* '''L:''' Add graphics for ropes
-* '''L:''' Create graphics for bubbles and soap (not necessary for milestone2)
-new enemies need to be designed and added
+* '''H:''' image for InfoBox (that box you can jump against that shows you a message)
+* '''H:''' add more forest tiles; some of the current ones need fixing. Also create a ghost forest tileset.
+* '''H:''' animations for the [[Yeti]]
+* '''H:''' images for 5 keys in the forest world
+* '''H:''' image for castle door with 5 key holes
+* '''H:''' new tiles for the forest worldmap
+* '''H:''' image for marking reset points (maybe a bell that starts swinging once Tux touched it?)
+* '''L:''' graphics for ropes
+* '''L:''' graphics for bubbles and soap (not necessary for Milestone 2)
+* '''?/D:''' new enemies (first need to be designed)
 
 == Beyond Milestone2 ==
 
-* More things than just levels on the worldmap (similar to SMB3)
-* if we have a logical framerate we could record/play demos by simply storing the pressed keys in each frame... *
+* more things than just levels on the worldmap (similar to SMB3)
+* if we have a logical framerate we could record/play demos by simply storing the pressed keys in each frame...
 
 == SCons ==
 We can just stay with jam for now. Compared to scons jam is at least faster and doesn't suffer from the problems below.
-* '''H:''' Add an install target - done (however scons is creating stupid .sconsign files at the install location :-/, see SConsignFile for possible fix)<br>
-* '''H:''' Make sure compilation on win32 and cross-compilation works <br>
+* '''H:''' add an install target - done (however scons is creating stupid .sconsign files at the install location :-/, see SConsignFile for possible fix)
+* '''H:''' make sure compilation on win32 and cross-compilation works <br>
 * '''M:''' improve opengl check to work on win32 and eventually more strange systems again <br>
 * '''M:''' compile some test executables to test for SDL, SDL_mixer and SDL_image. Also test for version of SDL_mixer and SDL_image
-* '''M:''' Create a distclean target<br>
-* '''M:''' Create a dist target<br>
-* '''M:''' Add instructions to the README<br>
-* '''L:''' If all of the <b>H</b> and <b>M</b> issues are fixed, remove autoconf/automake<br>
-* '''L:''' Take a look if it is possible to make it a bit more quiet. (Similar to linux kernel, samba or jam output would be optimum, ie.
- C++ build/linux/src/bla.o<br>
- C++ build/linux/src/blup.o<br>
- C++ build/linux/src/error.o<br>
- Error on line xx in error.o: This source contained an error<br>
+* '''M:''' create a distclean target
+* '''M:''' create a dist target
+* '''M:''' add instructions to the README
+* '''L:''' if all of the <b>H</b> and <b>M</b> issues are fixed, remove autoconf/automake<br>
+* '''L:''' take a look if it is possible to make it a bit more quiet. (Similar to linux kernel, samba or jam output would be optimum, ie.
+ C++ build/linux/src/bla.o
+ C++ build/linux/src/blup.o
+ C++ build/linux/src/error.o
+ Error on line xx in error.o: This source contained an error
  g++ -Wall .... -o build/linux/src/error.o src/error.cpp
