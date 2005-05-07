@@ -28,7 +28,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''M''' (or '''H'''?)''':''' implement quadtree or grid to speedup collision detection
 * '''M:''' harmonize to 1 single gameloop that switches between title, worldmap, ingame mode and eventually leveleditor mode
 * '''M:''' Use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
-* <strike>'''L:''' rename GameObject::action to GameObject::update()</strike> - ''patch submitted''
+* '''L:''' rename GameObject::action to GameObject::update()
 * '''L:''' use physfs for loading files
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
 * '''L:''' rename files like tile_manage.* to TileManager.* because they contain a class named TileManager not tile_manager.
