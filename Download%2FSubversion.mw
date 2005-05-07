@@ -1,0 +1,15 @@
+== Getting the repository ==
+If you already have Subversion installed, you will have to issue these commands to get to the SuperTux repository. Anonymous access is not granted to a special repository that only gets updated once a few hours (as with Sourceforge), but instead to the main repository, so any commited changes can be directly updated by developers and non-developers.
+
+ cd ''directory_for_source_files''
+ svn checkout svn://svn.berlios.de/supertux/trunk/supertux supertux
+
+Once the checkout process is completed, you have SuperTux in your ''directory_for_source_files''/supertux directory, e.g. ''~/src/supertux''.
+
+== What's this Subversion thing? ==
+[http://subversion.tigris.org/ Subversion] is a version control system that aims to be used as CVS, but removing the numerous design mistakes. It can access repositories via its own protocol (optionally bridged over SSH) plus HTTP and HTTPS using the WebDAV standard.
+
+== See also ==
+*[[Mailing Lists]] for the information on SuperTux mailing lists.
+*[[TODO]] for the list of features that have yet to be built in.
+*[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/ Repository HTTP Interface] to browse the repository using your web browser.
