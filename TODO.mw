@@ -82,7 +82,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Miscellaneous ===
 * '''H:''' Tuxs body is 1 pixel away from his feed in opengl mode. Is opengl rounding where SDL is truncating? Maybe we need to truncate the positions ourself and pass that to opengl.
-* '''M:''' Rework font code to work on unicode pages. The existing fonts already contain the first 3 unicode page 
+* '''M:''' Rework font code to work on UTF-8 pages. The existing fonts already contain the first 3 unicode pages or so (ask Benjamin for details). These extra chars are needed for translation in some languages (e.g. Czech, Slovenian).
 * '''M:''' Save score on per-level basis to make high-score
 * '''M:''' Save time on per-level basis to make low-time-score
 * '''M:''' Add bonus score for extra time left when finishing a level
@@ -93,7 +93,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' The camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
 * '''L:''' There is a report that the joypad is always used on windows and more severe it generates random up/down events, though it is callibrated correctly.
-or so (ask Benjamin for details). These extra chars are needed for translation in some languages.
 * '''?:''' think about how to implement scripting, and how to make a simple and easy to  use api for the scripting interface
 ** language will probably be lua - just have to figure out how well we can do    without OO support in the scripting language. Other candidates are python, squirrel, ruby and less likely java, mono/.net, surely no own invention, perl or 1 of these c-like scripting languages
 * '''?:''' Think about icebullet specifics
