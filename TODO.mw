@@ -85,13 +85,13 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Miscellaneous ===
 * '''M:''' rework font code to work on UTF-8 pages. The existing fonts already contain the first 3 unicode pages or so (ask Benjamin for details). These extra chars are needed for translation in some languages (e.g. Czech, Slovenian).
-* '''M:''' save score on per-level basis to make high-score
-* '''M:''' save time on per-level basis to make low-time-score
-* '''M:''' add bonus score for extra time left when finishing a level
+* <strike>'''M:''' save score on per-level basis to make high-score</strike> ''(score has been dumped)''
+* <strike>'''M:''' save time on per-level basis to make low-time-score</strike> ''(done)''
+* <strike>'''M:''' add bonus score for extra time left when finishing a level</strike>
 * '''M:''' clean out all the unused stuff from the code and the data directory
 * '''L:''' when bumping a special with 2 blocks at once, it won't change direction
 * '''L:''' improve the tile manager
-* '''L:''' tux get killed if he kicks a iceblock while at the same time bouncing on
+* '''L:''' Tux gets killed if he kicks an iceblock while at the same time bouncing on
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
 * '''L:''' there is a report that the joypad is always used on windows and more severe it generates random up/down events, though it is callibrated correctly.
