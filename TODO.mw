@@ -33,7 +33,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' rename GameObject::action() to GameObject::update() (this includes renaming active_action and inactive_action)
 * '''L:''' use [http://icculus.org/physfs physfs] for loading files
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
-* '''L:''' name files according to the classes they contain, e.g. tile_manage.* to TileManager.* because it contains a class named TileManager and not tile_manager
+* '''L:''' name files according to the classes they contain, e.g. tile_manager.* to tilemanager.* because it contains a class named TileManager and not tile_manager
 
 === Actions ===
 * '''H:''' Buttjump:
