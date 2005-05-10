@@ -5,9 +5,12 @@ I opt to fix the following issues (from the [[TODO]] list):
 ** Progress: ~80%
 ** ETA: Unknown
 
+* '''H:''' describe scripting API
+** Status: in progress
+** Progress/ETA: n/a (anytime somebody adds a new wrapper function, I have to write a sentence about it)
+
 In case you feel like taking over some of these tasks, tell me about that on the [[User_talk:RavuAlHemio/Tasks|discussion page]].
 
 == Completed tasks ==
 * '''L:''' rename GameObject::action() to GameObject::update() (this includes renaming active_action and inactive_action)
-** Status: patch submitted to mailing list
-** Progress: 100%
+** Status: in repository
