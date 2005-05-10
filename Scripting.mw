@@ -1,6 +1,1 @@
-We discussed the possibilities of scripting in the [[Meeting log (2005-04-02)|meeting]]. Some points we came up with:
-
-* Keep it simple! Do complicated stuff in c++
-* Only use it for simple stuff at first (cutscenes, triggers), so that we can keep the API small that gets exported to the scripts
-* No scripting for badguys (needs too much classes exported probably, maybe we can weaken the rule a bit for some types of badguys)
-* We might look at the [http://squirrel.sourceforge.net/ squirrel] language for scripting
+We have [http://squirrel.sf.net squirrel] based scripting support in supertux now. You can write header files with simple classes in them that get processed by a little tool (called miniswig) that produces the binding automagically. You can then expose c++ objects with to the scripting world. It is possible to suspend and resume scripts.
