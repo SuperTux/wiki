@@ -81,6 +81,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' redo trampolines
 * '''M:''' add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
 * '''M:''' make particle systems like rain react to solid objects.
+* '''H:''' Create "potion" object. That comes out of BonusBlocks. Make the sprite of the potion configurable and make it possible to activate a script when the potion has been hit. The first thing we can use this is to have a red and a blue potion that flip the level/restore it to normal.
 
 === Miscellaneous ===
 * '''M:''' rework font code to work on UTF-8 pages. The existing fonts already contain the first 3 unicode pages or so (ask Benjamin for details). These extra chars are needed for translation in some languages (e.g. Czech, Slovenian).
