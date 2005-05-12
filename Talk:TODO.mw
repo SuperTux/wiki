@@ -6,3 +6,5 @@ I think we should just stay with jam and diss SCons completely. Jam seems to do 
 '''''L:''' use the .hpp extension instead of .h to indicate the usage of c++''
 :I don't really care for this idea, so I removed it from the TODO list for now. <tt>.h</tt> works just fine and anyone can easily see that the project is a C++ project with all the <tt>.cpp</tt> files. I don't really see any advantage to making this change, but I thought I should bring it here for discussion. - [[User:Sik0fewl|Sik0fewl]] 22:03, 6 May 2005 (BST)
 :I also have a pretty uninterested attitude towards this "issue". It's too much work changing a hell lot of files (CPP files, possibly Jamfiles, ...) just to show off C++ when we can already see it. (I remember the hell when I took the job of renaming "action()" to "update()"...) <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 12:39, 9 May 2005 (BST)
+
+-- Let me clarify this: We should rename the files anyway because writing this_file.* when it contains a ThisFile class is totally stupid. And when we're about to rename we should change .h to .hpp IMO. Some editors only display .h as C files.
