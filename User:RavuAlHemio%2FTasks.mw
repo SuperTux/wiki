@@ -9,6 +9,10 @@ I opt to fix the following issues (from the [[TODO]] list):
 ** Status: in progress
 ** Progress/ETA: n/a (anytime somebody adds a new wrapper function, I have to write a sentence about it)
 
+* '''M:''' rework font code to work on UTF-8 pages.
+** Status: waiting for fix in repository (Matze forgot to check in some files)
+** Progress/ETA: Unknown (can't identify and squish bugs)
+
 In case you feel like taking over some of these tasks, tell me about that on the [[User_talk:RavuAlHemio/Tasks|discussion page]].
 
 == Completed tasks ==
