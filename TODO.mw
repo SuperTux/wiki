@@ -84,7 +84,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 === Miscellaneous ===
-* '''M:''' rework font code to work on UTF-8 pages. The existing fonts already contain the first 3 unicode pages or so (ask Benjamin for details). These extra chars are needed for translation in some languages (e.g. Czech, Slovenian).
 * '''M:''' save score on per-level basis to make high-score (this means coins/time)
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
