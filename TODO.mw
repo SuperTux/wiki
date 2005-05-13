@@ -92,6 +92,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 == Levels ==
 * '''H:''' create 10-20 new levels of different size and complexity, using the new features of milestone 2.
 * '''H:''' add compression to the level files, for example by gzipping them and/or delivering them inside .zip archives using PhysFS. Milestone 2 level files can get very large, and zipping them can reduce their size by more than 90 per cent.
+* '''L:''' when loading bonus world before ever completing a level there, game prints <tt>Problem loading game '/home/$USER/.supertux/save/bonus1-slot1.stsg': Parser problem: Couldn't open file '/home/$USER/.supertux/save/bonus1-slot1.stsg'.</tt>
 
 == Graphics ==
 * '''H:''' image for InfoBox (that box you can jump against that shows you a message)
