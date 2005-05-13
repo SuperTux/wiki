@@ -83,6 +83,10 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Create "potion" object. That comes out of BonusBlocks. Make the sprite of the potion configurable and make it possible to activate a script when the potion has been hit. The first thing we can use this is to have a red and a blue potion that flip the level/restore it to normal.
 * '''H:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
+=== Warnings that shouldn't show ===
+* '''M:''' when closing the SDL window, game bails out with <tt>Unexpected exception: Received window close</tt>.
+* '''L:''' when loading bonus world before ever completing a level there, game prints <tt>Problem loading game '/home/$USER/.supertux/save/bonus1-slot1.stsg': Parser problem: Couldn't open file '/home/$USER/.supertux/save/bonus1-slot1.stsg'.</tt>
+
 === Miscellaneous ===
 * '''M:''' save score on per-level basis to make high-score (this means coins/time)
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
@@ -92,7 +96,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 == Levels ==
 * '''H:''' create 10-20 new levels of different size and complexity, using the new features of milestone 2.
 * '''H:''' add compression to the level files, for example by gzipping them and/or delivering them inside .zip archives using PhysFS. Milestone 2 level files can get very large, and zipping them can reduce their size by more than 90 per cent.
-* '''L:''' when loading bonus world before ever completing a level there, game prints <tt>Problem loading game '/home/$USER/.supertux/save/bonus1-slot1.stsg': Parser problem: Couldn't open file '/home/$USER/.supertux/save/bonus1-slot1.stsg'.</tt>
 
 == Graphics ==
 * '''H:''' image for InfoBox (that box you can jump against that shows you a message)
