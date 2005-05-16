@@ -115,6 +115,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * more things than just levels on the worldmap (similar to SMB3)
 * if we have a logical framerate we could record/play demos by simply storing the pressed keys in each frame...
 
+== Jam ==
+* '''M:''' write uninstall rules and actions that undo "jam install"'s work upon "jam uninstall"
+
 == SCons ==
 We can just stay with jam for now. Compared to scons jam is at least faster and doesn't suffer from the problems below.
 * '''H:''' add an install target - done (however scons is creating stupid .sconsign files at the install location :-/, see SConsignFile for possible fix)
