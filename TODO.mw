@@ -98,7 +98,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' add compression to the level files, for example by gzipping them and/or delivering them inside .zip archives using PhysFS. Milestone 2 level files can get very large, and zipping them can reduce their size by more than 90 per cent.
 
 == Graphics ==
-* '''H:''' image for InfoBox (that box you can jump against that shows you a message)
 * '''H:''' add more forest tiles; some of the current ones need fixing. Also create a ghost forest tileset.
 * '''H:''' animations for the [[Yeti]]
 * '''H:''' images for 5 keys in the forest world
@@ -106,6 +105,8 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' new tiles for the forest worldmap
 * '''H:''' image for marking reset points (maybe a bell that starts swinging once Tux touched it?)
 * '''H:''' Potions in at least red and blue color (maybe more)
+* '''M:''' automatically make foreground tiles translucent if Tux stands behind them; create an option (in the level editor) to prevent certain tiles from being affected by that
+* '''M:''' "repay" players for requiring OpenGL with lighting and similar effects
 * '''L:''' graphics for ropes
 * '''L:''' graphics for bubbles and soap (not necessary for Milestone 2)
 * '''?/D:''' new enemies (first need to be designed)
