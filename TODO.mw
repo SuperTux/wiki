@@ -33,6 +33,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' use [http://icculus.org/physfs physfs] for loading files
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
 * '''L:''' name files according to the classes they contain, e.g. tile_manager.* to TileManager.* because it contains a class named TileManager and not tile_manager
+* '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
 
 === Actions ===
 * '''H:''' Buttjump:
@@ -83,14 +84,11 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Create "potion" object. That comes out of BonusBlocks. Make the sprite of the potion configurable and make it possible to activate a script when the potion has been hit. The first thing we can use this is to have a red and a blue potion that flip the level/restore it to normal.
 * '''H:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
-=== Warnings that shouldn't show ===
-* '''M:''' when closing the SDL window, game bails out with <tt>Unexpected exception: Received window close</tt>.
-* '''L:''' when loading bonus world before ever completing a level there, game prints <tt>Problem loading game '/home/$USER/.supertux/save/bonus1-slot1.stsg': Parser problem: Couldn't open file '/home/$USER/.supertux/save/bonus1-slot1.stsg'.</tt>
-
 === Miscellaneous ===
+* '''M:''' when closing the SDL window, game bails out with <tt>Unexpected exception: Received window close</tt>. This is confusing to the users.
+* '''L:''' when loading bonus world before ever completing a level there, game prints <tt>Problem loading game '/home/$USER/.supertux/save/bonus1-slot1.stsg': Parser problem: Couldn't open file '/home/$USER/.supertux/save/bonus1-slot1.stsg'.</tt>, again confusing to the user.
 * '''M:''' save score on per-level basis to make high-score (this means coins/time)
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
-* '''L:''' allow any object to be inside of a [?] box, ie. trampoline or badguy. Not sure if this would be gameplay wise.
 * '''D:''' think about icebullet specifics
 
 == Levels ==
