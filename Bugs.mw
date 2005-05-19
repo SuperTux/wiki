@@ -15,9 +15,3 @@ This page is for listing all known bugs, because it seems that some have been es
 *Sometimes killed with no reason. Just started a level and baam killed.
 **Even tho you die, you don't lose a life.
 *When are you killed and you started again sometimes time does not reset.
-*When I try to run 'autogen.sh' I see:
-: command not found
-autogen.sh: line 14: syntax error near unexpected token `|'
-autogen.sh: line 14: `  | sed -e 's/configure.ac:[0-9]*:AC_SUBST:\([^:]*\).*/\1 '= "@\1@" ;/g' \
-
-What should I do?? :-((
