@@ -8,3 +8,13 @@ MatzeB (svn version from 2.Mai)
 * [http://www.stud.uni-karlsruhe.de/~uxsm/level3_255.demo level 3] (last displayed time 255)
 * [http://www.stud.uni-karlsruhe.de/~uxsm/level19.demo level 19] (last displayed time: 238)
 * [http://www.stud.uni-karlsruhe.de/~uxsm/level26.demo level 26] (last displayed time: 234)
+
+= How to create Demos =
+
+First note that _Demos are only available in the development version_! If you have compiled an svn version yourself, then you can record a demo of level25 like this for example (started from source dir):
+
+  ./supertux --record-demo mydemo.demo data/levels/world1/level25.stl
+
+You can playback a demo like this:
+
+  ./supertux --play-demo mydemo.demo data/levels/world1/level25.stl
