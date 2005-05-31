@@ -11,23 +11,3 @@
 * gotoend - go to end of level
 * grid - show grid
 * hover - toggle hovering code on/off
-
-==Proposed cheats==
-
-Many Games have cheats, so why not have some cheats for SuperTux. The credits at the end of the game could list the number of times you've used each cheat code.
-
-===Powerup cheats===
-*Typing: "GreaseLightning" increases Tux's speed by 3x.
-*Typing: "GiftofLife" increases Tux's life by 1. - There is already "lifeup"
-
-===Level skip cheats===
-*Typing: "HopSkipJump" then pressing Ctrl+(number). (The number is how many levels you want to skip.)
-*Typing: "007" gives you speicial powers.
-===Bonus level cheats===
-*Typing "BonusLvL" opens up a secret Bonus Island levels.
-*Holding down "Ctrl"+"h" then jump, then crouch, sends you to a special hidden Bonus level
-
-===Misc cheats===
-*Typing: "ColoursoftheRainbow" then "Ctrl+(left or right)" enables you to change Tux's colour.
-*Typing: "TuxbeBeastie" allows you to use the BSD deamon instead.
-*Typing: "WinGame" or "Cheat" ends the game and brings a message saying: "Well Done! You have won in 0.0000001 seconds and have 59 Quintillion points!."
