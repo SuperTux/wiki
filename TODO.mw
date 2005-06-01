@@ -34,7 +34,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
 * '''L:''' name files according to the classes they contain, e.g. tile_manager.* to TileManager.* because it contains a class named TileManager and not tile_manager
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
-N MzMXXD ZMSKDCNBN<manshbbajk,mndb,a,sdnhwjeksxmj
 
 === Actions ===
 * '''H:''' Buttjump:
