@@ -6,7 +6,7 @@ We have an automatic installer created with [http://www.autopackage.org Autopack
 
    http://download.berlios.de/supertux/supertux-0.1.2.x86.package
 
-and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here] if something doesn't work.
+and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here].
 
 === Debian/Ubuntu Linux ===
 This distribution includes a supertux package. Just do the usual apt-get or install the package with synaptic.
