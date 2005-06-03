@@ -2,12 +2,11 @@
 
 == Linux ==
 === Generic Linux x86 Installer ===
-We have an automatic installer create with [http://www.autopackage.org Autopackage]. Just download it here:
+We have an automatic installer created with [http://www.autopackage.org Autopackage]. Just download it here:
 
    http://download.berlios.de/supertux/supertux-0.1.2.x86.package
 
-and execute it. (You might have to set the executable bit if it doesn't work with "chmod +x supertux-0.1.2.x86.package").
-Also take a look at the [http://www.autopackage.org Autopackage] website for more informations.
+and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here] if something doesn't work.
 
 === Debian/Ubuntu Linux ===
 This distribution includes a supertux package. Just do the usual apt-get or install the package with synaptic.
