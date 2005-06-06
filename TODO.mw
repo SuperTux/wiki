@@ -91,6 +91,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''M:''' save score on per-level basis to make high-score (this means coins/time)
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''D:''' think about icebullet specifics
+* '''M:''' Invicibility music should stop a little sooner than the invincibility itself.
 
 == Levels ==
 * '''H:''' create 10-20 new levels of different size and complexity, using the new features of milestone 2.
