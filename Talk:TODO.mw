@@ -1,6 +1,8 @@
 I think we should just stay with jam and diss SCons completely. Jam seems to do enough good. --[[User:RavuAlHemio|Ravu]] 07:27, 7 Apr 2005 (BST)
 : Yeah, that's most likely what's going to happen unless somebody volunteers to write a SCons script that suits our needs. - [[User:Sik0fewl|Sik0fewl]] 17:32, 7 Apr 2005 (BST)
 
+A "jam uninstall" target seems unnecessary to me. You can easily install in a separate prefix folder or use something like [[http://relink.sourceforge.net/ relink]].
+
 ----
 
 '''''L:''' use the .hpp extension instead of .h to indicate the usage of c++''
