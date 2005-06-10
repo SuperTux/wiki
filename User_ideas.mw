@@ -5,6 +5,7 @@ Instead of showing scrolling text, movies can be shown stating Penny's kidnap...
 
 ==Add a gamepad configuration==
 It's currently possible to use a gamepad, but the setup must be done by manually editing the SuperTux configuration file.
+  -- This has been improved in the development version. supertux now uses all available joysticks and allows to configure the actions for the different joystick buttons.
 
 ==Choose Audio output==
 
