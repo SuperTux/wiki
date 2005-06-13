@@ -1,11 +1,4 @@
-Please add this to the download list:
-
-=== SuSE Linux ===
-This distribution also includes a supertux package. To quickly install it, run this command as root:
-
-   yast -i supertux
-
-(or ''yast2 -i supertux'' if you don't have yast-ncurses installed and want to use the Qt GUI)
+Add your comments and enhancement requests here. Download page is locked to avoid someone placing trojans there.
 
 == Beos version ==
 
