@@ -6,3 +6,8 @@ This distribution also includes a supertux package. To quickly install it, run t
    yast -i supertux
 
 (or ''yast2 -i supertux'' if you don't have yast-ncurses installed and want to use the Qt GUI)
+
+== Beos version ==
+
+it does not work for me!
+did somebody tested it
