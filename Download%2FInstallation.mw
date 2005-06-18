@@ -39,7 +39,7 @@ This distribution includes a supertux package. Just use the normal conary comman
    conary update supertux
 
 == BeOS ==
-A BeOS package is availabel at
+A BeOS package is available at
 
   http://download.berlios.de/supertux/supertux-0.1.2-beos.zip
 
