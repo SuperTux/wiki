@@ -10,3 +10,52 @@ Other than on the Antarctica worldmap, the levels should be placed on different 
 * the castle levels.
 
 The primary goal of the forest world is to beat the boss at the final castle level. In order to get there, Tux needs to collect five keys scattered throughout the island which will open the door to the castle. Thus, the paths on the worldmap should lead into five dead-ends that hold the levels in which the key can be found. The path to the castle is accessible from after the first level. However, when Tux tries to enter the castle, he can't unlock the door without all five keys.
+
+= Levels =
+Unlike Antarctica, forest levels can have variable sizes, both horizontally and vertically. In addition to that, levels can have a number of different sectors of variable size, connected by doors, portals, script events and spawn points. Due to this variability, there is no recommended level size anymore; the "perfect size" of a level solely depends on its design.
+The three different themes on forest world -light forest, ghost forest and castle- are each represented by a matching tileset. All forest levels use one of these tilesets; a general rule should be not to mix them.
+Levels in the transition area between light and ghost forest, however, follow a different design: Those levels will have a light sector and a very similar looking ghost forest sector. Troughout the level, Tux will need to travel between the sectors to solve puzzles and find his way through the level. Transition between the worlds can happen by either
+
+* actively walking through a portal,
+* being beamed into the other world without warning, using invisible triggers, or
+* being caught by special badguys that have the ability to carry you over to the other world.
+
+Levels have the ability to autoscroll in all four directions. There is no fixed ending sequence like in Antarctica anymore; level designers can use scripts to determine the ending conditions of a level. These can include picking up an object, killing a certain enemy or reaching a certain area.
+For more general information on level design, read the file "levelguidelines.txt" in the docs directory of the SuperTux repository.
+Level events can be automated using scripts in order to create in-game cutscenes.
+
+= Actions =
+
+== Powerups ==
+In Milestone 2 in general, the favourite way of enhancing Tux' abilities will be through level objects that temporarily grant Tux special abilities (see Level Objects section for more details), rather than permanent powerups like fire and ice shots. Those will still be there, but they'll remain relatively weak, so they don't get in the way of level design. An ice shot will be implemented, the fire shot's behaviour will be improved [need more detail here]. The fire shot gets a new ability to burn through specific tiles to reveal paths. These paths, however, should contain only bonus items like coins; it must be possible to finish a level without needing the fire powerup.
+* Ice shot
+* Fire melts ice, ice freezes water
+* Super Buttjump (timed)
+General idea: More level objects than powerups, they can be placed where they are needed.
+Powers like fire must not get in the way of level design
+
+== Permanent Abilities ==
+* Flapping
+* Butt Jump (permanent for big tux)
+Always big Tux in forest world?
+
+= Level Objects =
+* Coin - collect 100 coins to get an extra life.
+* Bonus Block - contains powerups.
+* Message Box - a special bonus block that contains a message. Implemented as telephones.
+* Ambient Sound - plays a looping sound effect inside the defined range.
+* Timer - adds a time limit to a level.
+* Particle System - adds background visual effects like clouds, snow, and rain.
+* Door - respawns Tux at a defined spawn point when activated.
+* Spawn Point - defines the place where Tux appears after walking through a door.
+* Bell - When touched, Tux respawns at the bell after dying.
+* Trampoline - Tux can jump on them for a very high jump; can be carried around.
+* Falling Block - solid block that falls down shortly after being touched.
+* Powerup - an object that represents a powerup, such as egg, flower, star, extra life, or potion.
+* Message Trigger - display a message as soon as Tux enters their range. Used to mark secret areas.
+* Sequence Trigger - executes a script on contact.
+* Moving Platform - [still needs to be defined.]
+* Camera Blocker - prevents the camera from scrolling into a specific direction. Instantly kill Tux on contact.
+* Carryable Block - Blocks that can be carried around and stacked.
+* Bubble Dispenser - Releases bubbles that Tux can use to travel upwards.
+* Ice Cube/Straw Block - a block that can be destroyed by the fire shot. Appearance depends on the world it's used in.
