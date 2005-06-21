@@ -12,6 +12,8 @@ This page is for listing all known bugs, because it seems that some have been es
 ** You try jumping while ducking :) - sik0fewl
 *** It's not any more difficult than jumping three times my height (or smashing bricks with my head, for that matter). :P - NMcCoy
 *Glibc seems to have a problem: <tt>*** glibc detected *** free(): invalid pointer: 0x082e22e8 ***</tt> (Fedora Core 3 fresh install with yum update) <br> GWater: Also seen bug on Fedora3 _64, have only seen crash on Yeti_Test screen so far. glibc detected double free or corruption: 0x0000003000e2da38 Aborted<br>This is not a glibc problem, but a problmen in our code that needs to be fixed.
+
 *Sometimes killed with no reason. Just started a level and baam killed.
 **Even tho you die, you don't lose a life.
-*When are you killed and you started again sometimes time does not reset.
+***When are you killed and you started again sometimes time does not reset.
+****These problems seem to be related to pausing and unpausing the game.  It appears that when you pause the game, on your next life (if you die) or on the next level, you will die due to a "times up!".  Haven't dug around the source code yet, but that's the correlation I see, at least on the win32 release. - blinkin
