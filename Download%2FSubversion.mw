@@ -9,6 +9,8 @@ Once the checkout process is completed, you have SuperTux in your ''directory_fo
 == What is Subversion? ==
 [http://subversion.tigris.org/ Subversion] is a version control system that aims to be used as CVS, but removing the numerous design mistakes. It can access repositories via its own protocol (optionally bridged over SSH) plus HTTP and HTTPS using the WebDAV standard.
 
+*
+
 == See also ==
 *[[Mailing Lists]] for the information on SuperTux mailing lists.
 *[[TODO]] for the list of features that have yet to be built in.
