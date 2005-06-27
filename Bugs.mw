@@ -2,6 +2,7 @@ This page is for listing all known bugs, because it seems that some have been es
 
 == Release 0.1.2 ==
 * Sound lags a bit on my system (only Supertux has this problem, other games work fine - I'm using Fedora Core 2)
+* If an enemy kills tux and the user elects to abort the level before tux falls off the screen gameplay can continue with a negative life count.
 
 == Development (svn) version ==
 
