@@ -1,1 +1,10 @@
-Can someone tell me more about this joystick buttons as axis? I've never seen such a thing. Is it that common that it warrants an own point in the menu? Or  would be enough to support it with an entry in the config file?
+Can someone tell me more about this joystick buttons as axis? I've never seen such a thing. Is it that common that it warrants an own point in the menu? Or  would be enough to support it with an entry in the config file?<br>
+---<br>
+<b>Re: Worldmap</B><br>
+
+Would there be objection to creating a temporary transport path on the existing Arctic worldmap that went from the beginning position, starting near level one, running up to the top and then across the screen to a new area on the east side of the worldmap?  This would provide a new sector/area which to start testing the forest world (milestone2) tile sets and map layout. Initially this transport path would be basic place-holder blocks that will be replaced with the actual game graphics as we create them. 
+<br><br>
+I think it has been discussed that for MileStone-2 we will be adding to the existing WorldMap as opposed to creating an entirely new WM. If the plan is to create a new WM for MS-2 then we need coder's to work some magic to make this happen. (place '''H''' on the todo)
+<br><br>
+The transition from Arctic to Forest has been discussed as a possible slide between sections. A small sailboat seems like a good transporter too.<br>
+(GWater)
