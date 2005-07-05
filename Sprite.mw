@@ -1,0 +1,33 @@
+Most animated images you see in supertux are sprites. A sprite consists of a set of actions. An action is simply an animation composed from several images. The engine can render a sprite and change it's currently displayed action. 
+Additionally you can define animation speed and an offset. The offset indicates where the "origin" of the sprite is. If the engine draws a sprite at position 50,50 then the "x-offset" will be added to the x coordinate and the "y-offset" will be added to the y-coordinate.
+
+Sprites are defined in the data/images/sprites.strf file. You can add your own sprites there.
+
+Let's look at the sprite "snowball": It contains 4 actions named "left", "right", "squished-left" and "squished-right". In the sprite description file this look like this:
+
+  (sprite (name "snowball")
+       (action
+         (name "left")
+         (x-offset 2)
+         (y-offset 4)
+         (images "creatures/snowball/left-0.png"
+                 "creatures/snowball/left-1.png"
+                 "creatures/snowball/left-2.png"
+                 "creatures/snowball/left-1.png"))
+
+       (action
+         (name "right")
+         (x-offset 2)
+         (y-offset 4)
+         (mirror-action "left"))
+       (action
+         (name "squished-left")
+         (x-offset 1)
+         (y-offset -19)
+         (images "creatures/snowball/squished-left.png"))
+
+       (action
+         (name "squished-right")
+         (x-offset 1)
+         (y-offset -19)
+         (mirror-action "squished-left")))
