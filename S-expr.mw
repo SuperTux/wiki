@@ -71,17 +71,17 @@ Here come some examples of real files used in supertux. (3 dots indicate that we
       (x 2)
       (y 177)
       (dead-script "
-Sound.play(\"sounds/invincible.wav\");
-Text.set_text(\"You made it!\");
-Text.set_font(\"big\");
-Text.fade_in(1.5);
-set_wakeup_time(4);
-suspend();
-DisplayEffect.fade_out(1.5);
-set_wakeup_time(1.5);
-suspend();
-Level.finish();
-")
+ Sound.play(\"sounds/invincible.wav\");
+ Text.set_text(\"You made it!\");
+ Text.set_font(\"big\");
+ Text.fade_in(1.5);
+ set_wakeup_time(4);
+ suspend();
+ DisplayEffect.fade_out(1.5);
+ set_wakeup_time(1.5);
+ suspend();
+ Level.finish();
+ ")
       )
     )
   )
