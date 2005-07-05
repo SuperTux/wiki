@@ -14,7 +14,6 @@ Let's look at the sprite "snowball": It contains 4 actions named "left", "right"
                  "creatures/snowball/left-1.png"
                  "creatures/snowball/left-2.png"
                  "creatures/snowball/left-1.png"))
-
        (action
          (name "right")
          (x-offset 2)
@@ -25,7 +24,6 @@ Let's look at the sprite "snowball": It contains 4 actions named "left", "right"
          (x-offset 1)
          (y-offset -19)
          (images "creatures/snowball/squished-left.png"))
-
        (action
          (name "squished-right")
          (x-offset 1)
