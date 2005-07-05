@@ -5,7 +5,8 @@ Sprites are defined in the data/images/sprites.strf file. You can add your own s
 
 Let's look at the sprite "snowball": It contains 4 actions named "left", "right", "squished-left" and "squished-right". In the sprite description file this look like this:
 
-  (sprite (name "snowball")
+  (sprite 
+       (name "snowball")
        (action
          (name "left")
          (x-offset 2)
