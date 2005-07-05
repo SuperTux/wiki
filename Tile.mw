@@ -45,7 +45,7 @@ Tiles can have the following attributes:
 * '''ice''' the tile will be slippery (currently not implemented)
 * '''water''' The tile is a water tile (needed for fish enemy)
 * '''spike''' The tile will kill you when you hit it
-* '''slope-type''' The tile is a slope. You have to add a slope number to reference what sort of slope the tile is. Take a look for possible types here:
+* '''slope-type''' The tile is a slope. You have to add a slope number to reference what sort of slope the tile is. Take a look for possible types here (take the basic form and add the deform to get the number)
 [[Image:slopes.png]]
 
 = Adding new tiles =
