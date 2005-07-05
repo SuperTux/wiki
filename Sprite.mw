@@ -49,6 +49,7 @@ You can easily add your own sprites by adding them to the end of the ''data/imag
      (name "TESTSPRITE")
      (x 160)
      (y 100)
+     (visible #t)
      (sprite "wormy")
   )
 
