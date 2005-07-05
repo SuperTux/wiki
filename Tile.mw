@@ -46,7 +46,7 @@ Tiles can have the following attributes:
 * '''water''' The tile is a water tile (needed for fish enemy)
 * '''spike''' The tile will kill you when you hit it
 * '''slope-type''' The tile is a slope. You have to add a slope number to reference what sort of slope the tile is. Take a look for possible types here:
-[[Image:Slopes.png]]
+[[Image:slopes.png]]
 
 = Adding new tiles =
 
