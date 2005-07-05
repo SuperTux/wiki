@@ -31,7 +31,7 @@ Here come some examples of real files used in supertux. (3 dots indicate that we
 )
 
 == Level file ==
-(supertux-level
+ (supertux-level
   (version 2)
   (name   (_ "Yeti Test"))
   (author "Team")
@@ -85,4 +85,4 @@ Here come some examples of real files used in supertux. (3 dots indicate that we
       )
     )
   )
-)
+ )
