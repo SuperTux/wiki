@@ -1,5 +1,8 @@
 This page is for listing all known bugs, because it seems that some have been escaping peoples' attention. Feel free to elaborate on any bugs already noted here, or comment on why it's not fixed if there's a reason for it. Also note if any of these have been fixed, of course.
 
+== Release 0.1.3 ==
+* Wrong Texture type in texture.cpp (GL_RGB10_A2). Only fglrx (ati-drivers) will interpret it correct and will display waterfall not transparent in opengl mode. It is better to use GL_RGBA here since the most drivers (and mesa) interprets GL_RGB10_A2 as GL_RGBA (which is stupid....but it is so. so dont bother the drivers which does it correct)
+
 == Release 0.1.2 ==
 * Sound lags a bit on my system (only Supertux has this problem, other games work fine - I'm using Fedora Core 2)
 * If an enemy kills tux and the user elects to abort the level before tux falls off the screen gameplay can continue with a negative life count.
