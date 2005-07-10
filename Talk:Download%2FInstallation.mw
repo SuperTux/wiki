@@ -4,3 +4,12 @@ Add your comments and enhancement requests here. Download page is locked to avoi
 
 it does not work for me!
 did somebody tested it
+
+== ASP/FC/RH link is broken ==
+
+It reads
+  http://download.berlios.de/supertux/supertux-0.1.2.-rh-fd-asp.i386.rpm
+It should be:
+  http://download.berlios.de/supertux/supertux-0.1.2-rh-fd-asp.i386.rpm
+
+Note the '.'
