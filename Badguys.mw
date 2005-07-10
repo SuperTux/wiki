@@ -11,7 +11,7 @@
 ** [[FlyingSnowball]]
 
 ==Proposed list of badguys==
-* [[World 2|Forest]]
+* [[World 2|Light Forest]]
 ** Implemented/Partially implemented
 *** [[Fish]]
 *** [[MrBomb]]
@@ -34,6 +34,12 @@
 *** [[Spider]]
 *** [[Tumbleweed]]
 *** [[WalkingTotem]]
+* [[World 2|Ghost Forest]]
+*** [[Ghost, Type I]]
+*** [[Ghost, Type II]]
+* [[World 2|Dark Forest Keep]]
+*** [[Mounted Axe]]
+*** [[MrAncestor]]
 * Desert
 ** [[Cactus]]
 ** [[Dillo]]
