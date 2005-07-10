@@ -14,6 +14,9 @@ It should be:
 
 Note the '.'
 
+
+== Release 0.1.3 doesn't work under Ubuntu ==
+
 As I mentioned in the mailinglist Supertux fails to start under my Ubuntu Linux 5.04:
 
 Datadir: /usr/local/bin/../share/supertux
