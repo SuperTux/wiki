@@ -29,7 +29,7 @@ This distribution includes a supertux package. Just do the usual emerge (as root
 === Fedora / RedHat / ASP Linux ===
 There are rpm packages available here:
 
-   http://download.berlios.de/supertux/supertux-0.1.2.-rh-fd-asp.i386.rpm
+   http://download.berlios.de/supertux/supertux-0.1.2-rh-fd-asp.i386.rpm
 
 === Mandrake/Mandriva Linux ===
 There are rpm packages available here:
