@@ -23,7 +23,11 @@ Levels in the transition area between light and ghost forest, however, follow a 
 * being beamed into the other world without warning, using invisible triggers, or
 * being caught by special badguys that have the ability to carry you over to the other world.
 
-Levels have the ability to autoscroll in all four directions. There is no fixed ending sequence like in Antarctica anymore; level designers can use scripts to determine the ending conditions of a level. These can include picking up an object, killing a certain enemy or reaching a certain area.
+Levels have the ability to autoscroll in all four directions. There is no fixed ending sequence like in Antarctica anymore; level designers can use scripts to determine the ending conditions of a level. The most common level endings will be:
+* reaching a goal area somewhere in the level,
+* picking up a special item (for example, one of the five keys),
+* killing a certain badguy or boss.
+
 For more general information on level design, read the file "levelguidelines.txt" in the docs directory of the SuperTux repository.
 Level events can be automated using scripts in order to create in-game cutscenes.
 
