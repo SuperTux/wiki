@@ -1,1 +1,10 @@
-Add your comments and enhancement requests here. Download page is locked to avoid someone placing trojans there. (This is not a place for bugreports here for that use [[Bugs]]). You should add links/instructions to supertux packages here that you want to see listed on the main download page.
+SuperTux 1.3 for Arch Linux:
+
+1. download this file -> [http://klerik.linuxgames.cz/supertux-0.1.3-1.pkg.tar.gz supertux-0.1.3-1.pkg.tar.gz]
+
+2. open on console download folder and use this command:
+   pacman -Up supertux-0.1.3-1.pkg.tar.gz
+
+3. run supertux ;-)
+
+Klerik ;o)
