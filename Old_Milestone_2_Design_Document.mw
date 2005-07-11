@@ -37,7 +37,6 @@ Powers like fire must not get in the way of level design
 == Permanent Abilities ==
 * Flapping
 * Butt Jump (permanent for big tux)
-Always big Tux in forest world?
 
 = Level Objects =
 * Coin - collect 100 coins to get an extra life.
@@ -55,7 +54,6 @@ Always big Tux in forest world?
 * Message Trigger - display a message as soon as Tux enters their range. Used to mark secret areas.
 * Sequence Trigger - executes a script on contact.
 * Moving Platform - [still needs to be defined.]
-* Camera Blocker - prevents the camera from scrolling into a specific direction. Instantly kill Tux on contact.
 * Carryable Block - Blocks that can be carried around and stacked.
 * Bubble Dispenser - Releases bubbles that Tux can use to travel upwards.
 * Ice Cube/Straw Block - a block that can be destroyed by the fire shot. Appearance depends on the world it's used in.
@@ -70,7 +68,7 @@ other badguy ideas: bird creatures, moles, ghosts
 
 = Bosses =
 * Yeti
-* Forest Boss needed
+* [forest boss not yet chosen]
 
 = Story/Cutscenes =
 needed
