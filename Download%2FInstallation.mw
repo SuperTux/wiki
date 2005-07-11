@@ -2,6 +2,13 @@
 
 == Linux == 
 
+=== Generic Linux x86 Installer ===
+We have an automatic installer created with [http://www.autopackage.org Autopackage]. Just download it here:
+
+   http://download.berlios.de/supertux/supertux-0.1.2.x86.package
+
+and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here].
+
 === Gentoo Linux ===
 This distribution includes a supertux package. Just do the usual emerge (as root):
 
@@ -27,12 +34,6 @@ Download the source code:
 We only menion systems/distributions here, that have no 0.1.3 packages yet.
 
 == Linux ==
-=== Generic Linux x86 Installer ===
-We have an automatic installer created with [http://www.autopackage.org Autopackage]. Just download it here:
-
-   http://download.berlios.de/supertux/supertux-0.1.2.x86.package
-
-and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here].
 
 === Fedora / RedHat / ASP Linux ===
 There are rpm packages available here:
