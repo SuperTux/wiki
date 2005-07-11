@@ -7,7 +7,12 @@ This section is a central point for collecting the game design of SuperTux. It's
 * [[Characters]]
 * [[Worlds]]
 * Cutscenes
-** [[Story|Intro]]
+** [[Story|Game/Antarctica Intro]]
+** [[Interlude: Antarctica Boss]]
+** [[Antarctica Outro/Forest Intro]]
+** [[Interlude: Ghost Forest]]
+** [[Interlude: Dark Forest Keep]]
+** [[Forest Outro]]
 
 == Enemies ==
 * [[Badguys]]
