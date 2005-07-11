@@ -19,23 +19,22 @@ Note the '.'
 
 As I mentioned in the mailinglist Supertux fails to start under my Ubuntu Linux 5.04:
 
-Datadir: /usr/local/bin/../share/supertux
+Datadir: /usr/local/bin/../share/supertux<br />
 Warning: Unable to open the file "/home/alex/.supertux/config" for read!!!
 
-Warning: I could not set up audio for 44100 Hz 16-bit stereo.
-The Simple DirectMedia error that occured was:
+Warning: I could not set up audio for 44100 Hz 16-bit stereo.<br />
+The Simple DirectMedia error that occured was:<br />
 No available audio device
 
-Error: I could not initialize video!
-The Simple DirectMedia error that occured was:
+Error: I could not initialize video!<br />
+The Simple DirectMedia error that occured was:<br />
 No available video device 
 
 The directory ~/.supertux exists in spite of that config file:
 
-
-alex@alex:~/.supertux$ ls -lah
-total 16K
-drwxr-xr-x   4 alex alex 4,0K 2005-07-08 17:53 .
-drwxr-xr-x  44 alex alex 4,0K 2005-07-08 18:09 ..
-drwxr-xr-x   2 alex alex 4,0K 2005-07-08 17:53 levels
+alex@alex:~/.supertux$ ls -lah<br />
+total 16K<br />
+drwxr-xr-x   4 alex alex 4,0K 2005-07-08 17:53 .<br />
+drwxr-xr-x  44 alex alex 4,0K 2005-07-08 18:09 ..<br />
+drwxr-xr-x   2 alex alex 4,0K 2005-07-08 17:53 levels<br />
 drwxr-xr-x   2 alex alex 4,0K 2005-07-08 17:53 save
