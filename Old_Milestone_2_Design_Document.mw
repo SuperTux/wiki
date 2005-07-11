@@ -59,12 +59,12 @@ Powers like fire must not get in the way of level design
 * Ice Cube/Straw Block - a block that can be destroyed by the fire shot. Appearance depends on the world it's used in.
 
 = Badguys =
-* Poison Ivy - Forest equivalent to Mr. Snowball.
-* Mr. Tree - Large badguy that walks around slowly. Needs to be jumped on twice.
-* Mr. Rocket - Shot out of a dispenser and flies straight into one direction. Explodes on collision.
-* Dispenser - Frequently shoots rockets or drops other badguys.
-* Zeekling - Flies around straight left or right, and straight towards Tux when he gets close.
-other badguy ideas: bird creatures, moles, ghosts
+For detailed info, see the [[Badguys]] page. The following is a list of new badguys that will definitely be in Milestone 2:
+* Poison Ivy
+* Mr. Tree
+* Mr. Rocket
+* Dispenser
+* Zeekling
 
 = Bosses =
 * Yeti
