@@ -45,8 +45,9 @@ need to be worked out more
 ==New Engine Features==
 
 * Falling Leaves particle system
+* rising lava/water
 * moving platforms (branches that move a bit up and down, or logs falling down a waterfall)
-* support for cutscenes (done in a lisp file) in a level (or at least outside of levels)
+* support for cutscenes (done in a lisp file) in a level
 * sound triggers in some areas (cuckoo or woodpecker sound in some part of the level)
 * sound triggers when touching objects (ripple sound when walking on a steam)
 * Rocks that you can carry around to reach higher places
