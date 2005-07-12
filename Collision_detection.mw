@@ -2,4 +2,4 @@ Collision Detection is currently based on bounding boxes.
 
 [[Sweep collision algorithms]]
 
-Perfect pixel detection might be implemented in future, for player and objects. For [[Milestone 2]], polygonal collision detection is planned.
+For [[Milestone 2]], polygonal collision detection is planned.
