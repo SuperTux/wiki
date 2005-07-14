@@ -7,6 +7,7 @@ This page is for listing all known bugs, because it seems that some have been es
 * Sound lags a bit on my system (only Supertux has this problem, other games work fine - I'm using Fedora Core 2)
 * If an enemy kills tux and the user elects to abort the level before tux falls off the screen gameplay can continue with a negative life count.
 * When opening hand-edited levels or maps and these have incorrect syntax, Supertux crashes and the mouse is unmovable until re-login at X Window. (Maybe the ST 0.1.3/0.2 could "say", Invalid map.)
+* On my Knoppix/Debian system, Supertux eats memory on each new level or game, until it crashes the system.  (I've only got 128M physical)  Watching the memory usage with KDE System Guard seems to suggest that finished maps/levels are not being freed.
 
 == Development (svn) version ==
 
