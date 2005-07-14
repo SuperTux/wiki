@@ -2,6 +2,7 @@ This page is for listing all known bugs, because it seems that some have been es
 
 == Release 0.1.3 ==
 * Wrong Texture type in texture.cpp (GL_RGB10_A2). Only fglrx (ati-drivers) will interpret it correct and will display waterfall not transparent in opengl mode. It is better to use GL_RGBA here since the most drivers (and mesa) interprets GL_RGB10_A2 as GL_RGBA (which is stupid....but it is so. so dont bother the drivers which does it correct)
+* Doesn't seem to be in the Debian "testing" repository (which I'm using due to my Knoppix base)
 
 == Release 0.1.2 ==
 * Sound lags a bit on my system (only Supertux has this problem, other games work fine - I'm using Fedora Core 2)
