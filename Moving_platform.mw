@@ -1,11 +1,3 @@
-[[Image:Flying platform-0.png|right]]
-A '''moving platform''' is a [[MovingObject]] that can be used by level designers to let [[Tux]] reach high places. It can be [[ScriptingPlatform|scripted]] to start moving as a response to some action and follows a predefined [[ScriptingPath|path]].
-
-== See also ==
-
-* [[Game object]]
-* [[Objects]]
-* [[ScriptingPlatform]]
-* [[ScriptingPath]]
-
-[[Category:Game Object]]
+There are different proposals for moving platforms. This is one of them:
+[[Image:Platform01.jpg]]
+The level designer specifies a path, either closed (circular) or open (as shown on the sketch), on which the platform will travel. The path can be either visible or invisible; the movement speed is configurable. The platform itself consists of a control tile and special platform tiles. The control tile is the one that travels along the path, the platform tiles are used to build the shape of the platform. All of these special tiles have a flag that states which control tile they belong to; as it travels along the path, so do all connected platform tiles. Thus, moving platforms can vary a lot in terms of size and shape; they can even have gaps.
