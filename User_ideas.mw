@@ -3,6 +3,8 @@
 Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union.  Wouldn't that be nice?
 :I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the ToDo list, and I guess it will be used for the story intro. --[[User:RavuAlHemio|Ravu]] 14:30, 7 Apr 2005 (BST)
 
+:I think in the story was: "A creature jumped from behind an ice bush, Tux..." ;-)- penma -
+
 ==Add a gamepad configuration==
 It's currently possible to use a gamepad, but the setup must be done by manually editing the SuperTux configuration file.
 :This has been improved in the development version. supertux now uses all available joysticks and allows to configure the actions for the different joystick buttons.
