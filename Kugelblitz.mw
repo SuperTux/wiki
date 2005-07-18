@@ -1,1 +1,14 @@
+The Kugelblitz (German for [http://en.wikipedia.org/wiki/Ball_lightning "ball lightning"]) falls from the sky without warning; as soon as it hits the ground, it starts moving back and forth randomly for about two or three seconds in a fixed range, then vanishes with a pop in a cloud of smoke. Explodes on contact which hurts Tux. Alternatively, instead of moving at a random pattern, it could also move between coins or badguys.
 
+The Kugelblitz cannot be hurt, the player has to avoid its radius until it's gone. With the alternative version, Tux can collect all coins/destroy all badguys before the Kugelblitz lands to make it disappear at once. It looks like a yellowish glowing wheel with animations for falling (with glowing trail), rolling, exploding and vanishing in smoke. It can be used in Ghost Forest and Forest Castle settings.
+
+(I chose the German name because it's one of the few words that actually sound cooler in German than in English, IMHO.)
+
+= Variation1 =
+The path of the kugelblitz could be led by looking at surrounding things. For example the kugelblitz could always go the nearest coin or enemy in a range of 3 tiles give that it would not need to change it's direction more than 45 degree or so. This would allow the following 2 situations:
+
+[[Images:kugelblitz2.jpg]]
+The kugelblitz would go down and then go upwards along the 2 coins and finally killing the 2 spikies and disappearing as there is no object anymore it could move to.
+
+[[Images:kugelblitz1.jpg]]
+The kugelblitz would come down and start moving in circles from coin to coin. You could stop this behaviour by collecting 1 of the coins at the right time.
