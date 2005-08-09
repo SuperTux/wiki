@@ -1,5 +1,8 @@
 This page is for listing all known bugs, because it seems that some have been escaping peoples' attention. Feel free to elaborate on any bugs already noted here, or comment on why it's not fixed if there's a reason for it. Also note if any of these have been fixed, of course.
 
+== Website ==
+* http://super-tux.sourceforge.net/ (subpages like http://super-tux.sourceforge.net/welcome.html ) exist, but should be deleted and redirected to http://supertux.berlios.de/
+
 == Release 0.1.3 ==
 * Wrong Texture type in texture.cpp (GL_RGB10_A2). Only fglrx (ati-drivers) will interpret it correct and will display waterfall not transparent in opengl mode. It is better to use GL_RGBA here since the most drivers (and mesa) interprets GL_RGB10_A2 as GL_RGBA (which is stupid....but it is so. so dont bother the drivers which does it correct)
 * Doesn't seem to be in the Debian "testing" repository (which I'm using due to my Knoppix base)
