@@ -45,7 +45,7 @@ The action block contains then the name of an action ''(name "myaction")'' can o
 
 You can easily add your own sprites by adding them to the end of the ''data/images/sprites.strf'' file. Now you probably want to test your sprite. This is easily possible by adding a ''scriptedobject'' to an existing level. If you have define a new sprite called "wormy" then you can test it by adding this object to an existing level file (the coordinates should be adjusted to something sensible):
 
-  (scritpedobject
+  (scriptedobject
      (name "TESTSPRITE")
      (x 160)
      (y 100)
