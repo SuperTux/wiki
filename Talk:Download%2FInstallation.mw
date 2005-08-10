@@ -12,3 +12,25 @@ somebody removed my previous comment! not nice
 == Mac OS Version ==
 
 Is someone working on a Mac distribution. I tried to install all of the required packages repeatedly, but somehow my vorbis installation is messed up. I have tried reinstalling it and it doesn't let me compile the source. I would really like to play the new levels, but I am entirely dependent on someone else compiling a binary. Thank you to whoever that kind soul is.
+
+== Install supertux 0.1.3 on Mac OS X.  HowTo: ==
+This is probably not the best solution around but at least I got a working supertux 0.1.3 now :-)
+Do this (You should now how to handle the Terminal and even better Fink, otherwise better wait for a package:
+
+Get the source and untar it.
+Install Fink (fink.sf.org)
+in Terminal install the following binaries through Fink:
+%fink install sdl
+%fink install sdl_image
+%fink install sdl_mixer
+
+then go to your untared copy of supertux and do this:
+%./configure --disable-opengl
+make
+
+once everything is compiled, go to the src directory inside your supertux directory and type in Termianl:
+./supertux -d ../data/
+
+Now it should be working!
+
+PS: OpenGL is not enabled in this mode. Didn't work, had compiling errors with that. There are probably ways to have a package that works like 0.1.2 but I have no clue how to compile SDL and everything into one directory. If someone can do that, go ahead.
