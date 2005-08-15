@@ -29,3 +29,21 @@ I already designed some additional worldmap objects for Supertux 0.1.2, e.g. pat
 
 ==Scuba Gear?==
 Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
+
+== Darker background ==
+
+<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+
+Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in [http://www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
+
+== One-way platforms ==
+
+<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+
+I would recommend platforms that could be jumped through from the bottom but you can't fall through them if you are on top. SSB has this, as well as many mario and platforming game. This allows for Points of No Return, and would make the game capable of better and less redundant level design
+
+== Better rewards ==
+
+<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+
+A more fitting reward should be accomplished for collecting coins. Yoshi's Island had red coins, Super Mario Sunshine had Extra Shines, etc.
