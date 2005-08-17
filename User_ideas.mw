@@ -47,3 +47,22 @@ I would recommend platforms that could be jumped through from the bottom but you
 <small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
 
 A more fitting reward should be accomplished for collecting coins. Yoshi's Island had red coins, Super Mario Sunshine had Extra Shines, etc.
+
+== Some more badguys ==
+
+Here're three new suggestions for badguys in the forest world:
+
+[[Image:Biella_mrlog_limpy.jpg|right]]
+
+=== Biella ===
+* Quick, flying creature, continuously following Tux.
+* Could shoot stingers. 
+
+=== Mr Log ===
+(I designed Mr Log before I read about [[WalkingTotem]]. Looks like I'm not the first one who gave some thought to stackable logs...)
+
+* Slow creature without any special abilities.
+* Maybe "stackable", similar to the cactuses in SMW: Up to four "Mr Log" could be combined to serve as a high barrier, only destroyable from above (or with FireTux). 
+
+=== Limpy ===
+* Another slow creature, which is able to adhere to any surface. When reaching the end of a platform, it doesn't fall down, but continues to crawl downwards, upwards, or even underneath.
