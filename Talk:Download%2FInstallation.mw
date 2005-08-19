@@ -35,6 +35,11 @@ Now it should be working!
 
 PS: OpenGL is not enabled in this mode. Didn't work, had compiling errors with that. There are probably ways to have a package that works like 0.1.2 but I have no clue how to compile SDL and everything into one directory. If someone can do that, go ahead.
 
+==Mac OS X. XCode Project==
+I have provided an XCode Project here: http://cocoa.sprachwerker.de/download/supertux013
+
+It does not yet compile because there seems to be something wrong with texture.cpp. So if you know what to do, go ahead and fix it. BTW, this is an XCode 2.1 Project, so it might not run on 10.3. Sorry for that, I have no clue how to make it 10.3 compatible.
+
 == Windows Binary Installer? ==
 
 Will there be a windows installer version soon?
