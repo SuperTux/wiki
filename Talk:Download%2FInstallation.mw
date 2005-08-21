@@ -8,7 +8,9 @@ I read one the email newsletter that someone made the binary for OS X...where is
  
 I've posted a bundled app (including SDL frameworks) of SuperTux 0.1.3 for Mac OS X.  It runs under Panther (10.3) and Tiger (10.4), though it probably won't work under Jaguar (10.2).  Compiled with gcc 3.3.  Feel free to post and distribute!
 http://www.ucalgary.ca/~mfuhrer/supertux/supertux-0.1.3-macosx.dmg
- 
+
+: Thanks, I uploaded this to BerliOS and put a link on the main download page. ~~Marek
+
 == BeOS Version does not work ==
 so I build a Version 0.1.3 for Zeta, it also works with R5
 http://www.beinformed.at/sdl/supertux-0.1.3.pkg.zip
