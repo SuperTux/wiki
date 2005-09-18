@@ -2,6 +2,8 @@ The Kugelblitz (German for [http://en.wikipedia.org/wiki/Ball_lightning "ball li
 
 The Kugelblitz cannot be hurt, the player has to avoid its radius until it's gone. With the alternative version, Tux can collect all coins/destroy all badguys before the Kugelblitz lands to make it disappear at once. It looks like a yellowish glowing wheel with animations for falling (with glowing trail), rolling, exploding and vanishing in smoke. It can be used in Ghost Forest and Forest Castle settings.
 
+If the Kugelblitz hits water it vanishes and all water tiles get electrified for a short period of time. During that time, contact with water causes Tux and badguys to get hurt.
+
 (I chose the German name because it's one of the few words that actually sound cooler in German than in English, IMHO.)
 
 = Variation1 =
@@ -16,7 +18,5 @@ The kugelblitz would go down and then go upwards along the 2 coins and finally k
 The kugelblitz would come down and start moving in circles from coin to coin. You could stop this behaviour by collecting 1 of the coins at the right time.
 
 = More Ideas =
-
-* The kugelblitz could electrify water if it hits it. This would have the effect that all water tiles that are connected with the water tile that was hit are glowing yellow and the player and badguys in the water will be hurt.
 
 * The kugelblitz could be attracted to spikes and if it hits them disappear. Like a lightning arrester.
