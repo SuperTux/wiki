@@ -83,6 +83,10 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Create "potion" object. That comes out of BonusBlocks. Make the sprite of the potion configurable and make it possible to activate a script when the potion has been hit. The first thing we can use this is to have a red and a blue potion that flip the level/restore it to normal.
 * '''H:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
+=== Optimisations ===
+* '''H:''' Implement image cache in the Surface class. If we load multiple regions from the same image file, then we should just create 1 big texture with the whole image once and use UVcoords for the regions
+* '''M:''' Load Sprites lazily (ie. parse the sprite description file but delay loading of graphics until the sprite is used)
+
 === Miscellaneous ===
 * '''H:''' Documentation (README+INSTALL) is out of date. Someone with good english knowledge should rewrite it. Would also be a good idea to simplify the INSTALL docu a bit. Should be enough to state that we need SDL and where to get it. No need for advertising all the platforms SDL runs on and yada yada...
 * '''H:''' Add more try/catch blocks in the source so that the game handles simple errors more smoothly. (This is very visible when loading config files or savegames failed)
