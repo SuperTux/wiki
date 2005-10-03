@@ -64,7 +64,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Badguys ===
 * '''H:''' bring back stay on platform flag
 * '''H:''' reimplement fish
-* '''H:''' do something with the wingling
+* '''M:''' do something with the wingling
 * '''H:''' badguy squish code isn't perfect at the moment... you sometimes get hit althought you should have squished the badguy.
 * '''L:''' iceblock should slide over one-space holes
 * '''?:''' do something with the tree?
