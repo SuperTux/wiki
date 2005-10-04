@@ -1,73 +1,57 @@
-'''SuperTux Portable''' aims to allow users to play SuperTux on embedded devices such as PDAs, the Game Boy Advance, Nintendo DS or low-CPU PCs. 
-
-This page is meant to collect links to whatever ports are sitting around the internet. Note that the developers have nothing to do with these ports, so you're on your own when installing them or dealing with whatever problems they have.
+This page is meant to collect ideas for a possible 'low spec SuperTux', by that we mean a SuperTux branch for embedded devices like PDA, Gameboy Advance, Nintendo DS or low-CPU PCs.
 
 == Devices ==
 
-=== iPhone ===
+=== Mobile Phones ===
 
-An iPhone port of the development version was being developed by a third party group, but has been put on hold due to GPL/App Store incompatibility: [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-March/002943.html] [http://www.fsf.org/blogs/community/why-free-software-and-apples-iphone-dont-mix]
+* Resolution: ???
+* Controlls: 0-9 keypad, probally additional button to go into the menu
+* Programming Language: Java
+* Notes: due to limited controls and Java requirement this might need an extra version
 
-=== Android === 
+=== Gameboy Advance ===
 
-* Port by pelya:  [https://play.google.com/store/apps/details?id=org.lethargik.supertux2 Google Play] [http://libsdl-android.sourceforge.net/ Web site] [https://github.com/pelya/commandergenius/tree/sdl_android/project/jni/application/supertux GitHub]<br />As of December 2014, this one uses a recent development snapshot (contrary to the Google Play screenshots) and receives updates from its developer.  It is mostly playable, but with pitifully low framerates on some levels on a Nexus 5 and a 2013 LTE Nexus 7 both running the Carbon ROM.
-* [http://forum.xda-developers.com/showthread.php?t=753526 A functional, but outdated, port]
+* Resolution: 240x160
+* Graphics: Mode0 provides 4 tilemap layers and 128 sprites, tiles can be 8x8 - 64x64
+* Controls: DPad, A, B, Start, Select, L, R
+* Programming Language: C, Assembler
 
-=== Symbian ===
-A port for Symbian phones exists at [http://www.symbian-freak.com/downloads/freeware/cat_s60_3rd/descriptions/games/supertux_classic_jump_n_run_game_for_symbian_device.htm symbian-freak.com].
+=== Nintendo DS ===
 
-=== Maemo ===
-Download from maemo.org: http://maemo.org/downloads/product/Maemo5/supertux-stable/
+* Resolution: 256x192
+* Graphics: ???
+* Controls: DPad, A, B, X, Y, Start, Select, L, R, Touchscreen
+* Programming Language: C, Assembler
 
-=== Game Boy Advance ===
+=== GP32x ===
 
-* [http://pingus.seul.org/~grumbel/tmp/supertuxgba.jpg SuperTux on GBA (mockup)]
-* http://pingus.seul.org/~grumbel/tmp/supertux-2005-10-13.gba
+* Resolution: 320x240
+* Graphics: plain framebuffer
+* Controls: DPad, A, B, Start, Select, L, R
+* Programming Language: C, Assembler
 
-=== GP2X ===
+=== GPx2 ===
 
-* Port is in development [http://www.gp2x.de/cgi-bin/cfiles.cgi?0,0,0,0,46,1199 Elektranox], continued as [http://archive.gp2x.de/cgi-bin/cfiles.cgi?0,0,0,0,35,1454 scachi]
+* Resolution: 320x240
+* Graphics: plain framebuffer, has SDL available
+* Controls: DPad, A, B, X, Y, Start, Select, L, R
+* Programming Language: C
 
 === Playstation Portable ===
 
-An [[Download/Stable#PlayStation Portable .28PSP.29|unofficial port of version 0.1.3 for the PSP]] has already been created. Also see [http://forums.qj.net/showthread.php?t=31140 here].
+* Resolution: 480 x 272
+* Graphics: ???
+* Controls: DPad, A, B, X, Y, Start, Select, L, R, Analog-Stick, (Analog-Button?)
+* Programming Language: C, Assembler
 
-=== PDA, Zaurus ===
+=== PC ===
 
-0.1.1 was ported to the 640x480 Zauruses: http://www.killefiz.de/zaurus/showdetail.php?app=2759
+* Speed: game should be able to run on a Pentium 90Mhz CPU
+* Resolution: 320x240, possible an additional 'scaled mode' with 640x480 for double sprite and tile size
+* Controls: Gamepad with unknown number of buttons, at least 2 or Keyboard
 
-UPDATE: 0.1.1 version has been replaced by 0.1.2 version at http://www.elsix.org/index.php?w=project&p=supertux
+== Implementation ==
 
-=== Pocket PC ===
+The development should start on the GBA, since that is the device with the lowest, but still quite usable specs. The tiles in the game would be 16x16, so large Tux would be 32x16 large, half the size it was in Milestone1. Due to the tile and screen size, the visible on screen area would be equivalent to a 480x320 window in Milestone1, ie. smaller then that in Milestone1, but normal for GBA games.
 
-Ported: http://rapidshare.com/files/4104619/Supertux.v1.0.rar.html
-
-=== Nintendo Wii ===
-
-http://code.google.com/p/supertux-wii/
-
-=== Dingoo A320 ===
-
-http://dingoo-scene.blogspot.com/2009/11/supertux-for-dingoo.html
-
-=== Nintendo Gamecube ===
-
-Available standalone or as part of GCLinux.
-http://www.dcemu.co.uk/vbulletin/showthread.php?t=46506
-
-=== Pandora Handheld ===
-Download from OpenHandheld: http://dl.openhandhelds.org/cgi-bin/pandora.cgi?0,0,0,0,35,73
-Or, from MegaUpload: http://www.megaupload.com/?d=56GP7W2B
-
-===Playstation3===
-https://sites.google.com/site/kunaldeo/supertux2forps3
-
-=== More Ports ===
-
-These have been ported, but have no links yet:
-
-* Nokia 770 Internet Tablet
-* S60 3rd & 5th Edition smartphones
-* Sega Dreamcast
-
-[[Category:Development]]
+[http://pingus.seul.org/~grumbel/tmp/supertuxgba.jpg SuperTux on GBA (mookup)]
