@@ -44,6 +44,13 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 * Controls: DPad, A, B, X, Y, Start, Select, L, R, Analog-Stick, (Analog-Button?)
 * Programming Language: C, Assembler
 
+=== PDA, Zaurus ===
+
+* Resolution: 640x480
+* Graphics: (Framebuffer?)
+* Controls: Touchscreen, four-way dpad, (one button?)
+* Programming Language: (C?)
+
 === PC ===
 
 * Speed: game should be able to run on a Pentium 90Mhz CPU
