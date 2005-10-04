@@ -43,6 +43,7 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 * Graphics: ???
 * Controls: DPad, A, B, X, Y, Start, Select, L, R, Analog-Stick, (Analog-Button?)
 * Programming Language: C, Assembler
+* Notes: Resolution is to small for double-sprite size, yet to large for 32x16 sprites, maybe need something inbetween
 
 === PDA, Zaurus ===
 
