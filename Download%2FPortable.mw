@@ -12,7 +12,7 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 === Gameboy Advance ===
 
 * Resolution: 240x160
-* Graphics: Mode0 provides 4 tilemap layers and 128 sprites, tiles can be 8x8 - 64x64
+* Graphics: Mode0 provides 4 tilemap layers and 128 sprites, tiles are 8x8 and you can have either 256 colors per tile and 256 tiles or 16 colors per tile and 512 tiles on a map
 * Controls: DPad, A, B, Start, Select, L, R
 * Programming Language: C, Assembler
 
