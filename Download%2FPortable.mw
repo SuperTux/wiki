@@ -47,9 +47,9 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 
 === PDA, Zaurus ===
 
-* Resolution: 640x480
+* Resolution: 640x480 (high-end Zs ONLY), 320x240 (5500 series Z models - FAR more common)
 * Graphics: (Framebuffer?)
-* Controls: Touchscreen, four-way dpad, (one button?)
+* Controls: Touchscreen, four-way dpad, (one button?), mini-qwerty based keyboard?
 * Programming Language: (C?)
 
 === PC ===
