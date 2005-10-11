@@ -1,7 +1,10 @@
 I think we should just stay with jam and diss SCons completely. Jam seems to do enough good. --[[User:RavuAlHemio|Ravu]] 07:27, 7 Apr 2005 (BST)
 : Yeah, that's most likely what's going to happen unless somebody volunteers to write a SCons script that suits our needs. - [[User:Sik0fewl|Sik0fewl]] 17:32, 7 Apr 2005 (BST)
 
-A "jam uninstall" target seems unnecessary to me. You can easily install in a separate prefix folder or use something like [[http://relink.sourceforge.net/ relink]].
+----
+
+A "jam uninstall" target seems unnecessary to me. You can easily install in a separate prefix folder or use something like [http://relink.sourceforge.net/ relink]. - [[User:MatzeB|MatzeB]]
+:Be it as it may, we need *some* way of uninstalling SuperTux once it's installed. How many times did I meet a package that didn't have an uninstall target? Too often for my taste... <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 19:38, 11 Oct 2005 (BST)
 
 ----
 
