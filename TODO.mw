@@ -78,12 +78,13 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 === Optimisations ===
-* H: Split more sprite decriptions into separate .sprite files so that they get lazily loaded.
+* '''H:''' Split more sprite decriptions into separate .sprite files so that they get lazily loaded.
 
 === Miscellaneous ===
 * '''H:''' Documentation (README+INSTALL) is out of date. Someone with good english knowledge should rewrite it. Would also be a good idea to simplify the INSTALL docu a bit. Should be enough to state that we need SDL and where to get it. No need for advertising all the platforms SDL runs on and yada yada...
 * '''H:''' Add more try/catch blocks in the source so that the game handles simple errors more smoothly. (This is very visible when loading config files or savegames failed)
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
+** For the final release, we should also include a conversion algorithm that upgrades the levels to the new format.
 * '''M:''' when closing the SDL window, game bails out with <tt>Unexpected exception: Received window close</tt>. This is confusing to the users.
 * '''L:''' when loading bonus world before ever completing a level there, game prints <tt>Problem loading game '/home/$USER/.supertux/save/bonus1-slot1.stsg': Parser problem: Couldn't open file '/home/$USER/.supertux/save/bonus1-slot1.stsg'.</tt>, again confusing to the user.
 * '''M:''' save score on per-level basis to make high-score (this means coins/time)
