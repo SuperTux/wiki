@@ -1,0 +1,30 @@
+If you would like to contribute to SuperTux, you should follow a series of instructions to make the process as hassle-free as possible for you and the developers.
+
+== Generic instructions ==
+
+These instructions apply to every function you may want to adopt.
+
+#Join the SuperTux [[Mailing Lists|mailing list]] to stay up to date with recent developments.
+#Check out the latest SuperTux [[Download/Subversion|development version]] and compile it by following the instructions in the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/INSTALL?view=markup INSTALL file].
+#Modify or add something that is either listed in the [[TODO]] or seems useful to you.
+#Send your modified work to the mailing list.
+
+The developers will review your work and, if they share your opinion about its usefulness, check it into the repository.
+
+== Artists ==
+
+Please keep the size of the attachments to the mailing list as small as possible. The best way is to convert smaller graphics to PNG and larger ones into the JPEG format.
+
+== Level designers ==
+
+Your level should comply with the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/docs/levelguidelines.txt?view=markup level guidelines] set by the SuperTux team.
+
+== Programmers ==
+
+You can knock down file sizes by only sending differences between the files. Subversion provides you with a useful feature to generate such files. If you e.g. want to post the changes you made to src/main.cpp, use the following command:
+
+ svn diff src/main.cpp > fix-year.patch
+
+Now, you can attach ''fix-year.patch'' to an e-mail to the mailing list. If you want to apply a patch generated using ''svn diff'', use the following command:
+
+ patch -p0 < fix-year.patch
