@@ -6,7 +6,7 @@ If you already have Subversion installed, you will have to issue these commands 
 
 Once the checkout process is completed, you have SuperTux in your ''directory_for_source_files''/supertux directory, e.g. ''~/src/supertux''.
 
-''SuperTux!''
+If you want to get the newest updates to the repository, move to the directory where you checked out SuperTux (e.g. ''~/src/supertux'') and call <code>svn update</code>.
 
 == What is Subversion? ==
 [http://subversion.tigris.org/ Subversion] is a version control system that aims to be used as CVS, but removing the numerous design mistakes. It can access repositories via its own protocol (optionally bridged over SSH) plus HTTP and HTTPS using the WebDAV standard.
