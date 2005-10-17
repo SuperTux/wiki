@@ -1,0 +1,14 @@
+2005-10-17
+* New, more compact, format to define multiple tiles in one image is available. width/height are the size of the image in tile units, 'ids' are the ids you want to assign to each 32x32 region of the image (left to right, top to bottom), 'attributes' the attributes you want to assign (solid, lava, water) in integer format, image is the image you want to use. This syntax doesn't support animation or 'data', that however shouldn't be a problem for most multi-tile images.
+
+ (tiles (width  2)
+        (height 2)
+        (ids 137 138
+             139 140)
+        (attributes 0 0 0 0)
+        (image "foo.png"))
+
+* [http://pingus.seul.org/~grumbel/tmp/supertux-backflip-2005-10-17.gif Backflip Animation test]
+
+2005-10-13
+* A first 'playable' (not really, just a little tech demo) version of [http://pingus.seul.org/~grumbel/tmp/supertux-2005-10-13.gba SuperTux Portable]
