@@ -56,8 +56,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' create a script for the intro cutscene
 * '''H:''' make it possible to modify the worldmap after the yeti has been defeated
 * '''H:''' extract translatable string from the scripts
-* '''H:''' make it possible to load additional script files
-* '''H:''' always load some standard script file that contains helper functions like wait
 * '''H:''' write a bit of documentation about the scripting API (at least a sentence or two about each function)
 * '''M:''' create a script for the yeti outro
 
