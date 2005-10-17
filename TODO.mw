@@ -101,8 +101,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' some kind of stone pedestral to place special items on
 * '''H:''' new tiles for the forest worldmap
 * '''H:''' image for marking reset points (maybe a bell that starts swinging once Tux touched it?)
-* '''M:''' automatically make foreground tiles translucent if Tux stands behind them; create an option (in the level editor) to prevent certain tiles from being affected by that
-* '''M:''' compensate players for requiring OpenGL with lighting and similar effects
 * '''L:''' graphics for ropes
 * '''L:''' graphics for bubbles and soap (not necessary for Milestone 2)
 * '''?/D:''' new enemies (first need to be designed)
