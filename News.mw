@@ -2,6 +2,8 @@
 * Penny Sprite Test: http://pingus.seul.org/~grumbel/tmp/supertux-penny-2005-10-18.png
 * [http://pingus.seul.org/~grumbel/tmp/ghost2.png Ghost Sketches 1]
 * [http://pingus.seul.org/~grumbel/tmp/ghosts.png Ghost Sketches 2]
+* Littletree: http://pingus.seul.org/~grumbel/tmp/supertux-littletree-bush.png
+* Littletree2: http://pingus.seul.org/~grumbel/tmp/supertux-littletree.gif
 
 2005-10-17
 * New, more compact, format to define multiple tiles in one image is available. width/height are the size of the image in tile units, 'ids' are the ids you want to assign to each 32x32 region of the image (left to right, top to bottom), 'attributes' the attributes you want to assign (solid, lava, water) in integer format, image is the image you want to use. This syntax doesn't support animation or 'data', that however shouldn't be a problem for most multi-tile images.
