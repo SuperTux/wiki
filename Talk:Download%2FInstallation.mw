@@ -62,4 +62,6 @@ Regards, Jojaba
 == Unofficial Windows package ==
 I want to make an own 0.1.3 Windows build but i don't know how to do that. Is it any documentation for how to compile SuperTux for Windows.
 
+There is not docu on how to compile on windows. The windows package was compiled with mingw and msys. You also need the unofficial msys jam build from the crystalspace project to compile the project. Unfortunately I don't have the time to describe all steps necessary for compilation.
+
 --[[User:Super-Simon|Super-Simon]] 15:07, 7 Oct 2005 (BST)
