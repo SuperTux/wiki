@@ -1,13 +1,16 @@
 __NOTOC__
 == SuperTux development ==
 * [[News]]
-* [[Milestone 2]]
 * [[Game design]]
 * [[Game engine]]
-* [[TODO]]
-* [[Bugs]]
 * [[Meeting logs]]
 * [[SuperTux Portable]]
+
+== Milestone 2 ==
+* [[Milestone 2]]
+* [[Forest]]
+* [[TODO]]
+* [[Bugs]]
 
 == Developer Documentation == 
 * [[AddTiles | How to add tiles]]
