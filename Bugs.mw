@@ -2,6 +2,7 @@ This page is for listing all known bugs, because it seems that some have been es
 
 == Website ==
 * http://super-tux.sourceforge.net/ (subpages like http://super-tux.sourceforge.net/welcome.html ) exist, but should be deleted and redirected to http://supertux.berlios.de/
+* Inoffical 0.1.3 installer for Windows is a deadlink
 
 == Release 0.1.3 ==
 * Wrong Texture type in texture.cpp (GL_RGB10_A2). Only fglrx (ati-drivers) will interpret it correct and will display waterfall not transparent in opengl mode. It is better to use GL_RGBA here since the most drivers (and mesa) interprets GL_RGB10_A2 as GL_RGBA (which is stupid....but it is so. so dont bother the drivers which does it correct)
