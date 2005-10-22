@@ -1,12 +1,10 @@
-__NOTOC__
-
 Since May 2005, SuperTux sports a Squirrel scripting interface useful for level designers who want to add some interactive pep to their levels. This document poses as a reference article for those who want to explore the various objects of the SuperTux scripting model.
 
 == What is Squirrel? ==
-One of your first questions might be, "What does a rodent have to do with a penguin?" [http://www.squirrel-lang.org/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level and worldmap files. The [[Console]] is a full-fledged Squirrel interpreter as well.
+One of your first questions might be, "What does a rodent have to do with a penguin?" [http://squirrel.sourceforge.net/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level files.
 
-== Squirrel, S-expr and SuperTux ==
-I have no clue if the developers simply chose Squirrel just because the name so nicely integrates into the series of words "SuperTux" and "[[S-expr]]". Currently, the Squirrel code is integrated in string arguments of Scheme elements in SuperTux level files. (Whew.) This is an example code block inside a level:
+== Squirrel, Scheme and SuperTux ==
+I have no clue if the developers simply chose Squirrel just because the name so nicely integrates into the series of words "SuperTux" and "Scheme". Currently, the Squirrel code is integrated in string arguments of Scheme elements in SuperTux level files. (Whew.) This is an example code block inside a level:
 <pre>(supertux-level
   (version 2)
   (name (_ "Go Blind"))
@@ -15,85 +13,347 @@ I have no clue if the developers simply chose Squirrel just because the name so 
     (name "main")
     (music "Annoying_penguin_gawking_sounds.ogg")
 
-    ;; tilemaps, objects, whatever. (optional)
-    ;...
+    ;; (Tilemaps, objects, whatever.)
 
     (init-script "
-Effect.fade_out(2.5);
+DisplayEffect.fade_out(2.5);
 ")
-
-    ;; more tilemaps, objects, and whatever. (optional)
-    ;...
-
   )
 )</pre>
 
-When this level loads, the screen fades out completely during two and a half seconds right after the level is loaded. (Mind you, this would be a frustrating experience for the player if you add a horde of badguys near the spawn point...)
+When this level loads, the screen fades out completely during two and a half seconds right after the level is loaded. (Mind you, this would be a frustrating experience for the player if you add a horde of badguys near the spawn point.)
 
 == Object reference ==
 If you are interested in an object and what cans of worms you can open with it, this section is for you.
 
-"(NYI)" after the function name symbolises functions that haven't been implemented yet. Calling them will result in a line being printed to standard output informing anybody who reads it that the script is using a function that actually doesn't exist.
+"(NYI)" after the function name symbolises functions that haven't been implemented yet. Calling them will result in a line being printed to standard output informing anybody who reads it that the script is using a function that actually doesn't exist. (Win32 users will happily ignore this, because they simply start the application by opening it with Explorer. Unix users tend to be more interested in what SuperTux can actually tell them, so it's better if you don't use non-existent functions in your scripts.)
 
-=== Classes ===
+=== Global Constants ===
+These constants can be accessed from anywhere in the game code.
 
-{| class="objectlist"
-|colspan="2" class="title"| Classes
-|-
-! [[ScriptingGlobals|Globals]]
-| This section contains all globally defined constants and functions
-|-
-! [[ScriptingPlayer|Player]]
-| An object that is controlled by a (human) player
-|-
-! [[ScriptingDisplayEffect|DisplayEffect]]
-| An object that does graphical effects on the whole screen
-|-
-! [[ScriptingCamera|Camera]]
-| Control over the camera (what the player sees)
-|-
-! [[ScriptingLevel|Level]]
-| Control over the status the game keeps about the current level.
-|-
-! [[ScriptingLevelTime|Level time]]
-| Scripting interface to level time object
-|-
-! [[ScriptingScriptedObject|ScriptedObject]]
-| Object in a level than can be manipulated from scripts
-|-
-! [[ScriptingText|Text]]
-| Display text in the top-center of the screen
-|-
-! [[ScriptingFloatingImage|FloatingImage]]
-| Display an image floating in front of anything on-screen
-|-
-! [[ScriptingPlatform|Platform]]
-| Scripting interface to [[Moving platform|Platform]] object
-|-
-! [[ScriptingTilemap|Tilemap]]
-| Scripting interface to [[Tilemap]] object
-|-
-! [[ScriptingWind|Wind]]
-| Scripting interface to [[Wind]] object
-|-
-! [[ScriptingCandle|Candle]]
-| Scripting interface to Candle object
-|-
-! [[ScriptingThunderstorm|Thunderstorm]]
-| Scripting interface to [[Thunderstorm]] object
-|-
-! [[ScriptingAmbientSound|AmbientSound]]
-| Scripting interface to AmbientSound object
-|-
-! [[ScriptingWill-o-wisp|Will-o-wisp]]
-| Scripting interface to [[Will-o-wisp]] object
-|-
-! [[ScriptingSector|Sector]]
-| Scripting interface to the [[Sector]] itself.
-|-
-|}
+==== KEY_BRASS ====
+Type: integer
 
-TODO: Improve format maybe?
+Value: <tt>1</tt>
 
-{{Navbox Scripting reference}}
-[[Category:Scripting Reference]]
+Represents the brass key.
+
+Used in: <tt>add_key</tt> as argument 1
+
+==== KEY_IRON ====
+Type: integer
+
+Value: <tt>2</tt>
+
+Represents the iron key.
+
+Used in: <tt>add_key</tt> as argument 1
+
+==== KEY_BRONZE ====
+Type: integer
+
+Value: <tt>4</tt>
+
+Represents the bronze key.
+
+Used in: <tt>add_key</tt> as argument 1
+
+==== KEY_SILVER ====
+Type: integer
+
+Value: <tt>8</tt>
+
+Represents the silver key.
+
+Used in: <tt>add_key</tt> as argument 1
+
+==== KEY_GOLD ====
+Type: integer
+
+Value: <tt>16</tt>
+
+Represents the gold key.
+
+Used in: <tt>add_key</tt> as argument 1
+
+=== Global Functions ===
+These global functions access basic or generic methods of SuperTux. They are called without an object name.
+
+==== display_text_file ====
+Usage: <tt>display_text_file(string filename)</tt>
+
+Displays the SuperTux text file named <tt>filename</tt>. (The path is relative to the level file.)
+
+See also: SuperTux file format reference, SuperTux texts
+
+==== wait ====
+Usage: <tt>wait(float time)</tt>
+
+Pauses execution of the squirrel code for <tt>time</tt> seconds.
+
+==== translate ====
+Usage: <tt>translate(string text)</tt>
+
+Returns: Translated string
+
+Translates <tt>text</tt> into the user's locale.
+
+Note: This construct is unfortunately not yet recognised by XGetText, so translation files have to be written manually.
+
+==== import ====
+Usage: <tt>import(string filename)</tt>
+
+Imports and runs the Squirrel script <tt>filename</tt>. (The path is relative to the level file.)
+
+==== add_key ====
+Usage: <tt>add_key(int key)</tt>
+
+Adds or removes a key from the player's posession. <tt>key</tt> should be replaced with one of the <tt>KEY_</tt> constants.
+
+See also: src/player_status.hpp
+
+=== DisplayEffect ===
+<tt>DisplayEffect</tt> is an interface for toying with the display.
+
+==== fade_out ====
+Usage: <tt>DisplayEffect.fade_out(float fadetime)</tt>
+
+Gradually fades out the screen to black for the next <tt>fadetime</tt> seconds.
+
+==== fade_in ====
+Usage: <tt>DisplayEffect.fade_in(float fadetime)</tt>
+
+Gradually fades in the screen from black for the next <tt>fadetime</tt> seconds.
+
+==== set_black ====
+Usage: <tt>DisplayEffect.set_black(bool black)</tt>
+
+Blackens or un-blackens the screen (depending on the value of <tt>black</tt>).
+
+==== is_black ====
+Usage: <tt>DisplayEffect.is_black()</tt>
+
+Returns: <tt>bool</tt>
+
+Returns true if the screen has been blackened by <tt>set_black</tt>. Calling <tt>fade_in</tt> or <tt>fade_out</tt> resets the return value to <tt>false</tt>.
+
+==== sixteen_to_nine ====
+Usage: <tt>DisplayEffect.sixteen_to_nine()</tt>
+
+Sets the display ratio to 16:9, effectively adding black bars at the top and bottom of the screen. Should be used before cutscenes.
+
+==== four_to_three ====
+Usage: <tt>DisplayEffect.four_to_three()</tt>
+
+Sets the display ratio to 4:3, removing the black bars added by <tt>sixteen_to_nine()</tt>. Should be used after cutscenes.
+
+=== Camera ===
+<tt>Camera</tt> is an interface to manipulate the camera.
+
+==== shake (NYI) ====
+Usage: <tt>Camera.shake(float time, float x, float y)</tt>
+
+Warning: This function has not yet been implemented.
+
+==== set_pos (NYI) ====
+Usage: <tt>Camera.set_pos(float x, float y)</tt>
+
+Warning: This function has not yet been implemented.
+
+==== set_mode (NYI) ====
+Usage: <tt>Camera.set_mode(string modestring)</tt>
+
+Warning: This function has not yet been implemented.
+
+=== Level ===
+The <tt>Level</tt> class provides basic controlling functions for the current level.
+
+==== finish ====
+Usage: <tt>Level.finish()</tt>
+
+Ends the current level and marks it as completed if launched from a worldmap.
+
+Tip: Very useful if you have created a frustrating level and want to, at some point, save the player from agony.
+
+==== spawn ====
+Usage: <tt>Level.spawn(string sectorname, string spawnpointname)</tt>
+
+Respawns Tux in the sector <tt>sectorname</tt> at the <tt>spawnpointname</tt> spawnpoint.
+
+Exceptions: If <tt>sectorname</tt> or <tt>spawnpointname</tt> are empty or the specified sector does not exist, the function will bail out first chance it gets. If the specified spawnpoint doesn't exist, Tux will be spawned at the spawnpoint named <tt>main</tt>. If this spawnpoint doesn't exist either, Tux will simply end up at the origin (top-left 0, 0).
+
+==== flip_vertically ====
+Usage: <tt>Level.flip_vertically()</tt>
+
+Flips the level vertically (i.e. top is now bottom and vice versa). Call again to revert the effect.
+
+Tip: Make sure the player can land on something after the level is flipped!
+
+=== ScriptedObject ===
+A <tt>ScriptedObject</tt> is basically a SuperTux object that can be scripted to move around and animate. This object will be used in the SuperTux cutscenes a whole lot.
+
+==== Usage notes ====
+Since a <tt>ScriptedObject</tt> is a reference object and not a statically declared object, you will have to build it into your level file, where a <tt>scriptedobject</tt> is a child of <tt>sector</tt>. This is an example definition:
+<pre>
+(scripted-object
+  (name "WOOT")
+  (x 420)
+  (y 94)
+  (sprite "snowball")
+  (solid #t)
+  (physic-enabled #f)
+  (visible #t)
+)
+</pre>
+
+Now, the object can be accessed in code using the <tt>WOOT</tt> identifier like so:
+<pre>
+WOOT.set_animation("left");
+</pre>
+
+==== set_animation ====
+Usage: <tt><scriptedobject>.set_animation(string animation_name)</tt>
+
+Activates the sprite's animation specified in <tt>animation_name</tt>.
+
+==== get_animation ====
+Usage: <tt><scriptedobject>.get_animation()</tt>
+
+Returns: <tt>string</tt>
+
+Returns the name of the sprite's current animation.
+
+==== move ====
+Usage: <tt><scriptedobject>.move(float x, float y)</tt>
+
+Moves the object by <tt>x</tt> units to the right and <tt>y</tt> down relative to its current position.
+
+==== set_pos ====
+Usage: <tt><scriptedobject>.set_pos(float x, float y)</tt>
+
+Basically identical to <tt>move</tt>, except its relativity to the sector origin.
+
+==== get_pos_x ====
+Usage: <tt><scriptedobject>.get_pos_x()</tt>
+
+Returns: <tt>float</tt>
+
+Returns the X coordinate of the object's position.
+
+==== get_pos_y ====
+Usage: <tt><scriptedobject>.get_pos_y()</tt>
+
+Returns: <tt>float</tt>
+
+Totally identical to <tt>get_pos_x</tt> except for its obvious choice of the other (Y) axis.
+
+==== set_velocity ====
+Usage: <tt><scriptedobject>.set_velocity(float x, float y)</tt>
+
+Makes the object move in a certain direction (with a certain speed) given by the <tt>x</tt> and <tt>y</tt> coordinates.
+
+==== get_velocity_x ====
+Usage: <tt><scriptedobject>.get_velocity_x()</tt>
+
+Returns: <tt>float</tt>
+
+Returns the object's velocity in the direction of the X coordinate.
+
+==== get_velocity_y ====
+Usage: <tt><scriptedobject>.get_velocity_y()</tt>
+
+Returns: <tt>float</tt>
+
+The difference between this function and <tt>get_velocity_x</tt> is just the same like between <tt>get_pos_y</tt> and <tt>get_pos_x</tt>: same thing, different coordinates.
+
+==== set_visible ====
+Usage: <tt><scriptedobject>.set_visible(bool visible)</tt>
+
+Shows or hides the object according to the value of <tt>visible</tt>.
+
+==== is_visible ====
+Usage: <tt><scriptedobject>.is_visible()</tt>
+
+Returns: <tt>bool</tt>
+
+Returns <tt>true</tt> if the object is visible. (You've seen this coming, haven't you?)
+
+==== get_name ====
+Usage: <tt><scriptedobject>.get_name()</tt>
+
+Returns: <tt>string</tt>
+
+Simply gives you the name of the scripted object (as if you didn't have it already...)
+
+=== Sound ===
+This class provides a very simple interface to the audio subsystem.
+
+==== play_music ====
+Usage: <tt>Sound.play_music(string track_name)</tt>
+
+Plays the selected music track (automatically prepending the path to the music folder and appending the <tt>.ogg</tt> extension).
+
+==== play_sound ====
+Usage: <tt>Sound.play_sound(string sound_name)</tt>
+
+Plays the sound specified in <tt>sound_name</tt> (that is identical to the filename of the sound without the <tt>.wav</tt> extension).
+
+=== Text ===
+This module provides access to methods reponsible for displaying text on-screen.
+
+==== set_text ====
+Usage: <tt>Text.set_text(string text)</tt>
+
+Sets the text string to be displayed to <tt>text</tt>.
+
+==== set_font ====
+Usage: <tt>Text.set_font(string font)</tt>
+
+Sets the font of the text to be displayed to <tt>text</tt>. Currently valid values are <tt>gold</tt>, <tt>white</tt>, <tt>blue</tt>, <tt>gray</tt>, <tt>big</tt> and <tt>small</tt>.
+
+==== fade_in ====
+Usage: <tt>Text.fade_in(float time)</tt>
+
+Fades in the specified text for the next <tt>time</tt> seconds.
+
+==== fade_out ====
+Usage: <tt>Text.fade_out(float time)</tt>
+
+Just the opposite of <tt>fade_out</tt>.
+
+==== set_visible ====
+Usage: <tt>Text.set_visible(bool visible)</tt>
+
+Shows or hides the text abruptly (drastic counterpart to <tt>fade_in</tt> and <tt>fade_out</tt>).
+
+==== set_centered ====
+Usage: <tt>Text.set_centered(bool centered)</tt>
+
+If <tt>centered</tt> is <tt>true</tt>, the text will be centered on the screen. Otherwise, it will be left-aligned.
+
+=== Player ===
+This module contains methods controlling the player. (No, SuperTux doesn't use mind control. Player refers to the player object.)
+
+==== make_invincible ====
+Usage: <tt>Player.make_invincible()</tt>
+
+Makes the player invincible for a predefined amount of time.
+
+See also: <tt>TUX_INVINCIBLE_TIME</tt> in src/object/player.hpp for the amount of seconds that the player becomes invincible.
+
+==== deactivate ====
+Usage: <tt>Player.deactivate()</tt>
+
+Stops the player and blocks the movement controls.
+
+Tip: Don't call this in front of a horde of badguys.
+
+==== activate ====
+Usage: <tt>Player.activate()</tt>
+
+Reactivates the player's movement controls.
+
+==== walk ====
+Usage: <tt>Player.walk(float velocity)</tt>
+
+Makes the player move in a certain horizontal velocity (specified by <tt>velocity</tt>). A negative velocity moves the player to the left.
