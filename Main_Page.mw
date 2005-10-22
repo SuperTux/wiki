@@ -13,10 +13,12 @@ Welcome to the SuperTux development wiki.
 * [[SuperTux Portable]]
 * [[Links]]
 
-== Engine Documentation == 
+== Developer Documentation == 
 * [[AddTiles | How to add tiles]]
 * [[AddSprites | How to add sprites]]
-* [[Level_format]]
+* [[Level format | Level File Format]]
+* [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
+* [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
 
 == SuperTux Users ==
 * [[Levels]]
