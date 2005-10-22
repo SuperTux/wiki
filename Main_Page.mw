@@ -13,6 +13,11 @@ Welcome to the SuperTux development wiki.
 * [[SuperTux Portable]]
 * [[Links]]
 
+== Engine Documentation == 
+* [[AddTiles | How to add tiles]]
+* [[AddSprites | How to add sprites]]
+* [[Level_format]]
+
 == SuperTux Users ==
 * [[Levels]]
 * [[Demos]]
