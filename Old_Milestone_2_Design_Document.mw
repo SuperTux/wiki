@@ -1,6 +1,16 @@
 = About This Page =
 This document is work in progress; when finished, its purpose is to provide a final design paper for SuperTux Milestone 2. General ideas go into their respective areas on the [[game design]] pages. Please '''do not''' change anything on this page that hasn't been discussed and approved by the developers!
 
+= Engine =
+
+SuperTux Milestone 2 will use OpenGL to draw the graphics. The features of this library will be used to enhance gameplay and visual content in several ways:
+
+* Create dark levels that are illuminated only in certain areas (for example around Tux, lamps, lava, certain badguys etc.)
+* Colored blocks that are only visible when in the range of a light source with the same color
+* Add atmosphere to levels using different lighting
+* Zooming (in cutscenes)
+* Make foreground translucent when Tux walks behind it
+
 = Worldmap =
 
 After finishing Antarctica by beating the worlds boss, a cutscene, replacing the currently displayed text, will be shown. (For a detailed description of cutscenes, see section "Story".) Tux will then advance to world 2, the forest island. Its worldmap will be built using the same, possibly enhanced, format that Antarctica uses. The worldmap will be designed as follows: The island consists of four sections. A light friendly looking forest where Tux starts his journey, a ghost forest section, and a transition between them; in the center of the island, surrounded by the ghost forest is the world's castle, called Dark Forest Keep. Levels will be spread throughout the whole island, distributed as follows: 50 per cent of the levels are inside the light section, 30 per cent inside the haunted section, with one or two levels inside the transition area. The remaining 20 per cent will take place inside the castle.
@@ -28,6 +38,8 @@ Levels have the ability to autoscroll in all four directions. There is no fixed 
 * picking up a special item (for example, one of the five keys),
 * killing a certain badguy or boss.
 
+Milestone 2 will have around 15 levels, each focusing on a unique theme (for example, one focusing on moving platforms, a vertical level with rising lava, tileset introductions, et cetera - a full list will follow).
+ 
 For more general information on level design, read the file "levelguidelines.txt" in the docs directory of the SuperTux repository.
 Level events can be automated using scripts in order to create in-game cutscenes.
 
@@ -43,7 +55,7 @@ Powers like fire must not get in the way of level design
 
 == Permanent Abilities ==
 * Flapping
-* Butt Jump (permanent for big tux)
+* Backflip (permanent for big tux)
 
 = Level Objects =
 * Coin - collect 100 coins to get an extra life.
