@@ -75,9 +75,9 @@ In Milestone 2 in general, the favourite way of enhancing Tux' abilities will be
 General idea: More level objects than powerups, they can be placed where they are needed.
 Powers like fire must not get in the way of level design
 
-== Permanent Abilities ==
-* Flapping
-* Backflip (permanent for big tux)
+== Permanent Abilities (Big Tux only) ==
+* Butt Jump
+* Backflip
 
 = Level Objects =
 * Coin - collect 100 coins to get an extra life.
