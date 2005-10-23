@@ -54,7 +54,6 @@ Ghost Forest:
 * Light forest to ghost forest transition, theme introduction (two levels)
 * Cannons and dispensers
 * Spiders
-* ?
 
 Castle:
 * Main Hall: Theme introduction
@@ -75,7 +74,7 @@ In Milestone 2 in general, the favourite way of enhancing Tux' abilities will be
 General idea: More level objects than powerups, they can be placed where they are needed.
 Powers like fire must not get in the way of level design
 
-== Permanent Abilities (Big Tux only) ==
+== Permanent Abilities (for Big Tux) ==
 * Butt Jump
 * Backflip
 
