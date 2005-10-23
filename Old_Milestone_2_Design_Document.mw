@@ -34,11 +34,33 @@ Levels in the transition area between light and ghost forest, however, follow a 
 * being caught by special badguys that have the ability to carry you over to the other world.
 
 Levels have the ability to autoscroll in all four directions. There is no fixed ending sequence like in Antarctica anymore; level designers can use scripts to determine the ending conditions of a level. The most common level endings will be:
+
 * reaching a goal area somewhere in the level,
 * picking up a special item (for example, one of the five keys),
 * killing a certain badguy or boss.
 
-Milestone 2 will have around 15 levels, each focusing on a unique theme (for example, one focusing on moving platforms, a vertical level with rising lava, tileset introductions, et cetera - a full list will follow).
+Milestone 2 levels will try to focus on a certain theme to make each level unique in gameplay. The following is a list of possible themes for 15 levels:
+
+Light Forest:
+* Theme introdoction and tutorial on new abilities
+* Moving platforms
+* Trampolines
+* Autoscrolling
+* Falling rocks
+* Portable boxes, stacking
+* Vertically flipped level
+
+Ghost Forest:
+* Light forest to ghost forest transition, theme introduction (two levels)
+* Cannons and dispensers
+* Spiders
+* ?
+
+Castle:
+* Main Hall: Theme introduction
+* First Floor: Labyrinth, light switch blocks
+* Tower: Rising Lava
+* Attic: Boss battle
  
 For more general information on level design, read the file "levelguidelines.txt" in the docs directory of the SuperTux repository.
 Level events can be automated using scripts in order to create in-game cutscenes.
