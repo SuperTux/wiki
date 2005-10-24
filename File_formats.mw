@@ -1,12 +1,12 @@
-This document serves the simple purpose of a reference for the files specific to SuperTux (levels, worldmaps, ...). Some of these files can be modified using an editor such as [http://flexlay.berlios.de/ Flexlay]. As for the rest, you can use a plain text editor of your choice.
+This document serves the simple purpose of a reference for the files specific to SuperTux (levels, worldmaps, ...). Some of these files can be modified using an editor such as [http://flexlay.berlios.de/ Flexlay]. For the rest, you can use a plain text editor of your choice.
 
 == Brackets, brackets, brackets (About the Language) ==
-As you might have already noticed, the SuperTux definition files (just about for everything) are full of brackets ('(' and ')'). I know that BASIC programmers already freak out when seeing the vast amount of brackets used in C. The truth is that you can never have too many brackets. (Okay, that's a lie, but I don't know how lenient your compiler is.)
+As you might have already noticed, the SuperTux definition files (just about for everything) are full of brackets ('(' and ')'). This might freak out a few BASIC or Python programmers who have pretty much developed a natural aversion against them.
 
-"That Crazy File Format" used by SuperTux is Lisp. In most of its implementations, it is used as a programming language, but the devs simply thought why not to implement it as a data storage language. And so, the SuperTux data language, nearly fully based on Lisp, was born.
+"The Crazy File Format" used by SuperTux is [[S-expr]]. This syntax is mostly used by programming languages (such as Lisp or Scheme), but the devs simply thought why not to implement it as a data storage language. And so, the SuperTux data language was born.
 
 === Basic Syntax ===
-So now you expect me to teach you Lisp. "You'd like that, wouldn't ya?" Okay, okay, let me teach you a bit.
+So now you expect me to teach you S-expr. "You'd like that, wouldn't ya?" Okay, okay, let me teach you a bit.
 
 Language syntax is (nearly) always best consumable when demonstrated on an example, like so:
 <pre>(supertux-lisp-example
@@ -142,7 +142,7 @@ This section describes the various badguys and their parameters.
 
 The next few sections describe the extra parameters for the other badguys.
 
-=== Common parameters ===
+==== Common parameters ====
 <pre>(<badguy-name>
   (x 270)                 ;; The badguy's X coordinate.
   (y 126)                 ;; The badguy's Y coordinate. (Note that the origin is in the top-left corner!)
@@ -167,7 +167,7 @@ Bouncing Snowballs, Flying Snowballs, Jumpies, Mr Bombs, Mr Iceblocks, Mr Rocket
 *<tt>yeti_stalactite</tt>
 *<tt>zeekling</tt>
 
-=== Dispenser ===
+==== Dispenser ====
 <pre>(dispenser
   (cycle 3)               ;; How often should a badguy be dispensed?
   
@@ -175,7 +175,7 @@ Bouncing Snowballs, Flying Snowballs, Jumpies, Mr Bombs, Mr Iceblocks, Mr Rocket
                           ;; "mriceblock", "mrrocket", "poisonivy" or "random".
 )</pre>
 
-=== Flame ===
+==== Flame ====
 <pre>(flame
   (radius 3)              ;; How big should the radius of the circle be that the flame
                           ;; follows?
@@ -183,17 +183,17 @@ Bouncing Snowballs, Flying Snowballs, Jumpies, Mr Bombs, Mr Iceblocks, Mr Rocket
   (speed 10)              ;; How fast should the flame be?
 )</pre>
 
-=== Lightning orb ===
+==== Lightning orb ====
 The lighting orb ("kugelblitz") ignores the <tt>y</tt> coordinate, spawning above the visible screen.
 
-=== Spike ===
+==== Spike ====
 Don't mistake this badguy for Spiky! Spiky is the snowball-like creature with spikes, whilst a spike is an object serving the same purpose like the stalactite.
 
 <pre>(spike
   (direction 2)           ;; 0: north, 1: south, 2: west, 3: east
 )</pre>
 
-=== Yeti ===
+==== Yeti ====
 <pre>(yeti
   (dead-script "
 // A squirrel script that is executed once the Yeti dies.
