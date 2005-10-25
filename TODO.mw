@@ -28,8 +28,8 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Code Refactoring/Cleanup/Optimisation ===
 * '''M''' (or '''H'''?)''':''' implement quadtree or grid to speedup collision detection
-* '''L:''' harmonize to 1 single gameloop that switches between title, worldmap, ingame mode and eventually leveleditor mode
 * '''M:''' use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
+* '''L:''' harmonize to 1 single gameloop that switches between title, worldmap, ingame mode and eventually leveleditor mode
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
 * '''L:''' name files according to the classes they contain, e.g. tile_manager.* to TileManager.* because it contains a class named TileManager and not tile_manager
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
@@ -62,14 +62,13 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Badguys ===
 * '''H:''' bring back stay on platform flag
 * '''H:''' reimplement fish
-* '''M:''' do something with the wingling
 * '''H:''' badguy squish code isn't perfect at the moment... you sometimes get hit althought you should have squished the badguy.
+* '''M:''' do something with the wingling
 * '''L:''' iceblock should slide over one-space holes
 * '''?:''' do something with the tree?
 
 === Objects ===
-* '''L:''' create a "sign" object, ie an object that can be placed on the level and contains messages (like the run sign we have at the moment but programmatically created so that we can translate it)
-* '''M:''' add a simple rock object that can be carried around
+* '''M:''' add a simple rock object that can be carried around (''done, has to be tweaked'')
 * '''M:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
 * '''M:''' redo trampolines
 * '''L:''' add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
@@ -79,16 +78,14 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Split more sprite decriptions into separate .sprite files so that they get lazily loaded.
 
 === Miscellaneous ===
-* '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
 * '''H:''' Add more try/catch blocks in the source so that the game handles simple errors more smoothly. (This is very visible when loading config files or savegames failed)
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
 ** For the final release, we should also include a conversion algorithm that upgrades the levels to the new format.
-* '''M:''' when closing the SDL window, game bails out with <tt>Unexpected exception: Received window close</tt>. This is confusing to the users.
-* '''L:''' when loading bonus world before ever completing a level there, game prints <tt>Problem loading game '/home/$USER/.supertux/save/bonus1-slot1.stsg': Parser problem: Couldn't open file '/home/$USER/.supertux/save/bonus1-slot1.stsg'.</tt>, again confusing to the user.
 * '''M:''' save score on per-level basis to make high-score (this means coins/time)
-* '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
-* '''D:''' think about icebullet specifics
 * '''M:''' Invicibility music should stop a little sooner than the invincibility itself, and make flashing of stars at the end more clear.
+* '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
+* '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
+* '''D:''' think about icebullet specifics
 
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
