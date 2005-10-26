@@ -174,7 +174,7 @@ Bouncing Snowballs, Flying Snowballs, Jumpies, Mr Bombs, Mr Iceblocks, Mr Rocket
   (cycle 3)               ;; How often should a badguy be dispensed?
   
   (badguy random)         ;; Valid values are "snowball", "bouncingsnowball", "mrbomb",
-                          ;; "mriceblock", "mrrocket", "poisonivy" or "random".
+                          ;; "mriceblock", "mrrocket", "poisonivy", "snowsnail", or "random".
 )</pre>
 
 ==== Flame ====
