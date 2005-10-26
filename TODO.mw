@@ -93,11 +93,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 == Graphics ==
 * '''H:''' add more forest tiles; some of the current ones need fixing. Also create a ghost forest tileset.
 * '''H:''' animations for the [[Yeti]]
-* '''H:''' images for 5 keys in the forest world
 * '''H:''' image for castle door with 5 key holes
-* '''H:''' some kind of stone pedestral to place special items on
 * '''H:''' new tiles for the forest worldmap
-* '''H:''' image for marking reset points (maybe a bell that starts swinging once Tux touched it?)
+* '''M:''' up and down arrows for infoboxes to signify the possibility to scroll up/down
 * '''L:''' graphics for ropes
 * '''L:''' graphics for bubbles and soap (not necessary for Milestone 2)
 * '''?/D:''' new enemies (first need to be designed)
