@@ -26,7 +26,7 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 
 * one-tile gaps are handled pretty badly
 
-* ?-blocks don't indicate at which side they where bumped
+* ?-blocks don't indicate at which side they where bumped - MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
 
 * goal-bars look kind of pointless (bad ripoff of MarioWorld)
 
