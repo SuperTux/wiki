@@ -94,7 +94,7 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 
 * the starting point, the igloo on the worldmap, is not enterable
 
-* pipes can't be entered
+* pipes can't be entered and thus we had no bonus rooms
 
 * 'clever' enemies are missing, something like the plants which go out of a pipe only if Mario is not standing on that pipe
 
@@ -105,6 +105,18 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 * you shouldn't be allowed to exit a level while you are jumping - this is only important if you consider lives to be an important game concept
 
 * fireball power isn't very interesting, and makes the game far too simple.  Game could benefit from more powers, and more interesting ones.
+
+* Custom worldmaps are not visible in the Custom Level dialog, should probally have their own menu 
+
+* Time continues to run in the end sequence, all UI should however fade away in cutscenes
+
+* highlighted menu entry is hard to figure out in menus with only two entries (ie. its unclear which color is the highlighted one)
+
+* game could need some font effects, active menu entry could woople or so
+
+* enemies should be animate when throw/shoot (rotate around z-axis or so)
+
+* lack of monster-generators (ie. objects that constantly spawn new enemies)
 
 == Fixed in Milestone2 ==
 
