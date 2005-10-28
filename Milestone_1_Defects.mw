@@ -102,7 +102,7 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 
 * no die jingle music
 
-* you shouldn't be allowed to exit a level while you are jumping
+* you shouldn't be allowed to exit a level while you are jumping - this is only important if you consider lives to be an important game concept
 
 * fireball power isn't very interesting, and makes the game far too simple.  Game could benefit from more powers, and more interesting ones.
 
