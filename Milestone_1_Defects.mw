@@ -94,6 +94,16 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 
 * the starting point, the igloo on the worldmap, is not enterable
 
+* pipes can't be entered
+
+* 'clever' enemies are missing, something like the plants which go out of a pipe only if Mario is not standing on that pipe
+
+* menu fade-in is so so, better than nothing, but not that great either
+
+* no die jingle music
+
+* you shouldn't be allowed to exit a level while you are jumping
+
 == Fixed in Milestone2 ==
 
 * no back/horizontal/vertical scrolling 
