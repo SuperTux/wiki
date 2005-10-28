@@ -1,155 +1,145 @@
-== Bad Things ==
+= Bad Things =
+The following is a list of defects in Milestone1, these are not bugs, but things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone2 or later:
 
-The following is a list of defects in Milestone 1. These are not bugs, but rather things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone 2 or later.
+* bitmap backgrounds look very boring, not only do they not paralax scroll, but they also simply repeat the tileset that is used for the foreground. Paralax scrolling means multiple background layers scrolling with different speed.
 
-* Bitmap backgrounds look very boring, not only do they not parallax scroll (meaning multiple background layers scrolling at different speeds), but they also simply repeat the tileset that is used for the foreground.
+* MrBomb looks sucky
 
-* Mr Bomb is poorly drawn.
+* Tux lacks a dedicated run animation
 
-* Tux lacks a dedicated run animation.
+* Run-sign should be replaced with an info block
 
-* The black outline surrounding Mr Ice Block looks out of place.
+* keyboard configuration via menu is very fishy, ie. not navigatable via the keyboard but only via mouse, since otherwise one changes all the settings, kind of non-intuitive
 
-* The pipes are poorly drawn.
+* MrIceblocks black outline looks out of place
 
-* The green grass tiles are out of place, and the large one is too large.
+* pipes look ugly
 
-* The tiles are separated in different files; besides other things, this causes slower load times.
+* green grass tiles don't fit very well into the theme, large grass tile is to large
 
-* The level header information loading process is rather slow (ie. launching the worldmap).
+* tiles are seperated in files, this causes beside other things slower load times
 
-* In some cases, bumping against a bonus block leaves the image in place.
+* loading of level header information is rather slow (ie. starting the worldmap)
 
-* The goal bars should be replaced with something more creative/original.
+* environment is, beside from the ?-blocks, completly non-animated -> boring
 
-* The snowflakes do not really match the style.
+* bumping against a ?-block leaves the ?-block graphic in place sometimes
 
-* The bonus blocks are poorly shaped.
+* one-tile gaps are handled pretty badly
 
-* Stalactites should shatter via particle effects.
+* ?-blocks don't indicate at which side they where bumped - MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway... Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped)
 
-* The physics of the game are too simple; making the game too easy in many areas.
+* goal-bars look kind of pointless (bad ripoff of MarioWorld)
 
-* Many enemies do not align properly to the tileset.
+* Worldmap doesn't have basically no alternative paths
 
-* Many levels lack difficulty.
+* no fade-in/out when you enter a level or die
 
-* Most enemies simply fall into a hole without ever being a danger to Tux.
+* snowflakes, while pretty, don't really match the style
 
-* The grey blocks are poorly drawn.
+* coins look shit
 
-* To indicate that Tux entered it, the igloo should raise a flag, etc.
+* stay-on-platform is fishy, should be indicated by the enemies color
 
-* The death animation for the flying snowball enemy is the same as the normal snowball.
+* ?-blocks are badly shaped (pixel dirt)
 
-* The music played on the worldmap is out of place.
+* stalacticts should shatter via particle effects
 
-* The worldmap lacks water animation.
+* lives are rather pointless, since one can continue as one wish, going through the Main Menu to do that however sucks, losing reset points as well
 
-* The enemies move too slow in relation to Tux; make them able to easily dodge Tux.
+* game 'physics' are to simple, making game to easy in many areas
 
-* The main menu background should be redone, with a superior AI (perhaps showing different levels: one from each world?).
+* many badguys don't align properly to the tilemap
 
-* Save-game slots should not be limited to five -- "Create Slot", "Copy Slot", and "Delete Slot" buttons would be better.
+* level design rather uninspried, many screens are completly pointless and without challange
 
-* The pause effect should be redone.
+* many enemies simply fall into the next hole without ever being any danger to tux
 
-* The menu fade-in effect should be redone.
+* grey-blocks are super ugly
 
-* More abilities for Tux are needed.
+* igloo should have a flag raised or something other to indicate that Tux entered it
 
-* The time continues to decelerate even in the end sequence. All UI should fade away in cutscenes.
+* no half-tiles/unisolid tiles
 
-* More font effects are needed, ie. the active menu entry should wobble, etc.
+* invisible blocks have collision even when they are invisible
 
-* Breakable blocks are randomly covered with snow.
+* coins and other stuff should have particle-effect or other animation when collected, not just dissapear
 
-* The particles that get thrown after Tux hits a breakable block are poorly drawn (not reacting to gravity, etc.).
+* many secret areas look like bugs
 
-=== Fixed in Milestone 2 ===
+* flying snowball could need more animation, moving eyes, smoke coming from an exhaust, etc
 
-* There is no back/horizontal/vertical scrolling.
+* no seperate death animation for flying snowball
 
-* The reset points are invisible.
+* music on the worldmap doesn't fit
 
-* The coins are very poorly drawn.
+* worldmap is non-animated and lacks water animation
 
-* Monster generators (objects that constantly spawn new enemies) are missing.
+* water in levels is pointless
 
-* Tux's Fireflower ability (item and shooting fireballs) is poorly drawn.
+* 'excelent' sound sample sucks
 
-* The invisible blocks have collision; even though they're invisible.
+* fireflower-Tux looks shit, shooting fireballs looks shit as well (just poping out of Tux's head)
 
-* One-tile gaps are handled pretty badly.
+* levels are to long, shorter more focused onces would be better
 
-* Worldmaps have basically no alternative paths.
+* enemies move to slow in relation to Tux, make them to easily dodge able
 
-* The worldmap is inanimate.
+* MrBomb explosion should be particle effects
 
-* The enemy's stay-on-platform option is questionable; it should be indicated by the enemy's color.
+* Main Menu background with the dumb auto-jump Tux sucks, should be a clever Tux
 
-* There is no special sound effect that plays when you die.
+* Slots shouldn't be limited to five, might be better to have a 'create slot', 'copy slot', 'delete slot' menu entry
 
-* The starting point (igloo) on the worldmap cannot be entered.
+* the blinking pause effect is shit (epileptic fun), having pause at all seems pointless, since we already have a menu
 
-* Pipes cannot be entered; we thus had no bonus rooms.
+* the starting point, the igloo on the worldmap, is not enterable
 
-* Clever enemies are missing (ie. the plants which come out of pipes only if Mario isn't standing on that pipe).
+* pipes can't be entered and thus we had no bonus rooms
 
-* Mr Bomb's explosion should have particle effects.
+* 'clever' enemies are missing, something like the plants which go out of a pipe only if Mario is not standing on that pipe
 
-* The "excellent" sound sample should be redone.
+* menu fade-in is so so, better than nothing, but not that great either
 
-* The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
+* no die jingle music
 
-* Besides the blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
+* you shouldn't be allowed to exit a level while you are jumping - this is only important if you consider lives to be an important game concept
 
-* Bonus blocks don't indicate at which side they where bumped
-** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
-** Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped).
+* fireball power isn't very interesting, and makes the game far too simple.  Game could benefit from more powers, and more interesting ones.
 
-* There are no fade-outs/ins when you either die or complete a level.
+* Custom worldmaps are not visible in the Custom Level dialog, should probally have their own menu 
 
-* There are no half-tiles/unsolid (unstable?) tiles.
+* Time continues to run in the end sequence, all UI should however fade away in cutscenes
 
-* The coins and other things should have particle effects or some other animation when they're collected (not just disappear).
+* highlighted menu entry is hard to figure out in menus with only two entries (ie. its unclear which color is the highlighted one)
 
-* Many secret areas are poorly made and therefore may look like bugs.
+* game could need some font effects, active menu entry could woople or so
 
-* The flying snowball enemy needs more animation (moving eyes, smoke coming from an exhaust pipe, etc.).
+* enemies should be animate when throw/shoot (rotate around z-axis or so)
 
-== Good Things in Milestone 1 ==
-This is a list of things that are good in Milestone 1 (compared to most other games or where we managed to hit our goals).
+* lack of monster-generators (ie. objects that constantly spawn new enemies)
+
+== Fixed in Milestone2 ==
+
+* no back/horizontal/vertical scrolling 
+
+* reset points are invisible
+
+= Good Things in Milestone 1 =
+This is a list of things that are good in milestone 1 (compared to most other games or where we managed to hit our goals).
 
 * The project was finished in a relatively short time, thanks to few plans and acceptance of compromises and not optimal solutions (for now). This was also boosting developer motivation and activity.
-
-* The graphics in general are very nice and neat and in a uniform cartoonish / hand-drawn style which matches the game nicely. (The game physics and story is cartoonish and childish.)
-
-* The game has a good soundtrack.
-
-* The game doesn't crash and compiles and installs nearly everywhere out of the box because of few dependencies and portable code.
-
-* The game just works without any additional options/config tweaking (this is true for 90% or more people I think).
-
-* The game is similar to old Mario Bros. making it easy to get into it.
-
-* The first levels are easy, giving beginners early successes.
-
-* Control is direct and straightforward.
-
-* The short intro cycle before a level starts is nice providing a relatively smooth transition from worldmap/death to the beginning of a level.
-
-* You get some reward for solving the levels by seeing Tux walking into the igloo with TADA music in the background, another form of reward is moving forward on the worldmap, the world map is especially nice since you can see the final goal the castle early and can at least a bit the way to it. (You see that after around 7 levels you'll beat the current world, no wondering if this game has 100 levels and will go on forever).
-
-* Saving/Loading is automatic and instant, makes the game simpler and not frustrating when the computer crashes or the dog pressed the power button. You can always continue the game where you left it last time.
-
-* The game switches theme from snow to cave levels at some point, and later to a mixed style (wansti levels vs. grumble levels). This keeps interest in the game and is also a little reward for moving forward in the world map.
-
-* Built-in level editor animates people to play around and create their own levels (this resulted in enough material for 2 bonus islands).
-
-* A bit of story to provide you with a "reason" to move forward in the game, this also details the character of Tux and Nolok a bit so that they are a bit more familiar to the player.
-
-* Tux is extremely cute!
-
-[[Category:Development]]
-[[Category:SuperTux]]
+* The graphics in general are very nice and neat and in a uniform cartoonish / hand-drawn style which matches the game nicely. (The game physics and story is cartoonish and childish)
+* The game has a good soundtrack
+* The game does not crash and compiles and installs nearly everywhere out of the  box because of few dependencies and portable code
+* The game just works without any additional options/config tweaking (this is true for 90% or more people I think)
+* The game is similar to old mario bros making it easy to get into it
+* The first levels are easy, giving beginners early successes
+* Control is direct and straightforward
+* The game has a good soundtrack
+* The short Intro Cycle before a level starts is nice providing a relatively smooth transition from worldmap/death to the beginning of a level
+* You get some reward for solving the levels by seeing tux walking into the igloo with TADA music in the background, another form of reward is moving forward on the worldmap, the worldmap is especially nice since you can see the  final goal the castle early and can at least a bit the way to it. (You see that after ~20 levels the game will be solved, no wondering if this game has 100 levels and will go forever)
+* Saving/Loading is automatic and instant, makes the game simpler and not frustrating when the computer crashs or the dog pressed the power button. You can always continue the game where you left it last time.
+* The game switches theme from snow to cave levels at some point, and later to a  mixed style (wansti levels vs. grumble levels). This keeps interest in the game and is also a little reward for moving forward in the worldmap.
+* builtin level editor animates people to play around and create their own levels (this resulted in enough material for 2 bonus islands)
+* A bit of story to provide you with a "reason" to move forward in the game, this also details the character of tux and nolok a bit so that they are a bit more familiar to the player.
