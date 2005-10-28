@@ -44,7 +44,7 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 
 * stalacticts should shatter via particle effects
 
-* lives are rather pointless, since one can continue as one wish
+* lives are rather pointless, since one can continue as one wish, going through the Main Menu to do that however sucks, losing reset points as well
 
 * game 'physics' are to simple, making game to easy in many areas
 
@@ -85,6 +85,14 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 * enemies move to slow in relation to Tux, make them to easily dodge able
 
 * MrBomb explosion should be particle effects
+
+* Main Menu background with the dumb auto-jump Tux sucks, should be a clever Tux
+
+* Slots shouldn't be limited to five, might be better to have a 'create slot', 'copy slot', 'delete slot' menu entry
+
+* the blinking pause effect is shit (epileptic fun), having pause at all seems pointless, since we already have a menu
+
+* the starting point, the igloo on the worldmap, is not enterable
 
 == Fixed in Milestone2 ==
 
