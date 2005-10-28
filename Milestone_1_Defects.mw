@@ -104,6 +104,8 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 
 * you shouldn't be allowed to exit a level while you are jumping
 
+* fireball power isn't very interesting, and makes the game far too simple.  Game could benefit from more powers, and more interesting ones.
+
 == Fixed in Milestone2 ==
 
 * no back/horizontal/vertical scrolling 
