@@ -136,7 +136,6 @@ This is a list of things that are good in milestone 1 (compared to most other ga
 * The game is similar to old mario bros making it easy to get into it
 * The first levels are easy, giving beginners early successes
 * Control is direct and straightforward
-* The game has a good soundtrack
 * The short Intro Cycle before a level starts is nice providing a relatively smooth transition from worldmap/death to the beginning of a level
 * You get some reward for solving the levels by seeing tux walking into the igloo with TADA music in the background, another form of reward is moving forward on the worldmap, the worldmap is especially nice since you can see the  final goal the castle early and can at least a bit the way to it. (You see that after ~20 levels the game will be solved, no wondering if this game has 100 levels and will go forever)
 * Saving/Loading is automatic and instant, makes the game simpler and not frustrating when the computer crashs or the dog pressed the power button. You can always continue the game where you left it last time.
