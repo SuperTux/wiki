@@ -1,1 +1,93 @@
-#REDIRECT [[Milestone 1 Analysis]]
+The following is a list of defects in Milestone1, these are not bugs, but things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone2 or later:
+
+* bitmap backgrounds look very boring, not only do they not paralax scroll, but they also simply repeat the tileset that is used for the foreground
+
+* MrBomb looks sucky
+
+* Tux lacks a dedicated run animation
+
+* Run-sign should be replaced with an info block
+
+* keyboard configuration via menu is very fishy, ie. not navigatable via the keyboard but only via mouse, since otherwise one changes all the settings, kind of non-intuitive
+
+* MrIceblocks black outline looks out of place
+
+* pipes look ugly
+
+* green grass tiles don't fit very well into the theme, large grass tile is to large
+
+* tiles are seperated in files, this causes beside other things slower load times
+
+* loading of level header information is rather slow (ie. starting the worldmap)
+
+* environment is, beside from the ?-blocks, completly non-animated -> boring
+
+* bumping against a ?-block leaves the ?-block graphic in place sometimes
+
+* one-tile gaps are handled pretty badly
+
+* ?-blocks don't indicate at which side they where bumped
+
+* goal-bars look kind of pointless (bad ripoff of MarioWorld)
+
+* Worldmap doesn't have basically no alternative paths
+
+* no fade-in/out when you enter a level or die
+
+* snowflakes, while pretty, don't really match the style
+
+* coins look shit
+
+* stay-on-platform is fishy, should be indicated by the enemies color
+
+* ?-blocks are badly shaped (pixel dirt)
+
+* stalacticts should shatter via particle effects
+
+* lives are rather pointless, since one can continue as one wish
+
+* game 'physics' are to simple, making game to easy in many areas
+
+* many badguys don't align properly to the tilemap
+
+* level design rather uninspried, many screens are completly pointless and without challange
+
+* many enemies simply fall into the next hole without ever being any danger to tux
+
+* grey-blocks are super ugly
+
+* igloo should have a flag raised or something other to indicate that Tux entered it
+
+* no half-tiles/unisolid tiles
+
+* invisible blocks have collision even when they are invisible
+
+* coins and other stuff should have particle-effect or other animation when collected, not just dissapear
+
+* many secret areas look like bugs
+
+* flying snowball could need more animation, moving eyes, smoke coming from an exhaust, etc
+
+* no seperate death animation for flying snowball
+
+* music on the worldmap doesn't fit
+
+* worldmap is non-animated and lacks water animation
+
+* water in levels is pointless
+
+* 'excelent' sound sample sucks
+
+* fireflower-Tux looks shit, shooting fireballs looks shit as well (just poping out of Tux's head)
+
+* levels are to long, shorter more focused onces would be better
+
+* enemies move to slow in relation to Tux, make them to easily dodge able
+
+* MrBomb explosion should be particle effects
+
+== Fixed in Milestone2 ==
+
+* no back/horizontal/vertical scrolling 
+
+* reset points are invisible
