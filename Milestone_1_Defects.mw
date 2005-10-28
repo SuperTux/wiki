@@ -118,6 +118,10 @@ The following is a list of defects in Milestone1, these are not bugs, but things
 
 * lack of monster-generators (ie. objects that constantly spawn new enemies)
 
+* the breakable blocks are sometimes covered with snow and sometimes not, this is basically randomly
+
+* the particles that get thrown after one hit a breakable block look weird (not reacting to gravity and there surface seems to change)
+
 == Fixed in Milestone2 ==
 
 * no back/horizontal/vertical scrolling 
