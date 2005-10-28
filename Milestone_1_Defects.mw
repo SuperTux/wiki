@@ -1,6 +1,6 @@
 The following is a list of defects in Milestone1, these are not bugs, but things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone2 or later:
 
-* bitmap backgrounds look very boring, not only do they not paralax scroll, but they also simply repeat the tileset that is used for the foreground
+* bitmap backgrounds look very boring, not only do they not paralax scroll, but they also simply repeat the tileset that is used for the foreground. Paralax scrolling means multiple background layers scrolling with different speed.
 
 * MrBomb looks sucky
 
