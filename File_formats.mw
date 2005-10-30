@@ -29,7 +29,7 @@ The level format is a bit complex, which is why [http://flexlay.berlios.de/ Flex
   (version 2)                         ;; This document only describes version 2. Version 1 is deprecated
                                       ;; and I'm not going to teach it since it lacks a lot of features.
 
-  (name _("Some demo level"))         ;; Name of the level. Call it a nice name. Note that this should be
+  (name (_ "Some demo level"))        ;; Name of the level. Call it a nice name. Note that this should be
                                       ;; internationalised (that's why the extra underscore and brackets).
 
   (author "Ondra Hosek")              ;; Put your name here unless you are me (very improbable)
@@ -39,7 +39,7 @@ The level format is a bit complex, which is why [http://flexlay.berlios.de/ Flex
 
     (name "main")                     ;; Tux begins in the sector named "main".
 
-    (music "Ondras_chipdisko.ogg")    ;; Name of the music file. See the data/music/ directory.
+    (music "ondraschipdisko.ogg")     ;; Name of the music file. See the data/music/ directory.
 
     (gravity 10.0)                    ;; Gravity of Tux. 10.0 is the default and sanest value (unless you
                                       ;; are ready to apply the level design correctly).
@@ -118,7 +118,7 @@ The level format is a bit complex, which is why [http://flexlay.berlios.de/ Flex
     ;; Particle systems
     ;; It is advisable only to use one particle system at a time.
 
-    (particles-<type>           ;; Valid values for <type> are rain, snow and clouds
+    (particles-&lt;type&gt;                 ;; Valid values for &lt;type&gt; are rain, snow and clouds
 
       (layer 201)                     ;; -100 are background, 0 are interactive, 200 are foreground tiles.
                                       ;; Choose a number to put the rain between two layers. In this case,
@@ -143,7 +143,7 @@ This section describes the various badguys and their parameters.
 The next few sections describe the extra parameters for the other badguys.
 
 ==== Common parameters ====
-<pre>(<badguy-name>
+<pre>(&lt;badguy-name&gt;
   (x 270)                 ;; The badguy's X coordinate.
   (y 126)                 ;; The badguy's Y coordinate. (Note that the origin is in the top-left corner!)
   (stay-on-platform #f)   ;; Optional. Should the badguy do its best not to fall from the platform it's on? (NYI)
@@ -210,7 +210,7 @@ Scrolling texts are used for the credits and were used for the intro and extro i
   (speed 1.5)             ;; Default speed of text
   
   ;; Here we demonstrate the formatting characters
-  (text _("
+  (text (_ "
 
 -This is a heading
 <tab>This is a normal line.
@@ -249,7 +249,7 @@ Worldmaps are basically level files with a few nuances. To explain the syntax, l
       0  0  0  0  0
     )
   )
-  (level                                  ;; Repeat this block for each level. Continuing from a level tile is only possible when the level is completed.
+  (level                                  ;; Add this block for each level. Continuing from a level tile is only possible when the level is completed.
     (x 3)                                 ;; Coordinates of the level entry point.
     (y 3)
     (name "heathrow.stl")                 ;; Filename of the level, relative to the location of the worldmap file.
@@ -262,7 +262,8 @@ Worldmaps are basically level files with a few nuances. To explain the syntax, l
     (y 3)
     (map-message (_ "Hello."))            ;; Display the following text when Tux steps on this tile.
     (passive-message #t)                  ;; Set to #f to draw a message sprite on the worldmap and to stop Tux when he steps on this tile.
-    (apply-to-direction "north-west")     ;; The message is displayed only when Tux comes from one of the specified directions (north, south, west, east, concatenate with a hyphen).
+    (apply-to-direction "north-west")     ;; The message is displayed only when Tux comes from one of the specified directions
+                                          ;; (north, south, west, east, concatenate with a hyphen).
   )
   (special-tile                           ;; This is a sample portal tile.
     (x 2)
@@ -276,9 +277,9 @@ Worldmaps are basically level files with a few nuances. To explain the syntax, l
 == Level subsets ==
 Whilst creating a worldmap is optional, you'll need to write a level subset file to make your level package to appear in the contribs menu (or, ironically, inhibiting this behaviour). A file containing a level subset is called <tt>info</tt> and lies in <tt>data/levels/<subset_name>.</tt>
 <pre>(supertux-level-subset
-  (title (_ "Domain of the Hosek siblings"))                    ;; Give your levelset a nice name...
-  (description "Levels by Ondra and Klara, the Hosek siblings") ;; ... and a short description.
-  (hide-from-contribs #f)                                       ;; Set to true if you don't want your levelset to appear in the "Contrib Levels" menu.
+  (title (_ "Domain of the Hosek siblings"))                        ;; Give your levelset a nice name...
+  (description (_ "Levels by Ondra and Klara, the Hosek siblings")) ;; ... and a short description.
+  (hide-from-contribs #f)                                           ;; Set to true to hide the levelset from the "Contrib Levels" menu.
 )</pre>
 
 <!-- TODO: sprite, tile definitions -->
