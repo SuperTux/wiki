@@ -35,6 +35,7 @@ There's a number of tools you can use to edit the .po files:
 * Any text editor - Of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header
 
 = Translations =
+(please add yourself to this list if you are working on a new translations, so that others can contact you)
 
 === Catalan (ca) ===
 * Translated by Antoni Villalonga <frikimaster@gmail.com>
