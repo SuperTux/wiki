@@ -26,7 +26,7 @@ This page is for listing all known bugs, because it seems that some have been es
 * Tux does a tiny jump when he jumps while ducking (unprecedented and pointless behavior, has killed me more than once - why do we have it?)
 ** You try jumping while ducking :) - sik0fewl
 *** It's not any more difficult than jumping three times my height (or smashing bricks with my head, for that matter). :P - NMcCoy
-*Glibc seems to have a problem: <tt>*** glibc detected *** free(): invalid pointer: 0x082e22e8 ***</tt> (Fedora Core 3 fresh install with yum update) <br> GWater: Also seen bug on Fedora3 _64, have only seen crash on Yeti_Test screen so far. glibc detected double free or corruption: 0x0000003000e2da38 Aborted<br>This is not a glibc problem, but a problmen in our code that needs to be fixed.
+*Glibc seems to have a problem: <tt>*** glibc detected *** free(): invalid pointer: 0x082e22e8 ***</tt> (Fedora Core 3 fresh install with yum update) <br> GWater: Also seen bug on Fedora3 _64, have only seen crash on Yeti_Test screen so far. glibc detected double free or corruption: 0x0000003000e2da38 Aborted<br>This is not a glibc problem, but a problem in our code that needs to be fixed.
 
 *Sometimes killed with no reason. Just started a level and baam killed.
 **Even tho you die, you don't lose a life.
