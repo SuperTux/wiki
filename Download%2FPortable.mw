@@ -44,6 +44,7 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 * Graphics: plain framebuffer, has SDL available
 * Controls: DPad, A, B, X, Y, Start, Select, L, R
 * Programming Language: C
+* Note: runs a Linux-based system, so we can use any Linux tools that can be recompiled for it.
 
 === Playstation Portable ===
 
