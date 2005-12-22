@@ -1,5 +1,5 @@
 = How to Translate =
-* Check at the end of this site if someone else is already working on the translation for your language. If there is someone contact him!
+* Check at the end of this site if someone else is already working on the translation for your language. If there is someone contact him/her!
 * Install gettext
 * get a cvs snapshot of supertux and do the usual autogen.sh, configure.
 Make sure configure can find the xgettext application. (ie. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")
@@ -29,7 +29,7 @@ Make sure configure can find the xgettext application. (ie. "checking for xgette
 There's a number of tools you can use to edit the .po files:
 
 * __KBabel__ - matured KDE translation program
-* [http://poedit.sourceforge.net poEdit] - multi-platform po editor (runs on windows and unix/linux)
+* poedit.sourceforge.net poEdit - multi-platform po editor (runs on windows and unix/linux)
 * QTranslator - Comes with Qt, also multi-platform
 * (X)Emacs - commonly used for translation with the respective plugin
 * Any text editor - Of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header
