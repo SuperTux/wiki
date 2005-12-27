@@ -46,82 +46,70 @@ The following is a list of defects in Milestone1. These are not bugs, but rather
 
 * The physics of the game are too simple; making the game too easy in many areas.
 
-* many badguys don't align properly to the tilemap
+* Many enemies do not align properly to the tileset.
 
-* level design rather uninspried, many screens are completly pointless and without challange
+* Many levels are completely pointless/without challenge.
 
-* many enemies simply fall into the next hole without ever being any danger to tux
+* Most enemies simply fall into a hole without ever being a danger to Tux.
 
-* grey-blocks are super ugly
+* The grey blocks are very poorly drawn.
 
-* igloo should have a flag raised or something other to indicate that Tux entered it
+* To indicate that Tux entered it, the igloo should raise a flag, etc.
 
-* no half-tiles/unisolid tiles
+* There are no half-tiles/unsolid (unstable?) tiles.
 
-* invisible blocks have collision even when they are invisible
+* The invisible blocks have collision; even though they're invisible.
 
-* coins and other stuff should have particle-effect or other animation when collected, not just dissapear
+* The coins and other things should have particle effects or some other animation when they're collected (not just disappear).
 
-* many secret areas look like bugs
+* Many secret areas are poorly made and therefore may look like bugs.
 
-* flying snowball could need more animation, moving eyes, smoke coming from an exhaust, etc
+* The flying snowball enemy needs more animation (moving eyes, smoke coming from an exhaust pipe, etc.).
 
-* no seperate death animation for flying snowball
+* The death animation for the flying snowball enemy is the same as the normal snowball.
 
-* music on the worldmap doesn't fit
+* The music played on the worldmap is out of place.
 
-* worldmap is non-animated and lacks water animation
+* The worldmap is inanimate and lacks water animation.
 
-* water in levels is pointless
+* The "excellent" sound sample should be redone.
 
-* 'excelent' sound sample sucks
+* Tux's Fireflower ability (item and shooting fireballs) is poorly drawn.
 
-* fireflower-Tux looks shit, shooting fireballs looks shit as well (just poping out of Tux's head)
+* The enemies move too slow (in relation to Tux); make them able to easily dodge Tux.
 
-* levels are to long, shorter more focused onces would be better
+* Mr Bomb's explosion should have particle effects.
 
-* enemies move to slow in relation to Tux, make them to easily dodge able
+* The main menu background should be redone, with a superior AI.
 
-* MrBomb explosion should be particle effects
+* Save-game slots should not be limited to five -- "Create Slot", "Copy Slot", and "Delete Slot" buttons would be better.
 
-* Main Menu background with the dumb auto-jump Tux sucks, should be a clever Tux
+* The pause effect should be redone.
 
-* Slots shouldn't be limited to five, might be better to have a 'create slot', 'copy slot', 'delete slot' menu entry
+* The starting point (igloo) on the worldmap cannot be entered.
 
-* the blinking pause effect is shit (epileptic fun), having pause at all seems pointless, since we already have a menu
+* Pipes cannot be entered; we thus had no bonus rooms.
 
-* the starting point, the igloo on the worldmap, is not enterable
+* Clever enemies are missing (ie. the plants which come out of pipes only if Mario isn't standing on that pipe).
 
-* pipes can't be entered and thus we had no bonus rooms
+* The menu fade-in effect should be redone.
 
-* 'clever' enemies are missing, something like the plants which go out of a pipe only if Mario is not standing on that pipe
+* There is no special sound effect that plays when you die.
 
-* menu fade-in is so so, better than nothing, but not that great either
+* More abilities for Tux are needed.
 
-* no die jingle music
+* The time continues to decelerate even in the end sequence. All UI should fade away in cutscenes.
 
-* you shouldn't be allowed to exit a level while you are jumping - this is only important if you consider lives to be an important game concept
+* More font effects are needed, ie. the active menu entry should wobble, etc.
 
-* fireball power isn't very interesting, and makes the game far too simple.  Game could benefit from more powers, and more interesting ones.
+* Monster generators (objects that constantly spawn new enemies) are missing.
 
-* Custom worldmaps are not visible in the Custom Level dialog, should probally have their own menu 
+* Breakable blocks are randomly covered with snow.
 
-* Time continues to run in the end sequence, all UI should however fade away in cutscenes
-
-* highlighted menu entry is hard to figure out in menus with only two entries (ie. its unclear which color is the highlighted one)
-
-* game could need some font effects, active menu entry could woople or so
-
-* enemies should be animate when throw/shoot (rotate around z-axis or so)
-
-* lack of monster-generators (ie. objects that constantly spawn new enemies)
-
-* the breakable blocks are sometimes covered with snow and sometimes not, this is basically randomly
-
-* the particles that get thrown after one hit a breakable block look weird (not reacting to gravity and there surface seems to change)
+* The particles that get thrown after Tux hits a breakable block are poorly drawn (not reacting to gravity, etc.).
 
 == Fixed in Milestone2 ==
 
-* no back/horizontal/vertical scrolling 
+* There is no back/horizontal/vertical scrolling.
 
-* reset points are invisible
+* The reset points are invisible.
