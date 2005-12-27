@@ -1,2 +1,7 @@
 Maybe right-only scroll should be default and backscrolling should be a powerup. - zratchet
 : I think this sort of powerup would really be too artificial. (and confusing for the player)  - enrico
+
+== Vertical Movement ==
+
+In some games the player can look what's above by holding the up-button. The camera then scrolls upwards half a screen or until the button is released.
+Depending on the level design, it might be a good idea to add this feature.
