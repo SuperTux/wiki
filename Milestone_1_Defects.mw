@@ -1,52 +1,50 @@
-The following is a list of defects in Milestone1, these are not bugs, but things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone2 or later:
+The following is a list of defects in Milestone1. These are not bugs, but rather things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone2.x:
 
-* bitmap backgrounds look very boring, not only do they not paralax scroll, but they also simply repeat the tileset that is used for the foreground. Paralax scrolling means multiple background layers scrolling with different speed.
+* Bitmap backgrounds look very boring, not only do they not paralax scroll (meaning multiple background layers scrolling at different speeds), but they also simply repeat the tileset that is used for the foreground.
 
-* MrBomb looks sucky
+* Mr Bomb is poorly drawn.
 
-* Tux lacks a dedicated run animation
+* Tux lacks a dedicated run animation.
 
-* Run-sign should be replaced with an info block
+* The Run sign should be replaced with an information block.
 
-* keyboard configuration via menu is very fishy, ie. not navigatable via the keyboard but only via mouse, since otherwise one changes all the settings, kind of non-intuitive
+* The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
 
-* MrIceblocks black outline looks out of place
+* The black outline surrounding Mr Ice Block looks out of place.
 
-* pipes look ugly
+* The pipes look poorly drawn.
 
-* green grass tiles don't fit very well into the theme, large grass tile is to large
+* The green grass tiles are out of place, and the large one is too large.
 
-* tiles are seperated in files, this causes beside other things slower load times
+* The tiles are seperated in different files; besides other things, this causes slower load times.
 
-* loading of level header information is rather slow (ie. starting the worldmap)
+* The level header information loading process is rather slow (ie. launching the worldmap).
 
-* environment is, beside from the ?-blocks, completly non-animated -> boring
+* Besides the ? blocks, the environment is completly inanimate; this causes the game to be slightly less exciting.
 
-* bumping against a ?-block leaves the ?-block graphic in place sometimes
+* In some cases, bumping against a ? block leaves the image in place.
 
-* one-tile gaps are handled pretty badly
+* One-tile gaps are handled pretty badly.
 
 * ?-blocks don't indicate at which side they where bumped - MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway... Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped)
 
-* goal-bars look kind of pointless (bad ripoff of MarioWorld)
+* The goal bars are pointless (a ripoff of Mario World).
 
-* Worldmap doesn't have basically no alternative paths
+* Worldmaps have basically no alternative paths.
 
-* no fade-in/out when you enter a level or die
+* There are no fade-outs/ins when you either die or complete a level.
 
-* snowflakes, while pretty, don't really match the style
+* While pretty, the snowflakes do not really match the style.
 
-* coins look shit
+* The coins are very poorly drawn.
 
-* stay-on-platform is fishy, should be indicated by the enemies color
+* The enemy's stay-on-platform option is questionable; it should be indicated by the enemy's color.
 
-* ?-blocks are badly shaped (pixel dirt)
+* The ? blocks are badly shaped.
 
-* stalacticts should shatter via particle effects
+* Stalactites should shatter via particle effects.
 
-* lives are rather pointless, since one can continue as one wish, going through the Main Menu to do that however sucks, losing reset points as well
-
-* game 'physics' are to simple, making game to easy in many areas
+* The physics of the game are too simple; making the game too easy in many areas.
 
 * many badguys don't align properly to the tilemap
 
