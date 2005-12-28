@@ -85,6 +85,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''M:''' Invicibility music should stop a little sooner than the invincibility itself, and make flashing of stars at the end more clear.
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
+* '''L:''' Add an ingame console, and a way that warnings and errors are shortly displayed ingame and fade away then. This is very usefull to make map designers realize their errors and for the game to display uncommon errors like missing write access for the savegame directory.
 * '''D:''' think about icebullet specifics
 
 == Levels ==
