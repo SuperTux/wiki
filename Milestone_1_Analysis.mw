@@ -110,6 +110,8 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The particles that get thrown after Tux hits a breakable block are poorly drawn (not reacting to gravity, etc.).
 
+* The Bonus Levels menu cannot be scrolled down. This is especially a problem when you have a lot of downloaded user levels, some of them will be cut off from the screen.
+
 === Fixed in Milestone 2 ===
 
 * There is no back/horizontal/vertical scrolling.
