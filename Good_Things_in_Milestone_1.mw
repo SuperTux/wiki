@@ -1,17 +1,1 @@
-This is a list of things that are good in milestone 1 (compared to most other games or where we managed to hit our goals).
-
-* The project was finished in a relatively short time, thanks to few plans and acceptance of compromises and not optimal solutions (for now). This was also boosting developer motivation and activity.
-* The graphics in general are very nice and neat and in a uniform cartoonish / hand-drawn style which matches the game nicely. (The game physics and story is cartoonish and childish)
-* The game has a good soundtrack
-* The game does not crash and compiles and installs nearly everywhere out of the  box because of few dependencies and portable code
-* The game just works without any additional options/config tweaking (this is true for 90% or more people I think)
-* The game is similar to old mario bros making it easy to get into it
-* The first levels are easy, giving beginners early successes
-* Control is direct and straightforward
-* The game has a good soundtrack
-* The short Intro Cycle before a level starts is nice providing a relatively smooth transition from worldmap/death to the beginning of a level
-* You get some reward for solving the levels by seeing tux walking into the igloo with TADA music in the background, another form of reward is moving forward on the worldmap, the worldmap is especially nice since you can see the  final goal the castle early and can at least a bit the way to it. (You see that after ~20 levels the game will be solved, no wondering if this game has 100 levels and will go forever)
-* Saving/Loading is automatic and instant, makes the game simpler and not frustrating when the computer crashs or the dog pressed the power button. You can always continue the game where you left it last time.
-* The game switches theme from snow to cave levels at some point, and later to a  mixed style (wansti levels vs. grumble levels). This keeps interest in the game and is also a little reward for moving forward in the worldmap.
-* builtin level editor animates people to play around and create their own levels (this resulted in enough material for 2 bonus islands)
-* A bit of story to provide you with a "reason" to move forward in the game, this also details the character of tux and nolok a bit so that they are a bit more familiar to the player.
+#REDIRECT [[Milestone 1 Analysis]]
