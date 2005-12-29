@@ -1,13 +1,10 @@
-They look like a hollow treestump with eyes and feet, here are some things they could do.
+Behavior and look: Walking trees look like hollow trees with eyes and feet. They should be 1.5x larger than [[Tux]].
 
-# Walk and run over Tux
-# Tux could jump inside and control them since they are hollow, Tux being invulnerable. However he can't jump except out of them
-# There should maybe be rolling logs as well, and floating logs that can move around when jumped on or float down river... could be interesting to have waterfalls
+# Walk and run over [[Tux]].
+# [[Tux]] could jump inside the tree from under and control them since they're hollow, but only if Tux is invulnerable. However, he can't jump inside them, other than out of them.
+# There might be rolling logs as well. Floating logs could also be useful when crossing a river/waterfall; Tux could control them if he jumped on them. 
 
+Hurt [[Tux]]: Run over him. Also, normal trees in the background may shake their branches to disturb [[Tux]] and other creatures.
 Also, nonwalking trees in the background might shake their branches disturbing Tux and other creatures.
 
-Behaviours and look: above
-
-Hurt Tux: run over him
-
-Hurt it: spit
+Hurt the enemy: Jump onto it.
