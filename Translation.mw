@@ -1,41 +1,41 @@
-= How to Translate =
+== How to Translate ==
 * Check at the end of this site if someone else is already working on the translation for your language. If there is someone contact him/her!
 * Install gettext
-* get a cvs snapshot of supertux and do the usual autogen.sh, configure.
+* Get an [[Download/Subversion|SVN snapshot]] of supertux and do the usual autogen.sh, configure.
 Make sure configure can find the xgettext application. (ie. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")
-* Run 'jam' and let it compile supertux and create all the messages.po files
+* Run 'jam' and let it compile supertux and create all the messages.pot files
 * Go into data/locale and data/levels/*/ and in each dir do:
-** In case you want to create a new translation do
+** In case you want to create a new translation, run:
  msginit -i messages.pot -o $LANG.po
  (where $LANG is the 2character handle of your language)
-** In case you want to update an existing translation do
+** In case you want to update an existing translation, issue the following command:
  msgmerge -U $LANG.po messages.pot
 
-* Edit the .po files with your favourite Editor or with 1 of the GUI tools below.
+* Edit the .po files with your favourite editor or with one of the GUI tools below.
 * Send the translated .po files to the supertux-devel mailing list.
-* You should also edit the supertux.desktop file and add a comment entry for your language
+* You should also edit the supertux.desktop file and add a comment entry for your language.
 
-= Notes for Translators =
-* If there isn't a good translation for some term (ie. fullscreen), you might consider to just keep it. It's better than making the user confused.
+== Notes for Translators ==
+* If there isn't a good translation for some term (i.e. fullscreen), you might consider to simply keep it. It's better than confusing the user.
 
-* In English, there is only one singular second person mode (You). If your language does have more than one - a personal and impersonal - remember that this is a game, so you should use the personal one. And if it is possible to ommit it in your language, it might be a good idea.
+* In English, there is only one singular second person form (you). If your language has more than one - a personal and impersonal - remember that this is a game, so you should use the personal one. Note that if it can be omitted your language, you should probably do so.
 
-* Names like SuperTux, Tux, Penny or Nolok should not be translated. If you really think one of these to be a too strange word for your people, first inform us at our mailing list. Minor characters like Mr. Ice Block can (and should) be translated.
+* Names like SuperTux, Tux, Penny or Nolok should not be translated. If you really think one of these is too strange for your language, first inform us on our mailing list. Names of minor characters like Mr. Ice Block can (and should) be translated.
 
-* If somewhere in the game, after translating a string, it doesn't look well (bad aligment, overlaps other text...), let us know - we will fix it.
+* If somewhere in the game, after translating a string, it doesn't look well (bad aligment, overlaps other text...), let us know and we will fix it.
 
-= Tools =
+== Tools ==
 
 There's a number of tools you can use to edit the .po files:
 
-* __KBabel__ - matured KDE translation program
-* poedit.sourceforge.net poEdit - multi-platform po editor (runs on windows and unix/linux)
-* QTranslator - Comes with Qt, also multi-platform
+* KBabel (i18n.kde.org/tools/kbabel/) - matured KDE translation program
+* poEdit (poedit.sourceforge.net) - multi-platform po editor (runs on Windows and Unix/Linux)
+* QTranslator - comes with Qt, also multi-platform
 * (X)Emacs - commonly used for translation with the respective plugin
-* Any text editor - Of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header
+* Any text editor - of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header.
 
-= Translations =
-please add yourself to this list if you are working on a new translations, so that others can contact you
+== Translations ==
+Please add yourself to this list if you are working on a new translation, so that others can contact you.
 
 === Catalan (ca) ===
 * Translated by Antoni Villalonga <frikimaster@gmail.com>
@@ -43,14 +43,12 @@ please add yourself to this list if you are working on a new translations, so th
 
 === Czech (cs) ===
 * Translated by Ondra Hosek <ondra.hosek@gmail.com>
-* Status: ? included in svn
+* Status: complete, included in svn
 
 === German (de) ===
 * Translated by Matthias Braun <matze@braunis.de>
 * Additional translation by Marek Möckel
-* Status: 99% complete included in svn
-
-
+* Status: 99% complete, included in svn
 
 === French (fr) ===
 * Translated by Frederic Rodrigo <f.rodrigo@tuxfamily.org>
