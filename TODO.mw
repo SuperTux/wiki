@@ -67,6 +67,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' do something with the tree?
 
 === Objects ===
+* '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, SnowSnail, Spidermite?, Hatch, SkullTile
 * '''H:''' Infobox: Don't show scroll arrows if the text is smaller than the box. Try pixelwise smooth scrolling instead of 1 line per keypress. Try to avoid scrolling textboxes anyway, players are bored if they have to read so much. Try to avoid infoboxes where possible, the game is played by lots of kids who either can't read yet or don't know english, they'll just be confused by text they can't understand.
 * '''M:''' add a simple rock object that can be carried around (''done, has to be tweaked'')
 * '''M:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
