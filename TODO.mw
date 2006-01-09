@@ -33,6 +33,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
 
 === Actions ===
+* '''H:''' A player that is shortly invincible after shrinking/loosing fire doesn't jump of enemies anymore
 * '''H:''' Buttjump:
 ** re-enable buttjump
 ** should kill enemies with a certain range (''needs to be tweaked'')
