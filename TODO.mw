@@ -18,8 +18,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Collision detection rewrite (H) ===
 * smoke clouds are too fast
 * rethink slopes collision feedback... tux becomes too slow when walking up and starts jumping when walking down
-* think about an attachement mechanism for moving platforms
-* implement paths for the moving platform, implement simple moving platforms
 * fix bullet speed/behaviour
 * check if unducking is actually possible or if something is in the way
 * what to do when stuck under tiles (after using duck-sliding)
