@@ -16,7 +16,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 == Programming ==
 
 === Collision detection rewrite (H) ===
-* implement ability to carry Mr. Iceblock (and other objects) around
 * smoke clouds are too fast
 * rethink slopes collision feedback... tux becomes too slow when walking up and starts jumping when walking down
 * think about an attachement mechanism for moving platforms
