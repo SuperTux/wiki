@@ -38,7 +38,7 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 * Controls: DPad, A, B, Start, Select, L, R
 * Programming Language: C, Assembler
 
-=== GPx2 ===
+=== GP2X ===
 
 * Resolution: 320x240
 * Graphics: plain framebuffer, has SDL available
