@@ -15,10 +15,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 == Programming ==
 
-=== Collision detection rewrite (H) ===
-* smoke clouds are too fast
-* rethink slopes collision feedback... tux becomes too slow when walking up and starts jumping when walking down
-* fix bullet speed/behaviour
+=== Collision Detection ===
+* '''M:''' rethink slopes collision feedback... tux becomes too slow when walking up and starts jumping when walking down
+* '''L:''' Stacking some objects doesn't work nicely. Examples: Multiple badguys above each other, multiple rocks above each other. It might be possible to solve this by doing collision detection against old object positions instead of the new ones.
 
 === Code Refactoring/Cleanup/Optimisation ===
 * '''M''' (or '''H'''?)''':''' implement quadtree or grid to speedup collision detection
