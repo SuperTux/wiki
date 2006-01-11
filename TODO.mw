@@ -65,6 +65,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' do something with the tree?
 
 === Objects ===
+* '''H:''' Tux doesn't pass through non-bumped inivisible blocks anymore
 * '''H:''' Check/Fix bullet speed/behaviour
 * '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, SnowSnail, Spidermite?, Hatch, SkullTile
 * '''M:''' Make moving platforms move tux away/crush him when pressed against a wall
