@@ -50,8 +50,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' implement a lighting effect for nolok
 * '''H:''' create a script for the intro cutscene
 * '''H:''' make it possible to modify the worldmap after the yeti has been defeated
-* '''H:''' extract translatable string from the scripts
-* '''H:''' write a bit of documentation about the scripting API (at least a sentence or two about each function)
+* '''H:''' extract translatable strings from the scripts
 * '''M:''' create a script for the yeti outro
 
 === Badguys ===
