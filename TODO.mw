@@ -76,7 +76,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 === Optimisations ===
-* '''H:''' Split more sprite decriptions into separate .sprite files so that they get lazily loaded.
+* '''H:''' Split sprite decriptions into separate .sprite files so that they get lazily loaded.
 
 === Miscellaneous ===
 * '''H:''' Add more try/catch blocks in the source so that the game handles simple errors more smoothly. (This is very visible when loading config files or savegames failed)
