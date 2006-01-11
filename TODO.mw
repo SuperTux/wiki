@@ -28,7 +28,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
 
 === Actions ===
-* '''H:''' check if unducking is actually possible or if something is in the way
 * '''H:''' what to do when stuck under tiles (after using duck-sliding)
 * '''H:''' A player that is shortly invincible after shrinking/loosing fire doesn't jump of enemies anymore
 * '''H:''' Buttjump:
