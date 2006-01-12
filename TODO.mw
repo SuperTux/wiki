@@ -48,10 +48,10 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Scripting/Cutscenes ===
 * '''H:''' add a global variable store for scripts or something like that holds information across levels/scripts and save/load cycles.
 * '''H:''' implement a lighting effect for nolok
-* '''H:''' create a script for the intro cutscene
 * '''H:''' make it possible to modify the worldmap after the yeti has been defeated
 * '''H:''' extract translatable strings from the scripts
 * '''M:''' create a script for the yeti outro
+* '''M:''' review propose intro cutscene - [[Script_for_CutScene_1]]
 
 === Badguys ===
 * '''H:''' bring back stay on platform flag
