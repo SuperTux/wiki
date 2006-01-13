@@ -83,6 +83,12 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' Add an ingame console, and a way that warnings and errors are shortly displayed ingame and fade away then. This is very usefull to make map designers realize their errors and for the game to display uncommon errors like missing write access for the savegame directory. (take a look at what the windstille console does for reference)
 * '''D:''' think about icebullet specifics
 
+=== Editor ===
+* '''H:''' Support for paths
+* '''H:''' Support for moving platforms
+* '''H:''' Support for ScriptedObjects
+* '''H:''' Support for entering scripts
+
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
 
