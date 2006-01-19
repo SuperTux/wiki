@@ -30,8 +30,8 @@ Get the source and untar it.<br/>
 Install Fink (fink.sf.org)<br/>
 in Terminal install the following binaries through Fink:<br/>
 %fink install sdl<br/>
-%fink install sdl_image<br/>
-%fink install sdl_mixer<br/>
+%fink install sdl-image<br/>
+%fink install sdl-mixer<br/>
 
 then go to your untared copy of supertux and do this:<br/>
 %./configure --disable-opengl<br/>
