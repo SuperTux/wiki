@@ -1,10 +1,18 @@
-Behavior and look: Walking trees look like hollow trees with eyes and feet. They should be 1.5x larger than [[Tux]].
+Behavior and Look: Walking Mr.Tree looks like hollow tree with eyes and feet. They should be 1.5x larger than [[Tux]].
+ 
+Hurt [[Tux]] Option 1: Run over him. 
 
-# Walk and run over [[Tux]].
-# [[Tux]] could jump inside the tree from under and control them since they're hollow, but only if Tux is invulnerable. However, he can't jump inside them, other than out of them.
-# There might be rolling logs as well. Floating logs could also be useful when crossing a river/waterfall; Tux could control them if he jumped on them. 
+Hurt [[Tux]] Option 2: Runs over him and throws harmful objects at him.  Mr.tree starts throwing fire balls after being hit with a fire shot from Tux.
 
-Hurt [[Tux]]: Run over him. Also, normal trees in the background may shake their branches to disturb [[Tux]] and other creatures.
+Hurt [[Tux]] Option 3: Mr.Tree throws (spawns) harmful leaf/hair clump creatures by pulling clumps from his head. These leaf/weed creatures attack Tux.
+
+Hurt the enemy Option 1: Jump onto it. 
+
+Hurt the enemy Option 2:  Knock down Mr.Tree by throwhing a Snail shells at him. Snails creatures can be stunned and then thrown at the tree. If Mr.Tree is hit with fire the animation changes and Mr.tree starts throwing fire balls at Tux. It is not a good idea for the player to light trees on fire, it just makes Mr.Tree mad.
+
+Additional and/or Future Gameplay Ideas: [[Tux]] could jump inside the tree from under and control them since they're hollow, but only if Tux is invulnerable. However, he can't jump inside them, other than out of them.
+
+Side Notes: normal trees in the background may shake their branches to disturb [[Tux]] and other creatures.
 Also, nonwalking trees in the background might shake their branches disturbing Tux and other creatures.
 
-Hurt the enemy: Jump onto it.
+There might be rolling logs as well. Floating logs could also be useful when crossing a river/waterfall; Tux could control them if he jumped on them.
