@@ -61,7 +61,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' do something with the tree?
 
 === Objects ===
-* '''H:''' background Particle systems are broken when scrolling up/down
+* '''H:''' background Particle systems are broken when scrolling up/down (particles pop up from nowhere, clouds aren't displayed before they're full inside the view)
 * '''H:''' Check/Fix bullet speed/behaviour
 * '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, SnowSnail, Spidermite?, Hatch, SkullTile
 * '''M:''' Make moving platforms move tux away/crush him when pressed against a wall
