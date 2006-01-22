@@ -1,22 +1,21 @@
 == How to Translate ==
 * Check at the end of this site if someone else is already working on the translation for your language. If there is someone contact him/her!
-* Install gettext
-* Get an [[Download/Subversion|SVN snapshot]] of supertux and do the usual autogen.sh, configure.
-Make sure configure can find the xgettext application. (ie. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")
-* Run 'jam' and let it compile supertux and create all the messages.pot files
-* Go into data/locale and data/levels/*/ and in each dir do:
+* Install [http://www.gnu.org/software/gettext/ gettext]
+* Get an [[Download/Subversion|SVN snapshot]] of SuperTux and do the usual <tt>autogen.sh</tt>, <tt>configure</tt>. ''Make sure configure can find the xgettext application. (i.e. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")''
+* Run <tt>jam</tt>, let it compile SuperTux and create all the <tt>messages.pot</tt> files
+* Go into data/locale and data/levels/*/ and in each of those directories:
 ** In case you want to create a new translation, run:
  msginit -i messages.pot -o $LANG.po
- (where $LANG is the 2character handle of your language)
+ (where $LANG is the two-character handle of your language)
 ** In case you want to update an existing translation, issue the following command:
  msgmerge -U $LANG.po messages.pot
 
 * Edit the .po files with your favourite editor or with one of the GUI tools below.
-* Send the translated .po files to the supertux-devel mailing list.
+* Send the translated .po files to the [[Mailing Lists|supertux-devel mailing list]].
 * You should also edit the supertux.desktop file and add a comment entry for your language.
 
 == Notes for Translators ==
-* If there isn't a good translation for some term (i.e. fullscreen), you might consider to simply keep it. It's better than confusing the user.
+* If there isn't a good translation for some term (i.e. fullscreen), you might consider to simply keep it in English. It's better than confusing the user.
 
 * In English, there is only one singular second person form (you). If your language has more than one - a personal and impersonal - remember that this is a game, so you should use the personal one. Note that if it can be omitted your language, you should probably do so.
 
@@ -28,8 +27,8 @@ Make sure configure can find the xgettext application. (ie. "checking for xgette
 
 There's a number of tools you can use to edit the .po files:
 
-* KBabel (i18n.kde.org/tools/kbabel/) - matured KDE translation program
-* poEdit (poedit.sourceforge.net) - multi-platform po editor (runs on Windows and Unix/Linux)
+* [http://i18n.kde.org/tools/kbabel/ KBabel] - matured KDE translation program
+* [http://poedit.sourceforge.net/ poEdit] - multi-platform po editor (runs on Windows and Unix/Linux)
 * QTranslator - comes with Qt, also multi-platform
 * (X)Emacs - commonly used for translation with the respective plugin
 * Any text editor - of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header.
