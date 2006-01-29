@@ -337,25 +337,25 @@ This module contains methods controlling the player. (No, SuperTux doesn't use m
 '''Once again, just like with ScriptedObject, note that <tt>Player</tt> is only the object type. Since SuperTux is currently single-player only, use <tt>Tux</tt> to make changes to the player object, such as <tt>Tux.deactivate()</tt>.'''
 
 ==== make_invincible ====
-Usage: <tt>Player.make_invincible()</tt>
+Usage: <tt>&lt;player&gt;.make_invincible()</tt>
 
 Makes the player invincible for a predefined amount of time.
 
 See also: <tt>TUX_INVINCIBLE_TIME</tt> in src/object/player.hpp for the amount of seconds that the player becomes invincible.
 
 ==== deactivate ====
-Usage: <tt>Player.deactivate()</tt>
+Usage: <tt>&lt;player&gt;.deactivate()</tt>
 
 Stops the player and blocks the movement controls.
 
 Tip: Don't call this in front of a horde of badguys.
 
 ==== activate ====
-Usage: <tt>Player.activate()</tt>
+Usage: <tt>&lt;player&gt;.activate()</tt>
 
 Reactivates the player's movement controls.
 
 ==== walk ====
-Usage: <tt>Player.walk(float velocity)</tt>
+Usage: <tt>&lt;player&gt;.walk(float velocity)</tt>
 
 Makes the player move in a certain horizontal velocity (specified by <tt>velocity</tt>). A negative velocity moves the player to the left.
