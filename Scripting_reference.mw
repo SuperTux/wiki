@@ -332,7 +332,9 @@ Usage: <tt>Text.set_centered(bool centered)</tt>
 If <tt>centered</tt> is <tt>true</tt>, the text will be centered on the screen. Otherwise, it will be left-aligned.
 
 === Player ===
-This module contains methods controlling the player. (No, SuperTux doesn't use mind control. Player refers to the player object.)
+This module contains methods controlling the player. (No, SuperTux doesn't use mind control. Player refers to the type of the player object.)
+
+'''Once again, just like with ScriptedObject, note that <tt>Player</tt> is only the object type. Since SuperTux is currently single-player only, use <tt>Tux</tt> to make changes to the player object, such as <tt>Tux.deactivate()</tt>.'''
 
 ==== make_invincible ====
 Usage: <tt>Player.make_invincible()</tt>
