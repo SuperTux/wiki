@@ -6,6 +6,8 @@ Christoph's Forest 2 is a tileset modification for SuperTux 0.1.3. It features a
 
 * www.deltadevelopment.de/users/christoph/supertux/
 
+== SuperTux SVN ==
+
 === supertux-nogl ===
 
 This is a patch for running the game on systems without OpenGL support. 
