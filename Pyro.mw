@@ -1,10 +1,8 @@
-{{NeedGraphics}}
-{{NeedCode}}
-An '''inflamed''' version of maybe some other badguy. Just walks around, trying to burn Tux by touching him.
+An '''inflamed''' version of maybe some other badguy. Just walks around, trying to burn Tux by touching him. 
 
-Tricky if combined with other enemies: If (accidentally) hit by [[FireTux]], Pyro will simply swallow the shots, then return fire directly at the player.
+Tricky if combined with other enemies: If (accidentally) hit by FireTux, Pyro will simply swallow the shots, then return fire directly at the player.
 
-Pyro can easily be dealt with by [[IceTux]]: One shot turns Pyro back into the original badguy, ready to be jumped on.
+Pyro can easily be dealt with by IceTux: One shot turns Pyro back into the original badguy, ready to be jumped on.
 
 Illustration is on www.deltadevelopment.de/users/christoph/supertux/
 
@@ -18,17 +16,4 @@ To make killing Pyro even more difficult: When shot at by IceTux he will jump so
 
 == Variation 2 ==
 
-Not only will falling into lava ignite or re-ignite Pyro, but also being touched by the "[[Flame]]" badguy or being hit by [[FireTux]].
-
-== Variation 3 ==
-
-Pyro could start off as Mr Match or similar, which basically behaves as a Snowball or Ivy:
-[[Image:Mr Match.jpeg]]
-Then, once touched by a flame, Firepower, lava or another Pyro, he could become a walking flame:
-[[Image:Mr Flame.jpeg]]
-When Mr Match he could be squishable and butt-jumpable, and when set fire to to become Pyro he could be only killed freezing. (Maybe not even killed by invinsible power.)
-
-
-:Great! do it! --[[User:Disk|Disk]] 18:48, 30 August 2007 (UTC)
-
-[[Category:ProposedBadguy]]
+Not only will falling into lava ignite or re-ignite Pyro, but also being touched by the "Flame" badguy or being hit by FireTux.
