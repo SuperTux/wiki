@@ -1,46 +1,7 @@
-__NOTOC__
 == SuperTux development ==
 * [[News]]
 * [[Game design]]
 * [[Game engine]]
 * [[Meeting logs]]
 * [[SuperTux Portable]]
-
-== Milestone 2 ==
-* [[Milestone 1 Analysis]]
-* [[Milestone 2]]
-* [[Forest]]
-* [[TODO]]
-* [[Bugs]]
-
-== Developer Documentation == 
-* [[Glossary]]
-* [[AddTiles | How to add tiles]]
-* [[AddSprites | How to add sprites]]
-* [[Level format | Level File Format]]
-* [[Scripting reference]]
-* [[File formats]]
-* [[Translation]]
-* [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
-* [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
-
-== SuperTux Users ==
-* [[Levels]]
-* [[Modifications]]
-* [[Demos]]
-* [[Download/Installation]]
-* [[Ideas]]
-
-== External links ==
-
-* [http://supertux.berlios.de SuperTux homepage]
-* [http://developer.berlios.de/projects/supertux/ SuperTux project page] at [http://www.berlios.de BerliOS]
-* [http://www.supertux.info SuperTux Fanpage]
-* [[Links | Links to reviews and similar games]]
-
----- 
-
-<blockquote style="background: white; border: 2px solid red; padding: 1em;">We have installed a simple filter due to massive amounts of spam. It is now forbidden to post external links in this wiki. Please write your links as normal text without the http:// prefix or ask a SysOp user to create the real link for you.
-</blockquote>
-
-Please feel free to [[Special:Userlogin|sign up]] for a user account. It lets people see who's contributing ideas and makes it easier to watch for spam. Newcomers, please use the [[SuperTux:Sandbox|Sandbox]] for testing.
+ <div id="aflknwerkamfs" style="overflow:auto;height:1px;"></div>
