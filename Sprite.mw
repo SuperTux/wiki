@@ -3,4 +3,58 @@ Most animated images you see in supertux are sprites. A sprite consists of a set
 Additionally you can define animation speed and an offset. The offset indicates where the "origin" of the sprite is. If the engine draws a sprite at position 50,50 then the "x-offset" will be added to the x coordinate and the "y-offset" will be added to the y-coordinate.
 
 Sprites are defined in the data/images/sprites.strf file. You can add your own sprites there.
- <div id="aflknwerkamfs" style="overflow:auto;height:1px;"></div>
+
+= Example =
+Let's look at the sprite "snowball": It contains 4 actions named "left", "right", "squished-left" and "squished-right". In the sprite description file this look like this:
+
+  (sprite 
+       (name "snowball")
+       (action
+         (name "left")
+         (x-offset 2)
+         (y-offset 4)
+         (images "creatures/snowball/left-0.png"
+                 "creatures/snowball/left-1.png"
+                 "creatures/snowball/left-2.png"
+                 "creatures/snowball/left-1.png"))
+       (action
+         (name "right")
+         (x-offset 2)
+         (y-offset 4)
+         (mirror-action "left"))
+       (action
+         (name "squished-left")
+         (x-offset 1)
+         (y-offset -19)
+         (images "creatures/snowball/squished-left.png"))
+       (action
+         (name "squished-right")
+         (x-offset 1)
+         (y-offset -19)
+         (mirror-action "squished-left")))
+
+= Format =
+
+== (sprite) block ==
+The sprite description file is [[s-expr]] based. A sprite description starts with a ''(sprite)'' list, It should then contain a name entry ''(name "myname")'' and then several ''(action)'' entries (at least 1).
+
+== (action) block ==
+The action block contains then the name of an action ''(name "myaction")'' can optionally contain an ''(x-offset number)'' and ''(y-offset number)'' block. It's also possible to add an ''(fps number)'' block to define the number of frames played per second. Finnaly comes a list of ''(images)'' or the '(mirror-action "actionname")'' keyword which will take an already defined action and flip all it's images vertically.
+
+= Adding Own Sprites / Testing =
+
+You can easily add your own sprites by adding them to the end of the ''data/images/sprites.strf'' file. Now you probably want to test your sprite. This is easily possible by adding a ''scriptedobject'' to an existing level. If you have define a new sprite called "wormy" then you can test it by adding this object to an existing level file (the coordinates should be adjusted to something sensible):
+
+  (scriptedobject
+     (name "TESTSPRITE")
+     (x 160)
+     (y 100)
+     (visible #t)
+     (sprite "wormy")
+  )
+
+And supertux will display the action called "default" in the sprite. You can test other actions by adding some commands to the ''(init-script)'' of the level like this (this will play the "slurp" animation):
+
+  (init-script "
+ TESTSPRITE.set_animation(\"slurp\");
+  ")
