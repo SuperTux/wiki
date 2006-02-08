@@ -1,3 +1,33 @@
+This page lists all known bugs. Feel free to elaborate on any bugs already noted here. Please make a note if a bug has either been fixed or not been fixed (in an old release).
+
 == Website ==
 All website bugs have been fixed.
- <div id="aflknwerkamfs" style="overflow:auto;height:1px;"></div>
+
+== Release 0.1.3 ==
+* If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
+* The texture.cpp file has an incorrect texture type (GL_RGB10_A2). Only ATI (FGLRX) drivers will interpret it correctly and will display a non-transparent waterfall in OpenGL. It's better to use GL_RGBA here since most drivers (ex. mesa) interpret GL_RGB10_A2 as GL_RGBA
+=== Not a bug ===
+* After running the configure script without any options and compiling the source in the supertux-0.1.3.tar file, SuperTux crashes with the error 'Couldn't load musicfile', and reports the filename with a complete absolute path (which is correct -- SALCON.mod). Bug produced with a Slackware 9.1 system. -> Your SDL_mixer library is probably compiled without mikmod support or you grabbed 1 of the versions where mikmod support was broken.
+
+== Release 0.1.2 ==
+* The sound slightly lags. Bug produced with Fedora Core 2.
+* If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
+* When opening hand-edited levels/maps that have incorrect syntax, SuperTux crashes with an unmoveable mouse.
+* SuperTux takes up more memory on each new level/game, until it crashes the systems. Using KDE System Guard suggests that finished maps/levels are not being freed from memory. Bug produced on a Knoppix/Debian system with 128MB of RAM.
+
+== Development version ==
+* There are semi-predictable segfaults (which happen when switching into/out of a level/map).
+* There are a few missing files (which include arctic2.jpg and mkinstalldirs).
+* There are many graphical glitches (weird flickers whenever Tux is off the screen, and the background freezes on some bonus levels).
+* 
+* [[Tux]] does a tiny jump while ducking.
+** You try jumping while ducking :) - sik0fewl
+*** It's not any more difficult than jumping three times my height (or smashing bricks with my head, for that matter). :P - NMcCoy
+*Glibc seems to have a problem: <tt>*** glibc detected *** free(): invalid pointer: 0x082e22e8 ***</tt> (Fedora Core 3 fresh install with yum update) <br> GWater: Also seen bug on Fedora3 _64, have only seen crash on Yeti_Test screen so far. glibc detected double free or corruption: 0x0000003000e2da38 Aborted<br>This is not a glibc problem, but a problem in our code that needs to be fixed.
+
+*Sometimes killed with no reason. Just started a level and baam killed.
+**Even tho you die, you don't lose a life.
+***When are you killed and you started again sometimes time does not reset.
+****These problems seem to be related to pausing and unpausing the game.  It appears that when you pause the game, on your next life (if you die) or on the next level, you will die due to a "times up!".  Haven't dug around the source code yet, but that's the correlation I see, at least on the win32 release. - blinkin
+
+* (experienced in 0.1.3rc1, but please fix at least in trunk) When supertux crashes due to an assert() going false, it doesn't correctly restore the screen resolution and i'm left without a mouse pointer. man says that assert() calls abort() if false, and this sends a SIGABRT to our process. Please install a handler for SIGABRT which cleans up after ourselves (just in case there ever is another bug in supertux again *g*). - Philipp
