@@ -16,7 +16,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 == Programming ==
 
 === Collision Detection ===
-* '''H:''' rethink slopes collision feedback... tux becomes too slow when walking up and starts jumping when walking down - the walking up part might be ok, but you can't jump anymore when walking down at the moment, which is really bad
 * '''L:''' Stacking some objects doesn't work nicely. Examples: Multiple badguys above each other, multiple rocks above each other. It might be possible to solve this by doing collision detection against old object positions instead of the new ones.
 
 === Code Refactoring/Cleanup/Optimisation ===
