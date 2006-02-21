@@ -16,7 +16,7 @@ This distribution includes a supertux package. Just do the usual emerge (as root
 
 === Debian/Ubuntu Linux ===
 This distribution includes a supertux package. Just do the usual apt-get or install the package with synaptic.
-You can find the latest packages here http://telesto.lug-ag.ch/~gurkan/debian/supertux/
+You can find the latest packages here http://telesto.lug-ag.ch/~gurkan/debian/supertux/ '''''Note:''' Site seems to be down as of February 20, 2006''.
 
    apt-get install supertux
 
