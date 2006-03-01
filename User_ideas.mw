@@ -116,3 +116,10 @@ One thing that SuperTux is missing that Mario had would be stage variety. There 
 *A bounce pad thing or something that when Tux jump on it, he bounce up and jumps really high! :D
 
 ===art===
+
+=== Code ===
+* sprite animation callback that informs a Sprite when its current animation loop reached the last frame
+** gun informs the main program that it finished its firing animation and a bullet should be spawned
+** bullet informs the main program that it finished exploding and can now be removed
+** badguy informs the main program that the walking animation reached the last frame can can from here smoothly transition into a jumping animation
+** ...
