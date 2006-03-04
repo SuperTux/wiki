@@ -1,7 +1,6 @@
 ==Current Implementation==
 
-* Purple, winged critter, that just flies in a straight path.
-* an experimental -hideandzeek patch makes the Zeekling invisible until she is only 1/3 screen away from the player
+* Purple, winged critter that flies in a straight path. Swoops down to attack the player when in range.
 
 ==Proposal 1==
 
