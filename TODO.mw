@@ -50,6 +50,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' make it possible to modify the worldmap after the yeti has been defeated
 * '''H:''' extract translatable strings from the scripts
 * '''M:''' create a script for the yeti outro
+* '''?:''' easy means of skipping and/or fast-forwarding cutscenes
 
 === Badguys ===
 * '''H:''' bring back stay on platform flag
