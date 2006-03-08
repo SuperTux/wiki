@@ -61,9 +61,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Objects ===
 * '''H:''' Check/Fix bullet speed/behaviour
 * '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, SnowSnail, Spidermite?, Hatch, SkullTile
-* '''M:''' Make moving platforms move tux away/crush him when pressed against a wall
 * '''H:''' Implement Ice Cube/Straw Block - a block that can be destroyed by the fire shot. Appearance depends on the world it's used in.
 * '''H:''' Infobox: Don't show scroll arrows if the text is smaller than the box. Try pixelwise smooth scrolling instead of 1 line per keypress. Try to avoid scrolling textboxes anyway, players are bored if they have to read so much. Try to avoid infoboxes where possible, the game is played by lots of kids who either can't read yet or don't know english, they'll just be confused by text they can't understand.
+* '''M:''' Make moving platforms move tux away/crush him when pressed against a wall
 * '''M:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
 * '''M:''' redo trampolines
 * '''L:''' add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
@@ -76,8 +76,8 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' When going up/down really fast, the camera sometimes can't keep up and tux goes out of the screen on the top
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
 ** For the final release, we should also include a conversion algorithm that upgrades the levels to the new format.
-* '''L:''' save score on per-level basis to make high-score (this means coins/time)
 * '''M:''' Tux did go up/down 1 or 2 pixels each step when walking around in the 0.1.x releases which made the walk look a bit more natural. I don't know if this was done intentionally or why it doesn't work anymore, but it would be nice to have this effect again.
+* '''L:''' save score on per-level basis to make high-score (this means coins/time)
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
 * '''L:''' Add an ingame console, and a way that warnings and errors are shortly displayed ingame and fade away then. This is very usefull to make map designers realize their errors and for the game to display uncommon errors like missing write access for the savegame directory. (take a look at what the windstille console does for reference)
