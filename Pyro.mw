@@ -1,8 +1,8 @@
 An '''inflamed''' version of maybe some other badguy. Just walks around, trying to burn Tux by touching him. 
 
-Tricky if combined with other enemies: If (accidentally) hit by FireTux, Pyro will simply swallow the shots, then return fire directly at the player.
+Tricky if combined with other enemies: If (accidentally) hit by [[FireTux]], Pyro will simply swallow the shots, then return fire directly at the player.
 
-Pyro can easily be dealt with by IceTux: One shot turns Pyro back into the original badguy, ready to be jumped on.
+Pyro can easily be dealt with by [[IceTux]]: One shot turns Pyro back into the original badguy, ready to be jumped on.
 
 Illustration is on www.deltadevelopment.de/users/christoph/supertux/
 
@@ -16,4 +16,4 @@ To make killing Pyro even more difficult: When shot at by IceTux he will jump so
 
 == Variation 2 ==
 
-Not only will falling into lava ignite or re-ignite Pyro, but also being touched by the "Flame" badguy or being hit by FireTux.
+Not only will falling into lava ignite or re-ignite Pyro, but also being touched by the "[[Flame]]" badguy or being hit by [[FireTux]].
