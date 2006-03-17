@@ -60,6 +60,48 @@ Magnet - allows you to grab onto the bottom of platforms and move along them.
 
 Spiky shell - invulnerability for 30 seconds
 
+==Characters==
+
+Tux
+
+Penny
+
+Other penguins (colorized, EvilPenguin, Albino, Magellenic, Macaroni)
+
+Nolok
+
+Snowball (Bouncing/Walking/Spiky combination)
+
+Walking Flame
+
+MrBomb
+
+MrIceBlock
+
+Polar Bear
+
+Seal
+
+Yeti
+
+Poison Ivy
+
+Spider
+
+MrTree
+
+MrTotem
+
+Zeekling
+
+Ghost
+
+Dillo
+
+Beastie (BSD logo)
+
+Platypus (Darwin logo)
+
 ==Attacks==
 
 Peck - run up to opponents to peck them - this can knock them off the platform.
@@ -69,6 +111,8 @@ Jump attack - instant death to non-grown opponents.
 Spin attack - instant death to all opponents.
 
 Powerups - above.
+
+Specials - per character.
 
 ==Design Issues==
 
