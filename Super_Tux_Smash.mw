@@ -17,6 +17,8 @@ Intro, Winners podium extro.
 
 Unlimited lives.
 
+Mini-viewport (ala Smash Bros) to show where players have gone offscreen
+
 ==Game Modes==
 
 Eventual network play team info included.
@@ -42,33 +44,50 @@ Instead of having Question Blocks, have balloons which occasionally float up fro
 Powerups include:
 
 Grow - break thru platforms from side or bottom when grown. Also less vulnerable to jump attack.
+
 Fire flower - instant death (respawn) to opponent when hit, break platforms.
+
 Ice flower - freeze opponent for 5 seconds.
+
 Umbrella - float farther, slower.
+
 Rocket pack - WASD movement for 15 seconds, fireflower ability.
+
 Balloon - some balloons would be empty but allow you to float. All balloons would pop when hitting a platform
 or player. There might also be tied balloons which don't pop but you have to jump across fast due to jiggling.
+
 Magnet - allows you to grab onto the bottom of platforms and move along them.
+
 Spiky shell - invulnerability for 30 seconds
 
 ==Attacks==
 
 Peck - run up to opponents to peck them - this can knock them off the platform.
+
 Jump attack - instant death to non-grown opponents.
+
 Spin attack - instant death to all opponents.
+
 Powerups - above.
 
 ==Design Issues==
 
 Need vertical, multi platform based levels.
+
 Physics-based platforms (ala Gish) would be nice.
+
 Underwater levels would be nice.
+
 Seesaws and Trampolines could be important.
+
 Could use some enemies like the jumpy spiky, fish etc.
+
 Would be nice to have some new ones like:
 
 Anvils (drop from the sky once in a while, break platforms)
+
 Arrows, Rockets, or Chompers (come from the sides if you get too close to edges)
+
 Rockets could also launch from the bottom once in a while.
 
 For big (scrolling) levels, teleports (w/ directional arrows and random ones) and/or a minimap would be nice.
