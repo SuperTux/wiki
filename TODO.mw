@@ -71,7 +71,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 === Optimisations ===
-* '''H:''' Split sprite decriptions into separate .sprite files so that they get lazily loaded.
+* '''H:''' .sprite files should get lazily loaded
 
 === Miscellaneous ===
 * '''H:''' When going up/down really fast, the camera sometimes can't keep up and tux goes out of the screen on the top
