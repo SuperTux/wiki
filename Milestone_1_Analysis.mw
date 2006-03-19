@@ -9,6 +9,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * Tux lacks a dedicated run animation.
 
 * The Run sign should be replaced with an information block.
+** Not necessarily. See the "why too much text is bad" discussions on the channel
 
 * The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
 
@@ -26,9 +27,9 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * In some cases, bumping against a ? block leaves the image in place.
 
-* One-tile gaps are handled pretty badly.
-
-* ?-blocks don't indicate at which side they where bumped - MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway... Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped).
+* ?-blocks don't indicate at which side they where bumped
+** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway... 
+** Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped).
 
 * The goal bars are pointless (a ripoff of Mario World).
 
@@ -37,8 +38,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * There are no fade-outs/ins when you either die or complete a level.
 
 * While pretty, the snowflakes do not really match the style.
-
-* The coins are very poorly drawn.
 
 * The enemy's stay-on-platform option is questionable; it should be indicated by the enemy's color.
 
@@ -60,8 +59,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * There are no half-tiles/unsolid (unstable?) tiles.
 
-* The invisible blocks have collision; even though they're invisible.
-
 * The coins and other things should have particle effects or some other animation when they're collected (not just disappear).
 
 * Many secret areas are poorly made and therefore may look like bugs.
@@ -75,8 +72,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * The worldmap is inanimate and lacks water animation.
 
 * The "excellent" sound sample should be redone.
-
-* Tux's Fireflower ability (item and shooting fireballs) is poorly drawn.
 
 * The enemies move too slow (in relation to Tux); make them able to easily dodge Tux.
 
@@ -104,8 +99,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * More font effects are needed, ie. the active menu entry should wobble, etc.
 
-* Monster generators (objects that constantly spawn new enemies) are missing.
-
 * Breakable blocks are randomly covered with snow.
 
 * The particles that get thrown after Tux hits a breakable block are poorly drawn (not reacting to gravity, etc.).
@@ -117,6 +110,17 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * There is no back/horizontal/vertical scrolling.
 
 * The reset points are invisible.
+
+* The coins are very poorly drawn.
+
+* Monster generators (objects that constantly spawn new enemies) are missing.
+
+* Tux's Fireflower ability (item and shooting fireballs) is poorly drawn.
+
+* The invisible blocks have collision; even though they're invisible.
+
+* One-tile gaps are handled pretty badly.
+
 
 == Good Things in Milestone 1 ==
 This is a list of things that are good in Milestone 1 (compared to most other games or where we managed to hit our goals).
