@@ -33,3 +33,5 @@ All website bugs have been fixed.
 * (experienced in 0.1.3rc1, but please fix at least in trunk) When supertux crashes due to an assert() going false, it doesn't correctly restore the screen resolution and i'm left without a mouse pointer. man says that assert() calls abort() if false, and this sends a SIGABRT to our process. Please install a handler for SIGABRT which cleans up after ourselves (just in case there ever is another bug in supertux again *g*). - Philipp
 
 * systematic crash on mandrake 10.1: Development version 3049 compiles without any problem but the program doesn't run at all and crashes the entire session of KDE.
+
+* Badguys that leave the visible area immediately respawn where they started
