@@ -1,0 +1,83 @@
+== Introduction ==
+
+If you want to build the current (pre-0.2) development version on Windows, these step-by-step instructions are for you. 
+
+== Warning ==
+
+Before you proceed, however, carefully read the following warnings:
+
+* You will be building a highly unstable development version of SuperTux. This might cause permanent damage to your system, your brain or both!
+* Do not try these instructions out on a production system. Use a virtual machine (e.g. VMWare) instead.
+* The developers currently focus on getting SuperTux stable for Linux. Feel free to try getting it to work on Windows, but do not expect any support down this road.
+* Read these instructions to the end before starting your install. If any step makes you feel unsure, better wait for a Windows release of SuperTux.
+* The whole build process takes about one hour to complete, depending on your internet connection and processor power. Why not do something more productive in that hour? Maybe do some housework?
+
+== Preparation ==
+
+OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on a fresh Windows installation:
+
+=== It's Download Time ===
+
+* Download and install [attp://www.mingw.org/ MinGW] - I chose [attp://prdownloads.sf.net/mingw/MinGW-5.0.0.exe?download MinGW-5.0.0]
+** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy.
+** The default folder of c:\MinGW was alright with me, as I installed on a development installation of Windows. I'll just assume we installed there.
+
+* Download and install [attp://www.mingw.org/msys.shtml MSYS] - I chose [attp://prdownloads.sf.net/mingw/MSYS-1.0.11-2004.04.30-1.exe?download MSYS-1.0.11-2004.04.30-1]
+** Again, the default folder of C:\msys\1.0 was fine with me
+** In the process of installing MSYS, a command shell should open, promping you whether you want to continue and if you already installed MinGW. Answer both questions with yes (y) and you should be prompted for the path to your MinGW installation. As I installed to c:\MinGW, I entered c:/MinGW (note the forward slash instead of a backslash)
+
+* Download and install the MSYS developer toolkit (DTK) - I chose [attp://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
+** Again, the default folder of C:\msys\1.0 was fine with me, the rest of the install was smooth sailing
+
+* Download MSYS autoconf - I chose [attp://prdownloads.sourceforge.net/mingw/msys-autoconf-2.59.tar.bz2?download msys-autoconf-2.59]
+** save this to C:\msys\1.0, we will unpack it later
+
+* Download MSYS automake - I chose [attp://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
+** save this to C:\msys\1.0, we will unpack it later
+
+* Download the SuperTux lib package - I chose [attp://download.berlios.de/supertux/supertux-msys-libs-2006-03-21.tar.bz2 supertux-msys-libs-2006-03-21]
+** save this to C:\msys\1.0, we will unpack it later
+
+* Download and install [attp://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [attp://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
+** install and reboot to finish the installation
+
+* Download and install [attp://www.openal.org/ OpenAL]
+** On the OpenAL website, choose "Download", then "Installer for Windows"
+** Start the Installer and follow the onscreen instructions
+
+=== Checking Things Out ===
+
+* time to check out the latest sources from SVN
+** create c:\msys\1.0\build - we will download and build SuperTux there
+** right-click this folder and select "SVN checkout..." from the context menu
+** As repository URL, enter: svn://svn.berlios.de/supertux/trunk/supertux
+** As checkout dir, enter: C:\msys\1.0\build\supertux
+** begin your checkout and wait - this might take some time...
+
+=== Getting Busy ===
+
+* time to start MSYS for the first time. Launch MSYS by clicking on the conveniently created desktop icon
+* install the downloaded binaries by typing
+
+ cd /c/msys/1.0/
+ tar -xjvf msys-autoconf-2.59.tar.bz2
+ tar -xjvf msys-automake-1.8.2.tar.bz2
+ tar -xjvf supertux-msys-libs-2006-03-21[1].tar.bz2
+
+== Building ==
+
+* we're ready to build SuperTux. Just type the following
+
+ cd /build/supertux/
+ cp /usr/local/bin/*.dll .
+ ./autogen.sh
+ LIBS="-L/usr/local/lib -lvorbisenc -lvorbisfile -lvorbis -logg" CFLAGS="-I/usr/local/include" configure --enable-debug
+ jam
+
+* we're done. Double click the created supertux.exe, sit back and enjoy the intro screen.
+* Really, enjoy the intro screen. There's not much more to do at the moment, as any interaction on your part might make the game crash. Sad, but true - the developers are working on that...
+* Soon as I manage to create a stable binary for windows, I will upload it to my [attp://www.deltadevelopment.de/users/christoph/supertux/ website]
+
+== Additional Tips ==
+
+* none yet
