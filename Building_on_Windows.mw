@@ -1,172 +1,83 @@
 == Introduction ==
 
-If you want to build the current development version on Windows, these step-by-step instructions are for you. An example of a successful build following these instructions can be found [[LMH builds SuperTux on Windows|here]]. At the end of the article is a quick guide for Visual Studio.
+If you want to build the current (pre-0.2) development version on Windows, these step-by-step instructions are for you. 
 
-== Warnings ==
+== Warning ==
 
 Before you proceed, however, carefully read the following warnings:
 
 * You will be building a highly unstable development version of SuperTux. This might cause permanent damage to your system, your brain or both!
-* Do not try these instructions out on a production system. Use a virtual machine (e.g. VMWare or [http://www.virtualbox.org/ VirtualBox]) instead.
-* Most developers currently focus on getting SuperTux stable for Linux. Feel free to try getting it to work on Windows, but do not expect much support down this road.
+* Do not try these instructions out on a production system. Use a virtual machine (e.g. VMWare) instead.
+* The developers currently focus on getting SuperTux stable for Linux. Feel free to try getting it to work on Windows, but do not expect any support down this road.
 * Read these instructions to the end before starting your install. If any step makes you feel unsure, better wait for a Windows release of SuperTux.
 * The whole build process takes about one hour to complete, depending on your internet connection and processor power. Why not do something more productive in that hour? Maybe do some housework?
-* The build process fails on Windows Vista sometimes. (please open a bug in our [http://supertux.lethargik.org/bugs/ bug tracker] to help us figure out why)
 
 == Preparation ==
 
-OK, enough of that. Here are the exact steps for building SuperTux on a fresh Windows installation:
-
-* Create or pick a working folder. Its path should not contain any spaces. (The root of a drive, such as C:\ or D:\, is fine)
-** I chose D:\Build_SuperTux; change the commands to match your choice.
-** Every non-absolute path I give is relative to this directory
-
-=== Checking Things Out ===
-
-* We want to check out the latest sources from the [[Download/Git | Git repository]]
-* You need a [http://git-scm.com/ Git] client (instructions vary depending on client you choose)
-** For example using [https://msysgit.googlecode.com/files/Git-1.8.3-preview20130601.exe MsysGit]
-*** Run the installer
-*** Run Git Bash and navigate to the folder you want to save SuperTux to
-*** Type: <code><nowiki>git clone https://code.google.com/p/supertux/</nowiki></code>
-*** Begin your checkout and wait - this might take some time, so to the next step...
+OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on a fresh Windows installation:
 
 === It's Download Time ===
 
-Download all these to your build directory.
+* Download and install [attp://www.mingw.org/ MinGW] - I chose [attp://prdownloads.sf.net/mingw/MinGW-5.0.0.exe?download MinGW-5.0.0]
+** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy.
+** The default folder of c:\MinGW was alright with me, as I installed on a development installation of Windows. I'll just assume we installed there.
 
-* [http://mingw.org MinGW] and MSYS
+* Download and install [attp://www.mingw.org/msys.shtml MSYS] - I chose [attp://prdownloads.sf.net/mingw/MSYS-1.0.11-2004.04.30-1.exe?download MSYS-1.0.11-2004.04.30-1]
+** Again, the default folder of C:\msys\1.0 was fine with me
+** In the process of installing MSYS, a command shell should open, promping you whether you want to continue and if you already installed MinGW. Answer both questions with yes (y) and you should be prompted for the path to your MinGW installation. As I installed to c:\MinGW, I entered c:/MinGW (note the forward slash instead of a backslash)
 
-Look for the latest version of <code>mingw-get-inst</code> [http://sourceforge.net/projects/mingw/files/ here].
+* Download and install the MSYS developer toolkit (DTK) - I chose [attp://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
+** Again, the default folder of C:\msys\1.0 was fine with me, the rest of the install was smooth sailing
 
-*[http://cmake.org/cmake/resources/software.html CMake]
+* Download MSYS autoconf - I chose [attp://prdownloads.sourceforge.net/mingw/msys-autoconf-2.59.tar.bz2?download msys-autoconf-2.59]
+** save this to C:\msys\1.0, we will unpack it later
 
-http://www.cmake.org/files/v2.8/cmake-2.8.5-win32-x86.zip
+* Download MSYS automake - I chose [attp://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
+** save this to C:\msys\1.0, we will unpack it later
 
-* [http://curl.haxx.se/download.html cURL] (add-on manager)
+* Download the SuperTux lib package - I chose [attp://download.berlios.de/supertux/supertux-msys-libs-2006-03-21.tar.bz2 supertux-msys-libs-2006-03-21]
+** save this to C:\msys\1.0, we will unpack it later
 
-http://www.gknw.net/mirror/curl/win32/curl-7.21.7-devel-mingw32.zip <br>
-[http://curl.haxx.se/gknw.net/7.31.0/dist-w32/curl-7.31.0-devel-mingw32.zip Alternative download (v 7.31.0)]
+* Download and install [attp://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [attp://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
+** install and reboot to finish the installation
 
-* [http://www.libsdl.org/download-1.2.php SDL] graphics library
+* Download and install [attp://www.openal.org/ OpenAL]
+** On the OpenAL website, choose "Download", then "Installer for Windows"
+** Start the Installer and follow the onscreen instructions
 
-http://www.libsdl.org/release/SDL-devel-1.2.14-mingw32.tar.gz
+=== Checking Things Out ===
 
-* [http://glew.sourceforge.net/ GLEW] graphics library
-
-http://sourceforge.net/projects/glew/files/glew/1.7.0/glew-1.7.0-win32.zip/download
-
-* [http://www.libsdl.org/projects/SDL_image/ SDL_image] for loading graphics
-
-http://www.libsdl.org/projects/SDL_image/release/SDL_image-devel-1.2.10-VC.zip
-
-* [http://icculus.org/physfs/downloads/ PhysFS] file management
-
-http://icculus.org/physfs/downloads/physfs-2.0.2.tar.gz
-
-* [http://www.boost.org/ Boost]
-
-http://sourceforge.net/projects/boost/files/boost/1.47.0/boost_1_47_0.7z/download
-
-* [http://www.7-zip.org/ 7-zip] for your favorite extraction program
-
-http://downloads.sourceforge.net/sevenzip/7z920.exe
-
-* [http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx OpenAL], for all your OggVorbis needs
-
-http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip <br>
-[http://www.filecluster.com/downloads/OpenAL-SDK.html Alternative download location]
+* time to check out the latest sources from SVN
+** create c:\msys\1.0\build - we will download and build SuperTux there
+** right-click this folder and select "SVN checkout..." from the context menu
+** As repository URL, enter: svn://svn.berlios.de/supertux/trunk/supertux
+** As checkout dir, enter: C:\msys\1.0\build\supertux
+** begin your checkout and wait - this might take some time...
 
 === Getting Busy ===
-* Run the 7-zip, mingw-get-inst, and OpenAL SDK installers.
-** I used the default paths for 7-zip and OpenAL, and used the build directory for MinGW (remove the MinGW suffix at the end)
-* For everything else you downloaded, right click and use 7-zip's "Extract here". Repeat with the generated *.tar files.
-* Move the physfs-2.* directory out from Users/.../physfs* into the main directory
-* Make a folder <code>local</code> to hold libraries
-* Copy bin, include, lib, and share folders from cmake, curl, SDL, SDL_image, and glew folders (don't include physfs or boost)
-* Go to C:\Program Files\OpenAL 1.1 SDK
-* Copy the include directory there to local
-* Copy \samples\playoggvorbis\include\Ogg and \samples\playoggvorbis\include\Vorbis to local\include
-* Copy the Ogg and Vorbis DLL's in \samples\playoggvorbis\Win32 to local\bin
-* Go to C:\WINDOWS\system32 (%SYSTEMROOT%\system32)
-** 64-bit Windows: go to C:\windows\syswow64 (%SYSTEMROOT%\syswow64) instead.
-* Copy OpenAL32.dll and wrap_oal.dll to local\bin
-** If they aren't there, try running C:\Program Files\OpenAL 1.1 SDK\redist\oalinst.exe
+
+* time to start MSYS for the first time. Launch MSYS by clicking on the conveniently created desktop icon
+* install the downloaded binaries by typing
+
+ cd /c/msys/1.0/
+ tar -xjvf msys-autoconf-2.59.tar.bz2
+ tar -xjvf msys-automake-1.8.2.tar.bz2
+ tar -xjvf supertux-msys-libs-2006-03-21[1].tar.bz2
 
 == Building ==
 
-* We're going to build PhysFS.
-* Launch MSYS with msys/msys.bat and type in the following: (you can paste into MSYS using the icon in the title bar)
- cd /physfs*
- mkdir build
- cd build
- cmake .. -G "MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH=/local
- make
- make install
-* We're ready to build SuperTux.
-* Change to the SuperTux checkout directory
- cd /supertux
-* Make a build directory to store generated files
- mkdir build
- cd build
-* Start the actual build (everything else was libraries)
- INCLUDE="/local/include/SDL:/boost_1_47_0" cmake -G"MSYS Makefiles" -DCOMPILE_AMALGATION=ON -DCMAKE_CXX_FLAGS=-Wl,--enable-auto-import ..
- make
-* You need to copy some dll's from /local/bin, /local/lib, and /bin into /supertux.
- cd ..
- cp /local/bin/*.dll .
- cp /local/lib/*.dll .
- cp /mingw/bin/*.dll .
-A lot of these are unnecessary; use objdump -p or strings to prune the tree.
-* Now run supertux2.exe, sit back, and enjoy the game.
- cd /supertux
- ./supertux2.exe
+* we're ready to build SuperTux. Just type the following
 
-== Building the editor ==
+ cd /build/supertux/
+ cp /usr/local/bin/*.dll .
+ ./autogen.sh
+ LIBS="-L/usr/local/lib -lvorbisenc -lvorbisfile -lvorbis -logg" CFLAGS="-I/usr/local/include" configure --enable-debug
+ jam
 
-There's a new gtk-sharp based editor in development which can also be built on windows. To do so you first have to get and install the following dependencies:
-=== Dependencies ===
-* Make sure you have OpenGL drivers installed
-* Microsoft .NET 1.X framework SDK, you should be able to get this here: http://www.microsoft.com/downloads/details.aspx?FamilyID=9b3a2ca6-3647-4070-9f41-a333c6b9181d&DisplayLang=en
-* Microsoft .NET 2.X framework SDK, yes you need 1.x AND 2.x at the moment!: http://www.microsoft.com/downloads/details.aspx?familyid=FE6F2099-B7B4-4F47-A244-C96D69C35DEC&displaylang=en
-* Gtk-Sharp 2.7 SDK for windows, make sure you actually get the SDK the runtime version contains some bugs that affect the editor: http://forge.novell.com/modules/xfcontent/private.php/gtks-inst4win/Win32%20Installer/v2.7.1/gtksharp-2.7.1-win32-0.5.exe
-* Microsoft Visual C# Express Edition, it's a free version of visual studio and we use it for compiling (and development on win32): http://msdn.microsoft.com/vstudio/express/visualcsharp/download 
-*:This apparently requires SP2 on Windows XP. (not tested on any other Windows versions)
-* SDL.dll and SDL_image.dll, you can get these from an existing SuperTux installation or from the downloads above.
+* we're done. Double click the created supertux.exe, sit back and enjoy the intro screen.
+* Really, enjoy the intro screen. There's not much more to do at the moment, as any interaction on your part might make the game crash. Sad, but true - the developers are working on that...
+* Soon as I manage to create a stable binary for windows, I will upload it to my [attp://www.deltadevelopment.de/users/christoph/supertux/ website]
 
-=== Building ===
+== Additional Tips ==
 
-* Get the sourcecode from [[Download/Subversion|svn]]
-* Open supertux-sharp.sln by double clicking on it.
-* Build the project in debug and release mode (use F6 and then F5 for example)
-* Copy SDL.dll and SDL_image.dll into the bin\Debug and bin\Release directory that has just been created
-* You can now go back to Visual Studio Express and start the editor with F11. Note that the debug mode is quite slow for the OpenGL calls, so if you actually want to use the editor instead of developing it start it in release mode (CTRL+F11)
-
-You might want to read the [[Editor FAQ]] at this point.
-
-=== Snapshots ===
-MMLosh has some snapshots on his website: http://elektromaniak.wz.cz/download.html
-Note that because Mono is cross-platform, the executables should work on both Windows and Linux, though libraries can be a problem.
-
-== Fast and Easy Build with Visual Studio ==
-
-''This is experimental''
-Tested on W7/VS2010 x64
-
-Steps:
-
-* Install Visual Studio
-* Download CMake 2.8+
-* Open cmake gui
-* Set dirs according to your Environment (p.ex.: H:\STuxSVN and H:\STuxSVN\bin)
-* Press Configure, select your version of VS (with native compilers) and click on finish
-* Now CMake tells you what to do. If asked for any libs, make sure to download and add them to your environment strings
-
-Small List of DLs:
-* Boost: BOOST_ROOT: H:\STuxSVN\boost_1_42_0 / BOOST_LIBRARYDIR: $BOOST_ROOT\libs)
-* OpenAL: OPENAL_INCLUDE_DIR: D:\Program Files (x86)\OpenAL 1.1 SDK\include
-* Ogg Vorbis: VORBIS_INCLUDE_DIR: H:\STuxSVN\libvorbis-1.2.3
-* SDLIMAGE: SDLIMAGE_INCLUDE_DIR: H:\STuxSVN\SDL_image-1.2.10\include
-* SDL: SDL_INCLUDE_DIR: H:\STuxSVN\SDL-1.2.14
-
-[[Category:Developer documentation]]
+* none yet
