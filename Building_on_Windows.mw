@@ -18,30 +18,30 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 
 === It's Download Time ===
 
-* Download and install [attp://www.mingw.org/ MinGW] - I chose [attp://prdownloads.sf.net/mingw/MinGW-5.0.0.exe?download MinGW-5.0.0]
+* Download and install [http://www.mingw.org/ MinGW] - I chose [http://prdownloads.sf.net/mingw/MinGW-5.0.0.exe?download MinGW-5.0.0]
 ** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy.
 ** The default folder of c:\MinGW was alright with me, as I installed on a development installation of Windows. I'll just assume we installed there.
 
-* Download and install [attp://www.mingw.org/msys.shtml MSYS] - I chose [attp://prdownloads.sf.net/mingw/MSYS-1.0.11-2004.04.30-1.exe?download MSYS-1.0.11-2004.04.30-1]
+* Download and install [http://www.mingw.org/msys.shtml MSYS] - I chose [http://prdownloads.sf.net/mingw/MSYS-1.0.11-2004.04.30-1.exe?download MSYS-1.0.11-2004.04.30-1]
 ** Again, the default folder of C:\msys\1.0 was fine with me
 ** In the process of installing MSYS, a command shell should open, promping you whether you want to continue and if you already installed MinGW. Answer both questions with yes (y) and you should be prompted for the path to your MinGW installation. As I installed to c:\MinGW, I entered c:/MinGW (note the forward slash instead of a backslash)
 
-* Download and install the MSYS developer toolkit (DTK) - I chose [attp://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
+* Download and install the MSYS developer toolkit (DTK) - I chose [http://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
 ** Again, the default folder of C:\msys\1.0 was fine with me, the rest of the install was smooth sailing
 
-* Download MSYS autoconf - I chose [attp://prdownloads.sourceforge.net/mingw/msys-autoconf-2.59.tar.bz2?download msys-autoconf-2.59]
+* Download MSYS autoconf - I chose [http://prdownloads.sourceforge.net/mingw/msys-autoconf-2.59.tar.bz2?download msys-autoconf-2.59]
 ** save this to C:\msys\1.0, we will unpack it later
 
-* Download MSYS automake - I chose [attp://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
+* Download MSYS automake - I chose [http://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
 ** save this to C:\msys\1.0, we will unpack it later
 
-* Download the SuperTux lib package - I chose [attp://download.berlios.de/supertux/supertux-msys-libs-2006-03-21.tar.bz2 supertux-msys-libs-2006-03-21]
+* Download the SuperTux lib package - I chose [http://download.berlios.de/supertux/supertux-msys-libs-2006-03-21.tar.bz2 supertux-msys-libs-2006-03-21]
 ** save this to C:\msys\1.0, we will unpack it later
 
-* Download and install [attp://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [attp://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
+* Download and install [http://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
 ** install and reboot to finish the installation
 
-* Download and install [attp://www.openal.org/ OpenAL]
+* Download and install [http://www.openal.org/ OpenAL]
 ** On the OpenAL website, choose "Download", then "Installer for Windows"
 ** Start the Installer and follow the onscreen instructions
 
@@ -76,7 +76,7 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 
 * we're done. Double click the created supertux.exe, sit back and enjoy the intro screen.
 * Really, enjoy the intro screen. There's not much more to do at the moment, as any interaction on your part might make the game crash. Sad, but true - the developers are working on that...
-* Soon as I manage to create a stable binary for windows, I will upload it to my [attp://www.deltadevelopment.de/users/christoph/supertux/ website]
+* Soon as I manage to create a stable binary for windows, I will upload it to my [http://www.deltadevelopment.de/users/christoph/supertux/ website]
 
 == Additional Tips ==
 
