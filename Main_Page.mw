@@ -13,7 +13,7 @@ __NOTOC__
 * [[TODO]]
 * [[Bugs]]
 
-== Developer Documentation == 
+== Developer documentation == 
 * [[Glossary]]
 * [[AddTiles | How to add tiles]]
 * [[AddSprites | How to add sprites]]
@@ -24,12 +24,15 @@ __NOTOC__
 * [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
 * [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
 
-== SuperTux Users ==
+== SuperTux users ==
 * [[Levels]]
 * [[Modifications]]
 * [[Demos]]
 * [[Download/Installation]]
 * [[Ideas]]
+
+== Discussion ==
+* [[SuperTux:Community Discussion]]
 
 == External links ==
 
