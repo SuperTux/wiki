@@ -1,5 +1,5 @@
 == Repository ==
-Supertux development is coordinated with the help of the subversion version control system. Simply spoken it's filestore that can be used by multiple users simultaneously and which keeps track of changes and keeps old versions of files archived. You can find out more about subversion in general on their homepage at [http://subversion.tigris.org]
+Supertux development is coordinated with the help of the subversion version control system. Simply spoken it's filestore that can be used by multiple users simultaneously and which keeps track of changes and keeps old versions of files archived. You can find out more about subversion in general on their homepage at http://subversion.tigris.org
 
 == Getting the repository (anonymous read only access) ==
 Anonymous read access to the repository is granted for everybody. So when you already have subversion isntalled all you have to do to get your hands on the source is to use the following command:
