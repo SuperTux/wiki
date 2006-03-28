@@ -1,0 +1,13 @@
+=== Mechanics ===
+* Spawns new Badguys
+* Iterval: Fixed or random
+* Appearance: Trap door, cannon or invisible
+* Start direction of badguys: Fixed or random
+* Initial velocity of badguys: Fixed or random
+
+=== Uses ===
+* fires rockets
+* drops badguys from a (shootable) trap door
+* spawn badguys in tubes
+* launches molten rocks out of a lava lakes
+* ...
