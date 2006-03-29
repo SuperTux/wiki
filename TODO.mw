@@ -55,9 +55,11 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Badguys ===
 * '''H:''' bring back stay on platform flag
+** might not be necessary. See the discussion on helping players predict if an enemy will stay on a platform
 * '''H:''' We go into kicked mode for a short time (you hear the kick sound) before MrIceBlock gets grabbed by the player
 * '''M:''' do something with the wingling
 * '''?:''' do something with the tree?
+* '''?:''' render Badguys that could move through tiles (flames, ghosts, dead badguys) on a higher layer so they won't disappear behind e.g. grass patches only to reappear in front of solid ground again
 
 === Objects ===
 * '''H:''' Check/Fix bullet speed/behaviour
@@ -81,6 +83,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' save score on per-level basis to make high-score (this means coins/time)
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
+** For starters, being able to set a tilemap's opacity to 50% would suffice. Layering this semitransparent tilemap on an opaque one would achieve a similar effect
 * '''L:''' Add an ingame console, and a way that warnings and errors are shortly displayed ingame and fade away then. This is very usefull to make map designers realize their errors and for the game to display uncommon errors like missing write access for the savegame directory. (take a look at what the windstille console does for reference)
 * '''D:''' think about icebullet specifics
 
