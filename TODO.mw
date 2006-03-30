@@ -60,6 +60,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''M:''' do something with the wingling
 * '''?:''' do something with the tree?
 * '''?:''' render Badguys that could move through tiles (flames, ghosts, dead badguys) on a higher layer so they won't disappear behind e.g. grass patches only to reappear in front of solid ground again
+* '''M:''' create more and better Badguys, see [[Badguys]] for ideas
 
 === Objects ===
 * '''H:''' Check/Fix bullet speed/behaviour
@@ -87,6 +88,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' Add an ingame console, and a way that warnings and errors are shortly displayed ingame and fade away then. This is very usefull to make map designers realize their errors and for the game to display uncommon errors like missing write access for the savegame directory. (take a look at what the windstille console does for reference)
 * '''M:''' Support multiple tilesets per level. This way users/modders can easily extend the tileset with by simply adding new .strf files into the data directory.
 * '''D:''' think about icebullet specifics
+* '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
 
 === Editor ===
 * '''H:''' Support for paths
