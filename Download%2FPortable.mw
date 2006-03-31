@@ -51,11 +51,11 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 
 * Resolution: 480 x 272
 * Graphics: ???
-* Controls: DPad, A, B, X, Y, Start, Select, L, R, Analog-Stick, (Analog-Button?)
-* Programming Language: C, Assembler
+* Controls: DPad, Cross, Circle, Square, Triangle, Start, Select, L, R, Analog-Stick
+* Programming Language: C, C++, Lua, Python, Assembler
 * Notes: Resolution is to small for double-sprite size, yet to large for 32x16 sprites, maybe need something inbetween
 
-Seems like someone ported the 0.1.3 supertux to PSP: http://forums.qj.net/showthread.php?t=31140
+Seems like someone ported the 0.1.3 supertux to PSP: forums.qj.net/showthread.php?t=31140
 
 === PDA, Zaurus ===
 
