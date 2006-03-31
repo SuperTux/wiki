@@ -89,6 +89,8 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''M:''' Support multiple tilesets per level. This way users/modders can easily extend the tileset with by simply adding new .strf files into the data directory.
 * '''D:''' think about icebullet specifics
 * '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
+* '''H:''' ability to jump back at a specific position in a music file on loop (add .music files that describe the behaviour)
+* '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
 
 === Editor ===
 * '''H:''' Support for paths
