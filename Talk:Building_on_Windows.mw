@@ -1,6 +1,6 @@
 ['''SOLVED'''] So yeah, it is true that interaction at the main menu causes it to crash. I can't go to any actual level.
-:Yes, there is: just specify its filename on the command line
 Is this only a problem in windows? Is there a way to manually load a level?
+:Yes, there is: just specify its filename on the command line
 
 This problem has happened only on windows so far. Though I suspect it is bad OpenAl usage from our side. Anyway I don't plan to spend more debugging on this anytime soon. What you can do as a workaround is specifying level files directly on the commandline, so you can see them...
 
