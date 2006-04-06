@@ -98,6 +98,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 ** Loose 25 coins instead of a life. Exit level when 0 coins are reached.
 ** Keep coins from one level to another
 * '''?:''' Show total count of coins collected in all levels on the worldmap
+* '''?:''' Show statistics on level completion.
 
 === Editor ===
 * '''H:''' Support for paths
