@@ -7,6 +7,8 @@ This problem has happened only on windows so far. Though I suspect it is bad Ope
 
 ----
 
-I had to install one additional package in order to get SuperTux to compile -- the MinGW gcc-g++ package for compiling C++ code, found [http://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download here].
+I had to install one additional package in order to get SuperTux to compile -- the MinGW gcc-g++ package for compiling C++ code, found [http://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download here]. - [[User:Sik0fewl|Sik0fewl]]
 
 The game actually works on Windows (I use Linux, but my sister's children don't :)), but you must disable music (and sound mayhap?) or it will crash, try --disable-music option. The second thing is that standard levels work and contrib don't (from stderr.txt: [FATAL] src/main.cpp l.488: Unexpected exception: Malformed utf-8 sequence)
+
+: The first thiing I did was disable music in-game (I just don't like having the music on) and even the contrib levels worked for me. [[User:Sik0fewl|Sik0fewl]] 17:41, 6 Apr 2006 (BST)
