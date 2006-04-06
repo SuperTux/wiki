@@ -74,8 +74,11 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
  LIBS="-L/usr/local/lib -lvorbisenc -lvorbisfile -lvorbis -logg" CFLAGS="-I/usr/local/include" configure --enable-debug
  jam
 
-* Now run "supertux.exe -w", sit back and enjoy the game. 
-* Soon as I manage to create a stable binary for windows, I will upload it to my [http://www.deltadevelopment.de/users/christoph/supertux/ website]
+* Now run "supertux.exe -w", sit back and enjoy the game.
+
+== Ready-made Binaries ==
+
+* You might also find an old developer snapshot I built on my [http://www.deltadevelopment.de/users/christoph/supertux/ website].
 
 == Additional Tips ==
 
