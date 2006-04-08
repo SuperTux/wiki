@@ -35,3 +35,5 @@ All website bugs have been fixed.
 * systematic crash on mandrake 10.1: Development version 3049 compiles without any problem but the program doesn't run at all and crashes the entire session of KDE.
 
 * Badguys that leave the visible area immediately respawn where they started
+
+* In Revision 3266, a sprite file (/images/worldmap/common/teleporter.sprite) is missing. Could a developer add the file to rev. 3267? Thanks in advance - djwings
