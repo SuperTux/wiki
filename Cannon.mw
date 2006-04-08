@@ -1,6 +1,6 @@
 === Mechanics ===
 * Spawns new Badguys
-* Iterval: Fixed or random
+* Interval: Fixed or random
 * Appearance: Trap door, cannon or invisible
 * Start direction of badguys: Fixed or random
 * Initial velocity of badguys: Fixed or random
