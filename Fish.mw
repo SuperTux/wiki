@@ -5,7 +5,7 @@ Also, possibly there should be a few different types of fish:
 # Standard up-and-down movement
 # Curving Jump landing in a different place, going back and forth
 # Archer Fish
-#* stays below the surface of the water, but follows tux when he is on platforms above
-#* shoots high pressure water which can break blocks and knock Tux into water where the archer fish can get him
+#* Stays below the surface of the water, but follows tux when he is on platforms above
+#* Shoots high pressure water which can break blocks and knock Tux into water where the archer fish can get him
 # Swordfish
 #* Curving Jump following Tux and jumping higher when there is a chance to get Tux
