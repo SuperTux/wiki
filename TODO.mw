@@ -93,6 +93,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' ability to jump back at a specific position in a music file on loop (add .music files that describe the behaviour)
 * '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
 * '''L:''' Work when no OpenAl support is available
+* '''L:''' Create a global random number generator class and use that everywhere in supertux. Also record random seed in demos to make playback reproducible. IMO we shouldn't have random elements in gameplay anyway.
 * '''?:''' Show total count of coins collected in all levels on the worldmap
 * '''?:''' Show statistics on level completion.
 
