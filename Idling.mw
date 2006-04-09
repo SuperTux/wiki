@@ -1,10 +1,10 @@
-Sometimes tux stands just still. To make things more interesting we should have some animations in this case as well.
+Sometimes Tux just stands still. To make things more interesting we should have some animations in this case as well.
 
 Examples:
-* shaking his head
-* flapping his flaps
-* open/close an eyelid
-* tapping his feet in impatience
-* getting more and more angry the longer he is left.
+* Shaking his head
+* Flapping his flaps
+* Open/close an eyelid
+* Tapping his feet in impatience
+* Getting more and more angry the longer he is left.
 
 It would also be nice to make him turn and face the 'camera' if an idle timer was exceeded.
