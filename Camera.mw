@@ -1,23 +1,23 @@
-Level are typically alot bigger than the actual screen, so we need to scroll the currently visible part around. This page collects some rules to do this in a nice way.
+Level are typically a lot bigger than the actual screen, so we need to scroll the currently visible part around. This page collects some rules to do this in a nice way.
 
 Analysis of some [[Cameras in Super Mario]]
 
 == Basic movement ==
 
-Basically these are the same rules as for Yoshis Island. Maybe we will tweak it later or add special exceptions for new abilities.
+Basically these are the same rules as for Yoshi's Island. Maybe we will tweak it later or add special exceptions for new abilities.
 
 === Horizontal Movement ===
-* Keep the middle point of tux at 1/3rd of the screen width. If tux moves looks into the other direction, then slowly move the camera so that tux stands in the 1/3rd of the other side of the screen. This movement has to get faster if tux moves into that direction. When tux gets pushed  into the other direction (but still looks forward) we don't change camera mode but just scroll when he gets pushed nearer than 1/3rd of the other side.
-* We might experiment about changing the camera when tux is running to 1/4th or so. We should test if this is desirable because then you see more stuff that before you. On the other side a too dynamic camera movement can confuse and making it harder to control tux exactly.
+* Keep the middle point of Tux at 1/3rd of the screen width. If Tux moves/looks into the other direction, then slowly move the camera so that tux stands in the 1/3rd of the other side of the screen. This movement has to get faster if Tux moves into that direction. When Tux gets pushed  into the other direction (but still looks forward) we don't change camera mode but just scroll when he gets pushed nearer than 1/3rd of the other side.
+* We might experiment about changing the camera when Tux is running to 1/4th or so. We should test if this is desirable because then you see more stuff that's before you. On the other side a too dynamic camera movement can confuse and making it harder to control Tux exactly.
 
 === Vertical Movement ===
-* Basically Keep tux in the middle of the screen.
-* When tux does a normal jump we don't scroll vertically until he stands on ground again or falls deeper than the high where he started the jump. An exception to this rule are trampolines.
+* Basically keep Tux in the middle of the screen.
+* When Tux does a normal jump we don't scroll vertically until he stands on ground again or falls deeper than the hight where he started the jump. An exception to this rule are trampolines.
 
 == Special modes ==
 
 === Autoscroll ===
-The camera might scroll automatically so that tux can't wait but has to hurry to not get squiched by the moving camera somewhere. Ideally you can specify a path of vectors (together with speed) that the camera follows.
+The camera might scroll automatically so that Tux can't wait but has to hurry to not get squished by the moving camera somewhere. Ideally you can specify a path of vectors (together with speed) that the camera follows.
 
 === Right only scroll ===
 This was used in the 0.1.1 release. It might be still used to not forget our history ;-)
