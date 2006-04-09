@@ -86,7 +86,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
 ** For starters, being able to set a tilemap's opacity to 50% would suffice. Layering this semitransparent tilemap on an opaque one would achieve a similar effect
-* '''L:''' Add an ingame console, and a way that warnings and errors are shortly displayed ingame and fade away then. This is very usefull to make map designers realize their errors and for the game to display uncommon errors like missing write access for the savegame directory. (take a look at what the windstille console does for reference)
 * '''M:''' Support multiple tilesets per level. This way users/modders can easily extend the tileset with by simply adding new .strf files into the data directory.
 * '''D:''' think about icebullet specifics
 * '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
