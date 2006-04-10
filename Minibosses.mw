@@ -11,7 +11,9 @@ This page is for miscellaneous '''miniboss''' ideas. Any world-specific miniboss
 # They should take two hits to kill. After the second hit, the snowman loses his head. After that his state changes; he basically only runs around like an idiot for a while. If Tux doesn't kill it in a certain (small) amount of time, he kneels and make a new head from the snow on the floor.
 # Basically the same concept, only they can throw their head by themselves. The head could be the standard SnowBall
 
-===Giant Spiders===
+===Giant Spider===
+
+It could be on a web that's in the background and walk randomly along it. It tries to drob webs on Tux. If Tux gets trapped, it jumps on him and hurts him. Tux can hurt it by jumping on it when it's at the lowest part of its web.
 
 ===Giant Rats===
 
