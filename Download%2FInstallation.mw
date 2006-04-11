@@ -36,6 +36,11 @@ This distribution includes a supertux package. Just type (as root):
 
     apt-get install supertux
 
+=== Slackware ===
+There's a package available here:
+
+  http://www.linuxpackages.net/pkg_details.php?id=7697
+
 == Mac OS/X ==
 There's a bundle available here:
 
