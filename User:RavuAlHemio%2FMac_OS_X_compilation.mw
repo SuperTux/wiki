@@ -1,1 +1,114 @@
-Erm... I'm just writing the guide... ;)
+So you've decided to compile SuperTux on Mac OS X. It's a bit less error-prone than [[Building on Windows|compiling on Windows]], so just follow these instructions and you should get it up and running (optionally as a universal binary) in just about no time.
+
+<div style="border:2px solid gray;background-color:#eee;padding:3px">The Universal Binary-only instructions are enclosed in boxes like this one.</div>
+
+
+== Warnings ==
+While this document describes how to make use of the OpenGL and OpenAL frameworks that are included with Mac OS X, it tells you how to get SDL compiled and installed UNIX-style (/usr/include and /usr/lib). If you wish to use the SDL framework available on its website, you will have to do some things differently. (This is where Linux programming knowledge is useful.)
+
+This guide also makes you compile SuperTux UNIX-style; you will use the Terminal instead of Xcode. Since it also describes exclusive use of GCC 4.0, your build will only run on versions &#8805; Tiger. (Search the web to find out how to use GCC 3 for the PPC build.)
+
+Quite a few instructions here imply you have already found your way around the terminal. If you haven't, you may wish to search for a few tutorials to become more proficient.
+
+== Installing the development tools ==
+Insert your Mac OS X installation CD into your DVD-ROM drive. In the window that opens, double-click on '''Xcode Tools''' and then on '''XcodeTools.mpkg'''. Continue through the installation wizard until you come to the '''Installation Type''' section. Here, click '''Customize'''. A successful constellation only requires '''Developer Tools Software''', '''gcc 4.0''', the '''Software Development Kits''' and the '''Mac OS X 10.4 (Universal) SDK''' (from under '''Cross Development'''). Keep on clicking yourself through the wizard until said tools are installed.
+
+== Building the libraries ==
+You will need the following libraries to run SuperTux:
+* [http://libsdl.org/ SDL]
+* [http://libsdl.org/projects/SDL_image/ SDL_image]
+** [http://libpng.org/pub/png/libpng.html libpng]
+** [http://ijg.org/ libjpeg]
+* [http://icculus.org/physfs/ PhysicsFS]
+* [http://xiph.org/downloads/ libogg and libvorbis]
+
+
+<div style="border:2px solid gray;background-color:#eee;padding:3px">If you want to build a universal binary, you'll need the libraries in universal format too. Your best bet here is to build the libraries twice (once for i386, once for PPC) into different prefixes (e.g. /usr/ppc and /usr/i386) and then calling <code>lipo i386.dylib ppc.dylib -create -output fat.dylib</code>. (Do this for both static (<code>.a</code>) and dynamic (<code>.dylib</code>) libraries.) Then, move these fat libraries into /usr/lib and you're ready to do the next step.
+
+To configure a library for the architecture you're currently ''not'' on, you can simply supply a different target to configure, like so:
+
+ # For PowerPC on Intel:
+ ./configure --target=powerpc-apple-darwin8.0.0
+ # For Intel on PowerPC:
+ ./configure --target=i386-apple-darwin8.0.0
+
+The exception to this rule are libpng and libjpeg, which don't use autoconf. In their case, you will have to modify <tt>CPPFLAGS</tt> and <tt>LDFLAGS</tt> in the Makefiles to contain either <code>-arch i386</code> (if on PPC for Intel) or <code>-arch ppc</code> (if on Intel for PPC). libpng also requires you to modify the section where the library itself is built; just search for <code>-dynamiclib</code> and add the proper <tt>-arch</tt> flag before or after it.
+</div>
+
+Most of the time, the triplet <code>./configure --prefix=/usr && make && sudo make install</code> (supplying your own password when asked for it) is enough.
+
+== Building jam ==
+Since SuperTux uses jam as its building tool, you'll need to download and compile that too (unless you can find it hidden somewhere in your system; I've heard Apple bundles it with the development tools).
+
+First, download the archive (either in zip or uncompressed tar format) from the [ftp://ftp.perforce.com/jam/ Perforce FTP server]. Then, extract the files into a directory of your choice, enter it via the Terminal and run <code>make</code>. When everything is done, copy the resulting jam binary from <tt>build.x86</tt> or <tt>build.ppc</tt> to <tt>/usr/bin</tt> (e.g. <code>sudo cp build.x86/jam /usr/bin/</code>) and you're all set.
+
+== Getting Subversion and downloading SuperTux ==
+To download the development version of SuperTux, you'll need [http://subversion.tigris.org/ Subversion]. You can either download precompiled disk images or compile the source yourself using the triplet introduced above. Once this is done, follow the directions in the article [[Download/Subversion]].
+
+== Building SuperTux ==
+In the Terminal, switch to the directory you have checked out SuperTux into. Then, run the following command to generate the configure script:
+
+ ./autogen.sh
+
+If you don't get any answer and find yourself back at the command prompt, everything should have gone well. Next, you will have to do a nice hack: link the header files for OpenGL and OpenAL so that SuperTux can find them. This hack is awesomely stupid. Just issue the following commands:
+
+ ln -s /System/Library/Frameworks/OpenAL.framework/Headers/ AL
+ ln -s /System/Library/Frameworks/OpenGL.framework/Headers/ GL
+
+Now, you'll be patching configure itself.
+
+ sed -e 's/-lopenal//g' configure > configure.tmp && mv configure.tmp configure && chmod +x configure
+
+At long last, you can run configure. (You will only need to specify more commandline arguments.)
+
+ ./configure --with-apple-opengl-framework CPPFLAGS="-I." LDFLAGS="-framework OpenAL"
+
+Once configure is done, you will still need to patch Jamconfig. (I know it hurts. I've been through the pain too.) Just add the following text at its end:
+
+ actions Archive
+ {
+     libtool -static -o $(<) $(>)
+ }
+
+
+<div style="border:2px solid gray;background-color:#eee;padding:3px">Universal binary builders still have to modify three lines: CFLAGS, CXXFLAGS and LDFLAGS. Search always for the first occurrence of these variable names (except for the first few in the section unsetting Jambase) and add the following line into the quotes:
+
+ -arch i386 -arch ppc
+
+For example
+ LDFLAGS ?= "-framework OpenAL"
+becomes
+ LDFLAGS ?= "-framework OpenAL -arch i386 -arch ppc"
+
+You will also have to modify config.h. If you have a PowerPC machine, you will find the following lines in your config.h:
+ #define WORDS_BIGENDIAN 1
+and on an Intel box:
+ /* #undef WORDS_BIGENDIAN */
+
+Just transform this line into these three lines:
+ #ifdef __BIG_ENDIAN__
+ # define WORDS_BIGENDIAN 1
+ #endif
+</div>
+
+Now, at long last, you can run the command that will compile everything.
+
+ jam
+
+This will take forever <span style="border:2px solid gray;background-color:#eee">(mainly when you're compiling a universal binary)</span>, so grab a coffee or other beverage, play a game of chess, whatever.
+
+If jam fails because it couldn't find parser.hpp, issue the following commands (renaming a file and continuing the build):
+
+ mv tools/miniswig/parser.cpp.h tools/miniswig/parser.hpp
+ jam
+
+So... with a portion of luck, the following command will start SuperTux and make your life complete:
+
+ ./supertux
+
+<div style="border:2px solid gray;background-color:#eee;padding:3px">If you have built a universal binary and want to test out the PowerPC portion on an Intel Mac using Rosetta, the easiest way would be:
+ ditto --arch ppc supertux st-ppc
+ ./st-ppc
+</div>
+
+This should have done the trick. If something is too unclear or you think I haven't added enough detail, please alert me on this article's [[User talk:RavuAlHemio/Mac OS X compilation|talk page]] and I will do my best to improve this document. (For example, I will outline how to create a Mac OS X Application to simply pull over into your Applications folder on request.)
