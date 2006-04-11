@@ -17,6 +17,10 @@ All website bugs have been fixed.
 * SuperTux takes up more memory on each new level/game, until it crashes the systems. Using KDE System Guard suggests that finished maps/levels are not being freed from memory. Bug produced on a Knoppix/Debian system with 128MB of RAM.
 
 == Development version ==
+* free() errors when exiting SuperTux without having entered a worldmap/level.
+** Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
+*** Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);''</code>
+*** Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
 * There are semi-predictable segfaults (which happen when switching into/out of a level/map).
 * There are a few missing files (which include arctic2.jpg and mkinstalldirs).
 * There are many graphical glitches (weird flickers whenever Tux is off the screen, and the background freezes on some bonus levels).
