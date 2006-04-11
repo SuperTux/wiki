@@ -21,24 +21,5 @@ All website bugs have been fixed.
 ** Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
 *** Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);''</code>
 *** Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
-* There are semi-predictable segfaults (which happen when switching into/out of a level/map).
-* There are a few missing files (which include arctic2.jpg and mkinstalldirs).
-* There are many graphical glitches (weird flickers whenever Tux is off the screen, and the background freezes on some bonus levels).
-* 
-* [[Tux]] does a tiny jump while ducking.
-** You try jumping while ducking :) - sik0fewl
-*** It's not any more difficult than jumping three times my height (or smashing bricks with my head, for that matter). :P - NMcCoy
-*Glibc seems to have a problem: <tt>*** glibc detected *** free(): invalid pointer: 0x082e22e8 ***</tt> (Fedora Core 3 fresh install with yum update) <br> GWater: Also seen bug on Fedora3 _64, have only seen crash on Yeti_Test screen so far. glibc detected double free or corruption: 0x0000003000e2da38 Aborted<br>This is not a glibc problem, but a problem in our code that needs to be fixed.
-
-*Sometimes killed with no reason. Just started a level and baam killed.
-**Even tho you die, you don't lose a life.
-***When are you killed and you started again sometimes time does not reset.
-****These problems seem to be related to pausing and unpausing the game.  It appears that when you pause the game, on your next life (if you die) or on the next level, you will die due to a "times up!".  Haven't dug around the source code yet, but that's the correlation I see, at least on the win32 release. - blinkin
-
-* (experienced in 0.1.3rc1, but please fix at least in trunk) When supertux crashes due to an assert() going false, it doesn't correctly restore the screen resolution and i'm left without a mouse pointer. man says that assert() calls abort() if false, and this sends a SIGABRT to our process. Please install a handler for SIGABRT which cleans up after ourselves (just in case there ever is another bug in supertux again *g*). - Philipp
-
-* systematic crash on mandrake 10.1: Development version 3049 compiles without any problem but the program doesn't run at all and crashes the entire session of KDE.
 
 * Badguys that leave the visible area immediately respawn where they started
-
-* In Revision 3266, a sprite file (/images/worldmap/common/teleporter.sprite) is missing. Could a developer add the file to rev. 3267? Thanks in advance - djwings
