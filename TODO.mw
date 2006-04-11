@@ -52,6 +52,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' make it possible to modify the worldmap after the yeti has been defeated
 * '''H:''' extract translatable strings from the scripts
 * '''M:''' create a script for the yeti outro
+* '''L:''' Override squirrels builtin newthread function so that supertux ScriptManager can realize new threads that are spawned. This is needed to have commands like wait() work in newly spawned threads.
 * '''?:''' easy means of skipping and/or fast-forwarding cutscenes
 * '''?:''' tux walk from the level goal into his igloo looks like he's breakdancing
 
