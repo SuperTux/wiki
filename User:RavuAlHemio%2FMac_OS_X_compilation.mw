@@ -63,13 +63,6 @@ At long last, you can run configure. (You will only need to specify more command
 
  ./configure --with-apple-opengl-framework CPPFLAGS="-I." LDFLAGS="-framework OpenAL"
 
-Once configure is done, you will still need to patch Jamconfig. (I know it hurts. I've been through the pain too.) Just add the following text at its end:
-
- actions Archive
- {
-     libtool -static -o $(<) $(>)
- }
-
 
 <div style="border:2px solid gray;background-color:#eee;padding:3px">Universal binary builders still have to modify three lines: CFLAGS, CXXFLAGS and LDFLAGS. Search always for the first occurrence of these variable names (except for the first few in the section unsetting Jambase) and add the following line into the quotes:
 
