@@ -46,7 +46,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' the currrent grow-up animation pauses the game for too long. Either pausing for a shorter time or letting the game run while growing up might be better.
 
 === Scripting/Cutscenes ===
-* '''H:''' add a global variable store for scripts or something like that holds information across levels/scripts and save/load cycles.
 * '''H:''' create a (squirrel) script for the intro cutscene
 * '''H:''' make it possible to modify the worldmap after the yeti has been defeated
 * '''H:''' extract translatable strings from the scripts
