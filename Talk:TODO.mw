@@ -1,20 +1,7 @@
-I think we should just stay with jam and diss SCons completely. Jam seems to do enough good. --[[User:RavuAlHemio|Ravu]] 07:27, 7 Apr 2005 (BST)
-: Yeah, that's most likely what's going to happen unless somebody volunteers to write a SCons script that suits our needs. - [[User:Sik0fewl|Sik0fewl]] 17:32, 7 Apr 2005 (BST)
-
-----
-
 A "jam uninstall" target seems unnecessary to me. You can easily install in a separate prefix folder or use something like [http://relink.sourceforge.net/ relink]. - [[User:MatzeB|MatzeB]]
 :Be it as it may, we need *some* way of uninstalling SuperTux once it's installed. How many times did I meet a package that didn't have an uninstall target? Too often for my taste... <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 19:38, 11 Oct 2005 (BST)
 
 ::There is stow, relink, checkinstall, --prefix, DESTDIR, dpkg, rpm and probally a bunch of other ways to manage clean uninstalls, 'jam uninstall' or a 'make uninstall' is completly unnecessary and simply extremly bad design in my eyes. As you said yourself, 'uninstall' isn't something that you can depend upon, because its hardly ever working correctly, people should just learn to get used checkinstall and friends if they want to have a clean uninstall. -- [[User:Grumbel|Grumbel]] 20:20, 11 Oct 2005 (BST)
 ----
-
-'''''L:''' use the .hpp extension instead of .h to indicate the usage of c++''
-:I don't really care for this idea, so I removed it from the TODO list for now. <tt>.h</tt> works just fine and anyone can easily see that the project is a C++ project with all the <tt>.cpp</tt> files. I don't really see any advantage to making this change, but I thought I should bring it here for discussion. - [[User:Sik0fewl|Sik0fewl]] 22:03, 6 May 2005 (BST)
-:I also have a pretty uninterested attitude towards this "issue". It's too much work changing a hell lot of files (CPP files, possibly Jamfiles, ...) just to show off C++ when we can already see it. (I remember the hell when I took the job of renaming "action()" to "update()"...) <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 12:39, 9 May 2005 (BST)
-
--- Let me clarify this: We should rename the files anyway because writing this_file.* when it contains a ThisFile class is totally stupid. And when we're about to rename we should change .h to .hpp IMO. Some editors only display .h as C files.
-
-: Then get a better editor :) I don't really have a problem with it but I don't (well, didn't) see any advantage to renaming to <tt>.h</tt>. If it's worth it for that reason, go ahead. I honestly don't see the problem with this_file.* containing the ThisFile class.. sure they are different, but they both follow conventions and are easy to figure out. If we do rename them (which I imagine we will :), I would personally prefer to keep everything lowercase so, for example, thisfile.* would contain the ThisFile class. - [[User:Sik0fewl|Sik0fewl]] 01:28, 13 May 2005 (BST)
 
 :: this_file.* vs ThisFile.* has the strong advantage that it works portably, if you go with ThisFile instead its just a matter of copying a few times between Windows and Linux to get a broken source tree since many filesystems out there don't preserve case very well. I am also strongly in favour of .hpp instead of .h, since the second one requires annoying guess work to figure out the correct file type, while the other one simply says it streight away. It makes 'find -name "*.?pp" also a lot easier to type. Anway, source is already organized that way. -- [[User:Grumbel|Grumbel]] 20:28, 11 Oct 2005 (BST)
