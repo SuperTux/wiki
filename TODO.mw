@@ -78,6 +78,8 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Optimisations ===
 
+* Combine tiles into bigger images (worldmap and the waterfall tiles come to mind). This should improve load time and opengl speed a bit (because we need fewer texture changes).
+
 === Miscellaneous ===
 * '''H:''' When going up/down really fast, the camera sometimes can't keep up and tux goes out of the screen on the top
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
