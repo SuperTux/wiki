@@ -90,6 +90,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
 ** For starters, being able to set a tilemap's opacity to 50% would suffice. Layering this semitransparent tilemap on an opaque one would achieve a similar effect
 * '''M:''' Support multiple tilesets per level. This way users/modders can easily extend the tileset with by simply adding new .strf files into the data directory.
+* '''H:''' Display some coins on screen and make some sound when the player dies and looses coins. So that you get some feedback what is going on.
 * '''D:''' think about icebullet specifics
 * '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
 * '''H:''' ability to jump back at a specific position in a music file on loop (add .music files that describe the behaviour)
