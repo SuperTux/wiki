@@ -44,6 +44,10 @@ Please add yourself to this list if you are working on a new translation, so tha
 * Translated by Ondra Hosek <ondra.hosek@gmail.com>
 * Status: complete, included in svn
 
+=== Danish (da) ===
+* Translated by Anders <anders § ersej.dk>
+* Status: 100% (except of test.po, but it's so strange anyway), included in svn
+
 === German (de) ===
 * Translated by Matthias Braun <matze@braunis.de>
 * Additional translation by Marek Möckel
