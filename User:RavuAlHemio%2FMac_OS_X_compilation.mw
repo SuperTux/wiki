@@ -64,7 +64,7 @@ At long last, you can run configure. (You will only need to specify more command
  ./configure --with-apple-opengl-framework CPPFLAGS="-I." LDFLAGS="-framework OpenAL"
 
 
-<div style="border:2px solid gray;background-color:#eee;padding:3px">Universal binary builders still have to modify three lines: CFLAGS, CXXFLAGS and LDFLAGS. Search always for the first occurrence of these variable names (except for the first few in the section unsetting Jambase) and add the following line into the quotes:
+<div style="border:2px solid gray;background-color:#eee;padding:3px">Once configure is done, universal binary builders still have to modify three lines in the file <i>Jamconfig</i>: CFLAGS, CXXFLAGS and LDFLAGS. Search always for the first occurrence of these variable names (except for the first few in the section unsetting Jambase) and add the following line into the quotes:
 
  -arch i386 -arch ppc
 
@@ -104,4 +104,4 @@ So... with a portion of luck, the following command will start SuperTux and make
  ./st-ppc
 </div>
 
-This should have done the trick. If something is too unclear or you think I haven't added enough detail, please alert me on this article's [[User talk:RavuAlHemio/Mac OS X compilation|talk page]] and I will do my best to improve this document. (For example, I will outline how to create a Mac OS X Application to simply pull over into your Applications folder on request.)
+This should have done the trick. If something is too unclear or you think I haven't added enough detail, please alert me on this article's [[User talk:RavuAlHemio/Mac OS X compilation|talk page]] and I will do my best to improve this document. (For example, I will outline how to create a Mac OS X Application (to simply pull over into your Applications folder) on request.)
