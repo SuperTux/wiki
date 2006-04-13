@@ -1,0 +1,16 @@
+The Console is a panel normally hidden from view. Its usage is twofold:
+
+* It displays informational, warning and error messages that occur during gameplay, alerting players of things like low diskspace, broken levels, ...
+* It helps debug the engine and test levels by allowing direct execution of Squirrel script commands (see [Scripting Reference])
+
+The Console pops into view for a short time whenever new messages are printed. To review old messages and enter commands, the console needs to be activated.
+
+By default no key is assigned to opening the console. This can be done by editing the SuperTux configuration file and adding a key binding for "console".
+
+== Commands ==
+
+Following is a list of useful scripts to run in the console:
+;quit
+:quits SuperTux
+;restart
+:restarts the current level
