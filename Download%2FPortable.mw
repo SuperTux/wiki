@@ -17,9 +17,9 @@ This page is meant to collect ideas for a possible 'low spec SuperTux', by that 
 * Programming Language: Java. (some mobile phones, like Nokias, do provide C. it should be avoided because it would not be portable or easily installable.)
 * Notes: due to the Java requirement this might need an extra version. Another issue is that cellulars don't seem to be able to report two key strokes at once -- this makes it impossible to jump and move at the same time, which is quite frustrating. Using diagonal keys might prove to be good enough.
 
-=== Game Boy Advance ===
+=== Game Boy Advance sp ===
 
-* Resolution: 240x160
+* Resolucion: 240x160
 * Graphics: Mode0 provides 4 tilemap layers and 128 sprites, tiles are 8x8 and you can have either 256 colors per tile and 256 tiles or 16 colors per tile and 512 tiles on a map
 * Controls: DPad, A, B, Start, Select, L, R
 * Programming Language: C, Assembler
