@@ -36,5 +36,46 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
  </pre>
 
 = Methods =
+{| class="objectlist"
+|colspan="2" class="title"| Methods
+|-
+! class="method" set_animation(string animation_name)
+| Activates the sprite's animation specified in <tt>animation_name</tt>.
+|-
+! class="method" get_animation()
+| Returns the name of the sprite's current animation.
+|-
+! class="method" move(float x, float y)
+| Moves the object by <tt>x</tt> units to the right and <tt>y</tt> down relative to its current position.
+|-
+! class="method" set_pos(float x, float y)
+| Basically identical to <tt>move</tt>, except its relativity to the sector origin.
+|-
+! class="method" get_pos_x()
+| Returns the X coordinate of the object's position.
+|-
+! class="method" get_pos_y()
+| Returns the Y coordinate of the object's position.
+|-
+! class="method" set_velocity(float x, float y)
+| Makes the object move in a certain direction (with a certain speed) given by the <tt>x</tt> and <tt>y</tt> coordinates.
+|-
+! class="method" get_velocity_x()
+| Returns the X coordinate of the object's velocity.
+|-
+! class="method" get_velocity_y()
+| Returns the Y coordinate of the object's velocity.
+|-
+! class="method" set_visible(bool visible)
+| Shows or hides the object according to the value of <tt>visible</tt>.
+|-
+! class="method" is_visible()
+| Returns true if the object is visible, false otherwise.
+|-
+! class="method" get_name()
+| Returns the name of the object
+|}
 
 = Constants =
+
+None
