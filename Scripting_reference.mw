@@ -1,3 +1,5 @@
+__NOTOC__
+
 Since May 2005, SuperTux sports a Squirrel scripting interface useful for level designers who want to add some interactive pep to their levels. This document poses as a reference article for those who want to explore the various objects of the SuperTux scripting model.
 
 == What is Squirrel? ==
