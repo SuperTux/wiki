@@ -38,7 +38,7 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
 = Methods =
 {| class="objectlist"
 ! class="method"| set_animation(string name)
-| Activates the sprite's animation specified in <tt>animation_name</tt>.
+| Activates the sprite's animation specified in <tt>name</tt>.
 |-
 ! class="method"| get_animation()
 | Returns the name of the sprite's current animation.
