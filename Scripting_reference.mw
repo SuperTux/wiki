@@ -170,7 +170,7 @@ Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
 These global functions access basic or generic methods of SuperTux. They are called without an object name.
 
 ==== display ====
-Usage: <tt>display_text_file(*** object)</tt>
+Usage: <tt>display(*** object)</tt>
 
 Displays the string value of <tt>object</tt> in the console. Object can be of any data type.
 
