@@ -1,3 +1,5 @@
+__NOTOC__
+
 = Summary =
 
 A ScriptedObject is basically a SuperTux object that can be scripted to move around and animate. You can created ScriptedObjects
