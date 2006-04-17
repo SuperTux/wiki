@@ -1,0 +1,40 @@
+= Summary =
+
+A ScriptedObject is basically a SuperTux object that can be scripted to move around and animate. You can created ScriptedObjects
+by defining them in level files. Each scripted object will be exposed under its name to the scripting engine.
+
+= Example =
+
+Example of a definition:
+ <pre>
+  (scriptedobject
+    (x 2291)
+    (y 1275)
+    (name "SUPERTUX")
+    (sprite "images/creatures/tux_big/tux.sprite")
+    (layer 100)
+    (visible #t)
+    (physic-enabled #t)
+    (solid #t)
+  ) 
+ </pre>
+
+The above object will be exposed under the name SUPERTUX in the scripting engine. Example usage:
+
+ <pre>
+  // This script will make tux look and walk left/right (this should make him appear
+  //   "upset")
+  SUPERTUX.set_action("stand-right");
+  wait(2);
+  SUPERTUX.set_velocity(200,0);
+  wait(0.3);
+  SUPERTUX.set_velocity(0,0);
+  wait(0.4);
+  SUPERTUX.set_action("stand-left");
+  SUPERTUX.set_velocity(-200,0);
+  wait(0.3);
+ </pre>
+
+= Methods =
+
+= Constants =
