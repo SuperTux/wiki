@@ -1,7 +1,7 @@
 Since May 2005, SuperTux sports a Squirrel scripting interface useful for level designers who want to add some interactive pep to their levels. This document poses as a reference article for those who want to explore the various objects of the SuperTux scripting model.
 
 == What is Squirrel? ==
-One of your first questions might be, "What does a rodent have to do with a penguin?" [http://squirrel.sourceforge.net/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level files.
+One of your first questions might be, "What does a rodent have to do with a penguin?" [http://squirrel.sourceforge.net/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level and worldmap files. The console is a full-fledged Squirrel interpreter as well.
 
 == Squirrel, S-expr and SuperTux ==
 I have no clue if the developers simply chose Squirrel just because the name so nicely integrates into the series of words "SuperTux" and "[[S-expr]]". Currently, the Squirrel code is integrated in string arguments of Scheme elements in SuperTux level files. (Whew.) This is an example code block inside a level:
@@ -38,7 +38,7 @@ Value: <tt>1</tt>
 
 Represents the brass key.
 
-Used in: <tt>add_key</tt> as argument 1
+Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
 
 ==== KEY_IRON ====
 Type: integer
@@ -47,7 +47,7 @@ Value: <tt>2</tt>
 
 Represents the iron key.
 
-Used in: <tt>add_key</tt> as argument 1
+Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
 
 ==== KEY_BRONZE ====
 Type: integer
@@ -56,7 +56,7 @@ Value: <tt>4</tt>
 
 Represents the bronze key.
 
-Used in: <tt>add_key</tt> as argument 1
+Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
 
 ==== KEY_SILVER ====
 Type: integer
@@ -65,7 +65,7 @@ Value: <tt>8</tt>
 
 Represents the silver key.
 
-Used in: <tt>add_key</tt> as argument 1
+Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
 
 ==== KEY_GOLD ====
 Type: integer
@@ -74,27 +74,142 @@ Value: <tt>16</tt>
 
 Represents the gold key.
 
-Used in: <tt>add_key</tt> as argument 1
+Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
+
+==== ANCHOR_TOP ====
+Type: integer
+
+Value: <tt>16</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_BOTTOM ====
+Type: integer
+
+Value: <tt>32</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_LEFT ====
+Type: integer
+
+Value: <tt>1</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_RIGHT ====
+Type: integer
+
+Value: <tt>2</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_MIDDLE ====
+Type: integer
+
+Value: <tt>0</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_TOP_LEFT ====
+Type: integer
+
+Value: <tt>17</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_TOP_RIGHT ====
+Type: integer
+
+Value: <tt>18</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_BOTTOM_LEFT ====
+Type: integer
+
+Value: <tt>33</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
+
+==== ANCHOR_BOTTOM_RIGHT ====
+Type: integer
+
+Value: <tt>34</tt>
+
+Represents the top center anchor point.
+
+Used in: [[#set_anchor_point|FloatingImage.set_anchor_point]] as argument 1<br/>
+Returned by: [[#get_anchor_point|FloatingImage.get_anchor_point]]
 
 === Global Functions ===
 These global functions access basic or generic methods of SuperTux. They are called without an object name.
 
+==== display ====
+Usage: <tt>display_text_file(*** object)</tt>
+
+Displays the string value of <tt>object</tt> in the console. Object can be of any data type.
+
 ==== display_text_file ====
 Usage: <tt>display_text_file(string filename)</tt>
 
-Displays the SuperTux text file named <tt>filename</tt>. (The path is relative to the level file.)
+Displays the SuperTux text file named <tt>filename</tt>. (The path is relative to the data root, e.g. "/home/joe/src/supertux-trunk/data")
 
 See also: SuperTux file format reference, SuperTux texts
+
+==== load_worldmap ====
+Usage: <tt>load_worldmap(string filename)</tt>
+
+Loads and runs the worldmap specified in <tt>filename</tt>. (The path is relative to the data root.)
+
+==== load_level ====
+Usage: <tt>load_level(string filename)</tt>
+
+Loads and runs the level specified in <tt>filename</tt>. (The path is relative to the data root.)
 
 ==== wait ====
 Usage: <tt>wait(float time)</tt>
 
-Pauses execution of the squirrel code for <tt>time</tt> seconds.
+Pauses execution of the Squirrel code for <tt>time</tt> seconds.
+
+==== wait_for_screenswitch ====
+Usage: <tt>wait_for_screenswitch()</tt>
+
+Pauses execution of the Squirrel code until a new screen is displayed (e.g. menu &rarr; worldmap or worldmap &rarr; level).
+
+==== exit_screen ====
+Usage: <tt>exit_screen()</tt>
+
+Exits the current screen, returning to the previous one or, if the active screen is the last one, exiting SuperTux.
 
 ==== translate ====
 Usage: <tt>translate(string text)</tt>
 
-Returns: Translated string
+Returns: translated <tt>string</tt>
 
 Translates <tt>text</tt> into the user's locale.
 
@@ -103,7 +218,12 @@ Note: This construct is unfortunately not yet recognised by XGetText, so transla
 ==== import ====
 Usage: <tt>import(string filename)</tt>
 
-Imports and runs the Squirrel script <tt>filename</tt>. (The path is relative to the level file.)
+Imports and runs the Squirrel script <tt>filename</tt>. (The path is relative to the data root.)
+
+==== save_status ====
+Usage: <tt>save_status()</tt>
+
+Dumps the current state into the user's save game file.
 
 ==== add_key ====
 Usage: <tt>add_key(int key)</tt>
@@ -113,37 +233,37 @@ Adds or removes a key from the player's posession. <tt>key</tt> should be replac
 See also: src/player_status.hpp
 
 === DisplayEffect ===
-<tt>DisplayEffect</tt> is an interface for toying with the display.
+<tt>DisplayEffect</tt> is an interface for toying with the display. It has to be instantiated; for your convenience, SuperTux creates an instance named <tt>Effect</tt> when starting the scripting engine. Its usage is preferred.
 
 ==== fade_out ====
-Usage: <tt>DisplayEffect.fade_out(float fadetime)</tt>
+Usage: <tt>Effect.fade_out(float fadetime)</tt>
 
 Gradually fades out the screen to black for the next <tt>fadetime</tt> seconds.
 
 ==== fade_in ====
-Usage: <tt>DisplayEffect.fade_in(float fadetime)</tt>
+Usage: <tt>Effect.fade_in(float fadetime)</tt>
 
 Gradually fades in the screen from black for the next <tt>fadetime</tt> seconds.
 
 ==== set_black ====
-Usage: <tt>DisplayEffect.set_black(bool black)</tt>
+Usage: <tt>Effect.set_black(bool black)</tt>
 
 Blackens or un-blackens the screen (depending on the value of <tt>black</tt>).
 
 ==== is_black ====
-Usage: <tt>DisplayEffect.is_black()</tt>
+Usage: <tt>Effect.is_black()</tt>
 
-Returns: <tt>bool</tt>
+Returns: <tt>bool</tt>; has the screen been blackened by <tt>set_black</tt>?
 
-Returns true if the screen has been blackened by <tt>set_black</tt>. Calling <tt>fade_in</tt> or <tt>fade_out</tt> resets the return value to <tt>false</tt>.
+Note: Calling <tt>fade_in</tt> or <tt>fade_out</tt> resets the return value to <tt>false</tt>.
 
 ==== sixteen_to_nine ====
-Usage: <tt>DisplayEffect.sixteen_to_nine()</tt>
+Usage: <tt>Effect.sixteen_to_nine()</tt>
 
 Sets the display ratio to 16:9, effectively adding black bars at the top and bottom of the screen. Should be used before cutscenes.
 
 ==== four_to_three ====
-Usage: <tt>DisplayEffect.four_to_three()</tt>
+Usage: <tt>Effect.four_to_three()</tt>
 
 Sets the display ratio to 4:3, removing the black bars added by <tt>sixteen_to_nine()</tt>. Should be used after cutscenes.
 
@@ -160,18 +280,23 @@ Usage: <tt>Camera.set_pos(float x, float y)</tt>
 
 Warning: This function has not yet been implemented.
 
-==== set_mode (NYI) ====
+==== set_mode ====
 Usage: <tt>Camera.set_mode(string modestring)</tt>
 
-Warning: This function has not yet been implemented.
+This function sets the camera mode. Valid values for <tt>modestring</tt> are <tt>"normal"</tt> and <tt>"manual"</tt>.
+
+==== scroll_to (NYI) ====
+Usage: <tt>Camera.scroll_to(float x, float y, float time)</tt>
+
+Scrolls the camera to (<tt>x</tt>, <tt>y</tt>) within <tt>time</tt> seconds.
 
 === Level ===
 The <tt>Level</tt> class provides basic controlling functions for the current level.
 
 ==== finish ====
-Usage: <tt>Level.finish()</tt>
+Usage: <tt>Level.finish(bool win)</tt>
 
-Ends the current level and marks it as completed if launched from a worldmap.
+Ends the current level. If you set <tt>win</tt> to <tt>true</tt>, the level is marked as completed if launched from a worldmap.
 
 Tip: Very useful if you have created a frustrating level and want to, at some point, save the player from agony.
 
@@ -211,79 +336,69 @@ Now, the object can be accessed in code using the <tt>WOOT</tt> identifier like 
 WOOT.set_animation("left");
 </pre>
 
-==== set_animation ====
-Usage: <tt><scriptedobject>.set_animation(string animation_name)</tt>
+==== set_action ====
+Usage: <tt>&lt;scriptedobject&gt;.set_animation(string animation_name)</tt>
 
 Activates the sprite's animation specified in <tt>animation_name</tt>.
 
-==== get_animation ====
-Usage: <tt><scriptedobject>.get_animation()</tt>
+==== get_action ====
+Usage: <tt>&lt;scriptedobject&gt;.get_animation()</tt>
 
-Returns: <tt>string</tt>
-
-Returns the name of the sprite's current animation.
+Returns: <tt>string</tt>; the name of the sprite's current animation.
 
 ==== move ====
-Usage: <tt><scriptedobject>.move(float x, float y)</tt>
+Usage: <tt>&lt;scriptedobject&gt;.move(float x, float y)</tt>
 
 Moves the object by <tt>x</tt> units to the right and <tt>y</tt> down relative to its current position.
 
 ==== set_pos ====
-Usage: <tt><scriptedobject>.set_pos(float x, float y)</tt>
+Usage: <tt>&lt;scriptedobject&gt;.set_pos(float x, float y)</tt>
 
 Basically identical to <tt>move</tt>, except its relativity to the sector origin.
 
 ==== get_pos_x ====
-Usage: <tt><scriptedobject>.get_pos_x()</tt>
+Usage: <tt>&lt;scriptedobject&gt;.get_pos_x()</tt>
 
-Returns: <tt>float</tt>
-
-Returns the X coordinate of the object's position.
+Returns: <tt>float</tt>, the X coordinate of the object's position.
 
 ==== get_pos_y ====
-Usage: <tt><scriptedobject>.get_pos_y()</tt>
+Usage: <tt>&lt;scriptedobject&gt;.get_pos_y()</tt>
 
 Returns: <tt>float</tt>
 
 Totally identical to <tt>get_pos_x</tt> except for its obvious choice of the other (Y) axis.
 
 ==== set_velocity ====
-Usage: <tt><scriptedobject>.set_velocity(float x, float y)</tt>
+Usage: <tt>&lt;scriptedobject&gt;.set_velocity(float x, float y)</tt>
 
 Makes the object move in a certain direction (with a certain speed) given by the <tt>x</tt> and <tt>y</tt> coordinates.
 
 ==== get_velocity_x ====
-Usage: <tt><scriptedobject>.get_velocity_x()</tt>
+Usage: <tt>&lt;scriptedobject&gt;.get_velocity_x()</tt>
 
-Returns: <tt>float</tt>
-
-Returns the object's velocity in the direction of the X coordinate.
+Returns: <tt>float</tt>; the object's velocity in the direction of the X coordinate.
 
 ==== get_velocity_y ====
-Usage: <tt><scriptedobject>.get_velocity_y()</tt>
+Usage: <tt>&lt;scriptedobject&gt;.get_velocity_y()</tt>
 
 Returns: <tt>float</tt>
 
 The difference between this function and <tt>get_velocity_x</tt> is just the same like between <tt>get_pos_y</tt> and <tt>get_pos_x</tt>: same thing, different coordinates.
 
 ==== set_visible ====
-Usage: <tt><scriptedobject>.set_visible(bool visible)</tt>
+Usage: <tt>&lt;scriptedobject&gt;.set_visible(bool visible)</tt>
 
 Shows or hides the object according to the value of <tt>visible</tt>.
 
 ==== is_visible ====
-Usage: <tt><scriptedobject>.is_visible()</tt>
+Usage: <tt>&lt;scriptedobject&gt;.is_visible()</tt>
 
-Returns: <tt>bool</tt>
-
-Returns <tt>true</tt> if the object is visible. (You've seen this coming, haven't you?)
+Returns: <tt>bool</tt>; is the object visible? (You've seen this coming, haven't you?)
 
 ==== get_name ====
-Usage: <tt><scriptedobject>.get_name()</tt>
+Usage: <tt>&lt;scriptedobject&gt;.get_name()</tt>
 
-Returns: <tt>string</tt>
-
-Simply gives you the name of the scripted object (as if you didn't have it already...)
+Returns: <tt>string</tt>; name of the scripted object (as if you didn't have it already...)
 
 === Sound ===
 This class provides a very simple interface to the audio subsystem.
@@ -293,8 +408,8 @@ Usage: <tt>Sound.play_music(string track_name)</tt>
 
 Plays the selected music track (automatically prepending the path to the music folder and appending the <tt>.ogg</tt> extension).
 
-==== play_sound ====
-Usage: <tt>Sound.play_sound(string sound_name)</tt>
+==== play ====
+Usage: <tt>Sound.play(string sound_name)</tt>
 
 Plays the sound specified in <tt>sound_name</tt> (that is identical to the filename of the sound without the <tt>.wav</tt> extension).
 
@@ -336,12 +451,24 @@ This module contains methods controlling the player. (No, SuperTux doesn't use m
 
 '''Once again, just like with ScriptedObject, note that <tt>Player</tt> is only the object type. Since SuperTux is currently single-player only, use <tt>Tux</tt> to make changes to the player object, such as <tt>Tux.deactivate()</tt>.'''
 
+==== add_bonus ====
+Usage: <tt>&lt;player&gt;.add_bonus(string bonusname)</tt>
+
+Gives Tux the specified bonus. Replace <tt>bonusname</tt> with either of <tt>"grow"</tt>, <tt>"fireflower"</tt> or <tt>"iceflower"</tt>.
+
+==== add_coins ====
+Usage: <tt>&lt;player&gt;.add_coins(int number)</tt>
+
+Gives Tux <tt>number</tt> coins.
+
+Tip: Tux has to pay 25 coins to be revived at the last firefly he visited. If he doesn't have enough coins, the player has to play the whole level again.
+
 ==== make_invincible ====
-Usage: <tt>&lt;player&gt;.make_invincible()</tt>
+Usage: <tt>&lt;player&gt;.make_invincible(float time)</tt>
 
-Makes the player invincible for a predefined amount of time.
+Makes the player invincible for either a custom or a predefined amount of time.
 
-See also: <tt>TUX_INVINCIBLE_TIME</tt> in src/object/player.hpp for the amount of seconds that the player becomes invincible.
+See also: <tt>TUX_INVINCIBLE_TIME</tt> in src/object/player.hpp for the amount of seconds that the player becomes invincible in case <tt>time</tt> is not specified.
 
 ==== deactivate ====
 Usage: <tt>&lt;player&gt;.deactivate()</tt>
@@ -359,3 +486,68 @@ Reactivates the player's movement controls.
 Usage: <tt>&lt;player&gt;.walk(float velocity)</tt>
 
 Makes the player move in a certain horizontal velocity (specified by <tt>velocity</tt>). A negative velocity moves the player to the left.
+
+==== set_visible ====
+Usage: <tt>&lt;player&gt;.set_visible(bool visible)</tt>
+
+Shows or hides Tux according to the value of <tt>visible</tt>.
+
+==== get_visible ====
+Usage: <tt>&lt;player&gt;.get_visible()</tt>
+
+Returns: <tt>bool</tt>; is Tux visible?
+
+=== FloatingImage ===
+The FloatingImage class contains methods for handling an image floating in mid-air, such as the SuperTux logo.
+
+==== Constructor ====
+Usage: <tt>&lt;floatimage&gt; &lt;- FloatingImage(string filename)</tt>
+
+Creates a FloatingImage from <tt>filename</tt> (which is relative to the data root).
+
+==== set_layer ====
+Usage: <tt>&lt;floatimage&gt;.set_layer(int layer)</tt>
+
+Puts the image on <tt>layer</tt>.
+
+See also: src/video/drawing_context.hpp for the predefined layers and their values (note that you can't use these constants in your Squirrel code).
+
+==== set_layer ====
+Usage: <tt>&lt;floatimage&gt;.get_layer()</tt>
+
+Returns: <tt>int</tt>; the layer the floating image is on.
+
+==== set_pos ====
+Usage: <tt>&lt;floatimage&gt;.set_pos(float x, float y)</tt>
+
+Move the image in relation to the current anchor point.
+
+==== get_pos_x ====
+Usage: <tt>&lt;floatimage&gt;.get_pos_x()</tt>
+
+Get the image's X coordinate relative to the current anchor point.
+
+==== get_pos_y ====
+Usage: <tt>&lt;floatimage&gt;.get_pos_y()</tt>
+
+Get the image's Y coordinate relative to the current anchor point.
+
+==== set_anchor_point ====
+Usage: <tt>&lt;floatimage&gt;.set_anchor_point(int anchorpt)</tt>
+
+Set the image's anchor point. Possible values are represented by the ANCHOR_* constants.
+
+==== get_anchor_point ====
+Usage: <tt>&lt;floatimage&gt;.get_anchor_point()</tt>
+
+Returns: <tt>int</tt>; the current anchor point
+
+==== set_visible ====
+Usage: <tt>&lt;floatimage&gt;.set_visible(bool visible)</tt>
+
+Set the image visibility according to <tt>visible</tt>.
+
+==== get_visible ====
+Usage: <tt>&lt;floatimage&gt;.get_visible()</tt>
+
+Returns: <tt>bool</tt>; is the image visible?
