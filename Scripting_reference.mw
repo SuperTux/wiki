@@ -30,6 +30,31 @@ If you are interested in an object and what cans of worms you can open with it, 
 
 "(NYI)" after the function name symbolises functions that haven't been implemented yet. Calling them will result in a line being printed to standard output informing anybody who reads it that the script is using a function that actually doesn't exist. (You can expect Win32 users to happily ignore this, since they tend to simply start the application by opening it with Explorer. Unix users, on the other hand, like starting things from the console, so it's better if you don't use non-existent functions in your scripts.)
 
+=== Classes ===
+<div style="table.objectlist
+{
+}
+table.objectlist title
+{
+background-color: #D0D0D0;
+font-weight: bold;
+font-size: 15pt;
+padding: 5px;
+}">
+{| class="objectlist"
+|colspan="2" id="title"| Classes
+|-
+! Globals
+| This section contains all globally defined constants and functions
+|-
+! Player
+| An object that is controlled by a (human) player
+|-
+! DisplayEffect
+| An object that does graphical effects on the whole screen
+|}
+</div>
+
 === Global Constants ===
 These constants can be accessed from anywhere in the game code.
 
