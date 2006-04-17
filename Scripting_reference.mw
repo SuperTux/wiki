@@ -35,31 +35,31 @@ If you are interested in an object and what cans of worms you can open with it, 
 {| class="objectlist"
 |colspan="2" class="title"| Classes
 |-
-! [[Scripting_Globals Globals]]
+! [[ScriptingGlobals | Globals]]
 | This section contains all globally defined constants and functions
 |-
-! Player
+! [[ScriptingPlayer | Player]
 | An object that is controlled by a (human) player
 |-
-! DisplayEffect
+! [[ScriptingDisplayEffect | DisplayEffect]
 | An object that does graphical effects on the whole screen
 |-
-! Camera
+! [[ScriptingCamera | Camera]
 | ...
 |-
-! Level
+! [[ScriptingLevel | Level]
 | ...
 |-
-! ScriptedObject
+! [[ScriptingScriptedObject | ScriptedObject]
 | ...
 |-
-! Sound
+! [[ScriptingSound | Sound]]
 | ...
 |-
-! Text
+! [[ScriptingText | Text]]
 | ...
 |-
-! FloatingImage
+! [[ScriptingFloatingImage | FloatingImage]]
 | ...
 |-
 |}
