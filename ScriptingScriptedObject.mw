@@ -39,7 +39,7 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
 {| class="objectlist"
 |colspan="2" class="title"| Methods
 |-
-! class="method"| set_animation(string animation_name)
+! class="method"| set_animation(string name)
 | Activates the sprite's animation specified in <tt>animation_name</tt>.
 |-
 ! class="method"| get_animation()
