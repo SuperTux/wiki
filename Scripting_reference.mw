@@ -38,19 +38,19 @@ If you are interested in an object and what cans of worms you can open with it, 
 ! [[ScriptingGlobals | Globals]]
 | This section contains all globally defined constants and functions
 |-
-! [[ScriptingPlayer | Player]
+! [[ScriptingPlayer | Player]]
 | An object that is controlled by a (human) player
 |-
-! [[ScriptingDisplayEffect | DisplayEffect]
+! [[ScriptingDisplayEffect | DisplayEffect]]
 | An object that does graphical effects on the whole screen
 |-
-! [[ScriptingCamera | Camera]
+! [[ScriptingCamera | Camera]]
 | ...
 |-
-! [[ScriptingLevel | Level]
+! [[ScriptingLevel | Level]]
 | ...
 |-
-! [[ScriptingScriptedObject | ScriptedObject]
+! [[ScriptingScriptedObject | ScriptedObject]]
 | ...
 |-
 ! [[ScriptingSound | Sound]]
