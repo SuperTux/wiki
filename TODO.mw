@@ -56,11 +56,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' tux walk from the level goal into his igloo looks like he's breakdancing
 
 === Badguys ===
-* '''H:''' bring back stay on platform flag
-** might not be necessary. See the discussion on helping players predict if an enemy will stay on a platform
 * '''H:''' We go into kicked mode for a short time (you hear the kick sound) before MrIceBlock gets grabbed by the player
-* '''M:''' do something with the wingling
-* '''?:''' do something with the tree?
 * '''?:''' render Badguys that could move through tiles (flames, ghosts, dead badguys) on a higher layer so they won't disappear behind e.g. grass patches only to reappear in front of solid ground again
 * '''M:''' create more and better Badguys, see [[Badguys]] for ideas
 * '''H:''' Badguys should only respawn outside the current screen rect when they were disabled (there is code that should do this, but it doesn't seem to work)
