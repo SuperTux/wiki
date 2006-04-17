@@ -7,7 +7,18 @@ table.objectlist
   text-align: left;
 }
 
-table.objectlist td.title
+table.objectlist th,
+table.objectlist td
+{
+  text-align: left;
+}
+
+table.objectlist th.method
+{
+  font-family: monospace;
+}
+
+table.objectlist th.title
 {
   background-color: #D0D0D0;
   font-weight: bold;
