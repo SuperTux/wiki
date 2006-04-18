@@ -60,6 +60,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''?:''' render Badguys that could move through tiles (flames, ghosts, dead badguys) on a higher layer so they won't disappear behind e.g. grass patches only to reappear in front of solid ground again
 * '''M:''' create more and better Badguys, see [[Badguys]] for ideas
 * '''H:''' Badguys should only respawn outside the current screen rect when they were disabled (there is code that should do this, but it doesn't seem to work)
+* '''?:''' Make stay-on-platform behaviour hardcoded
+** Mr. Bomb, Mr. Iceblock, Mr. Tree should always stay on platform
+** Snowball, Spiky and Poison Ivy should always fall off cliffs
 
 === Objects ===
 * '''H:''' Check/Fix bullet speed/behaviour
