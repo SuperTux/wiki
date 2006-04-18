@@ -3,7 +3,7 @@ __NOTOC__
 Since May 2005, SuperTux sports a Squirrel scripting interface useful for level designers who want to add some interactive pep to their levels. This document poses as a reference article for those who want to explore the various objects of the SuperTux scripting model.
 
 == What is Squirrel? ==
-One of your first questions might be, "What does a rodent have to do with a penguin?" [http://squirrel.sourceforge.net/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level and worldmap files. The console is a full-fledged Squirrel interpreter as well.
+One of your first questions might be, "What does a rodent have to do with a penguin?" [http://squirrel.sourceforge.net/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level and worldmap files. The [[Console]] is a full-fledged Squirrel interpreter as well.
 
 == Squirrel, S-expr and SuperTux ==
 I have no clue if the developers simply chose Squirrel just because the name so nicely integrates into the series of words "SuperTux" and "[[S-expr]]". Currently, the Squirrel code is integrated in string arguments of Scheme elements in SuperTux level files. (Whew.) This is an example code block inside a level:
@@ -28,7 +28,7 @@ When this level loads, the screen fades out completely during two and a half sec
 == Object reference ==
 If you are interested in an object and what cans of worms you can open with it, this section is for you.
 
-"(NYI)" after the function name symbolises functions that haven't been implemented yet. Calling them will result in a line being printed to standard output informing anybody who reads it that the script is using a function that actually doesn't exist. (You can expect Win32 users to happily ignore this, since they tend to simply start the application by opening it with Explorer. Unix users, on the other hand, like starting things from the console, so it's better if you don't use non-existent functions in your scripts.)
+"(NYI)" after the function name symbolises functions that haven't been implemented yet. Calling them will result in a line being printed to standard output informing anybody who reads it that the script is using a function that actually doesn't exist. (You can expect Win32 users to happily ignore this, since they tend to simply start the application by opening it with Explorer. Unix users, on the other hand, like starting things from the [[Console]], so it's better if you don't use non-existent functions in your scripts.)
 
 === Classes ===
 
@@ -210,7 +210,7 @@ These global functions access basic or generic methods of SuperTux. They are cal
 ==== display ====
 Usage: <tt>display(*** object)</tt>
 
-Displays the string value of <tt>object</tt> in the console. Object can be of any data type.
+Displays the string value of <tt>object</tt> in the [[Console]]. Object can be of any data type.
 
 ==== display_text_file ====
 Usage: <tt>display_text_file(string filename)</tt>
