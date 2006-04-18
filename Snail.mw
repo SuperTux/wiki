@@ -3,3 +3,8 @@ The Snow Snail should be an enhanced counterpart to Icy Island's Mr IceBlock. Th
 The Snow Snail should move slower than Mr IceBlock and speed up whenever Tux is in its visible area, especially when  he's trapped in a slime puddle.
 
 Since the Snail is used in the forest world, the name might be changed to Slow Snail
+
+* Proposed modified behaviour:
+** When flipped over and bumped horizontally, the Snail will just flip back on its feet
+** When flipped over and jumped on one end, the Snail will fly not only horizontally but also vertically
+** When it hits a wall while flying it will turn back on its feet
