@@ -4,7 +4,7 @@ Supertux development is coordinated with the help of the subversion version cont
 == Getting the repository (anonymous read only access) ==
 Anonymous read access to the repository is granted for everybody. So when you already have subversion installed all you have to do to get your hands on the source is to use the following command:
 
- svn checkout svn://svn.berlios.de/supertux/trunk/supertux/supertux
+ svn checkout svn://svn.berlios.de/supertux/trunk/supertux
 
 This will create a new directory supertux which contains the latest versions of the supertux sourcecode. Once you have checked out the sources you can use
 
@@ -26,7 +26,6 @@ Checking out the path above will get you all you need for SuperTux, however, the
 : [[SuperTux Portable]]
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-sharp</nowiki></tt>
 : SuperTux level edtitor
-
 
 == Creating Patches ==
 
