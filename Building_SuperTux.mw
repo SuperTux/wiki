@@ -46,3 +46,22 @@ This section is under construction. IDEs that should be able to handle supertux 
 
 * KDevelop
 * Eclipse with CDT
+
+= Compiling the editor =
+
+To compile the editor you should make sure that you have some additional dependencies available:
+
+* An already compiled and working svn version of supertux
+* mono 1.1.13 or newer
+* gtk-sharp 2.8
+* gtk-sourceview-sharp 2.8
+
+You can compile the editor from commandline with jam. Simply type
+ 
+ jam
+
+and the editor will be built. You can then start the editor with
+
+ mono supertux-editor.exe
+
+There are also complete monodevelop project files for the editor in the svn. (TODO write about the hacks needed to actually compile the source in monodevelop).
