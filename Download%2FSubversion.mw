@@ -2,15 +2,31 @@
 Supertux development is coordinated with the help of the subversion version control system. Simply spoken it's filestore that can be used by multiple users simultaneously and which keeps track of changes and keeps old versions of files archived. You can find out more about subversion in general on their homepage at http://subversion.tigris.org
 
 == Getting the repository (anonymous read only access) ==
-Anonymous read access to the repository is granted for everybody. So when you already have subversion isntalled all you have to do to get your hands on the source is to use the following command:
+Anonymous read access to the repository is granted for everybody. So when you already have subversion installed all you have to do to get your hands on the source is to use the following command:
 
- svn checkout svn://svn.berlios.de/supertux/trunk/supertux
+ svn checkout svn://svn.berlios.de/supertux/trunk/supertux/supertux
 
 This will create a new directory supertux which contains the latest versions of the supertux sourcecode. Once you have checked out the sources you can use
 
  svn update
 
 inside the supertux directory to update to the latest versions in the repository. This will only download changed files to save bandwidth.
+
+=== Locations inside the Subversion repository ===
+
+Checking out the path above will get you all you need for SuperTux, however, there are some other paths in the repository with other useful things.
+
+; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/htdocs</nowiki></tt>
+: Website source
+; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/media</nowiki></tt>
+: Additional media files, including source files for audio and graphics
+; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux</nowiki></tt>
+: SuperTux source
+; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-portable</nowiki></tt>
+: [[SuperTux Portable]]
+; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-sharp</nowiki></tt>
+: SuperTux level edtitor
+
 
 == Creating Patches ==
 
@@ -34,12 +50,3 @@ If you just want to browse through the source a bit, then you can use the [http:
 == Developer SVN access ==
 
 If you have submitted some good patches and want to get actively involved in the supertux project. Then [Contact] us for real write access to the repository.
-
-== Main locations in the repository ==
-<table cellpadding="3">
-<tr><th>Branch/Subproject</th><th>Path</th></tr>
-<tr><td>SuperTux development version</td><td><tt>svn://svn.berlios.de/supertux/trunk/supertux</tt></td></tr>
-<tr><td>SuperTux Homepage</td><td><tt>svn://svn.berlios.de/supertux/trunk/homepage</tt></td></tr>
-<tr><td>SuperTux Milestone 1</td><td><tt>svn://svn.berlios.de/supertux/branches/milestone1</tt></td></tr>
-<tr><td>[[SuperTux Portable]]</td><td><tt>svn://svn.berlios.de/supertux/trunk/supertux-portable</tt></td></tr>
-</table>
