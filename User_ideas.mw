@@ -122,17 +122,3 @@ One thing that SuperTux is missing that Mario had would be stage variety. There 
 ===art===
 
 === Code ===
-
-=== Sound Effects ===
-
-* See [[World_2#Atmosphere]] for more ambient sound ideas
-* Wind (ambient) for high plateaus, over-the-clouds action, fast platforms, ...
-* Ticking for Mr. Bomb
-* Short "Nolok" and "Tux" themed sound effects(?)
-* Flapping for flying creatures (e.g. the Zeekling)
-* soft "hop" sound for creatures like Jumpy or SkullyHop
-* Crushing ice (Stalactite or breakable Ice tile)
-* Warp sound for Dispenser(?)
-* Wooden "click" for Walking Totem
-* Splash when jumping into water
-* Sounds for WillOWisp (ambient, warping, vanishing)
