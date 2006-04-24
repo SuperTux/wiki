@@ -21,7 +21,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Code Refactoring/Cleanup/Optimisation ===
 * '''L:''' implement quadtree or grid to speedup collision detection
-* '''L:''' use refcounting for GameObjects and implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector. (refcounting is needed here, otherwise we'll get into trouble when 1 of the listener objects dies before it gets notificated). Unregistering in the destructor would be an alternative solution but an error prone one.
+* '''L:''' Implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector.
 * '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
 * '''L:''' name files according to the classes they contain, e.g. tile_manager.* to TileManager.* because it contains a class named TileManager and not tile_manager
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
