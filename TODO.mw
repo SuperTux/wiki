@@ -90,14 +90,14 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' when finishing worldmap levels on a T-way tux starts running in a direction, while he should simply stay because he has several possibilities to continue. Also at the T-way that goes up, left, down tux doesn't seem to stop.
 * '''?:''' Show total count of coins collected in all levels on the worldmap
 
-== Statistics ==
+=== Statistics ===
 * '''M:''' Show statistics on level completion. 
 ** initial implementation is there, however the screen should fade in (preferably a little later than the endsequence start)
 ** the screen should be displayed until the player presses a key (or a longer period of time like 15 seconds) is over
 ** statistics counting also doesn't seem to be correct yet
 *** coins in bonus blocks are not counted
 
-=== Editor ===
+== Editor ==
 * '''H:''' Support for paths
 * '''H:''' Support for moving platforms
 
