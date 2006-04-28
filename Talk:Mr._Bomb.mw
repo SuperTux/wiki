@@ -8,8 +8,10 @@ Please cast your vote by adding to the following Table:
  !Christoph
  !sik0fewl
  !BuBuaBu
+ !litespeed
  |-
  !shot
+ |explosion
  |explosion
  |explosion
  |explosion
@@ -18,18 +20,22 @@ Please cast your vote by adding to the following Table:
  |fall
  |fall
  |fall
+ |fall
  |-
  !kicked badguy
  |fall
  |fall
+ |ticking bomb
  |ticking bomb
  |-
  !squish
  |ticking bomb
  |ticking bomb
  |ticking bomb
+ |ticking bomb
  |-
  !bump
+ |fall
  |fall
  |fall
  |fall
@@ -41,3 +47,5 @@ FlyingPenguins, are you having browser troubles or something? Your edit blanked 
 
 
 '''BuBuaBu :''' When a MrBomb is hurt by a kicked badguy, I think that he could be jump and then being ticking
+
+'''litespeed:''' I like BuBuaBu's idea... anywho... I think that after being hit by a kicked badguy it would be a nice thing if mister bomb would start to slide (just as if being kicked, too) along ticking -- that's offer some new possibilities. :-)
