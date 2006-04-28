@@ -1,0 +1,24 @@
+How should Mr. Bomb expire, depending on how he got hit?
+
+Please cast your vote by adding to the following Table:
+
+{|
+ |-
+ !
+ !Christoph
+ |-
+ !shot
+ |explosion
+ |-
+ !invincible
+ |fall
+ |-
+ !badguy
+ |fall
+ |-
+ !squish
+ |fall
+ |-
+ !bump
+ |fall
+ |}
