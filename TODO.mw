@@ -28,7 +28,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Actions ===
 * '''H:''' what to do when stuck under tiles (after using duck-sliding)
-* '''H:''' A player that is shortly invincible after shrinking/loosing fire doesn't jump of enemies anymore
 * '''H:''' Buttjump:
 ** re-enable buttjump
 ** should kill enemies with a certain range (''needs to be tweaked'')
