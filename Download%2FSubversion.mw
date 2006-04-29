@@ -25,7 +25,7 @@ Checking out the path above will get you all you need for SuperTux, however, the
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-portable</nowiki></tt>
 : [[SuperTux Portable]]
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-sharp</nowiki></tt>
-: SuperTux level edtitor
+: SuperTux level editor
 ; <tt><nowiki>svn://svn.berlios.de/supertux/branches/supertux/0_1_x</nowiki></tt>
 : SuperTux milestone 1 branch
 
