@@ -13,6 +13,7 @@ Please cast your vote by adding to the following Table:
  !yukaili
  !FlyingPenguins
  !Afief
+ !AnMaster
  |-
  !shot
  |explosion
@@ -23,8 +24,10 @@ Please cast your vote by adding to the following Table:
  |explosion
  |ineffective
  |ineffective
+ |explosion
  |-
  !invincible
+ |fall
  |fall
  |fall
  |fall
@@ -43,8 +46,10 @@ Please cast your vote by adding to the following Table:
  |fall
  |fall
  |fall
+ |fall
  |-
  !squish
+ |ticking bomb
  |ticking bomb
  |ticking bomb
  |ticking bomb
@@ -63,6 +68,7 @@ Please cast your vote by adding to the following Table:
  |fall
  |fall
  |ticking bomb
+ |fall
  |}
 
 == Comments ==
