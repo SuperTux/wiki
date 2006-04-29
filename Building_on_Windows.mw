@@ -78,7 +78,7 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
  LIBS="-L/usr/local/lib -lvorbisenc -lvorbisfile -lvorbis -logg" CFLAGS="-I/usr/local/include" configure --enable-debug
  jam
 
-* Now run "supertux.exe -w", sit back and enjoy the game.
+* Now run "supertux.exe", sit back and enjoy the game.
 
 == Ready-made Binaries ==
 
