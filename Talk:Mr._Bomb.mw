@@ -12,6 +12,7 @@ Please cast your vote by adding to the following Table:
  !ThOR27
  !yukaili
  !FlyingPenguins
+ !Afief
  |-
  !shot
  |explosion
@@ -21,8 +22,10 @@ Please cast your vote by adding to the following Table:
  |explosion
  |explosion
  |ineffective
+ |ineffective
  |-
  !invincible
+ |fall
  |fall
  |fall
  |fall
@@ -39,8 +42,10 @@ Please cast your vote by adding to the following Table:
  |fall
  |fall
  |fall
+ |fall
  |-
  !squish
+ |ticking bomb
  |ticking bomb
  |ticking bomb
  |ticking bomb
@@ -57,6 +62,7 @@ Please cast your vote by adding to the following Table:
  |fall
  |fall
  |fall
+ |explode
  |}
 
 == Comments ==
@@ -74,3 +80,5 @@ FlyingPenguins, are you having browser troubles or something? Your edit blanked 
 '''sik0fewl:''' ''bump'' is when Tux hits a block from below and the badguy is killed if he's standing on the block
 
 '''FlyingPenguins:''' I kind of prefer how Super Mario Bros. 3 handles Bob-Ombs. They shouldn't be affected by fireballs (if that is what "shot" means), can be killed by running through them with invincibility, being bumped from underneath, or being run over by a kicked badguy, and if squished, they will remain dormant for a few seconds before blinking and exploding.
+
+'''Afief:''' couldn't it be made that when a kicked badguy hits mr.bomb he does a little jump and then starts ticking? i certainly don't like him killing all my mr.icecubes(didn't know how to explain that in the table)
