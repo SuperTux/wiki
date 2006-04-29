@@ -63,6 +63,7 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 * install the downloaded binaries by typing
 
  cd /c/msys/1.0/
+ tar -xzvf gcc-g++-3.4.2-20040916-1.tar.gz
  tar -xjvf msys-autoconf-2.59.tar.bz2
  tar -xjvf msys-automake-1.8.2.tar.bz2
  tar -xjvf supertux-msys-libs-2006-03-21.tar.bz2
