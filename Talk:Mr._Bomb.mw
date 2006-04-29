@@ -11,6 +11,7 @@ Please cast your vote by adding to the following Table:
  !litespeed
  !ThOR27
  !yukaili
+ !FlyingPenguins
  |-
  !shot
  |explosion
@@ -19,8 +20,10 @@ Please cast your vote by adding to the following Table:
  |explosion
  |explosion
  |explosion
+ |ineffective
  |-
  !invincible
+ |fall
  |fall
  |fall
  |fall
@@ -35,8 +38,10 @@ Please cast your vote by adding to the following Table:
  |ticking bomb
  |fall
  |fall
+ |fall
  |-
  !squish
+ |ticking bomb
  |ticking bomb
  |ticking bomb
  |ticking bomb
@@ -51,11 +56,13 @@ Please cast your vote by adding to the following Table:
  |fall
  |fall
  |fall
+ |fall
  |}
 
 == Comments ==
 
 FlyingPenguins, are you having browser troubles or something? Your edit blanked the page. - [[User:Sik0fewl|Sik0fewl]] 21:00, 28 Apr 2006 (BST)
+*Well, when I edited the page with my added votes and stuff, when I saved it, the page was blanked. And when I checked the page history, you had made an edit before me, and that edit was empty, so I thought you had blanked the topic. Sorry about the blanking, though I think it was something in the MediaWiki software or my Firefox brower that made the page and page edit content in the prior edits blank. Anyways, I readded my comments. --[[User:FlyingPenguins|FlyingPenguins]] 08:42, 29 Apr 2006 (BST)
 
 
 '''BuBuaBu :''' When a MrBomb is hurt by a kicked badguy, I think that he could be jump and then being ticking
@@ -65,3 +72,5 @@ FlyingPenguins, are you having browser troubles or something? Your edit blanked 
 '''yukaili :''' What would bump exactly mean?
 
 '''sik0fewl:''' ''bump'' is when Tux hits a block from below and the badguy is killed if he's standing on the block
+
+'''FlyingPenguins:''' I kind of prefer how Super Mario Bros. 3 handles Bob-Ombs. They shouldn't be affected by fireballs (if that is what "shot" means), can be killed by running through them with invincibility, being bumped from underneath, or being run over by a kicked badguy, and if squished, they will remain dormant for a few seconds before blinking and exploding.
