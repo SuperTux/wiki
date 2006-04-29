@@ -97,7 +97,7 @@ There's a new gtk-sharp based editor in development which can also be built on w
 
 Building:
 
-* Get the sourcecode from [[svn | Download/Subversion]] 
+* Get the sourcecode from [[Download/Subversion | svn]] 
 * open supertux-sharp.sln by double clicking on it (it should open in Visual C# Express now).
 * Build the project in debug and release mode (use F6 and then F5 for example)
 * Copy SDL.dll and SDL_image.dll into the bin\Debug and bin\Release directory that has just been created
