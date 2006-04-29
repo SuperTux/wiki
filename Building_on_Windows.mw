@@ -29,6 +29,9 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 * Download and install the MSYS developer toolkit (DTK) - I chose [http://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
 ** Again, the default folder of C:\msys\1.0 was fine with me, the rest of the install was smooth sailing
 
+* Download and install MinGW gcc-g++ package for compiling C++ code - [http://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download]
+** save this to c:\msys\1.0 we will unpack it later
+
 * Download MSYS autoconf - I chose [http://prdownloads.sourceforge.net/mingw/msys-autoconf-2.59.tar.bz2?download msys-autoconf-2.59]
 ** save this to C:\msys\1.0, we will unpack it later
 
