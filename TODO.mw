@@ -58,7 +58,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Objects ===
 * '''H:''' Check/Fix bullet speed/behaviour
 * '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, SnowSnail, Spidermite?, Hatch, SkullTile
-* '''H:''' Implement Ice Cube/Straw Block - a block that can be destroyed by the fire shot. Appearance depends on the world it's used in.
 * '''H:''' Infobox: Don't show scroll arrows if the text is smaller than the box. Try pixelwise smooth scrolling instead of 1 line per keypress. Try to avoid scrolling textboxes anyway, players are bored if they have to read so much. Try to avoid infoboxes where possible, the game is played by lots of kids who either can't read yet or don't know english, they'll just be confused by text they can't understand.
 * '''M:''' Make moving platforms crush tux when pressed against a wall
 * '''L:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
