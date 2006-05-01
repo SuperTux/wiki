@@ -76,15 +76,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The pause effect should be redone.
 
-* The starting point (igloo) on the worldmap cannot be entered.
-
-* Pipes cannot be entered; we thus had no bonus rooms.
-
-* Clever enemies are missing (ie. the plants which come out of pipes only if Mario isn't standing on that pipe).
-
 * The menu fade-in effect should be redone.
-
-* There is no special sound effect that plays when you die.
 
 * More abilities for Tux are needed.
 
@@ -117,6 +109,14 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * The worldmap is inanimate.
 
 * The enemy's stay-on-platform option is questionable; it should be indicated by the enemy's color.
+
+* There is no special sound effect that plays when you die.
+
+* The starting point (igloo) on the worldmap cannot be entered.
+
+* Pipes cannot be entered; we thus had no bonus rooms.
+
+* Clever enemies are missing (ie. the plants which come out of pipes only if Mario isn't standing on that pipe).
 
 == Good Things in Milestone 1 ==
 This is a list of things that are good in Milestone 1 (compared to most other games or where we managed to hit our goals).
