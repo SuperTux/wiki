@@ -98,8 +98,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The particles that get thrown after Tux hits a breakable block are poorly drawn (not reacting to gravity, etc.).
 
-* The menus (ie. Bonus Levels, and esp. Test Collection for Dev) cannot be scrolled down. This is especially a problem when you have a lot of levels, some of them will be cut off from the screen.
-
 === Fixed in Milestone 2 ===
 
 * There is no back/horizontal/vertical scrolling.
@@ -119,7 +117,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * Worldmaps have basically no alternative paths.
 
 * The worldmap is inanimate.
-
 
 == Good Things in Milestone 1 ==
 This is a list of things that are good in Milestone 1 (compared to most other games or where we managed to hit our goals).
