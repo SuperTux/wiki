@@ -94,6 +94,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 ** the screen should be displayed until the player presses a key (or a longer period of time like 15 seconds) is over
 ** statistics counting also doesn't seem to be correct yet
 *** coins in bonus blocks are not counted
+* '''D:''' What to do with Coins and Badguys when Tux warps back to the most recent Firefly?
 
 == Editor ==
 * '''H:''' Support for paths
