@@ -34,8 +34,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The snowflakes do not really match the style.
 
-* The enemy's stay-on-platform option is questionable; it should be indicated by the enemy's color.
-
 * The ? blocks are poorly shaped.
 
 * Stalactites should shatter via particle effects.
@@ -117,6 +115,8 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * Worldmaps have basically no alternative paths.
 
 * The worldmap is inanimate.
+
+* The enemy's stay-on-platform option is questionable; it should be indicated by the enemy's color.
 
 == Good Things in Milestone 1 ==
 This is a list of things that are good in Milestone 1 (compared to most other games or where we managed to hit our goals).
