@@ -95,6 +95,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 ** statistics counting also doesn't seem to be correct yet
 *** coins in bonus blocks are not counted
 * '''D:''' What to do with Coins and Badguys when Tux warps back to the most recent Firefly?
+*# replace all coins and badguys, restart counters from zero
+*# keep track of collected coins, restart level with collected coins removed
+*# restore level snapshot (taken when firefly was activated)
 
 == Editor ==
 * '''H:''' Support for paths
