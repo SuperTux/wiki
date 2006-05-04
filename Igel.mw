@@ -1,0 +1,5 @@
+Igel looks like a common Hedgehog (see en.wikipedia.org/wiki/Image:Igel.JPG). The spines should be clearly visible, indicating that this enemy cannot be squished.
+
+Although basically vulnerable to shots that hit the soft head, Igel will immediately curl up for some seconds as soon as being shot at, thus either absorbing or deflecting the shot.
+
+Upon reaching a ledge or when [[Tux]] stands less than 5 tiles behind Igel, Igel will slowly turn around, facing the camera and thus exposing the only weakness: When hit by a bullet while facing the camera, Igel will flip over for some seconds and can be squished by jumping on the exposed belly.
