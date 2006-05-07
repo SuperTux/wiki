@@ -8,16 +8,23 @@ Supertux development mainly happens on linux. The sourcecode is written in a por
 
 = Prerequesites =
 
+You will need the following tools and libraries to build SuperTux on your system:
 * gcc compiler &co (gcc, g++, binutils, glibc)
 * gettext
 * autoconf
 * jam
 * SDL (*)
 * SDL-image (*)
+* PhysFS (*)
+* Ogg/Vorbis (*)
 * OpenGL (*)
 * OpenAL (*)
 
 You should make sure that you also have development headers and libraries installed for the tools marked with (*).
+
+Most distributions offer separate developer versions for these libraries, e.g. Debian users should run
+ apt-get install libsdl1.2-dev libsdl-image1.2-dev libphysfs-dev libvorbis-dev libogg-dev libopenal-dev
+to install them.
 
 = Getting the source =
 
