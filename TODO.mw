@@ -16,6 +16,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 == Programming ==
 
 === Collision Detection ===
+* '''M:''' Solve problems with Tux getting stuck in (and consequentially moved out of) unisolid tiles if they are at the apex of his jump
 * '''L:''' Stacking some objects doesn't work nicely. Examples: Multiple badguys above each other, multiple rocks above each other. It might be possible to solve this by doing collision detection against old object positions instead of the new ones.
 * '''?:''' There are collisions with the flame sprite while invincible. Tux can then actually stand on one
 
