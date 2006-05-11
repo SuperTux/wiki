@@ -1,20 +1,20 @@
 == Repository ==
-Supertux development is coordinated with the help of the subversion version control system. Simply spoken it's filestore that can be used by multiple users simultaneously and which keeps track of changes and keeps old versions of files archived. You can find out more about subversion in general on their homepage at http://subversion.tigris.org
+SuperTux development is coordinated with the help of the Subversion version control system. In a nutshell, it's a file-storing facility that can be used by multiple users simultaneously, keeping track of changes and archiving old versions of files. You can find out more about Subversion in general on their [homepage http://subversion.tigris.org/].
 
-== Getting the repository (anonymous read only access) ==
-Anonymous read access to the repository is granted for everybody. So when you already have subversion installed all you have to do to get your hands on the source is to use the following command:
+== Getting the data (anonymous read-only access) ==
+Anonymous read access to the repository is granted to everybody. Once you have installed Subversion, all you have to do to get your hands on the data is to use the following command:
 
  svn checkout svn://svn.berlios.de/supertux/trunk/supertux
 
-This will create a new directory supertux which contains the latest versions of the supertux sourcecode. Once you have checked out the sources you can use
+This will create a new directory named ''supertux'' which contains the latest versions of the SuperTux source code and data. Once this is complete, you can use
 
  svn update
 
-inside the supertux directory to update to the latest versions in the repository. This will only download changed files to save bandwidth.
+inside the ''supertux'' directory to update to the latest version in the repository. This will only download changed files to save bandwidth.
 
 === Locations inside the Subversion repository ===
 
-Checking out the path above will get you all you need for SuperTux, however, there are some other paths in the repository with other useful things.
+Checking out the path above will get you all you need to contribute to SuperTux. However, there are a few more paths in the repository containing other useful SuperTux-related things.
 
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/htdocs</nowiki></tt>
 : Website source
@@ -25,29 +25,39 @@ Checking out the path above will get you all you need for SuperTux, however, the
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-portable</nowiki></tt>
 : [[SuperTux Portable]]
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-sharp</nowiki></tt>
-: SuperTux level editor
+: Official SuperTux level editor
+; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/cobble</nowiki></tt>
+: Simple, Windows-only level editor
 ; <tt><nowiki>svn://svn.berlios.de/supertux/branches/supertux/0_1_x</nowiki></tt>
-: SuperTux milestone 1 branch
+: SuperTux Milestone 1 branch
 
 == Creating Patches ==
 
-Once you have done some own changes on the repository and want to contribute them to supertux you have to create a patch (since the public repository is read only). The following steps walk you through the process of creating a patch:
+Once you have done some own changes on the repository and want to contribute them to the project, you have to create a patch (since the public repository is read only). The following steps walk you through the process of doing so:
 
 At first you should use
 
  svn status
 
-this will print you a list of files with a prefix letter. M means you have changed the file, C means there has been a conflict between your changes and changes from someone else in the repository, ? means the file is ignored by the version control.
+which will print you a list of files with a prefix letter. M means you have changed the file, C means there has been a conflict between your changes and changes from someone else in the repository, and ? means the file is ignored by the version control.
 
-You should fix all conflicts, and use '''svn add''' to add files that you created and which should be under version control. '''svn remove''' will remove files from version control. Finally you can create a patch by using
+You should fix all conflicts (by editing the conflicted file, then using '''svn resolved &lt;filename&gt;''') and use '''svn add &lt;filename&gt;''' to add files that you created and want to add. '''svn remove''' will delete files from the repository. (Note that files are never really deleted; you may always check out a former revision when the file still existed.) Finally you can create a patch by using
 
  svn diff > mypatch.patch
 
-This will create a file mypatch.patch that contains all changes you did to the repository. You should send your patch to the [Mailinglist].
+This will create a file mypatch.patch that contains all changes you did to the repository. You should send your patch to the [[Mailing Lists|supertux-devel mailing list]].
 
 == Web Access ==
-If you just want to browse through the source a bit, then you can use the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/ Repository HTTP Interface] to browse the repository using your web browser.
+If you just want to browse through the source a bit, then you can use the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/ Repository HTTP Interface] which should work well with your web browser.
 
 == Developer SVN access ==
 
-If you have submitted some good patches and want to get actively involved in the supertux project. Then [Contact] us for real write access to the repository.
+If you have submitted some good patches and want to get actively involved in the SuperTux project, [[contact]] us for write access to the repository. You will then have to issue the following commandin the ''supertux'' directory:
+
+ svn switch --relocate svn://svn.berlios.de/supertux/trunk/supertux svn+ssh://&lt;your_berlios_username&gt;@svn.berlios.de/svnroot/repos/supertux/trunk/supertux
+
+After running an <code>svn update</code> to make sure everything went smoothly, you can start checking in your changes:
+
+ svn commit -m "Totally changed src/main.cpp to implement HTCPCP!"
+
+If you only want to commit changes to some files, add their names to the end of the command.
