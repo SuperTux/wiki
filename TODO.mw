@@ -68,6 +68,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Optimisations ===
 
+* '''M:''' Add some more sound_manager->preloads into object constructors
 * '''L:''' Combine tiles into bigger images (worldmap and the waterfall tiles come to mind). This should improve load time and opengl speed a bit (because we need fewer texture changes).
 
 === Miscellaneous ===
