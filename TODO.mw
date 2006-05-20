@@ -29,20 +29,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Actions ===
 * '''H:''' what to do when stuck under tiles (after using duck-sliding)
-* '''H:''' Buttjump:
-** re-enable buttjump
-** should kill enemies with a certain range (''needs to be tweaked'')
-*** eventually, enemies in a given radius should only be stunned
-** animation (need images)
-** should only be available when tux is big
-** should break bricks if Tux is on top of bricks.
-* '''H:''' Flapping:
-** should be modeled after Yoshi's Island flapping
-** '''?:''' check if this doesn't heavily affect gameplay
-** animation (need images)
-* '''H:''' Blowflyer:
-** should be temporarily active for a single sector or time-limited (i.e. countdown)
-** '''D:''' we don't know yet how Tux could gain that ability; probably some non-movable objects in the level (helium bottles were rejected, should be something more "abstract")
 * '''?:''' the currrent grow-up animation pauses the game for too long. Either pausing for a shorter time or letting the game run while growing up might be better.
 
 === Scripting/Cutscenes ===
