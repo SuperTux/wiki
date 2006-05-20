@@ -18,7 +18,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Collision Detection ===
 * '''M:''' Solve problems with Tux getting stuck in (and consequentially moved out of) unisolid tiles if they are at the apex of his jump
 * '''L:''' Stacking some objects doesn't work nicely. Examples: Multiple badguys above each other, multiple rocks above each other. It might be possible to solve this by doing collision detection against old object positions instead of the new ones.
-* '''?:''' There are collisions with the flame sprite while invincible. Tux can then actually stand on one
 
 === Code Refactoring/Cleanup/Optimisation ===
 * '''L:''' implement quadtree or grid to speedup collision detection
@@ -40,7 +39,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Badguys should only respawn outside the current screen rect when they were disabled (there is code that should do this, but it doesn't seem to work)
 
 === Objects ===
-* '''H:''' Check/Fix bullet speed/behaviour
 * '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, SnowSnail, Spidermite?, Hatch, SkullTile
 * '''H:''' Infobox: Don't show scroll arrows if the text is smaller than the box. Try pixelwise smooth scrolling instead of 1 line per keypress. Try to avoid scrolling textboxes anyway, players are bored if they have to read so much. Try to avoid infoboxes where possible, the game is played by lots of kids who either can't read yet or don't know english, they'll just be confused by text they can't understand.
 * '''M:''' Make moving platforms crush tux when pressed against a wall
@@ -83,10 +81,9 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
 * '''L:''' ability to jump back at a specific position in a music file on loop (add .music files that describe the behaviour)
 * '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
-* '''L:''' Work when no OpenAl support is available
-* '''L:''' Create a global random number generator class and use that everywhere in supertux. Also record random seed in demos to make playback reproducible. IMO we shouldn't have random elements in gameplay anyway.
+* '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result
+shouldn't affect the gamelogic at all)
 * '''L:''' There are still some mainloops left outside the MainLoop class.
-* '''H:''' when finishing worldmap levels on a T-way tux starts running in a direction, while he should simply stay because he has several possibilities to continue. Also at the T-way that goes up, left, down tux doesn't seem to stop.
 * '''?:''' Show total count of coins collected in all levels on the worldmap
 
 === Statistics ===
@@ -95,10 +92,10 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 ** the screen should be displayed until the player presses a key (or a longer period of time like 15 seconds) is over
 ** statistics counting also doesn't seem to be correct yet
 *** coins in bonus blocks are not counted
-* '''D:''' What to do with Coins and Badguys when Tux warps back to the most recent Firefly?
-*# replace all coins and badguys, restart counters from zero
-*# keep track of collected coins, restart level with collected coins removed
-*# restore level snapshot (taken when firefly was activated)
+
+=== Bugs ===
+* '''H:''' Check/Fix bullet speed/behaviour
+* '''H:''' when finishing worldmap levels on a T-way tux starts running in a direction, while he should simply stay because he has several possibilities to continue. Also at the T-way that goes up, left, down tux doesn't seem to stop.
 
 == Editor ==
 
