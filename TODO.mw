@@ -85,7 +85,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
 * '''L:''' Work when no OpenAl support is available
 * '''L:''' Create a global random number generator class and use that everywhere in supertux. Also record random seed in demos to make playback reproducible. IMO we shouldn't have random elements in gameplay anyway.
-* '''M:''' There are still some mainloops left outside the MainLoop class left, esp. the stuff in src/video/screen.* is annoying, add the concept of a Transitional screen or something which gets added to the mainloop to do the fadeout/shrink or whatever transitions.
+* '''L:''' There are still some mainloops left outside the MainLoop class.
 * '''H:''' when finishing worldmap levels on a T-way tux starts running in a direction, while he should simply stay because he has several possibilities to continue. Also at the T-way that goes up, left, down tux doesn't seem to stop.
 * '''?:''' Show total count of coins collected in all levels on the worldmap
 
