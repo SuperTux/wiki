@@ -34,7 +34,6 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 === Scripting/Cutscenes ===
 * '''H:''' create a (squirrel) script for the intro cutscene
 * '''H:''' extract translatable strings from the scripts
-* '''H:''' easy means of skipping and/or fast-forwarding cutscenes
 * '''?:''' tux walk from the level goal into his igloo looks like he's breakdancing
 
 === Badguys ===
