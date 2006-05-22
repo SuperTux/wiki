@@ -40,7 +40,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''H:''' Badguys should only respawn outside the current screen rect when they were disabled (there is code that should do this, but it doesn't seem to work)
 
 === Objects ===
-* '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, SnowSnail, Spidermite?, Hatch, SkullTile
+* '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, Spidermite?, Hatch, SkullTile
 * '''H:''' Infobox: Don't show scroll arrows if the text is smaller than the box. Try pixelwise smooth scrolling instead of 1 line per keypress. Try to avoid scrolling textboxes anyway, players are bored if they have to read so much. Try to avoid infoboxes where possible, the game is played by lots of kids who either can't read yet or don't know english, they'll just be confused by text they can't understand.
 * '''M:''' Make moving platforms crush tux when pressed against a wall
 * '''L:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
