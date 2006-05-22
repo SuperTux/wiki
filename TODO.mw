@@ -28,6 +28,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Actions ===
 * '''H:''' what to do when stuck under tiles (after using duck-sliding)
+** How about hurting Tux when he tries to stand up and cannot. Sooner or later he will become small and be able to leave on his feet...
 * '''?:''' the currrent grow-up animation pauses the game for too long. Either pausing for a shorter time or letting the game run while growing up might be better.
 
 === Scripting/Cutscenes ===
