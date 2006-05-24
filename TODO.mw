@@ -20,6 +20,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 * '''L:''' Stacking some objects doesn't work nicely. Examples: Multiple badguys above each other, multiple rocks above each other. It might be possible to solve this by doing collision detection against old object positions instead of the new ones.
 * '''?:''' Solve problems with "solid" objects, e.g. Tux being propelled through bonus-type invisible blocks or Tux sometimes being thrown off platforms
 ** This doesn't seem to happen when the separate-axis collision detection for solid objects is replaced by the default algorithm
+* '''?:''' Trigger collision callbacks for multiple solids that get hit at the same time, not just the "first" one
 
 === Code Refactoring/Cleanup/Optimisation ===
 * '''L:''' implement quadtree or grid to speedup collision detection
