@@ -62,6 +62,9 @@ If you are interested in an object and what cans of worms you can open with it, 
 ! [[ScriptingFloatingImage | FloatingImage]]
 | ...
 |-
+! [[ScriptingPlatform | Platform]]
+| Scripting interface to Platform object
+|-
 |}
 
 TODO: Convert the rest of the scripting docu to the new format (and improve format maybe?)
