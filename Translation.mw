@@ -23,6 +23,10 @@
 
 * If somewhere in the game, after translating a string, it doesn't look well (bad aligment, overlaps other text...), let us know and we will fix it.
 
+* Do not stick to the original text too much, just try to capture the meaning of a phrase.
+
+* Have a friend play the game using your translation. If any phrase needs additional explanation, consider changing it.
+
 == Tools ==
 
 There's a number of tools you can use to edit the .po files:
