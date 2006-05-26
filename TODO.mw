@@ -99,6 +99,9 @@ shouldn't affect the gamelogic at all)
 *** coins in bonus blocks are not counted
 * '''?:''' Do not show statistics when the player "started" the level at a firefly
 
+=== Sound ===
+* '''?:''' Seems like a SoundSouce that was stopped cannot resume playing. Further investigation necessary.
+
 === Bugs ===
 * '''H:''' Check/Fix bullet speed/behaviour
 * '''H:''' when finishing worldmap levels on a T-way tux starts running in a direction, while he should simply stay because he has several possibilities to continue. Also at the T-way that goes up, left, down tux doesn't seem to stop.
