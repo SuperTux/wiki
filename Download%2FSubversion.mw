@@ -26,8 +26,6 @@ Checking out the path above will get you all you need to contribute to SuperTux.
 : [[SuperTux Portable]]
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-sharp</nowiki></tt>
 : Official SuperTux level editor
-; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/cobble</nowiki></tt>
-: Simple, Windows-only level editor
 ; <tt><nowiki>svn://svn.berlios.de/supertux/branches/supertux/0_1_x</nowiki></tt>
 : SuperTux Milestone 1 branch
 
