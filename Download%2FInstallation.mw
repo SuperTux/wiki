@@ -50,6 +50,13 @@ There's an automatic installer here:
 
    http://download.berlios.de/supertux/supertux-0.1.3-setup.exe
 
+The binary is also mirrored on several places around the world - here are some of them:
+
+* http://www.chip.de/downloads/c1_downloads_16553946.html
+* http://www.razorbg.de/media/download/21
+
+Note that we cannot guarantee the integrity of those mirrors, though.
+
 == BeOS ==
 
    http://www.beinformed.at/sdl/supertux-0.1.3.pkg.zip
