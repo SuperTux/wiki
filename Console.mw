@@ -16,3 +16,5 @@ Following is a list of useful scripts to run in the console:
 :restarts the current level
 ;whereami()
 :prints Tux' coordinates
+;debug_collrects(true)
+:shows a transparent hitbox image over badguys for debuging
