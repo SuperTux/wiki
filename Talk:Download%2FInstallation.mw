@@ -46,16 +46,6 @@ psp-linux.org is porting linux to psp
 
 Lusse
 
-----------------------
-
-Technically, PSP already runs linux (albeit a bastardized Sony version). The cursor is a bug in the PSP port.
-The port coder should put:
-#ifdef __PSP__ //something like that
-SDL_Disable(1); //disables mouse cursor
-#endif
-
-- Nobody
-
 == Debian download link broken ==
 
 Downkoad link for newest version (telesto.lug-ag.ch/~gurkan/debian/supertux/) does not respond as 2006-02-20.
