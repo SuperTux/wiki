@@ -36,6 +36,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 
 === Scripting/Cutscenes ===
 * '''H:''' extract translatable strings from the scripts
+* '''M:''' Useful error messages. Report line and command that caused error.
 
 === Badguys ===
 * '''?:''' render Badguys that could move through tiles (flames, ghosts, dead badguys) on a higher layer so they won't disappear behind e.g. grass patches only to reappear in front of solid ground again
