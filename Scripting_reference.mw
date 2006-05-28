@@ -28,7 +28,7 @@ When this level loads, the screen fades out completely during two and a half sec
 == Object reference ==
 If you are interested in an object and what cans of worms you can open with it, this section is for you.
 
-"(NYI)" after the function name symbolises functions that haven't been implemented yet. Calling them will result in a line being printed to standard output informing anybody who reads it that the script is using a function that actually doesn't exist. (You can expect Win32 users to happily ignore this, since they tend to simply start the application by opening it with Explorer. Unix users, on the other hand, like starting things from the [[Console]], so it's better if you don't use non-existent functions in your scripts.)
+"(NYI)" after the function name symbolises functions that haven't been implemented yet. Calling them will result in a line being printed to standard output informing anybody who reads it that the script is using a function that actually doesn't exist.
 
 === Classes ===
 
