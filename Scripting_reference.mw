@@ -299,14 +299,14 @@ Returns: <tt>bool</tt>; has the screen been blackened by <tt>set_black</tt>?
 Note: Calling <tt>fade_in</tt> or <tt>fade_out</tt> resets the return value to <tt>false</tt>.
 
 ==== sixteen_to_nine ====
-Usage: <tt>Effect.sixteen_to_nine()</tt>
+Usage: <tt>Effect.sixteen_to_nine(float fadetime)</tt>
 
-Sets the display ratio to 16:9, effectively adding black bars at the top and bottom of the screen. Should be used before cutscenes.
+Sets the display ratio to 16:9, effectively adding black bars at the top and bottom of the screen. Should be used before cutscenes. Gradually fades to this state for the next <tt>fadetime</tt> seconds.
 
 ==== four_to_three ====
-Usage: <tt>Effect.four_to_three()</tt>
+Usage: <tt>Effect.four_to_three(float fadetime)</tt>
 
-Sets the display ratio to 4:3, removing the black bars added by <tt>sixteen_to_nine()</tt>. Should be used after cutscenes.
+Sets the display ratio to 4:3, removing the black bars added by <tt>sixteen_to_nine()</tt>. Should be used after cutscenes. Gradually fades to this state for the next <tt>fadetime</tt> seconds.
 
 === Camera ===
 <tt>Camera</tt> is an interface to manipulate the camera.
