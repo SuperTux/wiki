@@ -139,5 +139,6 @@ shouldn't affect the gamelogic at all)
 * '''?:''' [[Dart Trap]] loading, firing
 * '''?:''' [[Dart]] flying, hitting wall
 * '''?:''' Sound when tux drinks a magic potion that flips the level around (that old sound from the flower? or better not ;-)
+* '''?:''' Ambient sound for lava pits
 
 == Music ==
