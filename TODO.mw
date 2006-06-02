@@ -97,6 +97,7 @@ shouldn't affect the gamelogic at all)
 ** statistics counting also doesn't seem to be correct yet
 *** coins in bonus blocks are not counted
 * '''?:''' Do not show statistics when the player "started" the level at a firefly
+* load/save statistics
 
 === Sound ===
 * '''?:''' Seems like a SoundSouce that was stopped cannot resume playing. Further investigation necessary.
