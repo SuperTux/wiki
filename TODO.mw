@@ -89,6 +89,7 @@ Documents and ideas: [[Milestone 2]] esp. [[Forest|Forest world]]
 shouldn't affect the gamelogic at all)
 * '''L:''' There are still some mainloops left outside the MainLoop class.
 * '''?:''' Show total count of coins collected in all levels on the worldmap
+* '''M:''' Option to delete or overwrite existing savegames. My five slots are all in world 2, Have to delete one to go back.
 
 === Statistics ===
 * '''M:''' Show statistics on level completion. 
