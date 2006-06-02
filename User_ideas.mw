@@ -121,7 +121,7 @@ When you type "iddqd", tux shakes his head.
 === Other ===
 *'''Diving''' - in water?
 *'''Flying''' - in air?
-*'''Pulling levers''' - activate/deactivate/open/close things.
+*'''Pulling levers''' - activate/deactivate/open/close things. Added in SVN today thanks to me (mmiikkee12) :-) (they're called switches but they're more like levers)
 *'''Standing on switches''' - activate/open things.
 *'''Wind''' - make it difficult for Tux to move, push him back, and push him much back if he jump.
 *Hang glider to fly!
