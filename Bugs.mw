@@ -18,6 +18,7 @@ All website bugs have been fixed.
 * SuperTux takes up more memory on each new level/game, until it crashes the systems. Using KDE System Guard suggests that finished maps/levels are not being freed from memory. Bug produced on a Knoppix/Debian system with 128MB of RAM.
 
 == Development version ==
+{{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
 * free() errors when exiting SuperTux without having entered a worldmap/level.
 ** Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
 *** Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);''</code>
