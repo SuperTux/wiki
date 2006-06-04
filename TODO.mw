@@ -150,10 +150,8 @@ shouldn't affect the gamelogic at all)
 * '''?:''' Warp sound for Hatch-style Dispenser
 * '''?:''' Wooden "click" for Walking Totem
 * '''?:''' Splash when jumping into water
-* '''?:''' [[Will-o-wisp]] ambient, warping, vanishing
-* '''?:''' [[Dart Trap]] loading, firing
-* '''?:''' [[Dart]] flying, hitting wall
-* '''?:''' Sound when tux drinks a magic potion that flips the level around (that old sound from the flower? or better not ;-)
+* '''?:''' Sound when tux drinks a magic potion that flips the level around 
+** that old sound from the flower? or better not ;-)
 * '''?:''' Ambient sound for lava pits
 
 == Music ==
