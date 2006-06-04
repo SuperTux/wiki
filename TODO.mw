@@ -125,6 +125,18 @@ shouldn't affect the gamelogic at all)
 * '''L:''' graphics for ropes
 * '''L:''' graphics for bubbles and soap (not necessary for Milestone 2)
 * '''?/D:''' new enemies (first need to be designed)
+* '''?:''' for most level backgrounds, create three tileable image parts that tile like this:
+ +-+-+
+ |1|1|
+ +-+-+
+ |1|1|
+ +-+-+
+ |2|2|
+ +-+-+
+ |3|3|
+ +-+-+
+ |3|3|
+ +-+-+
 
 == Sounds ==
 * '''?:''' See [[World_2#Atmosphere]] for more ambient sound ideas
