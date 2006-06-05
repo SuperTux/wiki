@@ -41,7 +41,14 @@ There's a package available here:
   http://www.linuxpackages.net/pkg_details.php?id=7697
 
 == Mac OS/X ==
-There's a bundle available here:
+
+===Universay binary===
+
+Note: this universal binary requires Mac OS/X 10.4.x or greater.
+
+ http://prdownload.berlios.de/supertux/supertux-0.1.3-macosx-universal.dmg
+
+===PPC only===
 
   http://download.berlios.de/supertux/supertux-0.1.3-macosx.dmg
 
