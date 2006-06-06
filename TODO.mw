@@ -118,6 +118,7 @@ shouldn't affect the gamelogic at all)
 
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
+* '''H:''' [[Levels/M2Test|Test existing Levels]] if they still work.
 
 == Graphics ==
 * '''H:''' add more forest tiles; some of the current ones need fixing.
