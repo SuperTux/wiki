@@ -4,8 +4,10 @@ Regarding:
 
 So far we have a graphic that displays sparkels just before the key goes on the scoreboard area. This is just a hacked in loop of images at the moment. We need a way to play this animation just once as the key fades out of the main screenplay area, then once as the key fades onto the scoreboard area. 
 
-At the same time as the key fade off the main screenplay area, we could use to replace the Tux player sprite with a "Tux just found key - yippie-" animation set.
+At the same time as the key fades off the main screenplay area, we could use to replace the Tux player sprite with a "Tux just found key - yippie-" animation set.
 
 Grumbel had made a backflip animation set somewhere along the way, maybe we could use these graphics for the -yippie- animation series.
 
-(gwater)
+Does anyone with good sound skills want to submit some sample files for a "Tada - Yippie" music noise?  
+
+(gwater 06-06-06)
