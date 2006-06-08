@@ -25,3 +25,5 @@ All website bugs have been fixed.
 *** Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
 
 * Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
+
+* Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
