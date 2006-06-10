@@ -36,6 +36,24 @@ It's also possible to extract parts of bigger images to create tiles. This extra
     )
   )
 
+Note that the last variant is depreceated in favour of a more compact approach at defining multiple tiles:
+
+  (tiles
+    (width 3)
+    (height 4)
+    (ids  7  8  9
+         13 14 15
+         10 11 12
+ 	 16 17 18)
+    (attributes 0 0 0
+                1 1 1
+		1 1 1
+		0 0 0)
+    (image "tiles/snow/convex.png")
+  )
+
+In this example, a block of 3x4 tiles will be extracted from an image with only the middle rows solid.
+
 = Tile attributes =
 
 Tiles can have the following attributes:
