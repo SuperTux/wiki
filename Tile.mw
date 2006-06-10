@@ -1,6 +1,6 @@
 = Introduction =
 
-Supertux levels are composed from tiles. Little 32x32 pixel wide images. These tiles are defined in an [[s-expr]] based file. A tile has an ID number a set of images (it's an animated tile if it has more than 1 image) and contains a set of attributes like solid, icy, anim-fps...
+Supertux levels are composed from tiles. Little 32x32 pixel wide images. These tiles are defined in an [[s-expr]] based file, "data/images/tiles.strf". A tile has an ID number a set of images (it's an animated tile if it has more than 1 image) and contains a set of attributes like solid, icy, anim-fps...
 
 = Example =
 
