@@ -36,7 +36,7 @@ It's also possible to extract parts of bigger images to create tiles. This extra
     )
   )
 
-Note that the last variant is depreceated in favour of a more compact approach at defining multiple tiles:
+Note that in [[Milestone 2]], the last variant is depreceated in favour of a more compact approach at defining multiple tiles:
 
   (tiles
     (width 3)
@@ -44,11 +44,11 @@ Note that the last variant is depreceated in favour of a more compact approach a
     (ids  7  8  9
          13 14 15
          10 11 12
- 	 16 17 18)
+         16 17 18)
     (attributes 0 0 0
                 1 1 1
-		1 1 1
-		0 0 0)
+                1 1 1
+                0 0 0)
     (image "tiles/snow/convex.png")
   )
 
