@@ -1,5 +1,5 @@
 = Introduction =
-Most animated images you see in supertux are '''sprites'''. Sprites are defined in individual files that end in ".sprite", e.g. "data/images/creatures/snowball.sprite".
+Most animated images you see in supertux are '''sprites'''. Sprites definitions are defined in individual files that end in ".sprite", e.g. "data/images/creatures/snowball.sprite", and follow [[S-expr]] syntax.
 
 = Example =
 
