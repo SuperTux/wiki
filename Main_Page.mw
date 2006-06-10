@@ -2,6 +2,7 @@ __NOTOC__
 
 == SuperTux users ==
 * [[SuperTux FAQ]]
+* [[Glossary]]
 * [[Levels]]
 * [[Modifications]]
 * [[Demos]]
@@ -27,8 +28,8 @@ __NOTOC__
 
 == Developer documentation == 
 * [[SetupDev | How to get started]]
-* [[AddTiles | How to add tiles]]
-* [[AddSprites | How to add sprites]]
+* [[Tile]]s
+* [[Sprite]]s
 * [[Level format | Level File Format]]
 * [[Scripting reference]]
 * [[File formats]]
@@ -36,7 +37,6 @@ __NOTOC__
 * [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
 * [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
 * [http://supertux.berlios.de/development/doxygen/html/ Doxygen HTML Documentation]
-* [[Glossary]]
 
 == External links ==
 
