@@ -1,9 +1,16 @@
 These documents serve the simple purpose of a reference for the files specific to SuperTux (levels, worldmaps, ...). Some of these files can be modified using an editor such as [flexlay.berlios.de/ Flexlay]. For the rest, you can use a plain text editor of your choice.
 
-You can find in-depth discussions of the following files' formats at their respective pages:
-* [Tile]
-* [Sprite]
-* [Level format|Level]
+For a description of the syntax used in most of SuperTux' data files, see the article on
+
+* [[S-expr]]
+
+You can find in-depth discussions of the following files' formats at their respective articles:
+
+* [[Tile]]
+* [[Sprite]]
+* [[Level format|Level]]
+
+The remainder of this article will give a general overview and describe miscellaneous file formats.
 
 == Brackets, brackets, brackets (About the Language) ==
 As you might have already noticed, the SuperTux definition files (just about for everything) are full of brackets ('(' and ')'). This might freak out a few BASIC or Python programmers who have pretty much developed a natural aversion against them.
