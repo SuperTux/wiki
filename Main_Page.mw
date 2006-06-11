@@ -28,11 +28,8 @@ __NOTOC__
 
 == Developer documentation == 
 * [[SetupDev | How to get started]]
-* [[Tile]]s
-* [[Sprite]]s
-* [[Level format | Level File Format]]
-* [[Scripting reference]]
 * [[File formats]]
+* [[Scripting reference]]
 * [[Translation]]
 * [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
 * [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
