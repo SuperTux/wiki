@@ -5,7 +5,7 @@ This document is work in progress; when finished, its purpose is to provide a fi
 
 Milestone 2 will try to correct many things that were considered "bad" while retaining most things that were considered considered "good" in [[Milestone 1]]. See [[Milestone 1 Analysis]] for a detailed analysis.
 
-= Engine =
+= [[Game Engine]] =
 
 SuperTux Milestone 2 will use OpenGL to draw the graphics. The features of this library will be used to enhance gameplay and visual content in several ways:
 
@@ -15,7 +15,7 @@ SuperTux Milestone 2 will use OpenGL to draw the graphics. The features of this 
 * Zooming (in cutscenes)
 * Make foreground translucent when Tux walks behind it
 
-= Worldmap =
+= [[World 2]] =
 
 After finishing Antarctica by beating the worlds boss, a cutscene, replacing the currently displayed text, will be shown. (For a detailed description of cutscenes, see section "Story".) Tux will then advance to [[World 2]], the forest island. Its worldmap will be built using the same, possibly enhanced, format that Antarctica uses. The worldmap will be designed as follows: The island consists of four sections. A light friendly looking forest where Tux starts his journey, a ghost forest section, and a transition between them; in the center of the island, surrounded by the ghost forest is the world's castle, called Dark Forest Keep. Levels will be spread throughout the whole island, distributed as follows: 50 per cent of the levels are inside the light section, 30 per cent inside the haunted section, with one or two levels inside the transition area. The remaining 20 per cent will take place inside the castle.
 
@@ -68,7 +68,7 @@ Castle:
 For more general information on level design, read the file "levelguidelines.txt" in the docs directory of the SuperTux repository.
 Level events can be automated using scripts in order to create in-game cutscenes.
 
-= Actions =
+= [[Actions]] =
 
 == Powerups ==
 In Milestone 2 in general, the favourite way of enhancing Tux' abilities will be through level objects that temporarily grant Tux special abilities (see Level Objects section for more details), rather than permanent powerups like fire and ice shots. Those will still be there, but they'll remain relatively weak, so they don't get in the way of level design. An ice shot will be implemented, the fire shot's behaviour will be improved [need more detail here]. The fire shot gets a new ability to burn through specific tiles to reveal paths. These paths, however, should contain only bonus items like coins; it must be possible to finish a level without needing the fire powerup.
@@ -102,7 +102,7 @@ Powers like fire must not get in the way of level design
 * Bubble Dispenser - Releases bubbles that Tux can use to travel upwards.
 * Ice Cube/Straw Block - a block that can be destroyed by the fire shot. Appearance depends on the world it's used in.
 
-= Badguys =
+= [[Badguys]] =
 For detailed info, see the [[Badguys]] page. The following is a list of new badguys that will definitely be in Milestone 2:
 * Poison Ivy
 * Mr. Tree
@@ -113,11 +113,11 @@ For detailed info, see the [[Badguys]] page. The following is a list of new badg
 * Snow Snail (name might be changed)
 * Spider
 
-= Bosses =
+= [[Bosses]] =
 * Antarctica: Yeti
 * Forest: Ghost
 
-= Story/Cutscenes =
+= [[Story]]/[[Cutscenes]] =
 [no final decisions yet; see the [[Cutscene Storyboard]] for ideas.]
 
 = (Sketches) =
