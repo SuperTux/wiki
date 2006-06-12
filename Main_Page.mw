@@ -7,28 +7,23 @@ __NOTOC__
 * [[Modifications]]
 * [[Demos]]
 * [[Download/Installation]]
+* [[Bugs]]
 * [[Ideas]]
 * [[SuperTux:Community Discussion]]
 
 == SuperTux development ==
 * [[News]]
 * [[Game design]]
-* [[Game engine]]
+** [[Development Cycles]]
+** [[Milestone 2]]
 * [[Meeting logs]]
 * [[SuperTux Portable]]
-* [[Development Cycles]]
-
-== Milestone 2 ==
-* [[Milestone 1 Analysis]]
-* [[Milestone 2]]
-* [[Forest]]
 * [[TODO]]
-* [[Bugs]]
-* [[Tips&Tricks]]
 
 == Developer documentation == 
 * [[SetupDev | How to get started]]
-* [[File formats]]
+* [[Tips&Tricks]]
+* [[Game engine]]
 * [[Scripting reference]]
 * [[Translation]]
 * [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
