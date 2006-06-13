@@ -32,3 +32,5 @@ All website bugs have been fixed.
 ** Here an example picture, you see the coins are in the hill and even the bonus blocks are out of place img134.imageshack.us/img134/58/st0pw.png
 
 * 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
+
+* 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
