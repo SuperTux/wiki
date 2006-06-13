@@ -1,4 +1,30 @@
 Regarding: 
+== Worldmap Layout Flow ==
+
+The initial layout of the world 2 forest map did not match the original design specifications for MS2.
+The Dark Forest Keep (castle) was surrounded by a light forest, which was surrounded by a dark forest. This layout was the opposite of our specification.
+
+After some brief discussion on IRC it was decided that we would rework the map to follow Delta's suggestion below.
+
+ <nowiki>       
+..........#:::::::::
+...........#:::::::::
+............#:::X::::
+.............#::::::::
+    ..........#####
+    ..................
+    ...................
+    ||...........
+    || .........
+ 
+ 
+| == pier
+. == light forest
+# == moat or river
+: == dark forest
+X == dark forest keep </nowiki>
+(gwater 06-13-06)
+
 == Design a little sequence (+music?) that is shown when tux finds a key ==
 
 
