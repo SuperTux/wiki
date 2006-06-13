@@ -7,16 +7,15 @@ The Dark Forest Keep (castle) was surrounded by a light forest, which was surrou
 After some brief discussion on IRC it was decided that we would rework the map to follow Delta's suggestion below.
 
  <nowiki>       
-..........#:::::::::
-...........#:::::::::
-............#:::X::::
-.............#::::::::
-    ..........#####
-    ..................
-    ...................
+
+       ......#::::
+  ...........#::::::
+  ............#:::X::::
+  .............#:::::
+  .............
+ ...................
     ||...........
     || .........
- 
  
 | == pier
 . == light forest
