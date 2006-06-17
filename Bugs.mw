@@ -8,6 +8,11 @@ All website bugs have been fixed.
 * The texture.cpp file has an incorrect texture type (GL_RGB10_A2). Only ATI (FGLRX) drivers will interpret it correctly and will display a non-transparent waterfall in OpenGL. It's better to use GL_RGBA here since most drivers (ex. mesa) interpret GL_RGB10_A2 as GL_RGBA
 * Widely experienced bug: After compiling v0.1.3 from source on Ubuntu Linux 5.10 "Breezy Badger", the game crashes after choosing "Bonus Levels" from the main menu, although going into a 26-level game slot doesn't. -djwings
 * I was able to walk throug the end of the level without finishing it. It happend while playing witw 12 frames/seconds.
+* Tux can junt to the top and out of the screen when a platform reaches the upper limit. This allowa to bypass certain zones.
+* If you have the big Tux, hit a box with a flower and the for some reason you are attacked and reverted to the small Tux, when picking up the flower you'll be big Tux in fire mode.
+*Enemies need not to fall down from the platforms. This reduces enemy number.
+* The jumping heads with spikes sometimes only jump to the level of a passing cloud.
+
 === Not a bug ===
 * After running the configure script without any options and compiling the source in the supertux-0.1.3.tar file, SuperTux crashes with the error 'Couldn't load musicfile', and reports the filename with a complete absolute path (which is correct -- SALCON.mod). Bug produced with a Slackware 9.1 system. -> Your SDL_mixer library is probably compiled without mikmod support or you grabbed 1 of the versions where mikmod support was broken.
 
