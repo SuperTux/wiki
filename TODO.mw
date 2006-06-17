@@ -100,7 +100,6 @@ shouldn't affect the gamelogic at all)
 ** the screen should be displayed until the player presses a key (or a longer period of time like 15 seconds) is over
 ** statistics counting also doesn't seem to be correct yet
 *** coins in bonus blocks are not counted
-* '''?:''' Do not show statistics when the player "started" the level at a firefly
 * load/save statistics
 
 === Sound ===
