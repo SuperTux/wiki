@@ -124,7 +124,6 @@ shouldn't affect the gamelogic at all)
 == Graphics ==
 * '''H:''' add more forest tiles; some of the current ones need fixing.
 * '''H:''' Create a ghost forest tileset.
-* '''H:''' animations for the [[Yeti]]
 * '''H:''' image for castle door with 5 key holes
 * '''H:''' new tiles for the forest worldmap
 * '''L:''' graphics for ropes
