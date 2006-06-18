@@ -37,9 +37,6 @@ All website bugs have been fixed.
 
 * Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
 
-* When fliping the world (sometimes?) seems to be problems with placing the objects right. (Bug in flip())
-** Here an example picture, you see the coins are in the hill and even the bonus blocks are out of place img134.imageshack.us/img134/58/st0pw.png
-
 * 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
 
 * 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
