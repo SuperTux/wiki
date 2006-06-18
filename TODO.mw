@@ -42,7 +42,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''M:''' Useful error messages. Report line and command that caused error.
 
 === Badguys ===
-* '''?:''' render Badguys that could move through tiles (flames, ghosts, dead badguys) on a higher layer so they won't disappear behind e.g. grass patches only to reappear in front of solid ground again
 * '''M:''' create more and better Badguys, see [[Badguys]] for ideas
 
 === Objects ===
