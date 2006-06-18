@@ -16,6 +16,7 @@ All website bugs have been fixed.
 * Tux can junt to the top and out of the screen when a platform reaches the upper limit. This allowa to bypass certain zones.
 ** Intended behaviour
 * If you have the big Tux, hit a box with a flower and the for some reason you are attacked and reverted to the small Tux, when picking up the flower you'll be big Tux in fire mode.
+** Intended behaviour
 
 == Release 0.1.2 ==
 * The sound slightly lags. Bug produced with Fedora Core 2.
