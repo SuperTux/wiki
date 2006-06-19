@@ -4,6 +4,10 @@
 
 [[Image:RATEDFUN.png|right|Rated FUN]]
 
+[[Image:Logo.png|center]]
+
+<div style="margin-top: 1em;"></div>
+
 SuperTux is a side-scrolling 2D platformer featuring [[Tux]], the Linux mascot, but otherwise entirely unrelated to anything Linux. In the course of the game, Tux will have to make his way through lots of different levels, in order to get to and rescue [[Penny]], who got captured by evil [[Nolok]].
 
 <br clear="both" />
@@ -31,19 +35,38 @@ SuperTux is played with either the keyboard or any game controller recognized by
 | Action || Left Control || Run, Grab, Throw. Hold down and press Left or Right to make Tux run. When running, Tux will also jump higher. More actions are explained below.
 |}
 
+<br clear="both" />
+
 == Powerups ==
 
-To help Tux in his quest to rescue Penny, various Powerups have been placed throughout the levels. Some are in plain view, but most are hidden in bonus blocks. When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several Powerups:
+To help Tux in his quest to rescue Penny, various Powerups have been placed throughout the levels. Some are in plain view, but most are hidden in bonus blocks:
 
-* The Egg makes Tux grow. He can then smash wooden boxes with his head.
-* The Fireflower is only released when Tux has already picked up an Egg. After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut.
-* The mini-Tux Bonus is ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded 100 coins.
+[[Image:Bonusblock.png|center|Bonus Block]]
+
+When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several Powerups:
+
+{|
+|+ Powerups
+! Pic !! Name !! Effect
+|-
+| [[Image:Egg.png]] || Egg || Makes Tux grow. He can then smash wooden boxes with his head.
+|-
+| [[Image:Fire_flower-0.png]] || Fireflower || Only released when Tux has already picked up an Egg. After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut.
+|-
+| || Tux ||  Ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded 100 coins.
+|-
+| || Star ||  Gives Tux invincibility to most hazards for a short amount of time.
+|}
+
+<br clear="both" />
 
 == Badguys ==
 
-[[Image:Mriceblock-left-2.png|right]] [[Image:Snowsnail.png|right]]
+[[Image:Mriceblock-left-2.png|right]] [[Image:Snowsnail.png|right]] [[Image:Left-1.png|right|]] [[Image:Spiky.png||right]]
 
 In the course of the game, Tux will encounter lots of different enemies - some easy to avoid, some tough to get past. When Tux touches a badguy, he will either lose a Powerup or - if no powerups are left - get thrown off the screen. Most, but not all, of the easier enemies can easily be knocked out by jumping on their head, but take care: As a rule of thumb, enemies with a pointy top cannot be squished, but will hurt Tux, too.
+
+<br clear="both" />
 
 == Further Reading ==
 
