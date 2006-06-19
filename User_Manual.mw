@@ -1,0 +1,50 @@
+{{Attention|s=This user manual is by no means error free, nor is it complete yet. If you have anything to add, just click an "Edit" link and add some text}}
+
+== Introduction ==
+
+[[Image:RATEDFUN.png|right|Rated FUN]]
+
+SuperTux is a side-scrolling 2D platformer featuring [[Tux]], the Linux mascot, but otherwise entirely unrelated to anything Linux. In the course of the game, Tux will have to make his way through lots of different levels, in order to get to and rescue [[Penny]], who got captured by evil [[Nolok]].
+
+<br clear="both" />
+
+== Controls ==
+
+[[Image:Littletrees.png|right]]
+
+SuperTux is played with either the keyboard or any game controller recognized by the operating system. The following list shows all controls needed to play the game, along with their default keys. Note that all of the controls can be configured in-game.
+
+{|
+|+ Controls
+! Control !! Default mapping !! Description
+|-
+| Left || Cursor Left || Makes Tux walk left
+|-
+| Right || Cursor Right || Makes Tux walk right
+|-
+| Up || Cursor Up || Enter door, activate switch
+|-
+| Down || Cursor Down || Duck
+|-
+| Jump || Spacebar || Makes Tux jump. Hold down longer to jump higher.
+|-
+| Action || Left Control || Run, Grab, Throw. Hold down and press Left or Right to make Tux run. When running, Tux will also jump higher. More actions are explained below.
+|}
+
+== Powerups ==
+
+To help Tux in his quest to rescue Penny, various Powerups have been placed throughout the levels. Some are in plain view, but most are hidden in bonus blocks. When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several Powerups:
+
+* The Egg makes Tux grow. He can then smash wooden boxes with his head.
+* The Fireflower is only released when Tux has already picked up an Egg. After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut.
+* The mini-Tux Bonus is ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded 100 coins.
+
+== Badguys ==
+
+[[Image:Mriceblock-left-2.png|right]] [[Image:Snowsnail.png|right]]
+
+In the course of the game, Tux will encounter lots of different enemies - some easy to avoid, some tough to get past. When Tux touches a badguy, he will either lose a Powerup or - if no powerups are left - get thrown off the screen. Most, but not all, of the easier enemies can easily be knocked out by jumping on their head, but take care: As a rule of thumb, enemies with a pointy top cannot be squished, but will hurt Tux, too.
+
+== Further Reading ==
+
+Have fun browsing the SuperTux wiki. You can find lots of in-depth information about most objects in the game here.
