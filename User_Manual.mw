@@ -18,7 +18,7 @@ SuperTux is a side-scrolling 2D platformer featuring [[Tux]], the Linux mascot, 
 
 SuperTux is played with either the keyboard or any game controller recognized by the operating system. The following list shows all controls needed to play the game, along with their default keys. Note that all of the controls can be configured in-game.
 
-{|
+{|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
 |+ Controls
 ! Control !! Default mapping !! Description
 |-
@@ -45,7 +45,7 @@ To help Tux in his quest to rescue Penny, various Powerups have been placed thro
 
 When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several Powerups:
 
-{|
+{|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
 |+ Powerups
 ! Pic !! Name !! Effect
 |-
