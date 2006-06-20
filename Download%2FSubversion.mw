@@ -25,7 +25,7 @@ Checking out the path above will get you all you need to contribute to SuperTux.
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-portable</nowiki></tt>
 : [[SuperTux Portable]]
 ; <tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-sharp</nowiki></tt>
-: Official SuperTux level editor
+: Official SuperTux level editor that runs under Mono.  MS .NET might work, but is untested.
 ; <tt><nowiki>svn://svn.berlios.de/supertux/branches/supertux/0_1_x</nowiki></tt>
 : SuperTux Milestone 1 branch
 
