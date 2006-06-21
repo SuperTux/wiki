@@ -98,7 +98,7 @@ When Tux got thrown off the screen, he will normally have to start the current l
 and after touching them like this:
 [[Image:firefly2.png|center]]
 
-When Tux activates such a firefly, he won't have to restart the level from the beginning, but instead restart from the last activated firefly - as long as he's got at least 25 coins left.
+When Tux activates such a firefly, he won't have to restart the level from the beginning, but instead restart from the last activated firefly - as long as he's got at least one life '''(Milestone 1)''' or 25 coins '''(Milestone 2)''' left.
 
 === Doors (Milestone 2 only) ===
 [[Image:Door-0.png|center]]
