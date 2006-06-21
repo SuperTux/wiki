@@ -32,6 +32,7 @@ All website bugs have been fixed.
 ** Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
 *** Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);''</code>
 *** Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
+** Cannot reproduce. Are these still relevant?
 
 * Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
 
