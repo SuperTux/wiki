@@ -76,6 +76,8 @@ Only Big Tux has this ability. When in the air, press the Duck key to perform a 
 === Backflip (Milestone 2 only) ===
 Only Big Tux has this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump higher, which is very useful in places where there's not enough space to run.
 
+<br clear="both" />
+
 == Badguys ==
 
 [[Image:Mriceblock-left-2.png|right]] [[Image:Snowsnail.png|right]] [[Image:Left-1.png|right|]] [[Image:Spiky.png||right]]
@@ -97,6 +99,8 @@ and after touching them like this:
 [[Image:firefly2.png|center]]
 
 When Tux activates such a firefly, he won't have to restart the level from the beginning, but instead restart from the last activated firefly - as long as he's got at least 25 coins left.
+
+=== Doors ===
 
 <br clear="both" />
 
