@@ -100,8 +100,9 @@ and after touching them like this:
 
 When Tux activates such a firefly, he won't have to restart the level from the beginning, but instead restart from the last activated firefly - as long as he's got at least 25 coins left.
 
-=== Doors ===
+=== Doors (Milestone 2 only) ===
 [[Image:Door-0.png|center]]
+Press the Up key to enter a door. Tux will be transported to another place in the level.
 
 <br clear="both" />
 
