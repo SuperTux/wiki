@@ -108,7 +108,6 @@ shouldn't affect the gamelogic at all)
 ::''Can't reproduce that problem in r3692. Fixed?''
 * '''H:''' In Scripts started by script_triggers the set_pos call has no effect because the scripts run during collision detection phase. We should somehow queue them and run the scripts next frame during the update phase.
 ** might be fixed now. MovingObject::set_pos now takes care of adjusting the CD "dest" member
-* '''L:''' Move fish behind interactive water tiles
 
 == Editor ==
 * '''?:''' Move all path nodes at once when moving the platform object
