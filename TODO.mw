@@ -44,7 +44,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 === Objects ===
 * '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, Spidermite?, Hatch, SkullTile
 * '''H:''' Infobox: Don't show scroll arrows if the text is smaller than the box. Try pixelwise smooth scrolling instead of 1 line per keypress. Try to avoid scrolling textboxes anyway, players are bored if they have to read so much. Try to avoid infoboxes where possible, the game is played by lots of kids who either can't read yet or don't know english, they'll just be confused by text they can't understand.
-**Infoboxes are really the only effective way to introduce gameplay elements.  For example, the run sign in "Welcome to Antartica" and the associated barrier are impassible for those who haven't figured out yet that the action key is the run key too.  -- tuxdev
+**Infoboxes are really the only effective way to introduce gameplay elements.  For example, the run sign in "Welcome to Antartica" and the associated barrier are impassible for those who haven't figured out yet that the action key is the run key too.  Info boxes are not as evil as reading a manual, and gives information out at just the right time. Manuals can expose spoilers. -- tuxdev
 * '''M:''' Make moving platforms crush tux when pressed against a wall
 * '''L:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
 * '''L:''' redo trampolines
