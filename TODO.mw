@@ -144,7 +144,6 @@ shouldn't affect the gamelogic at all)
 * '''?:''' See [[World_2#Atmosphere]] for more ambient sound ideas
 * '''H:''' make some sound when the player dies and looses coins. So that you get some feedback what is going on.
 * '''?:''' Wind (ambient) for high plateaus, over-the-clouds action, fast platforms, ...
-* '''?:''' Ticking for Mr. Bomb
 * '''D:''' Short "Nolok" and "Tux" themed sound effects(?)
 * '''?:''' Flapping for flying creatures (e.g. the Zeekling)
 * '''?:''' soft "hop" sound for creatures like Jumpy or SkullyHop
