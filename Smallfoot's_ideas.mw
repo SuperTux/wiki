@@ -1,4 +1,4 @@
-Here I present my ideas.
+Here I present my ideas. I hope they can make SuperTux more dynamic, entertaining and interesting.
 
 == Ice breaking ==
 There are ice tiles or ice ground that can be walked on. They can also be jumped on without break. But if Tux does the "buttjump" then it breaks the tile/ground. Perhaps this can be used to reach other areas or enter secret places.
@@ -24,3 +24,15 @@ These stones can be pushable so they start rolling.
 
 == Pushable crates ==
 Kind of similiar to the above mentioned "rollable/pushable stone". But these can only be pushed and not rolled. Can not harm enemies.
+
+== Catching background story ==
+SuperTux needs a catching background story that inspires and motivates the player and drags him into the story so that he understands why Tux is doing what he does and why it is important.
+:"The bad guy took the penguins girlfriend, go save her from him!" or "Nolok stole Penny from Tux, you must save her!" doesnt cut it.
+It needs be passionate and inspiring like "The evil Nolok kidnapped Tux beloved girlfriend Penny. Tux was worried he would never see her again, he was scared and upset but knew he would do anything to get his true love back!".
+
+The player shouldnt just play level, complete level, go next level, in an infinitive loop until the end. As the player plays the game, he should learn more. When Nolok kidnapped Penny, Tux was shocked and confused. He perhaps dont need where Nolok is hiding or where Nolok has taken Penny, this information he can learn on the way. And maybe he learns about other bad stuff that Nolok has done to other people.
+
+== NPC ==
+There should be NPC's (Non-Player Characters) which can interact with Tux. These can provide Tux with information of where to go, or where to find something, or what todo, how to accomplish something, guide Tux in something, teach/learn Tux something. They should have different personalities and different roles. Maybe they can bless Tux and grant him the powers of invulnerability or ice flower or fire flower or make him big if he is small (or perhaps make him small if there are no monsters, and he is too big to enter something).
+They can also give him keys or other items.
+Perhaps some NPC does this freely, while other require him to trade an item (perhaps a fruit?), or make a promise, or provide some info to the NPC or answer a question or take some kind of test.
