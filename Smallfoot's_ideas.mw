@@ -7,7 +7,7 @@ There are ice tiles or ice ground that can be walked on. They can also be jumped
 There can be geisers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
 
 == Teleporter ==
-There are teleporters or some magic force fields that work as teleportation means on the level. When Tux walks on the teleporter he gets teleported to somewhere else.
+There are teleporters or some magic force fields that work as teleportation means on the level. When Tux walks into the teleporter he gets teleported to somewhere else.
 
 == Diving ==
 Tux can dive in water. Perhaps he need go up to surface to get more air sometimes (limited time underwater). Movement under water is slower than on land. Perhaps there are monsters under water such as sharks, pirayas, "the dopefish" and perhaps even some kind of boss.
@@ -29,11 +29,20 @@ Unlock stones, these has the ability to be stacked on top of each other.
 == Catching background story ==
 SuperTux needs a catching background story that inspires and motivates the player and drags him into the story so that he understands why Tux is doing what he does and why it is important.
 :"The bad guy took the penguins girlfriend, go save her from him!" or "Nolok stole Penny from Tux, you must save her!" doesnt cut it.
-It needs be passionate and inspiring like "The evil Nolok kidnapped Tux beloved girlfriend Penny. Tux was worried he would never see her again, he was scared and upset but knew he would do anything to get his true love back!".
+It needs be passionate and inspiring like:
+:"The evil Nolok kidnapped Tux beloved girlfriend Penny. Tux was worried he would never see her again, he was scared and upset but knew he would do anything to get his true love back!".
 
 The player shouldnt just play level, complete level, go next level, in an infinitive loop until the end. As the player plays the game, he should learn more. When Nolok kidnapped Penny, Tux was shocked and confused. He perhaps dont need where Nolok is hiding or where Nolok has taken Penny, this information he can learn on the way. And maybe he learns about other bad stuff that Nolok has done to other people.
+
+Some games have a story that is more interesting than the game itself. Some games you play just because you are so into the story and really needs to know more about it. Kinda like when you started to read a book, you cant put it away. Of when you started watch a movie, it get so exciting you cant switch away channel. :) 
 
 == NPC ==
 There should be NPC's (Non-Player Characters) which can interact with Tux. These can provide Tux with information of where to go, or where to find something, or what todo, how to accomplish something, guide Tux in something, teach/learn Tux something. They should have different personalities and different roles. Maybe they can bless Tux and grant him the powers of invulnerability or ice flower or fire flower or make him big if he is small (or perhaps make him small if there are no monsters, and he is too big to enter something).
 They can also give him keys or other items.
 Perhaps some NPC does this freely, while other require him to trade an item (perhaps a fruit?), or make a promise, or provide some info to the NPC or answer a question or take some kind of test.
+
+== Breakable walls ==
+Walls that can be broken (in one way or another) in order for Tux to enter into that area. Could be a area which are nescesary to be visited or could just be a secret place. A similiar concept exists in the game Sonic the Hedgehog where Sonic can break walls by rolling into them.
+
+== Dynamic environment ==
+Perhaps a dynamic environement would be cool where the level reacts/interacts with Tux. Example; in forrest levels there are trees, and in the trees there are eyes or holes in the tree with eyes in and the eyes are watching in the direction Tux is.
