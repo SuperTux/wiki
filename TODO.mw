@@ -28,7 +28,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 === Code Refactoring/Cleanup/Optimisation ===
 * '''L:''' implement quadtree or grid to speedup collision detection
 * '''L:''' Implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector.
-* '''L:''' change physics class y-velocity-coordinate to be like all other y-coordinates again (positive y to go down)
 * '''L:''' name files according to the classes they contain, e.g. tile_manager.* to TileManager.* because it contains a class named TileManager and not tile_manager
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
 
