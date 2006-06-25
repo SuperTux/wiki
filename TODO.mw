@@ -101,6 +101,7 @@ shouldn't affect the gamelogic at all)
 
 === Sound ===
 * '''?:''' Seems like a SoundSouce that was stopped cannot resume playing. Further investigation necessary.
+* '''?:''' Pass reference distance to SoundManager::play(), e.g. 600px to reduce volume by 50% for every screen the sound is away from the player
 
 === Bugs ===
 * '''H:''' Check/Fix bullet speed/behaviour
