@@ -11,6 +11,7 @@ All website bugs have been fixed.
 * The jumping heads with spikes sometimes only jump to the level of a passing cloud.
 * Enter key is completely ignored on a Compaq Pressario, but works fine with other SDL-based games (e.g. Falcon's Eye) (by jessejoe)
 ** Can be worked around by custom-compiling with all SDLK_RETURN replaced by 271
+* Tux is unable to grab Mr. Iceblock while blinking after losing a bonus (eg. Big Tux -> Small Tux).
 
 === Not a bug ===
 * After running the configure script without any options and compiling the source in the supertux-0.1.3.tar file, SuperTux crashes with the error 'Couldn't load musicfile', and reports the filename with a complete absolute path (which is correct -- SALCON.mod). Bug produced with a Slackware 9.1 system. -> Your SDL_mixer library is probably compiled without mikmod support or you grabbed 1 of the versions where mikmod support was broken.
