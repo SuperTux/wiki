@@ -20,16 +20,18 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
 === Collision Detection ===
 * '''M:''' Solve problems with Tux getting stuck in (and consequentially moved out of) unisolid tiles if they are at the apex of his jump
+* '''M:''' Make moving platforms crush tux when pressed against a wall
 * '''L:''' Stacking some objects doesn't work nicely. Examples: Multiple badguys above each other, multiple rocks above each other. It might be possible to solve this by doing collision detection against old object positions instead of the new ones.
 * '''?:''' Solve problems with "solid" objects, e.g. Tux being propelled through bonus-type invisible blocks or Tux sometimes being thrown off platforms
 ** This doesn't seem to happen when the separate-axis collision detection for solid objects is replaced by the default algorithm
 * '''?:''' Trigger collision callbacks for multiple solids that get hit at the same time, not just the "first" one
+* '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
-=== Code Refactoring/Cleanup/Optimisation ===
-* '''L:''' implement quadtree or grid to speedup collision detection
+=== Code Refactoring/Cleanup ===
 * '''L:''' Implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector.
 * '''L:''' name files according to the classes they contain, e.g. tile_manager.* to TileManager.* because it contains a class named TileManager and not tile_manager
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
+* '''L:''' There are still some mainloops left outside the MainLoop class.
 
 === Actions ===
 
@@ -45,22 +47,20 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''H:''' Infobox: Don't show scroll arrows if the text is smaller than the box. Try pixelwise smooth scrolling instead of 1 line per keypress. Try to avoid scrolling textboxes anyway, players are bored if they have to read so much. Try to avoid infoboxes where possible, the game is played by lots of kids who either can't read yet or don't know english, they'll just be confused by text they can't understand.
 **Infoboxes are really the only effective way to introduce gameplay elements.  For example, the run sign in "Welcome to Antartica" and the associated barrier are impassible for those who haven't figured out yet that the action key is the run key too.  Info boxes are not as evil as reading a manual, and gives information out at just the right time. Manuals can expose spoilers. -- tuxdev
 ** I agree. (Short) infoboxes are OK for tutorials. Regular levels should avoid them, though. --delta
-* '''M:''' Make moving platforms crush tux when pressed against a wall
 * '''L:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
 * '''L:''' redo trampolines
 ** maybe we could instead introduce areas that accelerate Tux, Badguys and Particles in an arbitrary direction (i.e. wind). This could also replace unisolid tiles.
 * '''L:''' add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
-* '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 === Optimisations ===
 
 * '''M:''' Add some more sound_manager->preloads into object constructors
 * '''L:''' Combine tiles into bigger images (worldmap and the waterfall tiles come to mind). This should improve load time and opengl speed a bit (because we need fewer texture changes).
+* '''L:''' implement quadtree or grid to speedup collision detection
 
 === Miscellaneous ===
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
 * '''M:''' Tux did go up/down 1 or 2 pixels each step when walking around in the 0.1.x releases which made the walk look a bit more natural. I don't know if this was done intentionally or why it doesn't work anymore, but it would be nice to have this effect again.
-* '''L:''' save score on per-level basis to make high-score (this means coins/time)
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
 * '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
 ** For starters, being able to set a tilemap's opacity to 50% would suffice. Layering this semitransparent tilemap on an opaque one would achieve a similar effect
@@ -82,17 +82,14 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
   )
 </pre>
 * '''D:''' think about icebullet specifics
-* '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
-* '''L:''' ability to jump back at a specific position in a music file on loop (add .music files that describe the behaviour)
-* '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
 * '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result
 shouldn't affect the gamelogic at all)
-* '''L:''' There are still some mainloops left outside the MainLoop class.
-* '''?:''' Show total count of coins collected in all levels on the worldmap
 * '''M:''' Option to delete or overwrite existing savegames. My five slots are all in world 2, Have to delete one to go back.
 
 === Statistics ===
+* '''L:''' save score on per-level basis to make high-score (this means coins/time)
 * '''M:''' Show statistics on level completion. 
+* '''?:''' Show total count of coins collected in all levels on the worldmap
 ** initial implementation is there, however the screen should fade in (preferably a little later than the endsequence start)
 ** the screen should be displayed until the player presses a key (or a longer period of time like 15 seconds) is over
 ** statistics counting also doesn't seem to be correct yet
@@ -102,6 +99,9 @@ shouldn't affect the gamelogic at all)
 === Sound ===
 * '''?:''' Seems like a SoundSouce that was stopped cannot resume playing. Further investigation necessary.
 * '''?:''' Pass reference distance to SoundManager::play(), e.g. 600px to reduce volume by 50% for every screen the sound is away from the player
+* '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
+* '''L:''' ability to jump back at a specific position in a music file on loop (add .music files that describe the behaviour)
+* '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
 
 === Bugs ===
 * '''H:''' Check/Fix bullet speed/behaviour
