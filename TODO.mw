@@ -118,7 +118,6 @@ shouldn't affect the gamelogic at all)
 
 == Editor ==
 * '''?:''' Move all path nodes at once when moving the platform object
-* '''?:''' Track "changed" status of files and ask for confirmation when exiting
 
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
