@@ -87,7 +87,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result
 shouldn't affect the gamelogic at all)
 * '''M:''' Option to delete or overwrite existing savegames. My five slots are all in world 2, Have to delete one to go back.
-* '''?:''' Provide good locale autodetection for Windows. Maybe also add an override directive for the config file
 
 === Statistics ===
 * '''L:''' save score on per-level basis to make high-score (this means coins/time)
