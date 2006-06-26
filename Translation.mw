@@ -38,6 +38,19 @@ There's a number of tools you can use to edit the .po files:
 * Any text editor - of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header.
 
 == Translations ==
+SuperTux [[Milestone 2]] supports localization. This means you can play SuperTux in any of the languages supplied with the game, as well as make your own translation.
+
+SuperTux will try to auto-detect what language to display text in. If auto-detection fails or if you want to play in a certain language, you can force SuperTux to use a specific locale by setting the LANG environment variable to the handle of your language (e.g. "en"; see the following sections for all available languages).
+
+Setting an environment variable can be done in a number of ways, depending on your operating system.
+
+Linux users might run
+ LANG="en" ./supertux
+
+Windows users might run
+ set LANG=en
+ supertux.exe
+
 Please add yourself to this list if you are working on a new translation, so that others can contact you.
 
 === Catalan (ca) ===
