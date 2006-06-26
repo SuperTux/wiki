@@ -113,7 +113,6 @@ shouldn't affect the gamelogic at all)
 
 == Editor ==
 * '''?:''' Move all path nodes at once when moving the platform object
-* '''?:''' Fix crashes when resizing sectors
 * '''?:''' Track "changed" status of files and ask for confirmation when exiting
 
 == Levels ==
