@@ -111,7 +111,8 @@ shouldn't affect the gamelogic at all)
 ::''Can't reproduce that problem in r3692. Fixed?''
 * '''H:''' In Scripts started by script_triggers the set_pos call has no effect because the scripts run during collision detection phase. We should somehow queue them and run the scripts next frame during the update phase.
 ** might be fixed now. MovingObject::set_pos now takes care of adjusting the CD "dest" member
-* '''?:''' It seems like we get non-UTF8 strings from Windows error messages. SuperTux throws an exception when trying to render those in the console
+* '''H:''' It seems like we get non-UTF8 strings from Windows error messages. SuperTux throws an exception when trying to render those in the console, handle this more gracefully and display ? instead
+* '''M:''' Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
 
 == Editor ==
 * '''?:''' Move all path nodes at once when moving the platform object
