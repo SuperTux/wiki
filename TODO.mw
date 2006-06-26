@@ -41,6 +41,8 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
 === Badguys ===
 * '''M:''' create more and better Badguys, see [[Badguys]] for ideas
+* '''?:''' force badguys to spawn facing in a certain direction
+** Might be needed for dispenser, darttrap, tumbleweed
 
 === Objects ===
 * '''H:''' Don't simply duplicate code in the following objects: PoisonIvy, Spidermite?, Hatch, SkullTile
