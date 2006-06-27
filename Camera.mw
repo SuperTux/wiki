@@ -1,6 +1,4 @@
- '''Navigation: [[Main Page]] -> [[Game Engine]] -> Camera'''
-
-
+[[Category:Game Engine]][[Category:SyperTux]]
 Level are typically a lot bigger than the actual screen, so we need to scroll the currently visible part around. This page collects some rules to do this in a nice way.
 
 Analysis of some [[Cameras in Super Mario]]
@@ -24,7 +22,3 @@ The camera might scroll automatically so that Tux can't wait but has to hurry to
 
 === Right only scroll ===
 This was used in the 0.1.1 release. It might be still used to not forget our history ;-)
-
-
-----
- '''Navigation: [[Main Page]] -> [[Game Engine]] -> Camera'''
