@@ -1,4 +1,4 @@
-[[Category:Game Engine]][[Category:SyperTux]]
+[[Category:Game Engine]][[Category:SuperTux]]
 Level are typically a lot bigger than the actual screen, so we need to scroll the currently visible part around. This page collects some rules to do this in a nice way.
 
 Analysis of some [[Cameras in Super Mario]]
