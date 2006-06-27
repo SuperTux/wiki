@@ -35,7 +35,7 @@ SuperTux is played with either the keyboard or any game controller recognized by
 | Action || Left Control || Run, Grab, Throw. Hold down and press Left or Right to make Tux run. When running, Tux will also jump higher. More actions are explained below.
 |}
 
-<br clear="both" />
+<br style="clear: both;" />
 
 == Powerups ==
 
@@ -60,7 +60,7 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 | [[Image:Star-0.png]] || Star ||  Gives Tux invincibility to most hazards for a short amount of time.
 |}
 
-<br clear="both" />
+<br style="clear: both;" />
 
 == Actions ==
 
@@ -76,7 +76,7 @@ Only Big Tux has this ability. When in the air, press the Duck key to perform a 
 === Backflip (Milestone 2 only) ===
 Only Big Tux has this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump higher, which is very useful in places where there's not enough space to run.
 
-<br clear="both" />
+<br style="clear: both;" />
 
 == Badguys ==
 
@@ -84,7 +84,7 @@ Only Big Tux has this ability. Hold down the Duck key, then press Jump to make T
 
 In the course of the game, Tux will encounter lots of different enemies - some easy to avoid, some tough to get past. When Tux touches a badguy, he will either lose a Powerup or - if no powerups are left - get thrown off the screen. Most, but not all, of the easier enemies can easily be knocked out by jumping on their head, but take care: As a rule of thumb, enemies with a pointy top cannot be squished, but will hurt Tux, too. Fireballs can take out most of them, but beware: Some badguys are even immune to those.
 
-<br clear="both" />
+<br style="clear: both;" />
 
 == Special Game Objects ==
 
@@ -104,7 +104,7 @@ When Tux activates such a firefly, he won't have to restart the level from the b
 [[Image:Door-0.png|center]]
 Press the Up key to enter a door. Tux will be transported to another place in the level.
 
-<br clear="both" />
+<br style="clear: both;" />
 
 == Further Reading ==
 
