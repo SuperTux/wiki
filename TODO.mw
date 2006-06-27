@@ -114,6 +114,7 @@ shouldn't affect the gamelogic at all)
 ** might be fixed now. MovingObject::set_pos now takes care of adjusting the CD "dest" member
 * '''H:''' It seems like we get non-UTF8 strings from Windows error messages. SuperTux throws an exception when trying to render those in the console, handle this more gracefully and display ? instead
 * '''M:''' Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
+* '''?:''' Music loops during Endsequence
 
 == Editor ==
 
