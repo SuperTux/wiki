@@ -1,7 +1,9 @@
-A "jam uninstall" target seems unnecessary to me. You can easily install in a separate prefix folder or use something like [http://relink.sourceforge.net/ relink]. - [[User:MatzeB|MatzeB]]
+A "jam uninstall" target seems unnecessary to me. You can easily install in a separate prefix folder or use something like [relink.sourceforge.net/ relink]. - [[User:MatzeB|MatzeB]]
 :Be it as it may, we need *some* way of uninstalling SuperTux once it's installed. How many times did I meet a package that didn't have an uninstall target? Too often for my taste... <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 19:38, 11 Oct 2005 (BST)
 
 ::There is stow, relink, checkinstall, --prefix, DESTDIR, dpkg, rpm and probally a bunch of other ways to manage clean uninstalls, 'jam uninstall' or a 'make uninstall' is completly unnecessary and simply extremly bad design in my eyes. As you said yourself, 'uninstall' isn't something that you can depend upon, because its hardly ever working correctly, people should just learn to get used checkinstall and friends if they want to have a clean uninstall. -- [[User:Grumbel|Grumbel]] 20:20, 11 Oct 2005 (BST)
 ----
 
 :: this_file.* vs ThisFile.* has the strong advantage that it works portably, if you go with ThisFile instead its just a matter of copying a few times between Windows and Linux to get a broken source tree since many filesystems out there don't preserve case very well. I am also strongly in favour of .hpp instead of .h, since the second one requires annoying guess work to figure out the correct file type, while the other one simply says it streight away. It makes 'find -name "*.?pp" also a lot easier to type. Anway, source is already organized that way. -- [[User:Grumbel|Grumbel]] 20:28, 11 Oct 2005 (BST)
+
+geysir is spelled geyser in English
