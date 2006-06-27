@@ -116,7 +116,6 @@ shouldn't affect the gamelogic at all)
 * '''M:''' Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
 
 == Editor ==
-* '''?:''' Move all path nodes at once when moving the platform object
 
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
