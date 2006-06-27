@@ -1,19 +1,24 @@
 == Milestone 1 ==
 
-For these cheats to work you have to be in debug mode. (To get into debug mode on Mac OS X: ctrl-click SuperTux.app, open contents, open MacOS; open a terminal window, drag SuperTux to the terminal window, type "--debug-mode" and hit enter.)
+For these cheats to work you have to be in debug mode.
 
 Do not type these in, you just press the appropriate key, eg the Tab key.
+{|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
+|end||gain 50 coins
+|-
+|tab||become bigtux
+|-
+|delete||become firetux
+|-
+|l||take away a life
+|-
+|insert||become invincible (stars) [on some keyboards this is the HELP key]
+|-
+|tab||become smalltux
+|}
 
-    * end - gain 50 coins
-    * tab - become bigtux
-    * delete - become firetux
-    * l - take away a life
-    * insert - become invincible (stars)-[on some keyboards this is the HELP key]
-    * tab - become smalltux 
-
-
-
-To get in debug mode on other *nix's start the game with: supertux --debug-mode
+* To get into debug mode on Mac OS X: ctrl-click SuperTux.app, open contents, open MacOS; open a terminal window, drag SuperTux to the terminal window, type "--debug-mode" and hit enter.
+* To get in debug mode on other *nix's start the game with: supertux --debug-mode
 
 == Milestone 2 ==
 
