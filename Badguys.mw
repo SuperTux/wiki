@@ -1,4 +1,4 @@
-== Current list of badguys ==
+== List of badguys in Milestone 1 ==
 * [[Icyisland]]
 ** [[BouncingSnowball]]
 ** [[Flame]]
@@ -10,9 +10,21 @@
 ** [[Spiky]]
 ** [[Stalactite]]
 
-==Proposed list of badguys==
+== List of badguys in current svn version ==
 * [[Icyisland]]
 ** [[Sleeping Spiky]]
+* [[World 2|Light Forest]]
+** [[Dispenser]]
+** [[MrRocket]]
+** [[Poison Ivy]]
+** [[Walking tree]]
+** [[Will-o-wisp]]
+** [[SnowSnail]]
+** [[Zeekling]]
+** [[WalkingTotem]]
+
+==Proposed list of badguys==
+* [[Icyisland]]
 ** [[Surprise Snowball]]
 ** [[Jumping Spiky]]
 * [[World 2|Light Forest]]
@@ -22,7 +34,6 @@
 ** [[Beaver]]
 ** [[BouncyBall]]
 ** [[Cat]]
-** [[Dispenser]]
 ** [[EvilPenguin]]
 ** [[Fish]]
 ** [[Gator]]
@@ -30,20 +41,13 @@
 ** [[Igel]]
 ** [[Logger wielding/throwing axe]]
 ** [[MrBomb]]
-** [[MrRocket]]
 ** [[MudBall]]
-** [[Poison Ivy]]
 ** [[Primate]]
 ** [[Rabbit]]
 ** [[Ray]]
 ** [[Snake]]
-** [[SnowSnail]]
 ** [[Spider]]
 ** [[Tumbleweed]]
-** [[Walking tree]]
-** [[WalkingTotem]]
-** [[Will-o-wisp]]
-** [[Zeekling]]
 * [[World 2|Ghost Forest]]
 ** [[Doodle]]
 ** [[Ghost, Type I]]
