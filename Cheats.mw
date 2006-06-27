@@ -1,7 +1,7 @@
 == Milestone 1 ==
 
-For these cheats to work you have to be in debug mode.
-(To get into debug mode ctrl-click SuperTux.app, open contents, open MacOS; open a terminal window, drag SuperTup to the terminal window, type "--debug-mode" and hit enter.)
+For these cheats to work you have to be in debug mode. (To get into debug mode on Mac OS X: ctrl-click SuperTux.app, open contents, open MacOS; open a terminal window, drag SuperTux to the terminal window, type "--debug-mode" and hit enter.)
+
 Do not type these in, you just press the appropriate key, eg the Tab key.
 
     * end - gain 50 coins
