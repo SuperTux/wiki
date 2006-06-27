@@ -1,1 +1,10 @@
 I had to install one additional package in order to get SuperTux to compile -- the MinGW gcc-g++ package for compiling C++ code, found [hxxp://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download here]. - [[User:Sik0fewl|Sik0fewl]]
+
+== DLLs needed ==
+
+SuperTux seems to run fine with only the following DLLs in place
+* libogg-0.dll
+* libphysfs-1-0-0.dll
+* SDL.dll
+* SDL_image.dll
+Further investigation necessary
