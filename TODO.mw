@@ -32,6 +32,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''L:''' name files according to the classes they contain, e.g. tile_manager.* to TileManager.* because it contains a class named TileManager and not tile_manager
 * '''L:''' Refactor worldmap code to run like a normal GameSession with some special GameObjects
 * '''L:''' There are still some mainloops left outside the MainLoop class.
+* '''D:''' Replace code that can cause buffer overflows
 
 === Actions ===
 
