@@ -72,6 +72,12 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
 ! class="method"| is_visible()
 | Returns true if the object is visible, false otherwise.
 |-
+! class="method"| set_solid(bool solid)
+| Makes the object solid according to the value of <tt>solid</tt>.
+|-
+! class="method"| is_solid()
+| Returns true if the object is solid, false otherwise.
+|-
 ! class="method"| get_name()
 | Returns the name of the object
 |}
