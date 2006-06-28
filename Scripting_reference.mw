@@ -452,6 +452,31 @@ Usage: <tt>&lt;player&gt;.get_visible()</tt>
 
 Returns: <tt>bool</tt>; is Tux visible?
 
+==== do_cheer ====
+Usage: <tt>&lt;player&gt;.do_cheer()</tt>
+
+Makes Tux cheer, if possible.
+
+==== do_backflip ====
+Usage: <tt>&lt;player&gt;.do_backflip()</tt>
+
+Makes Tux backflip, if possible.
+
+==== do_jump ====
+Usage: <tt>&lt;player&gt;.do_jump()</tt>
+
+Makes Tux jump, if possible.
+
+==== do_duck ====
+Usage: <tt>&lt;player&gt;.do_duck()</tt>
+
+Makes Tux duck, if possible.
+
+==== do_standup ====
+Usage: <tt>&lt;player&gt;.do_standup()</tt>
+
+Makes Tux stand up, if possible.
+
 === FloatingImage ===
 The FloatingImage class contains methods for handling an image floating in mid-air, such as the SuperTux logo.
 
