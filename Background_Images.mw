@@ -1,3 +1,4 @@
+{{Outdated}}
 [[Category:Game Engine]]
 With levels that can vary in size both horizontally and vertically comes the need for background images that have the same property. This however causes problems with images that show, for example, a sky; we don't want it to repeat below the ground.
 
