@@ -124,7 +124,6 @@ shouldn't affect the gamelogic at all)
 * '''H:''' [[Levels/M2Test|Test existing Levels]] if they still work.
 
 == Graphics ==
-* '''D:''' firetux helmet sprite that falls from Tux' head when he gets hit (maybe when he's backflipping, too?)
 * '''D:''' remove "1up" from mini-Tux bonus
 * '''H:''' add more forest tiles; some of the current ones need fixing.
 * '''H:''' Create a ghost forest tileset.
