@@ -5,3 +5,5 @@ Note: General consensus was to avoid pipes in SuperTux. It's really a Mario thin
 * Pipes Tux can walk thru, but you can't see him.
 * Pipes that have water flowing thru them. These could have switches and take Tux different directions.
 * Pipes that release water geysers or bubbles that take Tux to a different place.
+
+[[Category:Game Object]]
