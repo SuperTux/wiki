@@ -19,3 +19,5 @@ These are objects you can interact with. The objects will have an area in the wo
 == MovingObject ==
 
 This class provides a position and functions for collision detection. All Moving objects are held in a separate list by the engine which is also traveled once (between action and draw calls) for collision detection.
+
+[[Category:Game Object]]
