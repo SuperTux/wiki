@@ -72,3 +72,5 @@ and the editor will be built. You can then start the editor with
  mono supertux-editor.exe
 
 There are also complete monodevelop project files for the editor in the svn. (TODO write about the hacks needed to actually compile the source in monodevelop).
+
+[[Category:Developer documentation]]
