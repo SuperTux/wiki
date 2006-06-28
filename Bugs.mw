@@ -47,3 +47,7 @@ All website bugs have been fixed.
 * 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
 
 * 3771: Possible to die after winning a level if not invincible (happens in yeti level)
+
+
+
+[[Category:For Users]]
