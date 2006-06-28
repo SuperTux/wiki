@@ -104,6 +104,14 @@ When Tux activates such a firefly, he won't have to restart the level from the b
 [[Image:Door-0.png|center]]
 Press the Up key to enter a door. Tux will be transported to another place in the level.
 
+=== Switches ===
+
+Switches come in two different styles: Levers and panels.
+
+Press the Up key to activate a switch. This might open blocked paths, start platforms, turn off a stream of air, ...
+
+Most switches are at or near the object they affect. Objects that are further away from their switch often have a colored sign next to them. A sign of the same  color can then be found next to the corresponding switch.
+
 <br style="clear: both;" />
 
 == Further Reading ==
