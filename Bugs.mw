@@ -42,9 +42,9 @@ All website bugs have been fixed.
 
 * Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
 
-* 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
+* 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors - that's because they do their own eventloop, they really should plug into MainLoop somehow
 
-* 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
+* 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help. - when exactly does this happen?
 
 * 3771: Possible to die after winning a level if not invincible (happens in yeti level)
 
