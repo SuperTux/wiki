@@ -117,28 +117,6 @@ shouldn't affect the gamelogic at all)
 * '''M:''' Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
 * '''?:''' Music loops during Endsequence
 
-== Editor ==
-(The editor is not release critical therefore no ratings for these TODOS)
-* Scroll TileList with middle mouse, Get different Tilegroups
-* Add scrollbars to tilelist widget
-* Add scrollbars to level?
-* Create an overview widget (where to place this in the GUI?)
-* preserve unknown lisp trees
-* Grab Mouse Pointer when scrolling so that we can scroll as much as we want
-(and the mouse is still where it was before scrolling)
-* More custom property editors:
-** Sector selector
-** Spawnpoint selector
-** Texts
-** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
-* Ask for Save on close
-* The open dialog has an invalid folder selected when saving new maps and crashs (and also shows "open")
-* When selecting File->New the filename is not resetted
-* Support resizing of level with drag&drop on the level borders
-* Support selection of multiple objects
-* Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
-* Editor crashs with out of memory, when you select a tile in the middle, right-click select and move the mouse too much to the right
-
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
 * '''H:''' [[Levels/M2Test|Test existing Levels]] if they still work.
@@ -183,3 +161,25 @@ shouldn't affect the gamelogic at all)
 == Music ==
 
 [[Category:Development]]
+
+== Editor ==
+(The editor is not release critical therefore no ratings for these TODOS)
+* Scroll TileList with middle mouse, Get different Tilegroups
+* Add scrollbars to tilelist widget
+* Add scrollbars to level?
+* Create an overview widget (where to place this in the GUI?)
+* preserve unknown lisp trees
+* Grab Mouse Pointer when scrolling so that we can scroll as much as we want
+(and the mouse is still where it was before scrolling)
+* More custom property editors:
+** Sector selector
+** Spawnpoint selector
+** Texts
+** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
+* Ask for Save on close
+* The open dialog has an invalid folder selected when saving new maps and crashs (and also shows "open")
+* When selecting File->New the filename is not resetted
+* Support resizing of level with drag&drop on the level borders
+* Support selection of multiple objects
+* Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
+* Editor crashs with out of memory, when you select a tile in the middle, right-click select and move the mouse too much to the right
