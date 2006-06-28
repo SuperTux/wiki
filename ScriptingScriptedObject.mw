@@ -79,3 +79,5 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
 = Constants =
 
 None
+
+[[Category:Scripting Reference]]
