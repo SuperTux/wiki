@@ -1,13 +1,1 @@
-This section contains descriptions of some concepts of the game engine/code.
-
-* [[Camera]]
-* [[Collision detection]]
-* [[Game objects]]
-* [[File formats]]
-* [[Sectors]]
-* [[Scripting]]
-* [[Cutscenes]]
-* [[Background Images]]
-* [[Console]]
-
-[[Category:Developer documentation]]
+#REDIRECT [[Category:Game Engine]]
