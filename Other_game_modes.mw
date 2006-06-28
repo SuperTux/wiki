@@ -7,3 +7,5 @@ This page discusses other game modes in addition to the storyline mode and multi
 * "Race Mode" appears in the main menu. All levels will be open, showing the current record when Tux walks over them on the world map.
 * All reset points are deactivated, so you have to run through the whole level again everytime you die. Therefore, lives are not needed.
 * Coins and powerups that are collected on the way might be counted as well, either for themselves or as "bonus seconds" that are subtracted from the overall time.
+
+[[Category:Design]]
