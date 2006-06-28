@@ -1,1 +1,3 @@
 The trampoline is a small [[Objects|object]] that [[Tux]] can pick up and move around. When [[Tux]] jumps on the trampoline the springs compress and then Tux is launched into the air. Trampolines will allow Tux to bounce up to areas he could not normally jump to.
+
+[[Category:Game Object]]
