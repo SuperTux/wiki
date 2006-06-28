@@ -112,6 +112,16 @@ Press the Up key to activate a switch. This might open blocked paths, start plat
 
 Most switches are at or near the object they affect. Objects that are further away from their switch often have a colored sign next to them. A sign of the same  color can then be found next to the corresponding switch.
 
+=== Platforms ===
+
+In the course of his adventure, Tux comes across a variety of moving  Platforms.
+
+Some are mounted on rails, some swim in water, some even float freely through the air.
+
+While some platforms just move on their own, most platforms will only move when Tux steps on them. 
+
+Some might also require Tux to visit another part of the level and activate a switch first. When this is the case Tux will most probably find a helpful sign next to the platform.
+
 <br style="clear: both;" />
 
 == Further Reading ==
