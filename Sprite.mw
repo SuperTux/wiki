@@ -62,3 +62,5 @@ And supertux will display the action called "default" in the sprite. You can tes
   (init-script "
  TESTSPRITE.set_animation(\"slurp\");
   ")
+
+[[Category:Game Engine]]
