@@ -506,3 +506,5 @@ Set the image visibility according to <tt>visible</tt>.
 Usage: <tt>&lt;floatimage&gt;.get_visible()</tt>
 
 Returns: <tt>bool</tt>; is the image visible?
+
+[[Category:Developer documentation]]
