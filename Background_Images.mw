@@ -4,3 +4,5 @@ With levels that can vary in size both horizontally and vertically comes the nee
 A possible solution is to divide images into three rows. All of these are tilable in horizontal direction (like the milestone 1 backgrounds). Additionally, the middle row is also tilable in vertical direction. Thus, the top and bottom parts of the image have a fixed vertical size while the middle is variable.
 
 [[Image:Repeat.jpg|Repeat Sketch]]
+
+[[Category:Game Object]]
