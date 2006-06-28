@@ -8,3 +8,5 @@ Interactive tiles are actually just special game objects. This page lists some p
 * Quicksand - Tux could sink slowly in this and be slower than usual
 
 * Unisolid - This is actually more an attribute than a tile. If Tux jumps, his head (and anything else) can go through it, but Tux can still stand on it ok.
+
+[[Category:Game Engine]]
