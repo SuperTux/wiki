@@ -105,6 +105,7 @@ When Tux activates such a firefly, he won't have to restart the level from the b
 Press the Up key to enter a door. Tux will be transported to another place in the level.
 
 === Switches (Milestone 2 only) ===
+[[Image:Left-0.png|center]]
 
 Switches come in two different styles: Levers and panels.
 
@@ -113,6 +114,7 @@ Press the Up key to activate a switch. This might open blocked paths, start plat
 Most switches are at or near the object they affect. Objects that are further away from their switch often have a colored sign next to them. A sign of the same  color can then be found next to the corresponding switch.
 
 === Platforms (Milestone 2 only) ===
+[[Image:Flying platform-0.png|center]]
 
 In the course of his adventure, Tux comes across a variety of moving  Platforms.
 
@@ -123,6 +125,7 @@ While some platforms just move on their own, most platforms will only move when 
 Some might also require Tux to visit another part of the level and activate a switch first. When this is the case Tux will most probably find a helpful sign next to the platform.
 
 === Info Blocks (Milestone 2 only) ===
+[[Image:Infoblock.png|center]]
 
 Levels that introduce new game elements often contain info blocks.
 
@@ -131,6 +134,7 @@ Info blocks can be bumped from below to display helpful text that introduces a c
 When you activated an info block, the game will pause and you can use the Up and Down buttons to scroll through the text. Press the Menu button to resume the game.
 
 === Secret Blocks (Milestone 2 only) ===
+[[Image:Empty.png|center]]
 
 Secret blocks are special blocks that appear out of thin air when Tux jumps in certain places.
 
