@@ -47,7 +47,7 @@ All website bugs have been fixed.
 
 * 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
 ** when exactly does this happen?
-** seem common on x64 boxes. They pass an arch of "foobar-unknown-baz-blah-blubb" which (gets included in each build action's path and) bloats the command line to exceed 10240 chars. Workaround is manually shortening the arch passed to the build process.
+** seem common on x64 boxes. They pass an arch of "foobar-unknown-baz-blah-blubb" which (gets included in each build action's path and) bloats the command line to exceed 10240 chars. Workaround is manually shortening the arch passed to the build process by running something like "./configure --build=x86_64-pc-linux-gnu"
 
 * 3771: Possible to die after winning a level if not invincible (happens in yeti level)
 
