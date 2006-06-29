@@ -1,13 +1,16 @@
 Here I present my ideas. I hope they can make SuperTux more dynamic, entertaining and interesting.
+:Why not put them on the main page like everyone else. That way you don't have to repeat the stuff taht was aleredy sugestes 6E23 times.
 
 == Ice breaking ==
 There are ice tiles or ice ground that can be walked on. They can also be jumped on without break. But if Tux does the "buttjump" then it breaks the tile/ground. Perhaps this can be used to reach other areas or enter secret places.
 
 == Geiser ==
 There can be geisers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
+:There is wind already.
 
 == Teleporter ==
 There are teleporters or some magic force fields that work as teleportation means on the level. When Tux walks into the teleporter he gets teleported to somewhere else.
+:Doors.
 
 == Diving ==
 Tux can dive in water. Perhaps he need go up to surface to get more air sometimes (limited time underwater). Movement under water is slower than on land. Perhaps there are monsters under water such as sharks, pirayas, "the dopefish" and perhaps even some kind of boss.
@@ -15,6 +18,7 @@ Can be a underwater tunnel, world, level, cave or something. Maybe need pull a s
 
 == Doors / Bridges ==
 Tux needs to enter doors or open bridgets to pass to some place. In order todo that, he needs to todo something first. Such as get a key, or pull/push a lever or a switch. Or perhaps place an item (such as an stone or something) on a switch.
+:Can be done with scripting.
 
 == Rollable/pushable stones ==
 These stones can be pushable so they start rolling.
@@ -43,6 +47,7 @@ Perhaps some NPC does this freely, while other require him to trade an item (per
 
 == Breakable walls ==
 Walls that can be broken (in one way or another) in order for Tux to enter into that area. Could be a area which are nescesary to be visited or could just be a secret place. A similiar concept exists in the game Sonic the Hedgehog where Sonic can break walls by rolling into them.
+:Who the fuck is sonic? There are weak blocks.
 
 == Dynamic environment ==
 Perhaps a dynamic environement would be cool where the level reacts/interacts with Tux. Example; in forrest levels there are trees, and in the trees there are eyes or holes in the tree with eyes in and the eyes are watching in the direction Tux is.
