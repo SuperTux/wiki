@@ -45,7 +45,7 @@ You can compile the sourcecode from commandline with the help of jam. Simply typ
 
  jam
 
-and the game should build. You should [[Contact]] us in case of errors or problems.
+and the game should build. You should [[SuperTux FAQ#How_can_I_get_in_touch_with_you.3F|Contact]] us in case of errors or problems.
 
 = Setting up IDEs =
 
