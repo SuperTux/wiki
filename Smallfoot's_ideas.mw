@@ -15,6 +15,7 @@ There are teleporters or some magic force fields that work as teleportation mean
 == Diving ==
 Tux can dive in water. Perhaps he need go up to surface to get more air sometimes (limited time underwater). Movement under water is slower than on land. Perhaps there are monsters under water such as sharks, pirayas, "the dopefish" and perhaps even some kind of boss.
 Can be a underwater tunnel, world, level, cave or something. Maybe need pull a switch/lever under water or do something there to open something on the surface.
+:Time limit sucks.
 
 == Doors / Bridges ==
 Tux needs to enter doors or open bridgets to pass to some place. In order todo that, he needs to todo something first. Such as get a key, or pull/push a lever or a switch. Or perhaps place an item (such as an stone or something) on a switch.
