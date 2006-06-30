@@ -1,13 +1,10 @@
 __NOTOC__
 
-== Summary ==
+= Summary =
 
 A Wind object that was given a name can be controlled by scripts.
 
-== Instances ==
-A <tt>Wind</tt> is instantiated by a definition in the level file. It can be accessed by scripts using its <tt>name</tt> and from the console as <tt>sector.''name''</tt>.
-
-=== Example ===
+= Example =
 
 Example of a definition:
 <pre>
@@ -30,12 +27,7 @@ The above object will be exposed under the name WIND1 in the scripting engine. E
 WIND1.start();
 </pre>
 
-Console access:
-<pre>
-sector.WIND1.stop()
-</pre>
-
-== Methods ==
+= Methods =
 {| class="objectlist"
 ! class="method"| start()
 | start blowing
@@ -44,9 +36,8 @@ sector.WIND1.stop()
 | stop blowing
 |}
 
-== Constants ==
+= Constants =
 
 None
 
-{{Navbox Scripting reference}}
 [[Category:Scripting Reference]]
