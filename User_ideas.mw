@@ -133,8 +133,10 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 ** In svn (since r3640). --[[User:AnMaster|AnMaster]] 11:08, 30 Jun 2006 (BST)
 *Hang glider to fly!
 *'''Ice pick''' - to crush blocking ice in order to enter closed areas.
+** In svn (since 3468): Straw Blocks that can be destroyed with fire shot
 *'''Low gravity''' - extra high jumps, slow fall down
 *'''Falling bridge''' - when walk on it, it fall apart, so cant go back and must hurry.
+** In svn (since 2296): Blocks that crumble when Tux steps on them
 *'''Walk on water''' - but only if the water isn't deep
 *'''Slippery surfaces''' - like a slippery ice where can glide and difficult control Tux.
 *'''Bounce pad''', thing or something that when Tux jump on it, he bounce up and jumps really high! :D
