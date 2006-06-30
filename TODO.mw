@@ -91,6 +91,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 shouldn't affect the gamelogic at all)
 * '''M:''' Option to delete or overwrite existing savegames. My five slots are all in world 2, Have to delete one to go back.
 * '''L:''' Add line-editing functionality to Console
+* '''L:''' Add "name" attribute to tilemaps
 
 === Statistics ===
 * '''L:''' save score on per-level basis to make high-score (this means coins/time)
