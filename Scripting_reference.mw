@@ -316,38 +316,7 @@ Usage: <tt>Sound.play(string sound_name)</tt>
 
 Plays the sound specified in <tt>sound_name</tt> (that is identical to the filename of the sound without the <tt>.wav</tt> extension).
 
-=== Text ===
-This module provides access to methods reponsible for displaying text on-screen.
 
-==== set_text ====
-Usage: <tt>Text.set_text(string text)</tt>
-
-Sets the text string to be displayed to <tt>text</tt>.
-
-==== set_font ====
-Usage: <tt>Text.set_font(string font)</tt>
-
-Sets the font of the text to be displayed to <tt>text</tt>. Currently valid values are <tt>gold</tt>, <tt>white</tt>, <tt>blue</tt>, <tt>gray</tt>, <tt>big</tt> and <tt>small</tt>.
-
-==== fade_in ====
-Usage: <tt>Text.fade_in(float time)</tt>
-
-Fades in the specified text for the next <tt>time</tt> seconds.
-
-==== fade_out ====
-Usage: <tt>Text.fade_out(float time)</tt>
-
-Just the opposite of <tt>fade_out</tt>.
-
-==== set_visible ====
-Usage: <tt>Text.set_visible(bool visible)</tt>
-
-Shows or hides the text abruptly (drastic counterpart to <tt>fade_in</tt> and <tt>fade_out</tt>).
-
-==== set_centered ====
-Usage: <tt>Text.set_centered(bool centered)</tt>
-
-If <tt>centered</tt> is <tt>true</tt>, the text will be centered on the screen. Otherwise, it will be left-aligned.
 
 === Player ===
 This module contains methods controlling the player. (No, SuperTux doesn't use mind control. Player refers to the type of the player object.)
