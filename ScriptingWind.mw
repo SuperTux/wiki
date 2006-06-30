@@ -1,0 +1,43 @@
+__NOTOC__
+
+= Summary =
+
+A Wind object that was given a name can be controlled by scripts.
+
+= Example =
+
+Example of a definition:
+<pre>
+(wind
+  (name "WIND1")
+  (blowing #f)
+  (speed-x 0)
+  (speed-y -600)
+  (acceleration 3)
+  (width 32)
+  (height 64)
+  (x 783)
+  (y 768)
+)
+</pre>
+
+The above object will be exposed under the name WIND1 in the scripting engine. Example usage:
+
+<pre>
+WIND1.start();
+</pre>
+
+= Methods =
+{| class="objectlist"
+! class="method"| start()
+| start blowing
+|-
+! class="method"| stop()
+| stop blowing
+|}
+
+= Constants =
+
+None
+
+[[Category:Scripting Reference]]
