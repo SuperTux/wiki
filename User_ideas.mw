@@ -1,4 +1,6 @@
-==Pre/Post story movie==
+== Implemented ==
+
+===Pre/Post story movie===
 
 Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union.  Wouldn't that be nice?
 :I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the ToDo list, and I guess it will be used for the story intro. --[[User:RavuAlHemio|Ravu]] 14:30, 7 Apr 2005 (BST)
@@ -7,17 +9,11 @@ Instead of showing scrolling text, movies can be shown stating Penny's kidnap...
 
 Now we have the demos feature in SVN, and it shouldn't be too hard to make a 'movie' level for showing a demo mid-story. --[[User:Ajdlinux|Ajdlinux]] 23:20, 30 Sep 2005 (BST)
 
-==Add a gamepad configuration==
+===Add a gamepad configuration===
 It's currently possible to use a gamepad, but the setup must be done by manually editing the SuperTux configuration file.
 :This has been improved in the development version. supertux now uses all available joysticks and allows to configure the actions for the different joystick buttons.
 
-==Choose Audio output==
-
-In options menu let player choose a sound output like OSS, aRts and so on.
-
-:It isn't a good idea for SuperTux to be playing with this. If you need to change sound drivers, use the SDL environments variables: http://sdldoc.csn.ul.ie/sdlenvvars.php.
-
-==More starting points==
+===More starting points===
 
 Some levels are very hard in the middle and in the ending. Is there a way to make more starting points? So you haven't to start everytime at beginnig of the level. Sometimes I need ten and more trials to cope a situation. It will be very usefull. Thanks for the good game! Martin (pmw(at)web(dot)de)
 :Reset points are also being planned. <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 17:28, 8 May 2005 (BST)
@@ -25,94 +21,119 @@ Some levels are very hard in the middle and in the ending. Is there a way to mak
 perhaps it should be possible to see that you are passing a resetpoint!
 :Restart points exist in the SVN version, they are marked by butterfly.
 
-==An extro - I imagine like this...==
-I think an idea for later versions was if there was the possibility of doing some adventures with Penny, e.g. exploring some parts of the world. But it's not necessary - only a funny feature.
-:We're thinking about telling parts of the story from Penny's point of view. --Wansti
-::Penny is captured by Nolok and locked into cage in his castle so she cant move, so therefor you cant tell view story from her PoV because she cant do anything because shes imprisoned! -- smallfoot
-:::Well, the first part of the story would be Penny escaping. The idea is that she would escape from the cage and you would play her escape. However, Tux wouldn't know about the escape and would continue on his adventures. You can take it to anywhere from there - [[User:Sik0fewl|Sik0fewl]] 04:18, 22 Mar 2006 (CET)
-
-==New tiles for the worldmap==
+===New tiles for the worldmap===
 I already designed some additional worldmap objects for Supertux 0.1.2, e.g. paths through the forest or something like "water ways". Maybe im MS 2 some kind of swimming tux in worldmap could be possible, or walking over a bridge. (For my current solution I only added something to my antarctica.stwt.) - penma -
 
-==Scuba Gear?==
-Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
+: In svn: bridges, boats
 
-== Darker background ==
-
-<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
-
-Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in [http://www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
-
-== One-way platforms ==
+=== One-way platforms ===
 
 <small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
 
 I would recommend platforms that could be jumped through from the bottom but you can't fall through them if you are on top. SSB has this, as well as many mario and platforming game. This allows for Points of No Return, and would make the game capable of better and less redundant level design
 
-== Better rewards ==
+: In svn: unisolid tiles
+
+=== Better rewards ===
 
 <small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
 
 A more fitting reward should be accomplished for collecting coins. Yoshi's Island had red coins, Super Mario Sunshine had Extra Shines, etc.
 
-:: In svn: 25 coins let Tux respawn from the latest firefly
+: In svn: 25 coins let Tux respawn from the latest firefly
 
-== Some more badguys ==
+=== One-liners ===
+
+*'''Pulling levers''' - activate/deactivate/open/close things. Added in SVN today thanks to me (mmiikkee12) :-) (they're called switches but they're more like levers)
+*'''Standing on switches''' - activate/open things.
+*'''Wind''' - make it difficult for Tux to move, push him back, and push him much back if he jump.
+** In svn (since r3640). --[[User:AnMaster|AnMaster]] 11:08, 30 Jun 2006 (BST)
+*'''Ice pick''' - to crush blocking ice in order to enter closed areas.
+** In svn (since 3468): Straw Blocks that can be destroyed with fire shot
+*'''Falling bridge''' - when walk on it, it fall apart, so cant go back and must hurry.
+** In svn (since 2296): Blocks that crumble when Tux steps on them
+
+== Rejected ==
+
+===Choose Audio output===
+
+In options menu let player choose a sound output like OSS, aRts and so on.
+
+:It isn't a good idea for SuperTux to be playing with this. If you need to change sound drivers, use the SDL environments variables: http://sdldoc.csn.ul.ie/sdlenvvars.php.
+
+== Unimplemented ==
+
+===An extro - I imagine like this...===
+I think an idea for later versions was if there was the possibility of doing some adventures with Penny, e.g. exploring some parts of the world. But it's not necessary - only a funny feature.
+:We're thinking about telling parts of the story from Penny's point of view. --Wansti
+::Penny is captured by Nolok and locked into cage in his castle so she cant move, so therefor you cant tell view story from her PoV because she cant do anything because shes imprisoned! -- smallfoot
+:::Well, the first part of the story would be Penny escaping. The idea is that she would escape from the cage and you would play her escape. However, Tux wouldn't know about the escape and would continue on his adventures. You can take it to anywhere from there - [[User:Sik0fewl|Sik0fewl]] 04:18, 22 Mar 2006 (CET)
+
+===Scuba Gear?===
+Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
+
+=== Darker background ===
+
+<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+
+Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in [http://www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
+
+=== Some more badguys ===
 
 Here're three new suggestions for badguys in the forest world:
 
 [[Image:Biella_mrlog_limpy.jpg|right]]
 
-=== Biella ===
+==== Biella ====
 * Quick, flying creature, continuously following Tux.
 * Could shoot stingers. 
 
-=== Mr Log ===
+==== Mr Log ====
 (I designed Mr Log before I read about [[WalkingTotem]]. Looks like I'm not the first one who gave some thought to stackable logs...)
 
 * Slow creature without any special abilities.
 * Maybe "stackable", similar to the cactuses in SMW: Up to four "Mr Log" could be combined to serve as a high barrier, only destroyable from above (or with FireTux). 
 
-=== Limpy ===
+==== Limpy ====
 * Another slow creature, which is able to adhere to any surface. When reaching the end of a platform, it doesn't fall down, but continues to crawl downwards, upwards, or even underneath.
 
-== Some sounds ==
+=== Some sounds ===
 COuld it be possible that Tux makes some sounds when we comes on the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rushling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 
-== Friendly NPCs(non-player characters) ==
+=== Friendly NPCs(non-player characters) ===
 Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivelent(seal?) would be neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok, a character teaches tux certain abilities.          -F50
 
 This would be good. Make a 'talking' system that scrolls on the bottom. Maybe some characters could give you extra supplies or even weapons. --[[User:Ajdlinux|Ajdlinux]] 23:23, 30 Sep 2005 (BST)
 
 I think that the Yoshi equivelent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk a lot faster on land than a Seal.[[User:Tuxenegger|Tuxenegger]] 17:35, 20 January 2006
 
-== Badguys and Immunity ==
+=== Badguys and Immunity ===
 I suggest that very few badguys have complete Immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other badguys. I think there should also be a downside for the badguy in all cases.  -F50
 
-==Stage Variety==
+===Stage Variety===
 One thing that SuperTux is missing that Mario had would be stage variety. There are already above and underground stages, but where's the underwater action? Not to mention things like castle stages, stages with rising/falling water, vertically scrolling stages, those really annoying maze stages, autoscrolling stages, et cetera. Not to mention different locales, but I gather that those are already in the works. I refer specifically to some sort of forest. (And, might I add, picturing a penguin in a forest is pretty amusing.)
 
-== Female Players ==
+=== Female Players ===
 
 For the female players: You can play Penny and will have to rescue Tux.
 :No that would be unrealistic. Everybody know that Tux is a strong superhero and that Nolok or anyone could never ever kidnap him and that even if they managed to, then Penny could do nothing besides crying and going him and eating until she get fat or suicide!
 ::Yeah, right... As you can read in several other places on the wiki, Penny will be a playable character in Milestone 3.
 
-== Level Start ==
+=== Level Start ===
 
 Enter level with jump button.
 
-== Cheats ==
+=== Cheats ===
 
 Tux wears a little party hat when you type "tux rocks".
 When you type "iddqd", tux shakes his head.
 When you type the name of a specific badguy, Tux looks like that badguy.
 
-==One-Liners==
+===One-Liners===
 smallfoot made a page, see [[Smallfoot's ideas]].
 :Are they so bad that they need a seperate page?
 
-=== Worlds, scenarios, levels ===
+==== Worlds, scenarios, levels ====
 *Water world
 *Cave
 *Lava world
@@ -126,27 +147,19 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
 *Geeky computer/circuit board world - "Tux decided that the only way to get Penny back would be to hack into Nolok's computer..." well, worth a try.
 
-=== Other ===
+==== Other ====
 *'''Diving''' - in water?
 *'''Flying''' - in air?
-*'''Pulling levers''' - activate/deactivate/open/close things. Added in SVN today thanks to me (mmiikkee12) :-) (they're called switches but they're more like levers)
-*'''Standing on switches''' - activate/open things.
-*'''Wind''' - make it difficult for Tux to move, push him back, and push him much back if he jump.
-** In svn (since r3640). --[[User:AnMaster|AnMaster]] 11:08, 30 Jun 2006 (BST)
 *Hang glider to fly!
-*'''Ice pick''' - to crush blocking ice in order to enter closed areas.
-** In svn (since 3468): Straw Blocks that can be destroyed with fire shot
 *'''Low gravity''' - extra high jumps, slow fall down
-*'''Falling bridge''' - when walk on it, it fall apart, so cant go back and must hurry.
-** In svn (since 2296): Blocks that crumble when Tux steps on them
 *'''Walk on water''' - but only if the water isn't deep
 *'''Slippery surfaces''' - like a slippery ice where can glide and difficult control Tux.
 *'''Bounce pad''', thing or something that when Tux jump on it, he bounce up and jumps really high! :D
 *'''Pushable crates''' - you push the crate to another place where you need it to jump on it so you can reach higher or something.
 *'''Pushable/rollable stone''' - you roll it over enemies so they die, and can roll it to place so you jump up on it to reach higher.
 
-===art===
+====art====
 
-=== Code ===
+==== Code ====
 
 [[Category:Design]]
