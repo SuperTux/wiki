@@ -276,8 +276,6 @@ Adds or removes a key from the player's posession. <tt>key</tt> should be replac
 
 See also: src/player_status.hpp
 
-
-
 === Level ===
 The <tt>Level</tt> class provides basic controlling functions for the current level.
 
