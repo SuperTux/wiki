@@ -190,3 +190,4 @@ shouldn't affect the gamelogic at all)
 * Redraw sector after loading, undo, delete
 * Linebreaks in saved tilemaps?
 * Tool not working after loading new level
+* Windows builds seem to silently crash when loading huge levels
