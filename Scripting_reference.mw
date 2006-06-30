@@ -303,19 +303,6 @@ Flips the level vertically (i.e. top is now bottom and vice versa). Call again t
 
 Tip: Make sure the player can land on something after the level is flipped!
 
-=== Sound ===
-This class provides a very simple interface to the audio subsystem.
-
-==== play_music ====
-Usage: <tt>Sound.play_music(string track_name)</tt>
-
-Plays the selected music track (automatically prepending the path to the music folder and appending the <tt>.ogg</tt> extension).
-
-==== play ====
-Usage: <tt>Sound.play(string sound_name)</tt>
-
-Plays the sound specified in <tt>sound_name</tt> (that is identical to the filename of the sound without the <tt>.wav</tt> extension).
-
 
 
 === Player ===
