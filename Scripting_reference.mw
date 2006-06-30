@@ -276,28 +276,7 @@ Adds or removes a key from the player's posession. <tt>key</tt> should be replac
 
 See also: src/player_status.hpp
 
-=== Camera ===
-<tt>Camera</tt> is an interface to manipulate the camera.
 
-==== shake (NYI) ====
-Usage: <tt>Camera.shake(float time, float x, float y)</tt>
-
-Warning: This function has not yet been implemented.
-
-==== set_pos (NYI) ====
-Usage: <tt>Camera.set_pos(float x, float y)</tt>
-
-Warning: This function has not yet been implemented.
-
-==== set_mode ====
-Usage: <tt>Camera.set_mode(string modestring)</tt>
-
-This function sets the camera mode. Valid values for <tt>modestring</tt> are <tt>"normal"</tt> and <tt>"manual"</tt>.
-
-==== scroll_to (NYI) ====
-Usage: <tt>Camera.scroll_to(float x, float y, float time)</tt>
-
-Scrolls the camera to (<tt>x</tt>, <tt>y</tt>) within <tt>time</tt> seconds.
 
 === Level ===
 The <tt>Level</tt> class provides basic controlling functions for the current level.
