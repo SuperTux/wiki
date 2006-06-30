@@ -191,3 +191,4 @@ shouldn't affect the gamelogic at all)
 * Linebreaks in saved tilemaps?
 * Tool not working after loading new level
 * Windows builds seem to silently crash when loading huge levels
+:huge as in 100x100 or more like 10000x10000?
