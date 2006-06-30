@@ -49,6 +49,8 @@ Have the game engine display background as 75% brightness, making some levels ea
 
 I would recommend platforms that could be jumped through from the bottom but you can't fall through them if you are on top. SSB has this, as well as many mario and platforming game. This allows for Points of No Return, and would make the game capable of better and less redundant level design
 
+:: In svn: unisolid tiles
+
 == Better rewards ==
 
 <small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
