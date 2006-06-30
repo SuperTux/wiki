@@ -76,7 +76,7 @@ Only Big Tux has this ability. When in the air, press the Duck key to perform a 
 === Backflip (Milestone 2 only) ===
 Only Big Tux has this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump higher, which is very useful in places where there's not enough space to run.
 
-== Picking up Mr Iceblock (Milestone 1 and Milestone 2)==
+ '''Picking up Mr Iceblock (Milestone 1 and Milestone 2)'''
 Step on Mr IceBlock and then, step away. Walk Toward him pressing the button for "Action"(default: left control) To throw, simply release the Action button. Tux/Big Tux/Fire Tux can all do this. 
 
 <br style="clear: both;" />
