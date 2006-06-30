@@ -193,3 +193,4 @@ shouldn't affect the gamelogic at all)
 * Windows builds seem to silently crash when loading huge levels
 :huge as in 100x100 or more like 10000x10000?
 :the level world2/airkey.stl crash both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
+* Make the right click menu from sector tab a normal menu so that users can easily find it
