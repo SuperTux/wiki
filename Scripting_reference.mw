@@ -276,41 +276,6 @@ Adds or removes a key from the player's posession. <tt>key</tt> should be replac
 
 See also: src/player_status.hpp
 
-=== DisplayEffect ===
-<tt>DisplayEffect</tt> is an interface for toying with the display. It has to be instantiated; for your convenience, SuperTux creates an instance named <tt>Effect</tt> when starting the scripting engine. Its usage is preferred.
-
-==== fade_out ====
-Usage: <tt>Effect.fade_out(float fadetime)</tt>
-
-Gradually fades out the screen to black for the next <tt>fadetime</tt> seconds.
-
-==== fade_in ====
-Usage: <tt>Effect.fade_in(float fadetime)</tt>
-
-Gradually fades in the screen from black for the next <tt>fadetime</tt> seconds.
-
-==== set_black ====
-Usage: <tt>Effect.set_black(bool black)</tt>
-
-Blackens or un-blackens the screen (depending on the value of <tt>black</tt>).
-
-==== is_black ====
-Usage: <tt>Effect.is_black()</tt>
-
-Returns: <tt>bool</tt>; has the screen been blackened by <tt>set_black</tt>?
-
-Note: Calling <tt>fade_in</tt> or <tt>fade_out</tt> resets the return value to <tt>false</tt>.
-
-==== sixteen_to_nine ====
-Usage: <tt>Effect.sixteen_to_nine(float fadetime)</tt>
-
-Sets the display ratio to 16:9, effectively adding black bars at the top and bottom of the screen. Should be used before cutscenes. Gradually fades to this state for the next <tt>fadetime</tt> seconds.
-
-==== four_to_three ====
-Usage: <tt>Effect.four_to_three(float fadetime)</tt>
-
-Sets the display ratio to 4:3, removing the black bars added by <tt>sixteen_to_nine()</tt>. Should be used after cutscenes. Gradually fades to this state for the next <tt>fadetime</tt> seconds.
-
 === Camera ===
 <tt>Camera</tt> is an interface to manipulate the camera.
 
