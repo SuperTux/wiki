@@ -34,6 +34,8 @@ I think an idea for later versions was if there was the possibility of doing som
 ==New tiles for the worldmap==
 I already designed some additional worldmap objects for Supertux 0.1.2, e.g. paths through the forest or something like "water ways". Maybe im MS 2 some kind of swimming tux in worldmap could be possible, or walking over a bridge. (For my current solution I only added something to my antarctica.stwt.) - penma -
 
+:: In svn: boats, bridges
+
 ==Scuba Gear?==
 Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
 
@@ -48,8 +50,6 @@ Have the game engine display background as 75% brightness, making some levels ea
 <small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
 
 I would recommend platforms that could be jumped through from the bottom but you can't fall through them if you are on top. SSB has this, as well as many mario and platforming game. This allows for Points of No Return, and would make the game capable of better and less redundant level design
-
-:: In svn: unisolid tiles
 
 == Better rewards ==
 
