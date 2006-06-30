@@ -279,32 +279,6 @@ Adds or removes a key from the player's posession. <tt>key</tt> should be replac
 
 See also: src/player_status.hpp
 
-=== Level ===
-The <tt>Level</tt> class provides basic controlling functions for the current level.
-
-==== finish ====
-Usage: <tt>Level.finish(bool win)</tt>
-
-Ends the current level. If you set <tt>win</tt> to <tt>true</tt>, the level is marked as completed if launched from a worldmap.
-
-Tip: Very useful if you have created a frustrating level and want to, at some point, save the player from agony.
-
-==== spawn ====
-Usage: <tt>Level.spawn(string sectorname, string spawnpointname)</tt>
-
-Respawns Tux in the sector <tt>sectorname</tt> at the <tt>spawnpointname</tt> spawnpoint.
-
-Exceptions: If <tt>sectorname</tt> or <tt>spawnpointname</tt> are empty or the specified sector does not exist, the function will bail out first chance it gets. If the specified spawnpoint doesn't exist, Tux will be spawned at the spawnpoint named <tt>main</tt>. If this spawnpoint doesn't exist either, Tux will simply end up at the origin (top-left 0, 0).
-
-==== flip_vertically ====
-Usage: <tt>Level.flip_vertically()</tt>
-
-Flips the level vertically (i.e. top is now bottom and vice versa). Call again to revert the effect.
-
-Tip: Make sure the player can land on something after the level is flipped!
-
-
-
 
 
 === FloatingImage ===
