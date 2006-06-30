@@ -185,3 +185,6 @@ shouldn't affect the gamelogic at all)
 * Support selection of multiple objects
 * Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
 * Editor crashs with out of memory, when you select a tile in the middle, right-click select and move the mouse too much to the right
+* Redraw sector after loading, undo, delete
+* Linebreaks in saved tilemaps?
+* Tool not working after loading new level
