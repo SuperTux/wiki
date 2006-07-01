@@ -181,7 +181,6 @@ this is about the new-collision-detection branch (see [[Collision detection#Cons
 * Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
 * That slide along code sometimes pushes you into a crush position (try in platforms.stl)
 * rain is broken
-* You can shoot fireballs through 1 tile wide walls if you stand next to them (as close as possible) (see data/levels/world2/key5.stl for example).
 
 [[Category:Development]]
 
