@@ -164,6 +164,16 @@ shouldn't affect the gamelogic at all)
 
 == Music ==
 
+== New Collision Detection ==
+this is about the new-collision-detection branch
+* Badguys often get into each other...
+* No y-velocity adjustment yet when running slopes down
+* Rock object totally broken
+* Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
+* badguys hang on the top of a slope
+* That slide along code sometimes pushes you into a crush position (try in platforms.stl)
+* rain is broken
+
 [[Category:Development]]
 
 == Editor ==
