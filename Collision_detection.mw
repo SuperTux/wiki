@@ -10,15 +10,83 @@ Collision Detection is currently based on bounding boxes.
 
 For [[Milestone 2]], polygonal collision detection is planned.
 
-== Constraint-based ==
+== New Collision Detection ==
 
-A new approach to collision detection uses constraints in order to detect situations in which an object can no longer fulfill all rules imposed by the physics system, e.g. when being crushed by a moving platform.
+We're currently in the process of rewriting some parts of the collision detecion. Here are some random notes on how it works:
 
-The Constraint-based CD works like this:
-# Calculate desired destination positions ('''DP'''s) of all objects
-# ...
-# If horizontal constraints leave no room for the object, trigger a "crush" collision, i.e. a simultaneous collision from the left and right
-# ...
-# If vertical constraints leave no room for the object, trigger a "crush" collision, i.e. a simultaneous collision from the top and bottom
-# ...
-# Move all objects to their DPs
+=== Simple BoundingBox / Triangle tests ===
+We don't do any complicated sweep tests anymore, but simply test the destination positions of objects. When pushing objects out of collisions we also mostly ignore object movement now and simply push the object out of the collision in the shortest way possible. We don't sort collisions by time anymore, but try to resolve all collisions at once. The staged approach of the old system remains though.
+
+=== Several Collision Detection Phases ===
+We do collision detection in several phases with different groups of objects with slightly different characteristics each time. Currently defined collision groups:
+
+ enum CollisionGroup {
+  /** Objects in DISABLED group are not tested for collisions */
+  COLGROUP_DISABLED,
+  /**
+   * "default" is moving object. MovingObjects get tested against all other
+   * objects and against other movingobjects
+   */
+  COLGROUP_MOVING,
+  /**
+   * a Moving object, that is not tested against other MovingObjects (or other
+   * MovingOnlyStatic objects), but is tested against all other objects.
+   */
+  COLGROUP_MOVING_ONLY_STATIC,
+  /**
+   * Doesn't move and isn't explicitely checked for collisions with other
+   * objects (but other objects might check with this)
+   * The difference to COLGROUP_TOUCHABLE is that we can do multiple
+   * collision response tests in a row which is needed for static object
+   * that tux walks on. The results for collisions with STATIC objects
+   * are also sorted by time (so that the first hit gets handled first).
+   *
+   * Use this for static obstacles
+   */
+  COLGROUP_STATIC,
+  /**
+   * Isn't explicitely checked for collisions with other objects. But other
+   * objects might check with this object.
+   * Difference to COLGROUP_STATIC is that collisions with this object are
+   * only tested once and collision response is typically not handled
+   *
+   * Use this for touchable things like spikes/areas or collectibles like
+   * coins
+   */
+  COLGROUP_TOUCHABLE,
+  /**
+   * Should be used for tilemaps
+   */
+  COLGROUP_TILEMAP
+ };
+
+Current collision detection Phases:
+
+# COLGROUP_MOVING vs. COLGROUP_STATIC, this handles all collisions against solid objects (see below for details)
+# COLGROUP_MOVING vs tile attributes, handles collisions against tilemap and reports touched tiles with special attributes (like spike). This is a separate phase to avoid collisions with spikes and similar stuff that are avoided by resolving the solid collisions.
+# COLGROUP_MOVING vs COLGROUP_TOUCHABLE handles collisions of objects vs. touchable objects like coins/firefly.
+# COLGROUP_MOVING vs COLGROUP_MOVING we finally handle inter-object collisions
+
+=== Collisions with solid objects ===
+Collisions with solid objects are handled separately before all other collisions. We use several tricks there:
+
+* Constraints: We calculate constraints into the left, right, top, bottom position, so that we can detect cases where tux gets crushed between 2 objects
+* Separation of X and Y-movement. The only way to avoid getting collision on the right side in picturie1 is to first handle X-movement only and then Y-movement.
+* We adjust tuxs position slightly when he only touches objects lightly. This helps when trying to jump through small holes and when running over 1 tile wide holes. (See picture 2,3) 
+
+=== Sketch of the algorithm ===
+
+# Calculate desired destination position of all objects
+# For each object in MOVING_OBJECT group do: (solid phase)
+## Calculate top/bottom constraints you handle y-movement only. Adjust destination position to the constraints. (but don't report crushes yet)
+## Calculate left/right constraints with full object movement. Adjust desination position to the constraints. Report a crush if not enough horizontal space is left.
+## Calculate top/bottom constraints and report a crush if not enough vertical space is left
+# For each object in MOVING_OBJECT group do: (tile attribute phase)
+## if the destination position touches any tiles with special attributes: report a collision (call object->collision_tile)
+# For each object in MOVING_OBJECT group do: (touchable phase)
+## For each object in TOUCHABLE group do:
+### If the 2 objects intersect report a collision (object1->collision and object2->collision is called)
+# For each object in MOVING_OBJECT group do: (inter-object phase)
+## For each object in MOVING_OBJECT group do:
+### if the objects intersect report a collision (call object->collision and object2->collision) and push objects out of the collision depending on the rerturned policy from the collision calls.
+# Move all objects to their destination positions
