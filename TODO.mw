@@ -167,6 +167,8 @@ shouldn't affect the gamelogic at all)
 == New Collision Detection ==
 this is about the new-collision-detection branch
 * Badguys often get into each other...
+* Badguys sometimes get stuck in walls ot bonus blocks (most times they are Zeeklings)
+* Zeeklings that dive and hit a vertical wall slide along downwards.
 * Jumping on Mr. Tree doesn't work (poison ivy gets stuck inside trunk)
 * No y-velocity adjustment yet when running slopes down
 * Rock object totally broken
