@@ -2,6 +2,8 @@
 
 This article describes Collision Detection ('''CD''') schemes that were, are or should be implemented in SuperTux
 
+There's a very good introduction into collision detection techniques at http://www.harveycartel.org/metanet/tutorials/tutorialA.html make sure you've read that if you want to work on collision detection.
+
 == Trial-and-error==
 
 Collision Detection is currently based on bounding boxes.
