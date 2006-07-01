@@ -167,7 +167,6 @@ shouldn't affect the gamelogic at all)
 == New Collision Detection ==
 this is about the new-collision-detection branch (see [[Collision detection#Constraint-based]])
 * Concerning badguys:
-** Badguys sometimes get stuck in walls ot bonus blocks (most times they are Zeeklings)
 ** Snails that hit a wall above ground in "spinning" mode turns back into normal snails right below
 ** Badguys hang on the top of a slope
 ** Often you are hurt when you jump on top of bad guys (this is mostly or only MrBomb)
