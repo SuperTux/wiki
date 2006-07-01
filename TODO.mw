@@ -170,12 +170,15 @@ this is about the new-collision-detection branch (see [[Collision detection#Cons
 ** Snails that hit a wall above ground in "spinning" mode turns back into normal snails right below
 ** Badguys hang on the top of a slope
 ** Often you are hurt when you jump on top of bad guys (this is mostly or only MrBomb)
+** You can kill Igel from behind
+** Jumping skull doesn't jump.
 * Slopes
 ** No y-velocity adjustment yet when running slopes down
 ** You can fall right through some slopes (see just after going underground in world2/level4 for example) - can you provide more details? I can't reproduce that...
-** You can walk right through unisolid tiles (see world2/village.stl for example) - I also can't reproduce that
-::that's the way unisolid should work, isn't it? --[[User:WolfgangB|WolfgangB]] 17:07, 1 Jul 2006 (BST)
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
+* You can walk right through unisolid tiles (see world2/village.stl for example) - I also can't reproduce that
+:that's the way unisolid should work, isn't it? --[[User:WolfgangB|WolfgangB]] 17:07, 1 Jul 2006 (BST)
+:no you should get on top of it. if you walk into it from the side. at least that is what you did before --[[User:AnMaster|AnMaster]] 23:32, 1 Jul 2006 (BST)
 * Rock object totally broken
 * Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
 * That slide along code sometimes pushes you into a crush position (try in platforms.stl)
