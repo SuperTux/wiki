@@ -167,17 +167,15 @@ shouldn't affect the gamelogic at all)
 == New Collision Detection ==
 this is about the new-collision-detection branch (see [[Collision detection#Constraint-based]])
 * Concerning badguys:
-** Badguys often get into each other...
 ** Badguys sometimes get stuck in walls ot bonus blocks (most times they are Zeeklings)
-** Zeeklings that dive and hit a vertical wall slide along downwards.
 ** Snails that hit a wall above ground in "spinning" mode turns back into normal snails right below
 ** Badguys hang on the top of a slope
 ** Jumping on Mr. Tree doesn't work (poison ivy gets stuck inside trunk)
 ** Often you are hurt when you jump on top of bad guys.
 * Slopes
 ** No y-velocity adjustment yet when running slopes down
-** You can fall right through some slopes (see just after going underground in world2/level4 for example)
-** You can walk right through unisolid tiles (see world2/village.stl for example)
+** You can fall right through some slopes (see just after going underground in world2/level4 for example) - can you provide more details? I can't reproduce that...
+** You can walk right through unisolid tiles (see world2/village.stl for example) - I also can't reproduce that
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
 * Rock object totally broken
 * Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
