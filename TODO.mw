@@ -171,7 +171,7 @@ this is about the new-collision-detection branch (see [[Collision detection#Cons
 ** Snails that hit a wall above ground in "spinning" mode turns back into normal snails right below
 ** Badguys hang on the top of a slope
 ** Jumping on Mr. Tree doesn't work (poison ivy gets stuck inside trunk)
-** Often you are hurt when you jump on top of bad guys.
+** Often you are hurt when you jump on top of bad guys (this is mostly or only MrBomb)
 * Slopes
 ** No y-velocity adjustment yet when running slopes down
 ** You can fall right through some slopes (see just after going underground in world2/level4 for example) - can you provide more details? I can't reproduce that...
