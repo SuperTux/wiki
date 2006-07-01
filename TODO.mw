@@ -175,6 +175,7 @@ this is about the new-collision-detection branch
 * often you are hurt when you jump on top of bad guys.
 * That slide along code sometimes pushes you into a crush position (try in platforms.stl)
 * rain is broken
+* you can fall right through some slopes (see just after going underground in world2/level4 for example)
 
 [[Category:Development]]
 
