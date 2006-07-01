@@ -4,14 +4,6 @@ This article describes Collision Detection ('''CD''') schemes that were, are or 
 
 There's a very good introduction into collision detection techniques at http://www.harveycartel.org/metanet/tutorials/tutorialA.html make sure you've read that if you want to work on collision detection.
 
-== Trial-and-error==
-
-Collision Detection is currently based on bounding boxes.
-
-[[Sweep collision algorithms]]
-
-For [[Milestone 2]], polygonal collision detection is planned.
-
 == New Collision Detection ==
 
 We're currently in the process of rewriting some parts of the collision detecion. Here are some random notes on how it works:
@@ -92,3 +84,5 @@ Collisions with solid objects are handled separately before all other collisions
 ## For each object in MOVING_OBJECT group do:
 ### if the objects intersect report a collision (call object->collision and object2->collision) and push objects out of the collision depending on the rerturned policy from the collision calls.
 # Move all objects to their destination positions
+
+TODO: Sketch the algorithm for calculating solid constraints
