@@ -165,7 +165,7 @@ shouldn't affect the gamelogic at all)
 == Music ==
 
 == New Collision Detection ==
-this is about the new-collision-detection branch
+this is about the new-collision-detection branch (see [[Collision detection#Constraint-based]])
 * Concerning badguys:
 ** Badguys often get into each other...
 ** Badguys sometimes get stuck in walls ot bonus blocks (most times they are Zeeklings)
