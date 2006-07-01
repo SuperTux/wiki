@@ -179,6 +179,7 @@ this is about the new-collision-detection branch
 * rain is broken
 * you can fall right through some slopes (see just after going underground in world2/level4 for example)
 * You can walk right through unisolid tiles (see world2/village.stl for example)
+* You can shoot fireballs through 1 tile wide walls if you stand next to them (as close as possible) (see data/levels/world2/key5.stl for example).
 
 [[Category:Development]]
 
