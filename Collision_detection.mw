@@ -1,6 +1,20 @@
 [[Category:Game Engine]]
+
+This article describes Collision Detection ('''CD''') schemes that were, are or should be implemented in SuperTux
+
+== Trial-and-error==
+
 Collision Detection is currently based on bounding boxes.
 
 [[Sweep collision algorithms]]
 
 For [[Milestone 2]], polygonal collision detection is planned.
+
+== Constraint-based ==
+
+A new approach to collision detection uses constraints in order to detect situations in which an object can no longer fulfill all rules imposed by the physics system, e.g. when being crushed by a moving platform.
+
+The Constraint-based CD works like this:
+# ...
+# ...
+# ...
