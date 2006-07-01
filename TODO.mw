@@ -191,6 +191,12 @@ this is about the new-collision-detection branch (see [[Collision detection#Cons
 ./src/collision_hit.hpp:84: warning: division by zero in `1.0e+0f / 0.'
 ./src/collision_hit.hpp:85: warning: division by zero in `1.0e+0f / 0.'
 ./src/collision_hit.hpp:85: warning: division by zero in `1.0e+0f / 0.'</pre>
+* Sometimes I get this error in data/levels/world2/christoph6.stl near the door at the end of the secret area at the end:
+<pre>Assertion failed: p1.x <= p2.x && p1.y <= p2.y, file ./src/math/rect.hpp, line 45
+
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.</pre>
+
 [[Category:Development]]
 
 == Editor ==
