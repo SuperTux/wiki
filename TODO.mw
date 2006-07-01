@@ -165,7 +165,7 @@ shouldn't affect the gamelogic at all)
 == Music ==
 
 == New Collision Detection ==
-this is about the new-collision-detection branch (see [[Collision detection#Constraint-based]])
+this is about the new-collision-detection branch (see [[Collision detection#New_Collision_Detection]])
 * Concerning badguys:
 ** Snails that hit a wall above ground in "spinning" mode turns back into normal snails right below
 ** Badguys hang on the top of a slope
