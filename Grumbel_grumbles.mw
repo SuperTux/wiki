@@ -1,3 +1,5 @@
+[[Image:Grumbel.png|right|]]
+
 This is a list of issues, problems, ideas and stuff that Grumbel has about SuperTux.
 
 Why is '''hitbox''' in .sprite called 'hitbox', when all I want is affect the offset/hotspot of the sprite and why should I supply a width/height parameters when I don't need them? hitbox and offset should really be two seperate concepts in a .sprite file.
