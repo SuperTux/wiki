@@ -72,7 +72,7 @@ The all-in-one installer will try to adjust your enviroment through the .bashrc 
 
 mono.csh
 
- #PKG_CONFIG_PATH!/bin/csh
+ #!/bin/csh
  setenv PKG_CONFIG_PATH {$PKG_CONFIG_PATH}:/path/to/mono/lib/pkgconfig
  setenv MANPATH ${MANPATH}:/path/to/mono/share/man
  setenv PATH ${PATH}:/path/to/mono/bin
