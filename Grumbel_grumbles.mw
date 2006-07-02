@@ -2,6 +2,10 @@ This is a list of issues, problems, ideas and stuff that Grumbel has about Super
 
 Why is '''hitbox''' in .sprite called 'hitbox', when all I want is affect the offset/hotspot of the sprite and why should I supply a width/height parameters when I don't need them? hitbox and offset should really be two seperate concepts in a .sprite file.
 
+Somebody should replace all that two-pixel large 'smoke/dust' with a proper dust sprite.
+
+If stuff kills Tux it would actually be usefull if it looks deadly, which most stuff simply doesn't (I mean you spike tiles...).
+
 == Features ==
 
 New Milestone2 features that look usefull:
