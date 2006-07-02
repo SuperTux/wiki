@@ -59,7 +59,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
 === Optimisations ===
 
-* '''M:''' Add some more sound_manager->preloads into object constructors
 * '''L:''' Combine tiles into bigger images (worldmap and the waterfall tiles come to mind). This should improve load time and opengl speed a bit (because we need fewer texture changes).
 * '''L:''' implement quadtree or grid to speedup collision detection
 
