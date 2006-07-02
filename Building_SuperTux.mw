@@ -65,21 +65,33 @@ To compile the editor you should make sure that you have some additional depende
 
 {{Attention|s=Neither the stable(1.1.13) or current(1.1.15_2) have the correct version for gtk-sharp in the all-in-one generic Linux installer.}}
 The recommended way to resolve this is:
+
 1.  Install mono using an all-in-one generic installer
+
 The all-in-one installer will try to adjust your enviroment through the .bashrc file.  This is not a proper system-wide change, so (in Slackware at least) modify these scripts and place them in /etc/profile.d
+
 mono.csh
+
  #PKG_CONFIG_PATH!/bin/csh
  setenv PKG_CONFIG_PATH {$PKG_CONFIG_PATH}:/path/to/mono/lib/pkgconfig
  setenv MANPATH ${MANPATH}:/path/to/mono/share/man
  setenv PATH ${PATH}:/path/to/mono/bin
+
 mono.sh
+
  #!/bin/sh
  export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/path/to/mono/lib/pkgconfig"
  export MANPATH="$MANPATH:/path/to/mono/share/man"
  export PATH="$PATH:/path/to/mono/bin"
+
 Also, add /path/to/mono/lib in /etc/ld.so.conf
+You may have to login again after these changes so they can take affect.
+
 2.  Download the source of gtk-sharp at go-mono.com/sources-latest/
+
 3.  Compile and install gtk-sharp using "./configure --prefix==/path/to/mono"
+
+4.  Verify that the new version is correct by running "pkg-config --modversion gtk-sharp-2.0" (May need to login again for this)
 
 You can compile the editor from commandline with jam. Simply type
  
