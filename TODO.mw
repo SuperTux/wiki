@@ -181,6 +181,7 @@ this is about the new-collision-detection branch (see [[Collision detection#New_
 * You can walk right through unisolid tiles (see world2/village.stl for example) - I also can't reproduce that
 :that's the way unisolid should work, isn't it? --[[User:WolfgangB|WolfgangB]] 17:07, 1 Jul 2006 (BST)
 :no you should get on top of it. if you walk into it from the side. at least that is what you did before --[[User:AnMaster|AnMaster]] 23:32, 1 Jul 2006 (BST)
+:but that's not how it should be (pushing the player out should be avoided, sudden big jumps seem unnatural and might also produce strange CD results in some situations) --[[User:MatzeB|MatzeB]] 14:31, 2 Jul 2006 (BST)
 * Rock object totally broken
 * Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
 * That slide along code sometimes pushes you into a crush position (try in platforms.stl)
