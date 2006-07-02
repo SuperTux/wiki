@@ -10,6 +10,10 @@ If stuff kills Tux it would actually be usefull if it looks deadly, which most s
 
 Where is the consistency? Sometimes tiles are used for background, then they are used for the foreground or even interactive layer, its a mess.
 
+Water... yeah, have a pinguin and then no ability to swim, not even collision with water, how stupid is that?
+
+Trash, junk and other garbage and we call it 'levels'. The svn needs really some large cleanup to seperate the useless testing stuff from the usefull ones and the testing from the actually playable.
+
 == Features ==
 
 New Milestone2 features that look usefull:
