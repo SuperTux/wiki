@@ -1,1 +1,106 @@
+= Some notes for windows users =
 
+Supertux development mainly happens on linux. The sourcecode is written in a portable manner but the tools and development environment for windows isn't there (yet?). However you should be able to get the game built with the help of msys. Find more detailed instructions at [[Building on Windows]].
+
+= Mac OS X =
+
+[[User:RavuAlHemio|Ravu al Hemio]] has written a [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for Mac OS X Tiger users on building SuperTux.
+
+= Prerequesites =
+
+You will need the following tools and libraries to build SuperTux on your system:
+* gcc compiler &co (gcc, g++, binutils, glibc)
+* gettext
+* autoconf
+* jam
+* SDL (*)
+* SDL-image (*)
+* PhysFS (*)
+* Ogg/Vorbis (*)
+* OpenGL (*)
+* OpenAL (*)
+
+You should make sure that you also have development headers and libraries installed for the tools marked with (*).
+
+Most distributions offer separate developer versions for these libraries, e.g. Debian users should run
+ apt-get install libsdl1.2-dev libsdl-image1.2-dev libphysfs-dev libvorbis-dev libogg-dev libopenal-dev
+to install them.
+
+= Getting the source =
+
+The first thing to get started with supertux is getting the latest development resources from the subversion repository. How to do this is described here at [[Download/Subversion]].
+
+= Configuring the source =
+
+Before compiling the sourcecode you have to configure it so that it gets adapted to your machine. Use the following commands:
+
+ ./autogen.sh
+ ./configure --enable-debug
+
+configure checks if all prerequisits are met.
+
+= Compiling the source =
+
+You can compile the sourcecode from commandline with the help of jam. Simply type
+
+ jam
+
+and the game should build. You should [[SuperTux FAQ#How_can_I_get_in_touch_with_you.3F|Contact]] us in case of errors or problems.
+
+= Setting up IDEs =
+
+This section is under construction. IDEs that should be able to handle supertux include:
+
+* KDevelop
+* Eclipse with CDT
+
+= Compiling the editor =
+
+To compile the editor you should make sure that you have some additional dependencies available:
+
+* An already compiled and working svn version of supertux
+* mono 1.1.13 or newer
+* gtk-sharp 2.8
+* gtk-sourceview-sharp 2.8
+
+{{Attention|s=Neither the stable(1.1.13) or current(1.1.15_2) have the correct version for gtk-sharp in the all-in-one generic Linux installer.}}
+The recommended way to resolve this is:
+
+1.  Install mono using an all-in-one generic installer
+
+The all-in-one installer will try to adjust your enviroment through the .bashrc file.  This is not a proper system-wide change, so (in Slackware at least) modify these scripts and place them in /etc/profile.d
+
+mono.csh
+
+ #!/bin/csh
+ setenv PKG_CONFIG_PATH {$PKG_CONFIG_PATH}:/path/to/mono/lib/pkgconfig
+ setenv MANPATH ${MANPATH}:/path/to/mono/share/man
+ setenv PATH ${PATH}:/path/to/mono/bin
+
+mono.sh
+
+ #!/bin/sh
+ export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/path/to/mono/lib/pkgconfig"
+ export MANPATH="$MANPATH:/path/to/mono/share/man"
+ export PATH="$PATH:/path/to/mono/bin"
+
+Also, add /path/to/mono/lib in /etc/ld.so.conf
+You may have to login again after these changes so they can take affect.
+
+2.  Download the source of gtk-sharp at go-mono.com/sources-latest/
+
+3.  Compile and install gtk-sharp using "./configure --prefix==/path/to/mono"
+
+4.  Verify that the new version is correct by running "pkg-config --modversion gtk-sharp-2.0" (May need to login again for this)
+
+You can compile the editor from commandline with jam. Simply type
+ 
+ jam
+
+and the editor will be built. You can then start the editor with
+
+ mono supertux-editor.exe
+
+There are also complete monodevelop project files for the editor in the svn. (TODO write about the hacks needed to actually compile the source in monodevelop).
+
+[[Category:Developer documentation]]
