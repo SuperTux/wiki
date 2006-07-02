@@ -1,4 +1,3 @@
-{{Outdated}}
 == Simple Lighting ==
 [[Image:Lighting4.png|thumb|right|Simple non colored lighting]]
 
@@ -6,7 +5,7 @@ Lighting is a post-processing effect that can be used to add athmosphere to a Su
 
 Framebuffer = (Color * Light) + Highlight
 
-The light layer itself needs to be an offscreen buffer, while the highlight layer can be just a collection of sprites, since additive rendering is commutative.
+The light layer itself needs to be an offscreen buffer, while the highlight layer can be just a collection of sprites, since additive rendering is commutative. 
 
 Lighting in this simple form as no direct impact on gameplay, except that it might make parts of the game area harder to see.
 
@@ -14,23 +13,6 @@ Lighting in this simple form as no direct impact on gameplay, except that it mig
 
 Color lighting is a special form of magic light that does impact gameplay, the implementation for the rendering is the same as with Simple Lighting, in addition however color lighting requires special code to remove and add tiles to the tilemap depending on if they are in a lightcone or not.
 
-[[Image:Lighting.png|thumb|right|Simple Colored lighting]]
-
-The idea behind color lighting is that an object which only uses colors from a single color channel, say only the red one, turn completly black when illuminated by a light source that only contains colors of the other channels (blue and green).
-
-[[Image:Lighting2.png|thumb|right|multi channel lighting]]
-
-This also works with multiple lighting, meaning a magenta (1,0,1) colored light will make both red and blue objects visible, while hiding green ones, while a green light will make red and blue objects disapear.
-
-Additional code in the game engine is required to turn the colored lighting, which so far is only a visual effect, into one that actually removes the invisible blocks from the tilemap or flags them, so that Tux can't stand on a block that isn't visible.
-
-[[Image:Lighting3.png|thumb|right|Highlight used in color lighting]]
-
-Since its very hard to actually see where a light source is located on a dark background, the highlight layer should be a copy of the light layer, thus illuminating the level better and making the light sectors visible.
-
-== Game Objects ==
-
-The following additional game objects are needed:
-
-* rotating light spots
-* [[Magic Block]]
+[[Image:Lighting.png|thumb|right|Simple non colored lighting]]
+[[Image:Lighting2.png|thumb|right|Colored lighting]]
+[[Image:Lighting3.png|thumb|right|Simple lighting]]
