@@ -1,0 +1,18 @@
+This is a list of issues, problems, ideas and stuff that Grumbel has about SuperTux.
+
+Why is '''hitbox''' in .sprite called 'hitbox', when all I want is affect the offset/hotspot of the sprite and why should I supply a width/height parameters when I don't need them? hitbox and offset should really be two seperate concepts in a .sprite file.
+
+== Features ==
+
+New Milestone2 features that look usefull:
+
+* wind, which can blow Tux around
+* switches that can be used to trigger stuff
+* unstable platforms, that break when Tux stands on them
+* candles, that can go on and off, what are they good for?
+* moving platforms, Tux can stand on them and get moved around
+* Dart enemies, they attach to a wall and shoot arrows 
+* auto scroll
+* vertical/horizontal scroll
+* stacking, not sure if that is actually usefull
+* lightmapping
