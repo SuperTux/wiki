@@ -1,0 +1,18 @@
+== Simple Lighting ==
+[[Image:Lighting4.png|thumb|right|Simple non colored lighting]]
+
+Lighting is a post-processing effect that can be used to add athmosphere to a SuperTux level, it works by either darkening or brightning parts of the screen. To implement that effect two additional layers need to be rendered, first the '''light layer''' and second the '''highlight layer'''. The order is as follows, first the color layer (the normal sprites, background and stuff) is rendered as usual, then the light layer is rendered to an offscreen buffer with multiply enabled and last the highlight layer is rendered with addition enabled, so we get:
+
+Framebuffer = (Color * Light) + Highlight
+
+The light layer itself needs to be an offscreen buffer, while the highlight layer can be just a collection of sprites, since additive rendering is commutative. 
+
+Lighting in this simple form as no direct impact on gameplay, except that it might make parts of the game area harder to see.
+
+== Color Lighting ==
+
+Color lighting is a special form of magic light that does impact gameplay, the implementation for the rendering is the same as with Simple Lighting, in addition however color lighting requires special code to remove and add tiles to the tilemap depending on if they are in a lightcone or not.
+
+[[Image:Lighting.png|thumb|right|Simple non colored lighting]]
+[[Image:Lighting2.png|thumb|right|Colored lighting]]
+[[Image:Lighting3.png|thumb|right|Simple lighting]]
