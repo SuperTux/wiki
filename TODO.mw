@@ -120,6 +120,7 @@ shouldn't affect the gamelogic at all)
 * '''H:''' It seems like we get non-UTF8 strings from Windows error messages. SuperTux throws an exception when trying to render those in the console, handle this more gracefully and display ? instead
 * '''M:''' Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
 * '''?:''' Music loops during Endsequence
+* '''?:''' If you bump a bonus block at the same time as you flip a level the bonus block slides down in a odd way. (for example test in world2/christoph1.stl)
 
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
