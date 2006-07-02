@@ -14,6 +14,20 @@ Water... yeah, have a pinguin and then no ability to swim, not even collision wi
 
 Trash, junk and other garbage and we call it 'levels'. The svn needs really some large cleanup to seperate the useless testing stuff from the usefull ones and the testing from the actually playable.
 
+Reset point uglyness, they don't look good and not even like a reset point...
+
+Difficulty, some of the current SuperTux levels that Ikaruga look like a game for kiddies... there really needs to be done *A LOT* to make SuperTux playable again. It would be nice to put a bit of fun back into SuperTux, currently its a frustrating mess.
+
+Where are my L/R buttons? Autoscroll is ok, but a way to manipulate it manually would be really usefull.
+
+The wingling coloring stinks (to much white), as does is behaviour, kamikaze dive is neither fun nor good looking
+
+Forest tile repetition... if you want to go blind, looking at the forest tiles is a good way to acomplish that, somebody should either remove the repetition or redraw that mess completly.
+
+Where is the dedicated run animation? Graphical hints are always a good thing.
+
+Animation? None found. SuperTux, the game as a whole, not just the sprite, looks horrible, all static, with no fun animations around, boring.
+
 == Features ==
 
 New Milestone2 features that look usefull:
