@@ -9,8 +9,8 @@ Milestone 2 will try to correct many things that were considered "bad" while ret
 
 SuperTux Milestone 2 will use OpenGL to draw the graphics. The features of this library will be used to enhance gameplay and visual content in several ways:
 
-* Create dark levels that are illuminated only in certain areas (for example around Tux, lamps, lava, certain badguys etc.), see [[Lighing]]
-* Colored blocks that are only visible when in the range of a light source with the same color, see [[Lighing]]
+* Create dark levels that are illuminated only in certain areas (for example around Tux, lamps, lava, certain badguys etc.), see [[Lighting]]
+* Colored blocks that are only visible when in the range of a light source with the same color, see [[Lighting]]
 * Add atmosphere to levels using different lighting
 * Zooming (in cutscenes)
 * Make foreground translucent when Tux walks behind it
