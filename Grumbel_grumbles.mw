@@ -6,6 +6,8 @@ Somebody should replace all that two-pixel large 'smoke/dust' with a proper dust
 
 If stuff kills Tux it would actually be usefull if it looks deadly, which most stuff simply doesn't (I mean you spike tiles...).
 
+Where is the consistency? Sometimes tiles are used for background, then they are used for the foreground or even interactive layer, its a mess.
+
 == Features ==
 
 New Milestone2 features that look usefull:
