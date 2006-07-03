@@ -56,6 +56,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 ** maybe we could instead introduce areas that accelerate Tux, Badguys and Particles in an arbitrary direction (i.e. wind). This could also replace unisolid tiles.
 * '''L:''' add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
 * '''D:''' portable blocks emitting colored light. Other, colored blocks are only visible (and solid) in their range
+* '''?:''' Doors that execute a script when Tux enters them
 
 === Optimisations ===
 
