@@ -34,6 +34,8 @@ Why have doors so small and Tux so fat? Tux just doesn't fit through a door by a
 
 The bomb certainly wins a price for ugliest gamesprite ever... 
 
+Is there a way to load a sprite without having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
+
 == Features ==
 
 New Milestone2 features that look usefull:
