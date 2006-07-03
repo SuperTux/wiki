@@ -36,6 +36,8 @@ The bomb certainly wins a price for ugliest gamesprite ever...
 
 Is there a way to load a sprite without having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
 
+How do I rotate a sprite? We should have OpenGL up and running, shouldn't we?
+
 == Features ==
 
 New Milestone2 features that look usefull:
