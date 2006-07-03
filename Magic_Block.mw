@@ -1,10 +1,12 @@
 [[Category:Game Object]]
 {{NeedCode}}
-Magic Blocks are tile-like blocks that are sensitive to [[Lighting]] conditions. They will only be(uni-)solid as long as light of the same color shines on the block.
+Magic Blocks are tile-like game objects that are sensitive to [[Lighting]] conditions. They are rendered in a primary color and will only be (uni-)solid as long as light of the same color shines on the block.
 
-This might be implemented by having light-emitting objects (e.g. [[Flame]] Badguy: yellow) inherit from a new class called LightSource. This class provides a LightSource::update() method that gets called from the derived object's update method. It will then take care of rendering a colored point light to the lightmap and calling the set_solid(bool) methods of nearby Magic Blocks as needed.
+This might be implemented by having light-emitting objects (e.g. a [[Flame]] Badguy emitting yellow light) inherit from a new class called LightSource. This class provides a LightSource::update() method that gets called from the derived object's update method. 
+
+It will then take care of rendering a colored point light to the lightmap and calling the set_solid(bool) methods of nearby Magic Blocks as needed.
 
 <p style="text-align: center;">
-Illustration of Magic Block behaviour:
+Illustration of Magic Block behaviour:<br />
 [[Image:Lighting2.png]]
 </p>
