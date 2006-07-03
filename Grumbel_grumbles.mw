@@ -44,6 +44,19 @@ How about a GUI tool to edit .sprite files?
 
 Compiling SuperTux today tages *AGES*, far far longer then needed, this is because for example src/badguy/badguy.hpp includes tons and tons of completly unneeded header files. The reason for this is to reduce the needed #include directives in the badguy files itself, which is cool, but comes at a *high* price, little changes in one of those include files will require a huge recompile, even so if very few files actually depend on those changes. Possible solution: Precompiled header files, should allow to both keep #includes to a minimum and reduce compile times a lot.
 
+Some experiments with precompiled headers and ccache (compiling badguy/ subdirectory):
+
+ ccache:
+  real    0m10.645s,  user    0m5.932s, sys     0m1.764s
+ 
+ g++
+  real    1m40.436s, user    1m13.833s, sys     0m5.352s
+ 
+ precompiled header, gch
+  real    0m51.715s,  user    0m40.583s, sys     0m3.432s
+  real    0m4.490s,   user    0m3.860s,  sys     0m0.308s
+
+
 == Features ==
 
 New Milestone2 features that look usefull:
