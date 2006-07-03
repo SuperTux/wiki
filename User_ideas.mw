@@ -78,6 +78,10 @@ Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath
 
 Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in [http://www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
 
+
+=== Background Tileset ===
+<small>after reading grumbel's rant</small> a tileset for forest paralx background is missing. Standard forest tiles are too big.
+
 === Some more badguys ===
 
 Here're three new suggestions for badguys in the forest world:
