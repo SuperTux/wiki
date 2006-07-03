@@ -38,6 +38,10 @@ Is there a way to load a sprite without having a sprite file? If not, why not? W
 
 How do I rotate a sprite? We should have OpenGL up and running, shouldn't we?
 
+How about align_center, align_right, align_top_left, etc.? Instead of exact pixel positions?
+
+How about a GUI tool to edit .sprite files?
+
 == Features ==
 
 New Milestone2 features that look usefull:
