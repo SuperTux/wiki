@@ -42,6 +42,8 @@ How about align_center, align_right, align_top_left, etc.? Instead of exact pixe
 
 How about a GUI tool to edit .sprite files?
 
+Compiling SuperTux today tages *AGES*, far far longer then needed, this is because for example src/badguy/badguy.hpp includes tons and tons of completly unneeded header files. The reason for this is to reduce the needed #include directives in the badguy files itself, which is cool, but comes at a *high* price, little changes in one of those include files will require a huge recompile, even so if very few files actually depend on those changes. Possible solution: Precompiled header files, should allow to both keep #includes to a minimum and reduce compile times a lot.
+
 == Features ==
 
 New Milestone2 features that look usefull:
