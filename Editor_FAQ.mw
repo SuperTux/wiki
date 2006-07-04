@@ -27,14 +27,14 @@ Press the Control key while moving an object to snap to every 16 pixels.  Press 
 ==Other tools==
 
 ===How do I use brushes?===
-Brushes are used to clean up edge tiles. There are a few brushes in trunk/supertux-sharp/data/brushes <!-- TODO: change this to a more "useful" path. -->. Load one in the level and then drag it over tiles to correct edge tiles of rough tile "blocks". Diffrent brushes are made for correcting diffrent tiles. 
+Brushes are used to clean up edge tiles. There are a few brushes in <tt>trunk/supertux-sharp/data/brushes</tt> <!-- TODO: change this to a more "useful" path. -->. Load one in the level and then drag it over tiles to correct edge tiles of rough tile "blocks". Diffrent brushes are made for correcting diffrent tiles. 
 
 Note that the brushes are incomplete so you might need to fix some things manually.
 
 To create a new brush you got to "train" one:
 #Make a level that looks good.
 #Select the tilemap you placed those tiles in.
-#Load the brush trunk/supertux-sharp/data/brushes/empty.csv <!-- TODO: change this to a more "useful" path. -->
+#Load the brush <tt>trunk/supertux-sharp/data/brushes/empty.csv</tt> <!-- TODO: change this to a more "useful" path. -->
 #Right click and drag to select the area to get tiles from.
 #*If you do that several times you wont owerwrite the currect patterns but instead add to them.
 #*The minimum size for a selection that works is 3x3 tiles. 
