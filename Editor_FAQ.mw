@@ -1,0 +1,11 @@
+==How do I move around in a level?==
+Click and drag with the middle mouse button.
+
+==How do I resize a sector?==
+Right click on the [[#Where are the sector tabs?|tab for the sector]] and select "Resize".
+
+==Where are the sector tabs?==
+Near the top of the editor. The default sector in a level is called "main" and is the sector where the game will start.
+
+==How do I create a new sector?==
+Click at the [[#Where are the sector tabs?|sector tab]] area and select "New".
