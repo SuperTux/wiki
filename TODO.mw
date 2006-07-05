@@ -121,6 +121,7 @@ shouldn't affect the gamelogic at all)
 ** PHYSFS_getLastError() returns the exact string it got from calling std::strerror(), so it uses the encoding implied by LC_MESSAGES. On Windows, this might be everything from Windows-1250 or ISO-8859-15 to Big5.
 * '''?:''' Music loops during Endsequence
 * '''?:''' If you bump a bonus block at the same time as you flip a level the bonus block slides down in a odd way. (for example test in world2/christoph1.stl)
+* '''M:''' Console is affected by lightmap: Dark level --> dark console
 
 == Levels ==
 * '''H:''' create 10 or more new levels of different size and complexity, using the new features of milestone 2.
