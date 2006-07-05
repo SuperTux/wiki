@@ -56,6 +56,7 @@ Some experiments with precompiled headers and ccache (compiling badguy/ subdirec
   real    0m51.715s,  user    0m40.583s, sys     0m3.432s
   real    0m4.490s,   user    0m3.860s,  sys     0m0.308s
 
+Flexlay is up and running again, need a bit of testing if it can actually save levels, loading at least seems to work, probally time to move ClanLib over into the flexlay repository.
 
 == Features ==
 
