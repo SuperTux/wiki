@@ -9,4 +9,10 @@
 After this SuperTux should work as normal. And you can now play all other games that uses OpenAl while you are listening to the music.
 credits for this solution goes to MatzeB
 
+=== strange ./configure error ===
+
+If ./configure bails out with
+"configure: error: /bin/sh mk/autoconf/config.sub i686-pc-linux-oldld failed"
+this will most probably mean you forgot to install g++ (hence -oldld instead of -gnu). Install (a recent version of) g++ and you're good to go.
+
 [[Category:Developer documentation]]
