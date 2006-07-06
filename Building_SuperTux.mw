@@ -64,6 +64,9 @@ To compile the editor you should make sure that you have some additional depende
 * gtk-sharp 2.8
 * gtk-sourceview-sharp 2.8
 
+Debian users can run the following command to do this:
+ apt-get install mono mono-gmcs gtk-sharp2
+
 {{Attention|s=Neither the stable(1.1.13) or current(1.1.15_2) have the correct version for gtk-sharp in the all-in-one generic Linux installer.}}
 The recommended way to resolve this is:
 : On what Linux distro? On Gentoo I just need to emerge mono-1.1.13, gtk-sharp-2.8 and glade-sharp-2.8. This "recommended" way seems like a very odd way to do it. --[[User:AnMaster|AnMaster]] 17:47, 2 Jul 2006 (BST)
