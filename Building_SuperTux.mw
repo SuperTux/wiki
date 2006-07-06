@@ -70,7 +70,7 @@ Debian users can run the following command to do this:
 {{Attention|s=Neither the stable(1.1.13) or current(1.1.15_2) have the correct version for gtk-sharp in the all-in-one generic Linux installer.}}
 The recommended way to resolve this is:
 : On what Linux distro? On Gentoo I just need to emerge mono-1.1.13, gtk-sharp-2.8 and glade-sharp-2.8. This "recommended" way seems like a very odd way to do it. --[[User:AnMaster|AnMaster]] 17:47, 2 Jul 2006 (BST)
-: On distros that need too, of course.  If you don't need the generic installer, you don't need to resolve anything. --[[User:tuxdev|tuxdev]]
+: On distros that need to, of course.  If you don't need the generic installer, you don't need to resolve anything. --[[User:tuxdev|tuxdev]]
 
 1.  Install mono using an all-in-one generic installer
 
