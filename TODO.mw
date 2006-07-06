@@ -236,5 +236,3 @@ I need a gdb backtrace to know where it happens! --[[User:MatzeB|MatzeB]] 21:40,
 * Make the right click menu from sector tab a normal menu so that users can easily find it
 * Area objects ignore visibility of object layer
 * Show/hide background (button?)
-* "Create new Level" button in menu bar
-* toggle snap to grid via menu ur button bar
