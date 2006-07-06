@@ -234,5 +234,4 @@ I need a gdb backtrace to know where it happens! --[[User:MatzeB|MatzeB]] 21:40,
 :the level world2/airkey.stl crash both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
 ::airkey is 300x300. It makes the editor slow on my linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
 * Make the right click menu from sector tab a normal menu so that users can easily find it
-* Area objects ignore visibility of object layer
 * Show/hide background (button?)
