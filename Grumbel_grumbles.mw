@@ -58,6 +58,8 @@ Some experiments with precompiled headers and ccache (compiling badguy/ subdirec
 
 Flexlay is up and running again, need a bit of testing if it can actually save levels, loading at least seems to work, probally time to move ClanLib over into the flexlay repository.
 
+[[:Image:Howtonotdesignlevels.jpg|Things to avoid in leveldesign]]
+
 == Features ==
 
 New Milestone2 features that look usefull:
