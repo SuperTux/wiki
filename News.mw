@@ -1,3 +1,10 @@
+2006-07-06
+
+Mr.Bomb can now use multiple sprites for themed images.
+* http://gluebox.com/images/bombs.png
+* http://gluebox.com/images/juicebox.png
+* http://gluebox.com/images/cherry_bomb_Large.png
+
 2006-07-05
 
 * Flexlay is somewhat usable again, ClanLib has been imported into the Flexlay repository, no need to have it seperatly any more
