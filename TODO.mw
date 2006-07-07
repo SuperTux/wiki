@@ -172,14 +172,10 @@ shouldn't affect the gamelogic at all)
 this is about the new-collision-detection branch (see [[Collision detection#New_Collision_Detection]])
 * Concerning badguys:
 ** Snails that hit a wall above ground in "spinning" mode turns back into normal snails right below
-** Badguys hang on the top of a slope
 ** You can kill Igel from behind
 ** Jumping skull doesn't jump.
 * Slopes
 ** No y-velocity adjustment yet when running slopes down
-** You can fall right through some slopes (see just after going underground in world2/level4 for example)
-::can you provide more details? I can't reproduce that...
-::[[:Image:New-cd1.png|Screenshot of the bug (small preview doesn't work for it)]] --[[User:AnMaster|AnMaster]] 23:40, 1 Jul 2006 (BST)
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
 * Rock object totally broken
 * Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
