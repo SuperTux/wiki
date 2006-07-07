@@ -202,6 +202,7 @@ this is about the new-collision-detection branch (see [[Collision detection#New_
 This application has requested the Runtime to terminate it in an unusual way.
 Please contact the application's support team for more information.</pre>
 I need a gdb backtrace to know where it happens! --[[User:MatzeB|MatzeB]] 21:40, 2 Jul 2006 (BST)
+:Sorry but I don't manage to run gdb on windows, the system just locks up with 99% CPU usage. --[[User:AnMaster|AnMaster]] 19:40, 7 Jul 2006 (BST)
 
 [[Category:Development]]
 
