@@ -180,7 +180,6 @@ this is about the new-collision-detection branch (see [[Collision detection#New_
 * Rock object totally broken
 * Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
 * That slide along code sometimes pushes you into a crush position (try in platforms.stl)
-* rain is broken
 * It doesn't build with --enable-debug on windows (it compiles fine with --enable-debug on my Linux box). You get this for several files: 
 <pre>./src/collision_hit.hpp: In constructor `Constraints::Constraints()':
 ./src/collision_hit.hpp:77: warning: division by zero in `1.0e+0f / 0.'
