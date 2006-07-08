@@ -93,15 +93,7 @@ In the course of the game, Tux will encounter lots of different enemies - some e
 
 [[Image:Right.png|right]]
 
-=== Firefly ===
 
-When Tux got thrown off the screen, he will normally have to start the current level over from the beginning. There is one exception, though: Most levels contain one or more fireflies, which look like this:
-
-[[Image:firefly1.png|center]]
-and after touching them like this:
-[[Image:firefly2.png|center]]
-
-When Tux activates such a firefly, he won't have to restart the level from the beginning, but instead restart from the last activated firefly - as long as he's got at least one life '''(Milestone 1)''' or 25 coins '''(Milestone 2)''' left.
 
 === Doors (Milestone 2 only) ===
 [[Image:Door-0.png|center]]
