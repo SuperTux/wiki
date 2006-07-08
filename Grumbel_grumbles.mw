@@ -61,6 +61,8 @@ Flexlay is up and running again, need a bit of testing if it can actually save l
 [[:Image:Howtonotdesignlevels.jpg|Things to avoid in leveldesign]]
 [[:Image:Hallofshame.jpg|Some more things to avoid in leveldesign]]
 
+Badguys must not collide or at least not like they do today (ie. stack), best seen in world1/27 where the snowballs and yeti colliding results in compltetly unpredictable and unavoidable patterns, thus killing the player far to often.
+
 == Enemy Criticts ==
 
 * i don't like cherrybomb, old wasn't better, but I prefer my bombsprite (mrbomb.xcf)
