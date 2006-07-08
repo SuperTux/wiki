@@ -35,6 +35,7 @@ Difficulty, some of the current SuperTux levels that Ikaruga look like a game fo
 :: --[[User:Grumbel|Grumbel]] 04:52, 8 Jul 2006 (BST)
 
 ::: There are indeed some levels that cannot be adjusted in this way, e.g. "The Castle of Nolok": Take out the flames and not much remains. I'd count christoph4 to those levels. It is more of a techdemo than a playable level.
+::: --[[User:Sommer|Sommer]] 21:41, 8 Jul 2006 (BST)
 
 Is there a way to load a sprite without having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
 
