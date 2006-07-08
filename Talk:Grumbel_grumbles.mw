@@ -2,16 +2,35 @@
 
 Why is hitbox in .sprite called 'hitbox', when all I want is affect the offset/hotspot of the sprite and why should I supply a width/height parameters when I don't need them? hitbox and offset should really be two seperate concepts in a .sprite file.
 
-* It's one and the same concept engine-wise. A sprite's anchor point is always the top left corner of its hitbox. Aligning sprites is impossible without knowing the logical width and height of a sprite, so these are also always needed. Using the physical width when an offset is applied leads to undesired alignment.
+: It's one and the same concept engine-wise. A sprite's anchor point is always the top left corner of its hitbox. Aligning sprites is impossible without knowing the logical width and height of a sprite, so these are also always needed. Using the physical width when an offset is applied leads to undesired alignment.
+
+:: hitbox and align are concepts that should be seperate, since there isn't a hard connection between look and collision, they happen to be the same from time to time, but often enough not, beside:
+::
+:: (align center 0 0)
+:: (align bottom-center 0 0)
+:: (align top-left 0 0)
+:: 
+:: '''much''' more readable and typeable then hitbox
+:: --[[User:Grumbel|Grumbel]] 04:52, 8 Jul 2006 (BST)
 
 If stuff kills Tux it would actually be usefull if it looks deadly, which most stuff simply doesn't (I mean you spike tiles...).
 
-* I think the spikes fit the cartoonish look of the game perfectly. There's meaner-looking versions in the trunk, even gory versions, but they just don't fit.
+: I think the spikes fit the cartoonish look of the game perfectly. There's meaner-looking versions in the trunk, even gory versions, but they just don't fit.
+
+:: a) the current spike is super ugly and primitve -> doesn't fit
+:: b) blood/rust from the other spike could be removed, fits much better
+:: --[[User:Grumbel|Grumbel]] 04:52, 8 Jul 2006 (BST)
 
 Difficulty, some of the current SuperTux levels that Ikaruga look like a game for kiddies... there really needs to be done *A LOT* to make SuperTux playable again. It would be nice to put a bit of fun back into SuperTux, currently its a frustrating mess.
 
-* Making hard levels easier is simply a matter of widening platforms and removing badguys; making easy levels harder is much more difficult. So most of the levels in the trunk are harder than they have to be.
+: Making hard levels easier is simply a matter of widening platforms and removing badguys; making easy levels harder is much more difficult. So most of the levels in the trunk are harder than they have to be.
+
+:: Might be true, but just removing badguys can also wreak havok to a level (christoph4), since it will leave some parts that depended on badguys rather useless, its best to design levels from the start for a certain difficulty
+:: --[[User:Grumbel|Grumbel]] 04:52, 8 Jul 2006 (BST)
 
 Is there a way to load a sprite without having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
 
-* Using a plain picture and guessing a sprite's properties might be OK for a few sprites, but most really need the extra information.
+: Using a plain picture and guessing a sprite's properties might be OK for a few sprites, but most really need the extra information.
+
+:: The extra information is something that should be addable in a later development process, being force to supply info right from the start is annoying
+:: --[[User:Grumbel|Grumbel]] 04:52, 8 Jul 2006 (BST)
