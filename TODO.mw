@@ -175,7 +175,6 @@ this is about the new-collision-detection branch (see [[Collision detection#New_
 ** You can kill Igel from behind
 ** Jumping skull doesn't jump.
 * Slopes
-** No y-velocity adjustment yet when running slopes down
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
 * Rock object totally broken
 * Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
