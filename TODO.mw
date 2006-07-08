@@ -176,8 +176,8 @@ this is about the new-collision-detection branch (see [[Collision detection#New_
 ** Jumping skull doesn't jump.
 * Slopes
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
+** Y-Velocity should be adjusted when running down slopes
 * Rock object totally broken
-* Spurious detection of horizontal crushs when jumping around a single ? block with walls nearby (see world2/level4 for example)
 * That slide along code sometimes pushes you into a crush position (try in platforms.stl)
 * It doesn't build with --enable-debug on windows (it compiles fine with --enable-debug on my Linux box). You get this for several files: 
 <pre>./src/collision_hit.hpp: In constructor `Constraints::Constraints()':
