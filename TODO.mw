@@ -88,8 +88,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
   )
 </pre>
 * '''D:''' think about icebullet specifics
-* '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result
-shouldn't affect the gamelogic at all)
+* '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result shouldn't affect the gamelogic at all)
 * '''M:''' Option to delete or overwrite existing savegames. My five slots are all in world 2, Have to delete one to go back.
 * '''L:''' Add line-editing functionality to Console
 * '''L:''' Add "name" attribute to tilemaps
