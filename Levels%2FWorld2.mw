@@ -200,4 +200,4 @@ Update: r3932 should fix most of the problems.--[[User:WolfgangB|WolfgangB]] 21:
 
 
 == updown.stl ==
-Plattforms. Tuy falls of last one with current collision detection (works fine with new CD). Background needs smaller tiles.
+Plattforms. Background needs smaller tiles.
