@@ -174,6 +174,8 @@ shouldn't affect the gamelogic at all)
 ** You can kill Igel from behind
 ** Jumping skull doesn't jump.
 ** sliding mriceblocks and snails don't break boxes anymore
+** Sliding mriceblocks change direction on edges but should really fall down
+** You grab flattened mriceblocks when jumping on them with action key hold. But you should kick him loose...
 * Slopes
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
 ** The collision detection code doesn't move tux completely out of the collision on slopes. This currently has the effect that you can't duck/grab eggs on slopes. We could solve the duck/egg problem by only testing for the additional space that you need when unducking/getting an egg, but there might be other problems because tux is still in a collision.
