@@ -106,6 +106,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
 
 === Bugs ===
+* '''H:''' Badguys always change directions when hit from left/right, regardless of their direction. This makes them effectively not change their direction if they get 2 collisions in 1 update round.
 * '''H:''' Check/Fix bullet speed/behaviour
 ** Please elaborate - what exactly needs to be checked or fixed?
 * '''H:''' when finishing worldmap levels on a T-way tux starts running in a direction, while he should simply stay because he has several possibilities to continue. Also at the T-way that goes up, left, down tux doesn't seem to stop.
