@@ -219,8 +219,6 @@ I need a gdb backtrace to know where it happens! --[[User:MatzeB|MatzeB]] 21:40,
 ** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
 * Ask for Save on close/load/new
 * The open dialog has an invalid folder selected when saving new maps and crashs (and also shows "open")
-* When selecting File->New the filename is not resetted
-** Can't reproduce in r3938 (on Windows). Is it fixed? --[[User:AnMaster|AnMaster]] 11:07, 8 Jul 2006 (BST)
 * Support resizing of level with drag&drop on the level borders
 * Support selection of multiple objects
 * Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
