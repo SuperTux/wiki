@@ -109,6 +109,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''H:''' Badguys always change directions when hit from left/right, regardless of their direction. This makes them effectively not change their direction if they get 2 collisions in 1 update round.
 * '''H:''' Check/Fix bullet speed/behaviour
 ** Please elaborate - what exactly needs to be checked or fixed? (Just compare it with what bullets did in milestone1, the reason the stuff is different now is because the code there is not coded in a framerate independent way)
+:In MS1 tux is spitting the bullets [http://supertux.berlios.de/wiki/images/d/d3/Fireball_ms1-nq8.png] in svn version he is throwing them [http://supertux.berlios.de/wiki/images/d/d3/Fireball_ms2-nq8.png]. Thats the difference I notice, maybe there is also more subtile framebased stuff. --[[User:WolfgangB|WolfgangB]] 15:36, 9 Jul 2006 (BST)
 * '''H:''' when finishing worldmap levels on a T-way tux starts running in a direction, while he should simply stay because he has several possibilities to continue. Also at the T-way that goes up, left, down tux doesn't seem to stop.
 ::''Can't reproduce that problem in r3692. Fixed?''
 * '''H:''' In Scripts started by script_triggers the set_pos call has no effect because the scripts run during collision detection phase. We should somehow queue them and run the scripts next frame during the update phase.
