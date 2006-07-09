@@ -62,7 +62,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 === Optimisations ===
 
 * '''L:''' Combine tiles into bigger images (worldmap and the waterfall tiles come to mind). This should improve load time and opengl speed a bit (because we need fewer texture changes).
-* '''L:''' implement quadtree or grid to speedup collision detection
 
 === Miscellaneous ===
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
