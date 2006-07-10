@@ -46,6 +46,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 
 *'''Pulling levers''' - activate/deactivate/open/close things. Added in SVN today thanks to me (mmiikkee12) :-) (they're called switches but they're more like levers)
 *'''Standing on switches''' - activate/open things.
+** In svn (not sure what revision) - just put a script trigger over the platform
 *'''Wind''' - make it difficult for Tux to move, push him back, and push him much back if he jump.
 ** In svn (since r3640). --[[User:AnMaster|AnMaster]] 11:08, 30 Jun 2006 (BST)
 *'''Ice pick''' - to crush blocking ice in order to enter closed areas.
