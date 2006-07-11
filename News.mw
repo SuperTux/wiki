@@ -1,3 +1,9 @@
+2006-07-10
+
+Added a bottom and top section to Grumbel's blue mountain background (snow background). Extended 23-Airborne level to use this new background set.
+
+* http://gluebox.com/images/grumbels_blue_mountain_background_small.png
+
 2006-07-09
 
 * New collision detection code has been merged into trunk. Highlights:
