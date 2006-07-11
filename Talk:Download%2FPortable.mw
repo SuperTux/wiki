@@ -1,7 +1,11 @@
+'''SuperTux Portable''' aims to allow users to play SuperTux on mobile devices.
+
+==PlayStation Portable==
+An [[Download/Installation#PlayStation_Portable_.28PSP.29|unofficial version for the PSP]] has already been created.
+
+==Cellphones==
+A version for cellphones is currently being discussed.
+===Ideas and notes===
 *Actually, the screen sizes are either 128x160 for older colour phones, 176x220 for newer colour phones and 240x320 for some high spec phones.
-
-
-
- * Programming Language: Java. (some mobile phones, like Nokias, do provide C. it should be avoided because it would not be portable or easily installable.)
-
-some mobile phones, like Nokias, are equipped with Symbian, which is a very good OS and widely spreaded. It is portable and you can install easily apps/games. It uses C as programming language.
+*Programming Language: Java. (some mobile phones, like Nokias, do provide C. it should be avoided because it would not be portable or easily installable.)
+*Some mobile phones, like Nokias, are equipped with Symbian, which is a very good OS and widely spread. It is portable and you can install easily apps/games. It uses C as programming language.
