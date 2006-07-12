@@ -23,7 +23,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 * Concerning badguys:
-** Jumping skull doesn't jump.
 ** sliding mriceblocks and snails don't break boxes anymore
 ** You grab flattened mriceblocks when jumping on them with action key hold. But you should kick him loose...
 * Slopes
