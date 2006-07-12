@@ -46,7 +46,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 === Scripting/Cutscenes ===
 * '''H:''' extract translatable strings from the scripts
 * '''L:''' Useful error messages. Report line and command that caused error.
-* '''D:''' Ability to sync script with game, e.g. waiting until music has finished playing, waiting until Tux is on ground, ...
 
 === Badguys ===
 * '''M:''' create more and better Badguys, see [[Badguys]] for ideas
