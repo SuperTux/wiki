@@ -20,7 +20,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
 === Collision Detection ===
 
-* '''?:''' Trigger collision callbacks for multiple solids that get hit at the same time, not just the "first" one
 * '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 * Concerning badguys:
@@ -28,7 +27,6 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 ** You can kill Igel from behind
 ** Jumping skull doesn't jump.
 ** sliding mriceblocks and snails don't break boxes anymore
-** Sliding mriceblocks change direction on edges but should really fall down
 ** You grab flattened mriceblocks when jumping on them with action key hold. But you should kick him loose...
 * Slopes
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
