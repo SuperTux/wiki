@@ -27,6 +27,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 ::IMO thats a good thing. Makes it a bit simpler to grab him. --[[User:WolfgangB|WolfgangB]] 01:06, 13 Jul 2006 (BST)
 * Slopes
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
+::Fixed? Can't reproduce it in 3993. --[[User:WolfgangB|WolfgangB]] 01:37, 13 Jul 2006 (BST)
 ** The collision detection code doesn't move tux completely out of the collision on slopes. This currently has the effect that you can't duck/grab eggs on slopes. We could solve the duck/egg problem by only testing for the additional space that you need when unducking/getting an egg, but there might be other problems because tux is still in a collision.
 *** This might also be caused by the Sector::is_free_space function, that's called when Tux requests his hitbox to be changed. Maybe Sector::is_free_space returns false when Tux stands on a slope, so the hitbox won't get resized.
 * Rock object totally broken
