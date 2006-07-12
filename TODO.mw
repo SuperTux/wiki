@@ -23,8 +23,8 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 * '''?:''' Give tiles a configurable friction factor and make tux react to it. (for Icy tiles)
 
 * Concerning badguys:
-** sliding mriceblocks and snails don't break boxes anymore
 ** You grab flattened mriceblocks when jumping on them with action key hold. But you should kick him loose...
+::IMO thats a good thing. Makes it a bit simpler to grab him. --[[User:WolfgangB|WolfgangB]] 01:06, 13 Jul 2006 (BST)
 * Slopes
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
 ** The collision detection code doesn't move tux completely out of the collision on slopes. This currently has the effect that you can't duck/grab eggs on slopes. We could solve the duck/egg problem by only testing for the additional space that you need when unducking/getting an egg, but there might be other problems because tux is still in a collision.
