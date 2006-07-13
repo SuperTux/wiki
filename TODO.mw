@@ -182,6 +182,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 ** Spawnpoint selector
 ** Texts
 ** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
+::Why was it disabled? --[[User:WolfgangB|WolfgangB]] 16:45, 13 Jul 2006 (BST)
 * Ask for Save on close/load/new
 * The open dialog has an invalid folder selected when saving new maps and crashs (and also shows "open")
 * Support resizing of level with drag&drop on the level borders
