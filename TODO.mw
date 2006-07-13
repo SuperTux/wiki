@@ -16,6 +16,8 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
 '''D:''' features that will be implemented but need further discussion on how to implement them
 
+Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound]] and [[:Category:Needs Graphics]] list articles that describe content which still lacks one of the three.
+
 == Programming ==
 
 === Collision Detection ===
