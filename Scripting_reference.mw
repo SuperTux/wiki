@@ -71,6 +71,9 @@ If you are interested in an object and what cans of worms you can open with it, 
 ! [[ScriptingCandle | Candle]]
 | Scripting interface to Candle object
 |-
+! [[ScriptingThunderstorm | Thunderstorm]]
+| Scripting interface to Thunderstorm object
+|-
 |}
 
 TODO: Convert the rest of the scripting docu to the new format (and improve format maybe?)
