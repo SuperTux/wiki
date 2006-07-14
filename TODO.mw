@@ -26,7 +26,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 
 * Concerning badguys:
 ** You grab flattened mriceblocks when jumping on them with action key hold. But you should kick him loose...
-::IMO thats a good thing. Makes it a bit simpler to grab him. --[[User:WolfgangB|WolfgangB]] 01:06, 13 Jul 2006 (BST)
+
 * Slopes
 ** In flipped levels you die if you jump against a slope (see world2/level2.stl for example)
 ::Fixed? Can't reproduce it in 3993. --[[User:WolfgangB|WolfgangB]] 01:37, 13 Jul 2006 (BST)
