@@ -61,8 +61,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
 * '''M:''' Tux did go up/down 1 or 2 pixels each step when walking around in the 0.1.x releases which made the walk look a bit more natural. I don't know if this was done intentionally or why it doesn't work anymore, but it would be nice to have this effect again.
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
-* '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
-** For starters, being able to set a tilemap's opacity to 50% would suffice. Layering this semitransparent tilemap on an opaque one would achieve a similar effect
 * '''M:''' Support multiple tilesets per level. This way users/modders can easily extend the tileset with by simply adding new .strf files into the data directory. Proposed format:
 <pre>
   (supertux-level
@@ -85,6 +83,11 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''M:''' Option to delete or overwrite existing savegames.
 * '''L:''' Add line-editing functionality to Console
 * '''L:''' Add "name" attribute to tilemaps
+* '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
+** For starters, being able to set a tilemap's opacity to 50% would suffice. Layering this semitransparent tilemap on an opaque one would achieve a similar effect
+** '''L:''' support multiple solid tilemaps
+* '''L:''' make tilemaps moveable
+* '''D:''' make tilemaps scriptable?
 
 === Statistics ===
 * '''L:''' save score on per-level basis to make high-score (this means coins/time)
