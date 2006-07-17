@@ -52,6 +52,7 @@ All website bugs have been fixed.
 
 * 3771: Possible to die after winning a level if not invincible (happens in yeti level)
 
+* 4033: Dart traps sometimes shoot right through walls, instead of hitting them.
 
 
 [[Category:For Users]]
