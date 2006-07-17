@@ -17,7 +17,7 @@ Please keep the size of the attachments to the mailing list as small as possible
 
 == Level designers ==
 
-Your level should comply with the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/docs/levelguidelines.txt?view=markup level guidelines] set by the SuperTux team.
+Your level should comply with the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/docs/levelguidelines.txt?view=markup level guidelines] set by the SuperTux team. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
 
 == Programmers ==
 
