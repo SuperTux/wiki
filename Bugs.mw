@@ -58,5 +58,5 @@ All website bugs have been fixed.
 * 4034: When Tux is invincible he still squishes enemies and stuns iceblocks by jumping on their heads instead of simply killing them.
 :Feature. Even as invincible Tux you can stun and grab Mr. Iceblock.
 * 4034: When Firetux backflips he loses his hat and status and reverts to normal bigtux (intended behaviour?).
-
+:Intended behaviour.
 [[Category:For Users]]
