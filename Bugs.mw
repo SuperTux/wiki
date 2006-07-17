@@ -56,7 +56,7 @@ All website bugs have been fixed.
 ** Seems to happen when a dart hits near the border between two tiles
 
 * 4034: When Tux is invincible he still squishes enemies and stuns iceblocks by jumping on their heads instead of simply killing them.
-
+:Feature. Even as invincible Tux you can stun and grab Mr. Iceblock.
 * 4034: When Firetux backflips he loses his hat and status and reverts to normal bigtux (intended behaviour?).
 
 [[Category:For Users]]
