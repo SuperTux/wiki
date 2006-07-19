@@ -1,3 +1,11 @@
 This could be useful in underwater levels.
 
+Before implementing swimming there are some details that need to be specified:
+
+* What can tux do in water?
+
+* How does he leave the pool, ie. how high can Tux jump while swimming?
+
+* What happens to existing levels, especially in situations where the water is on the bottom of a shaft with no way to climb out?
+
 [[Category:Action]]
