@@ -15,3 +15,6 @@ I like the limpy, it would be neat to have a tunnel crawling with them going in 
 == Squirrel/(mini)SWIG and S-Lang? ==
 
 Seems wasteful to have two scripting languages (plus a binding tool). Why not (like myweb.cableone.net/gmcnutt/nazghul.html Nazghul) just use something ala TinySCHEME for all the scripting?
+
+We just use the scheme-expressions as a flexible tree-based file format (the atlernative would have been 
+xml parsers which are bigger and the scheme is a bit nicer to read in our opinions). But the scheme stuff is not a scripting language in supertux. --[[User:MatzeB|MatzeB]] 12:05, 19 Jul 2006 (BST)
