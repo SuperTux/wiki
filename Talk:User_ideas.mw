@@ -11,3 +11,7 @@ Well, I didn't know about the developer e-mail list, so I guess I'll try that. F
 Thanks, Tony
 
 I like the limpy, it would be neat to have a tunnel crawling with them going in every direction. Would be crazy :) . -F50
+
+== Squirrel/(mini)SWIG and S-Lang? ==
+
+Seems wasteful to have two scripting languages (plus a binding tool). Why not (like myweb.cableone.net/gmcnutt/nazghul.html Nazghul) just use something ala TinySCHEME for all the scripting?
