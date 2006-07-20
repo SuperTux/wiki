@@ -169,20 +169,23 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 ** Texts
 ** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
 ::Why was it disabled? --[[User:WolfgangB|WolfgangB]] 16:45, 13 Jul 2006 (BST)
+:::Because it crash the editor on Windows, and because it add lots of extra deps. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 * Ask for Save on close/load/new
 * The open dialog has an invalid folder selected when saving new maps and crashs (and also shows "open")
+:Can be fixed by using a Save dialog and an Open dialog. :P We use one object for both currently by some unknown reason. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 * Support resizing of level with drag&drop on the level borders
 * Support selection of multiple objects
 * Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
 * Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
 * Redraw sector after loading, undo, delete
 * Linebreaks in saved tilemaps?
+:Would make some svn diffs a bit more usable. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 * Tool not working after loading new level
 * Windows builds seem to silently crash when loading huge levels
 :huge as in 100x100 or more like 10000x10000?
-:the level world2/airkey.stl crash both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
-::airkey is 300x300. It makes the editor slow on my linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
+:the level old world2/airkey.stl crashed both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
+::the old airkey is 300x300. It makes the editor slow on my linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
 * Make the right click menu from sector tab a normal menu so that users can easily find it
-
+:Maybe add them to a toolbar? that could be useful. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 
 [[Category:Development]]
