@@ -42,8 +42,7 @@ All website bugs have been fixed.
 * Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
 
 * Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
-** Fixed in some revision I can't find the number of right now
-.
+** Fixed in some revision I can't find the number of right now.
 * 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
 ** that's because they do their own eventloop, they really should plug into MainLoop somehow
 
