@@ -42,13 +42,15 @@ All website bugs have been fixed.
 * Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
 
 * Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
-
+** Fixed in some revision I can't find the number of right now
+.
 * 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
 ** that's because they do their own eventloop, they really should plug into MainLoop somehow
 
 * 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
 ** when exactly does this happen?
 ** seem common on x64 boxes. They pass an arch of "foobar-unknown-baz-blah-blubb" which (gets included in each build action's path and) bloats the command line to exceed 10240 chars. Workaround is manually shortening the arch passed to the build process by running something like "./configure --build=x86_64-pc-linux-gnu"
+** This was fixed in r3923.
 
 * 3771: Possible to die after winning a level if not invincible (happens in yeti level)
 
@@ -57,8 +59,11 @@ All website bugs have been fixed.
 
 * 4034: When Tux is invincible he still squishes enemies and stuns iceblocks by jumping on their heads instead of simply killing them.
 :Feature. Even as invincible Tux you can stun and grab Mr. Iceblock.
+
 * 4034: When Firetux backflips he loses his hat and status and reverts to normal bigtux (intended behaviour?).
 :Intended behaviour.
+
 * 4041: Tux gets stuck for a few seconds climbing certain staircases in the level that's automatically played in the background on the main menu.
 :yes at x 3762 y 256 and x 8288 y 1024, and sometimes other places too.
+
 [[Category:For Users]]
