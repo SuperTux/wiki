@@ -53,6 +53,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''D:''' portable blocks emitting colored light. Other, colored blocks are only visible (and solid) in their range
 * '''?:''' Doors that execute a script when Tux enters them
 ::Scripted object with door sprite.
+::That doesn't work well due to the lack of scriptiness in SuperTux currently, and would be a humongous hack if it could be done wele.  I did notice door.hpp and door.cpp in src/trigger, those might be what this TODO is talking about, and us on IRC didn't notice it existed. --[[User:tuxdev|tuxdev]]
 
 === Optimisations ===
 
