@@ -118,7 +118,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''H:''' [[Levels/M2Test|Test existing Levels]] if they still work.
 
 == Graphics ==
-* '''D:''' remove "1up" from mini-Tux bonus
 * '''H:''' add more forest tiles; some of the current ones need fixing.
 * '''H:''' Create a ghost forest tileset.
 * '''H:''' image for castle door with 5 key holes
