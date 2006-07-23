@@ -66,5 +66,6 @@ All website bugs have been fixed.
 :yes at x 3762 y 256 and x 8288 y 1024, and sometimes other places too.
 
 * 4075: When the game is paused, the time keeps running.
+** cannot reproduce on 4076. Please give further steps to reproduce. --[[User:Sommer|Sommer]] 00:47, 24 Jul 2006 (BST)
 
 [[Category:For Users]]
