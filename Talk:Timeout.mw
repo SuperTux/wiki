@@ -6,6 +6,7 @@ Current r4079 behaviour: Shrink Tux and kill him immediately on timeout.
 The timeout should be extended the safe time from shrinking so that annoying time critical levels are somewhat less annoying less annoying.  The safe time might be less than normal so that it doesn't fudge it too much.  [[User:Tuxdev|Tuxdev]] 22:48, 24 Jul 2006 (BST)
 
 : Shrinking Tux on timeout seems a little absurd. IMHO shrinking should only happen when Tux is hurt. If we need something to extend Tux' time, maybe after reaching zero on the clock, the game could make Tux lose one coin per second, up to 25 seconds, before killing him. --[[User:Sommer|Sommer]] 23:50, 24 Jul 2006 (BST)
+: That is a good option, and shrinking when Tux hasn't actually touched anything does seem a bit absurd, now that you mention it.  25 seconds seems too much of a fudge factor, I propose 5 coins/sec for 5 secs. --[[User:Tuxdev|Tuxdev]] 00:24, 25 Jul 2006 (BST)
 
 No Timelimit. At least not in any level on a worldmap. --[[User:Superdev|Superdev]] 23:13, 24 Jul 2006 (BST)
 
