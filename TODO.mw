@@ -27,6 +27,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''M''' Slope values aren't flipped if you flip tilemaps. THe collision code would need to be aware which tilemaps are flipped and then adjust the slope values to that. (The bug is only marked M as currently you can't die because of that anymore, and because you can simply avoid the situation in the levels)
 * '''L''' The collision detection code doesn't move tux completely out of the collision on slopes. All cases where this had bad effects should be worked around at the moment, so this bug has very low priority.
 * '''H''' That slide along code sometimes pushes you into a crush position (try in platforms.stl)
+::Not reproducable. At what location?
 
 === Code Refactoring/Cleanup ===
 * '''L:''' Implement a remove_listener function, so that you can keep track when GameObject get added/removed to the Sector.
