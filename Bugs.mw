@@ -69,6 +69,7 @@ All website bugs have been fixed.
 * 4075: When the game is paused, the time keeps running.
 ** cannot reproduce on 4076. Please give further steps to reproduce. --[[User:Sommer|Sommer]] 00:47, 24 Jul 2006 (BST)
 ** Go to 'The Frosted Fields', start it, and pause.
+** Fixed in r4079 --[[User:Sommer|Sommer]] 15:14, 24 Jul 2006 (BST)
 
 * 4076: Cannot get to 'Forest World'.
 
