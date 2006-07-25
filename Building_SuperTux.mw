@@ -57,6 +57,8 @@ This section is under construction. IDEs that should be able to handle supertux 
 
 = Compiling the editor =
 
+== Setup ==
+
 To compile the editor you should make sure that you have some additional dependencies available:
 
 * An already compiled and working svn version of supertux
@@ -64,13 +66,18 @@ To compile the editor you should make sure that you have some additional depende
 * gtk-sharp 2.8
 * gtk-sourceview-sharp 2.8
 
+== Debian ==
+
 Debian users can run the following command to do this:
  apt-get install mono mono-gmcs gtk-sharp2
 
-{{Attention|s=Neither the stable(1.1.13) or current(1.1.15_2) have the correct version for gtk-sharp in the all-in-one generic Linux installer.}}
-The recommended way to resolve this is:
-: On what Linux distro? On Gentoo I just need to emerge mono-1.1.13, gtk-sharp-2.8 and glade-sharp-2.8. This "recommended" way seems like a very odd way to do it. --[[User:AnMaster|AnMaster]] 17:47, 2 Jul 2006 (BST)
-: On distros that need to, of course.  If you don't need the generic installer, you don't need to resolve anything. --[[User:tuxdev|tuxdev]]
+== Gentoo ==
+
+Gentoo users just emerge mono-1.1.13, gtk-sharp-2.8 and glade-sharp-2.8.
+
+=== Generic ===
+
+If you have to use the generic installer from the web, be warned that neither the stable(1.1.13) or current(1.1.15_2) have the correct version for gtk-sharp. The recommended way to resolve this is:
 
 1.  Install mono using an all-in-one generic installer
 
@@ -98,6 +105,8 @@ You may have to login again after these changes so they can take affect.
 3.  Compile and install gtk-sharp using "./configure --prefix==/path/to/mono"
 
 4.  Verify that the new version is correct by running "pkg-config --modversion gtk-sharp-2.0" (May need to login again for this)
+
+== Building ==
 
 You can compile the editor from commandline with jam. Simply type
  
