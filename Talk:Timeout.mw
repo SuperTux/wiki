@@ -7,7 +7,7 @@ The timeout should be extended the safe time from shrinking so that annoying tim
 
 : Shrinking Tux on timeout seems a little absurd. IMHO shrinking should only happen when Tux is hurt. If we need something to extend Tux' time, maybe after reaching zero on the clock, the game could make Tux lose one coin per second, up to 25 seconds, before killing him. --[[User:Sommer|Sommer]] 23:50, 24 Jul 2006 (BST)
 : That is a good option, and shrinking when Tux hasn't actually touched anything does seem a bit absurd, now that you mention it.  25 seconds seems too much of a fudge factor, I propose 5 coins/sec for 5 secs. --[[User:Tuxdev|Tuxdev]] 00:24, 25 Jul 2006 (BST)
-::Good idea, with me preferring Tuxdev's option. I also kind of prefer the current timeout idea, except maybe extend or reduce the time to accomodate the level, eg. the "No More Mr. Ice Guy" level was very short, yet it had a time limit of 300. --[[User:FlyingPenguins|FlyingPenguins]] 07:43, 25 Jul 2006 (BST)
+::Good idea, with me preferring Tuxdev's option. I also kind of prefer the current timeout idea, except maybe extend or reduce the time to accomodate the level, eg. the "No More Mr. Ice Guy" level was very short, yet it had a time limit of 300, it would've been a good idea to shorten the time limit. --[[User:FlyingPenguins|FlyingPenguins]] 07:43, 25 Jul 2006 (BST)
 
 No Timelimit. At least not in any level on a worldmap. --[[User:Superdev|Superdev]] 23:13, 24 Jul 2006 (BST)
 
