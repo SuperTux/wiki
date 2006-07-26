@@ -73,7 +73,9 @@ Debian users can run the following command to do this:
 
 === Gentoo ===
 
-Gentoo users just emerge mono-1.1.13, gtk-sharp-2.8 and glade-sharp-2.8.
+Gentoo users can use this command:
+ emerge -av ">=dev-lang/mono-1.1.13" ">=dev-dotnet/gtk-sharp-2.8.0" ">=dev-dotnet/glade-sharp-2.8.0"
+Unmask any packages that might be needed on your arch (none needed on either x86 or amd64).
 
 === Generic ===
 
