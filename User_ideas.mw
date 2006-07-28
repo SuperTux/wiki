@@ -28,7 +28,7 @@ I already designed some additional worldmap objects for Supertux 0.1.2, e.g. pat
 
 === One-way platforms ===
 
-<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+<small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives)</small>
 
 I would recommend platforms that could be jumped through from the bottom but you can't fall through them if you are on top. SSB has this, as well as many mario and platforming game. This allows for Points of No Return, and would make the game capable of better and less redundant level design
 
@@ -36,7 +36,7 @@ I would recommend platforms that could be jumped through from the bottom but you
 
 === Better rewards ===
 
-<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+<small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives)</small>
 
 A more fitting reward should be accomplished for collecting coins. Yoshi's Island had red coins, Super Mario Sunshine had Extra Shines, etc.
 : In svn: 25 coins let Tux respawn from the latest firefly
@@ -60,7 +60,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 
 In options menu let player choose a sound output like OSS, aRts and so on.
 
-:It isn't a good idea for SuperTux to be playing with this. If you need to change sound drivers, use the SDL environments variables: http://sdldoc.csn.ul.ie/sdlenvvars.php.
+:It isn't a good idea for SuperTux to be playing with this. If you need to change sound drivers, use the SDL environments variables: sdldoc.csn.ul.ie/sdlenvvars.php.
 
 == Unimplemented ==
 
@@ -80,9 +80,9 @@ Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath
 
 === Darker background ===
 
-<small>(An idea from Stephen2985, taken from [https://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+<small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives)</small>
 
-Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in [http://www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
+Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
 
 
 === Background Tileset ===
@@ -143,6 +143,11 @@ Enter level with jump button.
 === Collecting Stuff ===
 
 I think what makes some games really enjoyable is the possibility of collecting things. One (maybe totally crazy) idea: if Tux could spit bubbles, he probably could catch enemies and carry them to a specific place, like a museum, which is located on the world map. For completing the collection with all badguys of the current world, Tux would get a reward.
+
+=== Rotating bridge ===
+
+Create a rotating bridge, like in Mario.
+[[Image:Rotating-bridge.jpg]]
 
 === Cheats ===
 
