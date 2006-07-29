@@ -22,10 +22,17 @@ You will need the following tools and libraries to build SuperTux on your system
 
 You should make sure that you also have development headers and libraries installed for the tools marked with (*).
 
-Most distributions offer separate developer versions for these libraries, e.g. Debian users should run
+Most distributions offer separate developer versions for these libraries:
+
+== Debian ==
+Debian users should run
  apt-get install subversion autoconf jam g++ 
  apt-get install libsdl1.2-dev libsdl-image1.2-dev libphysfs-dev libvorbis-dev libogg-dev libopenal-dev
 to install them.
+
+== Gentoo ==
+Gentoo users should run
+ emerge -av subversion jam openal physfs libsdl sdl-image libvorbis libogg
 
 = Getting the source =
 
