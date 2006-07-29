@@ -9,7 +9,8 @@ A "jam uninstall" target seems unnecessary to me. You can easily install in a se
 
 == this_file.cpp vs ThisFile.cpp ==
 
-:: this_file.* vs ThisFile.* has the strong advantage that it works portably, if you go with ThisFile instead its just a matter of copying a few times between Windows and Linux to get a broken source tree since many filesystems out there don't preserve case very well. I am also strongly in favour of .hpp instead of .h, since the second one requires annoying guess work to figure out the correct file type, while the other one simply says it streight away. It makes 'find -name "*.?pp" also a lot easier to type. Anway, source is already organized that way. -- [[User:Grumbel|Grumbel]] 20:28, 11 Oct 2005 (BST)
+this_file.* vs ThisFile.* has the strong advantage that it works portably, if you go with ThisFile instead its just a matter of copying a few times between Windows and Linux to get a broken source tree since many filesystems out there don't preserve case very well. I am also strongly in favour of .hpp instead of .h, since the second one requires annoying guess work to figure out the correct file type, while the other one simply says it streight away. It makes 'find -name "*.?pp" also a lot easier to type. Anway, source is already organized that way. -- [[User:Grumbel|Grumbel]] 20:28, 11 Oct 2005 (BST)
+: In fact SVN takes care of it, you never copy directly between the systems, you allways check out/commit to svn. There are other reasons to do that and one is svn:eol-style = native. --[[User:AnMaster|AnMaster]] 00:28, 30 Jul 2006 (BST)
 
 == Spelling error ==
 
