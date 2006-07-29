@@ -6,4 +6,9 @@
 Hey I just recently found your game and am stuck at level 24... I guess that there have to be blocks behind the water texture but I have no idea on how to figuere where are these... and I doubt it just comes to luck there. What am I missing? mfg DJGummikuh
 :Just look closely and you will see there are single blocks to step on. You might want to ask on the [http://supertux.info/forums/ fansite forums] next time you need help, you'll get more responses there. --[[User:FlyingPenguins|FlyingPenguins]] 22:35, 29 Jul 2006 (BST)
 
+==Wiki external links==
+This is just a note: I have realised that on the wiki, whenever an anon or normal user edits a page with external links on it, it will be without the <nowiki>"http://"</nowiki> part, essentially breaking the link. This can be troublesome for a page with lots of links on it. Sysops will then have to fill back the links.
+
+Also, just a suggestion, maybe it would be a good idea to upgrade this version of MediaWiki, to prevent any security vulnerabilities. --[[User:FlyingPenguins|FlyingPenguins]] 22:47, 29 Jul 2006 (BST)
+
 [[Category:For Users]]
