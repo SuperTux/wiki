@@ -22,7 +22,7 @@ You will need the following tools and libraries to build SuperTux on your system
 
 You should make sure that you also have development headers and libraries installed for the tools marked with (*).
 
-Most distributions offer separate developer versions for these libraries:
+Most distributions offer separate developer versions for these libraries.
 
 == Debian ==
 Debian users should run
