@@ -66,9 +66,17 @@ www.slax.org/modules.php?id=710  --jkNospaM AT slaxer DoT com
 
 == Windows installer link down? ==
 
-The Windows binary installer ([http://download.berlios.de/supertux/supertux-0.1.3-setup.exe]) seems to be down at the moment. Accessing that page displays:
+The Windows binary installer (download.berlios.de/supertux/supertux-0.1.3-setup.exe) seems to be down at the moment. Accessing that page displays:
 
 <code>Too many clients for /supertux/supertux-0.1.3-setup.exe</code>
 
 It has been doing that for quite a few days now. --[[User:FlyingPenguins|FlyingPenguins]] 07:13, 12 Jul 2006 (BST)
 :Updated: seems to happen off and on lately, must be Berlios servers overloading. --[[User:FlyingPenguins|FlyingPenguins]] 04:09, 24 Jul 2006 (BST)
+
+== Autopackage 0.1.3 link not work ==
+---
+The link for autopackage (download.berlios.de/supertux/supertux-0.1.3.x86.package) is not working for three days at least (as for 29 July 2006). It reports the following information
+
+<code>Too many clients for /supertux/supertux-0.1.3.x86.package</code>.
+
+Is it means that server is overloaded? If so, should you think of possibility to download the files from somwhere else (mirrors or third patry sites). At he moment I have found the link for this package only for your site.
