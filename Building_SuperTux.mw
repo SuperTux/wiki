@@ -127,4 +127,6 @@ and the editor will be built. You can then start the editor with
 
 There are also complete monodevelop project files for the editor in the svn. (TODO write about the hacks needed to actually compile the source in monodevelop).
 
+You might want to read the [[Editor FAQ]] at this point.
+
 [[Category:Developer documentation]]
