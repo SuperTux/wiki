@@ -26,14 +26,14 @@ All website bugs have been fixed.
 **Isn't this is a badguy characteristic?  Some badguys fall off, others don't.  --tuxdev
 
 == Release 0.1.2 ==
-* The sound slightly lags. Bug produced with Fedora Core 2.
+* The sound http://supertux.berlios.de/wiki/index.php/Bugsslightly lags. Bug produced with Fedora Core 2.
 * If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
 * When opening hand-edited levels/maps that have incorrect syntax, SuperTux crashes with an unmoveable mouse.
 * SuperTux takes up more memory on each new level/game, until it crashes the systems. Using KDE System Guard suggests that finished maps/levels are not being freed from memory. Bug produced on a Knoppix/Debian system with 128MB of RAM.
 
 == Development version ==
 
-== Closed ==
+=== Closed ===
 
 * Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
 ** Fixed in some revision I can't find the number of right now.
@@ -55,7 +55,7 @@ All website bugs have been fixed.
 ** Go to 'The Frosted Fields', start it, and pause.
 ** Fixed in r4079 --[[User:Sommer|Sommer]] 15:14, 24 Jul 2006 (BST)
 
-== Open ==
+=== Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
 * free() errors when exiting SuperTux without having entered a worldmap/level.
