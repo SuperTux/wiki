@@ -218,3 +218,4 @@ Forest Level with Unstable Tiles
 'Tux the Builder'. A forest level with some rocks.
 
 * We might use this as an introductory level, but the first rock Tux encounters has to scream "carry me". Users already had difficulty interpreting the "Run" sign in Milestone 1, level 1, so let's make this absolutely clear :-) --[[User:Sommer|Sommer]] 10:35, 30 Jul 2006 (BST)
+::I can add another rock near the start. If it's placed in midair it will drop down while the player is watching to make it clear that this rock is not a standard tile. If another sign next to the rock is not good enough we could mention it in the manual or add an infoblock. --[[User:WolfgangB|WolfgangB]] 15:29, 30 Jul 2006 (BST)
