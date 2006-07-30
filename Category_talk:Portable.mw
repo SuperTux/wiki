@@ -1,0 +1,9 @@
+==What happens when there is a badguy collision while Tux is carrying something?==
+When there is a collision from the top, behind, or below, there is no change in behaviour.  The behaviour when carrying something and when there is a collision in the front is dependent on what the something is.
+===MrIceBlock===
+MS1 Behaviour: Ice block and other badguy neutralize each other and fall off the screen.
+
+We should try to maintain this behaviour for MS2, and probably all badguy portables should exhibit the behaviour as well.  There just aren't any other badguys that are portable. --[[User:Tuxdev|Tuxdev]] 16:55, 30 Jul 2006 (BST)
+
+===Rock===
+Rocks could shatter, which is similar to the behaviour of the proposed behaviour of the MrIceBlock portable, or could act like a shield so that nothing can hurt Tux by colliding from the front.  The shield may seem like a super-powerup, but all portables still have the disadvantage that Tux can't run, and many badguys now attempt to hurt tux from above. --[[User:Tuxdev|Tuxdev]] 16:55, 30 Jul 2006 (BST)
