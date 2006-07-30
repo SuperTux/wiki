@@ -113,6 +113,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 ** Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
 ** PHYSFS_getLastError() returns the exact string it got from calling std::strerror(), so it uses the encoding implied by LC_MESSAGES. On Windows, this might be everything from Windows-1250 or ISO-8859-15 to Big5.
 * '''M:''' Console is affected by lightmap: Dark level --> dark console
+* '''L:''' Playback of a demo stops at sector transitions. Controller is back to keyboard then...
 
 == Levels ==
 * '''H:''' create 10 or more [[Levels/World2|new levels]] of different size and complexity, using the new features of milestone 2.
