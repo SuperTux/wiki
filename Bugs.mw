@@ -26,7 +26,7 @@ All website bugs have been fixed.
 **Isn't this is a badguy characteristic?  Some badguys fall off, others don't.  --tuxdev
 
 == Release 0.1.2 ==
-* The sound http://supertux.berlios.de/wiki/index.php/Bugsslightly lags. Bug produced with Fedora Core 2.
+* The sound slightly lags. Bug produced with Fedora Core 2.
 * If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
 * When opening hand-edited levels/maps that have incorrect syntax, SuperTux crashes with an unmoveable mouse.
 * SuperTux takes up more memory on each new level/game, until it crashes the systems. Using KDE System Guard suggests that finished maps/levels are not being freed from memory. Bug produced on a Knoppix/Debian system with 128MB of RAM.
