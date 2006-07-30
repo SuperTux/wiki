@@ -88,6 +88,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''D:''' make tilemaps scriptable?
 * '''L:''' Give each subject discussed at [[Meeting_log_%282005-04-02%29]] its own Wiki page.
 * '''D:''' Discuss [[Talk:Timeout|timeout]] effects.
+* '''D:''' Discuss  collision behaviour while Tux is carrying a [[Category_talk:Portable|portable]].
 
 === Statistics ===
 * '''L:''' save score on per-level basis to make high-score (this means coins/time)
