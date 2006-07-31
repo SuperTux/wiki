@@ -330,7 +330,7 @@ Puts the image on <tt>layer</tt>.
 
 See also: src/video/drawing_context.hpp for the predefined layers and their values (note that you can't use these constants in your Squirrel code).
 
-==== set_layer ====
+==== get_layer ====
 Usage: <tt>&lt;floatimage&gt;.get_layer()</tt>
 
 Returns: <tt>int</tt>; the layer the floating image is on.
@@ -369,5 +369,15 @@ Set the image visibility according to <tt>visible</tt>.
 Usage: <tt>&lt;floatimage&gt;.get_visible()</tt>
 
 Returns: <tt>bool</tt>; is the image visible?
+
+==== set_action ====
+Usage: <tt>&lt;floatimage&gt;.set_action(string action)</tt>
+
+Set current action.
+
+==== get_action ====
+Usage: <tt>&lt;floatimage&gt;.get_action()</tt>
+
+Returns: <tt>string</tt>; current action.
 
 [[Category:Scripting Reference]]
