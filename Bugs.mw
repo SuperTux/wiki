@@ -83,4 +83,6 @@ All website bugs have been fixed.
 
 * 4107: Editor: Placing a left-switch is difficult, the switch moves to the left in the game compared to the editor.
 
+* 4107: Big Tux dies when exiting some doors, (e.g. in world2/level1.stl, near the first secret area) possibly because he's spawned in the ground.
+
 [[Category:For Users]]
