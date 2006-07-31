@@ -13,6 +13,9 @@ The <tt>Level</tt> class provides basic controlling functions for the current le
 |-
 ! class="method" style="vertical-align: top"| flip_vertically()
 | Flips the level vertically (i.e. top is now bottom and vice versa). Call again to revert the effect.<br />Tip: Make sure the player can land on something after the level is flipped!
+|-
+! class="method" style="vertical-align: top"| toggle_pause()
+| Toggle pause
 |}
 
 = Constants =
