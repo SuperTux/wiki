@@ -87,4 +87,6 @@ All website bugs have been fixed.
 
 * 4107: Enemies may be pushed in the ground by other objects (e.g. in world2/updown.stl, near the beginning, the snail may be pushed underground by the platform).
 
+* 4107: Tux can get stuck in the "roof" of data/levels/world2/level2.stl at x 4160, y 656.001 when the level is flipped. Slopes still doesn't work when level is flipped.
+
 [[Category:For Users]]
