@@ -4,6 +4,7 @@
 ===How do I move around in a level?===
 Click and drag with the middle mouse button.
 
+<br/>
 
 ==Tiles==
 
@@ -21,11 +22,14 @@ The best way to learn this is to look at existing levels. For the exit tree in M
 
 ===How should I place floor and earth tiles to be the most aesthetically pleasing?===
 
+<br/>
+
 ==Objects==
 
 ===How do I easily align an object to the grid?===
 Press the Control key while moving an object to snap to every 16 pixels.  Press the Shift key to snap to every 32 pixels.
 
+<br/>
 
 ==Other tools==
 
@@ -45,6 +49,7 @@ To create a new brush you got to "train" one:
 
 Note that a good brush would need several thousand patterns.
 
+<br/>
 
 ==Sectors==
 
