@@ -3,7 +3,7 @@ __NOTOC__
 Since May 2005, SuperTux sports a Squirrel scripting interface useful for level designers who want to add some interactive pep to their levels. This document poses as a reference article for those who want to explore the various objects of the SuperTux scripting model.
 
 == What is Squirrel? ==
-One of your first questions might be, "What does a rodent have to do with a penguin?" [http://squirrel.sourceforge.net/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level and worldmap files. The [[Console]] is a full-fledged Squirrel interpreter as well.
+One of your first questions might be, "What does a rodent have to do with a penguin?" [http://www.squirrel-lang.org/ Squirrel] is a language with a syntax not much unlike other C-like languages (C, C++, Java, ...). In the current implementation, it is integrated as elements in the SuperTux level and worldmap files. The [[Console]] is a full-fledged Squirrel interpreter as well.
 
 == Squirrel, S-expr and SuperTux ==
 I have no clue if the developers simply chose Squirrel just because the name so nicely integrates into the series of words "SuperTux" and "[[S-expr]]". Currently, the Squirrel code is integrated in string arguments of Scheme elements in SuperTux level files. (Whew.) This is an example code block inside a level:
