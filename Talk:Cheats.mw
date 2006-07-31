@@ -6,3 +6,4 @@ I think there should be some funny cheats, or gimmiks, like play Beastie or Konq
 ::Where? --[[User:AnMaster|AnMaster]] 21:00, 31 Jul 2006 (BST)
 :::do_cheer() in [[ScriptingPlayer]] is probably consolized.  I'm not sure it actually works yet. --[[User:Tuxdev|Tuxdev]] 21:11, 31 Jul 2006 (BST)
 ::::do_cheer() is meant for when finding a key. In the console you can reach it using <tt>sector.Tux.do_cheer()</tt> Currently it does a backflip, it will be changed --[[User:AnMaster|AnMaster]] 21:15, 31 Jul 2006 (BST)
+::Why do you think it's called '''hidden'''? Not much of a secret if it were in this wiki. --[[User:Superdev|Superdev]] 22:39, 31 Jul 2006 (BST)
