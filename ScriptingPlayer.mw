@@ -22,8 +22,8 @@ This module contains methods controlling the player. (No, SuperTux doesn't use m
 ! class="method"| activate()
 | Reactivates the player's movement controls.
 |-
-! class="method"| walk(float velocity)
-| Makes the player move in a certain horizontal velocity (specified by <tt>velocity</tt>). A negative velocity moves the player to the left.
+! class="method"| walk(float speed)
+| Make Tux walk
 |-
 ! class="method"| set_visible(bool visible)
 | Shows or hides Tux according to the value of <tt>visible</tt>.
@@ -31,20 +31,29 @@ This module contains methods controlling the player. (No, SuperTux doesn't use m
 ! class="method"| get_visible()
 | Returns: <tt>bool</tt>; is Tux visible?
 |-
+! class="method"| kill(bool completely)
+| Hurts a player, if completely=true then the player will be killed even if he had grow or fireflower bonus.
+|-
+! class="method" style="vertical-align: top"| set_ghost_mode(bool enable)
+| Switches ghost mode on/off.<br />Lets Tux float around and through solid objects.
+|-
+! class="method"| get_ghost_mode()
+| Returns whether ghost mode is currently enabled
+|-
 ! class="method"| do_cheer()
 | Makes Tux cheer, if possible.
-|-
-! class="method"| do_backflip()
-| Makes Tux backflip, if possible.
-|-
-! class="method"| do_jump()
-| Makes Tux jump, if possible.
 |-
 ! class="method"| do_duck()
 | Makes Tux duck, if possible.
 |-
 ! class="method"| do_standup()
 | Makes Tux stand up, if possible.
+|-
+! class="method"| do_backflip()
+| Makes Tux backflip, if possible.
+|-
+! class="method"| do_jump()
+| Makes Tux jump, if possible.
 |}
 
 = Constants =
