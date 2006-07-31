@@ -39,11 +39,11 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
 
 = Methods =
 {| class="objectlist"
-! class="method"| set_animation(string name)
-| Activates the sprite's animation specified in <tt>name</tt>.
+! class="method"| set_action(string animation)
+| Activates the sprite's action specified in <tt>animation</tt>.
 |-
-! class="method"| get_animation()
-| Returns the name of the sprite's current animation.
+! class="method"| get_action()
+| Returns the name of the sprite's current action.
 |-
 ! class="method"| move(float x, float y)
 | Moves the object by <tt>x</tt> units to the right and <tt>y</tt> down relative to its current position.
