@@ -1,0 +1,22 @@
+__NOTOC__
+
+= Summary =
+An ambient sound that was given a name can be controlled by scripts.
+
+= Methods =
+{| class="objectlist"
+! class="method" style="vertical-align: top"| set_pos(float x, float y)
+| Sets the position of the abient sound
+|-
+! class="method" style="vertical-align: top"| get_pos_x()
+| Returns the x coordinate.
+|-
+! class="method" style="vertical-align: top"| get_pos_y()
+| Returns the y coordinate.
+|}
+
+= Constants =
+
+None
+
+[[Category:Scripting Reference]]
