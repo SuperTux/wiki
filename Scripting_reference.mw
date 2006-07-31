@@ -227,6 +227,16 @@ Usage: <tt>display(*** object)</tt>
 
 Displays the string value of <tt>object</tt> in the [[Console]]. Object can be of any data type.
 
+==== print_stacktrace ====
+Usage: <tt>print_stacktrace()</tt>
+
+Displays contents of the current stack.
+
+==== get_current_thread ====
+Usage: <tt>get_current_thread()</tt>
+
+Returns the currently running thread.
+
 ==== display_text_file ====
 Usage: <tt>display_text_file(string filename)</tt>
 
@@ -259,6 +269,16 @@ Usage: <tt>exit_screen()</tt>
 
 Exits the current screen, returning to the previous one or, if the active screen is the last one, exiting SuperTux.
 
+==== fadeout_screen ====
+Usage: <tt>fadeout_screen(float seconds)</tt>
+
+Does a fadeout for the specified number of seconds before next screenchange.
+
+==== shrink_screen ====
+Usage: <tt>shrink_screen(float dest_x, float dest_y, float seconds)</tt>
+
+Does a shrinking fade towards the destposition for the specified number of seconds before next screenchange
+
 ==== translate ====
 Usage: <tt>translate(string text)</tt>
 
@@ -278,14 +298,22 @@ Usage: <tt>save_status()</tt>
 
 Dumps the current state into the user's save game file.
 
+==== play_music ====
+Usage: <tt>play_music(string musicfile)</tt>
+
+Changes music to musicfile
+
+==== play_sound ====
+Usage: <tt>play_sound(string soundfile)</tt>
+
+Plays a soundfile
+
 ==== add_key ====
 Usage: <tt>add_key(int key)</tt>
 
 Adds or removes a key from the player's posession. <tt>key</tt> should be replaced with one of the <tt>KEY_</tt> constants.
 
 See also: src/player_status.hpp
-
-
 
 === FloatingImage ===
 The FloatingImage class contains methods for handling an image floating in mid-air, such as the SuperTux logo.
