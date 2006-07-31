@@ -10,3 +10,4 @@ We should try to maintain this behaviour for MS2, and probably all badguy portab
 ===Rock===
 Rocks could shatter, which is similar to the behaviour of the proposed behaviour of the MrIceBlock portable, or could act like a shield so that nothing can hurt Tux by colliding from the front.  The shield may seem like a super-powerup, but all portables still have the disadvantage that Tux can't run, and many badguys now attempt to hurt tux from above. --[[User:Tuxdev|Tuxdev]] 16:55, 30 Jul 2006 (BST)
 :No, if you want a shield create a shield. Destrying a rock can make a level unsolvable which is worse than a downgrade from big to small. --[[User:WolfgangB|WolfgangB]] 16:57, 31 Jul 2006 (BST)
+::True, rocks should not shatter --[[User:AnMaster|AnMaster]] 21:05, 31 Jul 2006 (BST)
