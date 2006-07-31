@@ -81,4 +81,6 @@ All website bugs have been fixed.
 
 * 4087: Getting an icicle to fall on a snowball no longer kills the snowball. (Even if that's intended, I kinda liked that feature...)
 
+* 4107: Editor: When selecting Cave2.jpg as bottom background and anything else as middle background, the cave2 is not rendered seamlessly at the background and a hall-of-mirrors occurs. 
+
 [[Category:For Users]]
