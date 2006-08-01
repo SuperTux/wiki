@@ -89,8 +89,6 @@ All website bugs have been fixed.
 
 * 4107: Tux can get stuck in the "roof" of data/levels/world2/level2.stl at x 4160, y 656.001 when the level is flipped. Slopes still doesn't work when level is flipped.
 
-* 4107: AmbientSound ignores given size. Fixed locally, will commit it ASP. --[[User:WolfgangB|WolfgangB]] 02:59, 1 Aug 2006 (BST)
-
 * 4107: Editor: When using a ScriptedObject, it doesn't matter wether or not it's selected solid or not - it's allways solid. Beside, tux doesn't really stand on it but *hovers* slightly above it, falling THROUGH the object after 1-2 seconds (again no matter if it's solid or not)
 [[Category:For Users]]
 :This is not an editor bug, it is in ST itself.  Cause is related to ScriptedObject not being a MovingObject or MovingSprite.  I don't think ScriptedObject should even exist. --[[User:Tuxdev|Tuxdev]] 19:08, 1 Aug 2006 (BST)
