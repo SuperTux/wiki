@@ -96,3 +96,5 @@ All website bugs have been fixed.
 :This is not an editor bug, it is in ST itself.  Cause is related to ScriptedObject not being a MovingObject or MovingSprite.  I don't think ScriptedObject should even exist. --[[User:Tuxdev|Tuxdev]] 19:08, 1 Aug 2006 (BST)
 
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
+
+* 4107: Editor: Deleting a Tilemap doesn't delete the tiles in it but instead lets EVERY tile of the map loose its tilemaps so you can't edit anything anymore (can't even add new tiles)
