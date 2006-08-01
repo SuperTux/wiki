@@ -89,6 +89,5 @@ All website bugs have been fixed.
 
 * 4107: Tux can get stuck in the "roof" of data/levels/world2/level2.stl at x 4160, y 656.001 when the level is flipped. Slopes still doesn't work when level is flipped.
 
-* 4107: AmbientSound ignores given size. Fixed locally, will commit it ASP. --[[User:62.214.244.63|62.214.244.63]] 02:47, 1 Aug 2006 (BST)
-
+* 4107: AmbientSound ignores given size. Fixed locally, will commit it ASP. --[[User:WolfgangB|WolfgangB]] 02:59, 1 Aug 2006 (BST)
 [[Category:For Users]]
