@@ -16,5 +16,5 @@ I would upgrade if the MySQL version of wasn't too old. This have been discussed
 ==Supertux being sold?!==
 Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters site is located here; www.oldray.net. Seems to also have made a one level demo available. While I know that the GPL permits this, I can't stand people it. I was planning to create a Pocket PC port before I found this. We should be able to get the source from this shouldn't we?
 :You can download a Pocket PC Binary there. They call it a demo. Anyway, its a binary based on our GPL Code. As fas as I understand the GPL they have to give the source to everyone who has a Binary. --[[User:62.214.230.124|62.214.230.124]] 15:03, 2 Aug 2006 (BST)
-
+:Is it possible to build the binary with the source included in the demo's .zip file?
 [[Category:For Users]]
