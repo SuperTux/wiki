@@ -18,3 +18,4 @@ Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters 
 :You can download a Pocket PC Binary there. They call it a demo. Anyway, its a binary based on our GPL Code. As fas as I understand the GPL they have to give the source to everyone who has a Binary. --[[User:62.214.230.124|62.214.230.124]] 15:03, 2 Aug 2006 (BST)
 :Is it possible to build the binary with the source included in the demo's .zip file?
 [[Category:For Users]]
+::No idea, but looks like they did not change the level format. So why not create a package from the demo which includes all levels for free? Can someone with the right hardware test if that works? --[[User:Superdev|Superdev]] 16:08, 2 Aug 2006 (BST)
