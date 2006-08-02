@@ -98,3 +98,5 @@ All website bugs have been fixed.
 :::Well at least you still can't stand on a scripted object. Haven't had time to test if solid/nonsolid works now. 
 
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
+
+* 4107: Editor: when trying to set the time for pathpoints of moving platforms "," and "." is ignored allthough the value *should* be a float
