@@ -55,6 +55,8 @@ All website bugs have been fixed.
 ** Go to 'The Frosted Fields', start it, and pause.
 ** Fixed in r4079 --[[User:Sommer|Sommer]] 15:14, 24 Jul 2006 (BST)
 
+* 4107: Editor: Deleting a Tilemap doesn't delete the tiles in it but instead lets EVERY tile of the map loose its tilemaps so you can't edit anything anymore (can't even add new tiles)
+**Fixed in r4111. --[[User:WolfgangB|WolfgangB]] 03:36, 2 Aug 2006 (BST)
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
@@ -95,5 +97,3 @@ All website bugs have been fixed.
 ::Looks like ScriptedObject was another victim of r4076. Not sure if I got all problems fixed. Please test. --[[User:WolfgangB|WolfgangB]] 23:47, 1 Aug 2006 (BST)
 
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
-
-* 4107: Editor: Deleting a Tilemap doesn't delete the tiles in it but instead lets EVERY tile of the map loose its tilemaps so you can't edit anything anymore (can't even add new tiles)
