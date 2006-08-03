@@ -17,5 +17,8 @@ I would upgrade if the MySQL version of wasn't too old. This have been discussed
 Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters site is located here; www.oldray.net. Seems to also have made a one level demo available. While I know that the GPL permits this, I can't stand people it. I was planning to create a Pocket PC port before I found this. We should be able to get the source from this shouldn't we?
 :You can download a Pocket PC Binary there. They call it a demo. Anyway, its a binary based on our GPL Code. As fas as I understand the GPL they have to give the source to everyone who has a Binary. --[[User:62.214.230.124|62.214.230.124]] 15:03, 2 Aug 2006 (BST)
 :Is it possible to build the binary with the source included in the demo's .zip file?
-[[Category:For Users]]
 ::No idea, but looks like they did not change the level format. So why not create a package from the demo which includes all levels for free? Can someone with the right hardware test if that works? --[[User:Superdev|Superdev]] 16:08, 2 Aug 2006 (BST)
+::: Just tested it on my PPC. All original SuperTux 0.1.3 levels work with the provided "demo" engine.
+::Seems like the source code included with the "demo" engine is only for the original, unaltered versions. This is in direct violation of the GPL which forbids linking GPLed code with proprietary code. 
+
+[[Category:For Users]]
