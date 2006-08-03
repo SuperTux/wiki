@@ -96,7 +96,6 @@ All website bugs have been fixed.
 :This is not an editor bug, it is in ST itself.  Cause is related to ScriptedObject not being a MovingObject or MovingSprite.  I don't think ScriptedObject should even exist. --[[User:Tuxdev|Tuxdev]] 19:08, 1 Aug 2006 (BST)
 ::Looks like ScriptedObject was another victim of r4076. Not sure if I got all problems fixed. Please test. --[[User:WolfgangB|WolfgangB]] 23:47, 1 Aug 2006 (BST)
 :::Well at least you still can't stand on a scripted object. Haven't had time to test if solid/nonsolid works now. 
+::::Now you can as long as it does not have physic enabled. --[[User:62.214.230.124|62.214.230.124]] 03:24, 3 Aug 2006 (BST) 
 
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
-
-* 4107: Editor: when trying to set the time for pathpoints of moving platforms "," and "." is ignored allthough the value *should* be a float
