@@ -17,7 +17,7 @@ This module contains methods controlling the player. (No, SuperTux doesn't use m
 | Makes the player invincible for either a custom or a predefined amount of time.<br />See also: <tt>TUX_INVINCIBLE_TIME</tt> in src/object/player.hpp for the amount of seconds that the player becomes invincible in case <tt>time</tt> is not specified.
 |-
 ! class="method" style="vertical-align: top"| deactivate()
-| Stops the player and blocks the movement controls.<br />Tip: Don't call this in front of a horde of badguys.
+| Stops the player and blocks the movement controls.<br />Tip: Don't call this in front of a horde of badguys. Carried items like trampolines won't be dropped.
 |-
 ! class="method"| activate()
 | Reactivates the player's movement controls.
