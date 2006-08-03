@@ -99,3 +99,5 @@ All website bugs have been fixed.
 ::::Now you can as long as it does not have physic enabled. --[[User:62.214.230.124|62.214.230.124]] 03:24, 3 Aug 2006 (BST) 
 
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
+
+* 4107: Wind with x speed 0 is really x speed -1 . in order to get tux move vertically, set x-speed to 1 (or fix it ;-D)
