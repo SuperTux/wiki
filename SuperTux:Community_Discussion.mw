@@ -21,5 +21,6 @@ Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters 
 ::: Just tested it on my PPC. All original SuperTux 0.1.3 levels work with the provided "demo" engine.
 ::Seems like the source code included with the "demo" engine is only for the original, unaltered versions. This is in direct violation of the GPL which forbids linking GPLed code with proprietary code. 
 :::Not necessarily. They just have to give you the source if you ask for it, they don't have to ship it with the binary. So ask for it and if you don't get the source hand it over to gpl-violations.org.
+BTW, my_defs.cpp does not look like original supertux code so better check again.
 
 [[Category:For Users]]
