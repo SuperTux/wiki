@@ -20,5 +20,6 @@ Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters 
 ::No idea, but looks like they did not change the level format. So why not create a package from the demo which includes all levels for free? Can someone with the right hardware test if that works? --[[User:Superdev|Superdev]] 16:08, 2 Aug 2006 (BST)
 ::: Just tested it on my PPC. All original SuperTux 0.1.3 levels work with the provided "demo" engine.
 ::Seems like the source code included with the "demo" engine is only for the original, unaltered versions. This is in direct violation of the GPL which forbids linking GPLed code with proprietary code. 
+:::Not necessarily. They just have to give you the source if you ask for it, they don't have to ship it with the binary. So ask for it and if you don't get the source hand it over to gpl-violations.org.
 
 [[Category:For Users]]
