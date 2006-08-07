@@ -159,6 +159,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 == Editor ==
 (The editor is not release critical therefore no ratings for these TODOS)
 * Scroll TileList with middle mouse, Get different Tilegroups
+:Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
 * Add scrollbars to tilelist widget
 * Add scrollbars to level?
 * Create an overview widget (where to place this in the GUI?)
