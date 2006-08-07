@@ -1,5 +1,5 @@
 ==How should timeouts affect the player?==
-MS1 behaviour: ???
+MS1 behaviour: Kill tux on timeout.
 
 Current r4079 behaviour: Shrink Tux and kill him immediately on timeout.
 
