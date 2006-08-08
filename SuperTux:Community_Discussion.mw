@@ -23,5 +23,6 @@ Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters 
 :::Not necessarily. They just have to give you the source if you ask for it, they don't have to ship it with the binary. So ask for it and if you don't get the source hand it over to gpl-violations.org.
 BTW, my_defs.cpp does not look like original supertux code so better check again.
 ::::I think that the GPL is much more strict than that.  I think it is against the license to modify the sources, and distribute those modifications without those modifications also falling under the GPL.  Since those modifications apparently fall under a commercial license, it is already a GPL violation.  By his own admittance, it is a derivative work. --[[User:Tuxdev|Tuxdev]] 22:15, 4 Aug 2006 (BST)
+::::The fishy part about all this is """Commercial part of license covers work and time spent to change source code and other resources to make SuperTux playable on Pocket PC platform.""", if that commercial part goes into the binary its a clear violation, if its just some wrapper or so, its not. Requires a deeper look as to what is actually going on. -- [[User:Grumbel|Grumbel]] 06:31, 8 Aug 2006 (BST)
 
 [[Category:For Users]]
