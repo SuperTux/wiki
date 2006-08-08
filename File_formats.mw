@@ -13,7 +13,7 @@ You can find in-depth discussions of the following files' formats at their respe
 
 The remainder of this article will give a general overview and describe miscellaneous file formats.
 
-<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ...  </u>== Brackets, brackets, brackets (About the Language) ==
+== Brackets, brackets, brackets (About the Language) ==
 As you might have already noticed, the SuperTux definition files (just about for everything) are full of brackets ('(' and ')'). This might freak out a few BASIC or Python programmers who have pretty much developed a natural aversion against them.
 
 "The Crazy File Format" used by SuperTux is [[S-expr]]. This syntax is mostly used by programming languages (such as Lisp or Scheme), but the devs simply thought why not to implement it as a data storage language. And so, the SuperTux data language was born.
@@ -33,6 +33,8 @@ Language syntax is (nearly) always best consumable when demonstrated on an examp
     (integer-list 10 20 30) ; A list of integers, much like an array.
 )  ; Don't forget the closing bracket!!!
 </pre>
+
+
 
 == Scrolling texts ==
 Scrolling texts are used for the credits and were used for the intro and extro in Milestone 1. The format is simple:
