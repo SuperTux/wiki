@@ -158,6 +158,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 
 == Editor ==
 (The editor is not release critical therefore no ratings for these TODOS)
+* Add support for editing tilemap paths. Added to the game itself in r4130 and r4131.
 * Scroll TileList with middle mouse, Get different Tilegroups
 :Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
 * Add scrollbars to tilelist widget
