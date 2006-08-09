@@ -11,27 +11,7 @@ Add your comments and enhancement requests here. Download page is locked to avoi
 
 Is someone working on a Mac distribution. I tried to install all of the required packages repeatedly, but somehow my vorbis installation is messed up. I have tried reinstalling it and it doesn't let me compile the source. I would really like to play the new levels, but I am entirely dependent on someone else compiling a binary. Thank you to whoever that kind soul is.
 
-== Install supertux 0.1.3 on Mac OS X.  HowTo: ==
-This is probably not the best solution around but at least I got a working supertux 0.1.3 now :-)
-Do this (You should now how to handle the Terminal and even better Fink, otherwise better wait for a package:
-
-Get the source and untar it.<br/>
-Install Fink ([http://fink.sf.org])<br/>
-in Terminal install the following binaries through Fink:<br/>
-%fink install sdl<br/>
-%fink install sdl-image<br/>
-%fink install sdl-mixer<br/>
-
-then go to your untared copy of supertux and do this:<br/>
-%./configure --disable-opengl<br/>
-make<br/>
-
-once everything is compiled, go to the src directory inside your supertux directory and type in Termianl:<br/>
-./supertux -d ../data/<br/>
-
-Now it should be working!
-
-PS: OpenGL is not enabled in this mode. Didn't work, had compiling errors with that. There are probably ways to have a package that works like 0.1.2 but I have no clue how to compile SDL and everything into one directory. If someone can do that, go ahead.
+El == instala el supertux 0.1.3 en OS X. HowTo del Mac: El == ihyigvbuikjoiuvhbnuecfhnygsdyigcizysgchhfhegfuefhcvbcjskshcdhfudchkzfyuefhrsgfaOYDEIGFEOHDZGFWE7RYWUDYEWEFDWIE<br/> todo se compila, va al directorio del src dentro de tu directorio del supertux y mecanografía una vez adentro Termianl: ¡<br/> ./supertux - d ../data/ <br/> ahora que debe trabajar! Picosegundo: OpenGL no se permite en este modo. No trabajó, tenía errores de compilación con eso. Hay probablemente maneras de tener un paquete que trabaje como 0.1.2 pero no tengo ninguna pista cómo compilar SDL y todo en un directorio. Si alguien puede hacer eso, ir a continuación.
 
 == PSP problems ==
 
