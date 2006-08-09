@@ -59,7 +59,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''L:''' Combine tiles into bigger images (worldmap and the waterfall tiles come to mind). This should improve load time and opengl speed a bit (because we need fewer texture changes).
 
 === Miscellaneous ===
-* '''H:''' Make ambient lighting a per-sector property and always apply it to the sector. Currently ambient lighting is hardcoded and only gets applied when something like the spotlight or willowisp is in view.
 * '''M:''' Make sure levels for version 0.1.2 still work. Currently this isn't the case because some files have been renamed and other small stuff... Our levelmaking fans will be happy if they don't loose the ability to play their old levels.
 * '''M:''' Tux did go up/down 1 or 2 pixels each step when walking around in the 0.1.x releases which made the walk look a bit more natural. I don't know if this was done intentionally or why it doesn't work anymore, but it would be nice to have this effect again.
 * '''L:''' the camera does some nasty little jumps if you jumped up on a higher place where the camera didn't completely follow yet and you fall down directly again. This will suddenly raise the camera up.
