@@ -108,8 +108,9 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 
 === Bugs ===
 * '''H:''' Check/Fix bullet speed/behaviour
-** Please elaborate - what exactly needs to be checked or fixed? (Just compare it with what bullets did in milestone1, the reason the stuff is different now is because the code there is not coded in a framerate independent way)
-:In MS1 Tux is [[:Image:Fireball ms1-nq8.png|spitting the bullets]] in svn version he is [[:Image:Fireball ms2-nq8.png|throwing them]]. Thats the difference I notice, maybe there is also more subtile framebased stuff. --[[User:WolfgangB|WolfgangB]] 15:36, 9 Jul 2006 (BST)
+** Please elaborate - what exactly needs to be checked or fixed? 
+** (Just compare it with what bullets did in milestone1, the reason the stuff is different now is because the code there is not coded in a framerate independent way)
+** In MS1 Tux is [[:Image:Fireball ms1-nq8.png|spitting the bullets]] in svn version he is [[:Image:Fireball ms2-nq8.png|throwing them]]. Thats the difference I notice, maybe there is also more subtile framebased stuff. --[[User:WolfgangB|WolfgangB]] 15:36, 9 Jul 2006 (BST)
 ** Checked and (presumably) fixed in r4143 --[[User:Sommer|Sommer]] 00:11, 10 Aug 2006 (BST)
 * '''L:''' It seems like we get non-UTF8 strings from Windows error messages. SuperTux expects UTF-8 encodings.
 ** Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
