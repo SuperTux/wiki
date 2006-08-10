@@ -71,7 +71,6 @@ To compile the editor you should make sure that you have some additional depende
 * An already compiled and working svn version of supertux
 * mono 1.1.13 or newer
 * gtk-sharp 2.8
-* gtk-sourceview-sharp 2.8
 
 === Debian ===
 
