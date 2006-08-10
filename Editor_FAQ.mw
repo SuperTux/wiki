@@ -18,7 +18,7 @@ With the Tiles tool selected, there is a combo box above the pane with all of th
 Click on the small eye in the layer listing to adjust how hidden a layer is.  Options are shown, semitransparent, and hidden.
 
 ===How should I place the tiles for the end-level structures?===
-The best way to learn this is to look at existing levels. For the exit tree in MS2 the best place to look at is levels/test/tree-exit.stl at this point.
+The best way to learn this is to look at existing levels. For the exit tree in MS2 the best place to look at is levels/test/tree-exit.stl at this point. Also note that using tiles for triggering the end sequence, although still supported, is no longer necessary. See "What is the SequenceTrigger object for?"
 
 ===How should I place floor and earth tiles to be the most aesthetically pleasing?===
 
@@ -28,6 +28,9 @@ The best way to learn this is to look at existing levels. For the exit tree in M
 
 ===How do I easily align an object to the grid?===
 Press the Control key while moving an object to snap to every 16 pixels.  Press the Shift key to snap to every 32 pixels.
+
+===What is the SequenceTrigger object for?===
+The SequenceTrigger object is used to define the areas that start and stop the end sequence (Tux walks into Igloo / Exit). The sequence names for that are "endsequence" and "stoptux", respectively.
 
 <br/>
 
