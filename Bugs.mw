@@ -94,5 +94,6 @@ All website bugs have been fixed.
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
 
 * 4117: Wind with x speed 0 is really x speed -1 . in order to get tux move vertically, set x-speed to 1 (or fix it ;-D)
+::Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
 
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
