@@ -24,11 +24,6 @@ The primary goal of the forest world is to beat the boss at the final castle lev
 = Levels =
 Unlike Antarctica, forest levels can have variable sizes, both horizontally and vertically. In addition to that, levels can have a number of different sectors of variable size, connected by doors, portals, script events and spawn points. Due to this variability, there is no recommended level size anymore; the "perfect size" of a level solely depends on its design.
 The three different themes on forest world -light forest, ghost forest and castle- are each represented by a matching tileset. All forest levels use one of these tilesets; a general rule should be not to mix them.
-Levels in the transition area between light and ghost forest, however, follow a different design: Those levels will have a light sector and a very similar looking ghost forest sector. Troughout the level, Tux will need to travel between the sectors to solve puzzles and find his way through the level. Transition between the worlds can happen by either
-
-* actively walking through a portal,
-* being beamed into the other world without warning, using invisible triggers, or
-* being caught by special badguys that have the ability to carry you over to the other world.
 
 Levels have the ability to autoscroll in all four directions. There is no fixed ending sequence like in Antarctica anymore; level designers can use scripts to determine the ending conditions of a level. The most common level endings will be:
 
@@ -36,9 +31,18 @@ Levels have the ability to autoscroll in all four directions. There is no fixed 
 * picking up a special item (for example, one of the five keys),
 * killing a certain badguy or boss.
 
-Milestone 2 levels will try to focus on a certain theme to make each level unique in gameplay. The following is a list of possible themes for 15 levels:
+Milestone 2 levels will try to focus on a certain theme to make each level unique in gameplay. Level events can be automated using scripts in order to create in-game cutscenes.
 
-Light Forest:
+== Worldmap ==
+Other than on the Antarctica worldmap, the levels should be placed on different paths, so that there is always a choice between at least two levels. Exceptions to this (i.e. levels with no alternative to choose from) are	 
+		 
+* the first level,	 
+* levels on one path that are in some way connected by story,	 
+* the (first) transition to the ghost forest section, and	 
+* the castle levels.
+
+== Light Forest ==
+Levels:
 * Theme introdoction and tutorial on new abilities
 * Moving platforms
 * Trampolines
@@ -47,19 +51,23 @@ Light Forest:
 * Portable boxes, stacking
 * Vertically flipped level
 
-Ghost Forest:
+== Ghost Forest ==
+Levels in the transition area between light and ghost forest, however, follow a different design: Those levels will have a light sector and a very similar looking ghost forest sector. Troughout the level, Tux will need to travel between the sectors to solve puzzles and find his way through the level. Transition between the worlds can happen by either
+
+* actively walking through a portal,
+* being beamed into the other world without warning, using invisible triggers, or
+* being caught by special badguys that have the ability to carry you over to the other world.
+
+Levels:
 * Light forest to ghost forest transition, theme introduction (two levels)
 * Cannons and dispensers
 * Spiders
 
-Castle:
+== Castle == 
 * Main Hall: Theme introduction
 * First Floor: Labyrinth, light switch blocks
 * Tower: Rising Lava
 * Attic: Boss battle
- 
-For more general information on level design, read the file "levelguidelines.txt" in the docs directory of the SuperTux repository.
-Level events can be automated using scripts in order to create in-game cutscenes.
 
 = [[Actions]] =
 
