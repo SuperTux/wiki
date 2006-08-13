@@ -19,13 +19,6 @@ SuperTux Milestone 2 will use OpenGL to draw the graphics. The features of this 
 
 After finishing Antarctica by beating the worlds boss, a cutscene, replacing the currently displayed text, will be shown. (For a detailed description of cutscenes, see section "Story".) Tux will then advance to [[World 2]], the forest island. Its worldmap will be built using the same, possibly enhanced, format that Antarctica uses. The worldmap will be designed as follows: The island consists of four sections. A light friendly looking forest where Tux starts his journey, a ghost forest section, and a transition between them; in the center of the island, surrounded by the ghost forest is the world's castle, called Dark Forest Keep. Levels will be spread throughout the whole island, distributed as follows: 50 per cent of the levels are inside the light section, 30 per cent inside the haunted section, with one or two levels inside the transition area. The remaining 20 per cent will take place inside the castle.
 
-Other than on the Antarctica worldmap, the levels should be placed on different paths, so that there is always a choice between at least two levels. Exceptions to this (i.e. levels with no alternative to choose from) are
-
-* the first level,
-* levels on one path that are in some way connected by story,
-* the (first) transition to the ghost forest section, and
-* the castle levels.
-
 The primary goal of the forest world is to beat the boss at the final castle level. In order to get there, Tux needs to collect five keys scattered throughout the island which will open the door to the castle. Thus, the paths on the worldmap should lead into five dead-ends that hold the levels in which the key can be found. The path to the castle is accessible from after the first level. However, when Tux tries to enter the castle, he can't unlock the door without all five keys.
 
 = Levels =
