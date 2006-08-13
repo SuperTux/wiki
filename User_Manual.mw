@@ -95,7 +95,7 @@ In the course of the game, Tux will encounter lots of different enemies - some e
 
 [[Image:Right.png|right]]
 
-=== Firefly ===
+=== Fireflies ===
 
 When Tux got thrown off the screen, he will normally have to start the current level over from the beginning. There is one exception, though: Most levels contain one or more fireflies, which look like this:
 
@@ -150,6 +150,12 @@ When you activated an info block, the game will pause and you can use the Up and
 Secret blocks are special blocks that appear out of thin air when Tux jumps in certain places.
 
 They can then be stepped on to reach higher places, e.g. a secret area or a shortcut.
+
+=== Trampolines ===
+
+Trampolines come in two flavours: A stationary version, which looks a bit like a mushroom and a portable version, which looks like a large spring. For information about carrying stuff around, see section "Carrying Objects".
+
+Normally, Tux will only bounce up and down a little bit on a trampoline. To make him jump really high, hold down the jump button when landing on the trampoline.
 
 <br style="clear: both;" />
 
