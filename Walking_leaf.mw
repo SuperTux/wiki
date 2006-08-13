@@ -1,16 +1,5 @@
-{{Infobox Badguy
-| Name=Walking leaf
-| Image=Leaf.png
-| FoundIn=[[Forest]]
-| Appearance=Reddish version of [[Poison Ivy]].
-| Behaviour=Walks around. Stays on platforms.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=
-}}
-'''Walking Leaf''' is a [[badguy]] in the [[Forest]] world. It is a bit smarter than the ordinary badguy because it does not fall off of platforms. The leaf will hurt [[Tux]] on contact and can be killed the usual ways. Since it is more careful, it is walks a bit slower than the average badguy.
+'''Walking Leaf''' is a bit smarter than the ordinary badguy, but not much. Just smart enough to stay on
+it's platform instead of jumping down. The Leaf will hurt tux on contact and can be killed the usual
+ways. Since it is more careful it is walking a bit slower than the average badguy. 
 
-{{Navbox Badguys}}
-[[Category:Badguy.3]]
+At the moment, the Leaf uses a redish version of [[Poison Ivy]], feel free to improve that.
