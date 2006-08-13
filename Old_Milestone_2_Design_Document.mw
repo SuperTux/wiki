@@ -52,11 +52,14 @@ Levels:
 * Vertically flipped level
 
 == Ghost Forest ==
-Levels in the transition area between light and ghost forest, however, follow a different design: Those levels will have a light sector and a very similar looking ghost forest sector. Troughout the level, Tux will need to travel between the sectors to solve puzzles and find his way through the level. Transition between the worlds can happen by either
+
+Intro: Nolok is using some heavy magic in the castle, this will have an effect to the levels around the castle. The forest there turned into a ghost forest. Stuff will look spooky and surreal things can happen.
+
+Gameplay: You can think of the ghost world as a 2nd dimension next to the forest. There will be some game elements that allow a transition between these 2 dimensions (or force that transition). We will also start playing with colors and light effects in the ghost forest parts. Transitions between the dimensions can happen by:
 
 * actively walking through a portal,
 * being beamed into the other world without warning, using invisible triggers, or
-* being caught by special badguys that have the ability to carry you over to the other world.
+* being caught by special badguys (willowisp) that have the ability to carry you over to the other world.
 
 Levels:
 * Light forest to ghost forest transition, theme introduction (two levels)
