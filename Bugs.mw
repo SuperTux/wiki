@@ -97,5 +97,3 @@ All website bugs have been fixed.
 ::Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
 
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
-
-* 4167: Cannot pick up Mr. IceBlocks (kicks them instead).
