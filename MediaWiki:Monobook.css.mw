@@ -32,7 +32,7 @@ div#bodyContent dl
 {
   display: list;
   list-style-type: circle;
-  list-style-image: url("discussionitem_icon.gif");
+  list-style-image: url("/wiki/skins/monobook/discussionitem_icon.gif");
 }
 
 div#bodyContent dl dd 
