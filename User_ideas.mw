@@ -88,10 +88,11 @@ Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath
 
 === Darker background ===
 
-<small>(An idea from Stephen2985, taken from [http://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+<small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
 
-Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in [http://www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
+Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
 
+*Even gooder idea - Make it adjustable. Make the player able to adjust the brightness of the background, or every layer, of blocks and such. Transparency would be a great bonus too. Although one of the suggested changes for milestone two is making the foreground transparent where Tux is, I think this would take some potential level gameplay possibilities away. Transparency around Tux, if implemented, should probably be adjustable. Hopefully in a 'layer' section of preferences.
 
 === Background Tileset ===
 <small>after reading grumbel's rant</small> a tileset for forest paralx background is missing. Standard forest tiles are too big.
