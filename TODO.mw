@@ -83,9 +83,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result shouldn't affect the gamelogic at all)
 * '''M:''' Option to delete or overwrite existing savegames.
 * '''L:''' Add line-editing functionality to Console
-* '''L:''' Add an option to tilemaps to fade away if tux stands behind tiles. (This is usefull to hide secret ways and entrances)
-** For starters, being able to set a tilemap's opacity to 50% would suffice. Layering this semitransparent tilemap on an opaque one would achieve a similar effect
-* '''D:''' make tilemaps scriptable?
 * '''L:''' Give each subject discussed at [[Meeting_log_%282005-04-02%29]] its own Wiki page.
 * '''D:''' Discuss [[Talk:Timeout|timeout]] effects.
 * '''D:''' Discuss  collision behaviour while Tux is carrying a [[Category_talk:Portable|portable]].
