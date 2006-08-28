@@ -83,3 +83,7 @@ The link for autopackage ([http://download.berlios.de/supertux/supertux-0.1.3.x8
 
 Is it means that server is overloaded? If so, should you think of possibility to download the files from somewhere else (mirrors or third party sites). At the moment I have found the link for this package only for your site.
 :Yes, the server is probably overloaded. Unfortunately, Berlios isn't like Sourceforge, where you get to choose to download from many mirror locations around the world. You will just have to refresh the page often or try again later. --[[User:FlyingPenguins|FlyingPenguins]] 22:58, 29 Jul 2006 (BST)
+
+== Fedora Install ==
+
+Fedora Extras includes a supertux package.  <code>yum install supertux</code> should be sufficient for users of any recent version of Fedora.  (Users of older Fedora or Red Hat Linux releases, or RHEL and derivatives, might need to configure yum, apt, or smart, or just download the package from (download.fedora.redhat.com/pub/fedora/linux/extras/ Fedora Extras) or (mirrors.kernel.org/fedora.us/fedora/ fedora.us).
