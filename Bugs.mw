@@ -1,7 +1,7 @@
 This page lists all known bugs. Feel free to elaborate on any bugs already noted here. Please make a note if a bug has either been fixed or not been fixed (in an old release).
 
 == Website ==
-When you click on Milestone1, Milestone2, or Development and you go to those pages and then click on the same link again it will run into an error.<br/>
+* When you click on Milestone1, Milestone2, or Development and you go to those pages and then click on the same link again it will run into an error.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''Submitted by: Justin (Tuxinator) Davis as anonymous''
 
 == Release 0.1.3 ==
