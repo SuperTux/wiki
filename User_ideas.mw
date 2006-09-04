@@ -28,7 +28,7 @@ I already designed some additional worldmap objects for Supertux 0.1.2, e.g. pat
 
 === One-way platforms ===
 
-<small>(An idea from Stephen2985, taken from [http://lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
+<small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives)</small>
 
 I would recommend platforms that could be jumped through from the bottom but you can't fall through them if you are on top. SSB has this, as well as many mario and platforming game. This allows for Points of No Return, and would make the game capable of better and less redundant level design
 
@@ -63,7 +63,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 
 In options menu let player choose a sound output like OSS, aRts and so on.
 
-:It isn't a good idea for SuperTux to be playing with this. If you need to change sound drivers, use the SDL environments variables: [http://sdldoc.csn.ul.ie/sdlenvvars.php].
+:It isn't a good idea for SuperTux to be playing with this. If you need to change sound drivers, use the SDL environments variables: sdldoc.csn.ul.ie/sdlenvvars.php.
 
 ::The right place to change those settings would probally in a launcher application that starts before SuperTux itself and allows setting of sound driver, video resolution and other stuff, its a very common thing in Windows and might be a good idea under Linux as well, especially since those SDL environment variables are not exactly easy to find. -- [[User:Grumbel|Grumbel]] 07:47, 1 Aug 2006 (BST)
 
@@ -136,18 +136,18 @@ This would be good. Make a 'talking' system that scrolls on the bottom. Maybe so
 * Maybe modify the code for info boxes to let characters talk? Sounds good. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 18:27, 11 Jul 2006 (BST)
 ::Text is evil. The player has to be able to read and understand the language which is a requirement that was not there in MS1. --[[User:WolfgangB|WolfgangB]] 14:21, 12 Jul 2006 (BST)
 
-I think that the Yoshi equivelent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk a lot faster on land than a Seal.[[User:Tuxenegger|Tuxenegger]] 17:35, 20 January 2006
+I think that the Yoshi equivalent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk a lot faster on land than a Seal.[[User:Tuxenegger|Tuxenegger]] 17:35, 20 January 2006
 
 * I'll get to work on the graphics. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 18:27, 11 Jul 2006 (BST)
 
 Perhaps Tux could ride a Gnu? -kcfelix
 
-=== Badguys and Immunity ===
-I suggest that very few badguys have complete Immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other badguys. I think there should also be a downside for the badguy in all cases.  -F50
+=== Bad guys and Immunity ===
+I suggest that very few badguys have complete Immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other bad guys. I think there should also be a downside for the bad guy in all cases.  -F50
 
 ===Stage Variety===
 One thing that SuperTux is missing that Mario had would be stage variety. There are already above and underground stages, but where's the underwater action? Not to mention things like castle stages, stages with rising/falling water, vertically scrolling stages, those really annoying maze stages, autoscrolling stages, et cetera. Not to mention different locales, but I gather that those are already in the works. I refer specifically to some sort of forest. (And, might I add, picturing a penguin in a forest is pretty amusing.)
-
+:they are going to use a forest in M2
 === Female Players ===
 
 For the female players: You can play Penny and will have to rescue Tux.
@@ -191,7 +191,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
 *Geeky computer/circuit board world - "Tux decided that the only way to get Penny back would be to hack into Nolok's computer..." well, worth a try.
 :No. Not another so called "geek game". Kill evil Bill G. won't work with the existin storyline. --[[User:62.214.246.213|62.214.246.213]] 21:26, 23 Jul 2006 (BST)
-:Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a comlete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to frag Gates, go play XTux.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 03:08, 28 Jul 2006 (BST)
+:Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a comlete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to flag Gates, go play XTux.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 03:08, 28 Jul 2006 (BST)
 
 ==== Other ====
 *'''Diving''' - in water?
@@ -207,6 +207,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 * '''[[swimming |Swim]]''' in water like <del>Mario</del> a penguin.
 ** Grubmel's grumbling about this already, and it seems justified. See "Grumbel's Grumbles".
 ** Update: partially implemented in SVN (at latest, rv. 4102). Tux can float, but not swim.
+*How about 2 player support.Maybe the FreeBDS demon (freebsd.org) or another penguin for player 2.
 
 ====Art====
 Bubble - float and pop in air
