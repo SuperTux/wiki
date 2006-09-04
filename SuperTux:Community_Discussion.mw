@@ -2,16 +2,23 @@
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
 [[Image:RATEDFUN.png]]
 
+==Website update?==
+
+I've built supertux from svn and saw all the great updates you guys have done. Don't you believe it's about time to let the world now a bit about it? Just like, let's say, a little piece of news with one or two screenshots on the front page, telling "we're not dead". Because I really thought supertux was a dying project, before managing to compile svn version.
+--[[User:PolyPrograms|polyprograms]] 17:15, 4 Sep 2006 (BST)
+
+(note: sorry, I had to break links to be able to edit)
+
 ==Level 24==
 Hey I just recently found your game and am stuck at level 24... I guess that there have to be blocks behind the water texture but I have no idea on how to figuere where are these... and I doubt it just comes to luck there. What am I missing? mfg DJGummikuh
 :Just look closely and you will see there are single blocks to step on. You might want to ask on the [supertux.info/forums/ fansite forums] next time you need help, you'll get more responses there. --[[User:FlyingPenguins|FlyingPenguins]] 22:35, 29 Jul 2006 (BST)
 
 ==Wiki external links==
-This is just a note: I have realised that on the wiki, whenever an anon or normal user edits a page with external links on it, it will be without the <nowiki>"http:</nowiki><nowiki>//"</nowiki> part, essentially breaking the link. This can be troublesome for a page with lots of links on it. Sysops will then have to fill back the links.
+This is just a note: I have realised that on the wiki, whenever an anon or normal user edits a page with external links on it, it will be without the <nowiki>"http: </nowiki><nowiki>//"</nowiki> part, essentially breaking the link. This can be troublesome for a page with lots of links on it. Sysops will then have to fill back the links.
 
 Also, just a suggestion, maybe it would be a good idea to upgrade this version of MediaWiki, to prevent any security vulnerabilities. --[[User:FlyingPenguins|FlyingPenguins]] 22:47, 29 Jul 2006 (BST)
 
-I would upgrade if the MySQL version of wasn't too old. This have been discussed in #supertux and there is [http://developer.berlios.de/support/index.php?func=detailsupport&support_id=102138&group_id=1 a berlios bug] for it. Also [http://developer.berlios.de/bugs/?func=detailbug&bug_id=8012&group_id=1 this bug about php not available on shell.berlios.de] blocks the update. --[[User:AnMaster|AnMaster]] 00:21, 30 Jul 2006 (BST)
+I would upgrade if the MySQL version of wasn't too old. This have been discussed in #supertux and there is [http ://developer.berlios.de/support/index.php?func=detailsupport&support_id=102138&group_id=1 a berlios bug] for it. Also [http ://developer.berlios.de/bugs/?func=detailbug&bug_id=8012&group_id=1 this bug about php not available on shell.berlios.de] blocks the update. --[[User:AnMaster|AnMaster]] 00:21, 30 Jul 2006 (BST)
 
 ==Supertux being sold?!==
 Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters site is located here; www.oldray.net. Seems to also have made a one level demo available. While I know that the GPL permits this, I can't stand people it. I was planning to create a Pocket PC port before I found this. We should be able to get the source from this shouldn't we?
