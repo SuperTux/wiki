@@ -80,6 +80,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
   )
 </pre>
 * '''D:''' think about icebullet specifics
+** Dev mailing list: we're debating the behavior right now.
 * '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result shouldn't affect the gamelogic at all)
 * '''M:''' Option to delete or overwrite existing savegames.
 * '''L:''' Add line-editing functionality to Console
