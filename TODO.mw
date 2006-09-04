@@ -50,7 +50,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 **Infoboxes are really the only effective way to introduce gameplay elements.  For example, the run sign in "Welcome to Antartica" and the associated barrier are impassible for those who haven't figured out yet that the action key is the run key too.  Info boxes are not as evil as reading a manual, and gives information out at just the right time. Manuals can expose spoilers. -- tuxdev
 ** I agree. (Short) infoboxes are OK for tutorials. Regular levels should avoid them, though. --delta
 * '''L:''' add a rope object on which tux is able to climb, also add a ? block that emits a rope when hit
-* '''L:''' add a "geysir" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
+* '''L:''' add a "geyser" object: It's a fountain of water that raises in certain intervals. It can be used as jump-pad as the water gives tux and up-boost when standing on it.
 * '''M:''' portable and fixed light sources.
 * '''?:''' Doors that execute a script when Tux enters them
 
