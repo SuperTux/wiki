@@ -58,6 +58,10 @@ no open bugs.
 
 * 4107: Editor: Deleting a Tilemap doesn't delete the tiles in it but instead lets EVERY tile of the map loose its tilemaps so you can't edit anything anymore (can't even add new tiles)
 **Fixed in r4111. --[[User:WolfgangB|WolfgangB]] 03:36, 2 Aug 2006 (BST)
+
+* 4087: Getting an icicle to fall on a snowball no longer kills the snowball. (Even if that's intended, I kinda liked that feature...)
+** Fixed in r4206
+
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
@@ -81,8 +85,6 @@ no open bugs.
 :yes at x 3762 y 256 and x 8288 y 1024, and sometimes other places too.
 
 * 4076: Cannot get to 'Forest World'.
-
-* 4087: Getting an icicle to fall on a snowball no longer kills the snowball. (Even if that's intended, I kinda liked that feature...)
 
 * 4107: Editor: Placing a left-switch is difficult, the switch moves to the left in the game compared to the editor.
 
