@@ -11,3 +11,26 @@ I don't think a cactus really fits in with the forest theme, it's more of a dese
 both dillos and cacti are in the jungle. I've read about it. - zratchet
 
 Personally I think that World1 is far too long and too hard, especially if we want to add more levels. Also, it's too SMB1-ish (monotonous). - NabsS
+
+==Standardization?==
+Looking around, I noticed that badguys' data is a bit messy. What about a template like this?
+
+'''Badguy name'''
+
+'''Game sprite:''' picture of the badguy
+
+'''Found in:''' Icyisland, Light Forest and so on
+
+'''Behaviour:''' basic behaviour, like "Walks around", "Jumps" and so on
+
+'''Squishable:''' yes or no, plus effects triggered by squishing (like Mr.Tree's and Mr. Iceblock's)
+
+'''"Butt-Jumpable":''' effect when Butt-Jumped (maybe with another label...)
+
+'''Freezable: '''effect on contact with IceBullet (e.g. for Mr Bomb this would be something like "Yes. Can be carried when frozen")
+
+'''Burnable: '''effect on contact with FireBullet, Lava and so on
+
+Voices like ''Implemented since MS 1/2'' and ''Current status: implemented/to be implemented/proposed/rejected'' might also be useful.
+
+-Shylence
