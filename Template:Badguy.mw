@@ -1,15 +1,15 @@
 '''Name:''' {{{name}}}
 
-{{ #if: {{{image|}}} | [[Image:{{{image}}}.png|{{{name}}}]] | No image }}
+[[Image:{{{image}}}.png|{{{name}}}]]
 
-'''Found in:''' {{{worlds|To be defined}}}
+'''Found in:''' {{{worlds}}}
 
-'''Behaviour:''' {{{behaviour|To be defined}}}
+'''Behaviour:''' {{{behaviour}}}
 
-'''Squishable:''' {{{squish|yes, dies}}}
+'''Squishable:''' {{{squish}}}
 
-'''"Butt-Jumpable:"''' {{{butt-jump|yes, dies}}}
+'''"Butt-Jumpable:"''' {{{butt-jump}}}
 
-'''Freezable:''' {{{freeze|no}}}
+'''Freezable:''' {{{freeze}}}
 
-'''Burnable:''' {{{ignite|yes, dies}}}
+'''Burnable:''' {{{ignite}}}
