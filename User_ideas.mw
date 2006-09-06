@@ -203,12 +203,15 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *'''Walk on water''' - but only if the water isn't deep
 *'''Slippery surfaces''' - like a slippery ice where can glide and difficult control Tux.
 *'''Bounce pad''', thing or something that when Tux jump on it, he bounce up and jumps really high! :D
+** SVN has [[Trampoline|trampolines]].
 *'''Pushable crates''' - you push the crate to another place where you need it to jump on it so you can reach higher or something.
+** SVN has carriable [[Rock|rocks]].
 *'''Pushable/rollable stone''' - you roll it over enemies so they die, and can roll it to place so you jump up on it to reach higher.
 *'''Moving script triggers''' - for example, have a cloud of smoke flying around and if it touches Tux it puts him to sleep for a few seconds.
 * '''[[swimming |Swim]]''' in water like <del>Mario</del> a penguin.
 ** Grubmel's grumbling about this already, and it seems justified. See "Grumbel's Grumbles".
 ** Update: partially implemented in SVN (at latest, rv. 4102). Tux can float, but not swim.
+* '''Switches''' might also rise water level.
 ==== 2-player mode ====
 *How about 2 player support.Maybe the FreeBDS demon (freebsd.org) or another penguin for player 2.
 : There's already a project that tries to add a [[Multiplayer mode]].
