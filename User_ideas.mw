@@ -143,7 +143,7 @@ I think that the Yoshi equivalent, if used, could better be a Polar Bear in stea
 
 Perhaps Tux could ride a Gnu? -kcfelix
 : [[Rejected ideas]] lists "no FOSS mascots". I also don't think SuperTux' target audience would understand just why SuperTux would feature a penguin riding a gnu. Let's leave Tux the only reference to anything geeky.
-:: Perhaps we could make just this exception, since it is kind of a major character.  We could tell it like "Tux went to Grass(???) world and met Gnu, who joined Tux against Nolok because <personal reason>".
+:: Perhaps we could make just this exception, since it is kind of a major character.  We could tell it like "Tux went to Grass(???) world and met Gnu, who joined Tux against Nolok because <personal reason>". --tuxdev
 
 === Bad guys and Immunity ===
 I suggest that very few badguys have complete Immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other bad guys. I think there should also be a downside for the bad guy in all cases.  -F50
