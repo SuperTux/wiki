@@ -212,6 +212,8 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 ** Grubmel's grumbling about this already, and it seems justified. See "Grumbel's Grumbles".
 ** Update: partially implemented in SVN (at latest, rv. 4102). Tux can float, but not swim.
 * '''Switches''' might also rise water level.
+** Already in SVN (see level "Kneep-deep in the depth")
+
 ==== 2-player mode ====
 *How about 2 player support.Maybe the FreeBDS demon (freebsd.org) or another penguin for player 2.
 : There's already a project that tries to add a [[Multiplayer mode]].
