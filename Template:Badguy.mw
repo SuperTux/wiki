@@ -1,4 +1,4 @@
-'''Name:''' {{{name|Unnamed}}}
+'''Name:''' {{{name}}}
 
 {{ #if: {{{image|}}} | [[Image:{{{image}}}.png|{{{name}}}]] | No image }}
 
