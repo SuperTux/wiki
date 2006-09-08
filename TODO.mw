@@ -165,7 +165,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * Grab Mouse Pointer when scrolling so that we can scroll as much as we want
 (and the mouse is still where it was before scrolling)
 * More custom property editors:
-** Sector selector
 ** Spawnpoint selector
 ** Texts
 ** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
