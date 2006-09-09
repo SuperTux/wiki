@@ -129,6 +129,7 @@ Here're three new suggestions for badguys in the forest world:
 
 === Some sounds ===
 COuld it be possible that Tux makes some sounds when we comes on the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rushling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
+:A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
 
 === Friendly NPCs(non-player characters) ===
 Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivelent(seal?) would be neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok, a character teaches tux certain abilities.          -F50
