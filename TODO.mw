@@ -177,8 +177,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
 * Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
 * Redraw sector after loading, undo, delete
-* Linebreaks in saved tilemaps?
-:Would make some svn diffs a bit more usable. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 * Tool not working after loading new level
 :Added a workaround for this by reseting to the Select tool when loading new level. --[[User:AnMaster|AnMaster]] 20:25, 8 Sep 2006 (BST)
 * Windows builds seem to silently crash when loading huge levels
