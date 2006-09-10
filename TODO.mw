@@ -186,4 +186,5 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * Make the right click menu from sector tab a normal menu so that users can easily find it
 :Maybe add them to a toolbar? that could be useful. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 * When you set the path to the supertux data dir the editor doesn't use the new path until you restart the editor.
+*Add a new way to copy parts of one level to another. 
 [[Category:Development]]
