@@ -88,9 +88,9 @@ no open bugs.
 
 * 4107: Editor: Placing a left-switch is difficult, the switch moves to the left in the game compared to the editor.
 
-* 4107: Big Tux dies when exiting some doors, (e.g. in world2/level1.stl, near the first secret area) possibly because he's spawned in the ground.
+* 4107: Big Tux dies when exiting some doors, (e.g. in world2/level1.stl, near the first secret area) possibly because he's spawned in the ground. (seems fixed now)
 
-* 4107: Enemies may be pushed in the ground by other objects (e.g. in world2/updown.stl, near the beginning, the snail may be pushed underground by the platform).
+* 4107: Enemies may be pushed in the ground by other objects (e.g. in world2/updown.stl, near the beginning, the snail may be pushed underground by the platform if upside-down).
 
 * 4107: Tux can get stuck in the "roof" of data/levels/world2/level2.stl at x 4160, y 656.001 when the level is flipped. Slopes still doesn't work when level is flipped.
 
@@ -100,3 +100,5 @@ no open bugs.
 ::Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
 
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
+
+* 4236: When there are multiple stalactites in a row, they often disappear instead of falling (e.g. bonus2/level7.stl
