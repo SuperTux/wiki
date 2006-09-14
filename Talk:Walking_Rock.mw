@@ -1,1 +1,10 @@
 So what's the difference between [[Moving platform]] and [[Walking Rock]]?
+
+It might have additional features:
+* invincible
+* can be frozen
+* hurts Tux and kills enemies on lateral contact and when falling on them (might kill Big Tux directly)
+* carries Tux/enemies on its head
+* falls down like Snowballs
+* may float over lava
+- Shylence
