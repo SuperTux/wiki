@@ -2,7 +2,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 == Website ==
 
-no open bugs.
+* The titlebar of the browser in this wiki shows "Wikipedia" instead of "SuperTux" when logged in.
 
 == Release 0.1.3 ==
 * If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
