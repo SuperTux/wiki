@@ -77,7 +77,7 @@ Another port created by Jomar Johansen is available here:
    http://download.qj.net/SuperTux-PSP-Edition-v0.1.3-General-Games-Gaming-Consoles-PSP-Homebrew-Games/pg/12/fid/648/catid/195
 
 
-== L4 / SdiOS ==
+== VMware: L4 / SdiOS ==
 SDIOS06 is a toy operating system developed during the practical course SDI (System Design and Implementation) at the Systems Architecture Group of the University of Karlsruhe. It was designed and written by Timo Bingmann, Matthias Braun, Torsten Geiger and Andreas Mähler. Two games were ported to a custom SDL implementation using the VMware "hard"-ware: SDLjump and of course SuperTux :)
 
 You can find more information here:
