@@ -56,6 +56,12 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 ** In svn (since 3468): Straw Blocks that can be destroyed with fire shot
 *'''Falling bridge''' - when walk on it, it fall apart, so cant go back and must hurry.
 ** In svn (since 2296): Blocks that crumble when Tux steps on them
+*'''Bounce pad''', thing or something that when Tux jump on it, he bounce up and jumps really high! :D
+** SVN has [[Trampoline|trampolines]].
+*'''Pushable crates''' - you push the crate to another place where you need it to jump on it so you can reach higher or something.
+** SVN has carriable [[Rock|rocks]].
+* '''Switches''' might also rise water level.
+** Already in SVN (see level "Kneep-deep in the depth")
 
 == Rejected ==
 
@@ -205,10 +211,6 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *'''Low gravity''' - extra high jumps, slow fall down
 *'''Walk on water''' - but only if the water isn't deep
 *'''Slippery surfaces''' - like a slippery ice where can glide and difficult control Tux.
-*'''Bounce pad''', thing or something that when Tux jump on it, he bounce up and jumps really high! :D
-** SVN has [[Trampoline|trampolines]].
-*'''Pushable crates''' - you push the crate to another place where you need it to jump on it so you can reach higher or something.
-** SVN has carriable [[Rock|rocks]].
 *'''Pushable/rollable stone''' - you roll it over enemies so they die, and can roll it to place so you jump up on it to reach higher.
 *'''Moving script triggers''' - for example, have a cloud of smoke flying around and if it touches Tux it puts him to sleep for a few seconds.
 * '''[[swimming |Swim]]''' in water like <del>Mario</del> a penguin.
@@ -216,8 +218,9 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 ** Update: partially implemented in SVN (at latest, rv. 4102). Tux can float, but not swim.
 :Oh well. Looks like nobody cared about the "'''Before''' implementing swimming there are some details that need to be specified" on the [[swimming]] page. :-(
 ::Wrong. The SVN version just had some of the hooks added that will be needed to implement swimming, regardless of the final look and feel. Just for demonstration purposes these hooks are now used to make Tux float.
-* '''Switches''' might also rise water level.
-** Already in SVN (see level "Kneep-deep in the depth")
+* '''Lava tiles''' might be solid, making possible for some enemies (and maybe Invincible Tux) to walk on them. They may also kill even BigTux on touch instead of simply hurting him.
+* '''Special blocks''' solid for enemies but not for Tux, and maybe vice-versa.
+* '''Truly floating platforms''', that actually float on water: if one of these is placed in midair, it will fall down, stopping when hitting solid or water tiles; if the level of water rises/falls, they will automatically rise/fall (SVN currently allows only platforms with a fixed path).
 
 ==== 2-player mode ====
 *How about 2 player support.Maybe the FreeBDS demon (freebsd.org) or another penguin for player 2.
