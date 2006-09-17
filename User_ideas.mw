@@ -223,7 +223,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 * '''Truly floating platforms''', that actually float on water: if one of these is placed in midair, it will fall down, stopping when hitting solid or water tiles; if the level of water rises/falls, they will automatically rise/fall (SVN currently allows only platforms with a fixed path).
 
 ==== 2-player mode ====
-*How about 2 player support.Maybe the FreeBDS demon (freebsd.org) or another penguin for player 2.
+*How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
 : There's already a project that tries to add a [[Multiplayer mode]].
 
 ====Art====
