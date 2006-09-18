@@ -145,7 +145,7 @@ When you activated an info block, the game will pause and you can use the Up and
 Secret blocks are special blocks that appear out of thin air when Tux jumps in certain places.
 
 They can then be stepped on to reach higher places, e.g. a secret area or a shortcut.
-<span style="clear: both;"></span>
+<span style="display: block; clear: both;"></span>
 
 === Trampolines ===
 
