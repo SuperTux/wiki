@@ -171,9 +171,13 @@ Enter level with jump button.
 
 === Hidden Blocks ===
 * Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
+: Ordinary blocks are omplemented as [[User_Manual#Secret_Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should fall through hidden blocks before they're hit.  Another implementation for clouds and elevated platforms should be used.  The blocks would be more 'hidden' if you can only find them by hitting them from below.
+: Implemented as [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 **Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
+: Implemented as Unisolid [[Tiles]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect.  The current implementation causes Tux fatalities in some levels.
+: Already implemented in aforementioned [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 
 === Collecting Stuff ===
 
