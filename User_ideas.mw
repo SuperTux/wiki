@@ -106,7 +106,7 @@ Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath
 
 Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
 
-*Even gooder idea - Make it adjustable. Make the player able to adjust the brightness of the background, or every tileset, of blocks and such. Transparency would be a great bonus too. Although one of the suggested changes for milestone two is making the foreground transparent where Tux is, I think this would take some potential level gameplay possibilities away. Transparency around Tux, if implemented, should probably be adjustable. Hopefully in a 'layer' section of preferences.
+*An even better idea - Make it adjustable. Make the player able to adjust the brightness of the background, or every tileset, of blocks and such. Transparency would be a great bonus too. Although one of the suggested changes for milestone two is making the foreground transparent where Tux is, I think this would take some potential level gameplay possibilities away. Transparency around Tux, if implemented, should probably be adjustable. Hopefully in a 'layer' section of preferences.
 ::The transparency and lightmap of a level is a part of level design and therefore really shouldn't be messed with by "normal" players.  Changing either of those things would potentially have drastic impact on the playability of a level, either making it easier or harder than originally intended, as well as possibly lose certain atmosphere aspects e.g. bright snowiness, deep dark forest, foreboding castle, etc.  [[User:Tuxdev|Tuxdev]] 03:41, 22 Aug 2006 (BST)
 :::Eh... you may have misinterpreted me. I was referring to the possibility of adjustment of tileset color or brightness or opacity by level devs for each specific .stl, not by players. It's something that could make for some nifty levels, or at least more aesthetically appealing ones (depending on how it's used.)--[[User:Teal|teal]] 22:23, 22 Aug 2006 (BST)
 ::::Okay, s/player/level designer.  I think that both of these things have been implemented in SVN, but still needs tuning. --[[User:Tuxdev|Tuxdev]] 22:43, 22 Aug 2006 (BST)
@@ -134,7 +134,7 @@ Here're three new suggestions for badguys in the forest world:
 * Another slow creature, which is able to adhere to any surface. When reaching the end of a platform, it doesn't fall down, but continues to crawl downwards, upwards, or even underneath.
 
 === Some sounds ===
-COuld it be possible that Tux makes some sounds when we comes on the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rushling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
+Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
 
 === Friendly NPCs(non-player characters) ===
@@ -154,7 +154,7 @@ Perhaps Tux could ride a Gnu? -kcfelix
 :: Perhaps we could make just this exception, since it is kind of a major character.  We could tell it like "Tux went to Grass(???) world and met Gnu, who joined Tux against Nolok because <personal reason>". --tuxdev
 
 === Bad guys and Immunity ===
-I suggest that very few badguys have complete Immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other bad guys. I think there should also be a downside for the bad guy in all cases.  -F50
+I suggest that very few bad guys have complete immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other bad guys. I think there should also be a downside for the bad guy in all cases.  -F50
 
 ===Stage Variety===
 One thing that SuperTux is missing that Mario had would be stage variety. There are already above and underground stages, but where's the underwater action? Not to mention things like castle stages, stages with rising/falling water, vertically scrolling stages, those really annoying maze stages, autoscrolling stages, et cetera. Not to mention different locales, but I gather that those are already in the works. I refer specifically to some sort of forest. (And, might I add, picturing a penguin in a forest is pretty amusing.)
@@ -168,6 +168,12 @@ For the female players: You can play Penny and will have to rescue Tux.
 === Level Start ===
 
 Enter level with jump button.
+
+=== Hidden Blocks ===
+* Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
+* Tux should fall through hidden blocks before they're hit.  Another implementation for clouds and elevated platforms should be used.  The blocks would be more 'hidden' if you can only find them by hitting them from below.
+**Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
+* Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect.  The current implementation causes Tux fatalities in some levels.
 
 === Collecting Stuff ===
 
