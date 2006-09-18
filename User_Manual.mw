@@ -139,11 +139,13 @@ Info blocks can be bumped from below to display helpful text that introduces a c
 When you activated an info block, the game will pause and you can use the Up and Down buttons to scroll through the text. Press the Menu button to resume the game.
 
 === Secret Blocks ===
+{{Milestone 2}}
 [[Image:Empty.png|center]]
 
 Secret blocks are special blocks that appear out of thin air when Tux jumps in certain places.
 
 They can then be stepped on to reach higher places, e.g. a secret area or a shortcut.
+<span style="clear: both;"></span>
 
 === Trampolines ===
 
