@@ -1,3 +1,4 @@
+{{Milestone 2}}
 = Some notes for windows users =
 
 Supertux development mainly happens on linux. The sourcecode is written in a portable manner but the tools and development environment for windows isn't there (yet?). However you should be able to get the game built with the help of msys. Find more detailed instructions at [[Building on Windows]].
