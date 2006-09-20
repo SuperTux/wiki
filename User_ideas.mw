@@ -143,9 +143,11 @@ Rolling snowball looks like bouncing snowball except he rolls along the ground (
 === More Objects to Meet ===
 
 ==== Radar Man ====
+[[Image:RadarMan.png|right]]
 Radar Man moves by disappearing from the square he is in and appearing in one next to it. He does not harm Tux he simply makes Tux have to move like him for a while. Radar Man cannot be harmed.
 
 ==== Safe ====
+[[Image:Safe.png|right]]
 Something is hidden in a safe.  If it is touched by Tux then as soon as Tux stops touching it the thing is released. If it is a tile that’s hidden in it then to release it the safe turns into it, if it is a bad guy it appears on top of it.
 
 === Some sounds ===
