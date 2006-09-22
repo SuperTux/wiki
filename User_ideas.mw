@@ -185,6 +185,7 @@ For the female players: You can play Penny and will have to rescue Tux.
 === Level Start ===
 
 Enter level with jump button.
+:There's a problem I experienced with this : when you choose Up arrow key as the jump button, you can't move up anymore on the worldmap, since there are two actions for one key. Maybe worldmap movement keys should be customizable or something? ----
 
 === Hidden Blocks ===
 * Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
