@@ -104,3 +104,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
 
 * 4236: When there are multiple stalactites in a row, they often disappear instead of falling (e.g. bonus2/level7.stl
+
+* 4245: If you switch the camera to manual mode and scroll it so that Tux would be off the screen, Tux actually gets pushed into the water by the left edge of the screen.
