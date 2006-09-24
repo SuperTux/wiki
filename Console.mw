@@ -27,11 +27,21 @@ Following is a list of useful scripts to run in the console:
 |-
 |'''ghost()'''||lets Tux float around and through solid objects
 |-
+|'''kill()'''||Kills Tux
+|-
 |'''mortal()'''||reverts Tux back to normal
+|-
+|'''grow()'''||Grows Tux into big Tux
+|-
+|'''shrink()'''||Shrinks Tux into little Tux
 |-
 |'''fire()'''||Gives Tux the fire addon!
 |-
 |'''ice()'''||Gives Tux the ice addon!
 |-
 |'''invincible()'''||Makes Tux invincible
+|-
+|'''lifeup()'''||Gives Tux 100 more coins
+|-
+|'''finish()'''||Finish the level
 |}
