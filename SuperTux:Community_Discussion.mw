@@ -30,7 +30,9 @@ Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters 
 :::Not necessarily. They just have to give you the source if you ask for it, they don't have to ship it with the binary. So ask for it and if you don't get the source hand it over to gpl-violations.org.
 BTW, my_defs.cpp does not look like original supertux code so better check again.
 ::::I think that the GPL is much more strict than that.  I think it is against the license to modify the sources, and distribute those modifications without those modifications also falling under the GPL.  Since those modifications apparently fall under a commercial license, it is already a GPL violation.  By his own admittance, it is a derivative work. --[[User:Tuxdev|Tuxdev]] 22:15, 4 Aug 2006 (BST)
-:::::No. The GPL allows for reselling GPLed software for profit. How else would people get away with selling pre-burned Linux CDs and DVDs? I know it sounds twisted, but there's nothing we can do. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 17:48, 10 Aug 2006 (BST)
+:::::No. The GPL allows for reselling GPLed software for profit. How else would people get away with selling pre-burned Linux CDs and DVDs? I know it sounds twisted, but there's nothing we can do. --[[User:Djwings|DJ 
+Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 17:48, 10 Aug 2006 (BST)
+::::::The GPL says that you can sell GPL software for money, but only physically (on CD, not on the net).
 ::::::Yes, the GPL allows selling GPLed software, but it clearly states that all derivative work must be distributed under the GPL, not any other license (the "commercial license", the website in question mentions).
 ::::The fishy part about all this is "Commercial part of license covers work and time spent to change source code and other resources to make SuperTux playable on Pocket PC platform.", if that commercial part goes into the binary and no source code is provided its a clear violation, otherwise its fine. -- [[User:Grumbel|Grumbel]] 06:31, 8 Aug 2006 (BST)
 
