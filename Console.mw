@@ -28,4 +28,6 @@ Following is a list of useful scripts to run in the console:
 |'''ghost()'''||lets Tux float around and through solid objects
 |-
 |'''mortal()'''||reverts Tux back to normal
+|-
+|'''fire()'''||Gives Tux fire addon!
 |}
