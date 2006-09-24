@@ -118,3 +118,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4249: It is way too easy to die because a lantern crashes on top of your head, by letting go of it while airborne.
 
 * ????: I found a secret bonus level, but when I won it, SuperTux crashed. SVN 23 sept. -- smallfoot-
+
+* ????: On the castle level (before the before the boss), SuperTux runs slow, low FPS. -- smallfoot-
