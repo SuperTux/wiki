@@ -6,6 +6,8 @@ Before implementing swimming there are some details that need to be specified:
 
 Swim left, swim right, dive.
 
+Tux could be able to move a lot faster in water than on land, and he could be able to jump higher when jumping out of a pool of water - like real penguins.
+
 * How does he leave the pool, ie. how high can Tux jump while swimming?
 
 * What happens to existing levels, especially in situations where the water is on the bottom of a shaft with no way to climb out?
