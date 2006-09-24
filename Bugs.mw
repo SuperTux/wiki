@@ -120,5 +120,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * ????: I found a secret bonus level, but when I won it, SuperTux crashed. SVN 23 sept. -- smallfoot-
 
 * ????: On the castle level (before the before the boss), SuperTux runs slow, low FPS. -- smallfoot-
+:: Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
+::: Yeah, but I have 900 MHz, 256 mb RAM, GeForce 4. I could play Super Mario on Nintendo 8 MHz.
 
-** Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
+* ????: I used boat and pressed forth-and-back some, then screen went dark, and it dont come back to normal, its dark! -- smallfoot-
