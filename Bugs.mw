@@ -114,3 +114,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4249: In "Tree Fortress" level: sometimes when Zeekling hits first Mr Tree Mr Tree can suddenly appear on wooden border and, of course stuck there. (Quite hard to reproduce)
 
 * 4245: Since r4208 Smalltux spawns below the spawnpoint. So reset points are no longer activated if restarting a level there. (activate firefly, kill tux. tux starts at firefly, but firefly shows inactive image)
+
+* 4249: It is way too easy to die because a lantern crashes on top of your head, by letting go of it while airborne.
