@@ -120,3 +120,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * ????: I found a secret bonus level, but when I won it, SuperTux crashed. SVN 23 sept. -- smallfoot-
 
 * ????: On the castle level (before the before the boss), SuperTux runs slow, low FPS. -- smallfoot-
+
+** Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
