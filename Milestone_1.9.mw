@@ -20,11 +20,12 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
 *: done (Player::add_bonus never adds ICE_BONUS) --[[User:195.158.179.115|195.158.179.115]] 22:51, 25 Sep 2006 (BST)
 * Keys
 *: done (completely removed) --[[User:195.158.179.115|195.158.179.115]] 23:10, 25 Sep 2006 (BST)
+* Code for horribly broken objects (kugelblitz, totem, spidermite, plant, angrystone)
+*: done (completely removed) --[[User:195.158.179.115|195.158.179.115]] 23:11, 25 Sep 2006 (BST)
 * Levels:
 ** Castle levels
 ** Ghost forest levels
 ** Levels from World2 worldmap that are not yet playable
-** Code for horribly broken objects (kugelblitz, electrifier, totem, spidermite, plant, angrystone(?))
 ** Levels that take advantage of Tux floating in water
 ** Levels that use lightmaps (except for one bonus level)
 * From the editor:
