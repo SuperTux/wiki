@@ -1,0 +1,41 @@
+= Things to do for a Milestone 1.9 release =
+
+Basically, this should be the current SVN version (as of today) minus everything that doesn't work yet (The only thing we might want to fix are infoblocks)
+We will include a few (about five) World2 levels to playtest and show off features, but the main storyline will have to wait for MS2.
+
+This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for MS2. We will also need to '''Build''' packages of both game and editor for a number of platforms and publish a list of '''Known Bugs'''.
+
+== Add ==
+* "This is a known bug" infoblocks where necessary
+    
+== Remove ==
+* Intro cutscene (replace with placeholder, i.e. current cutscene showing the game logo, no penny etc.)
+* Floating in water
+* Iceflower
+* Keys
+* Levels:
+** Castle levels
+** Ghost forest levels
+** Levels from World2 worldmap that are not yet playable
+** Code for horribly broken objects (kugelblitz, electrifier, totem, spidermite, plant, angrystone(?))
+** Levels that take advantage of Tux floating in water
+** Levels that use lightmaps (except for one bonus level)
+* From the editor:
+** Everything we left out in the main game, too
+    
+== Fix ==
+* Visibly "lock" the castle ("closed for renovation"?)
+
+== Build ==
+* tgz
+* autopackage
+* Debian package (build with checkinstall)
+* Gentoo ebuild (courtesy of AnMaster)
+* Slackware package (courtesy of tuxdev)
+* Windows binaries (courtesy of delta___)
+    
+== Known bugs ==
+* Levelflip has trouble with slopes
+* Rain has trouble with slopes
+* Badguys have trouble with slopes
+* Infoblocks stop music
