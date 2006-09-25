@@ -1,3 +1,6 @@
+{{NeedGraphics}}
+{{NeedCode}}
+{{Milestone_2}}
 = Things to do for a Milestone 1.9 release =
 
 Basically, this should be the current SVN version (as of today) minus everything that doesn't work yet (The only thing we might want to fix are infoblocks)
