@@ -2,6 +2,8 @@ This page describes the new versioning scheme that will be used for SuperTux.
 
 ==The new scheme==
 
+===SuperTux===
+
 Releases will have the form of <tt>x.y.z</tt>.
 
 * <tt>x</tt> is increased only when there is a <em>major</em> update. When <tt>x</tt> is increased, <tt>y</tt> and <tt>z</tt> are reset to <tt>0</tt>
@@ -11,6 +13,15 @@ Releases will have the form of <tt>x.y.z</tt>.
 The development branches are used to work our way to a stable release. For example, the <tt>0.3.x</tt> will be used to create a stable <tt>0.4.0</tt> ([[Milestone 2]]) release.
 
 While development releases are likely to be stable, they are more liklely to receive less testing before a release, so we cannot guarantee their stability.
+
+As a rule, <tt>z</tt>-releases cannot break level editor functionality in stable branches. For development branches you should check the wiki to make sure your version of the SuperTux Editor works with your version of SuperTux. To be sure, if you are using the development branch you should always be using the latest version of both SuperTux and the SuperTux Editor.
+
+===SuperTux Editor===
+
+Releases will have the form of <tt>x.y.z</tt>.
+
+* <tt>x</tt> and <tt>y</tt> will match the <tt>x</tt> and <tt>y</tt> of the SuperTux release the editor works for.
+* <tt>z</tt> is increased when there is a bugfix release or minor changes made to the editor. This number does not necessarily match up with the <tt>z</tt> of the SuperTux release.
 
 ==Releases==
 
