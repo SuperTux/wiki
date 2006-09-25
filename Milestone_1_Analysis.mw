@@ -8,8 +8,6 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * Tux lacks a dedicated run animation.
 
-* The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
-
 * The black outline surrounding Mr Ice Block looks out of place.
 
 * The pipes are poorly drawn.
@@ -64,11 +62,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The worldmap lacks water animation.
 
-* The "excellent" sound sample should be redone.
-
 * The enemies move too slow in relation to Tux; make them able to easily dodge Tux.
-
-* Mr Bomb's explosion should have particle effects.
 
 * The main menu background should be redone, with a superior AI (perhaps showing different levels: one from each world?).
 
@@ -117,6 +111,12 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * Pipes cannot be entered; we thus had no bonus rooms.
 
 * Clever enemies are missing (ie. the plants which come out of pipes only if Mario isn't standing on that pipe).
+
+* Mr Bomb's explosion should have particle effects.
+
+* The "excellent" sound sample should be redone.
+
+* The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
 
 == Good Things in Milestone 1 ==
 This is a list of things that are good in Milestone 1 (compared to most other games or where we managed to hit our goals).
