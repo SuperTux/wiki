@@ -156,6 +156,8 @@ Something is hidden in a safe.  If it is touched by Tux then as soon as Tux stop
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
 
+::Well, the tiles could get simple attributes, enabling this and, after some time of fooling around with it, lots of other effects. Deep snow makes you sink in and slower. Put the slickness of ice in there. Alternatively, just let the designer designate regions that have certain specs. [[User:84.154.88.23|84.154.88.23]] 22:17, 25 Sep 2006 (BST)
+
 === Friendly NPCs(non-player characters) ===
 Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivelent(seal?) would be neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok, a character teaches tux certain abilities.          -F50
 
