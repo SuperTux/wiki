@@ -5,6 +5,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * The titlebar of the browser in this wiki shows "Wikipedia" instead of "SuperTux" when logged in.
 :Can't reproduce that problem. Works fine here. --[[User:WolfgangB|WolfgangB]] 00:30, 15 Sep 2006 (BST)
 :: I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar.  Right now the CSS on the wiki is messed up for me, but I know it is just me.  --[[User:Tuxdev|Tuxdev]] 00:48, 15 Sep 2006 (BST)
+:::It's still there. I'm using Opera 9 on Ubuntu Dapper
 
 == Release 0.1.3 ==
 * If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
@@ -104,8 +105,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 ::Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
 
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
+:* 4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
 
-* 4236: When there are multiple stalactites in a row, they often disappear instead of falling (e.g. bonus2/level7.stl
+* 4236: When there are multiple stalactites in a row, they often disappear instead of falling (e.g. bonus2/level7.stl)
 
 * 4245: If you switch the camera to manual mode and scroll it so that Tux would be off the screen, Tux actually gets pushed into the water by the left edge of the screen.
 
@@ -126,3 +128,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4249: I used boat and pressed forth-and-back some, then screen went dark, and it don't come back to normal, its dark! -- smallfoot-
 
 * 4249: On the "silver key" level on the forest world, there is no way to win or die on the level. -- smallfoot-
+
+* 4251: When Bigtux crushes a wooden box by jumping, enemies on that box do not die, but fall on his head.
