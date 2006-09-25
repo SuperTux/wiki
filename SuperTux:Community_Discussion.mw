@@ -40,3 +40,11 @@ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 17:48, 10 Aug 2006 (BST)
 :I can see no problem with that. All the source code is included in the /supertux/qvgadata/distr/st_src.tar.bz2 so everyone can download it and play for free. Is there any other problem? --member of oldray.net
 ::That is fine to me as long as you a. relicense what you have done to GPL, and b. clearly advertise where the source is on your website.  Even better would be to let us keep a SVN repository, then you become an unofficial official maintainer of it, or merge it with main ST using #ifdef wherever. --[[User:Tuxdev|Tuxdev]] 17:51, 25 Sep 2006 (BST)
 [[Category:For Users]]
+
+To answer a few questions from above:
+* You do not need to put modifications of GPL'ed software under the GPL if you only use it '''internally'''. As soon as publish it, you need to.
+* You can sell the game over whatever medium you like.
+* You do not need to include the source code with the binary distribution, but you '''must''' provide a written offer for the source code, licenced under the GPL, via the same medium. In this case, a download.
+* Only a copyright holder is able to send a cease and desist. This means i can not send them any. Neither can Harald of www.gpl-violations.org. I am sure he will be more than happy to help you guys, send one, though. Each and everyone of you devs: Get together, contact Harald and make 'oldray' an unhappy ''dev''.
+
+If you have questions, get hold of me on irc.freenode.net -- [[User:RichiH|RichiH]] 23:10, 25 Sep 2006 (BST)
