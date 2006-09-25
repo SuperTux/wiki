@@ -23,9 +23,9 @@ Releases will have the form of <tt>x.y.z</tt>.
 * <tt>x</tt> and <tt>y</tt> will match the <tt>x</tt> and <tt>y</tt> of the SuperTux release the editor works for.
 * <tt>z</tt> is increased when there is a bugfix release or minor changes made to the editor. This number does not necessarily match up with the <tt>z</tt> of the SuperTux release.
 
-==Releases==
+==Release branches==
 
-===<tt>0.1.x</tt> release branches===
+===<tt>0.1.x</tt> releases===
 
 This is the [[Milestone 1]] branch.
 
