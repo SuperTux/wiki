@@ -6,8 +6,8 @@ This page describes the new versioning scheme that will be used for SuperTux.
 
 Releases will have the form of <tt>x.y.z</tt>.
 
-* <tt>x</tt> is increased only when there is a <em>major</em> update. When <tt>x</tt> is increased, <tt>y</tt> and <tt>z</tt> are reset to <tt>0</tt>
-* <tt>y</tt> is increased for each new regular, planned released. When <tt>y</tt> is increased, <tt>z</tt> is reset to <tt>0</tt>. Odd versions of <tt>y</tt> indicate a <em>development branch</em>. Even versions of <tt>y</tt> indicate a <em>stable branch</em>.
+* <tt>x</tt> is increased only when there is a ''major'' update. When <tt>x</tt> is increased, <tt>y</tt> and <tt>z</tt> are reset to <tt>0</tt>
+* <tt>y</tt> is increased for each new regular, planned released. When <tt>y</tt> is increased, <tt>z</tt> is reset to <tt>0</tt>. Odd versions of <tt>y</tt> indicate a ''development branch''. Even versions of <tt>y</tt> indicate a ''stable branch''.
 * <tt>z</tt> is increased when there is a bugfix release or minor changes are made, such as a couple new features and new content (eg, new worlds or levels). For development branches, bigger changes are more likely to make it into <tt>z</tt>-releases.
 
 The development branches are used to work our way to a stable release. For example, the <tt>0.3.x</tt> will be used to create a stable <tt>0.4.0</tt> ([[Milestone 2]]) release.
@@ -29,7 +29,7 @@ Releases will have the form of <tt>x.y.z</tt>.
 
 This is the [[Milestone 1]] branch.
 
-The <tt>0.1.x</tt> releases do not follow the current versioning scheme. <tt>0.1.x</tt> is considered a <em>stable  branch</em>.
+The <tt>0.1.x</tt> releases do not follow the current versioning scheme. <tt>0.1.x</tt> is considered a ''stable  branch''.
 
 ===<tt>0.2.x</tt> releases===
 
