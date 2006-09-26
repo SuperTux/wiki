@@ -109,3 +109,5 @@ There's a new gtk-sharp based editor in development which can also be built on w
 * Copy SDL.dll and SDL_image.dll into the bin\Debug and bin\Release directory that has just been created
 * You can now go back to Visual Studio Express and start the editor with F11. Note that the debug mode is quiet slow for the opengl calls, so if you actually wanna use the editor instead of developing it start it in release mode (CTRL+F11)
 * To make the editor find the supertux tiles and executable you have to start it once and quit it so that it creates the config file. You should then search in Document&Settings folder for a supertux-editor folder that contains a settings.xml file. Open it with a texteditor. You should put the path to the supertux executable (if you have any) after &lt;SupertuxExe&gt; and the path to the data directory of your supertux svn checkout after &lt;SupertuxData&gt;.
+
+You might want to read the [[Editor FAQ]] at this point.
