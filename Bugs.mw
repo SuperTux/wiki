@@ -42,30 +42,30 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 === Closed ===
 
 * Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
-** Fixed in some revision I can't find the number of right now.
+*: Fixed in some revision I can't find the number of right now.
 
 * 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
-** when exactly does this happen?
-** seem common on x64 boxes. They pass an arch of "foobar-unknown-baz-blah-blubb" which (gets included in each build action's path and) bloats the command line to exceed 10240 chars. Workaround is manually shortening the arch passed to the build process by running something like "./configure --build=x86_64-pc-linux-gnu"
-** This was fixed in r3923.
+*: when exactly does this happen?
+*: seem common on x64 boxes. They pass an arch of "foobar-unknown-baz-blah-blubb" which (gets included in each build action's path and) bloats the command line to exceed 10240 chars. Workaround is manually shortening the arch passed to the build process by running something like "./configure --build=x86_64-pc-linux-gnu"
+*: This was fixed in r3923.
 
 * 4034: When Tux is invincible he still squishes enemies and stuns iceblocks by jumping on their heads instead of simply killing them.
-:Feature. Even as invincible Tux you can stun and grab Mr. Iceblock.
-:More importantly, you can now cross gaps by jumping on e.g. [[Flying Snowball]]s
+*:Feature. Even as invincible Tux you can stun and grab Mr. Iceblock.
+*:More importantly, you can now cross gaps by jumping on e.g. [[Flying Snowball]]s
 
 * 4034: When Firetux backflips he loses his hat and status and reverts to normal bigtux (intended behaviour?).
-:Intended behaviour.
+*:Intended behaviour.
 
 * 4075: When the game is paused, the time keeps running.
-** cannot reproduce on 4076. Please give further steps to reproduce. --[[User:Sommer|Sommer]] 00:47, 24 Jul 2006 (BST)
-** Go to 'The Frosted Fields', start it, and pause.
-** Fixed in r4079 --[[User:Sommer|Sommer]] 15:14, 24 Jul 2006 (BST)
+*: cannot reproduce on 4076. Please give further steps to reproduce. --[[User:Sommer|Sommer]] 00:47, 24 Jul 2006 (BST)
+*: Go to 'The Frosted Fields', start it, and pause.
+*: Fixed in r4079 --[[User:Sommer|Sommer]] 15:14, 24 Jul 2006 (BST)
 
 * 4107: Editor: Deleting a Tilemap doesn't delete the tiles in it but instead lets EVERY tile of the map loose its tilemaps so you can't edit anything anymore (can't even add new tiles)
-**Fixed in r4111. --[[User:WolfgangB|WolfgangB]] 03:36, 2 Aug 2006 (BST)
+*:Fixed in r4111. --[[User:WolfgangB|WolfgangB]] 03:36, 2 Aug 2006 (BST)
 
 * 4087: Getting an icicle to fall on a snowball no longer kills the snowball. (Even if that's intended, I kinda liked that feature...)
-** Fixed in r4206
+*: Fixed in r4206
 
 === Open ===
 
