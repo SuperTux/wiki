@@ -1,3 +1,4 @@
+{{Attention|s="This page is not intended for user discussions and now locked."}}
 {{NeedGraphics}}
 {{NeedCode}}
 {{Milestone_2}}
@@ -22,9 +23,6 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
 *: done (completely removed) --[[User:195.158.179.115|195.158.179.115]] 23:10, 25 Sep 2006 (BST)
 * Code for horribly broken objects (kugelblitz, totem, spidermite, plant, angrystone)
 *: done (completely removed) --[[User:195.158.179.115|195.158.179.115]] 23:11, 25 Sep 2006 (BST)
-* Console
-** disable it
-: I believe that only debug builds have the console available anyway. --[[User:Tuxdev|Tuxdev]] 21:13, 26 Sep 2006 (BST)
 * Levels:
 ** Castle levels
 ** Ghost forest levels
