@@ -30,6 +30,7 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
 ** Levels that use lightmaps (except for one bonus level)
 * From the editor:
 ** Everything we left out in the main game, too
+* Incomplete translations (make the game look crappy)
 
 == Fix ==
 * Visibly "lock" the castle ("closed for renovation"?)
