@@ -71,23 +71,23 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
 * free() errors when exiting SuperTux without having entered a worldmap/level.
-** Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
-*** Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);</code>''
-*** Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
-** Cannot reproduce. Are these still relevant?
+*: Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
+*:: Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);</code>''
+*:: Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
+*: Cannot reproduce. Are these still relevant?
 
 * Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
 
 * 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
-** that's because they do their own eventloop, they really should plug into MainLoop somehow
+*: that's because they do their own eventloop, they really should plug into MainLoop somehow
 
 * 3771: Possible to die after winning a level if not invincible (happens in yeti level)
 
 * 4033: Dart traps sometimes shoot right through walls, instead of hitting them.
-** Seems to happen when a dart hits near the border between two tiles
+*: Seems to happen when a dart hits near the border between two tiles
 
 * 4041: Tux gets stuck for a few seconds climbing certain staircases in the level that's automatically played in the background on the main menu.
-:yes at x 3762 y 256 and x 8288 y 1024, and sometimes other places too.
+*:yes at x 3762 y 256 and x 8288 y 1024, and sometimes other places too.
 
 * 4076: Cannot get to 'Forest World'.
 
@@ -102,10 +102,10 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
 
 * 4117: Wind with x speed 0 is really x speed -1 . in order to get tux move vertically, set x-speed to 1 (or fix it ;-D)
-::Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
+*:Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
 
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
-:* 4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
+*: 4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
 
 * 4236: When there are multiple stalactites in a row, they often disappear instead of falling (e.g. bonus2/level7.stl)
 
@@ -114,6 +114,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4249: If you jump on Poison Ivy (green thing on the ground), the leaves fly around. If you walk on the orange thing, it doesn't.
 
 * 4249: In "Tree Fortress" level: sometimes when Zeekling hits first Mr Tree Mr Tree can suddenly appear on wooden border and, of course stuck there. (Quite hard to reproduce)
+*: This is a general problem when badguys stack - it always looks a bit out of place. SuperTux might be better off either letting badguys walk through each other or having badguys get squished when another badguy steps on their head. --[[User:131.188.73.150|131.188.73.150]] 14:08, 26 Sep 2006 (BST)
 
 * 4245: Since r4208 Smalltux spawns below the spawnpoint. So reset points are no longer activated if restarting a level there. (activate firefly, kill tux. tux starts at firefly, but firefly shows inactive image)
 
@@ -122,8 +123,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4249: I found a secret bonus level on the south-west ice island, but when I won it, SuperTux crashed. SVN 23 sept. -- smallfoot-
 
 * 4249: On the castle level (before the before the boss), SuperTux runs slow, low FPS. -- smallfoot-
-:: Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
-::: Yeah, but I have 900 MHz, 256 mb RAM, GeForce 4. I could play Super Mario on Nintendo 8 MHz.
+*: Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
+*:: Yeah, but I have 900 MHz, 256 mb RAM, GeForce 4. I could play Super Mario on Nintendo 8 MHz.
 
 * 4249: I used boat and pressed forth-and-back some, then screen went dark, and it don't come back to normal, its dark! -- smallfoot-
 
