@@ -3,9 +3,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 == Website ==
 
 * The titlebar of the browser in this wiki shows "Wikipedia" instead of "SuperTux" when logged in.
-:Can't reproduce that problem. Works fine here. --[[User:WolfgangB|WolfgangB]] 00:30, 15 Sep 2006 (BST)
-:: I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar.  Right now the CSS on the wiki is messed up for me, but I know it is just me.  --[[User:Tuxdev|Tuxdev]] 00:48, 15 Sep 2006 (BST)
-:::It's still there. I'm using Opera 9 on Ubuntu Dapper
+*:Can't reproduce that problem. Works fine here. --[[User:WolfgangB|WolfgangB]] 00:30, 15 Sep 2006 (BST)
+*:: I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar.  Right now the CSS on the wiki is messed up for me, but I know it is just me.  --[[User:Tuxdev|Tuxdev]] 00:48, 15 Sep 2006 (BST)
+*:::It's still there. I'm using Opera 9 on Ubuntu Dapper
 
 == Release 0.1.3 ==
 * If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
