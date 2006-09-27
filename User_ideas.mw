@@ -140,6 +140,23 @@ Once he “sees” Tux, Mr Missile starts shadowing him. So if Tux stops he does
 ==== Rolling Snowball ====
 Rolling snowball looks like bouncing snowball except he rolls along the ground (obviously) when he “sees” Tux he gives a little signal and starts rolling as fast as skidding Mr Iceblock. Tux should be able to ride him. If he stands on him he “zooms”, taking Tux with him. He dies after 5 crashes on “zoom” mode or 1 if Tux is riding him. Invincibility and Supertux’s fire are the only other things that kill him.
 
+
+Here is a badguy which could fit into the dark-forest scheme:
+
+=== The Evil Tree ===
+
+[[Image:Evil_tree.png]]
+
+At first, this looks and behaves like a normal background tree, so tux can walk "through" it.
+(Especially mean when having the same tree often as normal background)
+When tux passes a special point near the tree (surprise will be much more intense if this point is behind that tree), it becomes alive and hunts tux.
+
+It maybe whould be a good idea to make the tree a little slow as it were strange to have it running around.
+That could be compensated by making it a bit harder to kill.
+(I also have the graphic in svg available where it should be easy editable and resizeable.)
+--[[User:Henning|Henning]] 08:46, 27 Sep 2006 (BST)
+
+
 === More Objects to Meet ===
 
 ==== Radar Man ====
