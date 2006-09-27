@@ -29,6 +29,7 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
 ** Levels from World2 worldmap that are not yet playable
 ** Levels that take advantage of Tux floating in water
 ** Levels that use lightmaps (except for one bonus level)
+**: done (completely removed)
 * From the editor:
 ** Everything we left out in the main game, too
 * Incomplete translations (make the game look crappy)
