@@ -2,6 +2,19 @@
 {{NeedSound}}
 The '''iceflower''' will give [[Tux]] the [[Actions|ability]] to shoot ice bullets. Ice bullets will not bounce like [[Fireflower|fire bullets]], but will shoot out in a straight path towards the enemy. When the ice bullet hits an enemy it will freeze him for a short time, if the enemy is freezable.
 
+== Graphic Proposal ==
+
+Its just an idea i didnt discuss with anybody yet and Im relatively new to this wiki, so I didnt remove tho NeedGraphics for now.
+
+[[Image:iceflower.png]]
+
+Here a bit smaller, which should be nearer a useful ingame size:
+
+[[Image:iceflower-small.png]]
+
+--[[User:Henning|Henning]] 08:05, 27 Sep 2006 (BST)
+
+
 == IceTux ==
 
 Proposed Tux appearance: 
