@@ -114,6 +114,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4249: If you jump on Poison Ivy (green thing on the ground), the leaves fly around. If you walk on the orange thing, it doesn't.
 
+* 4249: If a coin is placed in water, when tux hits it it counts as collected but doesn't disappear.
+
 * 4249: In "Tree Fortress" level: sometimes when Zeekling hits first Mr Tree Mr Tree can suddenly appear on wooden border and, of course stuck there. (Quite hard to reproduce)
 *: This is a general problem when badguys stack - it always looks a bit out of place. SuperTux might be better off either letting badguys walk through each other or having badguys get squished when another badguy steps on their head. --[[User:131.188.73.150|131.188.73.150]] 14:08, 26 Sep 2006 (BST)
 
