@@ -171,6 +171,9 @@ Something is hidden in a safe.  If it is touched by Tux then as soon as Tux stop
 
 : I at least do not like that idea. [[User:84.154.88.23|84.154.88.23]] 22:14, 25 Sep 2006 (BST)
 
+==== Sleeping Snowball ====
+Looks like a Mr Snowball with no feet and closed eyes, on contact with him Tux falls over and can't get up for a few seconds, allowing badguys to get him. Might be defeatable.
+
 === Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
