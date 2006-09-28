@@ -68,6 +68,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4087: Getting an icicle to fall on a snowball no longer kills the snowball. (Even if that's intended, I kinda liked that feature...)
 *: Fixed in r4206
 
+* 4249: If a coin is placed in water, when tux hits it it counts as collected but doesn't disappear.
+*: Not a bug, its because of Coin tile on Foreground layer.
+
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
