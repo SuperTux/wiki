@@ -88,7 +88,11 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 
 == Additional Tips ==
 
-* none yet
+If jam fails on wrapper.cpp or miniswig try preventing miniswig from regenerating wrapper.cpp. To do that run this command in msys:
+ cd /build/supertux && \
+ sed 's/"bison"/""/;s/"flex"/""/' Jamconfig > Jamconfig.tmp && \
+ mv Jamconfig.tmp Jamconfig
+After that use TortoiseSVN to svn up the whole directory (to restore possibly deleted files). Then try running jam again.
 
 == Building the editor ==
 
