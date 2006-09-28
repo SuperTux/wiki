@@ -58,6 +58,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 ** In svn (since 2296): Blocks that crumble when Tux steps on them
 *'''Bounce pad''', thing or something that when Tux jump on it, he bounce up and jumps really high! :D
 ** SVN has [[Trampoline|trampolines]].
+*'''Falling bounce pad'''- once bounced on falls down so you must use it well.
 *'''Pushable crates''' - you push the crate to another place where you need it to jump on it so you can reach higher or something.
 ** SVN has carriable [[Rock|rocks]].
 * '''Switches''' might also rise water level.
