@@ -135,3 +135,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4249: On the "silver key" level on the forest world, there is no way to win or die on the level. -- smallfoot-
 
 * 4251: When Bigtux crushes a wooden box by jumping, enemies on that box do not die, but fall on his head.
+
+* 4249: Squirrel function wait() counts real seconds, not game seconds - so cutscenes can end up deadly for Tux of time synchronisation doesn't fit. -- [[User:Penma|Penguinmaster]] 23:42, 30 Sep 2006 (CEST)
