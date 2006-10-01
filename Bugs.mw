@@ -138,3 +138,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4251: When Bigtux crushes a wooden box by jumping, enemies on that box do not die, but fall on his head.
 
 * 4249: Squirrel function wait() counts real seconds, not game seconds - so cutscenes can end up deadly for Tux of time synchronisation doesn't fit. -- [[User:Penma|Penguinmaster]] 23:42, 30 Sep 2006 (CEST)
+
+* 4327: Forest worldmap has a level off the path, and says that "tilemap data is buggy" when I get near it.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 1 Oct 2006 (CEST)
