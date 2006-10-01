@@ -124,6 +124,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4249: It is way too easy to die because a lantern crashes on top of your head, by letting go of it while airborne.
 *: Please say in what level this happens. -- [[User:Penma|Penguinmaster]] 11:38, 1 Oct 2006 (CEST)
+*:: Doesn't matter.  It is a general issue with portable stuff and crushes. --[[User:Tuxdev|Tuxdev]] 22:05, 1 Oct 2006 (CEST)
 
 * 4249: I found a secret bonus level on the south-west ice island, but when I won it, SuperTux crashed. SVN 23 sept. -- smallfoot-
 
