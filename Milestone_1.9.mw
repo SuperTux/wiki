@@ -36,11 +36,12 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
 == Build ==
 * tgz
 * autopackage
+*: alpha testing. Samples are on http://www.deltadevelopment.de/users/christoph/supertux/supertux-0.3.0.x86.package (game) and http://www.deltadevelopment.de/users/christoph/supertux/supertux-editor-0.3.0.x86.package (editor)
 * Debian package (build with checkinstall)
 * Gentoo ebuild (courtesy of AnMaster)
 * Slackware package (courtesy of tuxdev)
 * Windows binaries (courtesy of delta___)
-    
+
 == Known bugs ==
 * Levelflip has trouble with slopes
 * Rain has trouble with slopes
