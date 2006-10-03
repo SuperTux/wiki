@@ -14,25 +14,20 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
     
 == Remove ==
 * Intro cutscene (replace with placeholder, i.e. current cutscene showing the game logo, no penny etc.)
-*: done (shortened it to only show logo) --[[User:195.158.179.115|195.158.179.115]] 22:51, 25 Sep 2006 (BST)
 * Floating in water
-*: done (commented out physics changes) --[[User:195.158.179.115|195.158.179.115]] 22:51, 25 Sep 2006 (BST)
 * Iceflower
-*: done (Player::add_bonus never adds ICE_BONUS) --[[User:195.158.179.115|195.158.179.115]] 22:51, 25 Sep 2006 (BST)
 * Keys
-*: done (completely removed) --[[User:195.158.179.115|195.158.179.115]] 23:10, 25 Sep 2006 (BST)
 * Code for horribly broken objects (kugelblitz, totem, spidermite, plant, angrystone)
-*: done (completely removed) --[[User:195.158.179.115|195.158.179.115]] 23:11, 25 Sep 2006 (BST)
 * Levels:
 ** Castle levels
 ** Ghost forest levels
 ** Levels from World2 worldmap that are not yet playable
 ** Levels that take advantage of Tux floating in water
 ** Levels that use lightmaps (except for one bonus level)
-**: done (completely removed)
 * From the editor:
 ** Everything we left out in the main game, too
 * Incomplete translations (make the game look crappy)
+: all done --[[User:Sommer|Sommer]] 00:06, 4 Oct 2006 (CEST)
 
 == Fix ==
 * Visibly "lock" the castle ("closed for renovation"?)
