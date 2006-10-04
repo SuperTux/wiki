@@ -1,6 +1,4 @@
 {{Attention|s="This page is not intended for user discussions and now locked."}}
-{{NeedGraphics}}
-{{NeedCode}}
 {{Milestone_2}}
 = Things to do for a Milestone 1.9 release =
 
@@ -36,11 +34,16 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
 == Build ==
 * tgz
 * autopackage
-*: alpha testing. Samples are on http://www.deltadevelopment.de/users/christoph/supertux/supertux-0.3.0.x86.package (game) and http://www.deltadevelopment.de/users/christoph/supertux/supertux-editor-0.3.0.x86.package (editor)
+*:* alpha testing. Samples are on:
+*:** http://www.deltadevelopment.de/users/christoph/supertux/supertux-0.3.0.x86.package (game)
+*:** http://www.deltadevelopment.de/users/christoph/supertux/supertux-editor-0.3.0.x86.package (editor)
 * Debian package (build with checkinstall)
 * Gentoo ebuild (courtesy of AnMaster)
 * Slackware package (courtesy of tuxdev)
 * Windows binaries (courtesy of delta___)
+*: alpha testing. Samples are on
+*:** http://www.deltadevelopment.de/users/christoph/supertux/supertux-0.3.0-win32-setup.exe (game), needs OpenAL (e.g. from http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46&file=OpenALwEAX.exe)
+*:** Editor still missing
 
 == Known bugs ==
 * Levelflip has trouble with slopes
