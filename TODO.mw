@@ -162,6 +162,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * Add scrollbars to level?
 * Create an overview widget (where to place this in the GUI?)
 *: Overview for what? -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
+::The sector. Like a minimap. 
 * preserve unknown lisp trees
 * Grab Mouse Pointer when scrolling so that we can scroll as much as we want
 (and the mouse is still where it was before scrolling)
@@ -191,3 +192,4 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * You can't remove first sector when there is exactly two sectors in the level.
 *: Should be intended behaviour. Same thing as you can't remove all tilemaps, as you wouldn't be able to do anything, you are even not able to create a new tilemap. Well, and... main sector has to exist, otherwise level won't start. -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
 [[Category:Development]]
+::No, it's not intended. It was a quick fix to prevent crashing.
