@@ -158,6 +158,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 (The editor is not release critical therefore no ratings for these TODOS)
 * Scroll TileList with middle mouse, Get different Tilegroups
 :Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
+::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else oyu can. Should be bug (or feature) in GTK, it's not controlled by program.
 * Add scrollbars to tilelist widget
 * Add scrollbars to level?
 * Create an overview widget (where to place this in the GUI?)
