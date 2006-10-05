@@ -157,13 +157,13 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 == Editor ==
 (The editor is not release critical therefore no ratings for these TODOS)
 * Scroll TileList with middle mouse, Get different Tilegroups
-:Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
-::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else oyu can. Should be bug (or feature) in GTK, it's not controlled by program.
+*:Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
+*::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else oyu can. Should be bug (or feature) in GTK, it's not controlled by program.
 * Add scrollbars to tilelist widget
 * Add scrollbars to level?
 * Create an overview widget (where to place this in the GUI?)
 *: Overview for what? -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
-::The sector. Like a minimap. 
+*::The sector. Like a minimap. 
 * preserve unknown lisp trees
 * Grab Mouse Pointer when scrolling so that we can scroll as much as we want
 (and the mouse is still where it was before scrolling)
@@ -171,9 +171,9 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 ** Spawnpoint selector
 ** Texts
 ** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
-::Why was it disabled? --[[User:WolfgangB|WolfgangB]] 16:45, 13 Jul 2006 (BST)
-:::Because it crash the editor on Windows, and because it add lots of extra deps. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
-::::"lots of extra deps" anything that is not part of every serious distro? Why not fix the crash instead of removing features? 
+**:Why was it disabled? --[[User:WolfgangB|WolfgangB]] 16:45, 13 Jul 2006 (BST)
+**::Because it crash the editor on Windows, and because it add lots of extra deps. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
+**:::"lots of extra deps" anything that is not part of every serious distro? Why not fix the crash instead of removing features? 
 * Ask for Save on close/load/new
 * Support resizing of level with drag&drop on the level borders
 * Support selection of multiple objects
@@ -183,14 +183,14 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * Tool not working after loading new level
 :Added a workaround for this by reseting to the Select tool when loading new level. --[[User:AnMaster|AnMaster]] 20:25, 8 Sep 2006 (BST)
 * Windows builds seem to silently crash when loading huge levels
-:huge as in 100x100 or more like 10000x10000?
-:the level old world2/airkey.stl crashed both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
-::the old airkey was 300x300. It makes the editor slow on my linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
+*:huge as in 100x100 or more like 10000x10000?
+*::the level old world2/airkey.stl crashed both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
+*:::the old airkey was 300x300. It makes the editor slow on my linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
 * Make the right click menu from sector tab a normal menu so that users can easily find it
-:Maybe add them to a toolbar? that could be useful. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
+*:Maybe add them to a toolbar? that could be useful. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 * When you set the path to the supertux data dir the editor doesn't use the new path until you restart the editor.
 * Add a new way to copy parts of one level to another. 
 * You can't remove first sector when there is exactly two sectors in the level.
 *: Should be intended behaviour. Same thing as you can't remove all tilemaps, as you wouldn't be able to do anything, you are even not able to create a new tilemap. Well, and... main sector has to exist, otherwise level won't start. -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
 [[Category:Development]]
-::No, it's not intended. It was a quick fix to prevent crashing.
+*::No, it's not intended. It was a quick fix to prevent crashing.
