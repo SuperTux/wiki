@@ -153,6 +153,15 @@ Once he “sees” Tux, Mr Missile starts shadowing him. So if Tux stops he does
 Rolling snowball looks like bouncing snowball except he rolls along the ground (obviously) when he “sees” Tux he gives a little signal and starts rolling as fast as skidding Mr Iceblock. Tux should be able to ride him. If he stands on him he “zooms”, taking Tux with him. He dies after 5 crashes on “zoom” mode or 1 if Tux is riding him. Invincibility and Supertux’s fire are the only other things that kill him.
 :  There could be a rolling spiky that Tux could not ride.
 
+This badguy could go anywhere.
+
+====Mr Block====
+*looks like shoes with eyes on top
+*"gets" blocks somehow and uses them as a body 
+*when killed only the eyes and feet die, leaving a block
+:he could make blocks
+:he could get them by pulling out of ground
+:he could take them when he bumps into a wall
 
 Here is a badguy which could fit into the dark-forest scheme:
 
@@ -172,7 +181,6 @@ That could be compensated by making it a bit harder to kill.
 ==== Leopard Seals ====
 Just another badguy. See wikipedia article about this: en.wikipedia.org/wiki/Leopard_Seal
 They can grab penguins under water, they can't breath and they die.
-
 
 === More Objects to Meet ===
 
