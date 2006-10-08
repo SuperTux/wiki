@@ -153,6 +153,11 @@ Once he “sees” Tux, Mr Missile starts shadowing him. So if Tux stops he does
 Rolling snowball looks like bouncing snowball except he rolls along the ground (obviously) when he “sees” Tux he gives a little signal and starts rolling as fast as skidding Mr Iceblock. Tux should be able to ride him. If he stands on him he “zooms”, taking Tux with him. He dies after 5 crashes on “zoom” mode or 1 if Tux is riding him. Invincibility and Supertux’s fire are the only other things that kill him.
 :  There could be a rolling spiky that Tux could not ride.
 
+====Mr Airtank====
+*looks like a scuba tank with eyes and feet
+*when Tux gets near he pufs out gas whitch harms Tux
+*flashes (like Mr Bomb) and explodes (also like Mr Bomb)
+
 This badguy could go anywhere.
 
 ====Mr Block====
