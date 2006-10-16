@@ -141,7 +141,7 @@ Here're three new suggestions for badguys in the forest world:
 * Maybe "stackable", similar to the cactuses in SMW: Up to four "Mr Log" could be combined to serve as a high barrier, only destroyable from above (or with FireTux). 
 
 ==== Limpy ====
-* Another slow creature, which is able to adhere to any surface. When reaching the end of a platform, it doesn't fall down, but continues to crawl downwards, upwards, or even underneath.
+====* Another slow creature, which is able to adhere to any surface. When reaching the end of a platform, it doesn't fall down, but continues to crawl downwards, upwards, or even underneath.
 
 
 These badguys could fit in somewhere else.
@@ -158,8 +158,12 @@ Rolling snowball looks like bouncing snowball except he rolls along the ground (
 *when Tux gets near he pufs out gas whitch harms Tux
 *flashes (like Mr Bomb) and explodes (also like Mr Bomb)
 
-This badguy could go anywhere.
+====Super Snowball====
+*looks like a giant Mr Snowball
+*can get bonuses like becoming Firetux
+*if Tux jumps on him he shrinks to Mr Snowball
 
+This badguy could go anywhere.
 ====Mr Block====
 *looks like shoes with eyes on top
 *"gets" blocks somehow and uses them as a body 
