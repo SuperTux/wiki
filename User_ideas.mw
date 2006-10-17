@@ -92,7 +92,7 @@ In options menu let player choose a sound output like OSS, aRts and so on.
 It would be far more realistic if there was at least an alpha'd water tile.  That way you can put the alpha'd water in the foreground and make the block of ice in the interactive layer look like it's actually floating in water!
 --[[User:Eibwen|Eibwen]] 08:12, 1 Oct 2006 (CEST)
 :As far as I know semi transparent water tiles already exist, even in 0.1.x. If you don't see them try to change to/from using OpenGL. --[[User:AnMaster|AnMaster]] 10:00, 1 Oct 2006 (CEST)
-:Posted as [[BUG]]
+:Posted as [[Bugs]]
 
 ===Central Storyline===
 I believe the game really needs a storyline that makes the game not just about the arcade, but involves a greater plot. There should be a cutscene for just about every level and specific objectives (like you need to find a certain key or something before completing the level) Almost every level should have a cutscene that further adds to the plot. I also like the NPC idea because that can also drive the the plot. An idea for a storyline is detailing how Tux and Penny met and maybe add other characters that touch Tux's life (family, old flames, etc.)
