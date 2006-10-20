@@ -24,7 +24,7 @@ This distribution includes a supertux package. Use yast to install it:
 			
    yast2 -i supertux
 
-== Fedora ==
+=== Fedora ===
 
 Fedora Extras includes a supertux package.
   yum install supertux
