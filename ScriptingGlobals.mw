@@ -8,8 +8,29 @@ TODO
 
 {| class="objectlist"
 ! class="method"| ANCHOR_TOP
-| represents the top anchor point of a rectangle
+| represents the top center anchor point of a rectangle
 |-
 ! class="method"| ANCHOR_BOTTON
-| represents the bottom anchor point of a rectangle
+| represents the bottom center anchor point of a rectangle
+|-
+! class="method"| ANCHOR_LEFT
+| represents the left anchor point of a rectangle
+|-
+! class="method"| ANCHOR_RIGHT
+| represents the right anchor point of a rectangle
+|-
+! class="method"| ANCHOR_MIDDLE
+| represents the middle anchor point of a rectangle
+|-
+! class="method"| ANCHOR_TOP_LEFT
+| represents the top left anchor point of a rectangle
+|-
+! class="method"| ANCHOR_TOP_RIGHT
+| represents the top right anchor point of a rectangle
+|-
+! class="method"| ANCHOR_BOTTOM_LEFT
+| represents the bottom left anchor point of a rectangle
+|-
+! class="method"| ANCHOR_BOTTOM_RIGHT
+| represents the bottom right anchor point of a rectangle
 |}
