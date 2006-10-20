@@ -90,3 +90,8 @@ Is it means that server is overloaded? If so, should you think of possibility to
 == Fedora Install ==
 
 Fedora Extras includes a supertux package.  <code>yum install supertux</code> should be sufficient for users of any recent version of Fedora.  (Users of older Fedora or Red Hat Linux releases, or RHEL and derivatives, might need to configure yum, apt, or smart, or just download the package from (download.fedora.redhat.com/pub/fedora/linux/extras/ Fedora Extras) or (mirrors.kernel.org/fedora.us/fedora/ fedora.us).
+
+== Arch Linux ==
+
+SuperTux is in the community repo now.
+To install it, uncomment the community repo in /etc/pacman.conf, if you haven't already done so, and run "pacman -S supertux" after syncronizing (pacman -Sy). --[[User:193.175.191.197|193.175.191.197]] 15:26, 20 Oct 2006 (CEST)
