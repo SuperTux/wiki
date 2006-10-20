@@ -84,7 +84,7 @@ TODO: Convert the rest of the scripting docu to the new format (and improve form
 
 
 === Global Functions ===
-These global functions access basic or generic methods of SuperTux. They are called without an object name.
+These global functions access basic or generic methods of SuperTux. They are called without an object name. TODO: Move these into the globals section above.
 
 ==== display ====
 Usage: <tt>display(*** object)</tt>
@@ -171,13 +171,6 @@ Changes music to musicfile
 Usage: <tt>play_sound(string soundfile)</tt>
 
 Plays a soundfile
-
-==== add_key ====
-Usage: <tt>add_key(int key)</tt>
-
-Adds or removes a key from the player's posession. <tt>key</tt> should be replaced with one of the <tt>KEY_</tt> constants.
-
-See also: src/player_status.hpp
 
 === FloatingImage ===
 The FloatingImage class contains methods for handling an image floating in mid-air, such as the SuperTux logo.
