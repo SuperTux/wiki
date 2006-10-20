@@ -1,18 +1,16 @@
 == How to Translate ==
-* Check at the end of this site if someone else is already working on the translation for your language. If there is someone contact him/her!
-* Install [http://www.gnu.org/software/gettext/ gettext]
-* Get an [[Download/Subversion|SVN snapshot]] of SuperTux and do the usual <tt>autogen.sh</tt>, <tt>configure</tt>. ''Make sure configure can find the xgettext application. (i.e. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")''
-* Run <tt>jam</tt>, let it compile SuperTux and create all the <tt>messages.pot</tt> files
-* Go into data/locale and data/levels/*/ and in each of those directories:
-** In case you want to create a new translation, run:
- msginit -i messages.pot -o $LANG.po
- (where $LANG is the two-character handle of your language)
-** In case you want to update an existing translation, issue the following command:
- msgmerge -U $LANG.po messages.pot
-
-* Edit the .po files with your favourite editor or with one of the GUI tools below.
-* Send the translated .po files to the [[Mailing Lists|supertux-devel mailing list]].
-* You should also edit the supertux.desktop file and add a comment entry for your language.
+# Check at the end of this site if '''someone else''' is already working on the translation for your language. If there is someone contact him/her!
+# If you already have '''messages.pot''' files you can skip this step. If you don't already have messages.pot files (the files that contain all the text that can be translated) you can have them created for you by following these instructions:
+#* Install [http://www.gnu.org/software/gettext/ gettext]
+#* Get an [[Download/Subversion|SVN snapshot]] of SuperTux and do the usual <tt>autogen.sh</tt>, <tt>configure</tt>. ''Make sure configure can find the xgettext application. (i.e. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")''
+#* Run <tt>jam</tt>, let it compile SuperTux and create all the <tt>messages.pot</tt> files
+# '''Create or update the .po files''' for your language. Many GUI tools (see below) will help you with this, so if you indend to use one you can skip this step. Here's how to do things yourself:
+#* Go into data/locale and data/levels/*/ and in each of those directories:
+#** In case you want to create a new translation, run <tt>msginit -i messages.pot -o $LANG.po</tt> (where $LANG is the two-character handle of your language)
+#** In case you want to update an existing translation, issue the following command: <tt>msgmerge -U $LANG.po messages.pot</tt>
+# '''Edit the .po files''' with your favourite editor or with one of the GUI tools below.
+# You should also edit the '''supertux.desktop''' file and add a comment entry for your language.
+# '''Send''' the translated .po files to the [[Mailing Lists|supertux-devel mailing list]].
 
 == Notes for Translators ==
 * If there isn't a good translation for some term (i.e. fullscreen), you might consider to simply keep it in English. It's better than confusing the user.
