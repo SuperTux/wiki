@@ -47,7 +47,7 @@ There's a package available here:
 
   http://www.linuxpackages.net/pkg_details.php?id=7697
 
-== Slax Linux ==
+=== Slax Linux ===
 
 Supertux 0.1.3 packaged for Slax Linux:
   http://www.slax.org/modules.php?id=710
@@ -64,7 +64,9 @@ Note: this universal binary requires Mac OS/X 10.4.x or greater.
 
   http://download.berlios.de/supertux/supertux-0.1.3-macosx.dmg
 
-== FreeBSD ==
+== BSDs ==
+
+=== FreeBSD ===
 
 There seems to be a port for FreeBSD:
 
