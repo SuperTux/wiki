@@ -1,0 +1,15 @@
+= Summary =
+This module contains global constants
+
+= Methods =
+TODO
+
+= Constants =
+
+{| class="objectlist"
+! class="method"| ANCHOR_TOP
+| represents the top anchor point of a rectangle
+|-
+! class="method"| ANCHOR_BOTTON
+| represents the bottom anchor point of a rectangle
+|}
