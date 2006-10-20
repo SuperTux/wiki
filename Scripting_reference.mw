@@ -84,51 +84,6 @@ TODO: Convert the rest of the scripting docu to the new format (and improve form
 === Global Constants ===
 These constants can be accessed from anywhere in the game code.
 
-==== KEY_BRASS ====
-Type: integer
-
-Value: <tt>1</tt>
-
-Represents the brass key.
-
-Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
-
-==== KEY_IRON ====
-Type: integer
-
-Value: <tt>2</tt>
-
-Represents the iron key.
-
-Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
-
-==== KEY_BRONZE ====
-Type: integer
-
-Value: <tt>4</tt>
-
-Represents the bronze key.
-
-Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
-
-==== KEY_SILVER ====
-Type: integer
-
-Value: <tt>8</tt>
-
-Represents the silver key.
-
-Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
-
-==== KEY_GOLD ====
-Type: integer
-
-Value: <tt>16</tt>
-
-Represents the gold key.
-
-Used in: <tt>[[#add_key|add_key]]</tt> as argument 1
-
 ==== ANCHOR_TOP ====
 Type: integer
 
