@@ -13,15 +13,15 @@
 # '''Send''' the translated .po files to the [[Mailing Lists|supertux-devel mailing list]].
 
 == Notes for Translators ==
-* If there isn't a good translation for some term (i.e. fullscreen), you might consider to simply keep it in English. It's better than confusing the user.
+* If there isn't a good translation for some term (e.g. "Credits" or "Sound"), you might consider to simply keep it in English. It's better to allow users to make an educated guess than to confuse them by displaying meaningless or garbled text.
 
-* In English, there is only one singular second person form (you). If your language has more than one - a personal and impersonal - remember that this is a game, so you should use the personal one. Note that if it can be omitted your language, you should probably do so.
+* In English, there is only one singular second person form: "You". If your language has more than one - a personal and an impersonal form - remember that this is a game, so you should use the personal one. Note that if it can be omitted your language, you should probably do so.
 
 * Names like SuperTux, Tux, Penny or Nolok should not be translated. If you really think one of these is too strange for your language, first inform us on our mailing list. Names of minor characters like Mr. Ice Block can (and should) be translated.
 
 * If somewhere in the game, after translating a string, it doesn't look well (bad aligment, overlaps other text...), let us know and we will fix it.
 
-* Do not stick to the original text too much, just try to capture the meaning of a phrase.
+* Do not stick to the original text too much, just try to capture the meaning of a phrase. This especially true for level names, which often play on phrases only known to english speakers. In this case it's often better to make up a level name that is close to the original, but doesn't use a wordplay.
 
 * Have a friend play the game using your translation. If any phrase needs additional explanation, consider changing it.
 
