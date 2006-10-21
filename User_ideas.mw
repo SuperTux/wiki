@@ -329,6 +329,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 * '''Lava tiles''' might be solid, making possible for some enemies (and maybe Invincible Tux) to walk on them. They may also kill even BigTux on touch instead of simply hurting him.
 * '''Special blocks''' solid for enemies but not for Tux, and maybe vice-versa.
 * '''Truly floating platforms''', that actually float on water: if one of these is placed in midair, it will fall down, stopping when hitting solid or water tiles; if the level of water rises/falls, they will automatically rise/fall (SVN currently allows only platforms with a fixed path).
+* '''Grouping objects in the editor''', or at least being able to select more than one at a time - this would make it much easier to do levels with many similar objects. Say I have 20 snowballs, and I decide I need only 5 there. It takes 30 clicks to delete 15 snowballs - I should be able to select 15 of them, right click one and delete them all.
 
 ==== 2-player mode ====
 *How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
