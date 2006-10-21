@@ -49,64 +49,119 @@ Windows users might run
  set LANG=en
  supertux.exe
 
+== Existing Translations ==
+
 Please add yourself to this list if you are working on a new translation, so that others can contact you.
 
-=== Catalan (ca) ===
-* Translated by Antoni Villalonga <frikimaster@gmail.com>
-* Status: ? included in svn
+{| border="1" cellspacing="0" cellpadding="5"
+! Language
+! Code
+! Translator
+! In<br /> release
+! In<br /> revision
+! Comments
+|- 
+| Catalan
+| ca
+| Antoni Villalonga <frikimaster@gmail.com>
+|
+|
+|
+|-
+| Czech
+| cs
+| Ondra Hosek <ondra.hosek@gmail.com>
+| 0.3.0
+| r4415
+|
+|-
+| Danish
+| da
+| Anders <anders § ersej.dk>
+| 0.3.0
+| r4415
+| 100%
+|-
+| German
+| de
+| Matthias Braun <matze@braunis.de>, Marek Möckel
+| 0.3.0
+| r4415
+| 99%
+|-
+| French
+| fr
+| Frederic Rodrigo <f.rodrigo@tuxfamily.org>
+|
+|
+| ?
+|-
+| Italian
+| it
+| Iknos <ze4lot@email.it>
+|
+|
+| ?
+|-
+| Dutch
+| nl
+| Frank van der Loo <frank_l@linuxmail.org>
+|
+|
+| ?
+|-
+| Norwegian Nynorsk
+| nn
+| Karl Ove Hufthammer <karl@huftis.org>
+| 0.3.0
+| r4415
+| ?
+|-
+| (European) Portuguese
+| pt
+| Ricardo Cruz <rick2@aeiou.pt>
+|
+|
+| ?
+|-
+| (Brazilian) Portuguese
+| pt_BR
+| Herval Ribeiro <&#104;&#101;&#114;&#97;&#122;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;>
+| 0.3.0
+| r4415
+| 100%, sugestões são bem vindas. ;)
+|-
+| Polish
+| pl
+| Tomasz Boczkowski <tboczkowski@onet.pl>
+|
+|
+| work in progress
+|-
+| Slovenian
+| sl
+| Marko Burjek <email4marko AT gmail DOT com>
+| 0.3.0
+| r4415
+| 90%
+|-
+| (European) Spanish
+| es
+| Fernando Carmona <ferkiwi § gmail .com>
+| 0.3.0
+| r4415
+| work in progress
+|-
+| Swedish
+| sv
+| Arvid Norlander <anmaster (AT) berlios DOT de>
+| 0.3.0
+| r4415
+| not 100% complete
+|-
+|}
 
-=== Czech (cs) ===
-* Translated by Ondra Hosek <ondra.hosek@gmail.com>
-* Status: complete, included in svn
 
-=== Danish (da) ===
-* Translated by Anders <anders § ersej.dk>
-* Status: 100% (except of test.po, but it's so strange anyway), included in svn
-
-=== German (de) ===
-* Translated by Matthias Braun <matze@braunis.de>
-* Additional translation by Marek Möckel
-* Status: 99% complete, included in svn
-
-=== French (fr) ===
-* Translated by Frederic Rodrigo <f.rodrigo@tuxfamily.org>
-* Status: ? included in svn
-
-=== Italian (it) ===
-* Translated by Iknos <ze4lot@email.it>
-* Status: ? included in svn
-
-=== Dutch (nl) ===
-* Translated by Frank van der Loo <frank_l@linuxmail.org>
-* Status: ? included in svn
-
-=== Norwegian Nynorsk (nn) ===
-* Translated by Karl Ove Hufthammer <karl@huftis.org>
-* Status: ? included in svn
-
-=== (European) Portuguese (pt) ===
-* Translated by Ricardo Cruz <rick2@aeiou.pt>
-* Status: ? included in svn
-
-=== (Brazilian) Portuguese (pt_BR) ===
-* Translated by Herval Ribeiro <&#104;&#101;&#114;&#97;&#122;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;>
-* Status: Complete, in SVN(branch 0_3_x). Sugestões são bem vindas. ;).
-
-=== Polish (pl) ===
-* Translated by Tomasz Boczkowski <tboczkowski@onet.pl>
-* Status: work in progress
-
-=== Slovenian (sl) ===
-* Translated by Marko Burjek <email4marko AT gmail DOT com>
-* Status: 90,7% done without fuzzy strings and 98,14% with fuzzy strings included
-
-=== (European) Spanish (es) ===
-* Translated by Fernando Carmona <ferkiwi § gmail .com>
-* Status: work in progress
-
-=== Swedish (sv) ===
-* Translated by Arvid Norlander <anmaster (AT) berlios DOT de>
-* Status: not 100% complete, included in svn
 
 
 [[Category:Developer documentation]]
