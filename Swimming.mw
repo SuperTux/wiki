@@ -16,4 +16,20 @@ Tux could be able to move a lot faster in water than on land, and he could be ab
 I don't know if penguins can breath underwater, but maybe Tux need swim to surface to breath sometimes...
 * They can hold their breaths for up to 12 minutes. Good enough?
 
+== Proposal 1 ==
+
+My idea of a cool swimming mode would be that as soon as tux is in water, he jumps to the side so he lies on his belly (that's how penguins swim if you've ever watched them in the zoo  :)
+You could then control his angle with the up/down keys (something between facing 45° upward and 45° downwards). The left/right keys would be used to turn tux 180°. Pressing the jump key would accelerate tux a bit into the direction he is facing (the water will have a high friction). We could tweak controls a bit so that an optimum forward movement is achieved if you press the button for a long enough time (if you press it shorter then tux won't get as much acceleration) and then release the button for a long enough time (tux will only react to a 2nd push after some time has passed). For getting out of the water you would dive a bit deeper face upwards and accelerate so much that tux springs out of the water onto the land, we could have an animation there we tux lands on his belly on the land and then stands up. This would add an interesting touch to the game and not feel like more jumping and running. And it would feel like real penguins swimming.
+
+The only problem here is that implementation isn't so easy :) We would have to think about the following points:
+* We would need some new collision detection code to check collisions on rotated rectangles (it's not that hard actually, but would need some API redesign to support this and would need more smart thinking on how to push out objects from collisions)
+* We would need a several new animations: Tux landing in water and switching to swim mode, tux pushing water away with his feet, tux gliding in water, tux landing on his belly on the land and going into normal mode again. This would also bring us to the old problem, that we currently would have to do all animation twice for big and small tux...
+* We could even make good use of more animations: Tux getting hurt in water, tux flapping his wings while doing a jump out of the water, tux hitting a wall in water, tux turning to the other side in water.
+
+Does someone know games that have a similar concept?
+
+TODO: Create some sketches for this to better explain it
+
+--[[User:MatzeB|MatzeB]] 11:24, 23 Oct 2006 (CEST)
+
 [[Category:Action]]
