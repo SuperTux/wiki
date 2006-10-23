@@ -29,3 +29,7 @@ once everything is compiled, go to the src directory inside your supertux direct
 Now it should be working!
 
 PS: OpenGL is not enabled in this mode. Didn't work, had compiling errors with that. There are probably ways to have a package that works like 0.1.2 but I have no clue how to compile SDL and everything into one directory. If someone can do that, go ahead.
+
+== Downloading the OSX Univeral Binary ==
+
+Every time I try to download the OSX UB, it tells me the server is too full. Is it jus extremely crowded or something?
