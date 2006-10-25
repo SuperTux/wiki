@@ -25,3 +25,7 @@ Would it be like the standar fireball going straith? or would it be a freezer li
 
 Can you rethink about using OpenGL? If this becomes a requirement you are going to lose part of your userbase... Is not like the Snes had 3d hardware and zsnes works in 2d just fine.
 :That would mean to test everything with two graphic drivers and keeping them in sync. Do you volunteer for that job? Btw, are YOU playing  on a machine without OpenGL support? Or do you just think that there might be somweone out there that does?
+
+== 1.0 ==
+
+I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 "SuperTux 1.0"? Most people think when they see "0.2" that it is some crappy beta version, which milestone 2 obviously is not. [[User:Cristan|Cristan]]
