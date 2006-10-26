@@ -29,6 +29,7 @@ Would it be like the standar fireball going straith? or would it be a freezer li
 Can you rethink about using OpenGL? If this becomes a requirement you are going to lose part of your userbase... Is not like the Snes had 3d hardware and zsnes works in 2d just fine.
 :That would mean to test everything with two graphic drivers and keeping them in sync. Do you volunteer for that job? Btw, are YOU playing  on a machine without OpenGL support? Or do you just think that there might be somweone out there that does?
 ::What about Mesa? That would be as slow as with the SDL-patch.
+:::Last time I tested the now unmaintained nogl patch it was as fast as the gl version, but I have an AMD64 so it might just be a question of "raw" processing power --[[User:AnMaster|AnMaster]] 01:30, 27 Oct 2006 (CEST)
 
 == 1.0 ==
 
