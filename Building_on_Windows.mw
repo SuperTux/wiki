@@ -104,6 +104,7 @@ There's a new gtk-sharp based editor in development which can also be built on w
 * Gtk-Sharp 2.7 SDK for windows, make sure you actually get the SDK the runtime version contains some bugs that affect the editor: forge.novell.com/modules/xfcontent/private.php/gtks-inst4win/Win32%20Installer/v2.7.1/gtksharp-2.7.1-win32-0.5.exe
 * Microsoft Visual C# Express Edition, it's a free version of visual studio and we use it for compiling (and development on win32): msdn.microsoft.com/vstudio/express/visualcsharp/download
 ** This apparently requires SP2 on Windows XP. (not tested on any other Windows versions)
+*** Is anybody still using XP without SP2? It that machine hast net connection its a bad idea.
 * SDL.dll and SDL_image.dll, you can copy these from a milestone1 installation or from the msys library pack for example.
 
 ===Building===
