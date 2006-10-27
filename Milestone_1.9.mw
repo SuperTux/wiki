@@ -36,7 +36,6 @@ This is a list of what should be '''Added''', '''Removed''' or '''Fixed''' for M
 * autopackage
 *: alpha testing. Samples are on http://www.deltadevelopment.de/users/christoph/supertux/
 * Debian package (build with checkinstall)
-* Gentoo ebuild (courtesy of AnMaster)
 * Slackware package (courtesy of tuxdev)
 * Windows binaries (courtesy of delta___)
 *: alpha testing. Samples are on http://www.deltadevelopment.de/users/christoph/supertux/
