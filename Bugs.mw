@@ -73,6 +73,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4249: If a coin is placed in water, when tux hits it it counts as collected but doesn't disappear.
 *: Not a bug, its because of Coin tile on Foreground layer.
 
+* 4422: Doesn't compile, gives me errors about not finding level_time.hpp on about 10-12 files. jam clean doesn't help.
+*: Checkin was missing a file
+
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
@@ -145,5 +148,3 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4327: Forest worldmap has a level off the path, and says that "tilemap data is buggy" when I get near it.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 1 Oct 2006 (CEST)
 
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
-
-* 4422: Doesn't compile, gives me errors about not finding level_time.hpp on about 10-12 files. jam clean doesn't help.
