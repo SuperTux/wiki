@@ -9,7 +9,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 == Release 0.1.3 ==
 
-* When using OpenGL renderer, water transparency is not shown. Using software renderer (SDL), water alpha looks just fine. Could you check out why transparency does not work for some people? Experienced with the bynary-only ATI video driver (fglrx) for ATI Radeon X200M video card.
+* When using OpenGL renderer, water transparency is not shown. Using software renderer (SDL), water alpha looks just fine. Could you check out why transparency does not work for some people? Experienced with the binary-only ATI video driver (fglrx) for ATI Radeon X200M video card.
 * If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives. This happens when Tux looses his last life.
 * The texture.cpp file has an incorrect texture type (GL_RGB10_A2). Only ATI (FGLRX) drivers will interpret it correctly and will display a non-transparent waterfall in OpenGL. It's better to use GL_RGBA here since most drivers (ex. mesa) interpret GL_RGB10_A2 as GL_RGBA
 * Widely experienced bug: After compiling v0.1.3 from source on Ubuntu Linux 5.10 "Breezy Badger", the game crashes after choosing "Bonus Levels" from the main menu, although going into a 26-level game slot doesn't -djwings
