@@ -148,3 +148,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4327: Forest worldmap has a level off the path, and says that "tilemap data is buggy" when I get near it.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 1 Oct 2006 (CEST)
 
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
+
+* 4426: Console is operational during the main menu, which means you can use 'kill()' to kill Tux; the level fades out and does not fade back in again, resulting in a quiet, black background with the main menu (which still works).
