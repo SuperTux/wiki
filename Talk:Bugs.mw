@@ -2,6 +2,9 @@ This page is currently a mix of bugs and user comments on bugs. Anybody care to 
 
 Well actually we can leave it as is. But please don't fill support requests here! Only fill in things that are clearly real bugs (better ask in irc channel or mailing list first).
 
+== Negative Lives ==
 
 "If an enemy kills Tux and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives. This happens when Tux looses his last life."   i HAD THAT HAPPEN TO ME.
 -SonicDude
+
+: I'll have to substract one point from your overall score for only re-reporting the second bug on the [[Bugs]] page. Try to get the first one next time... --[[User:84.146.251.243|84.146.251.243]] 13:54, 29 Oct 2006 (CET)
