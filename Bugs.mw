@@ -150,3 +150,4 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
 
 * 4426: Console is operational during the main menu, which means you can use 'kill()' to kill Tux; the level fades out and does not fade back in again, resulting in a quiet, black background with the main menu (which still works).
+*: The console is a debugging tool, you can mess up any game using it as you can call any function that you could call using a script. And as normal users would never use the console I don't think that this seems like an important bug. Also having the console reachable from anywhere in the game is good for debugging (and that is what the console is meant for, it isn't for cheating...). --[[User:AnMaster|AnMaster]] 12:25, 29 Oct 2006 (CET)
