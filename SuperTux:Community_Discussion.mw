@@ -63,9 +63,13 @@ Hi, I'm the guy who makes Super Burger World, I really don't mean to take any cr
 
 : Much better. Thanks a ton. And there aren't any GPL violations, so no problem.
 
+== Another SuperTux Copy? ==
+
 There may be another copy, Fuzzyland Adventures. He (magnuslundsted) seems to deny forking the code of SuperTux, but does (at least) use sound and graphics from SuperTux without credit. This might actually be a fork of Milestone 1? Is found at sourceforge.net/projects/fuzzyadventure/
 
 : : I've played the game and don't see any graphics taken from supertux. I also don't think that he used the supertux source code since it lacks features supertux already has like save games. The guy said somewhere that it's a port of an old java project of his but I can't find it right now. If you still mistrust the guy ask him here happypenguin.org/forums/viewtopic.php?t=3352&start=0 personally I think your just jumping at ghosts.
+
+:: Magnus has repeatedly been on the SuperTux IRC channel, presenting alpha builds of what was then called "Wasteland". Moreover, it is written in Java - unlike SuperTux, which is in C/C++, so I am 100% sure it's no ripoff, even featuring some nice concepts of its own. According to what he told us on IRC, though, the font is the same as the one SuperTux uses, hence the confusion. --[[User:195.158.180.33|195.158.180.33]] 21:50, 1 Nov 2006 (CET)
 
 ==SuperTux graphics for other projects==
 
