@@ -77,14 +77,38 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4422: Doesn't compile, gives me errors about not finding level_time.hpp on about 10-12 files. jam clean doesn't help.
 *: Checkin was missing a file
 
-=== Open ===
-
-{{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
 * free() errors when exiting SuperTux without having entered a worldmap/level.
 *: Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
 *:: Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);</code>''
 *:: Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
 *: Cannot reproduce. Are these still relevant?
+*: presumed fixed. closed.
+
+* 4076: Cannot get to 'Forest World'.
+*: presumed fixed. closed.
+
+* 4107: Big Tux dies when exiting some doors, (e.g. in world2/level1.stl, near the first secret area) possibly because he's spawned in the ground. (seems fixed now)
+
+* 4249: It is way too easy to die because a lantern crashes on top of your head, by letting go of it while airborne.
+*: Please say in what level this happens. -- [[User:Penma|Penguinmaster]] 11:38, 1 Oct 2006 (CEST)
+*:: Doesn't matter.  It is a general issue with portable stuff and crushes. --[[User:Tuxdev|Tuxdev]] 22:05, 1 Oct 2006 (CEST)
+*::: Rocks, lanterns and trampolines can now be thrown
+
+* 4249: On the "silver key" level on the forest world, there is no way to win or die on the level. -- smallfoot-
+*: Keys are not yet working
+
+* 4426: Console is operational during the main menu, which means you can use 'kill()' to kill Tux; the level fades out and does not fade back in again, resulting in a quiet, black background with the main menu (which still works).
+*: The console is a debugging tool, you can mess up any game using it as you can call any function that you could call using a script. And as normal users would never use the console I don't think that this seems like an important bug. Also having the console reachable from anywhere in the game is good for debugging (and that is what the console is meant for, it isn't for cheating...). --[[User:AnMaster|AnMaster]] 12:25, 29 Oct 2006 (CET)
+*: Not a bug.
+
+* 4249: On the castle level (before the before the boss), SuperTux runs slow, low FPS. -- smallfoot-
+*: Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
+*:: Yeah, but I have 900 MHz, 256 mb RAM, GeForce 4. I could play Super Mario on Nintendo 8 MHz.
+*: Not a bug.
+
+=== Open ===
+
+{{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
 
 * Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
 
@@ -99,11 +123,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4041: Tux gets stuck for a few seconds climbing certain staircases in the level that's automatically played in the background on the main menu.
 *:yes at x 3762 y 256 and x 8288 y 1024, and sometimes other places too.
 
-* 4076: Cannot get to 'Forest World'.
-
 * 4107: Editor: Placing a left-switch is difficult, the switch moves to the left in the game compared to the editor.
-
-* 4107: Big Tux dies when exiting some doors, (e.g. in world2/level1.stl, near the first secret area) possibly because he's spawned in the ground. (seems fixed now)
 
 * 4107: Enemies may be pushed in the ground by other objects (e.g. in world2/updown.stl, near the beginning, the snail may be pushed underground by the platform if upside-down).
 
@@ -128,19 +148,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4245: Since r4208 Smalltux spawns below the spawnpoint. So reset points are no longer activated if restarting a level there. (activate firefly, kill tux. tux starts at firefly, but firefly shows inactive image)
 
-* 4249: It is way too easy to die because a lantern crashes on top of your head, by letting go of it while airborne.
-*: Please say in what level this happens. -- [[User:Penma|Penguinmaster]] 11:38, 1 Oct 2006 (CEST)
-*:: Doesn't matter.  It is a general issue with portable stuff and crushes. --[[User:Tuxdev|Tuxdev]] 22:05, 1 Oct 2006 (CEST)
-
 * 4249: I found a secret bonus level on the south-west ice island, but when I won it, SuperTux crashed. SVN 23 sept. -- smallfoot-
 
-* 4249: On the castle level (before the before the boss), SuperTux runs slow, low FPS. -- smallfoot-
-*: Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
-*:: Yeah, but I have 900 MHz, 256 mb RAM, GeForce 4. I could play Super Mario on Nintendo 8 MHz.
-
 * 4249: I used boat and pressed forth-and-back some, then screen went dark, and it don't come back to normal, its dark! -- smallfoot-
-
-* 4249: On the "silver key" level on the forest world, there is no way to win or die on the level. -- smallfoot-
 
 * 4251: When Bigtux crushes a wooden box by jumping, enemies on that box do not die, but fall on his head.
 
@@ -149,6 +159,3 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4327: Forest worldmap has a level off the path, and says that "tilemap data is buggy" when I get near it.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 1 Oct 2006 (CEST)
 
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
-
-* 4426: Console is operational during the main menu, which means you can use 'kill()' to kill Tux; the level fades out and does not fade back in again, resulting in a quiet, black background with the main menu (which still works).
-*: The console is a debugging tool, you can mess up any game using it as you can call any function that you could call using a script. And as normal users would never use the console I don't think that this seems like an important bug. Also having the console reachable from anywhere in the game is good for debugging (and that is what the console is meant for, it isn't for cheating...). --[[User:AnMaster|AnMaster]] 12:25, 29 Oct 2006 (CET)
