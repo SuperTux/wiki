@@ -7,6 +7,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 *:: I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar.  Right now the CSS on the wiki is messed up for me, but I know it is just me.  --[[User:Tuxdev|Tuxdev]] 00:48, 15 Sep 2006 (BST)
 *:::It's still there. I'm using Opera 9 on Ubuntu Dapper
 *:::: So am I, but I don't experience anything like it. Maybe a custom skin? Can you give steps to reproduce? --[[User:84.146.251.243|84.146.251.243]] 14:02, 29 Oct 2006 (CET)
+*:::::I simply log in, and when logged in every single page has "Wikipedia" instead of "SuperTux". I am not using any custom skin or such. --Shylence 18:24, 3 Nov 2006 (CET)
 
 == Release 0.1.3 ==
 
