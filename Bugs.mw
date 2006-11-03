@@ -106,6 +106,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 *:: Yeah, but I have 900 MHz, 256 mb RAM, GeForce 4. I could play Super Mario on Nintendo 8 MHz.
 *: Not a bug.
 
+* 4249: I used boat and pressed forth-and-back some, then screen went dark, and it don't come back to normal, its dark! -- smallfoot-
+*: fixed
+
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
@@ -149,8 +152,6 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4245: Since r4208 Smalltux spawns below the spawnpoint. So reset points are no longer activated if restarting a level there. (activate firefly, kill tux. tux starts at firefly, but firefly shows inactive image)
 
 * 4249: I found a secret bonus level on the south-west ice island, but when I won it, SuperTux crashed. SVN 23 sept. -- smallfoot-
-
-* 4249: I used boat and pressed forth-and-back some, then screen went dark, and it don't come back to normal, its dark! -- smallfoot-
 
 * 4251: When Bigtux crushes a wooden box by jumping, enemies on that box do not die, but fall on his head.
 
