@@ -1,3 +1,2 @@
-
 I have a different keyboard layout, is there a way to find out which key number is the tilde? (Using MS 1.9)
-:I don't think the key numbers change.  The raw key codes are abstracted away by SDL and the kernel. --[[User:24.176.171.3|24.176.171.3]] 02:10, 11 Nov 2006 (CET)
+:I don't think the key numbers change.  The raw key codes are abstracted away by SDL and the kernel. --[[User:Tuxdev|Tuxdev]] 02:11, 11 Nov 2006 (CET)
