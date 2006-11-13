@@ -165,8 +165,8 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 *: Overview for what? -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
 *::The sector. Like a minimap. 
 * preserve unknown lisp trees
-* Grab Mouse Pointer when scrolling so that we can scroll as much as we want
-(and the mouse is still where it was before scrolling)
+* Grab Mouse Pointer when scrolling so that we can scroll as much as we want (and the mouse is still where it was before scrolling)
+*:I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[[User:AnMaster|AnMaster]] 10:46, 13 Nov 2006 (CET) 
 * More custom property editors:
 ** Spawnpoint selector
 ** Texts
