@@ -166,3 +166,5 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
 
 * 4437: Only one Mr. Icebox will die, if two are fired at each other. (Different behaviour than in 0.1.3)
+
+* 4438: Level time stops (and the counter at the top disappears) if you go to another sector.
