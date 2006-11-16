@@ -12,3 +12,7 @@ The alpha installer by delta___ doesn't seem to use the tools/innosetup/supertux
 There is a small island on the top right corner of world2, how do you enter it?
 : It's a secret island that can be reached via a teleporter in [[World 2]]. It wouldn't be a secret island if I told you how to reach it, now would it? Besides, it would spoil all the fun searching for it! --[[User:Sommer|Sommer]] 12:44, 14 Nov 2006 (CET)
 I don't see a teleporter, is it invisible?
+
+==Editor Error==
+
+When you try to open a level or worldmap in the windows 0.3.0 editor, you get an error "Error loading level: Exception has been thrown by the target of an invocation" Any solutions?
