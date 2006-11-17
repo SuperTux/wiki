@@ -19,3 +19,52 @@ There is a small island on the top right corner of world2, how do you enter it?
 When you try to open a level or worldmap in the windows 0.3.0 editor, you get an error "Error loading level: Exception has been thrown by the target of an invocation" Any solutions?
 : You might be trying to open a SuperTux 0.1.x level. Sadly, the editor cannot import those yet. <br />Converting SuperTux 0.1.x levels to the new 0.3.x format isn't too hard to do (just open an old and a new level in a text editor to see the differences), but I wrote a short Scheme script to do the conversion for you. You can download it at from svn.berlios.de/viewcvs/*checkout*/supertux/branches/supertux/0_3_x/tools/levelconverter-0.1.3_0.2.0.scm?rev=4257<br />Alternatively. mail me the old level and I'll mail back a converted version to you. --[[User:Sommer|Sommer]] 13:37, 16 Nov 2006 (CET)
 :: A 0.1 level would not result in that error message. The message would be: "Couldn't load level: Old Level Format not supported". What I suspect is that you haven't set the path to the supertux data directory correctly. But without details I can't say what it is. What is needed is: the message shown after clicking on the small "+" in front of the text "Details" in the error message box and the level level file itself. --[[User:AnMaster|AnMaster]] 13:53, 16 Nov 2006 (CET)
+
+Here is the info:
+
+"Exception has been thrown by the target of an invocation."
+in <0x0010e> System.Reflection.MonoCMethod:Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
+
+in <0x0001c> System.Reflection.MonoCMethod:Invoke (BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
+
+in <0x00035> System.Reflection.ConstructorInfo:Invoke (System.Object[] parameters)
+
+in <0x00043> LispReader.LispRootSerializer:CreateObject (System.Type Type)
+
+in <0x000ca> LispReader.LispRootSerializer:Read (Lisp.List list)
+
+in <0x0002d> LispReader.LispSerializer:ReadType (System.Type type, Lisp.List list)
+
+in <0x000ff> LispReader.LispSerializer:Read (System.IO.TextReader Reader, System.String Source)
+
+in <0x00042> LispReader.LispSerializer:Read (System.String FileName)
+
+in <0x00032> Application:Load (System.String fileName)
+
+--Caused by--
+
+"Couldn't load resource 'images/tiles.strf'"
+in <0x000b2> Resources.DefaultResourceManager:Get (System.String ResourcePath)
+
+in <0x00015> Util:Load (System.String Filename, System.String RootElement)
+
+in <0x00113> Tileset:.ctor (System.String Resourcepath)
+
+in <0x0003e> Level:.ctor ()
+
+in <0x00000> <unknown method>
+
+in (wrapper managed-to-native) System.Reflection.MonoCMethod:InternalInvoke (object,object[])
+
+in <0x0008d> System.Reflection.MonoCMethod:Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
+
+--Caused by--
+
+"Directory 'E:\Program Files\Super-Tux0.3.x\/images' not found."
+in <0x00211> System.IO.StreamReader:.ctor (System.String path, System.Text.Encoding encoding, Boolean detect_encoding_from_bytemarks, Int32 buffer_size)
+
+in <0x00026> System.IO.StreamReader:.ctor (System.String path)
+
+in (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+
+in <0x0003e> Resources.DefaultResourceManager:Get (System.String ResourcePath)
