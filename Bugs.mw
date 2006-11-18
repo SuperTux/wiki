@@ -165,6 +165,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4327: Forest worldmap has a level off the path, and says that "tilemap data is buggy" when I get near it.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 1 Oct 2006 (CEST)
 
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
+: Works for me in 4446. Fixed or hard to reproduce? 
 
 * 4437: Only one Mr. Icebox will die, if two are fired at each other. (Different behaviour than in 0.1.3)
 
