@@ -56,3 +56,49 @@ in <0x0003e> Resources.DefaultResourceManager:Get (System.String ResourcePath)
 </pre>
 
 :"Directory 'E:\Program Files\Super-Tux0.3.x\/images' not found." is the problem. Please set the path to the SuperTux data dir in the editor preferences correctly. It should be "E:\Program Files\Super-Tux0.3.x\data" (if you have SuperTux 0.3 in E:\Program Files\Super-Tux0.3.x). --[[User:AnMaster|AnMaster]] 22:28, 17 Nov 2006 (CET)
+
+I got another error:-(
+
+<pre>
+"Exception has been thrown by the target of an invocation."
+in <0x0010e> System.Reflection.MonoMethod:Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
+
+in <0x000c0> System.Reflection.MonoProperty:SetValue (System.Object obj, System.Object value, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
+
+in <0x0001d> System.Reflection.PropertyInfo:SetValue (System.Object obj, System.Object value, System.Object[] index)
+
+in <0x00019> LispReader.FieldOrProperty+Property:SetValue (System.Object Object, System.Object value)
+
+in <0x0028d> LispReader.LispRootSerializer:Read (Lisp.List list)
+
+in <0x0002d> LispReader.LispSerializer:ReadType (System.Type type, Lisp.List list)
+
+in <0x00010> LispReader.LispSerializer:Read (Lisp.List List)
+
+in <0x00141> Sector:CustomLispRead (Lisp.Properties props)
+
+in <0x00b73> LispReader.LispRootSerializer:Read (Lisp.List list)
+
+in <0x007e2> LispReader.LispRootSerializer:Read (Lisp.List list)
+
+in <0x0002d> LispReader.LispSerializer:ReadType (System.Type type, Lisp.List list)
+
+in <0x000ff> LispReader.LispSerializer:Read (System.IO.TextReader Reader, System.String Source)
+
+in <0x00042> LispReader.LispSerializer:Read (System.String FileName)
+
+in <0x00032> Application:Load (System.String fileName)
+
+--Caused by--
+
+"GLU.dll"
+in (wrapper managed-to-native) OpenGlUtil.glu:_ErrorString (uint)
+
+in <0x0000d> OpenGlUtil.glu:ErrorString (UInt32 error)
+
+in <0x00090> Drawing.GlUtil:Assert (System.String message)
+
+in <0x0007f> Drawing.Texture:SetTextureParams ()
+
+in <0x000da> Drawing.Texture:CreateFromSurface (IntPtr surfacep, UInt32 glformat)
+</pre>
