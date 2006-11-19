@@ -38,7 +38,6 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 *:Anyway. Not a bug. If this was a feature request, please add this to the list of [[Ideas]]
 *:Isn't this is a badguy characteristic?  Some badguys fall off, others don't.  --tuxdev
 *:: In [[Milestone 1]], this could be configured separately for each guy on the screen. [[Milestone 2]] will have that as a Badguy-dependent setting, i.e. [[MrBomb]] never walk off ledges, [[Spiky]] will only walk off if he won't fall offscreen, A [[Snowball]] won't care and happily drop off every ledge.
-*Save file gets corrupted (has zero length) when free space on storage device runs out during the game.
 
 == Release 0.1.2 ==
 * The sound slightly lags. Bug produced with Fedora Core 2.
