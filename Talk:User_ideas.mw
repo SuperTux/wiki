@@ -18,3 +18,11 @@ Seems wasteful to have two scripting languages (plus a binding tool). Why not (l
 
 We just use the scheme-expressions as a flexible tree-based file format (the atlernative would have been 
 xml parsers which are bigger and the scheme is a bit nicer to read in our opinions). But the scheme stuff is not a scripting language in supertux. --[[User:MatzeB|MatzeB]] 12:05, 19 Jul 2006 (BST)
+
+== "3D Tux" ==
+
+I like the fact I can run this game on old machines without needing special hardware.
+Please... pleasepleasepleasepleaseplease... keep it 2D.
+If 3D is going to be for cutscenes only, please make sure it's possible to disable them, ok?
+
+thanks
