@@ -1,20 +1,2 @@
 <blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Wiki Sandbox!''' Please feel free to conduct your experiments with formatting and and editing skills on this page. You may place anything here; however, nothing copyrighted, offensive, or related to spam. To edit this page, click on the '''edit''' button on the top of the page. Nothing is permanent, as this page is cleaned every few days.'' </blockquote>
 <!-- Please test ONLY after this line. Do not remove anything above this. Thank you! -->
-{{Badguy | name=Spiky | image=Spiky | worlds=IcyIsland | appearance=Mr. Snowball wearing a spiky helmet | behaviour=Walks around | squish=no | butt-jump=no | freeze=yes | ignite=yes, killed }}
-
-
-= 1 =
-== 2 ==
-=== 3 ===
-==== 4 ====
-===== 5 =====
-====== 6 ======
-======= 7 =======
-======== 8 ========
-========= 9 =========
-========== 10 ==========
-
-''abc'' '''def''' '''''ghi''''' <u>jkl</u> 
-hihi <span style="border: 1px solid #ff0; background: #fff; color: #660;"><b>[[User:DirtY iCE|<span style="color: #660;">DirtY iCE</span>]]</b><small>([[User_talk:DirtY iCE|<span style="color: #600;">talk</span>]],[[Special:Contributions/DirtY_iCE|<span style="color: #600;">contributions</span>]])</small></span> 17:58, 9 Nov 2006 (CET)
-
-'''Tux3000: [[Special:Contributions/Tux3000|My Page]]'''
