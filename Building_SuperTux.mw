@@ -111,7 +111,7 @@ You may have to login again after these changes so they can take affect.
 
 2.  Download the source of gtk-sharp at go-mono.com/sources-latest/
 
-3.  Compile and install gtk-sharp using "./configure --prefix==/path/to/mono"
+3.  Compile and install gtk-sharp using "./configure --prefix=/path/to/mono"
 
 4.  Verify that the new version is correct by running "pkg-config --modversion gtk-sharp-2.0" (May need to login again for this)
 
