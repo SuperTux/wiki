@@ -5,4 +5,20 @@ Also wondering if you know of a way or have a howto on how to make a .app bundle
 Thanks, great guide!
 Jayson
 
+
 I am doing great too... but can't get configure to recognize SDL_Image... when I KNOW I installed it. Help?
+
+Did you install it to the default PREFIX?  If you used a package manager like Fink it may install it to a different directory and you'll have to tell configure where it's located.
+
+
+In case anyone runs into the same problems I did, here's a modification that worked for me:
+First, on my MacBook Pro (never had this on my Powerbook), I run into errors not finding OpenAL.  I had to link AL to /System/Library/Frameworks/OpenAL.framework/Versions/A/Headers/ (as the symlink for Headers points to Current instead of A, and the folder/link Current doesn't exist).  I also had to remove a directory in /Library/Frameworks/OpenAL.framework (possibly installed when I ran into the first problem and tried to install the framework from http developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=97).
+
+For some reason the Jamfile didn't take the -framework OpenAL flag so jam can't find OpenAL when linking.  I had to run jam as so:
+LDFLAGS="-framework OpenAL -L." jam
+
+Also, if you're using Fink, I've been running configure as so:
+./configure --with-apple-opengl-framework CPPFLAGS="-I. $CPPFLAGS" LDFLAGS="-framework OpenAL $LDFLAGS"
+(make sure to follow Fink's instructions on having your .bashrc set the proper CPP and LDFLAGS: http fink.sourceforge.net/faq/usage-general.php (question Q8.3)).
+
+~Jayson
