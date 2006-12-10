@@ -247,6 +247,10 @@ It looks like a small bolt of lightning with eyes and shoots down from a certain
 
 Mr. Bubble looks like a very fat ghost with legs and eyes. It mostly walks on the ground, but can also float up to 5 spaces above the ground at random times. Upon spotting Tux, it shoots bubbles at him, and Tux has to dodge them. If he doesn't, he gets caught in the bubble, the bubble shrinks to a tiny dot, there is a pop sound, and Tux dies.
 
+''Mr.Bubble2''
+
+Looks and acts the same as Mr.Bubble,but warps Tux.
+
 =====Castle Badguys=====
 
 ''Walking DartTrap''
