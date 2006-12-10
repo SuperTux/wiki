@@ -226,7 +226,7 @@ The Jellyfish is hard to beat because it moves randomly in water. The trailing t
 
 ''Earthworm''
 
-Earthworms slither vertically and horizontally. They are 1 space thick, and therefore would be best in 1- or 2-space-high tunnels. They push Tux back; or, in 2-space-high horizontal  tunnels, Tux can ride them. They only kill when they squash Tux against a wall, floor, or ceiling. They cannot be killed
+Earthworms slither vertically and horizontally. They are 1 space thick, and therefore would be best in 1- or 2-space-high tunnels. They push Tux back; or, in 2-space-high horizontal  tunnels, Tux can ride them. They only kill when they squash Tux against a wall, floor, or ceiling. They cannot be killed.
 
 ''Killer Earthworm''
 
@@ -237,7 +237,11 @@ Killer Earthworms move like a Limpy. They look like an Earthworm but are smaller
 
 ''Mr. Lightning''
 
-He looks like a small bolt of lightning with eyes and shoots down from a certain point, trying to hit Tux. It moves twice as fast as a diving Zeekling. It cannot be killed, and it hurts Tux when it hits him, after which it disappears.
+It looks like a small bolt of lightning with eyes and shoots down from a certain point, trying to hit Tux. It moves twice as fast as a diving Zeekling. It cannot be killed, and it hurts Tux when it hits him, after which it disappears.
+
+''Mr. Bubble''
+
+Mr. Bubble looks like a very fat ghost with legs and eyes. It mostly walks on the ground, but can also float up to 5 spaces above the ground at random times. Upon spotting Tux, it shoots bubbles at him, and Tux has to dodge them. If he doesn't, he gets caught in the bubble, the bubble shrinks to a tiny dot, there is a pop sound, and Tux dies.
 
 === More Objects to Meet ===
 
