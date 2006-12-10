@@ -212,6 +212,9 @@ Flatbottom Iceberg is a flipped Flattop Iceberg, so it can't be "ridden". Both k
 
 It looks like an ordinary rock, but when Tux gets within range (5 spaces away), it grows eyes and legs and starts walking. When Tux jumps on it, its legs vanish and its eyes close. Tux can then pick it up. If Tux lets go, or jumps on it again, it speeds off like a Mr. Iceblock. This badguy can't be killed.
 
+''Chameleon''
+This badguy is 4 spaces long. It lies motionless, and when Tux is in its sightline (10 spaces long, 1 space high), it opens its eyes, waits one second, and shoots out its tongue. If it misses, it waits another second and shoots out its tongue again. When Tux is hit by the tongue, he gets pulled into the chameleon's now open mouth and gets crushed. If Tux jumps on it, it turns into a smaller, harmless chameleon which crawls around a bit and then disappears. If Tux shoots it, it shrinks; with the second shot, it dies. 
+
 ''' ''Water Badguys'' '''
 
 ''Swimming Fish''
