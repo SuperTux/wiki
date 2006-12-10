@@ -200,7 +200,7 @@ They can grab penguins under water, they can't breath and they die.
 
 =====Some Badguys for Icyisland=====
 
-''***Flattop/Flatbottom Iceberg***''
+''Flattop/Flatbottom Iceberg''
 
 Flattop Iceberg looks like an upside-down icy cone with eyes that follow Tux and lives only in water. When jumped on, speeds off at Mr.-Iceblock speed with Tux on top; at collision, Tux flies off and Iceberg crumbles.
 
@@ -208,19 +208,29 @@ Flatbottom Iceberg is a flipped Flattop Iceberg, so it can't be "ridden". Both k
 
 =====Some Forest World Badguys=====
 
-''***WalkingStone***''
+''WalkingStone''
 
 It looks like an ordinary rock, but when Tux gets within range (5 spaces away), it grows eyes and legs and starts walking. When Tux jumps on it, its legs vanish and its eyes close. Tux can then pick it up. If Tux lets go, or jumps on it again, it speeds off like a Mr. Iceblock. This badguy can't be killed.
 
 '''Water Badguys'''
 
-''***Swimming Fish***''
+''Swimming Fish''
 
 The Swimming Fish is like a fish turned on its side. It swims just below the surface of water and dives at Tux like a Zeekling. It can be killed by jumping on it and by fire shot.
 
-''***Jellyfish***''
+''Jellyfish''
 
 The Jellyfish is hard to beat because it moves randomly in water. The trailing tentacles (2 spaces long) can kill Tux. It can be killed the same way as a Swimming Fish.
+
+'''Underground Badguys'''
+
+''Earthworm''
+
+Earthworms slither vertically and horizontally. They are 1 space thick, and therefore would be best in 1- or 2-space-high tunnels. They push Tux back; or, in 2-space-high horizontal  tunnels, Tux can ride them. They only kill when they squash Tux against a wall, floor, or ceiling. They cannot be killed
+
+''Killer Earthworm''
+
+Killer Earthworms move like a Limpy. They look like an Earthworm but are smaller with fangs in their mouth. They can be killed only by fire shot and invincibility.
 
 === More Objects to Meet ===
 
