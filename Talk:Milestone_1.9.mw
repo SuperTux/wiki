@@ -3,6 +3,7 @@ Why remove "Levels that use lightmaps"? T
 : Because they cause weird bugs on Windows, and even on Linux they don't work perfectly. --[[User:AnMaster|AnMaster]] 08:53, 28 Sep 2006 (CEST)
 ::They don't work? Which levels are we talking about here? --[[User:WolfgangB|WolfgangB]] 00:53, 29 Sep 2006 (CEST)
 :::"Light and Magic" crashes at unpredictable intervals upon entering the level. No time to investigate yet, so it's an optional bonus level for now --[[User:Sommer|Sommer]] 12:48, 14 Nov 2006 (CET)
+::::The magic blocks in l&m are planned for ghost forest IIRC. So are they in 1.9 at all?
 
 ==Problems with alpha installer for Windows==
 The alpha installer by delta___ doesn't seem to use the tools/innosetup/supertux.iss file. The editor depends on the game using this one to build the installer (as the installer for the editor checks for some ids to make sure supertux is installed). --[[User:AnMaster|AnMaster]] 10:22, 5 Oct 2006 (CEST)
