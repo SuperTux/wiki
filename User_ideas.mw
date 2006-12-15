@@ -432,7 +432,7 @@ Bubble - float and pop in air
 ==== Code ====
 * This comment (src/player.cpp:493) kind of confused me:
 <code>  // TODO: we don't have an animation for firetux backflipping, so let's revert to bigtux </code>
-There *is* a graphic for that. Also, it's been closed as "intended behavior" on the [[Bugs]] page that firetux loses his hat when backflipping, I don't think it should be. (Losing powerups for no good reason is annoying)
+** There *is* a graphic for that. Also, it's been closed as "intended behavior" on the [[Bugs]] page that firetux loses his hat when backflipping, I don't think it should be. (Losing powerups for no good reason is annoying)
 
 ==== 3D Tux ====
 I think that Supertux would be even cooler in 3D. It could be partially implemented, for example, there could be substages in 3d, or a 3d world later on? Or maybe it would more apropriate in a future spin off game?
