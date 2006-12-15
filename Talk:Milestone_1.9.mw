@@ -90,3 +90,8 @@ in <0x000da> Drawing.Texture:CreateFromSurface (IntPtr surfacep, UInt32 glformat
 == Release Date ==
 
 We should release Milestone 1.9 soon. Best case this or next weekend, but at least before Xmas, then we can work on MS2 during the holidays and fix the newly reported problems.
+
+
+== Mac Binary ==
+
+What about a Mac OS X binary?  I've been using the SVN version on my mac for some time now, but I'm not sure how to package it into an app bundle.  If anyone knows how or has any links that could help, I'd be happy to maintain a Mac binary.
