@@ -6,5 +6,4 @@ to play. This is also a call for artists and coders, if you like the game in it'
 
 The game features a new boss for world1, a brand new forest world with trampolines, switches, portable stones, upside-down levels, wind, moving platforms, new badguys, environment effects, lighting effects and much more...
 
-The game engine is nearly completely rewritten. A new camera algorithm allows
-scrolling in all four directions, OpenAL based sound system, OpenGL effects, slopes, scripting for dynamic level events and animations.
+The game engine is nearly completely rewritten. The game is translatable now, a new camera algorithm allows scrolling in all four directions. We have an OpenAL based sound system, OpenGL effects. Collision detection supports slopes and moving objects now. We have support scripting for dynamic level events and animations.
