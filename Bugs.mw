@@ -173,3 +173,4 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4438: Level time stops (and the counter at the top disappears) if you go to another sector.
 
 * 4496: Finish World1, solve a wold2 level, Quit game. Load game. Game starts on world1.
+* 4496: get_light() does not work if resolution is not default
