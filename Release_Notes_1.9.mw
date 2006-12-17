@@ -1,9 +1,17 @@
 Release notes proposal (please fix spelling and improve style!):
 
-Just in time for Christmas we bring you a preview of Supertux Milestone 2. It
-doesn't contain all levels yet, the story isn't complete, but it is already fun
-to play. This is also a call for artists and coders, if you like the game in it's current state, join us and help us finishing the real Milestone 2!
+Just in time for Christmas, we bring you SuperTux 0.3.0, a preview of SuperTux Milestone 2.
 
-The game features a new boss for world1, a brand new forest world with trampolines, switches, portable stones, upside-down levels, wind, moving platforms, new badguys, environment effects, lighting effects and much more...
+This build doesn't contain all levels planned for Milestone 2 and its story is by no means complete, but the game is already fun to play. 
 
-The game engine is nearly completely rewritten. The game is translatable now, a new camera algorithm allows scrolling in all four directions. We have an OpenAL based sound system, OpenGL effects. Collision detection supports slopes and moving objects now. We have support scripting for dynamic level events and animations.
+SuperTux 0.3.0 features:
+* new, OpenGL- and OpenAL-based engine
+* final boss for Icy Island
+* brand new Forest World with new badguys and new game objects
+* new and improved soundtrack, immersive sound effects
+* much more...
+
+The changes in more detail:
+The SuperTux engine was nearly completely rewritten. The game is translatable now, a new camera algorithm allows scrolling in all four directions. Collision detection supports slopes and moving objects now. We have support scripting for dynamic level events and animations. New game objects include trampolines, switches, portable stones, upside-down levels, wind, moving platforms and particle effects. The sound system is now OpenAL-based with an improved soundtrack now played from Ogg/Vorbis-files, which were pre-rendered on a high-class synthesizer.
+
+This is also a call for artists and coders: If you like the game in its current state, join us and help us finish Milestone 2!
