@@ -1,6 +1,6 @@
 Release notes proposal (please fix spelling and improve style!):
 
-Just in time for christmas we bring you a preview of Supertux Milestone 2. It
+Just in time for Christmas we bring you a preview of Supertux Milestone 2. It
 doesn't contain all levels yet, the story isn't complete, but it is already fun
 to play to play and test. This is also a call for artists and coders, if you
 like the game in it's current state, join us and help us finishing the real Milestone 2!
@@ -8,4 +8,4 @@ like the game in it's current state, join us and help us finishing the real Mile
 The game features a new boss for world1, a brand new forest world with trampolines, switches, portable stones, upside-down levels, wind, moving platforms, new badguys, environment effects, lighting effects and much more...
 
 The game engine is nearly completely rewritten. A new camera algorithm allows
-scrolling in all four directions, openal based sound system, opengl effects, slopes, scripting for dynamic level events and small animations.
+scrolling in all four directions, OpenAL based sound system, OpenGL effects, slopes, scripting for dynamic level events and animations.
