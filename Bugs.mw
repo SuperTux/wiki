@@ -56,69 +56,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 === Closed ===
 
-* Revision 3641. Some platforms stop just above or below where it should. According to delta___ the bug should happen with pretty much any platform that moves fast enough and stops at an uneven part of it's speed.
-*: Fixed in some revision I can't find the number of right now.
-
-* 3657: Jamfile builds too long link command line, causing it to fail. Maybe disregarding the arch might help.
-*: when exactly does this happen?
-*: seem common on x64 boxes. They pass an arch of "foobar-unknown-baz-blah-blubb" which (gets included in each build action's path and) bloats the command line to exceed 10240 chars. Workaround is manually shortening the arch passed to the build process by running something like "./configure --build=x86_64-pc-linux-gnu"
-*: This was fixed in r3923.
-
-* 4034: When Tux is invincible he still squishes enemies and stuns iceblocks by jumping on their heads instead of simply killing them.
-*:Feature. Even as invincible Tux you can stun and grab Mr. Iceblock.
-*:More importantly, you can now cross gaps by jumping on e.g. [[Flying Snowball]]s
-
-* 4034: When Firetux backflips he loses his hat and status and reverts to normal bigtux (intended behaviour?).
-*:Intended behaviour.
-
-* 4075: When the game is paused, the time keeps running.
-*: cannot reproduce on 4076. Please give further steps to reproduce. --[[User:Sommer|Sommer]] 00:47, 24 Jul 2006 (BST)
-*: Go to 'The Frosted Fields', start it, and pause.
-*: Fixed in r4079 --[[User:Sommer|Sommer]] 15:14, 24 Jul 2006 (BST)
-
-* 4107: Editor: Deleting a Tilemap doesn't delete the tiles in it but instead lets EVERY tile of the map loose its tilemaps so you can't edit anything anymore (can't even add new tiles)
-*:Fixed in r4111. --[[User:WolfgangB|WolfgangB]] 03:36, 2 Aug 2006 (BST)
-
-* 4087: Getting an icicle to fall on a snowball no longer kills the snowball. (Even if that's intended, I kinda liked that feature...)
-*: Fixed in r4206
-
-* 4249: If a coin is placed in water, when tux hits it it counts as collected but doesn't disappear.
-*: Not a bug, its because of Coin tile on Foreground layer.
-
-* 4422: Doesn't compile, gives me errors about not finding level_time.hpp on about 10-12 files. jam clean doesn't help.
-*: Checkin was missing a file
-
-* free() errors when exiting SuperTux without having entered a worldmap/level.
-*: Results of [[User:RavuAlHemio|Ravu]]'s testing (references are of format ''file.ext:function:<code>code_line;</code>''):
-*:: Linux tends to scream while ''resources.cpp:unload_shared:<code>delete gold_text;</code>'' at ''video/texture.cpp:~Texture:<code>glDeleteTextures(1, &handle);</code>''
-*:: Mac screams while ''main.cpp:main:<code>delete script_manager;</code>'' at ''squirrel/squirrel/sqclosure.h:Release:<code>sq_delete(this,SQNativeClosure);</code>''
-*: Cannot reproduce. Are these still relevant?
-*: presumed fixed. closed.
-
-* 4076: Cannot get to 'Forest World'.
-*: presumed fixed. closed.
-
-* 4107: Big Tux dies when exiting some doors, (e.g. in world2/level1.stl, near the first secret area) possibly because he's spawned in the ground. (seems fixed now)
-
-* 4249: It is way too easy to die because a lantern crashes on top of your head, by letting go of it while airborne.
-*: Please say in what level this happens. -- [[User:Penma|Penguinmaster]] 11:38, 1 Oct 2006 (CEST)
-*:: Doesn't matter.  It is a general issue with portable stuff and crushes. --[[User:Tuxdev|Tuxdev]] 22:05, 1 Oct 2006 (CEST)
-*::: Rocks, lanterns and trampolines can now be thrown
-
-* 4249: On the "silver key" level on the forest world, there is no way to win or die on the level. -- smallfoot-
-*: Keys are not yet working
-
 * 4426: Console is operational during the main menu, which means you can use 'kill()' to kill Tux; the level fades out and does not fade back in again, resulting in a quiet, black background with the main menu (which still works).
 *: The console is a debugging tool, you can mess up any game using it as you can call any function that you could call using a script. And as normal users would never use the console I don't think that this seems like an important bug. Also having the console reachable from anywhere in the game is good for debugging (and that is what the console is meant for, it isn't for cheating...). --[[User:AnMaster|AnMaster]] 12:25, 29 Oct 2006 (CET)
 *: Not a bug.
-
-* 4249: On the castle level (before the before the boss), SuperTux runs slow, low FPS. -- smallfoot-
-*: Probably just because of a lot of tiles. Not a bug, could be fixed with a hardware upgrade. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 20:39, 24 Sep 2006 (BST)
-*:: Yeah, but I have 900 MHz, 256 mb RAM, GeForce 4. I could play Super Mario on Nintendo 8 MHz.
-*: Not a bug.
-
-* 4249: I used boat and pressed forth-and-back some, then screen went dark, and it don't come back to normal, its dark! -- smallfoot-
-*: fixed
 
 === Open ===
 
