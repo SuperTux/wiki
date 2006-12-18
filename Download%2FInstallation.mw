@@ -9,11 +9,6 @@ We have an automatic installer created with [http://www.autopackage.org Autopack
 
 and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here].
 
-== Windows Installer ==
-There's an automatic installer here:
-
-   http://download.berlios.de/supertux/supertux-0.3.0-win32-setup.exe
-
 === Slackware ===
 There's a package available here:
 
@@ -22,6 +17,11 @@ There's a package available here:
 Support packages:
    http://download.berlios.de/supertux/openal-0.0.8-i486-1.tgz
    http://download.berlios.de/supertux/physfs-794svn-i486-1.tgz
+
+== Windows Installer ==
+There's an automatic installer here:
+
+   http://download.berlios.de/supertux/supertux-0.3.0-win32-setup.exe
 
 == Any system/Source Code ==
 
