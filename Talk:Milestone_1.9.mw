@@ -94,4 +94,5 @@ We should release Milestone 1.9 soon. Best case this or next weekend, but at lea
 
 == Mac Binary ==
 
-What about a Mac OS X binary?  I've been using the SVN version on my mac for some time now, but I'm not sure how to package it into an app bundle.  If anyone knows how or has any links that could help, I'd be happy to maintain a Mac binary.
+I'm not too sure on all the details and workings of Mac OS X app bundles, but I think I may have a semi-working binary.  I'll have to give it a test on another system to make sure 3rd party deps don't need to be installed with the binary.  Also need to make it a UB as right now it's compiled for Intel only.  If anyone has any more experience with this, please let me know (msg jayson or EvilGlowingApple in #supertux).  I'll post back when i have a fully working version.
+--[[User:EvilGlowingApple|EvilGlowingApple]] 02:44, 18 Dec 2006 (CET)
