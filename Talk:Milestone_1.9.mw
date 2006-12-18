@@ -90,7 +90,7 @@ in <0x000da> Drawing.Texture:CreateFromSurface (IntPtr surfacep, UInt32 glformat
 == Release Date ==
 
 We should release Milestone 1.9 soon. Best case this or next weekend, but at least before Xmas, then we can work on MS2 during the holidays and fix the newly reported problems.
-
+: Been there, done that --[[User:Sommer|Sommer]] 01:11, 18 Dec 2006 (CET)
 
 == Mac Binary ==
 
