@@ -5,7 +5,7 @@
 === Generic Linux x86 Installer ===
 We have an automatic installer created with [http://www.autopackage.org Autopackage]. Just download it here:
 
-   http://download.berlios.de/supertux/supertux-0.3.0.x86.package
+   http://download.berlios.de/supertux/supertux-0.3.0a.x86.package
 
 and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here].
 
