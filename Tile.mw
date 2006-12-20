@@ -80,6 +80,8 @@ You can simply add new tiles with your favourite text editor. However we also pr
 
 NOTE: You should be carefull when choosing tile ids to not overwrite existing tiles. You should also keep in mind that existing levels will break if you change tile numbers later (the levels just save a big a list of numbers that reference the tile file).
 
+__WARNING__: Unfortunately the tilemanage application is broken at the moment and does not work correctly! You'll destroy your tilesets when opening and saving them in the editor!!!
+
 = Testing =
 
 Simply open the flexlay or ST# editor and the new tiles should appear.
