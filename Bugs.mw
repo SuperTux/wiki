@@ -60,6 +60,10 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 *: The console is a debugging tool, you can mess up any game using it as you can call any function that you could call using a script. And as normal users would never use the console I don't think that this seems like an important bug. Also having the console reachable from anywhere in the game is good for debugging (and that is what the console is meant for, it isn't for cheating...). --[[User:AnMaster|AnMaster]] 12:25, 29 Oct 2006 (CET)
 *: Not a bug.
 
+* If you jump through a non-solid block into a solid one, you go through the solid blocks. (This is kind of hard to explain. We need a site where we can post levels to demonstrate bugs...)
+: You might be experiencing a new feature of ST engine, unisolid tiles.  Example level is "Detour", for the tree branches. --[[User:Tuxdev|Tuxdev]] 18:11, 20 Dec 2006 (CET)
+: I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
+
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
