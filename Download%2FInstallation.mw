@@ -5,28 +5,28 @@
 === Generic Linux x86 Installer ===
 We have an automatic installer created with [http://www.autopackage.org Autopackage]. Just download it here:
 
-   http://download.berlios.de/supertux/supertux-0.3.0a.x86.package
+   http://prdownload.berlios.de/supertux/supertux-0.3.0a.x86.package
 
 and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here].
 
 === Slackware ===
 There's a package available here:
 
-   http://download.berlios.de/supertux/supertux-0.3.0-i486-1.tgz
+   http://prdownload.berlios.de/supertux/supertux-0.3.0-i486-1.tgz
 
 Support packages:
-   http://download.berlios.de/supertux/openal-0.0.8-i486-1.tgz
-   http://download.berlios.de/supertux/physfs-794svn-i486-1.tgz
+   http://prdownload.berlios.de/supertux/openal-0.0.8-i486-1.tgz
+   http://prdownload.berlios.de/supertux/physfs-794svn-i486-1.tgz
 
 == Windows Installer ==
 There's an automatic installer here:
 
-   http://download.berlios.de/supertux/supertux-0.3.0-win32-setup.exe
+   http://prdownload.berlios.de/supertux/supertux-0.3.0-win32-setup.exe
 
 == Any system/Source Code ==
 
 Download the source code:
-   http://download.berlios.de/supertux/supertux-0.3.0.tar.bz2
+   http://prdownload.berlios.de/supertux/supertux-0.3.0.tar.bz2
 
 = Release 0.1.3 =
 
