@@ -1,3 +1,65 @@
+The latest (but unstable) release of SuperTux is version 0.3.0 (aka "Milestone 1.9"). To download SuperTux 0.3.0, please find your system in the following table:
+
+<table border="1" cellpadding="5" cellspacing="0" style="margin-top: 2em; margin-bottom: 2em;">
+<tr>
+<td colspan="4">
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">'''SuperTux 0.3.0'''</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Linux:</div>
+</td>
+<td>
+<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0a.x86.package Game]</div>
+</td>
+<td>
+<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.x86.package Editor]</div>
+</td>
+<td>
+Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-install/index.html installing Autopackages]
+</td>
+</tr>
+<tr>
+<td>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Windows Installer:</div>
+</td>
+<td>
+<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0-win32-setup.exe Game]</div>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Source:</div>
+</td>
+<td>
+<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0.tar.bz2 Game]</div>
+</td>
+<td>
+<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.tar.bz2 Editor]</div>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Slackware:</div>
+</td>
+<td>
+<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0-i486-1.tgz Game]</div>
+</td>
+<td>
+</td>
+<td>
+Builds of required [http://prdownload.berlios.de/supertux/openal-0.0.8-i486-1.tgz OpenAL] and [http://prdownload.berlios.de/supertux/physfs-794svn-i486-1.tgz PhysFS] versions are also available
+</td>
+</tr>
+</table>
+
 = Release 0.3.0 =
 
 == Linux == 
