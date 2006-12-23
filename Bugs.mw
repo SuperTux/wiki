@@ -53,6 +53,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 === Open ===
 * Crash every time I try to start the "Tux the builder" level in the Forest area.
 * The vertical movement of the screen in world 2 is too sensitive. Eg, tux jumps onto a small block and then back down, and the screen moves up and back down with him. This makes me feel a bit seasick at times!
+* Crashes in the 'Short visit' level in world 2: near the shooting arrows sometimes, and near the lava every time. Message on top of the screen about sounds.
+* When I quit the same on world 2, and then relaunch it, I am back on world 1.
 
 == Development version ==
 
