@@ -55,6 +55,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * The vertical movement of the screen in world 2 is too sensitive. Eg, tux jumps onto a small block and then back down, and the screen moves up and back down with him. This makes me feel a bit seasick at times!
 * Crashes in the 'Short visit' level in world 2: near the shooting arrows sometimes, and near the lava every time. Message on top of the screen about sounds.
 * When I quit the same on world 2, and then relaunch it, I am back on world 1.
+* Only a small Bug, but nevertheless mentionable: If you eat a snowball to become the great Tux and you are immediately killed afterwards (so you have eaten the snowball, but the effect has not yet started to work), you start as great Tux at the beginning of the level.
 
 == Development version ==
 
