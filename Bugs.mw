@@ -56,6 +56,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * Crashes in the 'Short visit' level in world 2: near the shooting arrows sometimes, and near the lava every time. Message on top of the screen about sounds.
 * When I quit the same on world 2, and then relaunch it, I am back on world 1.
 * Only a small Bug, but nevertheless mentionable: If you eat a snowball to become the great Tux and you are immediately killed afterwards (so you have eaten the snowball, but the effect has not yet started to work), you start as great Tux at the beginning of the level.
+* Running the game with the open source ATI graphics driver, there are colored lines shown where tiles meet. This happens in both the world maps and the levels themselves. The closed-source ATI drivers fix this problem, but for those with older ATI hardware, this will look bad.
 
 == Development version ==
 
