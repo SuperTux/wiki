@@ -59,6 +59,18 @@ Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-
 Builds of required [http://prdownload.berlios.de/supertux/openal-0.0.8-i486-1.tgz OpenAL] and [http://prdownload.berlios.de/supertux/physfs-794svn-i486-1.tgz PhysFS] versions are also available
 </td>
 </tr>
+<tr>
+<td>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Ubuntu edgy:</div>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+Someone has put a [http://debs.peadrop.com/dists/edgy/backports/#dl_supertux_0.3.0-0ubuntu1 third-party .deb package of SuperTux for Ubuntu edgy] on their site
+</td>
+</tr>
 </table>
 
 = Release 0.3.0 =
