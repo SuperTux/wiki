@@ -58,6 +58,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * Only a small Bug, but nevertheless mentionable: If you eat a snowball to become the great Tux and you are immediately killed afterwards (so you have eaten the snowball, but the effect has not yet started to work), you start as great Tux at the beginning of the level.
 * Running the game with the open source ATI graphics driver, there are colored lines shown where tiles meet. This happens in both the world maps and the levels themselves. The closed-source ATI drivers fix this problem, but for those with older ATI hardware, this will look bad.
 : This also happens to me using the NVIDIA drivers.  Either this is a off-by-one error in SuperTux that happens to be negated by a similar bug in the ATI drivers, or is a bug in the open source and NVIDIA drivers that is exposed by SuperTux. --[[User:Tuxdev|Tuxdev]] 05:46, 27 Dec 2006 (CET)
+* Don't start: a error occurs because no OpenAL32.dll on my Windows XP SP2.
 
 == Development version ==
 
