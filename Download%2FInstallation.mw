@@ -18,7 +18,8 @@ The latest (but unstable) release of SuperTux is version 0.3.0 (aka "Milestone 1
 </td>
 <td>
 A test version that uses [http://prdownload.berlios.de/supertux/supertux-0.3.0-nogl-0.1.4502.x86.package no OpenGL] calls is also available.
-Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-install/index.html installing Autopackages]
+Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-install/index.html installing Autopackages].
+Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial mirror].
 </td>
 </tr>
 <tr>
@@ -31,6 +32,7 @@ Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-
 <td>
 </td>
 <td>
+Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial mirror].
 </td>
 </tr>
 <tr>
@@ -44,6 +46,7 @@ Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-
 <div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.tar.bz2 Editor]</div>
 </td>
 <td>
+Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial mirror].
 </td>
 </tr>
 <tr>
@@ -56,19 +59,31 @@ Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-
 <td>
 </td>
 <td>
-Builds of required [http://prdownload.berlios.de/supertux/openal-0.0.8-i486-1.tgz OpenAL] and [http://prdownload.berlios.de/supertux/physfs-794svn-i486-1.tgz PhysFS] versions are also available
+Builds of required [http://prdownload.berlios.de/supertux/openal-0.0.8-i486-1.tgz OpenAL] and [http://prdownload.berlios.de/supertux/physfs-794svn-i486-1.tgz PhysFS] versions are also available.
 </td>
 </tr>
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Ubuntu edgy:</div>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Ubuntu 6.10:</div>
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-Someone has put a [http://debs.peadrop.com/dists/edgy/backports/#dl_supertux_0.3.0-0ubuntu1 third-party .deb package of SuperTux for Ubuntu edgy] on their site
+Someone has put a [http://debs.peadrop.com/dists/edgy/backports/#dl_supertux_0.3.0-0ubuntu1 third-party .deb package of SuperTux for Ubuntu edgy] on their site.
+</td>
+</tr>
+<tr>
+<td>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Mac OS X:</div>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+Someone has put a [http://www.rhythmiccanvas.com/temp/supertux-0.3.0-macosx.dmg third-party .dmg of SuperTux for Mac OS X] on their site
 </td>
 </tr>
 </table>
