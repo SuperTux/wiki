@@ -42,6 +42,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 : You might be experiencing a new feature of ST engine, unisolid tiles.  Example level is "Detour", for the tree branches. --[[User:Tuxdev|Tuxdev]] 18:11, 20 Dec 2006 (CET)
 : I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
 
+* 4496: Finish World1, solve a wold2 level, Quit game. Load game. Game starts on world1. 
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
@@ -100,7 +101,6 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4438: Level time stops (and the counter at the top disappears) if you go to another sector.
 
-* 4496: Finish World1, solve a wold2 level, Quit game. Load game. Game starts on world1.
 * 4496: get_light() does not work if resolution is not default
 
 {{Attention|s="Only new bugs in the '''development version''' go above this line. Bugs in Release 0.3.0 should be added to the [[#Release_0.3.0|appropriate section]] instead."}}
