@@ -59,3 +59,5 @@ www.rhythmiccanvas.com/temp/supertux-0.3.0-macosx.dmg
 :A universal binary of SuperTux 0.3.0 for Mac OS X (probably the one mentioned above) has been added to the project files at BerliOS, but it has not yet been added to the official download links on this page.
 
 prdownload.berlios.de/supertux/supertux-0.3.0-macosx.dmg
+
+::Both fore-mentioned builds are identical.
