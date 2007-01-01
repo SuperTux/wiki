@@ -1,11 +1,8 @@
-The latest (but unstable) release of SuperTux is version 0.3.0 (aka "Milestone 1.9"). To download SuperTux 0.3.0, please find your system in the following table:
+= Release 0.3.0 =
+
+This is the latest (but unstable) release of SuperTux, also known as "[[Milestone 1.9]]". To download SuperTux 0.3.0, please find your system in the following table:
 
 <table border="1" cellpadding="5" cellspacing="0" style="margin-top: 2em; margin-bottom: 2em;">
-<tr>
-<td colspan="4">
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">'''SuperTux 0.3.0'''</div>
-</td>
-</tr>
 <tr>
 <td>
 <div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Linux Installer:</div>
@@ -101,35 +98,9 @@ Game is available in the [http://packages.ubuntu.com/feisty/games/supertux offic
 </tr>
 </table>
 
-= Release 0.3.0 =
+Older releases are further down this page.
 
-== Linux == 
-
-=== Generic Linux x86 Installer ===
-We have an automatic installer created with [http://www.autopackage.org Autopackage]. Just download it here:
-
-   http://prdownload.berlios.de/supertux/supertux-0.3.0a.x86.package
-
-and execute it. You can find a more detailed explanation [http://autopackage.org/docs/howto-install/index.html here].
-
-=== Slackware ===
-There's a package available here:
-
-   http://prdownload.berlios.de/supertux/supertux-0.3.0-i486-1.tgz
-
-Support packages:
-   http://prdownload.berlios.de/supertux/openal-0.0.8-i486-1.tgz
-   http://prdownload.berlios.de/supertux/physfs-794svn-i486-1.tgz
-
-== Windows Installer ==
-There's an automatic installer here:
-
-   http://prdownload.berlios.de/supertux/supertux-0.3.0-win32-setup.exe
-
-== Any system/Source Code ==
-
-Download the source code:
-   http://prdownload.berlios.de/supertux/supertux-0.3.0.tar.bz2
+__TOC__
 
 = Release 0.1.3 =
 
