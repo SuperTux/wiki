@@ -1,1 +1,99 @@
-When will Milestone 2 come? My kids love to play Milestone 1, and always ask when Milestone 2 will come.
+<blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page.'' </blockquote>
+<!-- Please only after this line. Do not remove anything above this. Thank you! -->
+[[Image:RATEDFUN.png]]
+
+==Website update?==
+
+I've built supertux from svn and saw all the great updates you guys have done. Don't you believe it's about time to let the world now a bit about it? Just like, let's say, a little piece of news with one or two screenshots on the front page, telling "we're not dead". Because I really thought supertux was a dying project, before managing to compile svn version.
+--[[User:PolyPrograms|polyprograms]] 17:15, 4 Sep 2006 (BST)
+
+(note: sorry, I had to break links to be able to edit)
+
+==Level 24==
+Hey I just recently found your game and am stuck at level 24... I guess that there have to be blocks behind the water texture but I have no idea on how to figuere where are these... and I doubt it just comes to luck there. What am I missing? mfg DJGummikuh
+:Just look closely and you will see there are single blocks to step on. You might want to ask on the [http://supertux.info/forums/ fansite forums] next time you need help, you'll get more responses there. --[[User:FlyingPenguins|FlyingPenguins]] 22:35, 29 Jul 2006 (BST)
+
+==Wiki external links==
+This is just a note: I have realised that on the wiki, whenever an anon or normal user edits a page with external links on it, it will be without the <nowiki>"http: </nowiki><nowiki>//"</nowiki> part, essentially breaking the link. This can be troublesome for a page with lots of links on it. Sysops will then have to fill back the links.
+
+Also, just a suggestion, maybe it would be a good idea to upgrade this version of MediaWiki, to prevent any security vulnerabilities. --[[User:FlyingPenguins|FlyingPenguins]] 22:47, 29 Jul 2006 (BST)
+
+I would upgrade if the MySQL version of wasn't too old. This have been discussed in #supertux and there is [http://developer.berlios.de/support/index.php?func=detailsupport&support_id=102138&group_id=1 a berlios bug] for it. Also [http ://developer.berlios.de/bugs/?func=detailbug&bug_id=8012&group_id=1 this bug about php not available on shell.berlios.de] blocks the update. --[[User:AnMaster|AnMaster]] 00:21, 30 Jul 2006 (BST)
+
+==Supertux being sold?!==
+Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters site is located here; www.oldray.net. Seems to also have made a one level demo available. While I know that the GPL permits this, I can't stand people it. I was planning to create a Pocket PC port before I found this. We should be able to get the source from this shouldn't we?
+:You can download a Pocket PC Binary there. They call it a demo. Anyway, its a binary based on our GPL Code. As fas as I understand the GPL they have to give the source to everyone who has a Binary. --[[User:62.214.230.124|62.214.230.124]] 15:03, 2 Aug 2006 (BST)
+:Is it possible to build the binary with the source included in the demo's .zip file?
+::No idea, but looks like they did not change the level format. So why not create a package from the demo which includes all levels for free? Can someone with the right hardware test if that works? --[[User:Superdev|Superdev]] 16:08, 2 Aug 2006 (BST)
+::: Just tested it on my PPC. All original SuperTux 0.1.3 levels work with the provided "demo" engine.
+::Seems like the source code included with the "demo" engine is only for the original, unaltered versions. This is in direct violation of the GPL which forbids linking GPLed code with proprietary code. 
+:::Not necessarily. They just have to give you the source if you ask for it, they don't have to ship it with the binary. So ask for it and if you don't get the source hand it over to gpl-violations.org.
+BTW, my_defs.cpp does not look like original supertux code so better check again.
+::::I think that the GPL is much more strict than that.  I think it is against the license to modify the sources, and distribute those modifications without those modifications also falling under the GPL.  Since those modifications apparently fall under a commercial license, it is already a GPL violation.  By his own admittance, it is a derivative work. --[[User:Tuxdev|Tuxdev]] 22:15, 4 Aug 2006 (BST)
+:::::No. The GPL allows for reselling GPLed software for profit. How else would people get away with selling pre-burned Linux CDs and DVDs? I know it sounds twisted, but there's nothing we can do. --[[User:Djwings|DJ 
+Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 17:48, 10 Aug 2006 (BST)
+::::::The GPL says that you can sell GPL software for money, but only physically (on CD, not on the net).
+::::::Yes, the GPL allows selling GPLed software, but it clearly states that all derivative work must be distributed under the GPL, not any other license (the "commercial license", the website in question mentions).
+::::The fishy part about all this is "Commercial part of license covers work and time spent to change source code and other resources to make SuperTux playable on Pocket PC platform.", if that commercial part goes into the binary and no source code is provided its a clear violation, otherwise its fine. -- [[User:Grumbel|Grumbel]] 06:31, 8 Aug 2006 (BST)
+:::::The GPL in section 2 part b says, "You must cause any work that you distribute or publish, that in whole or part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third    parties under the terms of this License." or in English, "If you make a program out of this one, it has to be licensed under the GPL only."
+::::::Since they're charging money for all of it except the demo (and they're not distributing the source with it), not to mention they're selling it as a download and not a CD, this is a violation. Course of action? Someone should make them aware of this, a "cease-and-desist" email if nothing else. By the way, check this out: [http://yro.slashdot.org/yro/06/09/23/1655248.shtml GNUs fighting back!]--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 17:04, 24 Sep 2006 (BST)
+:I can see no problem with that. All the source code is included in the /supertux/qvgadata/distr/st_src.tar.bz2 so everyone can download it and play for free. Is there any other problem? --member of oldray.net
+::That is fine to me as long as you a. relicense what you have done to GPL, and b. clearly advertise where the source is on your website.  Even better would be to let us keep a SVN repository, then you become an unofficial official maintainer of it, or merge it with main ST using #ifdef wherever. --[[User:Tuxdev|Tuxdev]] 17:51, 25 Sep 2006 (BST)
+[[Category:For Users]]
+
+To answer a few questions from above:
+* You do not need to put modifications of GPL'ed software under the GPL if you only use it '''internally'''. As soon as publish it, you need to.
+* You can sell the game over whatever medium you like.
+* You do not need to include the source code with the binary distribution, but you '''must''' provide a written offer for the source code, licenced under the GPL, via the same medium. In this case, a download.
+* Only a copyright holder is able to send a cease and desist. This means i can not send them any. Neither can Harald of www.gpl-violations.org. I am sure he will be more than happy to help you guys, send one, though. Each and everyone of you devs: Get together, contact Harald and make 'oldray' an unhappy ''dev''.
+
+If you have questions, get hold of me on irc.freenode.net -- [[User:RichiH|RichiH]] 23:10, 25 Sep 2006 (BST)
+
+==supertux copy==
+
+I found superburgerworld on source forge and all it is is supertux w/ a few titles and images cahnged!
+: Mind giving us a link? Also, did you look for copied code?--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 02:43, 28 Sep 2006 (CEST)
+::I did a Google search and found superburgerwld.sourceforge.net. I also downloaded and went through the game a bit; it is exactly the same as the main world of SuperTux 0.1.3. However, it credits refer to the game being based off SuperTux (in fact, its credits include ''all'' of the original credits from the original game, even the "Milestone 2 is on its way..." part). The levels are exactly the same, with the level names and the some of the graphics changed, but the names of the authors of the original SuperTux levels remain. --[[User:FlyingPenguins|FlyingPenguins]] 04:57, 28 Sep 2006 (CEST)
+::: I'd say that's because of laziness on the "developer"'s part, and not giving credit. This guy is BSing too many people. The site doesn't give ANY credit to us Tuxers, and it's basically a complete ripoff with a few level titles changed and some added graphics that look like a 2-year-old scrawled them. I mean, honestly, they didn't even mod the Dark Snow tileset OR the Cave background, OR almost anything else. By the way, almost EVERYTHING that was in SuperTux that doesn't belong in SBW is still in there (images/backgrounds, the Tux icon in the Level Editor, the names of a lot of images...). The file for the non-Whopper burger is still "smalltux-right-1.png". That's laziness, not credit. Now, I posted a *clean* comment on their site. It's awaiting moderation, and it'll show up, if it does at all, as "Annoyed Tuxer" or something. The name suits me quite well right now. See the title of my edit for more info. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 00:16, 29 Sep 2006 (CEST)
+
+Hi, I'm the guy who makes Super Burger World, I really don't mean to take any credit for any of the coding (I'm hopeless at it myself) but I thought that the ingame mentions were enough, however I will do more to make the fact it is based off of supertux more obvious. I don't spend much time on it (it shows) and I didn't think changing the filenames was worth the trouble. All I ever think this game to be is a bit of a skin to the original, I retained the SuperTux name on any part I didn't change. I let the comments through in case you are wondering, because I wasn't trying to take credit for any of the work that the developers did. So take a look at the site again in a day or so and comment either here or on the site if there is any more you would like me to do. My apologies to the developers if you thought your work was going uncredited
+--[[User:210.50.200.92|210.50.200.92]] 18:06, 7 Oct 2006 (CEST)
+
+: Just browsed through the comments on your site. You should know that not all devs feel the same way - I, for example, feel honored by the fact that someone liked SuperTux enough to dedicate time and effort to making a mod. So, while I do agree that it should have been pointed out more clearly that SBW is a ST mod, don't think what you did particularily evil. Just point out where it's based on and stick to the license (i.e. keep it GPL), so people wanting to base work on SBW can do so. Anyway - thanks for sharing and keep up the good work! --[[User:84.146.249.203|84.146.249.203]] 19:12, 7 Oct 2006 (CEST)
+
+: Much better. Thanks a ton. And there aren't any GPL violations, so no problem.
+
+== Another SuperTux Copy? ==
+
+There may be another copy, Fuzzyland Adventures. He (magnuslundsted) seems to deny forking the code of SuperTux, but does (at least) use sound and graphics from SuperTux without credit. This might actually be a fork of Milestone 1? Is found at sourceforge.net/projects/fuzzyadventure/
+
+: : I've played the game and don't see any graphics taken from supertux. I also don't think that he used the supertux source code since it lacks features supertux already has like save games. The guy said somewhere that it's a port of an old java project of his but I can't find it right now. If you still mistrust the guy ask him here happypenguin.org/forums/viewtopic.php?t=3352&start=0 personally I think your just jumping at ghosts.
+
+:: Magnus has repeatedly been on the SuperTux IRC channel, presenting alpha builds of what was then called "Wasteland". Moreover, it is written in Java - unlike SuperTux, which is in C/C++, so I am 100% sure it's no ripoff, even featuring some nice concepts of its own. According to what he told us on IRC, though, the font is the same as the one SuperTux uses, hence the confusion. --[[User:195.158.180.33|195.158.180.33]] 21:50, 1 Nov 2006 (CET)
+
+==SuperTux graphics for other projects==
+
+Hi, I'm making a game whose only relation to SuperTux is that it features a penguin. Now, I'm not an artist, so I wondered if I could use the main SuperTux graphic, with modifications (like a collander for a helmet!) in my game. The game itself will be available online, it's a small HTML/CSS/JavaScript thing involving a penguin being fired out of a cannon (think like Fling The Cow, as was)
+
+I just wanted to ask before I went ahead with it.
+
+Thanks,
+
+Peter Spicer
+
+(Sorry, had to break the links to allow me to post the entry - if I could have posted without affecting them, I would have done)
+:I am not a developer, but since no one has responded for a while, I would like to say that you generally can use anything in the game and modify it, since the game is open-source (as long as you're not copying ''everything''). It would be nice if you could credit SuperTux and the author of the graphics though. Still, wait until a developer responds before continuing.
+::BTW, I fixed the link. :) --[[User:FlyingPenguins|FlyingPenguins]] 07:33, 30 Sep 2006 (CEST)
+::: Please do '''not''' "fix" links in any article users might want to modify! This is really annoying for anyone who wants to help... --[[User:84.146.240.202|84.146.240.202]] 14:46, 30 Sep 2006 (CEST)
+
+:Read the licence. If you use anything from supertux, the result will be GPLed.
+
+
+==A Glitch==
+I had 0 lives, died, and quickly aborted the level, and survived with -1 lives.
+: I'll have to substract one point from your overall score for only re-reporting the second bug on the [[Bugs]] page. Try to get the first one next time... --[[User:84.146.251.243|84.146.251.243]] 13:54, 29 Oct 2006 (CET)
+: Sorry about that.
+
+-STOP ARGUING-
+Yes, I have seen the superburger world on sourceforge. when all of you start arguing about it, its a discrace supertux is OPEN SOURCE, meaning you can edit the source as you please then sell it if you want i suppose, but not call it original work. super burger world said that it was based off supertux. they arnt going to give you the source code, basic editor, and SVN acsess if its NOT open source. SO just stop arguing. as long as a "copy of supertux" gives credit to supertux, then its fine!
+: Oh, maaan... Here we go again... First off, this is NOT the place for something like that! Look UP. Second off, we already worked out a compromise. It's even on our Wikipedia article. It's a month old already, so get OVER it. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 5 Nov 2006 (CET)
