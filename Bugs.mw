@@ -29,6 +29,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * Doing a backflip while in fire Tux mode causes Tux to lose the fire mode. If this is the intended behavior, it's not documented in the user manual.
 * Fall down a pit. Before the death animation happens, press escape and quit to the main menu. When the main menu demo starts playing, Tux will die and the screen fades to black.
 * The crash-when-loading-"Light and Magic" bug noted below for development version 4328 is in 0.3.0.
+* carrying an ice cube no longer protects Tux from other badguys. Is this an intended change? It was useful in the previous release.
+* A lot of secret or tactical parts in World 1 levels don't really work or are too easy now that Tux can travel backwards.
 
 == Development version ==
 
