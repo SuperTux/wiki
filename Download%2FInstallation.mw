@@ -76,6 +76,18 @@ Someone has put a [http://debs.peadrop.com/dists/edgy/backports/#dl_supertux_0.3
 </tr>
 <tr>
 <td>
+<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Ubuntu 7.04:</div>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+Game is available in the [http://packages.ubuntu.com/feisty/games/supertux official repository].
+</td>
+</tr>
+<tr>
+<td>
 <div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Mac OS X:</div>
 </td>
 <td>
