@@ -31,6 +31,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * The crash-when-loading-"Light and Magic" bug noted below for development version 4328 is in 0.3.0.
 * carrying an ice cube no longer protects Tux from other badguys. Is this an intended change? It was useful in the previous release.
 * A lot of secret or tactical parts in World 1 levels don't really work or are too easy now that Tux can travel backwards.
+* I've a Nvidia TNT2 (I'm using legacy drivers in kubuntu). When I start supertux I get "Fatal: Unexpected exception: Couldn't set video mode (800x600-0bpp): Couldn't find matching GLX visual".
 
 == Development version ==
 
