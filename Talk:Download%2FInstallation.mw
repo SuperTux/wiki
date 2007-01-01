@@ -61,3 +61,7 @@ www.rhythmiccanvas.com/temp/supertux-0.3.0-macosx.dmg
 prdownload.berlios.de/supertux/supertux-0.3.0-macosx.dmg
 
 ::Both fore-mentioned builds are identical.
+
+== OpenAL ==
+
+Supertux needs OpenAL. If you don't have it on your system, get it from http://openal.org/ .
