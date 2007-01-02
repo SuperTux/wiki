@@ -2,15 +2,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 == Website ==
 
-* The titlebar of the browser in this wiki shows "Wikipedia" instead of "SuperTux" when logged in.
-*:Can't reproduce that problem. Works fine here. --[[User:WolfgangB|WolfgangB]] 00:30, 15 Sep 2006 (BST)
-*:: I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar.  Right now the CSS on the wiki is messed up for me, but I know it is just me.  --[[User:Tuxdev|Tuxdev]] 00:48, 15 Sep 2006 (BST)
-*:::It's still there. I'm using Opera 9 on Ubuntu Dapper
-*:::: So am I, but I don't experience anything like it. Maybe a custom skin? Can you give steps to reproduce? --[[User:84.146.251.243|84.146.251.243]] 14:02, 29 Oct 2006 (CET)
-*:::::I simply log in, and when logged in every single page has "Wikipedia" instead of "SuperTux". I am not using any custom skin or such. --Shylence 18:24, 3 Nov 2006 (CET)
-*::::::Well I see SuperTux when I login. '''Nowhere''' does it say Wikipedia. Can you please tell where exactly you see Wikipedia on any page? --[[User:AnMaster|AnMaster]] 20:35, 3 Nov 2006 (CET)
-*: Probably because you set the Wiki to output non-english content. Wikimedia comes in 86 different languages and SuperTux-specific strings were only added for some of them. The Wiki now forces an english locale for all users until we have localizations for the rest of the supported languages. --[[User:Sommer|Sommer]] 13:50, 4 Nov 2006 (CET)
-*::I was using Italian language pack, works fine with English one. Sorry for the trouble. --Shylence 17:09, 4 Nov 2006 (CET)
+=== Closed ===
+
+=== Open ===
 
 == Release 0.3.0 ==
 
