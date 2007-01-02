@@ -65,3 +65,8 @@ prdownload.berlios.de/supertux/supertux-0.3.0-macosx.dmg
 == OpenAL ==
 
 Supertux needs OpenAL. If you don't have it on your system, get it from http://openal.org/ .
+
+== Contributed packages ==
+
+Only the Source, the Linux Autopackage and the Windows Installer is part of the official release. 
+Everything else was contributed by someone else. --[[User:WolfgangB|WolfgangB]] 15:50, 2 Jan 2007 (CET)
