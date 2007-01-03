@@ -43,6 +43,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 
 === Badguys ===
 * '''M:''' create more and better Badguys, see [[Badguys]] for ideas
+* '''D:''' add visual indication of Yeti's hitpoints (three small heads in the upper-left corner?)
 
 === Objects ===
 * '''H:''' Don't simply duplicate code in the following objects: Snowball/PoisonIvy, UnstableTile/SkullTile
