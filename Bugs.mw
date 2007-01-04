@@ -43,8 +43,10 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * When trying to play a level with Windows version of the editor, it says: "Couldn't start supertux: Object reference not set to an instance of an object". The same happens when saving.
 * I get a warning that the tilemap data is buggy, when I force Tux to go straight on where the path on the map has a curve.
 * At the end of level I get informations about how much coins (...) I got. But this doesn't seem to work since the information below "Now" and "Record" are the same. Sometimes I don't get these information at all and Tux just gets back to the map.
-*: Level statistics are currently not saved to disk --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
-*: Also, no statistics are available when you use a checkpoint after getting killed in a level --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+: Level statistics are currently not saved to disk --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+: Also, no statistics are available when you use a checkpoint after getting killed in a level --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+::Thank you for the explanation, will statistics be added even after using a checkpoint?
+* When a checkpoint is activated this is indicated by an animation. But after Tux got killed and returned to the checkpoint the checkpoint is not animated although it is activated.
 
 == Development version ==
 
