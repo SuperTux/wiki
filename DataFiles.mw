@@ -3,7 +3,7 @@ This page is used to find out who made which file and which files have to be rep
 
 
 
-== data/sounds ==
+== [[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/data/sounds/ data/sounds]] ==
 *bigjump.wav
 *brick.wav
 *bump-upgrade.wav
