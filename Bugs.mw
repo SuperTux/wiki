@@ -123,4 +123,6 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4496: get_light() does not work if resolution is not default
 
+* 4531: The pushbuttons do not work anymore.
+
 {{Attention|s="Only new bugs in the '''development version''' go above this line. Bugs in Release 0.3.0 should be added to the [[#Release_0.3.0|appropriate section]] instead."}}
