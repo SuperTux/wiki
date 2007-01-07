@@ -10,3 +10,17 @@ Download Milestone 1.9 from http://developer.berlios.de/project/showfiles.php?gr
 Unfortunately, SuperTux 0.3.0 still has some Bugs. 
 
 Some of the most prominent bugs have to do with slopes. See the [[Bugs]] page for a full listing, which is also the place to report new(!) bugs you found.
+
+
+== Feedback ==
+
+Some points I noticed while watching my little sister playing:
+
+* We should provide some way to make up-key for jumping still work nicely... She was really used to the 0.1.3 default keymappings...
+* Some last minute changes in badguy behaviour made some iceworld levels incredibly hard! Tweak the levels again
+* Enable cheat console by default... One of the first things she asked me was about cheats (because she died 10 times in a row or so in a level)
+* She missed the editor
+* It was not clear to her that she had to download openal separately
+* She liked the new music
+* She liked that she could go backward now
+* SHe liked that the game is german
