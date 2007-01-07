@@ -109,6 +109,8 @@ I'm not too sure on all the details and workings of Mac OS X app bundles, but I 
 
 What is the difference beetween the green and the orange poison ivys? Infact, they look more like Venus Fly traps.
 
+: The green poison ivy will happily walk off any ledge, even if this means certain death. The orange poison ivy is somewhat smarter: It will never drop from ledges. By the way: SuperTux 0.3.0 also knows a third type of ledge behaviour which is still smarter. Some badguys, like Mr. Iceblock, will only drop off ledges if they do not fall offscreen. Also, badguys in SuperTux 0.3.0 always behave the same; it's no longer up to the level author to define whether badguys should stay on platforms --[[User:217.231.215.83|217.231.215.83]] 07:30, 7 Jan 2007 (CET)
+
 == Recent BerliOS Outages ==
 
 The people of BerliOS have managed to get a statement online regarding the recent Server outages:  developer.berlios.de/bugs/?func=detailbug&bug_id=9846&group_id=1
