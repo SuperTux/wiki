@@ -51,7 +51,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 ::Thank you for the explanation, will statistics be added even after using a checkpoint?
 * When a checkpoint is activated this is indicated by an animation. But after Tux got killed and returned to the checkpoint the checkpoint is not animated although it is activated.
 * At certain places in certain levels on my system, everything slows down to 1-2 frames per second, whereas normally the game is very fast and smooth.  I have a 1.1 GHz Mac G3.  This slowdown happens every time on the 23rd Airborne level.  It's slow as Tux is dropping to the ground at the beginning, then once he's on the ground it speeds up to normal.  However, once he runs to the right and jumps to the first "mountain", the game slows back down to 1 or 2 frames/sec.  Could my system simply be too slow to play the game?
-* Your new autopackage does not work at all. I double click it but nothing happens. No error message, no supertux installed. I use the latest supertux-0.3.0b.x86.package. The supertux-0.3.0a package at least shows a message that you made a mistake building the package.
+* Your new autopackage does not work at all. I double click it but nothing happens. No error message, no supertux installed. I use the latest supertux-0.3.0b.x86.package. The supertux-0.3.0a package at least shows a message that you made a mistake building the package. Please fix this fast, I want to play the new levels.
 
 == Development version ==
 
