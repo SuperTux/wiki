@@ -28,13 +28,15 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * Big Tux can't go through places that are only as high as the small Tux. In previous version Big Tux was able to go through that by ducking, in this version Big Tux reverts back to the small Tux.
 *: Intended behaviour --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
 
+* When I cancel a level, Tux gets back on the map to the level I have finished before starting this level. I would prefer that Tux gets to the level I have just canceled.
+*: Fixed --[[User:Sommer|Sommer]] 23:15, 8 Jan 2007 (CET)
+
 === Open ===
 * Several sounds are very quiet in the win32 version (noticably the jump sound, crates crashing, coin sounds, yetis gna and probably others). I didn't check with the source yet, but I assume it's all sounds without position. The openal driver on that box is from NVIDIA: Standard OpenAL(TM) Library, NVIDIA Corporation, 5.10.2917.0, English
 * Performance degratation although the computer is able to handle the game. Noticed on a 1.3 Ghz box with geforce 2/mx card on win XP: The game often goes down to 40-50fps and gets laggy althought cpu usage is only at 30-40%. Seems like that idling code is problematic, don't know why... This also doesn't seem to be win32 specific, I've heard similar reports from linux people and we got a patch submitted that removes the idling code because of that.
 * Crash every time I try to start the "Tux the builder" level in the Forest area. stderr messages (maybe unrelated): Warning: Couldn't create audio source: Invalid Value
 * The vertical movement of the screen in world 2 is too sensitive. Eg, tux jumps onto a small block and then back down, and the screen moves up and back down with him. This makes me feel a bit seasick at times!
 * Crashes in the 'Short visit' level in world 2: near the shooting arrows sometimes, and near the lava every time. Message on top of the screen about sounds.
-* When I cancel a level, Tux gets back on the map to the level I have finished before starting this level. I would prefer that Tux gets to the level I have just canceled.
 * Only a small Bug, but nevertheless mentionable: If you eat a snowball to become the great Tux and you are immediately killed afterwards (so you have eaten the snowball, but the effect has not yet started to work), you start as great Tux at the beginning of the level.
 * Running the game with the open source ATI graphics driver, there are colored lines shown where tiles meet. This happens in both the world maps and the levels themselves. The closed-source ATI drivers fix this problem, but for those with older ATI hardware, this will look bad.
 : This also happens to me using the NVIDIA drivers.  Either this is a off-by-one error in SuperTux that happens to be negated by a similar bug in the ATI drivers, or is a bug in the open source and NVIDIA drivers that is exposed by SuperTux. --[[User:Tuxdev|Tuxdev]] 05:46, 27 Dec 2006 (CET)
