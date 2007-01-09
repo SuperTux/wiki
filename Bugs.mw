@@ -55,6 +55,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * At certain places in certain levels on my system, everything slows down to 1-2 frames per second, whereas normally the game is very fast and smooth.  I have a 1.1 GHz Mac G3.  This slowdown happens every time on the 23rd Airborne level.  It's slow as Tux is dropping to the ground at the beginning, then once he's on the ground it speeds up to normal.  However, once he runs to the right and jumps to the first "mountain", the game slows back down to 1 or 2 frames/sec.  Could my system simply be too slow to play the game?
 * Your new autopackage does not work at all. I double click it but nothing happens. No error message, no supertux installed. I use the latest supertux-0.3.0b.x86.package. The supertux-0.3.0a package at least shows a message that you made a mistake building the package. Please fix this fast, I want to play the new levels.
 *: Did you try manually running the package installer? To do so, open a command line window, change to the directory you downloaded the file supertux-0.3.0b.x86.package to (e.g. "cd ~/Desktop"), then either run "~/.local/bin/package install supertux-0.3.0b.x86.package" or "package install supertux-0.3.0b.x86.package", depending on where you installed autopackage. --[[User:Sommer|Sommer]] 23:03, 8 Jan 2007 (CET)
+::I manually clicked the installer. There is nowhere I have installed the autopackage yet, because it does not work. No error dialog. If I run the package in a terminal it says FAIL:Install the package with the command 'package install' instead.
+but i don't have a 'package install' command. :-(
 
 == Development version ==
 
