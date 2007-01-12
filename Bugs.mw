@@ -32,6 +32,7 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 *: Fixed --[[User:Sommer|Sommer]] 23:15, 8 Jan 2007 (CET)
 
 === Open ===
+* When Tux is standing on an elevator moving down next to a wall, and he walks into the wall, if the wall ends while the elevator is still moving down, Tux will get crushed! I made this level to demonstrate: fast.filespace.org/blublu/crushbug.stl
 * Several sounds are very quiet in the win32 version (noticably the jump sound, crates crashing, coin sounds, yetis gna and probably others). I didn't check with the source yet, but I assume it's all sounds without position. The openal driver on that box is from NVIDIA: Standard OpenAL(TM) Library, NVIDIA Corporation, 5.10.2917.0, English
 * Performance degratation although the computer is able to handle the game. Noticed on a 1.3 Ghz box with geforce 2/mx card on win XP: The game often goes down to 40-50fps and gets laggy althought cpu usage is only at 30-40%. Seems like that idling code is problematic, don't know why... This also doesn't seem to be win32 specific, I've heard similar reports from linux people and we got a patch submitted that removes the idling code because of that.
 * Crash every time I try to start the "Tux the builder" level in the Forest area. stderr messages (maybe unrelated): Warning: Couldn't create audio source: Invalid Value
