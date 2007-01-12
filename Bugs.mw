@@ -67,10 +67,11 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 *: Not a bug.
 
 * If you jump through a non-solid block into a solid one, you go through the solid blocks. (This is kind of hard to explain. We need a site where we can post levels to demonstrate bugs...)
-: You might be experiencing a new feature of ST engine, unisolid tiles.  Example level is "Detour", for the tree branches. --[[User:Tuxdev|Tuxdev]] 18:11, 20 Dec 2006 (CET)
-: I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
+*: You might be experiencing a new feature of ST engine, unisolid tiles.  Example level is "Detour", for the tree branches. --[[User:Tuxdev|Tuxdev]] 18:11, 20 Dec 2006 (CET)
+*: I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
 
-* 4496: Finish World1, solve a wold2 level, Quit game. Load game. Game starts on world1. 
+* 4496: Finish World1, solve a wold2 level, Quit game. Load game. Game starts on world1.
+
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
