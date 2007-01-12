@@ -1,8 +1,7 @@
-
 * navigation
 ** mainpage|mainpage
-** portal-url|portal
-** currentevents-url|currentevents
+** homepage-url|homepage
+** projectpage-url|projectpage
 ** recentchanges-url|recentchanges
 ** randompage-url|randompage
 ** helppage|help
