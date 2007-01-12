@@ -102,8 +102,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
 *: 4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
-::Should be fixed with bigger lightmap in r4443.
-:::This makes that level unplayably slow for me. I think that the lightmap needs to be block-aligned (it'll need to be slightly wider and taller), with appropriate changes to the pixel lookup code.
+*::Should be fixed with bigger lightmap in r4443.
+*:::This makes that level unplayably slow for me. I think that the lightmap needs to be block-aligned (it'll need to be slightly wider and taller), with appropriate changes to the pixel lookup code.
 
 * 4236: When there are multiple stalactites in a row, they often disappear instead of falling (e.g. bonus2/level7.stl)
 
@@ -125,8 +125,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4327: Forest worldmap has a level off the path, and says that "tilemap data is buggy" when I get near it.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 1 Oct 2006 (CEST)
 
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
-: Works for me in 4446. Fixed or hard to reproduce? 
-:: Fixed, or at least worked around.
+*: Works for me in 4446. Fixed or hard to reproduce? 
+*:: Fixed, or at least worked around.
 
 * 4437: Only one Mr. Icebox will die, if two are fired at each other. (Different behaviour than in 0.1.3)
 
