@@ -52,7 +52,7 @@ You should fix all conflicts (by editing the conflicted file, then using '''svn 
 This will create a file mypatch.patch that contains all changes you did to the repository. You should send your patch to the [[Mailing Lists|supertux-devel mailing list]].
 
 == Web Access ==
-If you just want to browse through the source a bit, then you can use the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/ Repository HTTP Interface] which should work well with your web browser.
+If you just want to browse through the source a bit, then you can use the [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ Repository HTTP Interface] which should work well with your web browser.
 
 == Developer SVN access ==
 
