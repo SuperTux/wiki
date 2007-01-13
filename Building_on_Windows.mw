@@ -55,7 +55,7 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 * time to check out the latest sources from SVN
 ** create c:\msys\1.0\build - we will download and build SuperTux there
 ** right-click this folder and select "SVN checkout..." from the context menu
-** As repository URL, enter: svn://svn.berlios.de/supertux/trunk/supertux
+** As repository URL, enter: http://supertux.lethargik.org/svn/supertux/trunk/supertux
 ** As checkout dir, enter: C:\msys\1.0\build\supertux
 ** begin your checkout and wait - this might take some time...
 
