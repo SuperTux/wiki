@@ -159,27 +159,19 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * Scroll TileList with middle mouse, Get different Tilegroups
 *:Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
 *::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else oyu can. Should be bug (or feature) in GTK, it's not controlled by program.
-* Add scrollbars to tilelist widget
-* Add scrollbars to level?
 * Create an overview widget (where to place this in the GUI?)
 *: Overview for what? -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
 *::The sector. Like a minimap. 
-* preserve unknown lisp trees
 * Grab Mouse Pointer when scrolling so that we can scroll as much as we want (and the mouse is still where it was before scrolling)
 *:I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[[User:AnMaster|AnMaster]] 10:46, 13 Nov 2006 (CET) 
 * More custom property editors:
-** Spawnpoint selector
 ** Texts
 ** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
 **:Why was it disabled? --[[User:WolfgangB|WolfgangB]] 16:45, 13 Jul 2006 (BST)
 **::Because it crash the editor on Windows, and because it add lots of extra deps. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 **:::"lots of extra deps" anything that is not part of every serious distro? Why not fix the crash instead of removing features? 
-* Ask for Save on close/load/new
-* Support resizing of level with drag&drop on the level borders
-* Support selection of multiple objects
 * Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
 * Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
-* Redraw sector after loading, undo, delete
 * Tool not working after loading new level
 *:Added a workaround for this by reseting to the Select tool when loading new level. --[[User:AnMaster|AnMaster]] 20:25, 8 Sep 2006 (BST)
 * Windows builds seem to silently crash when loading huge levels
@@ -188,9 +180,4 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 *:::the old airkey was 300x300. It makes the editor slow on my linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
 * Make the right click menu from sector tab a normal menu so that users can easily find it
 *:Maybe add them to a toolbar? that could be useful. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
-* When you set the path to the supertux data dir the editor doesn't use the new path until you restart the editor.
-* Add a new way to copy parts of one level to another. 
-* You can't remove first sector when there is exactly two sectors in the level.
-*: Should be intended behaviour. Same thing as you can't remove all tilemaps, as you wouldn't be able to do anything, you are even not able to create a new tilemap. Well, and... main sector has to exist, otherwise level won't start. -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
-[[Category:Development]]
-*::No, it's not intended. It was a quick fix to prevent crashing.
+* Add a new way to copy parts of one level to another.
