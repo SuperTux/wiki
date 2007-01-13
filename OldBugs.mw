@@ -12,6 +12,58 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 *: Probably because you set the Wiki to output non-english content. Wikimedia comes in 86 different languages and SuperTux-specific strings were only added for some of them. The Wiki now forces an english locale for all users until we have localizations for the rest of the supported languages. --[[User:Sommer|Sommer]] 13:50, 4 Nov 2006 (CET)
 *::I was using Italian language pack, works fine with English one. Sorry for the trouble. --Shylence 17:09, 4 Nov 2006 (CET)
 
+== Release 0.3.0 ==
+
+=== Closed ===
+
+* When I quit the same on world 2, and then relaunch it, I am back on world 1.
+*: Fixed in SVN --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+
+* Don't start: a error occurs because no OpenAL32.dll on my Windows XP SP2.
+*:Download the openal windows installer from www.openal.org/
+
+* Doing a backflip while in fire Tux mode causes Tux to lose the fire mode. If this is the intended behavior, it's not documented in the user manual.
+*: Now it is --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+
+* I've got an Nvidia TNT2 (I'm using legacy drivers version 1.0.7184+2.6.17.6-1 in kubuntu edgy). When I start supertux I get "Fatal: Unexpected exception: Couldn't set video mode (800x600-0bpp): Couldn't find matching GLX visual".
+*: I don't think that's SuperTux' fault --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+
+* carrying an ice cube no longer protects Tux from other badguys. Is this an intended change? It was useful in the previous release.
+*: Intended behaviour --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+
+* Big Tux can't go through places that are only as high as the small Tux. In previous version Big Tux was able to go through that by ducking, in this version Big Tux reverts back to the small Tux.
+*: Intended behaviour --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+
+* When I cancel a level, Tux gets back on the map to the level I have finished before starting this level. I would prefer that Tux gets to the level I have just canceled.
+*: Fixed --[[User:Sommer|Sommer]] 23:15, 8 Jan 2007 (CET)
+
+=== Open ===
+* When Tux is standing on an elevator moving down next to a wall, and he walks into the wall, if the wall ends while the elevator is still moving down, Tux will get crushed! I made this level to demonstrate: fast.filespace.org/blublu/crushbug.stl
+* Several sounds are very quiet in the win32 version (noticably the jump sound, crates crashing, coin sounds, yetis gna and probably others). I didn't check with the source yet, but I assume it's all sounds without position. The openal driver on that box is from NVIDIA: Standard OpenAL(TM) Library, NVIDIA Corporation, 5.10.2917.0, English
+* Performance degratation although the computer is able to handle the game. Noticed on a 1.3 Ghz box with geforce 2/mx card on win XP: The game often goes down to 40-50fps and gets laggy althought cpu usage is only at 30-40%. Seems like that idling code is problematic, don't know why... This also doesn't seem to be win32 specific, I've heard similar reports from linux people and we got a patch submitted that removes the idling code because of that.
+* Crash every time I try to start the "Tux the builder" level in the Forest area. stderr messages (maybe unrelated): Warning: Couldn't create audio source: Invalid Value
+* The vertical movement of the screen in world 2 is too sensitive. Eg, tux jumps onto a small block and then back down, and the screen moves up and back down with him. This makes me feel a bit seasick at times!
+* Crashes in the 'Short visit' level in world 2: near the shooting arrows sometimes, and near the lava every time. Message on top of the screen about sounds.
+* Only a small Bug, but nevertheless mentionable: If you eat a snowball to become the great Tux and you are immediately killed afterwards (so you have eaten the snowball, but the effect has not yet started to work), you start as great Tux at the beginning of the level.
+* Running the game with the open source ATI graphics driver, there are colored lines shown where tiles meet. This happens in both the world maps and the levels themselves. The closed-source ATI drivers fix this problem, but for those with older ATI hardware, this will look bad.
+*: This also happens to me using the NVIDIA drivers.  Either this is a off-by-one error in SuperTux that happens to be negated by a similar bug in the ATI drivers, or is a bug in the open source and NVIDIA drivers that is exposed by SuperTux. --[[User:Tuxdev|Tuxdev]] 05:46, 27 Dec 2006 (CET)
+*: This is the graphics card or the drivers doing anti aliasing with the pixels on the edge, although antialiasing shouldn't be needed as the image widths and heights are only whole pixels. We should be able to work around these bugs by producing images with the border pixels doubled (go from 32x32 to 34x34, put the original image into the middle and diplicate the border pixel lines, you can see how this stuff could work in the windstille sources for example)
+* Fall down a pit. Before the death animation happens, press escape and quit to the main menu. When the main menu demo starts playing, Tux will die and the screen fades to black.
+* The crash-when-loading-"Light and Magic" bug noted below for development version 4328 is in 0.3.0.
+* A lot of secret or tactical parts in World 1 levels don't really work or are too easy now that Tux can travel backwards.
+* The background is all messed up on the Mac OSX version.
+* When trying to play a level with Windows version of the editor, it says: "Couldn't start supertux: Object reference not set to an instance of an object". The same happens when saving.
+* I get a warning that the tilemap data is buggy, when I force Tux to go straight on where the path on the map has a curve.
+* At the end of level I get informations about how much coins (...) I got. But this doesn't seem to work since the information below "Now" and "Record" are the same. Sometimes I don't get these information at all and Tux just gets back to the map.
+*: Level statistics are currently not saved to disk --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+*: Also, no statistics are available when you use a checkpoint after getting killed in a level --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
+*::Thank you for the explanation, will statistics be added even after using a checkpoint?
+* When a checkpoint is activated this is indicated by an animation. But after Tux got killed and returned to the checkpoint the checkpoint is not animated although it is activated.
+* At certain places in certain levels on my system, everything slows down to 1-2 frames per second, whereas normally the game is very fast and smooth.  I have a 1.1 GHz Mac G3.  This slowdown happens every time on the 23rd Airborne level.  It's slow as Tux is dropping to the ground at the beginning, then once he's on the ground it speeds up to normal.  However, once he runs to the right and jumps to the first "mountain", the game slows back down to 1 or 2 frames/sec.  Could my system simply be too slow to play the game?
+* Your new autopackage does not work at all. I double click it but nothing happens. No error message, no supertux installed. I use the latest supertux-0.3.0b.x86.package. The supertux-0.3.0a package at least shows a message that you made a mistake building the package. Please fix this fast, I want to play the new levels.
+*: Did you try manually running the package installer? To do so, open a command line window, change to the directory you downloaded the file supertux-0.3.0b.x86.package to (e.g. "cd ~/Desktop"), then either run "~/.local/bin/package install supertux-0.3.0b.x86.package" or "package install supertux-0.3.0b.x86.package", depending on where you installed autopackage. --[[User:Sommer|Sommer]] 23:03, 8 Jan 2007 (CET)
+*::I manually clicked the installer. There is nowhere I have installed the autopackage yet, because it does not work. No error dialog. If I run the package in a terminal it says FAIL:Install the package with the command 'package install' instead. but i don't have a 'package install' command. :-(
+
 == Release 0.1.3 ==
 
 * When using OpenGL renderer, water transparency is not shown. Using software renderer (SDL), water alpha looks just fine. Could you check out why transparency does not work for some people? Experienced with the binary-only ATI video driver (fglrx) for ATI Radeon X200M video card.
