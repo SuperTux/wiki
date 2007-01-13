@@ -70,16 +70,45 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 *: You might be experiencing a new feature of ST engine, unisolid tiles.  Example level is "Detour", for the tree branches. --[[User:Tuxdev|Tuxdev]] 18:11, 20 Dec 2006 (CET)
 *: I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
 
+* 4328, 0_3_x branch: crash when trying to load "Light and Magic".
+*: Works for me in 4446. Fixed or hard to reproduce? 
+*:: Fixed, or at least worked around.
+
 * 4496: Finish World1, solve a wold2 level, Quit game. Load game. Game starts on world1.
+
+* 4496: get_light() does not work if resolution is not default
+:fixed in r4541
+
+* 4531: The pushbuttons do not work anymore. (Maybe it was the gravity patch? It worked in r4529)
+: test/pushbutton.stl works as expected with r4555 
+
+* 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
+*: that's because they do their own eventloop, they really should plug into MainLoop somehow
+::Hacked for 0.3. 
+
+* 4117: Wind with x speed 0 is really x speed -1 . in order to get tux move vertically, set x-speed to 1 (or fix it ;-D)
+*:Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
+::Fixed in r4532
+
+* 4249: If you jump on Poison Ivy (green thing on the ground), the leaves fly around. If you walk on the orange thing, it doesn't.
+::Different Badguys behave different. Not a bug.
+
+* 4249: In "Tree Fortress" level: sometimes when Zeekling hits first Mr Tree Mr Tree can suddenly appear on wooden border and, of course stuck there. (Quite hard to reproduce)
+*: This is a general problem when badguys stack - it always looks a bit out of place. SuperTux might be better off either letting badguys walk through each other or having badguys get squished when another badguy steps on their head. --[[User:131.188.73.150|131.188.73.150]] 14:08, 26 Sep 2006 (BST)
+::Badguys squish each other r4435
+
+* Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
+:No bug in supertux. 
+
+* 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
+*: 4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
+*::Should be fixed with bigger lightmap in r4443.
+*:::This makes that level unplayably slow for me. I think that the lightmap needs to be block-aligned (it'll need to be slightly wider and taller), with appropriate changes to the pixel lookup code.
+:::Seems to go away with #define LIGHTMAP_DIV 5 instead of 4 (light lines) or 1 (too slow on some machines)
 
 === Open ===
 
 {{Attention|s=Please make sure to always specify an exact revision number with each bug report!}}
-
-* Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
-
-* 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
-*: that's because they do their own eventloop, they really should plug into MainLoop somehow
 
 * 3771: Possible to die after winning a level if not invincible (happens in yeti level)
 
@@ -97,22 +126,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4107: When two slopes of opposite directions of the snow-tileset are connected to eachother on their lower side, when running from right to left it works, from left to right you get stuck.
 
-* 4117: Wind with x speed 0 is really x speed -1 . in order to get tux move vertically, set x-speed to 1 (or fix it ;-D)
-*:Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
-
-* 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
-*: 4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
-*::Should be fixed with bigger lightmap in r4443.
-*:::This makes that level unplayably slow for me. I think that the lightmap needs to be block-aligned (it'll need to be slightly wider and taller), with appropriate changes to the pixel lookup code.
-
 * 4236: When there are multiple stalactites in a row, they often disappear instead of falling (e.g. bonus2/level7.stl)
 
 * 4245: If you switch the camera to manual mode and scroll it so that Tux would be off the screen, Tux actually gets pushed into the water by the left edge of the screen.
-
-* 4249: If you jump on Poison Ivy (green thing on the ground), the leaves fly around. If you walk on the orange thing, it doesn't.
-
-* 4249: In "Tree Fortress" level: sometimes when Zeekling hits first Mr Tree Mr Tree can suddenly appear on wooden border and, of course stuck there. (Quite hard to reproduce)
-*: This is a general problem when badguys stack - it always looks a bit out of place. SuperTux might be better off either letting badguys walk through each other or having badguys get squished when another badguy steps on their head. --[[User:131.188.73.150|131.188.73.150]] 14:08, 26 Sep 2006 (BST)
 
 * 4245: Since r4208 Smalltux spawns below the spawnpoint. So reset points are no longer activated if restarting a level there. (activate firefly, kill tux. tux starts at firefly, but firefly shows inactive image)
 
@@ -124,18 +140,8 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 
 * 4327: Forest worldmap has a level off the path, and says that "tilemap data is buggy" when I get near it.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 1 Oct 2006 (CEST)
 
-* 4328, 0_3_x branch: crash when trying to load "Light and Magic".
-*: Works for me in 4446. Fixed or hard to reproduce? 
-*:: Fixed, or at least worked around.
-
 * 4437: Only one Mr. Icebox will die, if two are fired at each other. (Different behaviour than in 0.1.3)
 
 * 4438: Level time stops (and the counter at the top disappears) if you go to another sector.
-
-* 4496: get_light() does not work if resolution is not default
-:fixed in r4541
-
-* 4531: The pushbuttons do not work anymore. (Maybe it was the gravity patch? It worked in r4529)
-: test/pushbutton.stl works as expected with r4555 
 
 {{Attention|s="Only new bugs in the '''development version''' go above this line. Bugs in Release 0.3.0 should be added to the [[#Release_0.3.0|appropriate section]] instead."}}
