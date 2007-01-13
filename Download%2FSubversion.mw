@@ -4,7 +4,7 @@ SuperTux development is coordinated with the help of the Subversion version cont
 == Getting the data (anonymous read-only access) ==
 Anonymous read access to the repository is granted to everybody. Once you have installed Subversion, all you have to do to get your hands on the data is to use the following command:
 
- svn checkout svn://svn.berlios.de/supertux/trunk/supertux
+ <nowiki>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux</nowiki>
 
 This will create a new directory named ''supertux'' which contains the latest versions of the SuperTux source code and data. Once this is complete, you can use
 
@@ -16,22 +16,22 @@ inside the ''supertux'' directory to update to the latest version in the reposit
 
 Checking out the path above will get you all you need to contribute to SuperTux. However, there are a few more paths in the repository containing other useful SuperTux-related things.
 {|
-||'''<tt><nowiki>svn://svn.berlios.de/supertux/trunk/htdocs</nowiki></tt>'''
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/htdocs</nowiki></tt>'''
 |Website source
 |-
-||'''<tt><nowiki>svn://svn.berlios.de/supertux/trunk/media</nowiki></tt>'''
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/media</nowiki></tt>'''
 |Additional media files, including source files for audio and graphics
 |-
-||'''<tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux</nowiki></tt>'''
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/supertux</nowiki></tt>'''
 |SuperTux source
 |-
-||'''<tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-portable</nowiki></tt>'''
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/trunk/supertux-portable</nowiki></tt>'''
 |[[SuperTux Portable]]
 |-
-||'''<tt><nowiki>svn://svn.berlios.de/supertux/trunk/supertux-sharp</nowiki></tt>'''
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/supertux-sharp</nowiki></tt>'''
 |Official SuperTux level editor that runs under both Mono and MS .NET.
 |-
-||'''<tt><nowiki>svn://svn.berlios.de/supertux/branches/supertux/0_1_x</nowiki></tt>'''
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/branches/supertux/0_1_x</nowiki></tt>'''
 |SuperTux Milestone 1 branch
 |}
 
@@ -58,7 +58,7 @@ If you just want to browse through the source a bit, then you can use the [http:
 
 If you have submitted some good patches and want to get actively involved in the SuperTux project, [[SuperTux FAQ#How_can_I_get_in_touch_with_you.3F|contact]] us for write access to the repository. You will then have to issue the following commandin the ''supertux'' directory:
 
- svn switch --relocate svn://svn.berlios.de/supertux/trunk/supertux svn+ssh://&lt;your_berlios_username&gt;@svn.berlios.de/svnroot/repos/supertux/trunk/supertux
+ svn switch --relocate http://supertux.lethargik.org/svn/trunk/supertux svn+ssh://&lt;your_lethargik_username&gt;@lethargik.org/home/supertux/svn/supertux/trunk/supertux
 
 After running an <code>svn update</code> to make sure everything went smoothly, you can start checking in your changes:
 
