@@ -133,7 +133,9 @@ This page lists all known bugs. Feel free to elaborate on any bugs already noted
 * 4438: Level time stops (and the counter at the top disappears) if you go to another sector.
 
 * 4496: get_light() does not work if resolution is not default
+:fixed in r4541
 
 * 4531: The pushbuttons do not work anymore. (Maybe it was the gravity patch? It worked in r4529)
+: test/pushbutton.stl works as expected with r4555 
 
 {{Attention|s="Only new bugs in the '''development version''' go above this line. Bugs in Release 0.3.0 should be added to the [[#Release_0.3.0|appropriate section]] instead."}}
