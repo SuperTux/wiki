@@ -1,9 +1,10 @@
 __NOTOC__
 __NOEDITSECTION__
-{|style="vertical-align:top;" width="100%"|
-|style="vertical-align:top;" width="50%"|
-{|
-!<h2 style="text-align:left">SuperTux users</h2>
+{|class="MainPageOuter" width="100%"|
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox"|
+!<h2 class="MainPageBoxH">SuperTux users</h2>
 |-
 |
 * [[SuperTux FAQ]]
@@ -13,9 +14,11 @@ __NOEDITSECTION__
 * [[Ideas]]
 * [[SuperTux:Community Discussion]]
 |}
-|style="vertical-align:top;" width="50%"|
-{|
-!<h2 style="text-align:left">SuperTux development</h2>
+
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox"|
+!<h2 class="MainPageBoxH">SuperTux development</h2>
 |-
 |
 * [[News]]
@@ -29,10 +32,12 @@ __NOEDITSECTION__
 * [[Versioning scheme]]
 * [[Grumbel grumbles]]
 |}
+
 |-
-|style="vertical-align:top;" width="50%"|
-{|
-!<h2 style="text-align:left">Developer documentation</h2>
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox"|
+!<h2 class="MainPageBoxH">Developer documentation</h2>
 |-
 |
 * [[Building SuperTux]]
@@ -44,9 +49,11 @@ __NOEDITSECTION__
 * [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
 * [http://supertux.berlios.de/development/doxygen/html/ Doxygen HTML Documentation]
 |}
-|style="vertical-align:top;" width="50%"|
-{|
-!<h2 style="text-align:left">External links</h2>
+
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox"|
+!<h2 class="MainPageBoxH">External links</h2>
 |-
 |
 * [http://supertux.berlios.de SuperTux homepage]
@@ -55,6 +62,7 @@ __NOEDITSECTION__
 * [[Links | Links to reviews and similar games]]
 * [http://www.last.fm/music/Wansti/Assorted+Songs+From+SuperTux+Milestone+2 SuperTux music available for streaming and download] at [http://www.last.fm last.fm]
 |}
+
 |}
 ---- 
 
