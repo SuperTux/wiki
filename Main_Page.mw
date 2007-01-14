@@ -1,13 +1,17 @@
 __NOTOC__
 __NOEDITSECTION__
-{|class="MainPageOuter" width="100%"|
+
+[[Image:Logo2.png|center]]
+
+{|cellpadding="2" cellspacing="5" class="MainPageOuter" width="100%"|
 |class="MainPageMiddle" width="50%"|
 
-{|class="MainPageBox"|
+{|class="MainPageBox" width="100%"|
 !<h2 class="MainPageBoxH">SuperTux users</h2>
 |-
 |
 * [[SuperTux FAQ]]
+** [[Editor FAQ|SuperTux Level Editor FAQ]]
 * [[Download]]
 * [[User Manual]]
 * [[Bugs]]
@@ -17,7 +21,7 @@ __NOEDITSECTION__
 
 |class="MainPageMiddle" width="50%"|
 
-{|class="MainPageBox"|
+{|class="MainPageBox" width="100%"|
 !<h2 class="MainPageBoxH">SuperTux development</h2>
 |-
 |
@@ -36,7 +40,7 @@ __NOEDITSECTION__
 |-
 |class="MainPageMiddle" width="50%"|
 
-{|class="MainPageBox"|
+{|class="MainPageBox" width="100%"|
 !<h2 class="MainPageBoxH">Developer documentation</h2>
 |-
 |
@@ -52,7 +56,7 @@ __NOEDITSECTION__
 
 |class="MainPageMiddle" width="50%"|
 
-{|class="MainPageBox"|
+{|class="MainPageBox" width="100%"|
 !<h2 class="MainPageBoxH">External links</h2>
 |-
 |
