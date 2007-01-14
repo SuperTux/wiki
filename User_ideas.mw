@@ -430,7 +430,7 @@ why not a portal type place where he gets sucked in or a ray gun firing a beam a
 * '''[[Swimming |Swim]]''' in water like <del>Mario</del> a penguin.
 ** Grubmel's grumbling about this already, and it seems justified. See "Grumbel's Grumbles".
 ** Update: partially implemented in SVN (at latest, rv. 4102). Tux can float, but not swim.
-:Oh well. Looks like nobody cared about the "'''Before''' implementing swimming there are some details that need to be specified" on the [[swimming]] page. :-(
+:Oh well. Looks like nobody cared about the "'''Before''' implementing swimming there are some details that need to be specified" on the [[Swimming]] page. :-(
 ::Wrong. The SVN version just had some of the hooks added that will be needed to implement swimming, regardless of the final look and feel. Just for demonstration purposes these hooks are now used to make Tux float.
 * '''Lava tiles''' might be solid, making possible for some enemies (and maybe Invincible Tux) to walk on them. They may also kill even BigTux on touch instead of simply hurting him.
 * '''Special blocks''' solid for enemies but not for Tux, and maybe vice-versa.
