@@ -1,21 +1,22 @@
 /** CSS placed here will be applied to all skins */
 
-table.MainPageBoxOuter {
-  vertical-align: top;
+ table.MainPageBoxOuter {
+  vertical-align: top; !important
   width: 100%;
-}
+ }
 
-td.MainPageBoxOuter {
-  vertical-align: top;
+ td.MainPageBoxOuter {
+  vertical-align: top; !important
   width: 50%;
-}
+ }
+
+ MainPageBoxInner {
+  vertical-align: top; !important
+  text-align:left; !important
+ }
 
 
-table.MainPageBoxInner {
-  vertical-align: top;
+ table.MainPageBoxInner {
+  vertical-align: top; !important
   width: 100%;
-}
-
-h2.MainPageBoxInner {
-  text-align:left;
-}
+ }
