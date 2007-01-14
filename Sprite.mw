@@ -40,7 +40,7 @@ The hitbox offset indicates where the "origin" of the sprite is: If the engine d
 The hitbox size will get read by most sprites' gamecode to set the width and height of an imaginary rectangle that defines what parts of a sprite are solid.
 
 == (sprite) block ==
-The sprite description file is [[s-expr]] based. A sprite description starts with a ''(sprite)'' list, It should then contain a name entry ''(name "myname")'' and then several ''(action)'' entries (at least 1).
+The sprite description file is [[S-expr]] based. A sprite description starts with a ''(sprite)'' list, It should then contain a name entry ''(name "myname")'' and then several ''(action)'' entries (at least 1).
 
 == (action) block ==
 The action block contains then the name of an action ''(name "myaction")'' can optionally contain an ''(hitbox <x> <y> <w> <h>)'' block. It's also possible to add an ''(fps number)'' block to define the number of frames played per second. Finnaly comes a list of ''(images)'' or the '(mirror-action "actionname")'' keyword which will take an already defined action and flip all it's images vertically.
