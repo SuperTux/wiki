@@ -2,7 +2,7 @@ According to credits.txt some of our sounds are from "Royalty free sound effects
 This page is used to find out who made which file and which files have to be replaced to get rid of unspecific 3rd party files.
 
 == [[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/data/music/ data/music]] ==
-All files created by '''Marek Möckel''', unless stated otherwise.
+All files created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, unless stated otherwise.
 *bonuscave.ogg
 *bossattack.ogg
 *cave.ogg
@@ -50,7 +50,7 @@ All files created by '''Marek Möckel''', unless stated otherwise.
 *fizz.wav
 *flame.wav
 *flip.wav
-*grow.wav
+*grow.wav -- self-made by TuxThePenguin(?)
 *hop.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *hurt.wav
 *iceblock_bump.wav
@@ -78,7 +78,7 @@ All files created by '''Marek Möckel''', unless stated otherwise.
 *upgrade.wav
 *warp.wav
 *waterfall.wav
-*willowisp.wav -- self-made by wansti(?)
+*willowisp.wav -- self-made by wansti
 *wood.wav -- self-made by wansti(?)
 *yeti_finish.ogg -- self-made by [[User:MatzeB|MatzeB]]
 *yeti_gna.wav -- self-made by [[User:MatzeB|MatzeB]]
