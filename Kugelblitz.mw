@@ -12,11 +12,11 @@ If the Kugelblitz hits water it vanishes and all water tiles get electrified for
 = Variation1 =
 The path of the kugelblitz could be led by looking at surrounding things. For example the kugelblitz could always go the nearest coin or enemy in a range of 3 tiles give that it would not need to change it's direction more than 45 degree or so. This would allow the following 2 situations:
 
-[[Image:kugelblitz2.jpg]]
+[[Image:Kugelblitz2.jpg]]
 
 The kugelblitz would go down and then go upwards along the 2 coins and finally killing the 2 spikies and disappearing as there is no object anymore it could move to.
 
-[[Image:kugelblitz1.jpg]]
+[[Image:Kugelblitz1.jpg]]
 
 The kugelblitz would come down and start moving in circles from coin to coin. You could stop this behaviour by collecting 1 of the coins at the right time.
 
