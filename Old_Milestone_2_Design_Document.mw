@@ -1,5 +1,5 @@
 = About This Page =
-This document is work in progress; when finished, its purpose is to provide a final design paper for SuperTux Milestone 2. General ideas go into their respective areas on the [[game design]] pages. Please '''do not''' change anything on this page that hasn't been discussed and approved by the developers!
+This document is work in progress; when finished, its purpose is to provide a final design paper for SuperTux Milestone 2. General ideas go into their respective areas on the [[Game design|game design]] pages. Please '''do not''' change anything on this page that hasn't been discussed and approved by the developers!
 
 = [[Milestone 1 Analysis]] =
 
@@ -34,11 +34,11 @@ Levels have the ability to autoscroll in all four directions. There is no fixed 
 Milestone 2 levels will try to focus on a certain theme to make each level unique in gameplay. Level events can be automated using scripts in order to create in-game cutscenes.
 
 == Worldmap ==
-Other than on the Antarctica worldmap, the levels should be placed on different paths, so that there is always a choice between at least two levels. Exceptions to this (i.e. levels with no alternative to choose from) are	 
-		 
-* the first level,	 
-* levels on one path that are in some way connected by story,	 
-* the (first) transition to the ghost forest section, and	 
+Other than on the Antarctica worldmap, the levels should be placed on different paths, so that there is always a choice between at least two levels. Exceptions to this (i.e. levels with no alternative to choose from) are
+
+* the first level,
+* levels on one path that are in some way connected by story,
+* the (first) transition to the ghost forest section, and
 * the castle levels.
 
 == Light Forest ==
@@ -66,7 +66,7 @@ Levels:
 * Cannons and dispensers
 * Spiders
 
-== Castle == 
+== Castle ==
 * Main Hall: Theme introduction
 * First Floor: Labyrinth, light switch blocks
 * Tower: Rising Lava
@@ -114,7 +114,7 @@ For detailed info, see the [[Badguys]] page. The following is a list of new badg
 * Dispenser
 * Zeekling
 * Kugelblitz
-* Snail 
+* Snail
 * Spider
 
 = [[Bosses]] =
@@ -127,6 +127,6 @@ For detailed info, see the [[Badguys]] page. The following is a list of new badg
 = (Sketches) =
 Here are some sketches of things explained above.
 
-[[Image:worldmap_sketch.png]]
+[[Image:Worldmap sketch.png]]
 
 [[Category:Design]]
