@@ -17,4 +17,5 @@ width: 100%;
 
 .MainPageBoxH {
 text-align:left;
+width: 100%;
 }
