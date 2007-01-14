@@ -29,11 +29,11 @@ All files created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, u
 *theme.ogg
 
 == [[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/data/speech/ data/speech]] ==
-*penny_runt_01.ogg
-*tux_hello.ogg
-*tux_murp_01.ogg
-*tux_rap.ogg
-*tux_upset.ogg
+*penny_runt_01.ogg -- self-made by gwater
+*tux_hello.ogg -- self-made by TuxThePenguin
+*tux_murp_01.ogg -- self-made by TuxThePenguin
+*tux_rap.ogg -- self-made by TuxThePenguin
+*tux_upset.ogg -- self-made by TuxThePenguin
 
 == [[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/data/sounds/ data/sounds]] ==
 *bigjump.wav
