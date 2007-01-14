@@ -49,7 +49,7 @@ You should fix all conflicts (by editing the conflicted file, then using '''svn 
 
  svn diff > mypatch.patch
 
-This will create a file mypatch.patch that contains all changes you did to the repository. You should send your patch to the [[Mailing Lists|supertux-devel mailing list]].
+This will create a file mypatch.patch that contains all changes you did to the repository. You should upload your patch to the [http://supertux.lethargik.org/bugs/ bug tracker].
 
 == Web Access ==
 If you just want to browse through the source a bit, then you can use the [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ Repository HTTP Interface] which should work well with your web browser.
