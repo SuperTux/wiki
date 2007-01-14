@@ -230,7 +230,7 @@ The Jellyfish is hard to beat because it moves randomly in water. The trailing t
 
 ''Earthworm''
 
-Earthworms slither vertically and horizontally. They are 1 space thick, and therefore would be best in 1- or 2-space-high tunnels. They push Tux back; or, in 2-space-high horizontal  tunnels, Tux can ride them. They only kill when they squash Tux against a wall, floor, or ceiling. They cannot be killed.
+Earthworms slither vertically and horizontally. They are 1 space thick, and therefore would be best in 1- or 2-space-high tunnels. They push Tux back; or, in 2-space-high horizontal  tunnels, Tux can ride them. They only kill when they squash Tux against a wall, floor, or ceiling. They cannot be ™killed.
 
 ''Killer Earthworm''
 
@@ -298,6 +298,16 @@ Robber walks around and, on contact steals bonuses and runs off to somewhere. If
 *runs away from Tux
 *would be ''nearly'' as fast as Tux
 *When he catches one Tux gets a reward-Special bonus?
+
+====Badguys from Shylence====
+
+=====Ghostly Tree====
+Ghost forest version of MrTree. See [[Ghostly Tree]].
+
+=====Walking Rock====
+Unrelated with the "Walking rock" above. A big rock that works like a platform. See [[Walking Rock]].
+
+--Shylence 03:42, 14 January 2007 (PST)
 
 === Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
