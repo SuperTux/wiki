@@ -90,7 +90,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 
 === Statistics ===
 * '''L:''' save score on per-level basis to make high-score (this means coins/time)
-* '''M:''' Show statistics on level completion. 
+* '''M:''' Show statistics on level completion.
 * '''?:''' Show total count of coins collected in all levels on the worldmap
 ** initial implementation is there, however the screen should fade in (preferably a little later than the endsequence start)
 ** the screen should be displayed until the player presses a key (or a longer period of time like 15 seconds) is over
@@ -106,7 +106,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 
 === Bugs ===
 * '''H:''' Check/Fix bullet speed/behaviour
-** Please elaborate - what exactly needs to be checked or fixed? 
+** Please elaborate - what exactly needs to be checked or fixed?
 ** (Just compare it with what bullets did in milestone1, the reason the stuff is different now is because the code there is not coded in a framerate independent way)
 ** In MS1 Tux is [[:Image:Fireball ms1-nq8.png|spitting the bullets]] in svn version he is [[:Image:Fireball ms2-nq8.png|throwing them]]. Thats the difference I notice, maybe there is also more subtile framebased stuff. --[[User:WolfgangB|WolfgangB]] 15:36, 9 Jul 2006 (BST)
 ** Checked and (presumably) fixed in r4143 --[[User:Sommer|Sommer]] 00:11, 10 Aug 2006 (BST)
@@ -148,7 +148,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''?:''' Flapping for flying creatures (e.g. the Zeekling)
 * '''?:''' Crushing ice (Stalactite or breakable Ice tile)
 * '''?:''' Warp sound for Hatch-style Dispenser
-* '''?:''' Sound when tux drinks a magic potion that flips the level around 
+* '''?:''' Sound when tux drinks a magic potion that flips the level around
 ** that old sound from the flower? or better not ;-)
 
 == Music ==
@@ -161,15 +161,15 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 *::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else oyu can. Should be bug (or feature) in GTK, it's not controlled by program.
 * Create an overview widget (where to place this in the GUI?)
 *: Overview for what? -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
-*::The sector. Like a minimap. 
+*::The sector. Like a minimap.
 * Grab Mouse Pointer when scrolling so that we can scroll as much as we want (and the mouse is still where it was before scrolling)
-*:I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[[User:AnMaster|AnMaster]] 10:46, 13 Nov 2006 (CET) 
+*:I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[[User:AnMaster|AnMaster]] 10:46, 13 Nov 2006 (CET)
 * More custom property editors:
 ** Texts
 ** Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
 **:Why was it disabled? --[[User:WolfgangB|WolfgangB]] 16:45, 13 Jul 2006 (BST)
 **::Because it crash the editor on Windows, and because it add lots of extra deps. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
-**:::"lots of extra deps" anything that is not part of every serious distro? Why not fix the crash instead of removing features? 
+**:::"lots of extra deps" anything that is not part of every serious distro? Why not fix the crash instead of removing features?
 * Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
 * Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
 * Tool not working after loading new level
