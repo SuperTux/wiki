@@ -1,20 +1,20 @@
 /** CSS placed here will be applied to all skins */
 
-MainPageOuter {
+.MainPageOuter {
 vertical-align: top;
 width: 100%;
 }
 
-MainPageMiddle {
+.MainPageMiddle {
 vertical-align: top;
 width: 50%;
 }
 
-MainPageBox {
+.MainPageBox {
 vertical-align: top;
 width: 100%;
 }
 
-MainPageBoxH {
+.MainPageBoxH {
 text-align:left;
 }
