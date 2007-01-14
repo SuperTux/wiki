@@ -1,0 +1,8 @@
+/** CSS placed here will be applied to all skins */
+table.MainPageBoxInner {
+  vertical-align: top;
+  width: 100%;
+}
+table.MainPageBoxInner h2 {
+  text-align:left;
+}
