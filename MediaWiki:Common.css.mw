@@ -4,17 +4,29 @@
 vertical-align: top;
 width: 100%;
 }
-
 .MainPageMiddle {
 vertical-align: top;
 width: 50%;
 }
-
 .MainPageBox {
 vertical-align: top;
 width: 100%;
 }
-
 .MainPageBoxH {
 text-align:left;
+}
+
+div.downloadtitle {
+float:left;
+font-size:1.5em;
+background-color:#fff;
+border:1px white solid;
+padding:0.25em;
+}
+div.downloadlink {
+float:left;
+font-size:2em;
+background-color:#D0D0FF;
+border:1px silver outset;
+padding:0.25em;
 }
