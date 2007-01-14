@@ -1,7 +1,2 @@
-'''Ghostly Tree''' is Mr Tree's counterpart in Ghost Forest. Its look is darker, and it spawns ghosts instead of Poison Ivies when hit.
-
-Possible look (note this is only a sketch):
-
-[[image:ghostlytree_mockup2.png|Mockup for Ghostly Tree]]
-
-The two lights turn into ghosts when Ghostly Tree is hit.
+'''Ghostly Tree''' is Mr Tree's counterpart in Ghost Forest.
+Looks and behaves like MrTree, but it has a darker look (black/burnt wood, no leaves, red glowing eyes...) and has two ghostly lights instead of leafs. When jumped, he turns into a stump and releases two ghosts instead of two Ivies.
