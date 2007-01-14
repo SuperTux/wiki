@@ -44,4 +44,11 @@ A Clone of Commander Keen under the GPL.
 
 An open source jump and run game. Seems to be heavily inspired by supertux and pingus.
 
+== RSS Feeds ==
+
+* Bugs http://supertux.lethargik.org/bugs/issues_rss.php?project_id=0
+* Wiki changes http://supertux.lethargik.org/wiki/index.php?title=Special:Recentchanges&feed=rss
+* SVN commits http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/?date=month&view=query&format=rss
+* Whats that? http://supertux.lethargik.org/bugs/news_rss.php?project_id=0
+
 [[Category:SuperTux]]
