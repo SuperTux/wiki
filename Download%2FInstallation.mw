@@ -2,16 +2,16 @@
 
 This is the latest (but unstable) release of SuperTux, also known as "[[Milestone 1.9]]". The 0.3.0 release is meant as a tech-demo, to show of new features of the engine, new graphics and such, it is not meant to be fully playable or polished, for that reason it is recommend that distributions should not ship SuperTux 0.3.0, but instead the fully playable SuperTux 0.1.3 release. To download SuperTux 0.3.0, please find your system in the following table:
 
-<table border="1" cellpadding="5" cellspacing="0" style="margin-top: 2em; margin-bottom: 2em;">
+<table border="1" cellpadding="5" cellspacing="0" style="margin-top:2em;margin-bottom:2em;">
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Linux Installer:</div>
+<div class="downloadtitle">Linux Installer:</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0a.x86.package Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.0a.x86.package Game]</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.x86.package Editor]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.x86.package Editor]</div>
 </td>
 <td>
 A test version that uses [http://prdownload.berlios.de/supertux/supertux-0.3.0-nogl-0.1.4502.x86.package no OpenGL] calls is also available.
@@ -21,13 +21,13 @@ Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial 
 </tr>
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Windows Installer:</div>
+<div class="downloadtitle">Windows Installer:</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0-win32-setup.exe Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.0-win32-setup.exe Game]</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0-mono-setup.exe Editor]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0-mono-setup.exe Editor]</div>
 </td>
 <td>
 Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial mirror]. You may have to download and execute the ''OpenAL Installer for Windows'' from its [http://openal.org/downloads.html download page].
@@ -35,13 +35,13 @@ Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial 
 </tr>
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Source:</div>
+<div class="downloadtitle">Source:</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0.tar.bz2 Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.0.tar.bz2 Game]</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.tar.bz2 Editor]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.tar.bz2 Editor]</div>
 </td>
 <td>
 Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial mirror].
@@ -49,10 +49,10 @@ Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial 
 </tr>
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Slackware:</div>
+<div class="downloadtitle">Slackware:</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0-i486-1.tgz Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.0-i486-1.tgz Game]</div>
 </td>
 <td>
 </td>
@@ -62,7 +62,7 @@ Builds of required [http://prdownload.berlios.de/supertux/openal-0.0.8-i486-1.tg
 </tr>
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Ubuntu 6.10:</div>
+<div class="downloadtitle">Ubuntu 6.10:</div>
 </td>
 <td>
 </td>
@@ -74,7 +74,7 @@ Someone has put a [http://debs.peadrop.com/dists/edgy/backports/#dl_supertux_0.3
 </tr>
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Ubuntu 7.04:</div>
+<div class="downloadtitle">Ubuntu 7.04:</div>
 </td>
 <td>
 </td>
@@ -86,10 +86,10 @@ Game is available in the [http://packages.ubuntu.com/feisty/games/supertux offic
 </tr>
 <tr>
 <td>
-<div style="float: left; font-size: 1.5em; background-color: white; border: 1px white solid; padding: 0.25em;">Mac OS X:</div>
+<div class="downloadtitle">Mac OS X:</div>
 </td>
 <td>
-<div style="float: left; font-size: 2em; background-color: #D0D0FF; border: 1px silver outset; padding: 0.25em;">[http://prdownload.berlios.de/supertux/supertux-0.3.0-macosx.dmg Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.0-macosx.dmg Game]</div>
 </td>
 <td>
 </td>
