@@ -1,3 +1,4 @@
+[[Category:Developer documentation]]
 I'll try to describe some algorithms for collision detection. These algorithms are sweep tests, meaning that they can test for collisions along a path.
 
 There's an [[Collision test app|example application]] that shows an implementation of these tests.
