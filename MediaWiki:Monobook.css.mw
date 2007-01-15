@@ -30,7 +30,7 @@ table.objectlist td.title
 
 div#bodyContent dl 
 {
-  display: list;
+  display: block;
   list-style-type: circle;
   list-style-image: url("/wiki/skins/monobook/discussionitem_icon.gif");
 }
