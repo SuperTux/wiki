@@ -85,7 +85,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * '''L:''' Try to avoid all random stuff in the game. There should be no calls to RandomGenerator in gameobjcts (at least the result shouldn't affect the gamelogic at all)
 * '''M:''' Option to delete or overwrite existing savegames.
 * '''L:''' Add line-editing functionality to Console
-* '''L:''' Give each subject discussed at [[Meeting_log_%282005-04-02%29]] its own Wiki page.
 * '''D:''' Discuss [[Talk:Timeout|timeout]] effects.
 * '''D:''' Discuss  collision behaviour while Tux is carrying a [[Category_talk:Portable|portable]].
 
@@ -99,12 +98,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 *** coins in bonus blocks are not counted
 * load/save statistics
 
-=== Sound ===
-* '''?:''' Pass reference distance to SoundManager::play(), e.g. 600px to reduce volume by 50% for every screen the sound is away from the player
-* '''L:''' create more sound effects, see [[User_ideas#Sound_Effects]] for ideas
-* '''L:''' ability to jump back at a specific position in a music file on loop (add .music files that describe the behaviour)
-* '''L:''' Ability to run scripts that drive the music (ability to jump around the music file)
-
 === Bugs ===
 * '''H:''' Check/Fix bullet speed/behaviour
 ** Please elaborate - what exactly needs to be checked or fixed?
@@ -115,10 +108,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 ** Correctly convert strings we get from PHYSFS_getLastError() and SDL_GetError() to UTF-8
 ** PHYSFS_getLastError() returns the exact string it got from calling std::strerror(), so it uses the encoding implied by LC_MESSAGES. On Windows, this might be everything from Windows-1250 or ISO-8859-15 to Big5.
 * '''L:''' Playback of a demo stops at sector transitions. Controller is back to keyboard then...
-
-== Levels ==
-* '''H:''' create 10 or more [[Levels/World2|new levels]] of different size and complexity, using the new features of milestone 2.
-* '''H:''' [[Levels/M2Test|Test existing Levels]] if they still work.
 
 == Graphics ==
 * '''H:''' add more forest tiles; some of the current ones need fixing.
@@ -140,19 +129,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
  +-+-+
  |3|3|
  +-+-+
-
-== Sounds ==
-* '''?:''' See [[World_2#Atmosphere]] for more ambient sound ideas
-* '''H:''' make some sound when the player dies and looses coins. So that you get some feedback what is going on.
-* '''?:''' Wind (ambient) for high plateaus, over-the-clouds action, fast platforms, ...
-* '''D:''' Short "Nolok" and "Tux" themed sound effects(?)
-* '''?:''' Flapping for flying creatures (e.g. the Zeekling)
-* '''?:''' Crushing ice (Stalactite or breakable Ice tile)
-* '''?:''' Warp sound for Hatch-style Dispenser
-* '''?:''' Sound when tux drinks a magic potion that flips the level around
-** that old sound from the flower? or better not ;-)
-
-== Music ==
 
 
 == Editor ==
