@@ -2,66 +2,66 @@
 
 table.objectlist
 {
- border-style: solid;
- border-width: 1px;
- text-align: left;
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
 }
 
 table.objectlist th,
 table.objectlist td
 {
- text-align: left;
- margin-left: 10px;
+  text-align: left;
+  margin-left: 10px;
 }
 
 table.objectlist th.method
 {
- font-family: monospace;
+  font-family: monospace;
 }
 
 table.objectlist td.title
 {
- background-color: #D0D0D0;
- font-weight: bold;
- font-size: 15pt;
- padding: 5px;
+  background-color: #D0D0D0;
+  font-weight: bold;
+  font-size: 15pt;
+  padding: 5px;
 }
 
 
 div#bodyContent dl 
 {
- display: list-item;
- list-style-type: circle;
- list-style-image: url("/wiki/skins/monobook/discussionitem_icon.gif");
+  display: list;
+  list-style-type: circle;
+  list-style-image: url("/wiki/skins/monobook/discussionitem_icon.gif");
 }
 
 div#bodyContent dl dd 
 {
- display: list-item;
- margin-top: 1em;
+  display: list-item;
+  margin-top: 1em;
 }
 
 div#bodyContent dl dl 
 {
- display: block;
- padding-left: 0em;
- margin-left: 0em;
+  display: block;
+  padding-left: 0em;
+  margin-left: 0em;
 }
 
 div#bodyContent dl dl dd 
 {
- display: block;
- border-left: 1px solid red;
- margin-left: 0.5em;
- padding-left: 0.5em;
+  display: block;
+  border-left: 1px solid red;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
 }
 
 div#bodyContent dl dl dl dd 
 {
- border-left: 1px solid blue;
+  border-left: 1px solid blue;
 }
 
 div#bodyContent dl dl dl dl dd 
 {
- border-left: 1px solid green;
+  border-left: 1px solid green;
 }
