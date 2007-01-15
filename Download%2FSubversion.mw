@@ -1,3 +1,6 @@
+[[Category:Development]]
+[[Category:Meta]]
+[[Category:SuperTux]]
 == Repository ==
 SuperTux development is coordinated with the help of the Subversion version control system. In a nutshell, it's a file-storing facility that can be used by multiple users simultaneously, keeping track of changes and archiving old versions of files. You can find out more about Subversion in general on their [http://subversion.tigris.org/ homepage].
 
