@@ -35,7 +35,10 @@ Checking out the path above will get you all you need to contribute to SuperTux.
 |Official SuperTux level editor that runs under both Mono and MS .NET.
 |-
 ||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/branches/supertux/0_1_x</nowiki></tt>'''
-|SuperTux Milestone 1 branch
+|SuperTux [[Milestone 1]] branch
+|-
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/branches/supertux/0_3_x</nowiki></tt>'''
+|SuperTux [[Milestone 1.9]] branch
 |}
 
 == Creating Patches ==
