@@ -224,7 +224,7 @@ This distribution includes a supertux package. Just use the normal conary comman
 
 Additional to the builtin editor of SuperTux 0.1 there is also the flexlay editor which provides more features and better level editing capabilities. You can find it at
 
-  http://flexlay.berlios.de
+ http://flexlay.berlios.de
 
 Note that SuperTux Milestone 2 will use both a new level format and a new level editor.
 
