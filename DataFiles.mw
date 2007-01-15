@@ -1,7 +1,8 @@
+[[Category:Meta]]
 According to credits.txt some of our sounds are from "Royalty free sound effects CDROMs and FTP sites" which is too unspecific.
 This page is used to find out who made which file and which files have to be replaced to get rid of unspecific 3rd party files.
 
-== [[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/data/music/ data/music]] ==
+== [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/music/ data/music]] ==
 All files created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, unless stated otherwise.
 *bonuscave.ogg
 *bossattack.ogg
@@ -28,14 +29,14 @@ All files created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, u
 *salcon.ogg -- ''Salsa Con Carne'' by '''Mystical''' - Unknown license, no luck so far contacting the author - might have to be removed. -- [[User:wansti|wansti]]
 *theme.ogg
 
-== [[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/data/speech/ data/speech]] ==
+== [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/speech/ data/speech]] ==
 *penny_runt_01.ogg -- self-made by gwater
 *tux_hello.ogg -- self-made by TuxThePenguin
 *tux_murp_01.ogg -- self-made by TuxThePenguin
 *tux_rap.ogg -- self-made by TuxThePenguin and wansti
 *tux_upset.ogg -- self-made by TuxThePenguin
 
-== [[http://svn.berlios.de/viewcvs/supertux/trunk/supertux/data/sounds/ data/sounds]] ==
+== [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/sounds/ data/sounds]] ==
 *bigjump.wav
 *brick.wav
 *bump-upgrade.wav
@@ -83,3 +84,4 @@ All files created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, u
 *yeti_finish.ogg -- self-made by [[User:MatzeB|MatzeB]]
 *yeti_gna.wav -- self-made by [[User:MatzeB|MatzeB]]
 *yeti_roar.wav -- self-made by [[User:MatzeB|MatzeB]]
+'''Bold text'''
