@@ -53,4 +53,8 @@ You can easily add your own sprites by creating a custom .sprite file and placin
   testsprite.fade_in(1)
   testsprite.set_action("run-left")
 
+To remove the sprite from your screen, use
+
+  testsprite<-null
+
 [[Category:Game Engine]]
