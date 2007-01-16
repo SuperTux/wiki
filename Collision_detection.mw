@@ -65,7 +65,7 @@ Current collision detection Phases:
 Collisions with solid objects are handled separately before all other collisions. We use several tricks there:
 
 * Constraints: We calculate constraints into the left, right, top, bottom position, so that we can detect cases where tux gets crushed between 2 objects
-* Do collision detection into Y direction before doing it into X direction. That's the only way to avoid a collision on the right side in cases like picture 2.
+* Do collision detection into Y direction before doing it into X direction. That's the only way to avoid a collision on the right side in cases like picture 1.
 * We adjust tuxs position slightly when he only touches objects lightly. This helps when trying to jump through small holes and when running over 1 tile wide holes. (See picture 2,3)
 
 Picture1: [[Image:Colldet1.png|Typical walking to the right situation]]
