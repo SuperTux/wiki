@@ -45,6 +45,7 @@ Press the Control key while moving an object to snap to every 16 pixels.  Press 
 ==Other tools==
 
 ===How do I use brushes?===
+[[Image:EditorBrushIcon.png|left]]
 Brushes are used to clean up edge tiles. The brush tool does that by replacing a chosen 3x3 section of tiles with the best of several "good-looking" patterns stored in so-called brushes. Keep that in mind when working with brushes - a brush will never apply a pattern it does not know about.
 
 There are already a few brushes in <tt>trunk/supertux-sharp/data/brushes</tt> <!-- TODO: change this to a more "useful" path. --> that know some valid patterns e.g. for earth tiles or snow tiles. Load one in the level and then drag it over tiles to correct edge tiles of rough tile "blocks".
