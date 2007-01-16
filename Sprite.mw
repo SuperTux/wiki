@@ -57,4 +57,6 @@ To remove the sprite from your screen, use
 
   testsprite<-null
 
+An alternative would be creating ScriptedObjects in the leveleditor and selecting your spritefile
+
 [[Category:Game Engine]]
