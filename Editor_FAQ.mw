@@ -35,7 +35,7 @@ The best way to learn this is to look at existing levels. For the exit tree in M
 Press the Control key while moving an object to snap to every 16 pixels.  Press the Shift key to snap to every 32 pixels.
 
 ===What is the SequenceTrigger object for?===
-The SequenceTrigger object is used to define the areas that start and stop the end sequence (Tux walks into Igloo / Exit). The sequence names for that are "endsequence" and "stoptux", respectively.
+[[Image:Sequencetrigger.png|left]] The SequenceTrigger object is used to define the areas that start and stop the end sequence (Tux walks into Igloo / Exit). The sequence names for that are "endsequence" and "stoptux", respectively.
 
 <br/>
 
