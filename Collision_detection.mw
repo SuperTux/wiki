@@ -100,7 +100,9 @@ The following 2 cases always results in tux ending in a crushed situation. No ni
 
 The first problem is currently worked around by relaxing the crushed condition a bit.
 
-[[Image:Colldet_problem1a.png|Problem1a]]
-[[Image:Colldet_problem1b.png|Problem1b]]
+<gallery>
+Image:Colldet_problem1a.png|Problem 1a
+Image:Colldet_problem1b.png|Problem 1b
+</gallery>
 
 [[Category:Game Engine]]
