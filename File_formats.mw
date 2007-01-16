@@ -1,4 +1,3 @@
-[[Category:Game Engine]]
 These documents serve the simple purpose of a reference for the files specific to SuperTux (levels, worldmaps, ...). Some of these files can be modified using an editor such as [http://flexlay.berlios.de/ Flexlay]. For the rest, you can use a plain text editor of your choice.
 
 For a description of the syntax used in most of SuperTux' data files, see the article on
@@ -116,4 +115,5 @@ Whilst creating a worldmap is optional, you'll need to write a level subset file
   (hide-from-contribs #f)                                           ;; Set to true to hide the levelset from the "Contrib Levels" menu.
 )</pre>
 
-<!-- TODO: sprite, tile definitions -->
+[[Category:Game Engine]]
+[[Category:File Formats]]
