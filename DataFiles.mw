@@ -3,7 +3,7 @@ According to credits.txt some of our sounds are from "Royalty free sound effects
 This page is used to find out who made which file and which files have to be replaced to get rid of unspecific 3rd party files.
 
 == [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/music/ data/music]] ==
-All files created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, unless stated otherwise.
+All files in data/music created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, unless stated otherwise.
 *bonuscave.ogg
 *bossattack.ogg
 *cave.ogg
