@@ -68,10 +68,12 @@ Collisions with solid objects are handled separately before all other collisions
 * Do collision detection into Y direction before doing it into X direction. That's the only way to avoid a collision on the right side in cases like picture 1.
 * We adjust tuxs position slightly when he only touches objects lightly. This helps when trying to jump through small holes and when running over 1 tile wide holes. (See picture 2,3)
 
-Picture1: [[Image:Colldet1.png|Typical walking to the right situation]]
-Picture2: [[Image:Colldet0.png|Typical Collision Detection situation]]
-Picture3: [[Image:Colldet2.png|1 tile hole problem]]
-Picture4: [[Image:Supertuxvsmario2.png|Adjustment when sliding along edges]]
+<gallery>
+Image:Colldet1.png|Picture 1: Typical walking to the right situation
+Image:Colldet0.png|Picture 2: Typical Collision Detection situation
+Image:Colldet2.png|Picture 3: 1 tile hole problem
+Image:Supertuxvsmario2.png|Picture 4: Adjustment when sliding along edges
+</gallery>
 
 === Sketch of the algorithm ===
 
