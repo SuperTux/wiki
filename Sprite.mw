@@ -47,20 +47,10 @@ The action block contains then the name of an action ''(name "myaction")'' can o
 
 = Adding Own Sprites / Testing =
 
-You can easily add your own sprites by creating a custom .sprite file and placing it somewhere appropriate, e.g. "data/creatures/<name>/<name>.sprite" for badguys or "data/objects/<name>/<name>.sprite" for game objects. Now you probably want to test your sprite. This is easily possible by adding a ''scriptedobject'' to an existing level. If you have define a new sprite called "wormy" then you can test it by adding this object to an existing level file (the coordinates should be adjusted to something sensible):
+You can easily add your own sprites by creating a custom .sprite file and placing it somewhere appropriate, e.g. "data/creatures/<name>/<name>.sprite" for badguys or "data/objects/<name>/<name>.sprite" for game objects. Now you probably want to test your sprite. This is easily possible from the game [[Console]] (example for data/images/creatures/yeti/yeti.sprite):
 
-  (scriptedobject
-     (name "TESTSPRITE")
-     (x 160)
-     (y 100)
-     (visible #t)
-     (sprite "data/<path>/<name>/<name>.sprite")
-  )
-
-And supertux will display the action called "default" in the sprite. You can test other actions by adding some commands to the ''(init-script)'' of the level like this (this will play the "slurp" animation):
-
-  (init-script "
- TESTSPRITE.set_animation(\"slurp\");
-  ")
+  testsprite<-FloatingImage("images/creatures/yeti/yeti.sprite")
+  testsprite.fade_in(1)
+  testsprite.set_action("run-left")
 
 [[Category:Game Engine]]
