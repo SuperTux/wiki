@@ -7,7 +7,7 @@ This page describes the new versioning scheme that will be used for SuperTux.
 
 Releases will have the form of <tt>x.y.z</tt>.
 
-* <tt>x</tt> is increased only when there is a ''major'' update. When <tt>x</tt> is increased, <tt>y</tt> and <tt>z</tt> are reset to <tt>0</tt>
+* <tt>x</tt> is increased only when there is a ''major'' update or we reach a ''major'' milestone. When <tt>x</tt> is increased, <tt>y</tt> and <tt>z</tt> are reset to <tt>0</tt>
 * <tt>y</tt> is increased for each new regular, planned released. When <tt>y</tt> is increased, <tt>z</tt> is reset to <tt>0</tt>. Odd versions of <tt>y</tt> indicate a ''development branch''. Even versions of <tt>y</tt> indicate a ''stable branch''.
 * <tt>z</tt> is increased when there is a bugfix release or minor changes are made, such as a couple new features and new content (eg, new worlds or levels). For development branches, bigger changes are more likely to make it into <tt>z</tt>-releases.
 
