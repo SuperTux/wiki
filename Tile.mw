@@ -6,51 +6,51 @@ Supertux levels are composed from tiles. Little 32x32 pixel wide images. These t
 
 An example of a simple solid tile looks like this:
 
-  (tile
-    (id 7)
-    (images
-      "tiles/snow/snow1.png"
-    )
-  )
+ (tile
+   (id 7)
+   (images
+     "tiles/snow/snow1.png"
+   )
+ )
 
 An animated waterfall tile (animation played with 10 fps):
 
-  (tile
-    (id 175)
-    (images
-      "tiles/waterfall/trans1-1-1.png"
-      "tiles/waterfall/trans1-1-2.png"
-      "tiles/waterfall/trans1-1-3.png"
-      "tiles/waterfall/trans1-1-4.png"
-    )
-    (water #t)
-    (anim-fps 10)
-  )
+ (tile
+   (id 175)
+   (images
+     "tiles/waterfall/trans1-1-1.png"
+     "tiles/waterfall/trans1-1-2.png"
+     "tiles/waterfall/trans1-1-3.png"
+     "tiles/waterfall/trans1-1-4.png"
+   )
+   (water #t)
+   (anim-fps 10)
+ )
 
 It's also possible to extract parts of bigger images to create tiles. This extracts the upper left edge of the foresttiles-1.png file:
 
-  (tile
-    (id 1000)
-    (images
-      (region "tiles/forest/foresttiles-1.png" 0 0 32 32)
-    )
-  )
+ (tile
+   (id 1000)
+   (images
+     (region "tiles/forest/foresttiles-1.png" 0 0 32 32)
+   )
+ )
 
-Note that in [[Milestone 2]], the last variant is depreceated in favour of a more compact approach at defining multiple tiles:
+Note that in [[Milestone 2]], the last variant is deprecated in favour of a more compact approach at defining multiple tiles:
 
-  (tiles
-    (width 3)
-    (height 4)
-    (ids  7  8  9
-         13 14 15
-         10 11 12
-         16 17 18)
-    (attributes 0 0 0
-                1 1 1
-                1 1 1
-                0 0 0)
-    (image "tiles/snow/convex.png")
-  )
+ (tiles
+   (width 3)
+   (height 4)
+   (ids  7  8  9
+        13 14 15
+        10 11 12
+        16 17 18)
+   (attributes 0 0 0
+               1 1 1
+               1 1 1
+               0 0 0)
+   (image "tiles/snow/convex.png")
+ )
 
 In this example, a block of 3x4 tiles will be extracted from an image with only the middle rows solid.
 
@@ -76,9 +76,9 @@ Tiles can have the following attributes:
 
 You can simply add new tiles with your favourite text editor. However we also provide an easy to use editor to make this task easier (especially extracting regions of bigger images). You can find it in the ''tools/tilemanager'' directory. It's a mono/gtk# app so you have to have these 2 things installed and should invoke make in that directory then. It'll create ''tilemanager.exe'' which you can then start with mono like this:
 
-  mono tilemanager.exe
+ mono tilemanager.exe
 
-NOTE: You should be carefull when choosing tile ids to not overwrite existing tiles. You should also keep in mind that existing levels will break if you change tile numbers later (the levels just save a big a list of numbers that reference the tile file).
+NOTE: You should be careful when choosing tile ids to not overwrite existing tiles. You should also keep in mind that existing levels will break if you change tile numbers later (the levels just save a big a list of numbers that reference the tile file).
 
 '''WARNING''': Unfortunately the tilemanage application is broken at the moment and does not work correctly! You'll destroy several tileattributes like slopes and some of the tiles created from multiple images, when opening and saving a tileset with the editor!
 
