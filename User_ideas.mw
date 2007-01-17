@@ -23,7 +23,7 @@ perhaps it should be possible to see that you are passing a resetpoint!
 :Restart points exist in the SVN version, they are marked by butterfly.
 
 ===New tiles for the worldmap===
-I already designed some additional worldmap objects for Supertux 0.1.2, e.g. paths through the forest or something like "water ways". Maybe im MS 2 some kind of swimming tux in worldmap could be possible, or walking over a bridge. (For my current solution I only added something to my antarctica.stwt.) - penma -
+I already designed some additional worldmap objects for Supertux 0.1.2, e.g. paths through the forest or something like "water ways". Maybe in MS 2 some kind of swimming tux in worldmap could be possible, or walking over a bridge. (For my current solution I only added something to my antarctica.stwt.) - penma -
 
 : In svn: bridges, boats
 
@@ -44,7 +44,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 * Maybe teleports (or something) that cost a certain number of coins to get through?
 * How about the shops on Super Mario 3? they were really a good idea.. I dont understand why they dropped it for Super Mario World --[[User:80.174.65.16|80.174.65.16]] 21:16, 11 Aug 2006 (BST)
 ::Supertux might be inspired Super Mario. (Basicly because Mario did almost everything you can do in a sidescroller) But that does not mean we have to clone everything Mario ever did.
-:::However, shops are not so tipical in Super Mario games and appear in many other games, it is a coherent use for coins. There are a lot of things from Super Mario not strictly necesary for Super Tux that were mentioned here without complain ([[User_ideas#Friendly_NPCs.28non-player_characters.29|Yoshi-like NPC]], the [[Nolok|BowserKoopa-clonic final boss]] and even the kidnapping storyline)
+:::However, shops are not so typical in Super Mario games and appear in many other games, it is a coherent use for coins. There are a lot of things from Super Mario not strictly necessary for Super Tux that were mentioned here without complain ([[User_ideas#Friendly_NPCs.28non-player_characters.29|Yoshi-like NPC]], the [[Nolok|BowserKoopa-clonic final boss]] and even the kidnapping storyline)
 
 ===One-liners===
 
@@ -63,7 +63,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 *'''Pushable crates''' - you push the crate to another place where you need it to jump on it so you can reach higher or something.
 ** SVN has carriable [[Rock|rocks]].
 * '''Switches''' might also rise water level.
-** Already in SVN (see level "Kneep-deep in the depth")
+** Already in SVN (see level "Knee-deep in the depth")
 *'''Helmet'''Tux could wear a helmet, stopping attacks from above, when he ducks he pulls it over himself, making him invincible
 
 ==Rejected==
@@ -92,7 +92,7 @@ I think an idea for later versions was if there was the possibility of doing som
 
 ===MS2 Preview===
 
-Milestone 2 is awaited for some time now. Why not set a deadline and release a preview version afterwards, no mattere how complete it is at that time? It hurts to see people wasting their time to create levels for MS1 which will never make it to MS2 becaues the MS1 editor does not use the new features.
+Milestone 2 is awaited for some time now. Why not set a deadline and release a preview version afterwards, no matter how complete it is at that time? It hurts to see people wasting their time to create levels for MS1 which will never make it to MS2 because the MS1 editor does not use the new features.
 : Been there, done that. [[Milestone 1.9]]...
 
 ===Scuba Gear?===
@@ -110,7 +110,7 @@ Have the game engine display background as 75% brightness, making some levels ea
 *::::Okay, s/player/level designer.  I think that both of these things have been implemented in SVN, but still needs tuning. --[[User:Tuxdev|Tuxdev]] 22:43, 22 Aug 2006 (BST)
 
 ===Background Tileset===
-<small>after reading grumbel's rant</small> a tileset for forest paralx background is missing. Standard forest tiles are too big.
+<small>after reading grumbel's rant</small> a tileset for forest parallax background is missing. Standard forest tiles are too big.
 
 ===Some more badguys===
 
@@ -144,7 +144,7 @@ Rolling snowball looks like bouncing snowball except he rolls along the ground (
 
 ====Mr Airtank====
 *looks like a scuba tank with eyes and feet
-*when Tux gets near he pufs out gas whitch harms Tux
+*when Tux gets near he pufs out gas which harms Tux
 *when killed, flashes (like Mr Bomb) and explodes (also like Mr Bomb)
 
 ====Super Snowball====
@@ -171,7 +171,7 @@ At first, this looks and behaves like a normal background tree, so tux can walk 
 (Especially mean when having the same tree often as normal background)
 When tux passes a special point near the tree (surprise will be much more intense if this point is behind that tree), it becomes alive and hunts tux.
 
-It maybe whould be a good idea to make the tree a little slow as it were strange to have it running around.
+It maybe would be a good idea to make the tree a little slow as it were strange to have it running around.
 That could be compensated by making it a bit harder to kill.
 (I also have the graphic in svg available where it should be easy editable and resizeable.)
 --[[User:Henning|Henning]] 08:46, 27 Sep 2006 (BST)
@@ -250,7 +250,7 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 ====Radar Man====
 [[Image:RadarMan.png|right]]
 Radar Man moves by disappearing from the square he is in and appearing in one next to it. He does not harm Tux he simply makes Tux have to move like him for a while. Radar Man cannot be harmed.
-:Maybe its my poor english, but i dont understand what radar man is supposed to do.
+:Maybe its my poor English, but i dont understand what radar man is supposed to do.
 
 ====Safe====
 [[Image:Safe.png|right]]
@@ -266,7 +266,7 @@ Looks like a Mr Snowball with no feet and closed eyes, on contact with him Tux f
 * looks like a metal dome with spikes
 * hurts Tux on contact
 ====Flying Spiky====
-*looks like Sitting Spiky with propellor underneath
+*looks like Sitting Spiky with propeller underneath
 *if Tux touches prop. he gets blown away
 *hovers in mid-air
 
@@ -277,7 +277,7 @@ Robber walks around and, on contact steals bonuses and runs off to somewhere. If
 :great idea.
 :Needs work... Besides, it sounds kinda cheesy. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 23:12, 20 Dec 2006 (CET)
 
-====Scaredy Cat====
+====Scared Cat====
 
 *runs away from Tux
 *would be ''nearly'' as fast as Tux
@@ -294,13 +294,13 @@ Unrelated with the "Walking rock" above. A big rock that works like a platform. 
 --Shylence 03:42, 14 January 2007 (PST)
 
 ===Some sounds===
-Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makeds somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
+Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
 
 ::Well, the tiles could get simple attributes, enabling this and, after some time of fooling around with it, lots of other effects. Deep snow makes you sink in and slower. Put the slickness of ice in there. Alternatively, just let the designer designate regions that have certain specs. [[User:84.154.88.23|84.154.88.23]] 22:17, 25 Sep 2006 (BST)
 
 === Friendly NPCs(non-player characters) ===
-Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivelent(seal?) would be neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok, a character teaches tux certain abilities.          -F50
+Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivalent(seal?) would be neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok, a character teaches tux certain abilities.          -F50
 
 This would be good. Make a 'talking' system that scrolls on the bottom. Maybe some characters could give you extra supplies or even weapons. --[[User:Ajdlinux|Ajdlinux]] 23:23, 30 Sep 2005 (BST)
 
@@ -327,7 +327,7 @@ I suggest that very few bad guys have complete immunity to [[FireTux]] or [[IceT
 ===Stage Variety===
 One thing that SuperTux is missing that Mario had would be stage variety. There are already above and underground stages, but where's the underwater action? Not to mention things like castle stages, stages with rising/falling water, vertically scrolling stages, those really annoying maze stages, autoscrolling stages, et cetera. Not to mention different locales, but I gather that those are already in the works. I refer specifically to some sort of forest. (And, might I add, picturing a penguin in a forest is pretty amusing.)
 :they are going to use a forest in M2
-<br>foudre: I dl the alpha for milestone 2, problem being is that in mario and other games they had more variety, ie: smaller worlds and more of them, rather then a long seris of same themed levels, the forest is sort of cool, but people need to work on more tile sets, i will try to create a mountain side/volcano one, but the thing about major sidescroolers they had several worlds, and some levels even had their own tileset, so i think there shouldn't be the same fear of extra tile sets here either, i mean keeping it reasonable of course. and of course more enemies, the new set of forest creatures was sort of cool, still needs more varity
+<br>foudre: I dl the alpha for milestone 2, problem being is that in mario and other games they had more variety, ie: smaller worlds and more of them, rather then a long series of same themed levels, the forest is sort of cool, but people need to work on more tile sets, i will try to create a mountain side/volcano one, but the thing about major sidescroolers they had several worlds, and some levels even had their own tileset, so i think there shouldn't be the same fear of extra tile sets here either, i mean keeping it reasonable of course. and of course more enemies, the new set of forest creatures was sort of cool, still needs more variety
 
 See: en.wikipedia.org/wiki/Computer_and_video_game_settings
 
@@ -346,7 +346,7 @@ Enter level with jump button.
 
 ===Hidden Blocks===
 * Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
-*: Ordinary blocks are omplemented as [[User_Manual#Secret_Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*: Ordinary blocks are implemented as [[User_Manual#Secret_Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should fall through hidden blocks before they're hit.  Another implementation for clouds and elevated platforms should be used.  The blocks would be more 'hidden' if you can only find them by hitting them from below.
 *: Implemented as [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 *Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
@@ -379,7 +379,7 @@ I've played an old version of the SVN build, and milestone 2 really looks like a
 
 ===One-Liners===
 smallfoot made a page, see [[Smallfoot's ideas]].
-:Are they so bad that they need a seperate page?
+:Are they so bad that they need a separate page?
 
 ==== Worlds, scenarios, levels ====
 *A Glitch world one put somewhere hard to find [[User:Atomic1fire|Atomic1fire]] 02:35, 1 Jan 2007 (CET)
@@ -395,12 +395,12 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *Dark level where is night!
 *Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
 *Geeky computer/circuit board world - "Tux decided that the only way to get Penny back would be to hack into Nolok's computer..." well, worth a try.
-*:No. Not another so called "geek game". Kill evil Bill G. won't work with the existin storyline. --[[User:62.214.246.213|62.214.246.213]] 21:26, 23 Jul 2006 (BST)
-*:Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a comlete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to flag Gates, go play XTux.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 03:08, 28 Jul 2006 (BST)
+*:No. Not another so called "geek game". Kill evil Bill G. won't work with the existing storyline. --[[User:62.214.246.213|62.214.246.213]] 21:26, 23 Jul 2006 (BST)
+*:Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a complete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to flag Gates, go play XTux.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 03:08, 28 Jul 2006 (BST)
 *:Tux could hack Nolok's computer to find out where Nolok will take Penny next?
 *why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something [[User:Atomic1fire|Atomic1fire]] 02:35, 1 Jan 2007 (CET)
 *:Because they did that in "Tron" already.
-*Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (Seee Talk:Milestone1.9 under editor error)
+*Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (See Talk:Milestone1.9 under editor error)
 
 ====Other====
 *'''Diving''' - in water?
@@ -437,11 +437,11 @@ Bubble - float and pop in air
 ** There *is* a graphic for that. Also, it's been closed as "intended behavior" on the [[Bugs]] page that firetux loses his hat when backflipping, I don't think it should be. (Losing powerups for no good reason is annoying)
 
 ====3D Tux====
-I think that Supertux would be even cooler in 3D. It could be partially implemented, for example, there could be substages in 3d, or a 3d world later on? Or maybe it would more apropriate in a future spin off game?
+I think that Supertux would be even cooler in 3D. It could be partially implemented, for example, there could be substages in 3d, or a 3d world later on? Or maybe it would more appropriate in a future spin off game?
 : Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites in a 2D world. --[[User:Tuxdev|Tuxdev]] 22:51, 3 Oct 2006 (CEST)
 :: Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 02:19, 10 Oct 2006 (CEST)
 :::No, he means like New Super Mario Bros or Super Smash Bros Melee, where the game is 2d side-scrolling but the graphics are 3D. (I mean tuxdev meant that, not the OP) [[User:67.168.194.207|67.168.194.207]] 02:12, 11 Oct 2006 (CEST)
-: 2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net.  Just throwing aruond ideas.--[[User:66.153.31.148|66.153.31.148]] 06:54, 4 Oct 2006 (CEST)
+: 2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net.  Just throwing around ideas.--[[User:66.153.31.148|66.153.31.148]] 06:54, 4 Oct 2006 (CEST)
 : Maybe leave the game itself how it is, and have 3D cutscenes?
 :: It's a good idea. Leave the game how it is, only change the cutscenes. [[User:DirtY iCE|DirtY iCE]] 10:54, 5 Nov 2006 (CET)
 :This idea may seem a bit wacky, but tux could fall into a hidden hole where he gets virtualized and has to fight virtual enemies in a virtual 3D landscape for a few levels then he has to go through a portal in the last 3D level to take him back to 2D. The only problem is the huge amount of code and graphics that would be required, thus resulting in a huge package size. Perhaps this could be an addon for a new bonus world?
