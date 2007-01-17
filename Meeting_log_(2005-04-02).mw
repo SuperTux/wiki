@@ -260,7 +260,7 @@ The following is the SuperTux [[Meeting logs|meeting log]] for Saturday, April 2
 <wansti>        i like the idea of shots being able to do more than just kill enemies
 <wansti>        how about that?
 <MatzeB>        sure that's always nice
-<sik0fewl>      MatzeB: agreed. there could be rare powerups that you only get in certain places and expire at the  
+<sik0fewl>      MatzeB: agreed. there could be rare powerups that you only get in certain places and expire at the
                 end of the sector
 -->     Coder96 (~coder96@66-17-118-17-swiftelDSL.brookings.net) has joined #supertux
 <paroneayea>    also, certain powerups should give access to certain areas
@@ -487,7 +487,7 @@ The following is the SuperTux [[Meeting logs|meeting log]] for Saturday, April 2
 <paroneayea>    no editor wars please
 <TuxthePenguin> maybe he can flap better as smll tux
 <wansti>        nah, let's give them the same ability there
-<Johnlein>      It would be a bad idea to split abilities between big and little tux. Either both have them or                                             
+<Johnlein>      It would be a bad idea to split abilities between big and little tux. Either both have them or
                 only big Tux.
 <wansti>        agreed
 <sik0fewl>      TuxthePenguin: that's a good idea, but I don't like the fact that you have to get hit (become
@@ -1494,7 +1494,7 @@ The following is the SuperTux [[Meeting logs|meeting log]] for Saturday, April 2
 <wansti>        MatzeB: lots of bugs still unfixed....
 <MatzeB>        sure, that needs more work
 <TuxthePenguin> http://cd.bromley.ac.uk/supertux/files/tuxsound.wav what do you think of this for sound
-<MatzeB>        there are some collision detection related bugs that I'm not sure at the moment how to handle          
+<MatzeB>        there are some collision detection related bugs that I'm not sure at the moment how to handle
                 them...
 <wansti>        MatzeB: about fundamental flaws, i have no idea... but i didn't see any
 <MatzeB>        anyway the general class hirarchy/object system is good now IMO
