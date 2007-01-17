@@ -105,9 +105,9 @@ Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath
 Have the game engine display background as 75% brightness, making some levels easier to play, and making cave backround easier to see. Although this would cause conflicts with some other level designs, it would benefit gameplay in the future. The background (the 3rd level that doesn't affect gameplay) would be darker than the playable portion. (like in www.gamespot.com/gba/action/yoshisislandsuperma3/screens.html?page=59 Yoshi's Island: Super Mario Advance 3]) At least make a tileset of a darker color reserved for this reason. Otherwise it might be hard to figure out what is background and what is an obstacle.
 
 *An even better idea - Make it adjustable. Make the player able to adjust the brightness of the background, or every tileset, of blocks and such. Transparency would be a great bonus too. Although one of the suggested changes for milestone two is making the foreground transparent where Tux is, I think this would take some potential level gameplay possibilities away. Transparency around Tux, if implemented, should probably be adjustable. Hopefully in a 'layer' section of preferences.
-::The transparency and lightmap of a level is a part of level design and therefore really shouldn't be messed with by "normal" players.  Changing either of those things would potentially have drastic impact on the playability of a level, either making it easier or harder than originally intended, as well as possibly lose certain atmosphere aspects e.g. bright snowiness, deep dark forest, foreboding castle, etc.  [[User:Tuxdev|Tuxdev]] 03:41, 22 Aug 2006 (BST)
-:::Eh... you may have misinterpreted me. I was referring to the possibility of adjustment of tileset color or brightness or opacity by level devs for each specific .stl, not by players. It's something that could make for some nifty levels, or at least more aesthetically appealing ones (depending on how it's used.)--[[User:Teal|teal]] 22:23, 22 Aug 2006 (BST)
-::::Okay, s/player/level designer.  I think that both of these things have been implemented in SVN, but still needs tuning. --[[User:Tuxdev|Tuxdev]] 22:43, 22 Aug 2006 (BST)
+*::The transparency and lightmap of a level is a part of level design and therefore really shouldn't be messed with by "normal" players.  Changing either of those things would potentially have drastic impact on the playability of a level, either making it easier or harder than originally intended, as well as possibly lose certain atmosphere aspects e.g. bright snowiness, deep dark forest, foreboding castle, etc.  [[User:Tuxdev|Tuxdev]] 03:41, 22 Aug 2006 (BST)
+*:::Eh... you may have misinterpreted me. I was referring to the possibility of adjustment of tileset color or brightness or opacity by level devs for each specific .stl, not by players. It's something that could make for some nifty levels, or at least more aesthetically appealing ones (depending on how it's used.)--[[User:Teal|teal]] 22:23, 22 Aug 2006 (BST)
+*::::Okay, s/player/level designer.  I think that both of these things have been implemented in SVN, but still needs tuning. --[[User:Tuxdev|Tuxdev]] 22:43, 22 Aug 2006 (BST)
 
 ===Background Tileset===
 <small>after reading grumbel's rant</small> a tileset for forest paralx background is missing. Standard forest tiles are too big.
@@ -157,9 +157,9 @@ This badguy could go anywhere.
 *looks like shoes with eyes on top
 *"gets" blocks somehow and uses them as a body
 *when killed only the eyes and feet die, leaving a block
-:he could make blocks
-:he could get them by pulling out of ground
-:he could take them when he bumps into a wall
+**he could make blocks
+**he could get them by pulling out of ground
+**he could take them when he bumps into a wall
 
 Here is a badguy which could fit into the dark-forest scheme:
 
@@ -305,9 +305,9 @@ Perhaps there could be friendly(or at least non-hostile) beings in the world. I 
 This would be good. Make a 'talking' system that scrolls on the bottom. Maybe some characters could give you extra supplies or even weapons. --[[User:Ajdlinux|Ajdlinux]] 23:23, 30 Sep 2005 (BST)
 
 * Maybe modify the code for info boxes to let characters talk? Sounds good. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 18:27, 11 Jul 2006 (BST)
-::Text is evil. The player has to be able to read and understand the language which is a requirement that was not there in MS1. --[[User:WolfgangB|WolfgangB]] 14:21, 12 Jul 2006 (BST)
+*:Text is evil. The player has to be able to read and understand the language which is a requirement that was not there in MS1. --[[User:WolfgangB|WolfgangB]] 14:21, 12 Jul 2006 (BST)
 
-:::Stores or some such could just work with numbers and pictures. Having a _story_ told in little pictures would even add a very fun element.. [[User:RichiH|RichiH]] 22:42, 25 Sep 2006 (BST)
+*:Stores or some such could just work with numbers and pictures. Having a _story_ told in little pictures would even add a very fun element.. [[User:RichiH|RichiH]] 22:42, 25 Sep 2006 (BST)
 
 I think that the Yoshi equivalent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk a lot faster on land than a Seal.[[User:Tuxenegger|Tuxenegger]] 17:35, 20 January 2006
 
@@ -346,13 +346,13 @@ Enter level with jump button.
 
 ===Hidden Blocks===
 * Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
-: Ordinary blocks are omplemented as [[User_Manual#Secret_Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*: Ordinary blocks are omplemented as [[User_Manual#Secret_Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should fall through hidden blocks before they're hit.  Another implementation for clouds and elevated platforms should be used.  The blocks would be more 'hidden' if you can only find them by hitting them from below.
-: Implemented as [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
-**Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
-: Implemented as Unisolid [[Tiles]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*: Implemented as [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
+*: Implemented as Unisolid [[Tiles]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect.  The current implementation causes Tux fatalities in some levels.
-: Already implemented in aforementioned [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*: Already implemented in aforementioned [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 
 ===Collecting Stuff===
 
@@ -360,9 +360,9 @@ I think what makes some games really enjoyable is the possibility of collecting 
 
 ===Rotating bridge===
 
-Create a rotating bridge, like in Mario.
-[[Image:Rotating-bridge.jpg|left]]
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+Create a rotating bridge, like in Mario.<br />
+[[Image:Rotating-bridge.jpg]]
+
 ===Cheats===
 
 Tux wears a little party hat when you type "tux rocks".
@@ -395,12 +395,12 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *Dark level where is night!
 *Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
 *Geeky computer/circuit board world - "Tux decided that the only way to get Penny back would be to hack into Nolok's computer..." well, worth a try.
-:No. Not another so called "geek game". Kill evil Bill G. won't work with the existin storyline. --[[User:62.214.246.213|62.214.246.213]] 21:26, 23 Jul 2006 (BST)
-:Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a comlete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to flag Gates, go play XTux.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 03:08, 28 Jul 2006 (BST)
-:Tux could hack Nolok's computer to find out where Nolok will take Penny next?
-why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something [[User:Atomic1fire|Atomic1fire]] 02:35, 1 Jan 2007 (CET)
-:Because they did that in "Tron" already.
-:Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (Seee Talk:Milestone1.9 under editor error)
+*:No. Not another so called "geek game". Kill evil Bill G. won't work with the existin storyline. --[[User:62.214.246.213|62.214.246.213]] 21:26, 23 Jul 2006 (BST)
+*:Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a comlete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to flag Gates, go play XTux.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 03:08, 28 Jul 2006 (BST)
+*:Tux could hack Nolok's computer to find out where Nolok will take Penny next?
+*why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something [[User:Atomic1fire|Atomic1fire]] 02:35, 1 Jan 2007 (CET)
+*:Because they did that in "Tron" already.
+*Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (Seee Talk:Milestone1.9 under editor error)
 
 ====Other====
 *'''Diving''' - in water?
@@ -415,8 +415,8 @@ why not a portal type place where he gets sucked in or a ray gun firing a beam a
 * '''[[Swimming |Swim]]''' in water like <del>Mario</del> a penguin.
 ** Grubmel's grumbling about this already, and it seems justified. See "Grumbel's Grumbles".
 ** Update: partially implemented in SVN (at latest, rv. 4102). Tux can float, but not swim.
-:Oh well. Looks like nobody cared about the "'''Before''' implementing swimming there are some details that need to be specified" on the [[Swimming]] page. :-(
-::Wrong. The SVN version just had some of the hooks added that will be needed to implement swimming, regardless of the final look and feel. Just for demonstration purposes these hooks are now used to make Tux float.
+**:Oh well. Looks like nobody cared about the "'''Before''' implementing swimming there are some details that need to be specified" on the [[Swimming]] page. :-(
+**::Wrong. The SVN version just had some of the hooks added that will be needed to implement swimming, regardless of the final look and feel. Just for demonstration purposes these hooks are now used to make Tux float.
 * '''Lava tiles''' might be solid, making possible for some enemies (and maybe Invincible Tux) to walk on them. They may also kill even BigTux on touch instead of simply hurting him.
 * '''Special blocks''' solid for enemies but not for Tux, and maybe vice-versa.
 * '''Truly floating platforms''', that actually float on water: if one of these is placed in midair, it will fall down, stopping when hitting solid or water tiles; if the level of water rises/falls, they will automatically rise/fall (SVN currently allows only platforms with a fixed path).
@@ -426,7 +426,7 @@ why not a portal type place where he gets sucked in or a ray gun firing a beam a
 
 ====2-player mode====
 *How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
-: There's already a project that tries to add a [[Multiplayer mode]].
+*:There's already a project that tries to add a [[Multiplayer mode]].
 
 ====Art====
 Bubble - float and pop in air
