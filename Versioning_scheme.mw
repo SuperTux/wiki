@@ -26,7 +26,7 @@ Releases will have the form of <tt>x.y.z</tt>.
 
 ===Brown-paper-bag releases===
 
-A fourth decimal point number <tt>n</tt>, of the form <tt>x.y.z.n</tt> will be used for [http://www.answers.com/topic/brown-paper-bag-bug-computer-jargon brown-paper-bag] releases. Hopefully we never need to use this.
+A fourth decimal point number <tt>n</tt>, of the form <tt>x.y.z.n</tt>, will be used for [http://www.answers.com/topic/brown-paper-bag-bug-computer-jargon brown-paper-bag] releases. Hopefully we never need to use this.
 
 ==Release branches==
 
