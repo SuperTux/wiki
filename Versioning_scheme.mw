@@ -1,7 +1,7 @@
 [[Category:Developer documentation]]
 This page describes the new versioning scheme that will be used for SuperTux.
 
-==The new scheme==
+==The scheme==
 
 ===SuperTux===
 
@@ -23,6 +23,10 @@ Releases will have the form of <tt>x.y.z</tt>.
 
 * <tt>x</tt> and <tt>y</tt> will match the <tt>x</tt> and <tt>y</tt> of the SuperTux release the editor works for.
 * <tt>z</tt> is increased when there is a bugfix release or minor changes made to the editor. This number does not necessarily match up with the <tt>z</tt> of the SuperTux release.
+
+===Brown-paper-bag releases===
+
+A fourth decimal point number <tt>n</tt>, of the form <tt>x.y.z.n</tt> will be used for [http://www.answers.com/topic/brown-paper-bag-bug-computer-jargon brown-paper-bag] releases. Hopefully we never need to use this.
 
 ==Release branches==
 
