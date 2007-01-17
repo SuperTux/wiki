@@ -26,7 +26,7 @@ All files in data/music created by [[User:wansti|wansti]] and licensed under GPL
 *leveldone-special.ogg
 *leveldone.ogg
 *nolok.ogg
-*salcon.ogg -- ''Salsa Con Carne'' by '''Mystical''' - Has to be replaced due to licensing issues (the song itself is okay, but apparently some non-free samples are used). -- [[User:wansti|wansti]]
+*salcon.ogg -- ''Salsa Con Carne'' by '''Mystical''' - Has to be removed due to licensing issues (the song itself is okay, but apparently some non-free samples are used). Replaced by a work-in-progress remix in trunk and the 0.3.x branch (r4585), for which we have permission to release under GPL and CC-by-sa. -- [[User:wansti|wansti]]
 *theme.ogg
 
 == [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/speech/ data/speech]] ==
