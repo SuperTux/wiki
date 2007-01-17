@@ -30,11 +30,11 @@ Most animated images you see in supertux are '''sprites'''. Sprite definitions a
 
 = Format =
 
-Let's look at the sprite "snowball": 
+Let's look at the sprite "snowball":
 
-A sprite consists of a set of '''actions'''. An action is simply an animation composed from several images. The engine can render a sprite and change it's currently displayed action. The snowball sprite, for example, contains 4 actions named "left", "right", "squished-left" and "squished-right". 
- 
-Additionally you can define animation speed ('''fps''' <n>) and a hitbox ('''hitbox''' <x> <y> <w> <h>). 
+A sprite consists of a set of '''actions'''. An action is simply an animation composed from several images. The engine can render a sprite and change it's currently displayed action. The snowball sprite, for example, contains 4 actions named "left", "right", "squished-left" and "squished-right".
+
+Additionally you can define animation speed ('''fps''' <n>) and a hitbox ('''hitbox''' <x> <y> <w> <h>).
 
 The hitbox offset indicates where the "origin" of the sprite is: If the engine draws a sprite at position 50,50 then <x> will be substracted from the x coordinate and <y> will be substraced from the y-coordinate.
 The hitbox size will get read by most sprites' gamecode to set the width and height of an imaginary rectangle that defines what parts of a sprite are solid.
