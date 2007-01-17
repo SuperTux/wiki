@@ -1,4 +1,4 @@
-There are known bugs in older releases. See [[Bugs]] for newer versions. 
+There are known bugs in older releases. See [[Bugs]] for newer versions.
 
 == Website ==
 
@@ -25,7 +25,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 *: I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
 
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
-*: Works for me in 4446. Fixed or hard to reproduce? 
+*: Works for me in 4446. Fixed or hard to reproduce?
 *:: Fixed, or at least worked around.
 
 * 4496: Finish World1, solve a wold2 level, Quit game. Load game. Game starts on world1.
@@ -34,11 +34,11 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 :fixed in r4541
 
 * 4531: The pushbuttons do not work anymore. (Maybe it was the gravity patch? It worked in r4529)
-: test/pushbutton.stl works as expected with r4555 
+: test/pushbutton.stl works as expected with r4555
 
 * 3657: Infoboxes cause "Restarting audio source because of buffer underrun" errors
 *: that's because they do their own eventloop, they really should plug into MainLoop somehow
-::Hacked for 0.3. 
+::Hacked for 0.3.
 
 * 4117: Wind with x speed 0 is really x speed -1 . in order to get tux move vertically, set x-speed to 1 (or fix it ;-D)
 *:Might be related to the problem that sometimes when tux stands still and jumps, he land slightly behind where he stood before.
@@ -52,7 +52,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 ::Badguys squish each other r4435
 
 * Mac OS X on Intel: dock icon looks wacky. This is an SDL problem; will submit a bug report ASAP.
-:No bug in supertux. 
+:No bug in supertux.
 
 * 4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [[:Image:Lightmap_error_on_Windows.png|screenshot]] for details.
 *: 4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
