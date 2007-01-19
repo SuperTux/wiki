@@ -76,3 +76,4 @@ Everything else was contributed by someone else. --[[User:WolfgangB|WolfgangB]] 
 Is a NoGL version of the editor available? [[User:Ajdlinux|Ajdlinux]] 15:18, 18 January 2007 (PST)
 :No, and while we are not going to code one, we could probably accept a patch for it. --[[User:AnMaster|AnMaster]] 23:35, 18 January 2007 (PST)
 :Why would you want an editor if you can't playtest the levels anyway? --[[User:Superdev|Superdev]] 10:48, 19 January 2007 (PST)
+::Well there is a nogl patch for the game but it makes some levels unplayable (like world2/light+magic.stl). --[[User:AnMaster|AnMaster]] 11:19, 19 January 2007 (PST)
