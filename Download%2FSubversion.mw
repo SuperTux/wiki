@@ -64,10 +64,14 @@ If you just want to browse through the source a bit, then you can use the [http:
 
 If you have submitted some good patches and want to get actively involved in the SuperTux project, [[SuperTux FAQ#How_can_I_get_in_touch_with_you.3F|contact]] us for write access to the repository. You will then have to issue the following command in the ''supertux'' directory:
 
- <nowiki>svn switch --relocate http://supertux.lethargik.org/svn/supertux/trunk/supertux svn+ssh://&lt;your_lethargik_username&gt;@lethargik.org/home/supertux/svn/supertux/trunk/supertux</nowiki>
+<pre>svn switch --relocate http://supertux.lethargik.org/svn/supertux/trunk/supertux \
+svn+ssh://&lt;your_lethargik_username&gt;@lethargik.org/home/supertux/svn/supertux/trunk/supertux</pre>
 
 After running an <code>svn update</code> to make sure everything went smoothly, you can start checking in your changes:
 
  svn commit -m "Totally changed src/main.cpp to implement HTCPCP!"
 
 If you only want to commit changes to some files, add their names to the end of the command.
+
+=== Move from BerliOS ===
+Contact [http://supertux.lethargik.org/bugs/view.php?id=8#32 sik0fewl] to get developer access if you used to have it on BerliOS. Also sik0fewl is responsible for adding new developers (but other developers has to agree with it first).
