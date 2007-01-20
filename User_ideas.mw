@@ -426,6 +426,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 * '''More sounds''' for example, a ringing noise for whenever Tux touches a bell.
 * '''Fading tilemaps''' without a secret area (i.e. a script)
 * '''Fading parts of tilemaps''' so you don't have to make a separate tilemap for each secret area. Just fade the part that's covering *this* secret area.
+* '''More options''': Especially being able to switch between the old and new behavior for running with the action key pressed.
 
 ====2-player mode====
 *How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
