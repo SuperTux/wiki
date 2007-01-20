@@ -23,26 +23,6 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 
 Moved to our [http://supertux.lethargik.org/bugs bug tracker].
 
-== Graphics ==
-* '''H:''' add more forest tiles; some of the current ones need fixing.
-* '''H:''' Create a ghost forest tileset.
-* '''H:''' image for castle door with 5 key holes
-* '''H:''' new tiles for the forest worldmap
-* '''L:''' graphics for ropes
-* '''L:''' graphics for bubbles and soap (not necessary for Milestone 2)
-* '''?/D:''' new enemies (first need to be designed)
-* '''?:''' for most level backgrounds, create three tileable image parts that tile like this:
- +-+-+
- |1|1|
- +-+-+
- |1|1|
- +-+-+
- |2|2|
- +-+-+
- |3|3|
- +-+-+
- |3|3|
- +-+-+
 
 
 == Editor ==
