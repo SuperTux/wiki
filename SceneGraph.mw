@@ -21,3 +21,5 @@ change the drawing color. A red and a blue cube could be constructed like this:
 The Draw() function of the rootnode would simply call the draw functions of it's child nodes. So the Draw() functions of the 2 COLOR nodes would be called. The COLOR nodes, would change the opengl drawing color, then call the Draw() function of all child nodes and change the color back to what it was before after that. In effect a red and a blue cube would be drawn.
 
 Commonly used node types are: State changing nodes like DrawingColor, Transformations (rotate,zoom,translate), blend mode, active texture. Or nodes that help organisation like simply nodes that do nothing and contain a list of child nodes, nodes that sort their child nodes in some form.
+
+[Category:GameEngine]
