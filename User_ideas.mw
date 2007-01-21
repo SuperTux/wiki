@@ -430,7 +430,9 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *: That would be ilogical, and hard to make it work correctly, having a separate tilemap is simpler and more logical. --[[User:AnMaster|AnMaster]] 20:14, 20 January 2007 (UTC)
 *::What about a tilemap, that always makes the part in front of Tux semitransparent?
 *:::Doesn't sound useful for anything. --[[User:AnMaster|AnMaster]] 15:03, 21 January 2007 (UTC)
+*::::Did you ever play Short Visit to El Castillo? It would be very useful if the foreground could fade away so you can see tux.
 * '''More options''': Especially being able to switch between the old and new behavior for running with the action key pressed.
+:Problem: You have to test all the options. Every time you change anything. Does it work with ALL combinations? PITA.
 
 ====2-player mode====
 *How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
