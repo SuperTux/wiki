@@ -77,3 +77,11 @@ Is a NoGL version of the editor available? [[User:Ajdlinux|Ajdlinux]] 15:18, 18 
 :No, and while we are not going to code one, we could probably accept a patch for it. --[[User:AnMaster|AnMaster]] 23:35, 18 January 2007 (PST)
 :Why would you want an editor if you can't playtest the levels anyway? --[[User:Superdev|Superdev]] 10:48, 19 January 2007 (PST)
 ::Well there is a nogl patch for the game but it makes some levels unplayable (like world2/light+magic.stl). --[[User:AnMaster|AnMaster]] 11:19, 19 January 2007 (PST)
+
+== System requirements / Windows ==
+
+Can someone add it somewhere that while Milestone 1.9 will download and run happily on Windows 98 (and presumably ME too), the editor cannot be downloaded and installed as Mono is not available for 98/ME?
+
+At least, when I downloaded the level editor, it offered to download Mono for me, which it did, then failed to install as I don't run above Win98.
+
+Thanks
