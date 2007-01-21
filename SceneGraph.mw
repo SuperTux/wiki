@@ -22,4 +22,7 @@ The Draw() function of the rootnode would simply call the draw functions of it's
 
 Commonly used node types are: State changing nodes like DrawingColor, Transformations (rotate,zoom,translate), blend mode, active texture. Or nodes that help organisation like simply nodes that do nothing and contain a list of child nodes, nodes that sort their child nodes in some form.
 
+= Links =
+Wikiepdia about SceneGraphs: http://en.wikipedia.org/wiki/Scene_graph
+
 [[Category:Game_Engine]]
