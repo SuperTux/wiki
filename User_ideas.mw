@@ -428,7 +428,8 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *: Could be useful --[[User:AnMaster|AnMaster]] 20:14, 20 January 2007 (UTC)
 * '''Fading parts of tilemaps''' so you don't have to make a separate tilemap for each secret area. Just fade the part that's covering *this* secret area.
 *: That would be ilogical, and hard to make it work correctly, having a separate tilemap is simpler and more logical. --[[User:AnMaster|AnMaster]] 20:14, 20 January 2007 (UTC)
-::What about a tilemap, that always makes the part in front of Tux semitransparent?
+*::What about a tilemap, that always makes the part in front of Tux semitransparent?
+*:::Doesn't sound useful for anything. --[[User:AnMaster|AnMaster]] 15:03, 21 January 2007 (UTC)
 * '''More options''': Especially being able to switch between the old and new behavior for running with the action key pressed.
 
 ====2-player mode====
