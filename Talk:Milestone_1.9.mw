@@ -132,3 +132,5 @@ Just this past weekend we went looking again due to persistent crashes of the pr
 our Windoze based laptop and to our suprise discovered the 0.3.0 windoze binaries (that worked great upon subsequently discovering openAL32.dll at DLLsRUS (??).  Still awaiting binaries for SUSE 9.2 and 10.0 x64, as I'm not going to mess with my GLIBC any time soon.
 
 I have several questions directly related to playing the game.  First, we can't go back to levels that we have already won. Is this intended behavior? Second, with that in mind, and given the layout of the new first world, we have become stuck at "under the stars" after completing it and its adjacent neighbors via a circuitous route. Is this intended behavior?
+
+:Installing a dll from somewhere on the internet is usual a good way to have to install windows from scratch fast. Get the installer from http://openal.org/downloads.html. Whats wrong with the autopackage, any error message? It is possible to go back to finished Levels. Did you use the 'up' key? Or did you map 'jump' there? See controler configuration and use whatever you mapped to 'up'.That should work.
