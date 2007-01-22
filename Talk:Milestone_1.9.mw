@@ -127,8 +127,8 @@ I got a peek at a secret area in AMG but I can't seem to find the entrance?
 
 == We're Stuck!! ==
 
-First of all, thank you so much to the open source developers who have contributed so much to this project. We love milestone 1.9.  We were motivated to look for it first when we first completed "Noloks Castle" and then couldn't build or install it because of an uncompatable GLIBC.
+First of all, thank you so much to the open source developers who have contributed so much to this project. We love milestone 1.9.  We were motivated to look for it first when we first completed "Nolok's Castle" and then couldn't build or install it because of an uncompatable GLIBC.
 Just this past weekend we went looking again due to persistent crashes of the previous version on
 our Windoze based laptop and to our suprise discovered the 0.3.0 windoze binaries (that worked great upon subsequently discovering openAL32.dll at DLLsRUS (??).  Still awaiting binaries for SUSE 9.2 and 10.0 x64, as I'm not going to mess with my GLIBC any time soon.
 
-I have several questions directly related to plaing the game.  First, we can't go back to levels that we have already won. Is this intended behavior? Second, with that in mind, and given the layout of the new first world, we have become stuck at "under the stars" after completing it and its adjacent neighbors via a circuitous route. Is this intended behavior?
+I have several questions directly related to playing the game.  First, we can't go back to levels that we have already won. Is this intended behavior? Second, with that in mind, and given the layout of the new first world, we have become stuck at "under the stars" after completing it and its adjacent neighbors via a circuitous route. Is this intended behavior?
