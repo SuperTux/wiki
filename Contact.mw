@@ -1,51 +1,27 @@
 __NOTOC__
+
 Development is mainly coordinated via IRC and the mailing list. Be sure to visit both once in a while or you might miss critical stuff.
+Mailing List
 
-= Mailing List =
+= Mailing Lists =
 
-== Development mailing list (Supertux-devel) ==
-[http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org Subscription page],
-[http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/ Archives], [https://lists.berlios.de/pipermail/supertux-devel/ Old Archives]
+== SuperTux-Devel ==
 
-Except for the IRC Channel, this is where most of the development is being discussed. This is the place to send praises and constructive criticism, inform the team about publicity, etc. Note that bugs, including translation updates, should be reported in the [{{MediaWiki:Bugtracker-url}} bug tracker] and not to this list. Due to large amounts of spam, the list is currently set to subscribers-only, so please join before sending anything.
+List for comments, criticisms and everything development related
 
-== Repository updates (Supertux-commit) ==
-[http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org Subscription page],
-[http://lists.lethargik.org/pipermail/supertux-commit-lethargik.org/ Archives],
-[https://lists.berlios.de/pipermail/supertux-commit/ Old Archives]
+[mailto:supertux-devel@lists.lethargik.org supertux-devel@lists.lethargik.org]
+* [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org Archive]
+* [http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org Subscribe/Unsubscribe]
 
-Anytime a developer commits their work, all the subscribers of this list receive an e-mail. Even though it is mainly beneficial for the comfort and teamwork of the developers, this mailing list is also open to people who are interested in what's actually going on with SuperTux.
+== SuperTux-Commit ==
 
-'''Note''': You should not send any mails to this list, it is for commits '''only'''. Any comments about the commits should go to supertux-devel.
+List for commits to SVN, mainly useful for people working directly with the source
+
+[mailto:supertux-commit@lists.lethargik.org supertux-commit@lists.lethargik.org]
+* [http://lists.lethargik.org/pipermail/supertux-commit-lethargik.org Archive]
+* [http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org Subscribe/Unsubscribe]
 
 = IRC =
 
-Most SuperTux team members frequently hang out in the [irc://chat.freenode.net/supertux #supertux] IRC channel on the [http://freenode.net/ freenode network].
-
-If you don't know about Internet Relay Chat yet or don't know about the freenode network, there are extensive articles on Wikipedia.
-
-You could just download an IRC client (e.g. XChat), connect to freenode, and join the #supertux channel.
-
-Please keep basic netiquette in mind. Wait a moment after joining to see if there is a discussion in progress, then ask your question. Don't ask if you can ask a question, just ask. If nobody answers, don't be upset---maybe nobody knows the answer. Don't give up too fast, wait some time for an answer. Usually, people run IRC clients in the background and check for channel activity every 20 minutes or so. It is really annoying when you are just typing the answer and the person asking the question leaves the channel after waiting only 5 minutes. If you still receive no response, you might try the mailing list; it is read by far more people and good questions are normally answered.
-
-*[http://sackheads.org/~bnaylor/spew/away_msgs.html Please don't use public away notifications.]
-*Please use a [http://dpaste.com/ pastebin] instead of pasting code directly into the channel.
-
-Thanks!
-
-== External links ==
-*[irc://chat.freenode.net/supertux Official SuperTux IRC channel (freenode#supertux)]
-*No IRC client? Try the web interface http://webchat.freenode.net/?channels=supertux
-*[http://freenode.net/ Freenode]
-
-=== Good IRC clients ===
-*[http://www.xchat.org/download/ XChat]
-**[http://www.xchat.org/docs/start/ XChat Quick Start Guide]
-*[https://addons.mozilla.org/firefox/16/ Chatzilla add-on] for Firefox/Mozilla
-
-= Forum =
-*[http://forum.freegamedev.net/viewforum.php?f=66 Our Forum] note- if you want to talk directly to an official team member, mailing list and IRC are better.
-
-[[Category:Development]]
-[[Category:Meta]]
-[[Category:For Users]]
+ Server: irc.freenode.net
+ Channel: [irc://irc.freenode.net/#supertux #supertux]
