@@ -2,6 +2,8 @@ To download SuperTux, you can choose from two types of packages:
 
 * The [[Download/Installation Milestone 1|stable package]] contains a playable SuperTux that does not suffer from critical bugs, but does not sport any newly added features. If you simply want to play the game, this is the package for you.
 
+* The [[Download/Installation Milestone 1.9|unstable package]] contains a unplayable SuperTux that does suffer from critical bugs, but does sport newly added features. If you simply want to play the game, this is ''not'' the package for you.
+
 * The [[Download/Subversion|Subversion repository]] contains SuperTux in a state of development. This means new features and a large amount of bugs. If you are interested in the development of SuperTux, feel like contributing or just simply want to try out the new features and you are ready to endure some bugs and crashes (their amount never staying constant with each revision), this is the package of your choice.
 
 Links to additional game content can be found on the following pages:
