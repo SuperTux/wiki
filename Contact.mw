@@ -1,13 +1,11 @@
 __NOTOC__
-
 Development is mainly coordinated via IRC and the mailing list. Be sure to visit both once in a while or you might miss critical stuff.
-Mailing List
 
-= Mailing Lists =
+= Mailing List =
 
 == SuperTux-Devel ==
 
-List for comments, criticisms and everything development related
+List for comments, criticisms and everything development related.
 
 [mailto:supertux-devel@lists.lethargik.org supertux-devel@lists.lethargik.org]
 * [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org Archive]
@@ -15,7 +13,7 @@ List for comments, criticisms and everything development related
 
 == SuperTux-Commit ==
 
-List for commits to SVN, mainly useful for people working directly with the source
+List for commits to SVN, mainly useful for people working directly with the source.
 
 [mailto:supertux-commit@lists.lethargik.org supertux-commit@lists.lethargik.org]
 * [http://lists.lethargik.org/pipermail/supertux-commit-lethargik.org Archive]
