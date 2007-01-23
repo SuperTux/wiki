@@ -1,3 +1,5 @@
+== SuperTux ==
+
 To download SuperTux, you can choose from two types of packages:
 
 * The [[Download/Installation Milestone 1|stable package]] contains a playable SuperTux that does not suffer from critical bugs, but does not sport any newly added features. If you simply want to play the game, this is the package for you.
@@ -10,5 +12,31 @@ Links to additional game content can be found on the following pages:
 * [[Levels]]
 * [[Modifications]]
 * [[Demos]]
+
+== Level Editor ==
+
+Additional to the builtin editor of SuperTux 0.1 there is also the flexlay editor which provides more features and better level editing capabilities. You can find it at
+
+ http://flexlay.berlios.de
+
+Note that SuperTux Milestone 2 will use both a new level format and a new level editor.
+
+== Old Releases ==
+
+You can find older releases here:
+
+ http://sourceforge.net/project/showfiles.php?group_id=69183
+
+= More Unofficial Ports =
+
+There are more unofficial ports of SuperTux for various platforms such as:
+
+* GP2X (you can even get SuperTux bundled with the hardware)
+* Nokia 770 Internet Tablet
+* Pocket PC
+* Nintendo GameCube (standalone or as part of GCLinux)
+* Sega Dreamcast
+
+These can be downloaded either directly from the vendor's software repository or from various homebrew sites.
 
 [[Category:For Users]]
