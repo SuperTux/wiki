@@ -132,30 +132,6 @@ Note that SuperTux Milestone 2 will use both a new level format and a new level 
 
 If you want to help working on SuperTux, download the latest code from the Subversion repository: ([[Download/Subversion]])
 
-= Old Releases =
-
-You can find older releases here:
-
- http://sourceforge.net/project/showfiles.php?group_id=69183
-
-= More Unofficial Ports =
-
-There are more unofficial ports of SuperTux for various platforms such as:
-
-* GP2X (you can even get SuperTux bundled with the hardware)
-* Nokia 770 Internet Tablet
-* Pocket PC
-* Nintendo GameCube (standalone or as part of GCLinux)
-* Sega Dreamcast
-
-
-These can be downloaded either directly from the vendor's software repository or from various homebrew sites.
-
-
-
-<br/>
-<br/>
-
 = Release 0.3.0 (Tech Demo) =
 
 This is the latest (but unstable) release of SuperTux, also known as "[[Milestone 1.9]]". The 0.3.0 release is meant as a tech-demo, to show of new features of the engine, new graphics and such, it is not meant to be fully playable or polished, for that reason it is recommend that distributions should not ship SuperTux 0.3.0, but instead the fully playable SuperTux 0.1.3 release. To download SuperTux 0.3.0, please find your system in the following table:
@@ -255,6 +231,31 @@ Game is available in the [http://packages.ubuntu.com/feisty/games/supertux offic
 </td>
 </tr>
 </table>
+
+
+= Old Releases =
+
+You can find older releases here:
+
+ http://sourceforge.net/project/showfiles.php?group_id=69183
+
+= More Unofficial Ports =
+
+There are more unofficial ports of SuperTux for various platforms such as:
+
+* GP2X (you can even get SuperTux bundled with the hardware)
+* Nokia 770 Internet Tablet
+* Pocket PC
+* Nintendo GameCube (standalone or as part of GCLinux)
+* Sega Dreamcast
+
+
+These can be downloaded either directly from the vendor's software repository or from various homebrew sites.
+
+
+
+<br/>
+<br/>
 
 
 ----
