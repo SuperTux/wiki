@@ -111,7 +111,12 @@ There are rpm packages available here:
 
  http://download.berlios.de/supertux/supertux-0.1.2-1mdk.i586.rpm
 
-=== SDZ Linux ===
-This distribution includes a supertux package. Just use the normal SDZ command:
+=== Foresight Linux ===
+This distribution includes a supertux package. Just use the normal conary command:
 
- SDZ update supertux
+ conary update supertux
+
+
+----
+
+Note: if you have created packages for other operating systems/distributions. Mention them in the [http://supertux.berlios.de/wiki/index.php?title=Talk:Download/Installation&action=edit discussion page] and we'll merge them into this page as soon as possible.
