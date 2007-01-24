@@ -24,11 +24,11 @@ These have been obtained by looking at the openal 0.0.8 source...
 ** '''sdl''' - SDL (Simple Direct Media Layer), uses the SDL library for sound output
 ** '''null''' - NULL, no output
 ** '''waveout''' - Writes to .wav files
-* '''direcion'''
+* '''direcion''' - looks like an unused parameter in the source...
 * '''sampling-rate''' - The sample rate used for mixing and sound output
 * '''speaker-num''' - The number of speakers (2 for stereo speakers and headsets, 4,5,6 are supported on alsa for surround sound)
-* '''source-rolloff-factor'''
-* '''device-params'''
+* '''source-rolloff-factor''' - default rolloff factor ([http://www.openal.org/oalspecs-annote/attenuation-by-distance.html#AEN507])
+* '''device-params''' - unclear...
 
 == ALSA Specific ==
 * '''alsa-device''' - The alsa device used for sound input and ouput (used when alsa-out-device or alsa-in-device is not defined)
