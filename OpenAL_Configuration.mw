@@ -44,7 +44,7 @@ The settings files are written in LISP (http://de.wikipedia.org/wiki/LISP). Vari
 * '''lin-dsp-path''' - Path to the audio device (default /dev/dsp)
 * '''lin-dsp-read-path''' - Path for audio output device
 
-== DMEDIA ==
+== Irix - DMEDIA ==
 * '''dmedia-out-device'''
 * '''dmedia-in-device'''
 * '''dmedia-rear-out-device'''
