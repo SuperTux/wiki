@@ -49,7 +49,7 @@ The settings files are written in LISP (http://de.wikipedia.org/wiki/LISP). Vari
 * '''dmedia-in-device'''
 * '''dmedia-rear-out-device'''
 
-== Darwin ==
+== MacOS/X Darwin ==
 * '''native-backend-debug''' - set to true for debugging
 
 == Examples ==
