@@ -12,10 +12,11 @@ This is from the source code, however there seems to be no code to handle displa
 
 = Settings =
 
-The settings files have a lisp file format. Variable get defined with the define command. Example:
+The settings files are written in LISP (http://de.wikipedia.org/wiki/LISP). Variables get defined with the define command. Example:
 
  (define somevar 5.0)
  (define someStringVar "hello")
+ (define someList '(id1 id2 id3))
 
 == General ==
 * '''devices''' contains a list of devices which are tried as openal output devices. Possible values are:
