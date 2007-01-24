@@ -11,7 +11,11 @@ OpenAL is first trying to read a user settings from an .openalrc in the users ho
 This is from the source code, however there seems to be no code to handle display-banner and source-gain...
 
 = Settings =
-These have been obtained by looking at the openal 0.0.8 source...
+
+The settings files have a lisp file format. Variable get defined with the define command. Example:
+
+ (define somevar 5.0)
+ (define someStringVar "hello")
 
 == General ==
 * '''devices''' contains a list of devices which are tried as openal output devices. Possible values are:
