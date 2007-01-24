@@ -1,5 +1,29 @@
 /* edit this file to customize the monobook skin for the entire site */
 
+
+/* Main_Page */
+
+table.MainPageBox
+{
+  border: 1px solid silver;
+  padding: 0.5em;
+  background-color: #EEF;
+}
+
+table.MainPageBox h2
+{
+  padding: 0em;
+  padding-bottom: 0.2em;
+}
+
+table.MainPageBox img
+{
+  margin-right: 0.25em;
+}
+
+
+/* Miscellaneous */
+
 table.objectlist
 {
   border-style: solid;
