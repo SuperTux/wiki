@@ -11,19 +11,54 @@ OpenAL is first trying to read a user settings from an .openalrc in the users ho
 This is from the source code, however there seems to be no code to handle display-banner and source-gain...
 
 = Settings =
+These have been obtained by looking at the openal 0.0.8 source...
 
+== General ==
 * '''devices''' contains a list of devices which are tried as openal output devices. Possible values are:
 ** '''dsp''' - OSS (Open Sound System) driver
-** '''native''' - Prefered driver for the platform (will load 1 of the others)
+** '''native''' - Prefered driver for the platform (will load a driver for darwin, morphos, solaris, windows, bsd, alsa or dsp)
 ** '''alsa''' - ALSA (Advanced Linux Sound System) driver, only available on linux
 ** '''arts''' - ARTS, the KDE Sound Daemon
 ** '''dmedia''' - DMEDIA, seems to be the irix sound api...
 ** '''esd''' - ESD (Enlightenment Sound Daemon), often found on GNOME installations
 ** '''sdl''' - SDL (Simple Direct Media Layer), uses the SDL library for sound output
 ** '''null''' - NULL, no output
-** '''waveout''' - Windows Waveout device, only available on windows
+** '''waveout''' - Writes to .wav files
 * '''direcion'''
-* '''sampling-rate'''
-* '''speaker-num'''
+* '''sampling-rate''' - The sample rate used for mixing and sound output
+* '''speaker-num''' - The number of speakers (2 for stereo speakers and headsets, 4,5,6 are supported on alsa for surround sound)
 * '''source-rolloff-factor'''
 * '''device-params'''
+
+== ALSA Specific ==
+* '''alsa-device''' - The alsa device used for sound input and ouput (used when alsa-out-device or alsa-in-device is not defined)
+* '''alsa-out-device''' - The alsa device used for sound output
+* '''alsa-in-device''' - The alsa device used for sound input
+
+== DSP Specific ==
+* '''lin-dsp-path''' - Path to the audio device (default /dev/dsp)
+* '''lin-dsp-read-path''' - Path for audio output device
+
+== DMEDIA ==
+* '''dmedia-out-device'''
+* '''dmedia-in-device'''
+* '''dmedia-rear-out-device'''
+
+== Darwin ==
+* '''native-backend-debug''' - set to true for debugging
+
+== Examples ==
+Normal linux config, try alsa and dsp, then fallback to arts and esd or no audio. Stereo sound in CD Quality (44,1khz):
+
+ (define devices '(alsa native arts esd null))
+ (define alsa-device "default")
+ (define speaker-num 2)
+ (define sampling-rate 44100)
+
+ALSA surround sound with a 5.1 sound system and 48khz high quality audio:
+
+ (define devices '(alsa))
+ (define speaker-num 6)
+ (define alsa-out-device "surround51:0,0")
+ (define alsa-in-device "hw:0,0")
+ (define sampling-rate 48000)
