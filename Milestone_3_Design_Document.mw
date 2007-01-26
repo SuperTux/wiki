@@ -16,6 +16,12 @@ On arrival on the forest island Tux will be welcome by the Granitos, which happe
 
 The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed  letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
 
+= General = 
+
+* Tux run animation shall be rolled back to the single-sprite on that was used in Milestone 1, the current split-image animation is far inferior
+* uni-solid tiles shall be provided for all tilesets
+
+
 = World 1 - Icyisland =
 
 World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done:
@@ -32,5 +38,7 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 * uni-solid/half-tiles shall be used to enhance the levels and provide optional paths
 * bottom-less pits shall be either replaced by pits with spike at the bottom or allow Tux to climb back out of the pit
 * there shall be auto-scrolling levels that force Tux to run by having a avalanche coming down behind him, the avalanche might either be simple snow or a large group of enemies
+* the castle tileset shall be replaced with something that looks colder and features both snow and ice
+* cave tileset shall be replaced with something that has a larger pattern, thus looks less ugly when tiled
 
 = World 2 - Forest =
