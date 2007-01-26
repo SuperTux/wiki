@@ -23,6 +23,7 @@ After having collected the five keys Tux is able to enter the magic castle where
 = Intro/Credits = 
 [[Image:Introcutscene.png|thumbnail|left|Intro Storyboard]]
 The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed  letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
+<br clear="all"/>
 
 = General = 
 
