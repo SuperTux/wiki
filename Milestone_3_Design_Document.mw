@@ -15,3 +15,21 @@ On arrival on the forest island Tux will be welcome by the Granitos, which happe
 = Intro/Credits = 
 
 The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed  letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
+
+= World 1 - Icyisland =
+
+World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done:
+
+* Jumpy shall be replaced with an enemy that fits better into the snow landscape, Jumpy himself shall be reused in a lava-like setting or in the bosses castle
+* the walrus salesmen shall be added to the island
+* some levels shall be separated out into optional paths, to provide a less linear path
+* the old Milestone1 worldmap shall be used, not the one currently present in SVN
+* an additional type of snowballs shall be provided to signal stay-on-platform behaviour (a bandana or something like that)
+* a snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball
+* iceblocks which will melt on contact with fire shall allow to lock paths in a level or lock secrets
+* balanced platforms that start to rotate or move when Tux stands on them shall be provided
+* water, in its simplistic tile form, shall be removed from all levels
+* uni-solid/half-tiles shall be used to enhance the levels and provide optional paths
+* bottom-less pits shall be either replaced by pits with spike at the bottom or allow Tux to climb back out of the pit
+
+= World 2 - Forest =
