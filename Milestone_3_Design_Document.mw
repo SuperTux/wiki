@@ -1,0 +1,17 @@
+= About this Document = 
+
+This document is meant to give a reasonably detailed guide on what shall and shall not happen in Milestone 2. It is also intended as a complete replacement of other, incomplete or otherwise flawed, Milestone 2 documents floating around in this Wiki. This design document is written by Grumbel, question and comments are welcome, use the Talk page or the IRC channel for that. At the moment this document is a work-in-progress, meaning goals might change as time progresses. This document as not yet been approved by any other member of the SuperTux development stuff.
+
+= Overview =
+
+The goal of Milestone 2 is to add another island/theme to the world of SuperTux, namely the forest island, as well as improving on the short  commings that where present in [[Milestone_1_Analysis|Milestone 1]]. Together with the forest island the game will provide additional enemies and items that fit the forest islands look and setting.
+
+= Story = 
+
+The SuperTux game starts with Penny, Tux's girlfriend, getting captured by Nolok. After those events are shown in the intro the player takes control over Tux and has to guide him through around two dozen levels on a snowy island. At the end of the path on the island is a castle, which however doesn't contain Nolok, instead a Yeti will be provided as a final boss battle. After Tux has defeated the Yeti and received a secret letter from Penny explaining  where the got taken, Tux continues his journey over the sea to another island, one filled with forests, grass and green stuff. 
+
+On arrival on the forest island Tux will be welcome by the Granitos, which happen to be the native inhabitants of the island. They explain Tux in a cutscene that Nolok has taken control over their island and its magic castle, thus turning a large part of the island into a ghost world. After hearing their story Tux tells them that he will help and proceeds deeper down into the forest world. On his journey through the forest island Tux will meet both more friendly Granitos as well has a salesman in the form of a walrus.
+
+= Intro/Credits = 
+
+The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed  letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
