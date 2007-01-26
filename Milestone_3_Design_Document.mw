@@ -7,6 +7,7 @@ This document is meant to give a reasonably detailed guide on what shall and sha
 [[Image:Supertux-forest-2004-06-15.jpg|thumbnail|right|Concept Drawing]]
 
 The goal of Milestone 2 is to add another island/theme to the world of SuperTux, namely the forest island, as well as improving on the short  commings that where present in [[Milestone_1_Analysis|Milestone 1]]. Together with the forest island the game will provide additional enemies and items that fit the forest islands look and setting. New actions for Tux might be provided as well, namely the backflip, butt-jump and the iceflower powerup.
+<br clear="all" />
 
 = Story = 
 
