@@ -34,7 +34,7 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 = World 1 - Icyisland =
 
 World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done:
-
+[[Image:Snowman-variations.png|thumbnail|right|Snowman Variations]]
 * Jumpy shall be replaced with an enemy that fits better into the snow landscape, Jumpy himself shall be reused in a lava-like setting or in the bosses castle
 * the walrus salesmen shall be added to the island
 * some levels shall be separated out into optional paths, to provide a less linear path
