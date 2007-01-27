@@ -75,3 +75,13 @@ Near the top of the editor. The default sector in a level is called "main" and i
 
 ===How do I create a new sector?===
 Right click at the [[#Where are the sector tabs?|sector tab]] area and select "New".
+
+<br/>
+
+==Bugs and Errors==
+'''For any bug report please provide the ''full'' backtrace when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]'''
+
+===I get an error about "Object reference not set to an instance of an object"===
+This can be several things:
+#Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
+#If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least  1.2.2.1.
