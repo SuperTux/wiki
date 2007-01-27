@@ -4,10 +4,11 @@ This page is about ideas that aren't ready to go into bug tracker as feature req
 
 
 == QA checks == 
-Currently we have a function to check for invalid tile IDs in the level, although it is useful it could be extended to more things.
+Currently we have a function to check for invalid tile IDs in a sector (right click on sector tab to find it), although it is useful it could be extended to more things.
 Some examples are:
+* Change the check for invalid tile IDs in a sector to also highlight the bad ones.
 * Check that there is a sector called "main" that contains a spawnpoint called "main" as well.
 * Check that there is at least one spawn point in each sector and that something calls it.
 * Check for other common issues (mainly issues that can happen in converted levels from 0.1.x and issues due to changes in the game/editor to find and fix all affected levels and such)
 * Check for "bad" tile combinations, for example: if we have a grass top tile the tile below it should be a specific one, note that we must check in all tilemaps for this. 
-* Batch checking all levels in a directory (command line?)
+* Batch checking all levels in a directory (command line?).
