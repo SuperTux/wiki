@@ -291,7 +291,8 @@ Ghost forest version of MrTree. See [[Ghostly Tree]].
 =====Walking Rock=====
 Unrelated with the "Walking rock" above. A big rock that works like a platform. See [[Walking Rock]].
 
---Shylence 03:42, 14 January 2007 (PST)
+=====Undead enemy=====
+When killed, stays dead for some time and then comes back to life. Could be a zombie penguin or a skeleton alike to SkullyHops. Might be freezable and killed by fireballs or buttjump.
 
 ===Some sounds===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
@@ -331,6 +332,9 @@ One thing that SuperTux is missing that Mario had would be stage variety. There 
 
 See: en.wikipedia.org/wiki/Computer_and_video_game_settings
 
+===Alternative worlds===
+There might be alternative worlds accessible by beating secret levels, e.g. Tux might find a secret exit in a IcyIsland level and go to a volcano world instead of the forest world. Think of Wario Land II. However, I'd reserve this for Milestone 3 or even later, since this would take a lot of designing.
+
 ===Female Players===
 
 For the female players: You can play Penny and will have to rescue Tux.
@@ -353,6 +357,9 @@ Enter level with jump button.
 *: Implemented as Unisolid [[Tiles]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect.  The current implementation causes Tux fatalities in some levels.
 *: Already implemented in aforementioned [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+
+===Object blocks===
+?-Blocks might contain items like trampolines or rocks, or maybe even enemies.
 
 ===Collecting Stuff===
 
