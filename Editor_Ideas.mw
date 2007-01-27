@@ -13,7 +13,7 @@ Some examples are:
 * Check for "bad" tile combinations, for example: if we have a grass top tile the tile below it should be a specific one, note that we must check in all tilemaps for this. 
 * Batch checking all levels in a directory (command line?).
 
-=== Ideas for (possibly) implementation ===
+=== Ideas for (possible) implementation ===
 Some main class and other classes that in some way register with it and is called as needed, either an event/delegate scheme (parameter could be current level, application interface and/or other stuff depending on how we do it). A more complex way, but that would be better if we want a method to auto-fix (simpler) issues as well, would be based on interfaces like (in psedo-code):
  interface QAChecker {
    public bool Check(Level level, IQAReporter QAReporter);
