@@ -360,6 +360,7 @@ Enter level with jump button.
 
 ===Object blocks===
 ?-Blocks might contain items like trampolines or rocks, or maybe even enemies.
+:Already implemented. Was used in early version of "down the rabbi hole".
 
 ===Collecting Stuff===
 
