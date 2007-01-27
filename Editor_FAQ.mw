@@ -79,9 +79,16 @@ Right click at the [[#Where are the sector tabs?|sector tab]] area and select "N
 <br/>
 
 ==Bugs and Errors==
-'''For any bug report please provide the ''full'' backtrace when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]'''
+{{Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]}}
 
 ===I get an error about "Object reference not set to an instance of an object"===
 This can be several things:
 #Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
 #If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least  1.2.2.1.
+
+If any of the above didn't solve the problem and you manage to recreate the error, report the bug with at least this info:
+*Full backtrace
+*What you did to cause the bug
+*What OS and OS version you use
+*What versions of mono, the editor itself, GTK and GTK# that you use
+These types of bugs can not be solved without that info (and sometimes we might need more details than that, so please check back at the bug once day or so if there is any more info asked for).
