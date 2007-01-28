@@ -39,6 +39,8 @@ The shop is a little house accessible via the worldmap, it provides the player w
 * Tux run animation shall be rolled back to the single-sprite on that was used in Milestone 1, the current split-image animation is far inferior
 * uni-solid tiles shall be provided for all tilesets
 * multi-layer paralax scrolling background tilemaps shall be used in all levels
+* menu system should be replaced/reworked
+* save system could need a rework as well
 
 = World 1 - Icyisland =
 
