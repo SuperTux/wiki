@@ -49,6 +49,8 @@ Windows users might run
  set LANG=en
  supertux.exe
 
+If setting the environment variable <tt>LANG</tt> doesn't work, you may try using the variable <tt>SUPERTUX_LANG</tt> instead.
+
 == Existing Translations ==
 
 Please add yourself to this list if you are working on a new translation, so that others can contact you.
