@@ -3,7 +3,7 @@ __NOTOC__
 = Summary =
 This module contains methods controlling the player. (No, SuperTux doesn't use mind control. Player refers to the type of the player object.)
 
-'''Once again, just like with [[ScriptingScriptedObject|ScriptedObject]], note that <tt>Player</tt> is only the object type. Since SuperTux is currently single-player only, use <tt>Tux</tt> to make changes to the player object, such as <tt>Tux.deactivate()</tt>.'''
+'''Once again, just like with [[ScriptingScriptedObject|ScriptedObject]], note that <tt>Player</tt> is only the object type. Since SuperTux is currently single-player only, use <tt>Tux</tt> to make changes to the player object, such as <tt>Tux.deactivate()</tt>. To access the player object from the console, use <tt>sector.Tux</tt>'''
 
 = Methods =
 {| class="objectlist"
