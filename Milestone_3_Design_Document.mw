@@ -120,6 +120,9 @@ The canon can be mounted on either static or rotatable pedestal. It shoots angry
 <br clear="all" />
 
 === Spider ===
+[[Image:Spider.png|thumbnail|rightSpider]]
+The Spider hangs at the side of a tilemap, either a hard one or an unisolid one. At regular intervals the Spider 'charges up' and performs a jump. After the jump it falls back to the tilemap and attach back to it. The spider can walk on the side of the tilemap, but can't walk on normal ground like a Snowball.
+
 <br clear="all" />
 
 === Ladybug ===
