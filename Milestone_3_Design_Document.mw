@@ -76,9 +76,16 @@ The forest island is split into different section, one being a classical forest,
 == World 2 Enemies ==
 
 === Snail ===
+[[Image:Snail.png|thumbnail|right|Snail]]
+
 When jumped up on the snail rolls into her house and thus becomes invincible as well as portable. Snail is a slow moving enemy. Snail might come in different sizes, especially larger ones then the standard 32x32 enemies.
 
-[[Image:Snail.png|thumbnail|right|Snail]]
+<br clear="all" />
+
+=== Fluffy ===
+[[Image:Fluffy.png|thumbnail|right|Fluffy]]
+Fluffy is a small enemy that moves around via little hop motions, jumping on him will kill him. 
+
 <br clear="all" />
 
 === Owl ===
