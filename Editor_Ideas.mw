@@ -11,6 +11,7 @@ Some examples are:
 * Check that there is at least one spawn point in each sector and that something calls it.
 * Check for other common issues (mainly issues that can happen in converted levels from 0.1.x and issues due to changes in the game/editor to find and fix all affected levels and such)
 * Check for "bad" tile combinations, for example: if we have a grass top tile the tile below it should be a specific one, note that we must check in all tilemaps for this. 
+* Refactor endseq tiles into Sequence Triggers.
 * Batch checking all levels in a directory (command line?).
 
 === Ideas for (possible) implementation ===
