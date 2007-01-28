@@ -75,12 +75,6 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 ===More Tux Moves===
 Perhaps Tux could be able to pick up a powerup that would let him duck, then press jump and he spins in a ball, destroying enemies just like Sonic the Hedgehog.  Maybe a Glider that would let tux slowly glide in a line. I would love to see Super Tux become a Mario/Sonic fusion.
 
-===Alpha'd Tiles===
-It would be far more realistic if there was at least an alpha'd water tile.  That way you can put the alpha'd water in the foreground and make the block of ice in the interactive layer look like it's actually floating in water!
---[[User:Eibwen|Eibwen]] 08:12, 1 Oct 2006 (CEST)
-:As far as I know semi transparent water tiles already exist, even in 0.1.x. If you don't see them try to change to/from using OpenGL. --[[User:AnMaster|AnMaster]] 10:00, 1 Oct 2006 (CEST)
-:Posted as [[Bugs]]
-
 ===Central Storyline===
 I believe the game really needs a storyline that makes the game not just about the arcade, but involves a greater plot. There should be a cutscene for just about every level and specific objectives (like you need to find a certain key or something before completing the level) Almost every level should have a cutscene that further adds to the plot. I also like the NPC idea because that can also drive the the plot. An idea for a storyline is detailing how Tux and Penny met and maybe add other characters that touch Tux's life (family, old flames, etc.)
 
@@ -89,11 +83,6 @@ I think an idea for later versions was if there was the possibility of doing som
 :We're thinking about telling parts of the story from Penny's point of view. --Wansti
 ::Penny is captured by Nolok and locked into cage in his castle so she cant move, so therefor you cant tell view story from her PoV because she cant do anything because shes imprisoned! -- smallfoot
 :::Well, the first part of the story would be Penny escaping. The idea is that she would escape from the cage and you would play her escape. However, Tux wouldn't know about the escape and would continue on his adventures. You can take it to anywhere from there - [[User:Sik0fewl|Sik0fewl]] 04:18, 22 Mar 2006 (CET)
-
-===MS2 Preview===
-
-Milestone 2 is awaited for some time now. Why not set a deadline and release a preview version afterwards, no matter how complete it is at that time? It hurts to see people wasting their time to create levels for MS1 which will never make it to MS2 because the MS1 editor does not use the new features.
-: Been there, done that. [[Milestone 1.9]]...
 
 ===Scuba Gear?===
 Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
@@ -379,9 +368,6 @@ When you type "iddqd", tux shakes his head.
 When you type the name of a specific badguy, Tux looks like that badguy.
 
 :iddqd? idkfa! -- [[User:RichiH|RichiH]] 22:47, 25 Sep 2006 (BST)
-
-===SVG===
-Maybe it would be a good idea to use SVG artwork. We can render it at any resolution, so we don't have to be tied at 800*600. [[User:Cristan|Cristan]]
 
 === 1.0 ===
 I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 "SuperTux 1.0"? Most people think when they see "0.2" that it is some crappy beta version, which milestone 2 obviously is not. [[User:Cristan|Cristan]] 00:38, 26 Oct 2006 (CEST)
