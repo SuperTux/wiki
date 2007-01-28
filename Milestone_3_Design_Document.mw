@@ -126,6 +126,13 @@ The Spider hangs at the side of a tilemap, either a hard one or an unisolid one.
 <br clear="all" />
 
 === Ladybug ===
+[[Image:Ladybug.png|thumbnail|right|Ladybug]]
+The Ladybug is a simple flying enemy that flies in a sinus-curve motion.
+<br clear="all" />
+
+=== Mini Bomb ===
+[[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
+The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
 <br clear="all" />
 
 === Stony ===
