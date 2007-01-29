@@ -187,6 +187,13 @@ How they interact with Tux is open for discussion.
 Basic ghosts float around on a fixed path in a sinus-wave like pattern. There may be different kinds of ghosts that follow different patterns as well as ghosts that are inflatable and grow in size on specific events.
 <br clear="all" />
 
+=== Angry Stone ===
+[[Image:Angrystone.png|thumbnail|right|Angry Stone]]
+
+Angry stone is attached to the roof of a level, once Tux gets close to him (one tile to the left or right, he crushes to the ground, trying to kill Tux. Soon after he lifts back up to the ceiling for another attack. Angry stones might come in different sizes, from really small ones, 32x32, to very large ones, 256x256. Angry stones are always a multiple of the tilesize large so that they fit into the tilemap properly.
+
+<br clear="all" />
+
 = Editor =
 
 * editor needs a minimap, like Flexlay
