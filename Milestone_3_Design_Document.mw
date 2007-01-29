@@ -229,7 +229,7 @@ Should stone tiles be separate from the rest or merged into the main forest tile
 
 What contrib levels contain ideas that might be worth to recycle?
 
-= Disfavored Features in the current development version = 
+= Disfavored Features in the current Development Version = 
 
 * Pogonia graphics: simply don't look as if they are dangerous, shall be removed or ignored for official M2 level
 * Scripting: scripting shall be limited to cutscenes (intro/credits), boss fights, normal levels shall not feature scripting
@@ -238,6 +238,7 @@ What contrib levels contain ideas that might be worth to recycle?
 * main menu: could use some serious polishing, simply fill-rect background looks ugly
 * save system: very counter intuitive to get asked for a new save state for contrib levels
 * Tux rap in the intro: must not make its way into Milestone2
+* Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good,  Tux should simply have infinitive lives
 
 = Tasks =
 
