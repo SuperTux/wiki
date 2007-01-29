@@ -239,6 +239,7 @@ What contrib levels contain ideas that might be worth to recycle?
 * save system: very counter intuitive to get asked for a new save state for contrib levels
 * Tux rap in the intro: must not make its way into Milestone2
 * Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good,  Tux should simply have infinitive lives
+* Reset Points: they don't look good and for most part don't do anything good, instead of having reset points levels should simply be made small enough so that they don't need reset points
 
 = Tasks =
 
