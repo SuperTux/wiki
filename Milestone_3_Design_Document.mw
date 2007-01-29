@@ -158,6 +158,8 @@ Stony hides himself in stone walls and is invisible, only when one gets closer h
 <br clear="all" />
 
 === Walking Bush ===
+[[Image:Walkingbush.png|thumbnail|right|Walking Bush]]
+
 The Walking Bush is an enemy that looks just like an background object, when inactive it also behaves like one, i.e. neither can Tux kill it nor can it kill Tux. When active it might change its color a bit and have eyes, it will walk around a bit to then become inactive again. Jumping on it when active will kill it.
 <br clear="all" />
 
