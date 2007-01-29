@@ -229,6 +229,15 @@ Should stone tiles be separate from the rest or merged into the main forest tile
 
 What contrib levels contain ideas that might be worth to recycle?
 
+= Disfavored Features in the current development version = 
+
+* Pogonia graphics: simply don't look as if they are dangerous, shall be removed or ignored for official M2 level
+* Scripting: scripting shall be limited to cutscenes (intro/credits), boss fights, normal levels shall not feature scripting
+* Enemies: plenty of them look pretty poor and should get removed/ignored
+* bitmaped backgrounds: shall be replaced with parallax scrolling ones.
+* main menu: could use some serious polishing, simply fill-rect background looks ugly
+* save system: very counter intuitive to get asked for a new save state for contrib levels
+
 = Miscellaneous =
 <gallery>
 Image:Woodpipe.png|Wood Pipe
