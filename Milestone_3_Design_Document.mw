@@ -166,6 +166,11 @@ The Walking Bush is an enemy that looks just like an background object, when ina
 The Oak hangs in trees and doesn't move until Tux approaches, once Tux gets close enough the Oak drops down and slowly floats to the ground.
 <br clear="all" />
 
+=== Ghosts ===
+[[Image:Ghost-sprite.png|thumbnail|right|Ghosts]]
+Basic ghosts float around on a fixed path in a sinus-wave like pattern. There may be different kinds of ghosts that follow different patterns as well as ghosts that are inflatable and grow in size on specific events.
+<br clear="all" />
+
 = Editor =
 
 * editor needs a minimap, like Flexlay
