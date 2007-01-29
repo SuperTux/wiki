@@ -166,6 +166,15 @@ The Walking Bush is an enemy that looks just like an background object, when ina
 The Oak hangs in trees and doesn't move until Tux approaches, once Tux gets close enough the Oak drops down and slowly floats to the ground.
 <br clear="all" />
 
+=== Flamey ===
+[[Image:Flamy.png|thumbnails|right|Flamey]]
+Flameies are little enemies build out of fire. They are invulnerable against jumping and when to small ones collide, they turn into a large one. Flameies stays near its starting position and moves a bit around to the left or the right, they don't do walks into one direction like many other enemies. After a while Flameies might shrink and die automatically. 
+
+Special Flamey dispensers (volcano, pot with fire) might throw new Flameies onto the playfield at regular intervals.
+
+Flamey might react special to the ice-flower.
+<br clear="all" />
+
 === Ghosts ===
 [[Image:Ghost-sprite.png|thumbnail|right|Ghosts]]
 Basic ghosts float around on a fixed path in a sinus-wave like pattern. There may be different kinds of ghosts that follow different patterns as well as ghosts that are inflatable and grow in size on specific events.
