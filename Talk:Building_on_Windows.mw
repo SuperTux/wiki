@@ -1,8 +1,14 @@
+== gcc-g++ package needed ==
+
 I had to install one additional package in order to get SuperTux to compile -- the MinGW gcc-g++ package for compiling C++ code, found [hxxp://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download here]. - [[User:Sik0fewl|Sik0fewl]]
+
+== libcurl missing? ==
 
 When I want to compile SuperTux on windows xp, i get an error because the sourcefile addon_manager.cpp needs LIBCURL... but i don't know where i can find the right LIBCURL-package for windows and how to install it (with MSYS ...) please update this page.. - [[User:TowelieDasTuch|TowelieDasTuch]]
 
 Note that we don't have a windows maintainer and most developers have better things to do than rebooting to windows. Motivation is a bit low to keep stuff compiling on windows just for the sake of other people playing svn versions... Basically: Please try a little harder fixing it yourself! --[[User:MatzeB|MatzeB]] 20:34, 29 January 2007 (UTC)
+
+: By the way - libcurl shouldn't be needed to compile SuperTux. You can safely remove the check for libcurl from the autoconf scripts (just go back a few SVN revisions) and SuperTux should build just fine. Send us a patch if you can change the autoconf scripts to make it truly optional. --[[User:Sommer|Sommer]] 21:37, 29 January 2007 (UTC)
 
 == DLLs needed ==
 
