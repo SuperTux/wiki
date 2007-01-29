@@ -175,6 +175,13 @@ Special Flamey dispensers (volcano, pot with fire) might throw new Flameies onto
 Flamey might react special to the ice-flower.
 <br clear="all" />
 
+=== Water Droplet ===
+[[Image:Waterdroplet.png|thumbnails|right|Water Droplet]]
+Water Droplet might behave similarly like Flamey, only instead of fire, they are build out of water. Ice-flower might turn them into an ice-enemy. Multiple water droplets can merge and they can be dispensed from a leaking pipe. 
+
+How they interact with Tux is open for discussion.
+<br clear="all" />
+
 === Ghosts ===
 [[Image:Ghost-sprite.png|thumbnail|right|Ghosts]]
 Basic ghosts float around on a fixed path in a sinus-wave like pattern. There may be different kinds of ghosts that follow different patterns as well as ghosts that are inflatable and grow in size on specific events.
