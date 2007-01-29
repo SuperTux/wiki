@@ -59,6 +59,7 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 * water, in its simplistic tile form, shall be removed from all levels
 * uni-solid/half-tiles shall be used to enhance the levels and provide optional paths
 * bottom-less pits shall be either replaced by pits with spike at the bottom or allow Tux to climb back out of the pit
+[[Image:Crystallo.png|thumbnail|right|Crystallo]]
 * there shall be auto-scrolling levels that force Tux to run by having a avalanche coming down behind him, the avalanche might either be simple snow or a large group of enemies
 * the castle tileset shall be replaced with something that looks colder and features both snow and ice
 * cave tileset shall be replaced with something that has a larger pattern, thus looks less ugly when tiled
