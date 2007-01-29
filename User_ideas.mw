@@ -476,4 +476,4 @@ It should be possible to collect coins by shooting at them with the fire flower 
 * No, but maybe get coins for killing badguys?
 
 ====Pay for restart at reset point, not for dying====
-This has been proposed on the [[http://supertux.lethargik.org/bugs/view.php?id=141|bug tracker]]. It would mean that Tux doesn't have to pay 25 coins as a penalty for dying. Instead he buys the ability to restart at a reset point. In practice, it would mean that Tux doesn't have to pay when he hasn't activated a reset point yet. It would make the cost seem less like a penalty and more like a trade-off. (Plus, restarting from the beginning is always possible from the worldmap.)
+This has been proposed on the [http://supertux.lethargik.org/bugs/view.php?id=141|bug tracker]. It would mean that Tux doesn't have to pay 25 coins as a penalty for dying. Instead he buys the ability to restart at a reset point. In practice, it would mean that Tux doesn't have to pay when he hasn't activated a reset point yet. It would make the cost seem less like a penalty and more like a trade-off. (Plus, restarting from the beginning is always possible from the worldmap.)
