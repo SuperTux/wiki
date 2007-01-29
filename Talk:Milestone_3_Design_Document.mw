@@ -3,6 +3,7 @@
 
 : We could use small supertux levels instead of the main menu. So you could navigate through some doors to the game or install addons by grabbing and dropping boxes :) The only menu left would be the Escape/Pause menu where you can setup controls --[[User:MatzeB|MatzeB]] 19:07, 29 January 2007 (UTC)
 ::That's a fun idea :). This could be integrated/related to grumbel's Walrus shop. - [[User:Sik0fewl|sik0fewl]] 21:06, 29 January 2007 (UTC)
+:::There has been a "main menu"-style test level in data/levels/test/menutest.stl for some time now. It could be a starting point for further tests. --[[User:Sommer|Sommer]] 21:34, 29 January 2007 (UTC)
 
 : Storryteller voice over for intro is not a good idea, as it's hard to find translators for that. So we should avoid spoken text as much as possible IMO.
 :: Don't think that would be an issue at all, those who don't get translation, simply get english voice overs and translated sub-titles. Anyway, voice over are just a idea which one could try out, without a good speaker it wouldn't be much fun to begin with. -- [[User:Grumbel|Grumbel]] 20:53, 29 January 2007 (UTC)
