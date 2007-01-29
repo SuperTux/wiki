@@ -237,6 +237,7 @@ What contrib levels contain ideas that might be worth to recycle?
 * bitmaped backgrounds: shall be replaced with parallax scrolling ones.
 * main menu: could use some serious polishing, simply fill-rect background looks ugly
 * save system: very counter intuitive to get asked for a new save state for contrib levels
+* Tux rap in the intro: must not make its way into Milestone2
 
 = Tasks =
 
