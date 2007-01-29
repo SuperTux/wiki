@@ -3,8 +3,10 @@
 : We could use small supertux levels instead of the main menu. So you could navigate through some doors to the game or install addons by grabbing and dropping boxes :) The only menu left would be the Escape/Pause menu where you can setup controls --[[User:MatzeB|MatzeB]] 19:07, 29 January 2007 (UTC)
 
 : Storryteller voice over for intro is not a good idea, as it's hard to find translators for that. So we should avoid spoken text as much as possible IMO.
+:: Don't think that would be an issue at all, those who don't get translation, simply get english voice overs and translated sub-titles. Anyway, voice over are just a idea which one could try out, without a good speaker it wouldn't be much fun to begin with. -- [[User:Grumbel|Grumbel]] 20:53, 29 January 2007 (UTC)
 
 : I really prefer a non-linear worldmap. I would vote against reusing the M1 worldmap.
+:: Nothing wrong with adding a few additional paths to the M1 worldmap, but the current worldmap in SVN is simply a illogical mess with levels everywhere, except where they should be.  Some linearity is simply needed to give the player a reason to actually play the levels at all. -- [[User:Grumbel|Grumbel]] 20:53, 29 January 2007 (UTC)
 
 == Brainstorming of forest things... ==
 
