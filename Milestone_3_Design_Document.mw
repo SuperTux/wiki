@@ -199,6 +199,13 @@ Angry stone is attached to the roof of a level, once Tux gets close to him (one 
 
 <br clear="all" />
 
+=== Carnivorous Plant === 
+
+[[Image:Plant.png|thumbnail|right|Carnivorous Plant]]
+Plant is fixed on the ground, when Tux gets close it starts to reach for him. When walking slowly it might be possible to walk by a plant without waking her and thus getting killed.
+
+<br clear="all" />
+
 = Editor =
 
 * editor needs a minimap, like Flexlay
