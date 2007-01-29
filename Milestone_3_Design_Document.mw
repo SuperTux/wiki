@@ -238,6 +238,10 @@ What contrib levels contain ideas that might be worth to recycle?
 * main menu: could use some serious polishing, simply fill-rect background looks ugly
 * save system: very counter intuitive to get asked for a new save state for contrib levels
 
+= Tasks =
+
+* develop two showcase levels, one for the ice world another for the forest world, that demonstrate graphics, enemy and objects that will be featured in Milestone2
+
 = Miscellaneous =
 <gallery>
 Image:Woodpipe.png|Wood Pipe
