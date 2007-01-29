@@ -17,3 +17,27 @@ Ice Forest, Ageless Forest, Dead Forest, Fiendish Forest, Nolok's Forest, Forest
 More stuff to build alliterations from:
 
 Fable, Familiar, Fairy, Fateful, Forked, Fallow, Fancy, Fantasy, Fearless, Fetid, Fleeting, Folly, Former, Frail, Fretful, Friendly, Furrowed, Forest, Fields, Fallow, Fringe, Fang
+
+==New Engine Features==
+
+* Falling Leaves particle system
+* rising lava/water
+* moving platforms (branches that move a bit up and down, or logs falling down a waterfall)
+* support for cutscenes (done in a lisp file) in a level
+* sound triggers in some areas (cuckoo or woodpecker sound in some part of the level)
+* sound triggers when touching objects (ripple sound when walking on a steam)
+* Rocks that you can carry around to reach higher places
+* A bug enemy (or several sorts of bugs?)
+* An ant enemy
+* A branch enemy (a branch of a big tree that tries to beat tux, or simply moves up/down)
+* uneven tiles so you can have some small hills
+* Multiple sectors (ie. you can enter tree by walking into some holes)
+* (We might experiment with some shadow effects that you get with moving branches?)
+* bouncy branch, a branch that makes you bounce very high into the air.
+
+
+
+=== Concept art ===
+
+[[Image:Snow forest sm.png]]
+[[Image:Castledoor small.png]]
