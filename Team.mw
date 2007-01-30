@@ -64,3 +64,25 @@ This page should give an over view about the currently active members of the dev
 |-
 | Currently working on: || More small bug fixes and features, sometimes updating the documentation, guarding OS X compatibility
 |}
+
+----
+
+{|
+| Realname: || Timothy Goya
+|-
+| Nickname: || tuxdev
+|-
+| EMail: || tuxdev103@gmail.com
+|-
+| Icq: || None
+|-
+| JabberID: || tuxdev103@gmail.com or tuxdev103@jabber.org
+|-
+| Abilities: || C/C++, Java, Ruby, Lisp, Bash, SDL, SWT/JFace 
+|-
+| OS: || Slackware Linux
+|-
+| Work on in the past: || Some bug fixes, build system maintenance.
+|-
+| Currently working on: || Bugs, TODO items (Also known as Bugs), #include refactoring
+|}
