@@ -1,5 +1,6 @@
 == Comments ==
 : Making saveslot selection the very first thing in the game (before the mainmenu pops up) might be a good idea --[[User:MatzeB|MatzeB]] 19:07, 29 January 2007 (UTC)
+::Why? --[[User:Superdev|Superdev]] 22:51, 30 January 2007 (UTC)
 
 : We could use small supertux levels instead of the main menu. So you could navigate through some doors to the game or install addons by grabbing and dropping boxes :) The only menu left would be the Escape/Pause menu where you can setup controls --[[User:MatzeB|MatzeB]] 19:07, 29 January 2007 (UTC)
 ::That's a fun idea :). This could be integrated/related to grumbel's Walrus shop. - [[User:Sik0fewl|sik0fewl]] 21:06, 29 January 2007 (UTC)
@@ -11,11 +12,14 @@
 : I really prefer a non-linear worldmap. I would vote against reusing the M1 worldmap.
 :: Nothing wrong with adding a few additional paths to the M1 worldmap, but the current worldmap in SVN is simply a illogical mess with levels everywhere, except where they should be.  Some linearity is simply needed to give the player a reason to actually play the levels at all. -- [[User:Grumbel|Grumbel]] 20:53, 29 January 2007 (UTC)
 :: I agree. I would say the one in subversion is even worse than M1. Having entire branch(es) that are totally useless (ie, doesn't help you complete the game) are, well... totally useless :). I think the levels should either be integrated into the island better (ie, have alternate paths to complete the game or paths to bonuses like SMB's mushroom hut, etc) or they should be moved into Bonus Islands. Perhaps we could do a bit of both. - [[User:Sik0fewl|sik0fewl]] 21:06, 29 January 2007 (UTC)
+:::So you play the levels because you have to, not for fun? --[[User:Superdev|Superdev]] 22:51, 30 January 2007 (UTC)
 
 : I don't understand why it says "bottom-less pits shall be either replaced by pits with spike at the bottom or allow Tux to climb back out of the pit." The only difference if Tux falls into a pit with spikes at the bottom versus a bottomless pit is that it takes him longer to die. The pits with spikes in the forest world are much more annoying than the bottomless pits because you have to sit there and watch Tux slowly die without being able to do anything about it. I'd prefer to keep it as is with having bottomless pits. [[User:Cooljeanius|Cooljeanius]] 20:47, 30 January 2007 (UTC)
+::What about instant kill spikes? Something like lava but with a texture that fits in ice/forest. --[[User:Superdev|Superdev]] 22:51, 30 January 2007 (UTC)
 
 : Mailing list often overrun by non-development people, making it hard to discuss core game features - (from document)
 :: One option is to use the bugtracker to discuss these features and set the ticket as "private" so that only developers can see it. This might be abuse of the tracker, depending on the issue being discussed, but it would certainly work. Alternatively I could set up a list that only developers can post to and even view(?). - [[User:Sik0fewl|sik0fewl]] 20:52, 30 January 2007 (UTC)
+::Mailing list is better. The bugtracker is complex enough already. For mails you don't even have to be online. --[[User:Superdev|Superdev]] 22:51, 30 January 2007 (UTC)
 
 == Brainstorming of forest things... ==
 
