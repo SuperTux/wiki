@@ -41,7 +41,8 @@ The shop is a little house accessible via the worldmap, it provides the player w
 * multi-layer paralax scrolling background tilemaps shall be used in all levels
 * menu system should be replaced/reworked
 * save system could need a rework as well
-* language shall be changable via the option menu, LANG environment variable shall only be used as default setting
+* language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
+* worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
 
 = World 1 - Icyisland =
 
