@@ -1,19 +1,19 @@
 {|
-| '''Realname:''' || {{{real}}}
+|style="vertical-align: top"| '''Realname:''' || {{{real}}}
 |-
-| '''Nickname:''' || {{{nick}}} 
+|style="vertical-align: top"| '''Nickname:''' || {{{nick}}} 
 |-
-| '''EMail:''' || {{{email}}}
+|style="vertical-align: top"| '''EMail:''' || {{{email}}}
 |-
-| '''Icq:''' || {{{icq|None}}}
+|style="vertical-align: top"| '''Icq:''' || {{{icq|None}}}
 |-
-| '''JabberID:''' || {{{jabber|None}}}
+|style="vertical-align: top"| '''JabberID:''' || {{{jabber|None}}}
 |-
-| '''Abilities:''' || {{{abilities}}}
+|style="vertical-align: top"| '''Abilities:''' || {{{abilities}}}
 |-
-| '''OS:''' || {{{os}}}
+|style="vertical-align: top"| '''OS:''' || {{{os}}}
 |-
-|style="white-space: nowrap"| '''Work on in the past:''' || {{{past}}}
+|style="white-space: nowrap; vertical-align: top"| '''Work on in the past:''' || {{{past}}}
 |-
-|style="white-space: nowrap"| '''Currently working on:''' || {{{current}}}
+|style="white-space: nowrap; vertical-align: top"| '''Currently working on:''' || {{{current}}}
 |}
