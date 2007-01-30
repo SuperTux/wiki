@@ -13,7 +13,7 @@
 |-
 |style="vertical-align: top"| '''OS:''' || {{{os}}}
 |-
-|style="white-space: nowrap; vertical-align: top"| '''Work on in the past:''' || {{{past}}}
+|style="white-space: nowrap; vertical-align: top; padding-right: 0.5em;"| '''Work on in the past:''' || {{{past}}}
 |-
-|style="white-space: nowrap; vertical-align: top"| '''Currently working on:''' || {{{current}}}
+|style="white-space: nowrap; vertical-align: top; padding-right: 0.5em;"| '''Currently working on:''' || {{{current}}}
 |}
