@@ -66,48 +66,27 @@ This page should give an over view about the currently active members of the dev
 |}
 
 ----
-
-{|
-| Realname: || Timothy Goya
-|-
-| Nickname: || tuxdev
-|-
-| EMail: || tuxdev103@gmail.com
-|-
-| Icq: || None
-|-
-| JabberID: || tuxdev103@gmail.com or tuxdev103@jabber.org
-|-
-| Abilities: || C/C++, Java, Ruby, Lisp, Bash, SDL, SWT/JFace 
-|-
-| OS: || Slackware Linux
-|-
-| Work on in the past: || Some bug fixes, build system maintenance.
-|-
-| Currently working on: || Bugs, TODO items (Also known as Bugs), #include refactoring
-|}
+{{Developer
+|real=Timothy Goya
+|nick=tuxdev
+|email=tuxdev103@gmail.com
+|jabber=tuxdev103@gmail.com or tuxdev103@jabber.org
+|abilities=C/C++, Java, Ruby, Lisp, Bash, SDL, SWT/JFace 
+|os=Slackware Linux
+|past=Some bug fixes, build system maintenance.
+|current=Bugs, TODO items (Also known as Bugs), #include refactoring}}
 
 ---- 
 
-{|
-| Realname: || Ryan Flegel
-|-
-| Nickname: || sik0fewl
-|-
-| EMail: || rflegel@gmail.com
-|-
-| Icq: || None
-|-
-| JabberID: || None
-|-
-| Abilities: || C/C++, Python, PHP, Bash, SDL
-|-
-| OS: || Gentoo Linux
-|-
-| Work on in the past: || General coding; no areas in particular.
-|-
-| Currently working on: || Maintaining website, etc. Inactive as a programmer.
-|}
+{{Developer
+|real=Ryan Flegel
+|nick=sik0fewl
+|email=rflegel@gmail.com
+|abilities=C/C++, Python, PHP, Bash, SDL
+|os=Gentoo Linux
+|past=General coding; no areas in particular.
+|current=Maintaining website, etc. Inactive as a programmer.
+}}
 
 ----
 <!-- No I don't put out my last name on the web like that really, it is quite uncommon so it would be quite simple to track me down. -->
