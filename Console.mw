@@ -13,6 +13,7 @@ By default no key is assigned to opening the console. This can be done by editin
         (control "console")
       )
 
+Then, you will have to run supertux using the <tt>--console</tt> option.
 
 == Commands ==
 
