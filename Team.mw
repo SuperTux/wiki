@@ -42,3 +42,25 @@ This page should give an over view about the currently active members of the dev
 |-
 | Currently working on: || Little bug fixes here and there for milestone2. If I find time, then I might look at improving the camera, extending CD for some new features, improving general robustness and bugfixes, and implementing some of the cool features in the milestone2 design document.
 |}
+
+----
+
+{|
+| Realname: || Ondřej (or Ondra) Hošek
+|-
+| Nickname: || Ravu al Hemio
+|-
+| EMail: || ondra.hosek@gmail.com
+|-
+| Icq: || 118901884
+|-
+| JabberID: || ondra.hosek@gmail.com or ondra.hosek@jabber.org
+|-
+| Abilities: || C/C++, C#, Python, PHP, SQL, bash scripting
+|-
+| OS: || Ubuntu Linux, Windows XP, Mac OS X 10.4 (developing mainly on OS X and a bit on Ubuntu)
+|-
+| Work on in the past: || Some of the documentation, small bug fixes and even smaller features
+|-
+| Currently working on: || More small bug fixes and features, sometimes updating the documentation, guarding OS X compatibility
+|}
