@@ -242,6 +242,11 @@ What contrib levels contain ideas that might be worth to recycle?
 * Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good,  Tux should simply have infinitive lives
 * Reset Points: they don't look good and for most part don't do anything good, instead of having reset points levels should simply be made small enough so that they don't need reset points
 
+= Disfavored Practices in Current Development =
+
+* Bug fixing: while some is obviously necessary, to much time is spend fixing bugs in levels or code that might be removed later in the development of Milestone2
+* Feature addition without discussion first
+
 = Tasks =
 
 * develop two showcase levels, one for the ice world another for the forest world, that demonstrate graphics, enemy and objects that will be featured in Milestone2
