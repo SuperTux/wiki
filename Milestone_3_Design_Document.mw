@@ -242,6 +242,7 @@ What contrib levels contain ideas that might be worth to recycle?
 * Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good,  Tux should simply have infinitive lives
 * Reset Points: they don't look good and for most part don't do anything good, instead of having reset points levels should simply be made small enough so that they don't need reset points
 * Tux superpowers: hat is ''really'' ugly and shall go, even old red-Tux was way better
+* Tux split sprite: shall be rolled back to the single-image one of Milestone1
 
 = Disfavored Practices in Current Development =
 
