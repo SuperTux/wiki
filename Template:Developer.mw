@@ -1,0 +1,19 @@
+{|
+| Realname: || {{{real}}}
+|-
+| Nickname: || {{{nick}}} 
+|-
+| EMail: || {{{email}}}
+|-
+| Icq: || {{{icq=None}}}
+|-
+| JabberID: || {{{jabber=None}}}
+|-
+| Abilities: || {{{abil}}}
+|-
+| OS: || {{{OS}}}
+|-
+| Work on in the past: || {{{past}}}
+|-
+| Currently working on: || {{{current}}}
+|}
