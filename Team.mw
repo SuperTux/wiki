@@ -20,3 +20,23 @@ This page should give an over view about the currently active members of the dev
 |-
 | Currently working on: || Milestone 2 Design Document, Enemy design and new graphics for Milestone2, no work on code beside little bug fixing here and there
 |}
+
+{|
+| Realname: || Matthias Braun
+|-
+| Nickname: || MatzeB
+|-
+| EMail: || mazte@braunis.de
+|-
+| Icq: || ask me please
+|-
+| JabberID: || ask me please
+|-
+| Abilities: || C/C++, C#, Java, x86 assembler, Ruby, Python, PHP, Perl, bash scripting, autotools, SDL, OpenGL, ...
+|-
+| OS: || Gentoo GNU/Linux
+|-
+| Work on in the past: || Lots of work in the coding section. Designed and created: Collision Detection, Camera, Scripting, Miniswig, gameobject hierarchy, gtk#/c# based level editor, lisp parsing. Comments and small contributions to game design.
+|-
+| Currently working on: || Little bug fixes here and there for milestone2. If I find time, then I might look at improving the camera, extending CD for some new features, improving general robustness and bugfixes, and implementing some of the cool features in the milestone2 design document.
+|}
