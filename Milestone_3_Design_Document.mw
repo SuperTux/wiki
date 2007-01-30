@@ -75,6 +75,14 @@ Tux body catches a lot of hot air and thus starts to float. This action is trigg
 
 <br clear="all" />
 
+== Swimming == 
+Since Tux is a penguin he has a good ability to swim. Water will not harm him. Swimming works by basically having two modes:
+
+* 'standing': Tux stands still in the water, via the directional controls he can move up/down/left/right, this mode is very slow, but exact
+* 'swimming': by pressing a button Tux can go into swim mode, in this mode he swims at fast speed, can crush blocks with ramming them and perform jumps out of the water
+
+<br clear="all" />
+
 = World 1 - Icyisland =
 
 World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done:
