@@ -279,6 +279,11 @@ Plant is fixed on the ground, when Tux gets close it starts to reach for him. Wh
 
 <br clear="all" />
 
+=== Lava Animal === 
+A creature that lives in the lava and jumps at Tux every now and then.
+
+<br clear="all" />
+
 = Editor =
 
 * editor needs a minimap, like Flexlay
