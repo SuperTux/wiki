@@ -133,7 +133,13 @@ The ghost forest is a world that exists in parallel to the normal forest. Instea
 The worldmap shall exist in both the ghost as well as the normal mode, paths might differ, so that walking around might require to transit from one world to the other.
 
 
+<br clear="all" />
+
 == Game Elements ==
+
+=== Rising Lava/Water ===
+
+The water or lava that will be in some levels will be able to rise. Rising will either be automatic or triggered by switched. The rising lava will lead to drastic increase of danger and force Tux to make it quickly through some areas before the lava reaches him. While water will allow Tux to swim up to places which would otherwise unreachable.
 
 === Ladder === 
 
