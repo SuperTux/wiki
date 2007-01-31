@@ -35,7 +35,7 @@ These stones can be pushable so they start rolling.
 #Can be pushed to roll over enemies so they die.
 #Can be pushed to places and then jumped upon to jump from the stone to reach higher places which are otherwise unreachable.
 #Can be pushed onto a switch to trigger the switch to trigger something, such as opening/unlocking a door/bridge, etc.
-[Rock]
+[[Rock]]
 
 == Pushable crates ==
 Kind of similar to the above mentioned "rollable/pushable stone". But these can only be pushed and not rolled. Can not harm enemies.
