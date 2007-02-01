@@ -5,3 +5,4 @@ I wasn't able to get the windows version of the SVN level editor as linked at [h
 :The full error message is needed for us to help you. It worked for me last time I tested on windows. And as far as I remember the editor converts \ to / and vice versa as needed. Anyway please use the [http://supertux.lethargik.org/bugs/ bug tracker] for bugs. It should not go on the editor faq talk page. --[[User:AnMaster|AnMaster]] 07:29, 19 January 2007 (PST)
 
 The version of Mono in the Ubuntu repositories seems to be to old to run the editor, resulting in the "Object reference not set to an instance of an object" error. How can I get a version of Mono in Ubuntu that works with the editor?
+:Hm I don't run Ubuntu so I don't know, I will ask people some who use Ubuntu next time I see them. --[[User:AnMaster|AnMaster]] 08:02, 1 February 2007 (UTC)
