@@ -3,3 +3,5 @@ Hi. I don't want to be a pain, so I apologize if this is stupid. How do you plac
 
 I wasn't able to get the windows version of the SVN level editor as linked at [http://supertux.lethargik.org/wiki/Download/Installation] to work, as it will not accept the provided directory defaults - I think it may be due to the dos directory convention of using "\" instead of "/"  ? (my windows pc is out of action at the moment but it appeared to say something to the effect of "cannot find E:\SuperTux\/whatever") -R A
 :The full error message is needed for us to help you. It worked for me last time I tested on windows. And as far as I remember the editor converts \ to / and vice versa as needed. Anyway please use the [http://supertux.lethargik.org/bugs/ bug tracker] for bugs. It should not go on the editor faq talk page. --[[User:AnMaster|AnMaster]] 07:29, 19 January 2007 (PST)
+
+The version of Mono in the Ubuntu repositories seems to be to old to run the editor, resulting in the "Object reference not set to an instance of an object" error. How can I get a version of Mono in Ubuntu that works with the editor?
