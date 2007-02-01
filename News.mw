@@ -17,7 +17,6 @@ __NOTOC__
 
 ==2007-01-20==
 
-SVN:
 * Console also autocompletes full common prefix on multiple matches.
 * In Tux starts running automatically when he reached max walk speed. As before, if he is carrying something Tux can only walk. To reduce the speed to 'walk', hold the 'Action' key.
 
