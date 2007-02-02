@@ -386,6 +386,16 @@ When you type the name of a specific badguy, Tux looks like that badguy.
 === 1.0 ===
 I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 "SuperTux 1.0"? Most people think when they see "0.2" that it is some crappy beta version, which milestone 2 obviously is not. [[User:Cristan|Cristan]] 00:38, 26 Oct 2006 (CEST)
 
+===Superpower mass effect===
+Whenever Tux has a powerup (fire/ice/whatever), a key combo may generate a big (almost whole screen) instant burning/frosting/whatever area (fancy graphics) that results in only one fire/ice/whatever shot effect for each enemy/burnable block/item in the area (this includes the potential bad-side effects). Once this ability is performed, Tux will lose the fire/ice/whatever ability and return to the normal bigTux.
+
+I think this won't unbalance the game. The fact that with a fire/ice hat you have an unlimited fire/ice shot supply is pretty much useful than just an instant fire/ice area. You still could just kill every enemy in the screen by shooting and you still keep the powerup. Different ways with different difficulty and rewards will improve the game IMO. This feature could bring more fanciness and originality to the game along with more possible puzzles involving this ability (Ej: you need to burn a block that is out of range so that it makes a rock fall and push a button). --[[User:Ferk|Ferk]] 10:50, 2 February 2007 (UTC)
+
+===Improved Tux surroundings viewing===
+With some keypress the camera zooms out (to 175% for example), so everything looks small and you have a wider scope of the surroundings. As long as you keep the key pressed you can use the arrow keys to move the camera between certain limits (tux should be always visible). 
+This would enhance the usability of puzzle-oriented maps that had big schemes (buttons that has effect at farther different places) and would make use of the fancy features of OpenGL. --[[User:Ferk|Ferk]] 11:35, 2 February 2007 (UTC)
+
+
 ===One-Liners===
 smallfoot made a page, see [[Smallfoot's ideas]].
 :Are they so bad that they need a separate page?
@@ -478,8 +488,3 @@ It should be possible to collect coins by shooting at them with the fire flower 
 
 ====Pay for restart at reset point, not for dying====
 This has been proposed as Issue 141. It would mean that Tux doesn't have to pay 25 coins as a penalty for dying. Instead he buys the ability to restart at a reset point. In practice, it would mean that Tux doesn't have to pay when he hasn't activated a reset point yet. It would make the cost seem less like a penalty and more like a trade-off. (Plus, restarting from the beginning is always possible from the worldmap.)
-
-====Superpower mass effect====
-Whenever Tux has a powerup (fire/ice/whatever), a key combo may generate a big (almost whole screen) instant burning/frosting/whatever area (fancy graphics) that results in only one fire/ice/whatever shot effect for each enemy/burnable block/item in the area (this includes the potential bad-side effects). Once this ability is performed, Tux will lose the fire/ice/whatever ability and return to the normal bigTux.
-
-I think this won't unbalance the game. The fact that with a fire/ice hat you have an unlimited fire/ice shot supply is pretty much useful than just an instant fire/ice area. You still could just kill every enemy in the screen by shooting and you still keep the powerup. Different ways with different difficulty and rewards will improve the game IMO. This feature could bring more fanciness and originality to the game along with more possible puzzles involving this ability (Ej: you need to burn a block that is out of range so that it makes a rock fall and push a button). --[[User:Ferk|Ferk]] 10:50, 2 February 2007 (UTC)
