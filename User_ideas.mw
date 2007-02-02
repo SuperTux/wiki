@@ -393,8 +393,7 @@ I think this won't unbalance the game. The fact that with a fire/ice hat you hav
 
 ===Improved Tux surroundings viewing===
 With some keypress the camera zooms out (to 175% for example), so everything looks small and you have a wider scope of the surroundings. As long as you keep the key pressed you can use the arrow keys to move the camera between certain limits (tux should be always visible). 
-This would enhance the usability of puzzle-oriented maps that had big schemes (buttons that has effect at farther different places) and would make use of the fancy features of OpenGL. --[[User:Ferk|Ferk]] 11:35, 2 February 2007 (UTC)
-
+This would enhance the usability of puzzle-oriented maps that had big schemes (buttons that had an effect at farther different places) and would make use of the fancy features of OpenGL. --[[User:Ferk|Ferk]] 11:35, 2 February 2007 (UTC)
 
 ===One-Liners===
 smallfoot made a page, see [[Smallfoot's ideas]].
