@@ -43,7 +43,7 @@ Shylence 14:31, 23 Oct 2006 (CEST)
 
 
 The rotation angle could be uncomfortable.
-I think that instead of making an actual permanent rotation, just make use of the 8 directional gamepad. I mean..  make Tux sprite *look* like 45º rotated when you press both up and right arrows and perform a up and right movement simultaneusly. The last movement direction will be kept after releasing the buttons, but you could press the right arrow after that and make the Tux sprite return to the horizontal angle (although it could have a bit of vertical velocity due to the prior acceleration). There could be no need for a new collision detection code afterall. --[[User:Ferk|Ferk]] 13:41, 2 February 2007 (UTC)
+I think that instead of making an actual permanent rotation, just make use of the 8 directional gamepad. I mean..  make Tux sprite *look* like 45º rotated when you press both up and right arrows and perform a up and right movement simultaneusly. The last movement direction will be kept after releasing the buttons, but you could press the right arrow after that and make the Tux sprite return to the horizontal angle (although it could have a bit of vertical velocity due to the prior acceleration). There could be no need for a new collision detection code afterall, you don't need to rotate rectangles, just reorganize them (horizontal tux, vertical tux and 45º rotated tux, no more angles needed). --[[User:Ferk|Ferk]] 13:41, 2 February 2007 (UTC)
 
 
 [[Category:Action]]
