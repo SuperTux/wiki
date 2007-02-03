@@ -151,6 +151,8 @@ The water or lava that will be in some levels will be able to rise. Rising will 
 
 Allows Tux to climb up.
 
+Status: Implemented as GameObject, not via TileMap, which has its advantages (easier to z-sort) as well as disadvantages (harder to handle in editor)
+
 <br clear="all" />
 
 == World 2 Enemies ==
