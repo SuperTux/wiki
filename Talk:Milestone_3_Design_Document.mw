@@ -66,3 +66,9 @@ Fable, Familiar, Fairy, Fateful, Forked, Fallow, Fancy, Fantasy, Fearless, Fetid
 
 [[Image:Snow forest sm.png]]
 [[Image:Castledoor small.png]]
+
+== Ladders ==
+
+Another problem with climbing as GameObject instead of tile attribute is that now tiles that look the same can behave completely different.
+Sooner or later there will be levels with surprises like "oh you have to climb THAT in here" and "AAAAAAAAAAAH, you can no longer climb this
+convenient tiles above the lava".
