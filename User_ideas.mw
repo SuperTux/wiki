@@ -67,6 +67,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 *'''Helmet'''Tux could wear a helmet, stopping attacks from above, when he ducks he pulls it over himself, making him invincible
 *'''Scrolling''' in menu so that we can access all the test collection directly from the game. Currently it just overflows outside the screen and can only be accessed blindly through keyboard.
 ** This is a must. I don't nderstand why isn't it still here..
+:::You did not implement it. I don't think it is that urgent. Real worlds have a worldmap, to test something you can use command line or call level from editor anyway. --[[User:Superdev|Superdev]] 22:14, 7 February 2007 (UTC)
 
 ==Rejected==
 
