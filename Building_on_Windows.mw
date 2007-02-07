@@ -20,7 +20,7 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 
 === It's Download Time ===
 
-* Download and install [http://www.mingw.org/ MinGW] - I chose [http://prdownloads.sf.net/mingw/MinGW-5.0.0.exe?download MinGW-5.0.0]
+* Download and install [http://www.mingw.org/ MinGW] ([http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=82721&release_id=158801 from SourceForge])
 ** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy.
 ** The default folder of c:\MinGW was alright with me, as I installed on a development installation of Windows. I'll just assume we installed there.
 
