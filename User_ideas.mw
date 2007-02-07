@@ -453,6 +453,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *:::Doesn't sound useful for anything. --[[User:AnMaster|AnMaster]] 15:03, 21 January 2007 (UTC)
 *::::Did you ever play Short Visit to El Castillo? It would be very useful if the foreground could fade away so you can see tux.
 *:::::I have played that level of course... (I'm a SuperTux developer after all...) And I don't see what you mean. The trees directly after the start or what? The secret area fades in it iirc (at least it does in trunk, not sure about 0.3.0) --[[User:AnMaster|AnMaster]] 18:04, 21 January 2007 (UTC)
+*::::::AnMaster, i think it was about the building, like, from the outside you don't see what is inside, but when you fall into the hole in ceiling the from tilemap fades and you see what's inside. Got it?
 * '''More options''': Especially being able to switch between the old and new behavior for running with the action key pressed.
 :Problem: You have to test all the options. Every time you change anything. Does it work with ALL combinations? PITA.
 
