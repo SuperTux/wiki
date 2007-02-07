@@ -91,12 +91,26 @@ Please add yourself to this list if you are working on a new translation, so tha
 | r4415
 | 99%
 |-
+| (European) Spanish
+| es
+| Fernando Carmona <ferkiwi § gmail .com>
+| 0.3.0
+| r4415
+| 
+|-
 | French
 | fr
 | Frederic Rodrigo <f.rodrigo@tuxfamily.org>
 |
 | r2430
 | Translation outdated, translator unreachable
+|-
+| Hungarian
+| hu
+| Kővágó Zoltán (DirtY iCE) <DirtY.iCE.hu (AT) gmail dot com >
+| 0.3.0
+| r4458
+| 
 |-
 | Italian
 | it
@@ -105,18 +119,25 @@ Please add yourself to this list if you are working on a new translation, so tha
 | r2430
 | Translation outdated, translator unreachable
 |-
-| Dutch
-| nl
-| Frank van der Loo <frank_l@linuxmail.org>
+| Japanese
+| ja
+| Timothy Goya <tuxdev103 (AT) gmail DOT com>
 |
-| r2430
-| Work in progress...
+|
+| Work in Progress
 |-
 | Lithuanian
 | lt
 | Andrius Štikonas <stikonas AT gmail DOT com>
 |
 | r4695
+| Work in progress...
+|-
+| Dutch
+| nl
+| Frank van der Loo <frank_l@linuxmail.org>
+|
+| r2430
 | Work in progress...
 |-
 | Norwegian Nynorsk
@@ -154,36 +175,12 @@ Please add yourself to this list if you are working on a new translation, so tha
 | r4415
 | 90%
 |-
-| (European) Spanish
-| es
-| Fernando Carmona <ferkiwi § gmail .com>
-| 0.3.0
-| r4415
-| 
-|-
 | Swedish
 | sv
 | Arvid Norlander <anmaster (AT) berlios DOT de>
 | 0.3.0
 | r4415
 | not 100% complete
-|-
-| Japanese
-| ja
-| Timothy Goya <tuxdev103 (AT) gmail DOT com>
-|
-|
-| Work in Progress
-|-
-| Hungarian
-| hu
-| Kővágó Zoltán (DirtY iCE) <DirtY.iCE.hu (AT) gmail dot com >
-| 
-| r4458
-| 
 |}
-
-
-
 
 [[Category:Developer documentation]]
