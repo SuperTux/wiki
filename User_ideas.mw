@@ -66,6 +66,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 ** Already in SVN (see level "Knee-deep in the depth")
 *'''Helmet'''Tux could wear a helmet, stopping attacks from above, when he ducks he pulls it over himself, making him invincible
 *'''Scrolling''' in menu so that we can access all the test collection directly from the game. Currently it just overflows outside the screen and can only be accessed blindly through keyboard.
+** This is a must. I don't nderstand why isn't it still here..
 
 ==Rejected==
 
