@@ -79,6 +79,7 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 
  cd /build/supertux/
  cp /usr/local/bin/*.dll .
+ cp /usr/local/lib/libcurl-4.dll .
  ./autogen.sh
  LIBS="-L/usr/local/lib -lvorbisenc -lvorbisfile -lvorbis -logg" CFLAGS="-I/usr/local/include" configure --enable-debug
  jam
