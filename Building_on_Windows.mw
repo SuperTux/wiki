@@ -43,6 +43,9 @@ OK, enough of that. Here are the exact steps for building SuperTux (pre-0.2) on 
 * Download the SuperTux lib package - I chose [http://download.berlios.de/supertux/supertux-msys-libs-2006-03-21.tar.bz2 supertux-msys-libs-2006-03-21]
 ** save this to C:\msys\1.0, we will unpack it later
 
+* If you want to use the SuperTux Add-On Manager, download libcurl - I chose [http://curl.haxx.se/download/libcurl-7.16.0-win32-nossl.zip libcurl-7.16.0-win32-nossl]
+** extract the included bin, include and lib folders as subfolders of C:\msys\1.0
+
 * Download and install [http://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
 ** install and reboot to finish the installation
 
