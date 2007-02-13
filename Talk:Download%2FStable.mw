@@ -1,3 +1,5 @@
 == Remove the Debian/Ubuntu header! ==
 
 Ubuntu doesn't have the stable version of SuperTux anymore. Until the [https://launchpad.net/ubuntu/+source/supertux/+bug/84084 situation is clarified], remove the header, or at least add a warning notice.
+
+Prout
