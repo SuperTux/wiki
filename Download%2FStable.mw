@@ -12,9 +12,16 @@ and execute it. You can find a more detailed explanation [http://autopackage.org
 This distribution includes a supertux package. Just do the usual emerge (as root):
  emerge supertux
 
-==== Debian/Ubuntu Linux ====
+==== Debian GNU/Linux ====
 This distribution includes a supertux package. Just do the usual apt-get or install the package with synaptic.
  apt-get install supertux
+
+==== Ubuntu ====
+
+This distribution includes a supertux package. Just do the usual apt-get or install the package with synaptic.
+ apt-get install supertux
+
+Note that Ubuntu unstable currently no longer has the stable version, but only the unstable preview build.
 
 ==== SuSE Linux ====
 This distribution includes a supertux package. Use yast to install it:
