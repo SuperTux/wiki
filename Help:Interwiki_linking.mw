@@ -9,4 +9,90 @@ For setting up interwiki links, you might need to edit the Database.
 
 ==Interwiki links to other projects==
 ===Default===
-Several Wikimedia-Projects (and others) are ready for interwiki linking by default, so you can use them without editing your database. However, the mother of all Wikimedia-projects
+Several Wikimedia-Projects (and others) are ready for interwiki linking by default, so you can use them without editing your database. However, the mother of all Wikimedia-projects &mdash; the Wikipedia itself &mdash; is for some reason missing.
+{| {{prettytable}}
+|{{Hl3}} align="center"|'''prefix'''
+|{{Hl3}} align="center"|'''direction'''
+|{{Hl3}} align="center"|'''usage example'''
+|-
+|commons
+|<nowiki>http://commons.wikimedia.org/wiki/</nowiki>
+|<code><nowiki>[[commons:MediaWiki]]</nowiki></code>
+|-
+|mediazilla
+|<nowiki>http://bugzilla.wikipedia.org/</nowiki>
+|<code><nowiki>[[mediazilla:1209]]</nowiki></code>
+|-
+|meta
+|<nowiki>http://meta.wikimedia.org/wiki/</nowiki>
+|<code><nowiki>[[meta:Main Page]]</nowiki></code>
+|-
+|mw
+|<nowiki>http://www.mediawiki.org/wiki/</nowiki>
+|<code><nowiki>[[mw:Help:Contents]]</nowiki></code>
+|-
+|wikibooks
+|<nowiki>http://en.wikibooks.org/wiki/</nowiki>
+|<code><nowiki>[[wikibooks:Main Page]]</nowiki></code>
+|-
+|wikimedia
+|<nowiki>http://wikimediafoundation.org/wiki/</nowiki>
+|<code><nowiki>[[wikimedia:Main Page]]</nowiki></code>
+|-
+|wikinews
+|<nowiki>http://en.wikinews.org/wiki/</nowiki>
+|<code><nowiki>[[wikinews:Main Page]]</nowiki></code>
+|-
+|wikiquote
+|<nowiki>http://en.wikiquote.org/wiki/</nowiki>
+|<code><nowiki>[[wikiquote:Main Page]]</nowiki></code>
+|-
+|wikisource
+|<nowiki>http://sources.wikipedia.org/wiki/</nowiki>
+|<code><nowiki>[[wikisource:Main Page]]</nowiki></code>
+|-
+|wikispecies
+|<nowiki>http://species.wikipedia.org/wiki/</nowiki>
+|<code><nowiki>[[wikispecies:Main Page]]</nowiki></code>
+|-
+|wiktionary
+|<nowiki>http://en.wiktionary.org/wiki/</nowiki>
+|<code>  <nowiki>[[wiktionary:Main Page]]</nowiki></code>
+|-
+|}
+
+===Adding more===
+As the Wikipedia isn't set up by default, you might want to add it (and other projects of your need).
+
+You have to edit your own database. 
+Go to table <code>interwiki</code> and add a new line:
+*'''<code>iw_prefix</code>''': choose a prefix, which is used for interwiki linking, e.g. "Wikipedia" or "wp" for linking to Wikipedia
+*'''<code>iw_url</code>''': enter the project's URL, e.g. <code><nowiki>http://en.wikipedia.org/wiki/$1</nowiki></code> for Wikipedia. Don't forget the <code>$1</code> as it is replaced with the article's name you are linking to (<code><nowiki>[[Wikipedia:Main Page]]</nowiki></code> links to <code><nowiki>http://en.wikipedia.org/wiki/</nowiki>'''Main_Page'''</code>).
+*'''<code>iw_local</code>''': if 1, your wiki will redirect even external links of the form iw_prefix:title, not only those from its own pages. you need this if you want to use the redirect functionality from outside your wiki or other wikis use your transwiki functions for nested transwiki links (like http://en.wikipedia.org/wiki/fr:Accueil)
+*'''<code>iw_trans</code>''': "transwiki transclusion" - set to 1 if you want to use pages from the other wiki as templates.  You will also need to set ''$wgEnableScaryTranscluding = true'' in your ''LocalSettings.php''
+
+{{admin tip|tip=
+Several help pages link to MediaWiki.org's ''Manual'' namespace.  To make these links work on your local wiki, add an interwiki link with ''iw_prefix=manual'' and ''iw_url=http://www.mediawiki.org/wiki/Manual:$1''
+}}
+
+==Interwiki links to other languages==
+[[Image:M-en-interwiki lang.png|thumb|Interwiki links to other languages]]
+If you have installed a [[Manual:Wiki family|Wiki family]], you can link from an article in English to an article in German (if you have a German project, too). You can set up MediaWiki, to show those links in the sidebar, just below the toolbox.
+
+In your filesystem, there is a subfolder of your MediaWiki installation, called "languages". Go there and have a look at "<code>Names.php</code>" as it contains a list of known languages and their prefixes. E.g. you want to add your German project, search "<code>Names.php</code>" for "Deutsch" and note the prefix "de".
+
+If you know the "right" prefix, edit your database by adding a new line to table <code>interwiki</code>:
+*'''<code>iw_prefix</code>''': language-prefix (e.g. "de" for German), which is listed in "<code>Names.php</code>"
+*'''<code>iw_url</code>''': URL to your wiki-project (e.g. <code><nowiki>http://de.your-wiki.org/index.php/$1</nowiki></code>)
+*'''<code>iw_local</code>''': ''same as above "Adding More"''
+*'''<code>iw_trans</code>''': ''same as above "Adding More"''
+
+
+Now, you can link an article to the same in other languages. Adding <code><nowiki>[[de:Hauptseite]]</nowiki></code> on your english Main_Page will create a link "Deutsch" below the toolbox, which leads to the Main_Page of the German wiki (Hauptseite).
+
+Note, that this link is shown in Sidebar's section, '''only''', and not inside of the article. If you want to create a link inside of the text, you have to add a colon previous to the prefix: <code><nowiki>[[:de:Hauptseite]]</nowiki></code>.
+
+{{Languages|Help:Interwiki linking}}
+
+[[Category:Help|Interwiki linking]]
+[[Category:Imported help]]
