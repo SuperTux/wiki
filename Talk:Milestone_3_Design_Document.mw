@@ -73,3 +73,8 @@ Fable, Familiar, Fairy, Fateful, Forked, Fallow, Fancy, Fantasy, Fearless, Fetid
 Another problem with climbing as GameObject instead of tile attribute is that now tiles that look the same can behave completely different.
 Sooner or later there will be levels with surprises like "oh you have to climb THAT in here" and "AAAAAAAAAAAH, you can no longer climb this
 convenient tiles above the lava".
+
+== Editor ==
+
+The items: "editor needs a minimap, like Flexlay" and "editor needs a grid, like Flexlay":
+:Both must be possible to enable/disable. Also don't think they are really high priority.
