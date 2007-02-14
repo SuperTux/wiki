@@ -20,7 +20,7 @@ The settings files are written in LISP ([[Wikipedia:LISP|Wikipedia about LISP]])
  (define someList '(id1 id2 id3))
 
 == Examples ==
-Normal linux config, try alsa and dsp, then fallback to arts and esd or no audio. Stereo sound in CD Quality (44,1khz):
+Normal Linux config, try ALSA and dsp, then fallback to arts and esd or no audio. Stereo sound in CD Quality (44,1khz):
 
  (define devices '(alsa native arts esd null))
  (define alsa-device "default")
@@ -36,10 +36,10 @@ ALSA surround sound with a 5.1 sound system and 48khz high quality audio:
  (define sampling-rate 48000)
 
 == General ==
-* '''devices''' contains a list of devices which are tried as openal output devices. Possible values are:
+* '''devices''' contains a list of devices which are tried as OpenAL output devices. Possible values are:
 ** '''dsp''' - OSS (Open Sound System) driver
-** '''native''' - Prefered driver for the platform (will load a driver for darwin, morphos, solaris, windows, bsd, alsa or dsp)
-** '''alsa''' - ALSA (Advanced Linux Sound System) driver, only available on linux
+** '''native''' - Prefered driver for the platform (will load a driver for darwin, morphos, solaris, windows, BSD, alsa or dsp)
+** '''alsa''' - ALSA (Advanced Linux Sound System) driver, only available on Linux
 ** '''arts''' - ARTS, the KDE Sound Daemon
 ** '''dmedia''' - DMEDIA, seems to be the irix sound api...
 ** '''esd''' - ESD (Enlightenment Sound Daemon), often found on GNOME installations
