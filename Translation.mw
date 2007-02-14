@@ -11,7 +11,6 @@
 # '''Edit the .po files''' with your favourite editor or with one of the GUI tools below.
 # You should also edit the '''supertux.desktop''' file and add a comment entry for your language.
 # '''Send''' the translated .po files to the [[Mailing Lists|supertux-devel mailing list]].
-99152631619128834678784
 
 == Notes for Translators ==
 * If there isn't a good translation for some term (e.g. "Credits" or "Sound"), you might consider to '''simply keep it''' in English. It's better to allow users to make an educated guess than to confuse them by displaying '''meaningless''' or garbled text.
