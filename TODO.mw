@@ -29,7 +29,7 @@ Moved to our [http://supertux.lethargik.org/bugs bug tracker].
 (The editor is not release critical therefore no ratings for these TODOS)
 * Scroll TileList with middle mouse, Get different Tilegroups
 *:Isn't that the way it is atm? --[[User:WolfgangB|WolfgangB]] 18:23, 7 Aug 2006 (BST)
-*::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else oyu can. Should be bug (or feature) in GTK, it's not controlled by program.
+*::Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to "All" or anything else you can. Should be bug (or feature) in GTK, it's not controlled by program.
 * Create an overview widget (where to place this in the GUI?)
 *: Overview for what? -- [[User:Penma|Penguinmaster]] 15:46, 4 Oct 2006 (CEST)
 *::The sector. Like a minimap.
@@ -44,7 +44,7 @@ Moved to our [http://supertux.lethargik.org/bugs bug tracker].
 * Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
 * Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
 * Tool not working after loading new level
-*:Added a workaround for this by reseting to the Select tool when loading new level. --[[User:AnMaster|AnMaster]] 20:25, 8 Sep 2006 (BST)
+*:Added a workaround for this by resetting to the Select tool when loading new level. --[[User:AnMaster|AnMaster]] 20:25, 8 Sep 2006 (BST)
 * Windows builds seem to silently crash when loading huge levels
 *:huge as in 100x100 or more like 10000x10000?
 *::the level old world2/airkey.stl crashed both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
