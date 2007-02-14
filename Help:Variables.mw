@@ -1,0 +1,184 @@
+{{PD Help Page}}
+MediaWiki knows some defined variables which can be used in texts. They are rendered differently depending on the time, the site and the page. Their syntax is similar to templates. If you want a page to show always the current time, you use <code><nowiki>{{CURRENTTIME}}</nowiki></code>. To distinguish variables from templates, most variables are capitalized.
+
+<center>
+{| {{Prettytable}}
+|-
+!{{Hl3}}|'''Description'''
+!{{Hl3}}|'''You type'''	
+!{{Hl3}}|'''You get'''
+|-
+! {{Hl2}} colspan="3" | '''Date & Wiki variables'''
+|-
+| Current month
+|<nowiki>{{CURRENTMONTH}}</nowiki> 
+|{{CURRENTMONTH}}
+|-
+| Current month
+|<nowiki>{{CURRENTMONTHNAME}}</nowiki>
+|{{CURRENTMONTHNAME}}
+|-
+| Genitive form<br>of current month name
+|<nowiki>{{CURRENTMONTHNAMEGEN}}</nowiki>
+|{{CURRENTMONTHNAMEGEN}}
+|-
+| Abbreviated month name
+|<nowiki>{{CURRENTMONTHABBREV}}</nowiki>
+|{{CURRENTMONTHABBREV}}
+|-
+|Day of the month
+|<nowiki>{{CURRENTDAY}}</nowiki>
+|{{CURRENTDAY}}
+|-
+|Day of the week
+|<nowiki>{{CURRENTDOW}}</nowiki>
+|{{CURRENTDOW}}
+|-
+|Day of the week
+|<nowiki>{{CURRENTDAYNAME}}</nowiki>
+|{{CURRENTDAYNAME}}
+|-
+| Week
+|<nowiki>{{CURRENTWEEK}}</nowiki>
+|{{CURRENTWEEK}}
+|-
+| Year
+|<nowiki>{{CURRENTYEAR}}</nowiki>
+|{{CURRENTYEAR}}
+|-
+| current time
+|<nowiki>{{CURRENTTIME}}</nowiki>
+|{{CURRENTTIME}}
+|-
+| numbers of articles in this Wiki
+|<nowiki>{{NUMBEROFARTICLES}}</nowiki>
+|{{NUMBEROFARTICLES}}
+|-
+| numbers of uploaded files
+|<nowiki>{{NUMBEROFFILES}}</nowiki>
+|{{NUMBEROFFILES}}
+|-
+! {{Hl2}} colspan="3" | '''Namespaces'''
+|-
+|
+|<nowiki>{{ns:-2}} or {{ns:Media}}</nowiki>
+|{{ns:-2}}
+|-
+|
+|<nowiki>{{ns:-1}} or {{ns:Special}}</nowiki>
+|{{ns:-1}}
+|-
+|
+|<nowiki>{{ns:1}} or {{ns:Talk}}</nowiki>
+| {{ns:1}}
+|-
+|
+| <nowiki>{{ns:2}} or {{ns:User}}</nowiki>
+| {{ns:2}}
+|-
+|
+| <nowiki>{{ns:3}} or {{ns:User_talk}}</nowiki>
+| {{ns:3}}
+|-
+|
+| <nowiki>{{ns:4}} or {{ns:Project}}</nowiki>
+| {{ns:4}}
+|-
+|
+| <nowiki>{{ns:5}} or {{ns:Project_talk}}</nowiki>
+| {{ns:5}}
+|-
+|
+| <nowiki>{{ns:6}} or {{ns:Image}}</nowiki>
+| {{ns:6}}
+|-
+|
+| <nowiki>{{ns:7}} or {{ns:Image_talk}}</nowiki>
+| {{ns:7}}
+|-
+|
+| <nowiki>{{ns:8}} or {{ns:MediaWiki}}</nowiki>
+| {{ns:8}}
+|-
+|
+| <nowiki>{{ns:9}} or {{ns:MediaWiki_talk}}</nowiki>
+| {{ns:9}}
+|-
+|
+| <nowiki>{{ns:10}} or {{ns:Template}}</nowiki>
+| {{ns:10}}
+|-
+|
+| <nowiki>{{ns:11}} or {{ns:Template_talk}}</nowiki>
+| {{ns:11}}
+|-
+|
+| <nowiki>{{ns:12}} or {{ns:Help}}</nowiki>
+| {{ns:12}}
+|-
+|
+| <nowiki>{{ns:13}} or {{ns:Help_talk}}</nowiki>
+| {{ns:13}}
+|-
+|
+| <nowiki>{{ns:14}} or {{ns:Category}}</nowiki>
+| {{ns:14}}
+|-
+|
+| <nowiki>{{ns:15}} or {{ns:Category_talk}}</nowiki>
+| {{ns:15}}
+|-
+! {{Hl2}} colspan="3" | '''Server specific'''
+|-
+| Sitename
+| <nowiki>{{SITENAME}}</nowiki>
+| {{SITENAME}}
+|-
+| Servername
+| <nowiki>{{SERVERNAME}}</nowiki>
+| {{SERVERNAME}}
+|-
+| Server
+| <nowiki>{{SERVER}}</nowiki>
+| {{SERVER}}
+|-
+|-
+| Script path
+| <nowiki>{{SCRIPTPATH}}</nowiki>
+| {{SCRIPTPATH}}
+|-
+| Local part of the URL<br>
+| <nowiki>{{localurl:pagename}}</nowiki>
+| {{localurl:pagename}}
+|-
+|
+| <nowiki>{{localurl:pagename|</nowiki>''query string''<nowiki>}}</nowiki>
+| {{localurl:pagename|''query string''}}
+|-
+! {{Hl2}} colspan="3" | '''Page related'''
+|-
+| Pagename
+| <nowiki>{{PAGENAME}}</nowiki>
+| {{PAGENAME}}
+|-
+| Pagename<br>(URL encoded)
+| <nowiki>{{PAGENAMEE}}</nowiki>
+| {{PAGENAMEE}}
+|-
+| Namespace
+| <nowiki>{{NAMESPACE}}</nowiki>
+| {{NAMESPACE}}
+|-
+| Revision ID
+| <nowiki>{{REVISIONID}}</nowiki>
+| {{REVISIONID}}
+|}
+</center>
+
+==External links==
+{{meta|Help:Variable}}
+
+{{Languages|Help:Variables}}
+
+[[Category:Help|Variables]]
+[[Category:Imported help]]
