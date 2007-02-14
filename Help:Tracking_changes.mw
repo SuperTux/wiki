@@ -1,0 +1,34 @@
+{{PD Help Page}}
+[[Image:M-en-recentchanges.png|thumb|370px|'''Recent changes''' shows the latest changes to articles, file uploads, deletions and page moves]]
+MediaWiki offers a collection of special pages and tools to keep track of what is going on in the wiki. So you can watch for example:
+* recent changes to all pages
+* newly created pages
+* the contributions of one specific user 
+* the revision history: all changes made to one page
+
+The most interesting special page is '''[[Special:Recentchanges]]'''. It displays all edits, file uploads, page moves, deletions and other actions done in the wiki. In the menu on top it offers a collection of links to customize your display: limit the number of changes shown, the number of days or restrict it to edits to a certain namespace. You can also hide edits marked as minor (don't forget that major changes can be flagged by a user as minor anyway).
+
+One line in recentchanges consists of several links:
+* ''diff'' displays the difference to the previous revision of the page,
+* ''hist'' links to the revision history of the page,
+* the link with the full title of the page brings you to the current version. If the title is in bold, it indicates that it is on your watchlist.
+
+Next is a flag describing the article modification type:
+*''N'' signalizes a new page,
+*''m'' a minor edit,
+*''b'' an edit made by a bot.
+
+Following the timestamp the user is mentioned with a link to his user and talk page and to his contributions. In italic follows a comment if the user has submitted one. 
+
+=== See also ===
+* [[Special:Newpages]]
+* Related changes: [[Special:Recentchangeslinked/Pagename]]
+* User contributions: [[Special:Contributions/User]]
+* History
+* [[Special:Watchlist]]
+
+{{Admin tip|tip=You may want to add important pages in your wiki to [[MediaWiki:Recentchangestext]], the intro shown at [[Special:Recentchanges]]}}
+
+{{Languages|Help:Tracking changes}}
+[[Category:Help|Tracking changes]]
+[[Category:Imported help]]
