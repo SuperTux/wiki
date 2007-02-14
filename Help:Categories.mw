@@ -1,0 +1,23 @@
+{{PD Help Page}}
+
+To add an article to a category put the following at the end of the page you are editing...
+
+ <nowiki>[[Category:{Name}]]</nowiki>
+
+where {Name} is the name of the category you want to add it to.  Any number of category tags may be added to the page - the page will be listed in all of them.
+
+You can also specify an additional {Sort} parameter that dictates where the page will appear, alphabetically, within the category. This is achieved by using the following markup:
+
+ <nowiki>[[Category:{Name}|{Sort}]]</nowiki>
+
+So for example, to add this page to the 'Help' category, you would use:
+
+ <nowiki>[[Category:Help|Categories]]</nowiki>
+
+Note that we used 'Categories' as the sort parameter.  Without this the page would be listed under 'H' for 'Help:Categories', instead of under 'C', which is more useful.  Other situations where you might want to use the sort parameter is when you have articles about people that are titled as <code>FirstName LastName</code> but within the category you want them listed as <code>LastName, FirstName</code>.
+
+''Note: the {sort} parameter does '''not''' affect how the page title is displayed within the category listing, just how it is ordered.  In the above example, the link to this page will still be 'Help:Categories', and not 'Categories' as you might expect!''
+
+{{Languages|Help:Categories}}
+[[Category:Help|Categories]]
+[[Category:Imported help]]
