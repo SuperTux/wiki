@@ -1,0 +1,72 @@
+{{PD Help Page}}
+There are four sorts of links in MediaWiki: 
+# internal links to other pages in the wiki
+# external links to websites
+# [[Help:Interwiki linking|inter-wiki links]] (links to other wikis)
+# inter-language links to other language versions of the same wiki
+
+To add an internal link, enclose the name of the page you want to link to in double square brackets. When you save the page, you'll see the new link pointing to your page. If the page exists already, it is displayed in blue, empty pages are displayed in red. Selflinks to the current page are not transformed in URLs but displayed in bold.
+
+The first letter of the target page is automatically capitalized and spaces are represented as underscores (typing an underscore in the link will have a similar affect as typing a space, but is not recommended, since the underscore will also be shown in the text).
+
+== How to link ==
+{| {{Prettytable}}
+|-
+|{{Hl3}}|'''Description'''
+|{{Hl3}}|'''You type'''	
+|{{Hl3}}|'''You get'''
+|-
+|Internal link
+|<tt><nowiki>[[Main Page]]</nowiki></tt>
+|[[Main Page]]
+|-
+|Piped link 
+|<tt><nowiki>[[Main Page|different text]]</nowiki></tt>
+|[[Main Page|different text]]
+|-
+|Anchor link 
+|<tt><nowiki>[[#External links|Anchor link]]</nowiki></tt>
+|[[#External links|Anchor link]]
+|-
+|External link
+|<tt><nowiki>http://mediawiki.org</nowiki></tt>
+|http://mediawiki.org
+|-
+|External link,<br />
+different title
+|<tt><nowiki>[http://mediawiki.org MediaWiki]</nowiki></tt>
+|[http://mediawiki.org MediaWiki]
+|-
+|External link,<br />
+unnamed
+|<tt><nowiki>[http://mediawiki.org]</nowiki></tt>
+|[http://mediawiki.org]
+|-
+|External link,<br />
+same host unnamed
+|<tt><nowiki>[http://{{SERVERNAME}}/pagename]</nowiki></tt>
+|[http://{{SERVERNAME}}/pagename]
+|-
+|Interwiki link
+|<tt><nowiki>[[Wikipedia:MediaWiki]]</nowiki></tt>
+|[[Wikipedia:MediaWiki]]
+|-
+|mailto unnamed
+|<tt><nowiki>[mailto:info@example.org]</nowiki></tt>
+|[mailto:info@example.org]
+|-
+|mailto named
+|<tt><nowiki>[mailto:info@example.org info]</nowiki></tt>
+|[mailto:info@example.org info]
+|-
+|redirect
+|<tt><nowiki>#REDIRECT [[Main Page]]</nowiki></tt>
+| -> [[Main Page]]
+|}
+
+== External links ==
+{{meta|Help:Link}}
+ 
+{{Languages|Help:Links}}
+[[Category:Help|Links]]
+[[Category:Imported help]]
