@@ -17,6 +17,8 @@ This is the latest (but unstable) release of SuperTux, also known as "[[Mileston
 <div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-editor-0.3.0.x86.package Editor]</div>
 </td>
 <td>
+'''WARNING''': There have been reports of SuperTux 0.3.0 being highly unstable on Ubuntu, and may cause severe performance problems on some computers.[https://launchpad.net/ubuntu/+source/supertux/+bug/84084] Although this problem is unconfirmed, please continue at your own risk.
+
 A test version that uses [http://prdownload.berlios.de/supertux/supertux-0.3.0-nogl-0.1.4502.x86.package no OpenGL] calls is also available.
 Refer to the Autopackage website for help on [http://autopackage.org/docs/howto-install/index.html installing Autopackages].
 Also available from an [http://openftp.de/openFTP/STUFF/SuperTux030/ unofficial mirror].
