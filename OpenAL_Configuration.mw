@@ -13,7 +13,7 @@ This is from the source code, however there seems to be no code to handle displa
 = Settings =
 
 == Format ==
-The settings files are written in LISP (http://de.wikipedia.org/wiki/LISP). Variables get defined with the define command. Example:
+The settings files are written in LISP ([[Wikipedia:LISP|Wikipedia about LISP]]). Variables get defined with the define command. Example:
 
  (define somevar 5.0)
  (define someStringVar "hello")
