@@ -57,7 +57,6 @@ To create a new brush you currently got to "train" an empty one:
 #Select the tilemap you placed those tiles in.
 #Load the brush <tt>trunk/supertux-sharp/data/brushes/empty.csv</tt> <!-- TODO: change this to a more "useful" path. -->
 #Right click and drag to select the area to get tiles from.
-#*If you do that several times you wont owerwrite the currect patterns but instead add to them.
 #*The minimum size for a selection that works is 3x3 tiles. 
 #When you are finished save the brush.
 
