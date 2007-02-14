@@ -1,0 +1,54 @@
+{{PD Help Page}}
+You can obtain a copy of the help system in this wiki for local use in your own wiki following these steps:
+
+* Step one: In a separate browser window, navigate to [[Special:Export]].
+* Step two: You will see an open textbox asking you for a list of pages to export.
+* Step three: Copy the list below and paste it into that textbox. This is a generally useful set, making the resulting help structure in your wiki look almost identical to the one here.
+
+ [[Help:Contents]]
+ [[Help:Navigation]]
+ [[Help:Searching]]
+ [[Help:Tracking_changes]]
+ [[Help:Editing_pages]]
+ [[Help:Starting_a_new_page]]
+ [[Help:Formatting]]
+ [[Help:Links]]
+ [[Help:Categories]]
+ [[Help:Images]]
+ [[Help:Templates]]
+ [[Help:Tables]]
+ [[Help:Variables]]
+ [[Help:Managing_files]]
+ [[Help:Preferences]]
+ [[Help:Skins]]
+ [[Help:Namespaces]]
+ [[Help:Interwiki_linking]]
+ [[Help:Special pages]]
+ [[Template:PD_Help_Page]]
+ [[Category:Help]]
+ [[Template:Languages]]
+ [[Template:Meta]]
+ [[Template:Admin_tip]]
+ [[Template:Prettytable]]
+ [[Template:Hl2]]
+ [[Template:Hl3]]
+ [[Template:Click]]
+ [[Template:Thankyou]]
+ [[:En:Public_domain]]
+ [[:Image:Example.jpg]]
+ [[:Image:Geographylogo.png]] 	
+
+
+* Step four: Make sure the box "Include only the current revision, not the full history" is CHECKED.
+* Step five: Click the 'Export' button.
+* Step six: Save the file to your desktop or other convenient location you'll remember.
+* Step seven: Navigate to Special:Import on YOUR wiki. (You must be logged in as Admin/Sysop level to do this.)
+* Step eight: Browse for the file you saved, and click 'Upload'.
+
+That should do it!  Although not complete, at least this gets you started on a decent help system.
+
+
+==Automated copying==
+
+If you use pywikipedia, there is a script to automate the copying at http://mediawiki-tools.cvs.sourceforge.net/mediawiki-tools/pywikipedia/mirrorhelp.py, which copies all pages in the help namespace along with templates and images directly referenced by those.
+[[Category:Imported help]]
