@@ -2,7 +2,7 @@
 According to credits.txt some of our sounds are from "Royalty free sound effects CDROMs and FTP sites" which is too unspecific.
 This page is used to find out who made which file and which files have to be replaced to get rid of unspecific 3rd party files.
 
-== [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/music/ data/music]] ==
+== [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/music/ data/music] ==
 All files in data/music created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, unless stated otherwise.
 *bonuscave.ogg
 *bossattack.ogg
@@ -29,14 +29,14 @@ All files in data/music created by [[User:wansti|wansti]] and licensed under GPL
 *salcon.ogg -- ''Salsa Con Carne'' by '''Mystical''' - Has to be removed due to licensing issues (the song itself is okay, but apparently some non-free samples are used). Replaced by a work-in-progress remix in trunk and the 0.3.x branch (r4585), for which we have permission to release under GPL and CC-by-sa. -- [[User:wansti|wansti]]
 *theme.ogg
 
-== [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/speech/ data/speech]] ==
+== [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/speech/ data/speech] ==
 *penny_runt_01.ogg -- self-made by gwater
 *tux_hello.ogg -- self-made by TuxThePenguin
 *tux_murp_01.ogg -- self-made by TuxThePenguin
 *tux_rap.ogg -- self-made by TuxThePenguin and wansti
 *tux_upset.ogg -- self-made by TuxThePenguin
 
-== [[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/sounds/ data/sounds]] ==
+== [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/sounds/ data/sounds] ==
 We mainly need to clear the status of the sounds from Bill Kendrick
 *bigjump.wav -- bkendrick
 *brick.wav -- bkendrick
