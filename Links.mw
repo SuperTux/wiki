@@ -18,22 +18,22 @@ This is a list of similar games found on the web. And the things they do better 
 === [http://allegator.sourceforge.net/ Alex the Allegator] ===
 
 Jump and Run featuring Alex the Allegator... The game comes in a gameboy-style graphics (4 grey tones, 320x200 or so). Strong points for this game:
-* It tells a story (some cutscenes with music, a bit of text). This really adds to the general athmosphere of the game.
+* It tells a story (some cutscenes with music, a bit of text). This really adds to the general atmosphere of the game.
 * The allegator rolling is a unique special idea which brings some cool elements into the game
 * You can play all levels again trying to capture all stars/cherries
 * Nice dynamic music in the background (changing when you die, when the level starts, ...)
-* 2 bosses, (1 boss after 5 normal levels) level bring new chalenges
+* 2 bosses, (1 boss after 5 normal levels) level bring new challenges
 
 === [http://smclone.sourceforge.net/ Secret Maryo Chronicles] ===
 
 Feels, looks and plays exactly like Super Mario World. Let's hope for them they won't get at nintendos radar... Good things in this game:
-* Accelerating and slowing down is slower than in supertux, making the levels more chalenging (this is a good thing IMO)
+* Accelerating and slowing down is slower than in supertux, making the levels more challenging (this is a good thing IMO)
 * Some of the blending effects between the levels are nice
 * Their levels are not based on a traditional tile grid, but you can place arbitrary (rectangular) objects in the levels
 
 === [http://www.newbreedsoftware.com/bobobot/ BoboBot] ===
 
-A game similar in spirit to megaman. Althought the engine seems limited in a first glance (no scrolling, saving, very small resolution...) the game makes lots of fun because it contains lots of cool ideas and diversitities. You see a new enemy, object or graphics every 2 or 3 screens which makes the game interesting.
+A game similar in spirit to megaman. Although the engine seems limited in a first glance (no scrolling, saving, very small resolution...) the game makes lots of fun because it contains lots of cool ideas and diversitities. You see a new enemy, object or graphics every 2 or 3 screens which makes the game interesting.
 
 === [http://clonekeen.sourceforge.net/ CloneKeen] ===
 
@@ -48,6 +48,6 @@ An open source jump and run game. Seems to be heavily inspired by supertux and p
 * Bugs http://supertux.lethargik.org/bugs/issues_rss.php?project_id=0
 * Wiki changes http://supertux.lethargik.org/wiki/index.php?title=Special:Recentchanges&feed=rss
 * SVN commits http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/?date=month&view=query&format=rss
-* Whats that? http://supertux.lethargik.org/bugs/news_rss.php?project_id=0
+* What's that? http://supertux.lethargik.org/bugs/news_rss.php?project_id=0
 
 [[Category:SuperTux]]
