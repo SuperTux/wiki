@@ -1,5 +1,5 @@
 = About =
-This is a little writeup about the configuration of the openal SI implementation which is used on linux, bsd and others (MacOS/X and Windows have their own implementations which are different). Unfortunately there seems to be no documentation about how to configure alsa yet, so we provide this as an interim solution.
+This is a little writeup about the configuration of the OpenAL SI implementation which is used on Linux, BSD and others (MacOS/X and Windows have their own implementations which are different). Unfortunately there seems to be no documentation about how to configure alsa yet, so we provide this as an interim solution.
 
 = Configuration File =
 OpenAL is first trying to read a user settings from an .openalrc in the users home directory if it exists ($HOME/.openalrc). If it can't be found then /etc/openalrc is used. If this also fails the following default settings apply:
