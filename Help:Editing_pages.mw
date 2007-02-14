@@ -1,0 +1,29 @@
+{{PD Help Page}}
+Easy editing of pages is what wikis are made for. It only takes a few clicks.
+
+
+
+== Editing new pages ==
+If the page you wish to edit does not exist yet, see [[Help:Starting a new page]]
+
+== Editing existing pages ==
+* Click the '''edit''' [[Help:Navigation#Page Tabs|page tab]]
+* Make changes to the text in the edit box. Make sure you write clearly and concisely, and make sure your edit does something to improve the page. If you're making normal changes to the text like fixing spelling mistakes or grammar, inserting new sentences, etc, then you don't have to worry too much about formatting. When you do need to use some type of formatting, you do it using wiki syntax, see [[Help:Formatting]] for some of the common types of formatting used.
+* Optionally, enter a short note in the '''Summary''' box describing your changes.
+* Optionally preview your changes with the '''Preview''' button.
+* Click the '''Save page''' button.
+
+* One can rename pages as well See [http://meta.wikimedia.org/wiki/Help:Moving_a_page Help:Moving_a_page]
+
+=== Discussion ===
+Every article has its own discussion page where you can ask questions, make suggestions, or discuss corrections. Click the '''discussion''' [[Help:Navigation#Page Tabs|page tab]] to reach it. You can sign your message by writing 4 tildes (<nowiki>~~~~</nowiki>). The wiki software turns them into the current time and your username or your current IP address if you are not logged in.
+
+== External Links ==
+{{meta|Help:Editing}}
+
+
+
+{{Languages|Help:Editing pages}}
+
+[[Category:Help|Editing pages]]
+[[Category:Imported help]]
