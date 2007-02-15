@@ -1,5 +1,3 @@
-[[Category:Developer documentation]]
-
 == Introduction ==
 
 If you want to build the current development version on Windows, these step-by-step instructions are for you.
@@ -101,7 +99,7 @@ After that use TortoiseSVN to svn up the whole directory (to restore possibly de
 == Building the editor ==
 
 There's a new gtk-sharp based editor in development which can also be built on windows. To do so you first have to get and install the following dependencies:
-===Dependencies===
+=== Dependencies ===
 * Make sure you have OpenGL drivers installed
 * Microsoft .NET 1.X framework SDK, you should be able to get this here: http://www.microsoft.com/downloads/details.aspx?FamilyID=9b3a2ca6-3647-4070-9f41-a333c6b9181d&DisplayLang=en
 * Microsoft .NET 2.X framework SDK, yes you need 1.x AND 2.x at the moment!: http://www.microsoft.com/downloads/details.aspx?familyid=FE6F2099-B7B4-4F47-A244-C96D69C35DEC&displaylang=en
@@ -111,12 +109,14 @@ There's a new gtk-sharp based editor in development which can also be built on w
 *::Is anybody still using XP without SP2? It that machine hast net connection its a bad idea.
 * SDL.dll and SDL_image.dll, you can copy these from a milestone1 installation or from the msys library pack for example.
 
-===Building===
+=== Building ===
 
-* Get the sourcecode from [[Download/Subversion|svn]] 
+* Get the sourcecode from [[Download/Subversion|svn]]
 * open supertux-sharp.sln by double clicking on it (it should open in Visual C# Express now).
 * Build the project in debug and release mode (use F6 and then F5 for example)
 * Copy SDL.dll and SDL_image.dll into the bin\Debug and bin\Release directory that has just been created
 * You can now go back to Visual Studio Express and start the editor with F11. Note that the debug mode is quiet slow for the OpenGL calls, so if you actually wanna use the editor instead of developing it start it in release mode (CTRL+F11)
 
 You might want to read the [[Editor FAQ]] at this point.
+
+[[Category:Developer documentation]]
