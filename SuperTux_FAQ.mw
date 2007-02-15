@@ -6,17 +6,17 @@ This is by far the most frequently asked question of all, and the answer is simp
 
 Honestly, we don't have a release date yet. Just like many of you, we'd like to see Milestone 2 finished and released to the public as soon as possible, but since we all are busy with other, probably less interesting things, the amount of time we are able to put into this game is limited. Please be patient.
 
-==What's new in Milestone 2?==
+== What's new in Milestone 2? ==
 
 Most information on these Wiki pages is about what's new in Milestone 2. Just browse around, and feel free to add your own ideas. :-)
 
-==How can I get in touch with you?==
+== How can I get in touch with you? ==
 
 Depending on who you want to reach - and for what purpose - you can either join our [[IRC Channel]] or write to one of the [[Mailing Lists]]. Please note that, due to massive amounts of spam, we had to set the mailing lists to subscribers-only. If you send emails to the lists and are not subscribed then you will get an automated reply saying that your message is waiting for approval, but it's very likely that we will miss your e-mail in all the spam (we're very sorry about that), so better subscribe before posting to the list.
 
-==Can I help with Milestone 2?==
+== Can I help with Milestone 2? ==
 
-You most certainly can. 
+You most certainly can.
 * Creating game content in form of graphics, sound, music and levels (See [[Contributing]])
 * Writing code for new features
 * Work on the story and the settings
@@ -30,10 +30,11 @@ There's many things to be done - even besides actually creating game content:
  
 If you want to help, just get in touch (see [[#How can I get in touch with you?|How can I get in touch with you?]]) and ask.
 
-==I found a bug in the developer version!==
+== I found a bug in the developer version! ==
 
 Well, that's not really a question, but great anyway. Keep in mind, however, that SuperTux is bound to have lots of bugs at this stage of development. Actually, chances are quite high that a particular bug is already known but not yet fixed because we just didn't have the time yet.
 
 If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a backtrace of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [{{MediaWiki:Bugtracker-url}} bugtracker].
 
-[[Category:For Users]][[Category:FAQs]]
+[[Category:For Users]]
+[[Category:FAQs]]
