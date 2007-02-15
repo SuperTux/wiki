@@ -76,10 +76,10 @@ Only Big Tux has this ability. When in the air, press the Duck key to perform a 
 === Backflip (Milestone 2 only) ===
 Only Big Tux has this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump higher, which is very useful in places where there's not enough space to run. If you do a backflip with Tux on fire, he will lose his hat and become Big Tux again.
 
-=== Carrying Objects===
+=== Carrying Objects ===
 Some objects Tux comes across can be picked up and carried around. This includes a squished [[Mr. IceBlock]] ('''Milestone 1''' and '''Milestone 2'''), a [[Rock]] ('''Milestone 2''') and a [[Trampoline]] ('''Milestone 2''').
 
-To pick a portable object up, hold down the Action button and walk into the object. Tux will then carry the object as long as the Action button is held down. 
+To pick a portable object up, hold down the Action button and walk into the object. Tux will then carry the object as long as the Action button is held down.
 
 <br style="clear: both;" />
 
@@ -114,18 +114,18 @@ Switches come in two different styles: Levers and panels.
 
 Press the Up key to activate a switch. This might open blocked paths, start platforms, turn off a stream of air, ...
 
-Most switches are at or near the object they affect. Objects that are further away from their switch often have a colored sign next to them. 
+Most switches are at or near the object they affect. Objects that are further away from their switch often have a colored sign next to them.
 
 A sign of the same color can then be found next to the corresponding switch.
 
 === Platforms (Milestone 2 only) ===
 [[Image:Flying platform-0.png|center]]
 
-In the course of his adventure, Tux comes across a variety of moving  Platforms.
+In the course of his adventure, Tux comes across a variety of moving Platforms.
 
 Some are mounted on rails, some swim in water, some even float freely through the air.
 
-While some platforms just move on their own, most platforms will only move when Tux steps on them. 
+While some platforms just move on their own, most platforms will only move when Tux steps on them.
 
 Some might also require Tux to visit another part of the level and activate a switch first. When this is the case Tux will most probably find a helpful sign next to the platform.
 
@@ -155,7 +155,7 @@ Normally, Tux will only bounce up and down a little bit on a trampoline. To make
 
 === Magic Blocks and Lanterns (Milestone 2 only) ===
 
-These are blocks that look pale and are not solid unless tux brings a carryable lantern of the same color as the block near the block.  The lanterns also double as a light source which allows Tux to see in dark areas.
+These are blocks that look pale and are not solid unless tux brings a carryable lantern of the same color as the block near the block. The lanterns also double as a light source which allows Tux to see in dark areas.
 
 <br style="clear: both;" />
 
