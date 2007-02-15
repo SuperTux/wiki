@@ -1,4 +1,4 @@
-= About this Document = 
+= About this Document =
 
 This document is meant to give a reasonably detailed guide on what shall and shall not happen in Milestone 2. It is also intended as a complete replacement of other, incomplete or otherwise flawed, Milestone 2 documents floating around in this Wiki. This design document is written by Grumbel, question and comments are welcome, use the Talk page or the IRC channel for that. At the moment this document is a work-in-progress, meaning goals might change as time progresses. This document as not yet been approved by any other member of the SuperTux development stuff.
 
@@ -8,12 +8,12 @@ __TOC__
 
 [[Image:Supertux-forest-2004-06-15.jpg|thumbnail|right|Concept Drawing]]
 
-The goal of Milestone 2 is to add another island/theme to the world of SuperTux, namely the forest island, as well as improving on the short  commings that where present in [[Milestone_1_Analysis|Milestone 1]]. Together with the forest island the game will provide additional enemies and items that fit the forest islands look and setting. New actions for Tux might be provided as well, namely the backflip, butt-jump and the iceflower powerup.
+The goal of Milestone 2 is to add another island/theme to the world of SuperTux, namely the forest island, as well as improving on the short commings that where present in [[Milestone 1 Analysis|Milestone 1]]. Together with the forest island the game will provide additional enemies and items that fit the forest islands look and setting. New actions for Tux might be provided as well, namely the backflip, butt-jump and the iceflower powerup.
 <br clear="all" />
 
-= Story = 
+= Story =
 
-The SuperTux game starts with Penny, Tux's girlfriend, getting captured by Nolok. After those events are shown in the intro the player takes control over Tux and has to guide him through around two dozen levels on a snowy island. At the end of the path on the island is a castle, which however doesn't contain Nolok, instead a Yeti will be provided as a final boss battle. After Tux has defeated the Yeti and received a secret letter from Penny explaining  where the got taken, Tux continues his journey over the sea to another island, one filled with forests, grass and green stuff. 
+The SuperTux game starts with Penny, Tux's girlfriend, getting captured by Nolok. After those events are shown in the intro the player takes control over Tux and has to guide him through around two dozen levels on a snowy island. At the end of the path on the island is a castle, which however doesn't contain Nolok, instead a Yeti will be provided as a final boss battle. After Tux has defeated the Yeti and received a secret letter from Penny explaining where the got taken, Tux continues his journey over the sea to another island, one filled with forests, grass and green stuff.
 
 [[Image:Granito.png|thumbnail|left|Granito together with Tux]]
 On arrival on the forest island Tux will be welcome by the Granitos, which happen to be the native inhabitants of the island. They explain Tux in a cutscene that Nolok has taken control over their island and its magic castle, thus turning a large part of the island into a ghost world. To enter the magic castle five keys are needed, those are however scattered across the island. After hearing their story Tux tells them that he will help and proceeds deeper down into the forest world. On his journey through the forest island Tux will meet both more friendly Granitos as well has a salesman in the form of a walrus which will either tell some more story or help Tux with extra items or guide him through a level (Granitos can walk over spikes, while Tux can't).
@@ -22,9 +22,9 @@ On arrival on the forest island Tux will be welcome by the Granitos, which happe
 After having collected the five keys Tux is able to enter the magic castle where he will face the final boss in form of a magic Totem. After defeating the Totem, Tux will yet again receive a letter from Penny telling him on how to continue his journey.
 <br clear="all" />
 
-= Intro/Credits = 
+= Intro/Credits =
 [[Image:Introcutscene.png|thumbnail|left|Intro Storyboard]]
-The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed  letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
+The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
 <br clear="all"/>
 
 = Shop =
@@ -36,7 +36,7 @@ The shop is a little house accessible via the worldmap, it provides the player w
 <br clear="all" />
 
 
-= General = 
+= General =
 
 * Tux run animation shall be rolled back to the single-sprite on that was used in Milestone 1, the current split-image animation is far inferior
 * uni-solid tiles shall be provided for all tilesets
@@ -48,7 +48,7 @@ The shop is a little house accessible via the worldmap, it provides the player w
 
 = Actions =
 
-== Jumping == 
+== Jumping ==
 FIXME: How high, how is it influenced by running?
 <br clear="all" />
 
@@ -66,18 +66,18 @@ The backflip is a special jump which gives Tux some extra height compared to a n
 The Butt Jump is activated by pressing down while in the air. It causes Tux to crush down on the exact spot over which he currently is. The butt jump provides additional force that allows him to crush blocks and some kind of armored enemies.
 <br clear="all" />
 
-== Flapping == 
+== Flapping ==
 By flapping his wings Tux is able to get a short amount of additional time in the air as well as gain a tile in height.
 <br clear="all" />
 
-== Blow Flyer == 
+== Blow Flyer ==
 [[Image:Tux_bubble.png|thumbnail|right|Tux in Bubble Mode]]
 
 Tux body catches a lot of hot air and thus starts to float. This action is triggered by objects in the game world and automatically terminates after some amount of time.
 
 <br clear="all" />
 
-== Swimming == 
+== Swimming ==
 Since Tux is a penguin he has a good ability to swim. Water will not harm him. Swimming works by basically having two modes:
 
 * 'standing': Tux stands still in the water, via the directional controls he can move up/down/left/right, this mode is very slow, but exact
@@ -127,7 +127,7 @@ The forest island is split into different section, one being a classical forest,
 * boss: totem
 <br clear="all" />
 
-== Ghost Forest == 
+== Ghost Forest ==
 [[Image:Ghost-portal.jpg|thumbnail|right|Portal into the Ghost forest]]
 
 The ghost forest is a world that exists in parallel to the normal forest. Instead of a living forest, it as a dead one. Instead of cute little enemies, it has ghosts and skeletons. Portals connect the ghost forest with the normal one, both on the worldmap as well as in the levels themself.
@@ -147,7 +147,7 @@ The worldmap shall exist in both the ghost as well as the normal mode, paths mig
 
 The water or lava that will be in some levels will be able to rise. Rising will either be automatic or triggered by switched. The rising lava will lead to drastic increase of danger and force Tux to make it quickly through some areas before the lava reaches him. While water will allow Tux to swim up to places which would otherwise unreachable.
 
-=== Ladder === 
+=== Ladder ===
 
 [[Image:Ladder.png|thumbnail|right|Ladder]]
 
@@ -168,7 +168,7 @@ When jumped up on the snail rolls into her house and thus becomes invincible as 
 
 === Fluffy ===
 [[Image:Fluffy.png|thumbnail|right|Fluffy]]
-Fluffy is a small enemy that moves around via little hop motions, jumping on him will kill him. 
+Fluffy is a small enemy that moves around via little hop motions, jumping on him will kill him.
 
 <br clear="all" />
 
@@ -192,7 +192,7 @@ The Eater is a very small enemy, half the size of a snowball, he can however exp
 
 === MrTree ===
 [[Image:Mrtree.png|thumbnail|right]]
-In its basic version MrTree behaves similary to the Iceblock and thus acts as its replacment in the forest world. He might however also come in stacked-versions, movment stays the same, but its height varies. When jumped up-on a stacked MrTree only the top most one is killed, the others stay untouched. Another variant to MrTree is the toupee one, he has 'green stuff' on its head which might protect him against a single jump, after that jump his green protection is destroyed an he becomes a basic MrTree. 
+In its basic version MrTree behaves similary to the Iceblock and thus acts as its replacment in the forest world. He might however also come in stacked-versions, movment stays the same, but its height varies. When jumped up-on a stacked MrTree only the top most one is killed, the others stay untouched. Another variant to MrTree is the toupee one, he has 'green stuff' on its head which might protect him against a single jump, after that jump his green protection is destroyed an he becomes a basic MrTree.
 
 A last version of MrTree might come in large size.
 
@@ -215,7 +215,7 @@ A flying enemy that can land on trees and carry things around to throw at Tux.
 
 === Canon ===
 [[Image:Canon.png|thumbnail|right|Canon]]
-The canon can be mounted on either static or rotatable pedestal. It shoots angry looking canonballs. 
+The canon can be mounted on either static or rotatable pedestal. It shoots angry looking canonballs.
 
 <br clear="all" />
 
@@ -254,7 +254,7 @@ The Oak hangs in trees and doesn't move until Tux approaches, once Tux gets clos
 
 === Flamey ===
 [[Image:Flamy.png|thumbnails|right|Flamey]]
-Flameies are little enemies build out of fire. They are invulnerable against jumping and when to small ones collide, they turn into a large one. Flameies stays near its starting position and moves a bit around to the left or the right, they don't do walks into one direction like many other enemies. After a while Flameies might shrink and die automatically. 
+Flameies are little enemies build out of fire. They are invulnerable against jumping and when to small ones collide, they turn into a large one. Flameies stays near its starting position and moves a bit around to the left or the right, they don't do walks into one direction like many other enemies. After a while Flameies might shrink and die automatically.
 
 Special Flamey dispensers (volcano, pot with fire) might throw new Flameies onto the playfield at regular intervals.
 
@@ -263,7 +263,7 @@ Flamey might react special to the ice-flower.
 
 === Water Droplet ===
 [[Image:Waterdroplet.png|thumbnails|right|Water Droplet]]
-Water Droplet might behave similarly like Flamey, only instead of fire, they are build out of water. Ice-flower might turn them into an ice-enemy. Multiple water droplets can merge and they can be dispensed from a leaking pipe. 
+Water Droplet might behave similarly like Flamey, only instead of fire, they are build out of water. Ice-flower might turn them into an ice-enemy. Multiple water droplets can merge and they can be dispensed from a leaking pipe.
 
 How they interact with Tux is open for discussion.
 <br clear="all" />
@@ -280,14 +280,14 @@ Angry stone is attached to the roof of a level, once Tux gets close to him (one 
 
 <br clear="all" />
 
-=== Carnivorous Plant === 
+=== Carnivorous Plant ===
 
 [[Image:Plant.png|thumbnail|right|Carnivorous Plant]]
 Plant is fixed on the ground, when Tux gets close it starts to reach for him. When walking slowly it might be possible to walk by a plant without waking her and thus getting killed.
 
 <br clear="all" />
 
-=== Lava Animal === 
+=== Lava Animal ===
 A creature that lives in the lava and jumps at Tux every now and then.
 
 <br clear="all" />
@@ -305,7 +305,7 @@ Should stone tiles be separate from the rest or merged into the main forest tile
 
 What contrib levels contain ideas that might be worth to recycle?
 
-= Disfavored Features in the current Development Version = 
+= Disfavored Features in the current Development Version =
 
 * Pogonia graphics: simply don't look as if they are dangerous, shall be removed or ignored for official M2 level
 * Scripting: scripting shall be limited to cutscenes (intro/credits), boss fights, normal levels shall not feature scripting. If scripting is used it should be invisible, i.e. no "I push this trigger, watch that stupid cutscene and then move on stuff", instead use scripting for rising water/lava, creatures with pseudo intelligent behavior or whatever, make it so that scripting doesn't interrupt gameplay, make it so that scripting provides gameplay
@@ -314,7 +314,7 @@ What contrib levels contain ideas that might be worth to recycle?
 * main menu: could use some serious polishing, simply fill-rect background looks ugly
 * save system: very counter intuitive to get asked for a new save state for contrib levels
 * Tux rap in the intro: must not make its way into Milestone2
-* Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good,  Tux should simply have infinitive lives
+* Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good, Tux should simply have infinitive lives
 * Reset Points: they don't look good and for most part don't do anything good, instead of having reset points levels should simply be made small enough so that they don't need reset points
 * Tux superpowers: hat is ''really'' ugly and shall go, even old red-Tux was way better
 * Tux split sprite: shall be rolled back to the single-image one of Milestone1
