@@ -151,6 +151,8 @@ Each tilemap should have an ambient-light/color setting (tilemap_color * ambient
 
 The water or lava that will be in some levels will be able to rise. Rising will either be automatic or triggered by switched. The rising lava will lead to drastic increase of danger and force Tux to make it quickly through some areas before the lava reaches him. While water will allow Tux to swim up to places which would otherwise unreachable.
 
+Windstille contains in file trunk/windstille/src/liquid.?pp an implementation of simply physic based 2d water, that implementation could/should be used in SuperTux.
+
 === Ladder ===
 
 [[Image:Ladder.png|thumbnail|right|Ladder]]
