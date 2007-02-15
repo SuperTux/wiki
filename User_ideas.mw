@@ -3,8 +3,8 @@
 ===Pre/Post story movie===
 
 Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union.  Wouldn't that be nice?
-:I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the ToDo list, and I guess it will be used for the story intro. --[[User:RavuAlHemio|Ravu]] 14:30, 7 Apr 2005 (BST)
-:Wrong! The story was Tux and Penny were having a picnic, when a creature jumped from behind an ice bush, there was a flash and Tux fell asleep when he woke up there was a note from Nolok saying he had Penny and not to try and save her.So Tux looks sees Nolok's castle and sets off.
+:I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the TODO list, and I guess it will be used for the story intro. --[[User:RavuAlHemio|Ravu]] 14:30, 7 Apr 2005 (BST)
+:Wrong! The story was Tux and Penny were having a picnic, when a creature jumped from behind an ice bush, there was a flash and Tux fell asleep when he woke up there was a note from Nolok saying he had Penny and not to try and save her. So Tux looks sees Nolok's castle and sets off.
 :I think in the story was: "A creature jumped from behind an ice bush, Tux..." ;-)- penma -
 :: The *old* (as in 0.0.5) cutscene involved the helicopter.  The new SVN cutscene is the picnic scene. --[[User:Tuxdev|Tuxdev]] 22:00, 1 Oct 2006 (CEST)
 
@@ -16,7 +16,7 @@ It's currently possible to use a gamepad, but the setup must be done by manually
 
 ===More starting points===
 
-Some levels are very hard in the middle and in the ending. Is there a way to make more starting points? So you haven't to start everytime at beginnig of the level. Sometimes I need ten and more trials to cope a situation. It will be very usefull. Thanks for the good game! Martin (pmw(at)web(dot)de)
+Some levels are very hard in the middle and in the ending. Is there a way to make more starting points? So you haven't to start everytime at beginning of the level. Sometimes I need ten and more trials to cope a situation. It will be very useful. Thanks for the good game! Martin (pmw(at)web(dot)de)
 :Reset points are also being planned. <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 17:28, 8 May 2005 (BST)
 
 perhaps it should be possible to see that you are passing a resetpoint!
@@ -42,7 +42,7 @@ I would recommend platforms that could be jumped through from the bottom but you
 A more fitting reward should be accomplished for collecting coins. Yoshi's Island had red coins, Super Mario Sunshine had Extra Shines, etc.
 : In svn: 25 coins let Tux respawn from the latest firefly
 * Maybe teleports (or something) that cost a certain number of coins to get through?
-* How about the shops on Super Mario 3? they were really a good idea.. I dont understand why they dropped it for Super Mario World --[[User:80.174.65.16|80.174.65.16]] 21:16, 11 Aug 2006 (BST)
+* How about the shops on Super Mario 3? they were really a good idea.. I don't understand why they dropped it for Super Mario World --[[User:80.174.65.16|80.174.65.16]] 21:16, 11 Aug 2006 (BST)
 ::Supertux might be inspired Super Mario. (Basicly because Mario did almost everything you can do in a sidescroller) But that does not mean we have to clone everything Mario ever did.
 :::However, shops are not so typical in Super Mario games and appear in many other games, it is a coherent use for coins. There are a lot of things from Super Mario not strictly necessary for Super Tux that were mentioned here without complain ([[User_ideas#Friendly_NPCs.28non-player_characters.29|Yoshi-like NPC]], the [[Nolok|BowserKoopa-clonic final boss]] and even the kidnapping storyline)
 
@@ -66,7 +66,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 ** Already in SVN (see level "Knee-deep in the depth")
 *'''Helmet'''Tux could wear a helmet, stopping attacks from above, when he ducks he pulls it over himself, making him invincible
 *'''Scrolling''' in menu so that we can access all the test collection directly from the game. Currently it just overflows outside the screen and can only be accessed blindly through keyboard.
-** This is a must. I don't nderstand why isn't it still here..
+** This is a must. I don't understand why isn't it still here..
 :::You did not implement it. I don't think it is that urgent. Real worlds have a worldmap, to test something you can use command line or call level from editor anyway. --[[User:Superdev|Superdev]] 22:14, 7 February 2007 (UTC)
 
 ==Rejected==
