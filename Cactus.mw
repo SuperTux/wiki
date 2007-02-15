@@ -1,34 +1,34 @@
 ==Proposal 1==
 
-===Behaviour===
+=== Behaviour ===
 * like [[Spiky]]
 
-===Look===
+=== Look ===
 * A potted cactus with legs and eyes
 
 [[Image:Cactus.jpg|A concept of this look]]
 
-===Attack===
+=== Attack ===
 * like Spiky
 
-===Vulnerabilities===
+=== Vulnerabilities ===
 * vulnerable only to ice or electricity
 * fire won't work because cacti are full of water
 
-==Proposal 2==
+== Proposal 2 ==
 
-===Behaviour===
+=== Behaviour ===
 * Movement
 ** No movement
 
-===Look===
+=== Look ===
 * A cactus, possibly with eyes
 
-===Attack===
+=== Attack ===
 * When [[Tux]] moves too close, cactus spikes will be shot out in 3 directions:
 ** Left, Right and Up
 
-===Vulnerabilities===
+=== Vulnerabilities ===
 * Cannot be squished
 * Ice and Electricity
 * Fire - may take more than one shot
