@@ -4,7 +4,7 @@
 
 The following is a list of defects in Milestone 1. These are not bugs, but rather things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone 2 or later.
 
-* Bitmap backgrounds look very boring, not only do they not paralax scroll (meaning multiple background layers scrolling at different speeds), but they also simply repeat the tileset that is used for the foreground.
+* Bitmap backgrounds look very boring, not only do they not parallax scroll (meaning multiple background layers scrolling at different speeds), but they also simply repeat the tileset that is used for the foreground.
 
 * Mr Bomb is poorly drawn.
 
@@ -16,7 +16,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The green grass tiles are out of place, and the large one is too large.
 
-* The tiles are seperated in different files; besides other things, this causes slower load times.
+* The tiles are separated in different files; besides other things, this causes slower load times.
 
 * The level header information loading process is rather slow (ie. launching the worldmap).
 
@@ -104,7 +104,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
 
-* Besides the ? blocks, the environment is completly inanimate; this causes the game to be slightly less exciting.
+* Besides the ? blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
 
 * ?-blocks don't indicate at which side they where bumped
 ** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway... 
