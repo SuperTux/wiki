@@ -1,4 +1,4 @@
-Tux will be able to make use of smooth terrain by using the slide action. By using the slider action Tux will jump on its belly and thus slide speedy down the hill. Terrain that is formed like a ramp should allow him to make huge jumps, which would be impossible without the slide action. While sliding downhill Tux shall be invulnerable by normal enemies, howewer special enemies with spikes or so, might still be able to stop him.
+Tux will be able to make use of smooth terrain by using the slide action. By using the slider action Tux will jump on its belly and thus slide speedy down the hill. Terrain that is formed like a ramp should allow him to make huge jumps, which would be impossible without the slide action. While sliding downhill Tux shall be invulnerable by normal enemies, however special enemies with spikes or so, might still be able to stop him.
 
 Exact details on how the sliding will work have to be worked out, but it might get a rather central role in gameplay.
 
