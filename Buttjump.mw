@@ -1,11 +1,11 @@
-The butt-jump is an ability that would let [[Tux]] to jump up into the air and then come crashing down, breaking any blocks beneath him and killing any nearby enemies. 
+The butt-jump is an ability that would let [[Tux]] to jump up into the air and then come crashing down, breaking any blocks beneath him and killing any nearby enemies.
 
 Butt-Jump has the following flow of actions
 
 # Tux jumps up as normal
 # Player presses 'down'
 # Tux does some acrobatic movement to get into the 'butt-position'
-# Tux then falls down back to the ground, butt first 
+# Tux then falls down back to the ground, butt first
 # When smashing on the ground wooden boxes will be destroyed
 # It takes Tux a small amount of time to jump back onto his feet to get back to normal
 
