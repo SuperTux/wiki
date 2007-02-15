@@ -1,9 +1,8 @@
-[[Category:Developer documentation]]
 This page describes the new versioning scheme that will be used for SuperTux.
 
-==The scheme==
+== The scheme ==
 
-===SuperTux===
+=== SuperTux ===
 
 Releases will have the form of <tt>x.y.z</tt>.
 
@@ -17,33 +16,35 @@ While development releases are likely to be stable, they are more likely to rece
 
 As a rule, <tt>z</tt>-releases cannot break level editor functionality in stable branches. For development branches you should check the wiki to make sure your version of the SuperTux Editor works with your version of SuperTux. To be sure, if you are using the development branch you should always be using the latest version of both SuperTux and the SuperTux Editor.
 
-===SuperTux Editor===
+=== SuperTux Editor ===
 
 Releases will have the form of <tt>x.y.z</tt>.
 
 * <tt>x</tt> and <tt>y</tt> will match the <tt>x</tt> and <tt>y</tt> of the SuperTux release the editor works for.
 * <tt>z</tt> is increased when there is a bugfix release or minor changes made to the editor. This number does not necessarily match up with the <tt>z</tt> of the SuperTux release.
 
-===Brown-paper-bag releases===
+=== Brown-paper-bag releases ===
 
 A fourth decimal point number <tt>n</tt>, of the form <tt>x.y.z.n</tt>, will be used for [http://www.answers.com/topic/brown-paper-bag-bug-computer-jargon brown-paper-bag] releases. Hopefully we never need to use this.
 
-==Release branches==
+== Release branches ==
 
-===<tt>0.1.x</tt> releases===
+=== <tt>0.1.x</tt> releases ===
 
 This is the [[Milestone 1]] branch.
 
-The <tt>0.1.x</tt> releases do not follow the current versioning scheme. <tt>0.1.x</tt> is considered a ''stable  branch''.
+The <tt>0.1.x</tt> releases do not follow the current versioning scheme. <tt>0.1.x</tt> is considered a ''stable branch''.
 
-===<tt>0.2.x</tt> releases===
+=== <tt>0.2.x</tt> releases ===
 
 There will not be any <tt>0.2.x</tt> releases.
 
-===<tt>0.3.x</tt> releases===
+=== <tt>0.3.x</tt> releases ===
 
 The <tt>0.3.x</tt> branch is being used to develop SuperTux 0.4.0. It has implemented the [[Milestone 1.9]] goals.
 
-===<tt>0.4.x</tt> releases===
+=== <tt>0.4.x</tt> releases ===
 
 SuperTux 0.4.0 will be the [[Milestone 2]] release.
+
+[[Category:Developer documentation]]
