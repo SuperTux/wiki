@@ -1,13 +1,13 @@
 {{Milestone 2}}
 = Some notes for windows users =
 
-Supertux development mainly happens on linux. The sourcecode is written in a portable manner but the tools and development environment for windows isn't there (yet?). However you should be able to get the game built with the help of msys. Find more detailed instructions at [[Building on Windows]].
+Supertux development mainly happens on Linux. The source code is written in a portable manner but the tools and development environment for windows isn't there (yet?). However you should be able to get the game built with the help of msys. Find more detailed instructions at [[Building on Windows]].
 
 = Mac OS X =
 
 [[User:RavuAlHemio|Ravu al Hemio]] has written a [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for Mac OS X Tiger users on building SuperTux.
 
-= Prerequesites =
+= Prerequisites =
 
 You will need the following tools and libraries to build SuperTux on your system:
 * gcc compiler &co (gcc, g++, binutils, glibc)
@@ -41,16 +41,16 @@ The first thing to get started with supertux is getting the latest development r
 
 = Configuring the source =
 
-Before compiling the sourcecode you have to configure it so that it gets adapted to your machine. Use the following commands:
+Before compiling the source code you have to configure it so that it gets adapted to your machine. Use the following commands:
 
  ./autogen.sh
  ./configure --enable-debug
 
-configure checks if all prerequisits are met.
+configure checks if all prerequisites are met.
 
 = Compiling the source =
 
-You can compile the sourcecode from commandline with the help of jam. Simply type
+You can compile the source code from commandline with the help of jam. Simply type
 
  jam
 
@@ -90,7 +90,7 @@ If you have to use the generic installer from the web, be warned that neither th
 
 1.  Install mono using an all-in-one generic installer
 
-The all-in-one installer will try to adjust your enviroment through the .bashrc file.  This is not a proper system-wide change, so (in Slackware at least) modify these scripts and place them in /etc/profile.d
+The all-in-one installer will try to adjust your environment through the .bashrc file.  This is not a proper system-wide change, so (in Slackware at least) modify these scripts and place them in /etc/profile.d
 
 mono.csh
 
