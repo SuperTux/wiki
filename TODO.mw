@@ -47,7 +47,7 @@ Moved to our [http://supertux.lethargik.org/bugs bug tracker].
 * Windows builds seem to silently crash when loading huge levels
 *:huge as in 100x100 or more like 10000x10000?
 *::the level old world2/airkey.stl crashed both editor and the game itself on windows. --[[User:AnMaster|AnMaster]] 17:56, 30 Jun 2006 (BST)
-*:::the old airkey was 300x300. It makes the editor slow on my linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
+*:::the old airkey was 300x300. It makes the editor slow on my Linux box but it's working--[[User:WolfgangB|WolfgangB]] 00:14, 6 Jul 2006 (BST)
 * Make the right click menu from sector tab a normal menu so that users can easily find it
 *:Maybe add them to a toolbar? that could be useful. --[[User:AnMaster|AnMaster]] 23:27, 20 Jul 2006 (BST)
 * Add a new way to copy parts of one level to another.
