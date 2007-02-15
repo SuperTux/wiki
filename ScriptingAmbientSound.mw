@@ -6,7 +6,7 @@ An ambient sound that was given a name can be controlled by scripts.
 = Methods =
 {| class="objectlist"
 ! class="method" style="vertical-align: top"| set_pos(float x, float y)
-| Sets the position of the abient sound
+| Sets the position of the ambient sound
 |-
 ! class="method" style="vertical-align: top"| get_pos_x()
 | Returns the x coordinate.
