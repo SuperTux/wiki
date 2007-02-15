@@ -1,50 +1,51 @@
-[[Category:Development]][[Category:For Users]][[Category:FAQs]]
 {{Attention|s=This is about the Milestone 1.9 and later editor '''NOT''' about the editor built into SuperTux 0.1.x.}}
 
 __TOC__
 
 
-==Generic==
+== Generic ==
 [[Image:EditorFAQ1.png|thumb|500px|Overview of the Editor, click to enlarge]]
-===How do I move around in a level?===
+=== How do I move around in a level? ===
 Click and drag with the middle mouse button.
 
 <br/>
 
-==Tiles==
+== Tiles ==
 
-===How do I add tiles to a level===
+=== How do I add tiles to a level ===
 Click on the layer you want the tiles on and select the tile you want from the Tiles Tool.
 
 ===How do I filter the the tiles so I can find a specific one?===
 With the Tiles tool selected, there is a combo box above the pane with all of the tiles in it.  This combo box contains categories (called tile groups) which filter what is displayed in the pane.
 
-===How do I hide tile layers?===
+=== How do I hide tile layers? ===
 Click on the small eye ([[Image:EditorEyeIcon.png]]) in the layer listing to adjust how hidden a layer is.  Options are shown, semitransparent, and hidden.
 
-===How should I place the tiles for the end-level structures?===
+=== How should I place the tiles for the end-level structures? ===
 The best way to learn this is to look at existing levels. For the exit tree in MS2 the best place to look at is levels/test/tree-exit.stl at this point. Also note that using tiles for triggering the end sequence, although still supported, is no longer necessary. See [[#What is the SequenceTrigger object for?|What is the SequenceTrigger object for?]]
 
-===How should I place floor and earth tiles to be the most aesthetically pleasing?===
+=== How do I add a new tilemap? ===
 
 <br/>
 
-==Objects==
+== Objects ==
 
-===How do I easily align an object to the grid?===
+=== How do I easily align an object to the grid? ===
 Press the Control key while moving an object to snap to every 16 pixels.  Press the Shift key to snap to every 32 pixels.
 
-===What is the SequenceTrigger object for?===
+=== What is the SequenceTrigger object for? ===
 [[Image:Sequencetrigger.png|left]] The SequenceTrigger object is used to define the areas that start and stop the end sequence (Tux walks into Igloo / Exit). The sequence names for that are "endsequence" and "stoptux", respectively. Also, you can use "fireworks".
 
-===What is the SpawnPoint object for?===
+=== What is the SpawnPoint object for? ===
 [[Image:Spawnpoint.png|left]] The SpawnPoint object is used to define places where Tux could "spawn". This is used to mark where Tux should start in the level, the destination of doors and more. The spawnpoint where Tux will start on loading the level must be named "main" and be in the sector called "main".
+
+=== How do I change the background image? ===
 
 <br/>
 
-==Other tools==
+== Other tools ==
 
-===How do I use brushes?===
+=== How do I use brushes? ===
 [[Image:EditorBrushIcon.png|left]]
 Brushes are used to clean up edge tiles. The brush tool does that by replacing a chosen 3x3 section of tiles with the best of several "good-looking" patterns stored in so-called brushes. Keep that in mind when working with brushes - a brush will never apply a pattern it does not know about.
 
@@ -64,23 +65,23 @@ Note that a good brush would need several thousand patterns.
 
 <br/>
 
-==Sectors==
+== Sectors ==
 
-===How do I resize a sector?===
+=== How do I resize a sector? ===
 Right click on the [[#Where are the sector tabs?|tab for the sector]] and select "Resize".
 
-===Where are the sector tabs?===
+=== Where are the sector tabs? ===
 Near the top of the editor. The default sector in a level is called "main" and is the sector where the game will start.
 
-===How do I create a new sector?===
+=== How do I create a new sector? ===
 Right click at the [[#Where are the sector tabs?|sector tab]] area and select "New".
 
 <br/>
 
-==Bugs and Errors==
+== Bugs and Errors ==
 {{Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]}}
 
-===I get an error about "Object reference not set to an instance of an object"===
+=== I get an error about "Object reference not set to an instance of an object" ===
 This can be several things:
 #Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
 #If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least  1.2.2.1.
@@ -92,3 +93,5 @@ If any of the above didn't solve the problem and you manage to recreate the erro
 *What OS and OS version you use
 *What versions of mono, the editor itself, GTK and GTK# that you use
 These types of bugs can not be solved without that info (and sometimes we might need more details than that, so please check back at the bug once day or so if there is any more info asked for).
+
+[[Category:Development]][[Category:For Users]][[Category:FAQs]]
