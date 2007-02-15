@@ -1,5 +1,3 @@
-[[Category:Development]]
-[[Category:SuperTux]]
 == Bad Things ==
 
 The following is a list of defects in Milestone 1. These are not bugs, but rather things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone 2 or later.
@@ -107,7 +105,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * Besides the ? blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
 
 * ?-blocks don't indicate at which side they where bumped
-** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway... 
+** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
 ** Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped).
 
 * There are no fade-outs/ins when you either die or complete a level.
@@ -145,10 +143,13 @@ This is a list of things that are good in Milestone 1 (compared to most other ga
 
 * Saving/Loading is automatic and instant, makes the game simpler and not frustrating when the computer crashes or the dog pressed the power button. You can always continue the game where you left it last time.
 
-* The game switches theme from snow to cave levels at some point, and later to a  mixed style (wansti levels vs. grumble levels). This keeps interest in the game and is also a little reward for moving forward in the worldmap.
+* The game switches theme from snow to cave levels at some point, and later to a mixed style (wansti levels vs. grumble levels). This keeps interest in the game and is also a little reward for moving forward in the worldmap.
 
 * Built-in level editor animates people to play around and create their own levels (this resulted in enough material for 2 bonus islands).
 
 * A bit of story to provide you with a "reason" to move forward in the game, this also details the character of Tux and Nolok a bit so that they are a bit more familiar to the player.
 
 * Tux is extremely cute!
+
+[[Category:Development]]
+[[Category:SuperTux]]
