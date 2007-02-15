@@ -1,4 +1,3 @@
-[[Category:Development]][[Category:Meta]]
 If you would like to contribute to SuperTux, you should follow a series of instructions to make the process as hassle-free as possible for you and the developers.
 
 == Generic instructions ==
@@ -29,3 +28,6 @@ You can knock down file sizes by only sending differences between the files. Sub
 Now, you can attach ''fix-year.patch'' to an e-mail to the mailing list. If you want to apply a patch generated using ''svn diff'', use the following command:
 
  patch -p0 < fix-year.patch
+
+[[Category:Development]]
+[[Category:Meta]]
