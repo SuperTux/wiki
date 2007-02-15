@@ -143,6 +143,10 @@ The worldmap shall exist in both the ghost as well as the normal mode, paths mig
 
 == Game Elements ==
 
+=== TileMap Dimming === 
+
+Each tilemap should have an ambient-light/color setting (tilemap_color * ambient_color). This should be relativly easily be implementable via a glColor() or a Surface::set_color() at the right place. It is meant to be used in levels with multiple parallax scrolling backgrounds, so that the backgrounds further away can become darker then the ones in the foreground. The ambient-light setting is meant to be specific to the single tilemap only and has nothing to do with the global ambient-light setting.
+
 === Rising Lava/Water ===
 
 The water or lava that will be in some levels will be able to rise. Rising will either be automatic or triggered by switched. The rising lava will lead to drastic increase of danger and force Tux to make it quickly through some areas before the lava reaches him. While water will allow Tux to swim up to places which would otherwise unreachable.
