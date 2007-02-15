@@ -1,18 +1,18 @@
 == SVN Version ==
 
-* After Starting supertux CPU usage is 100% and mouse and keyboard aren't working in SuperTux. OpenAL reports that it couldn't open /dev/snd. If you are using dmix with alsa add this to ~/.openalrc
+* After Starting supertux CPU usage is 100% and mouse and keyboard aren't working in SuperTux. OpenAL reports that it couldn't open /dev/snd. If you are using dmix with ALSA add this to ~/.openalrc
  (define devices '(alsa))
  (define alsa-out-device "output")
  (define sampling-rate 44100)
  (define speaker-num 2)
 
-After this SuperTux should work as normal. And you can now play all other games that uses OpenAl while you are listening to the music.
+After this SuperTux should work as normal. And you can now play all other games that uses OpenAL while you are listening to the music.
 credits for this solution goes to MatzeB
 
 == OpenAL ==
 
-By default OpenAL uses OSS output. On modern systems OSS is emulated by Alsa anyway, so usually using
-Alsa directly sounds better. Create ~/.openalrc:
+By default OpenAL uses OSS output. On modern systems OSS is emulated by ALSA anyway, so usually using
+ALSA directly sounds better. Create ~/.openalrc:
 
  (define devices '(alsa))
  (define speaker-num 2)
