@@ -70,7 +70,7 @@ This section is under construction. IDEs that should be able to handle supertux 
 To compile the editor you should make sure that you have some additional dependencies available:
 
 * An already compiled and working svn version of supertux
-* mono 1.1.13 or newer
+* mono 1.2.2.1 or newer
 * gtk-sharp 2.8
 
 === Debian ===
@@ -81,7 +81,7 @@ Debian users can run the following command to do this:
 === Gentoo ===
 
 Gentoo users can use this command:
- emerge -av ">=dev-lang/mono-1.1.13" ">=dev-dotnet/gtk-sharp-2.8.0" ">=dev-dotnet/glade-sharp-2.8.0"
+ emerge -av ">=dev-lang/mono-1.2.2.1" ">=dev-dotnet/gtk-sharp-2.8.0" ">=dev-dotnet/glade-sharp-2.8.0"
 Unmask any packages that might be needed on your arch (none needed on either x86 or amd64).
 
 === Generic ===
