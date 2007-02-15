@@ -1,4 +1,4 @@
-__NOTOC__[[Category:Meta]]
+__NOTOC__
 Development is mainly coordinated via IRC and the mailing list. Be sure to visit both once in a while or you might miss critical stuff.
 
 = Mailing List =
@@ -23,3 +23,5 @@ List for commits to SVN, mainly useful for people working directly with the sour
 
  Server: irc.freenode.net
  Channel: [irc://irc.freenode.net/#supertux #supertux]
+
+[[Category:Meta]]
