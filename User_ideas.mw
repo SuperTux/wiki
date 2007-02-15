@@ -487,11 +487,11 @@ I think that Supertux would be even cooler in 3D. It could be partially implemen
 ==== Pirates ====
 Any bad guy pirate with a sword also be fun to the milestone 2.
 <br />foudre: yer idea be seconded
-[[Category:Design]]
-
 ==== Collect coins by shooting ====
 It should be possible to collect coins by shooting at them with the fire flower powerup. AFAIR, you can do this in Super Mario games. --[[User:217.235.171.77|217.235.171.77]] 01:24, 9 Dec 2006 (CET)
 * No, but maybe get coins for killing badguys?
 
 ==== Pay for restart at reset point, not for dying ====
 This has been proposed as Issue 141. It would mean that Tux doesn't have to pay 25 coins as a penalty for dying. Instead he buys the ability to restart at a reset point. In practice, it would mean that Tux doesn't have to pay when he hasn't activated a reset point yet. It would make the cost seem less like a penalty and more like a trade-off. (Plus, restarting from the beginning is always possible from the worldmap.)
+
+[[Category:Design]]
