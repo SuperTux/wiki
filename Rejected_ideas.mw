@@ -7,7 +7,7 @@ We won't include Beastie or any other FOSS mascot. SuperTux is meant as a good j
 
 ==No useless items/actions/enemies==
 
-Any enemy, action or item added to the game should serve a specific purpose, thus allow something not doable by other items, enemies or actions. Different looking actions that serve the same purpose are most of the time just confusing and add unnecesarry bloat to the game. There is of course a little need to have a varity of enemies, but even with them varity in behaviour is much more important then varity in look. Different looking enemies might make pretty screenshots, but different behaviour makes a better game.
+Any enemy, action or item added to the game should serve a specific purpose, thus allow something not doable by other items, enemies or actions. Different looking actions that serve the same purpose are most of the time just confusing and add unnecessary bloat to the game. There is of course a little need to have a variety of enemies, but even with them variety in behaviour is much more important then variety in look. Different looking enemies might make pretty screenshots, but different behaviour makes a better game.
 
 ==No Magic System==
 
