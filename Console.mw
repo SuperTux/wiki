@@ -1,4 +1,3 @@
-[[Category:Game Engine]]
 {{Milestone 2}}
 The Console is a panel normally hidden from view. Its usage is twofold:
 
@@ -7,7 +6,7 @@ The Console is a panel normally hidden from view. Its usage is twofold:
 
 The Console pops into view for a short time whenever new messages are printed. To review old messages and enter commands, the console needs to be activated.
 
-By default no key is assigned to opening the console. This can be done by editing the SuperTux configuration file and adding a key binding for "console".  For example, to activate the console using the tilde (~) key, you would add the following to the keymap section of the configuration file:
+By default no key is assigned to opening the console. This can be done by editing the SuperTux configuration file and adding a key binding for "console". For example, to activate the console using the tilde (~) key, you would add the following to the keymap section of the configuration file:
       (map
         (key 96)
         (control "console")
@@ -47,3 +46,5 @@ Following is a list of useful scripts to run in the console:
 |-
 |'''finish()'''||Finish the level
 |}
+
+[[Category:Game Engine]]
