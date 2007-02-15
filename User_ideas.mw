@@ -1,6 +1,6 @@
 ==Implemented==
 
-===Pre/Post story movie===
+=== Pre/Post story movie ===
 
 Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union.  Wouldn't that be nice?
 :I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the TODO list, and I guess it will be used for the story intro. --[[User:RavuAlHemio|Ravu]] 14:30, 7 Apr 2005 (BST)
@@ -10,11 +10,11 @@ Instead of showing scrolling text, movies can be shown stating Penny's kidnap...
 
 Now we have the demos feature in SVN, and it shouldn't be too hard to make a 'movie' level for showing a demo mid-story. --[[User:Ajdlinux|Ajdlinux]] 23:20, 30 Sep 2005 (BST)
 
-===Add a gamepad configuration===
+=== Add a gamepad configuration ===
 It's currently possible to use a gamepad, but the setup must be done by manually editing the SuperTux configuration file.
 :This has been improved in the development version. supertux now uses all available joysticks and allows to configure the actions for the different joystick buttons.
 
-===More starting points===
+=== More starting points ===
 
 Some levels are very hard in the middle and in the ending. Is there a way to make more starting points? So you haven't to start everytime at beginning of the level. Sometimes I need ten and more trials to cope a situation. It will be very useful. Thanks for the good game! Martin (pmw(at)web(dot)de)
 :Reset points are also being planned. <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 17:28, 8 May 2005 (BST)
@@ -22,12 +22,12 @@ Some levels are very hard in the middle and in the ending. Is there a way to mak
 perhaps it should be possible to see that you are passing a resetpoint!
 :Restart points exist in the SVN version, they are marked by butterfly.
 
-===New tiles for the worldmap===
+=== New tiles for the worldmap ===
 I already designed some additional worldmap objects for Supertux 0.1.2, e.g. paths through the forest or something like "water ways". Maybe in MS 2 some kind of swimming tux in worldmap could be possible, or walking over a bridge. (For my current solution I only added something to my antarctica.stwt.) - penma -
 
 : In svn: bridges, boats
 
-===One-way platforms===
+=== One-way platforms ===
 
 <small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives)</small>
 
@@ -35,7 +35,7 @@ I would recommend platforms that could be jumped through from the bottom but you
 
 : In svn: unisolid tiles
 
-===Better rewards===
+=== Better rewards ===
 
 <small>(An idea from Stephen2985, taken from [lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
 
@@ -46,7 +46,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 ::Supertux might be inspired Super Mario. (Basicly because Mario did almost everything you can do in a sidescroller) But that does not mean we have to clone everything Mario ever did.
 :::However, shops are not so typical in Super Mario games and appear in many other games, it is a coherent use for coins. There are a lot of things from Super Mario not strictly necessary for Super Tux that were mentioned here without complain ([[User_ideas#Friendly_NPCs.28non-player_characters.29|Yoshi-like NPC]], the [[Nolok|BowserKoopa-clonic final boss]] and even the kidnapping storyline)
 
-===One-liners===
+=== One-liners ===
 
 *'''Pulling levers''' - activate/deactivate/open/close things. Added in SVN today thanks to me (mmiikkee12) :-) (they're called switches but they're more like levers)
 *'''Standing on switches''' - activate/open things.
@@ -69,19 +69,19 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 ** This is a must. I don't understand why isn't it still here..
 :::You did not implement it. I don't think it is that urgent. Real worlds have a worldmap, to test something you can use command line or call level from editor anyway. --[[User:Superdev|Superdev]] 22:14, 7 February 2007 (UTC)
 
-==Rejected==
+== Rejected ==
 
 '''See [[User ideas/Rejected]]'''
 
-==Unimplemented==
+== Unimplemented ==
 
-===More Tux Moves===
+=== More Tux Moves ===
 Perhaps Tux could be able to pick up a powerup that would let him duck, then press jump and he spins in a ball, destroying enemies just like Sonic the Hedgehog.  Maybe a Glider that would let tux slowly glide in a line. I would love to see Super Tux become a Mario/Sonic fusion.
 
-===Central Storyline===
+=== Central Storyline ===
 I believe the game really needs a storyline that makes the game not just about the arcade, but involves a greater plot. There should be a cutscene for just about every level and specific objectives (like you need to find a certain key or something before completing the level) Almost every level should have a cutscene that further adds to the plot. I also like the NPC idea because that can also drive the the plot. An idea for a storyline is detailing how Tux and Penny met and maybe add other characters that touch Tux's life (family, old flames, etc.)
 
-===An extro - I imagine like this...===
+=== An extro - I imagine like this... ===
 I think an idea for later versions was if there was the possibility of doing some adventures with Penny, e.g. exploring some parts of the world. But it's not necessary - only a funny feature.
 :We're thinking about telling parts of the story from Penny's point of view. --Wansti
 ::Penny is captured by Nolok and locked into cage in his castle so she cant move, so therefor you cant tell view story from her PoV because she cant do anything because shes imprisoned! -- smallfoot
@@ -92,15 +92,15 @@ I think an idea for later versions was if there was the possibility of doing som
 
 I have another idea. About at the 2/3 point of the game, you track Nolok down. Boss battle! As Nolok dies (or whatever), a shade floats out of him and solidifies. The shade is in the general shape of a penguin, but is all black. Not even the eyes are visible. If you have lighting effects going by that time, the "Shadow Penguin" literally darkens any light sources he's near, more and more as the game goes on. The Shadow Penguin escapes. At the very end of the game, now you've tracked the Shadow Penguin down, and you've tracked him to some sort of landscape far removed from the world we know. All backgrounds are black, and the world is sort of a cyber, glowing green (or blue) on black, final showdown kind of thing. You finally find the Shadow Penguin, you fight. The Shadow Penguin has a strong shield, then once that's broken down, the fun REALLY begins. The Shadow Penguin is invulnerable unless you jump on him 3 times... then you can damage him. Once he is defeated... LIGHT! The penguin's "aura", that was causing darkness to take over, vanishes, the blackness (and glowing green, or blue, or whatever) falls away, blue sky and the world we know reasserts itself, and you are revealed to be back in Antarctica, where you started! Tux embracing Penny, happy ending cutscenes, etc. the end.
 
-===Scuba Gear?===
+=== Scuba Gear? ===
 Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
 
-===Boxing gloves===
+=== Boxing gloves ===
 [[Image:Boxeur_tux.gif]]
 
 Boxing gloves might be found as temporary powerups, permanent powerups like the flowers or might be bought at the shops. Boxeur Tux can smash crates, open bonus blocks and defeat most enemies by punching.
 
-===Darker background===
+=== Darker background ===
 
 <small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
 
@@ -111,51 +111,51 @@ Have the game engine display background as 75% brightness, making some levels ea
 *:::Eh... you may have misinterpreted me. I was referring to the possibility of adjustment of tileset color or brightness or opacity by level devs for each specific .stl, not by players. It's something that could make for some nifty levels, or at least more aesthetically appealing ones (depending on how it's used.)--[[User:Teal|teal]] 22:23, 22 Aug 2006 (BST)
 *::::Okay, s/player/level designer.  I think that both of these things have been implemented in SVN, but still needs tuning. --[[User:Tuxdev|Tuxdev]] 22:43, 22 Aug 2006 (BST)
 
-===Background Tileset===
+=== Background Tileset ===
 <small>after reading grumbel's rant</small> a tileset for forest parallax background is missing. Standard forest tiles are too big.
 
-===Some more badguys===
+=== Some more badguys ===
 
 Here're three new suggestions for badguys in the forest world:
 
 [[Image:Biella_mrlog_limpy.jpg|thumb|right]]
 
-====Biella====
+==== Biella ====
 * Quick, flying creature, continuously following Tux.
 * Could shoot stingers.
 
-====Mr Log====
+==== Mr Log ====
 (I designed Mr Log before I read about [[WalkingTotem]]. Looks like I'm not the first one who gave some thought to stackable logs...)
 
 * Slow creature without any special abilities.
 * Maybe "stackable", similar to the cactuses in SMW: Up to four "Mr Log" could be combined to serve as a high barrier, only destroyable from above (or with FireTux).
 
-====Limpy====
+==== Limpy ====
 * Another slow creature, which is able to adhere to any surface. When reaching the end of a platform, it doesn't fall down, but continues to crawl downwards, upwards, or even underneath.
 
 
 These badguys could fit in somewhere else.
 
-====Mr Missile====
+==== Mr Missile ====
 [[Image:MrMissile.png|right]]
 Once he “sees” Tux, Mr Missile starts shadowing him. So if Tux stops he doesn’t stop until he reaches the place Tux stopped at. It is the same with other actions. Mr Missile is as fast as Tux. He is killed by invincibility and Supertux’s fire
 
-====Rolling Snowball====
+==== Rolling Snowball ====
 Rolling snowball looks like bouncing snowball except he rolls along the ground (obviously) when he “sees” Tux he gives a little signal and starts rolling as fast as skidding Mr Iceblock. Tux should be able to ride him. If he stands on him he “zooms”, taking Tux with him. He dies after 5 crashes on “zoom” mode or 1 if Tux is riding him. Invincibility and Supertux’s fire are the only other things that kill him.
 :  There could be a rolling spiky that Tux could not ride.
 
-====Mr Airtank====
+==== Mr Airtank ====
 *looks like a scuba tank with eyes and feet
 *when Tux gets near he pufs out gas which harms Tux
 *when killed, flashes (like Mr Bomb) and explodes (also like Mr Bomb)
 
-====Super Snowball====
+==== Super Snowball ====
 *looks like a giant Mr Snowball
 *can get bonuses like becoming Firetux
 *if Tux jumps on him he shrinks to Mr Snowball
 
 This badguy could go anywhere.
-====Mr Block====
+==== Mr Block ====
 *looks like shoes with eyes on top
 *"gets" blocks somehow and uses them as a body
 *when killed only the eyes and feet die, leaving a block
@@ -165,7 +165,7 @@ This badguy could go anywhere.
 
 Here is a badguy which could fit into the dark-forest scheme:
 
-====The Evil Tree====
+==== The Evil Tree ====
 
 [[Image:Evil_tree.png]]
 
@@ -178,13 +178,13 @@ That could be compensated by making it a bit harder to kill.
 (I also have the graphic in svg available where it should be easy editable and resizeable.)
 --[[User:Henning|Henning]] 08:46, 27 Sep 2006 (BST)
 
-====Leopard Seals====
+==== Leopard Seals ====
 Just another badguy. See wikipedia article about this: en.wikipedia.org/wiki/Leopard_Seal
 They can grab penguins under water, they can't breath and they die.
 
-====Badguys from User Penguin====
+==== Badguys from User Penguin ====
 
-=====Some Badguys for Icyisland=====
+===== Some Badguys for Icyisland =====
 
 ''Flattop/Flatbottom Iceberg''
 
@@ -192,7 +192,7 @@ Flattop Iceberg looks like an upside-down icy cone with eyes that follow Tux and
 
 Flatbottom Iceberg is a flipped Flattop Iceberg, so it can't be "ridden". Both kinds of Iceberg can be killed by fire shot and their points kill Tux.
 
-=====Some Forest World Badguys=====
+===== Some Forest World Badguys =====
 
 ''WalkingStone''
 
@@ -237,7 +237,7 @@ Mr. Bubble looks like a very fat ghost with legs and eyes. It mostly walks on th
 
 Looks and acts the same as Mr.Bubble,but warps Tux.
 
-=====Castle Badguys=====
+===== Castle Badguys =====
 
 ''Walking DartTrap''
 
@@ -247,63 +247,63 @@ Looks like a walking SkullyHop, but shoots darts at preset intervals. Can be kil
 
 As high as BigTux, it runs with its sword held in front of it. It can kill Tux, as well as any badguy that can be killed by Tux. When hit with fire shot, it melts and disappears.
 
-===More Objects to Meet===
+=== More Objects to Meet ===
 
-====Radar Man====
+==== Radar Man ====
 [[Image:RadarMan.png|right]]
 Radar Man moves by disappearing from the square he is in and appearing in one next to it. He does not harm Tux he simply makes Tux have to move like him for a while. Radar Man cannot be harmed.
 :Maybe its my poor English, but i dont understand what radar man is supposed to do.
 
-====Safe====
+==== Safe ====
 [[Image:Safe.png|right]]
 Something is hidden in a safe.  If it is touched by Tux then as soon as Tux stops touching it the thing is released. If it is a tile that’s hidden in it then to release it the safe turns into it, if it is a bad guy it appears on top of it.
 
 : I at least do not like that idea. [[User:84.154.88.23|84.154.88.23]] 22:14, 25 Sep 2006 (BST)
 : Every time you use Paint for anything other than pixmapping, God kills a graphics designer. I don't want to die because of you. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 23:15, 26 Oct 2006 (CEST)
 
-====Sleeping Snowball====
+==== Sleeping Snowball ====
 Looks like a Mr Snowball with no feet and closed eyes, on contact with him Tux falls over and can't get up for a few seconds, allowing badguys to get him. Might be defeatable.
 
-====Sitting Spiky====
+==== Sitting Spiky ====
 * looks like a metal dome with spikes
 * hurts Tux on contact
-====Flying Spiky====
+==== Flying Spiky ====
 *looks like Sitting Spiky with propeller underneath
 *if Tux touches prop. he gets blown away
 *hovers in mid-air
 
-====Robber====
+==== Robber ====
 Robber walks around and, on contact steals bonuses and runs off to somewhere. If he steals every kind of bonus, he gets a weapon, allowing him to hurt Tux.
 
 :As an addition for this idea, it should be possible to pursuit and kill the robber to get the stuff back, though it should be pretty hard to get him. --[[User:Head|Head]] 23:12, 8 Dec 2006 (CET)
 :great idea.
 :Needs work... Besides, it sounds kinda cheesy. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 23:12, 20 Dec 2006 (CET)
 
-====Scared Cat====
+==== Scared Cat ====
 
 *runs away from Tux
 *would be ''nearly'' as fast as Tux
 *When he catches one Tux gets a reward-Special bonus?
 
-====Badguys from Shylence====
+==== Badguys from Shylence ====
 
-=====Ghostly Tree=====
+===== Ghostly Tree =====
 Ghost forest version of MrTree. See [[Ghostly Tree]].
 
-=====Walking Rock=====
+===== Walking Rock =====
 Unrelated with the "Walking rock" above. A big rock that works like a platform. See [[Walking Rock]].
 
-=====Undead enemy=====
+===== Undead enemy =====
 [[Image:Undead_penguin.gif]]
 
 When killed, stays dead for some time and then comes back to life. Could be a zombie penguin or a skeleton alike to SkullyHops. Might be freezable and killed by fireballs or buttjump.
 
-=====Volcano=====
+===== Volcano =====
 [[Image:Volcano.gif]]
 
 Implementation of a Dispenser (took the idea from that page). Spawns rocks and/or flames randomly or at a given interval. Might be frozen and become usable as a platform (or even something like a geyser), but only for a limited time.
 
-===Some sounds===
+=== Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
 
@@ -331,33 +331,33 @@ Perhaps Tux could ride a Gnu? -kcfelix
 : [[Rejected ideas]] lists "no FOSS mascots". I also don't think SuperTux' target audience would understand just why SuperTux would feature a penguin riding a gnu. Let's leave Tux the only reference to anything geeky.
 :: Perhaps we could make just this exception, since it is kind of a major character.  We could tell it like "Tux went to Grass(???) world and met Gnu, who joined Tux against Nolok because <personal reason>". --tuxdev
 
-===Bad guys and Immunity===
+=== Bad guys and Immunity ===
 I suggest that very few bad guys have complete immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other bad guys. I think there should also be a downside for the bad guy in all cases.  -F50
 
-===Stage Variety===
+=== Stage Variety ===
 One thing that SuperTux is missing that Mario had would be stage variety. There are already above and underground stages, but where's the underwater action? Not to mention things like castle stages, stages with rising/falling water, vertically scrolling stages, those really annoying maze stages, autoscrolling stages, et cetera. Not to mention different locales, but I gather that those are already in the works. I refer specifically to some sort of forest. (And, might I add, picturing a penguin in a forest is pretty amusing.)
 :they are going to use a forest in M2
 <br />foudre: I dl the alpha for milestone 2, problem being is that in mario and other games they had more variety, ie: smaller worlds and more of them, rather then a long series of same themed levels, the forest is sort of cool, but people need to work on more tile sets, i will try to create a mountain side/volcano one, but the thing about major sidescroolers they had several worlds, and some levels even had their own tileset, so i think there shouldn't be the same fear of extra tile sets here either, i mean keeping it reasonable of course. and of course more enemies, the new set of forest creatures was sort of cool, still needs more variety
 
 See: en.wikipedia.org/wiki/Computer_and_video_game_settings
 
-===Alternative worlds===
+=== Alternative worlds ===
 There might be alternative worlds accessible by beating secret levels, e.g. Tux might find a secret exit in a IcyIsland level and go to a volcano world instead of the forest world. Think of Wario Land II. However, I'd reserve this for Milestone 3 or even later, since this would take a lot of designing.
 
-===Female Players===
+=== Female Players ===
 
 For the female players: You can play Penny and will have to rescue Tux.
 :No that would be unrealistic. Everybody know that Tux is a strong superhero and that Nolok or anyone could never ever kidnap him and that even if they managed to, then Penny could do nothing besides crying and going him and eating until she get fat or suicide!
 ::Yeah, right... As you can read in several other places on the wiki, Penny will be a playable character in Milestone 3.
 
-===Level Start===
+=== Level Start ===
 
 Enter level with jump button.
 :There's a problem I experienced with this : when you choose Up arrow key as the jump button, you can't move up anymore on the worldmap, since there are two actions for one key. Maybe worldmap movement keys should be customizable or something? ----
 
 :: Why would they not use the same keys for movement as in the levels? Some of us vi and nethack types might like to use hjkl instead.. [[User:RichiH|RichiH]] 22:45, 25 Sep 2006 (BST)
 
-===Hidden Blocks===
+=== Hidden Blocks ===
 * Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
 *: Ordinary blocks are implemented as [[User_Manual#Secret_Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should fall through hidden blocks before they're hit.  Another implementation for clouds and elevated platforms should be used.  The blocks would be more 'hidden' if you can only find them by hitting them from below.
@@ -367,22 +367,22 @@ Enter level with jump button.
 * Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect.  The current implementation causes Tux fatalities in some levels.
 *: Already implemented in aforementioned [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 
-===Object blocks===
+=== Object blocks ===
 ?-Blocks might contain items like trampolines or rocks, or maybe even enemies.
 :Already implemented. Was used in early version of "down the rabbi hole".
 :Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[[User:MatzeB|MatzeB]] 10:45, 28 January 2007 (UTC)
 :Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[[User:WolfgangB|WolfgangB]] 11:24, 28 January 2007 (UTC)
 
-===Collecting Stuff===
+=== Collecting Stuff ===
 
 I think what makes some games really enjoyable is the possibility of collecting things. One (maybe totally crazy) idea: if Tux could spit bubbles, he probably could catch enemies and carry them to a specific place, like a museum, which is located on the world map. For completing the collection with all badguys of the current world, Tux would get a reward.
 
-===Rotating bridge===
+=== Rotating bridge ===
 
 Create a rotating bridge, like in Mario.<br />
 [[Image:Rotating-bridge.jpg]]
 
-===Cheats===
+=== Cheats ===
 
 Tux wears a little party hat when you type "tux rocks".
 When you type "iddqd", tux shakes his head.
@@ -393,16 +393,16 @@ When you type the name of a specific badguy, Tux looks like that badguy.
 === 1.0 ===
 I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 "SuperTux 1.0"? Most people think when they see "0.2" that it is some crappy beta version, which milestone 2 obviously is not. [[User:Cristan|Cristan]] 00:38, 26 Oct 2006 (CEST)
 
-===Superpower mass effect===
+=== Superpower mass effect ===
 Whenever Tux has a powerup (fire/ice/whatever), a key combo may generate a big (almost whole screen) instant burning/frosting/whatever area (fancy graphics) that results in only one fire/ice/whatever shot effect for each enemy/burnable block/item in the area (this includes the potential [[User_ideas#Bad_guys_and_Immunity|bad-side]] effects). Once this ability is performed, Tux will lose the fire/ice/whatever ability and return to the normal bigTux.
 
 I think this won't unbalance the game. The fact that with a fire/ice hat you have an unlimited fire/ice shot supply is pretty much useful than just an instant fire/ice area. You still could just kill every enemy in the screen by shooting and you still keep the powerup. Different ways with different difficulty and rewards will improve the game IMO. This feature could bring more fanciness and originality to the game along with more possible puzzles involving this ability (Ej: you need to burn a block that is out of range so that it makes a rock fall and push a button). --[[User:Ferk|Ferk]] 10:50, 2 February 2007 (UTC)
 
-===Improved Tux surroundings viewing===
+=== Improved Tux surroundings viewing ===
 With some keypress the camera zooms out (to 175% for example), so everything looks small and you have a wider scope of the surroundings. As long as you keep the key pressed you can use the arrow keys to move the camera between certain limits (tux should be always visible). 
 This would enhance the usability of puzzle-oriented maps that had big schemes (buttons that had an effect at farther different places) and would make use of the fancy features of OpenGL. --[[User:Ferk|Ferk]] 11:35, 2 February 2007 (UTC)
 
-===One-Liners===
+=== One-Liners ===
 smallfoot made a page, see [[Smallfoot's ideas]].
 :Are they so bad that they need a separate page?
 
@@ -427,7 +427,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *:Because they did that in "Tron" already.
 *Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (See Talk:Milestone1.9 under editor error)
 
-====Other====
+==== Other ====
 *'''Diving''' - in water?
 *'''Flying''' - in air?
 *'''Sliding''' - on his belly - hello, he's a penguin
@@ -462,19 +462,19 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 * '''More options''': Especially being able to switch between the old and new behavior for running with the action key pressed.
 :Problem: You have to test all the options. Every time you change anything. Does it work with ALL combinations? PITA.
 
-====2-player mode====
+==== 2-player mode ====
 *How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
 *:There's already a project that tries to add a [[Multiplayer mode]].
 
-====Art====
+==== Art ====
 Bubble - float and pop in air
 
-====Code====
+==== Code ====
 * This comment (src/player.cpp:493) kind of confused me:
 <code>  // TODO: we don't have an animation for firetux backflipping, so let's revert to bigtux </code>
 ** There *is* a graphic for that. Also, it's been closed as "intended behavior" on the [[Bugs]] page that firetux loses his hat when backflipping, I don't think it should be. (Losing powerups for no good reason is annoying)
 
-====3D Tux====
+==== 3D Tux ====
 I think that Supertux would be even cooler in 3D. It could be partially implemented, for example, there could be substages in 3D, or a 3D world later on? Or maybe it would more appropriate in a future spin off game?
 : Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites in a 2D world. --[[User:Tuxdev|Tuxdev]] 22:51, 3 Oct 2006 (CEST)
 :: Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 02:19, 10 Oct 2006 (CEST)
@@ -484,14 +484,14 @@ I think that Supertux would be even cooler in 3D. It could be partially implemen
 :: It's a good idea. Leave the game how it is, only change the cutscenes. [[User:DirtY iCE|DirtY iCE]] 10:54, 5 Nov 2006 (CET)
 :This idea may seem a bit wacky, but tux could fall into a hidden hole where he gets virtualized and has to fight virtual enemies in a virtual 3D landscape for a few levels then he has to go through a portal in the last 3D level to take him back to 2D. The only problem is the huge amount of code and graphics that would be required, thus resulting in a huge package size. Perhaps this could be an addon for a new bonus world?
 
-====Pirates====
+==== Pirates ====
 Any bad guy pirate with a sword also be fun to the milestone 2.
 <br />foudre: yer idea be seconded
 [[Category:Design]]
 
-====Collect coins by shooting====
+==== Collect coins by shooting ====
 It should be possible to collect coins by shooting at them with the fire flower powerup. AFAIR, you can do this in Super Mario games. --[[User:217.235.171.77|217.235.171.77]] 01:24, 9 Dec 2006 (CET)
 * No, but maybe get coins for killing badguys?
 
-====Pay for restart at reset point, not for dying====
+==== Pay for restart at reset point, not for dying ====
 This has been proposed as Issue 141. It would mean that Tux doesn't have to pay 25 coins as a penalty for dying. Instead he buys the ability to restart at a reset point. In practice, it would mean that Tux doesn't have to pay when he hasn't activated a reset point yet. It would make the cost seem less like a penalty and more like a trade-off. (Plus, restarting from the beginning is always possible from the worldmap.)
