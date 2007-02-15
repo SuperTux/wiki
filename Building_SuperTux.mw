@@ -90,7 +90,7 @@ If you have to use the generic installer from the web, be warned that neither th
 
 1. Install mono using an all-in-one generic installer
 
-The all-in-one installer will try to adjust your environment through the .bashrc file.  This is not a proper system-wide change, so (in Slackware at least) modify these scripts and place them in /etc/profile.d
+The all-in-one installer will try to adjust your environment through the .bashrc file. This is not a proper system-wide change, so (in Slackware at least) modify these scripts and place them in /etc/profile.d
 
 mono.csh
 
