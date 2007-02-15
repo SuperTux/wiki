@@ -32,7 +32,7 @@ Where are the tile-backgrounds? Huge bitmap graphics are soooo ugly..
 
 Why have doors so small and Tux so fat? Tux just doesn't fit through a door by any means.
 
-The bomb certainly wins a price for ugliest gamesprite ever... 
+The bomb certainly wins a price for ugliest gamesprite ever...
 
 Is there a way to load a sprite without having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
 
@@ -79,7 +79,7 @@ Why the *juck* do we have filenames full of spaces and other useless junk in dat
 * I want my Homer S. Yeti
 * darttrap really does not belong into the forest, but castle
 * jumpy looks more like a castle enemy, but is used all over in M1
-* mrtree breaking up is a nice idea on paper, but awefull in practice (to many enemies on  the screen at once)
+* mrtree breaking up is a nice idea on paper, but awefull in practice (to many enemies on the screen at once)
 * poison ivy -> trash
 * stlalactites are ugly, maybe they should be shiny and blink?
 * dispenser is ugly and overused
@@ -110,7 +110,7 @@ New Milestone2 features that look usefull:
 * unstable platforms, that break when Tux stands on them
 * candles, that can go on and off, what are they good for?
 * moving platforms, Tux can stand on them and get moved around
-* Dart enemies, they attach to a wall and shoot arrows 
+* Dart enemies, they attach to a wall and shoot arrows
 * auto scroll
 * vertical/horizontal scroll
 * stacking, not sure if that is actually usefull
