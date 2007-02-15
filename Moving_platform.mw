@@ -1,7 +1,7 @@
 {{Outdated}}
 There are different proposals for moving platforms. This is one of them:
 
-[[Image:Platform01.jpg]]          [[Image:Platform02.jpg]]
+[[Image:Platform01.jpg]] [[Image:Platform02.jpg]]
 
 The level designer specifies a path, either closed (circular) or open (as shown on the sketch), on which the platform will travel. The path can be of any shape and length, and is either visible or invisible; the movement speed and rest time (i.e. how long it will rest at the end points) is configurable. The platform itself consists of a control tile and special platform tiles. The control tile is the one that travels along the path, the platform tiles are used to build the shape of the platform. All of these special tiles have a flag that states which control tile they belong to; as it travels along the path, so do all connected platform tiles. Thus, moving platforms can vary a lot in terms of size and shape; they can even have gaps. You can use them not only as a means of transportation but also for traps like ceilings coming down to squish Tux, floors rising slowly towards a spiked ceiling, etc.
 
