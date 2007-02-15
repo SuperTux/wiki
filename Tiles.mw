@@ -1,4 +1,4 @@
-Interactive tiles are actually just special game objects. This page lists some possible interative tile types.
+Interactive tiles are actually just special game objects. This page lists some possible interactive tile types.
 
 * Ice - Like normal tile, but Tux has a harder time speeding up and slowing down on ice
 * Spikes - When Tux lands on a spike he is injured
