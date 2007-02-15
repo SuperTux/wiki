@@ -10,7 +10,7 @@ I've built supertux from svn and saw all the great updates you guys have done. D
 (note: sorry, I had to break links to be able to edit)
 
 ==Level 24==
-Hey I just recently found your game and am stuck at level 24... I guess that there have to be blocks behind the water texture but I have no idea on how to figuere where are these... and I doubt it just comes to luck there. What am I missing? mfg DJGummikuh
+Hey I just recently found your game and am stuck at level 24... I guess that there have to be blocks behind the water texture but I have no idea on how to figure where are these... and I doubt it just comes to luck there. What am I missing? mfg DJGummikuh
 :Just look closely and you will see there are single blocks to step on. You might want to ask on the [http://supertux.info/forums/ fansite forums] next time you need help, you'll get more responses there. --[[User:FlyingPenguins|FlyingPenguins]] 22:35, 29 Jul 2006 (BST)
 
 ==Wiki external links==
@@ -51,7 +51,7 @@ If you have questions, get hold of me on irc.freenode.net -- [[User:RichiH|Richi
 
 ==supertux copy==
 
-I found superburgerworld on source forge and all it is is supertux w/ a few titles and images cahnged!
+I found superburgerworld on source forge and all it is is supertux w/ a few titles and images changed!
 : Mind giving us a link? Also, did you look for copied code?--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 02:43, 28 Sep 2006 (CEST)
 ::I did a Google search and found superburgerwld.sourceforge.net. I also downloaded and went through the game a bit; it is exactly the same as the main world of SuperTux 0.1.3. However, it credits refer to the game being based off SuperTux (in fact, its credits include ''all'' of the original credits from the original game, even the "Milestone 2 is on its way..." part). The levels are exactly the same, with the level names and the some of the graphics changed, but the names of the authors of the original SuperTux levels remain. --[[User:FlyingPenguins|FlyingPenguins]] 04:57, 28 Sep 2006 (CEST)
 ::: I'd say that's because of laziness on the "developer"'s part, and not giving credit. This guy is BSing too many people. The site doesn't give ANY credit to us Tuxers, and it's basically a complete ripoff with a few level titles changed and some added graphics that look like a 2-year-old scrawled them. I mean, honestly, they didn't even mod the Dark Snow tileset OR the Cave background, OR almost anything else. By the way, almost EVERYTHING that was in SuperTux that doesn't belong in SBW is still in there (images/backgrounds, the Tux icon in the Level Editor, the names of a lot of images...). The file for the non-Whopper burger is still "smalltux-right-1.png". That's laziness, not credit. Now, I posted a *clean* comment on their site. It's awaiting moderation, and it'll show up, if it does at all, as "Annoyed Tuxer" or something. The name suits me quite well right now. See the title of my edit for more info. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 00:16, 29 Sep 2006 (CEST)
