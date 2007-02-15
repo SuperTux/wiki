@@ -44,7 +44,7 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 * Maybe teleports (or something) that cost a certain number of coins to get through?
 * How about the shops on Super Mario 3? they were really a good idea.. I don't understand why they dropped it for Super Mario World --[[User:80.174.65.16|80.174.65.16]] 21:16, 11 Aug 2006 (BST)
 ::Supertux might be inspired Super Mario. (Basicly because Mario did almost everything you can do in a sidescroller) But that does not mean we have to clone everything Mario ever did.
-:::However, shops are not so typical in Super Mario games and appear in many other games, it is a coherent use for coins. There are a lot of things from Super Mario not strictly necessary for Super Tux that were mentioned here without complain ([[User_ideas#Friendly_NPCs.28non-player_characters.29|Yoshi-like NPC]], the [[Nolok|BowserKoopa-clonic final boss]] and even the kidnapping storyline)
+:::However, shops are not so typical in Super Mario games and appear in many other games, it is a coherent use for coins. There are a lot of things from Super Mario not strictly necessary for Super Tux that were mentioned here without complain ([[User ideas#Friendly NPCs.28non-player characters.29|Yoshi-like NPC]], the [[Nolok|BowserKoopa-clonic final boss]] and even the kidnapping storyline)
 
 === One-liners ===
 
@@ -359,13 +359,13 @@ Enter level with jump button.
 
 === Hidden Blocks ===
 * Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
-*: Ordinary blocks are implemented as [[User_Manual#Secret_Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*: Ordinary blocks are implemented as [[User Manual#Secret Blocks|Secret Blocks]]. Hidden bonus blocks are up for discussion. --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should fall through hidden blocks before they're hit. Another implementation for clouds and elevated platforms should be used. The blocks would be more 'hidden' if you can only find them by hitting them from below.
-*: Implemented as [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*: Implemented as [[User Manual#Secret Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 *Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
 *: Implemented as Unisolid [[Tiles]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 * Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect. The current implementation causes Tux fatalities in some levels.
-*: Already implemented in aforementioned [[User_Manual#Secret_Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
+*: Already implemented in aforementioned [[User Manual#Secret Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 
 === Object blocks ===
 ?-Blocks might contain items like trampolines or rocks, or maybe even enemies.
@@ -394,7 +394,7 @@ When you type the name of a specific badguy, Tux looks like that badguy.
 I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 "SuperTux 1.0"? Most people think when they see "0.2" that it is some crappy beta version, which milestone 2 obviously is not. [[User:Cristan|Cristan]] 00:38, 26 Oct 2006 (CEST)
 
 === Superpower mass effect ===
-Whenever Tux has a powerup (fire/ice/whatever), a key combo may generate a big (almost whole screen) instant burning/frosting/whatever area (fancy graphics) that results in only one fire/ice/whatever shot effect for each enemy/burnable block/item in the area (this includes the potential [[User_ideas#Bad_guys_and_Immunity|bad-side]] effects). Once this ability is performed, Tux will lose the fire/ice/whatever ability and return to the normal bigTux.
+Whenever Tux has a powerup (fire/ice/whatever), a key combo may generate a big (almost whole screen) instant burning/frosting/whatever area (fancy graphics) that results in only one fire/ice/whatever shot effect for each enemy/burnable block/item in the area (this includes the potential [[User ideas#Bad guys and Immunity|bad-side]] effects). Once this ability is performed, Tux will lose the fire/ice/whatever ability and return to the normal bigTux.
 
 I think this won't unbalance the game. The fact that with a fire/ice hat you have an unlimited fire/ice shot supply is pretty much useful than just an instant fire/ice area. You still could just kill every enemy in the screen by shooting and you still keep the powerup. Different ways with different difficulty and rewards will improve the game IMO. This feature could bring more fanciness and originality to the game along with more possible puzzles involving this ability (Ej: you need to burn a block that is out of range so that it makes a rock fall and push a button). --[[User:Ferk|Ferk]] 10:50, 2 February 2007 (UTC)
 
@@ -438,7 +438,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *'''Slippery surfaces''' - like a slippery ice where can glide and difficult control Tux.
 *'''Pushable/rollable stone''' - you roll it over enemies so they die, and can roll it to place so you jump up on it to reach higher.
 *'''Moving script triggers''' - for example, have a cloud of smoke flying around and if it touches Tux it puts him to sleep for a few seconds.
-* '''[[Swimming |Swim]]''' in water like <del>Mario</del> a penguin.
+* '''[[Swimming|Swim]]''' in water like <del>Mario</del> a penguin.
 ** Grubmel's grumbling about this already, and it seems justified. See "Grumbel's Grumbles".
 ** Update: partially implemented in SVN (at latest, rv. 4102). Tux can float, but not swim.
 **:Oh well. Looks like nobody cared about the "'''Before''' implementing swimming there are some details that need to be specified" on the [[Swimming]] page. :-(
