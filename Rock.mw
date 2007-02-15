@@ -1,5 +1,5 @@
 {{Milestone 2}}
-A '''rock''' is a small [[Objects|object]] that [[Tux]] can pick up and move around. Tux can walk on rocks, so they are useful to reach high places. Both Tux and enemies are hurted if a rock falls on their head.
+A '''rock''' is a small [[Objects|object]] that [[Tux]] can pick up and move around. Tux can walk on rocks, so they are useful to reach high places. Both Tux and enemies are hurt if a rock falls on their head.
 
 For a sample, see the level world2/builder.stl (only in SVN).
 
