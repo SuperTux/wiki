@@ -3,7 +3,7 @@
 Super Tux Smash would be a mod of the Super Tux Engine for Multiplayer,
 loosely based on Super Smash Brothers Melee but with some completely different gameplay.
 
-==Features needed in the engine==
+== Features needed in the engine ==
 
 Multiplayer support (having more than one controllable player, eventually maybe network support?)
 
@@ -19,7 +19,7 @@ Unlimited lives.
 
 Mini-viewport (ala Smash Bros) to show where players have gone offscreen
 
-==Game Modes==
+== Game Modes ==
 
 Eventual network play team info included.
 
@@ -38,7 +38,7 @@ time is up. <4 teams, multiple players.
 Soccer - Use a Bouncy Snowball as a soccer ball and have goals at either side of the (closed) level. Still have
 platforms and powerups. Whoever has the most goals wins when time is up. 2 teams, multiple players
 
-==Powerups==
+== Powerups ==
 
 Instead of having Question Blocks, have balloons which occasionally float up from the bottom of the screen.
 Powerups include:
@@ -60,7 +60,7 @@ Magnet - allows you to grab onto the bottom of platforms and move along them.
 
 Spiky shell - invulnerability for 30 seconds
 
-==Characters==
+== Characters ==
 
 Tux
 
@@ -108,7 +108,7 @@ Beastie (BSD logo)
 
 Platypus (Darwin logo)
 
-==Attacks==
+== Attacks ==
 
 Peck - run up to opponents to peck them - this can knock them off the platform.
 
@@ -120,7 +120,7 @@ Powerups - above.
 
 Specials - per character.
 
-==Design Issues==
+== Design Issues ==
 
 Need vertical, multi platform based levels.
 
@@ -144,6 +144,6 @@ For big (scrolling) levels, teleports (w/ directional arrows and random ones) an
 
 Bottoms of levels should be water, lava, spikes, or void.
 
-==Comments==
+== Comments ==
 
 Comments should be posted here or directed to zratchet -at- gmail -dot- com
