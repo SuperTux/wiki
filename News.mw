@@ -1,66 +1,66 @@
 __NOTOC__
 
-=2007=
-==2007-02-15==
+= 2007 =
+== 2007-02-15 ==
 
 * [[Image:Supertux-unisolid-snow.jpg|thumb|none|Unisolid Snow Tiles]]
 
-==2007-01-31==
+== 2007-01-31 ==
 
 * Tux can climb ladders now.
 
-==2007-01-24==
+== 2007-01-24 ==
 
 * [http://pingus.seul.org/~grumbel/tmp/md5/e1a3a9c4239b751be08700ad2a27ed15-snowman-variations.png Snowman Variations for stay-on-platform or other uses]
 * [http://pingus.seul.org/~grumbel/tmp/md5/ff8c6a8bbe15a3f621940c53b421f9b1-avalance.png Avalance - A possible replacement for classic auto-scrolling]
 
-==2007-01-23==
+== 2007-01-23 ==
 
 * the [[Download/Installation]] page got split into stable/unstable pages to remove some confusion it has caused in the past
 * SVN contains now a bunch of new images from Grumbel
 
-==2007-01-20==
+== 2007-01-20 ==
 
 * Console also autocompletes full common prefix on multiple matches.
 * In Tux starts running automatically when he reached max walk speed. As before, if he is carrying something Tux can only walk. To reduce the speed to 'walk', hold the 'Action' key.
 
-=2006=
+= 2006 =
 
-==2006-12-18==
+== 2006-12-18 ==
 * [http://www.mission-in-snowdriftland.com/ Mission to Snowdriftland] is a very SuperTux'ish Flash Jump'n Run used for advertisement by Nintendo, it features 24 levels and great level and secret area design, everybody should have a deep look at this game to get some inspiration for Milestone2
 
-==2006-10-27==
+== 2006-10-27 ==
 * [[:Image:Nolok_statue_sample_3.png|Nolok Sample Sprite]]
 
-==2006-10-03==
+== 2006-10-03 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/b562ad828e03c201ae9d52310a4d2497-supertux-sketches1.jpg Sketches 1]
 * [http://pingus.seul.org/~grumbel/tmp/md5/31e75e5a61bfd718e5bd9cd8e8dea2fa-supertux-sketches2.jpg Sketches 2]
 * [http://pingus.seul.org/~grumbel/tmp/md5/ad30d2421e909928a94419d2d6a88fdd-supertux-sketches3.jpg Sketches 3]
 * [http://pingus.seul.org/~grumbel/tmp/md5/d4896e85cfc31a307c3b66d622f15502-supertux-sketches4.jpg Sketches 4]
 * [http://pingus.seul.org/~grumbel/tmp/md5/adad82890f5a0dbd4a20ca09b5151ad4-pacmoon.gif PacMoon]
 
-==2006-10-01==
+== 2006-10-01 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/32949d6d50ef3b377dde2514e18b93ef-bouncingball.gif Bouncing Ball]
 * [http://pingus.seul.org/~grumbel/tmp/md5/9c6958c3a5f2814a59d68aa1e30d34a6-evilball.gif Evil Ball]
 * [http://pingus.seul.org/~grumbel/tmp/md5/18a3904caf4b54393f7ce7f79573ae3d-supertux-flap.gif SuperTux Flap]
 * [http://pingus.seul.org/~grumbel/tmp/md5/33a935cbbdb32192daba4661abfbfe82-supertux-butt.gif SuperTux Buttjump]
 
-==2006-08-13==
+== 2006-08-13 ==
 * [http://pingus.seul.org/~grumbel/tmp/supertux-2006-08-13 Some of Grumbels Milestone2 Ideas]
 
-==2006-08-09==
+== 2006-08-09 ==
 * [[:Image:Crystallo.png|Crystallo Badguy]]
 * [[:Image:Supertux-shop.jpg|SuperTux Shop Sketch]]
 
-==2006-08-03==
+== 2006-08-03 ==
 Some links to 2D physics stuff:
 * http://www.gphysics.com/
 * http://www.sjbaker.org/Box2D/
 
-==2006-07-26==
+== 2006-07-26 ==
 * [[Secret Area]] Proposal
 
-==2006-07-21==
+== 2006-07-21 ==
 * [[:Image:Resetblock.png|Reset Block (aka Reset Point)]]
 * [[:Image:Fire_flower-redesign.png|Fireflower redesign]]
 * [[:Image:Spikyvine.jpg|Spikey Vine]]
@@ -68,25 +68,25 @@ Some links to 2D physics stuff:
 * [[:Image:Wallstone-tileset2.jpg|Wall Stone (inside) tileset design]]
 * [[:Image:Treetop-tileset.jpg|Tree Top Tileset]]
 
-==2006-07-18==
+== 2006-07-18 ==
 * [[:Image:Milestone2-sprites.png|Milestone2 Sprite Collection]]
 * [[:Image:Flamy.png|Flamy Enemy]]
 * [[:Image:Granito-evileyes.png|Granito with evil eyes]]
 * [[:Image:Tilemapmountain.png|Tilemap mountain]]
 * [[:Image:Tilemapmountain2.png|Tilemap mountain, different layout]]
 
-==2006-07-16==
+== 2006-07-16 ==
 * [[:Image:Mrbombv2.png|MrBomb for Milestone2 (old, but so that it doesn't get lost)]]
 
-==2006-07-15==
+== 2006-07-15 ==
 
 * Working Trampolines have been added back in.
 * [[:Image:Wm_concept_2.png | Screenshot of map layout using Grumbel's concept 2 sketch]]
 
-==2006-07-14==
+== 2006-07-14 ==
 
 * [[:Image:Jnrcol.png|Jump'n Run Collision Test, see trunk/jnrcol/ in SVN]]
-==2006-07-13==
+== 2006-07-13 ==
 
 * [[:Image:Skunk-stand-0.png|Skunk Tux]]
 
@@ -115,13 +115,13 @@ Some links to 2D physics stuff:
 
 * [[:Image:Icestand-left.png|Ice Tux]]
 
-==2006-07-10==
+== 2006-07-10 ==
 
 A bottom and top section was added to Grumbel's blue mountain background (snow background). The 23-Airborne level was extended to use this new background set.
 
 * http://gluebox.com/images/grumbels_blue_mountain_background_small.png
 
-==2006-07-09==
+== 2006-07-09 ==
 
 * New collision detection code has been merged into trunk. Highlights:
 ** Handling of slopes and platforms should be more robust now
@@ -129,12 +129,12 @@ A bottom and top section was added to Grumbel's blue mountain background (snow b
 ** Code is simpler and faster
 ** You can realistically jump through 1 tile holes (the engine shifts you up to 5 pixels into the correct place where you can pass through the hole)
 
-==2006-07-07==
+== 2006-07-07 ==
 
 * [[:Image:Lavamockup.jpg|Lava MockUp]]
 * [[:Image:Browncastletiles.jpg|Brown Castle Demo]]
 
-==2006-07-06==
+== 2006-07-06 ==
 
 * [http://pingus.seul.org/~grumbel/tmp/md5/47a7c425d7e3a7116309ab8b68940e08-bla.png Snow background]
 
@@ -143,20 +143,20 @@ Mr.Bomb can now use multiple sprites for themed images.
 * http://gluebox.com/images/juicebox.png
 * http://gluebox.com/images/cherry_bomb_Large.png
 
-==2006-07-05==
+== 2006-07-05 ==
 
 * Flexlay is somewhat usable again, ClanLib has been imported into the Flexlay repository, no need to have it seperatly any more
 
-==2006-07-03==
+== 2006-07-03 ==
 
 * [[:Image:Lighting_ingame.jpg|ingame lighting]]
 
 
-==2006-07-02==
+== 2006-07-02 ==
 
 * [[Grumbel grumbles]]
 
-==2006-07-01==
+== 2006-07-01 ==
 
 * [[Lighting]] page
 * [[:Image:Lighting4.png|Demonstration of simple lighting]]
@@ -165,11 +165,11 @@ Mr.Bomb can now use multiple sprites for themed images.
 * [[:Image:Lighting.png|Demonstration of color lighting, Part 1]]
 * New collision detection code can be found in the new-collision-detection branch
 
-==2006-06-28==
+== 2006-06-28 ==
 
 * [[:Image:Greeny2.png|Sketch of a possible forest enemy]]
 
-==2006-06-25==
+== 2006-06-25 ==
 
 Here a little collection of those stuff that didn't make it onto the list in the past month:
 
@@ -196,7 +196,7 @@ Here a little collection of those stuff that didn't make it onto the list in the
 * http://gluebox.com/images/Ms_SunShine.png
 * http://gluebox.com/images/ghost_tree.png
 
-==2006-06-24==
+== 2006-06-24 ==
 
 * SVN contains now a little script to ease uploading of files into the Wiki
 * [[:Image:Mrplasma.png|MrPlasma sketch]]
@@ -206,27 +206,27 @@ Here a little collection of those stuff that didn't make it onto the list in the
 * [[:Image:Rostypipe.png|rusty pipe]]
 * [[:Image:Supertux-newpipe.png|new pipe design]]
 
-=2005=
+= 2005 =
 
-==2005-11-02==
+== 2005-11-02 ==
 * [[:Image:Yeti.png|Ice Yeti]]
 
-==2005-10-28==
+== 2005-10-28 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/5bcce7aaed4af91bca8f96676761077d-kirby.png Pumpkin Enemy]
 * [http://pingus.seul.org/~grumbel/tmp/md5/13dfddfa781d1641488dc24fac7a6043-waterdroplet.png Waterdrop Enemy]
 * [http://pingus.seul.org/~grumbel/tmp/md5/6dac4bd25773323b88396e8987a62559-colory.png Color Enemy]
 * [http://pingus.seul.org/~grumbel/tmp/md5/408a248755cc8a356c025f603d952378-ladder.png Ladder Tiles]
 
-==2005-10-26==
+== 2005-10-26 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/ca38c3bc33e254e31d391ee9ddf65714-ghost2.png A Ghost]
 * [http://pingus.seul.org/~grumbel/tmp/md5/a18031935bc7e3fbf199d8aa9a8fd3e5-ghost3.png Another Ghost]
 * [http://pingus.seul.org/~grumbel/tmp/md5/34e9c5af477ffa76f2428fb8c342c10b-spotlight.png A rotating spotlight]
 
-==2005-10-24==
+== 2005-10-24 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/f4543c40695925e43e85e727fa1791e4-castletheme.png Castle Theme Test]
 * [http://pingus.seul.org/~grumbel/tmp/md5/e84b8b58ca38e865605575c8e7213cfb-brown.png Brown Castle Stone]
 
-==2005-10-23==
+== 2005-10-23 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/8d59c6940686b2a910e2bd738334d4b4-bush.png a bush]
 * [http://pingus.seul.org/~grumbel/tmp/md5/7464df575a9c572c3c816401184e7ef9-coloredblocks.png some blocks to be colored by a specific color, thats why they are all grey]
 * [http://pingus.seul.org/~grumbel/tmp/md5/2115e39d9be2ff5c1f3c09470e84634f-snowball.png a snowball]
@@ -234,10 +234,10 @@ Here a little collection of those stuff that didn't make it onto the list in the
 * [http://pingus.seul.org/~grumbel/tmp/md5/82cf2c90b9a41505b401c4643bc4203a-waterfall.png waterfall]
 * [http://pingus.seul.org/~grumbel/tmp/md5/dfabe51df57407377b6470cf792efc1a-woodthing.png woodthing, maybe a pipe]
 
-==2005-10-22==
+== 2005-10-22 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/96646b80d35405b090992d4bc193039b-stone.png Stone Tile]
 
-==2005-10-21==
+== 2005-10-21 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/36e2ac4fa2f4e2982465ebe5b7389cb8-lamp.png Lamp]
 * [http://pingus.seul.org/~grumbel/tmp/md5/3fddaae471a3ad94ea017ab2e6954b8e-stone2texture.jpg Another stone texture]
 * [http://pingus.seul.org/~grumbel/tmp/md5/ab14628110bb54e1464c653607ecb56a-evilpenguin.png Evil Penguin]
@@ -247,21 +247,21 @@ Here a little collection of those stuff that didn't make it onto the list in the
 * [http://pingus.seul.org/~grumbel/tmp/md5/0f106a0ae0b3b9953fd821f1bf85ce18-fluffy.png Fluffy]
 * [http://pingus.seul.org/~grumbel/tmp/md5/23078c49793c6f069e1584c55ec3d167-poses.png SuperTux Poses]
 
-==2005-10-20==
+== 2005-10-20 ==
 * [http://pingus.seul.org/~grumbel/tmp/md5/6a2f1a1bb12639752255c46edbe4fc3b-plant.png Plant Sketch]
 * [http://pingus.seul.org/~grumbel/tmp/newstuff-2005-10-20.png Collection of new gfx]
 * [http://pingus.seul.org/~grumbel/tmp/md5/09afcffc2cc6d690f87527e472c8d800-mrtree.png A different version of MrTree]
 * [http://pingus.seul.org/~grumbel/tmp/md5/483e3f71b65042cb11c85fc0bee8350c-foreground.png Experimental template for castle foreground (maybe background)]
 * [http://www.stud.uni-karlsruhe.de/~uxsm/supertux-sharp.tar.bz2 Experimental C# Implementation of the some of the WorldMaps code]
 
-==2005-10-18==
+== 2005-10-18 ==
 * Penny Sprite Test: http://pingus.seul.org/~grumbel/tmp/supertux-penny-2005-10-18.png
 * [http://pingus.seul.org/~grumbel/tmp/ghost2.png Ghost Sketches 1]
 * [http://pingus.seul.org/~grumbel/tmp/ghosts.png Ghost Sketches 2]
 * Littletree: http://pingus.seul.org/~grumbel/tmp/supertux-littletree-bush.png
 * Littletree2: http://pingus.seul.org/~grumbel/tmp/supertux-littletree.gif
 
-==2005-10-17==
+== 2005-10-17 ==
 * New, more compact, format to define multiple tiles in one image is available. width/height are the size of the image in tile units, 'ids' are the ids you want to assign to each 32x32 region of the image (left to right, top to bottom), 'attributes' the attributes you want to assign (solid, lava, water) in integer format, image is the image you want to use. This syntax doesn't support animation or 'data', that however shouldn't be a problem for most multi-tile images.
 
  (tiles (width  2)
@@ -273,7 +273,7 @@ Here a little collection of those stuff that didn't make it onto the list in the
 
 * [http://pingus.seul.org/~grumbel/tmp/supertux-backflip-2005-10-17.gif Backflip Animation test]
 
-==2005-10-13==
+== 2005-10-13 ==
 * A first 'playable' (not really, just a little tech demo) version of [http://pingus.seul.org/~grumbel/tmp/supertux-2005-10-13.gba SuperTux Portable]
 
 [[Category:Development]]
