@@ -32,7 +32,7 @@ This distribution includes a supertux package. Use yast to install it:
 Fedora Extras includes a supertux package.
  yum install supertux
 
-should be sufficient for users of any recent version of Fedora.  (Users of older Fedora or Red Hat Linux releases, or RHEL and derivatives, might need to configure yum, apt, or smart, or just download the package from (http://download.fedora.redhat.com/pub/fedora/linux/extras/ Fedora Extras) or (http://mirrors.kernel.org/fedora.us/fedora/ fedora.us).
+should be sufficient for users of any recent version of Fedora. (Users of older Fedora or Red Hat Linux releases, or RHEL and derivatives, might need to configure yum, apt, or smart, or just download the package from (http://download.fedora.redhat.com/pub/fedora/linux/extras/ Fedora Extras) or (http://mirrors.kernel.org/fedora.us/fedora/ fedora.us).
 
 ==== Arch Linux ====
 
@@ -54,12 +54,12 @@ Supertux 0.1.3 packaged for Slax Linux:
 
 === Mac OS/X ===
 
-====Universal binary====
+==== Universal binary ====
 
 Note: this universal binary requires Mac OS/X 10.4.x or greater.
  http://prdownload.berlios.de/supertux/supertux-0.1.3-macosx-universal.dmg
 
-====PPC only====
+==== PPC only ====
 
  http://download.berlios.de/supertux/supertux-0.1.3-macosx.dmg
 
