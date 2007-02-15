@@ -1,6 +1,6 @@
 {{NeedGraphics}}
 {{NeedCode}}
-An '''inflamed''' version of maybe some other badguy. Just walks around, trying to burn Tux by touching him. 
+An '''inflamed''' version of maybe some other badguy. Just walks around, trying to burn Tux by touching him.
 
 Tricky if combined with other enemies: If (accidentally) hit by [[FireTux]], Pyro will simply swallow the shots, then return fire directly at the player.
 
