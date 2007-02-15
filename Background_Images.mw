@@ -1,6 +1,9 @@
-[[Category:Game Object]][[Category:Game Engine]]{{Outdated}}
+{{Outdated}}
 With levels that can vary in size both horizontally and vertically comes the need for background images that have the same property. This however causes problems with images that show, for example, a sky; we don't want it to repeat below the ground.
 
 A possible solution is to divide images into three rows. All of these are tilable in horizontal direction (like the milestone 1 backgrounds). Additionally, the middle row is also tilable in vertical direction. Thus, the top and bottom parts of the image have a fixed vertical size while the middle is variable.
 
 [[Image:Repeat.jpg|Repeat Sketch]]
+
+[[Category:Game Object]]
+[[Category:Game Engine]]
