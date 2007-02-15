@@ -1,4 +1,4 @@
-Behavior:  Rabbits bounce around hopping over small holes and barriers. They
+Behavior: Rabbits bounce around hopping over small holes and barriers. They
 ::change direction for big barriers and fall into big holes (UNLESS stay on
 ::platform flag is on). They occasionally/often spawn new small bunnies who only
 ::jump over really small holes and barriers and eventually turn into big rabbits
