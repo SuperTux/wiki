@@ -1,4 +1,3 @@
-[[Category:Scripting Reference]]
 = Summary =
 This module contains global constants
 
@@ -35,3 +34,5 @@ TODO
 ! class="method"| ANCHOR_BOTTOM_RIGHT
 | represents the bottom right anchor point of a rectangle
 |}
+
+[[Category:Scripting Reference]]
