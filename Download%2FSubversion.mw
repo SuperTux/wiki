@@ -1,6 +1,3 @@
-[[Category:Development]]
-[[Category:Meta]]
-[[Category:SuperTux]]
 == Repository ==
 SuperTux development is coordinated with the help of the Subversion version control system. In a nutshell, it's a file-storing facility that can be used by multiple users simultaneously, keeping track of changes and archiving old versions of files. You can find out more about Subversion in general on their [http://subversion.tigris.org/ homepage].
 
@@ -77,3 +74,7 @@ If you only want to commit changes to some files, add their names to the end of 
 Contact [http://supertux.lethargik.org/bugs/view.php?id=8#32 sik0fewl] to get developer access if you used to have it on BerliOS. Also sik0fewl is responsible for adding new developers (but other developers has to agree with it first).
 
 When switching to the new svn from berlios (using switch --relocate) make sure to be on <nowiki>revision 4542</nowiki>. '''NOT''' any later revision (or you will get a checksum error). You can use <nowiki>svn update -r4542</nowiki> to downgrade.
+
+[[Category:Development]]
+[[Category:Meta]]
+[[Category:SuperTux]]
