@@ -6,7 +6,7 @@ Lighting is a post-processing effect that can be used to add athmosphere to a Su
 
 Framebuffer = (Color * Light) + Highlight
 
-The light layer itself needs to be an offscreen buffer, while the highlight layer can be just a collection of sprites, since additive rendering is commutative. 
+The light layer itself needs to be an offscreen buffer, while the highlight layer can be just a collection of sprites, since additive rendering is commutative.
 
 Lighting in this simple form as no direct impact on gameplay, except that it might make parts of the game area harder to see.
 
