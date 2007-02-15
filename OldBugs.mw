@@ -104,7 +104,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 *: Fixed in SVN --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
 
 * Don't start: a error occurs because no OpenAL32.dll on my Windows XP SP2.
-*:Download the openal windows installer from www.openal.org/
+*:Download the OpenAL windows installer from www.openal.org/
 
 * Doing a backflip while in fire Tux mode causes Tux to lose the fire mode. If this is the intended behavior, it's not documented in the user manual.
 *: Now it is --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
@@ -123,8 +123,8 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 
 === Open ===
 * When Tux is standing on an elevator moving down next to a wall, and he walks into the wall, if the wall ends while the elevator is still moving down, Tux will get crushed! I made this level to demonstrate: fast.filespace.org/blublu/crushbug.stl
-* Several sounds are very quiet in the win32 version (noticably the jump sound, crates crashing, coin sounds, yetis gna and probably others). I didn't check with the source yet, but I assume it's all sounds without position. The openal driver on that box is from NVIDIA: Standard OpenAL(TM) Library, NVIDIA Corporation, 5.10.2917.0, English
-* Performance degratation although the computer is able to handle the game. Noticed on a 1.3 Ghz box with geforce 2/mx card on win XP: The game often goes down to 40-50fps and gets laggy althought cpu usage is only at 30-40%. Seems like that idling code is problematic, don't know why... This also doesn't seem to be win32 specific, I've heard similar reports from linux people and we got a patch submitted that removes the idling code because of that.
+* Several sounds are very quiet in the win32 version (noticably the jump sound, crates crashing, coin sounds, yetis gna and probably others). I didn't check with the source yet, but I assume it's all sounds without position. The OpenAL driver on that box is from NVIDIA: Standard OpenAL(TM) Library, NVIDIA Corporation, 5.10.2917.0, English
+* Performance degradation although the computer is able to handle the game. Noticed on a 1.3 GHz box with geforce 2/mx card on win XP: The game often goes down to 40-50fps and gets laggy although cpu usage is only at 30-40%. Seems like that idling code is problematic, don't know why... This also doesn't seem to be win32 specific, I've heard similar reports from Linux people and we got a patch submitted that removes the idling code because of that.
 * Crash every time I try to start the "Tux the builder" level in the Forest area. stderr messages (maybe unrelated): Warning: Couldn't create audio source: Invalid Value
 * The vertical movement of the screen in world 2 is too sensitive. Eg, tux jumps onto a small block and then back down, and the screen moves up and back down with him. This makes me feel a bit seasick at times!
 * Crashes in the 'Short visit' level in world 2: near the shooting arrows sometimes, and near the lava every time. Message on top of the screen about sounds.
@@ -155,7 +155,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 * The texture.cpp file has an incorrect texture type (GL_RGB10_A2). Only ATI (FGLRX) drivers will interpret it correctly and will display a non-transparent waterfall in OpenGL. It's better to use GL_RGBA here since most drivers (ex. mesa) interpret GL_RGB10_A2 as GL_RGBA
 * Widely experienced bug: After compiling v0.1.3 from source on Ubuntu Linux 5.10 "Breezy Badger", the game crashes after choosing "Bonus Levels" from the main menu, although going into a 26-level game slot doesn't -djwings
 *: Solved by upgrading to Dapper. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 16:40, 24 Sep 2006 (BST)
-* I was able to walk throug the end of the level without finishing it. It happend while playing witw 12 frames/seconds.
+* I was able to walk throug the end of the level without finishing it. It happened while playing witw 12 frames/seconds.
 * The jumping heads with spikes sometimes only jump to the level of a passing cloud.
 * Enter key is completely ignored on a Compaq Pressario, but works fine with other SDL-based games (e.g. Falcon's Eye) (by jessejoe)
 *: Can be worked around by custom-compiling with all SDLK_RETURN replaced by 271
