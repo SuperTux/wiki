@@ -4,7 +4,7 @@
 #* Install [http://www.gnu.org/software/gettext/ gettext]
 #* Get an [[Download/Subversion|SVN snapshot]] of SuperTux and do the usual <tt>autogen.sh</tt>, <tt>configure</tt>. ''Make sure configure can find the xgettext application. (i.e. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")''
 #* Run <tt>jam</tt>, let it compile SuperTux and create all the <tt>messages.pot</tt> files
-# '''Create or update the .po files''' for your language. Many GUI tools (see below) will help you with this, so if you indend to use one you can skip this step. Here's how to do things yourself:
+# '''Create or update the .po files''' for your language. Many GUI tools (see below) will help you with this, so if you indeed to use one you can skip this step. Here's how to do things yourself:
 #* Go into data/locale and data/levels/*/ and in each of those directories:
 #** In case you want to create a new translation, run <tt>msginit -i messages.pot -o $LANG.po</tt> (where $LANG is the two-character handle of your language)
 #** In case you want to update an existing translation, issue the following command: <tt>msgmerge -U $LANG.po messages.pot</tt>
