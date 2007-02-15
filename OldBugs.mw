@@ -4,7 +4,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 
 * The titlebar of the browser in this wiki shows "Wikipedia" instead of "SuperTux" when logged in.
 *:Can't reproduce that problem. Works fine here. --[[User:WolfgangB|WolfgangB]] 00:30, 15 Sep 2006 (BST)
-*:: I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar.  Right now the CSS on the wiki is messed up for me, but I know it is just me.  --[[User:Tuxdev|Tuxdev]] 00:48, 15 Sep 2006 (BST)
+*:: I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar. Right now the CSS on the wiki is messed up for me, but I know it is just me. --[[User:Tuxdev|Tuxdev]] 00:48, 15 Sep 2006 (BST)
 *:::It's still there. I'm using Opera 9 on Ubuntu Dapper
 *:::: So am I, but I don't experience anything like it. Maybe a custom skin? Can you give steps to reproduce? --[[User:84.146.251.243|84.146.251.243]] 14:02, 29 Oct 2006 (CET)
 *:::::I simply log in, and when logged in every single page has "Wikipedia" instead of "SuperTux". I am not using any custom skin or such. --Shylence 18:24, 3 Nov 2006 (CET)
@@ -21,7 +21,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 *: Not a bug.
 
 * If you jump through a non-solid block into a solid one, you go through the solid blocks. (This is kind of hard to explain. We need a site where we can post levels to demonstrate bugs...)
-*: You might be experiencing a new feature of ST engine, unisolid tiles.  Example level is "Detour", for the tree branches. --[[User:Tuxdev|Tuxdev]] 18:11, 20 Dec 2006 (CET)
+*: You might be experiencing a new feature of ST engine, unisolid tiles. Example level is "Detour", for the tree branches. --[[User:Tuxdev|Tuxdev]] 18:11, 20 Dec 2006 (CET)
 *: I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
 
 * 4328, 0_3_x branch: crash when trying to load "Light and Magic".
@@ -130,7 +130,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 * Crashes in the 'Short visit' level in world 2: near the shooting arrows sometimes, and near the lava every time. Message on top of the screen about sounds.
 * Only a small Bug, but nevertheless mentionable: If you eat a snowball to become the great Tux and you are immediately killed afterwards (so you have eaten the snowball, but the effect has not yet started to work), you start as great Tux at the beginning of the level.
 * Running the game with the open source ATI graphics driver, there are colored lines shown where tiles meet. This happens in both the world maps and the levels themselves. The closed-source ATI drivers fix this problem, but for those with older ATI hardware, this will look bad.
-*: This also happens to me using the NVIDIA drivers.  Either this is a off-by-one error in SuperTux that happens to be negated by a similar bug in the ATI drivers, or is a bug in the open source and NVIDIA drivers that is exposed by SuperTux. --[[User:Tuxdev|Tuxdev]] 05:46, 27 Dec 2006 (CET)
+*: This also happens to me using the NVIDIA drivers. Either this is a off-by-one error in SuperTux that happens to be negated by a similar bug in the ATI drivers, or is a bug in the open source and NVIDIA drivers that is exposed by SuperTux. --[[User:Tuxdev|Tuxdev]] 05:46, 27 Dec 2006 (CET)
 *: This is the graphics card or the drivers doing anti aliasing with the pixels on the edge, although antialiasing shouldn't be needed as the image widths and heights are only whole pixels. We should be able to work around these bugs by producing images with the border pixels doubled (go from 32x32 to 34x34, put the original image into the middle and diplicate the border pixel lines, you can see how this stuff could work in the windstille sources for example)
 * Fall down a pit. Before the death animation happens, press escape and quit to the main menu. When the main menu demo starts playing, Tux will die and the screen fades to black.
 * The crash-when-loading-"Light and Magic" bug noted below for development version 4328 is in 0.3.0.
@@ -143,7 +143,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 *: Also, no statistics are available when you use a checkpoint after getting killed in a level --[[User:Sommer|Sommer]] 22:21, 2 Jan 2007 (CET)
 *::Thank you for the explanation, will statistics be added even after using a checkpoint?
 * When a checkpoint is activated this is indicated by an animation. But after Tux got killed and returned to the checkpoint the checkpoint is not animated although it is activated.
-* At certain places in certain levels on my system, everything slows down to 1-2 frames per second, whereas normally the game is very fast and smooth.  I have a 1.1 GHz Mac G3.  This slowdown happens every time on the 23rd Airborne level.  It's slow as Tux is dropping to the ground at the beginning, then once he's on the ground it speeds up to normal.  However, once he runs to the right and jumps to the first "mountain", the game slows back down to 1 or 2 frames/sec.  Could my system simply be too slow to play the game?
+* At certain places in certain levels on my system, everything slows down to 1-2 frames per second, whereas normally the game is very fast and smooth. I have a 1.1 GHz Mac G3. This slowdown happens every time on the 23rd Airborne level. It's slow as Tux is dropping to the ground at the beginning, then once he's on the ground it speeds up to normal. However, once he runs to the right and jumps to the first "mountain", the game slows back down to 1 or 2 frames/sec. Could my system simply be too slow to play the game?
 * Your new autopackage does not work at all. I double click it but nothing happens. No error message, no supertux installed. I use the latest supertux-0.3.0b.x86.package. The supertux-0.3.0a package at least shows a message that you made a mistake building the package. Please fix this fast, I want to play the new levels.
 *: Did you try manually running the package installer? To do so, open a command line window, change to the directory you downloaded the file supertux-0.3.0b.x86.package to (e.g. "cd ~/Desktop"), then either run "~/.local/bin/package install supertux-0.3.0b.x86.package" or "package install supertux-0.3.0b.x86.package", depending on where you installed autopackage. --[[User:Sommer|Sommer]] 23:03, 8 Jan 2007 (CET)
 *::I manually clicked the installer. There is nowhere I have installed the autopackage yet, because it does not work. No error dialog. If I run the package in a terminal it says FAIL:Install the package with the command 'package install' instead. but i don't have a 'package install' command. :-(
@@ -173,7 +173,7 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 *Enemies need not to fall down from the platforms. This reduces enemy number.
 *:Eremm... This happens in many Mario games.
 *:Anyway. Not a bug. If this was a feature request, please add this to the list of [[Ideas]]
-*:Isn't this is a badguy characteristic?  Some badguys fall off, others don't.  --tuxdev
+*:Isn't this is a badguy characteristic? Some badguys fall off, others don't. --tuxdev
 *:: In [[Milestone 1]], this could be configured separately for each guy on the screen. [[Milestone 2]] will have that as a Badguy-dependent setting, i.e. [[MrBomb]] never walk off ledges, [[Spiky]] will only walk off if he won't fall offscreen, A [[Snowball]] won't care and happily drop off every ledge.
 
 == Release 0.1.2 ==
