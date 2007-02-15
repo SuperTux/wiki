@@ -2,48 +2,48 @@
 
 * Purple, winged critter that flies in a straight path. Swoops down to attack the player when in range.
 
-==Proposal 1==
+== Proposal 1 ==
 
-===Behaviour===
+=== Behaviour ===
 * Zigzag flight
 
-===Appearance===
+=== Appearance ===
 * paroneayea's domain...
 
-===Attack===
+=== Attack ===
 * Can steal your powerups, but no actual getting him (i.e doesn't smallify)
 
-===Vulnerabilities===
+=== Vulnerabilities ===
 * If you can catch it you can jump on it. You can also retrieve stolen powerups
 
-==Proposal 2==
+== Proposal 2 ==
 
-===Behaviour===
+=== Behaviour ===
 * Flies at tops of levels unless Tux is below, then drops to try to catch him and take him to another area
 
-===Appearance===
+=== Appearance ===
 * Bigger and different color than #1
 
-===Attack===
+=== Attack ===
 * Can drop you in bad places
 
-===Vulnerabilities===
+=== Vulnerabilities ===
 * With invulnerability shield or maybe electricity
 
-==Proposal 3==
+== Proposal 3 ==
 
-===Behaviour===
+=== Behaviour ===
 * Flies in a staight path
 * Swoops down when it sees Tux
 
-===Appearance===
+=== Appearance ===
 * paroneayea's decision
 
-===Attack===
+=== Attack ===
 * Touches [[Tux]].
 * Most likely to hit Tux during the swoops
 
-===Vulnerabilities===
+=== Vulnerabilities ===
 * Can be jumped on
 * Ice, fire, electricity
 
