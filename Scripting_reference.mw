@@ -35,46 +35,46 @@ If you are interested in an object and what cans of worms you can open with it, 
 {| class="objectlist"
 |colspan="2" class="title"| Classes
 |-
-! [[ScriptingGlobals | Globals]]
+! [[ScriptingGlobals|Globals]]
 | This section contains all globally defined constants and functions
 |-
-! [[ScriptingPlayer | Player]]
+! [[ScriptingPlayer|Player]]
 | An object that is controlled by a (human) player
 |-
-! [[ScriptingDisplayEffect | DisplayEffect]]
+! [[ScriptingDisplayEffect|DisplayEffect]]
 | An object that does graphical effects on the whole screen
 |-
-! [[ScriptingCamera | Camera]]
+! [[ScriptingCamera|Camera]]
 | ...
 |-
-! [[ScriptingLevel | Level]]
+! [[ScriptingLevel|Level]]
 | ...
 |-
-! [[ScriptingScriptedObject | ScriptedObject]]
+! [[ScriptingScriptedObject|ScriptedObject]]
 | Object in a level than can be manipulated from scripts
 |-
-! [[ScriptingSound | Sound]]
+! [[ScriptingSound|Sound]]
 | ...
 |-
-! [[ScriptingText | Text]]
+! [[ScriptingText|Text]]
 | ...
 |-
-! [[ScriptingFloatingImage | FloatingImage]]
+! [[ScriptingFloatingImage|FloatingImage]]
 | ...
 |-
-! [[ScriptingPlatform | Platform]]
+! [[ScriptingPlatform|Platform]]
 | Scripting interface to Platform object
 |-
-! [[ScriptingWind | Wind]]
+! [[ScriptingWind|Wind]]
 | Scripting interface to Wind object
 |-
-! [[ScriptingCandle | Candle]]
+! [[ScriptingCandle|Candle]]
 | Scripting interface to Candle object
 |-
-! [[ScriptingThunderstorm | Thunderstorm]]
+! [[ScriptingThunderstorm|Thunderstorm]]
 | Scripting interface to Thunderstorm object
 |-
-! [[ScriptingAmbientSound | AmbientSound]]
+! [[ScriptingAmbientSound|AmbientSound]]
 | Scripting interface to AmbientSound object
 |-
 |}
