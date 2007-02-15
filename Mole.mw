@@ -1,3 +1,3 @@
-[[Category:Badguy]]
-
 {{Badguy | name=Mole | image=Mole | worlds=World 2 | appearance=Molehill | behaviour=Static molehill. Ejects rocks up into the air. From time to time, the mole peeks out, which can then be squished or shot | squish=yes, when mole is peeking out | butt-jump=no | freeze=no | ignite=yes, killed }}
+
+[[Category:Badguy]]
