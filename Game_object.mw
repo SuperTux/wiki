@@ -1,6 +1,5 @@
 {{Outdated}}
 
-[[Category:Game Engine]]
 == GameObject ==
 
 [[Image:gameobjects2.png|thumb|A diagram illustrating the planned design for the GameObjects]]
@@ -22,4 +21,5 @@ These are objects you can interact with. The objects will have an area in the wo
 
 This class provides a position and functions for collision detection. All Moving objects are held in a separate list by the engine which is also traveled once (between action and draw calls) for collision detection.
 
+[[Category:Game Engine]]
 [[Category:Game Object]]
