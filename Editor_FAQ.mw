@@ -15,11 +15,11 @@ Click and drag with the middle mouse button.
 === How do I add tiles to a level ===
 Click on the layer you want the tiles on and select the tile you want from the Tiles Tool.
 
-===How do I filter the the tiles so I can find a specific one?===
-With the Tiles tool selected, there is a combo box above the pane with all of the tiles in it.  This combo box contains categories (called tile groups) which filter what is displayed in the pane.
+=== How do I filter the the tiles so I can find a specific one? ===
+With the Tiles tool selected, there is a combo box above the pane with all of the tiles in it. This combo box contains categories (called tile groups) which filter what is displayed in the pane.
 
 === How do I hide tile layers? ===
-Click on the small eye ([[Image:EditorEyeIcon.png]]) in the layer listing to adjust how hidden a layer is.  Options are shown, semitransparent, and hidden.
+Click on the small eye ([[Image:EditorEyeIcon.png]]) in the layer listing to adjust how hidden a layer is. Options are shown, semitransparent, and hidden.
 
 === How should I place the tiles for the end-level structures? ===
 The best way to learn this is to look at existing levels. For the exit tree in MS2 the best place to look at is levels/test/tree-exit.stl at this point. Also note that using tiles for triggering the end sequence, although still supported, is no longer necessary. See [[#What is the SequenceTrigger object for?|What is the SequenceTrigger object for?]]
@@ -31,7 +31,7 @@ The best way to learn this is to look at existing levels. For the exit tree in M
 == Objects ==
 
 === How do I easily align an object to the grid? ===
-Press the Control key while moving an object to snap to every 16 pixels.  Press the Shift key to snap to every 32 pixels.
+Press the Control key while moving an object to snap to every 16 pixels. Press the Shift key to snap to every 32 pixels.
 
 === What is the SequenceTrigger object for? ===
 [[Image:Sequencetrigger.png|left]] The SequenceTrigger object is used to define the areas that start and stop the end sequence (Tux walks into Igloo / Exit). The sequence names for that are "endsequence" and "stoptux", respectively. Also, you can use "fireworks".
@@ -58,7 +58,7 @@ To create a new brush you currently got to "train" an empty one:
 #Select the tilemap you placed those tiles in.
 #Load the brush <tt>trunk/supertux-sharp/data/brushes/empty.csv</tt> <!-- TODO: change this to a more "useful" path. -->
 #Right click and drag to select the area to get tiles from.
-#*The minimum size for a selection that works is 3x3 tiles. 
+#*The minimum size for a selection that works is 3x3 tiles.
 #When you are finished save the brush.
 
 Note that a good brush would need several thousand patterns.
@@ -84,7 +84,7 @@ Right click at the [[#Where are the sector tabs?|sector tab]] area and select "N
 === I get an error about "Object reference not set to an instance of an object" ===
 This can be several things:
 #Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
-#If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least  1.2.2.1.
+#If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least 1.2.2.1.
 
 
 If any of the above didn't solve the problem and you manage to recreate the error, report the bug with at least this info:
@@ -94,4 +94,6 @@ If any of the above didn't solve the problem and you manage to recreate the erro
 *What versions of mono, the editor itself, GTK and GTK# that you use
 These types of bugs can not be solved without that info (and sometimes we might need more details than that, so please check back at the bug once day or so if there is any more info asked for).
 
-[[Category:Development]][[Category:For Users]][[Category:FAQs]]
+[[Category:Development]]
+[[Category:For Users]]
+[[Category:FAQs]]
