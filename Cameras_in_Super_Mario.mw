@@ -30,9 +30,9 @@ So normally if you jump up on some tiles, the camera moves from step to step eac
 
 Here also exists a left and a right scroll mode. The game tries to keep Yoshi at 1/3rd of the screen. Switching between camera modes happens instantly this time as soon as Yoshi changes the direction in which he looks. The camera then starts to move linear and relatively slowly into the other direction. This move into the other direction gets faster if Yoshi actually starts moving.
 
-Most of the time the mode is determined entirely by which direction Yoshi is facing, however there is actually a third stopped camera mode.  This mode seems to be activated if a second direction change occurs before the scrolling camera has reached its final position.  In other words if two direction changes are made relatively close together.
+Most of the time the mode is determined entirely by which direction Yoshi is facing, however there is actually a third stopped camera mode. This mode seems to be activated if a second direction change occurs before the scrolling camera has reached its final position. In other words if two direction changes are made relatively close together.
 
-Once the camera has stopped Yoshi will be on one half of the screen.  I will call this half of the screen the Yoshi side and the other half the non-Yoshi side.  If Yoshi walks in the direction of the non-Yoshi side, scrolling seems to resume as soon as he reaches the 50% point.  If Yoshi walks away from the non-Yoshi side I am still unclear as to when scrolling resumes.  There seems to be a little bit of a buffer most of the time.
+Once the camera has stopped Yoshi will be on one half of the screen. I will call this half of the screen the Yoshi side and the other half the non-Yoshi side. If Yoshi walks in the direction of the non-Yoshi side, scrolling seems to resume as soon as he reaches the 50% point. If Yoshi walks away from the non-Yoshi side I am still unclear as to when scrolling resumes. There seems to be a little bit of a buffer most of the time.
 
 === Vertical Movement ===
 
