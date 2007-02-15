@@ -59,7 +59,7 @@ If you just want to browse through the source a bit, then you can use the [http:
 
 == Developer SVN access ==
 
-If you have submitted some good patches and want to get actively involved in the SuperTux project, [[SuperTux FAQ#How_can_I_get_in_touch_with_you.3F|contact]] us for write access to the repository. You will then have to issue the following command in the ''supertux'' directory:
+If you have submitted some good patches and want to get actively involved in the SuperTux project, [[SuperTux FAQ#How can I get in touch with you.3F|contact]] us for write access to the repository. You will then have to issue the following command in the ''supertux'' directory:
 
 <pre>svn switch --relocate http://supertux.lethargik.org/svn/supertux/trunk/supertux \
   svn+ssh://&lt;your_lethargik_username&gt;@lethargik.org/home/supertux/svn/supertux/trunk/supertux</pre>
