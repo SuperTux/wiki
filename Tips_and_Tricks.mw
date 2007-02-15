@@ -11,7 +11,7 @@ credits for this solution goes to MatzeB
 
 == OpenAL ==
 
-By default OpenAL uses OSS output. On modern systems  OSS is emulated by Alsa anyway, so usually using 
+By default OpenAL uses OSS output. On modern systems OSS is emulated by Alsa anyway, so usually using
 Alsa directly sounds better. Create ~/.openalrc:
 
  (define devices '(alsa))
