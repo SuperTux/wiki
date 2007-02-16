@@ -5,9 +5,9 @@ You can format your text using wiki markup. This consists of normal characters l
 
 {| align="center" {{Prettytable}}
 |-
-|{{Hl3}}|'''Description'''
-|{{Hl3}}|'''You type'''	
-|{{Hl3}}|'''You get'''
+|{{Hl2}} |'''Description'''
+|{{Hl2}} |'''You type'''	
+|{{Hl2}} |'''You get'''
 |-
 | colspan="3" align="center" | ''applies anywhere''
 |-
