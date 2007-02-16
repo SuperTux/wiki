@@ -55,6 +55,7 @@ The following table lacks borders and good spacing but shows the simplest wiki m
 |}
 </pre>
 |}
+
 ===Alternative===
 For more table-ish looking wiki markup cells can be listed on one line separated by ||. This does not scale well for longer cell content such as paragraphs. It works well for short bits of content however, such as our example table.
 
