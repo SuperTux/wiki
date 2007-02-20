@@ -74,6 +74,7 @@ Fable, Familiar, Fairy, Fateful, Forked, Fallow, Fancy, Fantasy, Fearless, Fetid
 Another problem with climbing as GameObject instead of tile attribute is that now tiles that look the same can behave completely different.
 Sooner or later there will be levels with surprises like "oh you have to climb THAT in here" and "AAAAAAAAAAAH, you can no longer climb this
 convenient tiles above the lava".
+: Stupid level design is no reason to throw out or change a feature.  Same could be said for the scripting and its minimalism/maximalism debate. --[[User:Tuxdev|Tuxdev]] 15:34, 20 February 2007 (UTC)
 
 == Editor ==
 
