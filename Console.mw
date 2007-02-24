@@ -18,27 +18,27 @@ Then, you will have to run supertux using the <tt>--console</tt> option.
 
 Following is a list of useful scripts to run in the console:
 {|
-|'''quit()'''||quits SuperTux
+|''1()'''||quits SuperTux
 |-
-|'''restart()'''||restarts the current level
+|''2()'''||restarts the current level
 |-
-|'''whereami()'''||prints Tux' coordinates
+|''3()'''||prints Tux' coordinates
 |-
-|'''debug_collrects(true)'''||shows a transparent hitbox image over badguys for debuging
+|''4_collrects(true)'''||shows a transparent hitbox image over badguys for debuging
 |-
-|'''ghost()'''||lets Tux float around and through solid objects
+|''5()'''||lets Tux float around and through solid objects
 |-
-|'''kill()'''||Kills Tux
+|''6()'''||Kills Tux
 |-
-|'''mortal()'''||reverts Tux back to normal
+|''7()'''||reverts Tux back to normal
 |-
-|'''grow()'''||Grows Tux into big Tux
+|''8()'''||Grows Tux into big Tux
 |-
-|'''shrink()'''||Shrinks Tux into little Tux
+|''9()'''||Shrinks Tux into little Tux
 |-
-|'''fire()'''||Gives Tux the fire addon!
+|''q()'''||Gives Tux the fire addon!
 |-
-|'''ice()'''||Gives Tux the ice addon!
+|''w()'''||Gives Tux the ice addon!
 |-
 |'''invincible()'''||Makes Tux invincible
 |-
