@@ -36,9 +36,9 @@ Following is a list of useful scripts to run in the console:
 |-
 |'''shrink()'''||Shrinks Tux into little Tux
 |-
-|'''fire()'''||Gives Tux the fire addon!
+|'''fire()'''||Gives Tux the fire addon
 |-
-|'''ice()'''||Gives Tux the ice addon!
+|'''ice()'''||Gives Tux the ice addon
 |-
 |'''invincible()'''||Makes Tux invincible
 |-
