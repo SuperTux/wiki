@@ -508,6 +508,43 @@ Maybe Tux Could ride a seal like mario rides yoshi! that would be fun.
 
 === More Ideas from [[User Penguin]] ===
 
+==== Some Tile Ideas ====
 
+''' '' Different Shades of Water '' '''
+
+'' Light Water ''
+This is easy to see through and should be used in shallow
+areas (less than 25 spaces deep).
+
+'' Medium Water ''
+This is darker and a bit harder to see through; it should be used in deeper areas (25-50 spaces deep).
+
+'' Dark Water ''
+This is nearly black, hard to see through, and suitable for
+the bottoms of very deep pits and trenches (50-100 spaces
+deep).
+
+'' SuperDark Water ''
+This water is jet-black; you can hardly see Tux, and so it is suitable for the deepest oceans and trenches (100+ spaces
+deep).
+
+''' '' Decoration Tiles for Water '' '''
+
+'' Kelp ''
+There are two kinds; the darker immobilizes Tux for 5 seconds, while the lighter is just decorative.
+
+'' Black Smokers ''
+These should be used in Dark and SuperDark water areas. There are two kinds again: one with light smoke and no light coming from its top, and the other with dark smoke and an angry red glow illuminating it.
+
+'' Logs ''
+These logs are ordinary logs which Tux can jump on.
+
+'' Deco Fish 1 ''
+These are small, brightly colored fish that just float around in the same place all the time.
+
+==== Powerup Ideas ====
+
+''' '' Laser Flower '' '''
+This would be a powerup looking like a fireflower, except that it glows green. When Tux gets this powerup, if the Action button is pressed, a glowing green laser shoots out of Tux's beak and rebounds 3 times before disappearing, killing all badguys that can be killed with fire shot. The laser should be about as slow as Tux's walking speed.
 
 [[Category:Design]]
