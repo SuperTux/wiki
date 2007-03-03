@@ -24,3 +24,13 @@ This was used in the 0.1.1 release. It might be still used to not forget our his
 
 [[Category:Game Object]]
 [[Category:Game Engine]]
+
+
+== Configurable Camera ==
+
+I worked a bit on the code and put all parameters that influence the
+camera in a configuration file. You can now open data/camera.cfg and
+play with the parameters yourself. This way you can test/try out fixed
+camera, Yoshi Island and Kirby Camera and their parameters easily. You
+can make the game reparse the Camera by typing
+"sector.Camera.reload_config()" on the console.
