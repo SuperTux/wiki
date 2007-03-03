@@ -201,7 +201,9 @@ Flatbottom Iceberg is a flipped Flattop Iceberg, so it can't be "ridden". Both k
 
 ===== Some Forest World Badguys =====
 
-''WalkingStone''
+''' '' Aboveground Badguys '' '''
+
+''WalkingRock''
 
 It looks like an ordinary rock, but when Tux gets within range (5 spaces away), it grows eyes and legs and starts walking. When Tux jumps on it, its legs vanish and its eyes close. Tux can then pick it up. If Tux lets go, or jumps on it again, it speeds off like a Mr. Iceblock. This badguy can't be killed.
 
