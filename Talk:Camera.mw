@@ -13,3 +13,6 @@ I've been reading the mailing list discussion about camera and I wanted to add m
 So when the player moves a bit, the camera moves a bit and slowly. When the player is going forward at full speed, the camera just follows him, and when he stops, the camera slows down progressivly to reach its final position. (It's hard to explain since I'm french... but I hope you'll understand). So Tux could just be anywhere between 1/4 (or 1/3, I don't know) and 3/4 (2/3 ?) of the screen width and scrolling would only occur when he reaches these boundaries.
 
 Hope it'll help. But please, really, don't just implement an horrible "player is centered" camera. --[[User:PolyPrograms|polyprograms]] 20:45, 2 March 2007 (UTC)
+
+Well feel free to send us a patch that demonstrates this :) You can look at the camera code in src/object/camera.cpp (Camera::update_scroll_normal_exp)
+--[[User:MatzeB|MatzeB]] 17:26, 3 March 2007 (UTC)
