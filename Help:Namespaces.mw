@@ -11,6 +11,11 @@ Articles without a ':' in their name are in the main namespace.  This namespace 
 ;User: For personal notes.  Each User has a corresponding user page for their own information.  Users can also create subpages, by using a / after their name.
 ;User_talk: The discussion page on a user's page can be used for leaving messages.  If this page is edited, the next time that user logs in they will see a box notifying them that they have new messages
 
+== See also ==
+
+* [[Manual:$wgExtraNamespaces]]
+
+
 {{Languages}}
 [[Category:Help|Namespaces]]
 [[Category:Imported help]]
