@@ -16,6 +16,12 @@ So for example, to add this page to the 'Help' category, you would use:
 
 Note that we used 'Categories' as the sort parameter.  Without this the page would be listed under 'H' for 'Help:Categories', instead of under 'C', which is more useful.  Other situations where you might want to use the sort parameter is when you have articles about people that are titled as <code>FirstName LastName</code> but within the category you want them listed as <code>LastName, FirstName</code>.
 
+Another way to sort the article in the correct letter without the namespace is
+
+ <nowiki>[[Category:Help|{{PAGENAME}}]]</nowiki>
+
+This is extremly helpful when using templates which include a category tag.
+
 ''Note: the {sort} parameter does '''not''' affect how the page title is displayed within the category listing, just how it is ordered.  In the above example, the link to this page will still be 'Help:Categories', and not 'Categories' as you might expect!''
 
 {{Languages|Help:Categories}}
