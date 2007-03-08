@@ -75,7 +75,7 @@ for example:
 <gallery>
 Image:Example.jpg|Item 1
 Image:Example.jpg|a link to [[Help:Contents]]
-Image:Example.jpg
+Image:Example.jpg|70px
 Image:Example.jpg
 Image:Example.jpg|''italic caption''
 </gallery>
@@ -84,7 +84,7 @@ is formatted as:
 <gallery>
 Image:Example.jpg|Item 1
 Image:Example.jpg|a link to [[Help:Contents]]
-Image:Example.jpg
+Image:Example.jpg|70px
 Image:Example.jpg
 Image:Example.jpg|''italic caption''
 </gallery>
@@ -97,6 +97,10 @@ Or with different text:
 
 If it is enabled on your wiki, you can also embed external images. To do that, simply insert the url:
 *<code><nowiki>http://url.for/some/image.png</nowiki></code>
+
+== Administration of images/files ==
+
+See here: [[Manual:Image Administration]]
 
 ==External Links==
 {{meta|Help:Images and other uploaded files}}
