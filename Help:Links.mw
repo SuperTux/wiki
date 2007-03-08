@@ -51,6 +51,10 @@ same host unnamed
 |<tt><nowiki>[[Wikipedia:MediaWiki]]</nowiki></tt>
 |[[Wikipedia:MediaWiki]]
 |-
+|mailto
+|<tt><nowiki>mailto:info@example.org</nowiki></tt>
+|mailto:info@example.org
+|-
 |mailto unnamed
 |<tt><nowiki>[mailto:info@example.org]</nowiki></tt>
 |[mailto:info@example.org]
@@ -61,7 +65,7 @@ same host unnamed
 |-
 |redirect
 |<tt><nowiki>#REDIRECT [[Main Page]]</nowiki></tt>
-| -> [[Main Page]]
+| &rarr; [[Main Page]]
 |}
 
 == External links ==
