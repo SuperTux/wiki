@@ -67,14 +67,18 @@ Note that a good brush would need several thousand patterns.
 
 == Sectors ==
 
-=== How do I resize a sector? ===
-Right click on the [[#Where are the sector tabs?|tab for the sector]] and select "Resize".
-
 === Where are the sector tabs? ===
 Near the top of the editor. The default sector in a level is called "main" and is the sector where the game will start.
 
+=== How do I resize a sector? ===
+Right click on the [[#Where are the sector tabs?|tab for the sector]] and select "Resize".
+
 === How do I create a new sector? ===
 Right click at the [[#Where are the sector tabs?|sector tab]] area and select "New".
+
+
+=== How do I delete a sector? ===
+Right click at the [[#Where are the sector tabs?|sector tab]] for the current sector and select "Delete".
 
 <br/>
 
