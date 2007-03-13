@@ -7,3 +7,6 @@ I wasn't able to get the windows version of the SVN level editor as linked at [h
 The version of Mono in the Ubuntu repositories seems to be to old to run the editor, resulting in the "Object reference not set to an instance of an object" error. How can I get a version of Mono in Ubuntu that works with the editor?
 :Hm I don't run Ubuntu so I don't know, I will ask people some who use Ubuntu next time I see them. --[[User:AnMaster|AnMaster]] 08:02, 1 February 2007 (UTC)
 :: Runs fine for me on Ubuntu 6.06 LTS. I don't recall installing anything specific (other than the Mono packages from Ubuntu but possibly Multiverse - can't remember)
+
+Is there any way to run this under Mac OS X (@Intel)?
+-Shylence 19:28, 13 March 2007 (UTC)
