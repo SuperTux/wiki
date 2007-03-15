@@ -7,7 +7,7 @@ There are four sorts of links in MediaWiki:
 
 To add an internal link, enclose the name of the page you want to link to in double square brackets. When you save the page, you'll see the new link pointing to your page. If the page exists already, it is displayed in blue, empty pages are displayed in red. Selflinks to the current page are not transformed in URLs but displayed in bold.
 
-The first letter of the target page is automatically capitalized and spaces are represented as underscores (typing an underscore in the link will have a similar affect as typing a space, but is not recommended, since the underscore will also be shown in the text).
+The first letter of the target page is automatically capitalized and spaces are represented as underscores (typing an underscore in the link will have a similar effect as typing a space, but is not recommended, since the underscore will also be shown in the text).
 
 == How to link ==
 {| {{Prettytable}}
