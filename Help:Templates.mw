@@ -75,7 +75,7 @@ Note that the usual update problems apply -- if you change the
 categories inside a template, the categories of the referring pages
 won't be updated until those pages are edited.
 ==Making templates useful==
-For templates to be effective users need to find them and be able to use them. Wiki are not user friendly when it comes to finding, using and working with templates.  A simple technique is to have a usage on the template page.
+For templates to be effective users need to find them and be able to use them. Wikis are not user friendly when it comes to finding, using and working with templates.  A simple technique is to have a usage on the template page.
 For example
 <div style="display:table; width:auto;"><pre>
 ==Usage==
