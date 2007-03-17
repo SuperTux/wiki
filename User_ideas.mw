@@ -75,6 +75,11 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 
 == Unimplemented ==
 
+
+==== Online mode ====
+How about instead of just a project for a multiplayer mode, a mass multiplayer mode. Of course, someone would probably have to set up a good server for this. You could differentiate your Tux from everyone else's tux through ties, hats, and body colors. Boxes and enemies could reappear after a certain amount of time. You could trade your coins for something different from a one up. You could have firetux duels with other people, or maybe throw snowballs at each other. Maybe kill other tuxes by jumping to hit bricks that they're standing on.
+
+
 === More control over moving platforms ===
 Ability to move platforms without a fixed path. Something like: platform.move(x,y,speed)
 Maybe platforms could detect wether Tux is standing on them or not. For example, you could make a platform that only moves when Tux is standing on top of it. And it could even change directions each time Tux jumps (yes, I know those kind of platforms were in Super Mario 3).
