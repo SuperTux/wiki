@@ -120,6 +120,9 @@ Boxing gloves might be found as temporary powerups, permanent powerups like the 
 
 === Running=== 
 Tux should have a better running anamation, his legs should move faster, and perhaps he should flap his wings. Perhaps if he reaches full run he could fly like everyone has been wanting.
+===Sliding===
+Tux should be able to slide down non-horizontal tiles. When doing this, he should be invincible to badguys.
+
 === Darker background ===
 
 <small>(An idea from Stephen2985, taken from lists.berlios.de/pipermail/supertux-devel/2005-August/000570.html the Supertux-devel archives])</small>
