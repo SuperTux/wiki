@@ -129,7 +129,11 @@ Have the game engine display background as 75% brightness, making some levels ea
 === Background Tileset ===
 <small>after reading grumbel's rant</small> a tileset for forest parallax background is missing. Standard forest tiles are too big.
 
+===Badguy Improvements===
+You should be able to pick up the beetle baddy and hit it from the side. The fish needs to be able to jump and swim. The badguys should stop killing each other.
+
 === Some more badguys ===
+
 
 Here're three new suggestions for badguys in the forest world:
 
