@@ -10,5 +10,7 @@ Except for the [[IRC Channel]], this is where most of the development is being d
 
 Anytime a developer commits their work, all the subscribers of this list receive an e-mail. Even though it is mainly beneficial for the comfort and teamwork of the developers, this mailing list is also open to people who are interested in what's actually going on with SuperTux.
 
+'''Note''': You should not send any mails to this list, it is for commits '''only'''. Any comments about the commits should go to supertux-devel.
+
 [[Category:Development]]
 [[Category:Meta]]
