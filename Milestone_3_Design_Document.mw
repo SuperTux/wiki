@@ -163,6 +163,14 @@ Status: Implemented as GameObject, not via TileMap, which has its advantages (ea
 
 <br clear="all" />
 
+=== New Pipes ===
+
+[[Image:Rostypipe-sketch.png|thumbnail|right|Rostypipe Sketch]]
+
+Pipes in Milestone2 should differ from both Mario1 and Milestone1. Instead of being objects that lead to new levels/section, they shall contain water and allow Tux to swim around in them. There shall not be a specific enter/leave animation, instead the behavior of Tux in pipes will be similar/equal to that in water. To accomplish this tiles might need to change in size and there design need to change to either include a little window to see tux through it or alternatively they need to be designed multi layered so that the foreground layer fades away when entering them.
+
+<br clear="all" />
+
 == World 2 Enemies ==
 
 === Snail ===
