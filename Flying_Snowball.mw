@@ -1,3 +1,3 @@
-The flying snowball is basically a snow ball with a propeller and an old pilot hat. Jumping on it kills it, while touching it kills you. It flies up and down constantly.
+{{Badguy|name=Flying Snowball|image=Flyingsnowball|worlds=IcyIsland|appearance=A [[Snowball]] with a propeller underneath and a pilot hat and goggles|behaviour=Flies up and down constantly.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
 
 [[Category:Badguy]]
