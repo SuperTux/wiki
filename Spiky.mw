@@ -1,5 +1,3 @@
-[[Image:Spiky.png|left]]
-
-Spiky is a walking snowball with a spiky helmet. Can be killed by fireballs in Firetux mode.
+{{Badguy|name=Spiky|image=Spiky|worlds=IcyIsland, World2|appearance=A walking [[Snowball]] with a spiky helmet.|behaviour=Walks around. Turns at ledges if about to fall offscreen.|squish=no|butt-jump=no|freeze=yes|ignite=yes, killed}}
 
 [[Category:Badguy]]
