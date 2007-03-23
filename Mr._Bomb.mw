@@ -1,11 +1,3 @@
-[[Image:Mrbomb-left-0.png|left]]
-
-MrBomb should be in the Forest levels, too.
-
-Exploded bombs should be able to destroy or set fire to surrounding blocks.
-
-Bombs should be de-set-off by using ice spitting.
-
-Bombs should be carryable when iced.
+{{Badguy|name=MrBomb|image=Mrbomb-left-0|worlds=IcyIsland, World 2|appearance=A black walking bomb.|behaviour=Walks around. When jumped on once, it is activated and explodes after a short time, killing nearby badguys.|squish=yes, is activated|butt-jump=yes|freeze=yes, becomes portable|ignite=yes, explodes}}
 
 [[Category:Badguy]]
