@@ -1,2 +1,27 @@
 Needs openAL.dll...
 :Yes, as it says that on the [[Download/Installation_Milestone_1.9|download]] page... --[[User:AnMaster|AnMaster]]
+
+== SuSE 9.2... It doesney werk cap'n! ==
+
+The autopackage is linked to a glibc that's too new...
+Fine, think I, I'll compile it.
+So, first, physfs... fine, downloaded, compiled, installed.
+Then jam, that compiled fine, and compiled supertux (what's wrong with make?)
+
+
+but
+
+supertux segfaults
+
+recompiled with debugging and this is the complete output.
+work/supertux-0.3.0> ./supertux 
+
+[INFO] src/main.cpp:202 [/home/spike1/.supertux2] is in the search path
+
+[INFO] src/main.cpp:202 [/home/spike1/work/supertux-0.3.0//data] is in the search path
+[INFO] src/main.cpp:456 Component 'controller' finished after 0.2 seconds
+
+[INFO] src/main.cpp:70 Couldn't load config file: Couldn't open file 'config': No such file or directory, using default settings
+
+[INFO] src/main.cpp:456 Component 'config' finished after 0.018 seconds
+Fatal signal: Segmentation Fault (SDL Parachute Deployed)
