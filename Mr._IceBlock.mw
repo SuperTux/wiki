@@ -1,10 +1,6 @@
-[[Image:mriceblock-left-2.png|left]]
+{{Badguy|name=MrIceblock|image=Mriceblock_new|worlds=IcyIsland|appearance=A cube of ice with eyes and legs.|behaviour=Walks around. When jumped on once, it becomes flat. If jumped on twice, it is shot in the direction of the kick, removing all enemies in the way. If it is jumped on again, it either stops or resums gliding. It can only be destroyed by being stepped on multiple times, stopping and resuming its glide.|squish=yes, stunned (see behaviour)|butt-jump=yes|freeze=no|ignite=yes, killed}}
 
-Mr Ice Block is a cube of ice with eyes and legs. When jumped on once, it becomes flat. If jumped on twice, it is shot in the direction of the kick, removing all enemies in the way. If it is jumped on again, it either stops or resums gliding.
-
-Mr Ice Block can only be destroyed by being stepped on multiple times, stopping and resuming its glide. Once eliminated, 100 points are given. If destroyed in a combo, scores up to 500 are possible. when walking slow jump over Mr Ice Block and watch him fall off a cliff, ledge, etc. with a happy face on.
-
-Implemented since [[Milestone 1]].
+''Note: this information applies to MS1 only.'' Once eliminated, 100 points are given. If destroyed in a combo, scores up to 500 are possible. when walking slow jump over Mr Ice Block and watch him fall off a cliff, ledge, etc. with a happy face on.
 
 [[Category:Badguy]]
 [[Category:Portable]]
