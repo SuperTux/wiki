@@ -1,6 +1,4 @@
-[[Image:Poisonivy.png]]
-=== Behaviour ===
-* Bites at Tux
+{{Badguy|name=Poison Ivy|image=Poisonivy|worlds=World 2|appearance=A green or red plant with teeth|behaviour=Walks around. Green ones fall down from every ledge, while red ones turn around.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
 
 == Comments ==
 
