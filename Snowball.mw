@@ -1,5 +1,3 @@
-[[Image:Left-1.png|left]]
-
-Snowball is a walking snowball with eyes and boots on. Can be killed by flattening it by jumping on it.
+{{Badguy|name=Snowball|image=Left-1|worlds=IcyIsland|appearance=A walking snowball with eyes and boots on.|behaviour=Walks around. Falls down from all cliffs.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
 
 [[Category:Badguy]]
