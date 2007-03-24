@@ -25,3 +25,4 @@ work/supertux-0.3.0> ./supertux
 
 [INFO] src/main.cpp:456 Component 'config' finished after 0.018 seconds
 Fatal signal: Segmentation Fault (SDL Parachute Deployed)
+: You're missing a file. Unless, of course, it's there, in which case, SuperTux is just acting dumb. What version of Glibc are you using? I'm recompiling SuperTux Mi1.9 for Glibc2.3 for a Slackware-based live CD, and if you'd like, I can send you an RPM.
