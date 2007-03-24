@@ -24,5 +24,14 @@ work/supertux-0.3.0> ./supertux
 [INFO] src/main.cpp:70 Couldn't load config file: Couldn't open file 'config': No such file or directory, using default settings
 
 [INFO] src/main.cpp:456 Component 'config' finished after 0.018 seconds
+
 Fatal signal: Segmentation Fault (SDL Parachute Deployed)
+
 : You're missing a file. Unless, of course, it's there, in which case, SuperTux is just acting dumb. What version of Glibc are you using? I'm recompiling SuperTux Mi1.9 for Glibc2.3 for a Slackware-based live CD, and if you'd like, I can send you an RPM. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 13:37, 24 March 2007 (UTC)
+
+GNU C Library stable release version 2.3.3 (20040917), by Roland McGrath et al.
+
+If you could, it'd be great. Thanks. (The only file I see it missing is "config" but as it says "using default settings" I don't see why it would cause problems)
+
+My e-mail address is (remove the spurious fullstops... I loath spam and I know what spembots are like these days)
+s.p.i.k.e.1.@.g.m.a.i.l..c.o.m
