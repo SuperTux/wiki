@@ -35,3 +35,5 @@ If you could, it'd be great. Thanks. (The only file I see it missing is "config"
 
 My e-mail address is (remove the spurious fullstops... I loath spam and I know what spembots are like these days)
 s.p.i.k.e.1.@.g.m.a.i.l..c.o.m
+
+: Darn, I'm having trouble getting the development libraries to compile. It'll probably take a while to get finished, but you're using the right version of Glibc. I'll email you the RPM when I'm done... Assuming Gmail lets it through because of the size...
