@@ -39,3 +39,5 @@ s.p.i.k.e.1.@.g.m.a.i.l..c.o.m
 : Darn, I'm having trouble getting the development libraries to compile. It'll probably take a while to get finished, but you're using the right version of Glibc. I'll email you the RPM when I'm done... Assuming Gmail lets it through because of the size...
 
 :: Autopackage's glibc too new? Are you sure? (The point of AP is working around that problem) Which autopackage do you use? Did you get any error message?
+
+::: I used the .DEBs from thew Core Repository, and converted them to SLAX modules with deb2mo. They're too new. But maybe I should try Autopackage... Thanks for the hint. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 01:47, 25 March 2007 (UTC)
