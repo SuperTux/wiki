@@ -41,3 +41,26 @@ s.p.i.k.e.1.@.g.m.a.i.l..c.o.m
 :: Autopackage's glibc too new? Are you sure? (The point of AP is working around that problem) Which autopackage do you use? Did you get any error message?
 
 ::: I used the .DEBs from thew Core Repository, and converted them to SLAX modules with deb2mo. They're too new. But maybe I should try Autopackage... Thanks for the hint. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 01:47, 25 March 2007 (UTC)
+
+Yep, The error is, as I said, it requires libs that're too new.
+
+Here's the output I got.
+
+ridcully:/home/spike1/work # sh supertux-0.3.0a.x86.package
+
+# Preparing package: SuperTux Platform Game
+# Checking for required C library versions ... failed
+# FAIL:
+# Your copy of glibc, a core system library, is too old for this package.
+# You need at least the following symbols in glibc: GLIBC_2.4.
+#
+# This error normally means that whoever built the package did not build it corr
+ectly.
+# Please report the contents of this message to the provider of this package, an
+d
+# ask them to rebuild it using apbuild.
+#
+# Upgrading glibc is highly dangerous, so we recommend in this situation that yo
+u
+# compile the app you want to install from the sources if possible. Sorry :(
+FAIL: Unable to prepare package SuperTux Platform Game.
