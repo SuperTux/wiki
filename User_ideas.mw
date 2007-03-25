@@ -574,4 +574,14 @@ These are small, brightly colored fish that just float around in the same place 
 ''' '' Laser Flower '' '''
 This would be a powerup looking like a fireflower, except that it glows green. When Tux gets this powerup, if the Action button is pressed, a glowing green laser shoots out of Tux's beak and rebounds 3 times before disappearing, killing all badguys that can be killed with fire shot. The laser should be about as slow as Tux's walking speed.
 
+=== Stylus control ===
+
+Why couldn’t one control Tux with stylus? By dragging right Tux would move right and after certain point would change to ctrl-mode.
+
+The height relative to the middle of the screen would determine whether Tux should duck or jump or just move.
+
+Picking things up with tapping the screen once?
+
+Just some thoughts. We should not let the lack of keyboard restrict us. 
+
 [[Category:Design]]
