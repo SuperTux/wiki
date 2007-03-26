@@ -1,3 +1,5 @@
 I have a different keyboard layout, is there a way to find out which key number is the tilde? (Using MS 1.9)
 :I don't think the key numbers change.  The raw key codes are abstracted away by SDL and the kernel. --[[User:Tuxdev|Tuxdev]] 02:11, 11 Nov 2006 (CET)
 :In the MS 1.9 preview builds, the Console is deactivated by default. Once it is activated, you can change simply change the console key in the "Options > Setup Keyboard" menu. --[[User:Sommer|Sommer]] 10:29, 11 Nov 2006 (CET)
+
+The starting level of contrib island II is impossible - what are the cheats for version 0.3.0? Neither --debug, nor typing end() in the console are working --[[User:193.190.253.129|193.190.253.129]] 22:43, 26 March 2007 (UTC)
