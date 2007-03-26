@@ -64,3 +64,5 @@ d
 u
 # compile the app you want to install from the sources if possible. Sorry :(
 FAIL: Unable to prepare package SuperTux Platform Game.
+
+:Supertux from Autopackage works on my debian box which has 2.3.2. But I used supertux-0.3.0'''b'''.x86.package --[[User:Superdev|Superdev]] 21:48, 26 March 2007 (UTC)
