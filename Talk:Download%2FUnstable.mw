@@ -67,3 +67,5 @@ FAIL: Unable to prepare package SuperTux Platform Game.
 
 :Supertux from Autopackage works on my debian box which has glibc 2.3.2. But I used supertux-0.3.0'''b'''.x86.package --[[User:Superdev|Superdev]] 21:48, 26 March 2007 (UTC)
 :[[Download/Installation Milestone 1.9]] still points to version a. Use http://prdownload.berlios.de/supertux/supertux-0.3.0b.x86.package
+
+Thanks, that works... Must say though, though I like the new additions, I'm not sure about the sudden removal of "lives" and the "timer"... Will these be reinstated or turn off-and-onable in the options?
