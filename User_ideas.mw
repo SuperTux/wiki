@@ -497,6 +497,7 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *::::::AnMaster, i think it was about the building, like, from the outside you don't see what is inside, but when you fall into the hole in ceiling the from tilemap fades and you see what's inside. Got it?
 * '''More options''': Especially being able to switch between the old and new behavior for running with the action key pressed.
 :Problem: You have to test all the options. Every time you change anything. Does it work with ALL combinations? PITA.
+* '''Let falling objects press buttons''' - for example, burn some burnable blocks to make a rock fall on a button
 
 ==== 2-player mode ====
 *How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
