@@ -230,7 +230,7 @@ Flatbottom Iceberg is a flipped Flattop Iceberg, so it can't be "ridden". Both k
 ''WalkingRock''
 
 It looks like an ordinary rock, but when Tux gets within range (5 spaces away), it grows eyes and legs and starts walking. When Tux jumps on it, its legs vanish and its eyes close. Tux can then pick it up. If Tux lets go, or jumps on it again, it speeds off like a Mr. Iceblock. This badguy can't be killed.
-** I don't think it should speed off, since it is a rock, not a block of ice and would have a good deal more friction. I do think it would be neat if a few seconds of it coming to a stop it revived and starts to chase Tux again if he is still nearby.
+*I don't think it should speed off, since it is a rock, not a block of ice and would have a good deal more friction. I do think it would be neat if a few seconds of it coming to a stop it revived and starts to chase Tux again if he is still nearby.
 
 ''Chameleon''
 
