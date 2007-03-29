@@ -516,14 +516,14 @@ Bubble - float and pop in air
 
 ==== 3D Tux ====
 I think that Supertux would be even cooler in 3D. It could be partially implemented, for example, there could be substages in 3D, or a 3D world later on? Or maybe it would more appropriate in a future spin off game?
-: Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites in a 2D world. --[[User:Tuxdev|Tuxdev]] 22:51, 3 Oct 2006 (CEST)
-:: Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 02:19, 10 Oct 2006 (CEST)
-:::No, he means like New Super Mario Bros or Super Smash Bros Melee, where the game is 2D side-scrolling but the graphics are 3D. (I mean tuxdev meant that, not the OP) [[User:67.168.194.207|67.168.194.207]] 02:12, 11 Oct 2006 (CEST)
-: 2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net. Just throwing around ideas.--[[User:66.153.31.148|66.153.31.148]] 06:54, 4 Oct 2006 (CEST)
-: Maybe leave the game itself how it is, and have 3D cutscenes?
-:: It's a good idea. Leave the game how it is, only change the cutscenes. [[User:DirtY iCE|DirtY iCE]] 10:54, 5 Nov 2006 (CET)
-:This idea may seem a bit wacky, but tux could fall into a hidden hole where he gets virtualized and has to fight virtual enemies in a virtual 3D landscape for a few levels then he has to go through a portal in the last 3D level to take him back to 2D. The only problem is the huge amount of code and graphics that would be required, thus resulting in a huge package size. Perhaps this could be an addon for a new bonus world?
-:Something similar to the original Jazz Jackrabbit style bonus stages perhaps? (For the uninitiated, picking up a large hidden gem in certain stages in JJ would take you to a 3D bonus stage on completion of the level, in which you would navigate a maze to collect a certain number of gems to win an extra life). Not entirely sure of the best way to set this out, certainly don't want to directly copy off JJ, just throwing the idea out there.
+* Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites in a 2D world. --[[User:Tuxdev|Tuxdev]] 22:51, 3 Oct 2006 (CEST)
+** Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 02:19, 10 Oct 2006 (CEST)
+***No, he means like New Super Mario Bros or Super Smash Bros Melee, where the game is 2D side-scrolling but the graphics are 3D. (I mean tuxdev meant that, not the OP) [[User:67.168.194.207|67.168.194.207]] 02:12, 11 Oct 2006 (CEST)
+* 2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net. Just throwing around ideas.--[[User:66.153.31.148|66.153.31.148]] 06:54, 4 Oct 2006 (CEST)
+* Maybe leave the game itself how it is, and have 3D cutscenes?
+** It's a good idea. Leave the game how it is, only change the cutscenes. [[User:DirtY iCE|DirtY iCE]] 10:54, 5 Nov 2006 (CET)
+* This idea may seem a bit wacky, but tux could fall into a hidden hole where he gets virtualized and has to fight virtual enemies in a virtual 3D landscape for a few levels then he has to go through a portal in the last 3D level to take him back to 2D. The only problem is the huge amount of code and graphics that would be required, thus resulting in a huge package size. Perhaps this could be an addon for a new bonus world?
+* Something similar to the original Jazz Jackrabbit style bonus stages perhaps? (For the uninitiated, picking up a large hidden gem in certain stages in JJ would take you to a 3D bonus stage on completion of the level, in which you would navigate a maze to collect a certain number of gems to win an extra life). Not entirely sure of the best way to set this out, certainly don't want to directly copy off JJ, just throwing the idea out there.
 
 ==== Pirates ====
 Any bad guy pirate with a sword also be fun to the milestone 2.
