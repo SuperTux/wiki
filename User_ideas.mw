@@ -560,10 +560,13 @@ deep).
 This water is jet-black; you can hardly see Tux, and so it is suitable for the deepest oceans and trenches (100+ spaces
 deep).
 
+*This idea reminds me of one level in the original Jazz Jackrabbit. They implemented it by lowering the ambient brightness the further down Jazz swam, but they had a bunch of glow in the dark bits on plants and enemies so you could still see where to go (except the secrets they hid, no glowing bits there).
+
 ''' '' Decoration Tiles for Water '' '''
 
 '' Kelp ''
 There are two kinds; the darker immobilizes Tux for 5 seconds, while the lighter is just decorative.
+*Have to be careful with this, 5 seconds is a looooooooooooooooong time to be immobilised, and becomes extremely frustrating to players in situations where it is possible to become immobilised very shortly after regaining movement. It's enough to make me personally put a game down and stop playing it for good.
 
 '' Black Smokers ''
 These should be used in Dark and SuperDark water areas. There are two kinds again: one with light smoke and no light coming from its top, and the other with dark smoke and an angry red glow illuminating it.
