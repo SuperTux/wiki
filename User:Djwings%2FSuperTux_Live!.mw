@@ -1,19 +1,19 @@
 '''SuperTux Live!''' is an attempt to build a Linux-based Live CD to run SuperTux Milestone 1.9. At the moment, the base system is [http://www.sam-linux.org/ SAM Linux], a [http://www.pclinuxos.com PCLinuxOS]-based distribution that uses [http://www.xfce.org XFCE] as its default desktop for high performance and decent aesthetics. The base was formerly [http://www.slax.org SLAX Linux], an excellent Live CD with tools to mold it to the user's whims, but this was abandoned permanently due to conflicts between the versions of Glibc used to compile SLAX and SuperTux. :( SAM Linux includes built-in NVidia and ATI drivers for 3D acceleration.
 
 == What the system will include ==
--SuperTux Milestone 1.9
--XFCE Desktop Environment
--Linux kernel 2.6.18.6
--NVidia (and ATI?) drivers for graphics acceleration
--WBar Mac OS X-like launch bar
--A customized theme with custom wallpaper, controls and icon theme from [http://fedora.redhat.com Fedora Core Linux] ;)
+-SuperTux Milestone 1.9<br>
+-XFCE Desktop Environment<br>
+-Linux kernel 2.6.18.6<br>
+-NVidia (and ATI?) drivers for graphics acceleration<br>
+-WBar Mac OS X-like launch bar<br>
+-A customized theme with custom wallpaper, controls and icon theme from [http://fedora.redhat.com Fedora Core Linux] ;)<br>
 
 == Release plan ==
-Alpha 1: base system in place, may not work- '''April 9'''
-Beta 1: base system in place, everything works- '''April 16'''
-Beta 2: first public release, public bug testing starts- '''April 19'''
-Release candidate: second public release, last-minute fixes- '''April 26'''
-'''Final version:''' it should work. Period- '''April 29'''
+Alpha 1: base system in place, may not work- '''April 9'''<br>
+Beta 1: base system in place, everything works- '''April 16'''<br>
+Beta 2: first public release, public bug testing starts- '''April 19'''<br>
+Release candidate: second public release, last-minute fixes- '''April 26'''<br>
+'''Final version:''' it should work. Period- '''April 29'''<br>
 
 == External links ==
 [http://www.sam-linux.org/ SAM Linux]- SuperTux Live!'s base system.<br>
