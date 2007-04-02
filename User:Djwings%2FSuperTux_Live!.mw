@@ -1,4 +1,4 @@
-'''SuperTux Live!''' is an attempt to build a Linux-based Live CD to run SuperTux Milestone 1.9. At the moment, the base system is [http://www.sam-linux.org/ SAM Linux], a [http://www.pclinuxos.com PCLinuxOS]-based distribution that uses [http://www.xfce.org XFCE] as its default desktop for high performance and decent aesthetics. The base was formerly [http;//www.slax.org SLAX Linux], an excellent Live CD with tools to mold it to the user's whims, but this was abandoned permanently due to conflicts between the versions of Glibc used to compile SLAX and SuperTux. :( SAM Linux includes built-in NVidia and ATI drivers for 3D acceleration.
+'''SuperTux Live!''' is an attempt to build a Linux-based Live CD to run SuperTux Milestone 1.9. At the moment, the base system is [http://www.sam-linux.org/ SAM Linux], a [http://www.pclinuxos.com PCLinuxOS]-based distribution that uses [http://www.xfce.org XFCE] as its default desktop for high performance and decent aesthetics. The base was formerly [http://www.slax.org SLAX Linux], an excellent Live CD with tools to mold it to the user's whims, but this was abandoned permanently due to conflicts between the versions of Glibc used to compile SLAX and SuperTux. :( SAM Linux includes built-in NVidia and ATI drivers for 3D acceleration.
 
 == What the system will include ==
 -SuperTux Milestone 1.9
@@ -16,7 +16,7 @@ Release candidate: second public release, last-minute fixes- '''April 26'''
 '''Final version:''' it should work. Period- '''April 29'''
 
 == External links ==
-[http://www.sam-linux.org/ SAM Linux]
-[http://www.pclinuxos.com PCLinuxOS]
-[http://www.xfce.org XFCE]
-[http;//www.slax.org SLAX Linux] aka AncientOS
+[http://www.sam-linux.org/ SAM Linux]- SuperTux Live!'s base system.<br>
+[http://www.pclinuxos.com PCLinuxOS]- SAM Linux's base system.<br>
+[http://www.xfce.org XFCE]- the desktop.<br>
+[http://www.slax.org SLAX Linux]- aka AncientOS, still using Glibc 2.3 (over 3 years old). The original base.
