@@ -30,6 +30,10 @@ There's many things to be done - even besides actually creating game content:
  
 If you want to help, just get in touch (see [[#How can I get in touch with you?|How can I get in touch with you?]]) and ask.
 
+== Is there a preview of Milestone 2? ==
+
+Yes. [[Milestone 1.9]] is a snapshot of Milestone 2 without certain buggy features. There are currently Windows and Linux installers. Development is also in progress for [[SuperTux Live!]], a Live CD with Milestone 1.9 installed.
+
 == I found a bug in the developer version! ==
 
 Well, that's not really a question, but great anyway. Keep in mind, however, that SuperTux is bound to have lots of bugs at this stage of development. Actually, chances are quite high that a particular bug is already known but not yet fixed because we just didn't have the time yet.
