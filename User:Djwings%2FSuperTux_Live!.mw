@@ -15,6 +15,10 @@ Beta 2: first public release, public bug testing starts- '''April 19'''<br>
 Release candidate: second public release, last-minute fixes- '''April 26'''<br>
 '''Final version:''' it should work. Period- '''April 29'''<br>
 
+== Development status ==
+'''April 2:''' Base system installed, wiki page created. :) Some customizations (wallpaper, app selection, FireFox bookmarks) finished, PhysFS added (I happened to have a SLAX module lying around).<br>
+'''April 3:''' Planned date to add SuperTux/OpenAL/Fedora icon theme. Also setting up Exaile's default playlist to play the list of theme songs and removing Compiz and Beryl ( :( ). Finally, I discovered a flaw in PhysFS: I installed version 1.1, whereas SuperTux uses 1.0. :o Ah well, nothing good ol' "ln -s" can't solve.<br>
+
 == External links ==
 [http://www.sam-linux.org/ SAM Linux]- SuperTux Live!'s base system.<br>
 [http://www.pclinuxos.com PCLinuxOS]- SAM Linux's base system.<br>
