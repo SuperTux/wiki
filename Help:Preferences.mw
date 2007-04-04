@@ -2,6 +2,29 @@
 
 Clicking on the [[special:preferences|my preferences]] link in the upper right while logged in allows you to change your preferences.
 
+==Date format==
+The following is normally rendered depending on preferences:
+
+<pre>
+ [[2001-01-05]] (or [[2001]]-[[01-05]]) (with leading zeros)
+ [[2001]] [[January 5]] ([[2001]] [[January 05]])
+ [[January 5]], [[2001]] ([[January 05]], [[2001]])
+ [[5 January]] [[2001]] ([[05 January]] [[2001]])
+ [[January 5]] ([[January 05]])
+ [[5 January]] ([[05 January]])
+</pre>
+
+With your current preference setting on this project the seven are rendered as follows:
+
+#[[2001-01-05]] ([[2001]]-[[01-05]])
+#[[2001]] [[January 5]] ([[2001]] [[January 05]]}
+#[[January 5]], [[2001]] ([[January 05]], [[2001]])
+#[[5 January]] [[2001]] ([[05 January]] [[2001]])
+#[[January 5]] ([[January 05]])
+#[[5 January]] ([[05 January]])
+
+The user-specified date format does not seem to work on the [[mw:]] wiki for links! It works in Recent Changes etc.
+
 == See also ==
 * [[Help:Skins]]
 
