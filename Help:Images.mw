@@ -75,7 +75,7 @@ for example:
 <gallery>
 Image:Example.jpg|Item 1
 Image:Example.jpg|a link to [[Help:Contents]]
-Image:Example.jpg|70px
+Image:Example.jpg
 Image:Example.jpg
 Image:Example.jpg|''italic caption''
 </gallery>
@@ -84,13 +84,13 @@ is formatted as:
 <gallery>
 Image:Example.jpg|Item 1
 Image:Example.jpg|a link to [[Help:Contents]]
-Image:Example.jpg|70px
+Image:Example.jpg
 Image:Example.jpg
 Image:Example.jpg|''italic caption''
 </gallery>
 
 ==Other files==
-You can link to an external file using the same syntax used for [[Help:Links#External links|linking to an external web page]]. This feature has to be enabled by the admin; in the new releases of MediaWiki its disabled due to security reasons.
+You can link to an external file using the same syntax used for [[Help:Links#External links|linking to an external web page]]. This feature has to be enabled by the admin; in the new releases of MediaWiki it's disabled due to security reasons.
 *<code><nowiki>[http://url.for/some/image.png]</nowiki></code>
 Or with different text:
 *<code><nowiki>[http://url.for/some/image.png link text here]</nowiki></code>
