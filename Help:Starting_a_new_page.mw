@@ -1,5 +1,5 @@
 {{PD Help Page}}
-There are several ways to start a new page
+There are several ways to start a new page.
 
 == Using Wikilinks ==
 MediaWiki makes it very easy to link wiki pages using a standard syntax (see [[Help:Links|Links]]). If you (or anyone else) creates a link to an article that doesn't exist yet, the link will be coloured red, <span style="color: #ba0000">like this</span>.
