@@ -26,17 +26,18 @@ You can obtain a copy of the help system in this wiki for local use in your own 
  [[Help:Special pages]]
  [[Template:PD_Help_Page]]
  [[Category:Help]]
- [[Template:Languages]]
  [[Template:Meta]]
  [[Template:Admin_tip]]
  [[Template:Prettytable]]
  [[Template:Hl2]]
  [[Template:Hl3]]
- [[Template:Click]]
  [[Template:Thankyou]]
- [[:En:Public_domain]]
  [[:Image:Example.jpg]]
- [[:Image:Geographylogo.png]] 	
+ [[:Image:Geographylogo.png]] 
+
+Sysops only:
+ [[Template:Click]]
+ [[Template:Languages]]
 
 
 * Step four: Make sure the box "Include only the current revision, not the full history" is CHECKED.
@@ -45,7 +46,7 @@ You can obtain a copy of the help system in this wiki for local use in your own 
 * Step seven: Navigate to Special:Import on YOUR wiki. (You must be logged in as Admin/Sysop level to do this.)
 * Step eight: Browse for the file you saved, and click 'Upload'.
 
-That should do it!  Although not complete, at least this gets you started on a decent help system.
+For the images this only copies the image descriptions. You need also to upload them on your wiki. Although not complete, at least this gets you started on a decent help system.
 
 
 ==Automated copying==
