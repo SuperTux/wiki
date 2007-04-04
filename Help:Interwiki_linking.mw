@@ -61,18 +61,20 @@ Several Wikimedia-Projects (and others) are ready for interwiki linking by defau
 |-
 |}
 
+Note: In some installations none of these are pre-installed. Try <code><nowiki>[[metawikipedia:Main Page]]</nowiki></code> in this case.
+
 ===Adding more===
 As the Wikipedia isn't set up by default, you might want to add it (and other projects of your need).
 
 You have to edit your own database. 
-Go to table <code>interwiki</code> and add a new line:
+Go to table <code>interwiki</code> and add a new line (usually done with phpMyAdmin):
 *'''<code>iw_prefix</code>''': choose a prefix, which is used for interwiki linking, e.g. "Wikipedia" or "wp" for linking to Wikipedia
 *'''<code>iw_url</code>''': enter the project's URL, e.g. <code><nowiki>http://en.wikipedia.org/wiki/$1</nowiki></code> for Wikipedia. Don't forget the <code>$1</code> as it is replaced with the article's name you are linking to (<code><nowiki>[[Wikipedia:Main Page]]</nowiki></code> links to <code><nowiki>http://en.wikipedia.org/wiki/</nowiki>'''Main_Page'''</code>).
 *'''<code>iw_local</code>''': if 1, your wiki will redirect even external links of the form iw_prefix:title, not only those from its own pages. you need this if you want to use the redirect functionality from outside your wiki or other wikis use your transwiki functions for nested transwiki links (like http://en.wikipedia.org/wiki/fr:Accueil)
-*'''<code>iw_trans</code>''': "transwiki transclusion" - set to 1 if you want to use pages from the other wiki as templates.  You will also need to set ''$wgEnableScaryTranscluding = true'' in your ''LocalSettings.php''
+*'''<code>iw_trans</code>''': "transwiki transclusion" - set to 1 if you want to use pages from the other wiki as templates.  You will also need to set [[Manual:$wgEnableScaryTranscluding|$wgEnableScaryTranscluding = true]] in your ''LocalSettings.php''
 
 {{admin tip|tip=
-Several help pages link to MediaWiki.org's ''Manual'' namespace.  To make these links work on your local wiki, add an interwiki link with ''iw_prefix=manual'' and ''iw_url=http://www.mediawiki.org/wiki/Manual:$1''
+Several help pages link to MediaWiki.org's ''Manual'' namespace.  To make these links work on your local wiki, add an interwiki link with ''iw_prefix=manual'' and ''iw_url=<nowiki>http:</nowiki>//www.mediawiki.org/wiki/Manual:$1''
 }}
 
 ==Interwiki links to other languages==
