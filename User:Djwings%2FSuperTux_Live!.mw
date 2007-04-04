@@ -1,28 +1,28 @@
 '''SuperTux Live!''' is an attempt to build a Linux-based Live CD to run SuperTux Milestone 1.9. At the moment, the base system is [http://www.sam-linux.org/ SAM Linux], a [http://www.pclinuxos.com PCLinuxOS]-based distribution that uses [http://www.xfce.org XFCE] as its default desktop for high performance and decent aesthetics. The base was formerly [http://www.slax.org SLAX Linux], an excellent Live CD with tools to mold it to the user's whims, but this was abandoned permanently due to conflicts between the versions of Glibc used to compile SLAX and SuperTux. :( SAM Linux includes built-in NVidia and ATI drivers for 3D acceleration.
 
 == What the system will include ==
--SuperTux Milestone 1.9<br>
--XFCE Desktop Environment<br>
--Linux kernel 2.6.18.6<br>
--NVidia (and ATI?) drivers for graphics acceleration<br>
--WBar Mac OS X-like launch bar<br>
--A customized theme with custom wallpaper, controls and icon theme from [http://fedora.redhat.com Fedora Core Linux] ;)<br>
+-SuperTux Milestone 1.9<br />
+-XFCE Desktop Environment<br />
+-Linux kernel 2.6.18.6<br />
+-NVidia (and ATI?) drivers for graphics acceleration<br />
+-WBar Mac OS X-like launch bar<br />
+-A customized theme with custom wallpaper, controls and icon theme from [http://fedora.redhat.com Fedora Core Linux] ;)<br />
 
 == Release plan ==
-Alpha 1: base system in place, may not work- '''April 3'''<br>
-Beta 1: base system in place, everything works- '''April 10'''<br>
-Beta 2: first public release, public bug testing starts- '''April 13'''<br>
-Release candidate: second public release, last-minute fixes- '''April 20'''<br>
-'''Final version:''' it should work. Period- '''April 23'''<br>
+Alpha 1: base system in place, may not work- '''April 3'''<br />
+Beta 1: base system in place, everything works- '''April 10'''<br />
+Beta 2: first public release, public bug testing starts- '''April 13'''<br />
+Release candidate: second public release, last-minute fixes- '''April 20'''<br />
+'''Final version:''' it should work. Period- '''April 23'''<br />
 
 == Development status ==
-'''April 2:''' Base system installed, wiki page created. :) Some customizations (wallpaper, app selection, FireFox bookmarks) finished, PhysFS added (I happened to have a SLAX module lying around).<br>
-'''April 3:''' Planned date to add SuperTux/OpenAL/Fedora icon theme. Also setting up Exaile's default playlist to play the list of theme songs and removing Compiz and Beryl ( :( ). Finally, I discovered a flaw in PhysFS: I installed version 1.1, whereas SuperTux uses 1.0. :o Ah well, nothing good ol' "ln -s" can't solve.<br>
-Update: SuperTux has been installed, with a somewhat scary footnote: I test-ran it on my laptop and got astoundingly good framerates. This should be normal, but my laptop doesn't have 3D acceleration. :o PhysFS had to be reinstalled before Autopackage would install SuperTux. In the final version, launching Exaile (the media player, similar to amaroK) will load the entire musical score from the game. Finally, the first ISO image has ben created- and it's less than 440MB! It will fit onto a CD-RW with ease, and will download quickly.<br>
-Another update: Alpha 1 created (public releases start at Beta 2), and guess what? SuperTux works. ;) One problem: SAM Linux uses the open-source NV drivers that come with X and are annoyingly slow. My desktop computer, with its GeForce 5200, isn't ''quite'' a test system. This might just be a problem with me, but we'll find out when public testing starts. For Beta 1, I'll try to work on the branding: a cusstom icon theme and splash art are in the works. Not to mention a nifty save/restore feature if you have a USB drive... Thanks go out to the SAM Linux and PCLinuxOS development teams! ;) --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 00:48, 4 April 2007 (UTC)<br>
+'''April 2:''' Base system installed, wiki page created. :) Some customizations (wallpaper, app selection, FireFox bookmarks) finished, PhysFS added (I happened to have a SLAX module lying around).<br />
+'''April 3:''' Planned date to add SuperTux/OpenAL/Fedora icon theme. Also setting up Exaile's default playlist to play the list of theme songs and removing Compiz and Beryl ( :( ). Finally, I discovered a flaw in PhysFS: I installed version 1.1, whereas SuperTux uses 1.0. :o Ah well, nothing good ol' "ln -s" can't solve.<br />
+Update: SuperTux has been installed, with a somewhat scary footnote: I test-ran it on my laptop and got astoundingly good framerates. This should be normal, but my laptop doesn't have 3D acceleration. :o PhysFS had to be reinstalled before Autopackage would install SuperTux. In the final version, launching Exaile (the media player, similar to amaroK) will load the entire musical score from the game. Finally, the first ISO image has ben created- and it's less than 440MB! It will fit onto a CD-RW with ease, and will download quickly.<br />
+Another update: Alpha 1 created (public releases start at Beta 2), and guess what? SuperTux works. ;) One problem: SAM Linux uses the open-source NV drivers that come with X and are annoyingly slow. My desktop computer, with its GeForce 5200, isn't ''quite'' a test system. This might just be a problem with me, but we'll find out when public testing starts. For Beta 1, I'll try to work on the branding: a cusstom icon theme and splash art are in the works. Not to mention a nifty save/restore feature if you have a USB drive... Thanks go out to the SAM Linux and PCLinuxOS development teams! ;) --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 00:48, 4 April 2007 (UTC)<br />
 
 == External links ==
-[http://www.sam-linux.org/ SAM Linux]- SuperTux Live!'s base system.<br>
-[http://www.pclinuxos.com PCLinuxOS]- SAM Linux's base system.<br>
-[http://www.xfce.org XFCE]- the desktop.<br>
+[http://www.sam-linux.org/ SAM Linux]- SuperTux Live!'s base system.<br />
+[http://www.pclinuxos.com PCLinuxOS]- SAM Linux's base system.<br />
+[http://www.xfce.org XFCE]- the desktop.<br />
 [http://www.slax.org SLAX Linux]- aka AncientOS, still using Glibc 2.3 (over 3 years old). The original base.
