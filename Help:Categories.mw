@@ -20,7 +20,7 @@ Another way to sort the article in the correct letter without the namespace is
 
  <nowiki>[[Category:Help|{{PAGENAME}}]]</nowiki>
 
-This is extremly helpful when using templates which include a category tag.
+This is extremely helpful when using templates which include a category tag.
 
 ''Note: the {sort} parameter does '''not''' affect how the page title is displayed within the category listing, just how it is ordered.  In the above example, the link to this page will still be 'Help:Categories', and not 'Categories' as you might expect!''
 
