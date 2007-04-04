@@ -131,8 +131,7 @@ Some might also require Tux to visit another part of the level and activate a sw
 
 === Info Blocks (Milestone 2 only) ===
 [[Image:Infoblock.png|center]]
-
-Levels that introduce new game elements often contain info blocks.
+evels that introduce new game elements often contain info blocks.
 
 Info blocks can be bumped from below to display helpful text that introduces a certain element.
 
