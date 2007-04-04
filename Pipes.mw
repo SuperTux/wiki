@@ -1,4 +1,4 @@
-Note: General consensus was to avoid pipes in SuperTux. It's really a Mario thing and doesn't fit a penguin. Instead, different objects can be used to transfer Tux between [[Sectors|sectors]], such as doors.
+Note: General consensus was to avoid pipes in SuperTux. It's really a Mario thing and doesn't fit a penguin. Instead, different objects can be used to transfer Tux between [[sectors]], such as doors.
 
 * Pipes that take Tux to sublevels
 * Pipes that don't do anything (already in some levels.)
