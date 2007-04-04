@@ -107,7 +107,7 @@ I have another idea. About at the 2/3 point of the game, you track Nolok down. B
 
 I really don't want special level objectives, and a cutscene per level would get kind of annoying. Level objectives would complicate things,as would multiple cut scenes, but having one or two would be nice.
 
-=== Swimming===
+=== Swimming ===
 Tux really needs to swim. There should be underwater levels, and ways to go underwater. An air limit would be good, as well as a fast swimming power up. Fireflower should not be usable underwater and you should be immune to fireballs.
 
 === Scuba Gear? ===
@@ -118,9 +118,9 @@ Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath
 
 Boxing gloves might be found as temporary powerups, permanent powerups like the flowers or might be bought at the shops. Boxeur Tux can smash crates, open bonus blocks and defeat most enemies by punching.
 
-=== Running=== 
+=== Running ===
 Tux should have a better running anamation, his legs should move faster, and perhaps he should flap his wings. Perhaps if he reaches full run he could fly like everyone has been wanting.
-===Sliding===
+=== Sliding ===
 Tux should be able to slide down non-horizontal tiles. When doing this, he should be invincible to badguys.
 
 === Darker background ===
@@ -137,10 +137,10 @@ Have the game engine display background as 75% brightness, making some levels ea
 === Background Tileset ===
 <small>after reading grumbel's rant</small> a tileset for forest parallax background is missing. Standard forest tiles are too big.
 
-===Warp Pipes===
+=== Warp Pipes ===
 Warp pipes should be able to be stood on, but by pressing down on the arrow pad, Tux could go down them. This could connect underwater and cave levels, and should work somewhat like the door, which already works. They could be used as secret areas, and would add a lot of depth to the gameplay.
 
-===Badguy Improvements===
+=== Badguy Improvements ===
 You should be able to pick up the beetle baddy and hit it from the side. The fish needs to be able to jump and swim, and should work even if there is no water in the interactive layer, and is just in the foreground. The badguys should stop killing each other.
 
 === Some more badguys ===
@@ -590,6 +590,6 @@ The height relative to the middle of the screen would determine whether Tux shou
 
 Picking things up with tapping the screen once?
 
-Just some thoughts. We should not let the lack of keyboard restrict us. 
+Just some thoughts. We should not let the lack of keyboard restrict us.
 
 [[Category:Design]]
