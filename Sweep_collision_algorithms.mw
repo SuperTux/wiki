@@ -1,4 +1,3 @@
-[[Category:Developer documentation]]
 I'll try to describe some algorithms for collision detection. These algorithms are sweep tests, meaning that they can test for collisions along a path.
 
 There's an [[Collision test app|example application]] that shows an implementation of these tests.
@@ -19,8 +18,10 @@ Or if we only look at the x-axis: p.x(t) = p.x + v.x * t
 
 An intersection with the 2nd rectangle on the x axis starts to happen if p crossed the upper-left point of the 2nd rectangle. At this moment the x values of p is the same as r2.x1. We can easily calculate the time when this happens:
 
-: p.x(t) = r2.x1  <=>  p.x + v.x * t = r2.x1  <=>  t = (r2.x1 - p.x) / v.x
+: p.x(t) = r2.x1 <=> p.x + v.x * t = r2.x1 <=> t = (r2.x1 - p.x) / v.x
 
 Analogue we can calculate the time when x leaves the area of the rectangle by checking for collision with r2.x2.
 
 Now we can calculate t_min_x the time when a collision on the x-axis begins and t_max_x the time when the collision on the x-axis is over. We do the same for t_min_y and t_max_y. The 2 rectangles abviously colide when we have on overlap on both the x- and the y-axis. So if t_max_y is not smaller than t_min_x and t_max_x is not smaller than t_min_y, then the time when the 2 rectangles collide is t = max(t_min_x, t_min_y).
+
+[[Category:Developer documentation]]
