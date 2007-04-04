@@ -22,10 +22,6 @@ The camera might scroll automatically so that Tux can't wait but has to hurry to
 === Right only scroll ===
 This was used in the 0.1.1 release. It might be still used to not forget our history ;-)
 
-[[Category:Game Object]]
-[[Category:Game Engine]]
-
-
 == Configurable Camera ==
 
 I worked a bit on the code and put all parameters that influence the
@@ -34,3 +30,6 @@ play with the parameters yourself. This way you can test/try out fixed
 camera, Yoshi Island and Kirby Camera and their parameters easily. You
 can make the game reparse the Camera by typing
 "sector.Camera.reload_config()" on the console.
+
+[[Category:Game Object]]
+[[Category:Game Engine]]
