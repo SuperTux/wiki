@@ -1,3 +1,3 @@
-'''Spawn points''' are the places where [[Tux]] appears when entering a level or a sector. Every sector has a ''main'' spawn point, the one where Tux begins the level, but there may be as many spawn points as the level designer wishes, usable to spawn Tux when he enters a [[Door|door]] or touches a [[Script trigger|script trigger]].
+'''Spawn points''' are the places where [[Tux]] appears when entering a level or a sector. Every sector has a ''main'' spawn point, the one where Tux begins the level, but there may be as many spawn points as the level designer wishes, usable to spawn Tux when he enters a [[door]] or touches a [[script trigger]].
 
 [[Category:Game Object]]
