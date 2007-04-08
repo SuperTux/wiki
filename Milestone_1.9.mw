@@ -55,5 +55,19 @@ Some points I noticed while watching my little sister playing:
 * She liked that she could go backward now
 * She liked that the game is german
 
+----
+
+Well I don't know if this is the place for posting comments, but let's go. These are things which I noticed when playing with version 0.3.0
+* '''plus'''
+** the linux installer worked just fine
+** Tux riding on a boat is a good idea &amp; other gadgets
+** the new woodworld is cool!
+** it's also in German
+* '''minus'''
+** I almost get seasick whith the new scrolling mode. ''Please'' create at least an alternative scrolling mode where Tux is always a bit under the center (let's say at (400,200)) until he reaches the edge of a level. "Peek Left" &amp; "Peek Right" should be toggle.
+** had to swap space and up-key in key settings to play it properly
+** Would be nice if Mr Icecube does not get killed if he lets explode a bomb. Now you cannot sweep everything away with only one Mr Icecube (which was fun with 0.1.3).
+[[User:87.160.233.231|87.160.233.231]] 12:17, 8 April 2007 (UTC)
+
 [[Category:Development]]
 [[Category:SuperTux]]
