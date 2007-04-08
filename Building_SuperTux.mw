@@ -20,6 +20,7 @@ You will need the following tools and libraries to build SuperTux on your system
 * Ogg/Vorbis (*)
 * OpenGL (*)
 * OpenAL (*)
+* libcurl (*) (optional)
 
 You should make sure that you also have development headers and libraries installed for the tools marked with (*).
 
@@ -29,6 +30,8 @@ Most distributions offer separate developer versions for these libraries.
 Debian users should run
  apt-get install subversion autoconf automake jam g++ 
  apt-get install libsdl1.2-dev libsdl-image1.2-dev libphysfs-dev libvorbis-dev libogg-dev libopenal-dev
+and (if you want the Add-on Manager)
+ apt-get install libcurl3-dev
 to install them.
 
 == Gentoo ==
