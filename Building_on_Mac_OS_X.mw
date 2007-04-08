@@ -1,0 +1,42 @@
+== Introduction ==
+
+* If you want to build the current development version on Mac OS X follow the instructions below.
+
+== Warning ==
+
+* These instructions will build a highly unstable development version of SuperTux.  There is a possibility of causing serious damage to your system.  
+* The developers are currently focusing on developing SuperTux for Linux. While some of the developers and other SuperTux users have access to Mac OS X, building and running SuperTux on Mac OS X is not the primary goal, so support may not be available.
+
+== Types of Builds ==
+
+* Since Mac OS X contains a UNIX core, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux.  [[User:RavuAlHemio|Ravu al Hemio]] has written an excellent [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a UNIX-style build of SuperTux for Mac OS X.  If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep up to date.  If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below.  Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [[User:RavuAlHemio/Mac_OS_X_compilation|Ravu al Hemio's guide]].
+
+== Dependencies ==
+
+== Configuring SuperTux ==
+
+== Building SuperTux ==
+
+== Creating the App Bundle ==
+
+== Populating the App Bundle ==
+
+== Making it all portable ==
+
+== Creating the Disk Image ==
+
+== Ready-made Binaries ==
+
+* I will be distributing ready-made binaries of the development version of SuperTux periodically.  As the developers continuously fix bugs and add features, there is no guarantee these binaries will work on your Mac, but may be easier than building it yourself.  Please read the "Development ReadMe.rtfd" in the disk image.
+* You can download the latest binary (SVN <nowiki>revision</nowiki> 4958) [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r4958.dmg here].
+* If the above version fails to run, you can try an older revision (SVN <nowiki>revision</nowiki> 4942) from [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r4942.dmg here].
+* The binaries have not been tested on any other Mac than the Mac they were built on (a Core 2 Duo MacBook Pro).  If you'd like to buy me another Mac to test them on, I would be happy to accept the offer ;).  In the meantime, if you have problems with the binaries, please post them in the discussion section and I will work to correct the problem in a future revision.
+
+== Additional Tips ==
+
+
+== Building the editor ==
+
+I have been unable as of yet to get supertux-sharp working in Mac OS X.  Theoretically it should be possible as it's written in C# using gtk-sharp, and Mono should support this.  If you are able to get the editor built and running under OS X, please post your steps here.
+
+[[Category:Developer documentation]]
