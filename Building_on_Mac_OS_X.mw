@@ -21,14 +21,14 @@
 *Before building SuperTux, you'll need to download several dependencies (I'll cover how to build some of them in the next step)
 ** Developer Tools (can be found on your System Restore CDs/DVDs, but it may be best to obtain the newest version from the XCode package at http://developer.apple.com/tools/download/.  Requires a free registration.)
 ** Subversion (http://www.codingmonkeys.de/mbo)
-** SDL (SDL-devel-x.y.z-extras.dmg from http://www.libsdl.org/)
-*** Note: this does not seem to contain the appropriate libSDLmain.a, so you may need to compile SDL from source as well as the framework.  Make sure you have the same version as the -extras package you downloaded from above.
+** SDL (SDL runtime and development libraries from http://www.libsdl.org/)
+*** Note: these does not seem to contain the appropriate libSDLmain.a, so you may need to compile SDL from source as well as the framework.  Make sure you have the same version as the -extras package you downloaded from above.
 ** SDL_image (SDL_image-x.y.z.dmg from http://www.libsdl.org/projects/SDL_image/)
 ** Ogg & Vorbis (http://www.xiph.org/downloads/)
 ** physfs (http://icculus.org/physfs/)
 *** Note: I had problems with the physfs 1.1.x libraries, so as of now, I recommend 1.0.x until 1.1.x becomes more stable
 ** jam
-*** There is a copy of jam that comes with Developer Tools, but it does not support many standard GNU options, and had problems building with it (though I believe it now works with current SVN revisions of SuperTux)
+*** There is a copy of jam that comes with Developer Tools, but it does not support many standard GNU options, and I had some problems building SuperTux with it (though I believe it now works with current SVN revisions of SuperTux)
 *** You can download Perforce's jam from http://www.perforce.com/jam/jam.html
 *** [http://finkproject.org/ Fink's] build of jam is what I've used to build SuperTux, and works well in my opinion.
 
@@ -39,8 +39,11 @@
 **<code>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux</code>
 
 * Building SDL
-** Build the Framework via XCode
+*** Open the SDL runtime library dmg and install (copy) the SDL.framework to /Library/Frameworks (you can also copy this to ~/Library/Frameworks, but this will require changing some paths below and in XCode)
 ** Build the source as a [[Wikipedia:Universal_Binary|UB]]
+*** 
+***
+*** You'll need libSDLmain.a when linking SuperTux later.  You don't have to run <code>make install</code>, but should copy libSDLmain.a to one of the standard lib directorys (/usr/lib for example).
 
 * Building SDL_image
 
@@ -57,6 +60,14 @@
 == Building SuperTux ==
 
 == Creating the App Bundle ==
+
+* Open the SDL development library dmg and copy the "TemplatesForXcode/SDL Application/" folder to a working directory.  
+* Open "SDL Application/SDLApp.xcodeproj" with XCode.  
+* Expand the "Targets" section and "Get Info" on "«PROJECTNAME»".  Change "Name" to "SuperTux" in the "General" tab.  
+* Change "Executable" from "${EXECUTABLE_NAME}" to "SuperTux" in the "Properties" tab.  Set the other properties to what you'd like.  I suggest "org.lethargik.supertux" for "Identifier", ???? for "Type", ??? for "Creator", and "0.3.0-SVN" for "Version".  
+* The stable (0.1.3) and unstable (0.3.0) versions of SuperTux built of OS X (linked [[Download/Installation|here]]) have a supertux.icns file under "SuperTux.app/Contents/Resources/" that you can use for the "Icon File".  You'll have to add it to the XCode project first before you can set it here.
+* "Get Info" on "SDLApp" and select the "Build" tab.  Double-click on "Architectures" and select both "PowerPC" and "Intel".  I'm not sure this has to be built as a UB (in fact, I don't think it's necessary), but it doesn't hurt to select and just in case something is built here it'll be compatible.
+* 
 
 == Populating the App Bundle ==
 
