@@ -13,7 +13,7 @@
 
 == Disclaimer ==
 
-* I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/UNIX development.  The procedure listed below relies heavily on UNIX-style methods of building with a few of steps in XCode to make an app bundle and then a procedure to create a disk image.  I know that there is a method to build an app bundle almost if not completely in XCode.  This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way.  If you have tips on how to do this, please let me know.
+* I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/UNIX development.  The procedure listed below relies heavily on UNIX-style methods of building with a few steps in XCode to make an app bundle and then a procedure to create a disk image.  I know that there is a method to build an app bundle almost completely, if not completely, in XCode.  This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way.  If you have tips on how to do this, please let me know.
 * If you have any tips on how to simplify this procedure, please let me know and I'll update the page.  If it's a simple change, feel free to modify the page with it.
 
 == Dependencies ==
