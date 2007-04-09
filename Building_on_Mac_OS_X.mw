@@ -28,8 +28,8 @@
 == Ready-made Binaries ==
 
 * I will be distributing ready-made binaries of the development version of SuperTux periodically.  As the developers continuously fix bugs and add features, there is no guarantee these binaries will work on your Mac, but may be easier than building it yourself.  Please read the "Development ReadMe.rtfd" in the disk image.
-* You can download the latest binary (SVN <nowiki>revision</nowiki> 4958) [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r4958.dmg here].
-* If the above version fails to run, you can try an older revision (SVN <nowiki>revision</nowiki> 4942) from [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r4942.dmg here].
+* You can download the latest binary (SVN <nowiki>revision</nowiki> 4958) [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;4958.dmg here].
+* If the above version fails to run, you can try an older revision (SVN <nowiki>revision</nowiki> 4942) from [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;4942.dmg here].
 * The binaries have not been tested on any other Mac than the Mac they were built on (a Core 2 Duo MacBook Pro).  If you'd like to buy me another Mac to test them on, I would be happy to accept the offer ;).  In the meantime, if you have problems with the binaries, please post them in the discussion section and I will work to correct the problem in a future revision.
 
 == Additional Tips ==
