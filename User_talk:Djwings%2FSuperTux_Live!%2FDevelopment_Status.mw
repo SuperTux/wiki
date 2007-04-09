@@ -1,3 +1,4 @@
 400MB? How many games are on that CD?
 
 :Let`s just put it this way: Every time I try to remove a library, about a hundred apps, like the login screen, say they depend on it. I took out the printing subsystem, and that was 30MB. I tried taking out the development tools (gcc, etc), but, for some f-disked reason, everything needs them. Send all complaints to SAM Linux. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 11:56, 9 April 2007 (UTC)
+::Hm... Just don't remove all of gcc, you need some gcc libraries, but not stuff like the binaries. Also /usr/include will most likely not be needed. --[[User:AnMaster|AnMaster]] 17:49, 9 April 2007 (UTC)
