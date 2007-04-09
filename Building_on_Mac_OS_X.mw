@@ -11,9 +11,48 @@
 
 * Since Mac OS X contains a UNIX core, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux.  [[User:RavuAlHemio|Ravu al Hemio]] has written an excellent [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a UNIX-style build of SuperTux for Mac OS X.  If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep up to date.  If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below.  Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [[User:RavuAlHemio/Mac_OS_X_compilation|Ravu al Hemio's guide]].
 
+== Disclaimer ==
+
+* I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/UNIX development.  The procedure listed below relies heavily on UNIX-style methods of building with a few of steps in XCode to make an app bundle and then a procedure to create a disk image.  I know that there is a method to build an app bundle almost if not completely in XCode.  This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way.  If you have tips on how to do this, please let me know.
+* If you have any tips on how to simplify this procedure, please let me know and I'll update the page.  If it's a simple change, feel free to modify the page with it.
+
 == Dependencies ==
 
+*Before building SuperTux, you'll need to download several dependencies (I'll cover how to build some of them in the next step)
+** Developer Tools (can be found on your System Restore CDs/DVDs, but it may be best to obtain the newest version from the XCode package at http://developer.apple.com/tools/download/.  Requires a free registration.)
+** Subversion (http://www.codingmonkeys.de/mbo)
+** SDL (SDL-devel-x.y.z-extras.dmg from http://www.libsdl.org/)
+*** Note: this does not seem to contain the appropriate libSDLmain.a, so you may need to compile SDL from source as well as the framework.  Make sure you have the same version as the -extras package you downloaded from above.
+** SDL_image (SDL_image-x.y.z.dmg from http://www.libsdl.org/projects/SDL_image/)
+** Ogg & Vorbis (http://www.xiph.org/downloads/)
+** physfs (http://icculus.org/physfs/)
+*** Note: I had problems with the physfs 1.1.x libraries, so as of now, I recommend 1.0.x until 1.1.x becomes more stable
+** jam
+*** There is a copy of jam that comes with Developer Tools, but it does not support many standard GNU options, and had problems building with it (though I believe it now works with current SVN revisions of SuperTux)
+*** You can download Perforce's jam from http://www.perforce.com/jam/jam.html
+*** [http://finkproject.org/ Fink's] build of jam is what I've used to build SuperTux, and works well in my opinion.
+
+* Untar/zip all dependencies to a working directory and mount all DMGs
+* Install Developer Tools, OpenAL, Subversion
+* Install jam (does not need to be a [[Wikipedia:Universal_Binary|UB]]
+* [[Download/Subversion | Checkout the SuperTux source from SVN]]
+**<code>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux</code>
+
+* Building SDL
+** Build the Framework via XCode
+** Build the source as a [[Wikipedia:Universal_Binary|UB]]
+
+* Building SDL_image
+
+* Building Ogg & Vorbis
+** You must build and install Ogg first before building Vorbis
+
+* Building PhysFS
+
+
 == Configuring SuperTux ==
+
+
 
 == Building SuperTux ==
 
@@ -30,7 +69,7 @@
 * I will be distributing ready-made binaries of the development version of SuperTux periodically.  As the developers continuously fix bugs and add features, there is no guarantee these binaries will work on your Mac, but may be easier than building it yourself.  Please read the "Development ReadMe.rtfd" in the disk image.
 * You can download the latest binary (SVN <nowiki>revision</nowiki> 4958) [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;4958.dmg here].
 * If the above version fails to run, you can try an older revision (SVN <nowiki>revision</nowiki> 4942) from [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;4942.dmg here].
-* The binaries have not been tested on any other Mac than the Mac they were built on (a Core 2 Duo MacBook Pro).  If you'd like to buy me another Mac to test them on, I would be happy to accept the offer ;).  In the meantime, if you have problems with the binaries, please post them in the discussion section and I will work to correct the problem in a future revision.
+* The binaries have not been tested on any other Mac than the Mac they were built on (a Core 2 Duo MacBook Pro) before their release.  If you'd like to buy me another Mac to test them on, I would be happy to accept the offer ;).  In the meantime, if you have problems with the binaries, please post them on the [[Talk:Building_on_Mac_OS_X|talk page]] and I will work to correct the problem in a future revision.
 
 == Additional Tips ==
 
