@@ -34,7 +34,7 @@
 
 * Untar/zip all dependencies to a working directory and mount all DMGs
 * Install Developer Tools, OpenAL, Subversion
-* Install jam (does not need to be a [[Wikipedia:Universal_Binary|UB]]
+* Install jam (does not need to be a [[Wikipedia:Universal_Binary|UB]])
 * [[Download/Subversion | Checkout the SuperTux source from SVN]]
 **<code>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux</code>
 
@@ -51,7 +51,6 @@
 ** You must build and install Ogg first before building Vorbis
 
 * Building PhysFS
-
 
 == Configuring SuperTux ==
 
