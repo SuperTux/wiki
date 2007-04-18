@@ -10,4 +10,126 @@ Supertux development mainly happens on Linux. The source code is written in a po
 = Prerequisites =
 
 You will need the following tools and libraries to build SuperTux on your system:
-* gcc compiler
+* gcc compiler &co (gcc, g++, binutils, glibc)
+* gettext
+* autoconf
+* jam
+* SDL (*)
+* SDL-image (*)
+* PhysFS (*)
+* Ogg/Vorbis (*)
+* OpenGL (*)
+* OpenAL (*)
+* libcurl (*) (optional)
+
+You should make sure that you also have development headers and libraries installed for the tools marked with (*).
+
+Most distributions offer separate developer versions for these libraries.
+
+== Debian ==
+Debian users should run
+ apt-get install subversion autoconf automake jam g++ 
+ apt-get install libsdl1.2-dev libsdl-image1.2-dev libphysfs-dev libvorbis-dev libogg-dev libopenal-dev
+and (if you want the Add-on Manager)
+ apt-get install libcurl3-dev
+to install them.
+
+== Gentoo ==
+Gentoo users should run
+ emerge -av subversion jam openal physfs libsdl sdl-image libvorbis libogg
+
+= Getting the source =
+
+The first thing to get started with supertux is getting the latest development resources from the subversion repository. How to do this is described here at [[Download/Subversion]].
+
+= Configuring the source =
+
+Before compiling the source code you have to configure it so that it gets adapted to your machine. Use the following commands:
+
+ ./autogen.sh
+ ./configure --enable-debug
+
+configure checks if all prerequisites are met.
+
+= Compiling the source =
+
+You can compile the source code from commandline with the help of jam. Simply type
+
+ jam
+
+and the game should build. You should [[SuperTux FAQ#How can I get in touch with you.3F|Contact]] us in case of errors or problems.
+
+= Setting up IDEs =
+
+This section is under construction. IDEs that should be able to handle supertux include:
+
+* KDevelop
+* Eclipse with CDT
+
+= Compiling the editor =
+
+== Setup ==
+
+To compile the editor you should make sure that you have some additional dependencies available:
+
+* An already compiled and working svn version of supertux
+* mono 1.2.2.1 or newer
+* gtk-sharp 2.8
+
+=== Debian ===
+
+Debian users can run the following command to do this:
+ apt-get install mono mono-gmcs gtk-sharp2
+
+=== Gentoo ===
+
+Gentoo users can use this command:
+ emerge -av ">=dev-lang/mono-1.2.2.1" ">=dev-dotnet/gtk-sharp-2.8.0" ">=dev-dotnet/glade-sharp-2.8.0"
+Unmask any packages that might be needed on your arch (none needed on either x86 or amd64).
+
+=== Generic ===
+
+If you have to use the generic installer from the web, be warned that neither the stable(1.1.13) or current(1.1.15_2) have the correct version for gtk-sharp. The recommended way to resolve this is:
+
+1. Install mono using an all-in-one generic installer
+
+The all-in-one installer will try to adjust your environment through the .bashrc file. This is not a proper system-wide change, so (in Slackware at least) modify these scripts and place them in /etc/profile.d
+
+mono.csh
+
+ #!/bin/csh
+ setenv PKG_CONFIG_PATH {$PKG_CONFIG_PATH}:/path/to/mono/lib/pkgconfig
+ setenv MANPATH ${MANPATH}:/path/to/mono/share/man
+ setenv PATH ${PATH}:/path/to/mono/bin
+
+mono.sh
+
+ #!/bin/sh
+ export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/path/to/mono/lib/pkgconfig"
+ export MANPATH="$MANPATH:/path/to/mono/share/man"
+ export PATH="$PATH:/path/to/mono/bin"
+
+Also, add /path/to/mono/lib in /etc/ld.so.conf
+You may have to login again after these changes so they can take affect.
+
+2. Download the source of gtk-sharp at go-mono.com/sources-latest/
+
+3. Compile and install gtk-sharp using "./configure --prefix=/path/to/mono"
+
+4. Verify that the new version is correct by running "pkg-config --modversion gtk-sharp-2.0" (May need to login again for this)
+
+== Building ==
+
+You can compile the editor from commandline with jam. Simply type
+ 
+ jam
+
+and the editor will be built. You can then start the editor with
+
+ mono supertux-editor.exe
+
+There are also complete monodevelop project files for the editor in the svn. (TODO write about the hacks needed to actually compile the source in monodevelop).
+
+You might want to read the [[Editor FAQ]] at this point.
+
+[[Category:Developer documentation]]
