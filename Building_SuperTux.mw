@@ -38,6 +38,11 @@ to install them.
 Gentoo users should run
  emerge -av subversion jam openal physfs libsdl sdl-image libvorbis libogg
 
+== FC6 ==
+For Fedora, use <code>yum</code> and don't forget the development packages!
+ yum install jam SDL SDL-devel SDL_image SDL_iamge-devel physfs physfs-devel openal openal-devel
+(assuming gcc, gettext and autoconf are already installed)
+
 = Getting the source =
 
 The first thing to get started with supertux is getting the latest development resources from the subversion repository. How to do this is described here at [[Download/Subversion]].
