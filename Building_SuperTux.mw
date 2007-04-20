@@ -92,19 +92,6 @@ Just install mono and gtk-sharp2 using yum, and don't forget to install gtk-shar
  yum install mono gtk-sharp2 gtk-sharp2-devel
 Download the source for the editor into <code>/some/directory/supertux-sharp</code>. For pkgconfig, you need to include <code>/usr</code> in the path, so for bash:
  export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/"
-Go to <code>/some/directory/supertux-sharp</code> and just start jam (you might need to install this via <code>yum install jam</code> first)
- jam
-You can now start the editor:
- mono ./supertux-editor.exe
-In my installation, the editor starts with the following output to the console:
- INFO:  Using configfile: /home/myself/.config/supertux-editor/settings.xml
- INFO:  Supertux is run as: /usr/local/bin/supertux/supertux
- INFO:  Data files are in: /usr/local/bin/supertux/data/
-Yours will differ depending on which users starts the editor, and where the editor thinks supertux is located. On the first run, these paths were not correctly set, so the editor stopped with an error. The editor offers to set the paths interactively, but that didn't work for me. Instead edit the config file <code>settings.xml</code> itself:
-  <LastDirectoryName>/usr/local/bin/supertux/data/</LastDirectoryName>
-  <SupertuxExe>/usr/local/bin/supertux/supertux</SupertuxExe>
-  <SupertuxData>/usr/local/bin/supertux/data/</SupertuxData>
-Yours will probably look differently, and you have to fill in your appropriate paths. Note that the last directory must exist, otherwise you will run into errors again. Just use the path to data, that should be ok. Do not add any white space between the paths and the tags!
 
 === Generic ===
 
@@ -150,5 +137,18 @@ and the editor will be built. You can then start the editor with
 There are also complete monodevelop project files for the editor in the svn. (TODO write about the hacks needed to actually compile the source in monodevelop).
 
 You might want to read the [[Editor FAQ]] at this point.
+
+=== FC6 ===
+
+In my installation, the editor starts with the following output to the console:
+ INFO:  Using configfile: /home/myself/.config/supertux-editor/settings.xml
+ INFO:  Supertux is run as: /usr/local/bin/supertux/supertux
+ INFO:  Data files are in: /usr/local/bin/supertux/data/
+On the first run, these paths were not correctly set, so the editor stopped with an error. The editor offers to set the paths interactively, but that didn't work for me. Instead edit the config file <code>settings.xml</code> itself:
+  <LastDirectoryName>/usr/local/bin/supertux/data/</LastDirectoryName>
+  <SupertuxExe>/usr/local/bin/supertux/supertux</SupertuxExe>
+  <SupertuxData>/usr/local/bin/supertux/data/</SupertuxData>
+Yours will probably look differently, and you have to fill in your appropriate paths. Note that the last directory must exist, otherwise you will run into errors again. Just use the path to data, that should be ok. Do not add any white space between the paths and the tags!
+
 
 [[Category:Developer documentation]]
