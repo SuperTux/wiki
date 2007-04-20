@@ -40,7 +40,7 @@ Gentoo users should run
 
 == FC6 ==
 For Fedora, use <code>yum</code> and don't forget the development packages!
- yum install jam SDL SDL-devel SDL_image SDL_iamge-devel physfs physfs-devel openal openal-devel
+ yum install jam SDL SDL-devel SDL_image SDL_image-devel physfs physfs-devel openal openal-devel
 (assuming gcc, gettext and autoconf are already installed)
 
 = Getting the source =
