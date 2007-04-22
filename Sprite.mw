@@ -59,5 +59,9 @@ To remove the sprite from your screen, use
 
 An alternative would be creating ScriptedObjects in the leveleditor and selecting your spritefile
 
+== Sprite Editor ==
+
+A Python/GTK-based sprite editor, named [[GSprite]], is currently under development. Such an editor will have a graphical interface, and be able to add, remove, and edit individual actions, but will require Python, GTK, and PyGTK libraries as dependencies.
+
 [[Category:Game Engine]]
 [[Category:File Formats]]
