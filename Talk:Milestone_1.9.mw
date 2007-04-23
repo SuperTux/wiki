@@ -171,7 +171,10 @@ Well I don't know if this is the place for posting comments, but let's go. These
 ** Tux riding on a boat is a good idea &amp; other gadgets
 ** the new woodworld is cool!
 ** it's also in German
+** OpenGL mode gives new possibilities
 * '''minus'''
+** Linux SiS users have no OpenGL at all! ''Keep old (sdl) engine please''!
+** OpenGL textures and fonts are displayed incorrectly with nvidia drivers (Ti4200)
 ** I almost get seasick whith the new scrolling mode. ''Please'' create at least an alternative scrolling mode where Tux is always a bit under the center (let's say at (400,200)) until he reaches the edge of a level. "Peek Left" &amp; "Peek Right" should be toggle.
 ** had to swap space and up-key in key settings to play it properly
 ** Would be nice if Mr Icecube does not get killed if he lets explode a bomb. Now you cannot sweep everything away with only one Mr Icecube (which was fun with 0.1.3).
