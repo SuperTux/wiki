@@ -1,21 +1,3 @@
-== Remove the Debian/Ubuntu header! ==
-
-Ubuntu doesn't have the stable version of SuperTux anymore. Until the [https://launchpad.net/ubuntu/+source/supertux/+bug/84084 situation is clarified], remove the header, or at least add a warning notice.
-:Done, added warning on 0.3.0 download page. You should've posted this under the Milestone 1.9 download talk though, it would make more sense. --[[User:FlyingPenguins|FlyingPenguins]] 04:57, 14 February 2007 (UTC)
-
-== Supertux on GameCube ==
-
-Looks like they ported Supertux on cube, look:
-
-http://sourceforge.net/project/showfiles.php?group_id=98581&package_id=181273
-
-==Mac OS X==
-
-It is Mac OS X, not Mac OS/X. OS/X sounds awfully like OS/2.
-:GNU/Linux? SCNR.
-
-== PC-BSD port ==
-
-There is also a PC-BSD port of Supertux;
-see http://www.pbidir.com/packages.php?code=434
-Please add it to the list.
+Peace people 
+ 
+We love you
