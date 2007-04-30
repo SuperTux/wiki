@@ -14,7 +14,7 @@ So for example, to add this page to the 'Help' category, you would use:
 
  <nowiki>[[Category:Help|Categories]]</nowiki>
 
-Note that we used 'Categories' as the sort parameter.  Without this the page would be listed under 'H' for 'Help:Categories', instead of under 'C', which is more useful.  Other situations where you might want to use the sort parameter is when you have articles about people that are titled as <code>FirstName LastName</code> but within the category you want them listed as <code>LastName, FirstName</code>.
+Note that we used 'Categories' as the sort parameter.  Without this the page would be listed under 'H' for 'Help:Categories',  instead of under 'C', which is more useful.  Other situations where you might want to use the sort parameter is when you have articles about people that are titled as <code>FirstName LastName</code> but within the category you want them listed as <code>LastName, FirstName</code>.
 
 Another way to sort the article in the correct letter without the namespace is
 
@@ -23,6 +23,24 @@ Another way to sort the article in the correct letter without the namespace is
 This is extremely helpful when using templates which include a category tag.
 
 ''Note: the {sort} parameter does '''not''' affect how the page title is displayed within the category listing, just how it is ordered.  In the above example, the link to this page will still be 'Help:Categories', and not 'Categories' as you might expect!''
+
+== Linking to Category Pages ==
+
+To create a link to a category page:
+
+ <nowiki>[[:Category:{name}]]</nowiki>
+
+If you were linking to the Category Page for Help on MediaWiki, the link would look like this: [[:Category:Help]]
+
+If you want to display alternate text for the link:
+
+ <nowiki>[[:Category:{name}|{alternate text}]]</nowiki>
+
+Here is an example of the same link to the Category Page for Help on MediaWiki as above, but with alternative text: [[:Category:Help|MediaWiki Help Index]]
+
+== Categorize Categories==
+
+Categories themselves and other uploaded files like Pictures can be categorized exactly like normal pages. It is useful to connect the article-categories with categories already in place to establish connections and hierarchies. To this end, after saving the article, follow the category links at the end of the page to see, if the category is already in place and if not, categorize them until you connect them with an existing category.
 
 {{Languages|Help:Categories}}
 [[Category:Help|Categories]]
