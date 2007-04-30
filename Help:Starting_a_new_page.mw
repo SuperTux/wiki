@@ -32,7 +32,7 @@ width=45
 == Create redirects to your new page == 
 Don't forget to setup redirects when you create a page. If you think another person may search for the page you've created by using a different name or spelling, please create the proper redirect(s).
 
-To create a redirect, the '''first line''' of the page should read <nowiki>#REDIRECT [[Destination]]</nowiki> where Destination is the page to which people should be redirected.  This must appear as the very first line of the page.
+To create a redirect, the '''first line''' of the redirect page should read <code><nowiki>#REDIRECT [[Destination]]</nowiki></code>, where <code>Destination</code> is the page to which people should be redirected.  This must appear as the very first line of the page.
 
 == Protect your new page == 
 If desired, once you create your new page, you should protect the page and allow only the type of users you would like to edit the page.
