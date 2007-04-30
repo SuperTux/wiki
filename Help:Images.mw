@@ -90,12 +90,12 @@ Image:Example.jpg|''italic caption''
 </gallery>
 
 ==Other files==
-You can link to an external file using the same syntax used for [[Help:Links#External links|linking to an external web page]]. This feature has to be enabled by the admin; in the new releases of MediaWiki it's disabled due to security reasons.
+You can link to an external file using the same syntax used for [[Help:Links#External links|linking to an external web page]]. 
 *<code><nowiki>[http://url.for/some/image.png]</nowiki></code>
 Or with different text:
 *<code><nowiki>[http://url.for/some/image.png link text here]</nowiki></code>
 
-If it is enabled on your wiki, you can also embed external images. To do that, simply insert the url:
+If it is enabled on your wiki (see [[Manual:$wgAllowExternalImages]]), you can also embed external images. To do that, simply insert the image's url:
 *<code><nowiki>http://url.for/some/image.png</nowiki></code>
 
 == Administration of images/files ==
