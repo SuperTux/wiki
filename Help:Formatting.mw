@@ -65,13 +65,13 @@ different sizes
 |Numbered list
 |
 &#35; one<br />
-&#35; two<br />
+&#35; two<nowiki><br></nowiki>spanning several lines<nowiki><br></nowiki>without breaking the numbering<br />
 &#35; three<br />
 &#35;&#35; three point one<br />
 &#35;&#35; three point two<br />
 |
 # one
-# two
+# two<br>spanning several lines<br>without breaking the numbering
 # three
 ## three point one
 ## three point two
