@@ -1,7 +1,7 @@
 {{PD Help Page}}
 It is possible to create an external searches of a topic using key words using a template.
 
-For example this is something that would work for [[google]]
+For example, this is something that would work for Google:
 <pre><nowiki>
 <span style="border: 1px solid #CCD5DB;">[[Image:GoogleIcon.PNG]] [http://www.google.com/search?hl=en&safe=off&q={{{1|Wiki}}}&btnG=Search&meta= {{{1|Google}}}]</span>
 ==Usage==
@@ -21,7 +21,7 @@ It is also possible to do phrases by using %22Term1+Term2+etc%22
 
 Other applications of the template include searching Forums, for bug reports of the same type for software development wiki's where the wiki and forum work together.
 
-Note: Wikipedia may have policies that don't allow this kind of searching for whatever reason, check with Wikipedia policies and uses. This article is aimed at wiki administrators and editors that are in the situation where the information is a moving target and would like to be able to help readers search the web using good keywords and not clutter the pages with long http text.
+Note: Wikipedia has an [[help:interwiki linking|interwiki prefix]] with a similar affect, so you can link to google results with <nowiki>[[Google:firstTerm+Second+etc]]</nowiki>, although templates are still useful for linking other search engines.
 
 [http://www.clickwiki.info/index.php/Template:Google External reference to template example in use at ClickWiki.info]
 [[Category:Help|External Searches]]
