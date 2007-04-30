@@ -20,6 +20,10 @@ The first letter of the target page is automatically capitalized and spaces are 
 |<tt><nowiki>[[Main Page]]</nowiki></tt>
 |[[Main Page]]
 |-
+|Category link
+|<tt><nowiki>[[:Category:Help]]</nowiki></tt>
+|[[:Category:Help]]
+|-
 |Piped link 
 |<tt><nowiki>[[Main Page|different text]]</nowiki></tt>
 |[[Main Page|different text]]
