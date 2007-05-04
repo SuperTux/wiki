@@ -1,12 +1,12 @@
-== Bad Things ==
+== Sad Things ==
 
 The following is a list of defects in Milestone 1. These are not bugs, but rather things that are annoying, missing or otherwise out of place and should be changed or fixed in Milestone 2 or later.
 
-* Bitmap backgrounds look very boring, not only do they not parallax scroll (meaning multiple background layers scrolling at different speeds), but they also simply repeat the tileset that is used for the foreground.
+* Bitmap backgrounds look very boring, not only do they not parallax scroll (meaning multiple background layers scrolling at different speeds), but they also simply repeat the tile set that is used for the foreground.
 
 * Mr Bomb is poorly drawn.
 
-* Tux lacks a dedicated run animation.
+* Tux should lack a dedicated run animation.
 
 * The black outline surrounding Mr Ice Block looks out of place.
 
@@ -16,13 +16,13 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The tiles are separated in different files; besides other things, this causes slower load times.
 
-* The level header information loading process is rather slow (ie. launching the worldmap).
+* The level header information loading process is rather slow (ie. launching the world map).
 
 * In some cases, bumping against a ? block leaves the image in place.
 
 * The goal bars should be replaced with something more creative/original.
 
-* The snowflakes do not really match the style.
+* The snowflakes don't really match the style.
 
 * The ? blocks are poorly shaped.
 
@@ -30,21 +30,21 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The physics of the game are too simple; making the game too easy in many areas.
 
-* Many enemies do not align properly to the tileset.
+* Many enemies do not align properly to the tile set.
 
 * Many levels lack difficulty.
 
 * Most enemies simply fall into a hole without ever being a danger to Tux.
 
-* The grey blocks are poorly drawn.
+* The gray blocks are poorly drawn.
 
 * To indicate that Tux entered it, the igloo should raise a flag, etc.
 
 * The death animation for the flying snowball enemy is the same as the normal snowball.
 
-* The music played on the worldmap is out of place.
+* The music played on the world map is out of place.
 
-* The worldmap lacks water animation.
+* The world map lacks water animation.
 
 * The enemies move too slow in relation to Tux; make them able to easily dodge Tux.
 
@@ -58,7 +58,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * More abilities for Tux are needed.
 
-* The time continues to decelerate even in the end sequence. All UI should fade away in cutscenes.
+* The time continues to decelerate even in the end sequence. All UI should fade away in cut scenes.
 
 * More font effects are needed, ie. the active menu entry should wobble, etc.
 
@@ -68,7 +68,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 === Fixed in Milestone 2 ===
 
-* There is no back/horizontal/vertical scrolling.
+* Removed back/horizontal/vertical scrolling.
 
 * The reset points are invisible.
 
