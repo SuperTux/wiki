@@ -84,7 +84,7 @@ Right click at the [[#Where are the sector tabs?|sector tab]] for the current se
 == Bugs and Errors ==
 {{Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]}}
 
-=== We get an error about "Object reference not set to an instance of an object" ===
+=== I get an error about "Object reference not set to an instance of an object" ===
 This can be several things:
 #Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
 #If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least 1.2.2.1.
