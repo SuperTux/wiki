@@ -9,12 +9,28 @@
 
 == Types of Builds ==
 
-* Since Mac OS X contains a UNIX core, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux.  [[User:RavuAlHemio|Ravu al Hemio]] has written an excellent [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a UNIX-style build of SuperTux for Mac OS X.  If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep up to date.  If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below.  Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [[User:RavuAlHemio/Mac_OS_X_compilation|Ravu al Hemio's guide]].
+* Since Mac OS X contains a UNIX core, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux.  [[User:RavuAlHemio|Ravu al Hemio]] has written an excellent [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a UNIX-style build of SuperTux for Mac OS X.  If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep SuperTux up to date.  If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below.  Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [[User:RavuAlHemio/Mac_OS_X_compilation|Ravu al Hemio's guide]].
+* If you'd like an easy way to launch SuperTux via Finder but would rather use [[User:RavuAlHemio|Ravu al Hemio's]] build, then take a look at [[Building_on_Mac_OS_X#.command_File|making a .command file]].
 
 == Disclaimer ==
 
 * I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/UNIX development.  The procedure listed below relies heavily on UNIX-style methods of building with a few steps in XCode to make an app bundle and then a procedure to create a disk image.  I know that there is a method to build an app bundle almost completely, if not completely, in XCode.  This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way.  If you have tips on how to do this, please let me know.
 * If you have any tips on how to simplify this procedure, please let me know and I'll update the page.  If it's a simple change, feel free to modify the page with it.
+
+== .command File ==
+
+* If you just followed [[User:RavuAlHemio|Ravu al Hemio's]] [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a UNIX-style build of SuperTux for Mac OS X, but would like an easy way to launch SuperTux via the Finder, then read on.
+
+* You can create a .command file that will run a UNIX command from the Finder
+# Create a new text file (using a text editor such as TextEdit, nano, etc)
+# Type the following command into the file:
+ /<path_to_SuperTux_folder>/supertux &
+where ''path_to_SuperTux_folder'' is the POSIX path to SuperTux that you just built.
+# Save the file with a '.command' extension.
+# In Terminal, run the following command to make the .command file executable:
+ chmod ug+x /<path_to_command_file>
+where ''path_to_command_file'' is the POSIX path to the .command file you just made.
+# Make sure the command file opens with Terminal (unless you've changed this it should by default) and double-click the file to launch SuperTux.  The file will launch Terminal, but you can quit it after SuperTux loads.
 
 == Dependencies ==
 
