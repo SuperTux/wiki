@@ -52,7 +52,6 @@ where ''path_to_command_file'' is the POSIX path to the .command file you just m
 * Install Developer Tools, OpenAL, Subversion
 * Install jam (does not need to be a [[Wikipedia:Universal_Binary|UB]])
 * [[Download/Subversion | Checkout the SuperTux source from SVN]]
-**<code>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux</code>
 
 * Building SDL
 *** Open the SDL runtime library dmg and install (copy) the SDL.framework to /Library/Frameworks (you can also copy this to ~/Library/Frameworks, but this will require changing some paths below and in XCode)
