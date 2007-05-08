@@ -27,3 +27,5 @@ Actually, ubuntu 7.04feisty has both "supertux" and "supertux-stable" packages
 
 Debian has "supertux" (which is stable 0.1.3) and the 'experimental' release
   has the new version of supertux ...
+
+: The whole Ubuntu thing ticks me off. I asked them to provide different SuperTux packages, and they decided to make it so that SuperTux-0.3.0 is considered an upgrade, rather than a preview. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 01:02, 8 May 2007 (UTC)
