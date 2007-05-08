@@ -19,9 +19,9 @@ This distribution includes a supertux package. Just do the usual apt-get or inst
 ==== Ubuntu ====
 
 This distribution includes a supertux package. Just do the usual apt-get or install the package with synaptic.
- apt-get install supertux
+ apt-get install supertux-stable
 
-Note that Ubuntu unstable currently no longer has the stable version, but only the unstable preview build.
+The package "supertux", which is also available, contains the unstable developer version.
 
 ==== SuSE Linux ====
 This distribution includes a supertux package. Use yast to install it:
