@@ -345,8 +345,11 @@ When killed, stays dead for some time and then comes back to life. Could be a zo
 
 Implementation of a Dispenser (took the idea from that page). Spawns rocks and/or flames randomly or at a given interval. Might be frozen and become usable as a platform (or even something like a geyser), but only for a limited time.
 
-==== Icy ====
+===== Icy =====
 Looks like a walking snowball encircled by a cloud of light blue smoke (frozen air). When the smoke touches an enemy or an object, it reacts like it was hit by an icebullet or a stalactite. Can be killed only by invincibility, firebullet, collision with Iceblocks and similar enmies. When Tux touches it he freezes for a short time, and is not hurt.
+
+===== Buzzer =====
+Might look like [[:Image:Mrplasma.png|MrPlasma]]. Generates an electric field that hurts Tux and enemies and electrifies water. This could happen randomly, at fixed intervals or when Tux gets nearby.
 
 === Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
