@@ -22,3 +22,9 @@ Also, if you're using Fink, I've been running configure as so:
 (make sure to follow Fink's instructions on having your .bashrc set the proper CPP and LDFLAGS: http fink.sourceforge.net/faq/usage-general.php (question Q8.3)).
 
 ~Jayson
+
+Something very interesting happened jam failed on to find parser not because it was named parser.cpp.h but because it wasnt named parser.cpp.h !!!
+
+-Macjunkie999
+
+jam
