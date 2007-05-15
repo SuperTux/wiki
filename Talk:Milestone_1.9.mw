@@ -147,6 +147,8 @@ For some reaon on my Windows i can't even install version 0.3.0 because it says 
 
 http://opensource.creative.com/pipermail/openal/2007-January/010151.html
 
+:Maybe you don't have OpenAL on your machine? Go to http://openal.org/downloads.html get the "OpenAL Installer for Windows" and install OpenAL. Why do you think that hint is right next to the download link?
+
 == SuperTux Live! ==
 
 Development has (re)started on [[SuperTux Live!]], a project that tries to make a Linux-based Live CD for running SuperTux Milestone 1.9. See the project page (under construction ATM) for more details. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 18:06, 2 April 2007 (UTC)
