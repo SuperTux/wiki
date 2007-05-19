@@ -175,6 +175,10 @@ Pipes in Milestone2 should differ from both Mario1 and Milestone1. Instead of be
 
 <br clear="all" />
 
+=== Butt-Jump rotating tiles/objects ===
+
+Butt-Jump on such a object to fall through/let it rotate, normal jump does nothing. Might be one way, so that you can't jump from the other side.
+
 == World 2 Enemies ==
 
 === Snail ===
