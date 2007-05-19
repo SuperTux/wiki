@@ -6,7 +6,7 @@ __TOC__
 == Generic ==
 [[Image:EditorFAQ1.png|thumb|500px|Overview of the Editor, click to enlarge]]
 === How do I move around in a level? ===
-Start dragging with the middle mouse button.
+Click and drag with the middle mouse button.
 
 <br/>
 
@@ -91,18 +91,11 @@ This can be several things:
 
 
 If any of the above didn't solve the problem and you manage to recreate the error, report the bug with at least this info:
-*Full back trace
+*Full backtrace
 *What you did to cause the bug
 *What OS and OS version you use
 *What versions of mono, the editor itself, GTK and GTK# that you use
 These types of bugs can not be solved without that info (and sometimes we might need more details than that, so please check back at the bug once day or so if there is any more info asked for).
-
-=== If you select Delete or Clone, the application will close ===
-
-* When the application closes in Windows, because an error occurs, please go to the Windows Error Reporting site to check for SuperTux Editor 0.3.0.
-* When you clone or delete an enemy, the Apple Crash application launches when the application crashes.
-
-
 
 [[Category:Development]]
 [[Category:For Users]]
