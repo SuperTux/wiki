@@ -181,3 +181,5 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 * If an enemy kills [[Tux]] and the user elects to abort the level before he falls off the screen, gameplay may continue with negative lives.
 * When opening hand-edited levels/maps that have incorrect syntax, SuperTux crashes with an unmoveable mouse.
 * SuperTux takes up more memory on each new level/game, until it crashes the systems. Using KDE System Guard suggests that finished maps/levels are not being freed from memory. Bug produced on a Knoppix/Debian system with 128MB of RAM.
+
+[[Category:Bugs]]
