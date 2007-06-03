@@ -40,7 +40,7 @@ All files in data/music created by [[User:wansti|wansti]] and licensed under GPL
 
 == [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/sounds/ data/sounds] ==
 We mainly need to clear the status of the sounds from Bill Kendrick
-*bigjump.wav -- bkendrick
+*bigjump.wav -- Replaced by a self-made, almost identical sound by [[User:Glenn Stafford|Glenn Stafford]]
 *brick.wav -- bkendrick
 *bump-upgrade.wav -- bkendrick
 *coin.wav -- Replaced by a self-made, almost identical sound by [[User:Wansti|wansti]] (as of revision 5016)
