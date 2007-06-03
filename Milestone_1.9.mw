@@ -22,6 +22,12 @@ play.
 SuperTux 0.3.0 features:
 
 * new, OpenGL- and OpenAL-based engine
+[[Media:Example.ogg]]
+<nowiki>Insert non-formatted text here</nowiki>--[[User:62.56.66.225|62.56.66.225]] 18:20, 3 June 2007 (UTC)
+----
+'''''Bold text''[[[Link title]
+== [[Image:Headline text]][[Media:Example.ogg]] ==
+]]'''
 * final boss for Icy Island
 * brand new Forest World with new badguys and new game objects
 * new and improved soundtrack, immersive sound effects
