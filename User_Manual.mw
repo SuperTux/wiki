@@ -69,11 +69,8 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 === Running ===
 Hold down the Action key while moving left or right to make Tux run faster. Jumping while running will catapult him higher into the air than usual.
 
-=== Fireballs                                                                                                                             ===
+=== Fireballs                                                                                                                                                                                                                                              [[Image:fire_bullet-0.png]]===
 After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut '''(Milestone 2 only)'''.
-
-=== Icebullets===
-After picking up an Iceflower, Tux will throw little blue bullets when action is pressed.  This will freeze almost every enemy, and when Mr. Bombs are frozen, they can be picked up and carried around.
 
 === Butt Stomp (Milestone 2 only) ===
 Only Big Tux has this ability. When in the air, press the Duck key to perform a Butt Stomp. Tux can use it to break wooden crates from above and defeat certain badguys that are not harmed by a normal jump.
