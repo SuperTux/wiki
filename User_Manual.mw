@@ -78,7 +78,8 @@ Only Big Tux has this ability. When in the air, press the Duck key to perform a 
 === Backflip (Milestone 2 only) ===
 Only Big Tux has this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump higher, which is very useful in places where there's not enough space to run. If you do a backflip with Tux on fire, he will lose his hat and become Big Tux again.
 
-=== Carrying Objects       [[Image:needrock.png]]===
+=== Carrying Objects ===
+[[Image:needrock.png|left]]
 Some objects Tux comes across can be picked up and carried around. This includes a squished [[Mr. IceBlock]] ('''Milestone 1''' and '''Milestone 2'''), a [[Rock]] ('''Milestone 2''') and a [[Trampoline]] ('''Milestone 2''').
 
 To pick a portable object up, hold down the Action button and walk into the object. Tux will then carry the object as long as the Action button is held down.
