@@ -1,6 +1,6 @@
 == gcc-g++ package needed ==
 
-I had to install one additional package in order to get SuperTux to compile -- the MinGW gcc-g++ package for compiling C++ code, found [hxxp://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download here]. - [[User:Sik0fewl|Sik0fewl]]
+I had to install one additional package in order to get SuperTux to compile -- the MinGW gcc-g++ package for compiling C++ code, found [http://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download here]. - [[User:Sik0fewl|Sik0fewl]]
 
 == libcurl missing? ==
 
