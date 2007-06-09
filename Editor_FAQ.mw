@@ -51,7 +51,7 @@ Brushes are used to clean up edge tiles. The brush tool does that by replacing a
 
 There are already a few brushes in <tt>trunk/supertux-sharp/data/brushes</tt> <!-- TODO: change this to a more "useful" path. --> that know some valid patterns e.g. for earth tiles or snow tiles. Load one in the level and then drag it over tiles to correct edge tiles of rough tile "blocks".
 
-Note that the brushes are incomplete, so you might need to fix some things manually. If you used a pattern a brush did not yet know, you can add it to the list of known patterns by dragging a selection around the new pattern(s) with your right mouse button. All patterns in the selected region will be added to the list of valid patterns for the currently loaded brush. Because patterns are currently 3x3 tiles in size, your selection obviously has to be at least 3x3 tiles big. Also don't forget to save afterwards or your changes will be lost when you deselect the brush.
+Note that the brushes are incomplete, so you might need to fix some things manually. If you used a pattern a brush did not yet know, you can add it to the list of known patterns by dragging a selection around the new pattern(s) with your right mouse button. All patterns in the selected region will be added to the list of valid patterns for the currently loaded brush. Because patterns are currently 3x3 tiles in size, your selection obviously has to be at least 3x3 tiles big. Also don't forget to save the brush afterwards or your changes will be lost when you deselect the brush.
 
 To create a new brush you currently got to "train" an empty one:
 #Make a level that looks good.
