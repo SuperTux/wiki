@@ -27,6 +27,7 @@ The best way to learn this is to look at existing levels. For the exit tree in M
 === How do I add a new tilemap? ===
 [[Image:Tilemap.png|left]]
 Select the tilemap object and place it like a normal object anywhere in the level. The result will be a new that a new tilemap is created.
+
 <br/>
 
 == Objects ==
