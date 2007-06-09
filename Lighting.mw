@@ -4,7 +4,7 @@
 
 Lighting is a post-processing effect that can be used to add athmosphere to a SuperTux level, it works by either darkening or brightning parts of the screen. To implement that effect two additional layers need to be rendered, first the '''light layer''' and second the '''highlight layer'''. The order is as follows, first the color layer (the normal sprites, background and stuff) is rendered as usual, then the light layer is rendered to an offscreen buffer with multiply enabled and last the highlight layer is rendered with addition enabled, so we get:
 
-Framebuffer = (Color * Light)   Highlight
+Framebuffer = (Color * Light) + Highlight
 
 The light layer itself needs to be an offscreen buffer, while the highlight layer can be just a collection of sprites, since additive rendering is commutative.
 
