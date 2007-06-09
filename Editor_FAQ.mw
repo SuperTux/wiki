@@ -25,7 +25,8 @@ Click on the small eye ([[Image:EditorEyeIcon.png]]) in the layer listing to adj
 The best way to learn this is to look at existing levels. For the exit tree in MS2 the best place to look at is levels/test/tree-exit.stl at this point. Also note that using tiles for triggering the end sequence, although still supported, is no longer necessary. See [[#What is the SequenceTrigger object for?|What is the SequenceTrigger object for?]]
 
 === How do I add a new tilemap? ===
-
+[[Image:Tilemap.png|left]]
+Select the tilemap object and place it like a normal object anywhere in the level. The result will be a new that a new tilemap is created.
 <br/>
 
 == Objects ==
