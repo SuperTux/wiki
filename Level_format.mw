@@ -163,7 +163,7 @@ Bouncing Snowballs, Flying Snowballs, Jumpies, Mr Bombs, Mr Iceblocks, Mr Rocket
 )</pre>
 
 ==== Lightning orb ====
-The lighting orb ("kugelblitz") ignores the <tt>y</tt> coordinate, spawning above the visible screen.
+The lightning orb ("kugelblitz") ignores the <tt>y</tt> coordinate, spawning above the visible screen.
 
 ==== Spike ====
 Don't mistake this badguy for Spiky! Spiky is the snowball-like creature with spikes, whilst a spike is an object serving the same purpose like the stalactite.
