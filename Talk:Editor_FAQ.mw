@@ -10,3 +10,4 @@ The version of Mono in the Ubuntu repositories seems to be to old to run the edi
 
 Is there any way to run this under Mac OS X (@Intel)?
 -Shylence 19:28, 13 March 2007 (UTC)
+: Yes if you can get Mono working, see also the section [[Editor FAQ#Does the editor work under Mac OS X?|Does the editor work under Mac OS X?]] --[[User:AnMaster|AnMaster]] 08:07, 11 June 2007 (UTC)
