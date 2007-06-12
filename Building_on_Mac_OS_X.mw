@@ -14,14 +14,14 @@
 
 == Disclaimer ==
 
-* I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/Unix development.  The procedure listed below relies heavily on Unix-style methods of building with a few steps in XCode to make an app bundle and then a procedure to create a disk image.  I know that there is a method to build an app bundle almost completely, if not completely, in XCode.  This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way.  If you have tips on how to do this, please let me know.
+* I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/UNIX development.  The procedure listed below relies heavily on UNIX-style methods of building with a few steps in XCode to make an app bundle and then a procedure to create a disk image.  I know that there is a method to build an app bundle almost completely, if not completely, in XCode.  This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way.  If you have tips on how to do this, please let me know.
 * If you have any tips on how to simplify this procedure, please let me know and I'll update the page.  If it's a simple change, feel free to modify the page with it.
 
 == .command File ==
 
-* If you just followed [[User:RavuAlHemio|Ravu al Hemio's]] [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a Unix-style build of SuperTux for Mac OS X, but would like an easy way to launch SuperTux via the Finder, then read on.
+* If you just followed [[User:RavuAlHemio|Ravu al Hemio's]] [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a UNIX-style build of SuperTux for Mac OS X, but would like an easy way to launch SuperTux via the Finder, then read on.
 
-* You can create a .command file that will run a Unix command from the Finder
+* You can create a .command file that will run a UNIX command from the Finder
 # Create a new text file (using a text editor such as TextEdit, nano, etc)
 # Type the following command into the file:
  /<path_to_SuperTux_folder>/supertux &
