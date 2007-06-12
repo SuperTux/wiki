@@ -38,7 +38,7 @@ The exception to this rule are libpng and libjpeg, which don't use autoconf. In 
 Most of the time, the triplet <code>./configure --prefix=/usr && make && sudo make install</code> (supplying your own password when asked for it) is enough.
 
 == Building jam ==
-Since SuperTux uses jam as its building tool, you'll need to download and compile that too (unless you can find it hidden somewhere in your system; I've heard Apple bundles it with the development tools).
+Since SuperTux uses jam as its building tool, you'll need to download and compile that too. (Apple bundles it with the development tools, but their version is somehow defective, so you're better off getting a clean distribution from Perforce.)
 
 First, download the archive (either in zip or uncompressed tar format) from the [ftp://ftp.perforce.com/jam/ Perforce FTP server]. Then, extract the files into a directory of your choice, enter it via the Terminal and run <code>make</code>. When everything is done, copy the resulting jam binary from <tt>build.x86</tt> or <tt>build.ppc</tt> to <tt>/usr/bin</tt> (e.g. <code>sudo cp build.x86/jam /usr/bin/</code>) and you're all set.
 
@@ -55,13 +55,9 @@ If you don't get any answer and find yourself back at the command prompt, everyt
  ln -s /System/Library/Frameworks/OpenAL.framework/Headers/ AL
  ln -s /System/Library/Frameworks/OpenGL.framework/Headers/ GL
 
-Now, you'll be patching configure itself.
-
- sed -e 's/-lopenal//g' configure > configure.tmp && mv configure.tmp configure && chmod +x configure
-
 At long last, you can run configure. (You will only need to specify more commandline arguments.)
 
- ./configure --with-apple-opengl-framework CPPFLAGS="-I." LDFLAGS="-framework OpenAL"
+ ./configure --with-apple-opengl-framework CPPFLAGS="-I."
 
 
 <div style="border:2px solid gray;background-color:#eee;padding:3px">Once configure is done, universal binary builders still have to modify three lines in the file <i>Jamconfig</i>: CFLAGS, CXXFLAGS and LDFLAGS. Search always for the first occurrence of these variable names (except for the first few in the section unsetting Jambase) and add the following line into the quotes:
@@ -90,12 +86,7 @@ Now, at long last, you can run the command that will compile everything.
 
 This will take forever <span style="border:2px solid gray;background-color:#eee">(mainly when you're compiling a universal binary)</span>, so grab a coffee or other beverage, play a game of chess, whatever.
 
-If jam fails because it couldn't find parser.hpp, issue the following commands (renaming a file and continuing the build):
-
- mv tools/miniswig/parser.cpp.h tools/miniswig/parser.hpp
- jam
-
-So... with a portion of luck, the following command will start SuperTux and make your life complete:
+When the build process is completed and you are feeling lucky, the following command will start SuperTux and make your life complete:
 
  ./supertux
 
@@ -104,4 +95,6 @@ So... with a portion of luck, the following command will start SuperTux and make
  ./st-ppc
 </div>
 
-This should have done the trick. If something is too unclear or you think I haven't added enough detail, please alert me on this article's [[User talk:RavuAlHemio/Mac OS X compilation|talk page]] and I will do my best to improve this document. (For example, I will outline how to create a Mac OS X Application (to simply pull over into your Applications folder) on request.)
+This should have done the trick. If something is too unclear or you think I haven't added enough detail, please alert me on this article's [[User talk:RavuAlHemio/Mac OS X compilation|talk page]] and I will do my best to improve this document.
+
+I am on a bit of a hiatus right now (June 2007), but once I return, I will tweak the build system to optionally create a Finder-launchable SuperTux application. Stay tuned.
