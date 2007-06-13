@@ -1,34 +1,39 @@
 == What Tux should look like with Fire Flower ==
 
-What's in MS1: Tux is tinted red.
+'''What's in MS1:''' Tux is tinted red.
 
-What's in SVN: Tux is wearing a fireman's hat.
+'''What's in SVN:''' Tux is wearing a fireman's hat.
+: Of the presented alternatives I prefer firehat. The MS1 one is uggly, and I have not seen that one with a headband, any link to that image? --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
 
-Grumbel's concept art: Tux wears a dragon suit.
+'''Grumbel's concept art:''' Tux wears a dragon suit.
 
-Fan concept: Tux wears a headband.
+'''Fan concept:''' Tux wears a headband.
 
 == Life and Death ==
 
-What's in MS1: Tux starts with 4 lives.  Gains a life via collecting 100 coins or one-up item.  99 lives max.
+'''What's in MS1:''' Tux starts with 4 lives.  Gains a life via collecting 100 coins or one-up item.  99 lives max.
 
-What's in SVN: Tux starts with 100 coins.  One-up item adds 100 coins.  Tux loses 25 coins or the current number of coins divided by 10, whichever is greater when a checkpoint is used.
+'''What's in SVN:''' Tux starts with 100 coins.  One-up item adds 100 coins.  Tux loses 25 coins or the current number of coins divided by 10, whichever is greater when a checkpoint is used.
+: Of the presented alternatives I prefer this but it isn't very good either, maybe a mix of this and tuxdev's concept? --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
 
-Grumbel's concept: Death should be eliminated, coinage should be only a per-level statistic.
+'''Grumbel's concept:''' Death should be eliminated, coinage should be only a per-level statistic.
 
-tuxdev's concept: Make life-and-death equavalent to how they were in MS1 except with coins. Then make some special abilities use up coins (like butt-jump).
+'''tuxdev's concept:''' Make life-and-death equavalent to how they were in MS1 except with coins. Then make some special abilities use up coins (like butt-jump).
 
 == Run or Walk? ==
 
-What's in MS1: Tux runs when pressing the Action key, walks otherwise.
+'''What's in MS1:''' Tux runs when pressing the Action key, walks otherwise
+: Of the presented alternatives I strongly prefer this. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
 
-What's in SVN: Tux runs by default, walks when pressing the Action key.
+'''What's in SVN:''' Tux runs by default, walks when pressing the Action key.
 
 == Up and Jump ==
-What's in MS1: Jump is the up arrow key by default, there is no use of an Up key.
+'''What's in MS1:''' Jump is the up arrow key by default, there is no use of an Up key.
+: Of the presented alternatives I prefer this. But up key is useful to, we need it, but I can't stand jump on space. My keyboard can't handle that while also running. Space + arrow + ctrl = too much. So for me this is the only way. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
 
-What's in SVN: Jump is the space key by default, Up is mapped to the up arrow key.
+'''What's in SVN:''' Jump is the space key by default, Up is mapped to the up arrow key.
 
-The problem: Some fans have gotten used to the MS1 setup, so they make Jump the up arrow key and Up the space key.  This causes problems in the worldmap. They use the up arrow key to go up, and instead they enter a level because the Jump key means enter level on the worldmap.
+'''The problem:''' Some fans have gotten used to the MS1 setup, so they make Jump the up arrow key and Up the space key.  This causes problems in the worldmap. They use the up arrow key to go up, and instead they enter a level because the Jump key means enter level on the worldmap.
 
-The question: Should we hack SuperTux so that the up arrow key can mean jump in a level and up in a worldmap?
+'''The question:''' Should we hack SuperTux so that the up arrow key can mean jump in a level and up in a worldmap?
+: In my opinion: YES. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
