@@ -200,3 +200,5 @@ Other than that, Milestone 2 looks great and I can't wait to get to the forest l
 : I agree with 2 and 3, even though for 3 I don't think merging them is a good solution but jump should be up, I have modified my local supertux source (in a hackish way) to make this work correctly on worldmap. Still no good way for climb though. I ''strongly'' disagree with 1. --[[User:AnMaster|AnMaster]] 19:52, 13 June 2007 (UTC)
 
 What if there was possible to switch view easy (between centered and how it`s now) by a command or something? Or maybe it would be too much work to have 2 different views inplemented. Just an idea. --[[User:Arthur|Arthur]] 20:34, 13 June 2007 (UTC)
+
+In SVN you can use camera.cfg hidden somewhere in the data dir iirc. NOTE: It is only your own fault if you mess up by changing it. --[[User:AnMaster|AnMaster]] 20:46, 13 June 2007 (UTC)
