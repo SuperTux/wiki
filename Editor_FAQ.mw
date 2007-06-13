@@ -83,6 +83,20 @@ Right click at the [[#Where are the sector tabs?|sector tab]] for the current se
 
 <br/>
 
+== Operating system specific notes ==
+
+== I'm on OpenSUSE and I get a message about that it couldn't load gtk-sharp ==
+ Could not load file or assembly 'gtk-sharp, Version=2.10.0.0, 
+ Culture=neutral, PublicKeyToken=35e10195dab3c99f' or one of its dependencies.
+If you are on OpenSUSE and get a message like this you might want to try [http://supertux.lethargik.org/bugs/view.php?id=211#481 this] and the note directly below it as well. 
+
+We (the developers) are unable to reproduce the problem but we do not use OpenSUSE. Try asking the OpenSUSE developers about why they messed up their GAC instead.
+
+=== Does the editor work under Mac OS X? ===
+Yes, it does but the setup is complex, you will have to compile your own GTK# stuff amongst other things, we are unable to provide a package for it due to all these problems. Also we doesn't support you if you try it.
+
+<br />
+
 == Bugs and Errors ==
 {{Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]}}
 
@@ -98,9 +112,6 @@ If any of the above didn't solve the problem and you manage to recreate the erro
 *What OS and OS version you use
 *What versions of mono, the editor itself, GTK and GTK# that you use
 These types of bugs can not be solved without that info (and sometimes we might need more details than that, so please check back at the bug once day or so if there is any more info asked for).
-
-=== Does the editor work under Mac OS X? ===
-Yes, it does but the setup is complex, you will have to compile your own GTK# stuff amongst other things, we are unable to provide a package for it due to all these problems. Also we doesn't support you if you try it.
 
 [[Category:Development]]
 [[Category:For Users]]
