@@ -85,7 +85,7 @@ Right click at the [[#Where are the sector tabs?|sector tab]] for the current se
 
 == Operating system specific notes ==
 
-== I'm on OpenSUSE and I get a message about that it couldn't load gtk-sharp ==
+=== I'm on OpenSUSE and I get a message about that it couldn't load gtk-sharp ===
  Could not load file or assembly 'gtk-sharp, Version=2.10.0.0, 
  Culture=neutral, PublicKeyToken=35e10195dab3c99f' or one of its dependencies.
 If you are on OpenSUSE and get a message like this you might want to try [http://supertux.lethargik.org/bugs/view.php?id=211#481 this] and the note directly below it as well. 
