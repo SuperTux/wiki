@@ -1,21 +1,34 @@
 == What Tux should look like with Fire Flower ==
+
 What's in MS1: Tux is tinted red.
+
 What's in SVN: Tux is wearing a fireman's hat.
+
 Grumbel's concept art: Tux wears a dragon suit.
+
 Fan concept: Tux wears a headband.
 
 == Life and Death ==
+
 What's in MS1: Tux starts with 4 lives.  Gains a life via collecting 100 coins or one-up item.  99 lives max.
+
 What's in SVN: Tux starts with 100 coins.  One-up item adds 100 coins.  Tux loses 25 coins or the current number of coins divided by 10, whichever is greater when a checkpoint is used.
+
 Grumbel's concept: Death should be eliminated, coinage should be only a per-level statistic.
+
 tuxdev's concept: Make life-and-death equavalent to how they were in MS1 except with coins. Then make some special abilities use up coins (like butt-jump).
 
 == Run or Walk? ==
-What's in MS1: Tux runs when pressing the Action key, walks otherwise
+
+What's in MS1: Tux runs when pressing the Action key, walks otherwise.
+
 What's in SVN: Tux runs by default, walks when pressing the Action key.
 
 == Up and Jump ==
 What's in MS1: Jump is the up arrow key by default, there is no use of an Up key.
+
 What's in SVN: Jump is the space key by default, Up is mapped to the up arrow key.
+
 The problem: Some fans have gotten used to the MS1 setup, so they make Jump the up arrow key and Up the space key.  This causes problems in the worldmap. They use the up arrow key to go up, and instead they enter a level because the Jump key means enter level on the worldmap.
+
 The question: Should we hack SuperTux so that the up arrow key can mean jump in a level and up in a worldmap?
