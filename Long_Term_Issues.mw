@@ -26,6 +26,7 @@
 
 '''What's in MS1:''' Tux runs when pressing the Action key, walks otherwise
 : Of the presented alternatives I strongly prefer this. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
+:: <small>Adding a note to explain why:</small> This is best for new users because that is the common way in other games as far as I know. I can get used to either. --[[User:AnMaster|AnMaster]] 23:27, 13 June 2007 (UTC)
 
 '''What's in SVN:''' Tux runs by default, walks when pressing the Action key.
 
