@@ -184,3 +184,17 @@ Well I don't know if this is the place for posting comments, but let's go. These
 ** had to swap space and up-key in key settings to play it properly
 ** Would be nice if Mr Icecube does not get killed if he lets explode a bomb. Now you cannot sweep everything away with only one Mr Icecube (which was fun with 0.1.3).
 [[User:87.160.233.231|87.160.233.231]] 12:17, 8 April 2007 (UTC)
+
+== More Feedback ==
+
+1. Somebody already said this. The view makes me seasick too. I would love it if the view would just keep Tux in the center. Or scroll the view when Tux gets within a few hundred pixels of the edge.
+
+2. Only 25 coins as a penalty on death is way too easy. Remember, it's 4x as easy as in Milestone 1, when 100 coins were worth a life.
+
+3. Is there really a good reason for up and jump to be seperate keys? I like to use the up cursor key both as a jump key and to get around in the maps. If there must be an "up" key that is seperate from the "jump" key, then make the cursor keys control the map no matter what the game controls are. This drove me crazy when I set my jump key to 'up' and up/climb key to 'space' and found I couldn't get around the map.
+
+4. The bell needs a sound.
+
+5. Why does Mr. Icecube do different things depending on exactly how he's hit? The Milestone 1 behavior made a lot of sense: first jump freezes the ice cube, second jump makes it slide. Milestone 2 seems to sometimes skip the "stun" phase and go straight to sliding if Tux hits just wrong.
+
+Other than that, Milestone 2 looks great and I can't wait to get to the forest levels.
