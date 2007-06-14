@@ -1,4 +1,4 @@
-We have [http://squirrel.sf.net squirrel] based scripting support in supertux now. You can write header files with simple classes in them that get processed by a little tool (called miniswig) that produces the binding automagically. You can then expose c   objects with to the scripting world. It is possible to suspend and resume scripts.
+We have [http://squirrel.sf.net squirrel] based scripting support in supertux now. You can write header files with simple classes in them that get processed by a little tool (called miniswig) that produces the binding automagically. You can then expose c++ objects with to the scripting world. It is possible to suspend and resume scripts.
 
 See also: [[Scripting reference]]
 
