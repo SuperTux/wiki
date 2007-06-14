@@ -1,5 +1,3 @@
-{{Attention|s=This is the talk page for gathering feedback from users and fans. Please see the [[Long Term Issues|Developer Long Term Issues Page]] for more info}}
-
 == What Tux should look like with Fire Flower ==
 
 '''What's in MS1:''' Tux is tinted red.
@@ -13,7 +11,7 @@
 
 : I don't care much what we end up with, as long as it is not a fireman's hat or anything else that relates to the real world. We might also drop fireflower completly or change its behaviour a lot, no need to staying to close to Mario on that one. -- [[User:Grumbel|Grumbel]] 03:33, 14 June 2007 (UTC)
 
-: Of the options presented here, I like the fireman's hat the best.  It would be cool to have different objects trigger different types of throwables, similar to the early MegaMan games. Some ideas: a limited number of "swarm" throwables that would scatter and kill anything in their path. A bomb that goes for a certain distance then explodes. Have the snowball freeze, but not kill, a bad guy. A "guided fish missile" that would home in on an enemy no matter where they are --[[User:Mbsmith|Mbsmith]] 11:11, 14 June 2007 (UTC)
+: Of the options presented here, I like the fireman's hat the best. --[[User:Mbsmith|Mbsmith]] 11:11, 14 June 2007 (UTC)
 
 == Life and Death ==
 
@@ -50,7 +48,3 @@
 : In my opinion: YES. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
 
 : Yes, no point in arguing, this has to be fixed. Only thing to keep in mind is that we might get trouble with using Up-key for entering doors. -- [[User:Grumbel|Grumbel]]
-
-: Clearly. This has been a major pet peeve for a while. By the way, how has this been "resolved"? Is there a fix in the nightly? --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 11:19, 14 June 2007 (UTC)
-
-:: The discussion on what should be done is resolved, not the implementation. -- [[User:Grumbel|Grumbel]]
