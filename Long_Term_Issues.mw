@@ -13,6 +13,12 @@
 
 : I don't care much what we end up with, as long as it is not a fireman's hat or anything else that relates to the real world. We might also drop fireflower completly or change its behaviour a lot, no need to staying to close to Mario on that one. -- [[User:Grumbel|Grumbel]] 03:33, 14 June 2007 (UTC)
 
+== Should Tux lose Fire Flower on backflip ==
+
+'''What's in MS1:''' No backflip.
+
+'''What's in SVN:''' Backflip causes Tux to lose Fire Flower.
+
 == Life and Death ==
 
 '''What's in MS1:''' Tux starts with 4 lives.  Gains a life via collecting 100 coins or one-up item.  99 lives max.
@@ -34,7 +40,7 @@
 
 : Run should be automatic, with proper acceleration. If all fails we can fall back to the run key, but we should never have a walk-key. -- [[User:Grumbel|Grumbel]] 03:29, 14 June 2007 (UTC)
 
-== Up and Jump (resolved) ==
+== Up and Jump ==
 '''What's in MS1:''' Jump is the up arrow key by default, there is no use of an Up key.
 : Of the presented alternatives I prefer this. But up key is useful to, we need it, but I can't stand jump on space. My keyboard can't handle that while also running. Space + arrow + ctrl = too much. So for me this is the only way. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
 
@@ -46,3 +52,5 @@
 : In my opinion: YES. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
 
 : Yes, no point in arguing, this has to be fixed. Only thing to keep in mind is that we might get trouble with using Up-key for entering doors. -- [[User:Grumbel|Grumbel]]
+
+: No.  There are multiple reasons why the up arrow key should not be jump.  Up is used to enter doors.  Up would be used to peek upwards, if any peeking was done at all.  Up is used to throw objects upward.  The engine and design of the game has progressed to the point that the up arrow key can't reasonably be used to jump anymore, and hacking it to work anyway is wrong. [[User:Tuxdev|Tuxdev]] 13:45, 14 June 2007 (UTC)
