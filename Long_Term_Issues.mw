@@ -19,6 +19,8 @@
 
 '''What's in SVN:''' Backflip causes Tux to lose Fire Flower.
 
+: The only reason that this got implemented in the first place was lack of backflip animation with had, it doesn't make sense in terms of gameplay and should be removed. -- [[User:Grumbel|Grumbel]] 15:10, 14 June 2007 (UTC)
+
 == Life and Death ==
 
 '''What's in MS1:''' Tux starts with 4 lives.  Gains a life via collecting 100 coins or one-up item.  99 lives max.
