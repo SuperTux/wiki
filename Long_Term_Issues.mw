@@ -30,6 +30,8 @@
 
 '''What's in SVN:''' Tux runs by default, walks when pressing the Action key.
 
+: Run should be automatic, with proper acceleration. If all fails we can fall back to the run key, but we should never have a walk-key. -- [[User:Grumbel|Grumbel]] 03:29, 14 June 2007 (UTC)
+
 == Up and Jump ==
 '''What's in MS1:''' Jump is the up arrow key by default, there is no use of an Up key.
 : Of the presented alternatives I prefer this. But up key is useful to, we need it, but I can't stand jump on space. My keyboard can't handle that while also running. Space + arrow + ctrl = too much. So for me this is the only way. --[[User:AnMaster|AnMaster]] 23:17, 13 June 2007 (UTC)
