@@ -202,3 +202,4 @@ Other than that, Milestone 2 looks great and I can't wait to get to the forest l
 What if there was possible to switch view easy (between centered and how it`s now) by a command or something? Or maybe it would be too much work to have 2 different views inplemented. Just an idea. --[[User:Arthur|Arthur]] 20:34, 13 June 2007 (UTC)
 
 In SVN you can use camera.cfg hidden somewhere in the data dir iirc. NOTE: It is only your own fault if you mess up by changing it. --[[User:AnMaster|AnMaster]] 20:46, 13 June 2007 (UTC)
+: Translation: Hack away, but make a backup first. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 12:59, 17 June 2007 (UTC)
