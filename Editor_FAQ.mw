@@ -96,7 +96,7 @@ We (the developers) are unable to reproduce the problem but we do not use OpenSU
 Yes, it does but the setup is complex, you will have to compile your own GTK# stuff amongst other things, we are unable to provide a package for it due to all these problems. Also we doesn't support you if you try it.
 
 === Does the editor work under Microsoft Windows Vista? ===
-Yes, it does but the setup is complete, you will have to compile some GTK# stuff amongst other things. You're able to provide a package.
+Yes, but it requires a complete setup. you will have to compile some GTK# programs amongst other things. We are able to provide a package.
 
 <br />
 
