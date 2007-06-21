@@ -76,7 +76,7 @@ UPDATE: 0.1.1 version has been replaced by 0.1.2 version at www.elsix.org/index.
 
 == Implementation ==
 
-The development should start on the GBA, since that is the device with the lowest, but still quite usable specs. World of Warcraft The tiles in the game would be 16x16, so large Tux would be 32x16 large, half the size it was in Milestone1. Due to the tile and screen size, the visible on screen area would be equivalent to a 480x320 window in Milestone1, ie. smaller then that in Milestone1, but normal for GBA games.
+The development should start on the GBA, since that is the device with the lowest, but still quite usable specs. The tiles in the game would be 16x16, so large Tux would be 32x16 large, half the size it was in Milestone1. Due to the tile and screen size, the visible on screen area would be equivalent to a 480x320 window in Milestone1, ie. smaller then that in Milestone1, but normal for GBA games.
 
 *[http://pingus.seul.org/~grumbel/tmp/supertuxgba.jpg SuperTux on GBA (mockup)]
 *http://pingus.seul.org/~grumbel/tmp/supertux-2005-10-11.gba
