@@ -42,7 +42,7 @@
 
 * Resolution: 320x240
 * Graphics: plain framebuffer, has SDL available
-* Controls: DPad, A, B, X, Y, Start, Select, L, R
+* Controls: DPad, A, B, X, Y, Start, Select, L, R, Vol-, Vol+, Extra button by depressing DPad
 * Programming Language: C
 * Note: runs a Linux-based system, so we can use any Linux tools that can be recompiled for it.
 * Port is in development [www.gp2x.de/cgi-bin/cfiles.cgi?0,0,0,0,46,1199] (Elektranox), continued as [archive.gp2x.de/cgi-bin/cfiles.cgi?0,0,0,0,35,1454] (scachi)
