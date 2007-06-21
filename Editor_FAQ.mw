@@ -93,7 +93,13 @@ If you are on OpenSUSE and get a message like this you might want to try [http:/
 We (the developers) are unable to reproduce the problem but we do not use OpenSUSE. Try asking the OpenSUSE developers about what is going on there.
 
 === Does the editor work under Mac OS X? ===
-Yes, it does but the setup is complex, you will have to compile your own GTK# stuff amongst other things, we are unable to provide a package for it due to all these problems. Also we doesn't support you if you try it.
+Yes, it does, but the setup is complex; you will have to do the following:
+* install Apple's X11
+* download and build Gtk and its dependencies (Glib, Pango, Cairo, Atk, Gdk and maybe more)
+* download and build Mono and GTK#
+* download and build the editor
+
+Since the Mono project doesn't pre-package Gtk# and its dependencies with the OS X installer, we are unable to provide a nice editor package. Additionally, we offer no official support, so no one might be able to help you on the mailing list if the editor crashes due to an OS X-specific problem.
 
 === Does the editor work under Microsoft Windows Vista? ===
 Yes, but it requires a complete setup. you will have to compile some GTK# programs amongst other things. We are able to provide a package.
