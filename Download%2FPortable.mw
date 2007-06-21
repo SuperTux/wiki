@@ -10,7 +10,7 @@
 * 2 - 100 MB internal memory
 * flash cards
 
-=== ========== ===
+=== Mobile phones ===
 
 * Resolution: can vary greatly. One should develop it so the screen range varies (scaling is also an option, but that should be avoided) -- it doesn't necessarily affect gameplay. For reference, I believe 180x170 is the norm for LCDs, but can get much bigger for the most advanced ones that offer PDA abilities. Monochrome phones use LED screens that offer like 1/3rd of the others screens -- they should be provided with a smaller graphics version (the resolution is smaller, but since the display is bigger, smaller graphics will not look like ants, but will do ok.)
 * Controlls: 0-9 keypad, plus two buttons (* and +). Controls shouldn't be hardcoded, but rather use defined variables like LEFT_KEY, POWER_KEY, etc. There is also a button to go for the menu, and usually another to terminate the application right away (these two cannot be caught by the program for obvious reasons).
