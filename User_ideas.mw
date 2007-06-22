@@ -353,9 +353,6 @@ Looks like a walking snowball encircled by a cloud of light blue smoke (frozen a
 ===== Buzzer =====
 Might look like [[:Image:Mrplasma.png|MrPlasma]]. Generates an electric field that hurts Tux and enemies and electrifies water. This could happen randomly, at fixed intervals or when Tux gets nearby.
 
-===== Laptop =====
-Computer version of [[Snowball]].
-
 === Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
