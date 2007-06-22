@@ -4,6 +4,8 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * Bitmap backgrounds look very boring, not only do they not parallax scroll (meaning multiple background layers scrolling at different speeds), but they also simply repeat the tileset that is used for the foreground.
 
+* Laptop enemies were drawn originally.
+
 * Mr Bomb is poorly drawn.
 
 * Tux lacks a dedicated run animation.
