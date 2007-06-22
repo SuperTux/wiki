@@ -74,10 +74,6 @@ UPDATE: 0.1.1 version has been replaced by 0.1.2 version at www.elsix.org/index.
 * Resolution: 320x240, possible an additional 'scaled mode' with 640x480 for double sprite and tile size
 * Controls: Gamepad with unknown number of buttons, at least 2 or Keyboard
 
-
-== Headline text ==
-
-== Headline text ==
 == Implementation ==
 
 The development should start on the GBA, since that is the device with the lowest, but still quite usable specs. The tiles in the game would be 16x16, so large Tux would be 32x16 large, half the size it was in Milestone1. Due to the tile and screen size, the visible on screen area would be equivalent to a 480x320 window in Milestone1, ie. smaller then that in Milestone1, but normal for GBA games.
