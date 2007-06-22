@@ -50,7 +50,7 @@ Scrolling texts are used for the credits and were used for the intro and extro i
  This is a line in a small font.
 #This is a left-aligned line.
 *This should be printed in a blue font.
-No filename of the picture to be embedded into the scrolling text (relative to scrolltext file path)
+!Filename of the picture to be embedded into the scrolling text (relative to scrolltext file path)
 
 ")
   )
