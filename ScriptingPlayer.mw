@@ -1,11 +1,12 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 This module contains methods controlling the player. (No, SuperTux doesn't use mind control. Player refers to the type of the player object.)
 
-'''Once again, just like with [[ScriptingScriptedObject|ScriptedObject]], note that <tt>Player</tt> is only the object type. Since SuperTux is currently single-player only, use <tt>Tux</tt> to make changes to the player object, such as <tt>Tux.deactivate()</tt>. To access the player object from the console, use <tt>sector.Tux</tt>.'''
+== Instances ==
+Due to SuperTux's single-player nature, there is only one instance of the <tt>Player</tt> object. You can access it via <tt>Tux</tt> from a script and <tt>sector.Tux</tt> from the console.
 
-= Methods =
+== Methods ==
 {| class="objectlist"
 ! class="method"| add_bonus(string bonusname)
 | Gives Tux the specified bonus. Replace <tt>bonusname</tt> with either of <tt>"grow"</tt>, <tt>"fireflower"</tt> or <tt>"iceflower"</tt>.
@@ -56,7 +57,7 @@ This module contains methods controlling the player. (No, SuperTux doesn't use m
 | Makes Tux jump, if possible.
 |}
 
-= Constants =
+== Constants ==
 
 None
 
