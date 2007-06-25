@@ -1,9 +1,38 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 An ambient sound that was given a name can be controlled by scripts.
 
-= Methods =
+== Instance ==
+An <tt>AmbientSound</tt> is instantiated by placing a definition inside a level. It can then be accessed by its <tt>name</tt> from a script or via <tt>sector.<i>name</i></tt> from the console.
+
+=== Example ===
+In the level file:
+<pre>
+(ambient_sound
+  (name "niagara")
+  (x 10)
+  (y 20)
+  (width 100)
+  (height 51)
+  (distance_factor 0.5)
+  (distance_bias 0)
+  (sample "waterfall.wav")
+  (volume 1)
+)
+</pre>
+
+In a script:
+<pre>
+niagara.set_pos(0, 0);
+</pre>
+
+In the console:
+<pre>
+sector.niagara.set_pos(18, 35)
+</pre>
+
+== Methods ==
 {| class="objectlist"
 ! class="method" style="vertical-align: top"| set_pos(float x, float y)
 | Sets the position of the ambient sound
@@ -15,7 +44,7 @@ An ambient sound that was given a name can be controlled by scripts.
 | Returns the y coordinate.
 |}
 
-= Constants =
+== Constants ==
 
 None
 
