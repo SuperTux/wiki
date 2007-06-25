@@ -1,9 +1,12 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 <tt>Camera</tt> is an interface to manipulate the camera.
 
-= Methods =
+== Instances ==
+An instance named <tt>Camera</tt> (<tt>sector.Camera</tt> in the console) is available. ''(Note: doesn't having a class and an eponymous instance create a potential for conflicts? We should probably rename the instance or the class.)''
+
+== Methods ==
 {| class="objectlist"
 ! class="method"| shake(float time, float x, float y)
 | Warning: This function has not yet been implemented.
@@ -18,7 +21,7 @@ __NOTOC__
 | Scrolls the camera to (<tt>x</tt>, <tt>y</tt>) within <tt>time</tt> seconds.
 |}
 
-= Constants =
+== Constants ==
 
 None
 
