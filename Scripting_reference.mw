@@ -45,22 +45,19 @@ If you are interested in an object and what cans of worms you can open with it, 
 | An object that does graphical effects on the whole screen
 |-
 ! [[ScriptingCamera|Camera]]
-| ...
+| Control over the camera (what the player sees)
 |-
 ! [[ScriptingLevel|Level]]
-| ...
+| Control over the status the game keeps about the current level.
 |-
 ! [[ScriptingScriptedObject|ScriptedObject]]
 | Object in a level than can be manipulated from scripts
 |-
-! [[ScriptingSound|Sound]]
-| ...
-|-
 ! [[ScriptingText|Text]]
-| ...
+| Display text in the top-center of the screen
 |-
 ! [[ScriptingFloatingImage|FloatingImage]]
-| ...
+| Display an image floating in front of anything on-screen
 |-
 ! [[ScriptingPlatform|Platform]]
 | Scripting interface to Platform object
