@@ -1,11 +1,13 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 
-A ScriptedObject is basically a SuperTux object that can be scripted to move around and animate. You can created ScriptedObjects
-by defining them in level files. Each scripted object will be exposed under its name to the scripting engine.
+A ScriptedObject is basically a SuperTux object that can be scripted to move around and animate.
 
-= Example =
+== Instances ==
+ScriptedObjects are created by being defined in level files. Each scripted object will be exposed under its name to the scripting engine. Access through the console is realised via the <tt>sector</tt> object.
+
+=== Example ===
 
 Example of a definition:
  <pre>
@@ -21,7 +23,7 @@ Example of a definition:
   ) 
  </pre>
 
-The above object will be exposed under the name SUPERTUX in the scripting engine. Example usage:
+The above object will be exposed under the name <tt>SUPERTUX</tt> in the scripting engine. Example usage:
 
  <pre>
   // This script will make tux look and walk left/right (this should make him appear
@@ -37,7 +39,9 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
   wait(0.3);
  </pre>
 
-= Methods =
+The object can be accessed from the console <tt>sector.SUPERTUX</tt>.
+
+== Methods ==
 {| class="objectlist"
 ! class="method"| set_action(string animation)
 | Activates the sprite's action specified in <tt>animation</tt>.
@@ -82,7 +86,7 @@ The above object will be exposed under the name SUPERTUX in the scripting engine
 | Returns the name of the object
 |}
 
-= Constants =
+== Constants ==
 
 None
 
