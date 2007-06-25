@@ -1,9 +1,12 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 This module provides access to methods responsible for displaying text on-screen.
 
-= Methods =
+== Instances ==
+An eponymous instance (<tt>Text</tt>) can be accessed from scripts. The console allows a <tt>sector.Text</tt>.
+
+== Methods ==
 {| class="objectlist"
 ! class="method"| set_text(string text)
 | Sets the text string to be displayed to <tt>text</tt>.
@@ -24,7 +27,7 @@ This module provides access to methods responsible for displaying text on-screen
 | If <tt>centered</tt> is <tt>true</tt>, the text will be centered on the screen. Otherwise, it will be left-aligned.
 |}
 
-= Constants =
+== Constants ==
 
 None
 
