@@ -1,10 +1,13 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 
 A [[Thunderstorm]] object that was given a name can be controlled by scripts.
 
-= Example =
+== Instances ==
+A <tt>Thunderstorm</tt> is initialised by a definition in the level. It can be accessed via its <tt>name</tt> in scripts and <tt>sector.<i>name</i></tt> in the console.
+
+=== Example ===
 
 Example of a definition:
 <pre>
@@ -22,7 +25,12 @@ wait(2);
 ELIZA.lightning();
 </pre>
 
-= Methods =
+In the console:
+<pre>
+sector.ELIZA.electrify()
+</pre>
+
+== Methods ==
 {| class="objectlist"
 ! class="method"| start()
 | Start playing thunder and lightning at configured interval
@@ -43,7 +51,7 @@ ELIZA.lightning();
 | Electrify water throughout the whole sector for a short time
 |}
 
-= Constants =
+== Constants ==
 
 None
 
