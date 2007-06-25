@@ -1,9 +1,12 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 The <tt>Level</tt> class provides basic controlling functions for the current level.
 
-= Methods =
+== Instances ==
+An instance named <tt>Level</tt> is available from scripts and the console. ''(Note: class and eponymous instance might create potential conflicts – the name of one might be changed eventually)''
+
+== Methods ==
 {| class="objectlist"
 ! class="method" style="vertical-align: top"| finish(bool win)
 | Ends the current level. If you set <tt>win</tt> to <tt>true</tt>, the level is marked as completed if launched from a worldmap.<br />Tip: Very useful if you have created a frustrating level and want to, at some point, save the player from agony.
@@ -18,7 +21,7 @@ The <tt>Level</tt> class provides basic controlling functions for the current le
 | Toggle pause
 |}
 
-= Constants =
+== Constants ==
 
 None
 
