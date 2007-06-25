@@ -12,6 +12,7 @@ http://sourceforge.net/project/showfiles.php?group_id=98581&package_id=181273
 ==PcLinuxOs==
 
 Pclinuxos has stable supertux in the repository.
+: It can be installed with an apt-get command, the same way it is on Ubuntu: sudo apt-get install supertux. PCLinuxOS uses apt-get with RPM files.
 
 ==Mac OS X==
 
