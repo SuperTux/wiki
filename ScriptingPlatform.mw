@@ -1,10 +1,13 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 
 A [[Moving platform]] that was given a name can be controlled by scripts.
 
-= Example =
+== Instances ==
+An instance is created by being defined in a level. It may be accessed via its <tt>name</tt> from scripts and via <tt>sector.<i>name</i></tt> from the console.
+
+=== Example ===
 
 Example of a definition:
  <pre>
@@ -32,7 +35,13 @@ The above object will be exposed under the name PLATFORM1 in the scripting engin
   PLATFORM1.goto_node(0);
  </pre>
 
-= Methods =
+From console:
+
+<pre>
+  sector.PLATFORM1.goto_node(1);
+</pre>
+
+== Methods ==
 {| class="objectlist"
 ! class="method"| goto_node(int node_no)
 | advance until at given node, then stop.
@@ -44,7 +53,7 @@ The above object will be exposed under the name PLATFORM1 in the scripting engin
 | stop advancing automatically
 |}
 
-= Constants =
+== Constants ==
 
 None
 
