@@ -1,10 +1,13 @@
 __NOTOC__
 
-= Summary =
+== Summary ==
 
-<tt>DisplayEffect</tt> is an interface for toying with the display. It has to be instantiated; for your convenience, SuperTux creates an instance named <tt>Effect</tt> when starting the scripting engine. Its usage is preferred.
+<tt>DisplayEffect</tt> is an interface for toying with the display.
 
-= Methods =
+== Instances ==
+SuperTux creates an instance named <tt>Effect</tt> when starting the scripting engine. Its usage is preferred – creating another instance might have unexpected side effects and is strongly discouraged. (Use <tt>sector.Effect</tt> in the console.)
+
+== Methods ==
 {| class="objectlist"
 ! class="method"| fade_out(float fadetime)
 | Gradually fades out the screen to black for the next <tt>fadetime</tt> seconds.
@@ -25,7 +28,7 @@ __NOTOC__
 | Sets the display ratio to 4:3, removing the black bars added by <tt>sixteen_to_nine()</tt>. Should be used after cutscenes. Gradually fades to this state for the next <tt>fadetime</tt> seconds.
 |}
 
-= Constants =
+== Constants ==
 
 None
 
