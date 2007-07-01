@@ -19,7 +19,7 @@ SuperTux is a side-scrolling 2D platformer featuring [[Tux]], the Linux mascot, 
 SuperTux is played with either the keyboard or any game controller recognized by the operating system. The following list shows all controls needed to play the game, along with their default keys. Note that all of the controls can be configured in-game.
 
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
-|  Controls
+|+ Controls
 ! Control !! Default mapping !! Description
 |-
 | Left || Cursor Left || Makes Tux walk left
@@ -46,7 +46,7 @@ To help Tux in his quest to rescue Penny, various Powerups have been placed thro
 When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several Powerups:
 
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
-|  Powerups
+|+ Powerups
 ! Pic !! Name !! Effect
 |-
 | [[Image:Coin-0.png]] || Coin || '''Milestone 1:''' Collect 100 coins to gain an extra life. '''Milestone 2:''' Every time Tux dies, he will lose 25 coins and restart at the last firefly he activated. If he has less than 25 coins left, he will lose all of them and restart at the beginning of the level.
