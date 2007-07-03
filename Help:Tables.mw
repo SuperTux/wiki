@@ -9,7 +9,7 @@ A good general rule of thumb is to avoid using a table unless you need to. Table
 {|cellpadding="5" cellspacing="0" border="1" width="600"
 |<nowiki>{|</nowiki> || start '''table'''
 |-
-|<nowiki>|+</nowiki> || table '''caption,''' ''optional;'' only one per table and between table start and first row
+|<nowiki>| </nowiki> || table '''caption,''' ''optional;'' only one per table and between table start and first row
 |-
 |<nowiki>|-</nowiki> || '''table row,''' ''optional on first row'' -- wiki engine assumes the first row
 |-
@@ -21,7 +21,7 @@ A good general rule of thumb is to avoid using a table unless you need to. Table
 |}
 *The above marks must '''start on a new line''' except the double || and !! for optionally adding consecutive cells to a line.
 *'''XHTML attributes.''' Each mark, except table end, optionally accepts one or more XHTML attributes. Attributes must be on the same line as the mark. Separate attributes from each other with a single space. 
-**Cells and caption (<nowiki>| or ||, ! or !!, and |+</nowiki>) hold content. So separate any attributes from content with a single pipe (|). Cell content may follow on same line or on following lines.
+**Cells and caption (<nowiki>| or ||, ! or !!, and | </nowiki>) hold content. So separate any attributes from content with a single pipe (|). Cell content may follow on same line or on following lines.
 **Table and row marks (<nowiki>{| and |-</nowiki>) do not directly hold content. Do ''not'' add pipe (|) after their optional attributes. If you erroneously add a pipe after attributes for the table mark or row mark the parser will delete it ''and'' your final attribute if it was touching the erroneous pipe!
 *'''Content''' may (a) follow its cell mark on the same line after any optional XHTML attributes or (b) on lines below the cell mark. Content that uses wiki markup that itself needs to start on a new line, such as lists, headers, or nested tables, must of course be on its own new line.
 
@@ -440,7 +440,7 @@ A '''table caption''' can be added to the top of any table as follows
 {| width="100%"
 |width="50%"|
 {| border="1" cellpadding="20" cellspacing="0"
-|+Food complements
+| Food complements
 |-
 |Orange
 |Apple
@@ -454,7 +454,7 @@ A '''table caption''' can be added to the top of any table as follows
 |width="50%"|
 <pre>
 {| border="1" cellpadding="20" cellspacing="0"
-|+Food complements
+| Food complements
 |-
 |Orange
 |Apple
@@ -473,7 +473,7 @@ A '''table caption''' can be added to the top of any table as follows
 {| width="100%"
 |width="50%"|
 {| border="1" cellpadding="20" cellspacing="0"
-|+align="bottom" style="color:#e76700;"|''Food complements''
+| align="bottom" style="color:#e76700;"|''Food complements''
 |-
 |Orange
 |Apple
@@ -487,7 +487,7 @@ A '''table caption''' can be added to the top of any table as follows
 |width="50%"|
 <pre>
 {| border="1" cellpadding="20" cellspacing="0"
-|+align="bottom" style="color:#e76700;"|''Food complements''
+| align="bottom" style="color:#e76700;"|''Food complements''
 |-
 |Orange
 |Apple
