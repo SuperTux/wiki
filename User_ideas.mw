@@ -707,4 +707,36 @@ In SVN version, you can travel with boat across the seas. Maybe there could be;
 === Broken boat ===
 The boat that goes from ice land to forrest land should be broken, and before Tux can use it, he must fix it somehow, by obtaining some tools like a hammer, saw, sail or something. This would create a new sub-objective in the game, which would make the game more interesting. -- smallfoot
 
+== Anti-lanterns and Glass Walls==
+
+=== Glass wall ===
+
+Now, light permeates through walls. It shouldn't, although I don't know whether it can be done. Then there should be a Glass Block,
+which would be permeable.
+
+=== Anti-lantern ===
+
+Another idea, surely easier to implement, are Anti-lanterns. They should produce normal lightmap sprites (with positive colors) but their real lightcolor would be negative. This could be simply a feture of Lantern. In Latern::updateColor, instead of:
+
+ sprite->set_color(lightcolor);
+
+there would be:
+
+ if(lightcolor.red<0&&lightcolor.green<0&&lightcolor.blue<0){
+    sprite->set_color(-lightcolor); //Now it's an Anti-lantern
+ }else{
+    if(lightcolor.red<0||lightcolor.green<0||lightcolor.blue<0){
+       //At least one component is negative but not every one because it was the first case
+       //Error - it is neither a Lantern, neither an Anti-latnern
+    }else{
+       sprite->set_color(lightcolor);
+    }
+ }
+
+As an Anti-lantern would seem to be a normal lantern, it should be marked somehow, possibly with a minus on its top.
+
+Tux could use it when there was an inaccessable Lantern and a Magicblock standing in his way.
+
+--[[User:Špule|Špule]] 06:02, 3 July 2007 (UTC)
+
 [[Category:Design]]
