@@ -49,7 +49,7 @@ Some experiments with precompiled headers and ccache (compiling badguy/ subdirec
  ccache:
   real    0m10.645s,  user    0m5.932s, sys     0m1.764s
  
- g++
+ g  
   real    1m40.436s, user    1m13.833s, sys     0m5.352s
  
  precompiled header, gch
