@@ -298,6 +298,7 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 Radar Man moves by disappearing from the square he is in and appearing in one next to it. He does not harm Tux he simply makes Tux have to move like him for a while. Radar Man cannot be harmed.
 :Maybe its my poor English, but i dont understand what radar man is supposed to do.
 ::Radar Man is a teleporter type object.  He moves around, and if you touch him, you get teleported... that's how I understand it.
+:::In that case, it's already been implemented as a Will-O-Wisp. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 19:52, 9 July 2007 (UTC)
 
 ==== Safe ====
 [[Image:Safe.png|right]]
