@@ -299,6 +299,7 @@ Radar Man moves by disappearing from the square he is in and appearing in one ne
 :Maybe its my poor English, but i dont understand what radar man is supposed to do.
 ::Radar Man is a teleporter type object.  He moves around, and if you touch him, you get teleported... that's how I understand it.
 :::In that case, it's already been implemented as a Will-O-Wisp. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 19:52, 9 July 2007 (UTC)
+::::Seems more like an object that forces Tux to move like it for a while. --Shylence 10:10, 10 July 2007 (UTC)
 
 ==== Safe ====
 [[Image:Safe.png|right]]
@@ -354,6 +355,9 @@ Looks like a walking snowball encircled by a cloud of light blue smoke (frozen a
 
 ===== Buzzer =====
 Might look like [[:Image:Mrplasma.png|MrPlasma]]. Generates an electric field that hurts Tux and enemies and electrifies water. This could happen randomly, at fixed intervals or when Tux gets nearby.
+
+===== Fly =====
+A fly that flies around Tux, annoying him and forcing him to move, but without harming him.
 
 === Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
