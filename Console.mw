@@ -6,13 +6,12 @@ The Console is a panel normally hidden from view. Its usage is twofold:
 
 The Console pops into view for a short time whenever new messages are printed. To review old messages and enter commands, the console needs to be activated.
 
-By default no key is assigned to opening the console. This can be done by editing the SuperTux configuration file and adding a key binding for "console". For example, to activate the console using the tilde (~) key, you would add the following to the keymap section of the configuration file:
-      (map
-        (key 96)
-        (control "console")
-      )
+To do so, you will have to run supertux using the <tt>--console</tt> option. The key assigned to opening the console can be changed in the keyboard setup as soon it is activated.
 
-Then, you will have to run supertux using the <tt>--console</tt> option.
+To disable the console again you  have to edit the SuperTux configuration file <tt>~/.supertux2/config</tt>. Change 
+  (console #t)
+back to
+  (console #f)
 
 == Commands ==
 
