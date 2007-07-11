@@ -127,3 +127,4 @@ I've found a game on sourceforge.net called Super Michael (sourceforge.net/proje
 I installed SuperTux on my Ubuntu 7.04 system using the command: sudo apt-get install supertux
 
 How do I remove or uninstall SuperTux, please?
+ sudo apt-get remove supertux
