@@ -141,3 +141,5 @@ I've tried reinstalling.
 I have Ubuntu 7.04.
 
 :Well, I use Fedora, so for you it's likely somewhat different, but it's probably similar. For Fedora or Fedora Core, go to your home directory. Then open the folder ".supertux", then go to "save". There should be 5 files entitled "slot1.stsg", "slot2.stsg", "slot3.stsg", "slot4.stsg", and "slot5.stsg". These are the save files. Delete them to remove the saved games.
+
+::Since SuperTux works the same for all distros, these instructions apply for Ubuntu. Or, you could remove it *completely* (via Synaptic), which deletes config files as well. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 18:22, 12 July 2007 (UTC)
