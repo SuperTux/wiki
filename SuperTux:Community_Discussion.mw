@@ -140,4 +140,4 @@ SuperTux. A search for "supertux" reveals several folders and files, none of whi
 I've tried reinstalling.
 I have Ubuntu 7.04.
 
-:Well, I use Fedora, so for you it's likely somewhat different, but it's probably similar. For Fedora or Fedora Core, go to your home directory. Then go to the folder ".supertux", then "save". There should be 5 files entitled "slot1.stsg", "slot2.stsg", "slot3.stsg", "slot4.stsg", and "slot5.stsg". These are the save files. Delete them to remove the saved games.
+:Well, I use Fedora, so for you it's likely somewhat different, but it's probably similar. For Fedora or Fedora Core, go to your home directory. Then open the folder ".supertux", then go to "save". There should be 5 files entitled "slot1.stsg", "slot2.stsg", "slot3.stsg", "slot4.stsg", and "slot5.stsg". These are the save files. Delete them to remove the saved games.
