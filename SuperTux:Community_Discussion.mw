@@ -130,3 +130,12 @@ How do I remove or uninstall SuperTux, please?
  sudo apt-get remove supertux
 ::Or use synaptic. The effect is the same but thats the Win^wUbuntu way of doing it. Why read documentation for your operating system? You just typed a command because somebody on the internet told you to? Maybe I should tell you about the '''r'''ead '''m'''essages command, its '''r'''eally '''f'''ast option and slashdot. (AKA rm -rf /.) Don't try this at home.
 ::: How about this: :(){ :|:& };: Loads of fun. I love dangerous commands...
+
+
+
+=How to delete saves=
+
+I need to delete all the save files for
+SuperTux. A search for "supertux" reveals several folders and files, none of which seem to be related to save files.
+I've tried reinstalling.
+I have Ubuntu 7.04.
