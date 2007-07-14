@@ -89,7 +89,7 @@ Maybe platforms could detect wether Tux is standing on them or not. For example,
 === Improve the handling of Tux ===
 Please tweak the handling of Tux to make more precise movements possible. In version 0.3.0 at least, Tux gets accelerated forwards too fast, so it can be difficult to jump precisely. So reduce the *initial* accleeration, but of course, not the maximum. In other words, holding a direction should expotentially increase acceleration up to the normal level, starting off very slow, but then speeding up. This process would take maybe something like 1.5 seconds or something (test different settings and use the one that gives the best feeling of being in control). Basically make Tux handle more like Mario. ;P
 
-*Yeah, the current method is lazy anyway, even an amateur programmer can do that. (x =[speed], x-=[speed])
+*Yeah, the current method is lazy anyway, even an amateur programmer can do that. (x+=[speed], x-=[speed])
 ::Feel free to send a patch.
 
 === More Tux Moves ===
@@ -121,7 +121,7 @@ Tux really needs to swim. There should be underwater levels, and ways to go unde
 He's a penguin after all.
 
 === Scuba Gear? ===
-Give Tux a scuba tank for the inflated Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
+Give Tux a scuba tank for the inflated+Flying mode? He flies until out of breath, then falls. Once on ground, he can take another puff. The physics wouldn't work in the real world, but it should be passable in a game, eh? When he gets hit, drop the tank off the bottom of the screen much like a MrSnowball hit with a fireball?
 
 === Boxing gloves ===
 [[Image:Boxeur_tux.gif]]
@@ -589,7 +589,7 @@ the bottoms of very deep pits and trenches (50-100 spaces
 deep).
 
 '' SuperDark Water ''
-This water is jet-black; you can hardly see Tux, and so it is suitable for the deepest oceans and trenches (100  spaces
+This water is jet-black; you can hardly see Tux, and so it is suitable for the deepest oceans and trenches (100+ spaces
 deep).
 
 *This idea reminds me of one level in the original Jazz Jackrabbit. They implemented it by lowering the ambient brightness the further down Jazz swam, but they had a bunch of glow in the dark bits on plants and enemies so you could still see where to go (except the secrets they hid, no glowing bits there).
@@ -732,4 +732,21 @@ Another idea, surely easier to implement, are Anti-lanterns. They should produce
 
 there would be:
 
- if(lightcolor.red<0
+ if(lightcolor.red<0&&lightcolor.green<0&&lightcolor.blue<0){
+    sprite->set_color(-lightcolor); //Now it's an Anti-lantern
+ }else{
+    if(lightcolor.red<0||lightcolor.green<0||lightcolor.blue<0){
+       //At least one component is negative but not every one because it was the first case
+       //Error - it is neither a Lantern, neither an Anti-latnern
+    }else{
+       sprite->set_color(lightcolor);
+    }
+ }
+
+As an Anti-lantern would seem to be a normal lantern, it should be marked somehow, possibly with a minus on its top.
+
+Tux could use it when there was an inaccessable Lantern and a Magicblock standing in his way.
+
+--[[User:Špule|Špule]] 06:02, 3 July 2007 (UTC)
+
+[[Category:Design]]
