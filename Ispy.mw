@@ -1,18 +1,5 @@
-{{Infobox Badguy
-| Name=Ispy
-| Image=
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A spying eye.
-| Behaviour=Static, looking towards the nearest player.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=no
-| FirstVersion=
-}}
-'''Ispy''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. It is a spying eye looking for the player. When the player can be seen by the eye, i.e. no other badguys or walls are in the way, an action is triggered, for example doors close or bridges are removed.
+[[Image:Ispy-eyeball.gif]]
 
-[[Image:ChristophEstart.png]]
+{{Badguy|name=Ispy|image=Ispy|worlds=all Worlds|appearance=A spying eye.|behaviour=Static, looking towards the nearest player. When the Ispy can see a player (unobstructed line of sight), it triggers an alert, which might cause doors to close, traps to trigger, ...|squish=no|butt-jump=no|freeze=yes, shortly inactive|ignite=no}}
 
-{{Navbox Badguys}}
-[[Category:Badguy.3]]
+[[Category:Badguy]]
