@@ -11,7 +11,7 @@ MatzeB (svn version from 2.Mai)
 
 = How to create Demos =
 
-First note that '''Demos are only available in the development version!''' If you have compiled an svn version yourself, then you can record a demo of level25 like this for example (started from source dir):
+First note that '''Demos are only available in the development version!''' If you have compiled an svn version yourself, then you can record a demo of level25 like this for example (started from source dir): its a really awesome game!! TRY IT
 
   ./supertux --record-demo mydemo.demo data/levels/world1/level25.stl
 
