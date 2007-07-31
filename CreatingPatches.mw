@@ -1,1 +1,35 @@
-#REDIRECT [[Contributing]]
+= Contributing =
+
+== Why ==
+
+Once you have done some own changes to supertux, you probably want to show them to the world and contribute them to the project.
+
+Also if you want to join the supertux team then you first need to have some patches accepted before we'll give you write access to our repository.
+
+== How ==
+
+=== Images/Music/Levels ===
+
+Contribution which mostly add new files (typically when creating new graphics, sound, music, levels) can simply be put into an archive (preferably .tar.gz or .zip).
+
+=== Code ===
+
+However code changes typically change only parts of files so it's hard to spot differences to the previous versions of the files. So we only accept code changes in the form of a patches. This guide will walk you through the process of creating a patch.
+
+At first you should use
+
+ svn status
+
+which will print you a list of files with a prefix letter. M means you have changed the file, C means there has been a conflict between your changes and changes from someone else in the repository, and ? means the file is ignored by the version control.
+
+You should fix all conflicts (by editing the conflicted file, then using '''svn resolved &lt;filename&gt;''') and use '''svn add &lt;filename&gt;''' to add files that you created and want to add. '''svn remove''' will delete files from the repository. (Note that files are never really deleted; you may always check out a former revision when the file still existed.) Finally you can create a patch by using
+
+ svn diff > mypatch.patch
+
+This will create a file mypatch.patch that contains all changes you did to the repository. (You should open the file in a texteditor and verify that it contains all your changes and only changes you wanted to submit).
+
+== Now what? ==
+
+So you have your patch ready and want to submit it? Then the prefered way is to open a new report on our [http://supertux.lethargik.org/bugs/ bug tracker] and attach the changes to it. (You can upload and attach files to bugreports).
+
+An alternative method is uploading the changes to some website or ftp server and sending us the link on the mailing list. Using attachements on the mailing list is NOT good as the files tend to get big which will annoy people subscribed to the mailing list!
