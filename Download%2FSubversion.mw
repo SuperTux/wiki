@@ -40,19 +40,7 @@ Checking out the path above will get you all you need to contribute to SuperTux.
 
 == Creating Patches ==
 
-Once you have done some own changes on the repository and want to contribute them to the project, you have to create a patch (since the public repository is read only). The following steps walk you through the process of doing so:
-
-At first you should use
-
- svn status
-
-which will print you a list of files with a prefix letter. M means you have changed the file, C means there has been a conflict between your changes and changes from someone else in the repository, and ? means the file is ignored by the version control.
-
-You should fix all conflicts (by editing the conflicted file, then using '''svn resolved &lt;filename&gt;''') and use '''svn add &lt;filename&gt;''' to add files that you created and want to add. '''svn remove''' will delete files from the repository. (Note that files are never really deleted; you may always check out a former revision when the file still existed.) Finally you can create a patch by using
-
- svn diff > mypatch.patch
-
-This will create a file mypatch.patch that contains all changes you did to the repository. You should upload your patch to the [http://supertux.lethargik.org/bugs/ bug tracker].
+There's a whole section about [[CreatingPatches creating patches]].
 
 == Web Access ==
 If you just want to browse through the source a bit, then you can use the [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ Repository HTTP Interface] which should work well with your web browser.
