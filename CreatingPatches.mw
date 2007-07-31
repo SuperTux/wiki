@@ -33,3 +33,8 @@ This will create a file mypatch.patch that contains all changes you did to the r
 So you have your patch ready and want to submit it? Then the prefered way is to open a new report on our [http://supertux.lethargik.org/bugs/ bug tracker] and attach the changes to it. (You can upload and attach files to bugreports).
 
 An alternative method is uploading the changes to some website or ftp server and sending us the link on the mailing list. Using attachements on the mailing list is NOT good as the files tend to get big which will annoy people subscribed to the mailing list!
+
+
+== Licenses ==
+
+If your contribution can not be redistributed under the same license as the rest of Supertux we can't use it. Usually small code changes gets infected by GPL automatically. For everything else (like levels, images, sounds and new programs) we need to make sure that it is GPLv2 code and GPLv2 + CC-by-sa for everything else.
