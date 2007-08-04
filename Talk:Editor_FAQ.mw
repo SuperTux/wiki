@@ -11,3 +11,5 @@ The version of Mono in the Ubuntu repositories seems to be to old to run the edi
 Is there any way to run this under Mac OS X (@Intel)?
 -Shylence 19:28, 13 March 2007 (UTC)
 : Yes if you can get Mono working, see also the section [[Editor FAQ#Does the editor work under Mac OS X?|Does the editor work under Mac OS X?]] --[[User:AnMaster|AnMaster]] 08:07, 11 June 2007 (UTC)
+
+Re:the comments about OpenSuse - version 10.2 comes with gtk-sharp2-2.8.0* etc and afaics this is what generates the problem - installing gtk-sharp2-2.10.* glade-sharp2-2.10.* and glib-sharp2-2.10.* from the appropriate architecture in http://download.opensuse.org/distribution/SL-OSS-factory/inst-source/suse/ seems to do the trick! - Derek [[User:85.210.6.69|85.210.6.69]] 19:14, 4 August 2007 (UTC)
