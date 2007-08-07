@@ -192,6 +192,7 @@ Well I don't know if this is the place for posting comments, but let's go. These
 #Is there really a good reason for up and jump to be seperate keys? I like to use the up cursor key both as a jump key and to get around in the maps. If there must be an "up" key that is seperate from the "jump" key, then make the cursor keys control the map no matter what the game controls are. This drove me crazy when I set my jump key to 'up' and up/climb key to 'space' and found I couldn't get around the map.
 #The bell needs a sound.
 #Why does Mr. Icecube do different things depending on exactly how he's hit? The Milestone 1 behavior made a lot of sense: first jump freezes the ice cube, second jump makes it slide. Milestone 2 seems to sometimes skip the "stun" phase and go straight to sliding if Tux hits just wrong.
+#Usage of OpenGL causes compatibility problems on older computers, which max out at 2 FPS. :-(
 
 Other than that, Milestone 2 looks great and I can't wait to get to the forest levels.
 
