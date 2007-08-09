@@ -157,6 +157,8 @@ Warp pipes should be able to be stood on, but by pressing down on the arrow pad,
 === Badguy Improvements ===
 You should be able to pick up the beetle baddy and hit it from the side. The fish needs to be able to jump and swim, and should work even if there is no water in the interactive layer, and is just in the foreground. The badguys should stop killing each other.
 
+*you could\should\SHOULD make the creator of the level have the ability to turn badguys killing badguys on and off.
+
 === Some more badguys ===
 
 
