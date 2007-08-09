@@ -114,7 +114,7 @@ Yes, but it requires a complete setup. you will have to compile some GTK# progra
 === I get an error about "Object reference not set to an instance of an object" ===
 This can be several things:
 #Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
-#If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least [http://www.mono-project.com/Downloads|[1.2.2.1.]]
+#If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least [http://www.mono-project.com/Downloads 1.2.2.1].
 
 
 If any of the above didn't solve the problem and you manage to recreate the error, report the bug with at least this info:
