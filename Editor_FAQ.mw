@@ -42,9 +42,8 @@ Press the Control key while moving an object to snap to every 16 pixels. Press t
 [[Image:Spawnpoint.png|left]] The SpawnPoint object is used to define places where Tux could "spawn". This is used to mark where Tux should start in the level, the destination of doors and more. The spawnpoint where Tux will start on loading the level must be named "main" and be in the sector called "main".
 
 === How do I change the background image? ===
-in the medeian of the tile and stuff screen and the<br/>
-properties area it says "background" normally. if you click on it<br/>
-you can change it's properties, including what is it's picture is.<br/>
+Select "Background" in the sector objects view. There you can change it's properties, including what picture(s) should be used for background.
+
 <br/>
 
 == Other tools ==
