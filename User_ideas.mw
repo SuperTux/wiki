@@ -767,5 +767,6 @@ Tux could use it when there was an inaccessable Lantern and a Magicblock standin
 === Change language in-game ===
 
 It would be great if one could change the language settings of SuperTux in-game.
+:It can be changed in SVN version. But what do you need that feature for? All I can think of is change Language to English so you know the name of the level for a bug report.
 
 [[Category:Design]]
