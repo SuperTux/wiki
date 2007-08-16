@@ -1,3 +1,5 @@
 I have a different keyboard layout, is there a way to find out which key number is the tilde? (Using MS 1.9)
 :I don't think the key numbers change.  The raw key codes are abstracted away by SDL and the kernel. --[[User:Tuxdev|Tuxdev]] 02:11, 11 Nov 2006 (CET)
 :In the MS 1.9 preview builds, the Console is deactivated by default. Once it is activated, you can change simply change the console key in the "Options > Setup Keyboard" menu. --[[User:Sommer|Sommer]] 10:29, 11 Nov 2006 (CET)
+Where Is The SuperTux configuration file
+--[[User:66.230.114.105|66.230.114.105]] 19:40, 16 August 2007 (UTC)
