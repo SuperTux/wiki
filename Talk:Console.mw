@@ -3,3 +3,4 @@ I have a different keyboard layout, is there a way to find out which key number 
 :In the MS 1.9 preview builds, the Console is deactivated by default. Once it is activated, you can change simply change the console key in the "Options > Setup Keyboard" menu. --[[User:Sommer|Sommer]] 10:29, 11 Nov 2006 (CET)
 Where Is The SuperTux configuration file
 --[[User:66.230.114.105|66.230.114.105]] 19:40, 16 August 2007 (UTC)
+:That depends on what operating system you use, on Linux it would be /home/yourusername/.supertux2/config, on Windows somewhere like c:\Documents and Settings\yourusername\.supertux2\config (if I recall correctly, I'm a Linux user :) ) --[[User:AnMaster|AnMaster]] 14:01, 17 August 2007 (UTC)
