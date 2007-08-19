@@ -23,6 +23,12 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * solve the up vs jump problem
 * make coins fade to transparency, instead of just disappear
 * rewrite save-game system, no slots per level, but instead a single profile per user that keeps track of everything, new user profiles can be created in the option menu, the default is one profile so that the user never has to worry about slots
+* make submenus look different then clickable menu items
+* remove the helper-tiles in levels where enemies should be stay-on-platform
+* make [?] block tilt according to the direction from which it is bumped
+* german umlauts seem to be broken
+* design a new ice-castle titleset
+* design enemies that fit into a ice-castle
 
 === Future ===
 
