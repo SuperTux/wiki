@@ -29,6 +29,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * german umlauts seem to be broken
 * design a new ice-castle titleset
 * design enemies that fit into a ice-castle
+* implement threading in netbrush-server (needed so that new users don't bring the session to a crawl)
 
 === Future ===
 
