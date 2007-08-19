@@ -1,0 +1,37 @@
+To get development speed up and back into motion we are currently trying the use of meetings via voice chat instead of just text, the first meeting so far was a success and we want to redo it again. This page is meant to document the required software and setup.
+
+== Software ==
+
+Three pieces are needed to participate fully in a meeting, one is Ekiga, a internet phone application, the other is netBrush, a multiplayer paint application and last not least a good old IRC client:
+
+* http://ekiga.org/
+* http://happypenguin.org/show?netBrush
+* IRC client
+
+=== Ekiga ===
+
+To participate in a meeting you need an account at [http://www.ekiga.net Ekiga.net], other sip accounts don't seem to work with the conference server. Make sure that your soundcard and micrphone are working correctly (you can use Audacity for testing).
+
+Once you have it installed and created yourself an account you can test it with the EchoTest, that you can call at:
+
+* sip:500@ekiga.net
+
+The conference itself will be done at:
+
+* sip:501XXXX@ekiga.net
+
+XXXX is the room number, which will be announced on IRC. If you haven't 
+
+=== netBrush ===
+
+Using netbrush is relativly simple, its started with: 
+
+./netbrush-client SERVER PORT
+
+both SERVER and PORT are announced before the start of the meeting on IRC.
+
+== Alternatives ==
+
+There seems to be one viable alternative to Ekiga and that is mumble, its simpler in that it doesn't require an account and is specifically designed for multiple people talking at once. However quite a few people had trouble getting it to compile or fail to work properly with their soundcard, while Ekiga worked for most.
+
+* http://mumble.sourceforge.net/
