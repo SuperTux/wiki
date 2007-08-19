@@ -1,4 +1,4 @@
-== Milestone 2 ==
+= Milestone 2 =
 
 Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
@@ -6,23 +6,29 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
 {{Attention|s=Only developers should edit this page. Please add [[User ideas]] and [[Bugs]] to the end of their pages}}
 
-'''High priority H:''' milestone goals that should be implemented for next milestone
-
-'''Medium priority M:''' would be nice to have for next milestone, but should be secondary to high priority goals
-
-'''Low priority L:''' things that should be fixed sometime
-
-'''?:''' things that need to be discussed to determine whether or not they should be implemented
-
-'''D:''' features that will be implemented but need further discussion on how to implement them
-
-Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound]] and [[:Category:Needs Graphics]] list articles that describe content which still lacks one of the three.
-
-== Programming ==
-
-Moved to our [http://supertux.lethargik.org/bugs bug tracker].
+Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound]] and [[:Category:Needs Graphics]] list articles that describe content which still lacks one of the three. Bugs can be found in our [http://supertux.lethargik.org/bugs bug tracker].
 
 
+== Game Tasks ==
+
+=== Current ===
+
+* integrate new bomb sprite, remove the old
+* integrate new green pipe
+* repaint dead-iceblock
+* replace all Tux sprites with the old single-image ones
+* cleanup the test levels or move them into subcategories or fix the menu so that it handles lists larger then the screen
+* peek left/right doesn't seem to work
+* make list of ugly titles that need replacement
+* solve the up vs jump problem
+* make coins fade to transparency, instead of just disappear
+* rewrite save-game system, no slots per level, but instead a single profile per user that keeps track of everything, new user profiles can be created in the option menu, the default is one profile so that the user never has to worry about slots
+
+=== Future ===
+
+* improve the menu look&feel, maybe larger fonts, round borders, graphic border instead of fill-rect, etc.
+* add paralax scrolling to all levels
+* remove old water from levels (bridge levels)
 
 == Editor ==
 (The editor is not release critical therefore no ratings for these TODOS)
