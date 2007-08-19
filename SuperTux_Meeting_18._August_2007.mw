@@ -5,8 +5,8 @@ wansti, grumbel, paroneayea, __delta, gwater (spectating), and
 WolfgangB (briefly).  IRC, Ekiga and netbrush were used in
 conjunction, which seemed to be a very well working setup.
 
-A couple of pages from netbrush (I'll be refering to these as Image1
-and Image2, respectively):
+A couple of pages from netbrush (I'll be refering to these as [http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png Image1]
+and [http://pingus.seul.org/~grumbel/tmp/md5/69e2a41d51ed129242541fa7c52bc259-canvas-15.png Image2], respectively):
 
 http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png
 http://pingus.seul.org/~grumbel/tmp/md5/69e2a41d51ed129242541fa7c52bc259-canvas-15.png
@@ -64,7 +64,7 @@ Two categories of enemies were discussed:
 === Ice Dragon ===
 
 This enemy would probably come in both adult and baby form.  There
-are some drawings of him on the middle-left side of Image1.  This
+are some drawings of him on the middle-left side of [http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png Image1].  This
 creature can spit ice blobs which can freeze Tux (who then has to
 jump a lot to get free)
 
@@ -76,7 +76,7 @@ ice dragon, tux can ride on, and can also use to move around.
 
 In slushy snow or quicksand (see "Liquids" in environments for more
 details), tux should be able to grab on to this character to safely
-walk across quicksand or snow without sinking.  (See Image1, center)
+walk across quicksand or snow without sinking.  (See [http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png Image1], center)
 
 === Big Snowball ===
 
@@ -101,7 +101,7 @@ in "Environments"
 
 This is an example of a temporary item that can be used as a
 powerup.  A pile of these are grabbed off of the ground, and they can
-be thrown on an arc and then they disappear.  (See Image2, various
+be thrown on an arc and then they disappear.  (See [http://pingus.seul.org/~grumbel/tmp/md5/69e2a41d51ed129242541fa7c52bc259-canvas-15.png Image2], various
 places).  Since you only have a handful of these, they aren't a
 boring "permanent" powerup like the ice/fire flower, and would have
 to be dropped to do other things, grab onto other enemies, and such
@@ -112,7 +112,7 @@ strategic bits.
 A long discussed and desired feature is for Tux to be able to slide
 on his belly along sloped surfaces.  At the edge of ramps, Tux may
 be able to perform something akin to a "ski jump".  (see mid-right,
-Image1).
+[http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png Image1]).
 
 In the snow world, there should be able to be two places where this
 can happen, on snowy grounds (where tux can choose to slide) and icy
@@ -128,7 +128,7 @@ has to walk across was discussed.  Some developers expressed
 reluctance, as the feeling of losing control on these kinds of
 surfaces can feel frustrating.  It was agreed upon that slippery
 surfaces should be used *strategically*, for brief periods.  An
-example of this is on the upper-right of Image1.
+example of this is on the upper-right of [http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png Image1].
 
 === Swimming ===
 
@@ -145,7 +145,7 @@ important in the game.  It has been agreed that instead of info
 boxes, we'll have "info boards".  These will be graphical
 descriptions of the activity, along with drawings of the button
 mapping to perform it (which will be grabbed dynamically off of the
-user's input settings).  See lower-right of Image1 for an example of
+user's input settings).  See lower-right of [http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png Image1] for an example of
 this.
 
 Grumbel notes that this [http://pingus.seul.org/~grumbel/tmp/md5/ca5c98b54e92b1317776c49970f2bbbe-info-boxes-done-right.png this] is a good example of these being done right.
@@ -168,7 +168,7 @@ bit more hazardous than water.
 Quicksand/Slushy Snow is a kind of liqud that would be nice to have.
 You have to keep hopping to keep from sinking (unless you grab on to
 one of the above-mentioned snow/sand shoe monsters) (See middle of
-Image1 for an example)
+[http://pingus.seul.org/~grumbel/tmp/md5/009f4fc9f2fefa975f8a61ac762b5613-canvas-12.png Image1] for an example)
 
 === Avalanche ===
 
@@ -176,7 +176,7 @@ This would be a special type of level where snowballs at the top
 come tumbling toward Tux.  Tux has to keep running to keep from
 getting crushed (think Indiana Jones and Crash Bandicoot).  Being
 touched by the snowballpile leads to instant death.  See the
-top-left of Image2 for details.
+top-left of [http://pingus.seul.org/~grumbel/tmp/md5/69e2a41d51ed129242541fa7c52bc259-canvas-15.png Image2] for details.
 
 
 == Story ==
