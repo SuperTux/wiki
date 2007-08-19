@@ -20,7 +20,7 @@ The conference itself will be done at:
 
 * sip:501XXXX@ekiga.net
 
-XXXX is the room number, which will be announced on IRC. If you haven't 
+XXXX is the room number, which will be announced on IRC. Before participating in a meeting it is recommend that you try to use the conference server for yourself, some people had trouble connecting to it or understanding each other. It is a good idea to fix those issues before joining the official meeting. 
 
 === netBrush ===
 
@@ -29,6 +29,10 @@ Using netbrush is relativly simple, its started with:
 ./netbrush-client SERVER PORT
 
 both SERVER and PORT are announced before the start of the meeting on IRC.
+
+== Process ==
+
+The meetings always start on IRC, when all people that want to participate are available the conference room number is chosen. The first meeting showed that making netbrush server and conference room number available to the public isn't a good idea, since it makes it hard to track down which user is having trouble with his setup, which is already in the room (Ekiga doesn't provide any info on that) and such. Also netbrush-server currently has trouble with people connecting late into a session. So to keep things stable, the room number isn't published on the public channel, but /msg'ed to everyone that wants to participate one by one, making sure that their setup is working.
 
 == Alternatives ==
 
