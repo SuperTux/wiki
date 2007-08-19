@@ -34,7 +34,7 @@ both SERVER and PORT are announced before the start of the meeting on IRC.
 
 == Process ==
 
-The meetings always start on IRC, when all people that want to participate are available the conference room number is chosen. The first meeting showed that making netbrush server and conference room number available to the public isn't a good idea, since it makes it hard to track down which user is having trouble with his setup, which is already in the room (Ekiga doesn't provide any info on that) and such. Also netbrush-server currently has trouble with people connecting late into a session. So to keep things stable, the room number isn't published on the public channel, but /msg'ed to everyone that wants to participate one by one, making sure that their setup is working.
+The meetings always start on IRC, when all people that want to participate are available the conference room number is chosen. The first meeting showed that making netbrush server and conference room number available to the public isn't a good idea, since it makes it hard to track down which user is having trouble with his setup, who is already in the room (Ekiga doesn't provide any info on that) and such. Also netbrush-server currently has trouble with people connecting late into a session. So to keep things stable, the room number isn't published on the public channel, but /msg'ed to everyone that wants to participate one by one, making sure that their setup is working.
 
 == Alternatives ==
 
