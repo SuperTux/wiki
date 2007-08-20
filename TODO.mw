@@ -20,16 +20,20 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * cleanup the test levels or move them into subcategories or fix the menu so that it handles lists larger then the screen
 * peek left/right doesn't seem to work
 * make list of ugly titles that need replacement
-* solve the up vs jump problem
 * make coins fade to transparency, instead of just disappear
 * rewrite save-game system, no slots per level, but instead a single profile per user that keeps track of everything, new user profiles can be created in the option menu, the default is one profile so that the user never has to worry about slots
 * make submenus look different then clickable menu items
 * remove the helper-tiles in levels where enemies should be stay-on-platform
 * make [?] block tilt according to the direction from which it is bumped
-* german umlauts seem to be broken
+* german umlauts seem to be broken when switching the language in game
 * design a new ice-castle titleset
 * design enemies that fit into a ice-castle
 * implement threading in netbrush-server (needed so that new users don't bring the session to a crawl)
+
+==== Input ====
+* solve the up vs jump problem (checkbox sounds good to solve it)
+* implement configurable joystick hat support
+* implement wiimote support (easily done with cwiid), should be #ifdef'ed out if library doesn't exit
 
 === Future ===
 
