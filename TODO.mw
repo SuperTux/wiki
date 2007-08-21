@@ -38,6 +38,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * solve the up vs jump problem (checkbox sounds good to solve it)
 * implement configurable joystick hat support
 * implement wiimote support (easily done with cwiid), should be #ifdef'ed out if library doesn't exit
+* check that joystick code works with analogsticks properly and fix where necessary
 
 ==== Bugs ====
 * peek left/right doesn't seem to work
