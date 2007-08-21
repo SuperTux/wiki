@@ -114,6 +114,8 @@ Yes, but it requires a complete setup. you will have to compile some GTK# progra
 This can be several things:
 #Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
 #If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least [http://www.mono-project.com/Downloads 1.2.2.1].
+'''Note: That the Mono version with installation is not compatible with the Level Editor.'''
+
 
 
 If any of the above didn't solve the problem and you manage to recreate the error, report the bug with at least this info:
