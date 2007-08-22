@@ -33,10 +33,9 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * make submenus look different then clickable menu items
 * make [?] block tilt according to the direction from which it is bumped
 * implement threading in netbrush-server (needed so that new users don't bring the session to a crawl)
+* make lisp reader get(name, bool) handle 0/1 as bool instead of fail
 
 ==== Input ====
-* solve the up vs jump problem (checkbox sounds good to solve it)
-* implement configurable joystick hat support
 * implement wiimote support (easily done with cwiid), should be #ifdef'ed out if library doesn't exit or better dlopen the library at runtime
 * check that joystick code works with analogsticks properly and fix where necessary
 
