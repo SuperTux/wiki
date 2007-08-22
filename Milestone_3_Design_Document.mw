@@ -46,6 +46,25 @@ The shop is a little house accessible via the worldmap, it provides the player w
 * language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
 * worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
 
+= Controls =
+
+Game Controls will be configurable, either the keyboard or a joystick can be used, additional support for more exotic devices such as Wiimotes might be present as well. The basic control scheme works by having a dpad (left, right, up, down) along with one or two action buttons, depending on the users configuration one action button will be used for jump and the other for grabbing object or jump will be bound to the up-direction and just one action button is needed for grabbing.
+
+== Configuration 1 (jump with button) ==
+
+* left/right/up/down: navigate worldmap and levels
+* up: enter doors
+* action1: jump, enter a level
+* action2: grab
+
+== Configuration 2 (jump with up)
+
+* left/right/up/down: navigate worldmap and levels
+* up: jump or enter doors
+* action1: grab, enter a level
+
+Additional buttons allow to pause the game, enter the menu and other meta-game functions.
+
 = Actions =
 
 == Starfish ==
