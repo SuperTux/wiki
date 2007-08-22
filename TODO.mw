@@ -35,6 +35,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 * implement threading in netbrush-server (needed so that new users don't bring the session to a crawl)
 * make lisp reader get(name, bool) handle 0/1 as bool instead of fail
 * worldmap teleporters shouldn't be instant, but let the screen scroll from one teleporter to the other
+* getting stuck under a tile as large-tux shouldn't harm you, just unstuck you
 
 ==== Input ====
 * implement wiimote support (easily done with cwiid), should be #ifdef'ed out if library doesn't exit or better dlopen the library at runtime
