@@ -58,7 +58,7 @@ control.
 
 Two categories of enemies were discussed:
 
-* ''Carryable enemies:'' these enemies are carried around (much the way SuperTux currently carries an ice block), and thier powers can be used to help tux attack other enemies, better maneuver the environment, et cetera.  See baby "Ice Dragon" and "Snowshoes Monster" below.
+* ''Carryable enemies:'' these enemies are carried around (much the way SuperTux currently carries an ice block), and their powers can be used to help tux attack other enemies, better maneuver the environment, et cetera.  See baby "Ice Dragon" and "Snowshoes Monster" below.
 * ''Riding enemies:'' These enemies Tux grabs on to and goes for a ride.  See adult "Ice Dragon" below.
 
 === Ice Dragon ===
