@@ -22,6 +22,8 @@ Some levels are very hard in the middle and in the ending. Is there a way to mak
 perhaps it should be possible to see that you are passing a resetpoint!
 :Restart points exist in the SVN version, they are marked by butterfly.
 
+:also in the virsion on the download page, "unstable", 0.1.9, or 0.3.0 (<-all the same)
+
 === New tiles for the worldmap ===
 I already designed some additional worldmap objects for Supertux 0.1.2, e.g. paths through the forest or something like "water ways". Maybe in MS 2 some kind of swimming tux in worldmap could be possible, or walking over a bridge. (For my current solution I only added something to my antarctica.stwt.) - penma -
 
