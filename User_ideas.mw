@@ -36,6 +36,7 @@ I already designed some additional worldmap objects for Supertux 0.1.2, e.g. pat
 I would recommend platforms that could be jumped through from the bottom but you can't fall through them if you are on top. SSB has this, as well as many mario and platforming game. This allows for Points of No Return, and would make the game capable of better and less redundant level design
 
 : In svn: unisolid tiles
+: also in "unstable" download
 
 === Better rewards ===
 
