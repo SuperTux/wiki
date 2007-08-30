@@ -158,6 +158,8 @@ Have the game engine display background as 75% brightness, making some levels ea
 === Warp Pipes ===
 Warp pipes should be able to be stood on, but by pressing down on the arrow pad, Tux could go down them. This could connect underwater and cave levels, and should work somewhat like the door, which already works. They could be used as secret areas, and would add a lot of depth to the gameplay.
 
+:This effect can already be accomplished by using a script over the top of the pipe.  The script can use spawn points to respawn Tux inside the secret area, etc.  (NathanKP)  8/30/2007
+
 === Badguy Improvements ===
 You should be able to pick up the beetle baddy and hit it from the side. The fish needs to be able to jump and swim, and should work even if there is no water in the interactive layer, and is just in the foreground. The badguys should stop killing each other.
 
