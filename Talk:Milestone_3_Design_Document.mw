@@ -1,4 +1,6 @@
 == Comments ==
+:I don't think that reset points look bad at all.  However, if all the levels are too short the game as a whole won't be very impressive.  Maybe it would be better if reset points were recoded so that level save points included the last reset point.  In other words, the user could leave Tux at a rest point, quit Supertux, restart and be within the last played level at the last reset point.  I think that might be a useful feature. NathanKP  10:10 8/30/2007
+
 : Making saveslot selection the very first thing in the game (before the mainmenu pops up) might be a good idea --[[User:MatzeB|MatzeB]] 19:07, 29 January 2007 (UTC)
 ::Why? --[[User:Superdev|Superdev]] 22:51, 30 January 2007 (UTC)
 
