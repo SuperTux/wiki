@@ -778,12 +778,6 @@ Tux could use it when there was an inaccessable Lantern and a Magicblock standin
 It would be great if one could change the language settings of SuperTux in-game.
 :It can be changed in SVN version. But what do you need that feature for? All I can think of is change Language to English so you know the name of the level for a bug report.
 
-=== Add tiles to the level ===
-maybe you could (check that, SHOULD) allow to add tiles in a level.
-say you draw a picture and you want it as a tile for your level, 
-but you want to be able to distribute it, the either you distribute
-a add-on to the eqivalant of supertux.stgt, or yo could add it to the level! the scriptedobjects don't come even close - theyre not solid if they don't have phisics, and if they do, they fall, so
-what's the point? and a tile would show through if you tried to use it's solidness and the scriptedobject's picture. can/will you solve this? i'd love to help,
-but i don't have linux right now. --[[User:Disk|Disk]] 18:28, 30 August 2007 (UTC)
+
 
 [[Category:Design]]
