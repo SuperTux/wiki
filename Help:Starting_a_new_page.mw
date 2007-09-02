@@ -10,4 +10,34 @@ Once the page has been created, the link will change from <span style="color: #b
 
 == Using the URL ==
 You can use the wiki's URL for creating a new page. The URL to an article of the wiki is usually something like this:
-*<code><nowiki>http://wiki.example.org/index.php/</nowiki>'''ARTICLE'''</code>
+*<code><nowiki>http://wiki.example.org/index.php/</nowiki>'''ARTICLE'''</code> &nbsp;&nbsp; or
+*<code><nowiki>http://wiki.example.org/wiki/</nowiki>'''ARTICLE'''</code>
+
+If you replace <code>'''ARTICLE'''</code> with the name of the page you wish to create, you will be taken to a blank page which indicates that no article of that name exists yet. Clicking the "''edit''" [[Help:Navigation#Page Tabs|page tab]] at the top of the page will take you to the edit page for that article, where you can create the new page by typing your text, and clicking submit.
+
+== From the search page ==
+If you search for a page that doesn't exist (using the search box and 'go' button on the left of the page) then you will be provided with a link to create the new page.  (Note that this technique doesn't work if you use the 'search' button).
+
+== Using the Inputbox extension ==
+{{Admin tip|tip=You need to download and install the [[meta:Inputbox|"inputbox extension"]] for this method to work.}}
+If the Inputbox extension is available on the wiki you can start a new page by typing in your article's name and clicking the "create article" button, as in the example below.
+{| align="center" style="border:1px solid black" width="60%"
+|
+<inputbox>
+type=create
+width=45
+</inputbox>
+|}
+
+== Create redirects to your new page == 
+Don't forget to setup redirects when you create a page. If you think another person may search for the page you've created by using a different name or spelling, please create the proper redirect(s).
+
+To create a redirect, the '''first line''' of the redirect page should read <code><nowiki>#REDIRECT [[Destination]]</nowiki></code>, where <code>Destination</code> is the page to which people should be redirected.  This must appear as the very first line of the page.
+
+== Protect your new page == 
+If desired, once you create your new page, you should protect the page and allow only the type of users you would like to edit the page.
+
+{{Languages|Help:Starting a new page}}
+
+[[Category:Help|Starting a new page]]
+[[Category:Imported help]]
