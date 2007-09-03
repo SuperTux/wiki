@@ -45,7 +45,9 @@ We do collision detection in several phases with different groups of objects wit
    * Use this for touchable things like spikes/areas or collectibles like
    * coins
    */
-  COLGROUP_TOUCHABLE,
+  COLGROUP_T
+1000
+OUCHABLE,
   /**
    * Should be used for tilemaps
    */
