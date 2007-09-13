@@ -19,3 +19,10 @@ This is a patch for running the game on systems without OpenGL support.
 A modified version of SuperTux with inbuilt cheats. 
 
 * http://luxman.awardspace.com/supertux.php
+
+== SuperTux 3D ==
+
+A game made to look like a "3D mod" of SuperTux.
+Under Development.
+
+[https://sourceforge.net/projects/supertux-3d/ https://sourceforge.net/projects/supertux-3d/]
