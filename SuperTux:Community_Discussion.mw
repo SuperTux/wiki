@@ -9,8 +9,9 @@ I've built supertux from svn and saw all the great updates you guys have done. D
 
 (note: sorry, I had to break links to be able to edit)
 
-
+==Speed issue==
 Hello. My SuperTux 0.1 is good, but my SuperTux 0.3 is slow. How I make to increase the speed of the game supertux? Thank you
+:Make sure your computer got hardware acceleration for OpenGL. How to check for that depends on what operating system you use (Linux, Windows, Mac OS X, and so on). On Linux you run the command "glxinfo | grep -i direct" (without quotes), in a terminal. It should return something like "direct rendering: Yes", the important part being the "yes". On Windows I don't know, maybe someone else can help you. If you don't have hardware acceleration for OpenGL you won't be able to use SuperTux 0.3. --[[User:AnMaster|AnMaster]] 18:48, 14 September 2007 (UTC)
 
 ==Level 24==
 Hey I just recently found your game and am stuck at level 24... I guess that there have to be blocks behind the water texture but I have no idea on how to figure where are these... and I doubt it just comes to luck there. What am I missing? mfg DJGummikuh
