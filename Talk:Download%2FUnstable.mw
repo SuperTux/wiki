@@ -69,3 +69,6 @@ FAIL: Unable to prepare package SuperTux Platform Game.
 :[[Download/Installation Milestone 1.9]] still points to version a. Use http://prdownload.berlios.de/supertux/supertux-0.3.0b.x86.package
 
 Thanks, that works... Must say though, though I like the new additions, I'm not sure about the sudden removal of "lives" and the "timer"... Will these be reinstated or turn off-and-onable in the options?
+
+==Use the openSUSE Build Service to make packages==
+The link is here: http://build.opensuse.org/
