@@ -34,7 +34,9 @@ Why have doors so small and Tux so fat? Tux just doesn't fit through a door by a
 
 The bomb certainly wins a price for ugliest gamesprite ever...
 
-Is there a way to load a sprite without having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
+Is there a way to load a sprite wit
+1000
+hout having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
 
 How do I rotate a sprite? We should have OpenGL up and running, shouldn't we?
 
@@ -110,7 +112,9 @@ New Milestone2 features that look usefull:
 * switches that can be used to trigger stuff
 * unstable platforms, that break when Tux stands on them
 * candles, that can go on and off, what are they good for?
-* moving platforms, Tux can stand on them and get moved around
+* moving platforms, T
+1000
+ux can stand on them and get moved around
 * Dart enemies, they attach to a wall and shoot arrows
 * auto scroll
 * vertical/horizontal scroll
