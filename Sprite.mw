@@ -43,25 +43,4 @@ The hitbox size will get read by most sprites' gamecode to set the width and hei
 The sprite description file is [[S-expr]] based. A sprite description starts with a ''(sprite)'' list, It should then contain a name entry ''(name "myname")'' and then several ''(action)'' entries (at least 1).
 
 == (action) block ==
-The action block contains then the name of an action ''(name "myaction")'' can optionally contain an ''(hitbox <x> <y> <w> <h>)'' block. It's also possible to add an ''(fps number)'' block to define the number of frames played per second. Finnaly comes a list of ''(images)'' or the '(mirror-action "actionname")'' keyword which will take an already defined action and flip all it's images vertically.
-
-= Adding Own Sprites / Testing =
-
-You can easily add your own sprites by creating a custom .sprite file and placing it somewhere appropriate, e.g. "data/creatures/<name>/<name>.sprite" for badguys or "data/objects/<name>/<name>.sprite" for game objects. Now you probably want to test your sprite. This is easily possible from the game [[Console]] (example for data/images/creatures/yeti/yeti.sprite):
-
-  testsprite<-FloatingImage("images/creatures/yeti/yeti.sprite")
-  testsprite.fade_in(1)
-  testsprite.set_action("run-left")
-
-To remove the sprite from your screen, use
-
-  testsprite<-null
-
-An alternative would be creating ScriptedObjects in the leveleditor and selecting your spritefile
-
-== Sprite Editor ==
-
-A Python/GTK-based sprite editor, named [[GSprite]], is currently under development. Such an editor will have a graphical interface, and be able to add, remove, and edit individual actions, but will require Python, GTK, and PyGTK libraries as dependencies.
-
-[[Category:Game Engine]]
-[[Category:File Formats]]
+The action block contains then the name of an action ''(name "myaction")'' can optionally contain an ''(hitbox <x> <y> <w> <h>)'' block. It's also possible to add an ''(fps number)'' block to define the number of frames played per second. Finnaly comes a list of ''(images)'' or the '(mirror-action "actionname
