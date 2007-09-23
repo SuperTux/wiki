@@ -39,9 +39,7 @@ We do collision detection in several phases with different groups of objects wit
   /**
    * Isn't explicitely checked for collisions with other objects. But other
    * objects might check with this object.
-   * Difference to COLGROUP_STATIC is that collisions with this ob
-1000
-ject are
+   * Difference to COLGROUP_STATIC is that collisions with this object are
    * only tested once and collision response is typically not handled
    *
    * Use this for touchable things like spikes/areas or collectibles like
