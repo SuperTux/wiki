@@ -169,7 +169,7 @@ I have Ubuntu 7.04.
 :::No, it does not. Data files in the user's home directory are not removed when deleting the application. You won't lose all your documents when removing latex. <nowiki>--~~~~</nowiki>
 
 =OpenAL32.dll error on Windows Vista=
-If you're running SuperTux 0.3.0 on Vista then you may have gotten this error:
+If you're running [http://sourceforge.net/project/showfiles.php?group_id=69183&package_id=68044&release_id=476295 SuperTux 0.3.0] on Vista then you may have gotten this error:
 
 The entrance point of procedure alcGetString is untraceable in the dynamic-link library OpenAL32.dll
 
