@@ -167,3 +167,12 @@ I have Ubuntu 7.04.
 
 ::Since SuperTux works the same for all distros, these instructions apply for Ubuntu. Or, you could remove it *completely* (via Synaptic), which deletes config files as well. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 18:22, 12 July 2007 (UTC)
 :::No, it does not. Data files in the user's home directory are not removed when deleting the application. You won't lose all your documents when removing latex. <nowiki>--~~~~</nowiki>
+
+=OpenAL32.dll error=
+If you're running SuperTux 0.3.0 on Vista then you may have gotten this error:
+
+The entrance point of procedure alcGetString is untraceable in the dynamic-link library OpenAL32.dll
+
+Well here is your fix for running SuperTux on Windows Vista.  Simply download (automatic install) this version of OpenAL and SuperTux should run fine!
+
+[http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46 SuperTux OpenAL32.dll]
