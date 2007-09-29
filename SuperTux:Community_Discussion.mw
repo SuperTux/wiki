@@ -171,7 +171,7 @@ I have Ubuntu 7.04.
 =OpenAL32.dll error on Windows Vista=
 If you're running [http://sourceforge.net/project/showfiles.php?group_id=69183&package_id=68044&release_id=476295 SuperTux 0.3.0] on Vista then you may have gotten this error:
 
-The entrance point of procedure alcGetString is untraceable in the dynamic-link library OpenAL32.dll
+ The entrance point of procedure alcGetString is untraceable in the dynamic-link library OpenAL32.dll
 
 Well here is your fix for running SuperTux on Windows Vista.  Simply download (automatic install) this version of OpenAL and SuperTux should run fine!
 
