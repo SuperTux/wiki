@@ -175,4 +175,4 @@ The entrance point of procedure alcGetString is untraceable in the dynamic-link 
 
 Well here is your fix for running SuperTux on Windows Vista.  Simply download (automatic install) this version of OpenAL and SuperTux should run fine!
 
-[http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46 SuperTux OpenAL32.dll] ([http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46&file=oalinst.exe Direct Download Link]
+[http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46 SuperTux OpenAL32.dll] ([http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46&file=oalinst.exe Direct Download Link])
