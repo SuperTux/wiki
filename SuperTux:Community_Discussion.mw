@@ -177,3 +177,5 @@ Well here is your fix for running SuperTux on Windows Vista.  Simply download (a
 
 [http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46 SuperTux OpenAL32.dll] ([http://developer.creative.com/articles/article.asp?cat=1&sbcat=31&top=38&aid=46&file=oalinst.exe Direct Download Link])
 :Good to know that it runs on Vista. However, the [[Download/Installation Milestone 1.9|download page for MS2]] already notes (in bold lettering) that you might have to get OpenAL, so we won't make any large official note out of this (except maybe an entry in the [[SuperTux FAQ]] if many people ask us about this error). Thanks for giving us the exact wording, though! <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 15:07, 1 October 2007 (UTC)
+
+I can´t download the file: "Access denied. Invalid user name or password"
