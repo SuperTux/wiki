@@ -179,3 +179,6 @@ Well here is your fix for running SuperTux on Windows Vista.  Simply download (a
 :Good to know that it runs on Vista. However, the [[Download/Installation Milestone 1.9|download page for MS2]] already notes (in bold lettering) that you might have to get OpenAL, so we won't make any large official note out of this (except maybe an entry in the [[SuperTux FAQ]] if many people ask us about this error). Thanks for giving us the exact wording, though! <nowiki>~~</nowiki>[[User:RavuAlHemio|Ravu]] 15:07, 1 October 2007 (UTC)
 
 Sorry, but the fix isn´t fixing anything for me.
+
+==How to play on Windows keyboards?==
+Hi, I really like SuperTux since I played it on a friend's MacBook; but I don't know how to play on Windows XP, since all keyboards I use don't support the simultan pressing of Ctrl-Alt-Shift (running and jumping), so I can't even win the first stage. Does anyone know what to do? // Tuxman
