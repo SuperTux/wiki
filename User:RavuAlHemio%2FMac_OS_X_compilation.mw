@@ -11,7 +11,8 @@ This guide also makes you compile SuperTux UNIX-style; you will use the Terminal
 Quite a few instructions here imply you have already found your way around the terminal. If you haven't, you may wish to search for a few tutorials to become more proficient.
 
 == Installing the development tools ==
-Insert your Mac OS X installation CD into your DVD-ROM drive. In the window that opens, double-click on '''Xcode Tools''' and then on '''XcodeTools.mpkg'''. Continue through the installation wizard until you come to the '''Installation Type''' section. Here, click '''Customize'''. A successful constellation only requires '''Developer Tools Software''', '''gcc 4.0''', the '''Software Development Kits''' and the '''Mac OS X 10.4 (Universal) SDK''' (from under '''Cross Development'''). Keep on clicking yourself through the wizard until said tools are installed.
+Insert your Mac OS X installation CD into your DVD-ROM drive. In the window that opens, double-click on '''Xcode Tools''' and then on '''XcodeTools.mpkg'''. Continue through the installation wizard until you come to the '''Installation Type''' section. Here, click '''Customize'''. A successful constellation only requires '''Developer Tools Software''', '''gcc 4.0''', the '''Software Development Ki
+ts''' and the '''Mac OS X 10.4 (Universal) SDK''' (from under '''Cross Development'''). Keep on clicking yourself through the wizard until said tools are installed.
 
 == Building the libraries ==
 You will need the following libraries to run SuperTux:
@@ -35,7 +36,9 @@ To configure a library for the architecture you're currently ''not'' on, you can
 The exception to this rule are libpng and libjpeg, which don't use autoconf. In their case, you will have to modify <tt>CPPFLAGS</tt> and <tt>LDFLAGS</tt> in the Makefiles to contain either <code>-arch i386</code> (if on PPC for Intel) or <code>-arch ppc</code> (if on Intel for PPC). libpng also requires you to modify the section where the library itself is built; just search for <code>-dynamiclib</code> and add the proper <tt>-arch</tt> flag before or after it.
 </div>
 
-Most of the time, the triplet <code>./configure --prefix=/usr && make && sudo make install</code> (supplying your own password when asked for it) is enough.
+Most of the time, the triplet <code>./configure && make && sudo make install</code> (supplying your own password when asked for it) is enough.
+
+( '''Note:''' RavuAlHemio, the original author of this document instructed to install libraries in /usr. I (Auria) personally prefer leaving the install default to /usr/local, because this way i can easily tell at any time what libs came with OS X and what libs i installed myself. That's valuable knowledge when you need to decide which libs you will package inside the app bundle ;) Nonetheless, if you would like to install in /usr instead, run <code>./configure --prefix=/usr && make && sudo make install</code>)
 
 == Building jam ==
 Since SuperTux uses jam as its building tool, you'll need to download and compile that too. (Apple bundles it with the development tools, but their version is somehow defective, so you're better off getting a clean distribution from Perforce.)
@@ -55,10 +58,12 @@ If you don't get any answer and find yourself back at the command prompt, everyt
  ln -s /System/Library/Frameworks/OpenAL.framework/Headers/ AL
  ln -s /System/Library/Frameworks/OpenGL.framework/Headers/ GL
 
-At long last, you can run configure. (You will only need to specify more commandline arguments.)
+At long last, you can run configure. Here there are two ways.
 
- ./configure --with-apple-opengl-framework CPPFLAGS="-I."
-
+* If you just want to run supertux on your computer the Unix way, run:
+ <code>./configure --with-apple-opengl-framework CPPFLAGS="-I."</code>
+* If you want to make an app bundle, rather run:
+ <code>./configure --with-apple-opengl-framework CPPFLAGS="-I. -DMACOSX"</code>
 
 <div style="border:2px solid gray;background-color:#eee;padding:3px">Once configure is done, universal binary builders still have to modify three lines in the file <i>Jamconfig</i>: CFLAGS, CXXFLAGS and LDFLAGS. Search always for the first occurrence of these variable names (except for the first few in the section unsetting Jambase) and add the following line into the quotes:
 
@@ -97,4 +102,120 @@ When the build process is completed and you are feeling lucky, the following com
 
 This should have done the trick. If something is too unclear or you think I haven't added enough detail, please alert me on this article's [[User talk:RavuAlHemio/Mac OS X compilation|talk page]] and I will do my best to improve this document.
 
-I am on a bit of a hiatus right now (June 2007), but once I return, I will tweak the build system to optionally create a Finder-launchable SuperTux application. Stay tuned.
+== Building an app bundle ==
+Okay, launching from the terminal works, but you'd like an app bundle like all OS X native apps. The instructions below will make it happen.
+
+* create a folder named e.g. "supertux_bundle" and cd into it.
+* copy the 'supertux' executable you just built into this folder.
+* copy the 'data' folder there too (if you built supertux from SVN be careful as the one you see is filled with SVN invisible files)
+* pick a file you think makes a nice icon (e.g. /data/images/creatures/tux_grow/left-7.png), resize it to at least 128x128 in your favorite graphics editor, and turn it into a .icns file with an app like [http://www.stalkingwolf.net/software/cocothumbx/ CocoThumbX]. Rename it to "supertux.icns" and place it in the same folder.
+* In this folder, place a file called "info.plist" with the following contents:
+<pre>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>supertux</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Supertux</string>
+	<key>CFBundleIconFile</key>
+	<string>supertux.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleVersion</key>
+	<string>0.3.0</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	
+</dict>
+</plist>
+</pre>
+('''When you copy and paste from your web browser, make sure the line endings are okay. Sometimes web browsers gives non-Unix line endings if you copy from them. Text editor Smultron has a feature to fix them and probably others too.''')
+* create a file called "makefile"in the same directory with the following contents:
+<pre>
+skeleton:
+	mkdir ./SuperTux.app	
+	mkdir ./SuperTux.app/Contents
+	mkdir ./SuperTux.app/Contents/Resources
+	mkdir ./SuperTux.app/Contents/MacOS
+	mkdir ./SuperTux.app/Contents/libs
+	cp info.plist ./SuperTux.app/Contents/info.plist
+	cp supertux.icns ./SuperTux.app/Contents/Resources/supertux.icns
+	cp supertux ./SuperTux.app/Contents/MacOS/supertux
+	cp -r ./data ./SuperTux.app/Contents/Resources/data
+</pre>
+* In the terminal, type "make skeleton". The app bundle will be ready and if all went correctly you should now be able to run SuperTux with a double-click from the Finder! It will not have an icon right now but that will eventually appear. '''However''', this bundle cannot yet be distributed as it depends on libraries not included inside the bundle.
+
+
+== Making the app bundle distributable ==
+These instructions should result in a package that you can compress as dmg and put as download on a website.
+
+* Download mac dylib bundler from http://macdylibbundler.sf.net and build it with ''make && sudo make install''
+* Always in the same folder, add a file called '''dylibbundler.config''' with the following contents in it:
+<pre>
+<?xml version="1.0"?>
+<config>
+<search_path>/usr/local/lib</search_path>
+<library
+	name="libSDL"
+	starts_with="libSDL"
+	doesnt_contain="_"
+	ends_with=".dylib"
+	/>
+<library
+	name="libSDL_image"
+	starts_with="libSDL_image"
+	ends_with=".dylib"
+	dependencies="libSDL:libjpeg:libpng"
+	/>
+<library
+	name="libogg"
+	starts_with="libogg"
+	ends_with=".dylib"
+	/>
+<library
+	name="libvorbis"
+	starts_with="libvorbis"
+	doesnt_contain="enc:file"
+	dependencies="libogg"
+	ends_with=".dylib"
+	/>
+<library
+	name="libvorbisfile"
+	starts_with="libvorbisfile"
+	dependencies="libvorbis:libogg"
+	ends_with=".dylib"
+	/>
+<library
+	name="libjpeg"
+	starts_with="libjpeg"
+	ends_with=".dylib"
+	/>
+<library
+	name="libpng"
+	starts_with="libpng"
+	doesnt_contain="png.3"
+	ends_with=".dylib"
+	/>
+<library
+	name="libphysfs"
+	starts_with="libphysfs"
+	ends_with=".dylib"
+	/>	
+</config>
+</pre>
+'''Do note that this config file searches for libs in /usr/local/lib'''. If you installed libs in /usr/lib, you will need to edit the '''search_path''' part.
+* run the following command on the terminal:
+<pre>
+dylibbundler -l -x ./SuperTux.app/Contents/MacOS/supertux -d ./SuperTux.app/Contents/libs/ -cd -od
+</pre>
+* On my computer, libphysfs was linked in a weird way i had never seen before. Run '''otool -L ./SuperTux.app/Contents/MacOS/supertux''' to see the list of dependencies supertux has. If you see libphysfs is still not corrected to be relative to executable like others (on my computer it had no path, while all other libraries have a full path). To fix this, i needed to run the following command:
+<pre>
+install_name_tool -change libphysfs.1.dylib @executable_path/../libs/libphysfs.dylib ./SuperTux.app/Contents/MacOS/supertux</pre>
+
+Done! Want to test to see if everything is linked properly? If you have always been careful to leave /usr untouched since you installed OS X, this is very easy. ''sudo mv /usr/local /usr/local-disabled'' will temporarly restore your mac in a near vanilla state for libraries. Then you can test the game, and of course run the opposite command after to put the folder back in its correct location!
