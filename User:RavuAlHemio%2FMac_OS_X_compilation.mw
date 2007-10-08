@@ -38,6 +38,8 @@ The exception to this rule are libpng and libjpeg, which don't use autoconf. In 
 
 Most of the time, the triplet <code>./configure && make && sudo make install</code> (supplying your own password when asked for it) is enough.
 
+If you intend to build distributable app bundles, pass ''--enable-jpg-shared=false --enable-png-shared=false'' flags to configure when compiling SDL_image.
+
 ( '''Note:''' RavuAlHemio, the original author of this document instructed to install libraries in /usr. I (Auria) personally prefer leaving the install default to /usr/local, because this way i can easily tell at any time what libs came with OS X and what libs i installed myself. That's valuable knowledge when you need to decide which libs you will package inside the app bundle ;) Nonetheless, if you would like to install in /usr instead, run <code>./configure --prefix=/usr && make && sudo make install</code>)
 
 == Building jam ==
