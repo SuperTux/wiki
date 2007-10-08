@@ -1,3 +1,8 @@
+Hi RavuAlHemio, i completed your instructions with the best of my knowledge. If you don't like what i did, just revert my edits ;)
+
+----
+
+
 Hi, I tried using jam that comes with the Developer Tools (/Developer/Private/jam), but I receive an error: "Missing file or directory: all".  Compiling jam with fink and using that works well however.  Not sure if the version that comes with Developer Tools is too old (I have the newest Developer Tools (v 2.2) though).  I can't tell which version of jam Developer Tools uses though as it doesn't respect the usual GNU options (-v, -h, etc).
 
 Also wondering if you know of a way or have a howto on how to make a .app bundle from supertux?  I've tried just moving the binary into a .app and can get it to work (with plist modifications), but I doubt it will work on other systems without the appropriate frameworks (OpenAL, OpenGL, ogg, vorbis, physfs) installed.  I'm assuming they can be bundled into the .app as with version 1.3, but I'm unsure how to do this.
