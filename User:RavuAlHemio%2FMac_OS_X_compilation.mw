@@ -40,7 +40,7 @@ Most of the time, the triplet <code>./configure && make && sudo make install</co
 
 If you intend to build distributable app bundles, pass ''--enable-jpg-shared=false --enable-png-shared=false'' flags to configure when compiling SDL_image.
 
-( '''Note:''' RavuAlHemio, the original author of this document instructed to install libraries in /usr. I (Auria) personally prefer leaving the install default to /usr/local, because this way i can easily tell at any time what libs came with OS X and what libs i installed myself. That's valuable knowledge when you need to decide which libs you will package inside the app bundle ;) Nonetheless, if you would like to install in /usr instead, run <code>./configure --prefix=/usr && make && sudo make install</code>)
+( '''Note:''' RavuAlHemio, the original author of this document instructed to install libraries in /usr. I (Auria) personally prefer leaving the install default to /usr/local, because this way i can easily tell at any time what libs came with OS X and what libs i installed myself. That's valuable knowledge when you need to decide which libs you will package inside the app bundle ;) Nonetheless, if you would like to install in /usr instead, run <code>./configure --prefix=/usr && make && sudo make install</code>. If you install in /usr/local, also don't forget to add /usr/local/bin to your PATH)
 
 == Building jam ==
 Since SuperTux uses jam as its building tool, you'll need to download and compile that too. (Apple bundles it with the development tools, but their version is somehow defective, so you're better off getting a clean distribution from Perforce.)
