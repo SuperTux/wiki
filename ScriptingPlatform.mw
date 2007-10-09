@@ -5,7 +5,7 @@ __NOTOC__
 A [[Moving platform]] that was given a name can be controlled by scripts.
 
 == Instances ==
-An instance is created by being defined in a level. It may be accessed via its <tt>name</tt> from scripts and via <tt>sector.<i>name</i></tt> from the console.
+An instance is created by being defined in a level. It may be accessed via its <tt>name</tt> from scripts and via <tt>sector.''name''</tt> from the console.
 
 === Example ===
 
