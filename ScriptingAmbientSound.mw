@@ -4,7 +4,7 @@ __NOTOC__
 An ambient sound that was given a name can be controlled by scripts.
 
 == Instance ==
-An <tt>AmbientSound</tt> is instantiated by placing a definition inside a level. It can then be accessed by its <tt>name</tt> from a script or via <tt>sector.<i>name</i></tt> from the console.
+An <tt>AmbientSound</tt> is instantiated by placing a definition inside a level. It can then be accessed by its <tt>name</tt> from a script or via <tt>sector.''name''</tt> from the console.
 
 === Example ===
 In the level file:
