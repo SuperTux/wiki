@@ -5,7 +5,7 @@ __NOTOC__
 A Candle object that was given a name can be controlled by scripts.
 
 == Instances ==
-A <tt>Candle</tt> is instantiated via a definition in a level. It can be accessed by its <tt>name</tt> in scripts and via <tt>sector.<i>name</i></tt> in the console.
+A <tt>Candle</tt> is instantiated via a definition in a level. It can be accessed by its <tt>name</tt> in scripts and via <tt>sector.''name''</tt> in the console.
 
 === Example ===
 
