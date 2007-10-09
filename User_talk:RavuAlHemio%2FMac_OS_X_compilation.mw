@@ -1,5 +1,12 @@
 Hi RavuAlHemio, i completed your instructions with the best of my knowledge. If you don't like what i did, just revert my edits ;)
 
+i also changed the install prefix. You installed it to /usr, but i believe it's messy (you can't tell anymore what came with OS X and what you installed yourself... not very handy when you need to package libraries!), and also the definition is :
+
+/usr/local and its subdirectories are used for [...] software that is not part of the official distribution (which usually goes in /usr/bin) [...]
+(source : http://www.linuxcommand.org/lts0040.php#local)
+
+Also, when you install all your stuff into /usr/local/, you can simply issue ''sudo mv /usr/local /usr/local-disabled'' and get a good idea of how your app will work on a vanilla install. For all there reasons i favor /usr/local over /usr. However if you have compelling arguments just bring them!
+
 -Auria
 
 ----
