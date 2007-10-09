@@ -5,7 +5,7 @@ __NOTOC__
 A [[Thunderstorm]] object that was given a name can be controlled by scripts.
 
 == Instances ==
-A <tt>Thunderstorm</tt> is initialised by a definition in the level. It can be accessed via its <tt>name</tt> in scripts and <tt>sector.<i>name</i></tt> in the console.
+A <tt>Thunderstorm</tt> is initialised by a definition in the level. It can be accessed via its <tt>name</tt> in scripts and <tt>sector.''name''</tt> in the console.
 
 === Example ===
 
