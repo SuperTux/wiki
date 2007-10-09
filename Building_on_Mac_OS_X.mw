@@ -4,18 +4,18 @@
 
 == Warning ==
 
-* These instructions will build a highly unstable development version of SuperTux.  There is a possibility of causing serious damage to your system.  
+* These instructions will build a highly unstable development version of SuperTux. There is a possibility of causing serious damage to your system. 
 * The developers are currently focusing on developing SuperTux for Linux. While some of the developers and other SuperTux users have access to Mac OS X, building and running SuperTux on Mac OS X is not the primary goal, so support may not be available.
 
 == Types of Builds ==
 
-* Since Mac OS X contains a Unix subsystem, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux.  [[User:RavuAlHemio|Ravu al Hemio]] has written an excellent [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a Unix-style build of SuperTux for Mac OS X.  If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep SuperTux up to date.  If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below.  Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [[User:RavuAlHemio/Mac_OS_X_compilation|Ravu al Hemio's guide]].
-* If you'd like an easy way to launch SuperTux via Finder but would rather use [[User:RavuAlHemio|Ravu al Hemio's]] build, then take a look at [[Building_on_Mac_OS_X#.command_File|making a .command file]].
+* Since Mac OS X contains a Unix subsystem, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux. [[User:RavuAlHemio|Ravu al Hemio]] has written an excellent [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for a Unix-style build of SuperTux for Mac OS X. If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep SuperTux up to date. If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below. Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [[User:RavuAlHemio/Mac_OS_X_compilation|Ravu al Hemio's guide]].
+* If you'd like an easy way to launch SuperTux via Finder but would rather use [[User:RavuAlHemio|Ravu al Hemio's]] build, then take a look at [[Building on Mac OS X#.command File|making a .command file]].
 
 == Disclaimer ==
 
-* I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/Unix development.  The procedure listed below relies heavily on Unix-style methods of building with a few steps in XCode to make an app bundle and then a procedure to create a disk image.  I know that there is a method to build an app bundle almost completely, if not completely, in XCode.  This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way.  If you have tips on how to do this, please let me know.
-* If you have any tips on how to simplify this procedure, please let me know and I'll update the page.  If it's a simple change, feel free to modify the page with it.
+* I should mention that I am fairly new to XCode Mac development, but have had a good deal of experience with Linux/Unix development. The procedure listed below relies heavily on Unix-style methods of building with a few steps in XCode to make an app bundle and then a procedure to create a disk image. I know that there is a method to build an app bundle almost completely, if not completely, in XCode. This method would almost certainly be easier and more reliable, but I have yet to build SuperTux successfully in such a way. If you have tips on how to do this, please let me know.
+* If you have any tips on how to simplify this procedure, please let me know and I'll update the page. If it's a simple change, feel free to modify the page with it.
 
 == .command File ==
 
@@ -30,15 +30,15 @@ where ''path_to_SuperTux_folder'' is the POSIX path to SuperTux that you just bu
 # In Terminal, run the following command to make the .command file executable:
  chmod ug+x /<path_to_command_file>
 where ''path_to_command_file'' is the POSIX path to the .command file you just made.
-# Make sure the command file opens with Terminal (unless you've changed this it should by default) and double-click the file to launch SuperTux.  The file will launch Terminal, but you can quit it after SuperTux loads.
+# Make sure the command file opens with Terminal (unless you've changed this it should by default) and double-click the file to launch SuperTux. The file will launch Terminal, but you can quit it after SuperTux loads.
 
 == Dependencies ==
 
 *Before building SuperTux, you'll need to download several dependencies (I'll cover how to build some of them in the next step)
-** Developer Tools (can be found on your System Restore CDs/DVDs, but it may be best to obtain the newest version from the XCode package at http://developer.apple.com/tools/download/.  Requires a free registration.)
+** Developer Tools (can be found on your System Restore CDs/DVDs, but it may be best to obtain the newest version from the XCode package at http://developer.apple.com/tools/download/. Requires a free registration.)
 ** Subversion (http://www.codingmonkeys.de/mbo)
 ** SDL (SDL runtime and development libraries from http://www.libsdl.org/)
-*** Note: these does not seem to contain the appropriate libSDLmain.a, so you may need to compile SDL from source as well as the framework.  Make sure you have the same version as the -extras package you downloaded from above.
+*** Note: these does not seem to contain the appropriate libSDLmain.a, so you may need to compile SDL from source as well as the framework. Make sure you have the same version as the -extras package you downloaded from above.
 ** SDL_image (SDL_image-x.y.z.dmg from http://www.libsdl.org/projects/SDL_image/)
 ** Ogg & Vorbis (http://www.xiph.org/downloads/)
 ** physfs (http://icculus.org/physfs/)
@@ -51,14 +51,14 @@ where ''path_to_command_file'' is the POSIX path to the .command file you just m
 * Untar/zip all dependencies to a working directory and mount all DMGs
 * Install Developer Tools, OpenAL, Subversion
 * Install jam (does not need to be a [[Wikipedia:Universal_Binary|UB]])
-* [[Download/Subversion | Checkout the SuperTux source from SVN]]
+* [[Download/Subversion|Checkout the SuperTux source from SVN]]
 
 * Building SDL
 *** Open the SDL runtime library dmg and install (copy) the SDL.framework to /Library/Frameworks (you can also copy this to ~/Library/Frameworks, but this will require changing some paths below and in XCode)
 ** Build the source as a [[Wikipedia:Universal_Binary|UB]]
 *** 
 ***
-*** You'll need libSDLmain.a when linking SuperTux later.  You don't have to run <code>make install</code>, but should copy libSDLmain.a to one of the standard lib directorys (/usr/lib for example).
+*** You'll need libSDLmain.a when linking SuperTux later. You don't have to run <code>make install</code>, but should copy libSDLmain.a to one of the standard lib directorys (/usr/lib for example).
 
 * Building SDL_image
 
@@ -75,12 +75,12 @@ where ''path_to_command_file'' is the POSIX path to the .command file you just m
 
 == Creating the App Bundle ==
 
-* Open the SDL development library dmg and copy the "TemplatesForXcode/SDL Application/" folder to a working directory.  
-* Open "SDL Application/SDLApp.xcodeproj" with XCode.  
-* Expand the "Targets" section and "Get Info" on "«PROJECTNAME»".  Change "Name" to "SuperTux" in the "General" tab.  
-* Change "Executable" from "${EXECUTABLE_NAME}" to "SuperTux" in the "Properties" tab.  Set the other properties to what you'd like.  I suggest "org.lethargik.supertux" for "Identifier", ???? for "Type", ??? for "Creator", and "0.3.0-SVN" for "Version".  
-* The stable (0.1.3) and unstable (0.3.0) versions of SuperTux built of OS X (linked [[Download/Installation|here]]) have a supertux.icns file under "SuperTux.app/Contents/Resources/" that you can use for the "Icon File".  You'll have to add it to the XCode project first before you can set it here.
-* "Get Info" on "SDLApp" and select the "Build" tab.  Double-click on "Architectures" and select both "PowerPC" and "Intel".  I'm not sure this has to be built as a UB (in fact, I don't think it's necessary), but it doesn't hurt to select and just in case something is built here it'll be compatible.
+* Open the SDL development library dmg and copy the "TemplatesForXcode/SDL Application/" folder to a working directory. 
+* Open "SDL Application/SDLApp.xcodeproj" with XCode. 
+* Expand the "Targets" section and "Get Info" on "«PROJECTNAME»". Change "Name" to "SuperTux" in the "General" tab. 
+* Change "Executable" from "${EXECUTABLE_NAME}" to "SuperTux" in the "Properties" tab. Set the other properties to what you'd like. I suggest "org.lethargik.supertux" for "Identifier", ???? for "Type", ??? for "Creator", and "0.3.0-SVN" for "Version". 
+* The stable (0.1.3) and unstable (0.3.0) versions of SuperTux built of OS X (linked [[Download/Installation|here]]) have a supertux.icns file under "SuperTux.app/Contents/Resources/" that you can use for the "Icon File". You'll have to add it to the XCode project first before you can set it here.
+* "Get Info" on "SDLApp" and select the "Build" tab. Double-click on "Architectures" and select both "PowerPC" and "Intel". I'm not sure this has to be built as a UB (in fact, I don't think it's necessary), but it doesn't hurt to select and just in case something is built here it'll be compatible.
 * 
 
 == Populating the App Bundle ==
@@ -91,16 +91,16 @@ where ''path_to_command_file'' is the POSIX path to the .command file you just m
 
 == Ready-made Binaries ==
 
-* I will be distributing ready-made binaries of the development version of SuperTux periodically.  As the developers continuously fix bugs and add features, there is no guarantee these binaries will work on your Mac, but may be easier than building it yourself.  Please read the "Development ReadMe.rtfd" in the disk image.
-* You can download the latest binary (SVN <nowiki>revision</nowiki> 5105) [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;5105.dmg here] ([http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;5105.dmg.md5sum md5sum]: 856f5e0320d25ef4d232ebe530f9673d).
-* If the above version fails to run, you can try an older revision (SVN <nowiki>revision</nowiki> 5087) from [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;5087.dmg here] ([http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-&#114;5087.dmg.md5sum md5sum]: b2b3e21032211c8eec2ceb8647b3ff65).
-* The binaries have not been tested on any other Mac than the Mac they were built on (a Core 2 Duo MacBook Pro) before their release.  If you'd like to buy me another Mac to test them on, I would be happy to accept the offer ;).  In the meantime, if you have problems with the binaries, please post them on the [[Talk:Building_on_Mac_OS_X|talk page]] and I will work to correct the problem in a future revision.
+* I will be distributing ready-made binaries of the development version of SuperTux periodically. As the developers continuously fix bugs and add features, there is no guarantee these binaries will work on your Mac, but may be easier than building it yourself. Please read the "Development ReadMe.rtfd" in the disk image.
+* You can download the latest binary (SVN <nowiki>revision</nowiki> 5105) [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r5105.dmg here] ([http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r5105.dmg.md5sum md5sum]: 856f5e0320d25ef4d232ebe530f9673d).
+* If the above version fails to run, you can try an older revision (SVN <nowiki>revision</nowiki> 5087) from [http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r5087.dmg here] ([http://supertux.lethargik.org/users/glowingapple/SuperTux-SVN-r5087.dmg.md5sum md5sum]: b2b3e21032211c8eec2ceb8647b3ff65).
+* The binaries have not been tested on any other Mac than the Mac they were built on (a Core 2 Duo MacBook Pro) before their release. If you'd like to buy me another Mac to test them on, I would be happy to accept the offer ;). In the meantime, if you have problems with the binaries, please post them on the [[Talk:Building_on_Mac_OS_X|talk page]] and I will work to correct the problem in a future revision.
 
 == Additional Tips ==
 
 
 == Building the editor ==
 
-I have been unable as of yet to get supertux-sharp working in Mac OS X.  Theoretically it should be possible as it's written in C# using gtk-sharp, and Mono should support this.  If you are able to get the editor built and running under OS X, please post your steps here.
+I have been unable as of yet to get supertux-sharp working in Mac OS X. Theoretically it should be possible as it's written in C# using gtk-sharp, and Mono should support this. If you are able to get the editor built and running under OS X, please post your steps here.
 
 [[Category:Developer documentation]]
