@@ -96,7 +96,7 @@ In the course of the game, Tux will encounter lots of different enemies - some e
 
 [[Image:Right.png|right]]
 
-=== Bells ===      
+=== Bells ===
 [[Image:bell-r.png|left]]
 When Tux gets thrown off the screen, he will normally have to start the current level over from the beginning. There is one exception, though: Most levels contain one or more bells. When Tux activates such a bell, by touching it, he won't have to restart the level from the beginning, but instead restart from the last activated bell - as long as he's got at least one life '''(Milestone 1)''' or 25 coins '''(Milestone 2)''' left. In Milestone 1, bells are invisible, but don't need to be touched to use- only passed by.
 
