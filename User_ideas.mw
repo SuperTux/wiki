@@ -158,7 +158,7 @@ Have the game engine display background as 75% brightness, making some levels ea
 === Warp Pipes ===
 Warp pipes should be able to be stood on, but by pressing down on the arrow pad, Tux could go down them. This could connect underwater and cave levels, and should work somewhat like the door, which already works. They could be used as secret areas, and would add a lot of depth to the gameplay.
 
-:This effect can already be accomplished by using a script over the top of the pipe.  The script can use spawn points to respawn Tux inside the secret area, etc.  (NathanKP)  8/30/2007
+:This effect can already be accomplished by using a script over the top of the pipe. The script can use spawn points to respawn Tux inside the secret area, etc. (NathanKP) 8/30/2007
 
 === Badguy Improvements ===
 You should be able to pick up the beetle baddy and hit it from the side. The fish needs to be able to jump and swim, and should work even if there is no water in the interactive layer, and is just in the foreground. The badguys should stop killing each other.
@@ -310,7 +310,7 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 [[Image:RadarMan.png|right]]
 Radar Man moves by disappearing from the square he is in and appearing in one next to it. He does not harm Tux he simply makes Tux have to move like him for a while. Radar Man cannot be harmed.
 :Maybe its my poor English, but i dont understand what radar man is supposed to do.
-::Radar Man is a teleporter type object.  He moves around, and if you touch him, you get teleported... that's how I understand it.
+::Radar Man is a teleporter type object. He moves around, and if you touch him, you get teleported... that's how I understand it.
 :::In that case, it's already been implemented as a Will-O-Wisp. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 19:52, 9 July 2007 (UTC)
 ::::Seems more like an object that forces Tux to move like it for a while. --Shylence 10:10, 10 July 2007 (UTC)
 
@@ -375,8 +375,8 @@ A fly that flies around Tux, annoying him and forcing him to move, but without h
 
 ==== Polar bear ====
 It's been suggested numerous times that a polar bear be used as a bad guy or NPC. Here's some concept art that I made:
-[[Image:Polar-bear.png]]<br>
-Suggestions for what  it could do? Maybe it could pace around like other badguys and charge when it sees Tux? That's probably not a good idea, since it seems like the sort of thing that only a boss should be able to do, and there's already the Yeti. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 14:55, 9 August 2007 (UTC)
+[[Image:Polar-bear.png]]<br />
+Suggestions for what it could do? Maybe it could pace around like other badguys and charge when it sees Tux? That's probably not a good idea, since it seems like the sort of thing that only a boss should be able to do, and there's already the Yeti. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 14:55, 9 August 2007 (UTC)
 :World 1 is [http://simple.wikipedia.org/wiki/Antarctica Antarctica]. That is a far away from polar bears as you can get without leaving the planet. But if we ignore that the bear might make a good boss for a snow world. He is way too big for a ordinary badguy. --[[User:Superdev|Superdev]] 18:38, 9 August 2007 (UTC)
 ::Since when have we been all about accuracy? Yeah, the bear is way too big for a normal badguy, and since there's already a boss, that's what I was afraid of. I don't want a clash in interests between me and the development team. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 19:45, 9 August 2007 (UTC)
 :::How about an NPC? Would that seem like a good NPC? --[[User:80.31.56.230|80.31.56.230]] 07:06, 11 August 2007 (UTC)
@@ -796,6 +796,6 @@ i made a supertux 3D. i am trying to get devel help, and i have a [http://source
 === Submit level ===
 
 A very nice way to get the community involved in creating artwork/levels for SuperTux would be to have a submit button in the level editor. Submissions received this way can be put on a website where the community "votes" (for example digg style) the levels.
-:See http://supertux.info/pmlvls.php . I don't think a button in the editor would do much good. Too many people would submit everything just because they can. Lets hope uploading manually makes  them think a bit about their level. --[[User:Superdev|Superdev]] 09:35, 6 October 2007 (UTC)
+:See http://supertux.info/pmlvls.php . I don't think a button in the editor would do much good. Too many people would submit everything just because they can. Lets hope uploading manually makes them think a bit about their level. --[[User:Superdev|Superdev]] 09:35, 6 October 2007 (UTC)
 
 [[Category:Design]]
