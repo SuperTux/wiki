@@ -10,8 +10,8 @@ Once the page has been created, the link will change from <span style="color: #b
 
 == Using the URL ==
 You can use the wiki's URL for creating a new page. The URL to an article of the wiki is usually something like this:
-*<code><nowiki>http://wiki.example.org/index.php/</nowiki>'''ARTICLE'''</code> &nbsp;&nbsp; or
-*<code><nowiki>http://wiki.example.org/wiki/</nowiki>'''ARTICLE'''</code>
+*<code><nowiki>http://www.example.net/index.php/</nowiki>'''ARTICLE'''</code> &nbsp;&nbsp; or
+*<code><nowiki>http://www.example.net/wiki/</nowiki>'''ARTICLE'''</code>
 
 If you replace <code>'''ARTICLE'''</code> with the name of the page you wish to create, you will be taken to a blank page which indicates that no article of that name exists yet. Clicking the "''edit''" [[Help:Navigation#Page Tabs|page tab]] at the top of the page will take you to the edit page for that article, where you can create the new page by typing your text, and clicking submit.
 
@@ -34,8 +34,9 @@ Don't forget to setup redirects when you create a page. If you think another per
 
 To create a redirect, the '''first line''' of the redirect page should read <code><nowiki>#REDIRECT [[Destination]]</nowiki></code>, where <code>Destination</code> is the page to which people should be redirected.  This must appear as the very first line of the page.
 
-== Protect your new page == 
+{{Admin tip|tip=
 If desired, once you create your new page, you should protect the page and allow only the type of users you would like to edit the page.
+}}
 
 {{Languages|Help:Starting a new page}}
 
