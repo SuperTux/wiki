@@ -1,9 +1,9 @@
 <onlyinclude><div style="font-color:#535068; border:solid 1px #A8A8A8; padding:0.5em 1em 0.5em 0.7em;  margin:0.5em 0em; background-color:#FFFFFF;font-size:85%;">
 {| 
-|[[Image:Tools clipart.png|20px]]
+|[[Image:Tools.svg|20px]]
 |'''Tip for wiki admins:''' {{{tip}}}
 |}
 </div></onlyinclude>
 
 {{Languages|Template:Admin tip}}
-[[Category:Info template|{{PAGENAME}}]]<noinclude>[[Category:Imported help]]</noinclude>
+[[Category:Info templates|{{PAGENAME}}]]<noinclude>[[Category:Imported help]]</noinclude>
