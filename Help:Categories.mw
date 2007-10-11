@@ -1,5 +1,9 @@
 {{PD Help Page}}
 
+MediaWiki allows you to categorise pages by adding one or more category tags to the text.  Adding these tags create links at the bottom of the article which take you to the list of all pages in that category, which makes it easy to browse related articles.
+
+== How to add categories ==
+
 To add an article to a category put the following at the end of the page you are editing...
 
  <nowiki>[[Category:{Name}]]</nowiki>
@@ -18,7 +22,7 @@ Note that we used 'Categories' as the sort parameter.  Without this the page wou
 
 Another way to sort the article in the correct letter without the namespace is
 
- <nowiki>[[Category:Help|{{PAGENAME}}]]</nowiki>
+ <nowiki>[[Category:Help|{{SUBPAGENAME}}]]</nowiki>
 
 This is extremely helpful when using templates which include a category tag.
 
@@ -42,6 +46,10 @@ Here is an example of the same link to the Category Page for Help on MediaWiki a
 
 Categories themselves and other uploaded files like Pictures can be categorized exactly like normal pages. It is useful to connect the article-categories with categories already in place to establish connections and hierarchies. To this end, after saving the article, follow the category links at the end of the page to see, if the category is already in place and if not, categorize them until you connect them with an existing category.
 
+==See also==
+* [[Meta:Help:Category]]
+
 {{Languages|Help:Categories}}
 [[Category:Help|Categories]]
+[[Category:Category| ]]
 [[Category:Imported help]]
