@@ -19,10 +19,12 @@ It is also possible to do phrases by using %22Term1+Term2+etc%22
 *External searches are useful where an article requires certain keywords to make an effective search.
 *For the editor it allows making searches of web more quickly and painlessly.
 
-Other applications of the template include searching Forums, for bug reports of the same type for software development wiki's where the wiki and forum work together.
+Other applications of the template include searching Forums, for bug reports of the same type for software development wikis where the wiki and forum work together.
 
 Note: Wikipedia has an [[help:interwiki linking|interwiki prefix]] with a similar affect, so you can link to google results with <nowiki>[[Google:firstTerm+Second+etc]]</nowiki>, although templates are still useful for linking other search engines.
 
 [http://www.clickwiki.info/index.php/Template:Google External reference to template example in use at ClickWiki.info]
+
 [[Category:Help|External Searches]]
+[[Category:Search]]
 [[Category:Imported help]]
