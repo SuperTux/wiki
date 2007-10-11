@@ -1,8 +1,8 @@
 {{PD Help Page}}
 
-Clicking on the [[special:preferences|my preferences]] link in the upper right while logged in then click on the '''Skin''' button to change your skin. You can also preview the skin by click the '''(preview)''' links next to each skin.
+Clicking on the [[special:preferences|my preferences]] link in the upper right while logged in then click on the '''Skin''' button to change your skin. You can also preview the skin by clicking the '''(preview)''' links next to each skin.
 
-You can make changes to the current skin's stylesheet file (CSS) by creating a subpage of your userpage, "User:You/monobook.css" for example. This requires your site admin to have enabled this feature -- if it is, you will see advice text at the top of your custom CSS page about clearing your browser's cache.
+You can make changes to the current skin's stylesheet file (CSS) by creating a subpage of your userpage, "[[Special:Mypage/monobook.css|User:Yourname/monobook.css]]" for example. This requires your site admin to have enabled this feature -- if it is, you will see advice text at the top of your custom CSS page about clearing your browser's cache.
 
 == See also ==
 * [[Help:Preferences]]
@@ -10,6 +10,9 @@ You can make changes to the current skin's stylesheet file (CSS) by creating a s
 == External Links ==
 {{meta|Skins}}
 
+{{Languages|Help:Skins}}
+
 [[Category:Help]]
 [[Category:Special Pages]]
+[[Category:Subpage]]
 [[Category:Imported help]]
