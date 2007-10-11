@@ -20,6 +20,10 @@ Next is a flag describing the article modification type:
 
 Following the timestamp the user is mentioned with a link to his user and talk page and to his contributions. In italic follows a comment if the user has submitted one. 
 
+If you are logged in and have JavaScript enabled, you can also try the "enhanced" view. Simply go to your [[Help:Preferences#Recent changes|Preferences]] and enable "Enhanced recent changes (JavaScript)"; this will make recent changes show edits divided by page rather than being listed individually.  You will now see entries like the following:
+:! 15:17 [[Main Page]] (4 changes; (+236) Page history) [Some User‎ (2×); Some Other User (2×)]
+Simply click the blue arrow to the left of the page name and timestamp to expand that page's recent edits just as they were on the normal style. You can turn this enhancement on and off at will, so feel free to try both to see which one you prefer.
+
 === See also ===
 * [[Special:Newpages]]
 * Related changes: [[Special:Recentchangeslinked/Pagename]]
