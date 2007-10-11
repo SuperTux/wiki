@@ -140,7 +140,7 @@ The next few sections describe the extra parameters for the other badguys.
   (x 270)                 ;; The badguy's X coordinate.
   (y 126)                 ;; The badguy's Y coordinate. (Note that the origin is in the top-left corner!)
   (dead-script "
-// A squirrel script that is executed once the Yeti dies. Optional.
+// A squirrel script that is executed once the badguy dies. Optional.
 ")
   (direction "auto")      ;; Direction in which the badguy will move after spawning. "left", "right" or "auto".
                           ;; Optional (except with some badguys).
@@ -223,7 +223,7 @@ Don't mistake this badguy for Spiky! Spiky is the snowball-like creature with sp
   (flyspeed 3)            ;; Speed at which wisp flies towards player
   (track-range 30)        ;; How near must the player be to be followed?
   (vanish-range 60)       ;; How far must the player be for the wisp to vanish?
-  (running #f)            ;; Follow a preset path
+  (running #f)            ;; Should we follow a preset path?
   (path
     ;; Path to follow if running is true. See the path in camera-config for the syntax.
   )
