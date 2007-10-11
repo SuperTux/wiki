@@ -19,13 +19,16 @@ Here's how the search works:
 * The search is not case-sensitive, so "MediaWiki", "mediawiki" and "MEDIAWIKI" all give the same result.
 
 == Restricting the search ==
-By default only the [[Help:namespaces|namespaces]] specified in your [[Help:preferences|preferences]] will be searched.  Logged-in users can change their preferences to specify the namespaces they want to search by default, or if you just want to specify different namespaces for a single search then you can do so on the search results page.
+If you click the 'Search' button without filling in anything, you will be taken to 'Special:Search' which gives you extra searching options (also available from any search results list)
 
+You may find it useful to restrict a search to pages within a particular [[Help:Namespaces|namespace]] e.g. only search within the 'Talk' pages. Tick the namespaces you require for this search. 
 
+By default only the [[Help:Namespaces|namespaces]] specified in your [[Help:Preferences|preferences]] will be searched.  Logged-in users can change their preferences to specify the namespaces they want to search by default.
 
 __NOTOC__
 
-
 {{Languages|Help:Searching}}
+
 [[Category:Help|Searching]]
+[[Category:Search]]
 [[Category:Imported help]]
