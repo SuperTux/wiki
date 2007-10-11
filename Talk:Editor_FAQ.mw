@@ -1,15 +1,22 @@
+{{Attention|s=<big>'''Please click on the "+" above or use [http://supertux.lethargik.org/wiki/index.php?title=Talk:Editor_FAQ&action=edit&section=new this link] if you want to ask about a separate issue.'''</big>}}
+
+== Reset point/checkpoint ==
 Hi. I don't want to be a pain, so I apologize if this is stupid. How do you place the checkpoint or midpoint of a level?
 :I assume you mean a reset point (that is a point that if you die at you will start again at it). Place a "Reset Point" object where you want it. Can be found in the object list just below the bad guys.<br />Note that this FAQ is for the SuperTux-sharp editor for SVN and '''not''' for the editor built into SuperTux 0.1.2/0.1.3. ''If'' you are using the 0.1.3 built in editor: you can't place a reset point, use flexlay instead or edit the file by hand.<br />--[[User:AnMaster|AnMaster]] 16:03, 24 Oct 2006 (CEST)
 
+== Windows: Path problems ==
 I wasn't able to get the windows version of the SVN level editor as linked at [http://supertux.lethargik.org/wiki/Download/Installation] to work, as it will not accept the provided directory defaults - I think it may be due to the dos directory convention of using "\" instead of "/"  ? (my windows pc is out of action at the moment but it appeared to say something to the effect of "cannot find E:\SuperTux\/whatever") -R A
 :The full error message is needed for us to help you. It worked for me last time I tested on windows. And as far as I remember the editor converts \ to / and vice versa as needed. Anyway please use the [http://supertux.lethargik.org/bugs/ bug tracker] for bugs. It should not go on the editor faq talk page. --[[User:AnMaster|AnMaster]] 07:29, 19 January 2007 (PST)
 
+== Ubuntu: Old mono ==
 The version of Mono in the Ubuntu repositories seems to be to old to run the editor, resulting in the "Object reference not set to an instance of an object" error. How can I get a version of Mono in Ubuntu that works with the editor?
 :Hm I don't run Ubuntu so I don't know, I will ask people some who use Ubuntu next time I see them. --[[User:AnMaster|AnMaster]] 08:02, 1 February 2007 (UTC)
 :: Runs fine for me on Ubuntu 6.06 LTS. I don't recall installing anything specific (other than the Mono packages from Ubuntu but possibly Multiverse - can't remember)
 
+== Mac OS X: Intel ==
 Is there any way to run this under Mac OS X (@Intel)?
 -Shylence 19:28, 13 March 2007 (UTC)
 : Yes if you can get Mono working, see also the section [[Editor FAQ#Does the editor work under Mac OS X?|Does the editor work under Mac OS X?]] --[[User:AnMaster|AnMaster]] 08:07, 11 June 2007 (UTC)
 
+== OpenSuse: GTK# version ==
 Re:the comments about OpenSuse - version 10.2 comes with gtk-sharp2-2.8.0* etc and afaics this is what generates the problem - installing gtk-sharp2-2.10.* glade-sharp2-2.10.* and glib-sharp2-2.10.* from the appropriate architecture in http://download.opensuse.org/distribution/SL-OSS-factory/inst-source/suse/ seems to do the trick! - Derek [[User:85.210.6.69|85.210.6.69]] 19:14, 4 August 2007 (UTC)
