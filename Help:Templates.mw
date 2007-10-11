@@ -6,12 +6,12 @@ Template names are prefixed with <code>Template:</code>, you create them like an
 
 ==Using a template==
 Templates are wiki pages which can be used in other pages in three ways:
-:<code><nowiki>{{Name}}</nowiki></code> includes the content of the template at the moment the page containing it is fetched <nowiki>"[[Template:Name]]"</nowiki>. 
-:<code><nowiki>{{subst:Name}}</nowiki></code> inserts the content of the template into the code of the page in a form that is editable normally <nowiki>"[[Template:Name]]"</nowiki> after you have saved your text. 
-:<code><nowiki>{{msgnw:Name}}</nowiki></code> when the page containing it is fetched, includes the template in a form that displays it as raw wiki syntax, like <code><nowiki>&lt;nowiki&gt;</nowiki></code> does
+*<code><nowiki>{{Name}}</nowiki></code> includes the content of the template at the moment the page containing it is fetched <nowiki>"[[Template:Name]]"</nowiki>. 
+*<code><nowiki>{{subst:Name}}</nowiki></code> inserts the content of the template into the code of the page in a form that is editable normally <nowiki>"[[Template:Name]]"</nowiki> after you have saved your text. 
+*<code><nowiki>{{msgnw:Name}}</nowiki></code> when the page containing it is fetched, includes the template in a form that displays it as raw wiki syntax, like <code><nowiki>&lt;nowiki&gt;</nowiki></code> does
 
 ==Using parameters in templates==
-<div style="float:right">
+<div style="float:right; margin:8px;">
 {| {{Prettytable}} 
 |-
 |{{Hl2}} colspan="2" align="center" |'''Template with numbered parameters'''	
@@ -55,9 +55,11 @@ You can define parameters in templates either numbered as <code><nowiki>{{{1}}}<
 
 When using the template on a page, you fill in the parameter values, separated by a pipe char (|): <code><nowiki>{{Thankyou|all|Joe}}</nowiki></code>.  For named parameters use "name=value" pairs separated by a pipe char:   <code><nowiki>{{Thankyou|reason=all|signature=Joe}}</nowiki></code>. The advantage of using named parameters in your template is that they are flexible in order. It also makes the template easier to understand if you have many parameters. If you want to change the order of numbered parameters, you have to mention them explicitly: <code><nowiki>{{Thankyou|2=Joe|1=all}}</nowiki></code>.
 
+You can also provide default values for parameters, i.e. values that are going to be used if no value is provided for a parameter. For example, <code><nowiki>{{{reason|all}}}</nowiki></code> would result in ''"all"'' if no value was provided for the parameter <tt>reason</tt>.
+
 ==Control template inclusion==
 You can control template inclusion by the use of <code><nowiki><noinclude></nowiki></code> and
-<code><nowiki><includeonly></nowiki></code> tags.
+<code><nowiki><onlyinclude></nowiki></code> tags.
 
 Anything between <code><nowiki><noinclude></nowiki></code> and <code><nowiki></noinclude></nowiki></code> will be processed and
 displayed only when the page is being viewed directly, not included.
@@ -67,8 +69,8 @@ Possible applications are:
 * Interlanguage links to similar templates in other languages
 * Explanatory text about how to use the template
 
-The converse is <code><nowiki><includeonly></nowiki></code>. Text between <code><nowiki><includeonly></nowiki></code> and
-<code><nowiki></includeonly></nowiki></code> will be processed and displayed only when the page is
+The converse is <code><nowiki><onlyinclude></nowiki></code>. Text between <code><nowiki><onlyinclude></nowiki></code> and
+<code><nowiki></onlyinclude></nowiki></code> will be processed and displayed only when the page is
 being included. The obvious application is to add all pages containing a given template to a category.
 
 Note that the usual update problems apply -- if you change the
@@ -85,17 +87,17 @@ Allows to establish a link to a subject:
 </noinclude>
 </pre></div>
 
-An editor can simply copy and paste the example to create a similar page. This example is trivial, however a working example that demonstrates how templates can be used in complex situations to save time, on specialty topics more easily. see working example at http://www.clickwiki.info/index.php/Template:Object
-
-Also creating a Category:Template on your wiki to put your templates together may also be useful for editors along with links to this page will greatly improve productivity. [http://www.clickwiki.info/index.php/Category:Template example wiki category page]
-
+Then, an editor can simply copy and paste the example to create a similar page.
 
 ==See Also==
-;Template uses
-*[[Help:External searches]]
+*[[Help:External searches]] -- a template special use case example
+*[[Help:Variables]] -- fancy stuff you may find in some templates
+*[[meta:Help:Embed page]] -- embedding pages from [[namespace]]s other than <code>Template:</code>.
+
 ==External links==
 {{meta|Help:Template}}
 
-[[Category:Help|Templates]]
+[[Category:Help|{{PAGENAME}}]]
+[[Category:Template]]
 {{Languages|Help:Templates}}
 [[Category:Imported help]]
