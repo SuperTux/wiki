@@ -20,6 +20,10 @@ The first letter of the target page is automatically capitalized and spaces are 
 |<tt><nowiki>[[Main Page]]</nowiki></tt>
 |[[Main Page]]
 |-
+|Internal link stored on intranet server
+|<tt><nowiki>[file:///\\server_name123\pubshare_name\internal_webpage.htm internal_webpage.htm]</nowiki></tt>
+|internal_webpage.htm
+|-
 |Category link
 |<tt><nowiki>[[:Category:Help]]</nowiki></tt>
 |[[:Category:Help]]
@@ -35,6 +39,10 @@ The first letter of the target page is automatically capitalized and spaces are 
 |External link
 |<tt><nowiki>http://mediawiki.org</nowiki></tt>
 |http://mediawiki.org
+|-
+|External link from internal image
+|<tt><nowiki>[http://targetURL {{Server}}/wiki/images/imagelocation]</nowiki></tt>
+|Internal image
 |-
 |External link,<br />
 different title
@@ -72,9 +80,23 @@ same host unnamed
 | &rarr; [[Main Page]]
 |}
 
+==Formatting==
+
+To remove the 'external link image' from next to each of the external links, add the following to the page located at <code>MediaWiki:Monobook.css</code> on your wiki.
+
+<pre>
+#bodyContent a.external,
+#bodyContent a[href ^="gopher://"] {
+        background: none;
+        padding-right: 0;
+}
+</pre>
+
 == External links ==
 {{meta|Help:Link}}
  
 {{Languages|Help:Links}}
+
 [[Category:Help|Links]]
+[[Category:Link]]
 [[Category:Imported help]]
