@@ -9,7 +9,7 @@ A good general rule of thumb is to avoid using a table unless you need to. Table
 {|cellpadding="5" cellspacing="0" border="1" width="600"
 |<nowiki>{|</nowiki> || start '''table'''
 |-
-|<nowiki>| </nowiki> || table '''caption,''' ''optional;'' only one per table and between table start and first row
+|<nowiki>|+</nowiki> || table '''caption,''' ''optional;'' only one per table and between table start and first row
 |-
 |<nowiki>|-</nowiki> || '''table row,''' ''optional on first row'' -- wiki engine assumes the first row
 |-
@@ -21,10 +21,8 @@ A good general rule of thumb is to avoid using a table unless you need to. Table
 |}
 *The above marks must '''start on a new line''' except the double || and !! for optionally adding consecutive cells to a line.
 *'''XHTML attributes.''' Each mark, except table end, optionally accepts one or more XHTML attributes. Attributes must be on the same line as the mark. Separate attributes from each other with a single space. 
-**Cells and caption (<nowiki>| or ||, ! or !!, and | </nowiki>) hold content. So separate any attributes from content with a single pipe (|). Cell content may follow on same line or on following lines.
-**Table and row marks (<nowiki>{| and |-</nowiki>) do not directly hold content. Do ''not'' add pipe (|) after their optional attributes. If you erroneously add a pipe after attributes for the table 
-1000
-mark or row mark the parser will delete it ''and'' your final attribute if it was touching the erroneous pipe!
+**Cells and caption (<nowiki>| or ||, ! or !!, and |+</nowiki>) hold content. So separate any attributes from content with a single pipe (|). Cell content may follow on same line or on following lines.
+**Table and row marks (<nowiki>{| and |-</nowiki>) do not directly hold content. Do ''not'' add pipe (|) after their optional attributes. If you erroneously add a pipe after attributes for the table mark or row mark the parser will delete it ''and'' your final attribute if it was touching the erroneous pipe!
 *'''Content''' may (a) follow its cell mark on the same line after any optional XHTML attributes or (b) on lines below the cell mark. Content that uses wiki markup that itself needs to start on a new line, such as lists, headers, or nested tables, must of course be on its own new line.
 
 ==Simple table==
@@ -61,7 +59,7 @@ The following table lacks borders and good spacing but shows the simplest wiki m
 ===Alternative===
 For more table-ish looking wiki markup cells can be listed on one line separated by ||. This does not scale well for longer cell content such as paragraphs. It works well for short bits of content however, such as our example table.
 
-Extra spaces within cells in the wiki markup can be added, as I have done in the wiki markup below, to make the wiki markup itself look better but they do not effect the actual table rendering.
+Extra spaces within cells in the wiki markup can be added, as I have done in the wiki markup below, to make the wiki markup itself look better but they do not affect the actual table rendering.
 
 HTML attributes can be added to this table following the examples in other tables on this page but have been left out of the following example for simplicity.
 {| width="100%"
@@ -114,6 +112,7 @@ You can add HTML attributes to make your table look better
 |}
 </pre>
 |}
+
 ====align="center" border="1"====
 {| width="100%"
 |width="50%"|
@@ -239,9 +238,8 @@ You can put attributes on individual '''rows,''' too.
 |}
 </pre>
 |}
-====cellpadding="20" cellspacing="0" bor
-1000
-der="1"====
+
+====cellpadding="20" cellspacing="0" border="1"====
 {| width="100%"
 |width="50%"|
 {| cellpadding="20" cellspacing="0" border="1"
@@ -444,7 +442,7 @@ A '''table caption''' can be added to the top of any table as follows
 {| width="100%"
 |width="50%"|
 {| border="1" cellpadding="20" cellspacing="0"
-| Food complements
+|+Food complements
 |-
 |Orange
 |Apple
@@ -458,7 +456,7 @@ A '''table caption''' can be added to the top of any table as follows
 |width="50%"|
 <pre>
 {| border="1" cellpadding="20" cellspacing="0"
-| Food complements
+|+Food complements
 |-
 |Orange
 |Apple
@@ -477,7 +475,7 @@ A '''table caption''' can be added to the top of any table as follows
 {| width="100%"
 |width="50%"|
 {| border="1" cellpadding="20" cellspacing="0"
-| align="bottom" style="color:#e76700;"|''Food complements''
+|+align="bottom" style="color:#e76700;"|''Food complements''
 |-
 |Orange
 |Apple
@@ -486,14 +484,12 @@ A '''table caption''' can be added to the top of any table as follows
 |Pie
 |-
 |Butter
-|Ice cr
-1000
-eam 
+|Ice cream 
 |}
 |width="50%"|
 <pre>
 {| border="1" cellpadding="20" cellspacing="0"
-| align="bottom" style="color:#e76700;"|''Food complements''
+|+align="bottom" style="color:#e76700;"|''Food complements''
 |-
 |Orange
 |Apple
@@ -532,7 +528,7 @@ Keep the heading hierarchy consistent with the rest of the page so that the tabl
 |}
 |width="50%"|
 <pre>
-{| border="1" cellpadding="20" cellspacing="0"
+{| border="3"  cellpadding="20" cellspacing="0"
 |colspan="2"|
 ===Yummiest===
 |-
@@ -548,7 +544,11 @@ Keep the heading hierarchy consistent with the rest of the page so that the tabl
 </pre>
 |}
 
+==Caveat==
+===Negative numbers===
+Negative value minus sign can break your table (it may display missing some values) if you start a cell on a new line with a negative number or a parameter that evaluates to a negative number (|-6) because that is the wiki markup for table row, not table cell. To avoid this, insert a space before the value (| -6) or use in-line cell markup (||-6).
 
 {{Languages|Help:Tables}}
 [[Category:Help|Tables]]
+[[Category:Tables]]
 [[Category:Imported help]]
