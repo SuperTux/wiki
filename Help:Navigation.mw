@@ -1,14 +1,17 @@
 {{PD Help Page}}
-If you look at a page in MediaWiki, you'll find three main navigation elements: The sidebar on the left gives you access to important pages in the Wiki like recent changes or file upload. At the top of the page are the links which belong to the page currently displayed: its associated discussion page, the version history, and - most notably - the edit link. In the top right corner you'll find, as an anonymous user, the link to create an account and login (they are on the same page). As a logged-in user you have a collection of personal links, like the one to your user page or your preferences.
+When viewing any page on a MediaWiki wiki, you'll find three main navigation elements:
+# The [[#Sidebar|sidebar]] on the left gives you access to important pages in the wiki such as Recent changes or Upload file.
+# At the top of the page are links (often called [[#Page Tabs|tabs]]) which relate to the page currently displayed: its associated discussion page, the version history, and&mdash;most notably&mdash;the edit link.
+# In the top right corner you'll find [[#User Links|user links]]; as an anonymous user, you'll see a link to create an account or log in (they are the same page). As a logged-in user you have a collection of personal links, including ones to your user page and [[Help:Preferences|preferences]].
  
 == Sidebar ==
 [[Image:M-en-sidebar.png|framed|right|Example sidebar, shown on the left of the page]]
-The sidebar is displayed on the left edge of the page below the site logo (if using the default MonoBook skin). This sidebar gives you access to important pages in the Wiki like recent changes or file upload.
+The sidebar is displayed on the left edge of the page below the site logo (if using the default MonoBook skin). This sidebar gives you access to important pages in the wiki such as Recent changes or Upload file.
 
-=== Navigation    ===
-A click on the logo brings you back to the start page of the wiki. The links take you to important pages in the wiki, they can be configured by site administrators of the individual wikis
+=== Navigation ===
+Clicking on the logo brings you back to the main page of the wiki. The links in the navigation section just below will take you to important pages of the wiki. These links can be configured by site administrators.
 
-{{Admin tip|tip=You can customize the links in the navigation section via [[Special:Allmessages]]. For example edit [[MediaWiki:Sitesupport]] (displayed name) and [[MediaWiki:Sitesupport-url]] (target page). Or create a menu on your own in [[MediaWiki:Sidebar]].}}
+{{Admin tip|tip=You can customize the navigation links by editing [[MediaWiki:Sidebar]]. Some entries call for separate MediaWiki: pages, e.g. to change the automatic link to the [[Main Page]] you would change [[MediaWiki:Mainpage]] (target page) and [[MediaWiki:Mainpage-text]] (displayed text). You can find a list of such pages via [[Special:Allmessages]].}}
 
 === Toolbox ===
 The toolbox contains a selection of links which change depending on what type of page you are viewing.
@@ -18,7 +21,7 @@ On all pages (except special pages):
 * The ''Related changes'' tool lists all recent changes in the pages linked to from the current page. Recent changes to all relevant template pages are included in the resulting page list. The "Hide minor edits" option that can be set in the user [[Help:Preferences|preferences]] applies, among other things, to ''Related Changes''.
 
 On all pages (including special pages):
-* ''Upload file'' displays a special page that allows logged-in users to upload images and other files to the wiki. Uploaded files can be linked-from or embedded-in wiki pages. Uploading files, viewing files on the server, including them in wiki pages and managing the uploaded files is discussed in the [[Help:Managing files|managing files]] section of this manual. This is not displayed if file uploading has been disabled or not enabled in the first place.
+* ''Upload file'' displays a special page that allows logged-in users to upload images and other files to the wiki. Uploaded files can be linked from or embedded in wiki pages. Uploading files, viewing files on the server, including them in wiki pages and managing the uploaded files is discussed in the [[Help:Managing files|managing files]] section of this manual. This is not displayed if file uploading has been disabled or not enabled in the first place.
 {{Admin tip|tip=To enable file uploading someone with access to the MediaWiki installation files needs to edit the <code>LocalSettings.php</code> file and uncomment or add the option <code>$wgEnableUploads = true;</code>. Uploaded files will be stored in the images folder specified by the <code>$wgUploadPath</code> variable in the <code>LocalSettings.php</code>. This directory must be writable if file uploads is enabled. The [[Manual:LocalSettings.php#Upload location|upload location]] and [[Manual:LocalSettings.php#Image uploads|image uploads]] settings are described in more detail on the MetaWiki [[Manual:LocalSettings.php|LocalSettings.php]] page.}}
 * The ''Special pages'' tool lists the MediaWiki special pages. In MediaWiki terminology, a special page is one that presents information about the Wiki and/or allows access to administration activities for the wiki. For example, a list of users registered with the wiki, statistics about the wiki such as the number of pages and number of page edits, system logs, a list of orphaned pages, and so on. These special pages are commonly generated when the special page is loaded rather than being stored in the wiki database.
 
@@ -28,14 +31,13 @@ On all pages (including special pages):
 [[Image:M-en-pagetabs.png|framed|right|Default page tabs at the top of the page]]
 The page tabs are displayed at the top of the article to the right of the site logo (if using the default MonoBook skin). These tabs allow you to perform actions or view pages that are related to the current article. The available default actions include: viewing, editing, and discussing the current article. The specific tabs displayed on your pages depend on whether or not you are logged into the wiki and whether you have sysop (administrator) privileges on the wiki. On special pages only the namespace tab is displayed.
 
-
 ;Default for all users
 : ''[[Help:Namespaces|namespace]]'' (article, help, special page, template, user page etc.)
 : ''discussion''
-: ''edit'' (may be view source if anonymous editing is enabled, the page is in the MediaWiki namespace or the page is protected)
+: ''edit'' (may read ''view source'' if anonymous editing is disabled, the page is in the MediaWiki: namespace, or the page is protected)
 : ''history''
 
-;Extra tabs for logged in users:
+;Extra tabs for logged-in users:
 : ''move''
 : ''watch''
 
@@ -43,13 +45,13 @@ The page tabs are displayed at the top of the article to the right of the site l
 : ''protect''
 : ''delete''
 
-Extra tabs may be added, or some taken away, by wiki administrators using JavaScript or adding extensions so these may be different depending on which wiki you are using.
+Administrators can add or remove tabs by using JavaScript or installing extensions, so the tabs you see may be different depending on which wiki you are using.
 
 == User Links ==
 [[Image:M-en-userlinks.png|framed|right|Default user links at the top right of the page]]
 The user links are displayed at the top far right of the article (if using the default MonoBook skin). These tabs allow the logged-in user to view and edit their user page and wiki preferences. Additionally, the user links allow the user to quickly access their contributions to the wiki and logout.
 
-For anonymous users the user links is replaced by a link to the wiki login page or, if enabled, a link to your ip address and your ip address's talk page.
+For anonymous users the user links is replaced by a link to the wiki login page or, if enabled, a link to your IP address and your IP address's talk page.
 
 * ''<username>'' 
 *: This links to your user page which is where you can put information about yourself, store bits of information you want to remember or whatever else you fancy.
@@ -58,7 +60,7 @@ For anonymous users the user links is replaced by a link to the wiki login page 
 * ''preferences''
 *: Allows you to change your personal site preferences.
 * ''my watchlist''
-*: A list of all pages that you are watching.  Pages can be added to this list by clicking 'watch' at the top of the page.
+*: A list of all pages that you are watching.  Pages can be added to this list by clicking ''watch'' at the top of the page.
 * ''my contributions''
 *: A list of all contributions you have made to the wiki.
 * ''log out''
