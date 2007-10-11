@@ -33,6 +33,19 @@ __TOC__
 <code><nowiki>[[Image:Example.jpg|center|thumb|100px|Sunflowers]]</nowiki></code>
 |
 [[Image:Example.jpg|center|thumb|100px|Sunflowers]]
+|-
+|Border<br /> (100 pixels) <br /> Results in a very small gray border
+<!-- Note: because the fine gray border can not be seen when used on the "Sunflowers"-image an image is used with a withe background -->
+|
+<code><nowiki>[[Image:Wiki.png|border|100px]]</nowiki></code>
+|
+[[Image:Wiki.png|border|100px]]
+|-
+|Frameless<br />Like thumbnail, respect user preferences for image width but without border and no right float.
+|
+<code><nowiki>[[Image:Example.jpg|frameless]]</nowiki></code>
+|
+[[Image:Example.jpg|frameless]]
 |}
 
 ==Uploaded files==
@@ -90,7 +103,7 @@ Image:Example.jpg|''italic caption''
 </gallery>
 
 ==Other files==
-You can link to an external file using the same syntax used for [[Help:Links#External links|linking to an external web page]]. 
+You can link to an external file using the same syntax used for linking to an external web page. 
 *<code><nowiki>[http://url.for/some/image.png]</nowiki></code>
 Or with different text:
 *<code><nowiki>[http://url.for/some/image.png link text here]</nowiki></code>
@@ -103,7 +116,8 @@ If it is enabled on your wiki (see [[Manual:$wgAllowExternalImages]]), you can a
 See here: [[Manual:Image Administration]]
 
 ==External Links==
-{{meta|Help:Images and other uploaded files}}
+* {{meta|Help:Images and other uploaded files}}
+* http://en.wikipedia.org/wiki/Wikipedia:Extended_image_syntax
 
 {{Languages|Help:Images}}
 
