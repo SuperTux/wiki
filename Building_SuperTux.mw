@@ -37,6 +37,8 @@ to install them.
 == Gentoo ==
 Gentoo users should run
  emerge -av subversion jam openal physfs libsdl sdl-image libvorbis libogg
+and (if you want the Add-on Manager)
+ emerge -av curl
 
 == FC6 ==
 For Fedora, use <code>yum</code> and don't forget the development packages!
