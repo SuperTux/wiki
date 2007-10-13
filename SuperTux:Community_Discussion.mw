@@ -2,6 +2,10 @@
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
 [[Image:RATEDFUN.png]]
 
+==Psychological Effects==
+Hi! I often get angry because when I play a level and die, I have to begin (nearly) from the start. I think it would be better to place more bells in the levels. I think so you might get more players... What do you think about placing more bells in the levels? In return we should arise the number of coins, which are detached if tux dies. --[[User:Nummer9|Nummer9]] 16:49, 13 October 2007 (UTC)
+
+
 ==Website update?==
 
 I've built supertux from svn and saw all the great updates you guys have done. Don't you believe it's about time to let the world know a bit about it? Just like, let's say, a little piece of news with one or two screenshots on the front page, telling "we're not dead". Because I really thought supertux was a dying project, before managing to compile svn version.
@@ -156,7 +160,7 @@ How do I remove or uninstall SuperTux, please?
 
 
 
-=How to delete saves=
+==How to delete saves==
 
 I need to delete all the save files for
 SuperTux. A search for "supertux" reveals several folders and files, none of which seem to be related to save files.
