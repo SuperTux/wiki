@@ -664,6 +664,7 @@ There are ice tiles or ice ground that can be walked on. They can also be jumped
 There can be geisers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
 :There is wind already.
 ::Oh, wind is good, I've never seen wind in Supertux yet though. --smallfoot
+:You could use wind on a waterfall (upside-down) to make that!
 
 === Teleporter ===
 There are teleporters or some magic force fields that work as teleportation means on the level. When Tux walks into the teleporter he gets teleported to somewhere else.
