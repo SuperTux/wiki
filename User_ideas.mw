@@ -658,6 +658,7 @@ They may be the same, but Milestone 2 has got a worse control than Milestone 1.
 
 === Ice breaking ===
 There are ice tiles or ice ground that can be walked on. They can also be jumped on without break. But if Tux does the "buttjump" then it breaks the tile/ground. Perhaps this can be used to reach other areas or enter secret places.
+:I've implemented that in my own version - I can now smash wooden boxes with buttjump from top.
 
 === Geiser ===
 There can be geisers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
