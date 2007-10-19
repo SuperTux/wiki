@@ -1,1 +1,9 @@
-I'm currently trying to write a converter for [http://www.ticalc.org/pub/83plus/asm/games/levels/mario/ these mario levels] that run under [http://www.ticalc.org/archives/files/fileinfo/192/19225.html this mario calculator game] to get a huge source of levels for SuperTux. I'll post the converter (written in Java) and my pick of the converted levels once I get it done.
+== About me ==
+I'm a bored teenager who has a laptop (with Windows SP2, currently), an internet connection (fairly slow, so I wait a long time), and lots of free time. I program Java, [[http://en.wikipedia.org/wiki/Zilog_Z80 z80 assembly]] (ever heard of a TI calculator?), and some C and C++ (because of its similarity to Java). I am currently trying to learn more of C and C++, and C# so I can work on the level editor. I have a few ideas that will revolutionize (or so I think) level designing...
+
+== Current Projects ==
+I have a fairly short attention span of a few months, during which I try to make a working (albeit roughish) program that does some cool thing.
+
+Right now, I'm currently trying to write a converter for [http://www.ticalc.org/pub/83plus/asm/games/levels/mario/ these mario levels] that run under [http://www.ticalc.org/archives/files/fileinfo/192/19225.html this mario calculator game] to get a huge source of levels for SuperTux. I'll post the converter (written in Java) and my pick of the converted levels once I get it done.
+
+I also have some ideas for the level editor that I'm trying to develop.
