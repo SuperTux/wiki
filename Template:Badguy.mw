@@ -1,4 +1,4 @@
-'''Name:''' {{{name}}}
+<noinclude>[[Category:Uncategorized templates|{{PAGENAME}}]]</noinclude>'''Name:''' {{{name}}}
 
 [[Image:{{{image}}}.png|{{{name}}}]]
 
@@ -17,4 +17,3 @@
 '''Burnable:''' {{{ignite}}}
 
 ''This data might vary in Milestone II. Note that Butt-jump is not yet implemented.''
-<noinclude>[[Category:Templates]]</noinclude>
