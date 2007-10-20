@@ -1,57 +1,51 @@
 __NOTOC__
 
 == Summary ==
-This class provides the ability to create, edit, and remove images floating in midair on the screen, such as the SuperTux logo. It is implemented as a wrapper around a sprite, so any sprite actions are applicable.
-
+This provides the ability to create, edit, and remove images floating on the screen. It is implemented as a wrapper around a sprite, so any sprite actions are applicable.
 
 == Instances ==
 Floating Images are created in a script or from the console.
-Constructor:
-<code>
- <tt>&lt;floatimage&gt; &lt;- FloatingImage(string filename)</tt>
-</code>
-Creates a FloatingImage from <tt>filename</tt> (which is relative to the data root).
 === Example ===
 
-Definition of the logo in the menu level:
-<code>
- (init-script "
-   logo <- FloatingImage(\"images/objects/logo/logo.sprite\");
-   logo.set_anchor_point(ANCHOR_TOP);
-   logo.set_pos(0, 30);
-   logo.set_visible(true);
-   // Suspend (this is needed so that logo doesn't get deleted)
-   suspend();
- ")
-</code>
+Example of a definition in a level file (from menu.stl, actually):
+<pre>
+(init-script "
+logo <- FloatingImage(\"images/objects/logo/logo.sprite\");
+logo.set_anchor_point(ANCHOR_TOP);
+logo.set_pos(0, 30);
+logo.set_visible(true);
+// Suspend (this is needed so that logo doesn't get deleted)
+suspend();
+")
+</pre>
 
-The above creates a floating image name "logo", anchors it to the top, set its position relative to that anchor, and finally displays it instantaneously. To use this in the console, remove the init script and ending lisp tags.
+The above will create a floating image name "logo", anchor it to the top, set its position, and finally displays it instantaneously. To use this in the console, remove everything before "logo <-" and everything after "set_visible(true);"
 
 == Methods ==
 {| class="objectlist"
 ! class="method"| void set_layer(int layer)
-| Moves this image to the layer <tt>layer</tt>. See src/video/drawing_context.hpp for the predefined layers and their values (note that you can't yet use these constants in your Squirrel code).
+| Sets the layer of this image to <tt>layer</tt>.
 |-
 ! class="method"| int get_layer()
-| Returns: <tt>int</tt>; the layer the floating image is on.
+| Returns the current layer of this image.
 |-
 ! class="method"| void set_pos(float x, float  y)
-| Sets the position of this image to (x,y) | Move the image in relation to the current anchor point.
+| Sets the position of this image to (x,y)
 |-
 ! class="method"| int get_x()
-| Returns the x position of this image. | Get the image's X coordinate relative to the current anchor point.
+| Returns the x position of this image.
 |-
 ! class="method"| int get_y()
-| Returns the y position of this image. | Get the image's Y coordinate relative to the current anchor point.
+| Returns the y position of this image.
 |-
 ! class="method"| int get_anchor_point()
-| Returns the current anchor point of this image. (See set_anchor_point for a list of values) | Returns: <tt>int</tt>; the current anchor point
+| Returns the current anchor point of this image. (See set_anchor_point for a list of values)
 |-
 ! class="method"| void set_anchor_point(int anchor)
-| Set the image's anchor point. Possible values are represented by the [[ScriptingGlobals#Constants|ANCHOR_* constants]].
+| Sets the anchor of this image. One of <tt>ANCHOR_TOP_LEFT</tt>,<tt> ANCHOR_TOP</tt>,<tt> ANCHOR_TOP_RIGHT</tt>,<tt> ANCHOR_LEFT</tt>,<tt> ANCHOR_MIDDLE</tt>,<tt> ANCHOR_RIGHT</tt>,<tt> ANCHOR_BOTTOM_LEFT</tt>,<tt> ANCHOR_BOTTOM</tt>,<tt> or ANCHOR_BOTTOM_RIGHT</tt>.
 |-
 ! class="method"| string get_action()
-| Returns the name of the current action of this image. (Only useful for sprites)
+| Returns the current action of this image. (Only useful for sprites)
 |-
 ! class="method"| set_action(string action)
 | Sets the current action of this image. (Only useful for sprites)
@@ -60,7 +54,7 @@ The above creates a floating image name "logo", anchors it to the top, set its p
 | Returns the current visibility of this image.
 |-
 ! class="method"| set_visible(bool visible)
-| Shows or hides the image abruptly according to visible (drastic counterpart to <tt>fade_in</tt> and <tt>fade_out</tt>).
+| Shows or hides the image abruptly (drastic counterpart to <tt>fade_in</tt> and <tt>fade_out</tt>).
 |-
 ! class="method"| fade_in(float time)
 | Fades in this image for the next <tt>time</tt> seconds.
@@ -73,5 +67,4 @@ The above creates a floating image name "logo", anchors it to the top, set its p
 
 None
 
-{{Navbox Scripting reference}}
 [[Category:Scripting Reference]]
