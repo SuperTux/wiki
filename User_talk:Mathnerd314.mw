@@ -12,3 +12,7 @@ Reply to reply on my user page. --[[User:AnMaster|AnMaster]] 10:59, 21 October 2
 Hm... You mention a converter on your user page, as I got a TI-83+ and I once played a mario game on it I assume it is the same mario game (there can't be two for TI83+, I refuse to believe that ;). As far as I remember, the game wasn't very good. --[[User:AnMaster|AnMaster]] 15:35, 19 October 2007 (UTC)
 :Actually, there '''are''' two versions of Super Mario. One is [http://www.ticalc.org/archives/files/fileinfo/192/19225.html Super Mario v1.2], which comes with source code and is the official version. It uses external levelsets, and its graphics are almost as good as they get on a calculator. (The only thing better is grayscale, which is much much harder to implement that black-and-white) There is '''also''' a [http://design.calcgames.org/cgi-bin/files.cgi?ID=435 Super Mario v2.0], which was produced by the same person but never officially released. They share the same basic code and graphics, except that v2.0 has some extras such as swimming and ducking. They both, however, use the same basic level structure, so I should be able to convert both types.
 :I am no fit judge for whether or not the game is any good, but it is playable and fun, although it has a nasty tendency to clear your RAM sometimes.
+
+== "Quirks" ==
+
+Solid tilemaps: Fully intended. Tilemaps can have paths in svn so you can have rising lava for example (there are one level using that in svn). True about the problem with jump, please report a bug.
