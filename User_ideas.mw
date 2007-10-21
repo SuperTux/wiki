@@ -87,6 +87,10 @@ A more fitting reward should be accomplished for collecting coins. Yoshi's Islan
 How about instead of just a project for a multiplayer mode, a mass multiplayer mode. Of course, someone would probably have to set up a good server for this. You could differentiate your Tux from everyone else's tux through ties, hats, and body colors. Boxes and enemies could reappear after a certain amount of time. You could trade your coins for something different from a one up. You could have firetux duels with other people, or maybe throw snowballs at each other. Maybe kill other tuxes by jumping to hit bricks that they're standing on.
 : i wanna help!!!!
 
+=== Different power-ups ===
+Ability to have different power-ups and weapons would make the game more fun. For example, having a lot of power-ups and weapons would make some players want to try out all the moves there are. Making the power-ups so that tux can only have one at a time would make the game more interesting.
+(By the way, if I knew how to program in c++, I would implement then on a svn version and send it to the maintainers.)
+
 === More control over moving platforms ===
 Ability to move platforms without a fixed path. Something like: platform.move(x,y,speed)
 Maybe platforms could detect wether Tux is standing on them or not. For example, you could make a platform that only moves when Tux is standing on top of it. And it could even change directions each time Tux jumps (yes, I know those kind of platforms were in Super Mario 3).
