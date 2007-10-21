@@ -63,6 +63,14 @@ Someone has put a [http://debs.peadrop.com/dists/edgy/backports/#dl_supertux_0.3
 Game is available in the [http://packages.ubuntu.com/feisty/games/supertux official repository].
 |-----
 |
+<div class="downloadtitle">Ubuntu 7.10:</div>
+|| 
+|
+<div class="downloadlink">[http://www.deltadevelopment.de/users/christoph/supertux/supertux-editor_0.3.0-sommer01_i386.deb Editor]</div>
+|
+Game is available in the [http://packages.ubuntu.com/gutsy/games/supertux official repository].
+|-----
+|
 <div class="downloadtitle">Mac OS X:</div>
 |
 <div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.0-macosx.dmg Game]</div>
