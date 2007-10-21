@@ -31,7 +31,7 @@ The level format is a bit complex, which is why the [[Editor FAQ|level editor]] 
                                       ;; "background" is now -100, "interactive" is 0 and "foreground" is 100.
 
       (solid  #f)                     ;; Will Tux collide with tiles in this tilemap?
-                                      ;; Note: only one tilemap can be solid per sector.
+                                      ;; Note: more than one tilemap can be solid per sector.
 
       (speed  1.0)                    ;; If the tilemap is solid, this has to be 1. Basically sets how
                                       ;; fast the tilemap scrolls horizontally.
