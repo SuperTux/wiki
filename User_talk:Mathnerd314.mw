@@ -16,4 +16,4 @@ Hm... You mention a converter on your user page, as I got a TI-83+ and I once pl
 == "Quirks" ==
 
 Solid tilemaps: Fully intended. Tilemaps can have paths in svn so you can have rising lava for example (there are one level using that in svn). True about the problem with jump, please report a bug.
-:Why is that a bug? If the floor is moving down tux is falling. It is not possible to jump when falling. There is no fine for breaking the Laws Of Physics so it could be done, but why? If you want to jump use a slower platform.
+:Why is that a bug? If the floor is moving down fast Tux is falling. It is not possible to jump when falling. There is no fine for breaking the Laws Of Physics so it could be done, but why? If you want to jump use a slower platform.
