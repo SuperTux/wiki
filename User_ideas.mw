@@ -91,6 +91,9 @@ How about instead of just a project for a multiplayer mode, a mass multiplayer m
 Ability to have different power-ups and weapons would make the game more fun. For example, having a lot of power-ups and weapons would make some players want to try out all the moves there are. Making the power-ups so that tux can only have one at a time would make the game more interesting.
 (By the way, if I knew how to program in c++, I would implement then on a svn version and send it to the maintainers.)
 
+=== Getting chased by an animal ===
+Being chased by an animal (like a bear in a forest) would be great fun.
+
 === More control over moving platforms ===
 Ability to move platforms without a fixed path. Something like: platform.move(x,y,speed)
 Maybe platforms could detect wether Tux is standing on them or not. For example, you could make a platform that only moves when Tux is standing on top of it. And it could even change directions each time Tux jumps (yes, I know those kind of platforms were in Super Mario 3).
