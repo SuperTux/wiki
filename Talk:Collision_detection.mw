@@ -13,3 +13,7 @@ I think having angled tiles for map construction is a good thing, but the physic
 :: Agree with Matze here, pixel-perfect collision is indeed pretty useless, especially since it won't decrease situations where you have been almost hit, it will just add another layer of weirdness ontop of it, ie. when your feet is colliding with some piece of hair of a badguy a simple pixel based collision would give you a collision, when in reality you want to only trigger one when the bodies of both have collided, and not just some little graphical detail. There are other problems with getting the collision normal with pixel based collision that are quite tricky to solve too. Speed on the other side isn't an issue with pixel-collision, since one can easily optimize them so that only those small parts are checked that really overlap (ie. nothing for 99.9% of the time).
 
 :: -- [[User:Grumbel|Grumbel]] 03:54, 13 Jul 2005 (BST)
+
+== Omission ==
+
+Shouldn't there be something about where and when the collision detection actually takes place? (i.e., sector.cpp's handle_collisions method and when update() is called) [[User:Mathnerd314|Mathnerd314]] 23:37, 28 October 2007 (UTC)
