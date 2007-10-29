@@ -5,3 +5,4 @@ Hi. I want to port the SuperTux level editor into Java so I can run it (Doesn't 
 :What other reasons did you have for not wanting to port it to Java, by the way? (Oh, and I responded to the level converter question on my page) [[User:Mathnerd314|Mathnerd314]] 01:26, 21 October 2007 (UTC)
 ::As I said, I don't know java at all and have no interest in learning it. If you code a level editor in java, fine, but don't ask me to support it. I'm more than happy to help with questions about level format and such (IRC preferred, #supertux on irc.freenode.net) --[[User:AnMaster|AnMaster]] 10:58, 21 October 2007 (UTC)
 ::Oh I should add to that: IRC, European evening (I'm in GMT+1) --[[User:AnMaster|AnMaster]] 11:07, 21 October 2007 (UTC)
+:::One quick question on level/S-expr format: Is it case-sensitive? [[User:Mathnerd314|Mathnerd314]] 01:07, 29 October 2007 (UTC)
