@@ -1,7 +1,7 @@
 =Super Tux Smash=
 
 Super Tux Smash would be a mod of the Super Tux Engine for Multiplayer,
-loosely based on Return to Wonderland Platinum Edition but with different gameplay.
+loosely based on Super Smash Brothers Melee but with some completely different gameplay.
 
 == Features needed in the engine ==
 
@@ -18,10 +18,6 @@ Intro, Winners podium extro.
 Unlimited lives.
 
 Mini-viewport (ala Smash Bros) to show where players have gone offscreen
-
-WSW places.
-
-Have Little and Wee Stinkers. (Already in WSW and WA)
 
 == Game Modes ==
 
@@ -63,8 +59,6 @@ or player. There might also be tied balloons which don't pop but you have to jum
 Magnet - allows you to grab onto the bottom of platforms and move along them.
 
 Spiky shell - invulnerability for 30 seconds
-
-Gold star - allowed to clear the level when he finishes the battle
 
 == Characters ==
 
@@ -113,20 +107,6 @@ Skirpy
 Beastie (BSD logo)
 
 Platypus (Darwin logo)
-
-Loof
-
-Stinky
-
-Qookie
-
-Peegue
-
-Scouge
-
-Coily
-
-Z-Bot
 
 == Attacks ==
 
