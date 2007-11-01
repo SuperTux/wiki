@@ -1,6 +1,18 @@
 {{Attention|s=This is about the Milestone 1.9 and later editor '''NOT''' about the editor built into SuperTux 0.1.x.}}
+__BABE FUCK__
+__BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK____BABE FUCK__
+__BABE FUCK____BABE FUCK__
+__BABE FUCK__
+__BABE FUCK__
+__BABE FUCK__
+__BABE FUCK__
+__BABE FUCK__
+__BABE FUCK__
 
+
+__BABE FUCK__
 __TOC__
+
 
 
 == Generic ==
@@ -33,48 +45,13 @@ Select the tilemap object and place it like a normal object anywhere in the leve
 == Objects ==
 
 === How do I easily align an object to the grid? ===
-Press the Control key while moving an object to snap to every 16 pixels. Press the Shift key to snap to every 32 pixels.
-
-=== What is the SequenceTrigger object for? ===
-[[Image:Sequencetrigger.png|left]] The SequenceTrigger object is used to define the areas that start and stop the end sequence (Tux walks into Igloo / Exit). The sequence names for that are "endsequence" and "stoptux", respectively. Also, you can use "fireworks".
+Pux walks into Igloo / Exit). The sequence names for that are "endsequence" and "stoptux", respectively. Also, you can use "fireworks".
 
 === What is the SpawnPoint object for? ===
 [[Image:Spawnpoint.png|left]] The SpawnPoint object is used to define places where Tux could "spawn". This is used to mark where Tux should start in the level, the destination of doors and more. The spawnpoint where Tux will start on loading the level must be named "main" and be in the sector called "main".
 
 === How do I change the background image? ===
-Select "Background" in the sector objects view. There you can change it's properties, including what picture(s) should be used for background.
-
-<br/>
-
-== Other tools ==
-
-=== How do I use brushes? ===
-[[Image:EditorBrushIcon.png|left]]
-Brushes are used to clean up edge tiles. The brush tool does that by replacing a chosen 3x3 section of tiles with the best of several "good-looking" patterns stored in so-called brushes. Keep that in mind when working with brushes - a brush will never apply a pattern it does not know about.
-
-There are already a few brushes in <tt>trunk/supertux-sharp/data/brushes</tt> <!-- TODO: change this to a more "useful" path. --> that know some valid patterns e.g. for earth tiles or snow tiles. Load one in the level and then drag it over tiles to correct edge tiles of rough tile "blocks".
-
-Note that the brushes are incomplete, so you might need to fix some things manually. If you used a pattern a brush did not yet know, you can add it to the list of known patterns by dragging a selection around the new pattern(s) with your right mouse button. All patterns in the selected region will be added to the list of valid patterns for the currently loaded brush. Because patterns are currently 3x3 tiles in size, your selection obviously has to be at least 3x3 tiles big. Also don't forget to save the brush afterwards or your changes will be lost when you deselect the brush.
-
-To create a new brush you currently got to "train" an empty one:
-#Make a level that looks good.
-#Select the tilemap you placed those tiles in.
-#Load the brush <tt>trunk/supertux-sharp/data/brushes/empty.csv</tt> <!-- TODO: change this to a more "useful" path. -->
-#Right click and drag to select the area to get tiles from.
-#*The minimum size for a selection that works is 3x3 tiles.
-#When you are finished save the brush.
-
-Note that a good brush would need several thousand patterns.
-
-<br/>
-
-== Sectors ==
-
-=== Where are the sector tabs? ===
-Near the top of the editor. The default sector in a level is called "main" and is the sector where the game will start.
-
-=== How do I resize a sector? ===
-Right click on the [[#Where are the sector tabs?|tab for the sector]] and select "Resize".
+Select "Background" in the sector objects view. There you can change it's properties, including what picture(s) should be ck on the [[#Where are the sector tabs?|tab for the sector]] and select "Resize".
 
 === How do I create a new sector? ===
 Right click at the [[#Where are the sector tabs?|sector tab]] area and select "New".
@@ -114,15 +91,7 @@ Yes, but it requires a complete setup. you will have to compile some GTK# progra
 This can be several things:
 #Check that the paths to the supertux data directory and to supertux itself in the editor preferences are correct.
 #If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least [http://www.mono-project.com/Downloads 1.2.2.1].
-'''Note: That the Mono version with installation is not compatible with the Level Editor.'''
-
-=== My bug is not listed above ===
-If any of the above didn't solve the problem and you manage to recreate the error, report the bug with at least this info:
-*Full backtrace
-*What you did to cause the bug
-*What OS and OS version you use
-*What versions of mono, the editor itself, GTK and GTK# that you use
-These types of bugs can not be solved without that info (and sometimes we might need more details than that, so please check back at the bug once day or so if there is any more info asked for).
+ once day or so if there is any more info asked for).
 
 [[Category:Development]]
 [[Category:For Users]]
