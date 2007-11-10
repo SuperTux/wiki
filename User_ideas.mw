@@ -1,5 +1,17 @@
 ==Implemented==
 
+=== Vehicles===
+
+Tux should be able to board vehicles. The vehicle could withstand 3 hits from a badguy, and then explode. If tux was firetux, he could then throw fireballs from the vehicle. There would be 3 vehicle types: Land Vehicles (3 hits to explode), Watercraft (2 Hits to explode) and Aircraft (1 hit to explode). Vehicles could be:
+
+*Tuxmobile (A Snowmobile with tux painted on it)
+*Jeep
+*TuxBike (A Harley Davidson type bike, wheelies possible)
+*Helicopter (Three types: Normal helicopter, Water Chopper (Can land on water), and Tux Chopper (Can fire at enemies)
+*Jetski
+*Airplane (Two types: Tux Plane, which has a picture of Tux on it and can drop fireballs when Firetux, and Waterplane, which can land on water)
+
+
 === Pre/Post story movie ===
 
 Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union. Wouldn't that be nice?
