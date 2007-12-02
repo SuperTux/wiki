@@ -508,6 +508,12 @@ Enter level with jump button.
 :Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[[User:MatzeB|MatzeB]] 10:45, 28 January 2007 (UTC)
 :Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[[User:WolfgangB|WolfgangB]] 11:24, 28 January 2007 (UTC)
 
+
+=== Change Blocks ===
+[[Image:Change_block.gif ]]
+
+Maybe you know it from Chrash Bandicoot Games. It's a block containing different things. Tux has to choose quickly, before the block become empty.
+
 === Collecting Stuff ===
 
 I think what makes some games really enjoyable is the possibility of collecting things. One (maybe totally crazy) idea: if Tux could spit bubbles, he probably could catch enemies and carry them to a specific place, like a museum, which is located on the world map. For completing the collection with all badguys of the current world, Tux would get a reward.
