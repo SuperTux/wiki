@@ -251,6 +251,15 @@ This badguy could go anywhere.
 * behaviour like the normal snowball
 ** But: You can jump on it like on a trampoline.
 
+==== Wing Snowball ====
+[[Image:Flying_Snowball.png]]
+* flies straight and not very fast
+* If Tux jumps in it, the wings of the snowball will fall down. Then he becomes a Bouncing Snowball
+
+==== Angry Snowball ====
+[[Image:Angry_Snowball.png]]
+* runs very fast (because he's so angry)
+* If Tux jumps on it, Angry Snowball will be eleminated.
 
 Here is a badguy which could fit into the dark-forest scheme:
 
