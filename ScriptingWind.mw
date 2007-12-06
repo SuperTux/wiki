@@ -5,7 +5,7 @@ __NOTOC__
 A Wind object that was given a name can be controlled by scripts.
 
 == Instances ==
-A <tt>Wind</tt> is instantiated by a definition in the level file. It can be accessed by scripts using its <tt>name</tt> and from the console as <tt>sector.<i>name</i></tt>.
+A <tt>Wind</tt> is instantiated by a definition in the level file. It can be accessed by scripts using its <tt>name</tt> and from the console as <tt>sector.''name''</tt>.
 
 === Example ===
 
