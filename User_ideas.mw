@@ -89,7 +89,7 @@ What about a flag Nolok could have in his castle? Here is an example:
 [[Image:Flag of Nolok.jpg|thumb|left|300px|Flag of Nolok]]
 
 
-=== Vehicles===
+=== Vehicles ===
 
 Tux should be able to board vehicles. The vehicle could withstand 3 hits from a badguy, and then explode. If tux was firetux, he could then throw fireballs from the vehicle. There would be 3 vehicle types: Land Vehicles (3 hits to explode), Watercraft (2 Hits to explode) and Aircraft (1 hit to explode). Vehicles could be:
 
@@ -246,7 +246,7 @@ This badguy could go anywhere.
 **he could get them by pulling out of ground
 **he could take them when he bumps into a wall
 
-==== Mr Jump ==== 
+==== Mr Jump ====
 [[Image:Mr_jump.png]]
 * behaviour like the normal snowball
 ** But: You can jump on it like on a trampoline.
