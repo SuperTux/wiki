@@ -856,4 +856,15 @@ i made a supertux 3D. i am trying to get devel help, and i have a [http://source
 A very nice way to get the community involved in creating artwork/levels for SuperTux would be to have a submit button in the level editor. Submissions received this way can be put on a website where the community "votes" (for example digg style) the levels.
 :See http://supertux.info/pmlvls.php . I don't think a button in the editor would do much good. Too many people would submit everything just because they can. Lets hope uploading manually makes them think a bit about their level. --[[User:Superdev|Superdev]] 09:35, 6 October 2007 (UTC)
 
+=== Mistakes in SMB3 ===
+
+I would like to point out some flaws in Super Mario Bros 3 so that the same mistakes aren't made with Supertux.
+
+*Overuse of random chance; this is found mostly in world 7. Excess elements of chance make the game frustrating. While some random chance is inevitable, if too much is used, the game cannot be fun. Bowser's castle is an example of a good level with very little randomness.
+*Short boss battles; The final boss (Bowser) is actually very well-done and original. However, all of the rest of the bosses (Boom-Boom and the koopalings) are very short and boring.
+*Music; Bowser's castle has the same music as all of the other castles. The last level should ALWAYS have unique music.
+*Magic whistles; shortcuts that can lead the player from the first world to the last world are not a good idea.
+*P-power sound effect; it gets REALLY annoying after awhile.
+*repetitive boss battles; all of the bosses (except for Bowser) are very much the same. I trust that Suppertux won't have this mistake.
+
 [[Category:Design]]
