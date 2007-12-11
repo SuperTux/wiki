@@ -44,6 +44,7 @@ Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound
 ==== Bugs ====
 * peek left/right doesn't seem to work
 * german umlauts seem to be broken when switching the language in game
+* In special levels, such as ones were tux walks upside down or levels where the camera moves at a constant speed, spawning at a checkpoint causes tux to die immediately. (Mac OS X Version)
 
 === Future ===
 
