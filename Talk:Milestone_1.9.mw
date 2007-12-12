@@ -97,6 +97,8 @@ I have been expriencing 410 errors for the last 6 weeks. Was anything up with th
 
 If you say the problem is GL related, is there an editor that uses SDL?
 
+Doesn't Matter - just install the NEWEST version of mono.
+
 == Release Date ==
 
 We should release Milestone 1.9 soon. Best case this or next weekend, but at least before Xmas, then we can work on MS2 during the holidays and fix the newly reported problems.
