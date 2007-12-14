@@ -458,6 +458,8 @@ Perhaps Tux could ride a Gnu? -kcfelix
 
 Hey, if you wanna see a possible NPC, go to [[Salsa]]. --[[User:Penguin Man|Penguin Man]] 00:55, 19 March 2007 (UTC)
 
+I once used Mr. Fluffy (Pinkish version of Mr. Snowball) as a friendly NPC in my own level - you control him with levers (I might replace them with script triggers)
+
 === Bad guys and Immunity ===
 I suggest that very few bad guys have complete immunity to [[FireTux]] or [[IceTux]]. For example, instead of no effect, have [[MrIceBlock|Mr. IceBlock]] get extra-ice stopping him in his tracks and making him take more jumps to kill in this state. Eventually (If Tux doesn't kill him first) the ice will melt and Mr. IceBlock will go back to normal. The same with the other bad guys. I think there should also be a downside for the bad guy in all cases. -F50
 
