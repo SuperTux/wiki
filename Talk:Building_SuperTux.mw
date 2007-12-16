@@ -1,1 +1,7 @@
+==Building 'Tux: Some issues==
 
+All of these issues are on MAC OS X 10.4, with the full set of developer tools installed.
+
+•I CANNOT get PhysFS 1.0.1 to compile (although 1.1.0 compiles perfectly.)
+
+•LibJpeg and libPNG are being recalcitrant as well. More details soon, although if someone has a generalized solution...
