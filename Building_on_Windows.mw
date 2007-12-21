@@ -81,6 +81,8 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 
 * If you want to build using CMake, enter this:
 
+ mkdir build
+ cd build
  CMAKE_INCLUDE_PATH="/local/include;/local/include/SDL;/local/include/vorbis" CMAKE_LIBRARY_PATH="/local/lib" cmake -G "MSYS Makefiles" -DVORBIS_INCLUDE_DIR="/local/include" -DOPENAL_INCLUDE_DIR="/local/include" -DPHYSFS_INCLUDE_DIR="/local/include" -DSDLIMAGE_INCLUDE_DIR="/local/include/SDL" -DSDL_INCLUDE_DIR="/local/include/SDL" -DCURL_INCLUDE_DIR="/local/include/curl" -DDEBUG=ON .. -DGENERATE_WRAPPER=OFF -DGENERATE_MESSAGESPOT=OFF
  make
 
