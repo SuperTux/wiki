@@ -4,3 +4,8 @@ I have a different keyboard layout, is there a way to find out which key number 
 Where Is The SuperTux configuration file
 --[[User:66.230.114.105|66.230.114.105]] 19:40, 16 August 2007 (UTC)
 :That depends on what operating system you use, on Linux it would be /home/yourusername/.supertux2/config, on Windows somewhere like c:\Documents and Settings\yourusername\.supertux2\config (if I recall correctly, I'm a Linux user :) ) --[[User:AnMaster|AnMaster]] 14:01, 17 August 2007 (UTC)
+
+== where is the supertux config ==
+
+hi i am a mac user and i have no idea where the config file is
+im trying to access the console and there is no description of how to access it on a mac
