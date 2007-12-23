@@ -428,6 +428,12 @@ Suggestions for what it could do? Maybe it could pace around like other badguys 
 ::Since when have we been all about accuracy? Yeah, the bear is way too big for a normal badguy, and since there's already a boss, that's what I was afraid of. I don't want a clash in interests between me and the development team. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 19:45, 9 August 2007 (UTC)
 :::How about an NPC? Would that seem like a good NPC? --[[User:80.31.56.230|80.31.56.230]] 07:06, 11 August 2007 (UTC)
 
+
+==== More Path for Badguys ====
+There should be more Path to edit in regard to the Badguys. Maybe for the Flame:
+
+[[Image:Editpathfire.png]]
+
 === Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
