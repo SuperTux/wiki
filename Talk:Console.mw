@@ -11,3 +11,5 @@ hi i am a mac user and i have no idea where the config file is
 im trying to access the console and there is no description of how to access it on a mac
 
 :I suspect it may be in your home directory, under a hidden directory in it called .supertux2 or like on windows in some directory called something like "Application Data". However as I'm a Linux user I don't know exactly. --[[User:AnMaster|AnMaster]] 00:03, 23 December 2007 (UTC)
+
+---Thanks. i looked in the home directory with Finder showing hidden files and folders, but there is no directory called .supertux2. i am trying to access the console from Mac OS X. is there any way to do that without modifying the config file???
