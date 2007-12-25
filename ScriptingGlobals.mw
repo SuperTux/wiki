@@ -1,8 +1,56 @@
 = Summary =
-This module contains global constants
+This module contains global constants and methods.
 
 = Methods =
-TODO
+{| class="objectlist"
+! class="method"| display(*** object)
+| Displays the string value of <tt>object</tt> in the [[Console]]. Object can be of any data type.
+|-
+! class="method"| print_stacktrace()
+| Displays contents of the current stack.
+|-
+! class="method"| load_worldmap(string filename)
+| Loads and runs the worldmap specified in <tt>filename</tt>. (The path is relative to the data root.)
+|-
+! class="method"| load_level(string filename)
+| Loads and runs the level specified in <tt>filename</tt>. (The path is relative to the data root.)
+|-
+! class="method"| get_current_thread()
+| Returns the currently running thread.
+|-
+! class="method"| display_text_file(string filename)
+| Displays the SuperTux text file named <tt>filename</tt>. (The path is relative to the data root, e.g. "/home/joe/src/supertux-trunk/data") See also: SuperTux file format reference, SuperTux texts
+|-
+! class="method"| wait(float time)
+| Pauses execution of the Squirrel code for <tt>time</tt> seconds.
+|-
+! class="method"| wait_for_screenswitch()
+| Pauses execution of the Squirrel code until a new screen is displayed (e.g. menu &rarr; worldmap or worldmap &rarr; level).
+|-
+! class="method"| exit_screen()
+| Exits the current screen, returning to the previous one or, if the active screen is the last one, exiting SuperTux.
+|-
+! class="method"| fadeout_screen(float seconds)
+| Does a fadeout for the specified number of seconds before next screenchange.
+|-
+! class="method"| shrink_screen(float dest_x, float dest_y, float seconds)
+| Does a shrinking fade towards the destposition for the specified number of seconds before next screenchange.
+|-
+! class="method"| translate(string text)
+| Returns: translated <tt>string</tt>. Translates <tt>text</tt> into the user's locale. Note: This construct is unfortunately not yet recognised by XGetText, so translation files have to be written manually.
+|-
+! class="method"| import(string filename)
+| Imports and runs the Squirrel script <tt>filename</tt>. (The path is relative to the data root.)
+|-
+! class="method"| save_status()
+| Dumps the current state into the user's save game file.
+|-
+! class="method"| play_music(string musicfile)
+| Changes music to musicfile
+|-
+! class="method"| play_sound(string soundfile)
+| Plays a soundfile
+|}
 
 = Constants =
 
