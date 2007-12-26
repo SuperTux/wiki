@@ -52,15 +52,10 @@ __NOEDITSECTION__
 |-
 |
 * [[Building SuperTux]]
-* [[CreatingPatches|Contributing]]
 * [[Tips and Tricks]]
-* [[:Category:Game Engine|Game Engine]]
-* [[:Category:File Formats|File Formats]]
 * [[Scripting reference]]
-* [[Translation]]
-* [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
-* [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
-* [http://supertux.lethargik.org/development/doxygen/html/ Doxygen HTML Documentation]
+* [[Contributing]]
+* [[Game Engine]]
 |}
 
 |class="MainPageMiddle" width="50%"|
