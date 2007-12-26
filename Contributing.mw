@@ -29,5 +29,7 @@ Now, you can attach ''fix-year.patch'' to an e-mail to the mailing list. If you 
 
  patch -p0 < fix-year.patch
 
+See [[CreatingPatches]] for a detailed how-to. 
+
 [[Category:Development]]
 [[Category:Meta]]
