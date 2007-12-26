@@ -15,6 +15,10 @@ The developers will review your work and, if they share your opinion about its u
 
 Please keep the size of the attachments to the mailing list as small as possible. The best way is to convert smaller graphics to PNG and larger ones into the JPEG format.
 
+Hints:
+* [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
+* [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
+
 == Level designers ==
 
 Your level should comply with the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/docs/levelguidelines.txt?view=markup level guidelines] set by the SuperTux team. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
