@@ -19,6 +19,9 @@ An instance named <tt>Level</tt> is available from scripts and the console. ''(N
 |-
 ! class="method" style="vertical-align: top"| toggle_pause()
 | Toggle pause
+|-
+! class="method" style="vertical-align: top"| edit(bool editing)
+| Change to/from edit mode
 |}
 
 == Constants ==
