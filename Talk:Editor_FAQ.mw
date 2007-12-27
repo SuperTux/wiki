@@ -20,3 +20,7 @@ Is there any way to run this under Mac OS X (@Intel)?
 
 == OpenSuse: GTK# version ==
 Re:the comments about OpenSuse - version 10.2 comes with gtk-sharp2-2.8.0* etc and afaics this is what generates the problem - installing gtk-sharp2-2.10.* glade-sharp2-2.10.* and glib-sharp2-2.10.* from the appropriate architecture in http://download.opensuse.org/distribution/SL-OSS-factory/inst-source/suse/ seems to do the trick! - Derek [[User:85.210.6.69|85.210.6.69]] 19:14, 4 August 2007 (UTC)
+
+== White Box ==
+
+I'm sorry if this is stupid, but my editor is working fine. There's just one small problem: there's a white box sort of on the map where you draw the tiles in and I can't see what I've already done. It's there, but I just can't see it! Who can help me???
