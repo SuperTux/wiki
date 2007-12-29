@@ -14,3 +14,11 @@ I have a fairly short attention span of a few months, during which I try to make
 Right now, I'm currently trying to write a converter for [http://www.ticalc.org/pub/83plus/asm/games/levels/mario/ these mario levels] that run under [http://www.ticalc.org/archives/files/fileinfo/192/19225.html this mario calculator game] to get a huge source of levels for SuperTux. I'll post the converter (written in Java) and my pick of the converted levels once I get it done.
 
 I also have some ideas for the level editor that I'm trying to develop.
+
+== Wiki ==
+I'm fairly active on the wiki, as you can no doubt can [[Special:Contributions/Mathnerd314|tell]]. I clean up various pages, update them, and fix broken links. However, there's a problem with the [[Special:Wantedpages|wanted pages page]]: It has a little less than 100 pages, but more than 3/4 of them are linked by the help pages, and completely unrelated to  Supertux. Here's a list of non-help namespace pages with broken links, to help an intrepid soul who wants to fix the real ones (such as me):
+[[Objects]]
+[[Actions]]
+[[Light Forest Maps]]
+[[Pipes]]
+[[Tilemap]]
