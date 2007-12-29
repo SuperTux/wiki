@@ -63,19 +63,19 @@ If you are interested in an object and what cans of worms you can open with it, 
 | Display an image floating in front of anything on-screen
 |-
 ! [[ScriptingPlatform|Platform]]
-| Scripting interface to Platform object
+| Scripting interface to [[Moving platform|Platform]] object
 |-
 ! [[ScriptingTilemap|Tilemap]]
 | Scripting interface to [[Tilemap]] object
 |-
 ! [[ScriptingWind|Wind]]
-| Scripting interface to Wind object
+| Scripting interface to [[Wind]] object
 |-
 ! [[ScriptingCandle|Candle]]
 | Scripting interface to Candle object
 |-
 ! [[ScriptingThunderstorm|Thunderstorm]]
-| Scripting interface to Thunderstorm object
+| Scripting interface to [[Thunderstorm]] object
 |-
 ! [[ScriptingAmbientSound|AmbientSound]]
 | Scripting interface to AmbientSound object
