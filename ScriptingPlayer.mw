@@ -55,6 +55,15 @@ Due to SuperTux's single-player nature, there is only one instance of the <tt>Pl
 |-
 ! class="method"| do_jump()
 | Makes Tux jump, if possible.
+|-
+! class="method"| trigger_sequence(string sequence_name)
+| Orders the current GameSession to start a sequence. One of "stoptux", "endsequence", or "fireworks".
+|-
+! class="method"| use_scripting_controller(bool use_or_release)
+| Uses a scriptable controller for all user input (or restores controls)
+|-
+! class="method"| do_scripting_controller(string control, bool pressed)
+| Instructs the scriptable controller to press or release a button. control can be "left", "right", "up", "down", "jump", "action", "pause-menu", "menu-select", "console", "peek-left", or "peek-right".
 |}
 
 == Constants ==
