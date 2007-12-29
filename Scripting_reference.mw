@@ -65,6 +65,9 @@ If you are interested in an object and what cans of worms you can open with it, 
 ! [[ScriptingPlatform|Platform]]
 | Scripting interface to Platform object
 |-
+! [[ScriptingTilemap|Tilemap]]
+| Scripting interface to [[Tilemap]] object
+|-
 ! [[ScriptingWind|Wind]]
 | Scripting interface to Wind object
 |-
