@@ -9,14 +9,14 @@ Floating Images are created in a script or from the console.
 
 Example of a definition in a level file (from menu.stl, actually):
 <code>
-(init-script "
-logo <- FloatingImage(\"images/objects/logo/logo.sprite\");
-logo.set_anchor_point(ANCHOR_TOP);
-logo.set_pos(0, 30);
-logo.set_visible(true);
-// Suspend (this is needed so that logo doesn't get deleted)
-suspend();
-")
+ (init-script "
+  logo <- FloatingImage(\"images/objects/logo/logo.sprite\");
+  logo.set_anchor_point(ANCHOR_TOP);
+  logo.set_pos(0, 30);
+  logo.set_visible(true);
+  // Suspend (this is needed so that logo doesn't get deleted)
+  suspend();
+ ")
 </code>
 
 The above will create a floating image name "logo", anchor it to the top, set its position, and finally displays it instantaneously. To use this in the console, remove everything before "logo <-" and everything after "set_visible(true);"
