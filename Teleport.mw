@@ -8,3 +8,5 @@ This article describes worldmap teleportation; for teleportation in a level, see
 </code>
 
 Teleporters are used primarily to hide secret levels or to link between islands. Bonus world 1 uses them extensively; navigation is not possible without the use of teleporters. There are currently 2 teleporters in world 1;one is an automatic one to go to [[world 2]], and the other is used to access the bonus level. [[World 2]] currently has only 1 automatic teleporter to go back to [[world 1]].
+
+[[Category:Game Object]]
