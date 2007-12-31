@@ -3,22 +3,21 @@ I'm a bored teenager who has a laptop (with Windows SP2, currently), an internet
 
 == Miscellaneous notes on SuperTux ==
 I have a few interesting quirks of SuperTux that I discovered, so I post them here because there is no documentation (both in the source and on the wiki)
-First, you are allowed to have multiple solid tilemaps. Their behavior is just as you'd expect; they overlay each other and perform no collision checking against themselves. (I have only tried this with them in different layers; I expect weird things happen when they have the same layer) This behavior is due to sector.cpp; It uses some sort of list or array called solid_tilemaps that it adds all solid tilemaps to. The next interesting thing is that tilemaps can have paths, which means in combination with the previous discovery they can be used as platforms and other similar things. There is an almost 1-to-1 correspondence between platforms and moving, solid tilemaps. Just one problem: There is no friction between the tilemap and Tux, except the normal friction one would experience on a still tilemap. So if you have a tilemap platform moving side-to-side, just jumping on it and staying will result in no movement except that produced by the user. Almost the same problem is produced by movement up and down. If the platform is moving down fast enough, then Tux will be continuously falling and cannot jump. (I was unable to turn this into an unjumpable apparently still platform in my experiments, however; the tilemap platform has to move enough to cause Tux to fall)
-The other interesting note I had about paths (meaning moving tilemaps and platforms) was that they move towards a node only using that node and their current position as reference; it should thus be possible to get a platform that moves to roughly anywhere in a given shape by quickly executing a series <platform>.goto_node(x) calls in a script before the platform reaches node x; declare a box of nodes and use some sort of script to move it correctly.
-Or, which is perhaps better and less of a hack, someone could just get the devs to add an extra node onto objects/path.cpp's array of nodes, which acts as a pseudo-node for an arbitrary place. The classes path, path_walker, platform, and tilemap then all add a method move(x, y, time) (as suggested in [[User_ideas#More_control_over_moving_platforms|user ideas]]) which sets the path's pseudo-node's x and y values to the parameters, node_mult to 1 \ time, and stop_at_node_nr to the pseudo-node's index. (I have it all planned out because I can read C(++) code, copy and modify it, but not write anything actually new. If I could write code, I would post a patch for adding this in a couple of days. I probably still will, but no guarantees on whether it works)
-Phew!
+*I'm not certain why the devs put in path support for will-o-wisps, but being able to both stay on a path and track seems kind of useless... The only it changes from ordinary tracking is the direction the willowisp comes from...
+*Ispy seems kind of odd... Why doesn't he count as a badguy, as opposed to currently being an object? Also, why not let a direction of auto mean down, instead of giving a warning? And why is there a check for a direction of up in Ispy's update method?
+*Pneumatic and bicycle platforms both look cool... but I'm not certain I understand how they work. I no doubt need to look at the test levels for them... and currently they have no documentation other than their source code (and my cool page).
 
 == Current Projects ==
 I have a fairly short attention span of a few months, during which I try to make a working (albeit roughish) program that does some cool thing.
 
 Right now, I'm currently trying to write a converter for [http://www.ticalc.org/pub/83plus/asm/games/levels/mario/ these mario levels] that run under [http://www.ticalc.org/archives/files/fileinfo/192/19225.html this mario calculator game] to get a huge source of levels for SuperTux. I'll post the converter (written in Java) and my pick of the converted levels once I get it done.
 
-I also have some ideas for the level editor that I'm trying to develop.
+I also have some ideas for the level editor that I'm trying to develop into a Java-based level editor, but I'm being bogged down by Lisp... Maybe when the book I reserved on Lisp comes in, I'll make some progress.
 
 == Wiki ==
 I'm fairly active on the wiki, as you can no doubt can [[Special:Contributions/Mathnerd314|tell]]. I clean up various pages, update them, and fix broken links. However, there's a problem with the [[Special:Wantedpages|wanted pages page]]: It has a little less than 100 pages, but more than 3/4 of them are linked by the help pages, and completely unrelated to  Supertux. Here's a list of non-help namespace pages with broken links, to help an intrepid soul who wants to fix the real ones (such as me):
-[[Objects]]
-[[Actions]]
-[[Light Forest Maps]]
-[[Pipes]]
-[[Tilemap]]
+*[[Objects]]
+*[[Actions]]
+*[[Light Forest Maps]]
+*[[Pipes]]
+*[[Tilemap]]
