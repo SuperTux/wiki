@@ -11,21 +11,28 @@ This is the latest (but unstable) release of SuperTux. The 0.3.1 release is mean
 |
 <div class="downloadtitle">Debian Package:</div>
 |
-<div class="downloadlink">[http://download.berlios.de/supertux/supertux-0.3.1-debianlike.deb Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.1-debianlike.deb Game]</div>
+|
+|
+|-----
+|
+<div class="downloadtitle">Linux Autopackage:</div>
+|
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.1.x86.package Game]</div>
 |
 |
 |-----
 |
 <div class="downloadtitle">Windows Installer:</div>
 |
-<div class="downloadlink">[http://download.berlios.de/supertux/supertux-0.3.1-win32.exe Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.1-win32.exe Game]</div>
 |
 |
 |-----
 |
 <div class="downloadtitle">Source:</div>
 |
-<div class="downloadlink">[http://download.berlios.de/supertux/supertux-0.3.1b.tar.bz2 Game]</div>
+<div class="downloadlink">[http://prdownload.berlios.de/supertux/supertux-0.3.1b.tar.bz2 Game]</div>
 |
 |
 |}
@@ -33,7 +40,6 @@ This is the latest (but unstable) release of SuperTux. The 0.3.1 release is mean
 === Contributed Binaries ===
 
 None (we know of) so far.
-
 
 == Release 0.3.0 (Tech Demo) ==
 
