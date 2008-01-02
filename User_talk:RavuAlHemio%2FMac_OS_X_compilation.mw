@@ -44,3 +44,24 @@ Something very interesting happened jam failed on to find parser not because it 
 -Macjunkie999
 
 jam
+
+----
+I followed the instructions for building, I am trying to build Supertux 0.3.1 on Intel OS X Leopard. When I run the binary, this is what I get
+
+Last login: Tue Jan  1 22:56:02 on ttys001
+Shanes-MacBook:~ Moop$ /Users/Moop/sp/supertux-0.3.1/supertux2 ; exit;
+Warning: Couldn't add '/usr/local/share/supertux2' to physfs searchpath: File not found
+[/Users/Moop/.supertux2] is in the search path
+[/Users/Moop/sp/supertux-0.3.1//data] is in the search path
+Invalid button '0' in buttonmap
+Invalid button '1' in buttonmap
+Invalid axis '-2' in axismap
+Invalid axis '-1' in axismap
+Invalid axis '1' in axismap
+Invalid axis '2' in axismap
+fullscreen 800x600 Ratio: 1.33333
+Fatal: Unexpected exception: Couldn't load image '/images/engine/fonts/andale12.png' :Unsupported image format
+logout
+
+[Process completed]
+--[[User:66.176.73.62|66.176.73.62]] 03:57, 2 January 2008 (UTC) (Moop)
