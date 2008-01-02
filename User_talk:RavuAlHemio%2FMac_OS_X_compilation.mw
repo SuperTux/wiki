@@ -65,3 +65,5 @@ logout
 
 [Process completed]
 --[[User:66.176.73.62|66.176.73.62]] 03:57, 2 January 2008 (UTC) (Moop)
+
+: You probably built libSDL_image yourself, but without png support. Check the libSDL_image configure script's output to see what libraries it was able to find and, hence, what image formats will be supported. For example, make sure you have libpng installed before running SDL_image's ./configure to get PNG support. --Sommer
