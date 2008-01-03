@@ -102,10 +102,10 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
 
-* Besides the ? blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
+* Besides the question blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
 
-* ?-blocks don't indicate at which side they where bumped
-** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
+* Question-blocks don't indicate at which side they where bumped
+** MatzeB: IMO being able to bounce question blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
 ** Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped).
 
 * There are no fade-outs/ins when you either die or complete a level.
