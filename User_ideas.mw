@@ -190,6 +190,8 @@ Warp pipes should be able to be stood on, but by pressing down on the arrow pad,
 
 :This effect can already be accomplished by using a script over the top of the pipe. The script can use spawn points to respawn Tux inside the secret area, etc. (NathanKP) 8/30/2007
 
+:There is only one problem. The Game must have some thin, invisible tiles to make the pipe's edges solid. I hope you know what i mean.
+
 === Badguy Improvements ===
 You should be able to pick up the beetle baddy and hit it from the side. The fish needs to be able to jump and swim, and should work even if there is no water in the interactive layer, and is just in the foreground. The badguys should stop killing each other.
 
