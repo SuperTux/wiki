@@ -119,4 +119,5 @@ New Milestone2 features that look usefull:
 
 == Bugs ==
 
- * [[:Image:Unsymetrichitbox.png|Unsymetric Tux Hitbox]]
+* [[:Image:Unsymetrichitbox.png|Unsymetric Tux Hitbox]]
+* Boat is not heading left when sailing back to island
