@@ -148,7 +148,7 @@ Secret blocks are special blocks that appear out of thin air when Tux jumps in c
 They can then be stepped on to reach higher places, e.g. a secret area or a shortcut.
 <span style="display: block; clear: both;"></span>
 
-=== Trampolines ===
+=== Trampolines (Milestone 2)===
 
 Trampolines come in two flavours: A stationary version, which looks a bit like a mushroom and a portable version, which looks like a large spring. For information about carrying stuff around, see section [[#Carrying Objects|Carrying Objects]].
 
