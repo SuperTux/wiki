@@ -19,3 +19,5 @@ I get this error:
  Invalid button '1' in buttonmap
  Warning: Unknown option '--debug-mode'. Use --help to see a list of options
  Using random seed 1199386134, from time().
+
+That option is for 0.1.x (milestone 1) not for 0.3.x (milestone 1.9/milestone2). And you are using a 0.3.x version. --[[User:AnMaster|AnMaster]] 14:47, 4 January 2008 (UTC)
