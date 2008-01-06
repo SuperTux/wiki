@@ -30,6 +30,61 @@ This page should give an over view about the currently active members of the dev
 ----
 
 {{Developer
+|real=Marek Moeckel
+|nick=wansti
+|email=wansti AT gmx DOT de
+|icq=ask me please
+|jabber=ask me please
+|abilities=C/C++, Java, Soundtracker, Rosegarden
+|os=Debian GNU/Linux
+|past=Lots of Milestone 1 levels; most of the game's soundtrack; very small contributions to code and graphics; quite a few of my game design ideas have found their way into Milestone 2
+|current=More game music
+}}
+
+----
+
+{{Developer
+|real=Stephen Groundwater
+|nick=gwater
+|email=slacker@gluebox.com
+|icq= not available
+|jabber= not available
+|abilities= Gimp, Inkscape, Blender, Pencils, General Linux
+|os= Fedora -graphic workstation, Ubuntu -laptop, Gentoo -MAME cabinet
+|past= Milestone 2 forest world graphics including both new and small fixes to existing tiles. General bug testing and reproting. 
+|current= Penny character sprites, new forest world tree and worldmap tiles, tree tubes, revamp of Poison Ivy and possible new work for the ghost tree boss. 
+}}
+
+----
+
+{{Developer
+|real=Christoph Sommer
+|nick=sommer
+|email=ask me please
+|icq= ask me please
+|jabber=christoph.sommer@jabber.org
+|abilities= Programming, Graphics, Level Design, Cross-Platform Building and Packaging
+|os= Ubuntu Linux, Debian GNU/Linux, Windows XP, Windows Vista, Mac OS X 
+|past= Milestone 2 programming, design, (few) graphics, levels, building and packaging
+|current= Trying to get Milestone 2 out the door
+}}
+
+----
+
+{{Developer
+|real=Wolfgang Becker
+|nick=WolfgangB
+|email=uafr@gmx.de
+|jabber=uafr@jabber.org
+|abilities=C/C++, Java, C#, Perl, ...
+|os=Debian Linux (I can boot Windows if I have to :-))
+|past=Coding for editor and game, bug fixes, creating levels ...
+|current= Fixing bugs, improvements here and there.
+}}
+
+----
+
+{{Developer
 |real=Ondřej (or Ondra) Hošek
 |nick=Ravu al Hemio
 |email=ondra.hosek@gmail.com
@@ -75,46 +130,6 @@ This page should give an over view about the currently active members of the dev
 |os=Gentoo Linux (x86_64)
 |past=Level designing/fixing, general coding in editor; no areas in particular.
 |current=SuperTux-sharp Editor and fixing bugs in levels, also co-maintaining website with sik0fewl.
-}}
-
-----
-
-{{Developer
-|real=Wolfgang Becker
-|nick=WolfgangB
-|email=uafr@gmx.de
-|jabber=uafr@jabber.org
-|abilities=C/C++, Java, C#, Perl, ...
-|os=Debian Linux (I can boot Windows if I have to :-))
-|past=Coding for editor and game, bug fixes, creating levels ...
-|current= Fixing bugs, improvements here and there.
-}}
-
-----
-
-{{Developer
-|real=Marek Moeckel
-|nick=wansti
-|email=wansti AT gmx DOT de
-|icq=ask me please
-|jabber=ask me please
-|abilities=C/C++, Java, Soundtracker, Rosegarden
-|os=Debian GNU/Linux
-|past=Lots of Milestone 1 levels; most of the game's soundtrack; very small contributions to code and graphics; quite a few of my game design ideas have found their way into Milestone 2
-|current=More game music
-}}
-
-----
-{{Developer
-|real=Stephen Groundwater
-|nick=gwater
-|email=slacker@gluebox.com
-|icq= not available
-|jabber= not available
-|abilities= Gimp, Inkscape, Blender, Pencils, General Linux
-|os= Fedora -graphic workstation, Ubuntu -laptop, Gentoo -MAME cabinet
-|past= Milestone 2 forest world graphics including both new and small fixes to existing tiles. General bug testing and reproting. 
-|current= Penny character sprites, new forest world tree and worldmap tiles, tree tubes, revamp of Poison Ivy and possible new work for the ghost tree boss. 
 }}
 
 ----
