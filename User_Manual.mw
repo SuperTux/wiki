@@ -49,13 +49,13 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 |+ Powerups
 ! Pic !! Name !! Effect
 |-
-| [[Image:Coin-0.png]] || Coin || '''Milestone 1:''' Collect 100 coins to gain an extra life. '''Milestone 2:''' Every time Tux dies, he will lose 25 coins and restart at the last firefly he activated. If he has less than 25 coins left, he will lose all of them and restart at the beginning of the level.
+| [[Image:Coin-0.png]] || Coin || '''SuperTux 0.1:''' Collect 100 coins to gain an extra life. '''SuperTux 0.3:''' Every time Tux dies, he will lose 25 coins and restart at the last firefly he activated. If he has less than 25 coins left, he will lose all of them and restart at the beginning of the level.
 |-
 | [[Image:Egg.png]] || Egg || Makes Tux grow. He can then smash wooden boxes with his head.
 |-
 | [[Image:Fire_flower-0.png]] || Fireflower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs.
 |-
-| [[Image:1up.png]] || Tux Doll ||  Ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded an extra life '''(Milestone 1)''' or 100 coins '''(Milestone 2)'''.
+| [[Image:1up.png]] || Tux Doll ||  Ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded an extra life '''(SuperTux 0.1)''' or 100 coins '''(SuperTux 0.3)'''.
 |-
 | [[Image:Star-0.png]] || Star ||  Gives Tux invincibility to most hazards for a short amount of time.
 |}
@@ -68,17 +68,17 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 Hold down the Action key while moving left or right to make Tux run faster. Jumping while running will catapult him higher into the air than usual.
 
 === Fireballs ===
-After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut '''(Milestone 2 only)'''.
+After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut '''(SuperTux 0.3 only)'''.
 
-=== Butt Stomp (Milestone 2 only) ===
+=== Butt Stomp (SuperTux 0.3 only) ===
 Only Big Tux has this ability. When in the air, press the Duck key to perform a Butt Stomp. Tux can use it to break wooden crates from above and defeat certain badguys that are not harmed by a normal jump.
 
-=== Backflip (Milestone 2 only) ===
+=== Backflip (SuperTux 0.3 only) ===
 Only Big Tux has this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump higher, which is very useful in places where there's not enough space to run. If you do a backflip with Tux on fire, he will lose his hat and become Big Tux again.
 
 === Carrying Objects ===
 [[Image:needrock.png|left]]
-Some objects Tux comes across can be picked up and carried around. This includes a squished [[MrIceBlock|Mr. IceBlock]] ('''Milestone 1''' and '''Milestone 2'''), a [[Rock]] ('''Milestone 2''') and a [[Trampoline]] ('''Milestone 2''').
+Some objects Tux comes across can be picked up and carried around. This includes a squished [[MrIceBlock|Mr. IceBlock]] ('''SuperTux 0.1''' and '''SuperTux 0.3'''), a [[Rock]] ('''SuperTux 0.3''') and a [[Trampoline]] ('''SuperTux 0.3''').
 
 To pick a portable object up, hold down the Action button and walk into the object. Tux will then carry the object as long as the Action button is held down.
 
@@ -98,13 +98,13 @@ In the course of the game, Tux will encounter lots of different enemies - some e
 
 === Bells ===
 [[Image:bell-r.png|left]]
-When Tux gets thrown off the screen, he will normally have to start the current level over from the beginning. There is one exception, though: Most levels contain one or more bells. When Tux activates such a bell, by touching it, he won't have to restart the level from the beginning, but instead restart from the last activated bell - as long as he's got at least one life '''(Milestone 1)''' or 25 coins '''(Milestone 2)''' left. In Milestone 1, bells are invisible, but don't need to be touched to use- only passed by.
+When Tux gets thrown off the screen, he will normally have to start the current level over from the beginning. There is one exception, though: Most levels contain one or more bells. When Tux activates such a bell, by touching it, he won't have to restart the level from the beginning, but instead restart from the last activated bell - as long as he's got at least one life '''(SuperTux 0.1)''' or 25 coins '''(SuperTux 0.3)''' left. In SuperTux 0.1, bells are invisible, but don't need to be touched to use- only passed by.
 
-=== Doors (Milestone 2 only) ===
+=== Doors (SuperTux 0.3 only) ===
 [[Image:Door-0.png|center]]
 Press the Up key to enter a door. Tux will be transported to another place in the level.
 
-=== Switches (Milestone 2 only) ===
+=== Switches (SuperTux 0.3 only) ===
 
 <p style="margin-left: auto; text-align: center; margin-right: auto;">
 [[Image:Left-0.png]]
@@ -119,7 +119,7 @@ Most switches are at or near the object they affect. Objects that are further aw
 
 A sign of the same color can then be found next to the corresponding switch.
 
-=== Platforms (Milestone 2 only) ===
+=== Platforms (SuperTux 0.3 only) ===
 [[Image:Flying platform-0.png|center]]
 
 In the course of his adventure, Tux comes across a variety of moving Platforms.
@@ -130,7 +130,7 @@ While some platforms just move on their own, most platforms will only move when 
 
 Some might also require Tux to visit another part of the level and activate a switch first. When this is the case Tux will most probably find a helpful sign next to the platform.
 
-=== Info Blocks (Milestone 2 only) ===
+=== Info Blocks (SuperTux 0.3 only) ===
 [[Image:Infoblock.png|center]]
 
 Levels that introduce new game elements often contain info blocks.
@@ -140,7 +140,7 @@ Info blocks can be bumped from below to display helpful text that introduces a c
 When you activated an info block, the game will pause and you can use the Up and Down buttons to scroll through the text. Press the Menu button to resume the game.
 
 === Secret Blocks ===
-{{Milestone 2}}
+{{SuperTux 0.3}}
 [[Image:Empty.png|center]]
 
 Secret blocks are special blocks that appear out of thin air when Tux jumps in certain places.
@@ -148,13 +148,13 @@ Secret blocks are special blocks that appear out of thin air when Tux jumps in c
 They can then be stepped on to reach higher places, e.g. a secret area or a shortcut.
 <span style="display: block; clear: both;"></span>
 
-=== Trampolines (Milestone 2)===
+=== Trampolines (SuperTux 0.3)===
 
 Trampolines come in two flavours: A stationary version, which looks a bit like a mushroom and a portable version, which looks like a large spring. For information about carrying stuff around, see section [[#Carrying Objects|Carrying Objects]].
 
 Normally, Tux will only bounce up and down a little bit on a trampoline. To make him jump really high, hold down the jump button when landing on the trampoline.
 
-=== Magic Blocks and Lanterns (Milestone 2 only) ===
+=== Magic Blocks and Lanterns (SuperTux 0.3 only) ===
 
 These are blocks that look pale and are not solid unless tux brings a carryable lantern of the same color as the block near the block. The lanterns also double as a light source which allows Tux to see in dark areas.
 
