@@ -1,4 +1,4 @@
-The behaviour of the '''fireflower''' in [[Milestone 1]] was that it gives [[Tux]] the ability to spit bouncing fire bullets. If these bullets strike a [[Badguys|badguy]] then they are killed. However that behaviour is pretty boring and should be reworked to something more interesting, ie. something that not just kills enemies, but interacts with them in interesting ways.
+The behaviour of the '''fireflower''' in SuperTux 0.1 was that it gives [[Tux]] the ability to spit bouncing fire bullets. If these bullets strike a [[Badguys|badguy]] then they are killed. However that behaviour is pretty boring and should be reworked to something more interesting, ie. something that not just kills enemies, but interacts with them in interesting ways.
 
 There are currently no plans to change the existing behaviour.
 
