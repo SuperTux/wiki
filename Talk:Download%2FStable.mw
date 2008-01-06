@@ -29,7 +29,7 @@ Please add it to the list.
 
 Actually, ubuntu 7.04feisty has both "supertux" and "supertux-stable" packages
   (i.e. 0.3.0 and 0.1.3 versions).
-
+:7.10 gusty has the same. 0.3.1 isnt there...
 Debian has "supertux" (which is stable 0.1.3) and the 'experimental' release
   has the new version of supertux ...
 
