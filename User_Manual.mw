@@ -64,7 +64,10 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 
 == Actions ==
 
-=== Walking ===
+=== Running (SuperTux 0.1) ===
+Press the Action button and keep running in the same direction. Tux will go faster and jump higher. If you release the Action button while running, Tux will walk at a slower pace again.
+
+=== Walking (SuperTux 0.3) ===
 Normally, when you keep running in the same direction, Tux will go faster and jump higher. If you press the Action button while running, Tux will walk at a slower pace again.
 
 === Fireballs ===
