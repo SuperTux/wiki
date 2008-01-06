@@ -1,20 +1,20 @@
-==When will SuperTux Milestone 2 be released?==
+==When will the next version of SuperTux be released?==
 
 This is by far the most frequently asked question of all, and the answer is simple:
 
 '''When it's done.'''
 
-Honestly, we don't have a release date yet. Just like many of you, we'd like to see Milestone 2 finished and released to the public as soon as possible, but since we all are busy with other, probably less interesting things, the amount of time we are able to put into this game is limited. Please be patient.
+Honestly, we don't have a release date yet. Just like many of you, we'd like to see SuperTux finished and released to the public as soon as possible, but since we all are busy with other, probably less interesting things, the amount of time we are able to put into this game is limited. Please be patient.
 
-== What's new in Milestone 2? ==
+== What's new in SuperTux 0.3? ==
 
-Most information on these Wiki pages is about what's new in Milestone 2. Just browse around, and feel free to add your own ideas. :-)
+Most information on these Wiki pages is about what's new in SuperTux 0.3. Just browse around, and feel free to add your own ideas. :-)
 
 == How can I get in touch with you? ==
 
 Depending on who you want to reach - and for what purpose - you can either join our [[IRC Channel]] or write to one of the [[Mailing Lists]]. Please note that, due to massive amounts of spam, we had to set the mailing lists to subscribers-only. If you send emails to the lists and are not subscribed then you will get an automated reply saying that your message is waiting for approval, but it's very likely that we will miss your e-mail in all the spam (we're very sorry about that), so better subscribe before posting to the list.
 
-== Can I help with Milestone 2? ==
+== Can I help? ==
 
 You most certainly can.
 * Creating game content in form of graphics, sound, music and levels (See [[Contributing]])
@@ -30,9 +30,9 @@ There's many things to be done - even besides actually creating game content:
  
 If you want to help, just get in touch (see [[#How can I get in touch with you?|How can I get in touch with you?]]) and ask.
 
-== Is there a preview of Milestone 2? ==
+== Is there a preview of the next SuperTux version? ==
 
-Yes. [[Milestone 1.9]] is a snapshot of Milestone 2 without certain buggy features. There are currently Windows and Linux installers.
+Yes. [[Milestone 1.9]] is a snapshot of SuperTux without certain buggy features. There are currently Windows and Linux installers.
 
 == I found a bug in the developer version! ==
 
