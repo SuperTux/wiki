@@ -1,4 +1,4 @@
-== Milestone 1 ==
+== SuperTux 0.1 ==
 
 For these cheats to work you have to be in debug mode.
 
@@ -21,8 +21,8 @@ Do not type these in, you just press the appropriate key, eg the Tab key.
 * To get in debug mode on other *nix's start the game with: supertux --debug-mode
 * For Windows users, create a shortcut to supertux.exe, and edit the properties of the shortcut to include --debug-mode at the end of the "Target" box. ( "C:\Program Files\SuperTux\supertux.exe" --debug-mode )<br />Or just run it from a dos window.
 
-== Milestone 2 ==
+== SuperTux 0.3 ==
 
-Cheat codes will get replaced by [[Console]] commands in [[Milestone 2]]
+Cheat codes got replaced by [[Console]] commands.
 
 [[Category:For Users]]
