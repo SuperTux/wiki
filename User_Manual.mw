@@ -32,7 +32,7 @@ SuperTux is played with either the keyboard or any game controller recognized by
 |-
 | Jump || Spacebar || Makes Tux jump. Hold down longer to jump higher.
 |-
-| Action || Left Control || Run, Grab, Throw. Hold down and press Left or Right to make Tux run. When running, Tux will also jump higher. More actions are explained below.
+| Action || Left Control || All actions are explained below.
 |}
 
 <br style="clear: both;" />
@@ -64,8 +64,8 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 
 == Actions ==
 
-=== Running ===
-Hold down the Action key while moving left or right to make Tux run faster. Jumping while running will catapult him higher into the air than usual.
+=== Walking ===
+Normally, when you keep running in the same direction, Tux will go faster and jump higher. If you press the Action button while running, Tux will walk at a slower pace again.
 
 === Fireballs ===
 After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut '''(SuperTux 0.3 only)'''.
