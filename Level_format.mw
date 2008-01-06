@@ -27,7 +27,7 @@ The level format is a bit complex, which is why the [[Editor FAQ|level editor]] 
                                       ;; are ready to apply the level design correctly).
 
     (tilemap                          ;; Here come the tiles.
-      (z-pos -100)                    ;; What layer the tilemap is supposed to be on. If you remember milestone 1,
+      (z-pos -100)                    ;; What layer the tilemap is supposed to be on. If you remember SuperTux 0.1,
                                       ;; "background" is now -100, "interactive" is 0 and "foreground" is 100.
 
       (solid  #f)                     ;; Will Tux collide with tiles in this tilemap?
