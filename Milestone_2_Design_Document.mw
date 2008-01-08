@@ -8,6 +8,15 @@ __TOC__
 
 Doing a forest world turned out impractical with the current available and active man-power for that reason Milestone 2 got retargeted to a much smaller accomplishable goal.
 
+= General =
+
+* Tux run animation shall be rolled back to the single-sprite on that was used in Milestone 1, the current split-image animation is far inferior
+* uni-solid tiles shall be provided for all tilesets
+* multi-layer paralax scrolling background tilemaps shall be used in all levels
+* menu system should be replaced/reworked
+* save system could need a rework as well
+* language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
+* worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
 
 == Jumping ==
 FIXME: How high, how is it influenced by running?
