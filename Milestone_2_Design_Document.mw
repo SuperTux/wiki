@@ -70,6 +70,37 @@ A flying enemy that can land on trees and carry things around to throw at Tux.
 [[Image:Angrystone.png|thumbnail|right|Angry Stone]]
 
 Like Angry Stone, but with iceworld theme.
+<br clear="all" />
+
+=== Canon ===
+[[Image:Canon.png|thumbnail|right|Canon]]
+The canon can be mounted on either static or rotatable pedestal. It shoots angry looking canonballs.
+
+<br clear="all" />
+
+=== Mini Bomb ===
+[[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
+The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
+<br clear="all" />
+
+=== Spitter ===
+[[Image:Spitter.png|thumbnail|right|Spitter]]
+The spitter acts as walking dispenser, the enemy type that he can spit out might be limited to mini-bombs and similarly small enemies.
+<br clear="all" />
+
+== Yeti ==
+[[Image:Yeti-concept.jpg|thumbnail|right|64px|Yeti]]
+[[Image:Yetiapproach.png|thumbnail|left|Yeti Boss Cutscene]]
+
+The Yeti is the boss that awaits Tux in the first castle. After entering the throne room Tux will find a letter in which Nolok tells Tux of the other castles in other worlds (see Milestone1 extro.txt). In the background there is a window. While reading the note one will see a shadow approaching the window and soon after the Yeti jumping through the window. The normal boss battle starts instantly after the jump.
+
+<br clear="all" />
+
+
+=== Eater ===
+[[Image:Eater.png|thumbnail|right|Eater]]
+The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
+<br clear="all" />
 
 = World 1 - Icyisland =
 
@@ -96,15 +127,6 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 
 <br clear="all" />
 
-== Yeti ==
-[[Image:Yeti-concept.jpg|thumbnail|right|64px|Yeti]]
-[[Image:Yetiapproach.png|thumbnail|left|Yeti Boss Cutscene]]
-
-The Yeti is the boss that awaits Tux in the first castle. After entering the throne room Tux will find a letter in which Nolok tells Tux of the other castles in other worlds (see Milestone1 extro.txt). In the background there is a window. While reading the note one will see a shadow approaching the window and soon after the Yeti jumping through the window. The normal boss battle starts instantly after the jump.
-
-<br clear="all" />
-
-
 === New Pipes ===
 
 [[Image:Rostypipe-sketch.png|thumbnail|right|Rostypipe Sketch]]
@@ -114,31 +136,9 @@ Pipes in Milestone2 should differ from both Mario1 and Milestone1. Instead of be
 <br clear="all" />
 
 
-=== Spitter ===
-[[Image:Spitter.png|thumbnail|right|Spitter]]
-The spitter acts as walking dispenser, the enemy type that he can spit out might be limited to mini-bombs and similarly small enemies.
-<br clear="all" />
-
-
-=== Eater ===
-[[Image:Eater.png|thumbnail|right|Eater]]
-The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
-<br clear="all" />
-
-
-=== Canon ===
-[[Image:Canon.png|thumbnail|right|Canon]]
-The canon can be mounted on either static or rotatable pedestal. It shoots angry looking canonballs.
-
-<br clear="all" />
-
-
-=== Mini Bomb ===
-[[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
-The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
-<br clear="all" />
-
 = Intro/Credits =
 [[Image:Introcutscene.png|thumbnail|left|Intro Storyboard]]
 The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
 <br clear="all"/>
+
+= Task List =
