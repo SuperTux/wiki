@@ -30,6 +30,7 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 
 * Story/Start Game -> worldmap
 * Contrib Levels -> submenu
+* Add Ons -> submenu
 * Options -> submenu
 * Credits -> Credit Screen
 * Quit -> exit the game
