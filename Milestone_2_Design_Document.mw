@@ -28,14 +28,14 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 * on Linux there is no real need for multiple profiles, only one should be used by default
 * for each item there shall be a sub box displayed explaining it:
 
- +------------------------+
- |   Fullscreen        [] |
- |   Music Volume [ ####] |
- | * Aspect:         16/9 |
- +------------------------+
-   +---------------------------------+
-   | Adjust Monitor aspect ration... |
-   +---------------------------------+
+     +------------------------+
+     |   Fullscreen        [] |
+     |   Music Volume [ ####] |
+     | * Aspect:         16/9 |
+     +------------------------+
+ +---------------------------------+
+ | Adjust Monitor aspect ration... |
+ +---------------------------------+
 
 == Profile ==
 
