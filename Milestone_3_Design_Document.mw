@@ -33,15 +33,7 @@ The shop is a little house accessible via the worldmap, it provides the player w
 <br clear="all" />
 
 
-= General =
 
-* Tux run animation shall be rolled back to the single-sprite on that was used in Milestone 1, the current split-image animation is far inferior
-* uni-solid tiles shall be provided for all tilesets
-* multi-layer paralax scrolling background tilemaps shall be used in all levels
-* menu system should be replaced/reworked
-* save system could need a rework as well
-* language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
-* worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
 
 = Controls =
 
