@@ -61,6 +61,11 @@ The Butt Jump is activated by pressing down while in the air. It causes Tux to c
 
 Star shall get replaced by a starfish.
 
+== Ice Fish == 
+
+Already in the code, but not much used in Milestone1 Levels
+<br clear="all" />
+
 == Owl ==
 [[Image:Owl.png|thumbnail|right|Owl]]
 A flying enemy that can land on trees and carry things around to throw at Tux.
@@ -72,18 +77,18 @@ A flying enemy that can land on trees and carry things around to throw at Tux.
 Like Angry Stone, but with iceworld theme.
 <br clear="all" />
 
-=== Canon ===
+== Canon ==
 [[Image:Canon.png|thumbnail|right|Canon]]
 The canon can be mounted on either static or rotatable pedestal. It shoots angry looking canonballs.
 
 <br clear="all" />
 
-=== Mini Bomb ===
+== Mini Bomb ==
 [[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
 The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
 <br clear="all" />
 
-=== Spitter ===
+== Spitter ==
 [[Image:Spitter.png|thumbnail|right|Spitter]]
 The spitter acts as walking dispenser, the enemy type that he can spit out might be limited to mini-bombs and similarly small enemies.
 <br clear="all" />
@@ -96,8 +101,7 @@ The Yeti is the boss that awaits Tux in the first castle. After entering the thr
 
 <br clear="all" />
 
-
-=== Eater ===
+== Eater ==
 [[Image:Eater.png|thumbnail|right|Eater]]
 The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 <br clear="all" />
