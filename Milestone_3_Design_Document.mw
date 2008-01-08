@@ -1,6 +1,6 @@
 = About this Document =
 
-This document is meant to give a reasonably detailed guide on what shall and shall not happen in Milestone 2. It is also intended as a complete replacement of other, incomplete or otherwise flawed, Milestone 2 documents floating around in this Wiki. This design document is written by Grumbel, question and comments are welcome, use the Talk page or the IRC channel for that. At the moment this document is a work-in-progress, meaning goals might change as time progresses. This document as not yet been approved by any other member of the SuperTux development stuff.
+This document is a work in progress, nothing here is considered even remotely final.
 
 __TOC__
 
@@ -8,7 +8,7 @@ __TOC__
 
 [[Image:Supertux-forest-2004-06-15.jpg|thumbnail|right|Concept Drawing]]
 
-The goal of Milestone 2 is to add another island/theme to the world of SuperTux, namely the forest island, as well as improving on the short commings that where present in [[Milestone 1 Analysis|Milestone 1]]. Together with the forest island the game will provide additional enemies and items that fit the forest islands look and setting. New actions for Tux might be provided as well, namely the backflip, butt-jump and the iceflower powerup.
+The goal of Milestone 3 is to add another island/theme to the world of SuperTux, namely the forest island, as well as improving on the short commings that where present in [[Milestone 1 Analysis|Milestone 1]]. Together with the forest island the game will provide additional enemies and items that fit the forest islands look and setting. New actions for Tux might be provided as well, namely the backflip, butt-jump and the iceflower powerup.
 <br clear="all" />
 
 = Story =
@@ -67,28 +67,6 @@ Additional buttons allow to pause the game, enter the menu and other meta-game f
 
 = Actions =
 
-== Starfish ==
-
-Star shall get replaced by a starfish.
-
-== Jumping ==
-FIXME: How high, how is it influenced by running?
-<br clear="all" />
-
-== Running ==
-FIXME: How fast, how does it influence jump, how long is acceleration?
-
-<br clear="all" />
-
-== Backflip ==
-The backflip is a special jump which gives Tux some extra height compared to a normal jump.
-<br clear="all" />
-
-== Butt Jump ==
-[[Image:Supertux-buttjump.png|thumbnail|right|Butt Jump]]
-The Butt Jump is activated by pressing down while in the air. It causes Tux to crush down on the exact spot over which he currently is. The butt jump provides additional force that allows him to crush blocks and some kind of armored enemies.
-<br clear="all" />
-
 == Flapping ==
 By flapping his wings Tux is able to get a short amount of additional time in the air as well as gain a tile in height.
 <br clear="all" />
@@ -105,39 +83,6 @@ Since Tux is a penguin he has a good ability to swim. Water will not harm him. S
 
 * 'standing': Tux stands still in the water, via the directional controls he can move up/down/left/right, this mode is very slow, but exact
 * 'swimming': by pressing a button Tux can go into swim mode, in this mode he swims at fast speed, can crush blocks with ramming them and perform jumps out of the water
-
-<br clear="all" />
-
-= World 1 - Icyisland =
-
-World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done:
-[[Image:Newpipe_blue.png|thumbnail|right|New Pipe Variations]]
-* Jumpy shall be replaced with an enemy that fits better into the snow landscape, Jumpy himself shall be reused in a lava-like setting or in the bosses castle
-* the walrus salesmen shall be added to the island
-* some levels shall be separated out into optional paths, to provide a less linear path
-* the old Milestone1 worldmap shall be used, not the one currently present in SVN
-* an additional type of snowballs shall be provided to signal stay-on-platform behaviour (a bandana or something like that)
-[[Image:Snowman-variations.png|thumbnail|right|Snowman]]
-* a snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball
-* iceblocks which will melt on contact with fire shall allow to lock paths in a level or lock secrets
-* balanced platforms that start to rotate or move when Tux stands on them shall be provided
-* water, in its simplistic tile form, shall be removed from all levels
-* uni-solid/half-tiles shall be used to enhance the levels and provide optional paths
-* bottom-less pits shall be either replaced by pits with spike at the bottom or allow Tux to climb back out of the pit
-[[Image:Crystallo.png|thumbnail|right|Crystallo]]
-* there shall be auto-scrolling levels that force Tux to run by having a avalanche coming down behind him, the avalanche might either be simple snow or a large group of enemies
-* the castle tileset shall be replaced with something that looks colder and features both snow and ice
-* cave tileset shall be replaced with something that has a larger pattern, thus looks less ugly when tiled
-* tiles picturing deadly spikes build out of ice shall be created
-[[Image:Icefloe.png|thumbnail|right|Ice Floe]]
-
-<br clear="all" />
-
-== Yeti ==
-[[Image:Yeti-concept.jpg|thumbnail|right|64px|Yeti]]
-[[Image:Yetiapproach.png|thumbnail|left|Yeti Boss Cutscene]]
-
-The Yeti is the boss that awaits Tux in the first castle. After entering the throne room Tux will find a letter in which Nolok tells Tux of the other castles in other worlds (see Milestone1 extro.txt). In the background there is a window. While reading the note one will see a shadow approaching the window and soon after the Yeti jumping through the window. The normal boss battle starts instantly after the jump.
 
 <br clear="all" />
 
@@ -186,14 +131,6 @@ Status: Implemented as GameObject, not via TileMap, which has its advantages (ea
 
 <br clear="all" />
 
-=== New Pipes ===
-
-[[Image:Rostypipe-sketch.png|thumbnail|right|Rostypipe Sketch]]
-
-Pipes in Milestone2 should differ from both Mario1 and Milestone1. Instead of being objects that lead to new levels/section, they shall contain water and allow Tux to swim around in them. There shall not be a specific enter/leave animation, instead the behavior of Tux in pipes will be similar/equal to that in water. To accomplish this tiles might need to change in size and there design need to change to either include a little window to see tux through it or alternatively they need to be designed multi layered so that the foreground layer fades away when entering them.
-
-<br clear="all" />
-
 === Butt-Jump rotating tiles/objects ===
 
 Butt-Jump on such a object to fall through/let it rotate, normal jump does nothing. Might be one way, so that you can't jump from the other side.
@@ -214,21 +151,10 @@ Fluffy is a small enemy that moves around via little hop motions, jumping on him
 <br clear="all" />
 
 
-
 === Greeny ===
 [[Image:Greeny.png|thumbnail|right|Greeny]]
 Basic forest enemy, for most part just a simple snowball replacement.
 
-<br clear="all" />
-
-=== Spitter ===
-[[Image:Spitter.png|thumbnail|right|Spitter]]
-The spitter acts as walking dispenser, the enemy type that he can spit out might be limited to mini-bombs and similarly small enemies.
-<br clear="all" />
-
-=== Eater ===
-[[Image:Eater.png|thumbnail|right|Eater]]
-The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 <br clear="all" />
 
 === MrTree ===
@@ -254,11 +180,6 @@ A enemy specifically for color castles, it can glow in different colors and thus
 A flying enemy that can land on trees and carry things around to throw at Tux.
 <br clear="all" />
 
-=== Canon ===
-[[Image:Canon.png|thumbnail|right|Canon]]
-The canon can be mounted on either static or rotatable pedestal. It shoots angry looking canonballs.
-
-<br clear="all" />
 
 === Spider ===
 [[Image:Spider.png|thumbnail|right|Spider]]
@@ -269,11 +190,6 @@ The Spider hangs at the side of a tilemap, either a hard one or an unisolid one.
 === Ladybug ===
 [[Image:Ladybug.png|thumbnail|right|Ladybug]]
 The Ladybug is a simple flying enemy that flies in a sinus-curve motion.
-<br clear="all" />
-
-=== Mini Bomb ===
-[[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
-The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
 <br clear="all" />
 
 === Stony ===
