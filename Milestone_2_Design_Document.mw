@@ -24,7 +24,24 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 
 * menu system needs support for scrolling, large lists of levels currently break it
 * profiles should replace save slots (XBox-like)
-* on Linux there is no real need for multiple save slots, only one should be used by default
+* on Linux there is no real need for multiple profiles, only one should be used by default
+* for each item there shall be a sub box displayed explaining it:
+
+ +------------------------+
+ |   Fullscreen        [] |
+ |   Music Volume [ ####] |
+ | * Aspect:         16/9 |
+ +------------------------+
+   +---------------------------------+
+   | Adjust Monitor aspect ration... |
+   +---------------------------------+
+
+== Profile ==
+
+* Create new profile
+* Profile1 -> Main Menu
+* Profile2 -> Main Menu
+* ...
 
 == Main Menu ==
 
@@ -44,6 +61,7 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 * Music Volume: off/0-100
 * Setup Keyboard:
 * Setup Joystick:
+* Use Profiles: yes/no
 
 == Contrib Levels ==
 
