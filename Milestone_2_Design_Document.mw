@@ -66,6 +66,11 @@ Star shall get replaced by a starfish.
 A flying enemy that can land on trees and carry things around to throw at Tux.
 <br clear="all" />
 
+== Angry Iceblock ==
+[[Image:Angrystone.png|thumbnail|right|Angry Stone]]
+
+Like Angry Stone, but with iceworld theme.
+
 = World 1 - Icyisland =
 
 World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done:
