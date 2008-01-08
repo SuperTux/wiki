@@ -18,6 +18,38 @@ Doing a forest world turned out impractical with the current available and activ
 * language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
 * worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
 
+= Menu System =
+
+Menu system of Milestone1 is rather ugly and could need a rewrite as well as a reorganization of some things:
+
+* menu system needs support for scrolling, large lists of levels currently break it
+* profiles should replace save slots (XBox-like)
+* on Linux there is no real need for multiple save slots, only one should be used by default
+
+== Main Menu ==
+
+* Story/Start Game -> worldmap
+* Contrib Levels -> submenu
+* Options -> submenu
+* Credits -> Credit Screen
+* Quit -> exit the game
+
+== Options == 
+
+* Language
+* Fullscreen: yes/no
+* Aspect Ratio: 16/9, 16/10, 5/4, 4/3
+* Sound Volume: off/0-100
+* Music Volume: off/0-100
+* Setup Keyboard:
+* Setup Joystick:
+
+== Contrib Levels ==
+
+* Check for new stuff online
+* complete contrib worlds
+* browse folders with level stuff
+
 = Controls =
 
 Game Controls will be configurable, either the keyboard or a joystick can be used, additional support for more exotic devices such as Wiimotes might be present as well. The basic control scheme works by having a dpad (left, right, up, down) along with one or two action buttons, depending on the users configuration one action button will be used for jump and the other for grabbing object or jump will be bound to the up-direction and just one action button is needed for grabbing.
