@@ -115,6 +115,14 @@ The Butt Jump is activated by pressing down while in the air. It causes Tux to c
 
 [[Image:Icefloe.png|thumbnail|right|Ice Floe]]
 
+== Reset Points ==
+
+There shall be no reset points in the game, instead it should be made sure that levels are small enough to not require them. 
+
+== No Lives ==
+
+There will be no lives and no punishment for death, due to the lack of reset points there simply is no need for lives.
+
 = Creatures =
 
 == Starfish ==
