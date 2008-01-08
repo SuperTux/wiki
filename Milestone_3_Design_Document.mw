@@ -147,10 +147,6 @@ A basic enemy which however gets near invisible when walking. Every few steps he
 A enemy specifically for color castles, it can glow in different colors and thus influence the color-tiles. It might also be influenced by lamps itself.
 <br clear="all" />
 
-=== Owl ===
-[[Image:Owl.png|thumbnail|right|Owl]]
-A flying enemy that can land on trees and carry things around to throw at Tux.
-<br clear="all" />
 
 
 === Spider ===
