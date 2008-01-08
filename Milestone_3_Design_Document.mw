@@ -83,6 +83,14 @@ The worldmap shall exist in both the ghost as well as the normal mode, paths mig
 
 == Game Elements ==
 
+=== New Pipes ===
+
+[[Image:Rostypipe-sketch.png|thumbnail|right|Rostypipe Sketch]]
+
+Pipes in Milestone2 should differ from both Mario1 and Milestone1. Instead of being objects that lead to new levels/section, they shall contain water and allow Tux to swim around in them. There shall not be a specific enter/leave animation, instead the behavior of Tux in pipes will be similar/equal to that in water. To accomplish this tiles might need to change in size and there design need to change to either include a little window to see tux through it or alternatively they need to be designed multi layered so that the foreground layer fades away when entering them.
+
+<br clear="all" />
+
 === TileMap Dimming ===
 
 Each tilemap should have an ambient-light/color setting (tilemap_color * ambient_color). This should be relativly easily be implementable via a glColor() or a Surface::set_color() at the right place. It is meant to be used in levels with multiple parallax scrolling backgrounds, so that the backgrounds further away can become darker then the ones in the foreground. The ambient-light setting is meant to be specific to the single tilemap only and has nothing to do with the global ambient-light setting.
