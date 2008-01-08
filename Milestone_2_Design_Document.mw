@@ -87,6 +87,12 @@ The backflip is a special jump which gives Tux some extra height compared to a n
 The Butt Jump is activated by pressing down while in the air. It causes Tux to crush down on the exact spot over which he currently is. The butt jump provides additional force that allows him to crush blocks and some kind of armored enemies.
 <br clear="all" />
 
+= Game Elements =
+
+== Icefloe ==
+
+[[Image:Icefloe.png|thumbnail|right|Ice Floe]]
+
 = Creatures =
 
 == Starfish ==
@@ -130,8 +136,22 @@ The spitter acts as walking dispenser, the enemy type that he can spit out might
 [[Image:Yetiapproach.png|thumbnail|left|Yeti Boss Cutscene]]
 
 The Yeti is the boss that awaits Tux in the first castle. After entering the throne room Tux will find a letter in which Nolok tells Tux of the other castles in other worlds (see Milestone1 extro.txt). In the background there is a window. While reading the note one will see a shadow approaching the window and soon after the Yeti jumping through the window. The normal boss battle starts instantly after the jump.
-
 <br clear="all" />
+
+== Snowman ==
+[[Image:Snowman-variations.png|thumbnail|right|Snowman]]
+
+* a snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball
+
+== Stay-On-Platform Snowball ==
+
+* an additional type of snowballs shall be provided to signal stay-on-platform behaviour (a bandana or something like that)
+
+== Crystallo ==
+
+[[Image:Crystallo.png|thumbnail|right|Crystallo]]
+
+???
 
 == Eater ==
 [[Image:Eater.png|thumbnail|right|Eater]]
@@ -146,20 +166,16 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 * the walrus salesmen shall be added to the island
 * some levels shall be separated out into optional paths, to provide a less linear path
 * the old Milestone1 worldmap shall be used, not the one currently present in SVN
-* an additional type of snowballs shall be provided to signal stay-on-platform behaviour (a bandana or something like that)
-[[Image:Snowman-variations.png|thumbnail|right|Snowman]]
-* a snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball
 * iceblocks which will melt on contact with fire shall allow to lock paths in a level or lock secrets
 * balanced platforms that start to rotate or move when Tux stands on them shall be provided
 * water, in its simplistic tile form, shall be removed from all levels
 * uni-solid/half-tiles shall be used to enhance the levels and provide optional paths
 * bottom-less pits shall be either replaced by pits with spike at the bottom or allow Tux to climb back out of the pit
-[[Image:Crystallo.png|thumbnail|right|Crystallo]]
+
 * there shall be auto-scrolling levels that force Tux to run by having a avalanche coming down behind him, the avalanche might either be simple snow or a large group of enemies
 * the castle tileset shall be replaced with something that looks colder and features both snow and ice
 * cave tileset shall be replaced with something that has a larger pattern, thus looks less ugly when tiled
 * tiles picturing deadly spikes build out of ice shall be created
-[[Image:Icefloe.png|thumbnail|right|Ice Floe]]
 
 <br clear="all" />
 
