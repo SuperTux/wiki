@@ -61,7 +61,7 @@ Game Controls will be configurable, either the keyboard or a joystick can be use
 * action1: jump, enter a level
 * action2: grab
 
-== Configuration 2 (jump with up)
+== Configuration 2 (jump with up) ==
 
 * left/right/up/down: navigate worldmap and levels
 * up: jump or enter doors
