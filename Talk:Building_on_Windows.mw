@@ -18,3 +18,7 @@ SuperTux seems to run fine with only the following DLLs in place
 * SDL.dll
 * SDL_image.dll
 Further investigation necessary
+
+== Install SDL ==
+
+Hi, I have no idea how to install SDL .. I don't know what to do after unpacking the SDL-package ... please help me =)
