@@ -711,6 +711,7 @@ These are small, brightly colored fish that just float around in the same place 
 
 ''' '' Laser Flower '' '''
 [[Image:Laser_flower-0.png]]
+
 This would be a powerup looking like a fireflower, except that it glows green. When Tux gets this powerup, if the Action button is pressed, a glowing green laser shoots out of Tux's beak and rebounds 3 times before disappearing, killing all badguys that can be killed with fire shot. The laser should be about as slow as Tux's walking speed.
 
 === Stylus control ===
