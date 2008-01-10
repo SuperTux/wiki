@@ -233,3 +233,4 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * optimize the build process, building SuperTux currently takes ages
 * change game back to use Milestone1 single-sprite SuperTux
 * do a 32x32 top-down water animation for the worldmap
+* Tux isn't centered properly to his collision box
