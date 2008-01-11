@@ -237,3 +237,4 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * do a 32x32 top-down water animation for the worldmap
 * Tux isn't centered properly to his collision box
 * [http://www.unicode.org/charts/PDF/U0400.pdf Cyrillic Font]
+* seperate lisp reader, tinygettext and other libraries properly out of SuperTux
