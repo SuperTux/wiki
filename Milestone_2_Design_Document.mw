@@ -40,6 +40,7 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 == Profile ==
 
 * Create new profile
+* Delete profile
 * Profile1 -> Main Menu
 * Profile2 -> Main Menu
 * ...
