@@ -235,6 +235,37 @@ The current Yeti pattern needs to be reworked, since it is to easy to just stand
 The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 <br clear="all" />
 
+= Levels =
+
+01 - Welcome to Antarctica.stl
+02 - The Journey Begins.stl
+03 - Via Nostalgica.stl
+04 - Tobgle Road.stl
+05 - The Somewhat Smaller Bath.stl
+06 - The Frosted Fields.stl
+07 - Oh No More Snowballs.stl
+08 - Stone Cold.stl
+09 - Grumbels Sense of Snow.stl
+10 - 23rd Airborne.stl
+11 - Night Chill.stl
+12 - Into the Stars.stl
+13 - Above the Arctic Skies.stl
+14 - Entrance to the Cave.stl
+15 - Under the Ice.stl
+16 - Living in a Fridge.stl
+17 - Or is it just me.stl
+18 - Ice in the Hole.stl
+19 - Miyamoto Monument.stl
+20 - End of the Tunnel.stl
+21 - A Path in the Clouds.stl
+22 - A Mysterious House of Ice.stl
+23 - The Escape.stl
+24 - The Shattered Bridge.stl
+25 - Arctic Ruins.stl
+26 - The Castle of Nolok.stl
+27 - No More Mr Ice Guy.stl
+
+
 = World 1 - Icyisland =
 
 World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done:
@@ -255,8 +286,6 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 * tiles picturing deadly spikes build out of ice shall be created
 
 <br clear="all" />
-
-
 
 = Intro/Credits =
 [[Image:Introcutscene.png|thumbnail|left|Intro Storyboard]]
