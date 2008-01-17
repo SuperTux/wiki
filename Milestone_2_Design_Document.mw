@@ -303,3 +303,8 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor
 * switch supertux-editor over to CMake?
 * reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
+
+= Things to know =
+
+* data/levels/test/unisolid.stl show a few new features of Milestone2 (parallax scrolling, unisolid snow tiles, new water)
+* [[News]] is there to be used, so if something interesting happens, write it down there
