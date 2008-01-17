@@ -43,12 +43,7 @@ The shop is a little house accessible via the worldmap, it provides the player w
 By flapping his wings Tux is able to get a short amount of additional time in the air as well as gain a tile in height.
 <br clear="all" />
 
-== Blow Flyer ==
-[[Image:Tux_bubble.png|thumbnail|right|Tux in Bubble Mode]]
 
-Tux body catches a lot of hot air and thus starts to float. This action is triggered by objects in the game world and automatically terminates after some amount of time.
-
-<br clear="all" />
 
 == Swimming ==
 Since Tux is a penguin he has a good ability to swim. Water will not harm him. Swimming works by basically having two modes:
