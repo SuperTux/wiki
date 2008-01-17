@@ -159,6 +159,10 @@ The games configuration (fullscreen, aspect ratio, geometry, etc.) shouldn't be 
 
 = Game Elements =
 
+== Extra Items ==
+
+Egg needs a new graphic, Fireflower/Iceflower -> ?
+
 == Ice Tiles ==
 
 Make Tux skid around and harder to control 
