@@ -302,3 +302,4 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
 * rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor
 * switch supertux-editor over to CMake?
+* reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
