@@ -133,7 +133,7 @@ The backflip is a special jump which gives Tux some extra height compared to a n
 == Flapping ==
 By flapping his wings Tux is able to get a short amount of additional time in the air as well as gain a tile in height.
 
-Reasons to have it: fits the penguin, interesting gameplay mechanic
+Reasons to have it: fits the penguin, interesting gameplay mechanic, has a reference implementation in the form of Yoshi Island
 
 Reasons to not have it: Has been tried with not so much success
 
