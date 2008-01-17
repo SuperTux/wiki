@@ -159,6 +159,14 @@ The games configuration (fullscreen, aspect ratio, geometry, etc.) shouldn't be 
 
 = Game Elements =
 
+== Ice Tiles ==
+
+Make Tux skid around and harder to control 
+
+== Deep Snow Tiles ==
+
+Slow Tux down, cause him to sink in half
+
 == Icefloe ==
 
 [[Image:Icefloe.png|thumbnail|right|Ice Floe]]
