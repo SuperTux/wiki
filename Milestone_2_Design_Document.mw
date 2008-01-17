@@ -391,3 +391,96 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 = Things unknown =
 
 * Who is running backups of the Wiki and SVN repository?
+
+= Meeting Notes =
+
+Code:
+- engine problems blending
+- monster activation should be dependent on tux position and not on
+screen
+ position (like it is now) because it should be independent from aspect
+ratio
+(Note for level designers: Think that potentially the user can see the
+whole
+ level in fron of him)
+- Code for butt jump
+
+Objects:
+- new object to place images into levels (to replace info boxes):
+
+http://pingus.seul.org/~grumbel/tmp/md5/ca5c98b54e92b1317776c49970f2bbbe-info-boxes-done-right.png
+
+Menu System Rework:
+- Scrollende Levelliste
+- Regler in den Menüs
+- Add info box below menu (with explanations)
+
+Profilsystem:
+- create profiles
+- delete profiles
+- load default profile on startup
+
+- Restart game on language change (do not put language change menu into
+the
+       Pause-Options menu)
+
+Graphics:
+- running animation
+- butt jump animation
+- improve egg graphics, so it does not seem like a "snowball"
+- graphics for the stuff in "Creatures"
+
+Behaviour:
+- Angry Iceblock: like the mario blocks (in the castles)
+- Owl: unclear... Carriers objects and drops them at tux somehow, but
+not
+clear.
+- Canon: like in mario: shoots left/right
+- MiniBomb: accelerates, follows tux (but does not jump)
+- Eater: ?
+
+Snowmans:
+- take the jogger one for fall-down snowball
+- take the japanic one for the gun
+- take teh "normal" one for stay on platform
+- take the "ninja" for following tux
+
+Enemy Code:
+- support for spawning k-childs in an enemy (for spitter for example)
+
+Mods:
+- we might want to support "mods". A mod is defined in that it replaces
+stuff
+that is already there (instead of only adding new stuff). Undecided if
+we want
+it and how exactly.
+
+Controls:
+- we need to support jump with up and jump with button
+- support binding for left,right,up,down. allow double up+jump config
+
+Game mechanics:
+- no costs for reset points
+- Mailinglist discussion: do we want reset points?
+- Remove global coin counter, coin count is only per level now
+ (similar to collectibles)
+- Add collectibles: per level, show them in the screen while playing the
+level
+- When you find a collectible, fade in collectible count for a short
+time
+- In pause mode show all collectible as once
+
+Mailing lists:
+- We want a separate team mailing list. Proposal: create
+ supertux-user and supertux-team. make forward supertux-devel mails
+ to supertux-user. supertux-team read everyone but write only for
+people with
+ svn access...
+
+World1:
+- levels will be changed, and reworked to make use of the new features
+
+Yeti:
+- Sequence at end of castle: Tux find Yeti, Yeti jumps out of the window
+and
+ flees
