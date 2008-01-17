@@ -113,6 +113,7 @@ Notes:
 * peeking left/right handling stays as is
 * a Start-button might be a worthy consideration, since its semantics are different from Escape
 * allowing hot-plugging of joystick would be nice (calling 'Setup Joystick' should query the joysticks in the system)
+* ladders behavior must be compatible with both configurations
 
 = Actions =
 
