@@ -394,15 +394,11 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 
 = Meeting Notes =
 
+<pre>
 Code:
 - engine problems blending
-- monster activation should be dependent on tux position and not on
-screen
- position (like it is now) because it should be independent from aspect
-ratio
-(Note for level designers: Think that potentially the user can see the
-whole
- level in fron of him)
+- monster activation should be dependent on tux position and not on screen position (like it is now) because it should be independent from aspect ratio
+(Note for level designers: Think that potentially the user can see the whole level in fron of him)
 - Code for butt jump
 
 Objects:
@@ -432,9 +428,7 @@ Graphics:
 
 Behaviour:
 - Angry Iceblock: like the mario blocks (in the castles)
-- Owl: unclear... Carriers objects and drops them at tux somehow, but
-not
-clear.
+- Owl: unclear... Carriers objects and drops them at tux somehow, but not clear.
 - Canon: like in mario: shoots left/right
 - MiniBomb: accelerates, follows tux (but does not jump)
 - Eater: ?
@@ -462,25 +456,17 @@ Controls:
 Game mechanics:
 - no costs for reset points
 - Mailinglist discussion: do we want reset points?
-- Remove global coin counter, coin count is only per level now
- (similar to collectibles)
-- Add collectibles: per level, show them in the screen while playing the
-level
-- When you find a collectible, fade in collectible count for a short
-time
+- Remove global coin counter, coin count is only per level now  (similar to collectibles)
+- Add collectibles: per level, show them in the screen while playing the level
+- When you find a collectible, fade in collectible count for a short time
 - In pause mode show all collectible as once
 
 Mailing lists:
-- We want a separate team mailing list. Proposal: create
- supertux-user and supertux-team. make forward supertux-devel mails
- to supertux-user. supertux-team read everyone but write only for
-people with
- svn access...
+- We want a separate team mailing list. Proposal: create supertux-user and supertux-team. make forward supertux-devel mails to supertux-user. supertux-team read everyone but write only for people with svn access...
 
 World1:
 - levels will be changed, and reworked to make use of the new features
 
 Yeti:
-- Sequence at end of castle: Tux find Yeti, Yeti jumps out of the window
-and
- flees
+- Sequence at end of castle: Tux find Yeti, Yeti jumps out of the window and  flees
+</pre>
