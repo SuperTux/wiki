@@ -73,7 +73,7 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 
 = Controls =
 
-The game needs to take special care to distinguish between jump-with-up and jump-with-button. 
+The game needs to take special care to distinguish between jump-with-up and jump-with-button. Running is automatic in this game.
 
 == Configuration 1 (jump with button) ==
 
@@ -85,7 +85,7 @@ The game needs to take special care to distinguish between jump-with-up and jump
 * grab: button2 
 * backflip: down+button1
 
-=== Worldmap ===
+=== Worldmap/Menu ===
 
 * walk: left/right/up/down
 * enter level: button1
@@ -100,7 +100,7 @@ The game needs to take special care to distinguish between jump-with-up and jump
 * grab: button1
 * backflip: down quickly followed by up
 
-=== Worldmap ===
+=== Worldmap/Menu ===
 
 * walk: left/right/up/down</tt>
 * enter level: button1
@@ -108,7 +108,11 @@ The game needs to take special care to distinguish between jump-with-up and jump
 Notes:
 
 * backflip must work even when the user can't press duck and jump at the same time
-* worldmap level entering is in one configuration done with the grab key and in the other with the jump key
+* worldmap level entering is in one configuration done with the grab key and in the other with the jump key, this must be allowed
+* escape/return aren't remappable in-game and hard bound to showing/hiding the menu
+* peeking left/right handling stays as is
+* a Start-button might be a worthy consideration, since its semantics are different from Escape
+* allowing hot-plugging of joystick would be nice (calling 'Setup Joystick' should query the joysticks in the system)
 
 = Actions =
 
