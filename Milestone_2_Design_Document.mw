@@ -130,6 +130,17 @@ FIXME: How fast, how does it influence jump, how long is acceleration?
 The backflip is a special jump which gives Tux some extra height compared to a normal jump.
 <br clear="all" />
 
+== Flapping ==
+By flapping his wings Tux is able to get a short amount of additional time in the air as well as gain a tile in height.
+
+Reasons to have it: fits the penguin, interesting gameplay mechanic
+
+Reasons to not have it: Has been tried with not so much success
+
+Problem: Its a "now or never" game mechanic, it changes the game to much to be introduced at a later point.
+
+<br clear="all" />
+
 == Butt Jump ==
 [[Image:Supertux-buttjump.png|thumbnail|right|Butt Jump]]
 The Butt Jump is activated by pressing down while in the air. It causes Tux to crush down on the exact spot over which he currently is. The butt jump provides additional force that allows him to crush blocks and some kind of armored enemies.
