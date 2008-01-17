@@ -73,22 +73,42 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 
 = Controls =
 
-Game Controls will be configurable, either the keyboard or a joystick can be used, additional support for more exotic devices such as Wiimotes might be present as well. The basic control scheme works by having a dpad (left, right, up, down) along with one or two action buttons, depending on the users configuration one action button will be used for jump and the other for grabbing object or jump will be bound to the up-direction and just one action button is needed for grabbing.
+The game needs to take special care to distinguish between jump-with-up and jump-with-button. 
 
 == Configuration 1 (jump with button) ==
 
-* left/right/up/down: navigate worldmap and levels
-* up: enter doors
-* action1: jump, enter a level
-* action2: grab
+=== Level ===
+
+* walk/run: left/right
+* duck: down
+* jump: button1
+* grab: button2 
+* backflip: down+button1
+
+=== Worldmap ===
+
+* walk: left/right/up/down
+* enter level: button1
 
 == Configuration 2 (jump with up) ==
 
-* left/right/up/down: navigate worldmap and levels
-* up: jump or enter doors
-* action1: grab, enter a level
+=== Level ===
 
-Additional buttons allow to pause the game, enter the menu and other meta-game functions.
+* walk/run: left/right
+* duck: down
+* jump: up
+* grab: button1
+* backflip: down quickly followed by up
+
+=== Worldmap ===
+
+* walk: left/right/up/down</tt>
+* enter level: button1
+
+Notes:
+
+* backflip must work even when the user can't press duck and jump at the same time
+* worldmap level entering is in one configuration done with the grab key and in the other with the jump key
 
 = Actions =
 
