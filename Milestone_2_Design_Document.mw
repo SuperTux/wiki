@@ -441,6 +441,8 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * bring back single-sprite SuperTux
 * create angry ice-block graphics
 * create an overview over the current levels
+* finish editor improvements (MatzeB)
+* try to fix white-lines around graphics problems (MatzeB)
 
 = Things to know =
 
