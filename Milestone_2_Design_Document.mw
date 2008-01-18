@@ -433,6 +433,13 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * create a timeline what shall be done and when
 * discuss in the meeting what shall be done over the coming week
 
+= Tasks for the next two weeks =
+
+* finish canon graphics
+* create ice-spikes graphics
+* create ice-tiles graphics
+* bring back single-sprite SuperTux
+
 = Things to know =
 
 * data/levels/test/unisolid.stl show a few new features of Milestone2 (parallax scrolling, unisolid snow tiles, new water)
