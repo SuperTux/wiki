@@ -413,6 +413,9 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 = Intro/Credits =
 [[Image:Introcutscene.png|thumbnail|left|Intro Storyboard]]
 The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
+
+'''Later in the development of Milestone2'''
+
 <br clear="all"/>
 
 = Task List =
