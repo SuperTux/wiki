@@ -154,6 +154,8 @@ The Butt Jump is activated by pressing down while in the air. It causes Tux to c
 
 Tux body catches a lot of hot air and thus starts to float. This action is triggered by objects in the game world and automatically terminates after some amount of time.
 
+Can interact with wind.
+
 <br clear="all" />
 
 = Configuration =
