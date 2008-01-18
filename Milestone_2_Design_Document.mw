@@ -420,8 +420,11 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 <pre>
 Code:
 - engine problems blending
-- monster activation should be dependent on tux position and not on screen position (like it is now) because it should be independent from aspect ratio
-(Note for level designers: Think that potentially the user can see the whole level in fron of him)
+- monster activation should be dependent on tux position and
+  not on screen position (like it is now) because it should
+  be independent from aspect ratio
+  (Note for level designers: Think that potentially the user
+  can see the whole level in fron of him)
 - Code for butt jump
 
 Objects:
@@ -485,7 +488,10 @@ Game mechanics:
 - In pause mode show all collectible as once
 
 Mailing lists:
-- We want a separate team mailing list. Proposal: create supertux-user and supertux-team. make forward supertux-devel mails to supertux-user. supertux-team read everyone but write only for people with svn access...
+- We want a separate team mailing list.
+  Proposal: create supertux-user and supertux-team. make forward
+  supertux-devel mails to supertux-user. supertux-team read everyone but write
+  only for people with svn access...
 
 World1:
 - levels will be changed, and reworked to make use of the new features
