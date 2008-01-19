@@ -28,6 +28,7 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 * profiles should replace save slots (XBox-like)
 * on Linux there is no real need for multiple profiles, only one should be used by default
 * for each item there shall be a sub box displayed explaining it:
+* displaying the level name in/above/below the pause menu would be nice
 
      +------------------------+
      |   Fullscreen        [] |
