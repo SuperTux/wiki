@@ -450,6 +450,10 @@ There should be more Paths to edit in regard to the Badguys. Maybe for the Flame
 
 * When a icicled falls on the badguy, it also splits in pieces.
 
+
+==== Water -> Ice ====
+It should be possible for Tux, when he has the ice-flower power up, to freeze water. But he should not freeze a whole see with one ice-attack...
+
 === Some sounds ===
 Could it be possible that there are sound effects when Tux walks on different types of ground, and when he hits the ground? e.g. on snow he makes somewhat like "tsh, tsh tsh" and on grass (forest tiles) he is rustling? (You see, I have some problems translating written sounds from German to English :( )I hope you can imagine what I think.
 :A sound if tux hits the ground should be possible. If someone creates a sound. For "walking" sounds its a bit more tricky since there are no tile attributes that tell the engine what kind of ground tux is on, do we really want that?
