@@ -49,7 +49,7 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 |+ Powerups
 ! Pic !! Name !! Effect
 |-
-| [[Image:Coin-0.png]] || Coin || '''SuperTux 0.1:''' Collect 100 coins to gain an extra life. '''SuperTux 0.3:''' Every time Tux dies, he will lose 25 coins and restart at the last firefly he activated. If he has less than 25 coins left, he will lose all of them and restart at the beginning of the level.
+| [[Image:Coin-0.png]] || Coin || '''SuperTux 0.1:''' Collect 100 coins to gain an extra life. '''SuperTux 0.3:''' Every time Tux dies, he will lose 10% of his coins (but at least 25) and restart at the last firefly he activated. If he has less than 25 coins left, he will lose all of them and restart at the beginning of the level.
 |-
 | [[Image:Egg.png]] || Egg || Makes Tux grow. He can then smash wooden boxes with his head.
 |-
