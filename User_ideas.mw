@@ -453,8 +453,8 @@ There should be more Paths to edit in regard to the Badguys. Maybe for the Flame
 This sounds a bit too much like Mr. Bomb, except that the sprites are very different. Why not have a friendly-ish badguy for once? Tux can jump on Crystallo without harming him, but can use butt jump to kill Crystallo. The sides are sharp and will hurt Tux. Crystallo should also stack onto itself. --[[User:Mathnerd314|Mathnerd314]] 03:07, 23 January 2008 (UTC)
 
 That's okay, too, but I didn't think about a badguy like MrBomb. The particles should look like the ones when you destroy the poison ivy. 
-They don't touch Tux when he jumps on Crystallo...
-So...let me add another behaviour:
+They don't touch Tux when he jumps on Crystallo.
+Well...let me add another behaviour:
 * Only destroyable with a Butt Stomp.
 
 ==== Water -> Ice ====
