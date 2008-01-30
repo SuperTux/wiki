@@ -216,3 +216,8 @@ You should have the possibility to describe your own levels. When you click on t
 
 =Squashed fullscreen=
 I'm using opensuse 10.3 with an ati 2600 hd video card native res 1280x800.  I'm using the non free driver distributed by ati (i think).  IN full screen mode the display is squashed flat and stretched out sideways with black bars on top and underneath.  but in windowed mode it looks normal.  i think it was fine before i installed the non free drivers.  but at that point my whole system's res was 800x600 (squished the other way)
+
+
+=Break Boxes=
+I know that it is possible to flame the strawboxes, but which boxes can I break with the ice-attack? An how can I put the boxes in a level made by the editor?
+I also think that Tux should break boxes with the butt stomp, but it doesn't work!
