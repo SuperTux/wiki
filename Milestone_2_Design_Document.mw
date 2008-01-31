@@ -448,18 +448,21 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 = Task List =
 
 * optimize the build process, building SuperTux currently takes ages
-* change game back to use Milestone1 single-sprite SuperTux
+* change game back to use Milestone1 single-sprite SuperTux (done)
 * do a 32x32 top-down water animation for the worldmap
 * Tux isn't centered properly to his collision box
 * [http://www.unicode.org/charts/PDF/U0400.pdf Cyrillic Font] See: http://sourceforge.net/mailarchive/message.php?msg_id=Pine.LNX.4.50.0407311832440.2887-100000%40kiff.local
 * seperate lisp reader, tinygettext and other libraries properly out of SuperTux
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
-* rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor
-* switch supertux-editor over to CMake?
+* switch supertux-editor over to CMake? (done, is now a simple Makefile)
 * reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
 * create a timeline what shall be done and when
 * discuss in the meeting what shall be done over the coming week
 * replace "you found a secret area" with a special sound
+
+= Next Meeting Agenda (31.Jan 2008, 19:00 GMT) =
+
+* rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor
 
 = Tasks for the next two weeks =
 
