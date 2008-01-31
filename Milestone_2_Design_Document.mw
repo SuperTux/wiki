@@ -504,7 +504,7 @@ Code:
   not on screen position (like it is now) because it should
   be independent from aspect ratio
   (Note for level designers: Think that potentially the user
-  can see the whole level in fron of him)
+  can see the whole level in front of him)
 - Code for butt jump
 
 Objects:
@@ -513,11 +513,11 @@ Objects:
 http://pingus.seul.org/~grumbel/tmp/md5/ca5c98b54e92b1317776c49970f2bbbe-info-boxes-done-right.png
 
 Menu System Rework:
-- Scrollende Levelliste
-- Regler in den Menüs
+- Scrolling level selection list
+- Buttons in menus
 - Add info box below menu (with explanations)
 
-Profilsystem:
+Profile system:
 - create profiles
 - delete profiles
 - load default profile on startup
@@ -539,14 +539,14 @@ Behaviour:
 - MiniBomb: accelerates, follows tux (but does not jump)
 - Eater: ?
 
-Snowmans:
+Snowmen:
 - take the jogger one for fall-down snowball
-- take the japanic one for the gun
-- take teh "normal" one for stay on platform
+- take the japanese one for the gun
+- take the "normal" one for stay on platform
 - take the "ninja" for following tux
 
 Enemy Code:
-- support for spawning k-childs in an enemy (for spitter for example)
+- support for spawning k-children in an enemy (for spitter for example)
 
 Mods:
 - we might want to support "mods". A mod is defined in that it replaces
