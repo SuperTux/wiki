@@ -588,7 +588,7 @@ Code:
 * Butt-Jump should easily be possible. Press down in midair to make Tux stop in mid-air and drop down vertically. Current effect is just fine. Don't forget to shake the camera.
 
 Game:
-* Figure out which Russian Translation to use
+* Figure out which Russian Translation to use (contact translators).
 * Build test level using snow slopes.
 * Do not use Ice Flower. It's not finished yet.
 
@@ -600,5 +600,5 @@ Graphics:
 * Frozen tree.
 
 Misc:
-* The forum of supertux.info is currently broken or unmaintained. Should we shut down the server?
+* The forum of supertux.info is currently broken or unmaintained. Should we shut down the server? Contact maintainer.
 * Sounds for Ice Crusher, Flying Snowball, Snowball splashing against wall. Sound of rockets exploding is too loud.
