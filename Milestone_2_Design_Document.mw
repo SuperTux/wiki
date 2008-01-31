@@ -479,6 +479,12 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * try to fix white-lines around graphics problems (MatzeB)
 * jump with keyboard up (done, WolfgangB)
 
+
+* repair jump Tux sprite (to dark black) (Grumbel)
+* butt jump animation (Grumbel)
+* backflip animation (Grumbel)
+* snowman graphics (Grumbel)
+
 = Things to know =
 
 * data/levels/test/unisolid.stl show a few new features of Milestone2 (parallax scrolling, unisolid snow tiles, new water)
