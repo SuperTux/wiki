@@ -196,6 +196,13 @@ Please add yourself to this list if you are working on a new translation, so tha
 | r5135
 | 100% Complete
 |-
+| Russian
+| ru
+| Eugen Uvin <nivus.ua AT gmail DOT com>
+| 0.3.0
+| r5135
+| 100% Complete for Supertux, editor isn't translated
+|-
 | Slovenian
 | sl
 | Marko Burjek <email4marko AT gmail DOT com>
@@ -209,5 +216,12 @@ Please add yourself to this list if you are working on a new translation, so tha
 | 0.3.0
 | r4415
 | not 100% complete
+|-
+| Ukrainian
+| uk
+| Eugen Uvin <nivus.ua AT gmail DOT com>
+| 0.3.0
+| r5135
+| 100% Complete for Supertux, editor isn't translated
 |}
 [[Category:Developer documentation]]
