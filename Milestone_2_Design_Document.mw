@@ -461,7 +461,6 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
 * create a timeline what shall be done and when
 * discuss in the meeting what shall be done over the coming week
-* replace "you found a secret area" with a special sound
 
 = Next Meeting Agenda (31.Jan 2008, 19:00 GMT) =
 
@@ -484,6 +483,7 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * butt jump animation (Grumbel)
 * backflip animation (Grumbel)
 * snowman graphics (Grumbel)
+* replace "you found a secret area" with a special sound (Wansti)
 
 = Things to know =
 
