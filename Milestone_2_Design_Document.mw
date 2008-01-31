@@ -579,3 +579,26 @@ World1:
 Yeti:
 - Sequence at end of castle: Tux find Yeti, Yeti jumps out of the window and  flees
 </pre>
+
+== 2008-01-31 ==
+
+Code:
+* New Badguy "Ice Crusher", falls down to crush Tux, then rises back up. Has a platform on its top
+* Remove old Cannon, Dropper graphics and use new Cannon instead. Only shoots left and right
+* Butt-Jump should easily be possible. Press down in midair to make Tux stop in mid-air and drop down vertically. Current effect is just fine. Don't forget to shake the camera.
+
+Game:
+* Figure out which Russian Translation to use
+* Build test level using snow slopes.
+* Do not use Ice Flower. It's not finished yet.
+
+Graphics:
+* Fix jumping Tux animation. It has weird black marks.
+* Make Tux backflip animation smoother.
+* New tileset for above-ground levels.
+* New decorative tiles. Ice cracks, snowmen, cavemen, areas with more transparency, ...
+* Frozen tree.
+
+Misc:
+* The forum of supertux.info is currently broken or unmaintained. Should we shut down the server?
+* Sounds for Ice Crusher, Flying Snowball, Snowball splashing against wall. Sound of rockets exploding is too loud.
