@@ -451,7 +451,7 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * change game back to use Milestone1 single-sprite SuperTux
 * do a 32x32 top-down water animation for the worldmap
 * Tux isn't centered properly to his collision box
-* [http://www.unicode.org/charts/PDF/U0400.pdf Cyrillic Font]
+* [http://www.unicode.org/charts/PDF/U0400.pdf Cyrillic Font] See: http://sourceforge.net/mailarchive/message.php?msg_id=Pine.LNX.4.50.0407311832440.2887-100000%40kiff.local
 * seperate lisp reader, tinygettext and other libraries properly out of SuperTux
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
 * rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor
