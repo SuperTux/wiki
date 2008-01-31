@@ -37,7 +37,7 @@ All files in data/music created by [[User:wansti|wansti]] and licensed under GPL
 
 == [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/sounds/ data/sounds] ==
 We mainly need to clear the status of the sounds from Bill Kendrick
-*bigjump.wav -- bkendrick
+*bigjump.wav -- self-made by [[User:Wansti|Wansti]]
 *brick.wav -- bkendrick
 *bump-upgrade.wav -- bkendrick
 *coin.wav -- Replaced by a self-made, almost identical sound by [[User:Wansti|wansti]] (as of revision 5016)
@@ -56,7 +56,7 @@ We mainly need to clear the status of the sounds from Bill Kendrick
 *hurt.wav -- self-made by [[User:MatzeB|MatzeB]]
 *iceblock_bump.wav
 *invincible.wav -- bkendrick
-*jump.wav -- bkendrick
+*jump.wav -- self-made by [[User:Wansti|Wansti]]
 *kick.wav -- bkendrick
 *lava.wav -- submitted as GPL by Bastian Zapf
 *lifeup.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)
