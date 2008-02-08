@@ -1,4 +1,11 @@
-Needs openAL.dll...
+== Ark Linux ==
+[http://www.arklinux.org/ Ark Linux] includes a SuperTux 0.3.1d package -- Ark Linux users can just
+
+ apt-get install supertux2
+
+(apt-get install supertux installs the stable package), users of other RPM based distributions can try their luck with the Ark [http://arklinux.osuosl.org/dockyard-devel/SRPMS SRPMS], [http://arklinux.osuosl.org/dockyard-devel/i586 i586 binaries] or [http://arklinux.osuosl.org/dockyard-devel/x86_64 x86_64 binaries].
+
+== Needs openAL.dll... ==
 :Yes, as it says that on the [[Download/Installation_Milestone_1.9|download]] page... --[[User:AnMaster|AnMaster]]
 
 == SuSE 9.2... It doesney werk cap'n! ==
