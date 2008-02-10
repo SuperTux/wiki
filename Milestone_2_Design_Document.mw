@@ -486,6 +486,8 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * some decore for ice tiles, cracks and stuff (Grumbel)
 * replace "you found a secret area" with a special sound (Wansti)
 * rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor (MatzeB)
+* Stay-on-platform snowball (done, WolfgangB)
+* snowball-launcher (WolfgangB)
 
 = Things to know =
 
