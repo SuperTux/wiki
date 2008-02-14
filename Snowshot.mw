@@ -1,3 +1,3 @@
-{{Badguy|name=KamikazeSnowball|image=Kamikaze-left|worlds=IcyIsland|appearance=A flying snowball with headband.|behaviour=Flies in straight line until he crashes in something. Can be shot from [[launcher]].|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Badguy|name=KamikazeSnowball|image=Kamikaze-left|worlds=IcyIsland|appearance=A flying snowball with headband.|behaviour=Flies in straight line until he crashes in something. Can be shot from a [[dispenser]].|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
 
 Planned for 0.4. In svn since r5323.
