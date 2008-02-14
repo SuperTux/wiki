@@ -1,3 +1,3 @@
-{{Badguy|name=CaptainSnowball|image=Cpt-right-1|worlds=IcyIsland|appearance=A walking pirate snowball with eyes and boots on.|behaviour=Walks slower then the average snowball. Falls down from all cliffs. Can be shot from launcher.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Badguy|name=CaptainSnowball|image=Cpt-right-1|worlds=IcyIsland|appearance=A walking pirate snowball with eyes and boots on.|behaviour=Walks slower then the average snowball. Falls down from all cliffs. Can be shot from [launcher].|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
 
 Planned for 0.4. In svn since r5323.
