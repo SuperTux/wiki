@@ -489,6 +489,8 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * Stay-on-platform snowball (done, WolfgangB)
 * snowball-launcher (WolfgangB)
 
+* create proper background tiles for level22
+
 = Things to know =
 
 * data/levels/test/unisolid.stl show a few new features of Milestone2 (parallax scrolling, unisolid snow tiles, new water)
