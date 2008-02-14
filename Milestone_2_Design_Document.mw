@@ -494,6 +494,8 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * create some playable test levels for new stuff
 * create mountain and night background
 * replace old bomb with new bomb sprite
+* create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
+* integrate snowjumpy
 
 = Things to know =
 
