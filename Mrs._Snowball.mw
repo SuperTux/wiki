@@ -1,0 +1,5 @@
+{{Badguy|name=Smartball|image=Left-1|worlds=IcyIsland|appearance=A walking snowball with eyes and boots on.|behaviour=Walks around. Stays on his platform.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+
+Planned for 0.4. In svn since r5321.
+
+[[Category:Badguy]]
