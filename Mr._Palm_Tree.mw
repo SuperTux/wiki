@@ -6,7 +6,7 @@ Note: This badguy is not yet created or accepted for the game in any way.
 
 '''Appearance:''' A tottering palm tree with many pairs of eyes.
 
-'''Behaviour:''' Walks around. Stays on platforms and turns if any segment touches a block.
+'''Behaviour:''' Walks around. Stays on platforms and turns if any segment touches a block. Found in Tropical Islands.
 
 '''Squishable:''' Yes, but only bottom segment is squished. Next segment then grows legs.
 
