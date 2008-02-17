@@ -1,14 +1,14 @@
-Bonus blocks are blocks that Tux can hit with his head to get coins or powerups.
+Hit this block with your head to get a bonus!
 
-The editor differentiates which powerups are given:
+There a several types of bonus block:
 
 [[Image:Bonus Block.jpeg]]
 
-A common bonus block giving [[Tux]] 1 coin.
+This is the most basic bonus block, giving Tux 1 coin when hit. In the game, all bonus blocks except crates, invisibles and used bonuses look like this. The images for Powerup blocks, invinsible blocks and 100 coin blocks are taken from the level editor of 0.1.3.
 
 [[Image:Bonus Block - Crate.jpeg]]
 
-A wooden crate, yielding six coins, one per hit.
+This Bonus Block has the appearance of a wooden crate. It allows Tux six coins, giving him one every time he hits it.
 
 [[Image:Bonus Block - Snowy Crate.jpeg]]
 
@@ -16,22 +16,18 @@ The same as the normal crate, but is used when the area is more snowy.
 
 [[Image:Bonus Block - Powerup.jpeg]]
 
-Standard powerup, meaning an egg, a fireflower, or an iceflower depending on whether Tux is big.
+Gives Tux a powerup! If he is small, it releases an egg which slides across the ground in essentially the same pattern as Snowballs. The egg makes Tux big! If he is already big, a fireflower sprouts from the top of the block. It gives him firepower! In older versions, Tux turns red, but in version 0.3 he gets a little fireman's cap (careful - you lose this is you backflip) The more Fireflowers you get, the more rapidly you can fire.
 
-[[Image:Bonus Block - Invinsible.jpeg]]
+[[Image:Bonus Block - invinsible.jpeg]]
 
-Invincibility star. Collisions which would kill Tux instead kill the badguy, if he is killable.
-
-[[Image:Bonus Block - Invisible.jpeg]]
-
-This is invisible until you hit it with your head. It then appears as an empty bonus block. These are often used to produce paths to [[Secret Area|secret areas]].
+This is really another type of powerup, but comes from a differnt block. It releases a fast, bouncy white star. If you can catch it, Tux gets all sparkly and is immune to badguys. In version 0.1.3, all badguys except flames are killed when Tux touches them. In 0.3, he can still jump on them and squish them if he likes, but if he walks into them they just get killed same as normal. He can also still make iceblocks shoot around, but they're killed if they hit him. Bombs explode, too, but it doesn't hurt Tux. Flames are still not hurt. It remains to be seen whether invinsible power kills badguys such as darts and cannons. (Note - when Tux reaches the End Sequence area, he becomes invinsible to badguys and goes all sparkly til he reaches the Final Goal.)
 
 [[Image:Bonus Block - 100 coins.jpeg]]
 
-This block releases a tiny penguin when hit. It goes up slightly at an angle away from the side Tux hits it on, then curves and goes down, to be lost forever unless Tux can catch it before it goes into the ground. He currently gets 100 coins. This could be changed as he only loses about 25 when he dies.
+This block release a tiny penguin when hit. It goes up slightly at an angle away from the side Tux hits it on, then curves and goes down, to be lost forever unless Tux can catch it before it goes into the ground. In 0.1.3, he got a life if he caught it, but as lives are eliminated in 0.3, he gets 100 coins. This could be changed at a later date as he only loses about 25 when he dies.
 
 [[Image:Bonus Block - Empty.jpeg]]
 
-All bonus blocks look like this once used, but there are also some which begin like this. They act exactly like a normal, solid block.
+All bonus blocks look like this once empty, but there is also some which begin like this. It acts as a normal block.
 
-[[Category:Game Object]]
+[[Category:Objects]]
