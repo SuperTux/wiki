@@ -1,4 +1,4 @@
-Could be the most basic badguy in Tropical Islands... (Taking the place of Snowball and Poison Ivy)
+Could take the place of Mr IceBlock and Slow Snail.
 
 '''Name:''' Nutty
 
@@ -8,9 +8,10 @@ Could be the most basic badguy in Tropical Islands... (Taking the place of Snowb
 
 '''Behaviour:''' Walks around. Walks off all edges.
 
-'''Squishable:''' Yes
+'''Squishable:''' No. When jumped, he becomes a coconut with no eyes or feet. He can then be kicked or
+carried.
 
-'''"Butt-Jumpable:"''' Yes
+'''"Butt-Jumpable:"''' No
 
 '''Freezable:''' Yes
 
