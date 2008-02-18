@@ -29,6 +29,7 @@ Example of a definition:
     (width …)
     (height …)
     (tiles …)
+    (solid #t)
   ) 
  </code>
 
@@ -36,14 +37,14 @@ The above tilemap will be exposed under the name “niftymap” in the scripting
 
  <code>
   niftymap.goto_node(1);
-  niftymap.fade(0.0, 10)
+  niftymap.fade(0.0, 10);
  </code>
 This will cause the tilemap to slowly move left, fading out as it goes, and disappear completely when it reaches its destination.
 Never fear, though; it is still there. From the console, you can enter:
 
 <code>
-  niftymap.goto_node(0);
-  niftymap.fade(1.0, 15)
+  sector.niftymap.goto_node(0);
+  sector.niftymap.fade(1.0, 15)
 </code>
 The tilemap will then reverse its previous actions, ending up back where it started, but it will only reach full opacity 5 seconds after it stops.
 
@@ -59,8 +60,7 @@ The tilemap will then reverse its previous actions, ending up back where it star
 | Stop tilemap at next node
 |-
 ! class="method"| fade(float alpha, float seconds)
-Start fading the tilemap to opacity given by alpha. Destination opacity will be reached after seconds game seconds. Also influences solidity.
-| 
+| Start fading the tilemap to opacity given by alpha. Destination opacity will be reached after seconds game seconds. Also influences solidity.
 |-
 ! class="method"| set_alpha(float alpha)
 | Instantly switch tilemap's opacity to alpha. Also influences solidity.
