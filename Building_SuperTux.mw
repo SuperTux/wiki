@@ -135,7 +135,7 @@ You may have to login again after these changes so they can take affect.
 
 You can compile the editor from commandline with jam. Simply type
  
- jam
+ make
 
 and the editor will be built. You can then start the editor with
 
