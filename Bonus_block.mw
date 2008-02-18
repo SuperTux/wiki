@@ -1,14 +1,14 @@
-Hit this block with your head to get a bonus!
+Hit these blocks with your head to get a bonus!
 
-There a several types of bonus block:
+There are several types of bonus blocks:
 
 [[Image:Bonus Block.jpeg]]
 
-This is the most basic bonus block, giving Tux 1 coin when hit. In the game, all bonus blocks except crates, invisibles and used bonuses look like this. The images for Powerup blocks, invinsible blocks and 100 coin blocks are taken from the level editor of 0.1.3.
+This is the most basic bonus block, giving [[Tux]] 1 coin when hit. In the game, all bonus blocks except bonus crates, invisible bonus blocks and used bonuses look like this. The images for Powerup blocks, invincible blocks and 100 coin blocks are taken from the level editor.
 
 [[Image:Bonus Block - Crate.jpeg]]
 
-This Bonus Block has the appearance of a wooden crate. It yeilds six coins, giving Tux one every time he hits it.
+This Bonus Block has the appearance of a wooden crate. It yields six coins, giving [[Tux]] one every time he hits it.
 
 [[Image:Bonus Block - Snowy Crate.jpeg]]
 
@@ -16,22 +16,22 @@ The same as the normal crate, but is used when the area is more snowy.
 
 [[Image:Bonus Block - Powerup.jpeg]]
 
-Gives Tux a powerup! If he is small, it releases an egg which slides across the ground in essentially the same pattern as Snowballs. The egg makes Tux big! If he is already big, a fireflower sprouts from the top of the block. It gives him firepower! In older versions, Tux turns red, but in version 0.3 he gets a little fireman's cap (careful - you lose this is you backflip) The more Fireflowers you get, the more rapidly you can fire.
+Gives Tux a powerup! If he is small, it releases an egg which slides across the ground in essentially the same pattern as Snowballs. The egg makes Tux big. If he is already big, a [[Fireflower|fireflower]] sprouts from the top of the block. It gives him firepower! In older versions, Tux turns red, but in version 0.3+ he gets a little fireman's cap (careful in 0.3.0 - you lose this if you backflip) The more Fireflowers you get, more shots can be on the screen at one time.
 
 [[Image:Bonus Block - Invinsible.jpeg]]
 
-This is really another type of powerup, but comes from a differnt block. It releases a fast, bouncy white star. If you can catch it, Tux gets all sparkly and is immune to badguys. In version 0.1.3, all badguys except flames are killed when Tux touches them. In 0.3, he can still jump on them and squish them if he likes, but if he walks into them they just get killed same as normal. He can also still make iceblocks shoot around, but they're killed if they hit him. Bombs explode, too, but it doesn't hurt Tux. Flames are still not hurt. It remains to be seen whether invinsible power kills badguys such as darts and cannons. (Note - when Tux reaches the End Sequence area, he becomes invinsible to badguys and goes all sparkly til he reaches the Final Goal.)
+This is really another type of powerup, but comes from a different block. It releases a fast, bouncy white star. If you can catch it, Tux gets all sparkly and is immune to badguys. In version 0.1.3, all badguys except flames are killed when Tux touches them. In 0.3, he can still jump on them and squish them if he likes, but if he walks into them they just get killed same as normal. He can also still make iceblocks shoot around, but they're killed if they hit him. Bombs explode, too, but don't hurt Tux. Flames aren't hurt, but don't hurt Tux. It remains to be seen whether being invincible kills badguys such as dart traps and cannons. (Note - when Tux reaches the End Sequence area, he becomes invincible to badguys and goes all sparkly till he reaches the Final Goal.)
 
 [[Image:Bonus Block - Invisible.jpeg]]
 
-This is just like a normal block, but invisible until you hit it with your head. It then changes to look like an Empty bonus block.
+This is just like a normal block, but invisible until you hit it with your head. It then changes to look like an empty bonus block. These are often used to produce paths to [[Secret Area|secret areas]].
 
 [[Image:Bonus Block - 100 coins.jpeg]]
 
-This block release a tiny penguin when hit. It goes up slightly at an angle away from the side Tux hits it on, then curves and goes down, to be lost forever unless Tux can catch it before it goes into the ground. In 0.1.3, he got a life if he caught it, but as lives are eliminated in 0.3, he gets 100 coins. This could be changed at a later date as he only loses about 25 when he dies.
+This block releases a tiny penguin when hit. It goes up slightly at an angle away from the side Tux hits it on, then curves and goes down, to be lost forever unless Tux can catch it before it goes into the ground. In 0.1.3, he got a life if he caught it, but as lives are eliminated in 0.3, he gets 100 coins. This could be changed at a later date as he only loses about 25 when he dies.
 
 [[Image:Bonus Block - Empty.jpeg]]
 
-All bonus blocks look like this once empty, but there is also some which begin like this. It acts as a normal block.
+All bonus blocks look like this once used, but there are also some which begin like this. They act exactly like a normal block.
 
 [[Category:Game Object]]
