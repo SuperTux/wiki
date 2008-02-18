@@ -1,62 +1,62 @@
 == '''Hi''' ==
-  I'm a Supertux fan. Why would anyone who wasn't have a Tux Wiki account?
- Unless they're putting TRASH on here for fun.
-  ... what I'd like to know is why you've come to my user page. Maybe you did it by mistake or something like that.
+I'm a Supertux fan. Why would anyone who wasn't have a Tux Wiki account?
+Unless they're putting TRASH on here for fun.
+... what I'd like to know is why you've come to my user page. Maybe you did it by mistake or something like that.
  Whatever the reason, I'd like to tell you some of my ideas, if you'd care to read them 
 (though you probably wouldn't.)
 
-  First of all I'd like to say that I think Supertux should be kept as simple as possible.
- When I was younger I played a platform game called Oddworld: Abe's Odyssey. 
+First of all I'd like to say that I think Supertux should be kept as simple as possible.
+When I was younger I played a platform game called Oddworld: Abe's Odyssey. 
 
 ([http://oddworld.com/firsttenyears/index.shtml]) I really liked it at the time,
- and I suppose I still do in a way, although Supertux is far better in my eyes now. 
+and I suppose I still do in a way, although Supertux is far better in my eyes now. 
 Abe's Odyssey was the second in a series of games set in the imaginary land of Oddworld.
- I liked the platform layout... then they made number three, which was X-Box only and 3-D. I like simple games, and Supertux especially, I think, should be simple.
+I liked the platform layout... then they made number three, which was X-Box only and 3-D. I like simple games, and Supertux especially, I think, should be simple.
 
-  So, here are my ideas:
+So, here are my ideas:
 
 == Badguys: ==
 
 === Papaya: ===
 
-  A papaya with eyes and feet.
- Since this a very tropical fruit, I though it would do well as an badguy for Tropical Islands.
+A papaya with eyes and feet.
+Since this a very tropical fruit, I though it would do well as an badguy for Tropical Islands.
 However, other tropical fruits are certainly an option, and, of course,
- the badguy needn't even ''be'' a fruit.
- Mangoes and bananas would also work fine.
+the badguy needn't even ''be'' a fruit.
+Mangoes and bananas would also work fine.
 
 === [[Nutty]]: ===
 
 [[Image:Nutty.jpeg]]
 
-  Nutty is a coconut. He has a palm leaf for hair and walks around.
- He is similar to Mr IceBlock and Slow Snail. When jumped,
- he loses his feet and eyes and can be kicked or carried.
+Nutty is a coconut. He has a palm leaf for hair and walks around.
+He is similar to Mr IceBlock and Slow Snail. When jumped,
+he loses his feet and eyes and can be kicked or carried.
 
 === [[Mr Palm Tree]]: ===
 
 [[Image:Mr Palm Tree.jpeg]]
 
-  Similar to Walking Totem. A stack of segments,
- with the topmost being egg-shaped and having leaves.
- When jumped upon, the bottom segment is squished. 
+Similar to Walking Totem. A stack of segments,
+with the topmost being egg-shaped and having leaves.
+When jumped upon, the bottom segment is squished. 
 The entire tree drops down and the next segment sprouts feet and resumes walking.
- The tree does not walk off any edges and turns around if any segment touches a block.
- It is squishable, butt-jumpable, burnable and freezable.
+The tree does not walk off any edges and turns around if any segment touches a block.
+It is squishable, butt-jumpable, burnable and freezable.
 It throws out coconuts from the bases of the leaves which hit the ground,
- bounce a few times and then turn into [[Nutty]].
+bounce a few times and then turn into [[Nutty]].
 While in the air and while bouncing they are burnable,
- but not squishable, butt-jumpable or freezable.
+but not squishable, butt-jumpable or freezable.
 
 === [[Ghostly Tree]]: ===
 
 [[Image:Spooky Tree.jpeg]]
 
-  This one is for the Ghost forest.
- Although, as you'll see if you follow the link, this idea had already been thought of,
- I did think of it myself before seeing that, and I originally called it Spooky Tree.
- It is similar to the normal Mr Tree, but instead of two Ivies it releases two [[bat]]s.
- I also though that Spooky Tree (or even Mr Tree) could have two branches either side of him 
+This one is for the Ghost forest.
+Although, as you'll see if you follow the link, this idea had already been thought of,
+I did think of it myself before seeing that, and I originally called it Spooky Tree.
+It is similar to the normal Mr Tree, but instead of two Ivies it releases two [[bat]]s.
+I also though that Spooky Tree (or even Mr Tree) could have two branches either side of him 
 which Tux could stand on.
 
 === [[Bat]]: ===
@@ -65,14 +65,14 @@ which Tux could stand on.
 
 I had him called Mr Bat, and discovered as I did with Spooky Tree 
 that someone already had a similar idea.
- However, my Mr Bat is released from Spooky Trees and this is his pattern of behaviour:
+However, my Mr Bat is released from Spooky Trees and this is his pattern of behaviour:
 
 The two Mr Bats fly up to the top of the screen at a slight angle away from Spooky Tree, 
 one on either side.
- Then both bats fly straight at Tux, who must dodge at the right moment.
- If he dodges to soon, they will swerve, if he dodges to late, they'll get him.
- If he dodges at the right time, the bats are stunned, at which point they could be squished.
- If they weren't squished soon enough, they would fly
- again to the top of the screen and again at Tux, and so on, and so on...
+Then both bats fly straight at Tux, who must dodge at the right moment.
+If he dodges to soon, they will swerve, if he dodges to late, they'll get him.
+If he dodges at the right time, the bats are stunned, at which point they could be squished.
+If they weren't squished soon enough, they would fly
+again to the top of the screen and again at Tux, and so on, and so on...
 
 I'll be putting more ideas on here soon!!!
