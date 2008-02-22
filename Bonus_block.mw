@@ -6,9 +6,9 @@ There are several types of bonus blocks:
 
 This is the most basic bonus block, giving [[Tux]] 1 coin when hit. In the game, all bonus blocks except bonus crates, invisible bonus blocks and used bonuses look like this. The images for Powerup blocks, invincible blocks and 100 coin blocks are taken from the level editor.
 
-[[Image:Bonus Block - Crate.jpeg]]
+[[Image:Bonus Block - Red X.png]]
 
-This Bonus Block has the appearance of a wooden crate. It yields six coins, giving [[Tux]] one every time he hits it.
+This Bonus Block has the appearance of a red X. It yields six coins, giving [[Tux]] one every time he hits it.
 
 [[Image:Bonus Block - Snowy Crate.jpeg]]
 
