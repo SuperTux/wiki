@@ -87,12 +87,34 @@ Update r3937. Longer, more coin trails. --[[User:WolfgangB|WolfgangB]] 03:13, 8 
 Update r4039: Two more signs right at the beginning to avoid the dead end. --[[User:WolfgangB|WolfgangB]] 18:18, 17 Jul 2006 (BST)
 
 == dfk-level1.stl ==
+Nolok has created a huge open space and drawn some lines through it.
+
+Status: boring, empty, some new tiles shown, unbeatable, no defined goals
+
+Difficulty: Easy, other than jumping up 100 times in a row
 
 == dfk-level2.stl ==
+Nolok has erected his foundations, filled them with traps, and now Tux must navigate through them.
+
+Status: Beatable, although the end (or at least, what appears to be the end) is missing
+:No badguys are in the level, so it feels very empty
+
+Difficulty: Easy so far, but can only be beaten by taking a shortcut/secret path which requires backflips in some places.
+:Appears to be left unfinished, as the ordinary path is still unbeatable (Requires you to cross a large empty space filled with lava)
+
+Uses switches to block/unblock passageways with column-like platforms, questionable usage at best. Extremely large and empty, distances between relevant objects could be shrunk. (Half the time spent in the level is walking back and forth) Spike pit is a bit large. One part requires Tux to jump off blindly, drop into a pit of lava, then lifts him out of the lava with platforms to allow Tux to continue - very disconcerting. The secret path is also odd, as it flips Tux, requires him to ride a platform across the level, passing over the parts he just went through, and then the flip-back area is too small and requires Tux to jump up to activate it. --[[User:Mathnerd314|Mathnerd314]] 00:39, 23 February 2008 (UTC)
 
 == dfk-level3.stl ==
+Having entered Nolok's castle at the bottom, Tux must now climb up to face him at the top.
+Status: Playable, although there are some ''very'' tight jumps in places (Take a running jump and stop on a two-tile platform, then do another running jump off that. Later, Tux gets to take a running jump up, go through a 1-tile gap between the ceiling and a bracket, and come back down 4 tiles later). Missing all its badguys.
+There are a few dead ends, but those are recoverable as Tux can fall back down.
+
+Difficulty: Very hard, but only requires skilled handling of Tux and a working knowledge of the level. Adding badguys will make it either impossible or improbable to beat, depending on how they are placed. --[[User:Mathnerd314|Mathnerd314]] 00:39, 23 February 2008 (UTC)
 
 == dfk-placeholder-1.stl ==
+Status: placeholder/test, since its displayed name is NOLOK it presumably represents an appearance of Nolok to laugh at Tux/criticize him.
+
+Contains an Angrystone and very odd-looking tilesets as well which can only be accessed by ghosting through the floor. --[[User:Mathnerd314|Mathnerd314]] 00:39, 23 February 2008 (UTC)
 
 == fish.stl ==
 Fishponds in the forest.
