@@ -761,11 +761,14 @@ They may be the same, but Milestone 2 has got a worse control than Milestone 1.
 There are ice tiles or ice ground that can be walked on. They can also be jumped on without break. But if Tux does the "buttjump" then it breaks the tile/ground. Perhaps this can be used to reach other areas or enter secret places.
 *I've implemented that in my own version - I can now smash wooden boxes with buttjump from top. - 500million
 
-=== Geiser ===
-There can be geisers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
+=== Geyser ===
+There can be geysers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
 :There is wind already.
 ::Oh, wind is good, I've never seen wind in Supertux yet though. --smallfoot
 :You could use wind on a waterfall (upside-down) to make that!
+
+=== Throw/shoot up ===
+It could be possible to throw objects/shoot fireballs upwards. --Shylence 22:16, 25 February 2008 (UTC)
 
 === Teleporter ===
 There are teleporters or some magic force fields that work as teleportation means on the level. When Tux walks into the teleporter he gets teleported to somewhere else.
