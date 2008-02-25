@@ -462,7 +462,11 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * create a timeline what shall be done and when
 * discuss in the meeting what shall be done over the coming week
 
+= Bug List/Feature Requests =
 
+* when BigTux ducks, the camera moves/jumps, but should stand still
+* InfoBox crashes when Text doesn't start with a marker character
+* there should be an script command to change the game speed (i.e. run in slowmotion)
 
 = Tasks for the next two weeks =
 
