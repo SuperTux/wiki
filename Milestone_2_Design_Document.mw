@@ -500,6 +500,11 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
 * integrate snowjumpy
 
+= Next Meeting Agenda (28.Feb 2008, 19:00 GMT) =
+
+* discuss patches from Ed <icelus2k5@gmail.com>, if not already applied
+* present newly build levels
+
 = Things to know =
 
 * data/levels/test/unisolid.stl show a few new features of Milestone2 (parallax scrolling, unisolid snow tiles, new water)
