@@ -3,16 +3,8 @@ I'm a Supertux fan. Why would anyone who wasn't have a Tux Wiki account?
 Unless they're putting TRASH on here for fun.
 ... what I'd like to know is why you've come to my user page. 
 Maybe you did it by mistake or something like that.
-Whatever the reason, I'd like to tell you some of my ideas, if you'd care to read them 
-(though you probably wouldn't.)
+Whatever the reason, I'd like to tell you some of my ideas, if you'd care to read them.
 
-First of all I'd like to say that I think Supertux should be kept as simple as possible.
-When I was younger I played a platform game called Oddworld: Abe's Odyssey. ([http://oddworld.com/firsttenyears/index.shtml])
-I really liked it at the time,
-and I suppose I still do in a way, although Supertux is far better in my eyes now. 
-Abe's Odyssey was the second in a series of games set in the imaginary land of Oddworld.
-I liked the platform layout... then they made number three, which was X-Box only and 3-D.
-I like simple games, and Supertux especially, I think, should be simple.
 
 So, here are my ideas:
 
@@ -78,4 +70,32 @@ again to the top of the screen and again at Tux, and so on, and so on...
 
 [[Image:Mr Bat Stunned.jpeg]]
 
-I'll be putting more ideas on here soon!!!
+=== [[Anteater]] ===
+
+I also provided a concept sketch for the anteater, as well as a few ideas about behaviour. 
+(The head not hurting Tux and the swishy tail.)
+
+=== Avalanche ===
+
+I read in the meeting log for August '07 the idea for an avalanche that chases Tux along,
+as opposed to an auto-scrolling screen.
+I like this idea, and here's a few ideas of my own:
+*The types of badguys could vary: eg, Snowballs in Icyisland. However, although Ivies are the Snowball equivalents in
+Forest Island (which insidentally should have a more catchy name like Icyisland) they aren't really round enough to 
+form an avalanche. So perhaps a pile of mossy rocks? Coconuts in the tropical islands?
+
+== Worlds and Tilesets ==
+
+=== Tilesets for Tropical Islands (World 3) ===
+
+==== The Beach ====
+
+Sand dunes with tufts of grass. Levels on the edges of the island could be like this.
+
+==== The Palm Forest ====
+
+A rocky ground with mossy rocks and ferns and palm trees (similar to trees in world 2 but palms). Perhaps trees could have coconuts in them, some of which drop? Tufts of grass.
+
+==== The Volcano ====
+
+Tropical islands always have volcanoes on them, it's a known fact. So there could be rocky grey tiles with lots of lava in the levels and different badguys (Lots of Pyros and Flames).
