@@ -507,7 +507,9 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 
 * discuss patches from Ed <icelus2k5@gmail.com>, if not already applied
 * present newly build levels
-* what to do with freeze()?
+* what to do with Badguy::freeze()?
+* what to do with level flipping (suggestion: ignore it)
+* Wiki & SVN backup again
 
 = Things to know =
 
