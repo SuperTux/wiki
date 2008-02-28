@@ -15,7 +15,7 @@ Insert your Mac OS X installation CD into your DVD-ROM drive. In the window that
 ts''' and the '''Mac OS X 10.4 (Universal) SDK''' (from under '''Cross Development'''). Keep on clicking yourself through the wizard until said tools are installed.
 
 == Building the libraries ==
-You should need the following libraries to run SuperTux:
+You will need the following libraries to run SuperTux:
 * [http://libsdl.org/ SDL]
 * [http://libsdl.org/projects/SDL_image/ SDL_image]
 ** [http://libpng.org/pub/png/libpng.html libpng]
