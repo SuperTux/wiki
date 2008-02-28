@@ -2,4 +2,4 @@
 
 {{Badguy|name=Ispy|image=Ispy|worlds=all Worlds|appearance=A spying eye.|behaviour=Static, looking towards the nearest player. When the Ispy can see a player (unobstructed line of sight), it triggers an alert, which might cause doors to close, traps to trigger, ...|squish=no|butt-jump=no|freeze=yes, shortly inactive|ignite=no}}
 
-[[Category:Badguy]]
+[[Category:Badguy.4]]
