@@ -452,7 +452,6 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * do a 32x32 top-down water animation for the worldmap
 * Tux isn't centered properly to his collision box
 * [http://www.unicode.org/charts/PDF/U0400.pdf Cyrillic Font]
-* Too many Blizzard Entertainment credits in stk credits.
 *:See:
 *:http://sourceforge.net/mailarchive/message.php?msg_id=Pine.LNX.4.50.0407311832440.2887-100000%40kiff.local
 *:http://pingus.seul.org/~grumbel/tmp/md5/6a7e3ff759ad7ca802ec8fcb2e96b9e5-supertux-rus-files2.tar.bz2
