@@ -506,6 +506,9 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 
 * deep snow tiles
 * icicle graphics for decoration purpose
+* editor doesn't align canon and icecrusher properly (grid is wrong)
+* new enemy type with more interesting walking pattern (follows Tux as long as Tux doesn't look, walks forward and backward, etc.), see Crystallo for a possible sprite
+* use pink snowball for stay on platform, use normal snowball for straight forward walk
 
 = Next Meeting Agenda (28.Feb 2008, 19:00 GMT) =
 
