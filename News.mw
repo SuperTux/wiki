@@ -196,7 +196,7 @@ A bottom and top section was added to Grumbel's blue mountain background (snow b
 
 * New collision detection code has been merged into trunk. Highlights:
 ** Handling of slopes and platforms should be more robust now
-** You can break multiple ?-boxes with 1 jump again
+** You can break multiple question boxes with 1 jump again
 ** Code is simpler and faster
 ** You can realistically jump through 1 tile holes (the engine shifts you up to 5 pixels into the correct place where you can pass through the hole)
 
