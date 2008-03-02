@@ -1,6 +1,6 @@
 {{PD Help Page}}
 
-[[Help:Images|Images]] on a MediaWiki wiki are designed to link to the description page, so that licensing information, upload history, contributors, and full resolution versions are immediately available to the user when he or she clicks an image. In fact, MediaWiki is designed to prevent manual manipulation of images in wikicode which may circumvent this operation: The '''<tt>&lt;img&gt;</tt>''' tag is specifically not whitelisted in the {{mediawiki|Manual:Sanitizer.php|Sanitizer}}, nor is the '''<tt>background-image</tt>''' CSS attribute.
+[[Help:Images|Images]] on a MediaWiki wiki are designed to link to the description page, so that licensing information, upload history, contributors, and full resolution versions are immediately available to the user when he or she clicks an image. In fact, MediaWiki is designed to prevent manual manipulation of images in wikicode which may circumvent this operation: The '''<tt>&lt;img&gt;</tt>''' tag is specifically not whitelisted in the [[Manual:Sanitizer.php|Sanitizer]], nor is the '''<tt>background-image</tt>''' CSS attribute.
 
 However, there are several workarounds for those that require them.
 
@@ -48,7 +48,7 @@ You can also attempt to superimpose an invisible link over an image via CSS, suc
 <div style="position: absolute; top: 0px; left: 0px; z-index: 2;">[[Image:{{{image}}}|{{{width}}}|{{{link}}}]]</div>
 </div></pre>
 
-Known problems: It doesn't work in text-only browsers, and in screen readers for the disabled, and possibly other situations.  The technique of using [[wikipedia:CSS|CSS]] to change page content also completely breaks an article's [[wikipedia:web accessibility|web accessibility]] by contravening a [[wikipedia:WAI|WAI]] priority-one checkpoint.[http://www.w3.org/TR/WAI-WEBCONTENT/#tech-order-style-sheets]
+Known problems: It doesn't work in text-only browsers, and in screen readers for the disabled, and possibly other situations.  The technique of using [[w:CSS|CSS]] to change page content also completely breaks an article's [[w:web accessibility|web accessibility]] by contravening a [[w:WAI|WAI]] priority-one checkpoint.[http://www.w3.org/TR/WAI-WEBCONTENT/#tech-order-style-sheets] 
 
 ===Redirect===
 A less elegant trick is to make the image description page a redirect to the target. So for example [[:Image:Wiki.png]] would be changed to content:
@@ -61,28 +61,28 @@ There are several disadvantages to this:
 ==Native with configuration change==
 If you have server access, but do not want to install any extensions, these solutions may work for you.
 ===External image syntax===
-If you enable {{mediawiki|Manual:$wgAllowExternalImages|$wgAllowExternalImages}} (which allows external images from any domain) or {{mediawiki|Manual:$wgAllowExternalImagesFrom|$wgAllowExternalImagesFrom}} (which restricts the list of domains), anyone can then easily create an "external" link to an "external" image. External simply means: using the full URL rather than a local link, so you can link locally, but you need to use the full URL. The plainlinks class is used to remove the "external link" icon:
+If you enable [[Manual:$wgAllowExternalImages|$wgAllowExternalImages]] (which allows external images from any domain) or [[Manual:$wgAllowExternalImagesFrom|$wgAllowExternalImagesFrom]] (which restricts the list of domains), anyone can then easily create an "external" link to an "external" image. External simply means: using the full URL rather than a local link, so you can link locally, but you need to use the full URL. The plainlinks class is used to remove the "external link" icon:
 
- &lt;span class="plainlinks"&gt;<span style="color:red;"><nowiki>[http://linktopage http://linktoimage]</nowiki></span>&lt;/span&gt;
+ &lt;span class="plainlinks"&gt;<span style="color:red;"><nowiki>http://linktopage http://linktoimage</nowiki></span>&lt;/span&gt;
 
-So for example, were external images allowed here, you could link to the {{mediawiki|MediaWiki|main page}} with http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png using wikicode like:
+So for example, were external images allowed here, you could link to the [[MediaWiki|main page]] with http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png using wikicode like:
 
  &lt;span class="plainlinks"&gt;<nowiki>[{{fullurl:MediaWiki}} http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png]</nowiki>&lt;/span&gt;
 
 This has the disadvantage of not registering the link, or the image use, as well as not being easily portable to forks and mirrors.
 
 ===Raw HTML===
-If you enable {{mediawiki|Manual:$wgRawHtml|$wgRawHtml}}, you can use '''<tt>&lt;img&gt;</tt>''' tags freely, but this method is highly insecure.
+If you enable [[Manual:$wgRawHtml|$wgRawHtml]], you can use '''<tt>&lt;img&gt;</tt>''' tags freely, but this method is highly insecure.
 
-There are, however, some extensions to make it safer, see {{mediawiki|Manual:$wgRawHtml#Related_Extensions}} for details.
+There are, however, some extensions to make it safer, see [[Manual:$wgRawHtml#Related_Extensions]] for details.
 
 ==via Extension==
 If you are willing to install an extension, several extensions have been created to address this issue:
-*{{mediawiki|Extension:ImageMap}} - advanced image shape-link extension, uses the html USEMAP features ''(xml tag)''
-*{{mediawiki|Extension:LinkedImage}} - image links ''(XML tag)''
-*{{mediawiki|Extension:Icon}} - image links ''(parser function)''
+*[[Extension:ImageMap]] - advanced image shape-link extension, uses the html USEMAP features ''(xml tag)''
+*[[Extension:LinkedImage]] - image links ''(XML tag)''
+*[[Extension:Icon]] - image links ''(parser function)''
 
-Or you can invent your own linked image syntax, by writing an extension that registers it as a parser hook. See {{mediawiki|Manual:Tag extensions}} for information on extending MediaWiki syntax.
+Or you can invent your own linked image syntax, by writing an extension that registers it as a parser hook. See [[Manual:Tag extensions]] for information on extending MediaWiki syntax.
 
 ==Other options==
 If you want, you can do some more drastic things, such as modify /includes/Sanitizer.php (where the HTML tag whitelist is), and add &lt;img /&gt; to the list of allowed tags.
@@ -92,5 +92,5 @@ If you want, you can do some more drastic things, such as modify /includes/Sanit
 *[[Help:Links]]
 *[[Help:Images]]
 
-[[Category:Help|Linked images]]
+[[Category:Help]]
 [[Category:Imported help]]
