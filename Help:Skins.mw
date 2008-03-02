@@ -4,6 +4,8 @@ Clicking on the [[special:preferences|my preferences]] link in the upper right w
 
 You can make changes to the current skin's stylesheet file (CSS) by creating a subpage of your userpage, "[[Special:Mypage/monobook.css|User:Yourname/monobook.css]]" for example. This requires your site admin to have enabled this feature -- if it is, you will see advice text at the top of your custom CSS page about clearing your browser's cache.
 
+{{admin tip|tip=To enable this feature, you have to set [[Manual:$wgAllowUserCss|$wgAllowUserCss]] to your [[Manual:LocalSettings.php|LocalSettings.php]].}}
+
 == See also ==
 * [[Help:Preferences]]
 
@@ -12,7 +14,7 @@ You can make changes to the current skin's stylesheet file (CSS) by creating a s
 
 {{Languages|Help:Skins}}
 
-[[Category:Help]]
-[[Category:Special Pages]]
-[[Category:Subpage]]
+[[Category:Help|{{PAGENAME}}]]
+[[Category:Special Pages|{{PAGENAME}}]]
+[[Category:Subpage|{{PAGENAME}}]]
 [[Category:Imported help]]
