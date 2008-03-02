@@ -8,6 +8,8 @@ Clicking a red link, will take you to the edit page for the new article.  Simply
 
 Once the page has been created, the link will change from <span style="color: #ba0000">red</span> to <span style="color: #002bb8;">blue</span> (<span style="color: #5a3696;">purple</span> for pages you've visited) indicating that the article now exists.
 
+Usually this is the best way to create a new page, because it means that right from the start, the page will be linked from at least one other place on the wiki (and typically you will want to mesh it into other related pages later) If you are creating a new page without creating any link to it, you may need to ask yourself: Does this page really fit in with the topics already covered in the wiki? Also, how are you expecting visitors to find this page? Normally there is no reason to create a page without first creating a red link to it.
+
 == Using the URL ==
 You can use the wiki's URL for creating a new page. The URL to an article of the wiki is usually something like this:
 *<code><nowiki>http://www.example.net/index.php/</nowiki>'''ARTICLE'''</code> &nbsp;&nbsp; or
@@ -19,7 +21,7 @@ If you replace <code>'''ARTICLE'''</code> with the name of the page you wish to 
 If you search for a page that doesn't exist (using the search box and 'go' button on the left of the page) then you will be provided with a link to create the new page.  (Note that this technique doesn't work if you use the 'search' button).
 
 == Using the Inputbox extension ==
-{{Admin tip|tip=You need to download and install the [[meta:Inputbox|"inputbox extension"]] for this method to work.}}
+{{Admin tip|tip=You need to download and install the "[[Extension:Inputbox|inputbox extension]]" for this method to work.}}
 If the Inputbox extension is available on the wiki you can start a new page by typing in your article's name and clicking the "create article" button, as in the example below.
 {| align="center" style="border:1px solid black" width="60%"
 |
@@ -30,13 +32,13 @@ width=45
 |}
 
 == Create redirects to your new page == 
-Don't forget to setup redirects when you create a page. If you think another person may search for the page you've created by using a different name or spelling, please create the proper redirect(s).
+Don't forget to setup redirects when you create a page. If you think another person may search for the page you've created by using a different name or spelling, please create the proper redirect(s). See [[Help:Redirects]]
 
-To create a redirect, the '''first line''' of the redirect page should read <code><nowiki>#REDIRECT [[Destination]]</nowiki></code>, where <code>Destination</code> is the page to which people should be redirected.  This must appear as the very first line of the page.
+== Protecting your new page ==
+Normally a new wiki page can edited by other people (that ''is'' one of the main ideas of a wiki!)  However, you could 'protect' the page, if desired, to prevent normal users editing it. This requires sysop permissions.
 
-{{Admin tip|tip=
-If desired, once you create your new page, you should protect the page and allow only the type of users you would like to edit the page.
-}}
+==External links==
+{{meta|Help:Starting a new page}} 
 
 {{Languages|Help:Starting a new page}}
 
