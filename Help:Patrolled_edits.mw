@@ -8,7 +8,7 @@ In MediaWiki 1.4 and above, a feature exists allowing specific users to mark ite
 
 #Access [[Special:Recentchanges]]
 #:Changes which are not patrolled will be indicated with a red exclamation mark
-#Click the ([[Help:Difference engine|diff]]) link next to an edit
+#Click the ([[m:Help:Diff|diff]]) link next to an edit
 #To mark the edit as patrolled, click the ''mark as patrolled'' link
 
 == Customization ==
@@ -36,7 +36,7 @@ For instance, to create a ''patrollers'' group:
 <code>$wgGroupPermissions['patrollers']['patrol'] = true;</code>
 
 === Automatic patrolling ===
-In MediaWiki 1.6 and later, there is a [[Help:preferences|user preference]] available to users who are able to mark edits as patrolled. When set, this causes their edits to be patrolled automatically.
+In MediaWiki 1.6 through 1.8, there is a [[Help:preferences|user preference]] available to users who are able to mark edits as patrolled. When set, this causes their edits to be patrolled automatically.
 
 This option is not available if patrolled edits are switched off.
 
@@ -45,6 +45,9 @@ In MediaWiki 1.9 this user preference has been removed and replaced by a new "au
 === Marker ===
 
 The formatting of the unpatrolled edit marker can be altered using CSS.
+
+==External links==
+{{meta|Help:Patrolled edit}}
 
 {{Languages|Help:Patrolled edits}}
 [[Category:Help|Patrolled edits]]
