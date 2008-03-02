@@ -1,5 +1,8 @@
 {{PD Help Page}}
 __TOC__
+
+Typically you would '''upload an image file''' to the wiki (See [[Help:Managing files]])  ...''before'' you use the following wiki text to place the image on an article:  
+
 {| {{Prettytable}}
 |-
 |{{Hl3}}|'''Description'''
@@ -48,21 +51,7 @@ __TOC__
 [[Image:Example.jpg|frameless]]
 |}
 
-==Uploaded files==
-To use an image or other file which has been [[Help:Managing files|uploaded to the wiki]], use:
-*<code><nowiki>[[Image:Example.jpg]]</nowiki></code>
-If you add a pipe (|) and some text after the filename, the text will be used as alternative text for text-only browsers:
-*<code><nowiki>[[Image:Example.jpg|alternative text]]</nowiki></code>
-
-If you don't want to display the image, you can link to the file's description page, by adding a colon:
-*<code><nowiki>[[:Image:Example.jpg]]</nowiki></code>
-To bypass the description page and link directly to a file , use the "Media" pseudo-namespace: 
-*<code><nowiki>[[Media:Example.jpg]]</nowiki></code>
-You can also make piped links if you want some other text to be used:
-*<code><nowiki>[[:Image:Example.jpg|link text]]</nowiki></code>
-*<code><nowiki>[[Media:Example.jpg|link text]]</nowiki></code>
-
-===Advanced options===
+== Syntax ==
 The full syntax for displaying an image is:
  <code><nowiki>[[Image:{name}|{options}]]</nowiki></code>
 Where options can be zero or more of the following, separated by pipes:
@@ -70,9 +59,22 @@ Where options can be zero or more of the following, separated by pipes:
 *<code>left</code>, <code>right</code>, <code>center</code>, <code>none</code>: Controls the alignment of the image on the page
 *<code>{width}px</code>: Resizes the image to the given width in pixels
 *<code>{caption text}</code>
+* Special cases:
+** <code>page=1</code>: displays the specified page when showing a djvu file.
+
 The options can be given in any order. If a given option does not match any of the other possibilities, it is assumed to be the caption text. Caption text can contain wiki links or other formatting.
 
-===Gallery of images===
+== Other files ==
+You can link to an external file using the same syntax used for linking to an external web page. 
+*<code><nowiki>[http://url.for/some/image.png]</nowiki></code>
+Or with different text:
+*<code><nowiki>[http://url.for/some/image.png link text here]</nowiki></code>
+
+If it is enabled on your wiki (see [[Manual:$wgAllowExternalImages]]), you can also embed external images. To do that, simply insert the image's url:
+*<code><nowiki>http://url.for/some/image.png</nowiki></code>
+
+
+== Gallery of images ==
 It's easy to make a gallery of thumbnails with the <code><nowiki><gallery></nowiki></code> tag. The syntax is:
 <pre>
 <gallery>
@@ -102,18 +104,12 @@ Image:Example.jpg
 Image:Example.jpg|''italic caption''
 </gallery>
 
-==Other files==
-You can link to an external file using the same syntax used for linking to an external web page. 
-*<code><nowiki>[http://url.for/some/image.png]</nowiki></code>
-Or with different text:
-*<code><nowiki>[http://url.for/some/image.png link text here]</nowiki></code>
-
-If it is enabled on your wiki (see [[Manual:$wgAllowExternalImages]]), you can also embed external images. To do that, simply insert the image's url:
-*<code><nowiki>http://url.for/some/image.png</nowiki></code>
-
 == Administration of images/files ==
 
-See here: [[Manual:Image Administration]]
+See: [[Manual:Image Administration]]
+
+== See also ==
+* [[Help:Linked images|Linked images]]
 
 ==External Links==
 * {{meta|Help:Images and other uploaded files}}
