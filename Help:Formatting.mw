@@ -1,5 +1,4 @@
 {{PD Help Page}}
-{{TOCright}}
 You can format your text using wiki markup. This consists of normal characters like asterisks, single quotes or equation marks which have a special function in the wiki, sometimes depending on their position. For example, to format a word in ''italic'', you include it in two single quotes like <tt><nowiki>''this''</nowiki></tt>
 
 == Text formatting markup ==
@@ -30,14 +29,19 @@ You can format your text using wiki markup. This consists of normal characters l
 |-
 | colspan="3" align="center" | ''only at the beginning of the line''
 |-
+| Indent text
+|<tt><nowiki>:Indent text</nowiki></tt>
+|&nbsp;&nbsp;&nbsp;&nbsp;Indent text
+|-
 |Headings of<br />
-different sizes <ref>Use of a heading created by single equal signs is discouraged as it appears with the same formatting and size as the page title, which can be confusing.</ref><ref>An article with four or more headings will automatically create a [http://en.wikipedia.org/wiki/Wikipedia:Section#Table_of_contents_.28TOC.29 table of contents].</ref>
+different levels <ref>Use of a heading created by single equal signs is discouraged as it appears with the same formatting and size as the page title, which can be confusing.</ref><ref>An article with four or more headings will automatically create a [http://en.wikipedia.org/wiki/Wikipedia:Section#Table_of_contents_.28TOC.29 table of contents].</ref>
 |
 <tt><nowiki>==level 1==</nowiki></tt><br />
 <tt><nowiki>===level 2===</nowiki></tt><br />
 <tt><nowiki>====level 3====</nowiki></tt><br />
 <tt><nowiki>=====level 4=====</nowiki></tt>
 |
+
 ==Level 1==
 ===Level 2===
 ====Level 3====
