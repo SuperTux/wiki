@@ -1,22 +1,39 @@
 {{PD Help Page}}
-Easy editing of pages is what wikis are made for. It only takes a few clicks.
+It's very easy to edit the contents of a wiki. It only takes a few clicks.
 
-
-
-== Editing new pages ==
-If the page you wish to edit does not exist yet, see [[Help:Starting a new page]]
-
-== Editing existing pages ==
-* Click the '''edit''' [[Help:Navigation#Page Tabs|page tab]]
-* Make changes to the text in the edit box. Make sure you write clearly and concisely, and make sure your edit does something to improve the page. If you're making normal changes to the text like fixing spelling mistakes or grammar, inserting new sentences, etc, then you don't have to worry too much about formatting. When you do need to use some type of formatting, you do it using wiki syntax, see [[Help:Formatting]] for some of the common types of formatting used.
-* Optionally, enter a short note in the '''Summary''' box describing your changes.
-* Optionally preview your changes with the '''Preview''' button.
+* Click the '''edit''' [[Help:Navigation#Page Tabs|page tab]] at the top of the page.
+* Make changes to the text.
 * Click the '''Save page''' button.
 
-* One can rename pages as well See [http://meta.wikimedia.org/wiki/Help:Moving_a_page Help:Moving_a_page]
+Simple as that!
 
-=== Discussion ===
-Every article has its own discussion page where you can ask questions, make suggestions, or discuss corrections. Click the '''discussion''' [[Help:Navigation#Page Tabs|page tab]] to reach it. You can sign your message by writing 4 tildes (<nowiki>~~~~</nowiki>). The wiki software turns them into the current time and your username or your current IP address if you are not logged in.
+== Editing rules, editing conventions, and formatting ==
+
+The number one rule of wiki editing, is to ''be bold''. Dive in and make changes. Other people can correct mistakes later, so have confidence, and give it a try! There can be all kinds of editing conventions, rules, and philosophy governing the editing of wiki pages, but the "be bold" rule overrides these!
+
+In general try to write clearly and concisely and make sure you are always aiming to do something which improves the wiki contents. An edit might be to contribute whole paragraphs or pages full of information, or it could be as simple as fixing a typo/spelling mistakes.
+
+When you need to use some type of formatting e.g. new headings or '''bold''' text, you do this using wiki syntax, see [[Help:Formatting]] for some of the common types of formatting used.
+
+== Edit Summary ==
+
+Before you save a change, you can enter a short note in the '''Summary''' box describing your changes. Don't worry too much about this, or spend too much time thinking about it, but try to give a little description of what you just changed e.g. "''fixed typo''" or "''added more information about sunflowers''".
+
+The summary gets stored alongside your edit, and allows people to [[Help:Tracking changes|track changes]] in the wiki more effectively.
+
+== Preview ==
+
+It's a good idea to use the 'Show preview' button to see what your change will look like, before you save it. This is also related to [[Help:Tracking changes|tracking changes]] because every time you save, this is displayed to others as a separate change. This isn't something to worry about too much, but it's good to get into the habit of eliminating mistakes in your own work, by using a preview before saving, rather than saving several minor corrections afterwards. 
+
+== Other types of editing ==
+With wiki edits you can start a new page, move (or rename) a page, or even delete a page:
+* [[Help:Starting a new page]]
+* [[Help:Moving a page]]
+* [[Help:Deleting a page]]
+Remember you should always aim to improve the overall contents of the wiki with your edits.
+
+== Discussion ==
+Every article has its own "talk page" where you can ask questions, make suggestions, or discuss corrections. See [[Help:Talk pages]] 
 
 == External Links ==
 {{meta|Help:Editing}}
