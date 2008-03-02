@@ -18,13 +18,13 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The level header information loading process is rather slow (ie. launching the worldmap).
 
-* In some cases, bumping against a question mark block leaves the image in place.
+* In some cases, bumping against a ? block leaves the image in place.
 
 * The goal bars should be replaced with something more creative/original.
 
 * The snowflakes do not really match the style.
 
-* The question mark blocks are poorly shaped.
+* The ? blocks are poorly shaped.
 
 * Stalactites should shatter via particle effects.
 
@@ -92,7 +92,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The starting point (igloo) on the worldmap cannot be entered.
 
-* Pipes shouldn't be entered; we thus had no bonus rooms.
+* Pipes cannot be entered; we thus had no bonus rooms.
 
 * Clever enemies are missing (ie. the plants which come out of pipes only if Mario isn't standing on that pipe).
 
