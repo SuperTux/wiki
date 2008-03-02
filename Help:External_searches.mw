@@ -23,7 +23,7 @@ Other applications of the template include searching Forums, for bug reports of 
 
 Note: Wikipedia has an [[help:interwiki linking|interwiki prefix]] with a similar affect, so you can link to google results with <nowiki>[[Google:firstTerm+Second+etc]]</nowiki>, although templates are still useful for linking other search engines.
 
-[http://www.clickwiki.info/index.php/Template:Google External reference to template example in use at ClickWiki.info]
+{{languages|Help:External searches}}
 
 [[Category:Help|External Searches]]
 [[Category:Search]]
