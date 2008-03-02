@@ -1,6 +1,6 @@
 [http://www.mediawiki.org/wiki/{{urlencode:{{{1}}}}} {{{2|{{{1}}}}}}]<noinclude>
 ----
-This template links to a page on MediaWiki from the [[Help:Contents|Help pages]]. Two parameters:
+This template links to a page on MediaWiki from the [[Project:Help|Help pages]]. Two parameters:
 # Pagename
 # (optional) Link description
 [[Category:Info templates|MediaWiki]]</noinclude><noinclude>[[Category:Imported help]]</noinclude>
