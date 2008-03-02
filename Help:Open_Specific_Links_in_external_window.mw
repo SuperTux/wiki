@@ -2,10 +2,10 @@
 ==Introduction==
 Sometimes it becomes necessary to have certain links in your wiki to be opened in an external windows leaving the current window as is. This help is for such special situation only. If your wiki is completely locked for editing , and you need complete freedom for embedding html use [$wgRawHtml = true;] in your Localsettings.php!
 Note: This might is a very simple process, have been inspired by 
-# {{mediawiki|Manual:Opening_external_links_in_a_new_window}}
+# [[Manual:Opening_external_links_in_a_new_window]]
 
 ==Method==
-# Follow {{mediawiki|Extension:Secure_HTML}} to install Secure_HTML extension
+# Follow [[Extension:Secure_HTML]] to install Secure_HTML extension
 # go to http://www.yoursite.org/yourwiki/index.php/Special:SecureHTMLInput in your site
 # paste the following html code.
  <html>
