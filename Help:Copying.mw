@@ -1,18 +1,32 @@
 {{PD Help Page}}
 You can obtain a copy of the help system in this wiki for local use in your own wiki following these steps:
 
-* Step one: In a separate browser window, navigate to [[Special:Export]].
-* Step two: You will see an open textbox asking you for a list of pages to export.
-* Step three: Copy the list below and paste it into that textbox. This is a generally useful set, making the resulting help structure in your wiki look almost identical to the one here.
+# In a separate browser window, navigate to [[Special:Export]]. You will see an open textbox asking you for a list of pages to export.
+# Copy the [[#File_list|list]] below and paste it into that textbox. This is a generally useful set, making the resulting help structure in your wiki look almost identical to the one here.
+# Make sure the box "Include only the current revision, not the full history" is '''checked'''.
+# Click the 'Export' button.
+# Save the file to your desktop or other convenient location you'll remember.
+# Navigate to Special:Import on '''your''' wiki. Note that you must be logged in as an Admin/Sysop (or another user with the import [[Help:User rights|right]]) to do this.
+# Browse for the file you saved, and click 'Upload'.
+# Navigate to [[Special:Imagelist]]
+# For each image referenced below, click on the (file) link and save the image to the same location as before.
+# Navigate to Special:Upload in '''your''' wiki and upload each of the images.
 
+You will probably have to edit some of the pages to fix links, but at least this will provide a starting point.
+
+Also keep in mind that most default wiki installations do not support SVG images. Information about SVG support can be found in the [[Manual:Image_Administration#SVG]] page.
+
+==File list==
  [[Help:Contents]]
  [[Help:Navigation]]
  [[Help:Searching]]
  [[Help:Tracking_changes]]
+ [[Help:Editing]]
  [[Help:Editing_pages]]
  [[Help:Starting_a_new_page]]
  [[Help:Formatting]]
  [[Help:Links]]
+ [[Help:Talk_pages]]
  [[Help:Categories]]
  [[Help:Images]]
  [[Help:Subpages]]
@@ -20,6 +34,9 @@ You can obtain a copy of the help system in this wiki for local use in your own 
  [[Help:Tables]]
  [[Help:Variables]]
  [[Help:Managing_files]]
+ [[Help:Moving_a_page]]
+ [[Help:Redirects]]
+ [[Help:Deleting_a_page]]
  [[Help:Preferences]]
  [[Help:Skins]]
  [[Help:Namespaces]]
@@ -28,9 +45,10 @@ You can obtain a copy of the help system in this wiki for local use in your own 
  [[Help:Special pages]]
  [[Help:External searches]]
  [[Help:Patrolled edits]]
- [[Help:User_rights]]
+ [[Help:User_page]]
+ [[:Category:Help]]
  [[Template:PD_Help_Page]]
- [[Category:Help]]
+ [[Template:PD]]
  [[Template:Meta]]
  [[Template:Mediawiki]]
  [[Template:Admin_tip]]
@@ -38,27 +56,26 @@ You can obtain a copy of the help system in this wiki for local use in your own 
  [[Template:Hl2]]
  [[Template:Hl3]]
  [[Template:Thankyou]]
- [[:Image:Example.jpg]]
- [[:Image:Geographylogo.png]] 
-
-Sysops only:
  [[Template:Click]]
  [[Template:Languages]]
  [[Template:Languages/Lang]]
-
-
-* Step four: Make sure the box "Include only the current revision, not the full history" is CHECKED.
-* Step five: Click the 'Export' button.
-* Step six: Save the file to your desktop or other convenient location you'll remember.
-* Step seven: Navigate to Special:Import on YOUR wiki. (You must be logged in as Admin/Sysop level to do this.)
-* Step eight: Browse for the file you saved, and click 'Upload'.
-
-For the images this only copies the image descriptions. You need also to upload them on your wiki. Although not complete, at least this gets you started on a decent help system.
-
+ [[:Image:Example.jpg]]
+ [[:Image:Geographylogo.png]] 
+ [[:Image:PD-icon.svg]]
+ [[:Image:PD-Help icon.png]]
+ [[:Image:Wikimedia-logo.svg]]
+ [[:Image:Tools.svg]]
+ [[:Image:M-en-sidebar.png]]
+ [[:Image:M-en-userlinks.png]] 
+ [[:Image:M-en-pagetabs.png]]
+ [[:Image:M-en-recentchanges.png]]
+ [[:Image:M-en-interwiki lang.png]]
 
 ==Automated copying==
 
 If you use pywikipedia, there is a script to automate the copying at http://mediawiki-tools.cvs.sourceforge.net/mediawiki-tools/pywikipedia/mirrorhelp.py, which copies all pages in the help namespace along with templates and images directly referenced by those.
 
 {{Languages|Help:Copying}}
+
+[[Category:Help|{{PAGENAME}}]]
 [[Category:Imported help]]
