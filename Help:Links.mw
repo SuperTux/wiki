@@ -20,10 +20,6 @@ The first letter of the target page is automatically capitalized and spaces are 
 |<tt><nowiki>[[Main Page]]</nowiki></tt>
 |[[Main Page]]
 |-
-|Internal link stored on intranet server
-|<tt><nowiki>[file:///\\server_name123\pubshare_name\internal_webpage.htm internal_webpage.htm]</nowiki></tt>
-|internal_webpage.htm
-|-
 |Category link
 |<tt><nowiki>[[:Category:Help]]</nowiki></tt>
 |[[:Category:Help]]
@@ -40,9 +36,9 @@ The first letter of the target page is automatically capitalized and spaces are 
 |<tt><nowiki>http://mediawiki.org</nowiki></tt>
 |http://mediawiki.org
 |-
-|External link from internal image
-|<tt><nowiki>[http://targetURL {{Server}}/wiki/images/imagelocation]</nowiki></tt>
-|Internal image
+|Internal link to image file
+|<tt><nowiki>[[media:example.jpg]]</nowiki></tt>
+|[[media:example.jpg]]
 |-
 |External link,<br />
 different title
@@ -75,13 +71,20 @@ same host unnamed
 |<tt><nowiki>[mailto:info@example.org info]</nowiki></tt>
 |[mailto:info@example.org info]
 |-
+|mailto named with subject line
+|<tt><nowiki>[mailto:info@example.org?Subject=URL%20Encoded%20Subject info]</nowiki></tt>
+|[mailto:info@example.org?Subject=URL%20Encoded%20Subject info]
+|-
 |redirect
 |<tt><nowiki>#REDIRECT [[Main Page]]</nowiki></tt>
 | &rarr; [[Main Page]]
 |}
 
-==Formatting==
+{{admin tip|tip=
+Which protocols (like http:) are allowed for links is controlled by the [[Manual:$wgUrlProtocols|$wgUrlProtocols]] setting. 
+}}
 
+{{admin tip|tip=
 To remove the 'external link image' from next to each of the external links, add the following to the page located at <code>MediaWiki:Monobook.css</code> on your wiki.
 
 <pre>
@@ -91,6 +94,10 @@ To remove the 'external link image' from next to each of the external links, add
         padding-right: 0;
 }
 </pre>
+}}
+
+== See also ==
+* [[Help:Linked images|Linked images]]
 
 == External links ==
 {{meta|Help:Link}}
