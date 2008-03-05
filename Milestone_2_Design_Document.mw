@@ -510,6 +510,9 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 * new enemy type with more interesting walking pattern (follows Tux as long as Tux doesn't look, walks forward and backward, etc.), see Crystallo for a possible sprite
 * use pink snowball for stay on platform, use normal snowball for straight forward walk
 
+
+* add a "scan for joysticks" to the "No Joysticks found" in "Setup Joystick" to allow hotplugging
+
 = Next Meeting Agenda (28.Feb 2008, 19:00 GMT) =
 
 * discuss patches from Ed <icelus2k5@gmail.com>, if not already applied
