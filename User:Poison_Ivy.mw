@@ -106,6 +106,7 @@ Tropical islands always have volcanoes on them, it's a known fact. So there coul
 
 There could be, say, one or two types of bullet for each world, but you can carry them between worlds. Different bullets could be used
 for different things. Eg,
+
 '''ICYISLAND:'''
 Fire Bullets: Dispatches all Snowballs, Iceblocks, Jumpies and Fish, explodes Bombs.
 Gain 8p/b. Bullet bounces.
@@ -118,7 +119,7 @@ Gain 4p/b. Snowball flies in straight line and can dispatch two badguys in a row
 Fire Bullets: Dispatches Ivies, Walking Leaves, Trees, Fish, Igels (if hit in head), zeeklings and Snails.
 Gain 8p/b. Bullet bounces.
 Seed Bullets: Dispatches Fish, takes root on Ivies, Walking Leaves, Trees, Igels, Zeeklings & Snails. Dispatches all Icyisland badguys
- bar flames.
+bar flames.
 Gain 8p/b. Seed bounces.
 Rock: Dispatches Ives, Walking Leaves, Trees, Fish, Igels, Zeeklings and Snails. Dispatches Igels if hits head.
 Gain 4p/b. Rock flies in straight line and can dispatch two badguys in a row, however stops on Igels' backs.
