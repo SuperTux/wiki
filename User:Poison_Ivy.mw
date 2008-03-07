@@ -110,16 +110,20 @@ for different things. Eg,
 '''ICYISLAND:'''
 Fire Bullets: Dispatches all Snowballs, Iceblocks, Jumpies and Fish, explodes Bombs.
 Gain 8p/b. Bullet bounces.
+
 Ice Bullets: Dispatches Fish, freezes Spiky Snowballs, Jumpies and Bombs. Dispatches all Forest badguys bar flames and wisps.
 Gain 8p/b. Bullet bounces.
+
 Snowball: Dispatches all Snowballs, Iceblocks, Jumpies, Fish and Bombs. Also Ivies, W. Leaves, Trees, Igels, Zeeklings & Snails.
 Gain 4p/b. Snowball flies in straight line and can dispatch two badguys in a row, however stops on all Spikies and Jumpies.
 
 '''FOREST ISLAND:'''
 Fire Bullets: Dispatches Ivies, Walking Leaves, Trees, Fish, Igels (if hit in head), zeeklings and Snails.
 Gain 8p/b. Bullet bounces.
+
 Seed Bullets: Dispatches Fish, takes root on Ivies, Walking Leaves, Trees, Igels, Zeeklings & Snails. Dispatches all Icyisland badguys
 bar flames.
 Gain 8p/b. Seed bounces.
+
 Rock: Dispatches Ives, Walking Leaves, Trees, Fish, Igels, Zeeklings and Snails. Dispatches Igels if hits head.
 Gain 4p/b. Rock flies in straight line and can dispatch two badguys in a row, however stops on Igels' backs.
