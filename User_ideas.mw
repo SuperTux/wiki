@@ -804,6 +804,7 @@ These stones can be pushable so they start rolling.
 === Pushable crates ===
 Kind of similar to the above mentioned "rollable/pushable stone". But these can only be pushed and not rolled. Can not harm enemies.
 Unlock stones, these has the ability to be stacked on top of each other.
+:Seems already implemented as blocks. --[[User:Some Person|Some Person]] 14:59, 17 March 2008 (UTC)
 
 === Catching background story ===
 SuperTux needs a catching background story that inspires and motivates the player and drags him into the story so that he understands why Tux is doing what he does and why it is important.
