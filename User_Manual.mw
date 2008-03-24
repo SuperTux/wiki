@@ -97,23 +97,24 @@ In the course of the game, Tux will encounter lots of different enemies - some e
 
 == Special Game Objects ==
 
-[[Image:Right.png|right]]
-
 === Bells ===
-[[Image:bell-r.png|left]]
+[[Image:bell-r.png|right]]
 When Tux gets thrown off the screen, he will normally have to start the current level over from the beginning. There is one exception, though: Most levels contain one or more bells. When Tux activates such a bell, by touching it, he won't have to restart the level from the beginning, but instead restart from the last activated bell - as long as he's got at least one life '''(SuperTux 0.1)''' or 25 coins '''(SuperTux 0.3)''' left. In SuperTux 0.1, bells are invisible, but don't need to be touched to use- only passed by.
 
+=== Secret Blocks ===
+[[Image:Empty.png|right]]
+Secret blocks are special blocks that appear out of thin air when Tux jumps in certain places.
+
+They can then be stepped on to reach higher places, e.g. a secret area or a shortcut.
+
 === Doors (SuperTux 0.3 only) ===
-[[Image:Door-0.png|center]]
+[[Image:Door-0.png|right]]
 Press the Up key to enter a door. Tux will be transported to another place in the level.
 
+<br style="clear: both;" />
+
 === Switches (SuperTux 0.3 only) ===
-
-<p style="margin-left: auto; text-align: center; margin-right: auto;">
-[[Image:Left-0.png]]
-[[Image:Color yellow.png]]
-</p>
-
+[[Image:Left-0.png|right]]
 Switches come in two different styles: Levers and panels.
 
 Press the Up key to activate a switch. This might open blocked paths, start platforms, turn off a stream of air, ...
@@ -123,7 +124,7 @@ Most switches are at or near the object they affect. Objects that are further aw
 A sign of the same color can then be found next to the corresponding switch.
 
 === Platforms (SuperTux 0.3 only) ===
-[[Image:Flying platform-0.png|center]]
+[[Image:Flying platform-0.png|right]]
 
 In the course of his adventure, Tux comes across a variety of moving Platforms.
 
@@ -134,7 +135,7 @@ While some platforms just move on their own, most platforms will only move when 
 Some might also require Tux to visit another part of the level and activate a switch first. When this is the case Tux will most probably find a helpful sign next to the platform.
 
 === Info Blocks (SuperTux 0.3 only) ===
-[[Image:Infoblock.png|center]]
+[[Image:Infoblock.png|right]]
 
 Levels that introduce new game elements often contain info blocks.
 
@@ -142,16 +143,7 @@ Info blocks can be bumped from below to display helpful text that introduces a c
 
 When you activated an info block, the game will pause and you can use the Up and Down buttons to scroll through the text. Press the Menu button to resume the game.
 
-=== Secret Blocks ===
-{{Milestone 2}}
-[[Image:Empty.png|center]]
-
-Secret blocks are special blocks that appear out of thin air when Tux jumps in certain places.
-
-They can then be stepped on to reach higher places, e.g. a secret area or a shortcut.
-<span style="display: block; clear: both;"></span>
-
-=== Trampolines (SuperTux 0.3)===
+=== Trampolines (SuperTux 0.3 only)===
 
 Trampolines come in two flavours: A stationary version, which looks a bit like a mushroom and a portable version, which looks like a large spring. For information about carrying stuff around, see section [[#Carrying Objects|Carrying Objects]].
 
