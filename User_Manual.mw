@@ -92,6 +92,9 @@ To pick a portable object up, hold down the Action button and walk into the obje
 
 In the course of the game, Tux will encounter lots of different enemies - some easy to avoid, some tough to get past. When Tux touches a badguy, he will either lose a Powerup or - if no powerups are left - get thrown off the screen. Most, but not all, of the easier enemies can easily be knocked out by jumping on their head, but take care: As a rule of thumb, enemies with a pointy top cannot be squished, and will hurt Tux, too. Fireballs can take out most of them, but beware: Some badguys are even immune to those.
 
+
+<br style="clear: both;" />
+
 == Special Game Objects ==
 
 [[Image:Right.png|right]]
