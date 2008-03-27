@@ -519,6 +519,7 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 
 
 * paint tutorial boards for grabbing, backflip and run-jump
+* add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
 
 = Next Meeting Agenda (27.Mar 2008, 19:00 GMT) =
 
