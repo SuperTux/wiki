@@ -1,20 +1,22 @@
 = Introduction =
 
-Supertux levels are composed from tiles. Little 32x32 pixel wide images. These tiles are defined in an [[S-expr]] based file, "data/images/tiles.strf". A tile has an ID number a set of images (it's an animated tile if it has more than 1 image) and contains a set of attributes like solid, icy, anim-fps...
+Supertux tilemaps are composed from tiles. Little 32x32 pixel wide images. These tiles are defined in an [[S-expr]] based file, "data/images/tiles.strf", or for one or two bleeding-edge SVN levels a custom tileset ending with ".stts". These tilesets are included into the level by a <tt>tileset</tt> or <tt>tilesets</tt> entry, usually at the beginning of the level.
+A <tt>tile</tt> has an ID number a set of images (it's an animated tile if it has more than 1 image) and contains a set of attributes like solid, icy, anim-fps...
 
 = Example =
 
 An example of a simple solid tile looks like this:
-
+<code>
  (tile
    (id 7)
+   (solid #t)
    (images
      "tiles/snow/snow1.png"
    )
  )
-
+</code>
 An animated waterfall tile (animation played with 10 fps):
-
+<code>
  (tile
    (id 175)
    (images
@@ -26,18 +28,18 @@ An animated waterfall tile (animation played with 10 fps):
    (water #t)
    (anim-fps 10)
  )
-
+</code>
 It's also possible to extract parts of bigger images to create tiles. This extracts the upper left edge of the foresttiles-1.png file:
-
+<code>
  (tile
    (id 1000)
    (images
      (region "tiles/forest/foresttiles-1.png" 0 0 32 32)
    )
  )
-
-Note that in [[Milestone 2]], the last variant is deprecated in favour of a more compact approach at defining multiple tiles:
-
+</code>
+Note that in [[Milestone 2]], the last variant is deprecated in favor of a more compact approach at defining multiple tiles:
+<code>
  (tiles
    (width 3)
    (height 4)
@@ -51,8 +53,9 @@ Note that in [[Milestone 2]], the last variant is deprecated in favour of a more
                0 0 0)
    (image "tiles/snow/convex.png")
  )
-
-In this example, a block of 3x4 tiles will be extracted from an image with only the middle rows solid.
+</code>
+In this example, a block of 3x4 tiles will be extracted from an image with only the middle rows solid. To ignore a portion of the image, use an id of 0 in the appropriate place.
+Note that until the patch in bug [http://supertux.lethargik.org/bugs/view.php?id=329 329] is applied, you cannot omit the attributes portion, specify multiple images, or give any tiles data.
 
 = Tile attributes =
 
@@ -60,17 +63,18 @@ Tiles can have the following attributes:
 
 
 
-* '''solid''' defines if the tile should be considered for collision detection
-* '''unisolid''' the tile will only be considered for collision detection when tux is falling down. That is you can jump through the tile from below but not fall through it.
-* '''brick''' A brick that can be destroyed by jumping under it
-* '''goal''' The level should be finished when touching a goaltile. If '''data''' is 0 then the endsequence should be triggered, if '''data''' is 1 then the level is finished instantly.
-* '''fullbox''' Bonusbox, content is stored in '''data'''
-* '''coin''' The tile is a coin
-* '''ice''' the tile will be slippery (currently not implemented)
-* '''water''' The tile is a water tile (needed for fish enemy)
-* '''hurts''' The tile will hurt you when you hit it
+* '''solid''' defines if the tile should be considered for collision detection (value 1 for attributes)
+* '''unisolid''' the tile will only be considered for collision detection when tux is falling down. That is you can jump through the tile from below but not fall through it. (value 3 for attributes - both solid and unisolid are applied)
+* '''brick''' A brick that can be destroyed by jumping under it (value 4 for attributes)
+* '''goal''' The level should be finished when touching a goaltile. If '''data''' is 0 then the endsequence should be triggered, if '''data''' is 1 then the level is finished instantly. (value 8 for attributes)
+* '''fullbox''' Bonusbox, content is stored in '''data''' (value 32 for attributes)
+* '''coin''' The tile is a coin (value 64 for attributes)
+* '''ice''' the tile will be slippery (currently not implemented) (value 256)
+* '''water''' The tile is a water tile (needed for fish enemy) (value 512)
+* '''hurts''' The tile will hurt you when you hit it (value 1024)
 * '''slope-type''' The tile is a slope. You have to add a slope number to reference what sort of slope the tile is. Take a look for possible types here (take the basic form and add the deform to get the number)
 [[Image:Slopes.png]]
+: If data could be specified for a tiles entry, then slopes would have an attribute value of 17.
 
 = Adding new tiles =
 
@@ -80,11 +84,15 @@ You can simply add new tiles with your favourite text editor. However we also pr
 
 NOTE: You should be careful when choosing tile ids to not overwrite existing tiles. You should also keep in mind that existing levels will break if you change tile numbers later (the levels just save a big a list of numbers that reference the tile file).
 
-'''WARNING''': Unfortunately the tilemanage application is broken at the moment and does not work correctly! You'll destroy several tileattributes like slopes and some of the tiles created from multiple images, when opening and saving a tileset with the editor!
+'''WARNING''': Unfortunately the tilemanage application is broken at the moment and does not work correctly! You'll destroy several tile attributes like slopes and some of the tiles created from multiple images, when opening and saving a tileset with the editor!
 
 = Testing =
 
 Simply open the flexlay or ST# editor and the new tiles should appear.
+
+= Trickery =
+
+Note that some tiles aren't actually used in-game. Right after the level is loaded, various tiles in the solid tilemaps are replaced with objects. These include all with the coin, fullbox, brick, or goal attributes, and tile id 112 (invisible block). But the game doesn't end there. It also adds light sources to torches and lava, which are then hidden unless the level uses a lightmap.
 
 [[Category:Game Engine]]
 [[Category:File Formats]]
