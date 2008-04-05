@@ -73,10 +73,10 @@ Normally, when you keep running in the same direction, Tux will go faster and ju
 After picking up the Fireflower, Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut '''(SuperTux 0.3 only)'''.
 
 === Butt Stomp (SuperTux 0.3 only) ===
-Only Big Tux has this ability. When in the air, press the Duck key to perform a Butt Stomp. Tux can use it to break wooden crates from above and defeat certain badguys that are not harmed by a normal jump.
+Only Big and Fire Tux have this ability. When in the air, press the Duck key to perform a Butt Stomp. Tux can use it to break wooden crates from above and defeat certain badguys that are not harmed by a normal jump.
 
 === Backflip (SuperTux 0.3 only) ===
-Only Big Tux has this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump higher, which is very useful in places where there's not enough space to run.
+Only Big and Fire Tux have this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump as high as he would when running, which is very useful in places where there's not enough space to run. Note that in 0.3.0, but not 0.3.1, Fire Tux will lose his hat when doing a backflip.
 
 === Carrying Objects ===
 [[Image:needrock.png|left]]
