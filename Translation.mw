@@ -1,5 +1,5 @@
 == How to Translate ==
-# Check at the end of this site if '''someone else''' is already working on the translation for your language. If there is someone contact him/her!
+# Check at the end of this site and on the [http://supertux.lethargik.org/bugs/search.php?project_id=0&category=Translations&sticky_issues=on&sortby=summary&dir=DESC&hide_status_id=-2 Issue Tracker] if '''someone else''' is already working on the translation for your language. If there is someone contact him/her!
 # If you already have '''messages.pot''' files you can skip this step. If you don't already have messages.pot files (the files that contain all the text that can be translated) you can have them created for you by following these instructions:
 #* Install [http://www.gnu.org/software/gettext/ gettext]
 #* Get an [[Download/Subversion|SVN snapshot]] of SuperTux and do the usual <tt>autogen.sh</tt>, <tt>configure</tt>. ''Make sure configure can find the xgettext application. (i.e. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")''
@@ -10,7 +10,7 @@
 #** In case you want to update an existing translation, issue the following command: <tt>msgmerge -U $LANG.po messages.pot</tt>
 # '''Edit the .po files''' with your favourite editor or with one of the GUI tools below.
 # You should also edit '''supertux.desktop''' and add a comment entry for your language.
-# '''Send''' the translated .po files to the [[Mailing Lists|supertux-devel mailing list]].
+# Either '''send''' the translated .po files to the [[Mailing Lists|supertux-devel mailing list]], or upload them to the [http://supertux.lethargik.org/bugs/search.php?project_id=0&category=Translations&sticky_issues=on&sortby=summary&dir=DESC&hide_status_id=-2 Issue Tracker].
 
 == Notes for Translators ==
 * If there isn't a good translation for some term (e.g. "Credits" or "Sound"), you might consider to '''simply keep it''' in English. It's better to allow users to make an educated guess than to confuse them by displaying '''meaningless''' or garbled text.
