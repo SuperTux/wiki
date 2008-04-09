@@ -343,56 +343,7 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 
 
 
-= Tasks for the next two weeks =
 
-* finish canon graphics, also snowball graphics, death, etc (Grumbel)
-* create ice-spikes graphics (Grumbel)
-* create ice-tiles graphics (Grumbel)
-* create angry ice-block graphics (Grumbel)
-* bring back single-sprite SuperTux
-* create an overview over the current levels (Grumbel)
-* finish editor improvements (MatzeB)
-* try to fix white-lines around graphics problems (MatzeB)
-* jump with keyboard up (done, WolfgangB)
-
-
-* repair jump Tux sprite (to dark black) (Grumbel)
-* butt jump animation (Grumbel)
-* backflip animation (Grumbel)
-* snowman graphics (Grumbel)
-* figure out a Jumpy replacement (Grumbel)
-* create SuperTux .xo Activity for OLPC (Grumbel)
-* some decore for ice tiles, cracks and stuff (Grumbel)
-* replace "you found a secret area" with a special sound (Wansti)
-* rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor (MatzeB)
-* Stay-on-platform snowball (done, WolfgangB)
-* snowball-launcher (done. WolfgangB)
-
-
-* create proper background tiles for level22
-* create some playable test levels for new stuff
-* create mountain and night background
-* replace old bomb with new bomb sprite
-* create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
-* integrate snowjumpy
-* finish icecrusher graphics
-* add some acceleration/deceleration to flying snowball
-
-
-* deep snow tiles
-* icicle graphics for decoration purpose
-* editor doesn't align canon and icecrusher properly (grid is wrong)
-* new enemy type with more interesting walking pattern (follows Tux as long as Tux doesn't look, walks forward and backward, etc.), see Crystallo for a possible sprite
-* use pink snowball for stay on platform, use normal snowball for straight forward walk
-
-
-* add a "scan for joysticks" to the "No Joysticks found" in "Setup Joystick" to allow hotplugging
-* remove pictures from credits, looks to uneven that way
-* animate minibomb
-
-
-* paint tutorial boards for grabbing, backflip and run-jump
-* add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
 
 = Next Meeting Agenda (10.Mar 2008, 19:00 GMT) =
 
