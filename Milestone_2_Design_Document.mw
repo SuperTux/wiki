@@ -238,13 +238,21 @@ The test/ levels are currently quite a big mess, there needs to be clea nup to r
 
 [[Image:Minibomb-and-stuff.png|Milestone 2 Enemies]]
 
-== Jump ==
+== MrIceBlock ==
+
+Stays at it was in Milestone1
+
+== Snowball ==
+
+Snowball gets split into two behavior patterns, normal snowball behaves as in Milestone1, female/pink snowball exhibits stay-on-platform behaviour
+
+== Jumpy ==
 
 Replace it with something that better fits the snow world
 
 == Starfish ==
 
-Star shall get replaced by a starfish.
+Star shall get replaced by a starfish. (does that even make a graphical difference?)
 
 == Ice Fish == 
 
@@ -312,8 +320,6 @@ only an idea: http://supertux.lethargik.org/wiki/User_ideas#Behaviour_of_Crystal
 [[Image:Eater.png|thumbnail|right|Eater]]
 The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 <br clear="all" />
-
-
 
 = World 1 - Icyisland =
 
