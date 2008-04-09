@@ -223,6 +223,8 @@ The levels of Milestone1 lack verticality as well as unisolid tiles, Milestone2 
 
 The worldmap should be rolled back to that of Milestone1, i.e. a mostly linear map, but additional optional paths shall be added. 
 
+See [[Milestone 2 Design Document/Levels]] for a more detailed analysis of the current levels.
+
 == Cleanup ==
 
 The test/ levels are currently quite a big mess, there needs to be clea nup to reduce them to those that are really needed otherwise its to easy to miss the ones that are important.
