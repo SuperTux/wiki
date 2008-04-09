@@ -14,3 +14,11 @@
 * reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
 * create a timeline what shall be done and when
 * discuss in the meeting what shall be done over the coming week
+
+= Bug List/Feature Requests =
+
+* when BigTux ducks, the camera moves/jumps, but should stand still
+* InfoBox crashes when Text doesn't start with a marker character
+* there should be an script command to change the game speed (i.e. run in slowmotion)
+* background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL_NEAREST instead of GL_LINEAR)
+* Tux isn't animated when he dies
