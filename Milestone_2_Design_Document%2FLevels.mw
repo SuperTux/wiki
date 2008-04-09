@@ -1,20 +1,109 @@
-{{Navbox Milestone 2 Design Document}}
-== General ==
+= Levels =
 
-There are 4 axes of achievement: completion, collection, speed-run, and rampage, all 4 must be considered when designing levels.
+== 01 - Welcome to Antarctica.stl ==
 
-== Themes/Tilesets ==
+overground, almost no holes
 
-[http://pingus.seul.org/~grumbel/tmp/md5/6c54813834f98bdf9abd9d7564ccff05-galapix-screenshot-0000.png]
-[http://pingus.seul.org/~grumbel/tmp/md5/677e174d88b851844d7fc73570667109-galapix-screenshot-0001.png]
-[http://pingus.seul.org/~grumbel/tmp/md5/c72a01dde4b0bd614600f82a41559b2a-galapix-screenshot-0002.png]
-[http://pingus.seul.org/~grumbel/tmp/md5/c7d6262a3f24ce3c497139f58c13702a-galapix-screenshot-0003.png]
-[http://pingus.seul.org/~grumbel/tmp/md5/66b2b53b8ae6e12148bef83c42b3f946-galapix-screenshot-0004.png]
-[http://pingus.seul.org/~grumbel/tmp/md5/9b6a1bc3acc77093b7ab2764ab1014da-galapix-screenshot-0005.png]
-[http://pingus.seul.org/~grumbel/tmp/md5/c58c334c7bc2e3e825c67b9274b490b6-galapix-screenshot-0006.png]
+== 02 - The Journey Begins.stl ==
 
-== Levels ==
+overground, a few holes covered by wood-bridges/pieces
 
-{{Level list Icy Island}}
+== 03 - Via Nostalgica.stl ==
 
-[[Category:Development]]
+overground, almost no holes
+
+== 04 - Tobgle Road.stl ==
+
+overground, almost no holes, a few areas where the player can walk above or below, many wood pieces
+
+== 05 - The Somewhat Smaller Bath.stl ==
+
+overground
+
+== 06 - The Frosted Fields.stl ==
+
+overground, some pipes, many spike enemies, some holes
+
+== 07 - Oh No More Snowballs.stl ==
+
+overground, plenty of holes, crappy looking labyrinth at the end, some copy&paste tile patterns
+
+== 08 - Stone Cold.stl ==
+
+overground, ends in a cave, quite a few holes
+
+== 09 - Grumbels Sense of Snow.stl ==
+
+overground, mostly holow, lots of wood, little snow/ice
+
+== 10 - 23rd Airborne.stl ==
+
+overground, some air
+
+== 11 - Night Chill.stl ==
+
+night, lots of air
+
+== 12 - Into the Stars.stl ==
+
+overground, lots of air, night
+
+== 13 - Above the Arctic Skies.stl ==
+
+overground, sky themed
+
+== 14 - Entrance to the Cave.stl ==
+
+starts overground, ends in a cave setting
+
+== 15 - Under the Ice.stl ==
+
+underground
+
+== 16 - Living in a Fridge.stl ==
+
+underground
+
+== 17 - Or is it just me.stl ==
+
+underground
+
+== 18 - Ice in the Hole.stl ==
+
+underground
+
+== 19 - Miyamoto Monument.stl ==
+
+underground
+
+== 20 - End of the Tunnel.stl ==
+
+underground
+
+== 21 - A Path in the Clouds.stl ==
+
+overground, but with lots of air, lots of tile-abuse, needs a special tileset
+
+== 22 - A Mysterious House of Ice.stl ==
+
+overground, but with a backplane of ice
+
+== 23 - The Escape.stl ==
+
+overground, but with a backplane of ice
+
+== 24 - The Shattered Bridge.stl ==
+
+overworld, bridge/water setting
+
+== 25 - Arctic Ruins.stl ==
+
+overworld, bridge/water setting, contains blocks under water which are hard to see -> remove water completly
+
+== 26 - The Castle of Nolok.stl ==
+
+castle theme
+
+== 27 - No More Mr Ice Guy.stl ==
+
+overworld, boss level
