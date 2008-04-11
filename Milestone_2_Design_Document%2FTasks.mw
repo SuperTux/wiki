@@ -76,4 +76,4 @@
 * paint tutorial boards for grabbing, backflip and run-jump
 * add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
 
-* peeking should work in in both X and Y at the same time (for use with second analog stick on todays gamepads)
+* peeking should work in in both X and Y at the same time (for use with second analog stick on todays gamepads) (done, WolfgangB)
