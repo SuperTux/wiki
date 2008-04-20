@@ -18,13 +18,13 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The level header information loading process is rather slow (ie. launching the worldmap).
 
-* In some cases, bumping against a question block leaves the image in place.
+* In some cases, bumping against a ? block leaves the image in place.
 
 * The goal bars should be replaced with something more creative/original.
 
 * The snowflakes do not really match the style.
 
-* The question marks blocks are poorly shaped.
+* The ? blocks are poorly shaped.
 
 * Stalactites should shatter via particle effects.
 
@@ -110,7 +110,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * There are no fade-outs/ins when you either die or complete a level.
 
-* There are no half-tiles/unsolid (unstable!) tiles.
+* There are no half-tiles/unsolid (unstable?) tiles.
 
 * The coins and other things should have particle effects or some other animation when they're collected (not just disappear).
 
@@ -141,7 +141,7 @@ This is a list of things that are good in Milestone 1 (compared to most other ga
 
 * You get some reward for solving the levels by seeing Tux walking into the igloo with TADA music in the background, another form of reward is moving forward on the worldmap, the world map is especially nice since you can see the final goal the castle early and can at least a bit the way to it. (You see that after around 7 levels you'll beat the current world, no wondering if this game has 100 levels and will go on forever).
 
-* Saving/Loading is automatic and instant, makes the game simpler and not frustrating when the computer crashes or the cat pressed the reset button. You can always continue the game where you left it last time.
+* Saving/Loading is automatic and instant, makes the game simpler and not frustrating when the computer crashes or the dog pressed the power button. You can always continue the game where you left it last time.
 
 * The game switches theme from snow to cave levels at some point, and later to a mixed style (wansti levels vs. grumble levels). This keeps interest in the game and is also a little reward for moving forward in the world map.
 
