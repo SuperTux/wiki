@@ -18,13 +18,13 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The level header information loading process is rather slow (ie. launching the worldmap).
 
-* In some cases, bumping against a ? block leaves the image in place.
+* In some cases, bumping against a question block leaves the image in place.
 
 * The goal bars should be replaced with something more creative/original.
 
 * The snowflakes do not really match the style.
 
-* The ? blocks are poorly shaped.
+* The question marks blocks are poorly shaped.
 
 * Stalactites should shatter via particle effects.
 
@@ -110,7 +110,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * There are no fade-outs/ins when you either die or complete a level.
 
-* There are no half-tiles/unsolid (unstable?) tiles.
+* There are no half-tiles/unsolid (unstable!) tiles.
 
 * The coins and other things should have particle effects or some other animation when they're collected (not just disappear).
 
