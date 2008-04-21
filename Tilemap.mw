@@ -1,6 +1,6 @@
 Tilemaps consist of all of the ground, spikes, lava, clouds, etc. that do not move and do not interact actively with the player. Each tilemap consists of one or more tiles, which each contain several attributes specified in data/images/tiles.strf . For a complete description, see [[Tile]].
 
-Tilemaps can be either solid or non-solid, in which case they do not interact with the player. Multiple tilemaps of each kind may be specified. Tilemaps are also scriptable if given a name, see the [[ScriptingTilemap|relevant page]]. Tilemaps may also be given a path, which they will follow once scripted to do so. There are however some bugs in the behavior of moving tilemaps, which [http://supertux.lethargik.org/bugs/view.php?id=269 bug 269] addresses. See the bug for more details.
+Tilemaps can be either solid or non-solid, in which case they do not interact with the player. Multiple tilemaps of each kind may be specified. Tilemaps are also scriptable if given a name, see the [[ScriptingTilemap|relevant page]]. Tilemaps may also be given a path, which they will follow once scripted to do so.
 
 Note that [[Infoblock|infoblocks]], [[Crumbling block|crumbling blocks]], [[Bonus block|bonus blocks]], invisible blocks that can be activated, coins, and wooden bricks are not actually part of the tilemap; after the level is parsed, the tiles with the ID's or attributes representing those objects are replaced with the objects themselves and the tiles changed to empty.
 
