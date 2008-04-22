@@ -8,7 +8,7 @@ The Console pops into view for a short time whenever new messages are printed. T
 
 To do so, you will have to run supertux using the <tt>--console</tt> option. The key assigned to opening the console can be changed in the keyboard setup as soon it is activated.
 
-To disable the console again you have to edit the SuperTux configuration file <tt>~/.supertux2/config</tt> (<tt>%USERPROFILE%/.supertux2/config</tt> for Windows users). Change 
+To disable the console again you have to edit the SuperTux configuration file <tt>~/.supertux2/config</tt> (<tt>%USERPROFILE%/.supertux2/config</tt> for Windows users). You may have to enable viewing hidden files or folders. Change 
   (console #t)
 back to
   (console #f)
