@@ -8,7 +8,7 @@ The Console pops into view for a short time whenever new messages are printed. T
 
 To do so, you will have to run supertux using the <tt>--console</tt> option. The key assigned to opening the console can be changed in the keyboard setup as soon it is activated.
 
-To disable the console again you have to edit the SuperTux configuration file <tt>~/.supertux2/config</tt>. Change 
+To disable the console again you have to edit the SuperTux configuration file <tt>~/.supertux2/config</tt> (<tt>%USERPROFILE%/.supertux2/config</tt> for Windows users). Change 
   (console #t)
 back to
   (console #f)
@@ -44,6 +44,15 @@ Following is a list of useful scripts to run in the console:
 |'''lifeup()'''||Gives Tux 100 more coins
 |-
 |'''finish()'''||Finish the level
+|-
+|'''display(x)'''||Prints out x. Very useful for tables / arrays, as it also shows the contents.
+|-
+|'''functions(x)'''||Gives a list of the functions available in an object or table.
 |}
+
+There are many more, see data/scripts/console.nut, data/scripts/default.nut, and src/scripting/functions.hpp for the full list.
+
+== Console Features ==
+The console currently supports autocomplete, through use of the tab key, line editing with left/right/home/end/delete keys, and viewing past messages using the up, down, page up, and page down keys. To run a command, simply press the enter or return key.
 
 [[Category:Game Engine]]
