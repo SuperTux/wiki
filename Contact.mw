@@ -3,25 +3,44 @@ Development is mainly coordinated via IRC and the mailing list. Be sure to visit
 
 = Mailing List =
 
-== SuperTux-Devel ==
+== Development mailing list (Supertux-devel) ==
+[http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org Subscription page],
+[http://lists.lethargik.org/private.cgi/supertux-devel-lethargik.org/ Archives (must be subscribed)], [https://lists.berlios.de/pipermail/supertux-devel/ Old Archives]
 
-List for comments, criticisms and everything development related.
+Except for the [[IRC Channel]], this is where most of the development is being discussed. This is the place to send praises and constructive criticism, inform the team about publicity, etc. Note that bugs, including translation updates, should be reported in the [{{MediaWiki:Bugtracker-url}} bug tracker] and not to this list. Due to large amounts of spam, the list is currently set to subscribers-only, so please join before sending anything.
 
-[mailto:supertux-devel@lists.lethargik.org supertux-devel@lists.lethargik.org]
-* [http://lists.lethargik.org/private.cgi/supertux-devel-lethargik.org/ Archive]
-* [http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org Subscribe/Unsubscribe]
+== Repository updates (Supertux-commit) ==
+[http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org Subscription page],
+[http://lists.lethargik.org/private.cgi/supertux-commit-lethargik.org/ Archives (must be subscribed)],
+[https://lists.berlios.de/pipermail/supertux-commit/ Old Archives]
 
-== SuperTux-Commit ==
+Anytime a developer commits their work, all the subscribers of this list receive an e-mail. Even though it is mainly beneficial for the comfort and teamwork of the developers, this mailing list is also open to people who are interested in what's actually going on with SuperTux.
 
-List for commits to SVN, mainly useful for people working directly with the source.
+'''Note''': You should not send any mails to this list, it is for commits '''only'''. Any comments about the commits should go to supertux-devel.
 
-[mailto:supertux-commit@lists.lethargik.org supertux-commit@lists.lethargik.org]
-* [http://lists.lethargik.org/private.cgi/supertux-commit-lethargik.org/ Archive]
-* [http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org Subscribe/Unsubscribe]
+[[Category:Development]]
+[[Category:Meta]]
 
 = IRC =
 
- Server: irc.freenode.net
- Channel: [irc://irc.freenode.net/#supertux #supertux]
+Most members of the SuperTux team frequently hang out in the #supertux IRC channel on freenode network.
+
+If you don't know about Internet Relay Chat yet or don't know about freenode network, there are extensive articles on Wikipedia.
+
+Or, you could just download an IRC client (e.g. XChat), connect to freenode and join channel #supertux.
+
+Please keep basic netiquette in mind. Wait a few minutes after joining, then ask your question. If nobody answers, don't be upset - maybe nobody knows the answer. You might try one of the [[Mailing Lists]] then, as they are read by far more people.
+
+== External links ==
+*[irc://chat.freenode.net/#supertux Official SuperTux IRC channel]
+*[http://freenode.net/ Freenode]
+
+=== Good IRC clients ===
+*[http://www.xchat.org/download/ XChat]
+**[http://www.xchat.org/docs/start/ XChat Quick Start Guide]
+*[https://addons.mozilla.org/firefox/16/ Chatzilla add-on] for Firefox/Mozilla
+
+[[Category:Development]]
+[[Category:Meta]]
 
 [[Category:Meta]]
