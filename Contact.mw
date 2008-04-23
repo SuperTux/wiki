@@ -7,7 +7,7 @@ Development is mainly coordinated via IRC and the mailing list. Be sure to visit
 [http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org Subscription page],
 [http://lists.lethargik.org/private.cgi/supertux-devel-lethargik.org/ Archives (must be subscribed)], [https://lists.berlios.de/pipermail/supertux-devel/ Old Archives]
 
-Except for the [[IRC Channel]], this is where most of the development is being discussed. This is the place to send praises and constructive criticism, inform the team about publicity, etc. Note that bugs, including translation updates, should be reported in the [{{MediaWiki:Bugtracker-url}} bug tracker] and not to this list. Due to large amounts of spam, the list is currently set to subscribers-only, so please join before sending anything.
+Except for the IRC Channel, this is where most of the development is being discussed. This is the place to send praises and constructive criticism, inform the team about publicity, etc. Note that bugs, including translation updates, should be reported in the [{{MediaWiki:Bugtracker-url}} bug tracker] and not to this list. Due to large amounts of spam, the list is currently set to subscribers-only, so please join before sending anything.
 
 == Repository updates (Supertux-commit) ==
 [http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org Subscription page],
@@ -26,7 +26,7 @@ If you don't know about Internet Relay Chat yet or don't know about freenode net
 
 Or, you could just download an IRC client (e.g. XChat), connect to freenode and join channel #supertux.
 
-Please keep basic netiquette in mind. Wait a few minutes after joining, then ask your question. If nobody answers, don't be upset - maybe nobody knows the answer. You might try one of the [[Mailing Lists]] then, as they are read by far more people.
+Please keep basic netiquette in mind. Wait a few minutes after joining, then ask your question. If nobody answers, don't be upset - maybe nobody knows the answer. You might try the mailing list then, as it is read by far more people.
 
 == External links ==
 *[irc://chat.freenode.net/#supertux Official SuperTux IRC channel]
