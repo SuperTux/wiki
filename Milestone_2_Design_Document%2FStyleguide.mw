@@ -12,5 +12,16 @@ Don't use tiles in the background that were build for the forground. Use only sp
 
 == Other ==
 
-[[Image:Howtonotdesignlevels.jpg]]
-[[Image:Hallofshame.jpg]]
+SuperTux is meant to be a fair and fun game, so don't create unfair places like a spike on the roof as well as one on the ground that require way to much precision and luck and just aren't fun to play
+
+[[Image:Howtonotdesignlevels.jpg|thumb|left]]
+
+Other things to avoid:
+
+* paths that are only two tiles high, make things high enough that SuperTux can jump
+* don't create jumps that require pixel perfect precision unless it is for a special secret area
+* don't use invisible tiles for normal gameplay
+* keep the number of enemies that are on the screen at once small, it shouldn't be more then three for most cases
+* do not overuse switches and doors, SuperTux isn't an adventure game, it is a jump'n run, so make the level straight forward and easy to understand
+
+[[Image:Hallofshame.jpg|thumb|left]]
