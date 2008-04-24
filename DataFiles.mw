@@ -1,6 +1,8 @@
 According to credits.txt some of our sounds are from "Royalty free sound effects CDROMs and FTP sites" which is too unspecific.
 This page is used to find out who made which file and which files have to be replaced to get rid of unspecific 3rd party files.
 
+Files which stay unspecific after the next meeting on May 1st 2008 will be '''removed''' from SVN. --[[User:WolfgangB|WolfgangB]] 20:10, 24 April 2008 (UTC)
+
 == [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/music/ data/music] ==
 All files in data/music created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, unless stated otherwise.
 *bonuscave.ogg
