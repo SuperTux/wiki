@@ -3,3 +3,9 @@
 When creating slopes make sure that they are smooth and don't make sudden jumps in inclination.
 
 [[Image:Styleguide_slope.png|Styleguide Slope]]
+
+== Tiles ==
+
+Don't use tiles in the background that where build for the forground. Use only special background tiles in the background.
+
+[[Image:Styleguide_tiles.png|Styleguide Tiles]]
