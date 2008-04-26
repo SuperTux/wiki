@@ -77,3 +77,5 @@
 * add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
 
 * peeking should work in in both X and Y at the same time (for use with second analog stick on todays gamepads) (done, WolfgangB)
+
+* add an cmd option --default and/or a menu entry "Reset to Default" to reset any changes to resolution or aspect ratio (or something along those lines)
