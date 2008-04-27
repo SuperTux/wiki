@@ -5,7 +5,7 @@
 *Programming Language: Java. (some mobile phones, like Nokias, do provide C. it should be avoided because it would not be portable or easily installable.)
 *Some mobile phones, like Nokias, are equipped with Symbian, which is a very good OS and widely spread. It is portable and you can install easily apps/games. It uses C as programming language.
 *As suggested [[User_ideas#SVG|here]], SVG artwork will allow rendering it at any resolution.
-
+*Palm Os < 5 Should also be supported, instead of having an ARM processor they might have a Motorola 68k one.
 == Advancement ==
 
 Umm... there should be some work done here. [[User:71.220.36.229|71.220.36.229]] 03:10, 5 Oct 2006 (CEST)
