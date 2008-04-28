@@ -2,8 +2,9 @@
 # Check at the end of this site and on the [http://supertux.lethargik.org/bugs/search.php?project_id=0&category=Translations&sticky_issues=on&sortby=summary&dir=DESC&hide_status_id=-2 Issue Tracker] if '''someone else''' is already working on the translation for your language. If there is someone contact him/her!
 # If you already have '''messages.pot''' files you can skip this step. If you don't already have messages.pot files (the files that contain all the text that can be translated) you can have them created for you by following these instructions:
 #* Install [http://www.gnu.org/software/gettext/ gettext]
-#* Get an [[Download/Subversion|SVN snapshot]] of SuperTux and do the usual <tt>autogen.sh</tt>, <tt>configure</tt>. ''Make sure configure can find the xgettext application. (i.e. "checking for xgettext... xgettext" and "checking if xgettext supports Lisp... yes")''
-#* Run <tt>jam</tt>, let it compile SuperTux and create all the <tt>messages.pot</tt> files
+#* Get an [[Download/Subversion|SVN snapshot]] of SuperTux. You then have two ways to make the templates:
+#** '''Compile SuperTux''', making certain CMake finds xgettext.
+#** '''Run the makepot.sh shell script''', making certain xgettext is in your path. You may have to edit makepot.sh slightly to enlarge the list of level subsets.
 # '''Create or update the .po files''' for your language. Many GUI tools (see below) will help you with this, so if you indeed to use one you can skip this step. Here's how to do things yourself:
 #* Go into data/locale and data/levels/*/ and in each of those directories:
 #** In case you want to create a new translation, run <tt>msginit -i messages.pot -o $LANG.po</tt> (where $LANG is the two-character handle of your language)
