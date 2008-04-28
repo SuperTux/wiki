@@ -18,13 +18,13 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The level header information loading process is rather slow (ie. launching the worldmap).
 
-* In some cases, bumping against a question marks block leaves the image in place.
+* In some cases, bumping against a bonus block leaves the image in place.
 
 * The goal bars should be replaced with something more creative/original.
 
 * The snowflakes do not really match the style.
 
-* The question marks blocks are poorly shaped.
+* The bonus blocks are poorly shaped.
 
 * Stalactites should shatter via particle effects.
 
@@ -48,7 +48,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The enemies move too slow in relation to Tux; make them able to easily dodge Tux.
 
-* The main menu background should be redone, with a superior AI (perhaps showing different levels: one from each world.).
+* The main menu background should be redone, with a superior AI (perhaps showing different levels: one from each world?).
 
 * Save-game slots should not be limited to five -- "Create Slot", "Copy Slot", and "Delete Slot" buttons would be better.
 
@@ -102,10 +102,10 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The keyboard configuration via the menu is very awkward. It is only navigatable with the mouse (not the keyboard); it's kind of non-intuitive.
 
-* Besides the question blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
+* Besides the blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
 
-* Question-blocks don't indicate at which side they where bumped
-** MatzeB: IMO being able to bounce question blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
+* Bonus blocks don't indicate at which side they where bumped
+** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
 ** Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped).
 
 * There are no fade-outs/ins when you either die or complete a level.
