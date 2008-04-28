@@ -1,27 +1,34 @@
+These guidelines should be kept for any level that appears on the official world maps. Designers contributing levels to the Contrib and Bonus sections are free of regulations - that's what those sections are for.
+
 == Slopes ==
 
-When creating slopes make sure that they are smooth and don't make sudden jumps in inclination.
+When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination. Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems. (Mind you, until the tiles are fixed, avoid using the bad combinations for release levels)
 
 [[Image:Styleguide_slope.png|Styleguide Slope]]
 
 == Tiles ==
 
-Don't use tiles in the background that were build for the forground. Use only special background tiles in the background.
+Don't use tiles in the background that were built for the foreground. Use only special background tiles in the background. In general, don't mix tilesets except for an obvious reason such as a transition level. Clearly distinguish between the layers - players should be able to see immediately where they can safely walk and what is foreground and background. (Secret areas, of course, are allowed to violate this)
 
 [[Image:Styleguide_tiles.png|Styleguide Tiles]]
 
 == Other ==
 
-SuperTux is meant to be a fair and fun game, so don't create unfair places like a spike on the roof as well as one on the ground that require way to much precision and luck and just aren't fun to play
+SuperTux is meant to be a fair and fun game, so don't create unfair configurations, like a spike on the roof as well as one on the ground, that require way too much precision or luck and just aren't fun to play.
 
-[[Image:Howtonotdesignlevels.jpg|thumb|left]]
+[[Image:Howtonotdesignlevels.jpg|left|thumb|400px|How '''NOT''' to design levels]]
 
 Other things to avoid:
 
-* paths that are only two tiles high, make things high enough that SuperTux can jump
-* don't create jumps that require pixel perfect precision unless it is for a special secret area
-* don't use invisible tiles for normal gameplay
-* keep the number of enemies that are on the screen at once small, it shouldn't be more then three for most cases
-* do not overuse switches and doors, SuperTux isn't an adventure game, it is a jump'n run, so make the level straight forward and easy to understand
-
-[[Image:Hallofshame.jpg|thumb|left]]
+* Creating paths that are only two tiles high, make things high enough that SuperTux can jump.
+* Don't create jumps that require pixel perfect precision unless it is for a special secret area.
+* Don't use invisible tiles for normal gameplay.
+* Keep the number of enemies that are on the screen at once small, it shouldn't be more then three for most cases.
+* Do not overuse switches and doors: SuperTux isn't an adventure game, it's a jump'n run, so make the level straightforward and easy to understand.
+* Avoid creating large monotonous spaces; players get tired of running around a huge level.
+* Try to limit the use of reset points; if you can get away with none whatsoever, do so.
+* Don't allow dead ends or impossible levels; either the player dies, or there's still a way to solve it. (Allowing the player to suicide from a trap works as well) Test your level thoroughly to find possible paths you missed before.
+* Avoid too hard or too easy levels. Too easy levels get boring very quickly while too hard ones can be frustrating. Levels you built often appear a lot easier for yourself, so be sure to let other people test them.
+* Secret areas should be well-hidden and not be visible on first sight. Use your imagination to think of new ways to create secrets - some of the above rules can be broken for that purpose, but be careful!
+* Avoid impossible-to-reach coins or lives. Collecting everything in a level is often important to players. However, difficulty can be just short of impossible - requiring frame-by-frame accuracy is fine. (So long as you provide a demo to prove that it is in fact possible) This only applies to bonus items - players should be able to complete the level minus some items with only moderate difficulty.
+[[Image:Hallofshame.jpg|left|thumb|800px|More things to avoid]]
