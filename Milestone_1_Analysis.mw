@@ -18,13 +18,13 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The level header information loading process is rather slow (ie. launching the worldmap).
 
-* In some cases, bumping against a ? block leaves the image in place.
+* In some cases, bumping against a question marks block leaves the image in place.
 
 * The goal bars should be replaced with something more creative/original.
 
 * The snowflakes do not really match the style.
 
-* The ? blocks are poorly shaped.
+* The question marks blocks are poorly shaped.
 
 * Stalactites should shatter via particle effects.
 
@@ -48,7 +48,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 
 * The enemies move too slow in relation to Tux; make them able to easily dodge Tux.
 
-* The main menu background should be redone, with a superior AI (perhaps showing different levels: one from each world?).
+* The main menu background should be redone, with a superior AI (perhaps showing different levels: one from each world.).
 
 * Save-game slots should not be limited to five -- "Create Slot", "Copy Slot", and "Delete Slot" buttons would be better.
 
