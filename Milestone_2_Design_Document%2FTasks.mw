@@ -25,6 +25,7 @@
 * background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL_NEAREST instead of GL_LINEAR)
 * Tux isn't animated when he dies
 * Editor: sort (new) layers by z-value
+* Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector or at least a hint in the status bar.
 
 = Tasks for the next two weeks =
 
