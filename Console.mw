@@ -8,14 +8,25 @@ The Console pops into view for a short time whenever new messages are printed. T
 
 To do so, you will have to run supertux using the <tt>--console</tt> option. The key assigned to opening the console can be changed in the keyboard setup as soon it is activated.
 
-In Mac OS X, you must go to Home/Library/Application Support/SuperTux/config.txt and change (console #f) to (console #t). Reverse the change to remove the console
+To disable the console, or to enable the console if you don't want to pass command line parameters, you will have to edit the edit the SuperTux configuration file. Depending on your operating system, this varies:
+{| border="1"
+! align="left" | Operating System !! align="left" | Config file location
+|-
+| align="left" | Linux            || align="left" | ~/.supertux2/config
+|-
+| align="left" | Windows          || align="left" | %USERPROFILE%/.supertux2/config
+|-
+| align="left" | Mac OS X         || align="left" | Home/Library/Application Support/SuperTux/config.txt
+|}
 
-To disable the console again you have to edit the SuperTux configuration file <tt>~/.supertux2/config</tt> (<tt>%USERPROFILE%/.supertux2/config</tt> for Windows users). You may have to enable viewing hidden files or folders. Change 
+You may have to enable viewing hidden files or folders.
+Anyway, open the file up with a text editor, and
   (console #t)
-back to
+will enable the console, and 
   (console #f)
+will disable the console. Find one to change it to the other.
 
-The default key to open the console is ^. You may change this in keyboard setup.
+The default key to open the console is ^. You may change this in keyboard setup once the console is enabled.
 
 == Commands ==
 
