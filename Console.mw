@@ -6,9 +6,9 @@ The Console is a panel normally hidden from view. Its usage is twofold:
 
 The Console pops into view for a short time whenever new messages are printed. To review old messages and enter commands, the console needs to be activated.
 
-To do so, you will have to run supertux using the <tt>--console</tt> option. The key assigned to opening the console can be changed in the keyboard setup as soon it is activated. Use <tt>--noconsole</tt> to disable it again.
+To do so, you will have to run supertux using the <tt>--console</tt> option. The key assigned to opening the console can be changed in the keyboard setup as soon it is activated. (Default of ^) Use <tt>--noconsole</tt> to disable it again.
 
-To disable the console, or to enable the console if you don't want to pass command line parameters, you will have to edit the edit the SuperTux configuration file. Depending on your operating system, this varies:
+To disable or enable the console if you don't want to pass command line parameters, you will have to edit the edit the SuperTux configuration file. Depending on your operating system, this varies:
 {| border="1"
 ! align="left" | Operating System !! align="left" | Config file location
 |-
@@ -25,8 +25,6 @@ Anyway, open the file up with a text editor, and
 will enable the console, and 
   (console #f)
 will disable the console. Find one to change it to the other.
-
-The default key to open the console is ^. You may change this in keyboard setup once the console is enabled.
 
 == Commands ==
 
