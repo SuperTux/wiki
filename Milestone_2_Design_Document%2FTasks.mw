@@ -93,4 +93,6 @@
 == Week 7 ==
 
 * add a set_gamespeed() so that the game can run in slow motion for debugging
-* Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead
+* Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation)
+* SuperTux should stand on the ground when a level starts, not fall down
+* Level startup needs a fade-in
