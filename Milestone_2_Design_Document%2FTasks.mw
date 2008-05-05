@@ -29,6 +29,8 @@
 
 = Tasks for the next two weeks =
 
+== Week 1 ==
+
 * finish canon graphics, also snowball graphics, death, etc (Grumbel)
 * create ice-spikes graphics (Grumbel)
 * create ice-tiles graphics (Grumbel)
@@ -39,6 +41,7 @@
 * try to fix white-lines around graphics problems (MatzeB)
 * jump with keyboard up (done, WolfgangB)
 
+== Week 2 ==
 
 * repair jump Tux sprite (to dark black) (Grumbel)
 * butt jump animation (Grumbel)
@@ -52,6 +55,7 @@
 * Stay-on-platform snowball (done, WolfgangB)
 * snowball-launcher (done. WolfgangB)
 
+== Week 3 ==
 
 * create proper background tiles for level22
 * create some playable test levels for new stuff
@@ -62,6 +66,7 @@
 * finish icecrusher graphics
 * add some acceleration/deceleration to flying snowball
 
+== Week 4 ==
 
 * deep snow tiles
 * icicle graphics for decoration purpose
@@ -69,12 +74,14 @@
 * new enemy type with more interesting walking pattern (follows Tux as long as Tux doesn't look, walks forward and backward, etc.), see Crystallo for a possible sprite
 * use pink snowball for stay on platform, use normal snowball for straight forward walk
 
+== Week 5 ==
 
 * add a "scan for joysticks" to the "No Joysticks found" in "Setup Joystick" to allow hotplugging (done, WolfgangB)
 * remove pictures from credits, looks to uneven that way 
 :<sup>Really? I like the pictures. --[[User:WolfgangB|WolfgangB]] 19:00, 29 April 2008 (UTC)</sup>
 * animate minibomb
 
+== Week 6 ==
 
 * paint tutorial boards for grabbing, backflip and run-jump
 * add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
@@ -82,3 +89,8 @@
 * peeking should work in in both X and Y at the same time (for use with second analog stick on todays gamepads) (done, WolfgangB)
 
 * add an cmd option --default and/or a menu entry "Reset to Default" to reset any changes to resolution or aspect ratio (or something along those lines) (cmd done, WolfgangB)
+
+== Week 7 ==
+
+* add a set_gamespeed() so that the game can run in slow motion for debugging
+* Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead
