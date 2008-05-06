@@ -1,5 +1,9 @@
 These guidelines should be kept for any level that appears on the official world maps. Designers contributing levels to the Contrib and Bonus sections are free of regulations - that's what those sections are for.
 
+== Difficulty ==
+
+If you are in doubt if a level is getting to hard, change to a input configuration that is unfamiliar to you, like left/right inversed, play with the left hand or anything like that. If you can still beat the level, it likely is easy enough, if not, then maybe you should ease it a bit, since inexperienced players will have just an equally hard time.
+
 == Slopes ==
 
 When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination. Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems. (Mind you, until the tiles are fixed, avoid using the bad combinations for release levels)
