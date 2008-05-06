@@ -101,6 +101,7 @@
 * draw a bigger arrow for when Tux is jumping out of the screen
 * add SuperTux idle animations (stage1: blinking with the eye, stage2: tipping with the food, stage3: scratching the head)
 * think of a new way to represent the exit area (snow molted with smooth ground below or so)
+* peeking up/down keys seem to be unbound by default
 
 = Enemy Issues =
 
