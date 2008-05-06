@@ -105,7 +105,9 @@
 = Enemy Issues =
 
 * General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
+* General: Get rid of enemies stacking on top of each other
 * General: Have particle throwing starting enemies (fireflower like)
+* General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
 * Spiky: Shouldn't alway sleep, either make it an option or better make a new enemy type for sleeping behaviour
 * Spiky: Walkcycle animation looks broken, there is a frame missing
 * Snowball(normal): Animation ruined
