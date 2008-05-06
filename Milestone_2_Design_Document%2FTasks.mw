@@ -99,3 +99,4 @@
 * the menu should shrink instead of just disappear
 * make aspect ration option menu thing work
 * draw a bigger arrow for when Tux is jumping out of the screen
+* add SuperTux idle animations (stage1: blinking with the eye, stage2: tipping with the food, stage3: scratching the head)
