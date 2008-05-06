@@ -100,3 +100,19 @@
 * make aspect ration option menu thing work
 * draw a bigger arrow for when Tux is jumping out of the screen
 * add SuperTux idle animations (stage1: blinking with the eye, stage2: tipping with the food, stage3: scratching the head)
+* think of a new way to represent the exit area (snow molted with smooth ground below or so)
+
+= Enemy Issues =
+
+* General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
+* Spiky: Shouldn't alway sleep, either make it an option or better make a new enemy type for sleeping behaviour
+* Snowball(normal): Animation ruined
+* Snowball(stay-on-platfrom): Replace with female snowball graphic
+* Bomb: Roll back to behavior of Milestone1, get rid of particle effects
+* Bomb: Replace graphic with new bomb graphic
+* Bomb: let the fuse burn after one touched and run around instead of walk
+* Bomb(crazy): Add a new bomb type (crazy pink bomb) that does something different then the regular one
+* Flying Snowball: Add acceleration/deceleration instead of linear up and down
+* Flying Snowball: smoke effect for the motor seem to be to seldomly triggered
+* Icecrusher: gravitation instead of linear, facial expression, maybe screenshacking
+* Icecrusher(big): add a larger version of the icecrusher, twice the size
