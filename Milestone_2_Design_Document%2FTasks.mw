@@ -97,4 +97,4 @@
 * SuperTux should stand on the ground when a level starts, not fall down
 * level startup needs a fade-in, so does game startup, level abort and a few other places
 * the menu should shrink instead of just disappear
-* hide GPL text after the main menu (need that space for option menu help)
+* make aspect ration option menu thing work
