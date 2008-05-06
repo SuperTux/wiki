@@ -98,3 +98,4 @@
 * level startup needs a fade-in, so does game startup, level abort and a few other places
 * the menu should shrink instead of just disappear
 * make aspect ration option menu thing work
+* draw a bigger arrow for when Tux is jumping out of the screen
