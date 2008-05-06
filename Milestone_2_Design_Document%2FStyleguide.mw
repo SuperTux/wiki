@@ -6,7 +6,7 @@ If you are in doubt if a level is getting to hard, change to a input configurati
 
 == Slopes ==
 
-When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination. Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems. (Mind you, until the tiles are fixed, avoid using the bad combinations for release levels)
+When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination. Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems.
 
 [[Image:Styleguide_slope.png|Styleguide Slope]]
 
