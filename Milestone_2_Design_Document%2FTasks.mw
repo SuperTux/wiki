@@ -105,7 +105,9 @@
 = Enemy Issues =
 
 * General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
+* General: Have particle throwing starting enemies (fireflower like)
 * Spiky: Shouldn't alway sleep, either make it an option or better make a new enemy type for sleeping behaviour
+* Spiky: Walkcycle animation looks broken, there is a frame missing
 * Snowball(normal): Animation ruined
 * Snowball(stay-on-platfrom): Replace with female snowball graphic
 * Bomb: Roll back to behavior of Milestone1, get rid of particle effects
@@ -116,3 +118,5 @@
 * Flying Snowball: smoke effect for the motor seem to be to seldomly triggered
 * Icecrusher: gravitation instead of linear, facial expression, maybe screenshacking
 * Icecrusher(big): add a larger version of the icecrusher, twice the size
+* Iceblock: transparency looks shit on dark backgrounds, Wiki had a better locking version floating around
+* AngryBonusBlock: Have a bonus block type that comes to live when tux jumps against it and then chases Tux
