@@ -35,7 +35,7 @@
 * create ice-spikes graphics (Grumbel)
 * create ice-tiles graphics (Grumbel)
 * create angry ice-block graphics (Grumbel)
-* bring back single-sprite SuperTux
+* bring back single-sprite SuperTux (done)
 * create an overview over the current levels (Grumbel)
 * finish editor improvements (MatzeB)
 * try to fix white-lines around graphics problems (MatzeB)
