@@ -14,7 +14,7 @@ inside the ''supertux'' directory to update to the latest version in the reposit
 
 === Locations inside the Subversion repository ===
 
-Checking out the path above will get you all you need to contribute to SuperTux. However, there are a few more paths in the repository containing other useful SuperTux-related things.
+Checking out the path above will get you all you need to contribute to SuperTux. However, if you don't want to check out the entire repository, you can just check out the pieces you need. For example, the media directory is notably large and it only necessary if you are working on sounds or graphics.
 {|
 ||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/htdocs</nowiki></tt>'''
 |Website source
@@ -23,16 +23,16 @@ Checking out the path above will get you all you need to contribute to SuperTux.
 |Additional media files, including source files for audio and graphics
 |-
 ||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/supertux</nowiki></tt>'''
-|SuperTux source
+|Latest SuperTux source
+|-
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/supertux-milestone1</nowiki></tt>'''
+|SuperTux Milestone 1 source
 |-
 ||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/supertux-portable</nowiki></tt>'''
 |[[SuperTux Portable]]
 |-
-||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/supertux-sharp</nowiki></tt>'''
+||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/supertux-editor</nowiki></tt>'''
 |Official SuperTux level editor that runs under both Mono and MS .NET.
-|-
-||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/branches/supertux/0_1_x</nowiki></tt>'''
-|SuperTux [[Milestone 1]] branch
 |-
 ||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/branches/supertux/0_3_x</nowiki></tt>'''
 |SuperTux [[Milestone 1.9]] branch
