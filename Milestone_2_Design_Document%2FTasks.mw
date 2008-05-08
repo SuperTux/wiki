@@ -2,7 +2,7 @@
 
 = Task List =
 
-* optimize the build process, building SuperTux currently takes ages
+* optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
 * change game back to use Milestone1 single-sprite SuperTux (done)
 * do a 32x32 top-down water animation for the worldmap
 * Tux isn't centered properly to his collision box
