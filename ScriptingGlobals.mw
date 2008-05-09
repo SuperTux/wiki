@@ -42,14 +42,59 @@ This module contains global constants and methods.
 ! class="method"| import(string filename)
 | Imports and runs the Squirrel script <tt>filename</tt>. (The path is relative to the data root.)
 |-
-! class="method"| save_status()
+! class="method"| save_state()
 | Dumps the current state into the user's save game file.
+|-
+! class="method"| update_worldmap()
+| Update worldmap from worldmap state (state.world variable)
 |-
 ! class="method"| play_music(string musicfile)
 | Changes music to musicfile
 |-
 ! class="method"| play_sound(string soundfile)
 | Plays a soundfile
+|-
+! class="method"| debug_collrects(bool enable)
+| Enables or disables drawing of collision rectangles.
+|-
+! class="method"| debug_show_fps(bool enable)
+| Enables or disables drawing of the FPS. (Also affects config file)
+|-
+! class="method"| debug_draw_solids_only(bool enable)
+| When enabled, only draws solid tilemaps. (No background/foreground tiles)
+|-
+! class="method"| set_game_speed(float speed)
+| Set speed to run the game at. (Doesn't affect menus/gui)
+|-
+! class="method"| grease()
+| Speeds Tux's horizontal velocity by a factor of 3.
+|-
+! class="method"| ghost()
+| Makes Tux a ghost, letting him float around and through objects.
+|-
+! class="method"| invincible()
+| Make Tux invincible for 10000 units of game time.
+|-
+! class="method"| mortal()
+| Recall Tux's invincibility or ghost status. (Even when not given with above 2 commands)
+|-
+! class="method"| restart()
+| Reinitialize and respawn Tux at the beginning of the current level.
+|-
+! class="method"| whereami()
+| Print out Tux's coordinates to the console.
+|-
+! class="method"| gotoend()
+| Moves Tux horizontally 2 screens away from the end.
+|-
+! class="method"| camera()
+| Display the current camera's coordinates. (top-left corner)
+|-
+! class="method"| quit()
+| Exits the game. (Not recommended for use in levels!)
+|-
+! class="method"| int rand()
+| Returns a random evenly-distributed integer between 0 and 2147483647, inclusive.
 |}
 
 = Constants =
