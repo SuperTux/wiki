@@ -37,7 +37,7 @@ This module contains global constants and methods.
 | Does a shrinking fade towards the destposition for the specified number of seconds before next screenchange.
 |-
 ! class="method"| translate(string text)
-| Returns: translated <tt>string</tt>. Translates <tt>text</tt> into the user's locale. Note: This construct is unfortunately not yet recognised by XGetText, so translation files have to be written manually.
+| Returns: translated <tt>string</tt>. Translates <tt>text</tt> into the user's locale. Note: This construct is unfortunately not yet recognized by XGetText, so translation files have to be written manually.
 |-
 ! class="method"| import(string filename)
 | Imports and runs the Squirrel script <tt>filename</tt>. (The path is relative to the data root.)
@@ -103,7 +103,7 @@ This module contains global constants and methods.
 ! class="method"| ANCHOR_TOP
 | represents the top center anchor point of a rectangle
 |-
-! class="method"| ANCHOR_BOTTON
+! class="method"| ANCHOR_BOTTOM
 | represents the bottom center anchor point of a rectangle
 |-
 ! class="method"| ANCHOR_LEFT
