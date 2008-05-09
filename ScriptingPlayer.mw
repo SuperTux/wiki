@@ -27,7 +27,7 @@ Due to SuperTux's single-player nature, there is only one instance of the <tt>Pl
 | Make Tux walk
 |-
 ! class="method"| set_visible(bool visible)
-| Shows or hides Tux according to the value of <tt>visible</tt>.
+| Shows or hides Tux according to the value of <tt>visible</tt>. Note: Tux doesn't interact with objects or badguys while invisible.
 |-
 ! class="method"| get_visible()
 | Returns: <tt>bool</tt>; is Tux visible?
