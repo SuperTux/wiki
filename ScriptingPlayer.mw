@@ -14,8 +14,8 @@ Due to SuperTux's single-player nature, there is only one instance of the <tt>Pl
 ! class="method" style="vertical-align: top"| add_coins(int number)
 | Gives Tux <tt>number</tt> coins.<br />Tip: Tux has to pay 25 coins to be revived at the last firefly he visited. If he doesn't have enough coins, the player has to play the whole level again.
 |-
-! class="method" style="vertical-align: top"| make_invincible(float time)
-| Makes the player invincible for either a custom or a predefined amount of time.<br />See also: <tt>TUX_INVINCIBLE_TIME</tt> in src/object/player.hpp for the amount of seconds that the player becomes invincible in case <tt>time</tt> is not specified.
+! class="method" style="vertical-align: top"| make_invincible()
+| Makes the player invincible for either a predefined amount of time.<br />See also: <tt>TUX_INVINCIBLE_TIME</tt> in src/object/player.hpp for the amount of seconds that the player becomes invincible.
 |-
 ! class="method" style="vertical-align: top"| deactivate()
 | Stops the player and blocks the movement controls.<br />Tip: Don't call this in front of a horde of badguys. Carried items like trampolines won't be dropped.
