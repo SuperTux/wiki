@@ -16,6 +16,18 @@ __TOC__
 
 Doing a forest world turned out impractical with the current available and active man-power for that reason Milestone 2 got retargeted to a much smaller accomplishable goal.
 
+
+= Next Meeting Agenda (22.Mai 2008, 18:00 GMT) =
+
+* new aspect ratio code
+
+== older stuff ==
+
+* present newly build levels
+* what to do with Badguy::freeze()?
+* what to do with level flipping (suggestion: ignore it)
+* Wiki & SVN backup again
+
 = General =
 
 * uni-solid tiles shall be provided for all tilesets
@@ -327,26 +339,6 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 '''Later in the development of Milestone2'''
 
 <br clear="all"/>
-
-
-
-
-
-
-
-= Next Meeting Agenda (8.Mai 2008, 18:00 GMT) =
-
-* Remove [[DataFiles]] with unknown origin. 
-* Supertux Summer Camp (have a RL meeting?)
-* Discuss new things on the Task list and in the section Enemy Issues
-* Discuss everybodies writeups on their goals to Milestone2
-
-== older stuff ==
-
-* present newly build levels
-* what to do with Badguy::freeze()?
-* what to do with level flipping (suggestion: ignore it)
-* Wiki & SVN backup again
 
 = Things to know =
 
