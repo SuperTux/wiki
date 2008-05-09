@@ -15,15 +15,20 @@ I have no clue if the developers simply chose Squirrel just because the name so 
     (name "main")
     (music "Annoying_penguin_gawking_sounds.ogg")
 
-    ;; (Tilemaps, objects, whatever.)
+    ;; tilemaps, objects, whatever. (optional)
+    ;...
 
     (init-script "
 DisplayEffect.fade_out(2.5);
 ")
+
+    ;; more tilemaps, objects, and whatever. (optional)
+    ;...
+
   )
 )</pre>
 
-When this level loads, the screen fades out completely during two and a half seconds right after the level is loaded. (Mind you, this would be a frustrating experience for the player if you add a horde of badguys near the spawn point.)
+When this level loads, the screen fades out completely during two and a half seconds right after the level is loaded. (Mind you, this would be a frustrating experience for the player if you add a horde of badguys near the spawn point...)
 
 == Object reference ==
 If you are interested in an object and what cans of worms you can open with it, this section is for you.
