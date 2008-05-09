@@ -83,6 +83,9 @@ If you are interested in an object and what cans of worms you can open with it, 
 ! [[ScriptingWill-o-wisp|Will-o-wisp]]
 | Scripting interface to [[Will-o-wisp]] object
 |-
+! [[ScriptingSector|Sector]]
+| Scripting interface to the [[Sector]] itself.
+|-
 |}
 
 TODO: Improve format maybe?
