@@ -35,4 +35,5 @@ Other things to avoid:
 * Avoid too hard or too easy levels. Too easy levels get boring very quickly while too hard ones can be frustrating. Levels you built often appear a lot easier for yourself, so be sure to let other people test them.
 * Secret areas should be well-hidden and not be visible on first sight. Use your imagination to think of new ways to create secrets - some of the above rules can be broken for that purpose, but be careful!
 * Avoid impossible-to-reach coins or lives. Collecting everything in a level is often important to players. However, difficulty can be just short of impossible - requiring frame-by-frame accuracy is fine. (So long as you provide a demo to prove that it is in fact possible) This only applies to bonus items - players should be able to complete the level minus some items with only moderate difficulty.
+* Avoid using any water. Swimming and water physics have not been finalized, so any current water behavior is unreliable.
 [[Image:Hallofshame.jpg|left|thumb|800px|More things to avoid]]
