@@ -47,7 +47,7 @@ This command for example will give a Window of 1280x1024, but with the visible a
 
 This means that level design must not focus on 800x600, but should be flexible enough even when the user has a much larger visible area. However all levels should remain playable even as low as 640x480.
 
-The resolution to deal with are 1920x1200 (HD-TV Monitor) and 2560x1600 (Apple 30" Cinema Display. The game engine currently respawn objects at a distance of 1600x1200 to Tux.
+The maximum resolution to deal with is 1920x1200 (HD-TV Monitor), 2560x1600 (Apple 30" Cinema Display can't be handled since that would cause issues with enemy respawning, the respawn distance is currently 1600x1200, relative to Tux.
 
 = Menu System =
 
