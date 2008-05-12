@@ -54,6 +54,7 @@ The maximum resolution to deal with is 1920x1200 (HD-TV Monitor), 2560x1600 (App
 Menu system of Milestone1 is rather ugly and could need a rewrite as well as a reorganization of some things:
 
 * displaying the level name in/above/below the pause menu would be nice
+* there should be an option to display the full GPL in the menu
 
 == Profile ==
 
