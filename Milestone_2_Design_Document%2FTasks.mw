@@ -107,6 +107,9 @@
 == Week 8 ==
 
 * add all fade-in/out effects to DisplayEffect
+* fix editor so that it works without a mouse wheel
+* fix default peek keybindings, seem to be wrong
+* add a way to enable the console from within the game
 
 = Enemy Issues =
 
