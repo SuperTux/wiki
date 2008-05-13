@@ -110,6 +110,7 @@
 * fix editor so that it works without a mouse wheel
 * fix default peek keybindings, seem to be wrong
 * add a way to enable the console from within the game
+* fix console command set_game_speed() so that it doesn't slow down the console
 
 = Enemy Issues =
 
