@@ -3,7 +3,7 @@
 = Task List =
 
 * optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
-* change game back to use Milestone1 single-sprite SuperTux (done)
+* <strike>change game back to use Milestone1 single-sprite SuperTux (done)</strike>
 * do a 32x32 top-down water animation for the worldmap
 * Tux isn't centered properly to his collision box
 * [http://www.unicode.org/charts/PDF/U0400.pdf Cyrillic Font]
@@ -12,7 +12,7 @@
 *:http://pingus.seul.org/~grumbel/tmp/md5/6a7e3ff759ad7ca802ec8fcb2e96b9e5-supertux-rus-files2.tar.bz2
 * seperate lisp reader, tinygettext and other libraries properly out of SuperTux
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
-* switch supertux-editor over to CMake? (done, is now a simple Makefile)
+* <strike>switch supertux-editor over to CMake? (done, is now a simple Makefile)</strike>
 * reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
 * create a timeline what shall be done and when
 * discuss in the meeting what shall be done over the coming week
@@ -35,11 +35,11 @@
 * create ice-spikes graphics (Grumbel)
 * create ice-tiles graphics (Grumbel)
 * create angry ice-block graphics (Grumbel)
-* bring back single-sprite SuperTux (done)
+* <strike>bring back single-sprite SuperTux (done)</strike>
 * create an overview over the current levels (Grumbel)
 * finish editor improvements (MatzeB)
 * try to fix white-lines around graphics problems (MatzeB)
-* jump with keyboard up (done, WolfgangB)
+* <strike>jump with keyboard up (done, WolfgangB)</strike>
 
 == Week 2 ==
 
@@ -52,8 +52,8 @@
 * some decore for ice tiles, cracks and stuff (Grumbel)
 * replace "you found a secret area" with a special sound (Wansti)
 * rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor (MatzeB)
-* Stay-on-platform snowball (done, WolfgangB)
-* snowball-launcher (done. WolfgangB)
+* <strike>Stay-on-platform snowball (done, WolfgangB)</strike>
+* <strike>snowball-launcher (done. WolfgangB)</strike>
 
 == Week 3 ==
 
@@ -76,7 +76,7 @@
 
 == Week 5 ==
 
-* add a "scan for joysticks" to the "No Joysticks found" in "Setup Joystick" to allow hotplugging (done, WolfgangB)
+* <strike>add a "scan for joysticks" to the "No Joysticks found" in "Setup Joystick" to allow hotplugging (done, WolfgangB)</strike>
 * remove pictures from credits, looks to uneven that way 
 :<sup>Really? I like the pictures. --[[User:WolfgangB|WolfgangB]] 19:00, 29 April 2008 (UTC)</sup>
 * animate minibomb
@@ -86,13 +86,13 @@
 * paint tutorial boards for grabbing, backflip and run-jump
 * add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
 
-* peeking should work in in both X and Y at the same time (for use with second analog stick on todays gamepads) (done, WolfgangB)
+* <strike>peeking should work in in both X and Y at the same time (for use with second analog stick on todays gamepads) (done, WolfgangB)</strike>
 
-* add an cmd option --default and/or a menu entry "Reset to Default" to reset any changes to resolution or aspect ratio (or something along those lines) (cmd done, WolfgangB)
+* <strike>add an cmd option --default</strike> and/or a menu entry "Reset to Default" to reset any changes to resolution or aspect ratio (or something along those lines) (cmd done, WolfgangB)
 
 == Week 7 ==
 
-* add a set_gamespeed() so that the game can run in slow motion for debugging '''[done]'''
+* <strike>add a set_gamespeed() so that the game can run in slow motion for debugging '''[done]'''</strike>
 * Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 * SuperTux should stand on the ground when a level starts, not fall down
 * level startup needs a fade-in, so does game startup, level abort and a few other places
