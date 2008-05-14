@@ -112,6 +112,8 @@
 * add a way to enable the console from within the game
 * fix console command set_game_speed() so that it doesn't slow down the console
 * document the behaviour of all badguys to be used in Milestone2 along with how they interact with each other
+* add turn-around animation for smart-snowball
+* fix and cleanup all the enemy names
 
 = Enemy Issues =
 
