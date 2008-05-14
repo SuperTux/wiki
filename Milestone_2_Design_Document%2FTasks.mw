@@ -128,8 +128,8 @@
 * Snowball(stay-on-platfrom): Replace with female snowball graphic
 * Bomb: Roll back to behavior of Milestone1, get rid of particle effects
 * Bomb: Replace graphic with new bomb graphic
-* Bomb: let the fuse burn after one touched and run around instead of walk
-* Bomb(crazy): Add a new bomb type (crazy pink bomb) that does something different then the regular one
+* Bomb(normal): let the fuse burn after one touched it
+* Bomb(crazy): new bomb type (crazy pink bomb) that runs around after being touched
 * Flying Snowball: Add acceleration/deceleration instead of linear up and down
 * Flying Snowball: smoke effect for the motor seem to be to seldomly triggered
 * Icecrusher: gravitation instead of linear, facial expression, maybe screenshacking
