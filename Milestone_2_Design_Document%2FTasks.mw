@@ -115,6 +115,7 @@
 * add turn-around animation for smart-snowball
 * fix and cleanup all the enemy names
 * add 'recent files' to level editor
+* when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
 
 = Enemy Issues =
 
