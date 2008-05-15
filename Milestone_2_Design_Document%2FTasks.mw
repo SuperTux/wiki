@@ -116,6 +116,7 @@
 * fix and cleanup all the enemy names
 * add 'recent files' to level editor
 * when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
+* add sprite scaling and rotation
 
 = Enemy Issues =
 
