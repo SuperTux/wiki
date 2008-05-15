@@ -1,6 +1,6 @@
 This document describes how to provide a backtrace for reporting bugs when SuperTux crashes.
 
-== SuperTux ==
+==SuperTux==
 
 # First, ensure <tt>DEBUG</tt> is enabled so SuperTux is compiled with debugging symbols.
 ## Run <tt>ccmake .</tt> and make sure <tt>DEBUG</tt> is set to <tt>ON</tt>. Use <tt><enter></tt> to toggle the setting.
@@ -12,6 +12,6 @@ This document describes how to provide a backtrace for reporting bugs when Super
 # When SuperTux crashes, enter <tt>bt</tt> into GDB. This will provide you with the backtrace which can be sent to the [[mailing list]] or included in a 
 bug report.
 
-=== Breakpoints ===
+===Breakpoints===
 
 If you're asked to set a breakpoint, it can be done in GDB using <tt>break <filename>:<linenum></tt> before entering <tt>run</tt>
