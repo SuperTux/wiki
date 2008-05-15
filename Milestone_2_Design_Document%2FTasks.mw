@@ -62,6 +62,7 @@
 * create mountain and night background
 * replace old bomb with new bomb sprite
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
+** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
 * integrate snowjumpy
 * finish icecrusher graphics
 * add some acceleration/deceleration to flying snowball
