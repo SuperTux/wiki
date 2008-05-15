@@ -51,7 +51,7 @@
 * create SuperTux .xo Activity for OLPC (Grumbel)
 * some decore for ice tiles, cracks and stuff (Grumbel)
 * replace "you found a secret area" with a special sound (Wansti)
-* rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor (MatzeB)
+* <strike>rename trunk/supertux-sharp to trunk/supertux-editor to make it clear that it is the primary editor (MatzeB)</strike>
 * <strike>Stay-on-platform snowball (done, WolfgangB)</strike>
 * <strike>snowball-launcher (done. WolfgangB)</strike>
 
