@@ -22,6 +22,13 @@ Mrs Snowball behaves like a normal snowball, but instead of walking of a platfor
 Like Snowball MrIceBlock is a simple straight forward enemy, he will not stay on platforms. When jump on he will get knocked out and become a grabable item that one can use to throw at other enemies.
 <br clear="all" />
 
+== Crystallo ==
+
+[[Image:Crystallo.png|right]]
+
+Again a very basic enemy, but unlike the Snowball he doesn't walk around in a straight pattern, but walks forward and backward around a fixed position. It is a stationary enemy.
+<br clear="all" />
+
 == SnowJumpy ==
 
 [[Image:SnowJumpySprite.png|right]]
@@ -83,12 +90,6 @@ Alternative: Sequence at end of castle: Tux find Yeti, Yeti jumps out of the win
 * take the japanic one for the gun
 * take teh "normal" one for stay on platform
 * take the "ninja" for following tux
-
-== Crystallo ==
-
-[[Image:Crystallo.png|thumbnail|right|Crystallo]]
-
-only an idea: http://supertux.lethargik.org/wiki/User_ideas#Behaviour_of_Crystallo
 
 == Eater ==
 [[Image:Eater.png|thumbnail|right|Eater]]
