@@ -56,9 +56,7 @@ Again a very basic enemy, but unlike the Snowball he doesn't walk around in a st
 Jumpy jumps up and down and stays stationary on the same position. His viewing direction might follow Tux. The string should react when hitting the ground.
 <br clear="all" />
 
-== Starfish ==
 
-Star shall get replaced by a starfish. (does that even make a graphical difference?)
 
 == Ice Fish == 
 
