@@ -38,7 +38,7 @@ Again a very basic enemy, but unlike the Snowball he doesn't walk around in a st
 == SnowJumpy ==
 
 [[Image:SnowJumpySprite.png|right]]
-Replace it with something that better fits the snow world
+Jumpy jumps up and down and stays stationary on the same position. His viewing direction might follow Tux. The string should react when hitting the ground.
 <br clear="all" />
 
 == Starfish ==
