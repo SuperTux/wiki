@@ -1,20 +1,32 @@
 = Creatures =
 
-This page shall describe all enemies, old and new, in as much detail as possible.
+This page shall describe all enemies, old and new, in as much detail as possible. We also need to settle down on proper names for enemies, since currently there is a lot of confusion.
 
-[[Image:Minibomb-and-stuff.png|Milestone 2 Enemies]]
+== Snowball / Sport Snowball ==
+
+[[Image:SnowballSprite.png|right]]
+
+Snowball is a straight forward falking enemy, when reaching an edge he will fall down and continue walking on the platform below. Jumping on him will squish him and thus kill him.
+<br clear="all" />
+
+== Mrs Snowball / Stay-On-Platform Snowball / Smart Snowball ==
+
+[[Image:SmartSnowballSprite.png|right]]
+
+Mrs Snowball behaves like a normal snowball, but instead of walking of a platform she well turn around when reaching the edge.
+<br clear="all" />
 
 == MrIceBlock ==
 
-Stays as it was in Milestone1
+[[Image:MrIceblockSprite.png|right]]
+Like Snowball MrIceBlock is a simple straight forward enemy, he will not stay on platforms. When jump on he will get knocked out and become a grabable item that one can use to throw at other enemies.
+<br clear="all" />
 
-== Snowball ==
+== SnowJumpy ==
 
-Snowball gets split into two behavior patterns, normal snowball behaves as in Milestone1, female/pink snowball exhibits stay-on-platform behaviour
-
-== Jumpy ==
-
+[[Image:SnowJumpySprite.png|right]]
 Replace it with something that better fits the snow world
+<br clear="all" />
 
 == Starfish ==
 
@@ -72,10 +84,6 @@ Alternative: Sequence at end of castle: Tux find Yeti, Yeti jumps out of the win
 * take teh "normal" one for stay on platform
 * take the "ninja" for following tux
 
-== Stay-On-Platform Snowball ==
-
-* an additional type of snowballs shall be provided to signal stay-on-platform behaviour (a bandana or something like that)
-
 == Crystallo ==
 
 [[Image:Crystallo.png|thumbnail|right|Crystallo]]
@@ -86,3 +94,5 @@ only an idea: http://supertux.lethargik.org/wiki/User_ideas#Behaviour_of_Crystal
 [[Image:Eater.png|thumbnail|right|Eater]]
 The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 <br clear="all" />
+
+[[Image:Minibomb-and-stuff.png|Milestone 2 Enemies]]
