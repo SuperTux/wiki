@@ -5,3 +5,7 @@ Since Milestone 2 Design Document is protected, this ought to be as well. Or do 
 == Merge AngryStone and IceCrusher ==
 
 Currently, these two don't actually behave the same - IceCrusher moves only up and down, while AngryStone moves along a grid ~6 tiles apart. AngryStone is actually kind of interesting... although the [[Milestone 3 Design Document#Angry_Stone|documentation]] says that AngryStone should be IceCrusher. --[[User:Mathnerd314|Mathnerd314]] 14:27, 7 May 2008 (UTC)
+
+== Sprite Rotation ==
+
+This is already implemented; see sprite->set_angle in block.cpp. --[[User:Mathnerd314|Mathnerd314]] 02:01, 16 May 2008 (UTC)
