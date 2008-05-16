@@ -56,10 +56,10 @@ Already in the code, but not much used in Milestone1 Levels
 A flying enemy that can land on trees and carry things around to throw at Tux.
 <br clear="all" />
 
-== Angry Iceblock ==
-[[Image:Iceblock.png|thumbnail|right|Angry Stone]]
+== IceCrusher / Angry Iceblock ==
+[[Image:Iceblock.png|right]]
 
-Like Angry Stone, but with iceworld theme.
+The IceCrusher is an enemy that is hanging on the ceiling. When Tux gets within one tile the IceCrusher will fall down and try to smash Tux. When hanging on the ceiling the IceCrushers eyes shall follow Tux. The face expression shall become angry when he is falling down.
 <br clear="all" />
 
 == Snow Canon ==
