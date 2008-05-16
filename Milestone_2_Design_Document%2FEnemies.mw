@@ -56,6 +56,14 @@ Already in the code, but not much used in Milestone1 Levels
 A flying enemy that can land on trees and carry things around to throw at Tux. One thing it is throwing might be the BombFish.
 <br clear="all" />
 
+
+== BombFish == 
+
+[[Image:BombFish.png|right]]
+A enemy that is letting fallen by Owl and then falls down to the ground and explodes.
+
+<br clear="all" />
+
 == IceCrusher / Angry Iceblock ==
 [[Image:Iceblock.png|right]]
 
