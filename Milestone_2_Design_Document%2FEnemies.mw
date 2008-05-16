@@ -1,3 +1,4 @@
+__NOTOC__
 = Creatures =
 
 This page shall describe all enemies, old and new, in as much detail as possible. We also need to settle down on proper names for enemies, since currently there is a lot of confusion.
@@ -20,6 +21,7 @@ Mrs Snowball behaves like a normal snowball, but instead of walking of a platfor
 [[Image:Snowman-variations.png|thumbnail|right|Snowman]]
 
 A snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball. Alternative: Let the head get destroyed and the body turn into a snowball that can be rolled around.
+<br clear="all" />
 
 == MrIceBlock ==
 
