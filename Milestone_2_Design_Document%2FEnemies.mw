@@ -6,14 +6,14 @@ This page shall describe all enemies, old and new, in as much detail as possible
 
 [[Image:SnowballSprite.png|right]]
 
-Snowball is a straight forward falking enemy, when reaching an edge he will fall down and continue walking on the platform below. Jumping on him will squish him and thus kill him.
+Snowball is a straight forward walking enemy, when reaching an edge he will fall down and continue walking on the platform below. Jumping on him will squish him and thus kill him.
 <br clear="all" />
 
 == Mrs Snowball / Stay-On-Platform Snowball / Smart Snowball ==
 
 [[Image:SmartSnowballSprite.png|right]]
 
-Mrs Snowball behaves like a normal snowball, but instead of walking of a platform she well turn around when reaching the edge.
+Mrs Snowball behaves like a normal snowball, but instead of walking of a platform she will turn around when reaching the edge.
 <br clear="all" />
 
 == Snowman ==
@@ -24,14 +24,14 @@ A snowman enemy shall be added, a snowman is build out of a base body combined w
 == MrIceBlock ==
 
 [[Image:MrIceblockSprite.png|right]]
-Like Snowball MrIceBlock is a simple straight forward enemy, he will not stay on platforms. When jump on he will get knocked out and become a grabable item that one can use to throw at other enemies.
+Like Snowball MrIceBlock is a simple straight forward enemy, he will not stay on platforms. When jump on he will get knocked out and become a grabbable item that one can use to throw at other enemies.
 <br clear="all" />
 
 == MrBomb ==
 
 [[Image:MrBombNormal.png|right]]
 
-The base behaviour of MrBomb is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
+The base behavior of MrBomb is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
 <br clear="all" />
 
 == CrazyBomb ==
@@ -39,7 +39,7 @@ The base behaviour of MrBomb is similar to the normal Snowball, except that when
 [[Image:MrBombCrazy.png|right]]
 
 When the fuse isn't burning CrazyBomb looks like a normal Bomb except the color. 
-When the fuse of CrazyBomb gets activated he starts to run around, maybe chasing Tux. He can't be carried around. Jumping on him when the fuse is burning will cause Tux to bounce and CrazyBomb to be stuned for a short moment (fraction of a second).
+When the fuse of CrazyBomb gets activated he starts to run around, maybe chasing Tux. He can't be carried around. Jumping on him when the fuse is burning will cause Tux to bounce and CrazyBomb to be stunned for a short moment (fraction of a second).
 
 <br clear="all" />
 
@@ -73,7 +73,7 @@ A flying enemy that can land on trees and carry things around to throw at Tux. O
 == BombFish == 
 
 [[Image:BombFish.png|right]]
-A enemy that is letting fallen by Owl and then falls down to the ground and explodes.
+A enemy that is let go by Owl and then falls down to the ground and explodes.
 
 <br clear="all" />
 
@@ -85,7 +85,7 @@ The IceCrusher is an enemy that is hanging on the ceiling. When Tux gets within 
 
 == Snow Canon ==
 [[Image:Canon.png|thumbnail|right|Canon]]
-The canon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructable.
+The canon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructible.
 
 <br clear="all" />
 
@@ -107,12 +107,12 @@ The Yeti is the boss that awaits Tux in the first castle. After entering the thr
 
 The current Yeti pattern needs to be reworked, since it is to easy to just stand in a corner and do nothing.
 
-Alternative: Sequence at end of castle: Tux find Yeti, Yeti jumps out of the window and  flees
+Alternative: Sequence at end of castle: Tux find Yeti, Yeti jumps out of the window and flees
 <br clear="all" />
 
 == Eater ==
 [[Image:Eater.png|thumbnail|right|Eater]]
-The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He his not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
+The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He is not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 <br clear="all" />
 
 [[Image:Minibomb-and-stuff.png|Milestone 2 Enemies]]
