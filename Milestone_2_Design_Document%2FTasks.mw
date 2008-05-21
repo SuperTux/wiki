@@ -122,6 +122,7 @@
 * fix/add/cleanup menu entry names and descriptions to be better understandable
 * need to properly auto-detect and set aspect ratio on games first startup (i.e. on a 1280x1024 screen aspect must be set to 5:4, not 4:3)
 * option menu entries are currently not in sync with gameconfig
+* add scale-with-window option to magnification or something like that
 
 = Enemy Issues =
 
