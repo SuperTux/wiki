@@ -125,6 +125,7 @@
 * option menu entries are currently not in sync with gameconfig
 * add scale-with-window option to magnification or something like that
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
+* add PNG support for screenshots, BMP support currently broken
 
 = Enemy Issues =
 
