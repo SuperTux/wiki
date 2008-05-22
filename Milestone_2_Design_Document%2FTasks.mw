@@ -133,7 +133,7 @@
 * General: Get rid of enemies stacking on top of each other
 * General: Have particle throwing starting enemies (fireflower like)
 * General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
-* Spiky: Shouldn't alway sleep, either make it an option or better make a new enemy type for sleeping behaviour
+* <del>Spiky: Shouldn't alway sleep, either make it an option or better make a new enemy type for sleeping behaviour</del> (Thats already done that way, there is [[Spiky]] and [[Sleeping Spiky]]).
 * Spiky: Walkcycle animation looks broken, there is a frame missing
 * Snowball(normal): Animation ruined
 * Snowball(stay-on-platfrom): Replace with female snowball graphic
