@@ -127,6 +127,10 @@
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
 * add PNG support for screenshots, BMP support currently broken
 
+== Week 9 ==
+
+* make left/right change an option in the menu, let enter apply it (needed for fullscreen)
+
 = Enemy Issues =
 
 * General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
