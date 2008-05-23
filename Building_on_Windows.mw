@@ -2,7 +2,7 @@
 
 If you want to build the current development version on Windows, these step-by-step instructions are for you.
 
-== Warning ==
+== Warnings ==
 
 Before you proceed, however, carefully read the following warnings:
 
@@ -11,6 +11,7 @@ Before you proceed, however, carefully read the following warnings:
 * The developers currently focus on getting SuperTux stable for Linux. Feel free to try getting it to work on Windows, but do not expect any support down this road.
 * Read these instructions to the end before starting your install. If any step makes you feel unsure, better wait for a Windows release of SuperTux.
 * The whole build process takes about one hour to complete, depending on your internet connection and processor power. Why not do something more productive in that hour? Maybe do some housework?
+* The build process fails on Windows Vista sometimes.
 
 == Preparation ==
 
