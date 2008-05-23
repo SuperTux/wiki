@@ -77,6 +77,7 @@ Only Big and Fire Tux have this ability. When in the air, press the Duck key to 
 
 === Backflip (SuperTux 0.3 only) ===
 Only Big and Fire Tux have this ability. Hold down the Duck key, then press Jump to make Tux do a backflip. This will make him jump as high as he would when running, which is very useful in places where there's not enough space to run. Note that in 0.3.0, but not 0.3.1, Fire Tux will lose his hat when doing a backflip.
+[]
 
 === Carrying Objects ===
 [[Image:needrock.png|left]]
