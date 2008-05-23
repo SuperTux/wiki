@@ -1,4 +1,22 @@
 __NOTOC__
+<!-- Forest Badguys
+[[Image:Mole.png|Mole]]
+[[Image:Zeekling.png|Zeekling]]
+[[Image:Walk-left-6.png|Mr. Tree]]
+[[Image:Poisonivy.png|Poison Ivy]]
+[[Image:Leaf.png|Walking Leaf]]
+[[Image:Willowisp.png|Will-O-Wisp]]
+[[Image:Snowsnail.png|Snail]]
+[[Image:Toad.png|Toad]]
+[[Image:Igel.png|Igel]]
+[[Image:Spidermite0.png|Spidermite]]
+[[Image:Walking1.png|Totem]]
+[[Image:Idle-0.png|Angry Stone]]
+[[Image:Tumbleweed0.png|Tumbleweed]]
+[[Image:Waking-left-0.png|Plant]]
+[[Image:Flying-0.png|Kugelblitz]]
+[[Image:Ghosttree.png|108px|Ghost Tree]]
+-->
 
 This page shall describe all enemies, old and new, in as much detail as possible. We also need to settle down on proper names for enemies, since currently there is a lot of confusion.
 
@@ -16,7 +34,7 @@ Snowball is a straight forward walking enemy, when reaching an edge he will fall
 Mrs Snowball behaves like a normal snowball, but instead of walking of a platform she will turn around when reaching the edge.
 <br clear="all" />
 
-== Snowman ==
+== Snowman (needs code, walking gfx) ==
 [[Image:SnowmanSprite.png|right]]
 A snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball. Alternative: Let the head get destroyed and the body turn into a snowball that can be rolled around.
 <br clear="all" />
@@ -25,6 +43,25 @@ A snowman enemy shall be added, a snowman is build out of a base body combined w
 
 [[Image:BouncingSnowball.png|right]]
 A leg-less Snowball that jumps around like a ball.
+<br clear="all" />
+
+== Flying Snowball ==
+[[Image:Flyingsnowball.png|Flying Snowball|right]]
+The flying snowball has a propeller at his bottom which keeps him floating in the air. Due to Nolok's hurry, the motor is inefficient and varies in effectiveness, causing the flying snowball to move up and down while coughing out smoke and possibly other debris.
+
+<br clear="all" />
+
+== Captain Snowball ==
+[[Image:Cpt-right-1.png|Captain Snowball|right]]
+Captain Snowball is much slower than ordinary enemies because of his peg leg and pirate getup. He usually comes out of a snow cannon.
+
+<br clear="all" />
+
+== Kamikaze Snowball ==
+[[Image:Kamikaze-left.png|Kamikaze Snowball|right]]
+[[Image:Kamikaze-left2.png|Kamikaze Snowball|right]]
+The Kamikaze Snowball also comes out of a snow cannon. He is very angry, or very "wise", and so can levitate through the force of his will. He is so concentrated on this, however, that he cannot turn or adjust his velocity.
+
 <br clear="all" />
 
 == MrIceBlock ==
@@ -36,8 +73,11 @@ Like Snowball MrIceBlock is a simple straight forward enemy, he will not stay on
 == MrBomb ==
 
 [[Image:MrBombNormal.png|right]]
-
 The base behavior of MrBomb is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
+
+Alternate Pictures:
+[[Image:Cherrybomb.png|Mr. Cherry]]
+[[Image:Juicebox2.png|Juice Box]]
 <br clear="all" />
 
 == CrazyBomb ==
@@ -103,8 +143,26 @@ The IceCrusher is an enemy that is hanging on the ceiling. When Tux gets within 
 == Snow Canon ==
 [[Image:Canon.png|thumbnail|right|Canon]]
 The canon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructible.
+SVN for non-captainsnowball/kamizazesnowball enemies
+[[Image:Working.png|Dispenser (Cannon)]]
 
 <br clear="all" />
+
+== Stalactite ==
+[[Image:Falling.png|Stalactite|right]]
+The stalactite stays stuck to the ceiling until Tux walks near it, then begins shaking. After a bit of shaking, it falls down in an attempt to hurt Tux, while also harming badguys that get in the way.
+
+<br clear="all" />
+
+== Flame ==
+[[Image:Flame.png|Flame|right]]
+The flame rotates around in a circle, hurting Tux when he gets too close. It is indestructible. Do we want it to come in a line of fire?
+
+<br clear="all" />
+
+== Spike ==
+[[Image:Spike.png|Spike|right]]
+The spike isn't really an enemy, so much as an obstacle, but for some strange reason, it's in the creatures' image directory, but implemented as a tile. Currently the spike only hurts Tux, instead of insta-killing him as might be wanted, for example at the bottom of deep pits.
 
 == Mini Bomb ==
 [[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
@@ -131,5 +189,14 @@ Alternative: Sequence at end of castle: Tux find Yeti, Yeti jumps out of the win
 [[Image:Eater.png|thumbnail|right|Eater]]
 The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He is not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 <br clear="all" />
+
+<!-- Castle/Endgame badguys
+[[Image:Flying-2.png|Mr. Rocket]]
+[[Image:Dropper.png|Dispenser (Dropper)]]
+[[Image:Standing-0.png|Skully Hop]]
+[[Image:FishRed.png|Flame Fish]]
+[[Image:Dart.png|Dart]]
+
+[[Image:Jump-1.png|Nolok]] -->
 
 [[Image:Minibomb-and-stuff.png|Milestone 2 Enemies]]
