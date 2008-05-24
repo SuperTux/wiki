@@ -141,11 +141,11 @@
 * General: Have particle throwing starting enemies (fireflower like)
 * General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
 * <del>Spiky: Shouldn't alway sleep, either make it an option or better make a new enemy type for sleeping behaviour</del> (Thats already done that way, there is [[Spiky]] and [[Sleeping Spiky]]).
-* Spiky: Walkcycle animation looks broken, there is a frame missing
-* Snowball(normal): Animation ruined
-* Snowball(stay-on-platfrom): Replace with female snowball graphic
+* <del>Spiky: Walkcycle animation looks broken, there is a frame missing</del>
+* <del>Snowball(normal): Animation ruined</del>
+* <del>Snowball(stay-on-platfrom): Replace with female snowball graphic</del>
 * Bomb: Roll back to behavior of Milestone1, get rid of particle effects
-* Bomb: Replace graphic with new bomb graphic
+* <del>Bomb: Replace graphic with new bomb graphic</del>
 * Bomb(normal): let the fuse burn after one touched it
 * Bomb(crazy): new bomb type (crazy pink bomb) that runs around after being touched
 * Flying Snowball: Add acceleration/deceleration instead of linear up and down
