@@ -130,6 +130,7 @@
 == Week 9 ==
 
 * make left/right change an option in the menu, let enter apply it (needed for fullscreen)
+* bug: can't walk left and jump while pressing ctrl, when going right the same works
 
 = Enemy Issues =
 
