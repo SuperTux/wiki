@@ -130,7 +130,9 @@
 == Week 9 ==
 
 * make left/right change an option in the menu, let enter apply it (needed for fullscreen)
-* bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug)
+* bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug), capslock is bound to ctrl and ctrl is bound as action key, using space for action works as workaround (Grumbel)
+* can't run while carrying an object, but should be able to
+* bomb can't be carried, but should be able to
 
 = Enemy Issues =
 
