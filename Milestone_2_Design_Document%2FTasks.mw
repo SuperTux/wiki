@@ -130,7 +130,7 @@
 == Week 9 ==
 
 * make left/right change an option in the menu, let enter apply it (needed for fullscreen)
-* bug: can't walk left and jump while pressing ctrl, when going right the same works
+* bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug)
 
 = Enemy Issues =
 
