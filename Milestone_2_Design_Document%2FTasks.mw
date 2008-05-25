@@ -131,7 +131,8 @@
 
 * make left/right change an option in the menu, let enter apply it (needed for fullscreen)
 * bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug), capslock is bound to ctrl and ctrl is bound as action key, using space for action works as workaround (Grumbel)
-* can't run while carrying an object, but should be able to
+* can't run while carrying an object, but should be able to 
+:No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
 * bomb can't be carried, but should be able to
 * at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
 
