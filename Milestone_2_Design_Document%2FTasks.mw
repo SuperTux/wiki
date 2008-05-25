@@ -156,4 +156,5 @@
 * Icecrusher(big): add a larger version of the icecrusher, twice the size
 * Iceblock: transparency looks shit on dark backgrounds, Wiki had a better locking version floating around
 * AngryBonusBlock: Have a bonus block type that comes to live when tux jumps against it and then chases Tux
+:Break the "only good stuff from bonus blocks" and "same look same behaviour" rules? --[[User:WolfgangB|WolfgangB]] 01:27, 25 May 2008 (UTC)
 * FlyingSnowball: Remove randomness, should be periodic and predictable
