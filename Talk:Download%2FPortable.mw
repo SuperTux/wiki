@@ -14,3 +14,5 @@ Umm... there should be some work done here. [[User:71.220.36.229|71.220.36.229]]
 
 
 No progress with the GBA / DS Version has been made.  Why??
+
+I think SVG should only be used in 300mhz+ Processor devices, using it in a cellphone will drop a lot of fps.
