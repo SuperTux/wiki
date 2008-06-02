@@ -157,67 +157,14 @@ skeleton:
 == Making the app bundle distributable ==
 These instructions should result in a package that you can compress as dmg and put as download on a website.
 
-* Download mac dylib bundler from http://macdylibbundler.sf.net and build it with ''make && sudo make install''
-* Always in the same folder, add a file called '''dylibbundler.config''' with the following contents in it:
-<pre>
-<?xml version="1.0"?>
-<config>
-<search_path>/usr/local/lib</search_path>
-<library
-	name="libSDL"
-	starts_with="libSDL"
-	doesnt_contain="_"
-	ends_with=".dylib"
-	/>
-<library
-	name="libSDL_image"
-	starts_with="libSDL_image"
-	ends_with=".dylib"
-	dependencies="libSDL:libjpeg:libpng"
-	/>
-<library
-	name="libogg"
-	starts_with="libogg"
-	ends_with=".dylib"
-	/>
-<library
-	name="libvorbis"
-	starts_with="libvorbis"
-	doesnt_contain="enc:file"
-	dependencies="libogg"
-	ends_with=".dylib"
-	/>
-<library
-	name="libvorbisfile"
-	starts_with="libvorbisfile"
-	dependencies="libvorbis:libogg"
-	ends_with=".dylib"
-	/>
-<library
-	name="libjpeg"
-	starts_with="libjpeg"
-	ends_with=".dylib"
-	/>
-<library
-	name="libpng"
-	starts_with="libpng"
-	doesnt_contain="png.3"
-	ends_with=".dylib"
-	/>
-<library
-	name="libphysfs"
-	starts_with="libphysfs"
-	ends_with=".dylib"
-	/>	
-</config>
-</pre>
-'''Do note that this config file searches for libs in /usr/local/lib'''. If you installed libs in /usr/lib, you will need to edit the '''search_path''' part.
+* Download mac dylib bundler from http://macdylibbundler.sf.net version 0.3 or better and build it with ''make && sudo make install''
+
 * run the following command on the terminal:
 <pre>
-dylibbundler -l -x ./SuperTux.app/Contents/MacOS/supertux -d ./SuperTux.app/Contents/libs/ -cd -od
+dylibbundler -b -x ./SuperTux.app/Contents/MacOS/supertux -d ./SuperTux.app/Contents/libs/ -od
 </pre>
-* On my computer, libphysfs was linked in a weird way i had never seen before. Run '''otool -L ./SuperTux.app/Contents/MacOS/supertux''' to see the list of dependencies supertux has. If you see libphysfs is still not corrected to be relative to executable like others (on my computer it had no path, while all other libraries have a full path). To fix this, i needed to run the following command:
-<pre>
-install_name_tool -change libphysfs.1.dylib @executable_path/../libs/libphysfs.dylib ./SuperTux.app/Contents/MacOS/supertux</pre>
+* On my computer, libphysfs was linked in a weird way i had never seen before so there were a few problems.
 
-Done! Want to test to see if everything is linked properly? If you have always been careful to leave /usr untouched since you installed OS X, this is very easy. ''sudo mv /usr/local /usr/local-disabled'' will temporarly restore your mac in a near vanilla state for libraries. Then you can test the game, and of course run the opposite command after to put the folder back in its correct location!
+This will only work if you installed libs in /usr/local or another prefix (e.g. /opt/local for macports). If you put them in /usr they are undistinguishable from libraries installed by default on OS X so it's harder to package them, and dylibbundler won't be able to do it automatically.
+
+Done! Want to test to see if everything is linked properly? ''sudo mv /usr/local /usr/local-disabled'' (or any other prefix) will temporarly restore your mac in a near vanilla state for libraries. Then you can test the game, and of course run the opposite command after to put the folder back in its correct location. You can also test the resulting executable and libraries with ''otool -L''
