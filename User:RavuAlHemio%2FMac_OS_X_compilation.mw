@@ -138,21 +138,16 @@ Okay, launching from the terminal works, but you'd like an app bundle like all O
 </plist>
 </pre>
 ('''When you copy and paste from your web browser, make sure the line endings are okay. Sometimes web browsers gives non-Unix line endings if you copy from them. Text editor Smultron has a feature to fix them and probably others too.''')
-* create a file called "makefile"in the same directory with the following contents:
+* create the skeleton with a script like this one:
 <pre>
-skeleton:
-	mkdir ./SuperTux.app	
-	mkdir ./SuperTux.app/Contents
-	mkdir ./SuperTux.app/Contents/Resources
-	mkdir ./SuperTux.app/Contents/MacOS
-	mkdir ./SuperTux.app/Contents/libs
-	cp info.plist ./SuperTux.app/Contents/info.plist
-	cp supertux.icns ./SuperTux.app/Contents/Resources/supertux.icns
-	cp supertux ./SuperTux.app/Contents/MacOS/supertux
-	cp -r ./data ./SuperTux.app/Contents/Resources/data
+mkdir -p ./SuperTux.app/Contents/Resources
+mkdir ./SuperTux.app/Contents/MacOS
+cp info.plist ./SuperTux.app/Contents/info.plist
+cp supertux.icns ./SuperTux.app/Contents/Resources/supertux.icns
+cp supertux ./SuperTux.app/Contents/MacOS/supertux
+cp -r ./data ./SuperTux.app/Contents/Resources/data
 </pre>
-* In the terminal, type "make skeleton". The app bundle will be ready and if all went correctly you should now be able to run SuperTux with a double-click from the Finder! It will not have an icon right now but that will eventually appear. '''However''', this bundle cannot yet be distributed as it depends on libraries not included inside the bundle.
-
+* The app bundle will be ready and if all went correctly you should now be able to run SuperTux with a double-click from the Finder! It will not have an icon right now but that will eventually appear. '''However''', this bundle cannot yet be distributed as it depends on libraries not included inside the bundle.
 
 == Making the app bundle distributable ==
 These instructions should result in a package that you can compress as dmg and put as download on a website.
