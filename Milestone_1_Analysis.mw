@@ -105,7 +105,7 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * Besides the blocks, the environment is completely inanimate; this causes the game to be slightly less exciting.
 
 * Bonus blocks don't indicate at which side they where bumped
-** MatzeB: IMO being able to bounce ? blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
+** MatzeB: IMO being able to bounce bonus blocks from 2 sides to affect direction of the egg was a pointless feature anyway...
 ** Grumbel: it was pointless without backscrolling, with backscrolling however I consider it pretty essential, it should simply be a bit more obvious (block jumping/rotating into the direction it was bumped).
 
 * There are no fade-outs/ins when you either die or complete a level.
@@ -117,6 +117,8 @@ The following is a list of defects in Milestone 1. These are not bugs, but rathe
 * Many secret areas are poorly made and therefore may look like bugs.
 
 * The flying snowball enemy needs more animation (moving eyes, smoke coming from an exhaust pipe, etc.).
+
+* The Still Alive song will be needed for intro.txt
 
 == Good Things in Milestone 1 ==
 This is a list of things that are good in Milestone 1 (compared to most other games or where we managed to hit our goals).
@@ -151,5 +153,8 @@ This is a list of things that are good in Milestone 1 (compared to most other ga
 
 * Tux is extremely cute!
 
+* An Curi song is needed.
+
+[[Category:Curistory.com]]
 [[Category:Development]]
 [[Category:SuperTux]]
