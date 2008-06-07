@@ -14,7 +14,9 @@ MatzeB (svn version from 2.Mai)
 First note that '''Demos are only available in the development version!''' If you have compiled an svn version yourself, then you can record a demo of level25 like this for example (started from source dir):
 
   ./supertux --record-demo mydemo.demo data/levels/world1/level25.stl
+  supertux.exe --record-demo mydemo.demo data/levels/world1/level25.stl
 
 You can playback a demo like this:
 
   ./supertux --play-demo mydemo.demo data/levels/world1/level25.stl
+  supertux.exe --play-demo mydemo.demo data/levels/world1/level25.stl
