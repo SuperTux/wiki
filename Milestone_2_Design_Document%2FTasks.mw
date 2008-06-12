@@ -140,6 +140,8 @@
 
 == Week 10 ==
 
+* aspect ratio init code (Grumbel)
+
 = Enemy Issues =
 
 * General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
