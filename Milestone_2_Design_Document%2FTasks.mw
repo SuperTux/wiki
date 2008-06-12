@@ -141,6 +141,8 @@
 == Week 10 ==
 
 * aspect ratio init code (Grumbel)
+* make F10 toggle print-fps
+* think about peeking in relation to large screen size
 
 = Enemy Issues =
 
