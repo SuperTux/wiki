@@ -138,6 +138,8 @@
 * at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
 * camera vertical scroll doesn't work properly in a small window (i.e. it doesn't move at all)
 
+== Week 10 ==
+
 = Enemy Issues =
 
 * General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
