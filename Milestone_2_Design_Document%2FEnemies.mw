@@ -75,9 +75,6 @@ Like Snowball MrIceBlock is a simple straight forward enemy, he will not stay on
 [[Image:MrBombNormal.png|right]]
 The base behavior of MrBomb is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
 
-Alternate Pictures:
-[[Image:Cherrybomb.png|Mr. Cherry]]
-[[Image:Juicebox2.png|Juice Box]]
 <br clear="all" />
 
 == CrazyBomb ==
