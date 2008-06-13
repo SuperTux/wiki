@@ -132,7 +132,7 @@ A enemy that is let go by Owl and then falls down to the ground and explodes.
 The IceCrusher is an enemy that is hanging on the ceiling. When Tux gets within one tile the IceCrusher will fall down and try to smash Tux. When hanging on the ceiling the IceCrushers eyes shall follow Tux. The face expression shall become angry when he is falling down.
 <br clear="all" />
 
-== Snow Canon ==
+== Snow Cannon ==
 [[Image:Canon.png|thumbnail|right|Canon]]
 The canon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructible.
 SVN for non-captainsnowball/kamizazesnowball enemies
