@@ -126,6 +126,7 @@
 * add scale-with-window option to magnification or something like that
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
 * add PNG support for screenshots, BMP support currently broken
+** <small>What's wrong with BMP support? It seems to work for me - [[User:Sik0fewl|sik0fewl]] 06:11, 13 June 2008 (UTC)</small>
 
 == Week 9 ==
 
