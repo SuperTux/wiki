@@ -134,7 +134,7 @@
 * can't run while carrying an object, but should be able to 
 :No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
 :: With *large* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from dynamic. -- [[User:Grumbel|Grumbel]] 17:13, 28 May 2008 (UTC)
-* bomb can't be carried, but should be able to - sik0fewl
+* <strike>bomb can't be carried, but should be able to</strike> - sik0fewl
 * at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
 * camera vertical scroll doesn't work properly in a small window (i.e. it doesn't move at all)
 
