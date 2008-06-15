@@ -59,6 +59,7 @@
 
 * create proper background tiles for level22
 * create some playable test levels for new stuff
+** <small>Anything in particular? - [[User:Sik0fewl|sik0fewl]] 20:07, 15 June 2008 (UTC)</small>
 * create mountain and night background
 * replace old bomb with new bomb sprite
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
