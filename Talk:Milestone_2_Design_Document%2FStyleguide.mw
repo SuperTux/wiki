@@ -1,0 +1,15 @@
+:* Don't create jumps that require pixel perfect precision unless it is for a special secret area.
+
+* One thing in particular that I hate is jumps where bigtux usually bumps his head if you don't make a pixel perfect jump. This happens when there are only zero or one spaces above Tux to jump. In example <tt>a)</tt> below, smalltux (<tt>*</tt>) can jump from tile <tt>X</tt> to tile <tt>Y</tt> without much difficulty. In example <tt>b)</tt> it's almost impossible for bigtux to jump from tile <tt>X</tt> to tile <tt>Y</tt> because he hits his head on <tt>Z</tt> right away.
+
+<pre>
+a)           b)
+                  
+ Z            Z
+     Y            Y
+              *   
+ *            *    
+ X            X    
+</pre>
+
+[[User:Sik0fewl|sik0fewl]] 19:35, 16 June 2008 (UTC)
