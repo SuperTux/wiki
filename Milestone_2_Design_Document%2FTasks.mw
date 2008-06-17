@@ -122,7 +122,7 @@
 * fix and cleanup all the enemy names
 * add 'recent files' to level editor
 * when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
-* add sprite scaling and rotation
+* add sprite scaling <strike>and rotation</strike>
 * fix/add/cleanup menu entry names and descriptions to be better understandable
 * need to properly auto-detect and set aspect ratio on games first startup (i.e. on a 1280x1024 screen aspect must be set to 5:4, not 4:3)
 * option menu entries are currently not in sync with gameconfig
