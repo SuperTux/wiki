@@ -75,7 +75,7 @@
 * icicle graphics for decoration purpose
 * editor doesn't align canon and icecrusher properly (grid is wrong)
 * new enemy type with more interesting walking pattern (follows Tux as long as Tux doesn't look, walks forward and backward, etc.), see Crystallo for a possible sprite
-* use pink snowball for stay on platform, use normal snowball for straight forward walk
+* <strike>use pink snowball for stay on platform, use normal snowball for straight forward walk</strike>
 
 == Week 5 ==
 
