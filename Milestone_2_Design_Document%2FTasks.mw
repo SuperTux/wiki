@@ -99,7 +99,7 @@
 * Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 * SuperTux should stand on the ground when a level starts, not fall down
 * level startup needs a fade-in, so does game startup, level abort and a few other places
-* the menu should shrink instead of just disappear
+* the menu should shrink instead of just disappear - sik0fewl
 * make aspect ration option menu thing work
 * draw a bigger arrow for when Tux is jumping out of the screen
 * add SuperTux idle animations (stage1: blinking with the eye, stage2: tipping with the food, stage3: scratching the head)
