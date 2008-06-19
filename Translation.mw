@@ -18,7 +18,7 @@
 
 * In English, there is only one singular second person form: "You". If your language has more than one - a '''personal''' and an '''impersonal''' form - remember that this is a game, so you should use the personal one. Note that if it can be '''omitted''' your language, you should probably do so.
 
-* Names like '''Super Tux, Tux, Gown or Nolok''' shouldn't be translated. If you really think one of these is too strange for your language, first inform us on our mailing list. Names of minor characters like '''Mr. Ice Block''' or '''Penny''' can (and should) be translated.
+* Names like '''SuperTux, Tux, Penny or Nolok''' should not be translated. If you really think one of these is too strange for your language, first inform us on our mailing list. Names of minor characters like '''Mr. Ice Block''' can (and should) be translated.
 
 * If somewhere in the game, after translating a string, it doesn't look well ('''bad aligment''', overlaps other text...), let us know and we will fix it.
 
@@ -34,8 +34,6 @@ There's a number of tools you can use to edit the .po files:
 * [http://poedit.sourceforge.net/ poEdit] - multi-platform po editor (runs on Windows and Unix/Linux)
 * QTranslator - comes with Qt, also multi-platform
 * (X)Emacs - commonly used for translation with the respective plugin
-* Notepad - a microsoft text editor.
-* Word Pad - open a file with .po, save it and open with notepad
 * Any text editor - of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header.
 
 == Translations ==
@@ -197,7 +195,7 @@ Please add yourself to this list if you are working on a new translation, so tha
 updated for 0.3.1 by Krishnamurti Lelis Lima Vieira Nunes
 | 0.3.0
 | r5389
-| 100%, sugestões são bem vindas. ;(
+| 100%, sugestões são bem vindas. ;)
 |-
 | Romanian
 | ro
