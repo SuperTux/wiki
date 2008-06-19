@@ -34,6 +34,8 @@ There's a number of tools you can use to edit the .po files:
 * [http://poedit.sourceforge.net/ poEdit] - multi-platform po editor (runs on Windows and Unix/Linux)
 * QTranslator - comes with Qt, also multi-platform
 * (X)Emacs - commonly used for translation with the respective plugin
+* Notepad - a microsoft text editor.
+* Word Pad - open a file with .po, save it and open with notepad
 * Any text editor - of course you can also simply use a text editor. Just make sure the file encoding really matches the stuff stated in the .po header.
 
 == Translations ==
