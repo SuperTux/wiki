@@ -18,7 +18,7 @@
 
 * In English, there is only one singular second person form: "You". If your language has more than one - a '''personal''' and an '''impersonal''' form - remember that this is a game, so you should use the personal one. Note that if it can be '''omitted''' your language, you should probably do so.
 
-* Names like '''SuperTux, Tux, Penny or Nolok''' should not be translated. If you really think one of these is too strange for your language, first inform us on our mailing list. Names of minor characters like '''Mr. Ice Block''' can (and should) be translated.
+* Names like '''Super Tux, Tux, Gown or Nolok''' shouldn't be translated. If you really think one of these is too strange for your language, first inform us on our mailing list. Names of minor characters like '''Mr. Ice Block''' or '''Penny''' can (and should) be translated.
 
 * If somewhere in the game, after translating a string, it doesn't look well ('''bad aligment''', overlaps other text...), let us know and we will fix it.
 
