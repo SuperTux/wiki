@@ -682,7 +682,7 @@ Bubble - float and pop in air
 
 What about a new glossy SuperTux. Or has he to be as all the other objects in wax crayon?
 
-[[Image:http://toxicbits.bplaced.net/body-walk-0.png]]
+[http://toxicbits.bplaced.net/body-walk-0.png Supertux]
 
 ==== Code ====
 * This comment (src/player.cpp:493) kind of confused me:
