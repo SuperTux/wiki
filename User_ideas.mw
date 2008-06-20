@@ -680,6 +680,10 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 ==== Art ====
 Bubble - float and pop in air
 
+What about a new glossy SuperTux. Or has he to be as all the other objects in wax crayon?
+
+[[Image:http://toxicbits.bplaced.net/body-walk-0.png]]
+
 ==== Code ====
 * This comment (src/player.cpp:493) kind of confused me:
 <code> // TODO: we don't have an animation for firetux backflipping, so let's revert to bigtux </code>
