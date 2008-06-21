@@ -551,14 +551,12 @@ Enter level with jump button.
 *: Already implemented in aforementioned [[User Manual#Secret Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 
 === Object blocks ===
-?-Blocks might contain items like trampolines or rocks, or maybe even enemies.
+!-Blocks might contain items like trampolines or rocks, or maybe even enemies.
 :Already implemented. Was used in early version of "down the rabbit hole".
-:Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[[User:MatzeB|MatzeB]] 10:45, 28 January 2007 (UTC)
-:Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[[User:WolfgangB|WolfgangB]] 11:24, 28 January 2007 (UTC)
+:Note that this isn't good style as users don't expect other things to come out of ! blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[[User:MatzeB|MatzeB]] 10:45, 28 January 2007 (UTC)
+:Up to now everything that comes out of an bonus block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[[User:WolfgangB|WolfgangB]] 11:24, 28 January 2007 (UTC)
 
-I've read these comments, but nevertheless I made an image. I think objects in ?-Blocks will be more "entertaining".
-
-[[Image:Blocks_containing_special_things.jpg]]
+I've read these comments, but nevertheless I made an image. I think objects in !-Blocks will be more "entertaining".
 
 === Change Blocks ===
 [[Image:Change_block.gif ]]
