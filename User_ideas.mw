@@ -551,12 +551,14 @@ Enter level with jump button.
 *: Already implemented in aforementioned [[User Manual#Secret Blocks|Secret Blocks]] --[[User:84.146.234.2|84.146.234.2]] 06:21, 18 Sep 2006 (BST)
 
 === Object blocks ===
-!-Blocks might contain items like trampolines or rocks, or maybe even enemies.
+?-Blocks might contain items like trampolines or rocks, or maybe even enemies.
 :Already implemented. Was used in early version of "down the rabbit hole".
-:Note that this isn't good style as users don't expect other things to come out of ! blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[[User:MatzeB|MatzeB]] 10:45, 28 January 2007 (UTC)
-:Up to now everything that comes out of an bonus block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[[User:WolfgangB|WolfgangB]] 11:24, 28 January 2007 (UTC)
+:Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[[User:MatzeB|MatzeB]] 10:45, 28 January 2007 (UTC)
+:Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[[User:WolfgangB|WolfgangB]] 11:24, 28 January 2007 (UTC)
 
-I've read these comments, but nevertheless I made an image. I think objects in !-Blocks will be more "entertaining".
+I've read these comments, but nevertheless I made an image. I think objects in ?-Blocks will be more "entertaining".
+
+[[Image:Blocks_containing_special_things.jpg]]
 
 === Change Blocks ===
 [[Image:Change_block.gif ]]
@@ -622,17 +624,17 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 *Jungle
 *Desert
 *Space
-*Sky-cloud world
+*Sky/cloud world?
 *Dark level where is night!
 *Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
 *Geeky computer/circuit board world - "Tux decided that the only way to get Penny back would be to hack into Nolok's computer..." well, worth a try.
 *:No. Not another so called "geek game". Kill evil Bill G. won't work with the existing storyline. --[[User:62.214.246.213|62.214.246.213]] 21:26, 23 Jul 2006 (BST)
 *:Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a complete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to frag Gates, go play XTux.--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 03:08, 28 Jul 2006 (BST)
-*:Tux could hack Nolok's computer to find out where Nolok will take Penny next.
+*:Tux could hack Nolok's computer to find out where Nolok will take Penny next?
 *Some of these ideas might be better served as minigames? Like the Zelda GB crane game, fishing game etc. and could be added to the shop idea (you either buy the item or try your hand at a minigame to get said item, or a not-for-sale special item). Some of those minigames could be hacked into SuperTux by designing levels in other games (PlanetPenguin Racer, Frozen Bubble etc.) which could reduce development time and needs for new graphics.
 *why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something [[User:Atomic1fire|Atomic1fire]] 02:35, 1 Jan 2007 (CET)
 *:Because they did that in "Tron" already.
-*Where's bonus island 3. The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (See Talk:Milestone1.9 under editor error)
+*Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (See Talk:Milestone1.9 under editor error)
 *:Go download "Tux Strikes Back". That's the closest thing we have. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 18:39, 23 March 2007 (UTC)
 
 ==== Other ====
@@ -966,14 +968,5 @@ I think that the current flame sprite sucks. I've designed a new one, maybe this
 
 [[image:ideas1.png|thumb|center|sketch1]]
 
-One sketch
-
 === Carrying Bird ===
-I think there should be a creature for example a bird that can carry you a few time through the air but can let you down unexpected.
-
-=== Still Alive Song ===
-by Jonathan Coulton. You should need to write screenshots for example for commodore sixty four
-If you have any questions, just email me
-[[Image:1.png|80|thumb|Part One]]
-[[Image:2.png|80|thumb|right|Part Two]]
-[[Image:3.png|80|thumb|right|Part Three]]
+I think there should be a creature (for example a bird?) that can carry you a few time through the air but can let you down unexpected.
