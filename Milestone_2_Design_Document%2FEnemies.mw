@@ -98,12 +98,11 @@ Spiky behaves the same as a normal Snowball, but he carries a helmet which makes
 Sleeping Spiky sleeps, when Tux comes near he activates and behaves like a normal Spiky. (Grumbel: Not sure that guy is a good idea)
 <br clear="all" />
 
-== SnowJumpy ==
+== Recoil, <strike>SnowJumpy</strike> ==
 
 [[Image:SnowJumpySprite.png|right]]
 Jumpy jumps up and down and stays stationary on the same position. His viewing direction might follow Tux. The string should react when hitting the ground.
 <br clear="all" />
-
 
 == Ice Fish / Fish == 
 
