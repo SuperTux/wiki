@@ -4,3 +4,4 @@ how do you download supertux
 there is a tux port for the openmoko linux phone project too
 
 I downloaded supertux with apt-get in ubuntu. Which is the executable, and where is it?
+: The executable is most probably called "supertux2", "supertux-stable" or "supertux" and should be located in /usr/games.
