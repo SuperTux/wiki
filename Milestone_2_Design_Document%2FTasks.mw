@@ -56,7 +56,7 @@
 ** <small>Anything in particular? - [[User:Sik0fewl|sik0fewl]] 20:07, 15 June 2008 (UTC)</small>
 * reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
 * Editor: sort (new) layers by z-value
-* Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector or at least a hint in the status bar.
+* Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector <strike>or at least a hint in the status bar</strike>.(status bar done)
 * finish editor improvements (MatzeB)
 * editor doesn't align canon and icecrusher properly (grid is wrong)
 * fix editor so that it works without a mouse wheel
