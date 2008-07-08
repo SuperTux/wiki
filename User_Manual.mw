@@ -153,6 +153,10 @@ Normally, Tux will only bounce up and down a little bit on a trampoline. To make
 
 These are blocks that look pale and are not solid unless tux brings a carryable lantern of the same color as the block near the block. The lanterns also double as a light source which allows Tux to see in dark areas.
 
+=== Wind (SuperTux 0.3 only) ===
+
+The Wind transports Tux in another position. Levels with Wind: "Bouncy Coils", "Treasure in the skies", "Tree sheets in the wind" and "A Village in the Forest".
+
 <br style="clear: both;" />
 
 == Further Reading ==
