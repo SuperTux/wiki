@@ -25,7 +25,7 @@ Hints:
 
 == Level designers ==
 
-Your level should comply with the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/docs/levelguidelines.txt?view=markup level guidelines] set by the SuperTux team. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
+Your level should comply with the [[Milestone 2 Design Document/Styleguide|level guidelines]] set by the SuperTux team. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
 
 == Programmers ==
 
