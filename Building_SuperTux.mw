@@ -36,7 +36,7 @@ to install them.
 
 == Gentoo ==
 Gentoo users should run
- emerge -avn subversion jam openal physfs libsdl sdl-image libvorbis libogg
+ emerge -avn subversion ftjam media-libs/openal physfs libsdl sdl-image libvorbis libogg
 and (if you want the Add-on Manager)
  emerge -avn curl
 
