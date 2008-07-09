@@ -5,3 +5,7 @@ All of these issues are on MAC OS X 10.4, with the full set of developer tools i
 •I CANNOT get PhysFS 1.0.1 to compile (although 1.1.0 compiles perfectly.)
 
 •LibJpeg and libPNG are being recalcitrant as well. More details soon, although if someone has a generalized solution...
+
+== Gentoo ==
+
+It should be "emerge -avn subversion ftjam media-libs/openal physfs libsdl sdl-image libvorbis libogg". Page is locked so I cannot edit it myself.
