@@ -6,6 +6,7 @@
 *:http://sourceforge.net/mailarchive/message.php?msg_id=Pine.LNX.4.50.0407311832440.2887-100000%40kiff.local
 *:http://pingus.seul.org/~grumbel/tmp/md5/6a7e3ff759ad7ca802ec8fcb2e96b9e5-supertux-rus-files2.tar.bz2
 * Chinese fonts (for Lsz's translations)
+*: See http://lists.lethargik.org/htdig.cgi/supertux-devel-lethargik.org/attachments/20070415/4e94d8a8/attachment-0001.png
 
 == Code Tasks ==
 * separate lisp reader, tinygettext and other libraries properly out of SuperTux
