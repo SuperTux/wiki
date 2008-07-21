@@ -1,10 +1,12 @@
-If you have created your own level, then you can place a link to them here.
+If you have created your own levels, and wish to release them, then you can place a link here.
+
+== Addons ==
+The development version has the ability to automatically download some specially packaged levels, known as "addons". Simply ensure you have an internet connection, and select "Addons" from the main menu, where you can choose to install the 3 addons currently available.
 
 == SVN ==
-You can download the Development status [http://supertux.lethargik.org/svn/supertux/trunk/supertux/data/levels/test here]
-
-
+You can download the SVN test levels from
+[http://supertux.lethargik.org/svn/supertux/trunk/supertux/data/levels/test here] and also from [http://supertux.lethargik.org/svn/supertux/trunk/supertux/data/levels/test_old here]. Note that you can't win in most of them, some are unplayable, others require the latest SVN build to play at all, and still more are ugly or demonstrate bugs. Some are slightly interesting, however, so if you want to look at the progress from Milestone1, these are a good starting point.
 
 == External links ==
 
-* [http://www.supertux.info/pmlvls.php SuperTux Fan Site]
+* [http://www.supertux.info/pmlvls.php SuperTux Fan Site Levels]
