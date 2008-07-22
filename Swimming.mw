@@ -4,18 +4,19 @@ Before implementing swimming there are some details that need to be specified:
 
 * What can tux do in water?
 
-Swim left, swim right, dive.
+Swim left, swim right, dive, and porpoise.
 
 Tux could be able to move a lot faster in water than on land, and he could be able to jump higher when jumping out of a pool of water - like real penguins.
 
 * How does he leave the pool, ie. how high can Tux jump while swimming?
+** By jumping when near the surface.
 
 * What happens to existing levels, especially in situations where the water is on the bottom of a shaft with no way to climb out?
 
 == Breathing ==
 I don't know if penguins can breath underwater, but maybe Tux need swim to surface to breath sometimes...
 * They can hold their breaths for up to 12 minutes. Good enough?
-
+**It depends on the penguin. Adélie's--like Tux--can hold their breaths for 15 minutes. I seriously doubt he would be underwater for that long. You probably won't be making a level as long as "Moving On," (an EXTREMELY long--7000+ length, level made by a friend) all the way below the surface of the water.
 == Proposal 1 ==
 
 My idea of a cool swimming mode would be that as soon as tux is in water, he jumps to the side so he lies on his belly (that's how penguins swim if you've ever watched them in the zoo :)
