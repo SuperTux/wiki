@@ -250,15 +250,15 @@ Bob
 
 IMHO, of course:
 
-- the title screen music has better sounding instruments in 0.1.2
-- when you hit your head on a block in 0.3 it looks like your head has become embedded in the block (the effect can be seen on the very first info block)
-- 0.1.2 uses a lower resolution, which makes everything look bigger and more cartoony and hence in my opinion better
-- in 0.1.2 you can speed up the intro rather than being forced to watch it
-- the intro in 0.1.2 actually has a story. The intro in 0.3 is just a camera that moves around in the sky for several aeons with nothing happening, and then moves around on the ground for several aeons with nothing happening, and then suddenly the level starts
-- your remaining lives and your current score are displayed on screen in 0.1.2
-- the rotating coin sprite looks too shiny and computer-rendered in 0.3, and so doesn't fit in so well with the rest of the art, which is all hand drawn
+* the title screen music has better sounding instruments in 0.1.2
+* when you hit your head on a block in 0.3 it looks like your head has become embedded in the block (the effect can be seen on the very first info block)
+* 0.1.2 uses a lower resolution, which makes everything look bigger and more cartoony and hence in my opinion better
+* in 0.1.2 you can speed up the intro rather than being forced to watch it
+* the intro in 0.1.2 actually has a story. The intro in 0.3 is just a camera that moves around in the sky for several aeons with nothing happening, and then moves around on the ground for several aeons with nothing happening, and then suddenly the level starts
+* your remaining lives and your current score are displayed on screen in 0.1.2
+* the rotating coin sprite looks too shiny and computer-rendered in 0.3, and so doesn't fit in so well with the rest of the art, which is all hand drawn
 
 also, things that are stupid in both versions:
-- the death noise is dumb - it dounds like someone slamming a car door
+* the death noise is dumb - it sounds like someone slamming a car door
 
 Mr Kite
