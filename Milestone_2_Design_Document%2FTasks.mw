@@ -60,7 +60,7 @@
 * Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector <strike>or at least a hint in the status bar</strike>.(status bar done)
 * finish editor improvements (MatzeB)
 * editor doesn't align canon and icecrusher properly (grid is wrong)
-* <strike>fix editor so that it works without a mouse wheel</strike> (WolfgangB)
+* <strike>fix editor so that it works without a mouse wheel</strike> (done, WolfgangB)
 * add 'recent files' to level editor
 
 == Meta / Organization ==
