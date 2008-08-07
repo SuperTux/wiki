@@ -1,2 +1,1077 @@
 <blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Wiki Sandbox!''' Please feel free to conduct your experiments with formatting and and editing skills on this page. You may place anything here; however, nothing copyrighted, offensive, or related to spam. To edit this page, click on the '''edit''' button on the top of the page. Nothing is permanent, as this page is cleaned every few days.'' </blockquote>
 <!-- Please test ONLY after this line. Do not remove anything above this. Thank you! -->
+Style is page layout, baby! Or in another word: formatting. Here we deal with format elements like content structuring, borders, page color, etc.  Well, there's a little more to style than that, and the rest is covered here too...
+
+== Skins ==
+* [[m:Gallery of user styles|Gallery of user styles]]
+
+== Layout themes ==
+
+=== Article format ===
+
+The default format for user pages is the ''article format''.  That is, standard headings, paragraphs, bulleted lists, etc.  But an article-styled user page need not look drab, and is more than adequate for presenting information about yourself.  Since it is so easy, it's a perfect place to start. See the following user pages as examples of well-developed user pages in article format:
+
+* [http://en.wikipedia.org/w/index.php?title=User:Antandrus&oldid=89682832 Antandrus' user page]
+* [http://en.wikipedia.org/w/index.php?title=User:Schuminweb&oldid=90076463 Schuminweb's user page]
+* [http://en.wikipedia.org/w/index.php?title=User:Zscout370&oldid=90058615 Scout370's user page]
+
+=== Menu format ===
+*[[User:Darkfalls]]
+
+=== Table formats ===
+*Main Page format
+*Custom Portal format
+*Custom table format
+**With menu
+**Without menu
+
+== Format elements ==
+
+=== Creating page title headers ===
+<div style="padding: 1px; background: #F93; border: width: 100px; -moz-border-radius:15px; font-size: 11pt;">
+
+'''''Note: This method is a hack which does not work with all Wikipedia skins. For example, users of the Classic skin will have the links at the top of the page covered up by the title.'''''
+
+Title headers are headers that cover up the default header at the top of a page. The default title header has the name of the page in big bold letters. If you don't like the default, follow the instructions below
+:1.First, create a user subpage (described in [[Wikipedia:WikiProject User Page Help/Do-It-Yourself/Making Subpages|this section]]) titled "User:Example User/Header"
+:2.Then, copy the following code into the subpage and change the parts that you can change (for example, the part that says "HEADER TEXT YOU WANT")
+
+{|style="background-color: #def; padding: 3px; border: 1px solid #888;"
+|<tt><nowiki>
+{| style="position:absolute; top:0; width:100%; background:#F8FCFF; color:#888;" valign="middle"
+|-
+|[[Image:OPTIONAL IMAGE.jpg|38px]]
+<h1 style="margin:0; border-bottom:0; color:COLOR OF TEXT;">
+HEADER TEXT YOU WANT
+|}
+</nowiki></tt>
+|}
+:3. Transclude the header onto your userpage (transcluding was described in the making subpages section)
+:4. Follow [[Wikipedia:WikiProject User Page Help/Do-It-Yourself/Title Headers/Example|this link]] to see an example of the header. It will be at the top-left side of the page.
+</div>
+
+=== Borders ===
+Borders look nice.  Borders add spice.  And they're the right price.
+
+The examples below include closing codes, which may make it difficult to utilize them on talk pages.  To have borders and backgrounds extend to the end of the page regardless of what is added, simply leave off the closing codes (<nowiki></div>, </tr>, </td>, |}</nowiki>) at the end of the border markup examples.
+
+Some example borders:
+
+<div style="padding: 10px; background: #DEB887; border: 1px solid #FFAA99; font-family: Trebuchet MS, sans-serif; font-size: 95%;">
+{| style="text-align:center; border: 1px solid #C9765A; background-color:#E9967A"
+|- padding:1em;padding-top:0.5em;" 
+! style="font-family: Trebuchet MS, sans-serif; color: #EEEEFF; font-size: x-large; line-height: 1.3em;" colspan="2"|''Welcome!''
+
+<font size=#2>''<center>[[User:The Transhumanist|User Page]] [[Wikipedia:Department directory|·]] [[User talk:The Transhumanist|Talk page]] [[Wikipedia:Tip of the day|·]]  [[User_talk:The Transhumanist/Archive menu|Archive]] [[Wikipedia:List of policies|·]] [[User:The Transhumanist#Awards|Awards]] [[Wikipedia:List of guidelines|·]] [[Special:Contributions/The Transhumanist|Contributions]] [[Wikipedia:Navigational templates|·]] <span class="plainlinks">[http://tools.wikimedia.de/~interiot/cgi-bin/Tool1/wannabe_kate?username=The+Transhumanist&site=en.wikipedia.org Edit count]</span> [[Wikipedia:Shortcuts|·]] [[User:The Transhumanist/Sandbox|Sandbox]]</font></center>'' 
+|-
+| style="text-align:left; padding: 8px; background-color:#FAEBD7"|
+Sample text Sample text Note that this frame will only extend as far as your text, so you have to have at lease one complete line of text.  Sample text Sample text Sample text.  The body of your user page would go in here (that is, text, pics, etc.).
+|}
+</div>
+
+{{-}}
+----
+{{-}}
+
+<div style="padding: 0px; background: #f5deb3; border-style: ridge; border-width: 5px; border-color: #C6AEC7;"> 
+<table cellspacing="4" cellpadding="2" style="background: #87CEFA">
+<tr><td valign="top"><div style="background: #66CDAA; border-style: ridge; border-width: 2px; border-color: #EBDDE2; padding: 1em; text-align: justify;">
+{| border="1" cellpadding="30" width="100%"
+|align="center" bgcolor="#4682B4" width="80%"|{{POTD}}
+
+|}
+
+<br>
+{{Userpage}}
+</td></tr></table></div>
+
+: ''The above design is best used for short pages, as it mimicks a picture frame. It would work well for images, awards, etc.
+
+
+{| 
+<!--                                                                                    -->
+<!-- -------------------------------BEGIN TABLE ONE------------------------------------ -->
+<!--                                                                                    -->
+<!--                                                                                    -->
+{| width=100% style="{{Round corners}}; padding: 5px; background:orange; border: solid 4px red;"
+<!--                                                                                    -->
+<!-- ----------------------------BEGIN NESTED TABLE ----------------------------------- -->
+<!--                                                                                    -->
+<!--                                                                                    -->
+{| width=100% cellspacing=0 style="{{Round corners}}; background: lime; border: solid 4px yellow;" 
+| width=75% valign="top" style="{{Round corners}}; padding-right: 15px; background:#fffff6; border: 0;" | 
+|}
+|}
+<!--                                                                                    -->
+<!-- --------------------END TABLE ONE / BEGIN TABLE TWO------------------------------- -->
+<!--                                                                                    -->
+{| width=100% style="{{Round corners}}; padding: 4px; background:orange; border: solid 6px yellow"
+|-
+||
+{| width=100% cellspacing=2 cellpadding=0 style="{{Round corners}}; padding: 4px; background: #bb00ee; border: solid 6px red;" 
+|-
+||
+{| width=100% cellspacing=2 cellpadding=2px style="{{Round corners}}; padding: 0; background: lime; border: solid 5px blue;" 
+||
+<!--                                                                                    -->
+<!-- ---------------------------------START Nested Table 1----------------------------- -->
+<!--                                                                                    -->
+{| width=100% cellspacing=2 cellpadding=5px style="margin-bottom:-1px; background: transparent; border: none;" 
+
+<br>
+<center>How's this for a border?</center>
+|}
+|}
+|}
+|}
+|}
+
+<!-- Design end here -->
+<!-- Design starts here -->
+
+{| style="width: 100%; background-color: #FFFFFF; border: 3px solid #88EE88; margin-bottom: 8px; vertical-align: top;"
+| colspan=3 style="vertical-align:top" |
+<center>
+Place your navbar here
+</center>
+
+<div style="padding:10px; text-align: right; margin-bottom:-11px;"></div>
+{| cellpadding="1" cellspacing="1" style="width: 100%; background-color: #FFFFFF; vertical-align: top;"
+| colspan="2" style="padding: 0;" |
+|-
+| style="width: 100%; vertical-align: top;" |
+{| border="0" cellspacing="0" cellpadding="0" width="100%"
+| style="background-color:#ffffff;" width="0" |
+{| style="width="30%"; font-size:95%; text-align: justify;" padding:-2px; background:FFFFFF" cellpadding="0" cellspacing="0"
+| rowspan="1" width="30%" colspan="2" height="37px" valign="top" style="background:#FFFFFF; border:2px solid #FFFF00; border-bottom:0; padding:0; padding-right:1em; margin:0; -moz-border-radius-topright:1em" | [[Image:Original_Barnstar.png|45px]] <div style="margin-top: -20px; padding-left:3px">[[Image:Original_Barnstar.png|25px]]</div><div style="padding-left:55px; margin-top:-36px; font-size:130%">'''''Hi&nbsp;there'''''</div>
+|}
+| style="border-bottom:2px solid #FFFF00; background:#FFFFFF;" width="8" | &nbsp;
+| style="border-bottom:2px solid #FFFF00; background:#FFFFFF;" width="100%"| &nbsp;
+|}
+{| style="width:100%; margin-bottom:.5em; font-size:95%; text-align: justify;" padding:-2px; background:FFFFFF" cellpadding="0" cellspacing="0"
+| rowspan="1" width="100%" colspan="2" valign="top" style="background:#FFFFFF; border:2px solid #FFFF00; border-bottom:0; border-top:0; padding:0; margin:0" |
+<div style="padding:10px; text-align: justify;">
+
+TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT<br>
+TEXT TEXT To customize, change the border colors. TEXT TEXT<br>
+TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT<br> 
+TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT 
+
+|-
+| colspan="2" class="radius_bottom" style="background:#EEEE82; border:2px solid #FFFF00" | <div style="font-size:0">[[image:pix.gif|15px]]</div>
+
+|}
+|}
+<div style="padding:10px; text-align: right; margin-bottom:-11px;"></div>
+{| cellpadding="1" cellspacing="1" style="width: 100%; background-color: #FFFFFF; vertical-align: top;"
+| colspan="2" style="padding: 0;" |
+|-
+| style="width: 100%; vertical-align: top;" |
+{| border="0" cellspacing="0" cellpadding="0" width="100%"
+| style="background-color:#ffffff;" width="0" |
+{| style="width="30%"; font-size:95%; text-align: justify;" padding:-2px; background:FFFFFF" cellpadding="0" cellspacing="0"
+| rowspan="1" width="30%" colspan="2" height="37px" valign="top" style="background:#FFFFFF; border:2px solid #FFFF00; border-bottom:0; padding:0; padding-right:1em; margin:0; -moz-border-radius-topright:1em" | [[Image:Original_Barnstar.png|45px]] <div style="margin-top: -20px; padding-left:3px">[[Image:Original_Barnstar.png|25px]]</div><div style="padding-left:55px; margin-top:-36px; font-size:130%">'''''What's&nbsp;up?'''''</div>
+|}
+| style="border-bottom:2px solid #FFFF00; background:#FFFFFF;" width="8" | &nbsp;
+| style="border-bottom:2px solid #FFFF00; background:#FFFFFF;" width="100%"| &nbsp;
+|}
+{| style="width:100%; margin-bottom:.5em; font-size:95%; text-align: justify;" padding:-2px; background:FFFFFF" cellpadding="0" cellspacing="0"
+| rowspan="1" width="100%" colspan="2" valign="top" style="background:#FFFFFF; border:2px solid #FFFF00; border-bottom:0; border-top:0; padding:0; margin:0" |
+<div style="padding:10px; text-align: justify;">
+
+TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT <br>
+TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT <br> 
+TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT <br>
+TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT 
+
+|-
+| colspan="2" class="radius_bottom" style="background:#EEEE82; border:2px solid #FFFF00" | <div style="font-size:0">[[image:pix.gif|15px]]</div>
+
+|}
+|}
+|}
+
+=== Round corners ===
+
+As of November 2006, only Mozilla (Firefox) supports round corners.  To add round corners to a box or frame, include the {{tl|Round corners}}; template (just as shown, including semi-colon) as a style parameter.  Note that the element to be rounded must have a border in the first place.  Here's a markup example:
+
+ <nowiki><div style="border:1px solid #5599FF; {{Round corners}}; margin: 5px;">
+sample text sample text sample text sample text
+</div>
+</nowiki>
+
+To see the specific code for creating round corners, see [[Template:Round corners]].
+
+For a cool example of the use of round corners, see [http://en.wikipedia.org/w/index.php?title=User:Zeerus&oldid=86840495 Zeerus' user page]
+
+=== Color ===
+{{main|Web colors}}
+
+{{web colors}}
+
+==== Change page color with CSS ====
+To change the color of your user page, simply age the following code, replacing the Capatilized text with the desired [[web colors]]:
+
+<nowiki>{| 
+| style="background:BACKGROUND COLOR; color:TEXT COLOR" |</nowiki>
+
+=== Contents ===
+
+To suppress the automatic table of contents box from appearing on your userpage, place the following line somewhere on your userpage:
+
+<nowiki>__NOTOC__</nowiki>  <!-- To use this on your user page, remove the nowiki codes.  -->
+
+To have the table of contents box float to the right, place the following line where you want the toc to appear:
+
+<nowiki>{{tocright}}</nowiki>  <!-- To use this on your user page, remove the nowiki codes.  -->
+
+==== Scroll boxes ====
+To create a scrollbox, use the "overflow:auto" style code.  Be sure to also specify a "height: nnpx", where nn is the height you want.  Here's an example of one 150px tall:
+
+<div style="height: 150px; overflow:auto; border: thin solid blue; background: white">
+*What is the [[meaning of life]]?  And what does that question mean?
+*Where is the line between [[life]] and non-life?
+*Where does [[choice]] come from?
+*Why is life proactive, as opposed to nonlife, which simply obeys the laws of [[physics]], without using [[energy]] to—say—defy gravity?
+*Can [[emotion]] be programmed?
+*Where do we feel?
+*Why does [[Portal:Art|art]] move us?
+*What makes us want to be better, to have [[purpose]]?
+*Who are you and what do you want?
+** That is, who are you, really?  The true you, deep inside.
+** And what do you really want (but for whatever reason haven't committed to getting)?
+</div>
+
+=== Show/Hide sections ===
+Here's an example of collapsed/expandable sections:
+
+<div class="NavFrame" style="border-style: none; padding: 0px; font-size: 100%;">
+<div class="NavFrame" style="border-style: none; text-align: left; border: #3232CD solid 2px; -moz-border-radius: 10px; padding: 5px; font-size: 85%;">
+<div class="NavHead" style="{{Round corners}}; background: #dcc5fc;  text-align: center; padding: 2px; font-size: 160%;"><font face="arial" color="#6B00A8" size="+1"><b>About me</b></font></div>
+<div class="NavContent" style="background: #EEEEFF; display: none; font-size: 100%;">
+<!--                       Display area is below                                  -->                                                    
+
+Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. Sample text. 
+
+<!--                       Display area is above                                  -->                                                    
+</div></div></div><br />
+
+<div class="NavFrame" style="border-style: none; padding: 0px; font-size: 100%;">
+<div class="NavFrame" style="border-style: none; text-align: left; border: #3232CD solid 2px; -moz-border-radius: 10px; padding: 5px; font-size: 85%;">
+<div class="NavHead" style="{{Round corners}}; background: #dcc5fc; text-align: center; padding: 2px; font-size: 160%;"><font face="arial" color="#6B00A8" size="+1"><b>Subpages</b></font></div>
+<div class="NavContent" style="background: #EEEEFF; display: none; font-size: 100%;">
+<!--                       Display area is below                                  -->                                                    
+
+*'''[[User:The Transhumanist/Sandbox|Sandbox]]'''
+*'''[[User:The Transhumanist#Contributions / History|My favorite contributions]]'''
+*'''[[User:The Transhumanist/User page design/Examples|User page links]]'''
+*'''[[User:The Transhumanist#Awards|Awards, thank yous, and such]]'''
+*'''[[User:The Transhumanist/About me|Userboxes]]'''
+
+<!--                       Display area is above                                  -->                                                    
+</div></div></div><br />
+
+<div class="NavFrame" style="border-style: none; padding: 0px; font-size: 100%;">
+<div class="NavFrame" style="border-style: none; text-align: left; border: #3232CD solid 2px; -moz-border-radius: 10px; padding: 5px; font-size: 85%;">
+<div class="NavHead" style="{{Round corners}}; background: #dcc5fc; text-align: center; padding: 2px; font-size: 160%;"><font face="arial" color="#6B00A8" size="+1"><b>To do</b></font></div>
+<div class="NavContent" style="background: #EEEEFF; display: none; font-size: 100%;">
+<!--                       Display area is below                                  -->                                                    
+
+#fly
+#ride an orca
+#visit the moon
+#achieve immortality or the closest thing to it
+
+<!--                       Display area is above                                  -->                                                    
+</div></div></div><br />
+
+<div class="NavFrame" style="border-style: none; padding: 0px; font-size: 100%;">
+<div class="NavFrame" style="border-style: none; text-align: left; border: #3232CD solid 2px; -moz-border-radius: 10px; padding: 5px; font-size: 85%;">
+<div class="NavHead" style="{{Round corners}}; background: #dcc5fc; text-align: center; padding: 2px; font-size: 160%;"><font face="arial" color="#6B00A8" size="+1"><b>Licensing</b></font></div>
+<div class="NavContent" style="background: #EEEEFF; display: none; font-size: 100%;">
+<!--                       Display area is below                                  -->                                                    
+
+<div style="background-color:#c5fcdc; font-color:#00A86B; line-height:1.5; border-width:4px; border-style:solid; border-color:#EEFFEE">
+
+I authorize all my mainspace contributions under the Multi-licensed with the Creative Commons Attribution Share-Alike License versions 1.0 and 2.0. I'll authorize usage to all other spaces and any talk page post upon request and at my discretion. 
+
+{{DualLicenseWithCC-BySA-Dual}}
+</div>
+
+<!--                       Display area is above                                  -->                                                    
+</div></div></div><br />
+
+=== Action links ===
+
+=== Switched features ===
+
+=== Boxes ===
+*To make a box, do the following:
+#Type '''<nowiki><div style="background-color:COLOR YOU WANT;"></nowiki>''' before the text
+#Choose the color (Check out these pages: [[List of colors|<nowiki>[1]</nowiki>]][[X11 color names|<nowiki>[2]</nowiki>]][[Web colors|<nowiki>[3]</nowiki>]]  for a full list of colors you can use)
+#Type your text
+#Type '''<nowiki></div></nowiki>''' after the text
+*Overall, your code should look like this:
+::'''<nowiki><div style="background-color:yellow;">Hi</div></nowiki>'''
+*Which will look like:
+<div style="background-color:yellow;">Hi</div>
+
+===Curved borders===
+*To make borders curved (only works in Mozilla-based browsers) add the following code to the code described in the previous section:
+*'''<nowiki>-moz-border-radius:15px;</nowiki>'''
+*So, now your code should look like <nowiki><div style="background-color:DarkGoldenrod; </nowiki>'''-moz-border-radius:15px;'''<nowiki>">Hi</div></nowiki>
+*Which would show up as 
+<div style="background-color:DarkGoldenrod; -moz-border-radius:15px;">&nbsp; Hi, I'm trying to get your attention and differentiate my message on the page. &nbsp;</div>
+
+== Text formatting ==
+
+<center>'''<big>Here are some tips on how to format your text:</big>'''</center>
+
+===Center-Align===
+
+*To center text, use the following code:
+
+#Enter '''<nowiki><div style="text-align: center;"></nowiki>'''
+#Then enter your text
+#Finally, enter '''<nowiki></div></nowiki>'''
+
+*Overall, your code should look like this:
+
+'''<nowiki><div style="text-align: center;">
+Centered text
+</div></nowiki>'''
+
+*Once you have entered that code, your text will look like this:
+<div style="text-align: center;">
+Centered text
+</div>
+
+===Strike Through Text===
+*To strike through text, use the following code:
+
+#Enter a '''<nowiki><s></nowiki>''' before the text.
+#Enter the text
+#Enter a '''<nowiki></s></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><s>blah blah blah</s></nowiki>'''
+
+*Once you have entered that code, your text will look like this:
+'''<s>blah blah blah</s>'''
+
+===Superscript===
+*To insert a superscript, use the following code:
+
+#Enter a '''<nowiki><sup></nowiki>''' before the text.
+#Enter the text
+#Enter a '''<nowiki></sup></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+<nowiki><sup>blah blah blah</sup></nowiki>
+
+*Once you have entered that code, your text will look like this:
+blah blah blah '''<sup>blah blah blah</sup>'''
+
+===Subscript===
+*To insert, use the following code:
+
+#Enter a '''<nowiki><sub></nowiki>''' before the text.
+#Enter the text
+#Enter a '''<nowiki></sub></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><sub>blah blah blah</sub></nowiki>'''
+
+*Once you have entered that code, your text will look like this:
+blah blah blah '''<sub>blah blah blah</sub>'''
+
+===Hidden Comment===
+*To insert a hidden comment, use the following code:
+
+#Enter a '''<nowiki><!-- </nowiki>''' before the text.
+#Enter the text
+#Enter a '''<nowiki> --></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><!-- blah blah blah--></nowiki>'''
+
+*You will not be able to see the text on this page, but it will be seen when you try to edit this page. Hidden text is mostly used for warnings.
+
+===Secondary Headline===
+
+*To insert a secondary headline, use the following code:
+
+#Enter a '''<nowiki>==</nowiki>''' before the text.
+#Enter the text
+#Enter a '''<nowiki>==</nowiki>''' after the text.
+
+*Overall, your code should look like this:
+<nowiki>==blah blah blah==</nowiki>
+
+Headline overview:
+=Header 1=
+==Header 2==
+===Header 3===
+====Header 4====
+=====Header 5=====
+======Links======
+{| {{Prettytable}}
+|-
+|{{Hl3}}|'''Description'''
+|{{Hl3}}|'''You type'''	
+|{{Hl3}}|'''You get'''
+|-
+|Internal link
+|<tt><nowiki>[[Main Page]]</nowiki></tt>
+|[[Main Page]]
+|-
+|Category link
+|<tt><nowiki>[[:Category:Help]]</nowiki></tt>
+|[[:Category:Help]]
+|-
+|Piped link 
+|<tt><nowiki>[[Main Page|different text]]</nowiki></tt>
+|[[Main Page|different text]]
+|-
+|Anchor link 
+|<tt><nowiki>[[#External links|Anchor link]]</nowiki></tt>
+|[[#External links|Anchor link]]
+|-
+|External link
+|<tt><nowiki>http://mediawiki.org</nowiki></tt>
+|http://mediawiki.org
+|-
+|Internal link to image file
+|<tt><nowiki>[[media:example.jpg]]</nowiki></tt>
+|[[media:example.jpg]]
+|-
+|External link,<br />
+different title
+|<tt><nowiki>[http://mediawiki.org MediaWiki]</nowiki></tt>
+|[http://mediawiki.org MediaWiki]
+|-
+|External link,<br />
+unnamed
+|<tt><nowiki>[http://mediawiki.org]</nowiki></tt>
+|[http://mediawiki.org]
+|-
+|External link,<br />
+same host unnamed
+|<tt><nowiki>[http://{{SERVERNAME}}/pagename]</nowiki></tt>
+|[http://{{SERVERNAME}}/pagename]
+|-
+|Interwiki link
+|<tt><nowiki>[[Wikipedia:MediaWiki]]</nowiki></tt>
+|[[Wikipedia:MediaWiki]]
+|-
+|mailto
+|<tt><nowiki>mailto:info@example.org</nowiki></tt>
+|mailto:info@example.org
+|-
+|mailto unnamed
+|<tt><nowiki>[mailto:info@example.org]</nowiki></tt>
+|[mailto:info@example.org]
+|-
+|mailto named
+|<tt><nowiki>[mailto:info@example.org info]</nowiki></tt>
+|[mailto:info@example.org info]
+|-
+|mailto named with subject line
+|<tt><nowiki>[mailto:info@example.org?Subject=URL%20Encoded%20Subject info]</nowiki></tt>
+|[mailto:info@example.org?Subject=URL%20Encoded%20Subject info]
+|-
+|redirect
+|<tt><nowiki>#REDIRECT [[Main Page]]</nowiki></tt>
+| &rarr; [[Main Page]]
+|}
+
+===Tab===
+*To insert a tab, use the following code:
+
+#Enter a '''<nowiki>::</nowiki>''' before the text.
+
+*Overall, your code should look like this:
+'''<nowiki>::blah blah blah</nowiki>'''
+
+*Once you have entered that code, your text will look like this:
+::blah blah blah
+
+===Font Color===
+*To change the color of text, use the following code:
+
+#Enter a '''<nowiki><span style="color: ColorName"></nowiki>''' before the text.
+#Choose the color
+#Enter the text
+#Enter a '''<nowiki></span></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><span style="color: red">blah blah blah</span></nowiki>'''
+
+*Once you have entered that code, your text will look like this:
+<span style="color: red">blah blah blah</span>
+
+----
+
+*Another way to do it is:
+
+#Enter a '''<nowiki><font color="ColorName"></nowiki>''' before the text.
+#Choose the color
+#Enter the text
+#Enter a '''<nowiki></font></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><font color="red">blah blah blah</font></nowiki>'''
+
+*Once you have entered that code, your text will look like this:
+<font color="red">blah blah blah</font>
+
+===Mouse Cursor===
+*To change the cursor of the mouse when you hover over text, do the following:
+
+#Enter a '''<nowiki><span style="cursor:CURSOR YOU WANT;"></nowiki>''' before the text.
+#Choose the cursor, (e.g. crosshair, default)
+#Enter the text
+#Enter a '''<nowiki></span></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><span style="cursor: crosshair;">blah blah blah</span></nowiki>'''
+
+*Once you have entered that code, and you put the mouse over the text, it should have a different mouse cursor:
+<span style="cursor: crosshair">blah blah blah</span>
+
+===Links===
+*To make external links look internal, use the following
+
+#Enter a '''<nowiki><span class="plainlinks"><font color="002bb8"></nowiki>''' before the text.
+#Enter the external link
+#Enter a '''<nowiki></font></span></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><span class="plainlinks"><font color="002bb8">[http://example.com external link]</font></span></nowiki>'''
+
+*Once you have entered that code, the external link should look like this:
+<span class="plainlinks"><font color="002bb8">[http://example.com external link]</font></span>
+
+*Note that if someone is using a custom skin that specifies different link colors, for example green for internal links, and purple for "redlinks," a link formatted with this code will still look blue, and not match other links in appearance, to that user.
+
+===Bolding===
+*To make text bold, do the following:
+
+#Enter 3 apostrophes '''<tt><nowiki>'''</nowiki></tt>''' before the text.
+#Enter the text
+#Enter 3 more apostrophes '''<tt><nowiki>'''</nowiki></tt>''' after the text.
+
+*Overall, your code should look like this:
+<tt><nowiki>'''</nowiki></tt>text<tt><nowiki>'''</nowiki></tt>
+
+*Once you have entered that code, the text should look like this:
+'''text'''
+
+===Italics===
+*To italicize text, do the following:
+
+#Enter 2 apostrophes '''<tt><nowiki>''</nowiki></tt>''' before the text.
+#Enter the text
+#Enter 2 more apostrophes '''<tt><nowiki>''</nowiki></tt>''' after the text.
+
+*Overall, your code should look like this:
+<tt><nowiki>''</nowiki></tt>text<tt><nowiki>''</nowiki></tt>
+
+*Once you have entered that code, the text should look like this:
+''text''
+
+===Underlining===
+*To make underline text, do the following:
+
+#Enter '''<nowiki><u></nowiki>''' before the text.
+#Enter the text
+#Enter '''<nowiki></u></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><u>text</u></nowiki>'''
+
+*Once you have entered that code, the text should look like this:
+<u>text</u>
+
+===Font size===
+*To make text a certain size, use the following code:
+
+#Enter a '''<nowiki><font size="4"></nowiki>''' before the text.
+#Choose the size
+#Enter the text
+#Enter a '''<nowiki></font></nowiki>''' after the text.
+
+*Overall, your code should look like this:
+'''<nowiki><font size="4">blah blah blah</font></nowiki>'''
+
+*Once you have entered that code, your text will look like this:
+<font size="4">blah blah blah</font>
+
+==Font Families==
+*To use the following font families, use the codes below:
+#'''<nowiki><span style="font-family: (desired font); font-size: 12pt"></nowiki>'''
+#Enter the font you want
+#Directly after the code, enter your text
+#Enter '''<nowiki></span></nowiki>'''after the text
+
+So, it should look like:
+
+'''<nowiki><span style="font-family: Monotype Corsiva; font-size: 12pt">Blah blah blah</span></nowiki>'''
+
+Which will turn out as:
+
+<span style="font-family: Monotype Corsiva; font-size: 12pt">Blah blah blah</span>
+
+====List of Fonts====
+
+{| cellpadding=4 cellspacing=0 border=1 style="font-family: verdana, sans-serif; margin: 0 0 1em 1em; font-size:90%; background-color: #f7f8ff;"
+|'''Font Name:'''
+|'''Example of font:''' 
+|----
+|Agency FB
+|<span style="font-family: 'Agency FB'; font-size: 12pt">Example</span>
+|----
+|Algerian
+|<span style="font-family: Algerian; font-size: 12pt">Example</span>
+|----
+|Andale Mono IPA
+|<span style="font-family: 'Andale Mono IPA'; font-size: 12pt">Example</span>
+|----
+|Arial
+|<span style="font-family: Arial; font-size: 12pt">Example</span>
+|----
+|Arial Black
+|<span style="font-family: Arial Black; font-size: 12pt">Example</span>
+|----
+|Arial Narrow
+|<span style="font-family: 'Arial Narrow'; font-size: 12pt">Example</span>
+|----
+|Arial Rounded MT Bold
+|<span style="font-family: 'Arial Rounded MT Bold'; font-size: 12pt">Example</span>
+|----
+|Baskerville Old Face
+|<span style="font-family: 'Baskerville Old Face'; font-size: 12pt">Example</span>
+|----
+|Bauhaus 93
+|<span style="font-family: 'Bauhaus 93'; font-size: 12pt">Example</span>
+|----
+|Bell MT
+|<span style="font-family: 'Bell MT'; font-size: 12pt">Example</span>
+|----
+|Berlin Sans FB
+|<span style="font-family: 'Berlin Sans FB'; font-size: 12pt">Example</span>
+|----
+|Berlin Sans FB Demi 
+|<span style="font-family: 'Berlin Sans FB Demi'; font-size: 12pt">Example</span>
+|----
+|Bernard MT Condensed
+|<span style="font-family: 'Bernard MT Condensed'; font-size: 12pt">Example</span>
+|----
+|Blackadder ITC
+|<span style="font-family: 'Blackadder ITC'; font-size: 12pt">Example</span>
+|----
+|Bodoni MT
+|<span style="font-family: 'Bodoni MT'; font-size: 12pt">Example</span>
+|----
+|Bodoni MT Black
+|<span style="font-family: 'Bodoni MT Black'; font-size: 12pt">Example</span>
+|----
+|Bodoni MT Condensed
+|<span style="font-family: 'Bodoni MT Condensed'; font-size: 12pt">Example</span>
+|----
+|Bodoni MT Poster Compressed
+|<span style="font-family: 'Bodoni MT Poster Compressed'; font-size: 12pt">Example</span>
+|----
+|Book Antiqua
+|<span style="font-family: 'Book Antiqua'; font-size: 12pt">Example</span>
+|----
+|Bookman Old Style
+|<span style="font-family: 'Bookman Old Style'; font-size: 12pt">Example</span>
+|----
+|Bradley Hand ITC
+|<span style="font-family: 'Bradley Hand ITC'; font-size: 12pt">Example</span>
+|----
+|Britannic Bold
+|<span style="font-family: 'Britannic Bold'; font-size: 12pt">Example</span>
+|----
+|Broadway
+|<span style="font-family: Broadway; font-size: 12pt">Example</span>
+|----
+|Brush Script MT
+|<span style="font-family: 'Brush Script MT'; font-size: 12pt">Example</span>
+|----
+|Californian FB
+|<span style="font-family: 'Californian FB'; font-size: 12pt">Example</span>
+|----
+|Calisto MT 
+|<span style="font-family: 'Calisto MT'; font-size: 12pt">Example</span>
+|----
+|Castellar
+|<span style="font-family: Castellar; font-size: 12pt">Example</span>
+|----
+|Centaur
+|<span style="font-family: Centaur; font-size: 12pt">Example</span>
+|----
+|Century Gothic
+|<span style="font-family: 'Century Gothic'; font-size: 12pt">Example</span>
+|----
+|Century Schoolbook
+|<span style="font-family: 'Century Schoolbook'; font-size: 12pt">Example</span>
+|----
+|Chiller
+|<span style="font-family: Chiller; font-size: 12pt">Example</span>
+|----
+|Colonna MT
+|<span style="font-family: 'Colonna MT'; font-size: 12pt">Example</span>
+|----
+|Comic Sans MS
+|<span style="font-family: 'comic sans ms'; font-size: 12pt">Example</span>
+|----
+|Cooper Black
+|<span style="font-family: 'Cooper Black'; font-size: 12pt">Example</span>
+|----
+|Copperplate Gothic Bold
+|<span style="font-family: 'Copperplate Gothic Bold'; font-size: 12pt">Example</span>
+|----
+|Copperplate Gothic Light
+|<span style="font-family: 'Copperplate Gothic Light'; font-size: 12pt">Example</span>
+|----
+|Courier New
+|<span style="font-family: 'Courier New'; font-size: 12pt">Example</span>
+|----
+|Curlz MT
+|<span style="font-family: 'Curlz MT'; font-size: 12pt">Example</span>
+|----
+|Edwardian Script ITC
+|<span style="font-family: 'Edwardian Script ITC'; font-size: 12pt">Example</span>
+|----
+|Elephant
+|<span style="font-family: Elephant; font-size: 12pt">Example</span>
+|----
+|Engravers MT
+|<span style="font-family: 'Engravers MT'; font-size: 12pt">Example</span>
+|----
+|Eras Bold ITC
+|<span style="font-family: 'Eras Bold ITC'; font-size: 12pt">Example</span>
+|----
+|Eras Demi ITC
+|<span style="font-family: 'Eras Demi ITC'; font-size: 12pt">Example</span>
+|----
+|Eras Light ITC
+|<span style="font-family: 'Eras Light ITC'; font-size: 12pt">Example</span>
+|----
+|Eras Medium ITC
+|<span style="font-family: 'Eras Medium ITC'; font-size: 12pt">Example</span>
+|----
+|Felix Titling
+|<span style="font-family: 'Felix Titling'; font-size: 12pt">Example</span>
+|----
+|Footlight MT Light
+|<span style="font-family: 'Footlight MT Light'; font-size: 12pt">Example</span>
+|----
+|Forte
+|<span style="font-family: Forte; font-size: 12pt">Example</span>
+|----
+|Franklin Gothic Book
+|<span style="font-family: 'Franklin Gothic Book'; font-size: 12pt">Example</span>
+|----
+|Franklin Gothic Demi
+|<span style="font-family: 'Franklin Gothic Demi'; font-size: 12pt">Example</span>
+|----
+|Franklin Gothic Heavy
+|<span style="font-family: 'Franklin Gothic Heavy'; font-size: 12pt">Example</span>
+|----
+|Franklin Gothic Medium
+|<span style="font-family: 'Franklin Gothic Medium'; font-size: 12pt">Example</span>
+|----
+|Franklin Gothic Medium Cond
+|<span style="font-family: 'Franklin Gothic Medium Cond'; font-size: 12pt">Example</span>
+|----
+|Freestyle Script
+|<span style="font-family: 'Freestyle Script'; font-size: 12pt">Example</span>
+|----
+|French Script MT
+|<span style="font-family: 'French Script MT'; font-size: 12pt">Example</span>
+|----
+|Garamond
+|<span style="font-family: Garamond; font-size: 12pt">Example</span>
+|----
+|Georgia
+|<span style="font-family: Georgia; font-size: 12pt">Example</span>
+|----
+|Gigi
+|<span style="font-family: Gigi; font-size: 12pt">Example</span>
+|----
+|Gill Sans MT
+|<span style="font-family: 'Gill Sans'; font-size: 12pt">Example</span>
+|----
+|GulimChe
+|<span style="font-family: GulimChe; font-size: 12pt">Example</span>
+|----
+|Impact
+|<span style="font-family: Impact; font-size: 12pt">Example</span>
+|----
+|Kristen ITC
+|<span style="font-family: 'Kristen ITC'; font-size: 12pt">Example</span>
+|----
+|Lucida Console
+|<span style="font-family: 'Lucida Console'; font-size: 12pt">Example</span>
+|----
+|Lucida Handwriting
+|<span style="font-family: 'Lucida Handwriting'; font-size: 12pt">Example</span>
+|----
+|Marlett
+|<span style="font-family: Marlett; font-size: 12pt">Example</span>
+|----
+|MingLiU
+|<span style="font-family: MingLiU; font-size: 12pt">Example</span>
+|----
+|Monotype Corsiva
+|<span style="font-family: 'Monotype Corsiva'; font-size: 12pt">Example</span>
+|----
+|MS Gothic
+|<span style="font-family: 'MS Gothic'; font-size: 12pt">Example</span>
+|----
+|MS Hei
+|<span style="font-family: 'MS Hei'; font-size: 12pt">Example</span>
+|----
+|MS Outlook
+|<span style="font-family: 'MS Outlook'; font-size: 12pt">Example</span>
+|----
+|MS Song
+|<span style="font-family: 'MS Song'; font-size: 12pt">Example</span>
+|----
+|Old English Text MT
+|<span style="font-family: 'Old English Text MT'; font-size: 12pt">Example</span>
+|----
+|Symbol
+|<span style="font-family: Symbol; font-size: 12pt">Example</span>
+|----
+|Tahoma
+|<span style="font-family: Tahoma; font-size: 12pt">Example</span>
+|----
+|Times New Roman
+|<span style="font-family: 'Times New Roman'; font-size: 12pt">Example</span>
+|----
+|Trebuchet MS
+|<span style="font-family: 'Trebuchet MS'; font-size: 12pt">Example</span>
+|----
+|Webdings
+|<span style="font-family: Webdings; font-size: 12pt">Example</span>
+|----
+|Wingdings
+|<span style="font-family: Wingdings; font-size: 12pt">Example</span>
+|----
+|Wingdings 2
+|<span style="font-family: 'Wingdings 2'; font-size: 12pt">Example</span>
+|----
+|Wingdings 3
+|<span style="font-family: 'Wingdings 3'; font-size: 12pt">Example</span>
+|----
+|}
+
+
+== Picture formatting ==
+<div style="padding: 1px; background: lightblue; border: width: 100px; -moz-border-radius:15px; font-size: 11pt;">
+Images, with the proper copyright tags, can be placed onto your userpage.  Here are some simple instructions on how to format pictures (place them, size them, etc.)  
+
+===Viewing an Image===
+You can either view an Image as the Image seen below:
+
+<center>
+[[Image:Cscr-featured.png]]
+</center>
+
+<pre>
+[[Image:Cscr-featured.png]] - this insert it on the page
+</pre>
+
+Every image should have a brief description text. Otherwise, blind wikipedians using a [[screen reader]] will not know the contents of the image:
+
+<center>
+[[Image:Cscr-featured.png|Star]]
+</center>
+
+<pre>
+[[Image:Cscr-featured.png|Star]] - this insert it on the page with a descriptive text ("Star").
+</pre>
+
+Or as a link:
+
+[[:Image:Cscr-featured.png]]
+
+To make it a link type in:
+
+<pre>
+[[:Image:Cscr-featured.png]] - this will link it
+</pre>
+
+===Aligning an Image===
+====Left Alignment====
+To align an Image to the left type in:
+
+<pre>
+[[Image:Cscr-featured.png|left]]
+</pre>
+
+Which will appear like this:
+
+[[Image:Cscr-featured.png|left]]
+{{-}}
+====Right Alignment====
+To align an Image to the right type in:
+
+<pre>
+[[Image:Cscr-featured.png|right]]
+</pre>
+
+Which will appear like this:
+
+[[Image:Cscr-featured.png|right]]
+{{-}}
+
+====Center alignment====
+To align an Image in the middle type in:
+
+<pre>
+[[Image:Cscr-featured.png|center]]
+</pre>
+
+Which will appear like this:
+
+[[Image:Cscr-featured.png|center]]
+{{-}}
+
+===Auto-alignment===
+You can auto-align an Image one of two ways.
+
+====Framing====
+Framing an Image will automatically set the Image to the right side of the screen and frame it. (Like a picture frame)
+
+To frame an Image type in:
+
+<pre>
+[[Image:Cscr-featured.png|frame]]
+</pre>
+
+Which will appear like this:
+
+[[Image:Cscr-featured.png|frame]]
+'''NOTE: This will force the image to be in its original size (to change the size use thumbnails or do not use the frame).'''
+{{-}}
+
+====Thumbnails====
+Thumbnailing a picture is similar to framing because it, again, automatically aligns it to the right. What's different about thumbnails is that now you have room to write text below it and can change the size. (Like a photograph from a camera)
+
+To thumbnail a picture type in:
+
+<pre>
+[[Image:Cscr-featured.png|thumb]]
+</pre>
+
+Which will appear like this:
+
+[[Image:Cscr-featured.png|thumb]]
+{{-}}
+
+===Making Images bigger and smaller===
+To change the size of an image type:
+
+<pre>
+[[Image:Cscr-featured.png|80px]]
+</pre>
+[[Image:Cscr-featured.png|80px]]
+{{-}}
+
+===Captions===
+To add a caption to an image, type:
+[[Image:Cscr-featured.png|thumb|Caption]]
+<pre>
+[[Image:Cscr-featured.png|thumb|Caption]]
+</pre>
+or
+<pre>
+[[Image:Cscr-featured.png|thumb|right|Caption]]
+</pre>
+or
+<pre>
+[[Image:Cscr-featured.png|thumb|right|80px|Caption]]
+</pre>
+
+===Galleries===
+To make a gallery of images, type
+<pre>
+<gallery>
+Image:Bob.png|Caption
+Image:Cscr-featured.png|Caption
+</gallery>
+</pre>
+
+<gallery>
+Image:Cscr-featured.png|Caption1
+Image:Barnprinter2.png|Caption2
+</gallery>
+</div>
+
+== Emoticons ==
+
+Also called [[smiley]]s, these [[emoticon]]s are useful for adding emotional expression to text messages.  Definitely not for use in articles, but suitable for enhancing messages on talk pages, especially user talk pages.  They can also be used as menu icons and user page art. 
+
+{{col-begin}}
+{{col-3}}
+Humanist [[Image:HumanismSymbol.PNG|22px]]- <code><nowiki>[[Image:HumanismSymbol.PNG|22px]]</nowiki></code><br>
+Smiley 1 [[Image:Smiley.svg|19px]] - <code><nowiki>[[Image:Smiley.svg|19px]]</nowiki></code><br>
+Smiley 2 [[Image:Face-glasses.svg|21px]] - <code><nowiki>[[Image:Face-glasses.svg|21px]]</nowiki></code><br>
+Smiley 3 [[Image:SoleteRayosÑajo.gif]] - <code><nowiki>[[Image:SoleteRayosÑajo.gif]]</nowiki></code><br>
+Smiley 4 [[image:SNive.gif|19px]] - <code><nowiki>[[image:SNive.gif|19px]]</nowiki></code><br>
+Smiley 5 [[image:SFriendly.gif|19px]] - <code><nowiki>[[image:SFriendly.gif|19px]]</nowiki></code><br>
+Smiley 6 [[Image:Face-wink.svg|23px]] - <code><nowiki>[[Image:Face-wink.svg|23px]]</nowiki></code><br>
+Smiley 7 [[image:SConfident.gif|20px]] - <code><nowiki>[[image:SConfident.gif|20px]]</nowiki></code><br>
+Smiley 8 [[image:SInnocent.gif|18px]] - <code><nowiki>[[image:SInnocent.gif|18px]]</nowiki></code><br>
+Smiley 9 [[Image:Choice toxicity icon.png|21px]] - <code><nowiki>[[Image:Choice toxicity icon.png|21px]]</nowiki></code><br>
+Smiley 10 [[Image:Tongue.png|21px]] - <code><nowiki>[[Image:Tongue.png|21px]]</nowiki></code><br>
+Smiley 11 [[image:SMocking.gif|19px]] - <code><nowiki>[[image:SMocking.gif|19px]]</nowiki></code><br>
+Smiley 12 [[Image:Blush.png|19px]] - <code><nowiki>[[Image:Blush.png|19px]]</nowiki></code><br>
+{{col-3}}
+Smiley 13 [[Image:XD-smiley.png|20px]] - <code><nowiki>[[Image:XD-smiley.png|20px]]</nowiki></code><br>
+Smiley 14 [[Image:Emblem-cool.svg|20px]] - <code><nowiki>[[Image:Emblem-cool.svg|20px]]</nowiki></code><br>
+Smiley 15 [[Image:Happy.gif|22px]] - <code><nowiki>[[Image:Happy.gif|22px]]</nowiki></code><br>
+Smiley 16 [[Image:Face-grin.svg|25px]] - <code><nowiki>[[Image:Face-grin.svg|25px]]</nowiki></code><br>
+Smiley 17 [[Image:Face-devil-grin.svg|25px]] - <code><nowiki>[[Image:Face-devil-grin.svg|25px]]</nowiki></code><br>
+Smiley 18 [[image:SCongratulate.gif|19px]] - <code><nowiki>[[image:SCongratulate.gif|19px]]</nowiki></code><br>
+Smiley 19 [[image:SSceptical.gif|21px]] - <code><nowiki>[[image:SSceptical.gif|21px]]</nowiki></code><br>
+Smiley 20 [[image:SHurt.gif|19px]] - <code><nowiki>[[image:SHurt.gif|19px]]</nowiki></code><br>
+Smiley 21 [[image:SIndifferent.gif|19px]] - <code><nowiki>[[image:SIndifferent.gif|19px]]</nowiki></code><br>
+Smiley 22 [[Image:Animalien-smiley.gif|20px]] - <code><nowiki>[[Image:Animalien-smiley.gif|20px]]</nowiki></code><br>
+Smiley 23 [[image:SYawning.gif|19px]] - <code><nowiki>[[image:SYawning.gif|19px]]</nowiki></code><br>
+Smiley 24 [[Image:Sleeping.png|25px]] - <code><nowiki>[[Image:Sleeping.png|25px]]</nowiki></code><br>
+{{col-3}}
+Smiley 25 [[image:Very_sorry.gif|19px]] - <code><nowiki>[[image:Very_sorry.gif|19px]]</nowiki></code><br>
+Smiley 26 [[image:Confused-tpvgames.gif|21px]] - <code><nowiki>[[image:Confused-tpvgames.gif|21px]]</nowiki></code><br>
+Smiley 27 [[Image:Confused.png|19px]] - <code><nowiki>[[Image:Confused.png|19px]]</nowiki></code><br>
+Smiley 28 [[image:SUpset.gif|19px]] - <code><nowiki>[[image:SUpset.gif|19px]]</nowiki></code><br>
+Smiley 29 [[image:SNasty.gif|19px]] - <code><nowiki>[[image:SNasty.gif|19px]]</nowiki></code><br>
+Smiley 30 [[image:Sad-tpvgames.gif|21px]] - <code><nowiki>[[image:Sad-tpvgames.gif|21px]]</nowiki></code><br>
+Smiley 31 [[Image:Frowny.svg|20px]] - <code><nowiki>[[Image:Frowny.svg|20px]]</nowiki></code><br>
+Smiley 32 [[image:Cry-tpvgames.gif|21px]] - <code><nowiki>[[image:Cry-tpvgames.gif|21px]]</nowiki></code><br>
+Smiley 33 [[image:Shocked-tpvgames.gif|21px]] - <code><nowiki>[[image:Shocked-tpvgames.gif|21px]]</nowiki></code><br>
+Smiley 34 [[Image:Face-surprise.svg|22px]] - <code><nowiki>[[Image:Face-surprise.svg|22px]]</nowiki></code><br>
+Smiley 35 [[image:Misc-tpvgames.gif|20px]] - <code><nowiki>[[image:Misc-tpvgames.gif|20px]]</nowiki></code><br>
+Smiley 36 [[image:SHysterical.gif|18px]] - <code><nowiki>[[image:SHysterical.gif|18px]]</nowiki></code><br>
+Smiley 37 [[image:SShocked.gif|18px]] - <code><nowiki>[[image:SShocked.gif|18px]]</nowiki></code><br>
+Smiley 38 [[image:Smiley green alien KO.svg|25px]] - <code><nowiki>[[Smiley green alien KO.svg|25px]]</nowiki></code>
+
+{{col-end}}
+
+== See also ==
+
+{| class=prettytable style="font-size: 95%; text-align:center; width:100%; background: lightblue;"
+|- style="height:40px;"
+| style="width:25%" |[[Wikipedia:WikiProject User Page Help/Do-It-Yourself/Formatting Pictures|'''Formatting Pictures''']]
+|-style="height:40px;"
+<!--| style="width:25%" |[[Wikipedia:WikiProject User Page Help/Do-It-Yourself/Background Color|'''Boxes, backgrounds, and tables''']]
+|-style="height:40px;"-->
+| style="width:25%" |[[Wikipedia:WikiProject User Page Help/Do-It-Yourself/Title Headers|'''Title Headers''']]
+|-style="height:40px;"
+| style="width:25%" |[[Wikipedia:WikiProject User Page Help/Do-It-Yourself/Suggested Tools|'''Suggested Tools''']]
+|}
