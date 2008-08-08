@@ -26,6 +26,7 @@ Hints:
 == Level designers ==
 
 Your level should comply with the [[Milestone 2 Design Document/Styleguide|level guidelines]] set by the SuperTux team. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
+If your levels don't comply, or you don't want them as part of the main world, try [[CreatingMods|packaging them as an addon]].
 
 == Programmers ==
 
