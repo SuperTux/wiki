@@ -16,3 +16,7 @@ Umm... there should be some work done here. [[User:71.220.36.229|71.220.36.229]]
 No progress with the GBA / DS Version has been made.  Why??
 
 I think SVG should only be used in 300mhz+ Processor devices, using it in a cellphone will drop a lot of fps.
+
+== About the existing mobile phone "market" ==
+
+Java is installed in some form on nearly every modern mobile phone. Writing it in Java supports the millions of devices that already exist and ones to come in the future. The hard part really isn't what language to use. Its how to support all the numerous screen resolutions these different devices have.
