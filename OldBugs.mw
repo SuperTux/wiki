@@ -183,3 +183,4 @@ There are known bugs in older releases. See [[Bugs]] for newer versions.
 * SuperTux takes up more memory on each new level/game, until it crashes the systems. Using KDE System Guard suggests that finished maps/levels are not being freed from memory. Bug produced on a Knoppix/Debian system with 128MB of RAM.
 
 [[Category:Bugs]]
+[[Category:For Users]]
