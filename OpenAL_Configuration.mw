@@ -68,3 +68,5 @@ ALSA surround sound with a 5.1 sound system and 48khz high quality audio:
 
 == MacOS/X - Darwin Specific ==
 * '''native-backend-debug''' - set to true for debugging
+
+[[Category:For Users]]
