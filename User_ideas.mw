@@ -957,9 +957,6 @@ There are underwater platforms in the game. Maybe you can add an indicator of ox
 Sorry for my English...
 :http://supertux.lethargik.org/wiki/Talk:Swimming
 
-
-[[Category:Design]]
-
 === Flame sprite ===
 I think that the current flame sprite sucks. I've designed a new one, maybe this could also be used as a meterorite.
 [[Image:Newflame.png|thumb|right|300px|Possible new flame sprite]]
@@ -970,3 +967,7 @@ I think that the current flame sprite sucks. I've designed a new one, maybe this
 
 === Carrying Bird ===
 I think there should be a creature (for example a bird?) that can carry you a few time through the air but can let you down unexpected.
+
+
+[[Category:Design]]
+[[Category:For Users]]
