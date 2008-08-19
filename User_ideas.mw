@@ -378,6 +378,7 @@ Radar Man moves by disappearing from the square he is in and appearing in one ne
 ::Radar Man is a teleporter type object. He moves around, and if you touch him, you get teleported... that's how I understand it.
 :::In that case, it's already been implemented as a Will-O-Wisp. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 19:52, 9 July 2007 (UTC)
 ::::Seems more like an object that forces Tux to move like it for a while. --Shylence 10:10, 10 July 2007 (UTC)
+look, it teleports short distances instead of actually moving. if it touches tux then tux will teleport short distances as well. Its up to you if that is good or bad. (this was posted by the guy who invented radar man in the first place
 
 ==== Safe ====
 [[Image:Safe.png|right]]
