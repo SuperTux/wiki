@@ -50,6 +50,14 @@ Well, since the PS3's Operating System will be Linux...can Supertux be ported ?
 :Theoretically, yes.  Actually, theoretically, it will Just Work.  --[[User:Tuxdev|Tuxdev]] 02:45, 5 Dec 2006 (CET)
 ::If someone is willing to donate the required hardware ...
 
+
+I have created one package for supertux2 for PS3. It is available from 
+
+http://kunaldeo.googlepages.com/supertux2forps3
+
+It has been tested on YDL.
+--[[User:Kunaldeo|Kunaldeo]] 18:40, 22 August 2008 (UTC)
+
 == SuperTux 0.3.0 for Mac OS X ==
 
 A universal binary of SuperTux 0.3.0 for Mac OS X is now ready for distribution. It requires Mac OS X 10.3.9 or later.  This is the game only (no editor included).  
