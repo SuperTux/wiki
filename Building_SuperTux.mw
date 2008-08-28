@@ -107,8 +107,13 @@ Debian users can run the following command to do this:
 === Gentoo ===
 
 Gentoo users can use this command:
- emerge -avn ">=dev-lang/mono-1.2.2.1" ">=dev-dotnet/gtk-sharp-2.8.0" ">=dev-dotnet/glade-sharp-2.8.0"
+ emerge -avn '>=dev-lang/mono-1.2.2.1' '>=dev-dotnet/gtk-sharp-2.12' '>=dev-dotnet/glade-sharp-2.12'
 Unmask any packages that might be needed on your arch (none needed on either x86 or amd64).
+
+Currently, as of 2008/08/28, the official Portage tree does not include new enough gtk-sharp and glade-sharp packages. Gentoo users may have some trouble using supertux-editor because the editor requires at least version 2.12 of these packages. To compile the editor, you may either set up a local portage overlay and download ebuilds from [https://bugs.gentoo.org/show_bug.cgi?id=211339 Gentoo Bug #211339] or edit the line in supertux-editor/Application.cs that says:
+ dialog.ProgramName = "SuperTux Editor";
+to instead say:
+ dialog.Name = "SuperTux Editor";
 
 === FC6 ===
 Just install mono and gtk-sharp2 using yum, and don't forget to install gtk-sharp2-devel (<code>gtk-sharp2-2.10.0-3.fc6</code> and <code>mono-core-1.1.17.1-4.fc6</code> worked fine):
