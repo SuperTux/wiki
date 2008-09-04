@@ -4,7 +4,6 @@
 * separate lisp reader, tinygettext and other libraries properly out of SuperTux
 *: <small>Is this necessary for milestone 2? - [[User:Sik0fewl|sik0fewl]] 20:54, 15 June 2008 (UTC)</small>
 *:: <small>Probably not. -- [[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC) </small>
-* InfoBox crashes when Text doesn't start with a marker character
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
 * Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
@@ -145,3 +144,4 @@
 * <del>Bomb: Replace graphic with new bomb graphic</del>
 * <strike>fix editor so that it works without a mouse wheel</strike> (done, WolfgangB)
 * <del>Translations for Chinese and Russian (Cyrillic)</del>
+* <del>InfoBox crashes when Text doesn't start with a marker character</del>
