@@ -2,6 +2,10 @@
 
 The 0.3.x versions series is meant to show of new features of the engine, new graphics and such. It is not meant to be fully playable or polished. For that reason it is recommend that distributions should, for example, not replace a "supertux" package of SuperTux 0.1.x, but instead ship a new "supertux2" package of SuperTux 0.3.x.
 
+== Note about the 0.3.2 Release ==
+Apparently, there are Mac binaries out there called version 0.3.2. These are built from a recent SVN snapshot and it's '''not an official release from the SuperTux Team'''. The latest version is 0.3.1, an official 0.3.2 will be released soon.
+If you want to build and release binaries from development snapshots you are welcome to do so, but please point this out in the version number (for example, by adding -SVN or -unofficial or a date) to avoid confusion.
+
 == Release 0.3.1 ==
 
 This is the latest (but unstable) release of SuperTux. 
