@@ -19,6 +19,11 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 
 === It's Download Time ===
 
+TO USE ANY SVN VERSION, FIRST DOWNLOAD A SVN CLIENT
+
+* Download and install [http://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
+** install and reboot to finish the installation (SVN-Options will appear in the right-click menu in the Explorer)
+
 * Download and install [http://www.mingw.org/ MinGW] ([http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=82721&release_id=158801 from SourceForge])
 ** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy (are both preselected, so don't change).
 ** The default folder of c:\MinGW was alright with me, as I installed on a development installation of Windows. I'll just assume we installed there.
@@ -36,6 +41,8 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 * Download MSYS automake - I chose [http://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
 ** save this to C:\msys\1.0, we will unpack it later
 
+TO BUILD ANYTHING (and to use the UNIX-Commands), YOU HAVE TO USE C:\msys\1.0\msys.bat
+
 * Download, build and install a recent version of [http://www.libsdl.org/ SDL] - I chose [http://www.libsdl.org/release/SDL-devel-1.2.12-mingw32.tar.gz 1.2.12]
 ** After unpacking, install SDL using "make install-sdl prefix=/local"
 
@@ -47,9 +54,6 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 
 * If you want to use the SuperTux Add-On Manager, download libcurl - I chose [http://curl.haxx.se/download/libcurl-7.16.0-win32-nossl.zip libcurl-7.16.0-win32-nossl]
 ** extract the included bin, include and lib folders as subfolders of C:\msys\1.0
-
-* Download and install [http://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
-** install and reboot to finish the installation
 
 * Download and install [http://www.openal.org/ OpenAL]
 ** On the OpenAL website, choose "Download", then "Installer for Windows"
