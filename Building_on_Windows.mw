@@ -30,17 +30,17 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 * Download and install the MSYS developer toolkit (DTK) - I chose [http://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
 ** Again, the default folder of C:\msys\1.0 was fine with me, the rest of the install was smooth sailing
 
-* Download, build and install a recent version of [http://www.libsdl.org/ SDL] - I chose [http://www.libsdl.org/release/SDL-devel-1.2.12-mingw32.tar.gz 1.2.12]
-** After unpacking, install SDL using "make install-sdl prefix=/local"
-
-* Download and install MinGW gcc-g++ package for compiling C++ code - [http://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download gcc-g++-3.4.2-20040916-1.tar.gz]
-** save this to c:\msys\1.0 we will unpack it later
-
 * Download MSYS autoconf - I chose [http://prdownloads.sourceforge.net/mingw/msys-autoconf-2.59.tar.bz2?download msys-autoconf-2.59]
 ** save this to C:\msys\1.0, we will unpack it later
 
 * Download MSYS automake - I chose [http://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
 ** save this to C:\msys\1.0, we will unpack it later
+
+* Download, build and install a recent version of [http://www.libsdl.org/ SDL] - I chose [http://www.libsdl.org/release/SDL-devel-1.2.12-mingw32.tar.gz 1.2.12]
+** After unpacking, install SDL using "make install-sdl prefix=/local"
+
+* Download and install MinGW gcc-g++ package for compiling C++ code - [http://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download gcc-g++-3.4.2-20040916-1.tar.gz]
+** save this to c:\msys\1.0 we will unpack it later
 
 * Download the SuperTux lib package - I chose [http://download.berlios.de/supertux/supertux-msys-libs-2006-03-21.tar.bz2 supertux-msys-libs-2006-03-21]
 ** save this to C:\msys\1.0, we will unpack it later
