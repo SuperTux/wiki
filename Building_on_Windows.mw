@@ -41,6 +41,9 @@ TO USE ANY SVN VERSION, FIRST DOWNLOAD A SVN CLIENT
 * Download MSYS automake - I chose [http://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
 ** save this to C:\msys\1.0, we will unpack it later
 
+* Download M4 - I chose [http://downloads.sourceforge.net/mingw/m4-1.4.7-MSYS.tar.bz2]
+** save this to C:\msys\1.0, we will unpack it later
+
 TO BUILD ANYTHING (and to use the UNIX-Commands), YOU HAVE TO USE C:\msys\1.0\msys.bat!
 A little guide: 'cd "/d/Super Tux"' is the same a the Windows Command: 'cd "D:\Super Tux"'.
 
