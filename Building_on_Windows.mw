@@ -75,7 +75,8 @@ A little guide: 'cd "/d/Super Tux"' is the same a the Windows Command: 'cd "D:\S
 === Getting Busy ===
 
 * time to start MSYS for the first time. Launch MSYS by clicking on the conveniently created desktop icon
-* install the downloaded binaries by typing
+*Tipp: If you don't want to type in all manually (copy and paste doesn't worke here), you can just hit tab after typing in the beginning (like: gcc)
+* install the downloaded binaries by typing 
 
  cd /c/msys/1.0/
  tar -xzvf gcc-g++-3.4.2-20040916-1.tar.gz
