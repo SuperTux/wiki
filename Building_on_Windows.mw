@@ -20,7 +20,7 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 === It's Download Time ===
 
 * Download and install [http://www.mingw.org/ MinGW] ([http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=82721&release_id=158801 from SourceForge])
-** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy.
+** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy (are both preselected, so don't change).
 ** The default folder of c:\MinGW was alright with me, as I installed on a development installation of Windows. I'll just assume we installed there.
 
 * Download and install [http://www.mingw.org/msys.shtml MSYS] - I chose [http://prdownloads.sf.net/mingw/MSYS-1.0.11-2004.04.30-1.exe?download MSYS-1.0.11-2004.04.30-1]
