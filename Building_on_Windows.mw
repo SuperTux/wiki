@@ -41,7 +41,8 @@ TO USE ANY SVN VERSION, FIRST DOWNLOAD A SVN CLIENT
 * Download MSYS automake - I chose [http://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
 ** save this to C:\msys\1.0, we will unpack it later
 
-TO BUILD ANYTHING (and to use the UNIX-Commands), YOU HAVE TO USE C:\msys\1.0\msys.bat
+TO BUILD ANYTHING (and to use the UNIX-Commands), YOU HAVE TO USE C:\msys\1.0\msys.bat!
+A little guide: 'cd "/d/Super Tux"' is the same a the Windows Command: 'cd "D:\Super Tux"'.
 
 * Download, build and install a recent version of [http://www.libsdl.org/ SDL] - I chose [http://www.libsdl.org/release/SDL-devel-1.2.12-mingw32.tar.gz 1.2.12]
 ** After unpacking, install SDL using "make install-sdl prefix=/local"
