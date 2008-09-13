@@ -1,7 +1,7 @@
 < [[Milestone 2 Design Document]]
 
 == Code Tasks ==
-* fix background drawing issue - every background is drawn at Z-Pos of 1st one and in in-file order..
+* fix background drawing issue - every background is drawn at Z-Pos of 1st one and in in-file order.. (if exists, I can't recreate it now)
 * separate lisp reader, tinygettext and other libraries properly out of SuperTux
 *: <small>Is this necessary for milestone 2? - [[User:Sik0fewl|sik0fewl]] 20:54, 15 June 2008 (UTC)</small>
 *:: <small>Probably not. -- [[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC) </small>
