@@ -24,3 +24,5 @@ Java is installed in some form on nearly every modern mobile phone. Writing it i
 Can I get DS/GBA version source from somewhere? I would love to try it... :rolleyes:--[[User:88.192.122.234|88.192.122.234]] 11:00, 13 September 2008 (UTC)
 
 Supertux is GPLed software. So if you have the binary you are entitled to get the source, too. --[[User:85.214.73.63|85.214.73.63]] 12:15, 13 September 2008 (UTC)
+
+The source is on trunk at supertux-portable (http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux-portable/). Grumbel has a [http://pingus.seul.org/~grumbel/tmp/supertux-2005-10-13.gba .gba file], no idea what you can do with it. --[[User:Mathnerd314|Mathnerd314]] 16:16, 14 September 2008 (UTC)
