@@ -75,7 +75,7 @@ A little guide: 'cd "/d/Super Tux"' is the same a the Windows Command: 'cd "D:\S
 === Getting Busy ===
 
 * time to start MSYS for the first time. Launch MSYS by clicking on the conveniently created desktop icon
-*Tipp: If you don't want to type in all manually (copy and paste doesn't worke here), you can just hit tab after typing in the beginning (like: gcc)
+*Tip: If you don't want to type in everything manually, copy it using the normal keys of your browser (Ctrl-C) and paste into MSYS using Shift-left click. (If you want to copy output, select it and it will automatically copy to the clipboard) Other, more complicated methods involve creating a shell script.
 * install the downloaded binaries by typing 
 
  cd /c/msys/1.0/
@@ -99,7 +99,7 @@ A little guide: 'cd "/d/Super Tux"' is the same a the Windows Command: 'cd "D:\S
  CMAKE_INCLUDE_PATH="/local/include;/local/include/SDL;/local/include/vorbis" CMAKE_LIBRARY_PATH="/local/lib" cmake -G "MSYS Makefiles" -DVORBIS_INCLUDE_DIR="/local/include" -DOPENAL_INCLUDE_DIR="/local/include" -DPHYSFS_INCLUDE_DIR="/local/include" -DSDLIMAGE_INCLUDE_DIR="/local/include/SDL" -DSDL_INCLUDE_DIR="/local/include/SDL" -DCURL_INCLUDE_DIR="/local/include/curl" -DDEBUG=ON .. -DGENERATE_WRAPPER=OFF -DGENERATE_MESSAGESPOT=OFF
  make
 
-* If you want to build using jam instead, run the following commands
+* If you want to build using jam instead, run the following commands: (note that as of r5280, building with jam is unsupported)
 
  ./autogen.sh
  LIBS="-L/usr/local/lib -lvorbisenc -lvorbisfile -lvorbis -logg" CFLAGS="-I/usr/local/include" configure --enable-debug
