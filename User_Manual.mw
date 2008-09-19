@@ -32,6 +32,8 @@ SuperTux is played with either the keyboard or any game controller recognized by
 | Jump || Spacebar || Makes Tux jump. Hold down longer to jump higher.
 |-
 | Action || Left Control || All actions are explained below.
+|-
+| Fast Run || x + left || Makes tux fast run. or x + Rigth.
 |}
 
 <br style="clear: both;" />
