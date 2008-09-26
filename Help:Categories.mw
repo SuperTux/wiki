@@ -24,7 +24,7 @@ Another way to sort the article in the correct letter without the namespace is
 
  <nowiki>[[Category:Help|{{SUBPAGENAME}}]]</nowiki>
 
-This is extremely helpful when using templates which include a category tag.
+This is extremely helpful when using templates which include a category tag. ...
 
 ''Note: the SORT parameter does '''not''' affect how the page title is displayed within the category listing, just how it is ordered.  In the above example, the link to this page will still be 'Help:Categories', and not 'Categories' as you might expect!''
 
@@ -52,14 +52,8 @@ Categories cannot be easily moved [[Help:Moving a page|like other pages]]. For t
 The easiest way (for those with admin privileges) is to create the new page, delete the old one, and then change the tags in each member of the category (manually or with a bot). However, this loses the page history - not a huge problem when categories are used only for navigation, but when a wiki is structured differently and the category pages contain significant amounts of text, this is undesirable.
 
 === Moving with revision history ===
-However, category pages ''can'' be moved together with the full revision history, with some effort, by using the [[Special:Export]] and [[Special:Import]] functions. 
-
-A fuller guide, with additional steps and reference to using [[meta:category.py|category.py]] is given at [[Appropedia:Project:Moving category pages]].
-
-==See also==
-* [[Meta:Help:Category]]
+However, category pages ''can'' be moved together with the full revision history, with some effort, by using the [[Special:Export]] and [[Special:Import]] functions.
 
 {{Languages|Help:Categories}}
 [[Category:Help|Categories]]
-[[Category:Category| ]]
 [[Category:Imported help]]
