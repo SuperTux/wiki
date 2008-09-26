@@ -1,10 +1,10 @@
 {{PD Help Page}}
 
-Clicking on the [[special:preferences|my preferences]] link in the upper right while logged in allows you to change your preferences. You will be presented with the User profile section, as well as a bar of tabs across the top for changing other types of settings.
+Clicking on the [[Special:preferences|my preferences]] link in the upper right while logged in allows you to change your preferences. You will be presented with the User profile section, as well as a bar of tabs across the top for changing other types of settings.
 
 ==User profile==
 ===User profile===
-* ''Username'': Your user name. Only bureaucrats can change your username, and the wiki must also have the [[mw:Extension:Renameuser|Renameuser extension]] installed.
+* ''Username'': Your user name. Only bureaucrats can change your username, and the wiki must also have the {{mediawiki|Extension:Renameuser|Renameuser extension}} installed.
 * ''User ID'': A number assigned to your account when you created it (for example, if your number is 42 you are the 42nd user to sign up at this particular wiki). This number is used for internal purposes.
 * ''Number of edits'': How many edits you have made. Not all wikis will have this.
 * ''Real name'': If provided, this will be used for attribution (rather than using your username). Providing your real name is entirely optional. Some wikis do not have this option.
@@ -23,6 +23,10 @@ If you have supplied an email address, you will need to click the ''verify addre
 * ''E-mail me also for minor edits of pages''
 * ''Enable e-mail from other users''
 * ''Send me copies of emails I send to other users''
+
+===Languages===
+
+From your preferences you can select what language you would like the interface to be in. Only the buttons like 'edit' and 'talk', in addition to a few pages in the sidebar, will be affected. The main text of the pages will not be changed by this for the vast majority of pages, although there are a few pages where it will, like some in the Wikimedia Meta Wiki.
 
 ==Skin==
 Here you can choose the skin you want to use (use ''Preview'' if you want to see a skin before you choose it). By default, MediaWiki includes the following skins:
@@ -62,17 +66,6 @@ The following is normally rendered depending on preferences:
  [[5 January]] ([[05 January]])
 </pre>
 
-With your current preference setting on this project the seven are rendered as follows:
-
-#[[2001-01-05]] ([[2001]]-[[01-05]])
-#[[2001]] [[January 5]] ([[2001]] [[January 05]])
-#[[January 5]], [[2001]] ([[January 05]], [[2001]])
-#[[5 January]] [[2001]] ([[05 January]] [[2001]])
-#[[January 5]] ([[January 05]])
-#[[5 January]] ([[05 January]])
-
-The user-specified date format does not seem to work on the [[mw:]] wiki for links! It works in Recent Changes etc.
-
 ==Editing==
 Settings to control editing pages, including the size of the edit box displayed and whether to watch pages that you have edited or created automatically.
 
@@ -83,18 +76,18 @@ Settings to control editing pages, including the size of the edit box displayed 
 * ''Enhanced recent changes (JavaScript)'': Enhanced recent changes condenses edits into a per-page list. As indicated, this requires JavaScript to be enabled. See [[Help:Tracking changes]] for more information on this feature.
 
 ==Watchlist==
+Setting to control the behaviour of the watchlist (See [[Help:Watchlist]]) Most of these options are also available on the watchlist display itself, but by setting them in your preferences you control the default behaviour i.e. Every time you visit the watchlist it will do the same.
 
 ==Search==
-Default settings for searches including how many results to display and how much context to show for each result.
+Default settings for searches including how many results to display and how much context to show for each result.  Check the boxes next to the namespaces which you want to show up, the first time that you search for something.  You can override this when doing an actual search, by checking or unchecking the boxes at the bottom of the search results screen.
+
+''Administrators'': To change the namespace default preferences for new users (or users who haven't changed their preferences yet), see {{mediawiki|Manual:$wgNamespacesToBeSearchedDefault}}
 
 ==Misc==
 Other settings such as numbering and justification.
 
 == See also ==
 * [[Help:Skins]]
-
-==External Links==
-{{meta|Help:Preferences}}
 
 {{Languages|Help:Preferences}}
 
