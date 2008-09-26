@@ -1,3 +1,4 @@
+{{move|(new name to be decided)}}
 {{PD Help Page}}
 It is possible to create an external searches of a topic using key words using a template.
 
@@ -21,7 +22,7 @@ It is also possible to do phrases by using %22Term1+Term2+etc%22
 
 Other applications of the template include searching Forums, for bug reports of the same type for software development wikis where the wiki and forum work together.
 
-Note: Wikipedia has an [[help:interwiki linking|interwiki prefix]] with a similar affect, so you can link to google results with <nowiki>[[Google:firstTerm+Second+etc]]</nowiki>, although templates are still useful for linking other search engines.
+Note: Wikipedia has an [[Help:Links#Interwiki_links|interwiki prefix]] with a similar effect, so you can link to google results with <nowiki>[[Google:firstTerm+Second+etc]]</nowiki>, although templates are still useful for linking other search engines.
 
 {{languages|Help:External searches}}
 
