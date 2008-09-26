@@ -143,7 +143,7 @@ Info blocks can be bumped from below to display helpful text that introduces a c
 
 When you activated an info block, the game will pause and you can use the Up and Down buttons to scroll through the text. Press the Menu button to resume the game.
 
-=== Trampolines (SuperTux 0.3 only)===
+=== Trampolines (SuperTux 0.3 only) ===
 
 Trampolines come in two flavours: A stationary version, which looks a bit like a mushroom and a portable version, which looks like a large spring. For information about carrying stuff around, see section [[#Carrying Objects|Carrying Objects]].
 
