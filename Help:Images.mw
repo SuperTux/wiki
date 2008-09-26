@@ -1,8 +1,8 @@
 {{PD Help Page}}
+
+This page explains the image syntax when editing the wiki. Before using images, your wiki must have file uploads enabled (see the {{mediawiki|Manual:Configuring_file_uploads|technical manual}} for details) and you have to [[Help:Managing files|upload a file]].
+
 __TOC__
-
-Typically you would '''upload an image file''' to the wiki (See [[Help:Managing files]])  ...''before'' you use the following wiki text to place the image on an article:  
-
 {| {{Prettytable}}
 |-
 |{{Hl3}}|'''Description'''
@@ -38,11 +38,11 @@ Typically you would '''upload an image file''' to the wiki (See [[Help:Managing 
 [[Image:Example.jpg|center|thumb|100px|Sunflowers]]
 |-
 |Border<br /> (100 pixels) <br /> Results in a very small gray border
-<!-- Note: because the fine gray border can not be seen when used on the "Sunflowers"-image an image is used with a withe background -->
+<!-- Note: because the fine gray border can not be seen when used on Image:Exaple.jpg (sunflowers image), an image with a white background is used -->
 |
-<code><nowiki>[[Image:Wiki.png|border|100px]]</nowiki></code>
+<code><nowiki>[[Image:Example-white-bg.jpg|border|100px]]</nowiki></code>
 |
-[[Image:Wiki.png|border|100px]]
+[[Image:Example-white-bg.jpg|border|100px]]
 |-
 |Frameless<br />Like thumbnail, respect user preferences for image width but without border and no right float.
 |
@@ -57,8 +57,9 @@ The full syntax for displaying an image is:
 Where options can be zero or more of the following, separated by pipes:
 *<code>thumb</code>, <code>thumbnail</code>, or <code>frame</code>: Controls how the image is formatted
 *<code>left</code>, <code>right</code>, <code>center</code>, <code>none</code>: Controls the alignment of the image on the page
+*<code>baseline</code>, <code>sub</code>, <code>super</code>, <code>top</code>, <code>text-top</code>, <code>middle</code>, <code>bottom</code>, <code>text-bottom</code>: Controls the vertical alignment of the image on the page
 *<code>{width}px</code>: Resizes the image to the given width in pixels
-*<code>{caption text}</code>
+*<code>{caption text}</code>: Must not end with "px"
 * Special cases:
 ** <code>page=1</code>: displays the specified page when showing a djvu file.
 
@@ -70,9 +71,8 @@ You can link to an external file using the same syntax used for linking to an ex
 Or with different text:
 *<code><nowiki>[http://url.for/some/image.png link text here]</nowiki></code>
 
-If it is enabled on your wiki (see [[Manual:$wgAllowExternalImages]]), you can also embed external images. To do that, simply insert the image's url:
+If it is enabled on your wiki (see {{mediawiki|Manual:$wgAllowExternalImages}}), you can also embed external images. To do that, simply insert the image's url:
 *<code><nowiki>http://url.for/some/image.png</nowiki></code>
-
 
 == Gallery of images ==
 It's easy to make a gallery of thumbnails with the <code><nowiki><gallery></nowiki></code> tag. The syntax is:
@@ -93,6 +93,7 @@ Image:Example.jpg|a link to [[Help:Contents]]
 Image:Example.jpg
 Image:Example.jpg
 Image:Example.jpg|''italic caption''
+Image:Example.jpg|on page "{{PAGENAME}}"
 </gallery>
 </pre>
 is formatted as:
@@ -102,18 +103,14 @@ Image:Example.jpg|a link to [[Help:Contents]]
 Image:Example.jpg
 Image:Example.jpg
 Image:Example.jpg|''italic caption''
+Image:Example.jpg|on page "{{PAGENAME}}"
 </gallery>
-
-== Administration of images/files ==
-
-See: [[Manual:Image Administration]]
 
 == See also ==
 * [[Help:Linked images|Linked images]]
 
-==External Links==
-* {{meta|Help:Images and other uploaded files}}
-* http://en.wikipedia.org/wiki/Wikipedia:Extended_image_syntax
+==External Link==
+* [[wikipedia:Project:Extended image syntax|Wikipedia:Extended image syntax]]
 
 {{Languages|Help:Images}}
 
