@@ -11,7 +11,7 @@ Slashes (/) within a page name break the page into parent and subpages, recursiv
 :[[Example page/Some sub-page]]
 :[[Example page/Some sub-page/Some sub-sub-page]]
 
-A '''link back to parent''' will automatically appear at the top of each subpage. In the case of sub-sub-pages, a set of breadcrumb navigation links will autmatically be presented. Note that these links do not appear, however, if the parent page has not yet been created.
+A '''link back to parent''' will automatically appear at the top of each subpage. In the case of sub-sub-pages, a set of breadcrumb navigation links will automatically be presented. Note that these links do not appear, however, if the parent page has not yet been created.
 
 === Using (and over-using) sub pages ===
 There are various uses for the subpage mechanism. The main two intended uses are:
@@ -25,7 +25,7 @@ People instinctively think hierarchically when trying to organise information, s
 ==See also==
 * [[Meta:Help:Link#Subpage feature]]
 * [[Help:Variables#Page names]]
-* [[Manual:$wgNamespacesWithSubpages]]
+* {{mediawiki|Manual:$wgNamespacesWithSubpages}}
 
 [[Category:Help|{{PAGENAME}}]]
 [[Category:Subpage|{{PAGENAME}}]]
