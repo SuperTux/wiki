@@ -2,22 +2,22 @@
 
 Tables may be authored in wiki pages using either HTML table elements directly, or using wikicode formatting to define the table. HTML table elements and their use are well described on various web pages and will not be discussed here. The benefit of wikicode is that the table is constructed of character symbols which tend to make it easier to perceive the table structure in the article editing view compared to HTML table elements.
 
-A good general rule of thumb is to avoid using a table unless you need to. Table markup often complicates page editing.
+As a general rule, it is best to avoid using a table unless you need one. Table markup often complicates page editing.
 
 == Wiki table markup summary ==
 
 {|cellpadding="5" cellspacing="0" border="1" width="600"
-|<nowiki>{|</nowiki> || start '''table'''
+|<nowiki>{|</nowiki> || '''table start'''
 |-
-|<nowiki>|+</nowiki> || table '''caption,''' ''optional;'' only one per table and between table start and first row
+|<nowiki>|+</nowiki> || table '''caption,''' ''optional;'' only between '''table start''' and first '''table row'''
 |-
 |<nowiki>|-</nowiki> || '''table row,''' ''optional on first row'' -- wiki engine assumes the first row
 |-
-|<nowiki>!</nowiki>  || '''table header''' cell, ''optional.'' Consecutive table headers may be added on same line separated by double marks (!!) or start on new lines, each with its own single mark (!).
+|<nowiki>!</nowiki>  || '''table header''' cell, ''optional.'' Consecutive '''table header''' cells may be added on same line separated by double marks (!!) or start on new lines, each with its own single mark (!).
 |- 
-|<nowiki>|</nowiki>  || '''table data''' cell, ''required!'' Consecutive table data cells may be added on same line separated by double marks (<nowiki>||</nowiki>) or start on new lines, each with its own single mark (<nowiki>|</nowiki>).
+|<nowiki>|</nowiki>  || '''table data''' cell, ''required!'' Consecutive '''table data''' cells may be added on same line separated by double marks (<nowiki>||</nowiki>) or start on new lines, each with its own single mark (<nowiki>|</nowiki>).
 |-
-|<nowiki>|}</nowiki> || end '''table'''
+|<nowiki>|}</nowiki> || '''table end'''
 |}
 *The above marks must '''start on a new line''' except the double || and !! for optionally adding consecutive cells to a line.
 *'''XHTML attributes.''' Each mark, except table end, optionally accepts one or more XHTML attributes. Attributes must be on the same line as the mark. Separate attributes from each other with a single space. 
@@ -267,8 +267,6 @@ You can put attributes on individual '''rows,''' too.
 </pre>
 |}
 
-''Note: This cellpadding example is not currently working properly on mediawiki.org   It is supposed to look like [http://test.wikipedia.org/wiki/Table_test this]''
-
 ===With HTML attributes and CSS styles===
 CSS style attributes can be added with or without other HTML attributes
 ====style="color:green;background-color:#ffffcc;" cellpadding="20" cellspacing="0" border="1"====
@@ -337,6 +335,7 @@ TH (HTML table headings) can be created by using ! instead of |. Headings usuall
 |}
 </pre>
 |}
+
 ====Colspan="2"====
 {| width="100%"
 |width="50%"|
@@ -550,10 +549,6 @@ Keep the heading hierarchy consistent with the rest of the page so that the tabl
 ===Negative numbers===
 Negative value minus sign can break your table (it may display missing some values) if you start a cell on a new line with a negative number or a parameter that evaluates to a negative number (|-6) because that is the wiki markup for table row, not table cell. To avoid this, insert a space before the value (| -6) or use in-line cell markup (||-6).
 
-==External links==
-{{meta|Help:Table}}
-
 {{Languages|Help:Tables}}
 [[Category:Help|Tables]]
-[[Category:Tables]]
 [[Category:Imported help]]
