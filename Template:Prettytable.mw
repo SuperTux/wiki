@@ -1,2 +1,2 @@
-border="2" width="100%" cellspacing="4" cellpadding="3" rules="all" style="margin:1em 1em 1em 0; border:solid 1px #AAAAAA; border-collapse:collapse;empty-cells:show;{{{style|}}}"
+border="2" width="{{{width|100%}}}" cellspacing="4" cellpadding="3" rules="all" style="margin:1em 1em 1em 0; border:solid 1px #AAAAAA; border-collapse:collapse;empty-cells:show;{{{style|}}}"
 <noinclude>[[Category:Utility templates|{{PAGENAME}}]]</noinclude><noinclude>[[Category:Imported help]]</noinclude>
