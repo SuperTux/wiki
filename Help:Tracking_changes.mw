@@ -8,17 +8,18 @@ MediaWiki offers a collection of special pages and tools to keep track of what i
 
 The most interesting special page is '''[[Special:Recentchanges]]'''. It displays all edits, file uploads, page moves, deletions and other actions done in the wiki. In the menu on top it offers a collection of links to customize your display: limit the number of changes shown, the number of days or restrict it to edits to a certain namespace. You can also hide edits marked as minor (don't forget that major changes can be flagged by a user as minor anyway).
 
-One line in recentchanges consists of several links:
+One line in recent changes consists of several links:
 * ''diff'' displays the difference to the previous revision of the page,
 * ''hist'' links to the revision history of the page,
-* the link with the full title of the page brings you to the current version. If the title is in bold, it indicates that it is on your watchlist.
+* the link with the full title of the page brings you to the current version. If the title is in bold, it indicates that it is on your [[Help:Watchlist|watchlist]].
 
 Next is a flag describing the article modification type:
-*''N'' signalizes a new page,
+*''N'' denotes a new page,
 *''m'' a minor edit,
 *''b'' an edit made by a bot.
 
-Following the timestamp the user is mentioned, with a link to their [[Help:User page|user page]] and their [[Help:Talk pages#User Talk pages|talk page]] or to their contributions (in the case of anonymous users).
+
+Following the timestamp, it shows the page size difference to the previous revision, then the user is mentioned, with a link to their [[Help:User page|user page]] and their [[Help:Talk pages#User Talk pages|talk page]] and contributions, or to their [[Help:Talk pages#User Talk pages|talk page]] only in the case of anonymous users.
 
 Last but not least, there is an edit summary, appearing in italics, if the user submitted one when they made the edit.
 
@@ -36,9 +37,8 @@ Simply click the blue arrow to the left of the page name and timestamp to expand
 
 {{Admin tip|tip=You may want to add important pages in your wiki to [[MediaWiki:Recentchangestext]], the intro shown at [[Special:Recentchanges]]}}
 
-==External links==
-{{meta|Help:Tracking changes}}
-
 {{Languages|Help:Tracking changes}}
+
 [[Category:Help|Tracking changes]]
+[[Category:Recent changes|Tracking changes]]
 [[Category:Imported help]]
