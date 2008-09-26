@@ -10,7 +10,7 @@ CIDR notation is written as the IP address, a slash, and the CIDR affix (for exa
 
 For example: "<code>10.10.1.32</code>" is binary "<code>00001010.00001010.00000001.00100000</code>", so <code>10.10.1.32/27</code> will match the first 27 digits ("<code><u>00001010</u>.<u>00001010</u>.<u>00000001</u>.<u>001</u>00000</code>"). The IP addresses <code>10.10.1.32</code>–<code>10.10.1.63</code>, when converted to binary, all have the same 27 first digits and will be blocked if <code>10.10.1.32/27</code> is blocked.
 
-As the CIDR affix increases, the block affects less IP addresses (see [[#Table|table of example ranges]]). CIDR affixes are not the same for IPv4 addresses as they are for IPv6 addresses.
+As the CIDR affix increases, the block affects fewer IP addresses (see [[#Table|table of example ranges]]). CIDR affixes are not the same for IPv4 addresses as they are for IPv6 addresses.
 
 ==Calculating the CIDR affix==
 You can use the [[#Table|table of sample ranges]] below to guess the range, use a computer script, or manually calculate the range.
@@ -237,10 +237,11 @@ The table below shows the IP blocks each CIDR suffix affects. Note that MediaWik
 |}
 
 ==References==
-* {{wikipedia|Classless Inter-Domain Routing}}
+* [[wikipedia:Classless Inter-Domain Routing|Classless Inter-Domain Routing]]
 * [http://www.ccci.com/tools/subcalc/binary.html Converting IP addresses to binary]
 
 ==External links==
+* [http://www.find-ip-address.org/ip-country/ IP Address Ranges Block] gives you complete IP ranges for certain country.
 * [http://apps.csc.fi/laskin2.html Netmask calculator] which helps in making the correct decision for range blocks.
 * [http://tools.wikimedia.de/~chm/blockcalc.php Rangeblock-Calculator] gives you the range you should use when blocking.
 
