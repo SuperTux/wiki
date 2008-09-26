@@ -4,13 +4,13 @@
 
 If you move page "A" to a new title "B", this operation will do the following:
 * Creates the new page "B", with contents from page "A"
-* Replaces the contents of page "A" with redirect to "B"
+* Replaces the contents of page "A" with ''Redirect'' to "B".
 * Moves all the editing history from page "A" so that it appears under "B"'s history tab.
 <!--I think the above describes just the opposite to what actually happens in the database, I'm going to replace it with correct description: page is not actually moved in [[Page table]], it's simply given a new title-->
 
 The third point is important. By using the 'Move' feature, you also '''move the editing history''', which is desireable in most situations. The editing history allows people to see how the contents of the page were built up, and who contributed what. If you move contents around by copying and pasting (not using the move feature), you do not achieve this.
 
-Because the move operation '''leaves behind a redirect''', it should not result in any broken links, however you might want to hunt down the pages which link in to the redirect, and change their text to link directly to the new title. The 'What links here' toolbox feature (bottom left) is useful when doing this.
+Because the move operation '''leaves behind a redirect''' (see [[Help:Redirects]]), it should not result in any broken links, however you might want to hunt down the pages which link in to the redirect, and change their text to link directly to the new title. The 'What links here' toolbox feature (bottom left) is useful when doing this.
 
 == Proposing a move ==
 Deciding on a page title can be a difficult aspect of wiki organization, and one which can often provoke debates. If the move you have in mind is one which might cause upset or could be considered controversial, you should propose the move first. Do this by leaving a note to give your reasons on the [[Help:Talk pages|talk page]]. You might also establish a system for labelling the page itself, with a move proposal template, to make everybody aware of your intentions.
@@ -18,10 +18,7 @@ Deciding on a page title can be a difficult aspect of wiki organization, and one
 == Undo a move ==
 As with all wiki editing, a move operation can be reversed (by any user).  To reverse a move operation, simply move the page back, e.g. move page "B" back to "A".
 
-The page title "B" will still be left behind, as a redirect from "B" to "A". Any user can remove the redirect and propose that the page be deleted. However the final deletion will require sysop priviledges (see [[Help:Deleting a page]]).
-
-==External links==
-{{meta|Help:Moving a page}}
+The page title "B" will still be left behind, as a redirect from "B" to "A". Any user can remove the redirect and propose that the page be deleted. However the final deletion will require sysop privileges (see [[Help:Deleting a page]]).
 
 {{Languages|Help:Moving a page}}
 
