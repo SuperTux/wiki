@@ -2,7 +2,7 @@
 
 
 
-== When to delete a page ==
+== When '''not''' to delete a page : ==
 Typically you would delete a page if the contents are entirely inappropriate, and do not match the purposes of the wiki. In other situations you might prefer a less extreme course of action, for example...
 
 * The page should have a different title - So just "move" the page to a better title. See [[Help:Moving a page]]
@@ -21,12 +21,12 @@ If a page is no longer of any value, then you won't have any links pointing to i
 == Deletion itself ==
 '''Normal users''' cannot permanently delete a wiki page. This is an entirely deliberate design feature, which is an important part of why wikis work. Every kind of editing operation can be reverted by any other user, and that includes resurrecting deleted content. Try not to let it wind you up too much. It doesn't cause significant wasted space, and with nothing but a 'delete' label the page is effectively deleted anyway.
 
-'Sysop' users ''are'' able to delete a page semi-permanently (in fact the old editing history is still preserved, but to normal users the page will appear to no longer exist). A user logged in with sysop privileges will see an extra tab 'delete' for deleting the current page. Procedures may vary, but typically a sysop user might look for delete labels, and do a proper delete on these pages, if the wiki community seems to agree on this action (allowing a period of time for debate perhaps). In situations where the page title is offensive, or the contents (which remain in the history) are legally sensitive, a sysop user should do a "speedy deletion".
+'[[Help:Sysops and permissions|Sysop]]' users ''are'' able to delete a page semi-permanently. See [[Help:Sysop deleting and undeleting]]. Typically sysops might look for delete labels, and do a proper delete on these pages, after a period of time. If for some reason you need a page to be deleted more quickly than that, you will need to contact a sysop to request this.
 
-==External links==
-{{meta|Help:Deleting a page}}
+==See also==
+* [[Help:Sysops and permissions]]
 
 {{Languages|Help:Deleting a page}}
 
-{{Help Category|Help}}
+{{Help/Category|Help}}
 [[Category:Imported help]]
