@@ -6,12 +6,12 @@ When viewing any page on a MediaWiki wiki, you'll find three main navigation ele
  
 == Sidebar ==
 [[Image:M-en-sidebar.png|framed|right|Example sidebar, shown on the left of the page]]
-The sidebar is displayed on the left edge of the page below the site logo (if using the default MonoBook skin). This sidebar gives you access to important pages in the wiki such as Recent changes or Upload file.
+The sidebar is displayed on the left edge of the page below the site logo (if using the default MonoBook skin). This sidebar gives you access to important pages in the wiki such as Recent changes or Upload file. 
 
 === Navigation ===
 Clicking on the logo brings you back to the main page of the wiki. The links in the navigation section just below will take you to important pages of the wiki. These links can be configured by site administrators.
 
-{{Admin tip|tip=You can customize the navigation links by editing [[MediaWiki:Sidebar]]. Some entries call for separate MediaWiki: pages, e.g. to change the automatic link to the [[Main Page]] you would change [[MediaWiki:Mainpage]] (target page) and [[MediaWiki:Mainpage-text]] (displayed text). You can find a list of such pages via [[Special:Allmessages]].}}
+{{Admin tip|tip=You can customize the navigation links by editing [[MediaWiki:Sidebar]]. Some entries call for separate MediaWiki: pages, e.g. to change the automatic link to the [[Main Page]] you would change [[MediaWiki:Mainpage]] (target page) and [[MediaWiki:Mainpage-text]] (displayed text). You can find a list of such pages via [[Special:Allmessages]]. For more information see [http://www.mediawiki.org/wiki/Manual:Interface/Sidebar Manual:Interface/Sidebar].}}
 
 === Toolbox ===
 The toolbox contains a selection of links which change depending on what type of page you are viewing.
@@ -22,7 +22,7 @@ On all pages (except special pages):
 
 On all pages (including special pages):
 * ''Upload file'' displays a special page that allows logged-in users to upload images and other files to the wiki. Uploaded files can be linked from or embedded in wiki pages. Uploading files, viewing files on the server, including them in wiki pages and managing the uploaded files is discussed in the [[Help:Managing files|managing files]] section of this manual. This is not displayed if file uploading has been disabled or not enabled in the first place.
-{{Admin tip|tip=To enable file uploading someone with access to the MediaWiki installation files needs to edit the <code>LocalSettings.php</code> file and uncomment or add the option <code>$wgEnableUploads = true;</code>. Uploaded files will be stored in the images folder specified by the <code>$wgUploadPath</code> variable in the <code>LocalSettings.php</code>. This directory must be writable if file uploads is enabled. The [[Manual:LocalSettings.php#Upload location|upload location]] and [[Manual:LocalSettings.php#Image uploads|image uploads]] settings are described in more detail on the MetaWiki [[Manual:LocalSettings.php|LocalSettings.php]] page.}}
+{{Admin tip|tip=To enable file uploading someone with access to the MediaWiki installation files needs to edit the <code>LocalSettings.php</code> file and uncomment or add the option <code>$wgEnableUploads = true;</code>. Uploaded files will be stored in the images folder specified by the <code>$wgUploadPath</code> variable in the <code>LocalSettings.php</code>. This directory must be writable if file uploads is enabled. The {{mediawiki|Manual:LocalSettings.php#Upload location|upload location}} and {{mediawiki|Manual:LocalSettings.php#Image uploads|image uploads}} settings are described in more detail on the MetaWiki {{mediawiki|Manual:LocalSettings.php|LocalSettings.php}} page.}}
 * The ''Special pages'' tool lists the MediaWiki special pages. In MediaWiki terminology, a special page is one that presents information about the Wiki and/or allows access to administration activities for the wiki. For example, a list of users registered with the wiki, statistics about the wiki such as the number of pages and number of page edits, system logs, a list of orphaned pages, and so on. These special pages are commonly generated when the special page is loaded rather than being stored in the wiki database.
 
 :''The function and use of the default special pages can be found in the [[Help:Special pages|special pages]] section of this manual.''
