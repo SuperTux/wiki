@@ -9,7 +9,7 @@ For the text of the new page, enter the following:
  <nowiki>#REDIRECT [[</nowiki>''pagename''<nowiki>]]</nowiki>
 where ''pagename'' is the name of the page you want to redirect users to.
 
-You can use the 'preview' button, to check that you have entered the correct page name (Generally you will be redirecting to an existing page name, so the link should be blue, not red)
+You can use the 'preview' button, to check that you have entered the correct page name (Generally you will be redirecting to an existing page name, so the link should be blue, not red).  However, the ''preview page'' will not look like a standard redirect page, it will look like a numbered list with ''hopefully'' a blue link after the word "REDIRECT"
 
 ==Viewing a redirect==
 After creating a redirect, you can no longer get to that page name. The browser is always redirected! However near the top of the page, a link is provided. Click this to get back to the redirected page name, and "view" the redirect.
@@ -28,9 +28,6 @@ However this does mean that you should look out for double redirects and elimina
 
 == A redirect to a page in the category namespace ==
 To prevent a page that redirects to a category from appearing in the category; precede the word Category with a colon like so : <nowiki>#REDIRECT [[:Category:Glossary]]</nowiki>
-
-==External links==
-{{meta|Help:Redirect}}
 
 {{Languages|Help:Redirects}} 
 
