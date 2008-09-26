@@ -1,4 +1,3 @@
-{{Navbox Milestone 2 Design Document}}
 Most releases have been in December on or near the 25th. The current goal is to get something cool, playable, and user-friendly out by then.
 The tasks are split into 3 phases, one for each month, though not necessarily in the order.
 
@@ -12,7 +11,7 @@ Once some tiles are added, people can start making pretty levels with ideas from
 Various bugs have been uncovered and need to be fixed, so people can create parallax backgrounds and other useful designs. Ice tiles should get implemented so Tux can skid around. We might want slope-sliding, except that requires OBB's...
 Some new enemy behaviors should be added so people can have variety in playing.
 
-== Other Phases ==
+== Other Phases
 Some other phases exist that aren't key to playing the game or creating content for it:
 
 == Phase D – Sounds and Music (Before release) ==
