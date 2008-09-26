@@ -7,7 +7,7 @@ A talk page is actually very similar to any other wiki page, but it is in the 't
 == Editing conventions on talk pages ==
 Having discussions on a free-form wiki page will seem strange at first. It helps if everyone follows some simple editing conventions:
 
-* Always sign your name after your comments. Use the four tildas '<tt><nowiki>~~~~</nowiki></tt>' wiki syntax (or the toolbar button)
+* Always sign your name after your comments. Use the four tildes '<tt><nowiki>~~~~</nowiki></tt>' wiki syntax (or the toolbar button) For more information see [[Help:Signatures]]
 * Start a new discussion with a <tt><nowiki>==level 2 heading==</nowiki></tt> at the bottom of the page (or use the '+' tab)
 * Indent replies with colons (':') at the beginning of the line.
 
@@ -48,7 +48,7 @@ Clearly we also have the opportunity to edit other people's comments. It is gene
 ;Delete discussions when they are out-of-date
 :Discussions can often get left lying around on a talk page long after the issue is no longer relevant. It's usually a good idea to reply to saying "I think this is now resolved", but sooner or later it's time to just blow away the old discussions (they are of course preserved in the editing history)
 ;Split a post into several discussions
-:It may appropriate to do this, if somebody has raised several points which need to be answered separately. However you should always be respectful to other people's words. Does their post still make sense if you split it up?
+:It may be appropriate to do this, if somebody has raised several points which need to be answered separately. However you should always be respectful to other people's words. Does their post still make sense if you split it up?
 
 == Building articles - Discussing articles ==
 It is usually best to keep focused on the task of building a wiki article, and use discussion pages only to support this process. The topic of conversation should generally revolve around what needs to be done to make the associated article better. Remember that editing the article itself is often a more effective means of communicating. It can be more difficult, requiring you to balance your views alongside those of others, but it can also be more rewarding. This is how the community of wiki editors will make progress. Often it will feel more natural to engage in heated debate on a talk page (or indeed any other contact channel) but in fact the wiki article itself can offer a powerful means of reaching middle-ground. Think about how to portray both sides of the argument (e.g. listing advantages and disadvantages) and you may find the debate evaporates.
@@ -59,9 +59,6 @@ A "user talk page" is a talk page associated with somebody's "user page" (See [[
 This can function as a kind of messaging system. Users receive a prominent notification when new messages have been left on their talk page. They may be notified by email as well, although this cannot always be relied upon (since the email notification feature must be activated by supplying a valid email address, and clicking a confirmation link). If you don't get a response to your user talk page message, try looking for other contact details which they may have supplied on their user page.
 
 Note that the messages are not private, and others can join in the conversation.
-
-==External links==
-{{meta|Help:Talk page}}
 
 {{Languages|Help:Talk pages}}
 
