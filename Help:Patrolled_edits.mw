@@ -1,6 +1,8 @@
 {{PD Help Page}}
 <div style="float:right;">__TOC__</div>
-In MediaWiki 1.4 and above, a feature exists allowing specific users to mark items in recent changes as having been "patrolled" or "approved". This is useful when reviewing recent changes for undesirable edits, link spam and vandalism.
+'''Patrolled edits''' are a feature which allows specific users to mark items in recent changes as having been "patrolled" or "approved". By default this is only available if you have [[Help:Sysops and permissions|sysop permissions]]
+
+This feature is useful when reviewing recent changes for undesirable edits, link spam and vandalism. This allows people (those who can see it) to coordinate their patrolling activity, such that edits gets checked over once, but with less wasted effort (different people checking the same edit)
 
 == Marking edits as patrolled ==
 
@@ -8,14 +10,14 @@ In MediaWiki 1.4 and above, a feature exists allowing specific users to mark ite
 
 #Access [[Special:Recentchanges]]
 #:Changes which are not patrolled will be indicated with a red exclamation mark
-#Click the ([[m:Help:Diff|diff]]) link next to an edit
+#Click the ({{mediawiki|m:Help:Diff|diff}}) link next to an edit
 #To mark the edit as patrolled, click the ''mark as patrolled'' link
 
 == Customization ==
 
 === Enabling/disabling ===
 
-Patrolled edits are enabled by default in MediaWiki 1.4. In MediaWiki 1.5 and later, set '''$wgUseRCPatrol''' in [[Manual:Configuration settings|LocalSettings.php]].
+Patrolled edits are enabled by default in MediaWiki 1.4. In MediaWiki 1.5 and later, set '''[[Manual:$wgUseRCPatrol|$wgUseRCPatrol]]''' in {{mediawiki|Manual:Configuration settings|LocalSettings.php}}.
 
 <code>$wgUseRCPatrol = true;</code>
 
@@ -23,7 +25,7 @@ Patrolled edits are enabled by default in MediaWiki 1.4. In MediaWiki 1.5 and la
 
 ==== 1.4 ====
 
-In MediaWiki 1.4, patrolled edits are enabled for all users. To restrict this to sysops, set '''$wgOnlySysopsCanPatrol''' in [[Manual:Configuration settings|LocalSettings.php]].
+In MediaWiki 1.4, patrolled edits are enabled for all users. To restrict this to sysops, set '''[[Manual:$wgOnlySysopsCanPatrol|$wgOnlySysopsCanPatrol]]''' in {{mediawiki|Manual:Configuration settings|LocalSettings.php}}.
 
 <code>$wgOnlySysopsCanPatrol = true;</code>
 
@@ -44,10 +46,7 @@ In MediaWiki 1.9 this user preference has been removed and replaced by a new "au
 
 === Marker ===
 
-The formatting of the unpatrolled edit marker can be altered using CSS.
-
-==External links==
-{{meta|Help:Patrolled edit}}
+The formatting of the unpatrolled edit marker can be altered using CSS. The exclamation mark displayed on the Recent changes log is styled using the <code>span.unpatrolled</code>.
 
 {{Languages|Help:Patrolled edits}}
 [[Category:Help|Patrolled edits]]
