@@ -2,7 +2,7 @@
 If file uploads are enabled, you can upload certain types of files to the wiki. This is particularly useful for uploading images, which you want to place on an article, but you can also upload other types of file.
 
 ==Upload a file==
-# Prepare the file for upload. Make sure the file is exactly as you want it. Think about how big the file is.
+# Prepare the file for upload. Make sure the file is exactly as you want it.
 # In the [[Help:Navigation#Sidebar|sidebar]], under '''toolbox''', click "Upload file"
 # Next to the '''Source filename''', click '''Browse''' to locate the file on your computer.
 # Change the '''Destination filename''' to something descriptive, if necessary.
@@ -15,11 +15,11 @@ If it is a large file, you may need to wait several seconds for the upload to co
 
 After you've uploaded a file, you can use it in an article, with some special wiki syntax to create the link. See [[Help:Images]].
 
-Your file gets its very own 'Image Description Page' within the wiki (even if it isn't an image). You should edit this page to provide more information about the file. For example, many wiki projects are quite sensitive to copyright issues, and so you should explain where you got the file from, and what its copyright status is, on the description page. Any other useful descriptive notes could also be added there.
+Your file gets its very own 'Image Description Page' within the wiki (even if it isn't an image). You should edit this page to provide more information about the file. For example, many public wiki projects are quite sensitive to copyright issues, and so you should explain where you got the file from, and what its copyright status is, on the description page. Any other useful descriptive notes could also be added there.
 
 == Listing files in the wiki ==
 
-There are a number Special Pages to help you view and manage files which have been uploaded. Go to 'Special Pages' (in the toolbox on the left) and then see...
+There are a number of Special Pages to help you view and manage files which have been uploaded. Go to 'Special Pages' (in the toolbox on the left) and then see...
 
 * [[Special:Newimages|Gallery of new images]] - If you just uploaded one, you will see it here.  
 * [[Special:Imagelist|File list]] shows all of the files
