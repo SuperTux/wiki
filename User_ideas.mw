@@ -417,6 +417,7 @@ depending on whether you are big or firetux, you would get a different powerup.
 
 bigtux powerup: hugetux
 tux looks like smalltux but is twice the size of bigtux, he is invincible  and can kill badguys just by touching them and earn coins doing it.  he can also activate bonus blocks from above. this would run out after a certain period of time.
+
 firetux powerup: jet pack
 tux would act normally but if you press the set "up" button tux flies up slowly, gaining speed. this would disapear after he has flown for a certain ammount of time and used all his fuel.
 
