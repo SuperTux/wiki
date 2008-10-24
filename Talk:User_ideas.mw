@@ -45,3 +45,10 @@ HTH, pktm
 :In which version is it not possible to jump again? Usually Tux bounces off an enemy when jumping on it. --[[User:204.13.236.244|204.13.236.244]] 13:08, 20 April 2008 (UTC)
 
 :: I'm using supertux 0.3.0-0 on a openSuse 10.3 x86_64. Edit: I checked it. The Character bounces off the enemy, if it just jumps on it. But if you press the jump key while jumping on an anemy, you fall down.
+
+== Reversing snowball power-ups & run/walk button settings ==
+
+Okay, I have two ideas/suggestions, if I can have. Both of them is Mario related, and I know Supertux doesn't intend to copy mario directly, but these ones would make the game more enjoyable, imo. One of them is about snowball power-ups, I think it would be a really nice feature if by hitting a "? block" under the snowball, it could reverse it's direction, like it does in Mario.
+The other suggestion is about running. After playing many platform games (well, not just platform games, I could say gta:sa, or duke nukem 3d, or whatever), with having a run button, it's really strange to get used to SuperTux's new walk-by-button system. I don't say it's bad, or it needs a change, but for people like me, it wouldn't be bad if we could set it in the Options, if we want walk as normal with run button or the reverse of it. Many modern games have this feature, and I think it would also add a plus to SuperTux's enjoyment.
+Btw, great game, and huge thanks to you guys for putting a lot of effort into this project! :)
+--[[User:TaZaR|TaZaR]] 19:56, 24 October 2008 (UTC)
