@@ -36,6 +36,8 @@ The main menu on the WIZ does not restart automatically after an application exi
   chdir("/usr/gp2x");
   execl("/usr/gp2x/gp2xmenu", "/usr/gp2x/gp2xmenu", NULL);
 
+Or via a starter shellscript.
+
 == Scripting ==
 
 The WIZ can run shell scripts, simply create a normal script, rename it to your-script.gpe and copy it to game/ on the SD card. A simple script to get a list of all files on the device would look like:
@@ -49,6 +51,17 @@ The WIZ can run shell scripts, simply create a normal script, rename it to your-
  exec /usr/gp2x/gp2xmenu
 
 Note: The device is running busybox, so some command line arguments that work on GNU/Linux will not work here.
+
+== stdout/stderr ==
+
+By default the standard output isn't visible anywhere, to fix that one can use a Shell script to start the application and redirect the output to a file:
+
+ #!/bin/sh
+ 
+ /mnt/sd/game/keyboard.gpe > /mnt/sd/stdout.txt 2> /mnt/sd/stderr.txt
+ sync
+ cd /usr/gp2x
+ exec /usr/gp2x/gp2xmenu
 
 == Display ==
 
