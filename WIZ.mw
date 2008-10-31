@@ -1,0 +1,59 @@
+The WIZ is a Gameboy-like handheld and the successor to the GP2x.
+
+== Input ==
+
+Under SDL the touchscreen comes in as normal mouse events, all keys on the WIZ however come in as joystick button events, not keyboard events. The joystick device has to be properly inited with SDL_INIT_JOYSTICK and SDL_JoystickOpen(0) as usual. The left DPad behaves like 8 buttons, since the diagonals are buttons themselves, which is a little weird. The right dpad (X,Y,A,B) behaves mostly as expected, but unlike a normal dpad all directions can be pressed down at once. Volume Up/Down come in as button events and aren't handled by the OS.
+
+=== List of joystick button numbers ===
+
+  WIZ_DPAD_UP         = 0
+  WIZ_DPAD_UP_LEFT    = 1
+  WIZ_DPAD_LEFT       = 2
+  WIZ_DPAD_DOWN_LEFT  = 3
+  WIZ_DPAD_DOWN       = 4
+  WIZ_DPAD_DOWN_RIGHT = 5
+  WIZ_DPAD_RIGHT      = 6
+  WIZ_DPAD_UP_RIGHT   = 7
+  
+  WIZ_BTN_MENU   = 8
+  WIZ_BTN_SELECT = 9
+  
+  WIZ_BTN_L = 10
+  WIZ_BTN_R = 11
+  
+  WIZ_BTN_A = 12
+  WIZ_BTN_B = 13
+  WIZ_BTN_X = 14
+  WIZ_BTN_Y = 15
+  
+  WIZ_VOLUME_UP   = 16
+  WIZ_VOLUME_DOWN = 17
+
+== Menu ==
+
+The main menu on the WIZ does not restart automatically after an application exits, it has to be done manually via:
+
+  chdir("/usr/gp2x");
+  execl("/usr/gp2x/gp2xmenu", "/usr/gp2x/gp2xmenu", NULL);
+
+== Scripting ==
+
+The WIZ can run shell scripts, simply create a normal script, rename it to your-script.gpe and copy it to game/ on the SD card. A simple script to get a list of all files on the device would look like:
+
+ #!/bin/sh
+ 
+ echo "Test" > /mnt/sd/test.txt
+ find / > /mnt/sd/ls_laR.txt 2>&1 
+ sync
+ cd /usr/gp2x
+ exec /usr/gp2x/gp2xmenu
+
+Note: The device is running busybox, so some command line arguments that work on GNU/Linux will not work here.
+
+== Display ==
+
+Initing the device with SDL_SetVideoMode(320, 240, 0, SDL_SWSURFACE))) seems to give the best results, using SDL_HWSURFACE|SDL_DOUBLEBUF results in a lot of flicker.
+
+== Volume ==
+
+Since the Volume Up/Down keys come in as normal joystick events and aren't handled by the OS, an application might need to handle them manually. How does one do that?
