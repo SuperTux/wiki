@@ -67,6 +67,10 @@ By default the standard output isn't visible anywhere, to fix that one can use a
 
 Initing the device with SDL_SetVideoMode(320, 240, 0, SDL_SWSURFACE))) seems to give the best results, using SDL_HWSURFACE|SDL_DOUBLEBUF results in a lot of flicker.
 
+== OpenGL ==
+
+???
+
 == Volume ==
 
 Since the Volume Up/Down keys come in as normal joystick events and aren't handled by the OS, an application might need to handle them manually. How does one do that?
