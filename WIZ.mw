@@ -71,6 +71,10 @@ Initing the device with SDL_SetVideoMode(320, 240, 0, SDL_SWSURFACE))) seems to 
 
 ???
 
+== C++ ==
+
+Using the STL currently fails here, due to different c++ library versions on the device and in the development kit.
+
 == Volume ==
 
 Since the Volume Up/Down keys come in as normal joystick events and aren't handled by the OS, an application might need to handle them manually. How does one do that?
