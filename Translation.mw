@@ -47,10 +47,10 @@ Linux users might run
  LANG="en" ./supertux
 
 Windows users might run
- set LANG=en
+ set SUPERTUX_LANG=en
  supertux.exe
 
-If setting the environment variable <tt>LANG</tt> doesn't work, you may try using the variable <tt>SUPERTUX_LANG</tt> instead.
+If setting the environment variable LANG doesn't work, you may try using the variable <tt>SUPERTUX_LANG</tt> instead.
 
 == Existing Translations ==
 
