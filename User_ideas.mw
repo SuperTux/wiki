@@ -2,10 +2,10 @@
 
 === Pre/Post story movie ===
 
-Instead of showing scrolling text, movies can be shown stating Gown's kidnap... and at-last the re-union. Wouldn't that be nice?
+Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union. Wouldn't that be nice?
 :I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the TODO list, and I guess it will be used for the story intro. --[[User:RavuAlHemio|Ravu]] 14:30, 7 Apr 2005 (BST)
-:Wrong! The story was Tux and Gown were having a picnic, when a creature jumped from behind an ice bush, there was a flash and Tux fell asleep when he woke up there was a note from Nolok saying he had Gown and not to try and save her. So Tux looks sees Nolok's castle and sets off.
-:I think in the story was: "A creature jumped from behind an ice bush, Tux..." ;-(- penma -
+:Wrong! The story was Tux and Penny were having a picnic, when a creature jumped from behind an ice bush, there was a flash and Tux fell asleep when he woke up there was a note from Nolok saying he had Penny and not to try and save her. So Tux looks sees Nolok's castle and sets off.
+:I think in the story was: "A creature jumped from behind an ice bush, Tux..." ;-)- penma -
 :: The *old* (as in 0.0.5) cutscene involved the helicopter. The new SVN cutscene is the picnic scene. --[[User:Tuxdev|Tuxdev]] 22:00, 1 Oct 2006 (CEST)
 
 Now we have the demos feature in SVN, and it shouldn't be too hard to make a 'movie' level for showing a demo mid-story. --[[User:Ajdlinux|Ajdlinux]] 23:20, 30 Sep 2005 (BST)
