@@ -80,7 +80,7 @@ Please add yourself to this list if you are working on a new translation, so tha
 |-
 | Danish
 | da
-| Anders <anders § ersej.dk>
+| Anders <anders@ersej.dk>
 | 0.3.0
 | r4415
 | 100%
@@ -94,7 +94,7 @@ Please add yourself to this list if you are working on a new translation, so tha
 |-
 | (European) Spanish
 | es
-| Fernando Carmona <ferkiwi § gmail .com>
+| Fernando Carmona <ferkiwi@gmail .com>
 | 0.3.0
 | r4415
 | 
@@ -115,14 +115,14 @@ Please add yourself to this list if you are working on a new translation, so tha
 |-
 | Hungarian
 | hu
-| Kővágó Zoltán (DirtY iCE) <DirtY.iCE.hu (AT) gmail dot com >
+| Kővágó Zoltán (DirtY iCE) <DirtY.iCE.hu@gmail dot com >
 | 0.3.0
 | r4458 
 |
 |-
 | Icelandic
 | is
-| Thorsteinn A. Malmjursson <hammer.of.thor (AT) hotmail.com>
+| Thorsteinn A. Malmjursson <hammer.of.thor@hotmail.com>
 | 0.3.0
 |
 | Most messages translated for menus, In game messages and screens still to do. Work in progress. 
@@ -137,6 +137,13 @@ Please add yourself to this list if you are working on a new translation, so tha
 | Japanese
 | ja
 | Timothy Goya <tuxdev103 (AT) gmail DOT com>
+|
+|
+| Work in Progress
+|-
+| Korean
+| ko
+| Seo Tae Wong <386sky at naver dot com>
 |
 |
 | Work in Progress
@@ -196,7 +203,7 @@ Please add yourself to this list if you are working on a new translation, so tha
 updated for 0.3.1 by Krishnamurti Lelis Lima Vieira Nunes
 | 0.3.0
 | r5389
-| 100%, sugestões são bem vindas. ;)
+| 100%, sugestões são bem vindas. ;(
 |-
 | Romanian
 | ro
@@ -235,7 +242,7 @@ updated for 0.3.1 by Krishnamurti Lelis Lima Vieira Nunes
 |-
 | Chinese, Simplified
 | zh_CN
-| Liu Sizhuang (lsz) <chinatslsz Áτ hotmail dǒT com>
+| Liu Sizhuang (lsz) <chinatslsz at hotmail dot com>
 | 
 | 
 | Work in progress, 95% done for Supertux, editor isn't translated. Posted to maillist.
