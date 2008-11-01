@@ -2,7 +2,7 @@ The WIZ is a Gameboy-like handheld and the successor to the GP2x.
 
 == Input ==
 
-Under SDL the touchscreen comes in as normal mouse events, all keys on the WIZ however come in as joystick button events, not keyboard events. The joystick device has to be properly inited with SDL_INIT_JOYSTICK and SDL_JoystickOpen(0) as usual. The left DPad behaves like 8 buttons, since the diagonals are buttons themselves, which is a little weird. The right dpad (X,Y,A,B) behaves mostly as expected, but unlike a normal dpad all directions can be pressed down at once. Volume Up/Down come in as button events and aren't handled by the OS.
+Under SDL the touchscreen comes in as normal mouse events, all keys on the WIZ however come in as joystick button events, not keyboard events. The joystick device has to be properly inited with SDL_INIT_JOYSTICK and SDL_JoystickOpen(0) as usual. The left DPad behaves like 8 buttons, since the diagonals are buttons themselves, which is a little weird. The right dpad (X,Y,A,B) behaves mostly as expected, but unlike a normal dpad all directions can be pressed down at once. Button letters are the same as on SNES, but the order is different. Volume Up/Down come in as button events and aren't handled by the OS.
 
 === List of joystick button numbers ===
 
@@ -28,6 +28,10 @@ Under SDL the touchscreen comes in as normal mouse events, all keys on the WIZ h
   
   WIZ_VOLUME_UP   = 16
   WIZ_VOLUME_DOWN = 17
+
+== Controls ==
+
+Trying to mirror SNES-like Jump'n Run controls doesn't work well on the WIZ, since trying to press A and X at the same time is very imprecise and just doesn't feel right. A easy workaround for this is to map run to A and jump to B and then pressing the whole right dpad down when one wants to perform a run jump. Sounds weird, but works very well and feels right. This little trick is however limited to games that only need two buttons, other stuff would likely get confused by the whole right dpad being pressed down, since it would also trigger X and Y.
 
 == Menu ==
 
