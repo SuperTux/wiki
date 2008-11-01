@@ -33,6 +33,10 @@ Under SDL the touchscreen comes in as normal mouse events, all keys on the WIZ h
 
 Trying to mirror SNES-like Jump'n Run controls doesn't work well on the WIZ, since trying to press A and X at the same time is very imprecise and just doesn't feel right. A easy workaround for this is to map run to A and jump to B and then pressing the whole right dpad down when one wants to perform a run jump. Sounds weird, but works very well and feels right. This little trick is however limited to games that only need two buttons, other stuff would likely get confused by the whole right dpad being pressed down, since it would also trigger X and Y.
 
+== Display ==
+
+320x240, OLED, subpixel layout: VRGB
+
 == Menu ==
 
 The main menu on the WIZ does not restart automatically after an application exits, it has to be done manually via:
