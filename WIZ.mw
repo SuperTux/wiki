@@ -97,9 +97,9 @@ The SD card gets mounted to /mnt/sd/.
 
 On the SD card one has to have folders with specific names to be visible via the menu:
 
-game/ - place game binaries here (*.gpe, maybe *.gpu too)
-photo/ - photos (.png, .jpg, .bmp, etc.)
-flash/ - Flash games and animations (.swf)
-music/ - MP3 music (other?)
+* game/ - place game binaries here (*.gpe, maybe *.gpu too)
+* photo/ - photos (.png, .jpg, .bmp, etc.)
+* flash/ - Flash games and animations (.swf)
+* music/ - MP3 music (other?)
 
 There are likely other folders such as video/, notes/, ebook/, comics/ or so.
