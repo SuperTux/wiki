@@ -91,14 +91,14 @@ OpenGLES currently suffers from quite severe lack of vsync issues, i.e. a big di
 
 Linking to just the opengles_lite library will give undefined references:
 
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_SetWindow'
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_Sleep'
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_SetDisplayAddress'
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_SwapBufferCallback'
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_GetWindowSize'
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_Finalize'
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_Initalize'
-/aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_WaitForDisplayAddressPatched'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_SetWindow'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_Sleep'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_SetDisplayAddress'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_SwapBufferCallback'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_GetWindowSize'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_Finalize'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_Initalize'
+ /aesop/bench/ThirdParty/MagicEyes/Libs/arm/libopengles_lite.so: undefined reference to `GLESOAL_WaitForDisplayAddressPatched'
 
 The reason for this is that opengles_lite needs additional platform specific code to function. Currently this can be found in /aesop/bench/benchmark-lf1000/port.cpp.
 
