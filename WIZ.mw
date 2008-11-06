@@ -4,6 +4,12 @@ The WIZ is a Gameboy-like handheld and the successor to the GP2x.
 
 Under SDL the touchscreen comes in as normal mouse events, all keys on the WIZ however come in as joystick button events, not keyboard events. The joystick device has to be properly inited with SDL_INIT_JOYSTICK and SDL_JoystickOpen(0) as usual. The left DPad behaves like 8 buttons, since the diagonals are buttons themselves, which is a little weird. The right dpad (X,Y,A,B) behaves mostly as expected, but unlike a normal dpad all directions can be pressed down at once. Button letters are the same as on SNES, but the order is different. Volume Up/Down come in as button events and aren't handled by the OS.
 
+=== Low Level ===
+
+Joystick events seem to come in from "/dev/GPIO" as a 4 byte bit-map with button states (i.e. there is no normal /dev/input/jsX). The device also seems to allow toggling of backlight and maybe other stuff, see gp2x/trunk/library/SDL/src/joystick/linux/SDL_sysjoystick_gp2x.c.
+
+Mouse input seems to be handled via regular /dev/input/mouse0.
+
 === List of joystick button numbers ===
 
   WIZ_DPAD_UP         = 0
