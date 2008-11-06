@@ -103,3 +103,5 @@ On the SD card one has to have folders with specific names to be visible via the
 * music/ - MP3 music (other?)
 
 There are likely other folders such as video/, notes/, ebook/, comics/ or so.
+
+/mnt/nand/game is likely the folder for build-in games
