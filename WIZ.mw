@@ -37,7 +37,13 @@ Mouse input seems to be handled via regular /dev/input/mouse0.
 
 == Controls ==
 
+=== Development Units ===
+
 Trying to mirror SNES-like Jump'n Run controls doesn't work well on the WIZ, since trying to press A and X at the same time is very imprecise and just doesn't feel right. A easy workaround for this is to map run to A and jump to B and then pressing the whole right dpad down when one wants to perform a run jump. Sounds weird, but works very well and feels right. This little trick is however limited to games that only need two buttons, other stuff would likely get confused by the whole right dpad being pressed down, since it would also trigger X and Y.
+
+=== Final Units ===
+
+The latest revision of the WIZ has fixed the above issue and behaves pretty much exactly like a normal GameBoy or PSP. The diagonals on the Dpad still come in as seperate buttons which SuperTux currently can't handle, a small issue however since you rarely need the diagonals in the game so most people likely will never notice, still worth to fix.
 
 == Display ==
 
