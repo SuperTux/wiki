@@ -32,6 +32,7 @@ I'm sorry if this is stupid, but my editor is working fine. There's just one sma
 
 :::I can't compile :( is there easier way?
 ::::Which editor did you try? The Autopackage from [[Download/Unstable#Release_0.3.0]] or one that comes with your distribution? --[[User:WolfgangB|WolfgangB]] 18:47, 27 June 2008 (UTC)
+::::I can't find a supertux-editor package in the repositories; so i belive it was intalled from autopackage... I have the same white box, it only displays (for .2 seg) when changing the window or left clicking. It seems it is a distro/library problem. Ubuntu 8.04.
 
 == scrolling and no thing under bad guys ==
 
