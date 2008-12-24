@@ -61,5 +61,6 @@ Can someone find all the actions that can happen in a script.
 == Another scripting question ==
 
 How do you register local variables when a badguy execs "DeadScript"?.And How to use control statements (if,while...)?
-:That would be in the [http://squirrel-lang.org/default.aspx#doc Documentation]; also try looking at any of the existing scripts in current levels.
-Local variables are local <var>.
+:That would be in the [http://squirrel-lang.org/default.aspx#doc Documentation]; also try looking at any of the existing scripts in current levels. 
+:Local variables are something like <code>local a</code>, creating variables is <code>a <- 0</code> (the variable will stay around as long as the current sector), and to assign an already-created value is <code>a = 0</code>. (<- also works for assignment, however)
+:You can create global (currently lasting over the lifetime of execution) variables by getting the parent of the sector table: <code>::parent.whatever</code>. There is currently no way to create level-persistent or world-persistent variables. --[[User:Mathnerd314|Mathnerd314]] 01:33, 24 December 2008 (UTC)
