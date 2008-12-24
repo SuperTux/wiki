@@ -61,3 +61,5 @@ Can someone find all the actions that can happen in a script.
 == Another scripting question ==
 
 How do you register local variables when a badguy execs "DeadScript"?.And How to use control statements (if,while...)?
+:That would be in the [http://squirrel-lang.org/default.aspx#doc Documentation]; also try looking at any of the existing scripts in current levels.
+Local variables are local <var>.
