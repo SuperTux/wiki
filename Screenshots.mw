@@ -1,27 +1,11 @@
 Welcome to our SuperTux screenshot album!
 
-== Supertux 0.4.0 ==
-
-[[Image:Screenshot0.4.0.png|frameless|200px]]
-
-== SuperTux 0.3.3 ==
-Released on 2010-03-01, it includes a main world and 3 bonus islands: Bonus Island 1&2 and Forest World but you can also add other levels (click on "Add-Ons" in the beginning).
-
-
-<div style="text-align: center;">
-[[Image:Übersicht_fertig.jpg|frameless|200px]]
-
-[[Image:Main World 1.jpg|frameless|200px]]
-[[Image:Main World 2.jpg|frameless|200px]] 
-[[Image:Main World 3.jpg|frameless|200px]]
-
-[[Image:Forest World 1.jpg|frameless|200px]]
-[[Image:Forest World 2.jpg|frameless|200px]]
-[[Image:Forest World 3.jpg|frameless|200px]]
-</div>
-
 == SuperTux 0.3.0 ==
-Released on 2006-12-17, this is was preview of what is to become Milestone 2. Many new features were implemented, e.g. levels that scroll in all directions, levels with multiple sectors, moving platforms, a shortened ice world, and a whole new forest world.
+Released 2006-12-17, this is a preview of what is
+to become Milestone 2. Lots of new features can already
+be tried out, e.g. levels that scroll in all directions,
+levels with multiple sectors, moving platforms, a shortened
+ice world and a whole new forest world.
 
 <div style="text-align: center;">
 [[Image:SuperTux-0.3.0-1.png|frameless|200px]]
@@ -34,15 +18,22 @@ Released on 2006-12-17, this is was preview of what is to become Milestone 2. Ma
 </div>
 
 == SuperTux 0.1.2 ==
-This was a release for the big SuperTux fans. We were asked to make more levels, and to make them more challenging. This was our answer. This version had a brand new Bonus Island map, new map features, a new enemy, and some new tiles.
+This is a release for the big SuperTux fans. We were asked to make more
+levels, making some more challenging, so here's our answer. This
+version has a brand new Bonus Island map, new map features, a new enemy
+and some new tiles.
 
 <div style="text-align: center;">
 [[Image:Game1-012.jpg|frameless|200px]]
 </div>
 
+
 == SuperTux 0.1.1 ==
 
-This version featured the built-in editor that was removed from the previous release (0.1.0), new hand-written fonts, and a few bug fixes.
+This version basically features the built-in editor that
+was removed from the previous release (0.1.0), new hand-written fonts
+and a few bug fixes.
+
 
 <div style="text-align: center;">
 [[Image:Menu-011.png|frameless|200px]]
@@ -50,9 +41,14 @@ This version featured the built-in editor that was removed from the previous rel
 [[Image:Leveleditor-011.png|frameless|200px]]
 </div>
 
+
 == SuperTux Milestone1 aka 0.1.0 ==
 
-Milestone1 was in huge parts the result of the GotM event on [http://happypenguin.org happypenguin.org], it contained completely new graphics, lots of new levels, a story and a worldmap.
+Milestone1 is in huge parts the result of the GotM event on
+[http://happypenguin.org happypenguin.org],
+it contains completely new graphics, lots of new levels,
+a story and a worldmap. Screenshots below should give you an
+impression of the game.
 
 
 <div style="text-align: center;">
@@ -62,10 +58,14 @@ Milestone1 was in huge parts the result of the GotM event on [http://happypengui
 [[Image:Game3-010.png|frameless|200px]]
 </div>
 
+
 === Flexlay ===
 
-Flexlay is the editor that was used to build most of the levels and the Worldmap in Milestone1. It provided a few
-more features than the built in one (zoom, minimap, worldmap support), but requires a few more dependencies including OpenGL.
+Flexlay is the editor that was used to build most of the
+levels and the Worldmap in Milestone1. It provides a few
+more features than the build in one (zoom, minimap, worldmap
+support), but requires a few more dependencies and OpenGL on
+the other side.
 
 <div style="text-align: center;">
 [[Image:Flexlay-1.png|frameless|200px]]
@@ -74,7 +74,11 @@ more features than the built in one (zoom, minimap, worldmap support), but requi
 
 == SuperTux 0.0.6 ==
 
-Released on 2004-03-15, this was a code clean-up version. It featured a level editor and an OpenGL front-end. The menu was improved, and fonts were also remade.
+Some shots from the 0.0.6 release, released at March 15,
+2004. Basically this was a code clean-up version. Features a
+level editor and an OpenGL front-end. Menu as improved a lot, and
+fonts were also remade.
+
 
 <div style="text-align: center;">
 [[Image:Menu-006.png|frameless|200px]]
@@ -82,18 +86,26 @@ Released on 2004-03-15, this was a code clean-up version. It featured a level ed
 [[Image:Leveleditor-006.png|frameless|200px]]
 </div>
 
+
 == SuperTux 0.0.5 ==
 
-Released on 2003-12-29. The graphics were improved. This version features a menu and internal clean-ups had started.
+A couple of shots from our 0.0.5 release, released at December
+29, 2003. Graphics were improved a lot. Also this version
+features a menu, and internal clean-ups have started.
+
 
 <div style="text-align: center;">
 [[Image:Intro-005.png|frameless|200px]]
 [[Image:Game-005.png|frameless|200px]]
 </div>
 
-== SuperTux Prior to 0.0.5 ==
 
-The graphics were a bit ugly, but it was already playable and had a Super Mario 1 feel.
+== SuperTux prior 0.0.5 ==
+
+Wow! These are really ancients shots from versions prior to
+0.0.5. Graphics were a bit ugly, but it was already playable and
+had a SuperMario1 feel.
+
 
 <div style="text-align: center;">
 [[Image:Game1-004.png|frameless|200px]]
