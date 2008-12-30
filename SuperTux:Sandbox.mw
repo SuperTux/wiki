@@ -34,7 +34,7 @@ Centered text
 '''<nowiki><s>blah blah blah</s></nowiki>'''
 
 *Once you have entered that code, your text will look like this:
-'''<s>blah blah blah</s>'''
+''<nowiki><s>blah blah blah</s></nowiki>'''
 
 ===Superscript===
 *To insert a superscript, use the following code:
