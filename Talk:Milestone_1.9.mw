@@ -6,6 +6,7 @@ Why remove "Levels that use lightmaps"? T
 ::::The magic blocks in l&m are planned for ghost forest IIRC. Are they in 1.9 at all? --[[User:WolfgangB|WolfgangB]] 21:59, 14 Dec 2006 (CET)
 :::::Light and Magic hasn't crashed for me and I am a windows user. The blocks that are solid when only a correct color lantern is near are great. the ghost rendering is also good.
 ::::::That level is working perfectly on my Ubuntu. I didn't see any problem.
+:::::::Its crashing alot on my MACCCCCC--[[User:Rabbit67890|Rabbit67890]] 01:08, 31 December 2008 (UTC)
 
 ==Problems with alpha installer for Windows==
 The alpha installer by delta___ doesn't seem to use the tools/innosetup/supertux.iss file. The editor depends on the game using this one to build the installer (as the installer for the editor checks for some ids to make sure supertux is installed). --[[User:AnMaster|AnMaster]] 10:22, 5 Oct 2006 (CEST)
