@@ -42,61 +42,36 @@ Press the Control key while moving an object to snap to every 16 pixels. Press t
 [[Image:Spawnpoint.png|left]] The SpawnPoint object is used to define places where Tux could "spawn". This is used to mark where Tux should start in the level, the destination of doors and more. The spawnpoint where Tux will start on loading the level must be named "main" and be in the sector called "main".
 
 === What is the Script object for? ===
-<Unable to provide image at present time> The script object is used to define an occurence which will happen when Tux enters the
-defined area. To edit the script, click the 'Edit Script' button. Some sample scripts are:
-*To move a moving platform: Change the platform's name. Example, Plat1. Then in the script, type:
+[[Image:Scripttrigger.png]] The script object is used to define an occurrence which will happen when Tux enters the
+defined area. To edit the script, click the 'Edit Script' button. For details please see [[Scripting reference]]. Some examples of scripting:
 
-Plat1.goto_node(#);
-
+==== Example: Moving platform ====
+To move a moving platform: Change the platform's name. Example, Plat1. Then in the script, type:
+ Plat1.goto_node(#);
 The node the platform starts on is 0, then 1, et cetera. To make the platform return:
-
-Plat1.goto_node(0);
-
+ Plat1.goto_node(0);
 You can also make the platform go and return in one go.
-
-Plat1.goto_node(#);
-
-Plat1.goto_node(0);
-
-*To light candles: Change the candle's name. Example, Candle1. Untick the 'burning' box.
-Candle1.set_burning(true);
-
+ Plat1.goto_node(#);
+ Plat1.goto_node(0);
+==== Example: Candle ====
+To light candles: Change the candle's name. Example, Candle1. Untick the 'burning' box.
+ Candle1.set_burning(true);
 The candle will light.
 To make a candle turn off, leave the candle 'burning' and type:
-
-Candle1.set_burning(false);
-
-*Wind: Change the wind's name. Example, Wind1. Untick the 'blowing' box.
-
-Wind1.start();
-
-To stop wind blowing, leave the wind 'blowing' and type:
-
-Wind1.stop();
-
-*A few more simple commands:
-
-wait(#);     (wait the specified number of seconds)
+ Candle1.set_burning(false);
+==== Example: Waiting ====
+A few more simple commands:
+ wait(#);     (wait the specified number of seconds)
 And example of using wait:
-
-Candle1.set_burning(true);
-
-wait(0.1);
-
-Candle2.set_burning(true);
-
-wait(2);
-
-Candle1.set_burning(false);
-
-wait(0.1);
-
-Candle2.set_burning(false);
-
+ Candle1.set_burning(true);
+ wait(0.1);
+ Candle2.set_burning(true);
+ wait(2);
+ Candle1.set_burning(false);
+ wait(0.1);
+ Candle2.set_burning(false);
 The result of this will be that candle1 lights, followed by candle2 a fraction of a second later. After two more seconds, candle1
 and then candle2 will go out.
-
-This is an incomplete (by far) list of scripting, feel free to add more.
 
 === How do I change the background image? ===
 Select "Background" in the sector objects view. There you can change it's properties, including what picture(s) should be used for background.
