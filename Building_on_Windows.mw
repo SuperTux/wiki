@@ -30,7 +30,7 @@ TO USE ANY SVN VERSION, FIRST DOWNLOAD A SVN CLIENT
 
 * Download and install [http://www.mingw.org/msys.shtml MSYS] - I chose [http://prdownloads.sf.net/mingw/MSYS-1.0.11-2004.04.30-1.exe?download MSYS-1.0.11-2004.04.30-1]
 ** Again, the default folder of C:\msys\1.0 was fine with me
-** In the process of installing MSYS, a command shell should open, promping you whether you want to continue and if you already installed MinGW. Answer both questions with yes (y) and you should be prompted for the path to your MinGW installation. As I installed to c:\MinGW, I entered c[colon][slash]MinGW (note the colon and slash instead of the normal characters)
+** In the process of installing MSYS, a command shell should open, promping you whether you want to continue and if you already installed MinGW. Answer both questions with yes (y) and you should be prompted for the path to your MinGW installation. As I installed to c:\MinGW, I entered c:/MinGW (note the forward slash instead of a backslash)
 
 * Download and install the MSYS developer toolkit (DTK) - I chose [http://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
 ** Again, the default folder of C:\msys\1.0 was fine with me, the rest of the install was smooth sailing
