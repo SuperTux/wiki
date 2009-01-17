@@ -28,6 +28,7 @@ The only problem here is that implementation isn't so easy :) We would have to t
 * We could even make good use of more animations: Tux getting hurt in water, tux flapping his wings while doing a jump out of the water, tux hitting a wall in water, tux turning to the other side in water.
 
 Does someone know games that have a similar concept?
+
 :Yeah, i know a game that uses something similar, but there you *fly* using Jetpack in that way. See http://www.parallelrealities.co.uk/blobWars.php (Eek, you'll have to cheat to get jetpack fast, read through the page)
 TODO: Create some sketches for this to better explain it
 
@@ -42,6 +43,9 @@ Wario Land 2 for GB has this system:
 * Wario can jump only 1-2 tiles up when he's in water.
 Shylence 14:31, 23 Oct 2006 (CEST)
 
+
+How's this in water tux swims alongwithout stopping, and slowly sinks, direction arrows change tux's direction or speed him up if you press the direction he is already moving. if you press down he dives, when diving tux hurts all enemies but can only move downwards fast. Up arrow stops tux sinking and he starts rising.
+When tux is on solid ground, pressing jump will make him kick the ground, and thus go upwards very fast. when at the surface of the water, tux can jump out almost as high as when on land, but not quite.
 
 The rotation angle could be uncomfortable.
 I think that instead of making an actual permanent rotation, just make use of the 8 directional gamepad. I mean.. make Tux sprite *look* like 45º rotated when you press both up and right arrows and perform a up and right movement simultaneously. The last movement direction will be kept after releasing the buttons, but you could press the right arrow after that and make the Tux sprite return to the horizontal angle (although it could have a bit of vertical velocity due to the prior acceleration). There could be no need for a new collision detection code afterall, you don't need to rotate rectangles, just reorganize them to fit each tux shape (horizontal tux, vertical tux and +/-45º rotated tux, no more angles needed). --[[User:Ferk|Ferk]] 13:41, 2 February 2007 (UTC)
