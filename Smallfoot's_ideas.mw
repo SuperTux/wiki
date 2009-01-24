@@ -33,6 +33,7 @@ Tux needs to enter doors or open bridges to pass to some place. In order todo th
 :Can be done with scripting.
 ::Good, but I have never seen this implemented in SuperTux yet. The game needs this type of stuff to be dynamic and fun and entertaining. --smallfoot
 :::"Can be done with scripting." Most everything can be done by scripting, but how? Implent it so everybody can use it..
+::::Did you ever look at existing levels? Try world2/village.stl. --[[User:Superdev|Superdev]] 14:48, 24 January 2009 (UTC)
 
 == Rollable/pushable stones ==
 These stones can be pushable so they start rolling.
