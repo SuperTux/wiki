@@ -32,6 +32,7 @@ see [[Swimming]] --[[User:WolfgangB|WolfgangB]] 19:48, 7 Sep 2006 (BST)
 Tux needs to enter doors or open bridges to pass to some place. In order todo that, he needs to todo something first. Such as get a key, or pull/push a lever or a switch. Or perhaps place an item (such as an stone or something) on a switch.
 :Can be done with scripting.
 ::Good, but I have never seen this implemented in SuperTux yet. The game needs this type of stuff to be dynamic and fun and entertaining. --smallfoot
+:::"Can be done with scripting." Most everything can be done by scripting, but how? Implent it so everybody can use it..
 
 == Rollable/pushable stones ==
 These stones can be pushable so they start rolling.
