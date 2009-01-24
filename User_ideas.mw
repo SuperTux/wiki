@@ -139,6 +139,8 @@ Warp pipes should be able to be stood on, but by pressing down on the arrow pad,
 
 :There is only one problem. The Game must have some thin, invisible tiles to make the pipe's edges solid. I hope you know what i mean.
 
+:And with the scriptet way, it looks kinda ugly >.< He should move down, and then move to destination and then come out of an other pipe..
+
 === Badguy Improvements ===
 You should be able to pick up the beetle baddy and hit it from the side. The fish needs to be able to jump and swim, and should work even if there is no water in the interactive layer, and is just in the foreground. The badguys should stop killing each other.
 
