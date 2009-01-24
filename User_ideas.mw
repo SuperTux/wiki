@@ -562,6 +562,8 @@ I shalt put that intoeth mine version of Super tux.-Rorikdude
 === 1.0 ===
 I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 "SuperTux 1.0"? Most people think when they see "0.2" that it is some crappy beta version, which milestone 2 obviously is not. [[User:Cristan|Cristan]] 00:38, 26 Oct 2006 (CEST)
 
+:The story with al the versions is kinda creepy^^ I think the devs want supertux "PERFEKT" before name it 1.0..
+
 === Superpower mass effect ===
 Whenever Tux has a powerup (fire/ice/whatever), a key combo may generate a big (almost whole screen) instant burning/frosting/whatever area (fancy graphics) that results in only one fire/ice/whatever shot effect for each enemy/burnable block/item in the area (this includes the potential [[User ideas#Bad guys and Immunity|bad-side]] effects). Once this ability is performed, Tux will lose the fire/ice/whatever ability and return to the normal bigTux.
 
