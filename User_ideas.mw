@@ -56,6 +56,7 @@ Maybe platforms could detect wether Tux is standing on them or not. For example,
 
 : How about a platform like the one in level 7-2 of New Super Mario Bros for the DS? [[User:Cooljeanius|Cooljeanius]] 20:53, 1 December 2008 (UTC)
 ::How about describing the desired feature? That way even more people would know wtf you were talking about without buying a console first.
+:::An platform that moves right when supertux stand on it, when he jumps and land on the platform the platform switch and move up, by redoing it moves left etc.. Btw, just an platform that moves right when supertux stand at the right side of it and to the left if he stands on the left side would be cool..
 
 === Improve the handling of Tux ===
 Please tweak the handling of Tux to make more precise movements possible. In version 0.3.0 at least, Tux gets accelerated forwards too fast, so it can be difficult to jump precisely. So reduce the *initial* accleeration, but of course, not the maximum. In other words, holding a direction should expotentially increase acceleration up to the normal level, starting off very slow, but then speeding up. This process would take maybe something like 1.5 seconds or something (test different settings and use the one that gives the best feeling of being in control). Basically make Tux handle more like Mario. ;P
