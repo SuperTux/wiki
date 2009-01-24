@@ -4,6 +4,8 @@ Here I present my ideas. I hope they can make SuperTux more dynamic, entertainin
 == Ice breaking ==
 There are ice tiles or ice ground that can be walked on. They can also be jumped on without break. But if Tux does the "buttjump" then it breaks the tile/ground. Perhaps this can be used to reach other areas or enter secret places.
 
+:It should only work when tux is big.
+
 == Geiser ==
 There can be geisers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
 :There is wind already.
