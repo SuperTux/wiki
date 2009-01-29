@@ -7,13 +7,3 @@ The single-sprite may look better normally, but in my opinion, the split sprite 
 You expect the level designer to test them with several screensize and the size of the projected area? Get realistic, I'm glad I find time to create levels at all. 2560x1600? Did you win the jackpot? Keep 800x600 the recommended and tested size where every level has to work. Otherwise we get some levels optimized for one setting and other levels for another one.
 :Basically everything is resolution-independent now. Try searching for SCREEN_WIDTH or SCREEN_HEIGHT in the source code - it's all effects and removing off-screen particles. The main thing, when I tested it, was that you have to add a few more bottom and top tiles to the levels so that they fill up the entire screen instead of leaving black bars at the top/bottom. Of course, since all Milestone2 levels are supposed to have some verticalness, that shouldn't be a problem.
 :Oh, it's also necessary to completely hide secret areas so users don't get a peek and an unfair advantage. (But hey, they paid for their large screens for a reason...) Don't forget, you're free to make whatever levels you want. It's just that only levels following the guidelines will be accepted. I'd be happy to make levels if you don't. (once I get an editor working...) --[[User:Mathnerd314|Mathnerd314]] 01:27, 11 May 2008 (UTC)
-
-== Include 20 letters: ЂђЃѓЈЉљЊњјЅЋћЌќѕЎўЏџ ==
-
-You think all of the 20 letters, ЂђЃѓЈЉљЊњјЅЋћЌќѕЎўЏџ were in Unicode and in Mac/Windows Cyrillic. The six letters are already added were ІіЄєЇї. The 20 letters aren't added to the game. ЂђЃѓЈЉљЊњјЅЋћЌќѕЎўЏџ
-
-Here is a test:<br><br><br><br><br>
-
-<font face="Courier" size="5">Ґ І Ђ ђ Ѓ ѓ і ґ Ј Є є Ї ї Љ љ Њ њ ј Ѕ Ћ ћ Ќ ќ ѕ Ў ў Џ џ</font>
-
-If you enter F33 in DOSBox, a will turn to α if you type in a, b will turn to b if you type in β, c will turn to ς when typing c, d, e, f, g, h and i will turn to δεθγηι when you type in defghi, j will turn to a fixed experiment when you type in j, k will turn to κ when you type in k, l will turn to λ when you type in l, m will turn to μ when you type in m, n will turn to ν when you type in n, o will turn to ο when you type in o, p will turn to π when you type in p, q will turn to φ when you type in q, r will turn to ρ when you type in r, s will turn to σ when you type in s, t will turn to τ when you type in t, u will turn to υ when you type in u, v and w will turn to χω when you type in v and w, x, y and z will turn to ξψζ when you typed in x, y and z. You have Unicode support for Greek. You noticed there are 7 letters with tonos: ΆΈΉΊΌΎΏ and άέήίόύώ. There are 2 letters with a greek dialytika: ΪΫ and ϊϋ. And there is 2 letters with dialytika and tonos: ΐΰ.
