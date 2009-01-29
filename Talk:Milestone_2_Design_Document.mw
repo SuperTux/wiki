@@ -12,5 +12,6 @@ You expect the level designer to test them with several screensize and the size 
 
 You think all of the 20 letters, ЂђЃѓЈЉљЊњјЅЋћЌќѕЎўЏџ were in Unicode and in Mac/Windows Cyrillic. The six letters are already added were ІіЄєЇї. The 20 letters aren't added to the game. ЂђЃѓЈЉљЊњјЅЋћЌќѕЎўЏџ
 
-Here is a test:
-<font face="Courier" size="5">ҐІЂђЃѓіґЈЄєЇїЉљЊњјЅЋћЌќѕЎўЏџ</font>
+Here is a test:<br><br><br><br><br>
+
+<font face="Courier" size="5">Ґ І Ђ ђ Ѓ ѓ і ґ Ј Є є Ї ї Љ љ Њ њ ј Ѕ Ћ ћ Ќ ќ ѕ Ў ў Џ џ</font>
