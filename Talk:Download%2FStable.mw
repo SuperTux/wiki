@@ -1,6 +1,8 @@
-== Remove the Debian/Ubuntu header! ==
+<nowiki>Insert non-formatted text here</nowiki>== Remove the Debian/Ubuntu header! ==
 
-Ubuntu doesn't have the stable version of SuperTux anymore. Until the [https://launchpad.net/ubuntu/+source/supertux/+bug/84084 situation is clarified], remove the header, or at least add a warning notice.
+Ubuntu doesn't have the stable version of SuperTux anymore. Until the [https://launchpad.net/<math>ubuntu/+source/supertux/+bug/84084 situation is clarified], remove the header, or at least add</math>[[Media:[[Image:Example.ogg]]
+== [Headline text]''''Italic text''''''Italic text'''''''Italic text''''''<nowiki>Bold text</nowiki>''''''''' ==
+]] a warning notice.
 :Done, added warning on 0.3.0 download page. You should've posted this under the Milestone 1.9 download talk though, it would make more sense. --[[User:FlyingPenguins|FlyingPenguins]] 04:57, 14 February 2007 (UTC)
 
 == Supertux on GameCube ==
