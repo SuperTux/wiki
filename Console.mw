@@ -54,8 +54,6 @@ Following is a list of predefined scripts to run in the console:
 |-
 |'''worldmapfinish()'''||Finish all the levels on the worldmap
 |-
-|'''rape()'''||A giant dick comes on the screen, and Tux gets it hard in the butt. Blood pours out, and Tux loses one life and his virginity.
-|-
 |'''functions(x)'''||Gives a list of the functions available in an object or table. If no argument is given, this prints out the functions in the root table.
 |}
 
