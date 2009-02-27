@@ -40,7 +40,7 @@ Checking out the path above will get you all you need to contribute to SuperTux.
 
 == Creating Patches ==
 
-There's a whole section about [[CreatingPatches|creating patches]].
+There's a whole section about [[Contributing#Programmers/Code|creating patches]].
 
 == Web Access ==
 If you just want to browse through the source a bit, then you can use the [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ Repository HTTP Interface] which should work well with your web browser.
