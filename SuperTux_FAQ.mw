@@ -10,6 +10,26 @@ Honestly, we don't have a release date yet. Just like many of you, we'd like to 
 
 Most information on these Wiki pages is about what's new in SuperTux 0.3. Just browse around, and feel free to add your own ideas. :-)
 
+=== How do I use SDL in the development version? ===
+OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. Currently there is no GUI for this, so you must manually edit the config file. [[Console]] provides a handy table to find it. Once you have found the config file, open it up and change
+<code>
+ (video "auto")
+</code>
+to
+<code>
+ (video "sdl")
+</code>
+Start SuperTux up again, and it should use the pure SDL renderer. Please note, however, that the SDL renderer is currently much slower than the OpenGL one for some tasks and is also incomplete. SuperTux 0.3.1 is a development version! (even though the “unstable version” might be more stable than other “stable” software and is also included in various distributions as stable software...)
+
+=== How do you get to or past level x? ===
+Please see [[SuperTux FAQ/Spoilers]].
+
+=== How do I create levels in 0.3.x? ===
+The level editor was removed (again), but you can now use the C# editor instead, which is distributed as a separate package. See [[Editor FAQ]] for some hints on how to use it. You can also create levels in 0.1.3 and play them in 0.3.x.
+
+=== Why is 0.3.1 considered unstable? ===
+Please read the [[Versioning scheme]]. It clearly states that all odd release branches are unstable development versions. Now, as to why there isn't a 0.4.x release...
+
 == SuperTux 0.3.1? 0.1.3? Subversion? ==
 
 Please see our [[Versioning scheme]] page.
@@ -37,11 +57,22 @@ If you want to help, just [[Contact|get in touch]] and ask.
 
 Yes. [[Milestone 1.9]] is a snapshot of SuperTux without certain buggy features. There are currently Windows and Linux installers.
 
+== Why aren't you SuperTuxKart? ==
+Good question. But try http://supertuxkart.sourceforge.net/ instead.
+
 == I found a bug in the developer version! ==
 
 Well, that's not really a question, but great anyway. Keep in mind, however, that SuperTux is bound to have lots of bugs at this stage of development. Actually, chances are quite high that a particular bug is already known but not yet fixed because we just didn't have the time yet.
 
 If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a [[backtrace]] of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [{{MediaWiki:Bugtracker-url}} bug tracker].
+
+== SuperTux "stable package" version (0.1.3) has a minor error when compiling: ==
+That is not a question either, but we do know that you have to change line 210 of menu.h:
+void Menu::get_controlfield_key_into_input(MenuItem *item);
+becomes
+void get_controlfield_key_into_input(MenuItem *item);
+
+This fix is currently in the 0.1.x branch, but there's not much reason to release a 0.1.4 for one typo.
 
 == I'm thinking about buying SuperTux. ==
 
