@@ -16,23 +16,22 @@ Please see our [[Versioning scheme]] page.
 
 == How can I get in touch with you? ==
 
-Depending on who you want to reach - and for what purpose - you can either join our [[IRC Channel]] or write to one of the [[Mailing Lists]]. Please note that, due to massive amounts of spam, we had to set the mailing lists to subscribers-only. If you send emails to the lists and are not subscribed then you will get an automated reply saying that your message is waiting for approval, but it's very likely that we will miss your e-mail in all the spam (we're very sorry about that), so better subscribe before posting to the list.
+Depending on who you want to reach - and for what purpose - you can either join our [[Contact#IRC|IRC channel]] or write to one of the [[Contact#Mailing List|mailing lists]] (but currently there's just one). Please note that due to massive amounts of spam, we had to set the mailing lists to subscribers-only. If you send emails to the lists and are not subscribed then you will get an automated reply saying that your message is waiting for approval, but it's very likely that we will miss your e-mail in all the spam (we're very sorry about that), so better subscribe before posting to the list.
 
 == Can I help? ==
 
 You most certainly can.
-* Creating game content in form of sound, music and levels (See [[Contributing]])
-* Writing code for new features
-* Work on the story and the settings
-There's many things to be done - even besides actually creating game content:
-* Post good ideas to the wiki (See [[User ideas|Ideas]])
-* Help keeping these pages up-to-date and free of spam (See [[Special:Recentchanges]])
+* [[Contributing|Creating game content]] in the form of sounds, music, [[Translation|translations]], [[Contributing#Artists|images]], and [[Contributing#Level designers|levels]]
+* Writing [[Contributing#Programmers/Code|code]] for new features
 * Proofread and improve the program's and the levels' translation (See [[Translation]])
-* Test the game on a variety of platforms (please read [[#I found a bug in the developer version!|I found a bug in the developer version!]] first) (See [[Bugs]])
-* Write and/or maintain documentation for users and developers (See [[User Manual]] and [[Game Engine]])
+* Work on the story and the settings (all around the wiki)
+There's many things to be done - even besides actually creating game content:
+* Post good [[User ideas|ideas]] to the wiki
+* Help keep these pages up-to-date and free of spam (See [[Special:Recentchanges]])
+* Test the game on a variety of platforms (please read [[#I found a bug in the developer version!|I found a bug in the developer version!]] first) Check [[OldBugs]] and the [{{MediaWiki:bugtracker-url}} bug tracker] which supersedes that page before posting to see if your problem is already there.
+* Write and/or maintain documentation for [[User Manual|users]] and [[Game Engine|developers]]
 
- 
-If you want to help, just get in touch (see [[#How can I get in touch with you?|How can I get in touch with you?]]) and ask.
+If you want to help, just [[Contact|get in touch]] and ask.
 
 == Is there a preview of the next SuperTux version? ==
 
@@ -42,11 +41,11 @@ Yes. [[Milestone 1.9]] is a snapshot of SuperTux without certain buggy features.
 
 Well, that's not really a question, but great anyway. Keep in mind, however, that SuperTux is bound to have lots of bugs at this stage of development. Actually, chances are quite high that a particular bug is already known but not yet fixed because we just didn't have the time yet.
 
-If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a [[backtrace]] of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [{{MediaWiki:Bugtracker-url}} bugtracker].
+If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a [[backtrace]] of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [{{MediaWiki:Bugtracker-url}} bug tracker].
 
 == I'm thinking about buying SuperTux. ==
 
-If you have paid for SuperTux, you have been ripped off. Supertux is available for free download at [[Download|Download/Installation]]. An equivalent Live CD, to be downloaded free of charge, is under development at time of writing. If you ''want'' to pay for SuperTux, you can make a donation, which would be highly appreciated, but we're not making you pay.
+If you have paid for SuperTux, you have been ripped off. Supertux is available for free download at [[Download|Download/Installation]]. An equivalent Live CD, to be downloaded free of charge, is available under [[Links]]. If you ''want'' to pay for SuperTux, you can make a donation, which would be highly appreciated, but we're not making you pay.
 
 [[Category:For Users]]
 [[Category:FAQs]]
