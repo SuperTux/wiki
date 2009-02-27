@@ -1,44 +1,67 @@
 If you would like to contribute to SuperTux, you should follow a series of instructions to make the process as hassle-free as possible for you and the developers.
 
+== Why ==
+*Show your changes to the world, and contribute them to the project!
+*You must have some patches accepted before we'll give you write access to our repository or let you join the team.
+
+== Licenses ==
+
+We can't use contributions that aren't redistributable under the same license as SuperTux itself.
+Usually, GPL will infect small code changes automatically. For everything else (like levels, images, sounds, and new programs), make sure that you can release it under GPLv2 (yes, ''all'' contributions need to be released under GPL) and also CC-by-sa for data files such as images, sounds, music, and levels. (Scripts count as parts of levels)
+
 == Generic instructions ==
-
 These instructions apply to every function you may want to adopt.
-
-#Join the SuperTux [[Mailing Lists|mailing list]] to stay up to date with recent developments.
+#Join the SuperTux [[Contact#Mailing List|mailing list]] to stay up to date with recent developments.
 #Check out the latest SuperTux [[Download/Subversion|development version]] and compile it by following the instructions in the [http://svn.berlios.de/viewcvs/supertux/trunk/supertux/INSTALL?view=markup INSTALL file].
 #Modify or add something that is either listed in the [[TODO]] or seems useful to you.
-#Send your modified work to the mailing list.
+#Give us your work:
+#*The preferred way is to open a new report on our [{{MediaWiki:bugtracker-url}} bug tracker] and attach the files to it. (You can upload and attach files to bug reports using the “Upload File” button when filing or perusing them).
+#*Alternatively, upload the files to some website or ftp server and send us the link on the mailing list.
+#*Using attachements on the mailing list is NOT good as the files tend to get big which will annoy people subscribed to the mailing list!
+
+== Data Files ==
+Contributions which mostly add new files (typically when creating new graphics, sound, music, levels) can simply be put into an archive (preferably .tar.gz or .zip).
 
 The developers will review your work and, if they share your opinion about its usefulness, check it into the repository.
 
-== Translators ==
+=== Translators ===
 
-* Please see [[Translation]]
+Please see [[Translation]] for instructions.
 
-== Artists ==
+=== Artists ===
 
-Please keep the size of the attachments to the mailing list as small as possible. The best way is to convert smaller graphics to PNG and larger ones into the JPEG format.
+Please use the PNG format for small graphics and the JPEG format for large ones.
+It would be helpful to keep and send the source files as well (the GIMP's .xcf is preferred) so that the team can reuse the image more easily.
 
 Hints:
 * [http://pingus.seul.org/~grumbel/tmp/tilehowto.png Little Guide for drawing tiles that tile properly]
-* [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on the how to get the graphic style that is used in the game]
+* [http://pingus.seul.org/~grumbel/gimp/drawing/ Little Guide on how to get the graphic style that is used in the game]
 
-== Level designers ==
+=== Level designers ===
 
 Your level should comply with the [[Milestone 2 Design Document/Styleguide|level guidelines]] set by the SuperTux team. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
-If your levels don't comply, or you don't want them as part of the main world, try [[CreatingMods|packaging them as an addon]].
+If your levels don't comply, or you don't want them as part of the main world, try [[CreatingMods|packaging them as an addon]]. (Note that addons can be under licenses other than GPLv2 and CC-by-SA)
 
-== Programmers ==
+== Programmers/Code ==
 
-You can knock down file sizes by only sending differences between the files. Subversion provides you with a useful feature to generate such files. If you e.g. want to post the changes you made to src/main.cpp, use the following command:
+Changes to the code typically affect only parts of bigger files, so it's hard to spot the differences to the original file. Therefore we only accept code contributions in the form of a patch. (Patches also happen to be smaller than full files) This guide will walk you through the process of creating a patch.
 
- svn diff src/main.cpp > fix-year.patch
+We assume that you have a current checkout of the SuperTux repository (see [[Download/Subversion]]) with your changes applied. Then you should first use
+<code>
+ svn status
+</code>
+to print you a list of files with a prefix letter. M means you changed the file, C means there is a conflict between your changes and changes from someone else who committed to the repository, and ? means the file is ignored by the version control.
 
-Now, you can attach ''fix-year.patch'' to an e-mail to the mailing list. If you want to apply a patch generated using ''svn diff'', use the following command:
+You should fix conflicts by editing the conflicted file and using '''svn resolved <filename>''', add files to version control with '''svn add <filenames>''', and remove existing versioned files with '''svn remove'''. (Note that files are never really deleted; you may always check out a former revision when the file still existed.) Finally you can create a patch using Subversion:
+<code>
+ svn diff *files* > mypatch.patch
+</code>
+This will create a file mypatch.patch that contains all changes in the listed files. (You should open the file in a text editor and verify that it contains all your changes and only changes you want to submit). Omit the files argument completely to include all files that have been changed,
 
+Now you can send off ''mypatch.patch'' using the generic instructions. If you want to apply a patch generated using ''svn diff'', use the following command:
+<code>
  patch -p0 < fix-year.patch
-
-See [[CreatingPatches]] for a detailed how-to. 
+</code>
 
 [[Category:Development]]
 [[Category:Meta]]
