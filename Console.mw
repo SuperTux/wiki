@@ -34,10 +34,6 @@ Following is a list of predefined scripts to run in the console:
 {|
 |'''flip()'''||Flips the current level vertically. Make sure you have something to stand on!
 |-
-|'''edit()'''||Puts the level into a state suitable for testing out edits. Tux can't exit the level; if he dies or reaches the end he goes into ghost mode.
-|-
-|'''play()'''||Goes out of edit mode and restarts the level.
-|-
 |'''kill()'''||Kills Tux
 |-
 |'''grow()'''||Grows Tux into big Tux
