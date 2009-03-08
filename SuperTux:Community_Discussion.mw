@@ -298,3 +298,4 @@ I recently saw the snowball sprite for Supertux as the icon for the Facebook app
 = Cheating! on MS vista =
 Downloaded the cheats I need, (using slot1.stsg), unsure where to put it on Vista in order to play all levels. Any help pls?
 :No idea what you are talking about. What did you download from where? --[[User:Superdev|Superdev]] 18:53, 7 March 2009 (UTC)
+::Probably the savegames at the [http://www.supertux.info/cheat.php fan site]. You put those in your save directory, which for 0.1.3 and Windows should be <code><supertux install directory>/.supertux/save</code>. --[[User:Mathnerd314|Mathnerd314]] 20:09, 8 March 2009 (UTC)
