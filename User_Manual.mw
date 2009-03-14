@@ -52,12 +52,13 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 |-
 | [[Image:Egg.png]] || Egg || Makes Tux grow. He can then smash wooden boxes with his head.
 |-
-| [[Image:Fire_flower-0.png]] || Fireflower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs.
+| [[Image:Fire_flower-0.png]] || Fire Flower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs.
 |-
 | [[Image:1up.png]] || Tux Doll ||  Ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded an extra life '''(SuperTux 0.1)''' or 100 coins '''(SuperTux 0.3)'''.
 |-
 | [[Image:Star-0.png]] || Star ||  Gives Tux invincibility to most hazards for a short amount of time.
-|}
+|-
+| [[Image:Ice_flower-0.png]] || Ice Flower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw iceballs, and freeze certain badguys.
 
 <br style="clear: both;" />
 
