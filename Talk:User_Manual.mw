@@ -38,3 +38,4 @@ Butt Stomp doesn't work in breaking crates.
 :Which version? http://supertux.lethargik.org/bugs/
 
 Version 0.3.1.
+:Buttjump was only implemented in revision 5282, and 0.3.1 was tagged at 5321. So you'll have to use [[Download/Subversion|SVN]] to get it working.
