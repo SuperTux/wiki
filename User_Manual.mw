@@ -38,14 +38,13 @@ SuperTux is played with either the keyboard or any game controller recognized by
 
 == Powerups ==
 
-To help Tux in his quest to rescue Penny, various Powerups have been placed throughout the levels. Some are in plain view, but most are hidden in bonus blocks:
+To help Tux in his quest to rescue Penny, various powerups have been placed throughout the levels. Some are in plain view, but most are hidden in bonus blocks:
 
 [[Image:Bonusblock.png|center|Bonus Block]]
 
-When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several Powerups:
+When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several powerups:
 
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
-|+ Powerups
 ! Pic !! Name !! Effect
 |-
 | [[Image:Coin-0.png]] || Coin || '''SuperTux 0.1:''' Collect 100 coins to gain an extra life. '''SuperTux 0.3:''' Every time Tux dies, he will lose 10% of his coins (but at least 25) and restart at the last firefly he activated. If he has less than 25 coins left, he will lose all of them and restart at the beginning of the level.
@@ -57,7 +56,6 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 | [[Image:1up.png]] || Tux Doll ||  Ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded an extra life '''(SuperTux 0.1)''' or 100 coins '''(SuperTux 0.3)'''.
 |-
 | [[Image:Star-0.png]] || Star ||  Gives Tux invincibility to most hazards for a short amount of time.
-| [[Image:Iceflower-0.png]] || Iceflower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw iceballs.
 |}
 
 <br style="clear: both;" />
