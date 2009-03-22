@@ -59,7 +59,7 @@ A little guide: 'cd "/d/Super Tux"' is the same a the Windows Command: 'cd "D:\S
 * If you want to use the SuperTux Add-On Manager, download libcurl - I chose [http://curl.haxx.se/download/libcurl-7.16.0-win32-nossl.zip libcurl-7.16.0-win32-nossl]
 ** extract the included bin, include and lib folders as subfolders of C:\msys\1.0
 
-* Download and install [http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx]
+* Download and install [http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx OpenAL]
 ** On the OpenAL website, choose "Download", then "Installer for Windows"
 ** Start the Installer and follow the onscreen instructions
 
