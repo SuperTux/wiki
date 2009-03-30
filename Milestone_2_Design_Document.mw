@@ -1,4 +1,4 @@
-This page has been splitted up:
+This page has been split up:
 
 * [[Milestone 2 Design Document/Tasks]]
 * [[Milestone 2 Design Document/Enemies]]
@@ -21,7 +21,7 @@ Doing a forest world turned out impractical with the current available and activ
 
 = Next Meeting Agenda (7. August 2008, 18:00 GMT) =
 
-* supertux.info status? integrate in mainpage?
+* supertux.info status? integrate in main page?
 * GP2x updates
 
 * music submission: BlastOffTek music pack for Supertux.rar
@@ -42,7 +42,7 @@ Doing a forest world turned out impractical with the current available and activ
 = General =
 
 * uni-solid tiles shall be provided for all tilesets
-* multi-layer paralax scrolling background tilemaps shall be used in all levels
+* multi-layer parallax scrolling background tilemaps shall be used in all levels
 * menu system should be replaced/reworked
 * save system could need a rework as well
 * language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
@@ -58,7 +58,7 @@ This command for example will give a Window of 1280x1024, but with the visible a
 
 This means that level design must not focus on 800x600, but should be flexible enough even when the user has a much larger visible area. However all levels should remain playable even as low as 640x480.
 
-The maximum resolution to deal with is 1920x1200 (HD-TV Monitor), 2560x1600 (Apple 30" Cinema Display can't be handled since that would cause issues with enemy respawning, the respawn distance is currently 1600x1200, relative to Tux.
+The maximum resolution to deal with is 1920x1200 (HD-TV Monitor), 2560x1600 (Apple 30" Cinema Display) can't be handled since that would cause issues with enemy respawning, the respawn distance is currently 1600x1200, relative to Tux.
 
 = Menu System =
 
@@ -251,7 +251,7 @@ See [[Milestone 2 Design Document/Levels]] for a more detailed analysis of the c
 
 == Cleanup ==
 
-The test/ levels are currently quite a big mess, there needs to be clea nup to reduce them to those that are really needed otherwise its to easy to miss the ones that are important.
+The test/ levels are currently quite a big mess, there needs to be cleanup to reduce them to those that are really needed otherwise its to easy to miss the ones that are important.
 
 
 
