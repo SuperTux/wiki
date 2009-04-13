@@ -246,12 +246,11 @@ I also think that Tux should break boxes with the butt stomp, but it doesn't wor
 
 =A Couple Gameplay questions=
 
-Hello once more, I've noticed that quite unlike the previous Supertux's behaviour, Tux is able to bounce on a Bad-guy without'''Bold text''' bouncing back.  This will only happen when the jump key is not being held, and when it is not, this seems to happen randomly.  Any explanation for this behaviour?
+Hello once more, I've noticed that quite unlike the previous Supertux's behaviour, Tux is able to bounce on a Bad-guy without bouncing back.  This will only happen when the jump key is not being held, and when it is not, this seems to happen randomly.  Any explanation for this behaviour?
 
 Another question.  In the Earth map series, how is it possible to defeat the rat-like Bad-guy?  He seems to be protected by armor.  Is he even killable at all?
 
 Bob
-
 
 = Ways in which 0.1.2 is better than 0.3 (and that's not a typo): =
 
