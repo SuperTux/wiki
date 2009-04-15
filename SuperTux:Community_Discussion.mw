@@ -300,3 +300,6 @@ Downloaded the cheats I need, (using slot1.stsg), unsure where to put it on Vist
 :No idea what you are talking about. What did you download from where? --[[User:Superdev|Superdev]] 18:53, 7 March 2009 (UTC)
 ::Probably the savegames at the [http://www.supertux.info/cheat.php fan site]. You put those in your save directory, which for 0.1.3 and Windows should be <code><supertux install directory>/.supertux/save</code>. --[[User:Mathnerd314|Mathnerd314]] 20:09, 8 March 2009 (UTC)
 ::BTW, if you've already played SuperTux, you'll be overwriting the file instead of placing it. And 0.3.1 has a different savegame format, but you can use the console and worldmapfinish() to get them solved anyway.
+
+= Computer crashing with BSOD =
+One attempt typed the text and got a BSOD which you had to restart the computer in order to make the BIOS screen appear. Then the computer hears a long beep and restarts it. After that, the computer will be restarted with a BIOS screen. How did you kern a Cyrillic flared font??? [[Special:Contributions/222.233.98.107|222.233.98.107]] 07:32, 15 April 2009 (UTC)
