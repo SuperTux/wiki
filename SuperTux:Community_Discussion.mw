@@ -301,5 +301,67 @@ Downloaded the cheats I need, (using slot1.stsg), unsure where to put it on Vist
 ::Probably the savegames at the [http://www.supertux.info/cheat.php fan site]. You put those in your save directory, which for 0.1.3 and Windows should be <code><supertux install directory>/.supertux/save</code>. --[[User:Mathnerd314|Mathnerd314]] 20:09, 8 March 2009 (UTC)
 ::BTW, if you've already played SuperTux, you'll be overwriting the file instead of placing it. And 0.3.1 has a different savegame format, but you can use the console and worldmapfinish() to get them solved anyway.
 
-= Computer crashing with BSOD =
-One attempt typed the text and got a BSOD which you had to restart the computer in order to make the BIOS screen appear. Then the computer hears a long beep and restarts it. After that, the computer will be restarted with a BIOS screen. How did you kern a Cyrillic flared font??? [[Special:Contributions/222.233.98.107|222.233.98.107]] 07:32, 15 April 2009 (UTC)
+= Computer crashing with BSOD, Microsoft Sam speaking game name? =
+One attempt typed the text and got a BSOD which you had to restart the computer in order to make the BIOS screen appear. Then the computer hears a long beep and restarts it. After that, the computer will be restarted with a BIOS screen. How did you kern a Cyrillic flared font with FC 5.6 and extend it with additions??? Where did you speak the game name with the Microsoft Sam voice? (it's super-two, just a variation of the game name). When you loaded CP852 in DOSBox, you noticed the Slovak ASCII keyboard is enabled with a high beep. The Slovak Unicode keyboard has assigned some variations to:
+
+altgr+1: U+007E TILDE (was in the Basic Latin block)
+
+altgr+2: U+030C COMBINING CARON (space produces U+030C COMBINING CARON instead of U+02C7 CARON. it would be fixed in UniPad's latest version.)
+
+altgr+3: U+0302 COMBINING CIRCUMFLEX ACCENT (space produces U+0302 COMBINING CIRCUMFLEX ACCENT instead of U+02C6 MODIFIER LETTER CIRCUMFLEX ACCENT. it would be fixed in UniPad's latest version.)
+
+altgr+4: U+0306 COMBINING BREVE (space produces U+02D8 BREVE)
+
+altgr+5: U+030A COMBINING RING ABOVE (space produces U+02DA RING ABOVE)
+
+altgr+6: U+0328 COMBINING OGONEK (space produces U+02DB OGONEK)
+
+altgr+7: U+0060 GRAVE ACCENT
+
+altgr+8: U+0307 COMBINING DOT ABOVE (space produces U+02D9 DOT ABOVE)
+
+altgr+9: U+0301 COMBINING ACUTE ACCENT (space produces U+00B4 ACUTE ACCENT)
+
+altgr+0: U+030B COMBINING DOUBLE ACUTE ACCENT (space produces U+02DD DOUBLE ACUTE ACCENT)
+
+altgr+=: U+0308 COMBINING DIAERESIS (space produces U+00A8 DIAERESIS)
+
+altgr+acute: U+0327 COMBINING CEDILLA (space produces U+00B8 CEDILLA)
+
+altgr+q: U+005C REVERSE SOLIDUS
+
+altgr+w: U+007C VERTICAL LINE
+
+altgr+u with acute: U+00F7 DIVISION SIGN
+
+altgr+a with diaeresis: U+00D7 MULTIPLICATION SIGN
+
+altgr+s: U+0111 LATIN SMALL LETTER D WITH STROKE
+
+altgr+d: U+00D0 LATIN CAPITAL LETTER ETH (or U+0110 LATIN CAPITAL LETTER D WITH STROKE)
+
+altgr+f: U+005B LEFT SQUARE BRACKET
+
+altgr+g: U+005D RIGHT SQUARE BRACKET
+
+altgr+k: U+0142 LATIN SMALL LETTER L WITH STROKE
+
+altgr+l: U+0141 LATIN CAPITAL LETTER L WITH STROKE
+
+altgr+o with circumflex: U+0024 DOLLAR SIGN
+
+altgr+section: U+00DF LATIN SMALL LETTER SHARP S
+
+altgr+n with caron: U+00A4 CURRENCY SIGN
+
+altgr+x: U+0023 NUMBER SIGN
+
+altgr+c: U+0026 AMPERSAND
+
+altgr+v: U+0040 COMMERCIAL AT
+
+altgr+b: U+007B LEFT CURLY BRACKET
+
+altgr+n: U+007D RIGHT CURLY BRACKET
+
+and such others. [[Special:Contributions/222.233.98.107|222.233.98.107]] 07:32, 15 April 2009 (UTC)
