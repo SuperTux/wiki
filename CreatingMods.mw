@@ -10,7 +10,7 @@ Create as many levels as you want using the built-in editor. Try reading the edi
 There's another editor from http://roofrabbit.com/supertux.html#editor written in VB that you can use to create worldmaps, or you could try to use [http://flexlay.berlios.de FlexLay].
 
 === SuperTux 0.3.x ===
-Download the SuperTux Editor from [[Download/Unstable]]. The [[Editor FAQ]] might be helpful. Alternately, you could create 0.1.x levels and then modify them using a text editor or the [[http://supertux.lethargik.org/svn/supertux/trunk/supertux/tools/levelconverter-0.1.3_0.2.0.scm Scheme converter script]] into version 2 levels. See the [[File formats]] page for details.
+Download the SuperTux Editor from [[Download/Unstable]]. The [[Editor FAQ]] might be helpful. Alternately, you could create 0.1.x levels and then modify them using a text editor or the [http://supertux.lethargik.org/svn/supertux/trunk/supertux/tools/levelconverter-0.1.3_0.2.0.scm Scheme converter script] into version 2 levels. See the [[File formats]] page for details.
 
 == Packaging Levels ==
 Once you've made these beautiful levels, you want to let the world see them. Just follow these easy steps, which will make archives usable directly as addons for 0.3.x and allow one-step unpacking in 0.1.x:
