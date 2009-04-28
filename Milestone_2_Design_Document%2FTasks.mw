@@ -38,6 +38,7 @@
 * background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL_NEAREST instead of GL_LINEAR)
 * add turn-around animation for smart-snowball
 * add sprite scaling
+* remove border from menu screen or make it scalable for different resolutions
 
 == Editor / Developer Conveniences ==
 * optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
