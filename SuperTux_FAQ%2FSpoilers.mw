@@ -6,6 +6,19 @@
 
 To jump high enough, Tux has to [[User Manual#Running (SuperTux 0.1)|run]] while jumping.
 
+=== Arctic Ruins ===
+
+==== Why can't I see any blocks to jump on? ====
+
+There are a few cases where blocks you have to jump on are under water
+and thus harder to see, maybe adjusting your screen's brightness/gamma
+level will help.
+
+=== Bonus Island ===
+
+Icy Island's bonus level is reached through a teleporter.
+Try going to the dead end near the bottom right corner and pressing enter.
+
 == World 2 ==
 
 === Bouncy Coils ===
@@ -13,6 +26,21 @@ To jump high enough, Tux has to [[User Manual#Running (SuperTux 0.1)|run]] while
 ==== How do you get use the second trampoline to jump past the cliff? ====
 
 The trampoline is portable, so just pick it up and move it closer with the [[User Manual#Carrying Objects|action key]].
+
+=== Under Construction (0.3.1) ===
+
+==== How do you solve it? ====
+
+Get the 3 keys hidden on forest island. The key levels have a key of some
+color instead of a mushroom as their icon. Once you have those, you can go back to "Under Construction",
+walk around, and something interesting will happen once you get to the tree stump.
+
+=== Lights and Magic (0.3.0 Bonus Island) ===
+
+==== Getting to it ====
+
+There's a teleporter somewhere around "Three sheets to the wind,"
+which you can activate by walking around and through it.
 
 [[Category:For Users]]
 [[Category:FAQs]]
