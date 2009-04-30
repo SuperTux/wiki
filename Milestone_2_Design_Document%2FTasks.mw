@@ -117,7 +117,7 @@
 These are items that can be postponed until milestone 3, but are still welcome for milestone 2.
 
 ===Code Tasks===
-* separate lisp reader, tinygettext and other libraries properly out of SuperTux
+* separate lisp reader, <strike>tinygettext</strike> and other libraries properly out of SuperTux
 *: <small>Is this necessary for milestone 2? - [[User:Sik0fewl|sik0fewl]] 20:54, 15 June 2008 (UTC)</small>
 *:: <small>Probably not. -- [[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC) </small>
 
