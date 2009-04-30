@@ -2,9 +2,6 @@
 
 == Code Tasks ==
 * Empty top/middle/bottom background image string should be handled as transparent image (more paralax backgrounds)
-* separate lisp reader, tinygettext and other libraries properly out of SuperTux
-*: <small>Is this necessary for milestone 2? - [[User:Sik0fewl|sik0fewl]] 20:54, 15 June 2008 (UTC)</small>
-*:: <small>Probably not. -- [[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC) </small>
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
 * Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
@@ -41,7 +38,6 @@
 * remove border from menu screen or make it scalable for different resolutions
 
 == Editor / Developer Conveniences ==
-* optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
 * create some playable test levels for new stuff
 ** <small>Anything in particular? - [[User:Sik0fewl|sik0fewl]] 20:07, 15 June 2008 (UTC)</small>
 *:Try these, since they're probably most noticable to Milestone1 users: --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
@@ -79,21 +75,20 @@
 :No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
 :: With *large* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [[User:Grumbel|Grumbel]] 17:13, 28 May 2008 (UTC)
 * replace "you found a secret area" with a special sound (Wansti)
-* SuperTux should stand on the ground when a level starts, not fall down
 * level startup needs a fade-in, so does game startup, level abort and a few other places
 * add all fade-in/out effects to DisplayEffect
-* fix console command set_game_speed() so that it doesn't slow down the console
 * peeking should stick instead of jumping back or jumping back should be limited to normal range that the camera can do
+** <small>I think this is fixed or at least better now? - [[User:Sik0fewl|sik0fewl]] 18:34, 30 April 2009 (UTC)</small>
 * bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug), capslock is bound to ctrl and ctrl is bound as action key, using space for action works as workaround (Grumbel)
 * camera vertical scroll doesn't work properly in a small window (i.e. it doesn't move at all)
 
 == Other ==
 * add PNG support for screenshots, BMP support currently broken
 ** <small>What's wrong with BMP support? It seems to work for me - [[User:Sik0fewl|sik0fewl]] 06:11, 13 June 2008 (UTC)</small>
-* create SuperTux .xo Activity for OLPC (Grumbel)
 * at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
 * aspect ratio init code (Grumbel)
 * think about peeking in relation to large screen size
+** <small>Maybe disable peeking if the resolution is at a certain size or greater? Tux would just be centered. [[User:Sik0fewl|sik0fewl]] 18:34, 30 April 2009 (UTC)</small>
 
 == Enemies ==
 * fix and cleanup all the enemy names - see [[Milestone 2 Design Document/Enemies]] for new names
@@ -116,6 +111,25 @@
 * Icecrusher(big): add a larger version of the icecrusher, twice the size
 * merge AngryStone and Icecrusher, both do the same thing, just with different graphics (actually they don't, maybe they should?)
 * Iceblock: transparency looks shit on dark backgrounds, Wiki had a better looking version floating around
+
+== Postpone to Milestone 3 ==
+
+These are items that can be postponed until milestone 3, but are still welcome for milestone 2.
+
+===Code Tasks===
+* separate lisp reader, tinygettext and other libraries properly out of SuperTux
+*: <small>Is this necessary for milestone 2? - [[User:Sik0fewl|sik0fewl]] 20:54, 15 June 2008 (UTC)</small>
+*:: <small>Probably not. -- [[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC) </small>
+
+===Editor / Developer Conveniences===
+* optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
+
+===Levels / Scripting / Gameplay==
+* SuperTux should stand on the ground when a level starts, not fall down
+* fix console command set_game_speed() so that it doesn't slow down the console
+
+===Other===
+* create SuperTux .xo Activity for OLPC (Grumbel)
 
 == Finished ==
 * <strike>change game back to use Milestone1 single-sprite SuperTux (done)</strike>
