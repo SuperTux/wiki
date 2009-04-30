@@ -124,7 +124,7 @@ These are items that can be postponed until milestone 3, but are still welcome f
 ===Editor / Developer Conveniences===
 * optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
 
-===Levels / Scripting / Gameplay==
+===Levels / Scripting / Gameplay===
 * SuperTux should stand on the ground when a level starts, not fall down
 * fix console command set_game_speed() so that it doesn't slow down the console
 
