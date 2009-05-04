@@ -1,7 +1,7 @@
 < [[Milestone 2 Design Document]]
 
 == Code Tasks ==
-* Empty top/middle/bottom background image string should be handled as transparent image (more paralax backgrounds)
+* Empty top/middle/bottom background image string should be handled as transparent image (more parallax backgrounds)
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
 * Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
@@ -13,7 +13,7 @@
 * Create SuperTux idle animations (<del>stage1: blinking with the eye,</del> stage2: tipping with the food, stage3: scratching the head)
 ** <small>I've added the code for idle animations, we just need the graphics now. The blinking animation already exists, but it needs some tweaking - [[User:Sik0fewl|sik0fewl]] 06:25, 16 June 2008 (UTC)</small>
 * remove pictures from credits, looks to uneven that way 
-:<sup>Really? I like the pictures. --[[User:WolfgangB|WolfgangB]] 19:00, 29 April 2008 (UTC)</sup>
+:<small>Really? I like the pictures. --[[User:WolfgangB|WolfgangB]] 19:00, 29 April 2008 (UTC)</small>
 :<small>I do too. --[[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC)</small>
 * when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
 * Tux isn't centered properly to his collision box
@@ -40,7 +40,7 @@
 == Editor / Developer Conveniences ==
 * create some playable test levels for new stuff
 ** <small>Anything in particular? - [[User:Sik0fewl|sik0fewl]] 20:07, 15 June 2008 (UTC)</small>
-*:Try these, since they're probably most noticable to Milestone1 users: --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
+*:Try these, since they're probably most noticeable to Milestone1 users: --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
 *# Slopes and background tiles
 *# Moving platforms (ice platforms haven't been used yet...)
 *# Climbable ladders and directly accessible powerups
