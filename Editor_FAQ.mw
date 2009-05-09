@@ -80,7 +80,9 @@ and then candle2 will go out.
 === How do I change the background image? ===
 Select "Background" in the sector objects view. There you can change it's properties, including what picture(s) should be used for background.<br />
 
-Since r5769: Background image is present as "BG Image" in LayerList. Just click it. It's properties will appear in properties editor.
+Since r5769: Background image is present as "BG Image" in LayerList. Click it.<br />
+
+Since r5888: Background image is present as "Background IMG."
 
 <br/>
 
