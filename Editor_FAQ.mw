@@ -27,7 +27,9 @@ The best way to learn this is to look at existing levels. For the exit tree in M
 
 === How do I add a new tilemap? ===
 [[Image:Tilemap.png|left]]
-Select the tilemap object and place it like a normal object anywhere in the level. The result will be a new that a new tilemap is created.
+Select the tilemap object and place it like a normal object anywhere in the level. The result will be a new that a new tilemap is created.<br />
+
+Since r5427: Right-click any item in LayerList and select "Add", this will currently (8.5.2009) add only tilemaps, but it may contain a sub-menu in the future.
 
 <br/>
 
