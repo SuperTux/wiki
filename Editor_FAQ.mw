@@ -77,7 +77,9 @@ The result of this will be that candle1 lights, followed by candle2 a fraction o
 and then candle2 will go out.
 
 === How do I change the background image? ===
-Select "Background" in the sector objects view. There you can change it's properties, including what picture(s) should be used for background.
+Select "Background" in the sector objects view. There you can change it's properties, including what picture(s) should be used for background.<br />
+
+Since r5769: Background image is present as "BG Image" in LayerList. Just click it. It's properties will appear in properties editor.
 
 <br/>
 
