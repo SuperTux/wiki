@@ -178,9 +178,8 @@ I installed SuperTux on my Ubuntu 7.04 system using the command: sudo apt-get in
 How do I remove or uninstall SuperTux, please?
  sudo apt-get remove supertux
 ::Or use synaptic. The effect is the same but thats the Win^wUbuntu way of doing it. Why read documentation for your operating system? You just typed a command because somebody on the internet told you to? Maybe I should tell you about the '''r'''ead '''m'''essages command, its '''r'''eally '''f'''ast option and slashdot. (AKA rm -rf /.) Don't try this at home.
+::: Now just a moment here: don't try to get someone to '''r'''e'''m'''ove their whole hard disk. That's mean... --[[Special:Contributions/97.124.1.102|97.124.1.102]] 04:59, 13 May 2009 (UTC)
 ::: How about this: :(){ :|:& };: Loads of fun. I love dangerous commands...
-
-
 
 ==How to delete saves==
 
