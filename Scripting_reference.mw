@@ -19,7 +19,7 @@ I have no clue if the developers simply chose Squirrel just because the name so 
     ;...
 
     (init-script "
-DisplayEffect.fade_out(2.5);
+Effect.fade_out(2.5);
 ")
 
     ;; more tilemaps, objects, and whatever. (optional)
