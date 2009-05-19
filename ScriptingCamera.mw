@@ -9,10 +9,10 @@ An instance named <tt>Camera</tt> (<tt>sector.Camera</tt> in the console) is ava
 == Methods ==
 {| class="objectlist"
 ! class="method"| shake(float time, float x, float y)
-| Warning: This function has not yet been implemented.
+| Shakes camera in the vector specified by x and y.
 |-
 ! class="method"| set_pos(float x, float y)
-| Warning: This function has not yet been implemented.
+| Moves the camera to the specified position. Warning: This function has not yet been implemented.
 |-
 ! class="method"| set_mode(string modestring)
 | This function sets the camera mode. Valid values for <tt>modestring</tt> are <tt>"normal"</tt> and <tt>"manual"</tt>.
