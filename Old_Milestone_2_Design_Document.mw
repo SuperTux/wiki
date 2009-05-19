@@ -15,6 +15,9 @@ SuperTux Milestone 2 will use OpenGL to draw the graphics. The features of this 
 * Zooming (in cutscenes)
 * Make foreground translucent when Tux walks behind it
 
+= New Design Document =
+Most of this page has been moved to Milestone 3. See [[Milestone 2 Design Document]] for details on the current Milestone 2 plan.
+
 = [[World 2]] =
 
 After finishing Antarctica by beating the worlds boss, a cutscene, replacing the currently displayed text, will be shown. (For a detailed description of cutscenes, see section "Story".) Tux will then advance to [[World 2]], the forest island. Its worldmap will be built using the same, possibly enhanced, format that Antarctica uses. The worldmap will be designed as follows: The island consists of four sections. A light friendly looking forest where Tux starts his journey, a ghost forest section, and a transition between them; in the center of the island, surrounded by the ghost forest is the world's castle, called Dark Forest Keep. Levels will be spread throughout the whole island, distributed as follows: 50 per cent of the levels are inside the light section, 30 per cent inside the haunted section, with one or two levels inside the transition area. The remaining 20 per cent will take place inside the castle.
