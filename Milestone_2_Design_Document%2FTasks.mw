@@ -6,6 +6,10 @@
 * Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
 
+== Sound and Music Tasks ==
+* Create replacements for missing sound files - see [[DataFiles]]
+* Create more music tracks for IcyIsland or add BlastOffTek's pack.
+
 == Graphics / Sprites ==
 * Crystallo dead/dying sprites
 * replace old bomb with new bomb sprite
