@@ -53,7 +53,7 @@ We mainly need to clear the status of the sounds from Bill Kendrick
 *fizz.wav -- submitted by gwater (source?) replaced by some white noise made with audacity, WolfgangB
 *flame.wav -- self-made by [[User:MatzeB|MatzeB]]
 *flip.wav -- replaced in r5343 by wansti "new backflip sound (not perfect but much better than the old one)"
-*'''grow.wav -- self-made by TuxThePenguin(?)'''
+*grow.ogg -- replaced grow.wav in r5450
 *hop.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *hurt.wav -- self-made by [[User:MatzeB|MatzeB]]
 *'''iceblock_bump.wav'''
@@ -78,7 +78,7 @@ We mainly need to clear the status of the sounds from Bill Kendrick
 *totem.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *trampoline.wav -- self-made by wansti
 *turnkey.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
-*'''upgrade.wav -- bkendrick'''
+*'''upgrade.wav -- bkendrick''' -- use Yaniel's sound? ([http://lists.lethargik.org/private.cgi/supertux-devel-lethargik.org/2008-May/001427.html list message])
 *warp.wav -- submitted as GPL by Ricardo Cruz
 *waterfall.wav -- submitted as GPL by Bastian Zapf
 *willowisp.wav -- self-made by wansti
