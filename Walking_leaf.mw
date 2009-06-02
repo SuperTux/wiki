@@ -1,7 +1,5 @@
-[[Image:Leaf.png|thumb]]'''Walking Leaf''' is a bit smarter than the ordinary badguy, but not much. Just smart enough to stay on
-it's platform instead of jumping down. The Leaf will hurt tux on contact and can be killed the usual
-ways. Since it is more careful it is walking a bit slower than the average badguy.
+[[Image:Leaf.png|thumb]]'''Walking Leaf''' is a bit smarter than the ordinary badguy, but not much--just smart enough to stay on its platform instead of jumping down. The Leaf will hurt Tux on contact and can be killed the usual ways. Since it is more careful, it is walks a bit slower than the average badguy.
 
-At the moment, the Leaf uses a redish version of [[Poison Ivy]], feel free to improve that.
+At the moment, the Leaf is a reddish version of [[Poison Ivy]]; feel free to improve that.
 
 [[Category:Badguy.3]]
