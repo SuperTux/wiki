@@ -7,6 +7,11 @@
 
 == Unimplemented ==
 
+===Fake Box Enemy===
+The Fake Box looks exactly like an ordinary box from a far distance.But if you come closer to the fake box
+it will either open its eyes and attack you or it will still open its eyes and a random enemy appears above the
+box.
+
 === Other Playable Characters (Konqui) ===
 It would be cool if you could play other characters than Tux like Konqui the KDE Dragon. If possible he could jump higher than Tux but run slower. In the story Konqui could be Tux friend who helps him to find Penny.
 
