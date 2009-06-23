@@ -314,4 +314,15 @@ You found supratux on source forge and all it is is supertux w/ a few titles and
 RHochstenbach made a video on how they killed Windows XP by removing registry keys and files, and asked for you to insert the CD:
 http://www.youtube.com/watch?v=D_-_F21V5IE
 :RHochstenbach has most comments they made from jj0909jj, an suspended user. It has been flagged, and you must login to play this video.
-::At 0:01, it appears a loading graphic. At start, the loading graphic is appeared when registry keys are removed. At 0:21, they remove the Microsoft Management Console folder.
+::@FluXy> You made a log:
+* At start, the loading graphic is appeared when registry keys are removed.
+* At 0:21, they remove the Microsoft Management Console folder.
+* At 0:29, they remove the Internet Explorer folder.
+* At 0:37, they couldn't remove the oobe folder, an error appears.
+* At 0:45 and 0:48, they removed the rest of the oobe folder.
+* At 0:55, they opened the Documents and Settings folder, when Windows File Protection appears.
+* At 1:00, they shouldn't restore the original versions of the files.
+* At 1:02, they got an error when we try to delete the Start Menu folder.
+* At 1:05, they opened desktop.ini, and got this error.
+* At 1:09, they removed Programs and desktop.ini and the error appears.
+* At 1:13, they removed Microsoft and Windows from the Application Data folder.
