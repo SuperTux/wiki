@@ -7,117 +7,151 @@ If you want to build the current development version on Windows, these step-by-s
 Before you proceed, however, carefully read the following warnings:
 
 * You will be building a highly unstable development version of SuperTux. This might cause permanent damage to your system, your brain or both!
-* Do not try these instructions out on a production system. Use a virtual machine (e.g. VMWare) instead.
-* The developers currently focus on getting SuperTux stable for Linux. Feel free to try getting it to work on Windows, but do not expect any support down this road.
+* Do not try these instructions out on a production system. Use a virtual machine (e.g. VMWare or [http://www.virtualbox.org/ VirtualBox]) instead.
+* Most developers currently focus on getting SuperTux stable for Linux. Feel free to try getting it to work on Windows, but do not expect much support down this road.
 * Read these instructions to the end before starting your install. If any step makes you feel unsure, better wait for a Windows release of SuperTux.
 * The whole build process takes about one hour to complete, depending on your internet connection and processor power. Why not do something more productive in that hour? Maybe do some housework?
-* The build process fails on Windows Vista sometimes.
+* The build process fails on Windows Vista sometimes. (please open a bug in our [http://supertux.lethargik.org/bugs/ bug tracker] to help us figure out why)
 
 == Preparation ==
 
 OK, enough of that. Here are the exact steps for building SuperTux on a fresh Windows installation:
 
-=== It's Download Time ===
-
-TO USE ANY SVN VERSION, FIRST DOWNLOAD A SVN CLIENT
-
-* Download and install [http://tortoisesvn.tigris.org/ TortoiseSVN] - I chose [http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
-** install and reboot to finish the installation (SVN-Options will appear in the right-click menu in the Explorer)
-
-* Download and install [http://www.mingw.org/ MinGW] ([http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=82721&release_id=158801 from SourceForge])
-** When prompted, select the "candidate" release. Aside from the base component, also install both the "g++" and "mingw make" components - they might come in handy (are both preselected, so don't change).
-** The default folder of c:\MinGW was alright with me, as I installed on a development installation of Windows. I'll just assume we installed there.
-
-* Download and install [http://www.mingw.org/msys.shtml MSYS] - I chose [http://prdownloads.sf.net/mingw/MSYS-1.0.11-2004.04.30-1.exe?download MSYS-1.0.11-2004.04.30-1]
-** Again, the default folder of C:\msys\1.0 was fine with me
-** In the process of installing MSYS, a command shell should open, promping you whether you want to continue and if you already installed MinGW. Answer both questions with yes (y) and you should be prompted for the path to your MinGW installation. As I installed to c:\MinGW, I entered c:/MinGW (note the forward slash instead of a backslash)
-
-* Download and install the MSYS developer toolkit (DTK) - I chose [http://prdownloads.sf.net/mingw/msysDTK-1.0.1.exe?download msysDTK-1.0.1]
-** Again, the default folder of C:\msys\1.0 was fine with me, the rest of the install was smooth sailing
-
-* Download MSYS autoconf - I chose [http://prdownloads.sourceforge.net/mingw/msys-autoconf-2.59.tar.bz2?download msys-autoconf-2.59]
-** save this to C:\msys\1.0, we will unpack it later
-
-* Download MSYS automake - I chose [http://prdownloads.sourceforge.net/mingw/msys-automake-1.8.2.tar.bz2?download msys-automake-1.8.2]
-** save this to C:\msys\1.0, we will unpack it later
-
-* Download M4 - I chose [http://downloads.sourceforge.net/mingw/m4-1.4.7-MSYS.tar.bz2]
-** save this to C:\msys\1.0, we will unpack it later
-
-TO BUILD ANYTHING (and to use the UNIX-Commands), YOU HAVE TO USE C:\msys\1.0\msys.bat!
-A little guide: 'cd "/d/Super Tux"' is the same a the Windows Command: 'cd "D:\Super Tux"'.
-
-* Download, build and install a recent version of [http://www.libsdl.org/ SDL] - I chose [http://www.libsdl.org/release/SDL-devel-1.2.12-mingw32.tar.gz 1.2.12]
-** After unpacking, install SDL using "make install-sdl prefix=/local"
-
-* Download and install MinGW gcc-g++ package for compiling C++ code - [http://prdownloads.sf.net/mingw/gcc-g++-3.4.2-20040916-1.tar.gz?download gcc-g++-3.4.2-20040916-1.tar.gz]
-** save this to c:\msys\1.0 we will unpack it later
-
-* Download the SuperTux lib package - I chose [http://download.berlios.de/supertux/supertux-msys-libs-2006-03-21.tar.bz2 supertux-msys-libs-2006-03-21]
-** save this to C:\msys\1.0, we will unpack it later
-
-* If you want to use the SuperTux Add-On Manager, download libcurl - I chose [http://curl.haxx.se/download/libcurl-7.16.0-win32-nossl.zip libcurl-7.16.0-win32-nossl]
-** extract the included bin, include and lib folders as subfolders of C:\msys\1.0
-
-* Download and install [http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx OpenAL]
-** On the OpenAL website, choose "Download", then "Installer for Windows"
-** Start the Installer and follow the onscreen instructions
+* Create or pick a working folder. Its path should not contain any spaces. (The root of a drive, such as C:\ or D:\, is fine)
+** I chose D:\Build_SuperTux; change the commands to match your choice.
+** Every non-absolute path I give is relative to this directory
 
 === Checking Things Out ===
 
-* time to check out the latest sources from SVN
-** create c:\msys\1.0\build - we will download and build SuperTux there
-** right-click this folder and select "SVN checkout..." from the context menu
-** As repository URL, enter: http://supertux.lethargik.org/svn/supertux/trunk/supertux
-** As checkout dir, enter: C:\msys\1.0\build\supertux
-** begin your checkout and wait - this might take some time...
+* We want to check out the latest sources from SVN
+* Pick a [http://subversion.tigris.org/getting.html#binary-packages Subversion client]: (instructions vary depending on client)
+*# CollabNet binaries require a login, but are very similar to the next option
+*#* I chose [http://www.collab.net/servlets/OCNDirector?id=CSVN1.6.2WINS]
+*# [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Apache 2.2 Binaries]
+*#* I chose [http://subversion.tigris.org/files/documents/15/45940/svn-win32-1.6.2.zip svn-win32-1.6.2.zip]
+*#* Unpack the binaries somewhere - I chose svn
+*#* Add subversion to your path
+*#** Right click "My Computer" and go to Properties->Advanced->Environment Variables.
+*#** Edit or add the PATH variable in either window.
+*#** Add a semicolon at the end if not present and type D:\Build_SuperTux\svn\bin at the end.
+*#* Open a command prompt (Start->Run and type cmd) and type svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux D:\Build_SuperTux\supertux
+*# [http://tortoisesvn.tigris.org/ TortoiseSVN] has a nice GUI - try [http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
+*#* You must install and reboot to finish the installation (SVN-Options will appear in the right-click menu in the Explorer)
+*#* right-click this folder and select "SVN checkout..." from the context menu
+*#* As repository URL, enter: http://supertux.lethargik.org/svn/supertux/trunk/supertux
+*#* As checkout dir, enter: D:\Build_SuperTux\supertux
+
+* begin your checkout and wait - this might take some time, so to the next step...
+
+=== It's Download Time ===
+{| border="1"
+! Download !! I chose
+|-
+|[http://sourceforge.net/project/showfiles.php?group_id=2435 MinGW] ||
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/gcc-core-4.2.1-sjlj-2.tar.gz gcc-core-4.2.1-sjlj-2.tar.gz]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/gcc-g++-4.2.1-sjlj-2.tar.gz gcc-g++-4.2.1-sjlj-2.tar.gz]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/binutils-2.19.1-mingw32-bin.tar.gz binutils-2.19.1-mingw32-bin.tar.gz]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/w32api-3.13-mingw32-dev.tar.gz w32api-3.13-mingw32-dev.tar.gz]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/mingwrt-3.15.2-mingw32-dev.tar.gz mingwrt-3.15.2-mingw32-dev.tar.gz]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/mingw-utils-0.3.tar.gz mingw-utils-0.3.tar.gz]
+|-
+|[http://sourceforge.net/project/showfiles.php?group_id=2435 MSYS] ||
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/msysCORE-1.0.11-rc-1-bin.tar.gz msysCORE-1.0.11-rc-1-bin.tar.gz]
+|-
+|Bison and flex (only for building miniswig) ||
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/bison-2.3-MSYS-1.0.11-1.tar.bz2 bison-2.3-MSYS-1.0.11-1.tar.bz2]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/flex-2.5.33-MSYS-1.0.11-1.tar.bz2 flex-2.5.33-MSYS-1.0.11-1.tar.bz2]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/regex-0.12-MSYS-1.0.11-1.tar.bz2 regex-0.12-MSYS-1.0.11-1.tar.bz2]
+|-
+|Gettext (only for translations) ||
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/gettext-0.16.1-1-bin.tar.bz2 gettext-0.16.1-1-bin.tar.bz2]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/libiconv-1.11-1-dll.tar.bz2 libiconv-1.11-1-dll.tar.bz2]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/gettext-0.16.1-1-dll.tar.bz2 gettext-0.16.1-1-dll.tar.bz2]
+|-
+|OpenSSH (only if you want to commit) ||
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/openssh-4.7p1-MSYS-1.0.11-1-bin.tar.gz openssh-4.7p1-MSYS-1.0.11-1-bin.tar.gz]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/openssl-0.9.8g-1-MSYS-1.0.11-2-dll098.tar.gz openssl-0.9.8g-1-MSYS-1.0.11-2-dll098.tar.gz]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/minires-1.01-1-MSYS-1.0.11-1.tar.bz2 minires-1.01-1-MSYS-1.0.11-1.tar.bz2]
+
+[http://superb-east.dl.sourceforge.net/sourceforge/mingw/zlib-1.2.3-MSYS-1.0.11-1.tar.bz2 zlib-1.2.3-MSYS-1.0.11-1.tar.bz2]
+|-
+|[http://cmake.org/cmake/resources/software.html CMake] || [http://www.cmake.org/files/v2.6/cmake-2.6.4-win32-x86.zip cmake-2.6.4-win32-x86.zip]
+|-
+|[http://curl.haxx.se/downloads.html cURL] (only for using the add-on manager) || [http://www.gknw.net/mirror/curl/win32/curl-7.19.5-devel-mingw32.zip curl-7.19.5-devel-mingw32.zip]
+|-
+|[http://www.libsdl.org/download-1.2.php SDL] || [http://www.libsdl.org/release/SDL-devel-1.2.13-mingw32.tar.gz SDL-devel-1.2.13-mingw32.tar.gz]
+|-
+|[http://www.libsdl.org/projects/SDL_image/ SDL_image] || [http://www.libsdl.org/projects/SDL_image/release/SDL_image-devel-1.2.7-VC9.zip SDL_image-devel-1.2.7-VC9.zip]
+|-
+|[http://icculus.org/physfs/downloads/ PhysFS] || http://icculus.org/physfs/downloads/physfs-2.0.0.tar.gz
+|-
+|[http://www.7-zip.org/ 7-zip] or your favorite extraction program || [http://superb-east.dl.sourceforge.net/sourceforge/sevenzip/7z465.exe 7z465.exe]
+|-
+|[http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx OpenAL, Vorbis, and Ogg] || [http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip OpenAL11CoreSDK.zip]
+|}
 
 === Getting Busy ===
-
-* time to start MSYS for the first time. Launch MSYS by clicking on the conveniently created desktop icon
-*Tip: If you don't want to type in everything manually, copy it using the normal keys of your browser (Ctrl-C) and paste into MSYS using Shift-left click. (If you want to copy output, select it and it will automatically copy to the clipboard) Other, more complicated methods involve creating a shell script.
-* install the downloaded binaries by typing 
-
- cd /c/msys/1.0/
- tar -xzvf gcc-g++-3.4.2-20040916-1.tar.gz
- tar -xjvf msys-autoconf-2.59.tar.bz2
- tar -xjvf msys-automake-1.8.2.tar.bz2
- tar -xjvf supertux-msys-libs-2006-03-21.tar.bz2
+* Run the 7-zip and OpenAL SDK installers. (OpenAL requires administrative privileges)
+* MinGW and MSYS should be separated in their own folders. Make two folders "mingw" and "msys".
+* Move the packages you downloaded for MinGW into the mingw folder and everything else from the MinGW project to the msys folder.
+* Select all the archives in each folder, right click, and select "Extract here". Repeat with the generated *.tar files. Answer "no to all" if prompted to overwrite.
+* Move msys\usr\local to msys\local if it exists, otherwise create msys\local
+* Rename gcc-slsj.exe and g++-slsj.exe to gcc.exe and g++.exe in mingw\bin
+* Change directories to msys\postinstall, and run pi.bat . Answer y, y, and carefully type in the path to your MinGW installation (the script doesn't handle backspace/delete very well)
+** I entered d:/Build_SuperTux/mingw (note the forward slashes instead of backslashes)
+* Extract all the remaining packages into msys\local such that the folders are local\bin, local\lib, local\include, and so on. Ignore any overwrite prompts (the files that are being overwritten don't matter)
+* Copy dll's from local\bin into local\lib, saying "no" to overwrite
+* Go to C:\Program Files\OpenAL 1.1 SDK
+* Rename include directory to AL and move to local\include\AL
+* Copy samples\playoggvorbis\include\* to local\include\*
+* Copy the Ogg and Vorbis DLL's to local\lib
+* Launch MSYS with msys\msys.bat
+** Tip: If you don't want to type in everything manually, copy it using the normal keys of your browser (Ctrl-C) and paste into MSYS using Shift-left click. (If you want to copy output, select it and it will automatically copy to the clipboard) Other, more complicated methods involve creating a shell script.
+*** This only applies to the rxvt shell. Newer versions seem to use cmd.exe, but the context menu is disabled. Click on the icon in the title bar, which will bring up a menu; select Edit->Paste to paste in.
 
 == Building ==
 
-* we're ready to build SuperTux. Just type the following
-
- cd /build/supertux/
- cp /usr/local/bin/*.dll .
- cp /usr/local/lib/libcurl-4.dll .
-
-* If you want to build using CMake, enter this:
-
+* PhysFS 2.0.0 needs a patch to make it compile under Windows. Change
+ IF(PHYSFS_IS_GCC4)
+   ADD_DEFINITIONS(-fvisibility=hidden)
+ ENDIF(PHYSFS_IS_GCC4)
+to
+ IF(PHYSFS_IS_GCC4 AND NOT WINDOWS)
+   ADD_DEFINITIONS(-fvisibility=hidden)
+ ENDIF(PHYSFS_IS_GCC4 AND NOT WINDOWS)
+in local/phyfs-2.0.0/CMakeLists.txt
+* We're ready to build PhysFS. Type in the following:
+ cd /local/physfs*
  mkdir build
  cd build
- CMAKE_INCLUDE_PATH="/local/include;/local/include/SDL;/local/include/vorbis" CMAKE_LIBRARY_PATH="/local/lib" cmake -G "MSYS Makefiles" -DVORBIS_INCLUDE_DIR="/local/include" -DOPENAL_INCLUDE_DIR="/local/include" -DPHYSFS_INCLUDE_DIR="/local/include" -DSDLIMAGE_INCLUDE_DIR="/local/include/SDL" -DSDL_INCLUDE_DIR="/local/include/SDL" -DCURL_INCLUDE_DIR="/local/include/curl" -DDEBUG=ON .. -DGENERATE_WRAPPER=OFF -DGENERATE_MESSAGESPOT=OFF
+ cmake .. -G "MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH=/local
  make
-
-* If you want to build using jam instead, run the following commands: (note that as of r5280, building with jam is unsupported)
-
- ./autogen.sh
- LIBS="-L/usr/local/lib -lvorbisenc -lvorbisfile -lvorbis -logg" CFLAGS="-I/usr/local/include" configure --enable-debug
- jam
-
-* Now run "supertux2.exe", sit back and enjoy the game.
-
-== Ready-made Binaries ==
-
-* You might also find an old developer snapshot I built on my [http://www.deltadevelopment.de/users/christoph/supertux/ website].
-
-== Additional Tips ==
-
-If jam fails on wrapper.cpp or miniswig try preventing miniswig from regenerating wrapper.cpp. To do that run this command in msys:
- cd /build/supertux && \
- sed 's/"bison"/""/;s/"flex"/""/' Jamconfig > Jamconfig.tmp && \
- mv Jamconfig.tmp Jamconfig
-After that use TortoiseSVN to svn up the whole directory (to restore possibly deleted files). Then try running jam again.
+* We're ready to build SuperTux.
+* Change to the SuperTux checkout directory
+ cd /d/Build_SuperTux/supertux/
+* Copy useful dll's from /local/lib (or from a copy of SuperTux 0.3.1) - not all are needed, try moving the dll's elsewhere and moving them back one at a time
+ cp /local/lib/*.dll .
+* Make a build directory to store generated files
+ mkdir build
+ cd build
+* Start the actual build (everything else was libraries)
+ INCLUDE="/local/include:/local/include/SDL" LIB="/local/lib" cmake -G "MSYS Makefiles" -DDEBUG=ON ..
+ make
+* Optional: if those "missing sound" messages annoy you, and you don't care about [[DataFiles|licensing issues]], run
+ cd ../data/sounds
+ svn update -r5392 bump-upgrade.wav iceblock_bump.wav kick.wav squish.wav stomp.wav
+* Now run supertux2.exe, sit back, and enjoy the game.
 
 == Building the editor ==
 
@@ -130,16 +164,19 @@ There's a new gtk-sharp based editor in development which can also be built on w
 * Microsoft Visual C# Express Edition, it's a free version of visual studio and we use it for compiling (and development on win32): http://msdn.microsoft.com/vstudio/express/visualcsharp/download
 *:This apparently requires SP2 on Windows XP. (not tested on any other Windows versions)
 *::Is anybody still using XP without SP2? It that machine hast net connection its a bad idea.
-* SDL.dll and SDL_image.dll, you can copy these from a milestone1 installation or from the msys library pack for example.
+* SDL.dll and SDL_image.dll, you can get these from an existing SuperTux installation or from the downloads above.
 
 === Building ===
 
 * Get the sourcecode from [[Download/Subversion|svn]]
-* open supertux-sharp.sln by double clicking on it (it should open in Visual C# Express now).
+* Open supertux-sharp.sln by double clicking on it (it should open in Visual C# Express now).
 * Build the project in debug and release mode (use F6 and then F5 for example)
 * Copy SDL.dll and SDL_image.dll into the bin\Debug and bin\Release directory that has just been created
-* You can now go back to Visual Studio Express and start the editor with F11. Note that the debug mode is quiet slow for the OpenGL calls, so if you actually wanna use the editor instead of developing it start it in release mode (CTRL+F11)
+* You can now go back to Visual Studio Express and start the editor with F11. Note that the debug mode is quite slow for the OpenGL calls, so if you actually want to use the editor instead of developing it start it in release mode (CTRL+F11)
 
 You might want to read the [[Editor FAQ]] at this point.
+
+=== Snapshots ===
+MMLosh has some snapshots on his website: http://elektromaniak.wz.cz/download.html
 
 [[Category:Developer documentation]]
