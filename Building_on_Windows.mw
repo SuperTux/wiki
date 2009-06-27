@@ -122,7 +122,7 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 
 == Building ==
 
-* PhysFS 2.0.0 needs a patch to make it compile under Windows. Change
+* PhysFS 2.0.0 needs a patch to make it compile without warnings under Windows. Change
  IF(PHYSFS_IS_GCC4)
    ADD_DEFINITIONS(-fvisibility=hidden)
  ENDIF(PHYSFS_IS_GCC4)
