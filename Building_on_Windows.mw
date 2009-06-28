@@ -137,6 +137,7 @@ in local/phyfs-2.0.0/CMakeLists.txt
  cd build
  cmake .. -G "MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH=/local
  make
+ make install
 * We're ready to build SuperTux.
 * Change to the SuperTux checkout directory
  cd /d/Build_SuperTux/supertux/
