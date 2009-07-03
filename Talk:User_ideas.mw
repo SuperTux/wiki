@@ -38,13 +38,14 @@ thanks
 Hi!
 
 I hope i didn't read over it, but wouldn't it be fine if the Character would be able to jump again after being jumped upon an enemy?
-Because, if an enemy is flying above an abyss, and I jump on it, i'll fall into that abyss. There, it would be fineto be able to jump again (if jumped on an enemy) to rescue oneself from falling down.
+Because, if an enemy is flying above an abyss, and I jump on it, I'll fall into that abyss. There, it would be fine to be able to jump again (if jumped on an enemy) to rescue oneself from falling down.
 
 HTH, pktm
 
 :In which version is it not possible to jump again? Usually Tux bounces off an enemy when jumping on it. --[[User:204.13.236.244|204.13.236.244]] 13:08, 20 April 2008 (UTC)
 
-:: I'm using supertux 0.3.0-0 on a openSuse 10.3 x86_64. Edit: I checked it. The Character bounces off the enemy, if it just jumps on it. But if you press the jump key while jumping on an anemy, you fall down.
+:: I'm using supertux 0.3.0-0 on a openSuse 10.3 x86_64. Edit: I checked it. The Character bounces off the enemy, if it just jumps on it. But if you press the jump key while jumping on an enemy, you fall down.
+::* I think that's intentional. That way, you don't have to go up if there's something you don't particularly want to touch above you. Otherwise, you bounce up and can keep jumping. --[[User:Julius Freezer|Julius_Freezer]] 00:00, 3 July 2009 (UTC)
 
 == Reversing snowball power-ups & run/walk button settings ==
 
