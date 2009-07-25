@@ -13,7 +13,7 @@
 
 === iPhone ===
 
-An iPhone port of 0.3.2SVN  is currenty being investigated by MEDL Mobile.
+An iPhone port of 0.3.2SVN  is currently being developed by a third party group.
 
 === Mobile phones ===
 
@@ -23,7 +23,6 @@ An iPhone port of 0.3.2SVN  is currenty being investigated by MEDL Mobile.
 * Notes: due to the Java requirement this might need an extra version. Another issue is that cellulars don't seem to be able to report two key strokes at once -- this makes it impossible to jump and move at the same time, which is quite frustrating. Using diagonal keys might prove to be good enough.
 ::A port for Symbian phones already exists: [http://www.symbian-freak.com/downloads/freeware/cat_s60_3rd/descriptions/games/supertux_classic_jump_n_run_game_for_symbian_device.htm]
 
-* There should be an port for iPhone O.O
 
 === Game Boy Advance ===
 
