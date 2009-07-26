@@ -110,11 +110,11 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 * Select all the archives from the MinGW project, right click, and select "Extract here". Repeat with the generated *.tar files. Answer "no to all" if prompted to overwrite.
 * Move usr\local to local if it exists, otherwise create local
 * Extract into local from all the remaining packages the folders bin, lib, include, and share such that the folders are local\bin, local\lib, local\include, and so on. Ignore any overwrite prompts (the files that are being overwritten don't matter)
-* Copy dll's from local\bin into local\lib, saying "no" to overwrite
+* Copy dll's from local\lib into local\bin, saying "no" to overwrite
 * Go to C:\Program Files\OpenAL 1.1 SDK
 * Copy the include directory there to local
 * Copy \samples\playoggvorbis\include\* to local\include\*
-* Copy the Ogg and Vorbis DLL's to local\lib
+* Copy the Ogg and Vorbis DLL's to local\bin
 * Launch MSYS with msys.bat
 ** Tip: If you don't want to type in everything manually, copy it using the normal keys of your browser (Ctrl-C) and paste into MSYS by clicking on the icon in the title bar and selecting Edit->Paste to paste in.
 
@@ -140,7 +140,7 @@ in local/phyfs-2.0.0/CMakeLists.txt
 * Change to the SuperTux checkout directory
  cd /supertux
 * Copy useful dll's from /local/lib and /bin (or from a copy of SuperTux 0.3.1) - not all are needed, try moving the dll's elsewhere and moving them back one at a time to reduce them.
- cp /local/lib/*.dll .
+ cp /local/bin/*.dll .
  cp /bin/libgcc_*.dll .
  
 * Make a build directory to store generated files
