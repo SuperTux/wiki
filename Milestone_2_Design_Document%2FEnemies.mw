@@ -31,7 +31,7 @@ Snowball is a straight forward walking enemy, when reaching an edge he will fall
 
 [[Image:SmartSnowballSprite.png|right]]
 
-Mrs Snowball behaves like a normal snowball, but instead of walking of a platform she will turn around when reaching the edge.
+Mrs Snowball behaves like a normal snowball, but instead of walking off a platform she will turn around when reaching the edge.
 <br clear="all" />
 
 == Snowman (needs code, walking gfx) ==
