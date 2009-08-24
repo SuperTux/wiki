@@ -1,6 +1,8 @@
 <blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page.'' </blockquote>
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
 [[Image:RATEDFUN.png]]
+==Tux.getCoins or whatever==
+I searched the scripting reference and i cannot find a method to get the amount of coins wich the player owns. also, if possible, the currenst state of tux (fire , small or ice).
 
 ==Help! (On the level Kneep Deep in the Depth)==
 Can anyone give a solution to the dilemna of the rising lava and finding the secret "ride" on it? Yes, I have spent many hours (3-4) on it to no avail. Please help!!!
