@@ -4,6 +4,7 @@
 ==Tux.getCoins or whatever==
 I searched the scripting reference and i cannot find a method to get the amount of coins wich the player owns. also, if possible, the currenst state of tux (fire , small or ice).
 :True, there is currently no way to get either of those. (though you can add bonuses and coins) What would you use the information for? --[[User:Mathnerd314|Mathnerd314]] 00:21, 25 August 2009 (UTC)
+::That is sad. I would like to implement a shop or something like that.
 
 ==Help! (On the level Kneep Deep in the Depth)==
 Can anyone give a solution to the dilemna of the rising lava and finding the secret "ride" on it? Yes, I have spent many hours (3-4) on it to no avail. Please help!!!
