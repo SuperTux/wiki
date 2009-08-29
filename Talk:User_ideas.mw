@@ -35,6 +35,8 @@ thanks
 
 :Hello. I have problems with supertux2 too on my vga card (sis) without acceleration. Please add some fallback mode, because supertux2 is now very slow and unplayble for me - compared to older 2D supertux. Thanks. Harvie --[[Special:Contributions/62.24.87.147|62.24.87.147]] 00:52, 28 August 2009 (UTC)
 
+:: The default renderer uses OpenGL,which requires acceleration. You can switch it to use SDL; see the [[SuperTux_FAQ#How_do_I_use_SDL_in_the_development_version.3F|SuperTux FAQ]] --[[User:Mathnerd314|Mathnerd314]] 14:19, 29 August 2009 (UTC)
+
 == Be able to jump again if jumped on an enemy ==
 
 Hi!
