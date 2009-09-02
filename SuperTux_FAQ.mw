@@ -6,6 +6,12 @@ This is by far the most frequently asked question of all, and the answer is simp
 
 Honestly, we don't have a release date yet. Just like many of you, we'd like to see SuperTux finished and released to the public as soon as possible, but since we all are busy with other, probably less interesting things, the amount of time we are able to put into this game is limited. Please be patient.
 
+=== When will Milestone 3 be released? ===
+
+We plan to release the Linux version on 2038-11-23. Not sure if we
+will do a GNU Hurd version by then, too. The schedule is a bit
+sketchy right now.
+
 == What's new in SuperTux 0.3? ==
 
 Most information on these Wiki pages is about what's new in SuperTux 0.3. Just browse around, and feel free to add your own ideas. :-)
