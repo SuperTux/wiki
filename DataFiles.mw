@@ -38,7 +38,7 @@ All files in data/music created by [[User:wansti|wansti]] and licensed under GPL
 *tux_upset.ogg -- self-made by TuxThePenguin
 
 == [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/sounds/ data/sounds] ==
-We mainly need to clear the status of the sounds from Bill Kendrick
+We mainly need to replace all the sounds from Bill Kendrick ([http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2009-September/002436.html list message])
 *bigjump.wav -- self-made by [[User:Wansti|Wansti]]
 *brick.wav -- replaced with a self-made sound submitted by Yaniel (revision 5413) GPLv2+CC-by-sa
 *'''bump-upgrade.wav -- bkendrick''' not used anywhere ATM (r5922)
@@ -78,7 +78,7 @@ We mainly need to clear the status of the sounds from Bill Kendrick
 *totem.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *trampoline.wav -- self-made by wansti
 *turnkey.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
-*'''upgrade.wav -- bkendrick''' -- use Yaniel's sound? ([http://lists.lethargik.org/private.cgi/supertux-devel-lethargik.org/2008-May/001427.html list message])
+*upgrade.wav -- replaced with Yaniel's sound, license pending
 *warp.wav -- submitted as GPL by Ricardo Cruz
 *waterfall.wav -- submitted as GPL by Bastian Zapf
 *willowisp.wav -- self-made by wansti
