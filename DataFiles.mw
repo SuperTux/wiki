@@ -47,7 +47,7 @@ We mainly need to replace all the sounds from Bill Kendrick ([http://lists.letha
 *darthit.wav -- self-made by [[User:Sommer|Sommer]]
 *door.wav -- self-made by gwater (Jun 30 2006 13:42:40 <gwater> ok it's my squeaky step, but it kind of sounds like a door.)
 *explosion.wav -- Replaced by a self-made sound (GPLv2+/CC-by-SA) by --[[User:Sommer|Sommer]] 17:34, 7 June 2007 (UTC)
-*fall.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)
+*<big>fall.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)</big>
 *fire-flower.wav -- submitted as GPL by Bastian Zapf
 *fireworks.wav -- submitted as GPL by Ricardo Cruz
 *fizz.wav -- submitted by gwater (source?) replaced by some white noise made with audacity, WolfgangB
@@ -61,14 +61,14 @@ We mainly need to replace all the sounds from Bill Kendrick ([http://lists.letha
 *jump.wav -- self-made by [[User:Wansti|Wansti]]
 *'''kick.wav -- bkendrick'''
 *lava.wav -- submitted as GPL by Bastian Zapf
-*lifeup.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)
+*<big>lifeup.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)</big>
 *locked.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *mr_tree.ogg -- self-made by gwater
 *mr_treehit.ogg -- self-made by gwater
 *phone.wav -- self-made by gwater (unused ATM, was used in infoblock.cpp)
 *rain.wav -- self-made by wansti
 *saw.wav Mill1.wav from LinCity-NG (Data is dual licensed under under the GPL and CC-by-sa-v2 ), created by Paulo Morfeo http://svn.berlios.de/viewcvs/lincity-ng/trunk/data/sounds/Mill1.wav
-*shoot.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)
+*<big>shoot.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)</big>
 *skid.wav -- replaced with a self-made sound by [[User:Wansti|Wansti]] (as of revision 5411)
 *splash.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *'''squish.wav -- bkendrick'''
@@ -78,7 +78,7 @@ We mainly need to replace all the sounds from Bill Kendrick ([http://lists.letha
 *totem.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *trampoline.wav -- self-made by wansti
 *turnkey.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
-*upgrade.wav -- replaced with Yaniel's sound, '''license pending'''
+*<big>upgrade.wav -- replaced with Yaniel's sound, '''license pending'''</big>
 *warp.wav -- submitted as GPL by Ricardo Cruz
 *waterfall.wav -- submitted as GPL by Bastian Zapf
 *willowisp.wav -- self-made by wansti
