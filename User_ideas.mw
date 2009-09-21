@@ -79,7 +79,7 @@ How about instead of just a project for a multiplayer mode, a mass multiplayer m
 : i wanna help!!!!
 
 === Different power-ups ===
-Ability to have different power-ups and weapons would make the game more fun. For example, having a lot of power-ups and weapons would make some players want to try out all the moves there are. Making the power-ups so that tux can only have one at a time would make the game more interesting.
+Ability to have different power-ups and weapons would make the game more fun. For example, having a lot of power-ups and weapons would make some players want to try out all the moves there are. Making the power-ups so that tux can only have one at a time would make the game more interesting.  (Possibly have offense and defensive powerups - no slip ice boots)
 (By the way, if I knew how to program in c++, I would implement then on a svn version and send it to the maintainers.)
 
 === Getting chased by an animal ===
