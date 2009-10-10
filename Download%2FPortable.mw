@@ -1,6 +1,88 @@
 '''SuperTux Portable''' aims to allow users to play SuperTux on embedded devices such as PDAs, the Game Boy Advance, Nintendo DS or low-CPU PCs. This page is meant to collect ideas for a possible 'low spec SuperTux'.
 
-ccp1YX  <a href="http://jagzyrkrwehp.com/">jagzyrkrwehp</a>, [url=http://naekroebiwag.com/]naekroebiwag[/url], [link=http://vtqhxtuggfjl.com/]vtqhxtuggfjl[/link], http://huxmexepdylz.com/
+== Devices ==
+
+=== Palm OS ===
+
+* Display: 320x320, 320x480 or 160x160, 65536 colors (Palm IIIc = 256 colors)
+* sound
+* Palm OS 5+ <=> ARM processors, 126 - 416 MHz
+* 2 - 100 MB internal memory
+* flash cards
+* possibly Palm OS 4/below? (support for capable OS 4 PDA's [Sony Clie NR70 with sound hardware and 320x480] only?)
+
+=== iPhone ===
+
+An iPhone port of 0.3.2SVN  is currently being developed by a third party group.
+
+=== Mobile phones ===
+
+* Resolution: can vary greatly. One should develop it so the screen range varies (scaling is also an option, but that should be avoided) -- it doesn't necessarily affect gameplay. For reference, I believe 180x170 is the norm for LCDs, but can get much bigger for the most advanced ones that offer PDA abilities. Monochrome phones use LED screens that offer like 1/3rd of the others screens -- they should be provided with a smaller graphics version (the resolution is smaller, but since the display is bigger, smaller graphics will not look like ants, but will do ok.)
+* Controlls: 0-9 keypad, plus two buttons (* and +). Controls shouldn't be hardcoded, but rather use defined variables like LEFT_KEY, POWER_KEY, etc. There is also a button to go for the menu, and usually another to terminate the application right away (these two cannot be caught by the program for obvious reasons).
+* Programming Language: Java. (some mobile phones, like Nokias, do provide C. it should be avoided because it would not be portable or easily installable.)
+* Notes: due to the Java requirement this might need an extra version. Another issue is that cellulars don't seem to be able to report two key strokes at once -- this makes it impossible to jump and move at the same time, which is quite frustrating. Using diagonal keys might prove to be good enough.
+::A port for Symbian phones already exists: [http://www.symbian-freak.com/downloads/freeware/cat_s60_3rd/descriptions/games/supertux_classic_jump_n_run_game_for_symbian_device.htm]
+
+
+=== Game Boy Advance ===
+
+* Resolution: 240x160
+* Graphics: Mode0 provides 4 tilemap layers and 128 sprites, tiles are 8x8 and you can have either 256 colors per tile and 256 tiles or 16 colors per tile and 512 tiles on a map
+* Controls: DPad, A, B, Start, Select, L, R
+* Programming Language: C, Assembler
+
+=== Nintendo DS ===
+
+* Resolution: 256x192
+* Graphics: ???
+* Controls: DPad, A, B, X, Y, Start, Select, L, R, Touchscreen
+* Programming Language: C, Assembler, Lua, Python, Pascal
+
+=== GP32x ===
+
+* Resolution: 320x240
+* Graphics: plain framebuffer
+* Controls: DPad, A, B, Start, Select, L, R
+* Programming Language: C, Assembler
+
+=== GP2X ===
+
+* Resolution: 320x240
+* Graphics: plain framebuffer, has SDL available
+* Controls: DPad, A, B, X, Y, Start, Select, L, R, Vol-, Vol+, Extra button by depressing DPad
+* Programming Language: C
+* Note: runs a Linux-based system, so we can use any Linux tools that can be recompiled for it.
+* Port is in development [http://www.gp2x.de/cgi-bin/cfiles.cgi?0,0,0,0,46,1199 Elektranox], continued as [http://archive.gp2x.de/cgi-bin/cfiles.cgi?0,0,0,0,35,1454 scachi]
+
+=== Playstation Portable ===
+
+* Resolution: 480 x 272
+* Graphics: ???
+* Controls: DPad, Cross, Circle, Square, Triangle, Start, Select, L, R, Analog-Stick
+* Programming Language: C, C++, Lua, Python, Assembler
+* Notes: Resolution is to small for double-sprite size, yet to large for 32x16 sprites, maybe need something inbetween. Firmware can cause problems.
+
+An [[Download/Installation#PlayStation Portable .28PSP.29|unofficial port of version 0.1.3 for the PSP]] has already been created. Also see [http://forums.qj.net/showthread.php?t=31140 here].
+
+=== PDA, Zaurus ===
+
+* Resolution: 640x480 (high-end Zs ONLY), 320x240 (5500 series Z models - FAR more common)
+* Graphics: (Framebuffer?)
+* Controls: Touchscreen, four-way dpad, (one button?), mini-qwerty based keyboard?
+* Programming Language: (C?)
+
+0.1.1 was ported to the 640x480 Zauruses: www.killefiz.de/zaurus/showdetail.php?app=2759
+
+UPDATE: 0.1.1 version has been replaced by 0.1.2 version at www.elsix.org/index.php?w=project&p=supertux
+
+=== PC ===
+
+* Speed: game should be able to run on a Pentium 90Mhz CPU
+* Resolution: 320x240, possible an additional 'scaled mode' with 640x480 for double sprite and tile size
+* Controls: Gamepad with unknown number of buttons, at least 2 or Keyboard
+=== Pocket PC ===
+Already ported:
+http://rapidshare.com/files/4104619/Supertux.v1.0.rar.html
 
 == Implementation ==
 
