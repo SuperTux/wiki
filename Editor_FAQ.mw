@@ -5,7 +5,9 @@ __TOC__
 
 == Generic ==
 ===What do I need to compile supertux-editor SVN edition?===
-The following packages are required by supertux-editor:
+You first need the supertux-editor package from the [[Download/Subversion|Subversion Repository]].
+
+The following packages are required by the SVN supertux-editor:
 *gtk-sharp
 *glade-sharp
 *mono
@@ -16,9 +18,10 @@ Unix-specific dependencies:
 Windows-specific dependencies:
 *Microsoft .net development program
 
-Because of the interdependencies of these packages, you probably only need to ask your package manager to install glade-sharp. Also, most unix systems should have a good copy of make installed already.
+Because of the interdependencies of these packages, you probably only need to ask your package manager to install glade-sharp. Also, most unix systems will have a good copy of make installed already.
 
-[[Image:EditorFAQ1.png|thumb|500px|Overview of the Editor, click to enlarge]]
+[[Downloads/Subversion SVN version]]
+
 === How do I move around in a level? ===
 Click and drag with the middle mouse button. <br />
 There are also scrollbars since r4886.
