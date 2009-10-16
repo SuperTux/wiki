@@ -1,14 +1,14 @@
-<blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page.'' </blockquote>
+<blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page or make a new phpBB 3 Forum.'' </blockquote>
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
 [[Image:RATEDFUN.png]]
 ==Tux.getCoins or whatever==
-I searched the scripting reference and i cannot find a method to get the amount of coins wich the player owns. also, if possible, the currenst state of tux (fire , small or ice).
+I searched the scripting reference and i cannot find a method to get the amount of coins wich the player owns. also, if possible, the current state of tux (fire , small or ice).
 :True, there is currently no way to get either of those. (though you can add bonuses and coins) What would you use the information for? --[[User:Mathnerd314|Mathnerd314]] 00:21, 25 August 2009 (UTC)
 ::That is sad. I would like to implement a shop or something like that.
-:::To make a shop work, you'd have to implement even more stuff to use with scripting, why not start with a function to get Tux's abount of cash?
+:::To make a shop work, you'd have to implement even more stuff to use with scripting, why not start with a function to get Tux's about of cash?
 
 ==Help! (On the level Kneep Deep in the Depth)==
-Can anyone give a solution to the dilemna of the rising lava and finding the secret "ride" on it? Yes, I have spent many hours (3-4) on it to no avail. Please help!!!
+Can anyone give a solution to the dilemma of the rising lava and finding the secret "ride" on it? Yes, I have spent many hours (3-4) on it to no avail. Please help!!!
 :Tux needs to run up very quickly once he has pushed the switch. (It helps to have destroyed all the enemies with the fireflower on the way down). All I'll say is to go up as high as you can go. (You should reach just below where you came in.) What happens after that should be self-explanatory.
 
 ==How to draw Supertux or Badguys==
