@@ -139,7 +139,7 @@ in local/phyfs-2.0.0/CMakeLists.txt
 * We're ready to build SuperTux.
 * Change to the SuperTux checkout directory
  cd /supertux
-* Copy useful dll's from /local/lib and /bin (or from a copy of SuperTux 0.3.1) - not all are needed, try moving the dll's elsewhere and moving them back one at a time to reduce them.
+* Copy useful databases from /local/lib and /bin (or from a copy of SuperTux 0.3.1) - not all are needed, try moving the databases elsewhere and moving them back one at a time to reduce them.
  cp /local/bin/*.dll .
  cp /bin/libgcc_*.dll .
  
