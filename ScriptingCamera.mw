@@ -6,6 +6,23 @@ __NOTOC__
 == Instances ==
 An instance named <tt>Camera</tt> (<tt>sector.Camera</tt> in the console) is available. ''(Note: doesn't having a class and an eponymous instance create a potential for conflicts? We should probably rename the instance or the class.)''
 
+=== Example ===
+
+ (camera
+   (mode "autoscroll")
+   (path
+     (node
+       (x 0)
+       (y 0)
+       (time 250)
+     )
+     (node
+       (x 19072)
+       (y 0)
+     )
+   )
+ )
+
 == Methods ==
 {| class="objectlist"
 ! class="method"| shake(float time, float x, float y)
