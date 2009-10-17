@@ -2,7 +2,7 @@ __NOTOC__
 
 == Summary ==
 
-A [[Moving platform]] that was given a name can be controlled by scripts.
+A [[Moving platform]] that was given a name can be controlled by scripts. It is moving along a specified [[ScriptingPath|path]].
 
 == Instances ==
 An instance is created by being defined in a level. It may be accessed via its <tt>name</tt> from scripts and via <tt>sector.''name''</tt> from the console.
