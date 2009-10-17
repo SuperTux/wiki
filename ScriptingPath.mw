@@ -63,6 +63,7 @@ Objects a path is associated with usually provide the following methods:
 
 == Used by ==
 
+* [[ScriptingCamera|Camera]] (''autoscroll'' mode)
 * [[ScriptingPlatform|Platform]]
 * [[ScriptingTilemap|Tilemap]]
 * [[ScriptingWill-o-wisp|Will-o-wisp]]
