@@ -2,7 +2,7 @@ __NOTOC__
 
 == Summary ==
 
-A [[Tilemap]] that was given a name can be controlled by scripts.
+A [[Tilemap]] that was given a name can be controlled by scripts. The tilemap can be moved by specifying a [[ScriptingPath|path]] for it.
 
 == Instances ==
 An instance is created by being defined in a level. It may be accessed via its <tt>name</tt> from scripts and via <tt>sector.''name''</tt> from the console.
