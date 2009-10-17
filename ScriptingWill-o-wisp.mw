@@ -2,7 +2,7 @@ __NOTOC__
 
 == Summary ==
 
-Will-o-Wisps, when given a name (and perhaps a path too), become scriptable, much like a [[ScriptingPlatform|platform]] or [[ScriptingTilemap|tilemap]].
+Will-o-Wisps, when given a name (and perhaps a [[ScriptingPath|path]] too), become scriptable, much like a [[ScriptingPlatform|platform]] or [[ScriptingTilemap|tilemap]].
 
 == Methods ==
 {| class="objectlist"
