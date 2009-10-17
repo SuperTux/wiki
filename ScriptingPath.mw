@@ -37,7 +37,7 @@ Nodes are points in the level along which the associated object moves. They have
 
 * '''x'''<br />x-coordinate of the point in ''pixels''.
 * '''y'''<br />y-coordinate of the point in ''pixels''.
-* '''time''' ''(optional)''<br />Time it takes to move to the ''next'' point in seconds.
+* '''time''' ''(optional)''<br />Time it takes to move to the ''next'' point in seconds. Defaults to one second.
 
 '''Example:'''
  (node
