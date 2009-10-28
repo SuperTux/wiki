@@ -66,3 +66,8 @@ When switching to the new SVN from BerliOS (using <code>switch --relocate</code>
 [[Category:Development]]
 [[Category:Meta]]
 [[Category:SuperTux]]
+
+== Gentoo Users ==
+If you would like to have a clean system-wide installation of the development version of supertux, you can grab the [http://ohnopub.net/hg/ohnobinki_overlay/file/tip/games-arcade/supertux live ebuild and patch]. If you need help using this, contact <tt>ohnobinki</tt> on [[Contact#IRC|<tt>#supertux</tt>]].
+
+If you have layman set up, you may just [http://ohnopub.net/~ohnobinki/gentoo grab my overlay] although it includes just a few other things than the live supertux ebuild.
