@@ -20,7 +20,7 @@ Windows-specific dependencies:
 
 Because of the interdependencies of these packages, you probably only need to ask your package manager to install glade-sharp. Also, most unix systems will have a good copy of make installed already.
 
-[[Downloads/Subversion SVN version]]
+[[Download/Subversion|SVN version]]
 
 === How do I move around in a level? ===
 Click and drag with the middle mouse button. <br />
