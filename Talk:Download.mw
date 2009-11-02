@@ -16,6 +16,7 @@ I already looked at Download/Subversion. I can't find the install package.
 :Yes, thats the idea of a source code repository. This is where the developers store the work in progress code. Either compile it yourself or wait until a new release is made. --[[User:Superdev|Superdev]] 20:50, 12 March 2009 (UTC)
 
 How do you play the Subversion Supertux? I got the data, now what do I do with it? --[[User:Gyroknight|Gyroknight]] 7:22PM EST, March 16,2009 (UTC)
+:Read the instructions in the INSTALL file.
 
 == Level Editor ==
 
