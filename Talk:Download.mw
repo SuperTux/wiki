@@ -26,3 +26,6 @@ What are the system requirements for the 0.3x editor?
 == svn ==
 
 How do you install SVN ?
+
+On ubuntu.
+sudo apt-get install svn
