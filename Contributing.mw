@@ -7,7 +7,7 @@ If you would like to contribute to SuperTux, you should follow a series of instr
 == Licenses ==
 
 We can't use contributions that aren't redistributable under the same license as SuperTux itself.
-Usually, GPL will infect small code changes automatically. For everything else (like levels, images, sounds, and new programs), make sure that you can release it under GPLv2 (yes, ''all'' contributions need to be released under GPL) and also CC-BY-SA for data files such as images, sounds, music, and levels. (Scripts count as parts of levels)
+Usually, GPL will infect small code changes automatically. For everything else (like levels, images, sounds, and new programs), make sure that you can release it under GPLv2 or later (yes, ''all'' contributions need to be released under GPL) and also CC-BY-SA for data files such as images, sounds, music, and levels. (Scripts count as parts of levels)
 
 == Generic instructions ==
 These instructions apply to every function you may want to adopt.
