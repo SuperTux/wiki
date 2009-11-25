@@ -26,16 +26,16 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 * We want to check out the latest sources from SVN
 * Pick a [http://subversion.tigris.org/getting.html#binary-packages Subversion client]: (instructions vary depending on client)
 *# CollabNet binaries require a login, but are very similar to the next option
-*#* I chose [http://www.collab.net/servlets/OCNDirector?id=CSVN1.6.2WINS]
+*#* I chose [http://www.collab.net/servlets/OCNDirector?id=CSVN1.6.6WINS]
 *# [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Apache 2.2 Binaries]
-*#* I chose [http://subversion.tigris.org/files/documents/15/46144/svn-win32-1.6.3.zip svn-win32-1.6.3.zip]
-*#* Unpack the binaries
+*#* I chose [http://subversion.tigris.org/files/documents/15/46144/svn-win32-1.6.6.zip svn-win32-1.6.6.zip]
+*#* Unpack the binaries to svn
 *#* Add subversion to your path
 *#** Right click "My Computer" and go to Properties->Advanced->Environment Variables.
 *#** Edit or add the PATH variable in either window.
 *#** Add a semicolon at the end if not present and type D:\Build_SuperTux\svn\bin at the end.
 *#* Open a command prompt (Start->Run and type cmd) and type svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux D:\Build_SuperTux\supertux
-*# [http://tortoisesvn.tigris.org/ TortoiseSVN] has a nice GUI - try [http://prdownloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.3.1.5521-svn-1.3.0.msi?download TortoiseSVN-1.3.1.5521-svn-1.3.0]
+*# [http://tortoisesvn.tigris.org/ TortoiseSVN] has a nice GUI - try [http://downloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.6.6.17493-win32-svn-1.6.6.msi?download TortoiseSVN-1.6.6.17493-win32-svn-1.6.6.msi]
 *#* You must install and reboot to finish the installation (SVN-Options will appear in the right-click menu in the Explorer)
 *#* right-click this folder and select "SVN checkout..." from the context menu
 *#* As repository URL, enter: http://supertux.lethargik.org/svn/supertux/trunk/supertux
@@ -44,79 +44,96 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 * begin your checkout and wait - this might take some time, so to the next step...
 
 === It's Download Time ===
-{| border="1"
-! Download !! I chose
-|-
-|[http://sourceforge.net/project/showfiles.php?group_id=2435 MinGW] ||
-[http://downloads.sourceforge.net/project/mingw/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gmp-4.2.4-mingw32-dll.tar.gz gmp-4.2.4-mingw32-dll.tar.gz]
 
-[http://downloads.sourceforge.net/project/mingw/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/mpfr-2.4.1-mingw32-dll.tar.gz mpfr-2.4.1-mingw32-dll.tar.gz]
+Download all these to your build directory.
 
-[http://downloads.sourceforge.net/project/mingw/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/pthreads-w32-2.8.0-mingw32-dll.tar.gz pthreads-w32-2.8.0-mingw32-dll.tar.gz]
+* MinGW and MSYS
 
-[http://downloads.sourceforge.net/project/mingw/MinGW%20Libs_%20libiconv/Current%20Release_%20libiconv-1.13-mingw32/libiconv-1.13-mingw32-dll-2.tar.gz libiconv-1.13-mingw32-dll-2.tar.gz]
+http://sourceforge.net/projects/mingw/files/MinGW%20API%20for%20MS-Windows/w32api-3.14/w32api-3.14-mingw32-dev.tar.gz/download
 
-[http://downloads.sourceforge.net/project/mingw/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-core-4.4.0-mingw32-dll.tar.gz gcc-core-4.4.0-mingw32-dll.tar.gz]
+http://sourceforge.net/projects/mingw/files/MSYS%20Base%20System/msys-1.0.11/msysCORE-1.0.11-bin.tar.gz/download
 
-[http://downloads.sourceforge.net/project/mingw/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-core-4.4.0-mingw32-bin.tar.gz gcc-core-4.4.0-mingw32-bin.tar.gz]
+http://sourceforge.net/projects/mingw/files/GNU%20Binutils/binutils-2.20/binutils-2.20-1-mingw32-bin.tar.gz/download
 
-[http://downloads.sourceforge.net/project/mingw/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-c++-4.4.0-mingw32-dll.tar.gz gcc-c++-4.4.0-mingw32-dll.tar.gz]
+http://sourceforge.net/projects/mingw/files/MinGW%20Runtime/mingwrt-3.16/mingwrt-3.16-mingw32-dll.tar.gz/download
 
-[http://downloads.sourceforge.net/project/mingw/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-c++-4.4.0-mingw32-bin.tar.gz gcc-c++-4.4.0-mingw32-bin.tar.gz]
+http://sourceforge.net/projects/mingw/files/MinGW%20Runtime/mingwrt-3.16/mingwrt-3.16-mingw32-dev.tar.gz/download
 
-[http://downloads.sourceforge.net/project/mingw/GNU%20Binutils/Current%20Release_%20GNU%20binutils-2.19.1/binutils-2.19.1-mingw32-bin.tar.gz binutils-2.19.1-mingw32-bin.tar.gz]
+http://sourceforge.net/projects/mingw/files/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-full-4.4.0-mingw32-bin-2.tar.lzma/download (note: this has stuff you don't need; read the release note for which files to download instead)
 
-[http://downloads.sourceforge.net/project/mingw/MinGW%20API%20for%20MS-Windows/Current%20Release_%20w32api-3.13/w32api-3.13-mingw32-dev.tar.gz w32api-3.13-mingw32-dev.tar.gz]
+* OpenSSH (for committing)
 
-[http://downloads.sourceforge.net/project/mingw/MinGW%20Runtime/Current%20Release_%20mingwrt-3.15.2/mingwrt-3.15.2-mingw32-dev.tar.gz mingwrt-3.15.2-mingw32-dev.tar.gz]
-|-
-|[http://sourceforge.net/project/showfiles.php?group_id=2435 MSYS] ||
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Base%20System/Current%20Release_%20MSYS-1.0.11/msysCORE-1.0.11-bin.tar.gz msysCORE-1.0.11-bin.tar.gz]
-|-
-|Bison and flex (only for building miniswig) ||
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Supplementary%20Tools/Technology%20Preview_%20Tools%20for%20MSYS-1.0.11/bison-2.3-MSYS-1.0.11-1.tar.bz2 bison-2.3-MSYS-1.0.11-1.tar.bz2]
+http://sourceforge.net/projects/mingw/files/MSYS%20openssh/openssh-4.7p1-2/openssh-4.7p1-2-msys-1.0.11-bin.tar.lzma/download
 
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Supplementary%20Tools/Technology%20Preview_%20Tools%20for%20MSYS-1.0.11/flex-2.5.33-MSYS-1.0.11-1.tar.bz2 flex-2.5.33-MSYS-1.0.11-1.tar.bz2]
-|-
-|Gettext (only for translations) ||
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Supplementary%20Tools/Technology%20Preview_%20Tools%20for%20MSYS-1.0.11/gettext-0.16.1-1-bin.tar.bz2 gettext-0.16.1-1-bin.tar.bz2]
-|-
-|OpenSSH (only if you want to commit) ||
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Supplementary%20Tools/Technology%20Preview_%20Tools%20for%20MSYS-1.0.11/openssh-4.7p1-MSYS-1.0.11-1-bin.tar.gz openssh-4.7p1-MSYS-1.0.11-1-bin.tar.gz]
+http://sourceforge.net/projects/mingw/files/MSYS%20openssl/openssl-0.9.8k-1/libopenssl-0.9.8k-1-msys-1.0.11-dll-098.tar.lzma/download
 
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Supplementary%20Tools/Technology%20Preview_%20Tools%20for%20MSYS-1.0.11/openssl-0.9.8g-1-MSYS-1.0.11-2-bin.tar.gz openssl-0.9.8g-1-MSYS-1.0.11-2-bin.tar.gz]
+http://sourceforge.net/projects/mingw/files/MSYS%20minires/minires-1.02_1-1/libminires-1.02_1-1-msys-1.0.11-dll.tar.lzma/download
 
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Supplementary%20Tools/Technology%20Preview_%20Tools%20for%20MSYS-1.0.11/openssl-0.9.8g-1-MSYS-1.0.11-2-dll098.tar.gz openssl-0.9.8g-1-MSYS-1.0.11-2-dll098.tar.gz]
+http://sourceforge.net/projects/mingw/files/MinGW%20zlib/zlib-1.2.3-1-mingw32/libz-1.2.3-1-mingw32-dll-1.tar.gz/download
 
-[http://downloads.sourceforge.net/project/mingw/MSYS%20Supplementary%20Tools/Technology%20Preview_%20Tools%20for%20MSYS-1.0.11/zlib-1.2.3-MSYS-1.0.11-1.tar.bz2 zlib-1.2.3-MSYS-1.0.11-1.tar.bz2]
-|-
-|[http://cmake.org/cmake/resources/software.html CMake] || [http://www.cmake.org/files/v2.6/cmake-2.6.4-win32-x86.zip cmake-2.6.4-win32-x86.zip]
-|-
-|[http://curl.haxx.se/downloads.html cURL] (only for using the add-on manager) || [http://www.gknw.net/mirror/curl/win32/curl-7.19.5-devel-mingw32.zip curl-7.19.5-devel-mingw32.zip]
-|-
-|[http://www.libsdl.org/download-1.2.php SDL] || [http://www.libsdl.org/release/SDL-devel-1.2.13-mingw32.tar.gz SDL-devel-1.2.13-mingw32.tar.gz]
-|-
-|[http://www.libsdl.org/projects/SDL_image/ SDL_image] || [http://www.libsdl.org/projects/SDL_image/release/SDL_image-devel-1.2.7-VC9.zip SDL_image-devel-1.2.7-VC9.zip]
-|-
-|[http://icculus.org/physfs/downloads/ PhysFS] || [http://icculus.org/physfs/downloads/physfs-2.0.0.tar.gz physfs-2.0.0.tar.gz]
-|-
-|[http://www.7-zip.org/ 7-zip] or your favorite extraction program || [http://superb-east.dl.sourceforge.net/sourceforge/sevenzip/7z465.exe 7z465.exe]
-|-
-|[http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx OpenAL, Vorbis, and Ogg] || [http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip OpenAL11CoreSDK.zip]
-|}
+* Bison and Flex (for miniswig)
+
+http://sourceforge.net/projects/mingw/files/MSYS%20bison/bison-2.4.1-1/bison-2.4.1-1-msys-1.0.11-bin.tar.lzma/download
+
+http://sourceforge.net/projects/mingw/files/MSYS%20flex/flex-2.5.35-1/flex-2.5.35-1-msys-1.0.11-bin.tar.lzma/download
+
+http://sourceforge.net/projects/mingw/files/MSYS%20regex/regex-1.20090805-1/libregex-1.20090805-1-msys-1.0.11-dll-1.tar.lzma/download
+
+* Gettext (for translations)
+
+http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/libintl-0.17-1-mingw32-dll-8.tar.lzma/download
+
+http://sourceforge.net/projects/mingw/files/MinGW%20libiconv/libiconv-1.13.1-1/libcharset-1.13.1-1-mingw32-dll-1.tar.lzma/download
+
+http://sourceforge.net/projects/mingw/files/MinGW%20libiconv/libiconv-1.13.1-1/libiconv-1.13.1-1-mingw32-dll-2.tar.lzma/download
+
+http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/libgettextpo-0.17-1-mingw32-dll-0.tar.lzma/download
+
+http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/gettext-0.17-1-mingw32-bin.tar.lzma/download
+
+http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/gettext-0.17-1-mingw32-dev.tar.lzma/download
+
+*[http://cmake.org/cmake/resources/software.html CMake]
+
+http://www.cmake.org/files/v2.8/cmake-2.8.0-win32-x86.zip
+
+* [http://curl.haxx.se/downloads.html cURL] (add-on manager)
+
+http://www.gknw.net/mirror/curl/win32/curl-7.19.7-devel-mingw32.zip
+
+* [http://www.libsdl.org/download-1.2.php SDL] graphics library
+
+http://www.libsdl.org/release/SDL-devel-1.2.14-mingw32.tar.gz
+
+* [http://glew.sourceforge.net/ GLEW] graphics library
+
+http://sourceforge.net/projects/glew/files/glew/1.5.1/glew-1.5.1-win32.zip/download
+
+* [http://www.libsdl.org/projects/SDL_image/ SDL_image] for loading graphics
+
+http://www.libsdl.org/projects/SDL_image/release/SDL_image-devel-1.2.10-VC.zip
+
+* [http://icculus.org/physfs/downloads/ PhysFS] file management
+
+http://icculus.org/physfs/downloads/physfs-2.0.0.tar.gz
+
+* [http://www.7-zip.org/ 7-zip] for your favorite extraction program
+
+http://downloads.sourceforge.net/sevenzip/7z465.exe
+
+* [http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx OpenAL], for all your OggVorbis needs
+
+http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip
 
 === Getting Busy ===
 * Run the 7-zip and OpenAL SDK installers. (OpenAL requires administrative privileges)
-* Select all the archives from the MinGW project, right click, and select "Extract here". Repeat with the generated *.tar files. Answer "no to all" if prompted to overwrite.
-* Move usr\local to local if it exists, otherwise create local
-* Extract into local from all the remaining packages the folders bin, lib, include, and share such that the folders are local\bin, local\lib, local\include, and so on. Ignore any overwrite prompts (the files that are being overwritten don't matter)
-* Copy dll's from local\lib into local\bin, saying "no" to overwrite
+* Select everything else you downloaded, right click, and select "Extract here". Repeat with the generated *.tar files. Answer "no to all" when prompted to overwrite.
+* Make a folder <code>local</code> to hold libraries
+* Copy bin, include, lib, and share folders from cmake, curl, SDL, SDL_image, and glew folders
 * Go to C:\Program Files\OpenAL 1.1 SDK
 * Copy the include directory there to local
 * Copy \samples\playoggvorbis\include\* to local\include\*
-* Copy the Ogg and Vorbis DLL's to local\bin
-* Launch MSYS with msys.bat
-** Tip: If you don't want to type in everything manually, copy it using the normal keys of your browser (Ctrl-C) and paste into MSYS by clicking on the icon in the title bar and selecting Edit->Paste to paste in.
+* Copy the Ogg and Vorbis DLL's in \samples\playoggvorbis\Win32 to local\bin
 
 == Building ==
 
@@ -129,8 +146,9 @@ to
    ADD_DEFINITIONS(-fvisibility=hidden)
  ENDIF(PHYSFS_IS_GCC4 AND NOT WINDOWS)
 in local/phyfs-2.0.0/CMakeLists.txt
-* We're ready to build PhysFS. Type in the following:
- cd /local/physfs*
+* We're ready to build PhysFS.
+* Launch MSYS with msys.bat and type in the following: (you can paste into MSYS using the icon in the title bar)
+ cd /physfs*
  mkdir build
  cd build
  cmake .. -G "MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH=/local
@@ -139,20 +157,24 @@ in local/phyfs-2.0.0/CMakeLists.txt
 * We're ready to build SuperTux.
 * Change to the SuperTux checkout directory
  cd /supertux
-* Copy useful dll's from /local/lib and /bin (or from a copy of SuperTux 0.3.1) - not all are needed, try moving the dll's elsewhere and moving them back one at a time to reduce them.
- cp /local/bin/*.dll .
- cp /bin/libgcc_*.dll .
- 
 * Make a build directory to store generated files
  mkdir build
  cd build
 * Start the actual build (everything else was libraries)
- INCLUDE="/local/include/SDL" cmake -G "MSYS Makefiles" -DDEBUG=ON ..
+ INCLUDE="/local/include/SDL" cmake -G "MSYS Makefiles" -DDEBUG=ON -DCMAKE_BUILD_TYPE=Debug ..
  make
+* You need to copy some dll's from /local/bin, /local/lib, and /bin into /supertux. 
+ cd ..
+ cp /local/bin/*.dll .
+ cp /local/lib/*.dll .
+ cp /bin/*.dll .
+A lot of these are unnecessary; use objdump -p or strings to prune the tree.
 * Optional: if those "missing sound" messages annoy you, and you don't care about [[DataFiles|licensing issues]], run
- cd ../data/sounds
- svn update -r5392 bump-upgrade.wav iceblock_bump.wav kick.wav squish.wav stomp.wav
+ cd data/sounds
+ svn update -r5392 bump-upgrade.wav iceblock_bump.wav kick.wav squish.wav stomp.wav upgrade.wav
 * Now run supertux2.exe, sit back, and enjoy the game.
+ cd /supertux
+ ./supertux2.exe
 
 == Building the editor ==
 
@@ -162,15 +184,14 @@ There's a new gtk-sharp based editor in development which can also be built on w
 * Microsoft .NET 1.X framework SDK, you should be able to get this here: http://www.microsoft.com/downloads/details.aspx?FamilyID=9b3a2ca6-3647-4070-9f41-a333c6b9181d&DisplayLang=en
 * Microsoft .NET 2.X framework SDK, yes you need 1.x AND 2.x at the moment!: http://www.microsoft.com/downloads/details.aspx?familyid=FE6F2099-B7B4-4F47-A244-C96D69C35DEC&displaylang=en
 * Gtk-Sharp 2.7 SDK for windows, make sure you actually get the SDK the runtime version contains some bugs that affect the editor: http://forge.novell.com/modules/xfcontent/private.php/gtks-inst4win/Win32%20Installer/v2.7.1/gtksharp-2.7.1-win32-0.5.exe
-* Microsoft Visual C# Express Edition, it's a free version of visual studio and we use it for compiling (and development on win32): http://msdn.microsoft.com/vstudio/express/visualcsharp/download
+* Microsoft Visual C# Express Edition, it's a free version of visual studio and we use it for compiling (and development on win32): http://msdn.microsoft.com/vstudio/express/visualcsharp/download 
 *:This apparently requires SP2 on Windows XP. (not tested on any other Windows versions)
-*::Is anybody still using XP without SP2? It that machine hast net connection its a bad idea.
 * SDL.dll and SDL_image.dll, you can get these from an existing SuperTux installation or from the downloads above.
 
 === Building ===
 
 * Get the sourcecode from [[Download/Subversion|svn]]
-* Open supertux-sharp.sln by double clicking on it (it should open in Visual C# Express now).
+* Open supertux-sharp.sln by double clicking on it.
 * Build the project in debug and release mode (use F6 and then F5 for example)
 * Copy SDL.dll and SDL_image.dll into the bin\Debug and bin\Release directory that has just been created
 * You can now go back to Visual Studio Express and start the editor with F11. Note that the debug mode is quite slow for the OpenGL calls, so if you actually want to use the editor instead of developing it start it in release mode (CTRL+F11)
@@ -179,5 +200,6 @@ You might want to read the [[Editor FAQ]] at this point.
 
 === Snapshots ===
 MMLosh has some snapshots on his website: http://elektromaniak.wz.cz/download.html
+Note that because Mono is cross-platform, the executables should work on both Windows and Linux, though libraries can be a problem.
 
 [[Category:Developer documentation]]
