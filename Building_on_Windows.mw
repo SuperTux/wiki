@@ -132,8 +132,11 @@ http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip
 * Copy bin, include, lib, and share folders from cmake, curl, SDL, SDL_image, and glew folders
 * Go to C:\Program Files\OpenAL 1.1 SDK
 * Copy the include directory there to local
-* Copy \samples\playoggvorbis\include\* to local\include\*
+* Copy \samples\playoggvorbis\include\Ogg and \samples\playoggvorbis\include\Vorbis to local\include
 * Copy the Ogg and Vorbis DLL's in \samples\playoggvorbis\Win32 to local\bin
+* Go to C:\WINDOWS\system32 (%SYSTEMROOT%\system32)
+* Copy OpenAL32.dll and wrap_oal.dll to local\bin
+** If they aren't there, try running C:\Program Files\OpenAL 1.1 SDK\redist\oalinst.exe
 
 == Building ==
 
