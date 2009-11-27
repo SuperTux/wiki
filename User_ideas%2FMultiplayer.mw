@@ -16,7 +16,7 @@ Oh, of course, main points of concept i wanted to archieve:
 
 == Players ==
 Both players have same abilities as original tux with following differences:
-{|
+{| border="1"
 ! Property !! Tux !! Beastie
 |-
 |Fires with ...  || Ice (iceball) || Fire (fireball)
@@ -37,7 +37,7 @@ The first thing about bonuses - they may be placed inside enemies. Bonuses in bl
 The only way to extract bonus from enemy is to freeze enemy (Tux can do that) and then stuck it by jumping on it (both players can do).
 
 There is a list of new bonuses (of course may be more than 3, but if you add some - keep your eye on the balance.):
-{|
+{| border="1"
 !Bonus !! Applies to !! Meaning
 |-
 |Ice Bonus ||	Tux (multiplayer)/Both (singleplayer)  || 	Increases freezing time for Tux's ice bullet.
