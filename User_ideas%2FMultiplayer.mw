@@ -22,8 +22,6 @@ Both players have same abilities as original tux with following differences:
 |-
 |Fires with ...  || Ice (iceball) || Fire (fireball)
 |-
-|Bonus for increase simultaneous bullet count. || Multi Shot bonus - you can get it from enemy. || Multi Shot bonus - you can get it from enemy (only with Tux in party).
-|-
 |Bonus for increase power of bullets. || Ice bonus - you can get it from enemy. Increases enemy freezing time. Every type of enemy has it's freezing-coefficient (float-point number) describing how strong will feel this hit. For example 0 means "completely immune to cold", 1 means "sensitive to cold", 1.5 means "extra-sensitive to cold" and so on. || Fire bonus - you can get it from enemy. Enemy has floating-point life and shots has floating-point damage. Bonus will increase damage of shot.
 |-
 |When bullet reaches enemy, then... || Enemy freezes for some seconds. Time depends on "coldness of ice" which may be increased with appropriate bonus (ice bonus). While enemy is frozen, both tux and beastie can stuck it by jumping on it. Enemy dies. If enemy contains bonus, bonus is dropped nearby. Bonus can be picked up by Tux or Beastie.  || Enemy gets hit. If number of hits is enough to kill him, enemy dies. Number of necessary hits depends on "hotness of fire" (may be improved by fire bonus). You can't get bonus from enemy if you kill him.
@@ -37,7 +35,7 @@ The first thing about bonuses - they may be placed inside enemies. Bonuses in bl
 
 The only way to extract bonus from enemy is to freeze enemy (Tux can do that) and then stuck it by jumping on it (both players can do).
 
-There is a list of new bonuses (of course may be more than 3, but if you add some - keep your eye on the balance.):
+There is a list of new bonuses (of course may be more than two, but if you add some - keep your eye on the balance.):
 {| border="1"
 !Bonus !! Applies to !! Meaning
 |-
@@ -51,10 +49,9 @@ In single player there will be two types of flowers (from classical supertux) - 
 Notes:
 "Beasty" Tux cannot do ice-attack, so he kills enemies and improves fire from blocks.
 "Tuxy" Beastie cannot do fire-attack, so he freezes enemies and have to stuck them in order to kill and optionally gather bonus.
-Problems or what is to be done next
-Balance
+
+== Problems or what is to be done next ==
 
 All enemy lives, powers of bullets, and freezing times should be balanced to make both players close (or better - equal) in play difficulty. Maybe these values should be configurable in something like Options->Difficulty Settings menu. For now I just can assume some sane values, but i haven't any ready-to-work balancing map.
-Graphics
 
 Of course, we should paint sprites for Beastie, bonuses, monster-has-bonus marks, different bullets...
