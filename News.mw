@@ -1,9 +1,62 @@
 __NOTOC__
 
+= 2009 =
+
+== 2009-11-27 ==
+
+* update supertux-coop.diff
+
+== 2009-11-17 ==
+
+* Lots of refactoring
+* Use scons to build Supertux
+
+== 2009-11-15 ==
+
+* New grow and skid sounds 
+
+== 2009-11-14 ==
+
+* new music by remaxim
+
+== 2009-10-29 ==
+
+* Tux can buttjump bonus blocks
+
+== 2009-09-03 ==
+
+* command line option --renderer to select video renderer
+
+== 2009-07-26 ==
+
+* builds with g++ 4.4
+
+== 2009-06-13 ==
+
+* New upgrade sound
+
+== 2009-03-21 ==
+
+* Chinese fonts and translation from Liu Sizhuang 
+
+== 2009-01-23 ==
+
+Moved tinygettext to http://tinygettext.googlecode.com
+
 = 2008 =
+
+== 2008-10-18 ==
+
+* builds with g++ 4.3
+
+== 2008-09-19 ==
+
+* sound errors are now non-fatal
+
 == 2008-09-06 ==
 
 * The SuperTux skin now works (mostly) - see [http://supertux.lethargik.org/wiki/index.php?title=News&useskin=supertux] for a preview
+* Changed jump behaviour: Tux will now jump even if the button was pressed (up to) 250ms early
 
 == 2008-08-28 ==
 
