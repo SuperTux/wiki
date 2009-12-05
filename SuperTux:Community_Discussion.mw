@@ -1,4 +1,4 @@
-<blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' on the top of the page.'' </blockquote>
+<blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page.'' </blockquote>
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
 [[Image:RATEDFUN.png]]
 ==Tux.getCoins or whatever==
@@ -158,7 +158,7 @@ I've found a game on sourceforge.net called Super Michael (sourceforge.net/proje
 ::That page lists SF.net user "candycrisis" as the sole developer. Other projects by this user include several projects also mentioned on the company's website, so it really seems like we are dealing with the latter case. As for whether claiming authorship of code provided to you under the GPL license results in termination of the license, the answer is - without any doubt - yes. In fact, this is a problem so severe that gpl-violations.org included it in their list of frequently asked questions, http://www.gpl-violations.org/faq/vendor-faq.html ("What are common mistakes?" [...] "Using standard boilerplate text which claims the entire software is (C) Copyright OurCompany. This is obviously not fully true if you use Free Software copyrighted by 3rd parties in the product."). As stated in the GPL, violation of one of the license's terms automatically revokes grant of the license, so continuing distribution of this derivative work is in direct violation of both US copyright laws and international laws. Did anybody contact the author on this issue yet? --[[User:87.234.151.137|87.234.151.137]] 23:50, 8 July 2007 (UTC)
 
 :::It doesn't look like we're the only ones he's ripped off without giving credit.  His full list of "products" are [http://www.ultra-software.com/Products.html here].  They look all to be direct rip-offs of existing open source products.  I quote:
-:::: I AM NOT A SCAM OR RIP OFF ARTIST! DUE NOT LISTEN TO THESE LIES!
+:::: I AM NOT A SCAM OR RIP OFF ARTIST! DUE NOT LISTEN TO THESE LIES! [http://www.geocities.com/doomclone2/]
 ::: and...
 :::: "Most of my products use Open Source Solutions from other developers..." [http://www.ultra-software.com/index.html]
 ::: He also [http://www.ultra-software.com/candy/ ripped off] [http://candycrisis.sourceforge.net/index.html Candy Crisis].  Actually, he's even worse there: "Candy Crisis is Not Free Software!"  I'm sending him an email, will update here if I hear any more.
