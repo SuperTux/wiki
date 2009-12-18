@@ -55,21 +55,3 @@ is it in this year?
 == spiders :-( ==
 
 EVERYONE in my family is scared of (even cartoonish) spiders.
-
-== Supertux's life/game over management ==
-
-On milestone 1, the management of lives is so-so
-On the current release of milestone 2 (0.3.1) it's too generous
-On the current design document, it is just plain preposterous!!!
-
-Frankly, having no lives and no checkpoints drastically detracts from the "classic" feeling of the game, freedom of level designers (as every large level becomes an undesirably frustrating one, forcing them to reduce the level's size to keep them enjoyable), not to mention it defeats the purpose of having coins (shop for items? hell no, doesn't fit the game at all)
-
-I suggest something like this:
-* Extra lives caught on any level can only be used on the same island it was caught on (avoid the player from getting lots of lives on easy levels to make further levels easier)
-* Players are awarded an extra life for every 100 coins caught on the same level (sonic-style, minus losing them when hurt). 
-* Coins increase the default ammount of lives for every 1000 caught, this means that on the next game over, the player will have more lives to begin the level than the standard 5
-* If finishing a level with fewer lives that the current default, reset the life ammount to the default. Same occurs when aborting a level.
-* The total of coins accounted for increasing the standard ammount of lives is the sum of the maximum number of coins the player has caught on all the levels he played (banjo-kazooie style).
-* Players do lose lives when dying before a checkpoint, but keeps the coins he had caught on the level before dying
-* Players restart the level with all the stuff he had on the start or last checkpoint. That is, if he was a big tux on the last checkpoint, and the timer was at 89, he restarts as a big tux with the timer at 89.
-* Reaching a checkpoint on a level, or finishing it, restarts any other level you had reached a checkpoint, and stores the ammount of coins if greater than the previous ammount
