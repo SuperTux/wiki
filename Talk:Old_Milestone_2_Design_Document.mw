@@ -21,6 +21,10 @@ AFAIK (but I'm not a good artist) SVG isn't suitable for all shading and drawing
 
 I agree with MatzeB, I prefer the current look too. --[[User:AnMaster|AnMaster]] 01:34, 27 Oct 2006 (CEST)
 
+I'm not sure about SVG, but I am an artist and I really don't find current supertux's graphics good - it doesn't look cartoony like like Super Mario Bros., doesn't look painty like Braid and doesn't look realistic like Donkey Kong Country. If changing the style, I would suggest pre-rendered tiles instead. It would give a much greater flexibility as it makes it possible to change the style in any way necessary and also allow for much greater animation fluidity.
+Besides, switching to SVG would require a massive coding overhaul
+(unfortunately, the page showing the SVG-graphics game is down so I can't judge it) [[User:Jack_McSlay|Jack McSlay]]
+
 == Ice shot ==
 
 What would the ice shot do?
