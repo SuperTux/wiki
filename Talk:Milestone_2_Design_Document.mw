@@ -10,3 +10,22 @@ You expect the level designer to test them with several screensize and the size 
 ::SOME verticalness? Dude at 1920x1200, that's 60x38 tiles, which is way overkill, three times horizontally and over two times vertically the 20x15 of 640x480 and way more than the minimum viewing area required to plan most jumps. And designing levels for this go beyond just vertical resolution. This causes several enemies to fall off a cliff before the player reaches them, depending on the resolution the enemy will die before the player even sees them. Which can make a level either easier or harder (in the case an enemy is to be used as jumping aid). 
 ::I think the screen area should be limited to a minimum of 20x15 tiles and a maximum of 30x20, anything else should be downscaled or upscaled from that. If you're worried that owners of large screens will be displeased, stop being lazy and start working on some damn 64x64 tiles.
 ::Remember on Command & Conquer, originally a 320x240 game, which got turned into 640x480 by simply changing the resolution, giving the players a hard time clicking on those tiny soldiers? Same idea, who wants to play supertux on a huge 1080p screen just to have a tiny tux which can barely jump across 1/5 of that? --[[User:Jack Mcslay|Jack Mcslay]] 20:10, 18 December 2009 (UTC)
+
+== Supertux's life/game over management ==
+
+On milestone 1, the management of lives is so-so
+On the current release of milestone 2 (0.3.1) it's too generous
+On the current design document, it is just plain preposterous!!!
+
+Frankly, having no lives and no checkpoints drastically detracts from the "classic" feeling of the game, freedom of level designers (as every large level becomes an undesirably frustrating one, forcing them to reduce the level's size to keep them enjoyable), not to mention it defeats the purpose of having coins (shop for items? hell no, doesn't fit the game at all)
+
+I suggest something like this:
+* Extra lives caught on any level can only be used on the same island it was caught on (avoid the player from getting lots of lives on easy levels to make further levels easier)
+* Players are awarded an extra life for every 100 coins caught on the same level (Mario 64 style). 
+* Coins increase the default ammount of lives for every 1000 caught, this means that on the next game over, the player will have more lives to begin the level than the standard 5
+* If finishing a level with fewer lives that the current default, reset the life ammount to the default. Same occurs when aborting a level.
+* The total of coins accounted for increasing the standard ammount of lives is the sum of the maximum number of coins the player has caught on all the levels he played (banjo-kazooie style).
+* Players do lose lives when dying before a checkpoint, but keeps the coins he had caught on the level before dying
+* Players restart the level with all the stuff he had on the start or last checkpoint. That is, if he was a big tux on the last checkpoint, and the timer was at 89, he restarts as a big tux with the timer at 89.
+* Reaching a checkpoint on a level, or finishing it, restarts any other level you had reached a checkpoint, and stores the ammount of coins if greater than the previous ammount
+--[[User:Jack Mcslay|Jack Mcslay]] 20:10, 18 December 2009 (UTC)
