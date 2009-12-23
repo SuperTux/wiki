@@ -33,13 +33,11 @@ This version basically features the built-in editor that
 was removed from the previous release (0.1.0), new hand-written fonts
 and a few bug fixes.
 
-
 <div style="text-align: center;">
 [[Image:Menu-011.png|frameless|200px]]
 [[Image:Game1-011.png|frameless|200px]]
 [[Image:Leveleditor-011.png|frameless|200px]]
 </div>
-
 
 == SuperTux Milestone1 aka 0.1.0 ==
 
@@ -56,7 +54,6 @@ impression of the game.
 [[Image:Game2-010.png|frameless|200px]]
 [[Image:Game3-010.png|frameless|200px]]
 </div>
-
 
 === Flexlay ===
 
@@ -75,9 +72,8 @@ the other side.
 
 Some shots from the 0.0.6 release, released at March 15,
 2004. Basically this was a code clean-up version. Features a
-level editor and an OpenGL front-end. Menu as improved a lot, and
+level editor and an OpenGL front-end. Menu was improved a lot, and
 fonts were also remade.
-
 
 <div style="text-align: center;">
 [[Image:Menu-006.png|frameless|200px]]
@@ -85,13 +81,11 @@ fonts were also remade.
 [[Image:Leveleditor-006.png|frameless|200px]]
 </div>
 
-
 == SuperTux 0.0.5 ==
 
 A couple of shots from our 0.0.5 release, released at December
 29, 2003. Graphics were improved a lot. Also this version
 features a menu, and internal clean-ups have started.
-
 
 <div style="text-align: center;">
 [[Image:Intro-005.png|frameless|200px]]
@@ -103,7 +97,6 @@ features a menu, and internal clean-ups have started.
 Wow! These are really ancients shots from versions prior to
 0.0.5. Graphics were a bit ugly, but it was already playable and
 had a SuperMario1 feel.
-
 
 <div style="text-align: center;">
 [[Image:Game1-004.png|frameless|200px]]
