@@ -19,6 +19,7 @@ Reset point uglyness, they don't look good and not even like a reset point...
 Difficulty, some of the current SuperTux levels that Ikaruga look like a game for kiddies... there really needs to be done *A LOT* to make SuperTux playable again. It would be nice to put a bit of fun back into SuperTux, currently its a frustrating mess.
 
 Where are my L/R buttons? Autoscroll is ok, but a way to manipulate it manually would be really usefull.
+:''Peek U/D/L/R is implemented.''
 
 The wingling coloring stinks (to much white), as does is behaviour, kamikaze dive is neither fun nor good looking
 
@@ -33,6 +34,7 @@ Where are the tile-backgrounds? Huge bitmap graphics are soooo ugly..
 Why have doors so small and Tux so fat? Tux just doesn't fit through a door by any means.
 
 The bomb certainly wins a price for ugliest gamesprite ever...
+:''It has been changed in SVN.''
 
 Is there a way to load a sprite without having a sprite file? If not, why not? Writing the same boring sprite syntax over and over again is both error prone and relativly useless.
 
@@ -58,8 +60,8 @@ Some experiments with precompiled headers and ccache (compiling badguy/ subdirec
 
 Flexlay is up and running again, need a bit of testing if it can actually save levels, loading at least seems to work, probally time to move ClanLib over into the flexlay repository.
 
-[[:Image:Howtonotdesignlevels.jpg|Things to avoid in leveldesign]]
-[[:Image:Hallofshame.jpg|Some more things to avoid in leveldesign]]
+[[Image:Howtonotdesignlevels.jpg|Things to avoid in leveldesign]]
+[[Image:Hallofshame.jpg|Some more things to avoid in leveldesign]]
 
 Badguys must not collide or at least not like they do today (ie. stack), best seen in world1/27 where the snowballs and yeti colliding results in compltetly unpredictable and unavoidable patterns, thus killing the player far to often.
 
@@ -119,5 +121,5 @@ New Milestone2 features that look usefull:
 
 == Bugs ==
 
-* [[:Image:Unsymetrichitbox.png|Unsymetric Tux Hitbox]]
+* [[Image:Unsymetrichitbox.png|Unsymetric Tux Hitbox]]
 * Boat is not heading left when sailing back to island
