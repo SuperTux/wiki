@@ -59,7 +59,7 @@ http://sourceforge.net/projects/mingw/files/MinGW%20Runtime/mingwrt-3.16/mingwrt
 
 http://sourceforge.net/projects/mingw/files/MinGW%20Runtime/mingwrt-3.16/mingwrt-3.16-mingw32-dev.tar.gz/download
 
-http://sourceforge.net/projects/mingw/files/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-full-4.4.0-mingw32-bin-2.tar.lzma/download (note: this has stuff you don't need; read the release note for which files to download instead)
+http://sourceforge.net/projects/mingw/files/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-full-4.4.0-mingw32-bin-2.tar.lzma/download (rather large)
 
 * OpenSSH (for committing)
 
@@ -117,6 +117,10 @@ http://www.libsdl.org/projects/SDL_image/release/SDL_image-devel-1.2.10-VC.zip
 
 http://icculus.org/physfs/downloads/physfs-2.0.0.tar.gz
 
+* [http://www.boost.org/ Boost]
+
+http://sourceforge.net/projects/boost/files/boost/1.41.0/boost_1_41_0.7z/download
+
 * [http://www.7-zip.org/ 7-zip] for your favorite extraction program
 
 http://downloads.sourceforge.net/sevenzip/7z465.exe
@@ -164,7 +168,7 @@ in local/phyfs-2.0.0/CMakeLists.txt
  mkdir build
  cd build
 * Start the actual build (everything else was libraries)
- INCLUDE="/local/include/SDL" cmake -G "MSYS Makefiles" -DDEBUG=ON -DCMAKE_BUILD_TYPE=Debug ..
+ INCLUDE="/local/include/SDL:/boost_1_41_0" cmake -G"MSYS Makefiles" -DDEBUG=ON -DCMAKE_BUILD_TYPE=Debug ..
  make
 * You need to copy some dll's from /local/bin, /local/lib, and /bin into /supertux. 
  cd ..
@@ -172,9 +176,6 @@ in local/phyfs-2.0.0/CMakeLists.txt
  cp /local/lib/*.dll .
  cp /bin/*.dll .
 A lot of these are unnecessary; use objdump -p or strings to prune the tree.
-* Optional: if those "missing sound" messages annoy you, and you don't care about [[DataFiles|licensing issues]], run
- cd data/sounds
- svn update -r5392 bump-upgrade.wav iceblock_bump.wav kick.wav squish.wav stomp.wav upgrade.wav
 * Now run supertux2.exe, sit back, and enjoy the game.
  cd /supertux
  ./supertux2.exe
