@@ -149,7 +149,7 @@ The flame rotates around in a circle, hurting Tux when he gets too close. It is 
 <br clear="all" />
 
 == Spike ==
-The spike isn't really an enemy, so much as an obstacle, but for some strange reason, it's in the creatures' image directory, but implemented as a tile. Currently the spike only hurts Tux, instead of insta-killing him as might be wanted, for example at the bottom of deep pits.
+The spike isn't really an enemy, so much as an obstacle, but for some strange reason, it's in the creatures' image directory, but implemented as a tile. Currently the spike only hurts Tux, instead of insta-killing him as might be wanted, for example at the bottom of deep pits. Alternately, we could simply have shallow pits that are easy to jump out of. (but that still hurt Tux)
 
 == ShortFuse, <strike>Mini Bomb</strike> ==
 [[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
