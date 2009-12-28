@@ -21,15 +21,7 @@ Maybe.
 Most information on these Wiki pages is about what's new in SuperTux 0.3. Just browse around, and feel free to add your own ideas. :-)
 
 === How do I use SDL in the development version? ===
-OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. Currently there is no GUI for this, so you must manually edit the config file. [[Console]] provides a handy table to find it. Once you have found the config file, open it up and change
-<code>
- (video "auto")
-</code>
-to
-<code>
- (video "sdl")
-</code>
-Start SuperTux up again, and it should use the pure SDL renderer. Please note, however, that the SDL renderer is currently much slower than the OpenGL one for some tasks and is also incomplete. SuperTux 0.3.1 is a development version! (even though the “unstable version” might be more stable than other “stable” software and is also included in various distributions as stable software...)
+OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. The command line option --renderer=sdl will use the SDL renderer. Note that this is slower and does not display some images/levels correctly.
 
 === How do you get to or past level x? ===
 Please see [[SuperTux FAQ/Spoilers]].
@@ -74,7 +66,7 @@ Good question. But try http://supertuxkart.sourceforge.net/ instead.
 
 Well, that's not really a question, but great anyway. Keep in mind, however, that SuperTux is bound to have lots of bugs at this stage of development. Actually, chances are quite high that a particular bug is already known but not yet fixed because we just didn't have the time yet.
 
-If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a [[backtrace]] of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [{{MediaWiki:Bugtracker-url}} bug tracker].
+If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a [[Providing a backtrace|backtrace]] of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [{{MediaWiki:Bugtracker-url}} bug tracker].
 
 == SuperTux "stable package" version (0.1.3) has a minor error when compiling: ==
 That is not a question either, but we do know that you have to change line 210 of menu.h:
