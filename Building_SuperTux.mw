@@ -23,6 +23,8 @@ You will need the following tools and libraries to build SuperTux on your system
 * OpenGL (*)
 * OpenAL (*)
 * libcurl (*) (optional)
+* libboost (*) (SVN only)
+* libglew (*) (SVN only)
 
 You should make sure that you also have development headers and libraries installed for the tools marked with (*).
 
