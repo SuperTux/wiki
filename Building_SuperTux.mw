@@ -15,7 +15,7 @@ You will need the following tools and libraries to build SuperTux on your system
 * gcc compiler &co (gcc, g++, binutils, glibc)
 * gettext
 * autoconf
-* jam
+* cmake
 * SDL (*)
 * SDL-image (*)
 * PhysFS (*)
