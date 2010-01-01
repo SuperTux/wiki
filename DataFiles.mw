@@ -1,7 +1,5 @@
 According to credits.txt some of our sounds are from "Royalty free sound effects CDROMs and FTP sites" which is too unspecific.
-This page is used to find out who made which file and which files have to be replaced to get rid of unspecific 3rd party files.
-
-Files which are unspecific have been '''removed''' from SVN.
+This page is used to find out who made which file and which files were replaced to get rid of unspecific 3rd party files.
 
 == [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/music/ data/music] ==
 All files in data/music created by [[User:wansti|wansti]] and licensed under GPLv2+CC-by-sa, unless stated otherwise.
@@ -41,7 +39,6 @@ All files in data/music created by [[User:wansti|wansti]] and licensed under GPL
 We mainly need to replace all the sounds from Bill Kendrick ([http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2009-September/002436.html list message])
 *bigjump.wav -- self-made by [[User:Wansti|Wansti]]
 *brick.wav -- replaced with a self-made sound submitted by Yaniel (revision 5413) GPLv2+CC-by-sa
-*'''bump-upgrade.wav -- bkendrick''' not used anywhere ATM (r5922)
 *coin.wav -- Replaced by a self-made, almost identical sound by [[User:Wansti|wansti]] (as of revision 5016)
 *dartfire.wav -- self-made by [[User:Sommer|Sommer]]
 *darthit.wav -- self-made by [[User:Sommer|Sommer]]
@@ -56,10 +53,10 @@ We mainly need to replace all the sounds from Bill Kendrick ([http://lists.letha
 *grow.ogg -- replaced grow.wav in r5450
 *hop.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *hurt.wav -- self-made by [[User:MatzeB|MatzeB]]
-*'''iceblock_bump.wav'''
+*iceblock_bump.wav -- replaced with a self-made sound by Some_Person
 *invincible.wav -- replaced with a self-made sound by Wansti (revision 5404)
 *jump.wav -- self-made by [[User:Wansti|Wansti]]
-*'''kick.wav -- bkendrick'''
+*kick.wav -- replaced with a self-made sound by Some_Person
 *lava.wav -- submitted as GPL by Bastian Zapf
 *<big>lifeup.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)</big>
 *locked.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
@@ -71,8 +68,8 @@ We mainly need to replace all the sounds from Bill Kendrick ([http://lists.letha
 *<big>shoot.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was "added sounds from Nathan McCoy" --[[User:Sommer|Sommer]] 22:43, 4 Jan 2007 (CET)</big>
 *skid.wav -- replaced with a self-made sound by [[User:Wansti|Wansti]] (as of revision 5411)
 *splash.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
-*'''squish.wav -- bkendrick'''
-*'''stomp.wav -- bkendrick'''
+*squish.wav -- replaced with a self-made sound by Some_Person
+*stomp.wav -- replaced with a self-made sound by Some_Person
 *switch.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
 *ticking.wav -- self-made by [[User:Sommer|Sommer]]
 *totem.ogg -- self-made by [[User:WolfgangB|WolfgangB]] GPLv2+CC-by-sa
