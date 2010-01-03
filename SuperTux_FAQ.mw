@@ -74,6 +74,10 @@ void get_controlfield_key_into_input(MenuItem *item);
 
 This fix is currently in the 0.1.x branch, but there's not much reason to release a 0.1.4 for one typo.
 
+== I'm having sound problems on a system that uses PulseAudio ==
+There is a workaround for this problem. Edit the file ~/.alsoftrc (which may not exist) and add the line:
+  drivers = oss
+
 == I'm thinking about buying SuperTux. ==
 
 If you have paid for SuperTux, you have been ripped off. Supertux is available for free download at [[Download|Download/Installation]]. An equivalent Live CD, to be downloaded free of charge, is available under [[Links]]. If you ''want'' to pay for SuperTux, you can make a donation, which would be highly appreciated, but we're not making you pay.
