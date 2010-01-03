@@ -2,4 +2,4 @@ How could I update SuperTux to the last version without svn, just with repositor
 
 == My ubuntu repository ==
 
-I have started an ubuntu repository for the SVN at [https://launchpad.net/~stownsend42/+archive/supertux-svn]. Karmic users need to just add ``ppa:stownsend42/supertux-svn'' to Software Sources. I have not built any packages for versions other than karmic, but will do so upon request.
+I have started an ubuntu repository for the SVN at [https://launchpad.net/~stownsend42/+archive/supertux-svn]. Karmic users need to just add ppa:stownsend42/supertux-svn to Software Sources. I have not built any packages for versions other than karmic, but will do so upon request.
