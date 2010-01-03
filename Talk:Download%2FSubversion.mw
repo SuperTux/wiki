@@ -1,1 +1,5 @@
 How could I update SuperTux to the last version without svn, just with repository inserted in sources.list? --<small style="background:#f00">'''[[User:Airon90|<span style="color:#000">→ A</span>]][[Special:Contributions/Airon90|<span style="color:#f00;background:#000">ir</span>]][[User talk:Airon90|<span style="color:#000">on Ĉ</span>]]'''</small> 21:31, 19 July 2009 (UTC)
+
+== My ubuntu repository ==
+
+I have started an ubuntu repository for the SVN at [https://launchpad.net/~stownsend42/+archive/supertux-svn]. Karmic users need to just add ``ppa:stownsend42/supertux-svn'' to Software Sources. I have not built any packages for versions other than karmic, but will do so upon request.
