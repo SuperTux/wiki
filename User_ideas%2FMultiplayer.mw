@@ -2,7 +2,7 @@ __TOC__
 
 == What? ==
 
-The main idea of this concept is to improve supertux with multiplayer like "Chip & Dale" on NES or something alike. For now idea limits to two 
+The main idea of this concept is to improve supertux with multiplayer like "New Super Mario Bros. Wii" on the Wii or something alike. For now idea limits to two 
 players: Tux and Penny. Both players are playing inside one world in single-screen mode.
 
 To make game interesting to play in pair, i introduced new type of monsters (or new ability to all monsters) - carry bonus (see Bonuses) and split ability to "fire" to two different types of attack (see Players).
