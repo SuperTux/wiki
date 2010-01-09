@@ -1,6 +1,11 @@
 <blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page.'' </blockquote>
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
 [[Image:RATEDFUN.png]]
+=Iceflower?  What iceflower?=
+Hey, I read about something called the "iceflower" and I thought it sounded pretty awesome.  I have not found it implemented anywhere in SuperTux 0.3.1 and I was wondering, is it just an idea that has been going around or is my version of SuperTux just old?
+
+I got SuperTux from the Ubuntu Karmic Koala software center under the title SuperTux 2.  It was the latest version listed.  If there is an iceflower, and it is in a newer version of SuperTux, could somebody please ask the Ubuntu packager to upload a more recent version?
+
 ==Tux.getCoins or whatever==
 I searched the scripting reference and i cannot find a method to get the amount of coins wich the player owns. also, if possible, the currenst state of tux (fire , small or ice).
 :True, there is currently no way to get either of those. (though you can add bonuses and coins) What would you use the information for? --[[User:Mathnerd314|Mathnerd314]] 00:21, 25 August 2009 (UTC)
