@@ -17,7 +17,7 @@ These instructions apply to every function you may want to adopt.
 #Give us your work:
 #*The preferred way is to open a new report on our [{{MediaWiki:bugtracker-url}} bug tracker] and attach the files to it. (You can upload and attach files to bug reports using the “Upload File” button when filing or perusing them).
 #*Alternatively, upload the files to some website or ftp server and send us the link on the mailing list.
-#*Do NOT use attachments on the mailing list; the files tend to get big, annoying people, and the mailing list often eats them
+#*Do NOT use attachments on the mailing list; the files tend to get big, annoy people, and the mailing list often eats them
 
 == Data Files ==
 Contributions which mostly add new files (typically when creating new graphics, sound, music, levels) can simply be put into an archive (preferably .tar.gz or .zip).
