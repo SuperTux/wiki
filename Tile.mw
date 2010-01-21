@@ -114,27 +114,27 @@ Tiles can have the following attributes:
 
 {| border="1" style="border-collapse: collapse;"
 ! Name
-! Bit
+! Value
 ! Description
 ! Data field
 |-
 | solid
-| <code>0x0001</code>
+| <code>0x0001</code>&nbsp;/ 1
 | defines if the tile should be considered for collision detection
 |
 |-
 | unisolid
-| <code>0x0002</code>
+| <code>0x0002</code>&nbsp;/ 2
 | the tile will only be considered for collision detection when tux is falling down. That is you can jump through the tile from below but not fall through it. Must be used in conjunction with attribute ''solid''.
 |
 |-
 | brick
-| <code>0x0004</code>
+| <code>0x0004</code>&nbsp;/ 4
 | A brick that can be destroyed by jumping under it
 |
 |-
 | goal
-| <code>0x0008</code>
+| <code>0x0008</code>&nbsp;/ 8
 | The level should be finished when touching a goaltile.
 | 
 {|
@@ -146,12 +146,12 @@ Tiles can have the following attributes:
 |}
 |-
 | slope-type
-| <code>0x0010</code>
-| The tile is a slope.
+| <code>0x0010</code>&nbsp;/ 16
+| The tile is a slope. Must be combined with ''solid''.
 | Type of slope (deformation). [[#Slope types|See below]] for possible values.
 |-
 | fullbox
-| <code>0x0020</code>
+| <code>0x0020</code>&nbsp;/ 32
 | Bonusbox
 | Content of the box.
 {|
@@ -172,22 +172,22 @@ Tiles can have the following attributes:
 |}
 |-
 | coin
-| <code>0x0040</code>
+| <code>0x0040</code>&nbsp;/ 64
 | The tile is a coin
 |
 |-
 | ice
-| <code>0x0100</code>
+| <code>0x0100</code>&nbsp;/ 256
 | the tile will be slippery ''(currently not implemented)''
 |
 |-
 | water
-| <code>0x0200</code>
+| <code>0x0200</code>&nbsp;/ 512
 | The tile is a water tile (needed for [[fish]] enemy)
 |
 |-
 | hurts
-| <code>0x0400</code>
+| <code>0x0400</code>&nbsp;/ 1024
 | The tile will hurt you when you hit it
 |
 |}
