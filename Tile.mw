@@ -136,17 +136,40 @@ Tiles can have the following attributes:
 | goal
 | <code>0x0008</code>
 | The level should be finished when touching a goaltile.
-| If 0 then the ''endsequence'' should be triggered, if 1 then the level is finished instantly.
+| 
+{|
+| 0
+| Trigger ''endsequence''
+|-
+| 1
+| Finish level instantly
+|}
 |-
 | slope-type
 | <code>0x0010</code>
 | The tile is a slope.
-| Type of slope (deformation). See below for possible values.
+| Type of slope (deformation). [[#Slope types|See below]] for possible values.
 |-
 | fullbox
 | <code>0x0020</code>
 | Bonusbox
 | Content of the box.
+{|
+| 1
+| Coin
+|-
+| 2
+| Egg&nbsp;/ fireflower
+|-
+| 3
+| Star
+|-
+| 4
+| Tux Doll (1&nbsp;up)
+|-
+| 5
+| Egg&nbsp;/ iceflower
+|}
 |-
 | coin
 | <code>0x0040</code>
