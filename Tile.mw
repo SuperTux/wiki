@@ -112,18 +112,64 @@ Alternately, you could go minimalist with no data or attributes:
 
 Tiles can have the following attributes:
 
+{| border="1" style="border-collapse: collapse;"
+! Name
+! Bit
+! Description
+! Data field
+|-
+| solid
+| <code>0x0001</code>
+| defines if the tile should be considered for collision detection
+|
+|-
+| unisolid
+| <code>0x0002</code>
+| the tile will only be considered for collision detection when tux is falling down. That is you can jump through the tile from below but not fall through it. Must be used in conjunction with attribute ''solid''.
+|
+|-
+| brick
+| <code>0x0004</code>
+| A brick that can be destroyed by jumping under it
+|
+|-
+| goal
+| <code>0x0008</code>
+| The level should be finished when touching a goaltile.
+| If 0 then the ''endsequence'' should be triggered, if 1 then the level is finished instantly.
+|-
+| slope-type
+| <code>0x0010</code>
+| The tile is a slope.
+| Type of slope (deformation). See below for possible values.
+|-
+| fullbox
+| <code>0x0020</code>
+| Bonusbox
+| Content of the box.
+|-
+| coin
+| <code>0x0040</code>
+| The tile is a coin
+|
+|-
+| ice
+| <code>0x0100</code>
+| the tile will be slippery ''(currently not implemented)''
+|
+|-
+| water
+| <code>0x0200</code>
+| The tile is a water tile (needed for [[fish]] enemy)
+|
+|-
+| hurts
+| <code>0x0400</code>
+| The tile will hurt you when you hit it
+|
+|}
 
-
-* '''solid''' defines if the tile should be considered for collision detection (value 1 for attributes)
-* '''unisolid''' the tile will only be considered for collision detection when tux is falling down. That is you can jump through the tile from below but not fall through it. (value 3 for attributes - both solid and unisolid are applied)
-* '''brick''' A brick that can be destroyed by jumping under it (value 4 for attributes)
-* '''goal''' The level should be finished when touching a goaltile. If '''data''' is 0 then the endsequence should be triggered, if '''data''' is 1 then the level is finished instantly. (value 8 for attributes)
-* '''fullbox''' Bonusbox, content is stored in '''data''' (value 32 for attributes)
-* '''coin''' The tile is a coin (value 64 for attributes)
-* '''ice''' the tile will be slippery (currently not implemented) (value 256)
-* '''water''' The tile is a water tile (needed for fish enemy) (value 512)
-* '''hurts''' The tile will hurt you when you hit it (value 1024)
-* '''slope-type''' The tile is a slope. You have to add a slope number to reference what sort of slope the tile is. Take a look for possible types here (take the basic form and add the deform to get the number)
+=== Slope types ===
 [[Image:Slopes.png]]
 
 = Adding new tiles =
