@@ -1,12 +1,12 @@
-= Introduction =
+== Introduction ==
 
 Supertux tilemaps are composed from tiles. Little 32x32 pixel wide images. These tiles are defined in an [[S-expr]] based file, "data/images/tiles.strf", or for one or two bleeding-edge SVN levels a custom tileset ending with ".stts". These tilesets are included into the level by a <tt>tileset</tt> or <tt>tilesets</tt> entry, usually at the beginning of the level.
 A <tt>tile</tt> has an ID number a set of images (it's an animated tile if it has more than 1 image) and contains a set of attributes like solid, icy, anim-fps...
 
-= Example =
+== Example ==
 
 An example of a simple solid tile looks like this:
-<code>
+
  (tile
    (id 7)
    (solid #t)
@@ -14,9 +14,9 @@ An example of a simple solid tile looks like this:
      "tiles/snow/snow1.png"
    )
  )
-</code>
+
 An animated waterfall tile (animation played with 10 fps):
-<code>
+
  (tile
    (id 175)
    (images
@@ -28,18 +28,18 @@ An animated waterfall tile (animation played with 10 fps):
    (water #t)
    (anim-fps 10)
  )
-</code>
+
 It's also possible to extract parts of bigger images to create tiles. This extracts the upper left edge of the foresttiles-1.png file:
-<code>
+
  (tile
    (id 1000)
    (images
      (region "tiles/forest/foresttiles-1.png" 0 0 32 32)
    )
  )
-</code>
+
 Note that in [[Milestone 2]], the last variant is deprecated in favor of a more compact approach at defining multiple tiles:
-<code>
+
  (tiles
    (width 3)
    (height 4)
@@ -53,11 +53,11 @@ Note that in [[Milestone 2]], the last variant is deprecated in favor of a more 
                0 0 0)
    (image "tiles/snow/convex.png")
  )
-</code>
+
 In this example, a block of 3x4 tiles will be extracted from an image with only the middle rows solid. To ignore a portion of the image, use an id of 0 in the appropriate place.
 
 More complex variants are also supported:
-<code>
+
  (tiles
    (width 11)
    (height 4)
@@ -81,10 +81,10 @@ More complex variants are also supported:
    )
    (image "tiles/snow/convex.png")
  )
-</code>
+
 17 is used for slopes, and the appropriate data/slope-type is put in datas. 
 Alternately, you could go minimalist with no data or attributes:
-<code>
+
  (tiles
    (width  12)
    (height 14)
@@ -106,9 +106,8 @@ Alternately, you could go minimalist with no data or attributes:
    )
    (image "tiles/castle/background.png")
  )
-</code>
 
-= Tile attributes =
+== Tile attributes ==
 
 Tiles can have the following attributes:
 
@@ -195,7 +194,7 @@ Tiles can have the following attributes:
 === Slope types ===
 [[Image:Slopes.png]]
 
-= Adding new tiles =
+== Adding new tiles ==
 
 You can simply add new tiles with your favourite text editor. However we also provide an easy to use editor to make this task easier (especially extracting regions of bigger images). You can find it in the ''tools/tilemanager'' directory. It's a mono/gtk# app so you have to have these 2 things installed and should invoke make in that directory then. It'll create ''tilemanager.exe'' which you can then start with mono like this:
 
@@ -205,11 +204,11 @@ NOTE: You should be careful when choosing tile ids to not overwrite existing til
 
 '''WARNING''': Unfortunately the tilemanage application is broken at the moment and does not work correctly! You'll destroy several tile attributes like slopes and some of the tiles created from multiple images, when opening and saving a tileset with the editor!
 
-= Testing =
+== Testing ==
 
 Simply open the flexlay or ST# editor and the new tiles should appear.
 
-= Trickery =
+== Trickery ==
 
 Note that some tiles aren't actually used in-game. Right after the level is loaded, various tiles in the solid tilemaps are replaced with objects. These include all with the coin, fullbox, brick, or goal attributes, and tile id 112 (invisible block). But the game doesn't end there. It also adds light sources to torches and lava, which are then hidden unless the level uses a lightmap.
 
