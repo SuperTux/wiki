@@ -104,7 +104,7 @@ To compile the editor you should make sure that you have some additional depende
 === Debian ===
 
 Debian users can run the following command to do this:
- apt-get install mono mono-gmcs gtk-sharp2
+ apt-get install  libgtk2.0-cil, libglade2.0-cil, libmono-system-runtime2.0-cil, mono-gmcs, make, debhelper, pkg-config
 
 === Gentoo ===
 
