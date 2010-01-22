@@ -194,6 +194,32 @@ Tiles can have the following attributes:
 === Slope types ===
 [[Image:Slopes.png]]
 
+[[Image:Slope data.png|right|thumb|Circle showing the 20&nbsp;different valid slope data values.]]
+The ''deformation'' means the following. The “circle” on the right shows the 20&nbsp;different possibilities.
+{| border="1"
+! Name
+! Value
+! Meaning
+|-
+| Deform1
+| 16
+| Only the lower half of the tile is used.
+|-
+| Deform2
+| 32
+| Only the upper half of the tile is used.
+|-
+| Deform3
+| 48
+| Only the left half of the tile is used.
+|-
+| Deform4
+| 64
+| Only the right half of the tile is used.
+|}
+
+The important part is that the deformation determines which part of the tile is used and not the actual ''form'' of the tile. For example, the <code>0+48</code> tile is a (steep, south-west) ''triangle'', while <code>2+48</code> is a (steep, south-east) ''trapezoid''.
+
 == Adding new tiles ==
 
 You can simply add new tiles with your favourite text editor. However we also provide an easy to use editor to make this task easier (especially extracting regions of bigger images). You can find it in the ''tools/tilemanager'' directory. It's a mono/gtk# app so you have to have these 2 things installed and should invoke make in that directory then. It'll create ''tilemanager.exe'' which you can then start with mono like this:
