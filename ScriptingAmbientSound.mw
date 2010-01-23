@@ -46,6 +46,7 @@ sector.niagara.set_pos(18, 35)
 
 == Constants ==
 
-None
+* ''None''
 
+{{Navbox Scripting reference}}
 [[Category:Scripting Reference]]
