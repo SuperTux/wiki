@@ -4,7 +4,7 @@ There's a very good introduction into collision detection techniques at http://w
 
 == New Collision Detection ==
 
-We're currently in the process of rewriting some parts of the collision detecion. Here are some random notes on how it works:
+We're currently (July 2006) in the process of rewriting some parts of the collision detecion. Here are some random notes on how it works:
 
 === Simple BoundingBox / Triangle tests ===
 We don't do any complicated sweep tests anymore, but simply test the destination positions of objects. When pushing objects out of collisions we also mostly ignore object movement now and simply push the object out of the collision in the shortest way possible. We don't sort collisions by time anymore, but try to resolve all collisions at once. The staged approach of the old system remains though.
