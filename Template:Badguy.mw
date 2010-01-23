@@ -16,4 +16,4 @@
 
 '''Burnable:''' {{{ignite}}}
 
-''This data might vary in older versions. Note that Butt-jump was not implemented in 0.3.x.''
+''This data reflects the behavior of the development version; the behavior in older versions may vary. Please note that [[Buttjump|"butt jumping"]] is a new feature in the development version of ''SuperTux'' and is not available in the 0.1.x releases.''
