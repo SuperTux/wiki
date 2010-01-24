@@ -33,6 +33,8 @@
 |}<noinclude>
 == Example usage ==
 
+For all your copy'n'paste needs :)
+
  <nowiki>{{Infobox Badguy</nowiki>
  | Name=Snowball
  | Image=Left-1.png
@@ -45,4 +47,27 @@
  | Burnable=yes
  <nowiki>}}</nowiki>
 
-[[Category:Templates|{{PAGENAME}}]]</noinclude>
+== Categories ==
+
+Based on the true / false arguments ''Squish'', ''Burnable'', ''Buttjump'' and ''Freeze'', the badguy page is also put in one of the following categories each:
+
+* Squish
+** [[:Category:Squishable badguys]]
+** [[:Category:Non squishable badguys]]
+** [[:Category:Badguys with unknown squishability]]
+* Burnable
+** [[:Category:Burnable badguys]]
+** [[:Category:Non burnable badguys]]
+** [[:Category:Badguys with unknown burnability]]
+* Butthump
+** [[:Category:Buttjumpable badguys]]
+** [[:Category:Non buttjumpable badguys]]
+** [[:Category:Badguys with unknown buttjumpability]]
+* Freeze
+** [[:Category:Freezable badguys]]
+** [[:Category:Non freezable badguys]]
+** [[:Category:Badguys with unknown freezability]]
+
+The last category of each group is meant as a maintenance category that, if all pages are formatted correctly, should be empty.
+
+[[Category:Templates|Infobox Badguy]]</noinclude>
