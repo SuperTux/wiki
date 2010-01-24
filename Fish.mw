@@ -1,4 +1,18 @@
-[[Image:FishBlue.png]]
+{{Infobox Badguy
+| Name=Fish
+| Image=FishBlue.png
+| FoundIn=[[Icy Island]], [[Forest]]
+| Appearance=A fish jumping out of water.
+| Behaviour=Jumps up out of water regularly.
+| Squish=no
+| Buttjump=no
+| Freeze=''don't know''
+| Burnable=yes
+}}
+'''Fish''' is a [[badguy]] that jumps out of water. When [[Tux]] has to cross the water he has to pay attention to the fish so he doesn't get caught.
+
+== Proposed changes ==
+
 Maybe a different color can be used in the forest world than in the [[Icyisland]].
 
 Also, possibly there should be a few different types of fish:
