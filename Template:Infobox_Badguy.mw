@@ -24,7 +24,7 @@
   | <includeonly>{{Burnable|{{{Burnable}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Burnable|Burnable]]<nowiki>}}</nowiki></code></noinclude>
 |- valign="top"
   | '''Butt-Jumpable:'''
-  | {{{Buttjump}}}
+  | <includeonly>{{Buttjumpable|{{{Buttjump}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Buttjumpable|Buttjumpable]]<nowiki>}}</nowiki></code></noinclude>
 |- valign="top"
   | '''Freezable:'''
   | <includeonly>{{Freezable|{{{Freeze}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Freezable|Freezable]]<nowiki>}}</nowiki></code></noinclude>
