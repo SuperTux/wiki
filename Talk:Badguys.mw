@@ -44,3 +44,13 @@ Voices like ''Implemented since MS 1/2'' and ''Current status: implemented/to be
 It works now, see [[Template:Badguy]]. Use it as <nowiki>{{</nowiki>badguy|''badguy name''|''image name''|''found in''|''behaviour''|''squishable''|''buttjumpable''|''freezable''|''burnable''<nowiki>}}</nowiki>. Italic parts are variable. -Shylence
 
 New Format is <nowiki>{{Badguy | name=Spiky | image=Spiky | worlds=IcyIsland | appearance=Mr. Snowball wearing a spiky helmet | behaviour=Walks around | squish=no | butt-jump=no | freeze=yes | ignite=yes, killed }}</nowiki>
+
+=== The [[Template:Infobox Badguy|Infobox Badguy]] template ===
+
+I've spent some hours today getting the [[badguy]]s organized and standardized. I have created the [[Template:Infobox Badguy|Infobox Badguy]] template which displays a nice infobox on the right of each badguy's page and uses some wiki magic to put each badguy into a number of categories. This template obsoletes the old and, I'm sorry to say, rather ugly [[Template:Badguy|Badguy]] template.
+
+Further ideas are:
+* Add a ''Version'' argument which automatically translates to “Status: Released” and “Status: Development” and puts the badguy into a category for that version.
+* For each badguy, create list in which levels he/she/it appears. This should be pretty easy to extract from the .stl-files with a small script.
+
+Any feedback is highly welcome. —[[User:Octo|octo]] 19:03, 24 January 2010 (UTC)
