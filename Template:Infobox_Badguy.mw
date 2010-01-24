@@ -30,4 +30,19 @@
   | {{{Freeze}}}
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]
-|}<noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>
+|}<noinclude>
+== Example usage ==
+
+ <nowiki>{{Infobox Badguy</nowiki>
+ | Name=Snowball
+ | Image=Left-1.png
+ | <nowiki>FoundIn=[[Icy Island]]</nowiki>
+ | Appearance=A walking snowball with eyes and boots on.
+ | Behaviour=Walks around. Falls down from all cliffs.
+ | Squish=yes
+ | Buttjump=yes
+ | Freeze=no
+ | Burnable=yes
+ <nowiki>}}</nowiki>
+
+[[Category:Templates|{{PAGENAME}}]]</noinclude>
