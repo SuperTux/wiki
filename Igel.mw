@@ -1,18 +1,17 @@
-'''Igel''' is a [[badguy]] in the second world of ''SuperTux'', the forrest world. Igel cannot be squished or [[buttjump]]ed due to its spines but they can be shot with a [[fireflower]] when facing [[Tux]].
+{{Infobox Badguy
+| Name=Igel
+| Image=
+| FoundIn=[[Forest]]
+| Appearance=Looks like a common hedgehog.
+| Behaviour=Walks around. Stays on platforms.
+| Squish=no
+| Buttjump=no
+| Freeze=yes
+| Burnable=yes
+}}
+'''Igel''' is a [[badguy]] in the second world of ''SuperTux'', the [[Forest]]. Igel cannot be squished or [[buttjump]]ed due to its spines but they can be shot with a [[fireflower]] when facing [[Tux]].
 
 The term "Igel" is German for "hedgehog", which is precisely why the ''Igel'' in the game look like hedgehogs.
-
-{{Badguy
-| name=Igel
-| image=
-| worlds=World 2
-| appearance=looks like a common hedgehog.
-| behaviour=Walks around. Stays on platforms.
-| squish=No
-| butt-jump=No
-| freeze=''don't know''
-| ignite=Yes, from the front only
-}}
 
 == Proposed behavior ==
 :''Note: The behavior described below differs from the behavior currently implemented in the development version of ''SuperTux''.''
