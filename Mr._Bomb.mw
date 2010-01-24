@@ -1,8 +1,20 @@
-{{Badguy|name=MrBomb|image=Mrbomb-left-0|worlds=IcyIsland, World 2|appearance=A black walking bomb.|behaviour=Walks around. When jumped on once, it is activated and explodes after a short time, killing nearby badguys.|squish=yes, is activated|butt-jump=yes|freeze=yes, becomes portable|ignite=yes, explodes}}
+{{Infobox Badguy
+| Name=Mr. Bomb
+| Image=Mrbomb.png
+| FoundIn=[[Icy Island]], [[Forest]]
+| Appearance=A black walking bomb.
+| Behaviour=Walks around. When jumped on once, it is activated and explodes after a short time, killing nearby badguys.
+| Squish=yes
+| Buttjump=yes
+| Freeze=yes
+| Burnable=yes
+}}
+'''Mr. Bomb''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. When jumped upon, the Mr.&nbsp;Bomb turns into a ticking time-bomb, which hurts [[Tux]] and other badguys nearby. When shot with a [[fireflower]], explodes immediately. When shot with an [[iceflower]], freezes on the spot and becomes portable.
 
-Due to Grumbel's complaint that Mr Bomb is the ugliest badguy ever created, [[User:Poison Ivy]] created
-a concept image for a new looke by combining features of Snowball and Bomb in Gimp:
-[[Image:Mrbomb.png]]
-Note I also created the other four images.
-:Ugly. Preferred the original.
+<div style="clear: both;"></div>
+== Critic on old image ==
+
+[[Image:Mrbomb-left-0.png|thumb|right|Old image of Mr. Bomb]]
+Due to Grumbel's complaint that “Mr. Bomb is the ugliest badguy ever created”, user [[User:Poison Ivy|Poison Ivy]] created a concept image for a new look by combining features of [[Snowball]] and the old Mr.&nbsp;Bomb in Gimp. This approach didn't receive any love either.
+
 [[Category:Badguy.1]]
