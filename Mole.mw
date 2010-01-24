@@ -1,3 +1,14 @@
-{{Badguy | name=Mole | image=Mole | worlds=World 2 | appearance=Molehill | behaviour=Static molehill. Ejects rocks up into the air. From time to time, the mole peeks out, which can then be squished or shot | squish=yes, when mole is peeking out | butt-jump=no | freeze=no | ignite=yes, killed }}
+{{Infobox Badguy
+| Name=Mole
+| Image=
+| FoundIn=[[Forest]]
+| Appearance=A molehill.
+| Behaviour=Static. From time to time, the mole peeks out.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+The '''Mole''' is a [[badguy]] found in the [[Forest]]. He's usually underground, so that only his molehill can be seen. He throws out small rocks in random directions that can hurt [[Tux]]. From time to time, he peeks out which is the time in which Tux can squish him by jumping on him.
 
-[[Category:Badguy]]
+[[Category:Badguy.3]]
