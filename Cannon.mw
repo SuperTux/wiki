@@ -1,4 +1,28 @@
-[[Image:Working.png]][[Image:Dropper.png]]
+{{Infobox Badguy
+| Name=Dispenser
+| Image=Working.png
+| FoundIn=[[Icy Island]], [[Forest]]
+| Appearance=Differs, see below.
+| Behaviour=Spawns new badguys at fixed or random intervals.
+| Squish=yes
+| Buttjump=unknown
+| Freeze=unknown
+| Burnable=unknown
+}}
+A '''Dispenser''' is a [[game object]] that spawns new [[badguy]]s. The interval in which badguys are spawned is either fixed or random.
+
+== Appearance ==
+
+There are three possible sprites for this object: Trapdoor, cannon or (in lack of a better word) rocket launcher.
+<gallery>
+Image:Dropper.png
+Image:Working.png
+Image:Dispenser rocket launcher.png
+</gallery>
+
+== Design considerations ==
+:''This section is possibly outdated.''
+[[Category:Outdated]]
 
 === Mechanics ===
 * Spawns new Badguys
@@ -12,6 +36,5 @@
 * drops badguys from a (shootable) trap door
 * spawn badguys in tubes
 * launches molten rocks out of a lava lakes
-* ...
 
 [[Category:Badguy.3]]
