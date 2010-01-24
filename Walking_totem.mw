@@ -1,4 +1,18 @@
-[[Image:Walking1.png|thumb|left|Current implementation, only 1 face]]
+{{Infobox Badguy
+| Name=Walking totem
+| Image=Walking1.png
+| FoundIn=''none yet''
+| Appearance=A walking totem.
+| Behaviour=Walks around. Falls down from all cliffs.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Walking totem''' is a [[badguy]] that's not widely used. It may be used in [[Forest]] levels in the future, though.
+
+== Design considerations ==
+
 [[Image:Totem.jpg|right|Walking Totem]]
 
 Walking Totem Poles could be especially interesting, as they generally have many faces...
@@ -16,16 +30,12 @@ Hurt it: jump at it to break into smaller Totems which can be jumped on or spat 
 
 [[Image:Littletrees.png|Walking tree]]
 
-== Comments ==
+=== Comments ===
 
 * It could be interesting to have the Walking Totem only loose its topmost face when Tux jumps on it
-
 * Yeah, and it would be even better if Tux has to butt-jump.
-
 * that would be very hard!
-
 * the walking tree looks so good, better than a coming-from-nowhere totem!
-
 * The Walking Totem looses only its topmost face when Tux jumps NORMAL on it, and it looses more faces when Tux butt-jump on it
 
 [[Category:Badguy]]
