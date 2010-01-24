@@ -1,0 +1,7 @@
+{{TableCell YesNoUnknown
+| Value={{{1}}}
+| Text={{{2}}}
+| YesCategory=Squishable badguys
+| NoCategory=Non squishable badguys
+| UnknownCategory=Badguys with unknown squishability
+}}
