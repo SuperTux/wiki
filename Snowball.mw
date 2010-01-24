@@ -1,3 +1,25 @@
-{{Badguy|name=Snowball|image=Left-1|worlds=IcyIsland|appearance=A walking snowball with eyes and boots on.|behaviour=Walks around. Falls down from all cliffs.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Infobox Badguy
+| Name=Snowball
+| Image=Left-1.png
+| FoundIn=[[Icy Island]]
+| Appearance=A walking snowball with eyes and boots on.
+| Behaviour=Walks around. Falls down from all cliffs.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Snowball''' is a [[badguy]] found in [[Icy Island]]. It will fall off platforms but will turn around when reaching a wall. [[Tux]] can easily handle these badguys by jumping on them, squishing them in the process.
+
+== See also ==
+
+* [[Bouncing Snowball]]
+* [[Captain Snowball]]
+* [[Flying Snowball]]
+* [[Jumpy]]
+* [[Kamikaze Snowball]]
+* [[Sleeping Spiky]]
+* [[Smartball]]
+* [[Spiky]]
 
 [[Category:Badguy.1]]
