@@ -27,7 +27,7 @@
   | {{{Buttjump}}}
 |- valign="top"
   | '''Freezable:'''
-  | {{{Freeze}}}
+  | <includeonly>{{Freezable|{{{Freeze}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Freezable|Freezable]]<nowiki>}}</nowiki></code></noinclude>
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]
 |}<noinclude>
