@@ -5,11 +5,11 @@
 | Appearance=Differs, see below.
 | Behaviour=Spawns new badguys at fixed or random intervals.
 | Squish=yes
-| Buttjump=unknown
-| Freeze=unknown
-| Burnable=unknown
+| Buttjump=yes
+| Freeze=yes
+| Burnable=yes
 }}
-A '''Dispenser''' is a [[game object]] that spawns new [[badguy]]s. The interval in which badguys are spawned is either fixed or random.
+A '''Dispenser''' is a [[game object]] that spawns new [[badguy]]s. The interval in which badguys are spawned is either fixed or random. A dispenser can be shot with either the [[fireflower]] (dies) or [[iceflower]] (stops it emitting new badguys). Whether or not the dispenser is squishable and butt-jumpable depends on the appearance: The ''trapdoor'' and ''rocket launcher'' types are immune to [[Tux]] standing or jumping on them, the ''cannon'' type can be broken this way.
 
 == Appearance ==
 
