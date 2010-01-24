@@ -1,9 +1,8 @@
 __NOTOC__
-
-= Summary =
+== Summary ==
 This class provides a very simple interface to the audio subsystem.
 
-= Methods =
+== Methods ==
 {| class="objectlist"
 ! class="method"| play_music(string track_name)
 | Plays the selected music track (automatically prepending the path to the music folder and appending the <tt>.ogg</tt> extension).
@@ -12,8 +11,9 @@ This class provides a very simple interface to the audio subsystem.
 | Plays the sound specified in <tt>sound_name</tt> (that is identical to the filename of the sound without the <tt>.wav</tt> extension).
 |}
 
-= Constants =
+== Constants ==
 
 None
 
+{{Navbox Scripting reference}}
 [[Category:Scripting Reference]]
