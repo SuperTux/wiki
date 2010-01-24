@@ -13,7 +13,7 @@ A '''Dispenser''' is a [[game object]] that spawns new [[badguy]]s. The interval
 
 == Appearance ==
 
-There are three possible sprites for this object: Trapdoor, cannon or (in lack of a better word) rocket launcher.
+There are three possible sprites for this object: Trapdoor, cannon and (in lack of a better word) rocket launcher.
 <gallery>
 Image:Dropper.png
 Image:Working.png
