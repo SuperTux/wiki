@@ -1,8 +1,21 @@
-{{Badguy|name=MrIceblock|image=Mriceblock_new|worlds=IcyIsland|appearance=A cube of ice with eyes and legs.|behaviour=Walks around. When jumped on once, it becomes flat. If jumped on twice, it is shot in the direction of the kick, removing all enemies in the way. If it is jumped on again, it either stops or resums gliding. It can only be destroyed by being stepped on multiple times, stopping and resuming its glide.|squish=yes, stunned (see behaviour)|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Infobox Badguy
+| Name=Mr. IceBlock
+| Image=Left-3.png
+| FoundIn=[[Icy Island]]
+| Appearance=A cube of ice with eyes and legs.
+| Behaviour=Walks around. When jumped on once, it becomes a kickable and portable block of ice.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Mr. IceBlock''' is a [[badguy]] in [[Icy Island]]. When jumped upon, ''Mr. IceBlock'' becomes a block of ice for a limited amount of time. This block of ice can be carried around by [[Tux]]. When released or when kicked, the block will glide away at a high speed, hurting everything in it's way. A gliding block of ice can be stopped by jumping on it.
 
-''Note: this information applies to MS1 only.'' Once eliminated, 100 points are given. If destroyed in a combo, scores up to 500 are possible. when walking slow jump over Mr Ice Block and watch him fall off a cliff, ledge, etc. with a happy face on.
+<div style="clear: both;"></div>
+== Behavior in [[Milestone 1]] ==
 
-[[Image:Left-3.png]] -- New MrIceBlock in SVN
+[[Image:Mriceblock_new.png|thumb|right|Old image of Mr. IceBlock]]
+Once eliminated, 100 points are given. If destroyed in a combo, scores up to 500 are possible. When walking slow jump over Mr. IceBlock and watch him fall off a cliff, ledge, etc. with a happy face on.
 
 [[Category:Badguy.1]]
 [[Category:Portable]]
