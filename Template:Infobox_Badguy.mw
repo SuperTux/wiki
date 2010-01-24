@@ -2,31 +2,31 @@
 |-
   ! colspan="2" style="font-size: 105%; text-align:center; background: #901010; color: white;" | {{{Name}}}
 |- valign="middle"
-  | colspan="2" align="center" | {{#if: {{{image|}}}
-    | [[Image:{{{image}}}|Image of {{{name}}}]]
-    | [[Image:{{{name}}}.png|Image of {{{name}}}]]
+  | colspan="2" align="center" | {{#if: {{{Image|}}}
+    | [[Image:{{{Image}}}|Image of {{{Name}}}]]
+    | [[Image:{{{Name}}}.png|Image of {{{Name}}}]]
   }}
 |- valign="top"
   | '''Found in:'''
-  | {{{worlds}}}
+  | {{{FoundIn}}}
 |- valign="top"
   | '''Appearance:'''
-  | {{{appearance}}}
+  | {{{Appearance}}}
 |- valign="top"
   | '''Behaviour:'''
-  | {{{behaviour}}}
+  | {{{Behaviour}}}
 |- valign="top"
   | '''Squishable:'''
-  | {{{squish}}}
+  | {{{Squish}}}
 |- valign="top"
   | '''Butt-Jumpable:'''
-  | {{{butt-jump}}}
+  | {{{Buttjump}}}
 |- valign="top"
   | '''Freezable:'''
-  | {{{freeze}}}
+  | {{{Freeze}}}
 |- valign="top"
   | '''Burnable:'''
-  | {{{ignite}}}
+  | {{{Burnable}}}
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]
 |}<includeonly>[[Category:Badguy]]</includeonly><noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>
