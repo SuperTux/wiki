@@ -1,3 +1,14 @@
-[[Image:Falling.png]]Stalactites start shaking when Tux approaches, falling after a short time. They hurt Tux and kill enemies (except flames) on touch.
+{{Infobox Badguy
+| Name=Stalactite
+| Image=Falling.png
+| FoundIn=[[Icy Island]]
+| Appearance=An icicle hanging from the ceiling and underneath platforms.
+| Behaviour=Falls down when [[Tux]] gets near.
+| Squish=no
+| Buttjump=no
+| Freeze=no
+| Burnable=no
+}}
+'''Stalactites''' start shaking when [[Tux]] approaches, falling down after a short time. They hurt Tux and kill enemies (except [[flame]]s) on touch.
 
 [[Category:Badguy.1]]
