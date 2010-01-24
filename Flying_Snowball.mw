@@ -1,3 +1,14 @@
-{{Badguy|name=Flying Snowball|image=Flyingsnowball|worlds=IcyIsland|appearance=A [[Snowball]] with a propeller underneath and a pilot hat and goggles|behaviour=Flies up and down constantly.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Infobox Badguy
+| Name=Flying Snowball
+| Image=Flyingsnowball.png
+| FoundIn=[[Icy Island]]
+| Appearance=A [[Snowball]] with a propeller underneath and a pilot hat and goggles.
+| Behaviour=Flies up and down constantly.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Flying Snowball''' is a [[badguy]] often found in [[Icy Island]]. It is a flying version of [[Snowball]] which doesn't walk around but moves up and down at random intervals and speeds.
 
 [[Category:Badguy.1]]
