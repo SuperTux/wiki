@@ -1,6 +1,17 @@
 <noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>'''Name:''' {{{name}}}
 
-[[Image:{{{image}}}.png|{{{name}}}]]
+{{#if: {{{image|}}}
+|
+{{#ifexist: Image:{{{image}}}
+| [[Image:{{{image}}}|{{{name}}}]]
+| [[Image:{{{image}}}.png|{{{name}}}]]
+}}
+|
+{{#ifexist: Image:{{{name}}}.png
+| [[Image:{{{name}}}.png|{{{name}}}]]
+| <includeonly>[[Category:Badguys without image]]</includeonly>
+}}
+}}
 
 '''Found in:''' {{{worlds}}}
 
