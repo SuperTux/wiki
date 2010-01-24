@@ -1,4 +1,4 @@
-{| style="float: right; font-size: 90%; width: 23em; margin-left: 1ex; border-collapse: collapse;" border="1" summary="Infobox"
+<includeonly>[[Category:Badguy]]</includeonly>{| style="float: right; font-size: 90%; width: 23em; margin-left: 1ex; border-collapse: collapse;" border="1" summary="Infobox"
 |-
   ! colspan="2" style="font-size: 105%; text-align:center; background: #901010; color: white;" | {{{Name}}}
 |- valign="middle"
@@ -29,4 +29,4 @@
   | {{{Burnable}}}
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]
-|}<includeonly>[[Category:Badguy]]</includeonly><noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>
+|}<noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>
