@@ -20,14 +20,14 @@
   | '''Squishable:'''
   | <includeonly>{{Squishable|{{{Squish}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Squishable|Squishable]]<nowiki>}}</nowiki></code></noinclude>
 |- valign="top"
+  | '''Burnable:'''
+  | <includeonly>{{Burnable|{{{Burnable}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Burnable|Burnable]]<nowiki>}}</nowiki></code></noinclude>
+|- valign="top"
   | '''Butt-Jumpable:'''
   | {{{Buttjump}}}
 |- valign="top"
   | '''Freezable:'''
   | {{{Freeze}}}
-|- valign="top"
-  | '''Burnable:'''
-  | {{{Burnable}}}
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]
 |}<noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>
