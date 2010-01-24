@@ -1,3 +1,14 @@
-{{Badguy|name=Bouncing Snowball|image=Bouncingsnowball|worlds=IcyIsland|appearance=A [[Snowball]] with eyes.|behaviour=Jumps around. Jumping is affected by walls and other badguys.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Infobox Badguy
+| Name=Bouncing Snowball
+| Image=Bouncingsnowball.png
+| FoundIn=[[Icy Island]]
+| Appearance=A [[Snowball]] with eyes but without feet.
+| Behaviour=Jumps around. Jumping is affected by walls and other badguys.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Bouncing Snowball''' is a [[badguy]] in [[Icy Island]]. He jumps around, possibly hitting [[Tux]] or other badguys.
 
 [[Category:Badguy.1]]
