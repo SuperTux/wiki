@@ -1,7 +1,19 @@
-{{Badguy|name=KamikazeSnowball|image=Kamikaze-left|worlds=IcyIsland|appearance=A flying snowball with headband.|behaviour=Flies in straight line until he crashes in something. Can be shot from a [[dispenser]].|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Infobox Badguy
+| Name=Kamikaze Snowball
+| Image=Kamikaze-left2.png
+| FoundIn=[[Icy Island]]
+| Appearance=A flying snowball with a fierce facial expression.
+| Behaviour=Flies in straight line until he crashes in something. Can be shot from a [[dispenser]].
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Kamikaze Snowball''' is a [[badguy]] planned to debut in version&nbsp;0.4. He is a version of [[Snowball]] which is shot from a [[dispenser]] and flies a straight line until crashing into something.
 
-Planned for 0.4. In svn since r5323.
+Planned for 0.4. In SVN since revision 5323.
 
-[[Image:Kamikaze-left2.png]] -- Current version
+
+[[Image:Kamikaze-left.png|thumb|right|Old version of the badguy.]]
 
 [[Category:Badguy.4]]
