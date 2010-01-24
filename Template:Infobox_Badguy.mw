@@ -1,0 +1,32 @@
+{| style="float: right; font-size: 90%; width: 23em; margin-left: 1ex; border-collapse: collapse;" border="1" summary="Infobox"
+|-
+  ! colspan="2" style="font-size: 105%; text-align:center; background: #901010; color: white;" | {{{Name}}}
+|- valign="middle"
+  | colspan="2" align="center" | {{#if: {{{image|}}}
+    | [[Image:{{{image}}}|Image of {{{name}}}]]
+    | [[Image:{{{name}}}.png|Image of {{{name}}}]]
+  }}
+|- valign="top"
+  | '''Found in:'''
+  | {{{worlds}}}
+|- valign="top"
+  | '''Appearance:'''
+  | {{{appearance}}}
+|- valign="top"
+  | '''Behaviour:'''
+  | {{{behaviour}}}
+|- valign="top"
+  | '''Squishable:'''
+  | {{{squish}}}
+|- valign="top"
+  | '''Butt-Jumpable:'''
+  | {{{butt-jump}}}
+|- valign="top"
+  | '''Freezable:'''
+  | {{{freeze}}}
+|- valign="top"
+  | '''Burnable:'''
+  | {{{ignite}}}
+|-
+  ! colspan="2" style="text-align: center;" | [[Badguys]]
+|}<includeonly>[[Category:Badguy]]</includeonly><noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>
