@@ -1,5 +1,16 @@
-{{Badguy|name=Smartball|image=Left-1|worlds=IcyIsland|appearance=A walking snowball with eyes and boots on.|behaviour=Walks around. Stays on his platform.|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Infobox Badguy
+| Name=Mrs. Snowball
+| Image=
+| FoundIn=[[Icy Island]]
+| Appearance=A walking snowball with eyes and boots on.
+| Behaviour=Walks around. Stays on platforms.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Mrs. Snowball''' is a [[badguy]] found in [[Icy Island]]. In contrast to (Mr.)&nbsp;[[Snowball]] she will stay on platforms rather than falling down. [[Tux]] can easily handle these “badgals” by jumping on them, squishing them in the process.
 
-Planned for 0.4. In svn since r5321.
+This badguy is planned for version&nbsp;0.4. It is in SVN since revision 5321.
 
 [[Category:Badguy.4]]
