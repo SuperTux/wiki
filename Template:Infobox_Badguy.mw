@@ -17,7 +17,7 @@
   | {{{Behaviour}}}
 |- valign="top"
   | '''Squishable:'''
-  | {{{Squish}}}
+  | <includeonly>{{Squishable|{{{Squish}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Squishable|Squishable]]<nowiki>}}</nowiki></code></noinclude>
 |- valign="top"
   | '''Butt-Jumpable:'''
   | {{{Buttjump}}}
