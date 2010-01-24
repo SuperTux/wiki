@@ -1,4 +1,5 @@
-<noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>'''Name:''' {{{name}}}
+<noinclude><div style="color: maroon; background-color: yellow; border: 2px solid red; padding: 1em;">'''Deprecated!'''<br />Please don't use this template for new pages. Use [[Template:Infobox Badguy]] instead.</div>
+[[Category:Templates|{{PAGENAME}}]]</noinclude>'''Name:''' {{{name}}}
 
 {{#if: {{{image|}}}
 |
