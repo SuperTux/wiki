@@ -7,7 +7,7 @@ __NOTOC__
 | Behaviour=Flies left and right high above ground. Dives to hit [[Tux]].
 | Squish=yes
 | Buttjump=yes
-| Freeze=''don't know''
+| Freeze=no
 | Burnable=yes
 }}
 '''Zeekling''' is a [[badguy]] found in the [[Forest]]. It flies left and right in a straight path, usually near the top of the level. When [[Tux]] is below it, will dive down to hit him. Tux can avoid being hit by hiding underneath platform and other solid blocks.
