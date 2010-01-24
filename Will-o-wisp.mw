@@ -1,23 +1,14 @@
-{{Outdated}}
-[[Image:Willowisp.png]]
-* Will-o-wisp is represented by a small, eerie light
-* Its starting position will be over some kind of hazard
-* When in range it will slowly start tracking the player
-* Upon contact with the player it will engulf him, dissolve and teleport the player to its starting position (i.e. over the hazard)
-* If the player manages to outmaneuver the Will-o-wisp for either a certain time or if it gets out of range, the Will-o-wisp will vanish
-
-
-
- Illustration (O: Player start, *: Will-o-wisp start, ^: Hazard)
- 
- 
-     o        ======
-     O          ||
-   ======       ||
-     ||         ||
-     ||    *    ||
-     ||         ||
-     ||   ==    ||
- ^^^^^^^^^^^^^^^^^^^
+{{Infobox Badguy
+| Name=Will-o-wisp
+| Image=Willowisp.png
+| FoundIn=[[Forest]]
+| Appearance=Small green patch of light
+| Behaviour=Moves towards and follows [[Tux]].
+| Squish=no
+| Buttjump=no
+| Freeze=no
+| Burnable=no
+}}
+The '''Will-o-wisp''' is a mean little [[badguy]] found in the haunted regions of the [[Forest]]. When [[Tux]] comes close, it will start to follow him slowly. Once it reaches Tux, he will be teleported to another, possibly dangerous part of the level. If Tux manages to get out of reach of the ''Will-o-wisp'', it will stop following him.
 
 [[Category:Badguy.3]]
