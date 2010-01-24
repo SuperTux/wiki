@@ -1,3 +1,14 @@
-{{Badguy | name=Toad | image=Toad | worlds=World 2 | appearance=Poisonous Toad | behaviour=Takes long leaps at regular intervals. If possible, turns towards player in mid-air | squish=yes | butt-jump=yes | freeze=no | ignite=yes, killed }}
+{{Infobox Badguy
+| Name=Toad
+| Image=
+| FoundIn=[[Forest]]
+| Appearance=Poisonous Toad
+| Behaviour=Takes long leaps at regular intervals.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Toad''' is a [[badguy]] found in the [[Forest]]. It follows [[Tux]] by jumping around in large leaps. Can be squished by jumping on it.
 
-[[Category:Badguy]]
+[[Category:Badguy.3]]
