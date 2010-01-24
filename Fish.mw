@@ -6,7 +6,7 @@
 | Behaviour=Jumps up out of water regularly.
 | Squish=no
 | Buttjump=no
-| Freeze=''don't know''
+| Freeze=yes
 | Burnable=yes
 }}
 '''Fish''' is a [[badguy]] that jumps out of water. When [[Tux]] has to cross the water he has to pay attention to the fish so he doesn't get caught.
