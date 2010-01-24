@@ -1,20 +1,16 @@
-Could take the place of Mr IceBlock and Slow Snail.
+'''Nutty''' is a proposed and currently unimplemented [[badguy]]. He could take the place of [[MrIceBlock|Mr. IceBlock]] and [[Snail|Slow Snail]] in certain areas.
 
-'''Name:''' Nutty
-
-[[Image:nutty.jpeg]]
-
-'''Appearance:''' A coconut with a palm leaf for hair, eyes and feet.
-
-'''Behaviour:''' Walks around. Walks off all edges.
-
-'''Squishable:''' No. When jumped, he becomes a coconut with no eyes or feet. He can then be kicked or
+{{Badguy
+| name=Nutty
+| image=nutty.jpeg
+| worlds=''n/a''
+| appearance=A coconut with a palm leaf for hair, eyes and feet.
+| behaviour=Walks around. Walks off all edges.
+| squish=No. When jumped, he becomes a coconut with no eyes or feet. He can then be kicked or
 carried.
-
-'''"Butt-Jumpable:"''' No
-
-'''Freezable:''' Yes
-
-'''Burnable:''' Yes
+| butt-jump=No
+| freeze=Yes
+| ignite=Yes
+}}
 
 [[Category:ProposedBadguy]]
