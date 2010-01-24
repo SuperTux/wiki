@@ -1,6 +1,17 @@
-{{Badguy|name=CaptainSnowball|image=Cpt-right-1|worlds=IcyIsland|appearance=A walking pirate snowball with eyes and boots on.|behaviour=Walks slower then the average snowball. Falls down from all cliffs. Can be shot from [[dispenser]].|squish=yes|butt-jump=yes|freeze=no|ignite=yes, killed}}
+{{Infobox Badguy
+| Name=Captain Snowball
+| Image=Cpt-right-1.png
+| FoundIn=[[Icy Island]]
+| Appearance=A walking pirate snowball with eyes and boots on.
+| Behaviour=Walks slower then the average snowball. Falls down from all cliffs.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+}}
+'''Captain Snowball''' is a [[badguy]] planned to debut in version&nbsp;0.4. There are not yet many levels which feature ''Captain Snowball'', but he will most likely appear in [[Icy Island]] levels or other snow-themed levels.
 
-Planned for 0.4. In svn since r5323.
+Planned for 0.4. In SVN since revision 5323.
 
 [[Image:Boarding-nq8.png]]
 
