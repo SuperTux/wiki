@@ -1,5 +1,14 @@
-{{Badguy|name=Jumpy|image=Jumpy|worlds=IcyIsland, World 2|appearance=A spiky grey ball with a spring underneath.|behaviour=Jumps up and down.|squish=no|butt-jump=no|freeze=yes|ignite=yes, killed}}
-
-[[Image:Left-up.png]] -- New Jumpy in SVN
+{{Infobox Badguy
+| Name=Spiky
+| Image=Left-up.png
+| FoundIn=[[Icy Island]], [[Forest]]
+| Appearance=A spiky grey ball with a spring underneath.
+| Behaviour=Jumps up and down.
+| Squish=no
+| Buttjump=no
+| Freeze=yes
+| Burnable=yes
+}}
+'''Jumpy''' is a [[badguy]] found in many levels. Unless [[Tux]] has a [[fireflower]] or an [[iceflower]], the only way to get past ''Jumpy'' is to run below him or jump over him at the right time.
 
 [[Category:Badguy.1]]
