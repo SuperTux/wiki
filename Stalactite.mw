@@ -8,6 +8,7 @@
 | Buttjump=no
 | Freeze=no
 | Burnable=no
+| FirstVersion=0.1
 }}
 '''Stalactites''' start shaking when [[Tux]] approaches, falling down after a short time. They hurt Tux and kill enemies (except [[flame]]s) on touch.
 
