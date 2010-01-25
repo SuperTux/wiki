@@ -67,5 +67,17 @@ Now you can send off ''mypatch.patch'' using the generic instructions. If you wa
  patch -p0 < apatch.patch
 </code>
 
+== Improving the wiki ==
+
+You can easily help ''SuperTux'' by updating the wiki. This can be done without any programming skills whatsoever. We use ''categories'' to organize pages that need attention. This way it's easy for you to find someplace to start working. Some of those categories are listed below. All maintenance categories are included in the [[:Category:Wiki Maintenance]].
+
+* Pages in [[:Category:Outdated]] include outdated information that may not reflect the current state of the SVN repository. You can research the current state and adapt or replace the outdated information.
+* [[:Category:Badguys with unknown burnability]]: Badguys where the ''"Burnable"'' attribute is unknown or incorrect.
+* [[:Category:Badguys with unknown buttjumpability]]: Badguys where the ''"Buttjump"'' attribute is unknown or incorrect.
+* [[:Category:Badguys with unknown freezability]]: Badguys where the ''"Freeze"'' attribute is unknown or incorrect.
+* [[:Category:Badguys with unknown squishability]]: Badguys where the ''"Squish"'' attribute is unknown or incorrect.
+
+If you're unsure if the observed behavior is incorrect (and the differing documented behavior is the intended way), please don't hesitate to ask a developer or open a [[Bugs|bug report]].
+
 [[Category:Development]]
 [[Category:Meta]]
