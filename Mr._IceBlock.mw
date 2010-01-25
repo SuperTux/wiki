@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
+| FirstVersion=0.1
 }}
 '''Mr. IceBlock''' is a [[badguy]] in [[Icy Island]]. When jumped upon, ''Mr. IceBlock'' becomes a block of ice for a limited amount of time. This block of ice can be carried around by [[Tux]]. When released or when kicked, the block will glide away at a high speed, hurting everything in it's way. A gliding block of ice can be stopped by jumping on it.
 
