@@ -1,6 +1,6 @@
-The butt-jump is an ability that would let [[Tux]] to jump up into the air and then come crashing down, breaking any blocks beneath him and killing any nearby enemies.
+The '''buttjump''' is an ability that lets [[Tux]] crush boxes from above and destroy some [[badguy]]s that cannot be harmed by a normal jump. It is performed by jumping up into the air and then pressing the ''Down'' key while in the air. Take a look at the [[:Category:Buttjumpable badguys|buttjumpable badguys category]] for a list of badguys that can be harmed by a buttjump.
 
-Butt-Jump has the following flow of actions
+The buttjump has the following flow of actions
 
 # Tux jumps up as normal
 # Player presses 'down'
