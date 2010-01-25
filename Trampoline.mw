@@ -13,3 +13,4 @@ The trampoline is a small [[Objects|object]] that [[Tux]] can pick up and move a
 Set it to false to prevent the player from carrying that trampoline around.
 
 [[Category:Game Object]]
+[[Category:Portable]]
