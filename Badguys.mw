@@ -25,19 +25,19 @@ Many of the badguys Tux can knock out by jumping on them and squishing them. Oth
 They are all in [[:Category:Badguy.1]].
 
 == List of badguys in 0.3.x versions ==
-All that were in SuperTux 0.1.3 are in the 0.3 versions as well.
+All badguys that were in SuperTux 0.1.3 are in the 0.3 versions as well.
 See [[:Category:Badguy.3]].
 
 * Generic
 ** [[Fish]]
 ** [[Ispy]]
-** [[MrBomb]]
-* [[Icyisland]]
+** [[Mr. Bomb]]
+* [[Icy Island]]
 ** [[Sleeping Spiky]]
 * [[Forest|Light Forest]]
 ** [[Dispenser]]
 ** [[Mole]]
-** [[MrRocket]]
+** [[Mr. Rocket]]
 ** [[Poison Ivy]]
 ** [[Walking tree]]
 ** [[Will-o-wisp]]
@@ -49,7 +49,7 @@ See [[:Category:Badguy.3]].
 ** [[Kugelblitz]]
 
 === Current Badguys included in SVN ===
-Note: Some are not used in any levels, and some have incomplete and/or nonexistent code.<br />
+:''Note: Some are not used in any levels, and some have incomplete and/or nonexistent code.''
 [[Image:Bouncingsnowball.png|Bouncing Snowball]]
 [[Image:Flame.png|Flame]]
 [[Image:Flyingsnowball.png|Flying Snowball]]
