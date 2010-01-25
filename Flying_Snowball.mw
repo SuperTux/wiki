@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
+| FirstVersion=0.1
 }}
 '''Flying Snowball''' is a [[badguy]] often found in [[Icy Island]]. It is a flying version of [[Snowball]] which doesn't walk around but moves up and down at random intervals and speeds.
 
