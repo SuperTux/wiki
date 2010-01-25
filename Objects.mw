@@ -1,17 +1,18 @@
+'''Objects''' are basically everything [[Tux]] can interact with. One big group of "objects" are the [[badguys]] which are handled on their separate page.
+
+== Available objects ==
+
+The following objects are available in the 0.3.x release or have been committed to the SVN repository.
+
+* Various [[badguy]]s
 * [[Background Images]]
-* [[Bubble Dispenser]]
 * [[Buttons and switches]]
 * [[Camera]]
-* [[Camera blocker]]
-* [[Conveyor belt]]
 * [[Door]]
-* [[Firefly]]
 * [[Ladder]]
 * [[Moving platform]]
 * [[Particle system]]
-* [[Pipes]]
 * [[Rock]]
-* [[Rope]]s
 * [[Script trigger]]
 * [[Secret Area]]
 * [[Spawn point]]
@@ -26,6 +27,17 @@
 ** [[Infoblock]]
 ** [[Magic Block]]
 ** [[Switchable blocks]]
-* various [[Badguys]]
 
+== Proposed objects ==
+
+The following objects are ''ideas'' that have not yet been implemented.
+
+* [[Bubble Dispenser]]
+* [[Camera blocker]]
+* [[Conveyor belt]]
+* [[Firefly]]
+* [[Pipes]]
+* [[Rope]]s
+
+[[Category:Game Object]]
 [[Category:Design]]
