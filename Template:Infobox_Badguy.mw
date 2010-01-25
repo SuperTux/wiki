@@ -30,8 +30,8 @@
   | <includeonly>{{Freezable|{{{Freeze}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Freezable|Freezable]]<nowiki>}}</nowiki></code></noinclude>
 {{#if: {{{FirstVersion|}}} |
  {{!}}-
- {{!}} Status:
- {{!}} {{Version to status cell|{{{FirstVersion}}}}}
+ {{!}} '''Status:'''
+ {{!}} {{Version to status cell|{{{FirstVersion}}}}} {{Version to category|{{{FirstVersion}}}}}
 }}
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]
