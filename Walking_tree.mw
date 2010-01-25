@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=yes
 | Burnable=yes
+| FirstVersion=0.3
 }}
 '''Walking tree''' (sometimes also '''Mr. Tree''') is a [[badguy]] in the [[Forest]]. When jumped on by [[Tux]], breaks into two [[Poison Ivy]] and one [[Stumpy]].
 
