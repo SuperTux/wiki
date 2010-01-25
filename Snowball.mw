@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
+| FirstVersion=0.1
 }}
 '''Snowball''' is a [[badguy]] found in [[Icy Island]]. It will fall off platforms but will turn around when reaching a wall. [[Tux]] can easily handle these badguys by jumping on them, squishing them in the process.
 
