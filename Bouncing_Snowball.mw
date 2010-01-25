@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
+| FirstVersion=0.1
 }}
 '''Bouncing Snowball''' is a [[badguy]] in [[Icy Island]]. He jumps around, possibly hitting [[Tux]] or other badguys.
 
