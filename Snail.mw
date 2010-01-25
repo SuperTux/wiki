@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=yes
 | Burnable=yes
+| FirstVersion=0.3
 }}
 '''Snail''' or '''Slow Snail''' is a [[badguy]] found in the [[Forest]]. When jumped upon, flips over. When flipped over, further jumps on it will kick it around, hurting everything in its way. Dies when [[buttjump]]ed or after being squished for a number of times.
 
