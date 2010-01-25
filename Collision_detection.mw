@@ -10,13 +10,13 @@ We're currently (July 2006) in the process of rewriting some parts of the collis
 We don't do any complicated sweep tests anymore, but simply test the destination positions of objects. When pushing objects out of collisions we also mostly ignore object movement now and simply push the object out of the collision in the shortest way possible. We don't sort collisions by time anymore, but try to resolve all collisions at once. The staged approach of the old system remains though.
 
 === Several Collision Detection Phases ===
-We do collision detection in several phases with different groups of objects with slightly different characteristics each time. Currently defined collision groups:
+We do collision detection in several phases with different groups of [[game object|object]]s with slightly different characteristics each time. Currently defined collision groups:
 
  enum CollisionGroup {
   /** Objects in DISABLED group are not tested for collisions */
   COLGROUP_DISABLED,
   /**
-   * "default" is moving object. MovingObjects get tested against all other
+   * "default" is moving object. [[MovingObject]]s get tested against all other
    * objects and against other movingobjects
    */
   COLGROUP_MOVING,
@@ -26,7 +26,7 @@ We do collision detection in several phases with different groups of objects wit
    */
   COLGROUP_MOVING_ONLY_STATIC,
   /**
-   * Doesn't move and isn't explicitely checked for collisions with other
+   * Doesn't move and isn't explicitly checked for collisions with other
    * objects (but other objects might check with this)
    * The difference to COLGROUP_TOUCHABLE is that we can do multiple
    * collision response tests in a row which is needed for static object
@@ -37,7 +37,7 @@ We do collision detection in several phases with different groups of objects wit
    */
   COLGROUP_STATIC,
   /**
-   * Isn't explicitely checked for collisions with other objects. But other
+   * Isn't explicitly checked for collisions with other objects. But other
    * objects might check with this object.
    * Difference to COLGROUP_STATIC is that collisions with this object are
    * only tested once and collision response is typically not handled
