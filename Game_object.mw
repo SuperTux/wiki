@@ -1,3 +1,5 @@
+:''This page is about the class in the source code. For a list of objects available in the game, see [[Objects]].''
+
 {{Outdated}}
 [[Image:gameobjects2.png|thumb|A diagram illustrating the planned design for the GameObjects]]
 '''GameObject''' is a base class in the ''SuperTux'' source code. It is the most basic class for objects in the game. Nearly everything should inherit from this class, for instance [[badguy]]s, [[crumbling block]]s and [[trampoline]]s. All ''GameObjects'' are stored in a list by the engine.
