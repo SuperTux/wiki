@@ -1,3 +1,11 @@
+[[Image:Flyingsnowball.png|right|Flying Snowball]]
+[[Image:Mrbomb.png|right|Mr. Bomb]]
+A '''badguy''' in ''SuperTux'' is a foe of [[Tux]]. They may not be "bad" in the way that a hedgehog isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like [[Snowball]]s with varying characteristics, but some are more like objects ([[Stalactite]] for example) or phenomena like [[Flame]].
+
+Tux will try to avoid approaching badguys if possible. If he runs into one or one drops on his head, he is hurt. When hurt Tux will lose a ''powerup'' or, if Tux has no powerups left, will be pushed off the screen.
+
+Many of the badguys Tux can knock out by jumping on them and squishing them. Others are only stunned by this for a short while or are insusceptible to this and hurt Tux instead. As a rule of thumb, badguys with a spiky head or helmet can usually not be jumped on. For a list of badguys that can be squished take a look at the [[:Category:Squishable badguys|squishable badguys category]].
+
 == Related Pages ==
 * [[Proposed Badguys]]
 * [[Badguys concept art]]
