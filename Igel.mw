@@ -8,6 +8,7 @@
 | Buttjump=no
 | Freeze=yes
 | Burnable=yes
+| FirstVersion=0.3
 }}
 '''Igel''' is a [[badguy]] in the second world of ''SuperTux'', the [[Forest]]. Igel cannot be squished or [[buttjump]]ed due to its spines but they can be shot with a [[fireflower]] when facing [[Tux]].
 
