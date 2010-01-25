@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=yes
 | Burnable=yes
+| FirstVersion=0.1
 }}
 '''Mr. Bomb''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. When jumped upon, the Mr.&nbsp;Bomb turns into a ticking time-bomb, which hurts [[Tux]] and other badguys nearby. When shot with a [[fireflower]], explodes immediately. When shot with an [[iceflower]], freezes on the spot and becomes portable.
 
