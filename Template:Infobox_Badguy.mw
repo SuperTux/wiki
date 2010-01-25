@@ -28,6 +28,11 @@
 |- valign="top"
   | '''Freezable:'''
   | <includeonly>{{Freezable|{{{Freeze}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Freezable|Freezable]]<nowiki>}}</nowiki></code></noinclude>
+{{#if: {{{FirstVersion|}}} |
+ {{!}}-
+ {{!}} Status:
+ {{!}} {{Version to status cell|{{{FirstVersion}}}}}
+}}
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]
 |}<noinclude>
@@ -45,6 +50,7 @@ For all your copy'n'paste needs :)
  | Buttjump=yes
  | Freeze=no
  | Burnable=yes
+ | FirstVersion=0.3
  <nowiki>}}</nowiki>
 
 == Categories ==
