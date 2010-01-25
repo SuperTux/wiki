@@ -1,0 +1,26 @@
+<includeonly>{{#switch: {{{1|}}}
+ | = <!-- empty is ignored for now -->
+ | 0.1 = [[Category:Version 0.1]]
+ | 0.3 = [[Category:Version 0.3]]
+ | 0.4 = [[Category:Version 0.4]]
+ | default [[Category:Version unknown]]
+}}</includeonly><noinclude>The '''Version to category''' template takes a version number as only argument and puts the including page in an appropriate category.
+
+Currently the following mapping is performed:
+{| border="1"
+! Argument
+! Category
+|-
+| 0.1 || [[:Category:Version 0.1]]
+|-
+| 0.3 || [[:Category:Version 0.3]]
+|-
+| 0.4 || [[:Category:Version 0.4]]
+|}
+
+== Example usage ==
+
+ <nowiki>{{Version to category|0.3}}</nowiki>
+
+[[Category:Templates]]
+</noinclude>
