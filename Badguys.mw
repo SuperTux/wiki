@@ -6,12 +6,11 @@ Tux will try to avoid approaching badguys if possible. If he runs into one or on
 
 Many of the badguys Tux can knock out by jumping on them and squishing them. Others are only stunned by this for a short while or are insusceptible to this and hurt Tux instead. As a rule of thumb, badguys with a spiky head or helmet can usually not be jumped on. For a list of badguys that can be squished take a look at the [[:Category:Squishable badguys|squishable badguys category]].
 
-== Related Pages ==
-* [[Proposed Badguys]]
-* [[Badguys concept art]]
-
 == List of badguys in SuperTux 0.1.3 ==
 {{See also|[[:Category:Badguy.1|Badguy.1 category]]}}
+
+The following badguys are available in the stable 0.1&nbsp;release.
+
 * [[Icy Island]]
 ** [[Bouncing Snowball]]
 ** [[Flame]]
@@ -25,10 +24,12 @@ Many of the badguys Tux can knock out by jumping on them and squishing them. Oth
 
 == List of badguys in 0.3.x versions ==
 {{See also|[[:Category:Badguy.3|Badguy.3 category]]}}
+
+The following badguys have been added in the unstable 0.3&nbsp;release.
+
 * Generic
 ** [[Fish]]
 ** [[Ispy]]
-** [[Mr. Bomb]]
 * [[Icy Island]]
 ** [[Sleeping Spiky]]
 * [[Forest|Light Forest]]
@@ -47,6 +48,9 @@ Many of the badguys Tux can knock out by jumping on them and squishing them. Oth
 
 === Current Badguys included in SVN ===
 :''Note: Some are not used in any levels, and some have incomplete and/or nonexistent code.''
+
+The following graphics are available in the source code repository. They do not necessarily work yet or may not be used in any levels yet. For some of them separate badguy pages should be added.
+
 [[Image:Bouncingsnowball.png|Bouncing Snowball]]
 [[Image:Flame.png|Flame]]
 [[Image:Flyingsnowball.png|Flying Snowball]]
@@ -88,10 +92,15 @@ Many of the badguys Tux can knock out by jumping on them and squishing them. Oth
 [[Image:Waking-left-0.png|Plant]]
 [[Image:FishRed.png|Flame Fish]]
 [[Image:Bombfish.png|Bombfish]]
-
 [[Image:Yeti2.png|Yeti]]
 [[Image:Ghosttree.png|108px|Ghost Tree]]
 [[Image:Jump-1.png|Nolok]]
 
+== See also ==
+
+* [[Proposed Badguys]]
+* [[Badguys concept art]]
+
+[[Category:For Users]]
 [[Category:Design]]
 [[Category:Badguy]]
