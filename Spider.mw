@@ -1,12 +1,15 @@
-[[Image:Spidermite0.png|thumb]]
-Behaviour: Can Walk and Climb (and maybe jump over holes)
+{{Infobox Badguy
+| Name=Spider
+| Image=Spidermite0.png
+| FoundIn=[[Forest]]
+| Appearance=A spider hanging from the ceiling.
+| Behaviour=Moves up and down.
+| Squish=unknown
+| Buttjump=unknown
+| Freeze=unknown
+| Burnable=unknown
+| FirstVersion=0.4
+}}
+'''Spider''' is a [[badguy]] available in SVN. It is themed to appear in the [[Forest]] world but is not (widely) used yet.
 
-Look: A Spider
-
-Hurt Tux: Shoots webs which immobilize Tux
-
-Hurt it: jump or spit
-
-[[Image:Spider.jpg|A concept for the spider]]
-
-[[Category:Badguy]]
+[[Category:Badguy.4]]
