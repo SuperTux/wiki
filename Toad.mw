@@ -8,6 +8,7 @@
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
+| FirstVersion=0.3
 }}
 '''Toad''' is a [[badguy]] found in the [[Forest]]. It follows [[Tux]] by jumping around in large leaps. Can be squished by jumping on it.
 
