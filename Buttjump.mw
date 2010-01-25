@@ -9,7 +9,9 @@ Butt-Jump has the following flow of actions
 # When smashing on the ground wooden boxes will be destroyed
 # It takes Tux a small amount of time to jump back onto his feet to get back to normal
 
-Super-Butt-Jump
+== Proposed action ==
+
+=== Super-Butt-Jump ===
 
 # Player moves Tux to a high position on the map
 # Player jumps from the ledge
