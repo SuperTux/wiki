@@ -8,6 +8,7 @@
 | Buttjump=no
 | Freeze=yes
 | Burnable=no
+| FirstVersion=0.3
 }}
 '''Ispy''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. It is a spying eye looking for the player. When the player can be seen by the eye, i.e. no other badguys or walls are in the way, an action is triggered, for example doors close or bridges are removed.
 
