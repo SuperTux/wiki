@@ -1,12 +1,4 @@
-This article describes worldmap teleportation; for teleportation in a level, see [[Door]] or for automatic teleportation one may use [[Scripting reference|scripting]]:
-<code>
-  (scripttrigger
-    (script "[[ScriptingLevel#Methods|Level.spawn(\"underground\", \"main\");]]")
-    (button #f)
-    ...
-  )
-</code>
-
-Teleporters are used primarily to hide secret levels or to link between islands. Bonus world 1 uses them extensively; navigation is not possible without the use of teleporters. There are currently 2 teleporters in world 1;one is an automatic one to go to [[world 2]], and the other is used to access the bonus level. [[World 2]] currently has only 1 automatic teleporter to go back to [[world 1]].
+:''This page is about the worldmap object. For teleportation in levels see [[Door]] and [[ScriptingLevel|Level (Scripting)]].''
+A '''teleport''' is an [[objects|object]] on [[worldmap]]s that teleports the player to another part of the map. Teleporters are used primarily to hide secret levels or to link between islands. ''Bonus world&nbsp;1'' uses them extensively; navigation is not possible without the use of teleporters. There are currently two teleporters in [[Icy Island]] ''(World&nbsp;1)'';one is an automatic one to go to [[Forest]] ''(World 2)'', and the other is used to access the bonus level. In the ''Forest'' world there currently is only one automatic teleporter to go back to ''Icy Island''.
 
 [[Category:Game Object]]
