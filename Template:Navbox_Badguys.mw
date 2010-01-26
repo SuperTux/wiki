@@ -1,4 +1,5 @@
-{| style="border: 1px solid silver;"
+<div style="clear: both;"></div>
+{| style="border: 1px solid silver; margin-top: 1ex;"
 ! colspan="2" style="background: #901010;" | [[Badguy|<span style="color: white;">Badguys</span>]]
 |-
 | {{Version to status cell|0.1|Version&nbsp;0.1}}
