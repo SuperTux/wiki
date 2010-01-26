@@ -1,59 +1,38 @@
-<div style="clear: both;"></div>
-{| style="border: 1px solid silver; margin-top: 1ex;"
+{| style="border: 1px solid silver;"
 ! colspan="2" style="background: #901010;" | [[Badguy|<span style="color: white;">Badguys</span>]]
 |-
-| {{Version to status cell|0.1|Icyland}}
+| {{Version to status cell|0.1|Version&nbsp;0.1}}
 | <!--
 -->   [[Bouncing Snowball]] <!--
--->   [[Captain Snowball]] <!--
---> · [[Crystallo]] <!--
---> · [[Fish]] <!--
---> · [[Flying Snowball]] <!--
+--> · [[Flame]] <!--
+--> · [[FlyingSnowball]] <!--
 --> · [[Jumpy]] <!--
---> · [[Krush and Krosh]] <!--
+--> · [[Mr. Bomb]] <!--
 --> · [[Mr. IceBlock]] <!--
---> · [[Mrs._IceBlock]] <!--
---> · [[Mrs. Snowball]] <!--
---> · [[Sleeping Spiky]] <!--
---> · [[Snowshot]] <!--
---> · [[Snowman]] <!--
 --> · [[Snowball]] <!--
 --> · [[Spiky]] <!--
 --> · [[Stalactite]]
 |-
-| {{Version to status cell|Milestone 2|Forest world}}
+| {{Version to status cell|0.3|Version&nbsp;0.3}}
 | <!--
-
---> · [[Igel]] <!--
+-->   [[Dispenser]] <!--
+--> · [[Fish]] <!--
 --> · [[Ispy]] <!--
+--> · [[Kugelblitz]] <!--
 --> · [[Mole]] <!--
---> · [[Owl]] <!--
---> · [[Spike]] <!--
---> · [[SkyDive]] <!--
+--> · [[Mr. Rocket]] <!--
 --> · [[Poison Ivy]] <!--
+--> · [[Sleeping Spiky]] <!--
 --> · [[Snail]] <!--
---> · [[Walking leaf]] <!--
+--> · [[Toad]] <!--
+--> · [[Walking totem]] <!--
 --> · [[Walking tree]] <!--
 --> · [[Will-o-wisp]] <!--
---> · [[Zeekling]] <!--
-
- -->
+--> · [[Zeekling]]
 |-
-| {{Version to status cell|Milestone 3|Tropical Island}}
+| {{Version to status cell|0.4|Development}}
 | <!--
---> · [[Spider]] <!--
---> · [[Tikitchokwe]] <!--
---> · [[Toad]] <!--
- -->
-|-
-| style="background-color: #f0f0f0;" | Any world
-| <!--
--->   [[Cannon]] <!--
---> · [[Flame]] (for castle only) <!--
---> · [[Haywire]] <!--
---> · [[Short Fuse]] <!--
---> · [[Mr. Bomb]] <!--
- -->
+-->   [[Captain Snowball]] <!--
+--> · [[Kamikaze Snowball]] <!--
+--> · [[Mrs. Snowball]]
 |}
-[[Category:Badguy]]
-<noinclude>[[Category:Templates]]</noinclude>
