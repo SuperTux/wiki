@@ -28,5 +28,17 @@ An instance named <tt>Level</tt> is available from scripts and the console. ''(N
 
 None
 
+== Example code ==
+
+=== Teleportation ===
+
+The following code teleports the player to [[spawnpoint]] "main" in [[sector]] "underground".
+
+ (scripttrigger
+   (script "Level.spawn(\"underground\", \"main\");]]")
+   (button #f)
+   ...
+ )
+
 {{Navbox Scripting reference}}
 [[Category:Scripting Reference]]
