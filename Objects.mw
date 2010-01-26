@@ -1,3 +1,4 @@
+:''This page lists the available objects in the game. For a description of the ''implementation'' see [[Game object]].''
 '''Objects''' are basically everything [[Tux]] can interact with. One big group of "objects" are the [[badguys]] which are handled on their separate page.
 
 == Available objects ==
