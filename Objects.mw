@@ -68,6 +68,49 @@ The following objects are available in the 0.3.x release or have been committed 
 ** [[Magic Block]]
 ** [[Weak block]]
 
+== Available in ObjectFactory ==
+
+The following objects can actually be generated with ''ObjectFactory'', i.e. from within a level:
+
+* ambient_sound
+* background
+* bicycle-platform
+* bonusblock
+* candle
+* coin
+* decal
+* explosion
+* firefly
+* gradient
+* hurting_platform
+* icecrusher
+* infoblock
+* invisible_wall
+* ispy
+* lantern
+* leveltime
+* magicblock
+* platform
+* pneumatic-platform
+* powerup
+* pushbutton
+* rock
+* scriptedobject
+* skull_tile
+* spotlight
+* thunderstorm
+* tilemap
+* trampoline
+* unstable_tile
+* weak_block
+* wind
+* climbable
+* door
+* scripttrigger
+* secretarea
+* sequencetrigger
+* switch
+
 == Proposed objects ==
 
 The following objects are ''ideas'' that have not yet been implemented.
