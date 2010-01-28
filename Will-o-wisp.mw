@@ -1,3 +1,4 @@
+{{Marked for removal}}
 {{Infobox Badguy
 | Name=Will-o-wisp
 | Image=Willowisp.png
@@ -8,7 +9,7 @@
 | Buttjump=no
 | Freeze=no
 | Burnable=no
-| FirstVersion=0.3
+| FirstVersion=
 }}
 The '''Will-o-wisp''' is a mean little [[badguy]] found in the haunted regions of the [[Forest]]. When [[Tux]] comes close, it will start to follow him slowly. Once it reaches Tux, he will be teleported to another, possibly dangerous part of the level. If Tux manages to get out of reach of the ''Will-o-wisp'', it will stop following him.
 
