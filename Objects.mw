@@ -23,7 +23,6 @@ The following objects are available in the 0.3.x release or have been committed 
 * [[End sequence]]
 * [[Explosion]]
 * [[Falling coin]]
-* [[Firefly]]
 * [[Fireworks]]
 * [[Floating image]] / [[Floating text]]
 * [[Flower]]
@@ -44,6 +43,7 @@ The following objects are available in the 0.3.x release or have been committed 
 ** [[Rain particles]]
 ** [[Snow particles]]
 ** [[Sprite particles]]
+* [[Reset point]] (“Firefly” for some reason)
 * [[Rock]]
 * [[Scripted object]]
 * [[Script trigger]]
