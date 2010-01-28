@@ -1,5 +1,11 @@
 __NOTOC__
 
+= 2010 =
+
+== 2010-01-28 ==
+
+* The ''Milestone 2'' branch has been created. This branch will be used to clean up features and badguys that have been committed to SVN but which are not part of the [[Milestone 2 Design Document]]. The goal is to overcome our current paralysis due to feature creep and, eventually, to create a new release.
+
 = 2009 =
 
 == 2009-11-27 ==
