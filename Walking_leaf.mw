@@ -1,3 +1,4 @@
+{{Marked for removal}}
 {{Infobox Badguy
 | Name=Walking leaf
 | Image=Leaf.png
@@ -8,7 +9,7 @@
 | Buttjump=yes
 | Freeze=unknown
 | Burnable=yes
-| FirstVersion=0.3
+| FirstVersion=
 }}
 '''Walking Leaf''' is a [[badguy]] in the [[Forest]] world. It is a bit smarter than the ordinary badguy because it does not fall off of platforms. The leaf will hurt [[Tux]] on contact and can be killed the usual ways. Since it is more careful, it is walks a bit slower than the average badguy.
 
