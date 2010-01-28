@@ -14,31 +14,34 @@
 --> · [[Spiky]] <!--
 --> · [[Stalactite]]
 |-
-| {{Version to status cell|0.3|Version&nbsp;0.3}}
+| {{Version to status cell|Milestone 2|Milestone&nbsp;2}}
 | <!--
 -->   [[Dispenser]] <!--
 --> · [[Fish]] <!--
+--> · [[Kamikaze Snowball]] <!--
+--> · [[Mrs. Snowball]] <!--
+--> · [[Sleeping Spiky]]
+|-
+| {{Version to status cell|Milestone 3|Milestone&nbsp;3}}
+| <!--
+-->   [[Poison Ivy]] <!--
+--> · [[Snail]] <!--
+--> · [[Spider]] <!--
+--> · [[Walking totem]] <!--
+--> · [[Walking tree]] <!--
+--> · [[Zeekling]]
+|-
+| style="background-color: #f0f0f0;" | Proposed
+| <!--
+-->   [[Captain Snowball]] <!--
 --> · [[Igel]] <!--
 --> · [[Ispy]] <!--
 --> · [[Kugelblitz]] <!--
 --> · [[Mole]] <!--
 --> · [[Mr. Rocket]] <!--
---> · [[Poison Ivy]] <!--
---> · [[Sleeping Spiky]] <!--
---> · [[Snail]] <!--
 --> · [[Toad]] <!--
 --> · [[Walking leaf]] <!--
---> · [[Walking totem]] <!--
---> · [[Walking tree]] <!--
---> · [[Will-o-wisp]] <!--
---> · [[Zeekling]]
-|-
-| {{Version to status cell|0.4|Development}}
-| <!--
--->   [[Captain Snowball]] <!--
---> · [[Kamikaze Snowball]] <!--
---> · [[Mrs. Snowball]] <!--
---> · [[Spider]]
+--> · [[Will-o-wisp]]
 |}
 [[Category:Badguy]]
 <noinclude>[[Category:Templates]]</noinclude>
