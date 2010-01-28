@@ -22,30 +22,41 @@ The following badguys are available in the stable 0.1&nbsp;release.
 ** [[Spiky]]
 ** [[Stalactite]]
 
-== List of badguys in 0.3.x versions ==
-{{See also|[[:Category:Badguy.3|Badguy.3 category]]}}
+== [[Milestone 2]] ==
+{{See also|[[Milestone 2 Design Document/Enemies]]}}
+* [[Crystallo]]
+* [[Dispenser]]
+* [[Fish]]
+* [[Haywire]]
+* [[Kamikaze Snowball]]
+* [[Krush and Krosh]]
+* [[Mrs. Snowball]]
+* [[Owl]]
+* [[Short Fuse]]
+* [[Sleeping Spiky]]
+* [[Snowman]]
+* [[Spike]]
+* [[SkyDive]]
 
-The following badguys have been added in the unstable 0.3&nbsp;release.
+== [[Milestone 3]] ==
+{{Notice Milestone 3}}
+* [[Poison Ivy]]
+* [[Snail]]
+* [[Spider]]
+* [[Walking totem]]
+* [[Walking tree]]
+* [[Zeekling]]
 
-* Generic
-** [[Fish]]
-** [[Ispy]]
-* [[Icy Island]]
-** [[Sleeping Spiky]]
-* [[Forest|Light Forest]]
-** [[Dispenser]]
-** [[Mole]]
-** [[Igel]]
-** [[Mr. Rocket]]
-** [[Poison Ivy]]
-** [[Walking tree]]
-** [[Will-o-wisp]]
-** [[Snail]]
-** [[Toad]]
-** [[Zeekling]]
-** [[Walking totem]]
-* [[Forest|Ghost Forest]]
-** [[Kugelblitz]]
+== Proposed ==
+* [[Captain Snowball]]
+* [[Igel]]
+* [[Ispy]]
+* [[Kugelblitz]]
+* [[Mole]]
+* [[Mr. Rocket]]
+* [[Toad]]
+* [[Walking leaf]]
+* [[Will-o-wisp]]
 
 === Current Badguys included in SVN ===
 :''Note: Some are not used in any levels, and some have incomplete and/or nonexistent code.''
