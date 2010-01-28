@@ -9,7 +9,9 @@
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
+| FirstVersion=Milestone 3
 }}
+:''This [[badguy]] has been removed from the [[Milestone 2]] branch in {{Revision|6280}}.''
 '''Walking totem''' is a [[badguy]] that's not widely used. It may be used in [[Forest]] levels in the future, though.
 
 There is some “stacking” and “carrying” code in the SVN repository, which is probably a preparation for the functionality described below. Currently, only one segment is implemented – layered totems squish the ones below them.
