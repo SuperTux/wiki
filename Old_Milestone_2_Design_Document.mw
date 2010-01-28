@@ -1,3 +1,6 @@
+{{Notice Milestone 3}}
+:''This page described the features that once were planned for ''Milestone&nbsp;2''. However, implementing all this turned out to be impractical. In order to clean up the codebase, much of the features originally described here have been moved to [[Milestone 3 Design Document]]. The current goals for ''Milestone 2'' are documented in [[Milestone 2 Design Document]].''
+
 = About This Page =
 This document is work in progress; when finished, its purpose is to provide a final design paper for SuperTux Milestone 2. General ideas go into their respective areas on the [[game design]] pages. Please '''do not''' change anything on this page that hasn't been discussed and approved by the developers!
 
@@ -133,3 +136,4 @@ Here are some sketches of things explained above.
 [[Image:Worldmap sketch.png]]
 
 [[Category:Design]]
+[[Category:Outdated]]
