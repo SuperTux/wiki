@@ -14,10 +14,10 @@ Multiple tilemaps of each kind may be specified.  You can think of a ''tilemap''
 | Default interactive layer
 |-
 | 50
-| [[Game objects|Objects]] (Coins, badguys, …)
+| <code>LAYER_OBJECTS</code> (default [[Game objects|object]] layer)
 |-
 | 51
-| [[Tux]]
+| [[Tux]], bonus blocks
 |-
 | 100
 | Default foreground layer
