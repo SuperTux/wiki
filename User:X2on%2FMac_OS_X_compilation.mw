@@ -1,0 +1,24 @@
+Work in Progress....
+
+==Prerequisites==
+
+Installing MacPorts [http://www.macports.org/]
+Update MacPorts
+ sudo port selfupdate -d
+
+Install libraries from Macports:
+
+ sudo port install libsdl libsdl_image cmake libvorbis physfs glew boost
+
+==Build SuperTux==
+ svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux
+ cd supertux
+ mkdir build
+ cd build
+ cmake ..
+
+==Resolve issues with missing library==
+ cp /opt/local/lib/libphysfs.2.0.0.dylib libphysfs.1.dylib
+
+==Test SuperTux==
+ ./supertux2
