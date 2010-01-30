@@ -18,7 +18,13 @@ Install libraries from Macports:
  cmake ..
 
 ==Resolve issues with missing library==
+ cd ..
  cp /opt/local/lib/libphysfs.2.0.0.dylib libphysfs.1.dylib
 
 ==Test SuperTux==
  ./supertux2
+
+==Create SuperTux.app==
+ cd build
+ sudo make install
+ sudo mv /usr/local/SuperTux.app ../
