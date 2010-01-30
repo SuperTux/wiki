@@ -7,7 +7,9 @@ Supertux development mainly happens on Linux. The source code is written in a po
 
 = Mac OS X =
 
-[[User:RavuAlHemio|Ravu al Hemio]] has written a [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for Mac OS X Tiger users on building SuperTux.
+[[User:RavuAlHemio|Ravu al Hemio]] has written a [[User:RavuAlHemio/Mac_OS_X_compilation|guide]] for Mac OS X Tiger users on building SuperTux <=0.3.1.
+
+[[User:x2on|x2on]] writes a [[User:x2on/Mac_OS_X_compilation|guide]] for Mac OS X Snow Leopard users on building SuperTux >=0.3.2 SVN.
 
 = Prerequisites =
 
