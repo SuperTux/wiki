@@ -1,0 +1,37 @@
+{{Attention|s=If you have anything to add, just click the "Edit" link and add some text}}
+
+== Discussion ==
+
+* (Unstable) release - soon (hopefully)
+* WIP Google Code move
+** Repository is synced up to latest version by grumbel
+** SVN dumps are different for some reason (format change?)
+** Still left: binary downloads, 0.3.1, bug tracker, wiki, etc. (decide which we want)
+* Remove milestone 3 badguys so they stop cluttering up source tree? (would make World 2 unplayable) 
+* http://pingus.seul.org/~grumbel/tmp/md5/6794925041b61bdc5a941a5640914188-supertux-carry.png
+** Small tux should not be able to go through 1-tile tall tunnels when carrying stuff (not that there should be any 1-tile tunnels in levels)
+** Requires extending the hitbox
+** Held item is not a shield (whereas it is in SMW3)
+* Scons - remove completely (unsupported, debug build only)
+* Semi-anonymous contributions (email/nick but no real name)
+* Move external libraries out of tree and require them on the system itself (distro support?)
+* Source code cleanup
+** Split physics, drawing, etc. apart
+** Which design pattern to use?
+** Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, ...)
+* Bug tracker workflow
+** Still some bugs with patches floating around (either commit them or close as won't fix)
+** Feedback is for requesting feedback or for stating that feedback has been given?
+
+* Forest world is canceled? All we need are some ghost forest tiles/levels/badguys...
+
+== Things to do ==
+
+* Fix bugs / things you don't like
+* Make certain game is fun
+* Update wiki pages (clean up design documents)
+* New levels
+* Enemies (bombfish, snowman, ninja snowball, forest enemies such as owl/zeekling...)
+** Boss levels need lots of work (tree boss is confusing, totem pole is a piece of #@%&$, all are way too easy if you just stand in a corner)
+* Expand levels to 25 tiles tall (max resolution is now 1280x800)
+* Make certain camera/levels allow playing reasonably at 640x480 (min resolution)
