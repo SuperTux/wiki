@@ -15,6 +15,7 @@
 * Scons - remove completely (unsupported, debug build only)
 * Semi-anonymous contributions (email/nick but no real name)
 * Move external libraries out of tree and require them on the system itself (distro support?)
+** tinygettext: [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-required.patch supertux-r6306-tinygettext-external-required.patch] or [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-automagic.patch supertux-r6306-tinygettext-external-automagic.patch]
 * Source code cleanup
 ** Split physics, drawing, etc. apart
 ** Which design pattern to use?
