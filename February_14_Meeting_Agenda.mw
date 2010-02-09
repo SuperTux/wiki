@@ -2,29 +2,35 @@
 
 == Discussion ==
 
-* (Unstable) release - soon (hopefully)
-* WIP Google Code move
-** Repository is synced up to latest version by grumbel
-** SVN dumps are different for some reason (format change?)
-** Still left: binary downloads, 0.3.1, bug tracker, wiki, etc. (decide which we want)
-* Remove milestone 3 badguys so they stop cluttering up source tree? (would make World 2 unplayable) 
-* http://pingus.seul.org/~grumbel/tmp/md5/6794925041b61bdc5a941a5640914188-supertux-carry.png
-** Small tux should not be able to go through 1-tile tall tunnels when carrying stuff (not that there should be any 1-tile tunnels in levels)
-** Requires extending the hitbox
-** Held item is not a shield (whereas it is in SMW3)
-* Scons - remove completely (unsupported, debug build only)
-* Semi-anonymous contributions (email/nick but no real name)
-* Move external libraries out of tree and require them on the system itself (distro support?)
-** tinygettext: [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-required.patch supertux-r6306-tinygettext-external-required.patch] or [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-automagic.patch supertux-r6306-tinygettext-external-automagic.patch]
-* Source code cleanup
-** Split physics, drawing, etc. apart
-** Which design pattern to use?
-** Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, ...)
-* Bug tracker workflow
-** Still some bugs with patches floating around (either commit them or close as won't fix)
-** Feedback is for requesting feedback or for stating that feedback has been given?
-
-* Forest world is canceled? All we need are some ghost forest tiles/levels/badguys...
+# Project management
+#* (Unstable) Release
+#** Yes or no? – What features? When?
+#*** Do we remove the [[Forest]] world or rather implement the ''ghost forest'' tiles/levels/badguys…
+#*** Remove [[Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
+#* Google Code move
+#** Work in progress
+#** Repository is synced up to latest version by [[User:Grumbel|grumbel]]
+#** SVN dumps are different for some reason (format change?)
+#** Still left: binary downloads, 0.3.1, bug tracker, wiki, etc. (decide which we want)
+#* Semi-anonymous contributions (email/nick but no real name)
+#* Bug tracker workflow
+#** Still some bugs with patches floating around (either commit them or close as won't fix)
+#** Feedback is for requesting feedback or for stating that feedback has been given?
+# Gameplay
+#* Carrying objects
+#** [http://pingus.seul.org/~grumbel/tmp/md5/6794925041b61bdc5a941a5640914188-supertux-carry.png Proposed behavior]
+#** Small Tux should not be able to go through 1-tile tall tunnels when carrying stuff
+#*** Requires extending the hitbox
+#** Should held items function as a shield? (They do in SMW3)
+#** Prority? (I.e.: Should this go into the next release or is this something that can wait?)
+# Source code
+#* SCons
+#** Keep or remove completely? (unsupported, debug build only)
+#* Move external libraries out of tree and require them on the system itself (distro support?)
+#** tinygettext: [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-required.patch supertux-r6306-tinygettext-external-required.patch] or [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-automagic.patch supertux-r6306-tinygettext-external-automagic.patch]
+#* Split physics, drawing, etc. apart
+#** Which design pattern to use?
+#* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
 
 == Things to do ==
 
