@@ -6,7 +6,7 @@
 #* (Unstable) Release
 #** Yes or no? – What features? When?
 #*** Do we remove the [[Forest]] world or rather implement the ''ghost forest'' tiles/levels/badguys…
-#*** Remove [[Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
+#*** Remove [[:Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
 #* Google Code move
 #** Work in progress
 #** Repository is synced up to latest version by [[User:Grumbel|grumbel]]
