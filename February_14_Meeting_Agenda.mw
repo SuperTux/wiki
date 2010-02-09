@@ -42,3 +42,5 @@
 ** Boss levels need lots of work (tree boss is confusing, totem pole is a piece of #@%&$, all are way too easy if you just stand in a corner)
 * Expand levels to 25 tiles tall (max resolution is now 1280x800)
 * Make certain camera/levels allow playing reasonably at 640x480 (min resolution)
+
+[[Category:Development]]
