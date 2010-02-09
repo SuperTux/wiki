@@ -31,6 +31,7 @@
 #* Split physics, drawing, etc. apart
 #** Which design pattern to use?
 #* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
+# Next meeting date and time
 
 == Things to do ==
 
