@@ -50,3 +50,5 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-02-09: "Village in the Forest": When pulling the switch, the sleeping spiky disappears as the camera pans.  Maybe a deactivation issue.
 
 * 2010-02-09: "Kneep-deep in the Depth" should not have an end sequence trigger, for consistency with the other key levels.
+
+* 2010-02-09: "Treasure in the skies": Climbable area extends into thin air.
