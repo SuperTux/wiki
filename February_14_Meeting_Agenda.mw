@@ -8,6 +8,7 @@
 #*** Do we remove the [[Forest]] world or rather implement the ''ghost forest'' tiles/levels/badguys…
 #*** Remove [[:Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
 #* Google Code move
+#** Grumbel wants to move SVN to Google Code for the merge tracking feature [http://lists.lethargik.org/private.cgi/supertux-team-lethargik.org/2010-February/000216.html]
 #** Work in progress
 #** Repository is synced up to latest version by [[User:Grumbel|grumbel]]
 #** SVN dumps are different for some reason (format change?)
