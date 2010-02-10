@@ -15,7 +15,7 @@
 #* Semi-anonymous contributions (email/nick but no real name)
 #* Bug tracker workflow
 #** Still some bugs with patches floating around (either commit them or close as won't fix)
-#** Feedback is for requesting feedback or for stating that feedback has been given?
+#** Feedback is for requesting feedback or for stating that feedback has been given? [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-February/002737.html]
 # Gameplay
 #* Carrying objects
 #** [http://pingus.seul.org/~grumbel/tmp/md5/6794925041b61bdc5a941a5640914188-supertux-carry.png Proposed behavior]
