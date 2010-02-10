@@ -1,0 +1,48 @@
+This is a list of potential bugs in SuperTux that I have noticed but have not taken the time to properly report.  I'm publishing it here for the sake of open development.
+
+See also the patches at https://mattmccutchen.net/private/supertux.git/ .
+
+* 2009-12-28: Coins in 1-tile gaps are collected inconsistently in Boney.M Mega Mix.  Maybe another issue with floating point error vs. x coordinate?
+
+* 2010-01-02: After setting magnification to 125% and entering and aborting a level,  options menu incorrectly shows magnification as auto.
+** OptionsMenu constructor is not selecting existing values.  (Resolution too?)
+
+* 2010-01-11: Key levels should do statistics just like other levels, and maybe invincibility too to be safe.
+
+* 2010-01-11: Integer screen coordinates
+
+* 2010-01-11: What is the aspect ratio control supposed to do?  Values other than "auto" produce a display ridiculously stretched horizontally.  I guess we want 2880:900.  But why, when the window is smaller???
+
+* 2010-01-21: Everything in the collision detection torture test
+
+* 2010-01-21: Shrink tilemaps to size
+
+* 2010-01-22: Editor: Bad handling of dithered editor-images when zoomed out.  Need to average.
+
+* 2010-01-22: Memory leaks...
+
+* 2010-01-23: Position of "Best Level Statistics" in worldmap does not update correctly on window resize.
+
+* 2010-01-24: Not sure I like the new behavior where ice blocks and snails die immediately when stomped with invincibility.
+
+* 2010-01-24: "Short Visit to El Castillo": Upper dart trap is not operating.  Intentional?
+
+* 2010-01-24: Editor: Clicking eye field of unfocused layer in the list cycles the visibility right away for a visible tilemap, not otherwise.  Inconsistent.
+
+* 2010-01-27: Badguys getting stuck on slopes against walls in the second sector of "A Village in the Forest".
+
+* 2010-01-28: Big/small Tux seems to affect position of worldmap character but not size.  That's weird.
+
+* 2010-01-28: jump_early_apex happening during buttjumps.
+
+* 2010-01-28: In "Find the Bigger Fish", under the pipe in the lower sector, why does the wind appear to make my low jumps /lower/?
+
+* 2010-01-31: Editor: Typing ".3" in path node time, 0 is inserted automatically.  Distracting and mispositions cursor.  Validate on blur?
+
+* 2010-01-31: Editor: Crash when right-clicking a tilemap in the list after resizing it.  Partially known issue?
+
+* 2010-01-31: Cannot have objects controlled by fix_old_tiles on a moving tilemap.
+
+* 2010-02-09: In the beginning of one of the "moo" levels, a snowball's sprite is not set correctly when it is dying.
+
+* 2010-02-09: In some forest levels, a zeekling killed exactly at ground level will sit in place for a few seconds with the original sprite.  Seen twice, may be hard to reproduce.
