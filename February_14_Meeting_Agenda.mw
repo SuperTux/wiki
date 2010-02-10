@@ -21,6 +21,7 @@
 #** [http://pingus.seul.org/~grumbel/tmp/md5/6794925041b61bdc5a941a5640914188-supertux-carry.png Proposed behavior]
 #** Small Tux should not be able to go through 1-tile tall tunnels when carrying stuff
 #*** Requires extending the hitbox
+#**** That would hurt Tux when walking under a hurting tile 1 unit off the ground, which is wrong - [[User:Mattmccutchen|Mattmccutchen]]
 #** Should held items function as a shield? (They do in SMW3)
 #** Prority? (I.e.: Should this go into the next release or is this something that can wait?)
 # Source code
