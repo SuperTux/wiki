@@ -46,3 +46,7 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-02-09: In the beginning of one of the "moo" levels, a snowball's sprite is not set correctly when it is dying.
 
 * 2010-02-09: In some forest levels, a zeekling killed exactly at ground level will sit in place for a few seconds with the original sprite.  Seen twice, may be hard to reproduce.
+
+* 2010-02-09: "Village in the Forest": When pulling the switch, the sleeping spiky disappears as the camera pans.  Maybe a deactivation issue.
+
+* 2010-02-09: "Kneep-deep in the Depth" should not have an end sequence trigger, for consistency with the other key levels.
