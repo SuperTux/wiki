@@ -1092,16 +1092,12 @@ Hey I saw you Respond to my merchant! I've got an idea: for invisible... maybe y
 
 I think that for a final boss that Nolok could transform into something really powerful, but those ideas are kindof.... strange. [[User:UltraTux|UltraTux]] 21:00, 16 August 2009 (UTC)
 
-
-[[Category:Design]]
-[[Category:For Users]]
-
-== Ipod touch? ==
+=== Ipod touch? ===
 
 What about a version for iPod touch/iPhone. 
 I have no idea if this is possible, just a suggestion.
 
-== Planet Map? ==
+=== Planet Map? ===
 
 To add a sense of proper geography to the game, after you defeat a world's boss, you could be given a brief cutscene of the game's entire world, with a little Tux icon shown moving between the "Worlds." Antarctica would be at the very bottom, of course. And this would alleviate a little bit of the "Forest World is a little bit east of Antarctica" stress in the back of my mind every time I play. (Sorry to sound nitpicky.) --[[User:Mr Eyeball|Mr Eyeball]] 18:27, 11 October 2009 (UTC)
 
@@ -1111,7 +1107,7 @@ Maybe, just like mario there would be a shop And what ever you brought would app
 In the gadget with a thing that says "click here" And whenever you clicked on that the next 
 box you searched would be the thing that you brought. [[User:Crazypenguin|Crazypenguin
 
-== Complaints! ==
+=== Complaints! ===
 
 I guess I'll start this section for us all to post our own "Grumbel Grumbles" about the current version. My main complaint would probably be the types of levels in the Forest World. It seems to me that ALL of the levels in there contain a gimmick which is never to be found again. "Bouncy Coils" is the only level to contain the coils. "Crumbling Path" introduces the crumble blocks, which are never seen again. "Tux the Builder" has building blocks which are also never seen again. Call me spoiled, but I'd like to see some more just-plain-levels (Like "Welcome to the Forest") when Milestone 2 is finally released. --[[User:Mr Eyeball|Mr Eyeball]] 21:59, 24 October 2009 (UTC)
 *One more thing: Just because it's the Forest World, doesn't mean that there have to be ONLY forest levels included in there. The Mario series has Grassland Levels in the Sky World, Sky Levels in the Forest World, Volcano Levels in the Grassland World, etc. After 23 levels of ''only''forest, I got a little bored of the theme. You might say the novelty wore off. I'd also like to see certain enemies (Like the Goomba in Mario) that appear in every world. And I think the castles in each world should have the same (or somewhat similar) tileset to add a sense of uniformity to Nolok's designs. --[[User:Mr Eyeball|Mr Eyeball]] 22:03, 24 October 2009 (UTC)
@@ -1120,10 +1116,17 @@ I guess I'll start this section for us all to post our own "Grumbel Grumbles" ab
 [[Image:Castle-lava.jpg]]
 The mere thought of glowy light-effect lava like that makes me drool. I hope somebody figures out some way to implement that in the near future. --[[User:Mr Eyeball|Mr Eyeball]] 06:03, 2 November 2009 (UTC)
 
-== Keys and Locks and Secret Levels ==
+=== Keys and Locks and Secret Levels ===
 
 I think it would be awesome if there were keys, locks, and secret levels in SuperTux like in Super Mario World.
 
-== Ideas ==
+=== Ideas ===
 
 Maybe we could have big coins you could collect (like New Super Mario Bros Wii.), and unlock a bonus World (World 9 in NSMB Wii).
+
+=== Graphical help ===
+
+The current help in ''Welcome to Antarctica'' is mostly text-based. To enable players without reading skills to understand the information, I propose replacing the textual info screens with graphical ones. I have created a few mockups (heavily inspired by chemical formulae): [[:Image:GraphicalHelpMockup-bonusblock.png|bonus block]], [[:Image:GraphicalHelpMockup-fireflower.png|fire flower]], [[:Image:GraphicalHelpMockup-checkpoint.png|checkpoint]]
+
+[[Category:Design]]
+[[Category:For Users]]
