@@ -4,6 +4,9 @@
 
 # Project management
 #* (Unstable) Release
+#** What needs to be changed to get the engine stable?
+#*** physics, collision detection?
+#*** Tux's behaviour, running, controls?
 #** Yes or no? – What features? When?
 #*** Do we remove the [[Forest]] world or rather implement the ''ghost forest'' tiles/levels/badguys…
 #*** Remove [[:Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
@@ -28,7 +31,7 @@
 # Source code
 #* SCons
 #** Keep or remove completely? (unsupported, debug build only)
-#* Move external libraries out of tree and require them on the system itself (distro support?)
+#* Move external libraries out of tree and require them on the system itself (distro support? Windows?)
 #** tinygettext: [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-required.patch supertux-r6306-tinygettext-external-required.patch] or [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-automagic.patch supertux-r6306-tinygettext-external-automagic.patch]
 #* Split physics, drawing, etc. apart
 #** Which design pattern to use?
