@@ -16,6 +16,7 @@
 #** Work in progress
 #** Repository is synced up to latest version by [[User:Grumbel|grumbel]]
 #** SVN dumps are different for some reason (format change?)
+#** svn switch, --force, --relocate doesn't work
 #** Still left: binary downloads, 0.3.1, bug tracker, wiki, etc. (decide which we want)
 #* Semi-anonymous contributions (email/nick but no real name)
 #* Bug tracker workflow
