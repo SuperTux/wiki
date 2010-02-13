@@ -11,6 +11,10 @@
 #** Yes or no? – What features? When?
 #*** Do we remove the [[Forest]] world or rather implement the ''ghost forest'' tiles/levels/badguys…
 #*** Remove [[:Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
+#* licenses again :-( 
+#** Is everything up to date on [[DataFiles]]?
+#** What about (contributed) levels? 
+#** Add the information in SVN and find a way to keep it up to date.
 #* Google Code move
 #** Grumbel wants to move SVN to Google Code for the merge tracking feature [http://lists.lethargik.org/private.cgi/supertux-team-lethargik.org/2010-February/000216.html]
 #** Work in progress
