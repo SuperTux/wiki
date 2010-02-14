@@ -45,8 +45,8 @@ The following are topics we would like to discuss. Since it's unlikely we can ad
 #* Autoscroll camera
 #** How do we solve {{Bug|475}}?
 # Source code
-#* SCons
-#** Keep or remove completely? (unsupported, debug build only)
+#* <strike>SCons</strike>
+#** <strike>Keep or remove completely? (unsupported, debug build only)</strike> scons is now in a local git repo on Grumbels computer
 #* Move external libraries out of tree and require them on the system itself (distro support? Windows?)
 #** tinygettext: [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-required.patch supertux-r6306-tinygettext-external-required.patch] or [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-automagic.patch supertux-r6306-tinygettext-external-automagic.patch]
 #* Split physics, drawing, etc. apart
