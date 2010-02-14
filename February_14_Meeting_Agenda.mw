@@ -5,36 +5,12 @@ The '''next developer's meeting''' will be held on ''Sunday, February&nbsp;14<su
 The following are topics we would like to discuss. Since it's unlikely we can address all the below issue, we probably will postpone some issues for a later meeting.
 
 == Discussion ==
-# Who is who?
-#* IRC user name to SVN user name mapping?
+
 # Project management
 #* (Unstable) Release
-#** Building as release crashes due to -O3
-#** What needs to be changed to get the engine stable?
-#*** physics, collision detection?
-#*** Tux's behaviour, running, controls?
-#** Yes or no? – What features? When?
-#*** Do we remove the [[Forest]] world or rather implement the ''ghost forest'' tiles/levels/badguys…
-#*** Remove [[:Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
-#* licenses again :-( 
-#** Is everything up to date on [[DataFiles]]?
-#** What about (contributed) levels?
-#*** There are currently 119 levels in SVN that do not specify a license (including test levels).
-#** Add the information in SVN and find a way to keep it up to date.
-#* Google Code move
-#** Grumbel wants to move SVN to Google Code for the merge tracking feature [http://lists.lethargik.org/private.cgi/supertux-team-lethargik.org/2010-February/000216.html]
-#** Work in progress
-#** Repository is synced up to latest version by [[User:Grumbel|grumbel]]
-#** SVN dumps are different for some reason (format change?)
-#** svn switch, --force, --relocate doesn't work
-#** Still left: binary downloads, 0.3.1, bug tracker, wiki, etc. (decide which we want)
-#* Semi-anonymous contributions (email/nick but no real name)
-#* Bug tracker workflow
-#** Still some bugs with patches floating around (either commit them or close as won't fix)
-#** Feedback is for requesting feedback or for stating that feedback has been given? {{Bug|580}}
+#** Licenses of data files: Status of tracking down the original authors. 
 # Gameplay
-#* Critique new levels - [[Yeti]], Above the Arctic Skies
-#** Too hard? Too easy?
+#* Feedback for the [[Yeti]] [[Above the Arctic Skies]] levels.
 #* Carrying objects
 #** [http://pingus.seul.org/~grumbel/tmp/md5/6794925041b61bdc5a941a5640914188-supertux-carry.png Proposed behavior]
 #** Small Tux should not be able to go through 1-tile tall tunnels when carrying stuff
@@ -42,11 +18,7 @@ The following are topics we would like to discuss. Since it's unlikely we can ad
 #**** That would hurt Tux when walking under a hurting tile 1 unit off the ground, which is wrong - [[User:Mattmccutchen|Mattmccutchen]]
 #** Should held items function as a shield? (They do in SMW3)
 #** Prority? (I.e.: Should this go into the next release or is this something that can wait?)
-#* Autoscroll camera
-#** How do we solve {{Bug|475}}?
 # Source code
-#* <strike>SCons</strike>
-#** <strike>Keep or remove completely? (unsupported, debug build only)</strike> scons is now in a local git repo on Grumbels computer
 #* Move external libraries out of tree and require them on the system itself (distro support? Windows?)
 #** tinygettext: [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-required.patch supertux-r6306-tinygettext-external-required.patch] or [http://ohnopub.net/~ohnobinki/tmp/supertux-r6306-tinygettext-external-automagic.patch supertux-r6306-tinygettext-external-automagic.patch]
 #* Split physics, drawing, etc. apart
@@ -56,6 +28,7 @@ The following are topics we would like to discuss. Since it's unlikely we can ad
 
 == Things to do ==
 
+* Document the license of data files in a file named <code>AUTHORS</code> or <code>CONTRIBUTORS</code>
 * Fix bugs / things you don't like
 * Make certain game is fun
 * Update wiki pages (clean up design documents)
