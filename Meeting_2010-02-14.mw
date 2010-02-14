@@ -7,6 +7,21 @@ Present were:
 
 == Minutes ==
 
-''To do''
+# Who is who?
+# Project management
+#* (Unstable) Release
+#* licenses again :-( 
+#* Google Code move
+#* Semi-anonymous contributions (email/nick but no real name)
+#* Bug tracker workflow
+# Gameplay
+#* Carrying objects
+#* Autoscroll camera
+# Source code
+#* SCons
+#* Move external libraries out of tree and require them on the system itself (distro support? Windows?)
+#* Split physics, drawing, etc. apart
+#* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
+# Next meeting date and time
 
 [[Category:Development]]
