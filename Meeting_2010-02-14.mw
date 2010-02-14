@@ -23,6 +23,7 @@ Present were:
 ** ''grumbel'' suggested to move files with unknown license to a <code>non-free/</code> folder.
 ** ''octo's'' alternative would be to remove all files and announce to the mailing list that the authors should contact us with licensing information to have them included again.
 ** The author of a file can be determined from the SVN log and/or the mailing list archives.
+** The information should be made available in an <code>AUTHORS</code> file which should be included in a release tarball.
 * Google Code move
 * Semi-anonymous contributions (email/nick but no real name)
 * Bug tracker workflow ({{Bug|580}})
