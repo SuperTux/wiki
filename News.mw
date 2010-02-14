@@ -2,6 +2,11 @@ __NOTOC__
 
 = 2010 =
 
+
+== 2010-02-14 ==
+
+* The next ''developer's meeting'' will be held on ''Sunday, February&nbsp;14<sup>th</sup>'' starting at ''18:00&nbsp;UCT''. Anybody interested in ''SuperTux'' is invited to participate. More information is available on the [[Next Meeting Agenda]] page.
+
 == 2010-01-28 ==
 
 * The ''Milestone 2'' branch has been created. This branch will be used to clean up features and badguys that have been committed to SVN but which are not part of the [[Milestone 2 Design Document]]. The goal is to overcome our current paralysis due to feature creep and, eventually, to create a new release.
