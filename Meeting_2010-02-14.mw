@@ -49,12 +49,10 @@ Present were:
 ** ''Mathnerd314'' would like feedback on levels 13 and 27 of [[Icy Island]].
 * Carrying objects
 ** Postponed for next meeting
-* Autoscroll camera
+* Autoscroll camera ({{Bug|475}})
 ** Majority voted for "remove autoscolling altogether".
 ** It is unclear, how scripted camera, cut scenes and so forth are effected.
 ** It's possible removing autoscolling makes it possible to remove some hacks.
-
-
 
 === Next meeting date and time ===
 
