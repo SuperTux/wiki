@@ -18,7 +18,10 @@ Present were:
 ** ''Mathnerd314'': Release as-is
 ** ''WolfgangB'': Take care of the license of data files, then release
 ** ''octo'': Release as-is
+** ''grumbel'': Against a release
 * Licenses of data files ({{Bug|578}})
+** ''grumbel'' suggested to move files with unknown license to a <code>non-free/</code> folder.
+** ''octo's'' alternative would be to remove all files and announce to the mailing list that the authors should contact us with licensing information to have them included again.
 * Google Code move
 * Semi-anonymous contributions (email/nick but no real name)
 * Bug tracker workflow ({{Bug|580}})
