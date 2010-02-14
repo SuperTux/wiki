@@ -20,7 +20,7 @@ Present were:
 
 * (Unstable) Release
 ** ''Mathnerd314'': Release as-is
-** ''WolfgangB'': Take care of the license of data files, then release
+** ''WolfgangB'': Take care of the license of data files first, stable release ASP
 ** ''octo'': Release as-is
 ** ''grumbel'': Against a release
 * Licenses of data files ({{Bug|578}})
