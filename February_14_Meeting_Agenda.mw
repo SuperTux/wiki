@@ -34,6 +34,8 @@
 #**** That would hurt Tux when walking under a hurting tile 1 unit off the ground, which is wrong - [[User:Mattmccutchen|Mattmccutchen]]
 #** Should held items function as a shield? (They do in SMW3)
 #** Prority? (I.e.: Should this go into the next release or is this something that can wait?)
+#* Autoscroll camera
+#** How do we solve {{Bug|475}}?
 # Source code
 #* SCons
 #** Keep or remove completely? (unsupported, debug build only)
