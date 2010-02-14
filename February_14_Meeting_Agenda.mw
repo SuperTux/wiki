@@ -28,7 +28,7 @@ The following are topics we would like to discuss. Since it's possible that we c
 
 == Things to do ==
 
-* Document the license of data files in a file named <code>AUTHORS</code> or <code>CONTRIBUTORS</code>
+* Document the license of data files in a file named <code>AUTHORS</code> or <code>CONTRIBUTORS</code>. See also: {{Bug|578}}.
 * Fix bugs / things you don't like
 * Make certain game is fun
 * Update wiki pages (clean up design documents)
