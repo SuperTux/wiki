@@ -1,60 +1,12 @@
 The '''2010-02-14 meeting''' was held on ''Sunday, February&nbsp;14<sup>th</sup>'' at ''18:00&nbsp;UCT'' on IRC.
 
 Present were:
-* MMlosh
-* [[User:WolfgangB|WolfgangB]]
-* [[User:Mathnerd314|Mathnerd314]]
-* christoph_
-* [[User:Grumbel|grumbel]]
-* [[User:Octo|octo]]
-* Auria
-* [[User:Ohnobinki|ohnobinki]] (late)
-* [[User:Mattmccutchen|mattmccutchen]] (late)
+* foo
+* bar
+* baz
 
 == Minutes ==
 
-=== Project management ===
-
-* (Unstable) Release
-** ''Mathnerd314'': Release as-is
-** ''WolfgangB'': Take care of the license of data files first, stable release ASP
-** ''octo'': Release as-is
-** ''grumbel'': Against a release
-* Licenses of data files ({{Bug|578}})
-** ''grumbel'' suggested to move files with unknown license to a <code>non-free/</code> folder.
-** ''octo's'' alternative would be to remove all files and announce to the mailing list that the authors should contact us with licensing information to have them included again.
-** The author of a file can be determined from the [[DataFiles]], SVN log and/or the mailing list archives.
-** The information should be made available in an <code>AUTHORS</code> file which should be included in a release tarball.
-** Some sound files already do have a SVN property with licensing information.
-* Semi-anonymous contributions (email/nick but no real name)
-** Contributions with just a nick name are fine. Since nobody knew what there was to discuss, the matter has been dismissed.
-** An email address would be nice to have, though.
-* Google Code move
-** Using Google's bug tracker is the main point of the move.
-** Nobody likes Mantis, so some people suggested to move the bug tracker to Google, too.
-** Transition scripts Mantis -> Google are not available yet.
-** The proposed transition is to use Google's bug tracker for bugs related to new releases only.
-** The new bug tracker should be ready to use for the next ''stable'' release.
-** The tarballs of new releases will likely be hosted there. 
-* Bug tracker workflow ({{Bug|580}})
-** In favor of "feedback" means "requires feedback": ''Mathnerd314''
-** In favor of "feedback" means "has feedback": ''octo'', ''MMlosh''
-** ''grumbel:'' Don't use "feedback"
-
-=== Gameplay ===
-
-* Changed levels
-** ''Mathnerd314'' would like feedback on levels 13 (Above the Arctic Skies) and 27 (No More Mr Ice Guy) of [[Icy Island]].
-** [[SuperTux:Community Discussion#No More Mr. Ice Guy Level Difficulty]]
-* Carrying objects
-** Postponed for next meeting
-* Autoscroll camera ({{Bug|475}})
-** Majority voted for "remove autoscolling altogether".
-** It is unclear, how scripted camera, cut scenes and so forth are effected.
-** It's possible removing autoscolling makes it possible to remove some hacks.
-
-=== Next meeting date and time ===
-
-* The next meeting is scheduled for ''Saturday, February&nbsp;20<sup>th</sup>'', at ''15:00&nbsp;UCT''.
+''To do''
 
 [[Category:Development]]
