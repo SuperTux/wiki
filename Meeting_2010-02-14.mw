@@ -34,6 +34,7 @@ Present were:
 ** Nobody likes Mantis, so some people suggested to move the bug tracker to Google, too.
 ** Transition scripts Mantis -> Google are not available yet.
 ** The proposed transition is to use Google's bug tracker for bugs related to new releases only.
+** The new bug tracker should be ready to use for the next ''stable'' release.
 * Bug tracker workflow ({{Bug|580}})
 
 === Gameplay ===
