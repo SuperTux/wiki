@@ -26,8 +26,9 @@ Present were:
 ** The author of a file can be determined from the [[DataFiles]], SVN log and/or the mailing list archives.
 ** The information should be made available in an <code>AUTHORS</code> file which should be included in a release tarball.
 ** Some sound files already do have a SVN property with licensing information.
-* Google Code move
 * Semi-anonymous contributions (email/nick but no real name)
+** Contributions with just a nick name are fine. Since nobody knew what there was to discuss, the matter has been dismissed.
+* Google Code move
 * Bug tracker workflow ({{Bug|580}})
 
 === Gameplay ===
