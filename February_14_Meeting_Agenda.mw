@@ -9,6 +9,7 @@ The following are topics we would like to discuss. Since it's unlikely we can ad
 #* IRC user name to SVN user name mapping?
 # Project management
 #* (Unstable) Release
+#** Building as release crashes due to -O3
 #** What needs to be changed to get the engine stable?
 #*** physics, collision detection?
 #*** Tux's behaviour, running, controls?
@@ -32,6 +33,8 @@ The following are topics we would like to discuss. Since it's unlikely we can ad
 #** Still some bugs with patches floating around (either commit them or close as won't fix)
 #** Feedback is for requesting feedback or for stating that feedback has been given? {{Bug|580}}
 # Gameplay
+#* Critique new levels - [[Yeti]], Above the Arctic Skies
+#** Too hard? Too easy?
 #* Carrying objects
 #** [http://pingus.seul.org/~grumbel/tmp/md5/6794925041b61bdc5a941a5640914188-supertux-carry.png Proposed behavior]
 #** Small Tux should not be able to go through 1-tile tall tunnels when carrying stuff
