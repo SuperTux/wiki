@@ -10,7 +10,7 @@ Present were:
 # Who is who?
 # Project management
 #* (Unstable) Release
-#* licenses again :-( 
+#* Licenses of data files ({{Bug|578}}))
 #* Google Code move
 #* Semi-anonymous contributions (email/nick but no real name)
 #* Bug tracker workflow
@@ -19,9 +19,9 @@ Present were:
 #* Autoscroll camera
 # Source code
 #* SCons
-#* Move external libraries out of tree and require them on the system itself (distro support? Windows?)
+#* External libraries
 #* Split physics, drawing, etc. apart
-#* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
+#* Change object constants without recompiling
 # Next meeting date and time
 
 [[Category:Development]]
