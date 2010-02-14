@@ -54,12 +54,7 @@ Present were:
 ** It is unclear, how scripted camera, cut scenes and so forth are effected.
 ** It's possible removing autoscolling makes it possible to remove some hacks.
 
-=== Source code ===
 
-* SCons
-* External libraries
-* Split physics, drawing, etc. apart
-* Change object constants without recompiling
 
 === Next meeting date and time ===
 
