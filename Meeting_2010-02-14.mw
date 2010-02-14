@@ -7,21 +7,28 @@ Present were:
 
 == Minutes ==
 
-# Who is who?
-# Project management
-#* (Unstable) Release
-#* Licenses of data files ({{Bug|578}})
-#* Google Code move
-#* Semi-anonymous contributions (email/nick but no real name)
-#* Bug tracker workflow ({{Bug|580}})
-# Gameplay
-#* Carrying objects
-#* Autoscroll camera
-# Source code
-#* SCons
-#* External libraries
-#* Split physics, drawing, etc. apart
-#* Change object constants without recompiling
-# Next meeting date and time
+=== Who is who? ===
+
+=== Project management ===
+
+* (Unstable) Release
+* Licenses of data files ({{Bug|578}})
+* Google Code move
+* Semi-anonymous contributions (email/nick but no real name)
+* Bug tracker workflow ({{Bug|580}})
+
+=== Gameplay ===
+
+* Carrying objects
+* Autoscroll camera
+
+=== Source code ===
+
+* SCons
+* External libraries
+* Split physics, drawing, etc. apart
+* Change object constants without recompiling
+
+=== Next meeting date and time ===
 
 [[Category:Development]]
