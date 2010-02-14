@@ -15,6 +15,9 @@ Present were:
 === Project management ===
 
 * (Unstable) Release
+** ''Mathnerd314'': Release as-is
+** ''WolfgangB'': Take care of the license of data files, then release
+** ''octo'': Release as-is
 * Licenses of data files ({{Bug|578}})
 * Google Code move
 * Semi-anonymous contributions (email/nick but no real name)
