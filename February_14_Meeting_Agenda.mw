@@ -17,7 +17,8 @@ The following are topics we would like to discuss. Since it's unlikely we can ad
 #*** Remove [[:Category:Badguy.3|milestone 3 badguys]] so they stop cluttering up source tree? (would make [[World 2]] unplayable) 
 #* licenses again :-( 
 #** Is everything up to date on [[DataFiles]]?
-#** What about (contributed) levels? 
+#** What about (contributed) levels?
+#*** There are currently 119 levels in SVN that do not specify a license (including test levels).
 #** Add the information in SVN and find a way to keep it up to date.
 #* Google Code move
 #** Grumbel wants to move SVN to Google Code for the merge tracking feature [http://lists.lethargik.org/private.cgi/supertux-team-lethargik.org/2010-February/000216.html]
