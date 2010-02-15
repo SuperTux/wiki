@@ -322,3 +322,21 @@ i think supertux is SOO cool
 I am running Ubuntu Karmic Koala, and the add-on feature is telling me that it is disabled.  From what I understand, if you build the source you can enable the feature by installing libcurl3.  I do not want to build the source code myself, as with previous experience I have normally destroyed my computer.
 
 I was wondering if and when the package guy will build SuperTux with libcurl3 and add it as a dependency so that other users and I can install add-ons and stuff.
+
+= Yeti Level Difficulty =
+== Current situation ==
+Lives: 9
+
+Part 1: First 4 lives icicles drop where Tux is standing.
+
+Part 2: Last 5 lives all icicles fall in a pattern.
+
+== Votes ==
+=== Easier ===
+adamorjames
+
+Auria
+=== Same ===
+Forty-Two
+=== Harder ===
+Mathnerd314
