@@ -327,7 +327,7 @@ I was wondering if and when the package guy will build SuperTux with libcurl3 an
 == Current situation ==
 Lives: 9
 
-Part 1: First 4 lives icicles drop where Tux is standing.
+Part 1: First 4 lives icicles drop where Tux is.
 
 Part 2: Last 5 lives all icicles fall in a pattern.
 
