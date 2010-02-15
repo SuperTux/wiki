@@ -52,3 +52,7 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-02-09: "Kneep-deep in the Depth" should not have an end sequence trigger, for consistency with the other key levels.
 
 * 2010-02-09: "Treasure in the skies": Climbable area extends into thin air.
+
+* 2010-02-15: Possible to lose while winning:
+** (2010-02-15 05:10:59 UTC) Forty-Two: I notice that in Light and Magic, if you reach the finish while holding a lantern, you drop it and it kills you (you lose 25 coins) although you also finish the level
+** Can fall off the screen (only in pathological levels)
