@@ -11,6 +11,7 @@ The following are topics we would like to discuss. Since it's possible that we c
 #* Decide whether to finish up forest (ghost) world or to improve world 1 some more
 # Gameplay
 #* Feedback for the [[Yeti]] and [[Above the Arctic Skies]] levels.
+#** Is Yeti level too hard? [[SuperTux:Community Discussion#Vote]]
 #* Decide which new enemies to implement/rewrite first (bombfish, snowman, ninja snowball, forest enemies such as owl/zeekling...)
 # Source code
 #* Split physics, drawing, etc. apart
