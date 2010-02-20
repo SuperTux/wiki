@@ -42,4 +42,277 @@ Present were:
 
 * Every Saturday at 15:00 UTC?
 
+== Log ==
+
+ 16:01 < octo> Okay, it should be 15:00 UTC now, right?
+ 16:02 < grumbel> yes
+ 16:02 < octo> Hey grumbel :) 
+ 16:03 < octo> Let's give Mathnerd314 one more minute - I understand it's early in the morning for him ;)
+ 16:04 < ohnobinki> oh, it would be
+ 16:06 < octo> Okay, I'd say five minutes is plenty ;)
+ 16:06 < octo> Hello everybody and welcome to the second meeting in 2010 ;)
+ 16:06 < octo> As last week, I'll be writing minutes at [[Meeting 2010-02-20]]
+ 16:06 < octo> The first point on the agenda is: "(Unstable) Release - now?"
+ 16:08 < octo> Last week the majority was in favor of creating an unstable release soon, but to make sure licenses of the data files are documented properly first
+ 16:08 < octo> The appropriate bug is #578
+ 16:09 < octo> Unfortunately I was skiing until earlier today, so *I* didn't make any progress.. Has anybody else done anything in this direction? 
+ 16:09 < ohnobinki> I think there is now adequate documentation of the state of the licenses of data/
+ 16:10 < octo> ohnobinki: Do you mean data/AUTHORS?
+ 16:10 < ohnobinki> yes 
+ 16:11 < ohnobinki> also, supertux is playable as it is
+ 16:11 < octo> Yeah, the sounds look okay to me in that file
+ 16:11 * MMlosh is somewhat here
+ 16:11 < octo> Hey MMlosh :)
+ 16:11 < MMlosh> just without keycaps on keyboard...
+ 16:11 < octo> Some note on the graphics would be nice though
+ 16:12 < octo> As far as I know the vast majority of the graphics has been done by grumbel, right?
+ 16:13 < ohnobinki> yup
+ 16:14 < octo> Does anybody know how many graphics were done by someone else and who that was?
+ 16:15 < ohnobinki> I think not :-/
+ 16:15 < ohnobinki> and checking the log for details doesn't really seem feasible
+ 16:16 *** mabu [~mabu@cmb32-29.dial-up.arnes.si] has joined #supertux
+ 16:16 < octo> Okay. I'll add some note to that file and we can see at the next meeting if that sounds okay to everybody.
+ 16:18 < octo> Okay, the next point is: "Decide whether to finish up forest (ghost) world or to improve world 1 some more"
+ 16:18 < octo> Does anybody know what that is supposed to mean?
+ 16:18 < MMlosh> how many of us are there anyway?
+ 16:18 < MMlosh> I am not sure if 3=enough to resolve anything
+ 16:19 < octo> I'm currently at four, though grumbel is very quiet ;)
+ 16:20 < ohnobinki> yeah, I can't really help with that question
+ 16:21 < octo> But, yes, I agree that it'd probably best to take decisions to the mailing list
+ 16:22 < ohnobinki> yeah, I can't help with #3 either
+ 16:22 < ohnobinki> and it seems that #4 (meeting times) actually matters....
+ 16:22 *** yetanothername [~yam@c-24-23-99-253.hsd1.pa.comcast.net] has joined #supertux
+ 16:23 < grumbel> Well, from my point of few me basically have to delete almost everything and start from scratch when it comes to ghost-world/world1
+ 16:23 * MMlosh has heard something whether do dump forest world and improve ice world OR finish forest world to make it releasable
+ 16:23 < ohnobinki> ok, that's what I thought ;-)
+ 16:23 < grumbel> I don't consider forest world releasable, not even close
+ 16:24 < ohnobinki> then should the next release just be of iceworld in its current state?
+ 16:24 < ohnobinki> *next unstable release
+ 16:24 < grumbel> I don't even consider it improvable, some parts are salvageable, but that it
+ 16:24 < octo> It's maybe not releaseable in a "stable" kind of way, but since the world can be played and completed I don't see why we shouldn't release it as an unstable version
+ 16:24 < octo> grumbel: What's so horrible about it?
+ 16:25 < grumbel> octo: basically everything
+ 16:25 * MMlosh is unable to give any example of everything
+ 16:26 < ohnobinki> I can see that the forest world doesn't seem to have any goal to it other than to collect keys
+ 16:26 < octo> I actually think the files are mostly nice, most levels are nice or at least decent..
+ 16:26 < octo> I don't like the new badguys much, though
+ 16:28 < octo> Okay, let's try the other way around: What exactly is there to improve in World 1?
+ 16:28 < MMlosh> worldmap
+ 16:28 < grumbel> Again, basically everything.
+ 16:29 < octo> We can't do everything at once, therefore some smaller steps would be helpful
+ 16:29 < grumbel> At the very very least all levels need to be up-scaled to work with larger resolutions
+ 16:29 < grumbel> but thats really just scratching the surface, I'd prefer to completly redo most of it
+ 16:29 < octo> Okay, so at least xy tiles high?
+ 16:29 < Auria> If I may allow to speak, even though I'm not a SuperTux regular contributor : I think level design and programming are two separate things, totally. SMC has non-programming users make levels, and the programmers focus on fixing bugs and adding features. I think it works well this way. A problem with ST is that it looks dead, so it's not very attracting for users. If programmers can make a development release, that _might_ attract more usrs to do l
+ 16:30 < ohnobinki> auria: your message was truncated at ``more usrs to do l''
+ 16:30 < octo> Auria: Thanks for your input :) Due to length restrictions your line got cut off after "_might_ attract more usrs to do l…"
+ 16:30 < Auria> levels
+ 16:31 < Auria> ends ther ;)
+ 16:31 < ohnobinki> :-)
+ 16:31 < octo> Auria: Oh, okay ;)
+ 16:31 < octo> Auria: Yes, I agree. A new release doesn't have to be very polished..
+ 16:31 < grumbel> Auria: at this point in time I consider it a *good* thing. The more level builders we have, the harder it will be to improve the core
+ 16:31 < ohnobinki> so we have too many people touching src/ and not enough touching data/...
+ 16:32 < octo> It should just show some activity to attract new contributors
+ 16:32 < Auria> well indeed contributions from everyone is very touchy. with STK we have many more contributions than _good_ contrinutions ;)
+ 16:32 < bkralik> I am only friend of MMlosh, however i have same feeling as Auria... Supertux need a new release, most of users play only old repository/non-svn verison, which is not new...
+ 16:33 < Auria> but here and there come a few gems that are very helpful to the devs
+ 16:33 < octo> I don't think SuperTux should be a game engine only, I'd prefer a complete game with game engine AND levels
+ 16:33 < Auria> IMO, the latest SuperTux unstable is more fun than the latest stable... which is what most people get from their package managers
+ 16:34 < Auria> (yes, even if not fully polished)
+ 16:34 < grumbel> octo: I consider game engines a waste of time, as you can't design an engine without a game
+ 16:34 < grumbel> octo: thats of course not to say that some parts of supertux should be better separated and easier reusable
+ 16:35 < octo> grumbel: If I understand your concerns corretly, you fear that level designers start to use unfinished / unwanted features which we then can hardly change / remove
+ 16:35 < octo> grumbel: Is that roughly your point?
+ 16:36 < octo> I would switch to a scheme where we create unstable releases much more often..
+ 16:36 < octo> Release one new unstable version every two months, for example..
+ 16:37 < octo> Release 0.4.0 in early March, 0.5.0 in early May and so on
+ 16:37 * MMlosh would prefer unstable preview too... every second user now compiles SVN version.. that's wrong
+ 16:37 < octo> Bugs in the development releases are fixed in 0.4.1, 0.4.2, ...
+ 16:37 < ohnobinki> then 1.* can be milestone 3?
+ 16:38 < octo> Once we feel that a release is getting to a state we like and which reflects the design document well, we'll create 1.0.0 as "stable" release
+ 16:38 < Auria> anyway, to close my point, I think SuperTux currently has enough featrues to make interesting levels, so why wait before trying to make better levels? IMO that's what ST needs most atm, not new features
+ 16:38 < octo> Then we continue with development releases 1.1, 1.2, 1.3, ...
+ 16:38 < Auria> </Auria's_opinion> ;)
+ 16:40 < grumbel> octo: Its not a fear, its a fact. Thats why supertux has made zero progress over the last few years
+ 16:41 < octo> grumbel: So which features would you like to remove?
+ 16:41 < MMlosh> octo, do not ask that
+ 16:41 < octo> or change
+ 16:41 < grumbel> Auria: supertux needs *less* features
+ 16:41 < Auria> grumbel: ok, so we somewhat agree ;)
+ 16:41 < grumbel> Its currently full of tons of half done stuff, basically nothing works completely
+ 16:41 < Auria> I haven't checked the level editor in ages, last time I wasn't able to even get it to run
+ 16:42 < Auria> but that may have changed
+ 16:42 < grumbel> Auria: it runs, but its not exactly as comfortable as it should be
+ 16:42 < MMlosh> Auria, I am not sure... I cannot test on Apple's operating systems
+ 16:42 < Auria> MMlosh: was on Ubuntu
+ 16:42 < grumbel> octo: basically all forest stuff should be removed
+ 16:43 < octo> grumbel: I'm afraid you can't sell that to users
+ 16:43 < MMlosh> Auria, sorry... I guess it was somebody else who hat troubles on macs
+ 16:43 < grumbel> octo: its the only way to make progress, in its current state I consider it a complete lost cause
+ 16:43 < ohnobinki> grumbel:who is going to write the replacement levels after forest world is removed?
+ 16:44 < grumbel> ohnobinki: the point is to cut the thing down to a point where you can build something again
+ 16:45 < octo> grumbel: So what "forest features" are we talking about here? The tiles? Some game objects? Levels?
+ 16:45 < grumbel> ohnobinki: who builds stuff in the end is another issue and not really that important, as the important part is bringing it back into a stage where you can work on it again
+ 16:45 < ohnobinki> would releasing a copy in its current state truly create enough problems with users expecting forestworld to stay around?
+ 16:45 < grumbel> octo: all of them
+ 16:46 < octo> *sigh*
+ 16:46 < ohnobinki> you could release an unstable ``forestworld'' version and then in the next commit chop the forestworld away
+ 16:46 < grumbel> ohnobinki: thats more or less the plan
+ 16:46 < ohnobinki> there just should be some way to make sure people don't expect forestworld to stick around
+ 16:46 < octo> I think cleaning up the broken / half implemented / unwanted features one at a time is much easier than throwing everything away just like that
+ 16:46 < ohnobinki> grumbel: ok, so unstable release _now_ is a go
+ 16:47 < grumbel> ohnobinki: I could do without, but if somebody else is doing it I won't stop them
+ 16:47 < ohnobinki> ok
+ 16:48 < octo> I have to admit I still don't understand the horrors of the forest world
+ 16:49 < ohnobinki> grumbel: ok, so mathnerd314 has access to the berlios download mirror? or who does?
+ 16:49 < octo> Is is the forest world in general, i.e. its look and feel? Because I have never experienced problems with, say, switches or flying platforms
+ 16:50 < grumbel> ohnobinki: no idea, member list on berlios should show that
+ 16:50 < grumbel> octo: you are not looking close enough.
+ 16:50 < octo> grumbel: Then enlighten me
+ 16:51 < grumbel> octo: tiles are abused, graphics don't fit together, level design is mostly ugly, code isn't pretty either, scripting is used in the wrong places, ...
+ 16:51 < grumbel> even the loading times suck
+ 16:52 < MMlosh> and Ice loading times do not?
+ 16:52 < octo> That sounds more like the levels and the design should be improved.. I was always kinda fixated on the implementation..
+ 16:54 < octo> But ugly graphics can be changed at basically any time
+ 16:54 < grumbel> MMlosh: they aren't good either, but forest world seems a lot worse due to larger levels I guess
+ 16:54 < octo> Improvements on levels doesn't influence other levels - at least not neccesarily
+ 16:54 < grumbel> octo: its not ugly graphics, its ugly everything
+ 16:54 < octo> grumbel: There I agree: The Forest levels are too big
+ 16:54 *** ced117 [~ced117@opensuse/member/ced117] has quit [Quit: Quitte]
+ 16:55 < grumbel> its specifically the world loading time, not the level loading time, which is large as all levels have to be loaded to query their name (curse of text based level format)
+ 16:56 < grumbel> octo: worldmap sucks, levels sucks, enemies suck, level design sucks, there nothing level once you clean up
+ 16:57 < octo> grumbel: So you like the overall theme? I.e. Tux in a Forest is generally okay with you?
+ 16:57 < grumbel> SuperTux isn't the only FOSS game with this issue, its a common problem, you get 50 pieces of crap, instead of 1 polished one
+ 16:58 < grumbel> octo: it kind of was my idea to begin with, but I am not all that comfortable with the forest theme, I prefer the ice theme
+ 16:58 < grumbel> but that something that could probably be fixed with better graphics
+ 16:59 < octo> I like the general idea of having several worlds as a long term goal
+ 17:00 < grumbel> thats the goal, but some themes just fit better then others
+ 17:01 < grumbel> but as said, thats probably just a design issue, not a problem with the theme itself
+ 17:02 < octo> Okay
+ 17:03 < octo> I still think that improving the Forest world incrementally is easier than starting from scratch
+ 17:04 < grumbel> Its easier to draw something on a blank canvas then one that is already filled with stuff
+ 17:05 < octo> Then we can always replace the Forest with a Forest II world when that second world is done
+ 17:05 < MMlosh> yes.. why not...
+ 17:06 < grumbel> I don't want to care about backward compatibility or have all those graphics in the way
+ 17:07 < MMlosh> and forest world seems nice to me, ice world is a bit ... all the same everywhere. Perhaps because there is not much scripting?
+ 17:07 < grumbel> MMlosh: scripting sucks
+ 17:07 < grumbel> MMlosh: and thats why ice world should be redone
+ 17:08 < Lazure> when you go to the forest world, it's almost like you're playing ad ifferent game. everything changes, you have slopes suddenly, you can go up and down suddenly, it's no longer linear.
+ 17:08 < grumbel> i.e. add verticality to levels, more interesting caves, etc.
+ 17:08 < Lazure> more tiles and tilesets for ice world would be nice
+ 17:08 < Lazure> only one map at all uses that extra ice tileset that was made
+ 17:09 < octo> Actually that has changed a bit in the lest few days
+ 17:09 < octo> Look at the (new) Mysterious House of Ice, for example
+ 17:09 < octo> Or "The Escape"
+ 17:09 < octo> s/lest/last/
+ 17:11 < octo> Okay, so as far as I understand, (big) changes are required on tilesets and levels before we can call something "finished"
+ 17:11 < grumbel> <grumbel>   http://pingus.seul.org/~grumbel/tmp/md5/6c54813834f98bdf9abd9d7564ccff05-galapix-screenshot-0000.png
+ 17:11 < grumbel> <grumbel>   http://pingus.seul.org/~grumbel/tmp/md5/677e174d88b851844d7fc73570667109-galapix-screenshot-0001.png
+ 17:11 < grumbel> <grumbel>   http://pingus.seul.org/~grumbel/tmp/md5/c72a01dde4b0bd614600f82a41559b2a-galapix-screenshot-0002.png
+ 17:11 < grumbel> <grumbel>   http://pingus.seul.org/~grumbel/tmp/md5/c7d6262a3f24ce3c497139f58c13702a-galapix-screenshot-0003.png
+ 17:11 < grumbel> <grumbel>   http://pingus.seul.org/~grumbel/tmp/md5/66b2b53b8ae6e12148bef83c42b3f946-galapix-screenshot-0004.png
+ 17:11 < grumbel> <grumbel>   http://pingus.seul.org/~grumbel/tmp/md5/9b6a1bc3acc77093b7ab2764ab1014da-galapix-screenshot-0005.png
+ 17:11 < grumbel> <grumbel>   http://pingus.seul.org/~grumbel/tmp/md5/c58c334c7bc2e3e825c67b9274b490b6-galapix-screenshot-0006.png
+ 17:11 < grumbel> already posted those on the last meeting
+ 17:11 < octo> But creating an unstable release can be done before that has been done.
+ 17:12 < octo> grumbel: What's new in #4?
+ 17:12 < grumbel> the background
+ 17:13 < octo> Thought so.. Looks nice :)
+ 17:13 < octo> I like #2, too
+ 17:13 < octo> #5 looks like "Above the Arctic Skies"
+ 17:14 < octo> Mathnerd314 wanted feedback on that, but unfortunatly he doesn't appear to be here
+ 17:14 < grumbel> some tiles for 6 are in svn since today
+ 17:14 < MMlosh> yeah... 2,4 are nice
+ 17:14 < Lazure> wow, i like a lot of those screenshots
+ 17:15 < Lazure> i'm assuming people are making tiles for those if not already?
+ 17:16 < octo> I'd say be skip "Feedback for the Yeti and Above the Arctic Skies levels." since Mathnerd314 isn't here and go to the next point
+ 17:16 < octo> That would be "Decide which new enemies to implement/rewrite first (bombfish, snowman, ninja snowball, forest enemies such as owl/zeekling...)"
+ 17:16 < octo> As far as I understand, those are enemies of the design document
+ 17:16 < octo> Is someone working on graphics or code for one of those?
+ 17:17 < Lazure> i like the new above arctic skies level with the tileset and parallaxing
+ 17:17 < octo> Lazure: Prefix that with "Mathnerd314:" so he gets a highlight ;)
+ 17:17 < Lazure> Mathnerd314: i like the new above arctic skies level with the tileset and parallaxing
+ 17:18 < octo> Mathnerd314: I find the many layers a bit confusing. Especially the nearest layer is irritating to me
+ 17:19 < octo> Mathnerd314: Other than that the level looks great :)
+ 17:20 < Lazure> Mathnerd314: i like the effect of those nearest layers tho. I guess they could be made darker in color tho
+ 17:20 < octo> So, any comments on those new badguys?
+ 17:21 < octo> If we wanted to implement them, which order would we use? Wait for the graphics, than code behavior or the other way around?
+ 17:21 < grumbel> we have neither finished graphics nor code nor behaviour
+ 17:21 < grumbel> the important part is the behavior
+ 17:22 < octo> Yep..
+ 17:22 < octo> Is there something on those in the wiki?
+ 17:22 < grumbel> anyway, those don't have high priority, first the existing enemies should be fixed
+ 17:23 < grumbel> not much more then graphic and a very short description
+ 17:23 < octo> grumbel: Okay, which badguys are those?
+ 17:23 < octo> Okay
+ 17:23 < grumbel> http://supertux.lethargik.org/wiki/Milestone_2_Design_Document/Enemies
+ 17:23 < octo> All of those should be changed / fixed?
+ 17:24 < octo> Mrs. Snowball, for example, behaves as advertised ;)
+ 17:24 < grumbel> no, but if they already work they should be documented
+ 17:25 < grumbel> mrs.snowball for example should simply be used
+ 17:25 < grumbel> as we have lots of level with classic snowball and blocks to stop them from falling of the cliff
+ 17:25 < octo> [[Mrs. Snowball]]
+ 17:26 < octo> Actually, in "Above the Arctic Skies" we have Mrs. Snowball *and* limiting blocks, Mathnerd314
+ 17:28 < Lazure> yeah, those limiting blocks are kinda silly
+ 17:28 < Lazure> gives tux a piece of land to sit on to avoid being attacked altogether
+ 17:29 < octo> Okay, any more comments on those badguys and their possible implementation one day?
+ 17:29 < Lazure> i would like to see more levels utilize some of these enemies, and possibly remove the 'hacks' placed into the levels to 'fix' the existing ones, such as those limiting blocks where they were not intended.
+ 17:30 < Lazure> if a map was intended to not have a block sticking up on both ends of every platform, they should rightfully be removed in favor of the snowball being replaced by mrs.snowball
+ 17:32 < octo> Okay, anyone eager to discuss the source code points or can we postpone that to the next meeting?
+ 17:35 < octo> I'll take that as a "no"..
+ 17:36 < octo> What about a new date for a meeting? Any opinions or should I ask the mailing list?
+ 17:37 < grumbel> octo: about source code and stuff: my plan would be: 1) remove everything unneeded 2) fix lots of bugs in existing stuff 3) start enhanching/rebuilding snow levels 4) add new enemies
+ 17:38 < grumbel> at 2) we might also change graphics API a bit and do other changes such as better extensibility
+ 17:38 < grumbel> but its really stuff that has to wait till we do a big fat cleanup of everything unneeded
+ 17:38 < octo> grumbel: Well, I have a hard time figuring out what "unneeded" features are
+ 17:39 < grumbel> everything that isn't needed ;)
+ 17:39 < octo> .oO( Why did I know that? ;)
+ 17:40 < octo> There's a bunch of stuff I don't know how to use, but I don't know if that makes it unneeded..
+ 17:40 < grumbel> for most part its just all forest, as nobody has spend much time improving iceworld
+ 17:40 < octo> The "Decal" object, for example
+ 17:40 < grumbel> decal is very important, its just not very well integrated into the editor
+ 17:40 < Lazure> i still believe we should make a toggle for auto-run
+ 17:40 < grumbel> its basically just a graphic that you can stick somewhere in the level for decoration
+ 17:41 < octo> grumbel: What does it do?
+ 17:41 < octo> grumbel: Oh, okay
+ 17:41 < octo> grumbel: So just some graphics that can be used without turning it into a tile or tiles first?
+ 17:41 < grumbel> so that you don't have to create a new badguy for each piece of decoration
+ 17:41 < grumbel> yes
+ 17:41 < octo> I see
+ 17:42 < grumbel> the glowing stuff and the crytsals in http://pingus.seul.org/~grumbel/tmp/md5/c58c334c7bc2e3e825c67b9274b490b6-galapix-screenshot-0006.png would be done with decal
+ 17:43 *** claymore_ [~chatzilla@host86-168-9-102.range86-168.btcentralplus.com] has joined #supertux
+ 17:45 < octo> Okay, so what about you tell me three things that are "unnecessary" and I'll try to remove at least one until next week?
+ 17:46 < grumbel> octo: we have to first get the devel release out
+ 17:46 < octo> grumbel: Okay, that's fine by me, too
+ 17:46 < grumbel> and then decide on how we branch/fork/whatever the old stuff out so it doesn't get lost
+ 17:46 < Lazure> there's another problem that needs to be fixed majorly
+ 17:46 < Lazure> i find if i die enough times, the game crashes
+ 17:46 < grumbel> I wouldn't mind a libsupertux-extra-stuff or whatever
+ 17:47 < Lazure> doesn't matter if i'm running it in a VM or running it in real ubuntu, it just randomly crashes after i die a few times.
+ 17:47 < grumbel> as long as its not part of the core and I can work on the rest of the game without ever having to touch extra stuff
+ 17:47 < octo> Lazure: Can you create a stack backtrace for us?
+ 17:47 < Lazure> a what?
+ 17:47 < Lazure> i'm not a coder, i don't really know that stuff lol
+ 17:48 < octo> Lazure: Okay, maybe a coredump is easier ;) I'll tell you in a minute
+ 17:48 < octo> grumbel: I don't quite understand what you try to do.. Why move stuff into a lib? What stuff precisely?
+ 17:49 < grumbel> octo: all the stuff that gets removed
+ 17:49 < octo> Yes? Why put it in a library instead of removing it?
+ 17:50 < ohnobinki> because people here seem to like that stuff
+ 17:50 < grumbel> If somebody wants to keep it and wants to invest time to keep it in a external library I wouldn't stop them.
+ 17:50 < grumbel> I wouldn't want to invest the time myself
+ 17:51 * MMlosh cannot imagine badguys locked in separate library...
+ 17:51 < octo> I don't think that'd be a good thing
+ 17:51 < grumbel> shouldn't be that hard, they just have to register themselves in the factory
+ 17:51 < MMlosh> and they you have to import their graphics...
+ 17:51 < ohnobinki> hopefully the factory abides by the equal employment opportunity standards
+ 17:52 < grumbel> you can already map new graphics into the data/ without changing the data/ directory itself
+ 17:54 < MMlosh> and that will work? sounds a bit strage
+ 17:59 < octo> I still don't have a clear picture what kind of stuff would get removed. But since the answer is probably "everything" again, :q
+ 17:59 < MMlosh> definitely
+ 17:59 < octo> … I'm not sure whether it's worth asking
+ 18:00 < grumbel> octo: everything that isn't in the M2 design document
+ 18:07 < grumbel> in the end work should always start on the M2 document before it gets turned into code
+
+
 [[Category:Development]]
