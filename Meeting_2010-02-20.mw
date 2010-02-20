@@ -29,7 +29,7 @@ Present were:
 * Decide which new enemies to implement/rewrite first (bombfish, snowman, ninja snowball, forest enemies such as owl/zeekling...)
 ** Neither behavior, graphics nor code exist for those, according to ''grumbel''.
 ** ''grumbel:'' Not a high priority; fix existing badguys first.
-** E.g.: Use [[Mrs. Snowball]] more.
+** E.g.: Use [[Mrs. Snowball]] more, remove auxiliary limiting blocks.
 
 === Source code ===
 
