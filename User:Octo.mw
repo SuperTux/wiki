@@ -5,5 +5,15 @@ You can contact me on ''freenode'' and via email and Jabber at <code>&lt;octo&nb
 Regards,<br />
 —octo
 
+== Levels ==
+
+I have made a couple of own levels. They are described on my homepage at: http://verplant.org/supertux/
+
+To get the newest version of the levels, check out my Git repository at
+ git://git.verplant.org/supertux-levels.git
+There's also a [http://git.verplant.org/?p=supertux-levels.git;a=summary Gitweb interface] to the repository.
+
+Please note that these levels are made with the latest SVN version at that time. If you find anything broken in a version ''newer'' than the levels, please let me know.
+
 == Todo ==
 :''→ See [[User:Octo/Todo]]''
