@@ -1,4 +1,4 @@
-The '''2010-02-20 meeting''' was held on ''Saturday, February&nbsp;20<sup>th</sup>'' at ''15:00&nbsp;UCT'' on IRC.
+The '''2010-02-20 meeting''' was held on ''Saturday, February&nbsp;20<sup>th</sup>'' at ''15:00&nbsp;UTC'' on IRC.
 
 Present were:
 * foo
@@ -7,17 +7,25 @@ Present were:
 
 == Minutes ==
 
-# Project management
-#* (Unstable) Release - now?
-#* Decide whether to finish up forest (ghost) world or to improve world 1 some more
-# Gameplay
-#* Feedback for the [[Yeti]] and [[Above the Arctic Skies]] levels.
-#** Is Yeti level too hard? [[SuperTux:Community Discussion#Vote]]
-#* Decide which new enemies to implement/rewrite first (bombfish, snowman, ninja snowball, forest enemies such as owl/zeekling...)
-# Source code
-#* Split physics, drawing, etc. apart
-#** Which design pattern to use?
-#* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
-# Next meeting date and time - every Saturday at 15:00 UTC?
+=== Project management ===
+
+* (Unstable) Release - now?
+* Decide whether to finish up forest (ghost) world or to improve world 1 some more
+
+=== Gameplay ===
+
+* Feedback for the [[Yeti]] and [[Above the Arctic Skies]] levels.
+** Is Yeti level too hard? [[SuperTux:Community Discussion#Vote]]
+* Decide which new enemies to implement/rewrite first (bombfish, snowman, ninja snowball, forest enemies such as owl/zeekling...)
+
+=== Source code ===
+
+* Split physics, drawing, etc. apart
+** Which design pattern to use?
+* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
+
+=== Next meeting date and time ===
+
+* Every Saturday at 15:00 UTC?
 
 [[Category:Development]]
