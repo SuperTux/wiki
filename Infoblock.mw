@@ -42,3 +42,5 @@ The colors are defined in {{SvnFile|src/supertux/colorscheme.cpp}}.
 | ''n/a''
 | ''n/a''
 |}
+
+[[Category:Game Object]]
