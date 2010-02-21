@@ -17,7 +17,7 @@ An iPhone port of 0.3.2SVN  is currently being developed by a third party group.
 
 === ZuneHD ===
 
-A full conversion of the graphics engine'd be necessary, plus additional work for a C# port. Could result in a XBox-Port and could speed up the PC-Version by using the native DirectX-interface instead of CPU-based renderings.
+Requires porting to C# and supporting OpenGL ES 2.0.
 
 === Mobile phones ===
 
