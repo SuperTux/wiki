@@ -1,1 +1,36 @@
-#REDIRECT [[February 20th Meeting Agenda]]
+{{Attention|s=If you have anything to add, just click the "Edit" link and add some text}}
+
+The '''next developer's meeting''' will be held on ''Saturday, February&nbsp;27<sup>th</sup>'' starting at ''15:00&nbsp;UCT''. Anybody interested in ''SuperTux'' is invited to participate. The discussion will be held on IRC, network ''freenode'', channel ''#supertux''. Minutes of the meeting will be made available at [[Meeting 2010-02-27]].
+
+The following are topics we would like to discuss. Since it's possible that we cannot address all the below issues, we might postpone some issues for a later meeting.
+
+== Discussion ==
+
+# Project management
+#* (Unstable) Release - how?
+#* Last chance to change [[Versioning scheme]]
+#* Next meeting date and time - every Saturday at 15:00 UTC?
+# Gameplay
+#* Feedback for the [[Yeti]] level.
+#* New tiles from grumbel - which are useful?
+#* Milestone 1-like worldmap - do now or later (which ideas to keep from the new one?)
+# Source code
+#* Split physics, drawing, etc. apart
+#** Which design pattern to use?
+#* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
+#* Proposal - merge src and data of objects/enemies together so that all content is in only a single folder (i.e., folder data/mrtree/ would contain mrtree.?pp, mrtree.sprite, mrtree.ogg, left-*.png, etc.)
+#** Slightly harder to build and distribute packages (exclude *.?pp from data directory in binary builds)
+#** Easier to take out/add objects, because there's less to keep track of
+#* Switch to some physics engine?
+#** Features needed for everything to work:
+#**# tilemaps (or a good broadphase and efficient collision data format)
+#**# static constraint solver (so Tux doesn't get stuck on tile edges; problem in Box2D/Chipmunk)
+#**# raycasting (ispy)
+#**# kinematic objects (HitResponse FORCE_MOVE)
+#**# AABB queries (Drawing to screen)
+#**# custom collision callbacks/handlers/listeners/filters (all that collision code in MovingObject)
+#**# wheel joints (bicycle platform, unused except for test levels)
+#**# sliding joints (pneumatic platform, also only a test level)
+#**# path constraints/motors (for moving tilemaps/platforms)
+
+[[Category:Development]]
