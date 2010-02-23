@@ -1,4 +1,4 @@
-< [[Milestone 2 Design Document]]
+{{Navbox Milestone 2 Design Document}}
 
 == Code Tasks ==
 * Empty top/middle/bottom background image string should be handled as transparent image (more parallax backgrounds)
