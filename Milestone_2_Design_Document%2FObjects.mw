@@ -1,10 +1,6 @@
-{{Navbox Milestone 2 Design Document}}
 = Game Elements =
 
-== Billboards ==
-
-[[Image:Screenshot Billboard Fireflower.png|thumb|right|Billboard explaining the [[fireflower]] in ''Welcome to Antarctica''.]]
-'''Billboards''' are in-game explanations of game mechanics, such as the [[Fireflower]] or reset points.
+== Info Boards ==
 
 [http://pingus.seul.org/~grumbel/tmp/md5/ca5c98b54e92b1317776c49970f2bbbe-info-boxes-done-right.png Info Board Example]
 
@@ -12,21 +8,11 @@
 
 Egg needs a new graphic, Fireflower/Iceflower -> ?
 
-== Unstable tiles ==
-
-Change [[unstable tile]]s to be have like one of those:
-* [http://www.youtube.com/watch?v=22RH2auraFs#t=3m40s Crumbling ground in Giana Sisters DS]
-** Blocks crumble until they disappear. Then the player falls through.
-* [http://www.youtube.com/watch?v=n_SqtR3xFpM#t=1m20s Donut Blocks in Super Mario World]
-** Blocks fall down without crumbling first. The player can still jump off of them.
-Since {{Revision|6492}}, either behavior is possible, depending on the actions available in the sprite. The exact behavior is documented on the [[Unstable tile]] page.
-
 == Slope Tiles ==
 
 [[Image:Supertux-slopes.png|Snow Slopes]]
 
 Slope tiles should be integrated.
-: Aren't they? —[[User:Octo|octo]] 22:23, 26 February 2010 (UTC)
 
 == Ice Tiles ==
 
@@ -63,5 +49,3 @@ There will be no lives and no punishment for death aside from having to restart 
 == Collectibles ==
 
 The game shall provide some form of special collectibles per level (5 special coins, 5 pieces of a crystal or stuff like that). How many of those collectibles are found is displayed in a prominent manner, not just part of the statistics. The Tux-doll (ex-1up) could be recycled for this purpose.
-
-[[Category:Development]]
