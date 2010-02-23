@@ -1,3 +1,4 @@
+{{Navbox Milestone 2 Design Document}}
 = Actions =
 
 The major change in the basic actions will be making running automatic. Running will automatically happen when you have walked continuously into a certain direction and will be different by a new animation. The acceleration phase will be long enough to be able to make walking-jumps. The jump height should be similar to what it is now with different height for run and jump. The current implementation of having a walk-key and and Milestone1-style running by default is *NOT* the intended final behavior.
