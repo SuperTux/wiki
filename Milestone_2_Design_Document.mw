@@ -41,26 +41,6 @@ Doing a forest world turned out impractical with the current available and activ
 * language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
 * worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
 
-= Screensize/Aspect-Ratio =
-
-Milestone2 will allow near total freedom in setting the screensize and the size of the projected area:
-
- ./supertux -g 1280x1024:1680x1050
-
-This command for example will give a Window of 1280x1024, but with the visible area of a level being 1680x1050.
-
-This means that level design must not focus on 800x600, but should be flexible enough even when the user has a much larger visible area. However all levels should remain playable even as low as 640x480.
-
-The maximum resolution to deal with is 1920x1200 (HD-TV Monitor), 2560x1600 (Apple 30" Cinema Display) can't be handled since that would cause issues with enemy respawning, the respawn distance is currently 1600x1200, relative to Tux.
-
-Maximum resolution might be limited to 1280x800, with everything larger getting upscaled.
-
-
-
-
-
-
-
 = Levels = 
 
 The levels of Milestone1 lack verticality as well as unisolid tiles, Milestone2 should fix that by adding those elements. Also the levels should be shortened/split to avoid the need for reset points. Another important point is that each level should try follow a clear design premise instead of being more or less random collection of tiles and enemies. The levels from Milestone1 should be taken as a point of inspiration and starting point, not as something that is verbatim copied over to Milestone2. 
