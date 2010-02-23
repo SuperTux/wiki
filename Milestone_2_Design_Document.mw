@@ -59,57 +59,7 @@ Maximum resolution might be limited to 1280x800, with everything larger getting 
 
 
 
-= Game Elements =
 
-== Info Boards ==
-
-[http://pingus.seul.org/~grumbel/tmp/md5/ca5c98b54e92b1317776c49970f2bbbe-info-boxes-done-right.png Info Board Example]
-
-== Extra Items ==
-
-Egg needs a new graphic, Fireflower/Iceflower -> ?
-
-== Slope Tiles ==
-
-[[Image:Supertux-slopes.png|Snow Slopes]]
-
-Slope tiles should be integrated.
-
-== Ice Tiles ==
-
-[[Image:Supertux-icetiles.png|Ice Tiles]]
-
-Make Tux skid around and harder to control
-
-== Deep Snow Tiles ==
-
-[[Image:Supertux-deepsnow.png|deepsnow]]
-
-Slow Tux down, cause him to sink in half
-
-'''Will be implemented later'''
-
-== Icefloe ==
-
-[[Image:Icefloe.png|thumbnail|right|Ice Floe]]
-
-Problem: We don't have good water behavior.
-
-'''Will be implemented later'''
-
-<br clear="all" />
-
-== Reset Points ==
-
-There shall be no reset points in the game, instead it should be made sure that levels are small enough to not require them. 
-
-== No Lives ==
-
-There will be no lives and no punishment for death aside from having to restart the level, due to the lack of reset points there simply is no need for lives.
-
-== Collectibles ==
-
-The game shall provide some form of special collectibles per level (5 special coins, 5 pieces of a crystal or stuff like that). How many of those collectibles are found is displayed in a prominent manner, not just part of the statistics. The Tux-doll (ex-1up) could be recycled for this purpose.
 
 = Levels = 
 
