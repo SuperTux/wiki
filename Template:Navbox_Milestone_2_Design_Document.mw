@@ -1,12 +1,13 @@
 <div style="clear: both;"></div>
-{| style="border: 1px solid silver; margin-left: auto; margin-right: auto;"
-! colspan="2" style="background: #315d73;" | [[Milestone 2 Design Document|<span style="color: white;">Milestone 2 Design Document</span>]]
+{| style="border: 1px solid silver; float: right;"
+! colspan="2" style="background: #315d73; padding: 0em 1em" | [[Milestone 2 Design Document|<span style="color: white;">Milestone 2 Design Doc</span>]]
 |-
 | style="background-color: #f0f0f0;" | 
-[[Milestone 2 Design Document/Tasks|Tasks]] &bull;
-[[Milestone 2 Design Document/Enemies|Enemies]] &bull;
-[[Milestone 2 Design Document/Levels|Levels]] &bull;
-[[Milestone 2 Design Document/Styleguide|Styleguide]] &bull;
-[[Milestone 2 Design Document/Obsolete|Obsolete]]
+* [[Milestone 2 Design Document|Overview]]
+* [[Milestone 2 Design Document/Tasks|Tasks]]
+* [[Milestone 2 Design Document/Enemies|Enemies]]
+* [[Milestone 2 Design Document/Levels|Levels]]
+* [[Milestone 2 Design Document/Styleguide|Styleguide]]
+* [[Milestone 2 Design Document/Obsolete|Obsolete]]
 |}
 <noinclude>[[Category:Templates]]</noinclude>
