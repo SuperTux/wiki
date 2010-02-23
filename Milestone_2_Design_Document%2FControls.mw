@@ -1,4 +1,3 @@
-{{Navbox Milestone 2 Design Document}}
 = Controls =
 
 The game needs to take special care to distinguish between jump-with-up and jump-with-button. Running is automatic in this game.
@@ -42,5 +41,3 @@ Notes:
 * a Start-button might be a worthy consideration, since its semantics are different from Escape
 * allowing hot-plugging of joystick would be nice (calling 'Setup Joystick' should query the joysticks in the system)
 * ladders behavior must be compatible with both configurations
-
-[[Category:Development]]
