@@ -6,3 +6,23 @@ Obsolete things from other pages.
 * Who is running backups of the Wiki and SVN repository?
 * Shall we switch to GPLv3? '''Not now, but maybe later'''
 <math>Insert formula here</math>
+
+= Next Meeting Agenda (7. August 2008, 18:00 GMT) =
+
+* supertux.info status? integrate in main page?
+* GP2x updates
+
+* music submission: BlastOffTek music pack for Supertux.rar
+* badguy name cleanup
+* GP2x status
+* large level, establishing milestone 2 'gold standard'
+* editor news
+* compiled data formats
+* editor gui restructure
+
+== older stuff ==
+
+* present newly build levels
+* what to do with Badguy::freeze()?
+* what to do with level flipping (suggestion: ignore it)
+* Wiki & SVN backup again
