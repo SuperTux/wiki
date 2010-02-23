@@ -30,3 +30,7 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 * Check for new stuff online
 * complete contrib worlds
 * browse folders with level stuff
+
+= Configuration =
+
+The games configuration (fullscreen, aspect ratio, geometry, etc.) shouldn't be saved when supplied by command line.
