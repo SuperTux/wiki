@@ -25,6 +25,8 @@ This page shall describe all enemies, old and new, in as much detail as possible
 [[Image:SnowballSprite.png|right]]
 
 Snowball is a straight forward walking enemy, when reaching an edge he will fall down and continue walking on the platform below. Jumping on him will squish him and thus kill him.
+
+'''Status:''' Basic behavior is implemented, could however be improved with additional animations when turning around or when falling from a cliff. -- [[User:Grumbel|Grumbel]] 09:41, 23 February 2010 (UTC)
 <br clear="all" />
 
 == Mrs Snowball / <strike>Stay-On-Platform Snowball</strike> / <strike>Smart Snowball</strike> ==
