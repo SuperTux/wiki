@@ -1,5 +1,4 @@
 {{Navbox Milestone 2 Design Document}}
-
 == Code Tasks ==
 * Empty top/middle/bottom background image string should be handled as transparent image (more parallax backgrounds)
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
