@@ -57,9 +57,7 @@ Maximum resolution might be limited to 1280x800, with everything larger getting 
 
 
 
-= Configuration =
 
-The games configuration (fullscreen, aspect ratio, geometry, etc.) shouldn't be saved when supplied by command line.
 
 = Game Elements =
 
