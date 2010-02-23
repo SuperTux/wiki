@@ -11,5 +11,5 @@ I am against the use of proprietary technologies that don't work in websites, su
 ==SuperTux==
 [http://supertux.lethargik.org/bugs/view_all_set.php?type=1&temporary=y&reporter_id=361&hide_status=90 My bugs]
 
-[http://ohnopublishing.net/~ohnobinki/gentoo/overlay] has my [http://ohnopublishing.net/hg/ohnobinki_overlay/file/tip/games-arcade/supertux/ live ebuild] (with cmake patches) for installing the development version of SuperTux onto [http://gentoo.org/ Gentoo] machines. You can install my overlay using the following command:
-<pre>layman -o http://ohnopublishing.net/~ohnobinki/gentoo/binkioverlay.xml -f -a ohnobinki_overlay_hg</pre> Please note that you may end up with unwanted modifications to other ebuilds. You may manually extract the current supertux live ebuild yourself or [http://ohnopublishing.net/bugzilla bug me] about problems with my overlay.
+[http://ohnopublishing.net/~ohnobinki/gentoo My overlay] has my [http://ohnopublishing.net/hg/ohnobinki_overlay/file/tip/games-arcade/supertux/ live ebuild] (with cmake patches) for installing the development version of SuperTux onto [http://gentoo.org/ Gentoo] machines. You can install my overlay using the following command:
+<pre>layman -a ohnobinki</pre> Please report problems with my overlay at [http://ohnopublishing.net/bugzilla my bugzilla] or to ohnobinki on [irc://irc.freenode.net/supertux #supertux]
