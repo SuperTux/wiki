@@ -754,6 +754,8 @@ smallfoot made a page, see [[Smallfoot's ideas]].
 * '''More options''': Especially being able to switch between the old and new behavior for running with the action key pressed.
 :Problem: You have to test all the options. Every time you change anything. Does it work with ALL combinations? PITA.
 * '''Let falling objects press buttons''' - for example, burn some burnable blocks to make a rock fall on a button
+* '''fall position''' if tux falls unexpectedly e.g. runs off an edge without jumping, he doesn't use the jump position but instead a "fall position", flippers flailing, or just up in the air, looking down, feet spread to absorb the force of landing he might also use the "fall position" when falling at high speed
+* '''fly position''' when tux flies into the air unexpectedly e.g. he is blown by wind he assumes the "fly position" feet together pointing down, arms by side, looking up.
 
 ==== 2-player mode ====
 *How about 2 player support.Maybe the FreeBSD demon (freebsd.org) or another penguin for player 2.
