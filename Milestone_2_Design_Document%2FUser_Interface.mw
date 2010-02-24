@@ -19,6 +19,8 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 
 * Language
 * Fullscreen: yes/no
+* Fullscreen Resolution: 800x600, 1024x768, ... (automatic list from SDL)
+* Magnification: 100% (pixel perfect), 75%, 50%, ..., Full Screen (zoom till the screen is filled), Letterbox (zoom till all of the 1280x800 game area is visible)
 * Aspect Ratio: 16/9, 16/10, 5/4, 4/3
 * Sound Volume: off/0-100
 * Music Volume: off/0-100
