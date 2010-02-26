@@ -1,13 +1,1 @@
-{{Template:Del}}
-Interactive tiles are actually just special game objects. This page lists some possible interactive tile types.
-
-* Ice - Like normal tile, but Tux has a harder time speeding up and slowing down on ice
-* Spikes - When Tux lands on a spike he is injured
-* Water - Tux will be able to jump into water and swim around and will also slow down Tux's movement
-* Slime/Mud - Slow down Tux's movement
-* Lava/Fire - Injure Tux
-* Quicksand - Tux could sink slowly in this and be slower than usual
-
-* Unisolid - This is actually more an attribute than a tile. If Tux jumps, his head (and anything else) can go through it, but Tux can still stand on it ok.
-
-[[Category:Game Engine]]
+#REDIRECT [[Tile]]
