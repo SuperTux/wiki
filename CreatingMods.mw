@@ -93,7 +93,7 @@ An '''Info file''' is a file in the typical Lisp-syntax which describes your add
 
 == Installing Levels ==
 This is the hard part. People don't follow these guidelines, because they didn't exist, and so make lots of strange directory layouts. But there are some general rules:
-* If it's advertised as a 0.3.x addon, it probably is. To install this, just unpack it in your supertux data directory, or better yet put it in your .supertux2 directory. (See [[Console]] for the location; it's the directory with the config file in it) Starting with Subversion revision 5458, you can also put the archives into the data folder without bothering to unpack them.
+* If it's advertised as a 0.3.x addon, it probably is. To install this, just unpack it in your supertux data directory, or better yet put it in your .supertux2 directory. (See [[Console]] for the location; it's the directory with the config file in it) Starting with Subversion {{revision|5458}}, you can also put the archives into the data folder without bothering to unpack them.
 * If they followed these instructions for 0.1.x, you can still just unpack the archive into the supertux data directory.
 * For other levels, you'll have to install them manually. Unpack the archive to a convenient location. If there's a README file, see if it has instructions for installation and follow those.
 * If there's no README file, try following the packaging instructions above, skipping the zipping instructions. Then you can copy the stuff in your layout directly into the supertux data directory.
