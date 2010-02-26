@@ -108,6 +108,7 @@
 * Bomb(normal): let the fuse burn after one touched it
 * Bomb(crazy): new bomb type (crazy pink bomb) that runs around after being touched
 * Flying Snowball: Add acceleration/deceleration instead of linear up and down
+*: Isn't this the current behavior ({{Revision|6402}})? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
 * Flying Snowball: smoke effect for the motor seem to be to seldomly triggered
 * FlyingSnowball: Remove randomness, should be periodic and predictable
 * Icecrusher: gravitation instead of linear, facial expression, maybe screen shaking
