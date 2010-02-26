@@ -8,12 +8,20 @@ The following are topics we would like to discuss. Since it's possible that we c
 
 # Project management
 #* (Unstable) Release - how?
+#** [[User:Octo|octo]] has a release tarball that needs testing.
+#** Tasks to be done (by who?):
+#*** Upload tarball to file server (Berlios? Google? Lethargik?)
+#*** Update download page http://supertux.lethargik.org/download.html
+#*** Announce on ''freshmeat.net'' (Project there by AnMaster?)
+#*** Update bug tracker
+#*** …
 #* Last chance to change [[Versioning scheme]]
 #* Next meeting date and time - every Saturday at 15:00 UTC?
 # Gameplay
 #* Feedback for the [[Yeti]] level.
 #* New tiles from grumbel - which are useful?
 #* Milestone 1-like worldmap - do now or later (which ideas to keep from the new one?)
+#** "Now" meaning before the release?
 #* Screw the forest? Keep for now? Don't delete ever?
 # Source code
 #* Split physics, drawing, etc. apart
