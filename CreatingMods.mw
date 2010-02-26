@@ -14,11 +14,13 @@ Download the SuperTux Editor from [[Download/Unstable]]. The [[Editor FAQ]] migh
 
 == Packaging Levels ==
 Once you've made these beautiful levels, you want to let the world see them. Just follow these easy steps, which will make archives usable directly as addons for 0.3.x and allow one-step unpacking in 0.1.x:
-* Create a new directory to lay out the files in, with a meaningful name. (I.e., abbreviation of your levelset name, your name, etc...)
-* Create a folder "levels", and underneath that a folder with the same meaningful name.
-* Copy your levels into your special folder.
-* If you made a worldmap, you have to put it in either levels/worldmaps with <your special folder name>.stwm for 0.1.x, or in your special folder with a name of worldmap.stwm.
-* To make it an addon, create a .nfo text file in the root of your directory and fill it with this information:
+* Pick a "meaningful name". This name will be used as file and directory name - the user won't get in touch with it. So pick a short but descriptive name. Your name or acronym should be sufficient, for example. Here, we will use ''my-levels'' as example.
+* Create a new directory hierarchy: <code>''my-levels''/levels/''my-levels''</code>
+* Copy your levels (*.stl files) into your that folder.
+* If you made a [[worldmap]], you have to put it
+** '''0.1:''' in <code>''my-levels''/levels/worldmaps/</code> as <code>''my-levels''.stwm</code>, or
+** '''0.3:''' in your <code>''my-levels''/levels/''my-levels''/</code> as <code>worldmap.stwm</code>.
+* To make it an addon, create a <code>''my-levels''/''my-levels''.nfo</code> text file in the top level of your directory hierarchy and fill it with this information:
  (supertux-addoninfo
   (kind "<Type: Level, Level Subset, World, ...>")
   (title "<Title Here>")
@@ -27,26 +29,43 @@ Once you've made these beautiful levels, you want to let the world see them. Jus
   (http-url "<Place where you plan to upload it>")
   (file "<Name of your directory>.zip")
  )
-* So that it shows up in the "Contrib Levels" menu, you need to create an info file in your special folder. You really only need this:
+* So that it shows up in the "Contrib Levels" menu, you need to create an <code>my-levels/info</code> file. You really only need this:
  (supertux-level-subset
   (title "<Name as will appear in menu>")
   (hide-from-contribs #f)
   (level-subset <Do you have a worldmap? Yes: #f No: #t>)
  )
-Actually, you can get away with only a title, but expect that to change.
 * Once you're done, your tree should look like this:
-<pre>
-<special name>
- |--- levels
-    |--- <special name>
-       |--- *.stl
-       |--- info
-       |--- worldmap.stwm (0.3.x)
-    |--- worldmaps
-       |--- <special name>.stwm (0.1.x)
- |--- <special name>.nfo
-</pre>
-* Use a zip utility to package up you directory into <special name>.zip.
+'''0.1:'''
+ my-levels/
+ !
+ +-- levels/
+ !   !
+ !   +-- my-levels/
+ !   !   !
+ !   !   +-- ''*.stl''
+ !   !   +-- info
+ !   !
+ !   +-- worldmaps/
+ !       !
+ !       +-- my-levels.stwm
+ !
+ +-- my-levels.nfo
+
+'''0.3:'''
+ my-levels/
+ !
+ +-- levels/
+ !   !
+ !   +-- my-levels/
+ !       !
+ !       +-- ''*.stl''
+ !       +-- info
+ !       +-- worldmap.stwm
+ !
+ +-- my-levels.nfo
+
+* Use a zip utility to package up you directory into <code>my-levels.zip</code>.
 * You've made a package.
 
 == Installing Levels ==
