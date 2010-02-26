@@ -3,11 +3,11 @@
 | Image=SnowmanSprite.png
 | FoundIn=[[Icy Island]]
 | Appearance=A walking snowman with eyes.
-| Behaviour=Walks around. Falls off platforms. When jumped on, it turns into Snowball.
+| Behaviour=Walks around. Falls off platforms.
 | Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
+| Buttjump=''unknown''
+| Freeze=''unknown''
+| Burnable=''unknown''
 | FirstVersion=Milestone 2
 }}
 '''Snowman''' is a [[badguy]] found in [[Icy Island]].
