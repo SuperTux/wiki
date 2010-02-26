@@ -121,7 +121,8 @@ An enemy that is let go by Owl and then falls down to the ground and explodes.
 The IceCrusher is an enemy that is hanging on the ceiling. When Tux gets within one tile the IceCrusher will fall down and try to smash Tux. When hanging on the ceiling the IceCrushers eyes shall follow Tux. The face expression shall become angry when he is falling down.
 
 '''Status:''' Needs a cool-down time after an attack, so it doesn't go up instantly. Needs particle effects when it hits the ground. Eyes should follow Tux. Should be larger, maybe 3x3 tiles or 4x4. Should accelerate while falling down, currently looks to much like constant velocity. -- [[User:Grumbel|Grumbel]] 09:54, 23 February 2010 (UTC)
-:Acceleration has been fixed in {{Revision|6403}}. —[[User:Octo|octo]] 19:38, 26 February 2010 (UTC)
+: Acceleration has been fixed in {{Revision|6403}}. —[[User:Octo|octo]] 19:38, 26 February 2010 (UTC)
+: A cooldown timer has been added in {{Revision|6405}}. —[[User:Octo|octo]] 19:49, 26 February 2010 (UTC)
 <br clear="all" />
 
 == Cannon, <strike>Snow Cannon</strike> ==
