@@ -16,3 +16,8 @@ Maximum resolution might be limited to 1280x800, with everything larger getting 
 * with a windows larger then 1280x800 the content will be scaled up, letter boxes will be used where useful
 * with a window between 640x480-1280x800 the visible playfield will resize
 * with a window smaller then 640x480 the content will be scaled down
+
+== Questions ==
+
+Might 1280x1024 be a better choice then 1280x800, as its a common LCD resolution?
+: Maybe, if levels would have build in verticallity, at the moment they are just scaled to 25 tiles, which isn't enough for 1024, thus letterboxing. -- [[User:Grumbel|Grumbel]] 11:11, 26 February 2010 (UTC)
