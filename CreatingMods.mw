@@ -20,7 +20,7 @@ Once you've made these beautiful levels, you want to let the world see them. Jus
 * If you made a [[worldmap]], you have to put it
 ** '''0.1:''' in <code>levels/worldmaps/</code> as <code>''my-levels''.stwm</code>, or
 ** '''0.3:''' in your <code>levels/''my-levels''/</code> as <code>worldmap.stwm</code>.
-* To make it an addon, create a <code>''my-levels''.nfo</code> text file in the top level of your directory hierarchy and fill it with the following information. See the [[#Info files]] section below for details.
+* To make it an addon, create a <code>''my-levels''.nfo</code> text file in the top level of your directory hierarchy and fill it with the following information. See the [[#.nfo files]] section below for details.
  (supertux-addoninfo
   (kind "<Type: Level, Level Subset, World, ...>")
   (title "<Title Here>")
@@ -69,9 +69,9 @@ Once you've made these beautiful levels, you want to let the world see them. Jus
 
 * You've made a package. Now log on to [[Contact#IRC|IRC]] and let us know about your addition!&nbsp;:)
 
-=== Info files ===
+=== .nfo files ===
 
-An '''Info file''' is a file in the typical Lisp-syntax which describes your add-on in some detail. It can originate from two locations:
+An '''.nfo file''' is a file in the typical Lisp-syntax which describes your add-on in some detail. It can originate from two locations:
 * As the file <code>''my-levels''/''my-levels''.nfo</code> within your add-on.
 * As a text-file retrieved from an URL.
 
