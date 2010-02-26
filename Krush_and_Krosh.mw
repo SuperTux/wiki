@@ -1,8 +1,8 @@
 {{Infobox Badguy
-| Name=Krush and Krosh (icecrusher)
+| Name=Krush and Krosh
 | Image=Iceblock.png
 | FoundIn=[[Icy Island]]
-| Appearance=An ice block (two by two for Krush, four by four for Krosh) making an angry face.
+| Appearance=An annoyed ice block making an angry face.
 | Behaviour=Clings to the ceiling until [[Tux]] is underneath. Then drops with unstoppable force.
 | Squish=no
 | Buttjump=no
@@ -10,12 +10,8 @@
 | Burnable=no
 | FirstVersion=Milestone 2
 }}
-'''Krush''' and '''Krosh''' are [[badguy]]s found in [[Icy Island]]. They are usually found on ceilings. If Tux comes underneath one, it suddenly drops without warning. If Tux does not get out of the way fast, he is hurt. After they hit the ground, they slowly drift back up. On this "return trip," Tux may safely climb on top of them and hitch a ride.
+'''Krush''' and his big brother, '''Krosh''', are [[badguy]]s found in [[Icy Island]]. They cling to the ceiling until [[Tux]] is right underneath them, and then they let themselves drop. If Tux doesn't move out of the way fast, he'll be done for.
 
-Both "icecrushers" are available in [[SVN]], but only Krush is implemented in levels.
-
-== Concept art ==
-
-[[Image:Icecrusher (concept art).png|400px|Concept art for ''Icecrusher'']]
+''Krush'', the 2×2 version, is available in [[SVN]]. ''Krosh'' is not yet available.
 
 {{Navbox Badguys}}
