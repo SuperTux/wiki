@@ -1,0 +1,18 @@
+{{Infobox Badguy
+| Name=Snowman
+| Image=SnowmanSprite.png
+| FoundIn=[[Icy Island]]
+| Appearance=A walking snowman with eyes.
+| Behaviour=Walks around. Falls off platforms.
+| Squish=yes
+| Buttjump=''unknown''
+| Freeze=''unknown''
+| Burnable=''unknown''
+| FirstVersion=Milestone 2
+}}
+'''Snowman''' is a [[badguy]] found in [[Icy Island]].
+
+This badguy is planned for [[Milestone 2]]. It is in SVN since {{Revision|6392}}.
+
+{{Navbox Badguys}}
+[[Category:Badguy.4]]
