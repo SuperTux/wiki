@@ -12,3 +12,7 @@ This means that level design must not focus on 800x600, but should be flexible e
 The maximum resolution to deal with is 1920x1200 (HD-TV Monitor), 2560x1600 (Apple 30" Cinema Display) can't be handled since that would cause issues with enemy respawning, the respawn distance is currently 1600x1200, relative to Tux.
 
 Maximum resolution might be limited to 1280x800, with everything larger getting upscaled.
+
+* with a windows larger then 1280x800 the content will be scaled up, letter boxes will be used where useful
+* with a window between 640x480-1280x800 the visible playfield will resize
+* with a window smaller then 640x480 the content will be scaled down
