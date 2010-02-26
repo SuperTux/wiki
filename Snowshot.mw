@@ -8,12 +8,11 @@
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
-| FirstVersion=0.4
+| FirstVersion=Milestone 2
 }}
-'''Kamikaze Snowball''' is a [[badguy]] planned to debut in version&nbsp;0.4. He is a version of [[Snowball]] which is shot from a [[dispenser]] and flies a straight line until crashing into something.
+'''Kamikaze Snowball''' is a [[badguy]] planned to debut in [[Milestone 2]]. He is a version of [[Snowball]] which is shot from a [[dispenser]] and flies a straight line until crashing into something.
 
-Planned for 0.4. In SVN since revision 5323.
-
+In [[SVN]] since {{Revision|5323}}.
 
 [[Image:Kamikaze-left.png|thumb|right|Old version of the badguy.]]
 
