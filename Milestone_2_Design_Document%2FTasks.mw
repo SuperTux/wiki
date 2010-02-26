@@ -112,6 +112,7 @@
 * Flying Snowball: smoke effect for the motor seem to be to seldomly triggered
 * FlyingSnowball: Remove randomness, should be periodic and predictable
 * Icecrusher: gravitation instead of linear, facial expression, maybe screen shaking
+*: Gravitation has been done in {{Revision|6403}}. —octo
 * Icecrusher(big): add a larger version of the icecrusher, twice the size
 * merge AngryStone and Icecrusher, both do the same thing, just with different graphics (actually they don't, maybe they should?)
 * Iceblock: transparency looks shit on dark backgrounds, Wiki had a better looking version floating around
