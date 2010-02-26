@@ -72,5 +72,5 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 
 = Things to know =
 
-* data/levels/test/unisolid.stl show a few new features of Milestone2 (parallax scrolling, unisolid snow tiles, new water)
+* {{SvnFile|data/levels/test/unisolid.stl}} shows a few new features of Milestone&nbsp;2 (parallax scrolling, unisolid snow tiles, new water)
 * [[News]] is there to be used, so if something interesting happens, write it down there
