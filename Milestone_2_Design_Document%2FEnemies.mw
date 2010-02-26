@@ -138,7 +138,7 @@ The stalactite stays stuck to the ceiling until Tux walks near it, then begins s
 
 <br clear="all" />
 
-== Flame ==
+== [[Flame]] ==
 [[Image:Flame.png|Flame|right]]
 The flame rotates around in a circle, hurting Tux when he gets too close. It is indestructible. Do we want it to come in a line of fire?
 
