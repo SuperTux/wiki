@@ -5,9 +5,9 @@
 | Appearance=A walking snowman with eyes.
 | Behaviour=Walks around. Falls off platforms.
 | Squish=yes
-| Buttjump=''unknown''
-| Freeze=''unknown''
-| Burnable=''unknown''
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
 | FirstVersion=Milestone 2
 }}
 '''Snowman''' is a [[badguy]] found in [[Icy Island]].
