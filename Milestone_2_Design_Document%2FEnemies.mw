@@ -13,11 +13,11 @@ Snowball is a straight forward walking enemy, when reaching an edge he will fall
 '''Status:''' Basic behavior is implemented, could however be improved with additional animations when turning around or when falling from a cliff. -- [[User:Grumbel|Grumbel]] 09:41, 23 February 2010 (UTC)
 <br clear="all" />
 
-== Mrs Snowball / <strike>Stay-On-Platform Snowball</strike> / <strike>Smart Snowball</strike> ==
+== [[Mrs. Snowball]] ==
 
 [[Image:SmartSnowballSprite.png|right]]
 
-Mrs Snowball behaves like a normal snowball, but instead of walking off a platform she will turn around when reaching the edge.
+Mrs. Snowball behaves like a normal [[Snowball]], but instead of walking off a platform she will turn around when reaching the edge.
 <br clear="all" />
 
 == Snowman ==
