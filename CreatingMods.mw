@@ -68,6 +68,29 @@ Once you've made these beautiful levels, you want to let the world see them. Jus
 * Use a zip utility to package up you directory into <code>my-levels.zip</code>.
 * You've made a package.
 
+=== Info files ===
+
+An '''Info file''' is a file in the typical Lisp-syntax which describes your add-on in some detail. It can originate from two locations:
+* As the file <code>''my-levels''/''my-levels''.nfo</code> within your add-on.
+* As a text-file retrieved from an URL.
+
+==== Valid keys ====
+:''(As of {{Revision|6398}})''
+; kind
+: Type of your add-on. This is used when displaying information about your add-on to the user. If in doubt, use "Levels" here.
+; title
+: Title (name) of your add-on
+; author
+: Your name
+; license
+: License under which your levels are provided. "GPL 2+ / CC-by-sa 3.0" is the preferred license for ''SuperTux'' content.
+; http-url
+: URL pointing to this add-on, i.e. the .zip-file. Used for downloading the add-on based on the information provided in the (separate) info file.
+; file
+: Filename used to store the add-on. Be conservative and use "''my-levels''.zip". This field is intended to be used when the info file is downloaded from a URL.
+; md5
+: MD5-sum of your .zip-file. This field only makes sense when downloading the info file from an URL.
+
 == Installing Levels ==
 This is the hard part. People don't follow these guidelines, because they didn't exist, and so make lots of strange directory layouts. But there are some general rules:
 * If it's advertised as a 0.3.x addon, it probably is. To install this, just unpack it in your supertux data directory, or better yet put it in your .supertux2 directory. (See [[Console]] for the location; it's the directory with the config file in it) Starting with Subversion revision 5458, you can also put the archives into the data folder without bothering to unpack them.
