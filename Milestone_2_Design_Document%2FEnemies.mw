@@ -57,8 +57,8 @@ Like Snowball, Mr. IceBlock is a simple straight forward enemy. He will not stay
 
 == Fuse, <strike>MrBomb</strike> ==
 
-[[Image:MrBombNormal.png|right|frame|Old gfx, should be blue]]
-The base behavior of MrBomb is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
+[[Image:Mrbomb.png|right]]
+The base behavior of [[Mr. Bomb]] is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
 
 '''Status:''' Explosion timing is wrong, should be long enough to grab it and carry it around. -- [[User:Grumbel|Grumbel]] 09:51, 23 February 2010 (UTC)
 
