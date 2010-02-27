@@ -14,11 +14,14 @@ Present were:
 * (Unstable) Release - how?
 ** [[User:Octo|octo]] has a release tarball that needs testing.
 ** Tasks to be done (by who?):
-*** Upload tarball to file server (Berlios? Google? Lethargik?)
+*** Upload tarball to file server (BerliOS? Google? Lethargik?)
+**** People listed at http://developer.berlios.de/projects/supertux/ as "admins" can upload to BerliOS.
 *** Update download page http://supertux.lethargik.org/download.html
 *** Announce on ''freshmeat.net'' (Project there by AnMaster?)
+**** AnMaster and WolfgangB
 *** Announce on http://happypenguin.org/
 *** Update bug tracker
+**** → octo'll do it
 *** …
 * Last chance to change [[Versioning scheme]]
 * Next meeting date and time - every Saturday at 15:00 UTC?
