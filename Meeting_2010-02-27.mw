@@ -72,6 +72,284 @@ Next Saturday, March 6th, at 15:00 UTC?
 
 == Log ==
 
-'''To do.'''
+ 16:01 &lt; octo&gt; Okay, since Mathnerd314 Has to leave early I'd suggest we start ;)
+ 16:01 &lt; grumbel&gt; Mathnerd314: I am here
+ 16:01 &lt; octo&gt; First point is - again - the new release / development snapshot
+ 16:02 &lt; Mathnerd314&gt; %$#*^ - have to leave now
+ 16:02 &lt; octo&gt; I have created a tarball which lives at <nowiki>http://verplant.org/supertux/files/supertux-0.3.3.tar.bz2</nowiki>
+ 16:02 &lt; octo&gt; It'd be great if I could get some feedback on it, especially regarding the README / WHATSNEW and, of course, if it doesn't buidl
+ 16:02 &lt; octo&gt; +^T
+ 16:02 &lt; octo&gt; Mathnerd314: Crap :(
+ 16:03 &lt; octo&gt; It's possible that there are some unused graphics / sounds in the tarball which *should* be removed if possible - it's currently slightly over 60 MBytes
+ 16:03 &lt; Mathnerd314&gt; let's just say my opinion is "do it" for every point.
+ 16:03 &lt; WolfgangB1&gt; hi
+ 16:03 &lt; octo&gt; Mathnerd314: Hehe ;)
+ 16:04 *** Unnheulu [~ieuan@cpc5-pnth2-0-0-cust800.5-2.cable.virginmedia.com] has quit [Quit: Ex-Chat]
+ 16:05 &lt; octo&gt; Other than that I'd like to know who is responsible for:
+ 16:05 &lt; octo&gt; * Uploading the tarball to a final location
+ 16:06 &lt; octo&gt; * Updating the download page of the website
+ 16:06 &lt; octo&gt; * Updating the freshmeat.net record (AnMaster?)
+ 16:06 &lt; octo&gt; * Updating the bug tracker (add the release)
+ 16:06 &lt; octo&gt; I think I can easily do that last point ;)
+ 16:07 &lt; WolfgangB1&gt; isn't  freshmeat updated for stable only?
+ 16:07 &lt; WolfgangB1&gt; don't forget happypenguin
+ 16:08 &lt; octo&gt; Hm, *I* would update freshmeat as often as possible ;)
+ 16:10 &lt; AnMaster&gt; hi there
+ 16:11 *** WolfgangB1 [~wolfgang@88.130.223.150] has quit [Quit: Leaving.]
+ 16:11 &lt; AnMaster&gt; octo, currently I'm really busy in real life due to university.
+ 16:11 &lt; octo&gt; Hey AnMaster :)
+ 16:11 &lt; AnMaster&gt; but what was that about freshmeat?
+ 16:11 *** WolfgangB [~wolfgang@88.130.223.150] has joined #supertux
+ 16:12 &lt; octo&gt; AnMaster: I would have announced that release on freshmeat, and the user account that last updated that record looked like it could belong to you ;)
+ 16:12 &lt; AnMaster&gt; hm
+ 16:12 &lt; AnMaster&gt; what release?
+ 16:13 * AnMaster has been completely unable to keep up with supertux recently
+ 16:13 &lt; octo&gt; AnMaster: A new development snapshot, 0.3.3
+ 16:13 &lt; AnMaster&gt; lets see...
+ 16:14 &lt; octo&gt; So nobody knows about download servers?
+ 16:14 &lt; octo&gt; I assume sik0fewl can update the website, right?
+ 16:14 &lt; grumbel&gt; brb
+ 16:14 &lt; AnMaster&gt; download servers where?
+ 16:14 &lt; octo&gt; That's what I want to know. Where should the tarball(s) be uploaded to and who can do that?
+ 16:14 &lt; AnMaster&gt; octo, I have/had ssh access to lethergik if that is what you meant. For user account supertux (under which the website runs) too
+ 16:15 &lt; AnMaster&gt; but I don't think we hosted that
+ 16:15 &lt; AnMaster&gt; didn't we use berlios or sf.net still for it?
+ 16:15 &lt; AnMaster&gt; I don't really remember
+ 16:15 &lt; octo&gt; AnMaster: I think currently the files are on Berlios, but there was talk about possibly host them somewhere else
+ 16:15 &lt; WolfgangB&gt; on berlis the people listed as "project admins" http://developer.berlios.de/projects/supertux/ can add releases
+ 16:15 &lt; AnMaster&gt; octo, about freshmeat update, it looks like WolfgangB have access too
+ 16:15 &lt; WolfgangB&gt; i do?
+ 16:15 &lt; AnMaster&gt; and sommerc, which would be delta iirc
+ 16:16 &lt; AnMaster&gt; WolfgangB, yep http://freshmeat.net/projects/supertux/roles claims so
+ 16:16 &lt; octo&gt; WolfgangB, AnMaster: Thanks
+ 16:16 &lt; AnMaster&gt; WolfgangB, so you can add release on berlios, I can't
+ 16:17 &lt; AnMaster&gt; on sf.net: no clue
+ 16:17 &lt; WolfgangB&gt; ok I found my freshmeat account
+ 16:18 &lt; octo&gt; WolfgangB: So how does updating happypenguin.org work?
+ 16:18 &lt; AnMaster&gt; our mediawiki looks outdated btw. Probably someone should update it. But I really don't remember how. It was rather messy iirc
+ 16:18 &lt; WolfgangB&gt; log in, submit update, wat for admin to aprove
+ 16:19 &lt; AnMaster&gt; you had to diff against a clean copy for local changes, then apply that diff to the new version and fix conflicts
+ 16:19 &lt; AnMaster&gt; and a few more steps iirc
+ 16:19 &lt; AnMaster&gt; well yeah, database stuff too
+ 16:19 &lt; octo&gt; WolfgangB: So anyone can do that?
+ 16:19 &lt; AnMaster&gt; plus any special steps in the release notes
+ 16:19 &lt; WolfgangB&gt; octo: yes
+ 16:20 &lt; octo&gt; WolfgangB: Okay
+ 16:20 &lt; AnMaster&gt; happypenguin.org &lt;-- I don't even have an account there afaik
+ 16:20 &lt; WolfgangB&gt; no gotm?
+ 16:20 &lt; AnMaster&gt; gotm?
+ 16:20 *** zoobox [~zoobox@h85n1fls305o253.telia.com] has left #supertux []
+ 16:20 &lt; AnMaster&gt; (what is that?)
+ 16:21 &lt; WolfgangB&gt; http://www.happypenguin.org/newsitem?id=4455
+ 16:21 &lt; AnMaster&gt; ah yeah
+ 16:21 &lt; AnMaster&gt; game of the month I guess
+ 16:22 &lt; Greeny&gt; who is responsible for the windows build ? ;)
+ 16:23 &lt; octo&gt; Good question
+ 16:23 &lt; WolfgangB&gt; let them compile source ;-)
+ 16:23 &lt; octo&gt; Did SuperTux provide binary packages for previous releases?
+ 16:23 &lt; Greeny&gt; yes
+ 16:23 &lt; WolfgangB&gt; source, linux autopackage, windows binary
+ 16:24 &lt; AnMaster&gt; &lt;Greeny&gt; who is responsible for the windows build ? ;) &lt;-- I'm on exclusively linux since several years
+ 16:24 &lt; AnMaster&gt; well, some freebsd too
+ 16:25 &lt; AnMaster&gt; actually, there is one old old MacOS 9 too
+ 16:25 &lt; AnMaster&gt; (pre-OS X, really old macs. Think one-button)
+ 16:25 &lt; AnMaster&gt; (that one is a first generation ibook in fact)
+ 16:25 &lt; octo&gt; Okay, if anyone remembers who built the Windows binaries let me know..
+ 16:25 &lt; AnMaster&gt; WolfgangB, was the autopackage a x86_64 one?
+ 16:26 &lt; AnMaster&gt; octo, I think delta did
+ 16:26 &lt; AnMaster&gt; not completely sure
+ 16:26 &lt; octo&gt; AnMaster: Oh, that was a name? ;) Okay, I'll put that down
+ 16:26 &lt; AnMaster&gt; octo, delta = sommer iirc in some places
+ 16:26 &lt; octo&gt; AnMaster: Ah
+ 16:26 &lt; AnMaster&gt; octo, I haven't seen him for ages though
+ 16:26 &lt; AnMaster&gt; any idea what became of him?
+ 16:27 &lt; octo&gt; Okay, I don't precisely *need* to discuss the versioning schema again (that's the next point)
+ 16:27 &lt; WolfgangB&gt; AnMaster: IIRC there never was a 64bit Autopackage but the 32 bit version was reported to work
+ 16:27 &lt; AnMaster&gt; ah
+ 16:27 &lt; octo&gt; Does anyone see need for discussing that again?
+ 16:27 &lt; octo&gt; (I think Mathnerd314 put it on the agenda)
+ 16:27 &lt; AnMaster&gt; did it change again or?
+ 16:28 &lt; WolfgangB&gt; no idea? named reveision now or what?
+ 16:28 &lt; AnMaster&gt; (by the way, who have access to change the topic in here?)
+ 16:28 &lt; octo&gt; AnMaster: Mathnerd314 I think, maybe grumbel
+ 16:28 &lt; AnMaster&gt; hm
+ 16:28 &lt; AnMaster&gt; /cs access #supertux list
+ 16:28 &lt; AnMaster&gt; gives
+ 16:28 &lt; AnMaster&gt; CharlieG and grumbel
+ 16:29 &lt; AnMaster&gt; but the flags look messed up...
+ 16:29 &lt; WolfgangB&gt; http://developer.berlios.de/project/showfiles.php?group_id=3467 no 64bit Auptopackage
+ 16:29 *** Auria [~Auria@69-4-213-152.mediom.qc.ca] has joined #supertux
+ 16:29 &lt; AnMaster&gt; according to it grumbel can change the access list flags but not view them (with flags command, never mind that freenode allows viewing them anyway with the access command)
+ 16:30 &lt; octo&gt; WolfgangB: I was recently pushing towards another schema which increased the minor version whenever new stuff was added (or removed)
+ 16:30 &lt; octo&gt; WolfgangB: This would leave room for patch releases
+ 16:30 &lt; octo&gt; WolfgangB: However, I seemed to be the only one seeing a problem with the current schema, so we didn't change anything
+ 16:31 &lt; octo&gt; Let's move to the gameplay points then:
+ 16:31 &lt; octo&gt; grumbel has added some new tiles this week
+ 16:31 &lt; AnMaster&gt; I suggest next version should be log_{e}\(\frac{\pi}{2}\)
+ 16:31 &lt; octo&gt; Nightcave, Crystal cave and, ..., uhm, one more iIrc
+ 16:31 &lt; AnMaster&gt; (that might not pass as valid LaTeX on closer examination)
+ 16:32 &lt; octo&gt; It says in the agenda: "New tiles from grumbel - which are useful?"
+ 16:32 &lt; octo&gt; Any thoughts?
+ 16:32 *** yetanothername [~yam@c-71-60-244-197.hsd1.pa.comcast.net] has joined #supertux
+ 16:33 &lt; grumbel&gt; nightcave is good, the rest is crap
+ 16:34 &lt; WolfgangB&gt; as long as they don't disappear after i use them i a level
+ 16:34 &lt; octo&gt; grumbel: What was the third one you added? I can't remember right now ..
+ 16:34 &lt; octo&gt; grumbel: Dark snow or something?
+ 16:35 &lt; octo&gt; WolfgangB: Yeah, if we remove them, we should remove them asap
+ 16:35 &lt; AnMaster&gt; no comments on that one due to not having checked them out (and atm I'm on a laptop with super high resolution, so the tiles would be very small. ~114 dpi does have some disadvantages)
+ 16:35 &lt; grumbel&gt; octo: mountain stuff
+ 16:35 &lt; WolfgangB&gt; AnMaster: iirc you can add zoom with some command line argument
+ 16:36 &lt; octo&gt; grumbel: So do you want to try to improve the crystal cave one? I really do like it
+ 16:36 &lt; grumbel&gt; that gets most likely degraded to a background tileset
+ 16:36 &lt; AnMaster&gt; WolfgangB, sure, but since the the colour reproduction on this thinkpad sucks, it would be hard to give any relevant opinion
+ 16:36 &lt; grumbel&gt; the snowmountain stuff needs to be repainted
+ 16:37 &lt; WolfgangB&gt; if they will be changed again we must not distribute these tiles without a warning. otherwise 3rd party level designer will be upset
+ 16:38 &lt; octo&gt; grumbel: Fair enough - as long as it doesn't disappear completely ;)
+ 16:38 &lt; WolfgangB&gt; then again it already is called unstable
+ 16:39 &lt; octo&gt; grumbel: So should I remove the solidity flag from the crystal cave tiles?
+ 16:41 &lt; octo&gt; Okay, I think that about wraps it up.. Next point is:
+ 16:41 &lt; WolfgangB&gt; the editor should preserve unknown trees and support user defined tiles. wasn't there already some code for user tiles? oh man all so long ago
+ 16:41 &lt; octo&gt; Worldmap of Icy Island
+ 16:41 &lt; octo&gt; Mathnerd314 has changed the worldmap in SVN just before this meeting to be "more linear"
+ 16:41 &lt; AnMaster&gt; WolfgangB, level editor preserving unknown trees is easier said than done
+ 16:42 &lt; WolfgangB&gt; I know
+ 16:42 &lt; octo&gt; It has still a lot of alternative paths and, in my opinion, looks rather like a quick hack
+ 16:42 &lt; AnMaster&gt; without completely rewriting huge parts of the editor
+ 16:42 &lt; WolfgangB&gt; tried that one and failed
+ 16:43 &lt; WolfgangB&gt; octo: because it is a quick hack?
+ 16:43 &lt; WolfgangB&gt; in a stable release the worldmap should fit with the levels eg some mountains on the map for cave levels
+ 16:44 &lt; octo&gt; WolfgangB: Possibly ;)
+ 16:44 &lt; WolfgangB&gt; but while the levels are changing how can you do that now?
+ 16:44 &lt; octo&gt; I have a version of the worldmap which is an exact copy of the milestone 1 worldmap, as grumbel suggested
+ 16:45 &lt; octo&gt; It's missing a passage to the Forest and basically everything else, too (even the Yeti currently)
+ 16:46 &lt; octo&gt; Should I put work into that, i.e. add the Yeti and the introduction or should be improve the current worldmap?
+ 16:46 &lt; WolfgangB&gt; the 0.1 worldmap was linear and the levels tell some kind of a story. it was changed for 0.3 so you can go to the "new" part faster.
+ 16:46 &lt; octo&gt; My suggestion was to remove the passage to the Forest so it is only accessible through "Contrib levels"
+ 16:46 &lt; grumbel&gt; are we talking about stuff to do before 0.3.3 or after?
+ 16:48 &lt; octo&gt; grumbel: Good question. But I'd do changes that are big for the user but easy to do for developers before
+ 16:48 &lt; octo&gt; grumbel: I.e. rather than ripping out the Forest right after 0.3.3 is out, I'd move it to contribs *now* (i.e. before 0.3.3 is out)
+ 16:52 &lt; octo&gt; No opinions?
+ 16:52 &lt; grumbel&gt; fine with me, however not so sure how much extra work that is going to require to make that work properly
+ 16:53 &lt; octo&gt; grumbel: I don't think it's a lot of work.. The intro and yeti stuff can be taken from the current version I guess
+ 16:53 &lt; octo&gt; grumbel: And removing the boat / passage shouldn't be a problem either – ripping stuff out is usually easy.
+ 16:54 &lt; octo&gt; Okay, so the suggestion is: Restore the Milestone 1 worldmap and add the intro and Yeti levels. There will be no passage to/from the Forest and the Forest / World 2 will be moved to contributed levels.
+ 16:55 &lt; octo&gt; Who's in favor?
+ 16:55 * octo is ;)
+ 16:56 &lt; WolfgangB&gt; why don't we keep the boat, too?
+ 16:56 &lt; grumbel&gt; octo: do it
+ 16:56 &lt; octo&gt; WolfgangB: To demonstrate to the user that the final word regarding the forest has not yet been spoken, i.e. it might be removed
+ 16:58 &lt; AnMaster&gt; no opinion on this
+ 17:00 &lt; octo&gt; Okay, let's get to the next point (and I suggest this to be the last point for today):
+ 17:00 &lt; octo&gt; New names for badguys. Which to rename and (if applicable) which name to use?:
+ 17:00 &lt; WolfgangB&gt; why rename them?
+ 17:00 &lt; octo&gt; Maybe I can get a quick sign of approval or opposition for these renames (according to the MS2 document):
+ 17:00 &lt; octo&gt; * Bouncing Snowball → Bouncy
+ 17:01 &lt; octo&gt; * Flying Snowball → Avior or Dex
+ 17:01 &lt; WolfgangB&gt; most names are not used ingame at all, but they are better to memorize for developement than badgy#3
+ 17:01 &lt; octo&gt; * Kamikaze Snowball → Snowshot
+ 17:01 *** tuxdev [~tim@unaffiliated/tuxdev] has joined #supertux
+ 17:01 &lt; octo&gt; * Mr. Bomb → Fuse
+ 17:01 &lt; octo&gt; * Jumpy → Recoil
+ 17:01 &lt; octo&gt; WolfgangB: Because I want the wiki to use the same names consistently
+ 17:02 &lt; AnMaster&gt; what is wrong with Jumpy?
+ 17:02 &lt; AnMaster&gt; octo, in general I prefer the older names there
+ 17:02 &lt; WolfgangB&gt; then change the names in the wiki to match the reality. or don't if its just some user discussion using made up names
+ 17:02 &lt; octo&gt; AnMaster: Personally I don't think anything is wrong with any of the current names..
+ 17:02 &lt; AnMaster&gt; well, maybe not for "Kamikaze Snowball"
+ 17:03 &lt; AnMaster&gt; Snowshot might be better for that one
+ 17:03 &lt; AnMaster&gt; *shrug*
+ 17:03 &lt; octo&gt; WolfgangB: The problem is: This is a "Milestone 2" vs. "rest of the wiki" problem - it's all in the wiki
+ 17:03 &lt; WolfgangB&gt; rm -r wiki
+ 17:04 &lt; WolfgangB&gt; maybe i should read more wiki discussions, but i never heade most of the new names
+ 17:05 &lt; WolfgangB&gt; "short fuse" was a sugestion for some different kind of bomb IIRC
+ 17:05 &lt; octo&gt; WolfgangB: This is probably the only place where they appear: http://supertux.lethargik.org/wiki/Milestone_2_Design_Document/Enemies
+ 17:06 &lt; octo&gt; WolfgangB: "Milestone 2 Design Document/Tasks" says: "fix and cleanup all the enemy names - see Milestone 2 Design Document/Enemies for new names"
+ 17:06 &lt; WolfgangB&gt; oh, ok, if grumbel thinks the badguys need new names do it. ha probably has a good reason
+ 17:06 &lt; octo&gt; WolfgangB: So determining what we actually want is IMHO the first step of fixing anything ;)
+ 17:07 *** Greeny is now known as Greeny|afk
+ 17:07 &lt; grumbel&gt; what we want is good and interesting names
+ 17:07 &lt; grumbel&gt; finding them is the hard part
+ 17:08 &lt; octo&gt; Personally, I don't like "Avior" nor "Dex". With the other names I don't have much preference
+ 17:08 &lt; grumbel&gt; yeah, neither of them really sounds much good
+ 17:09 &lt; octo&gt; Okay, so everybody alright with renaming all the above except "Flying Snowball"?
+ 17:09 &lt; octo&gt; Or does anybody have an idea for a new "Flying Snowball" name?
+ 17:10 &lt; WolfgangB&gt; if the new names are not good yet, then there is no need to rename now
+ 17:11 &lt; octo&gt; WolfgangB: Which other new name do you think is not good yet?
+ 17:11 &lt; grumbel&gt; no hurry there, just change the design document to refelect which names are not good
+ 17:12 &lt; MMlosh&gt; actually... The only change I agree with is Flying snowball rename
+ 17:12 &lt; MMlosh&gt; jumpy, Mr. Bomb sound allright to me
+ 17:13 &lt; octo&gt; grumbel: *done*
+ 17:13 &lt; AnMaster&gt; hm
+ 17:13 *** yetanothername [~yam@c-71-60-244-197.hsd1.pa.comcast.net] has quit [Quit: When two people dream the same dream, it ceases to be an illusion. KVIrc 3.4.2 Shiny http://www.kvirc.net]
+ 17:13 &lt; AnMaster&gt; I don't really like Fuse for Mr. Bomb
+ 17:13 &lt; AnMaster&gt; but I'm okay with it
+ 17:13 &lt; AnMaster&gt; prefer the old one there
+ 17:14 &lt; MMlosh&gt; octo, even for level editor? what about translation for old levels to new names? that is impossible, right?
+ 17:14 &lt; AnMaster&gt; and I'm definitely against the names Avior and Dex
+ 17:14 &lt; octo&gt; MMlosh: The internals don't change..
+ 17:14 &lt; AnMaster&gt; they just doesn't sound right
+ 17:14 &lt; octo&gt; MMlosh: I just don't like the MS2 document to talk about "Fuse" when *everywhere* else it's "Mr. Bomb"
+ 17:14 &lt; octo&gt; MMlosh: This is exclusively a documentation issue
+ 17:15 *** Guest16709 [~ohnobinki@ohnobinki-1-pt.tunnel.tserv9.chi1.ipv6.he.net] has joined #supertux
+ 17:15 &lt; MMlosh&gt; ah.. that way..   but Mr.Bomb still sounds much better
+ 17:15 &lt; WolfgangB&gt; if the internals don't change, how am is supposed to search a bug reported for "The Fuse" without knowing that the code is called "MrBomb" and in the editor "das teil das wo explodiert"
+ 17:16 &lt; octo&gt; WolfgangB: Because what the editor displays ("Fuse", for example) does not have to be the same it puts into the .stl file
+ 17:16 *** Guest16709 is now known as binki
+ 17:17 &lt; octo&gt; WolfgangB: What's in the .stl file is the only thing that matters for compatibility to old levels (well, name-wise at least)
+ 17:17 &lt; WolfgangB&gt; yea, then we get bug reports for $YourLanguageForBomb" and have to rack it down somehow
+ 17:17 &lt; octo&gt; WolfgangB: We'll get that anyhow
+ 17:17 &lt; AnMaster&gt; hm
+ 17:18 &lt; AnMaster&gt; octo, when is the release planned?
+ 17:18 &lt; WolfgangB&gt; sry, have to chat a train
+ 17:18 &lt; octo&gt; It's not like the names in the .stl files, the implementation and the documentation match *now*
+ 17:18 &lt; AnMaster&gt; octo, I might update the Swedish translation tomorrow
+ 17:18 &lt; AnMaster&gt; now time today
+ 17:18 &lt; AnMaster&gt; no*
+ 17:18 *** WolfgangB [~wolfgang@88.130.223.150] has quit [Quit: Leaving.]
+ 17:18 &lt; octo&gt; AnMaster: Soon ;)
+ 17:18 *** binki [~ohnobinki@ohnobinki-1-pt.tunnel.tserv9.chi1.ipv6.he.net] has quit [Read error: Connection reset by peer]
+ 17:18 &lt; AnMaster&gt; octo, so, sometime after tomorrow (UTC)
+ 17:18 &lt; AnMaster&gt; ?
+ 17:19 &lt; octo&gt; AnMaster: The worldmap issue is on my todo list, other than that I think we're mostly set
+ 17:19 &lt; octo&gt; Or, as set as we're ever going to be
+ 17:19 &lt; octo&gt; AnMaster: If I know that you're working on it, I can wait for you
+ 17:19 &lt; AnMaster&gt; octo, well, I can do it tomorrow, today I'm somewhat busy
+ 17:20 &lt; AnMaster&gt; and tomorrow might very well be during the afternoon
+ 17:20 &lt; octo&gt; grumbel: I think this got lost now: Should I make the crystal cave tiles non-solid before the release? This way nobody will use them in 3rd party levels (as solid tiles anyways)
+ 17:20 &lt; octo&gt; AnMaster: Sounds okay
+ 17:21 &lt; grumbel&gt; octo: can't hurt
+ 17:21 &lt; octo&gt; grumbel: Okay
+ 17:21 &lt; AnMaster&gt; &lt;WolfgangB&gt; sry, have to chat a train &lt;-- oh, took a while until I realised it was a typo for "catch" heh
+ 17:22 &lt; octo&gt; Okay, maybe I'm being a bit annoying now, but maybe we can at least try to agree on some renames
+ 17:22 &lt; Lazure&gt; what do you mean octo?
+ 17:22 &lt; octo&gt; Is anyone opposed to rename "Bouncing Snowball" to "Bouncy" and "Kamikaze Snowball" to "Snowshot"?
+ 17:23 &lt; octo&gt; Lazure: [[Meeting 2010-02-27]] → "New names for badguys" ;)
+ 17:23 &lt; Lazure&gt; not making tiles solid, i mean
+ 17:23 &lt; grumbel&gt; Snowshot is good
+ 17:23 &lt; AnMaster&gt; octo, btw I can't find kbabel for KDE4. I used to use that back when I was on KDE3...
+ 17:23 &lt; AnMaster&gt; so any idea of a good po file tool for kde4 or gnome?
+ 17:23 &lt; grumbel&gt; Bouncy is shorter and not much different then the current name, so I think we can use Bouncy too
+ 17:23 &lt; octo&gt; Lazure: Grumbel has added some tiles to the SVN which we currently plan to use as background only
+ 17:24 &lt; octo&gt; Lazure: If those are "solid" (i.e. Tux can stand on them), someone *might* use those to create levels, which shouldn't be done in this state
+ 17:24 &lt; MMlosh&gt; Snowshot is good, "Bouncy" has too strong association to java game shipped with nokia phones
+ 17:25 &lt; octo&gt; Okay, agreeing on two renames out of five (one positive, one negative result ;) isn't too bad ;)
+ 17:27 &lt; AnMaster&gt; MMlosh, hm? Snake?
+ 17:27 * AnMaster has a nokia phone.
+ 17:28 &lt; AnMaster&gt; it has 3D snake -_-
+ 17:28 &lt; MMlosh&gt; AnMaster, no..  a game with a red ball
+ 17:28 &lt; AnMaster&gt; (it is a basic model, iirc, not symbian or anything fancy like that, S40 series or such iirc)
+ 17:28 &lt; octo&gt; Okay, one last point: Next week, same time and place?
+ 17:28 &lt; AnMaster&gt; MMlosh, ah seen that on some, mine doesn't have it
+ 17:29 &lt; AnMaster&gt; octo, no idea if I can make it to that
+ 17:29 &lt; MMlosh&gt; named "bouncy"... it was on old models and its 3D version is on that new touchscreen nokia
+ 17:29 &lt; AnMaster&gt; ah
+ 17:29 &lt; octo&gt; AnMaster: Would another time or Sunday be better for you?
+ 17:30 &lt; AnMaster&gt; octo, can't really plan ahead at all
+ 17:30 &lt; octo&gt; AnMaster: Okay
+ 17:30 &lt; AnMaster&gt; just go ahead without me if I'm not there
+ 17:30 &lt; AnMaster&gt; octo, it all depends on how many assignments I get at university during next week.
+ 17:30 &lt; AnMaster&gt; (and how long it takes to write the reports)
+
+
 
 [[Category:Development]]
