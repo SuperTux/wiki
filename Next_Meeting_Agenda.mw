@@ -23,6 +23,12 @@ The following are topics we would like to discuss. Since it's possible that we c
 #* Milestone 1-like worldmap - do now or later (which ideas to keep from the new one?)
 #** "Now" meaning before the release?
 #* Screw the forest? Keep for now? Don't delete ever?
+#* New names for badguys. Which to rename and (if applicable) which name to use?:
+#** [[Bouncing Snowball]] → Bouncy
+#** [[Flying Snowball]] → Avior or Dex
+#** [[Kamikaze Snowball]] → Snowshot
+#** [[Mr. Bomb]] → Fuse
+#** [[Jumpy]] → Recoil
 # Source code
 #* Split physics, drawing, etc. apart
 #** Which design pattern to use?
