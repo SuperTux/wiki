@@ -33,7 +33,7 @@ Present were:
 === Gameplay ===
 
 * Feedback for the [[Yeti]] level.
-** Postponed (again) because Mathnerd314 wasn't there.
+** Postponed (again) because ''Mathnerd314'' wasn't there.
 * New tiles from grumbel - which are useful?
 ** ''grumbel:'' nightcave is good, the rest is crap
 ** ''grumbel:'' Make "Crystal cave" into a background tileset
@@ -41,8 +41,14 @@ Present were:
 ** ''WolfgangB, octo:'' If tilesets should be removed, do this ASAP (before they are used in levels by 3rd parties)
 * Milestone 1-like worldmap - do now or later (which ideas to keep from the new one?)
 ** "Now" meaning before the release?
-** [[User:Octo|octo]] has a version of the [[Milestone 1]] worldmap in [[Milestone 2]] syntax.
+** [[User:Octo|octo]] has a version of the [[Milestone 1]] worldmap in [[Milestone 2]] syntax. Use that or work on the current version?
+** The worldmap has been changed just before the meeting ({{Revision|6419}}) by ''Mathnerd314''.
+** ''WolfgangB:'' in a stable release the worldmap should fit with the levels e.g. some mountains on the map for cave levels
 * Screw the forest? Keep for now? Don't delete ever?
+** '''Motion:''' Restore the Milestone 1 worldmap and add the intro and Yeti levels. There will be no passage to/from the Forest and the Forest / World 2 will be moved to contributed levels.
+*** '''In favor:''' octo, grumbel
+*** '''Opposed:''' ''nobody''
+*** '''No opinion:''' AnMaster
 * New names for badguys. Which to rename and (if applicable) which name to use?:
 ** [[Bouncing Snowball]] → Bouncy
 ** [[Flying Snowball]] → Avior or Dex
