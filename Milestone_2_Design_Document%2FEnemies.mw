@@ -110,7 +110,7 @@ Already in the code, but not much used in Milestone1 Levels. Since Milestone2 wo
 A flying enemy that can land on trees and carry things around to throw at Tux. One thing it is throwing might be the BombFish.
 <br clear="all" />
 
-== SkyDive, <strike>BombFish</strike> == 
+== SkyDive == 
 
 [[Image:BombFish.png|right]]
 An enemy that is let go by Owl and then falls down to the ground and explodes.
