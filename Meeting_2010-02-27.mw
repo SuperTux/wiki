@@ -1,3 +1,8 @@
+The '''2010-02-27 meeting''' was held on ''Saturday, February&nbsp;27<sup>th</sup>'' at ''15:00&nbsp;UTC'' on [[IRC]].
+
+Present were:
+* [[User:Octo|octo]]
+
 == Minutes ==
 
 # Project management
@@ -42,5 +47,9 @@
 #**# wheel joints (bicycle platform, unused except for test levels)
 #**# sliding joints (pneumatic platform, also only a test level)
 #**# path constraints/motors (for moving tilemaps/platforms)
+
+== Log ==
+
+'''To do.'''
 
 [[Category:Development]]
