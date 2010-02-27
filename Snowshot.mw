@@ -1,16 +1,16 @@
 {{Infobox Badguy
-| Name=Kamikaze Snowball
+| Name=Snowshot
 | Image=Kamikaze-left2.png
 | FoundIn=[[Icy Island]]
 | Appearance=A flying snowball with a fierce facial expression.
-| Behaviour=Flies in straight line until he crashes in something. Can be shot from a [[dispenser]].
+| Behaviour=Flies in straight line until he crashes in something. Can be shot from a [[Cannon]].
 | Squish=yes
 | Buttjump=yes
 | Freeze=no
 | Burnable=yes
 | FirstVersion=Milestone 2
 }}
-'''Kamikaze Snowball''' is a [[badguy]] planned to debut in [[Milestone 2]]. He is a version of [[Snowball]] which is shot from a [[Cannon]] and flies a straight line until crashing into something.
+'''Snowshot''' is a [[badguy]] planned to debut in [[Milestone 2]]. He is a version of [[Snowball]] which is shot from a [[Cannon]] and flies a straight line until crashing into something.
 
 In [[SVN]] since {{Revision|5323}}.
 
