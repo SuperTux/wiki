@@ -1,6 +1,6 @@
 {{Infobox Badguy
-| Name=Dispenser
-| Image=Working.png
+| Name=Cannon
+| Image=Dispenser rocket launcher.png
 | FoundIn=[[Icy Island]], [[Forest]]
 | Appearance=Differs, see below.
 | Behaviour=Spawns new badguys at fixed or random intervals.
@@ -10,11 +10,11 @@
 | Burnable=yes
 | FirstVersion=Milestone 2
 }}
-A '''Dispenser''' is a [[game object]] that spawns new [[badguy]]s. The interval in which badguys are spawned is either fixed or random. A dispenser can be shot with either the [[fireflower]] (dies) or [[iceflower]] (stops it emitting new badguys). Whether or not the dispenser is squishable and butt-jumpable depends on the appearance: The ''trapdoor'' and ''rocket launcher'' types are immune to [[Tux]] standing or jumping on them, the ''cannon'' type can be broken this way.
+A '''Cannon''' is a [[game object]] that spawns new [[badguy]]s. The interval in which badguys are spawned is either fixed or random. A cannon can be shot with either the [[fireflower]] (dies) or [[iceflower]] (stops it emitting new badguys). Whether or not the dispenser is squishable and butt-jumpable depends on the appearance: The ''trapdoor'' and ''rocket launcher'' types are immune to [[Tux]] standing or jumping on them, the ''cannon'' type can be broken this way.
 
 == Appearance ==
 
-There are three possible sprites for this object: Trapdoor, cannon and (in lack of a better word) rocket launcher.
+There are three possible sprites for this object: Trapdoor, cannon and (in lack of a better word) rocket launcher. Please note that despite the name, ''rocket launcher'' is the preferred appearance, at least in [[Icy Island]] ([[Milestone 2]]).
 <gallery>
 Image:Dropper.png
 Image:Working.png
