@@ -5,48 +5,53 @@ Present were:
 
 == Minutes ==
 
-# Project management
-#* (Unstable) Release - how?
-#** [[User:Octo|octo]] has a release tarball that needs testing.
-#** Tasks to be done (by who?):
-#*** Upload tarball to file server (Berlios? Google? Lethargik?)
-#*** Update download page http://supertux.lethargik.org/download.html
-#*** Announce on ''freshmeat.net'' (Project there by AnMaster?)
-#*** Update bug tracker
-#*** …
-#* Last chance to change [[Versioning scheme]]
-#* Next meeting date and time - every Saturday at 15:00 UTC?
-# Gameplay
-#* Feedback for the [[Yeti]] level.
-#* New tiles from grumbel - which are useful?
-#* Milestone 1-like worldmap - do now or later (which ideas to keep from the new one?)
-#** "Now" meaning before the release?
-#** [[User:Octo|octo]] has a version of the [[Milestone 1]] worldmap in [[Milestone 2]] syntax.
-#* Screw the forest? Keep for now? Don't delete ever?
-#* New names for badguys. Which to rename and (if applicable) which name to use?:
-#** [[Bouncing Snowball]] → Bouncy
-#** [[Flying Snowball]] → Avior or Dex
-#** [[Kamikaze Snowball]] → Snowshot
-#** [[Mr. Bomb]] → Fuse
-#** [[Jumpy]] → Recoil
-# Source code
-#* Split physics, drawing, etc. apart
-#** Which design pattern to use?
-#* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
-#* Proposal - merge src and data of objects/enemies together so that all content is in only a single folder (i.e., folder data/mrtree/ would contain mrtree.?pp, mrtree.sprite, mrtree.ogg, left-*.png, etc.)
-#** Slightly harder to build and distribute packages (exclude *.?pp from data directory in binary builds)
-#** Easier to take out/add objects, because there's less to keep track of
-#* Switch to some physics engine?
-#** Features needed for everything to work:
-#**# tilemaps (or a good broadphase and efficient collision data format)
-#**# static constraint solver (so Tux doesn't get stuck on tile edges; problem in Box2D/Chipmunk)
-#**# raycasting (ispy)
-#**# kinematic objects (HitResponse FORCE_MOVE)
-#**# AABB queries (Drawing to screen)
-#**# custom collision callbacks/handlers/listeners/filters (all that collision code in MovingObject)
-#**# wheel joints (bicycle platform, unused except for test levels)
-#**# sliding joints (pneumatic platform, also only a test level)
-#**# path constraints/motors (for moving tilemaps/platforms)
+=== Project management ===
+
+* (Unstable) Release - how?
+** [[User:Octo|octo]] has a release tarball that needs testing.
+** Tasks to be done (by who?):
+*** Upload tarball to file server (Berlios? Google? Lethargik?)
+*** Update download page http://supertux.lethargik.org/download.html
+*** Announce on ''freshmeat.net'' (Project there by AnMaster?)
+*** Update bug tracker
+*** …
+* Last chance to change [[Versioning scheme]]
+* Next meeting date and time - every Saturday at 15:00 UTC?
+
+=== Gameplay ===
+
+* Feedback for the [[Yeti]] level.
+* New tiles from grumbel - which are useful?
+* Milestone 1-like worldmap - do now or later (which ideas to keep from the new one?)
+** "Now" meaning before the release?
+** [[User:Octo|octo]] has a version of the [[Milestone 1]] worldmap in [[Milestone 2]] syntax.
+* Screw the forest? Keep for now? Don't delete ever?
+* New names for badguys. Which to rename and (if applicable) which name to use?:
+** [[Bouncing Snowball]] → Bouncy
+** [[Flying Snowball]] → Avior or Dex
+** [[Kamikaze Snowball]] → Snowshot
+** [[Mr. Bomb]] → Fuse
+** [[Jumpy]] → Recoil
+
+=== Source code ===
+
+* Split physics, drawing, etc. apart
+** Which design pattern to use?
+* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
+* Proposal - merge src and data of objects/enemies together so that all content is in only a single folder (i.e., folder data/mrtree/ would contain mrtree.?pp, mrtree.sprite, mrtree.ogg, left-*.png, etc.)
+** Slightly harder to build and distribute packages (exclude *.?pp from data directory in binary builds)
+** Easier to take out/add objects, because there's less to keep track of
+* Switch to some physics engine?
+** Features needed for everything to work:
+**# tilemaps (or a good broadphase and efficient collision data format)
+**# static constraint solver (so Tux doesn't get stuck on tile edges; problem in Box2D/Chipmunk)
+**# raycasting (ispy)
+**# kinematic objects (HitResponse FORCE_MOVE)
+**# AABB queries (Drawing to screen)
+**# custom collision callbacks/handlers/listeners/filters (all that collision code in MovingObject)
+**# wheel joints (bicycle platform, unused except for test levels)
+**# sliding joints (pneumatic platform, also only a test level)
+**# path constraints/motors (for moving tilemaps/platforms)
 
 == Log ==
 
