@@ -80,7 +80,7 @@ When the fuse of CrazyBomb gets activated he starts to run around, maybe chasing
 Again a very basic enemy, but unlike the Snowball he doesn't walk around in a straight pattern, but walks forward and backward around a fixed position. It is a stationary enemy.
 <br clear="all" />
 
-== Spiky ==
+== [[Spiky]] ==
 
 [[Image:SpikySprite.png|right]]
 Spiky behaves the same as a normal Snowball, but he carries a helmet which makes him invulnerable against jump attacks.
