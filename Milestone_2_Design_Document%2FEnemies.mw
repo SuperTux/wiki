@@ -173,8 +173,6 @@ The spitter acts as walking dispenser, the enemy type that he can spit out might
 
 The Yeti is the boss that awaits Tux in the first castle. After entering the throne room Tux will find a letter in which Nolok tells Tux of the other castles in other worlds (see Milestone1 extro.txt). In the background there is a window. While reading the note one will see a shadow approaching the window and soon after the Yeti jumping through the window. The normal boss battle starts instantly after the jump.
 
-The current Yeti pattern needs to be reworked, since it is to easy to just stand in a corner and do nothing.
-
 Alternative: Sequence at end of castle: Tux find Yeti, Yeti jumps out of the window and flees
 <br clear="all" />
 
