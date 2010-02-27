@@ -40,6 +40,7 @@ Present were:
 ** ''grumbel:'' Make "Crystal cave" into a background tileset
 ** ''grumbel:'' the snowmountain stuff needs to be repainted
 ** ''WolfgangB, octo:'' If tilesets should be removed, do this ASAP (before they are used in levels by 3rd parties)
+** → ''octo'' will make Crystal cave tiles non-solid so they cannot be used as interactive tiles.
 * Milestone 1-like worldmap - do now or later (which ideas to keep from the new one?)
 ** "Now" meaning before the release?
 ** [[User:Octo|octo]] has a version of the [[Milestone 1]] worldmap in [[Milestone 2]] syntax. Use that or work on the current version?
