@@ -25,6 +25,7 @@ Mrs. Snowball behaves like a normal [[Snowball]], but instead of walking off a p
 A snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball. Alternative: Let the head get destroyed and the body turn into a snowball that can be rolled around.
 
 '''Status:''' A very basic Snowman prototype is in [[SVN]], but lacks death animation and the whole separation behavior. Could use fists instead of balls as hands. -- [[User:Grumbel|Grumbel]] 09:39, 23 February 2010 (UTC)
+: Basic separation behavior has been implemented in {{Revision|6418}}. We're missing a graphic for the Snowman's body though. —[[User:Octo|octo]] 19:07, 27 February 2010 (UTC)
 <br clear="all" />
 
 == Bouncy, <strike>Bouncing Snowball</strike> ==
