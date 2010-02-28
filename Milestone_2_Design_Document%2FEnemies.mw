@@ -74,6 +74,8 @@ The base behavior of [[Mr. Bomb]] is similar to the normal Snowball, except that
 When the fuse isn't burning Haywire looks like a normal Bomb except the color. 
 When the fuse of Haywire gets activated he starts to run around, maybe chasing Tux. He can't be carried around. Jumping on him when the fuse is burning will cause Tux to bounce and Haywire to be stunned for a short moment (fraction of a second).
 
+'''Status:''' An initial version is available since {{Revision|6443}}.
+
 <br clear="all" />
 
 == [[Crystallo]] ==
