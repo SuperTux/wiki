@@ -1,4 +1,4 @@
-==When will the next version of SuperTux be released?==
+== When will the next version of SuperTux be released? ==
 
 This is by far the most frequently asked question of all, and the answer is simple:
 
@@ -12,14 +12,12 @@ We plan to release the Linux version on 2038-11-23. Not sure if we
 will do a GNU Hurd version by then, too. The schedule is a bit
 sketchy right now.
 
-
-
 == What's new in SuperTux 0.3? ==
 
 Most information on these Wiki pages is about what's new in SuperTux 0.3. Just browse around, and feel free to add your own ideas. :-)
 
 === How do I use SDL in the development version? ===
-OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. The command line option --renderer=sdl will use the SDL renderer. Note that this is slower and does not display some images/levels correctly.
+OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. The command line option --renderer=sdl will use the SDL renderer. Note that this is usually slower and does not display some images/levels correctly.
 
 === How do you get to or past level x? ===
 Please see [[SuperTux FAQ/Spoilers]].
@@ -38,13 +36,12 @@ Please see our [[Versioning scheme]] page.
 
 Depending on who you want to reach - and for what purpose - you can either join our [[Contact#IRC|IRC channel]] or write to one of the [[Contact#Mailing List|mailing lists]] (but currently there's just one). Please note that due to massive amounts of spam, we had to set the mailing lists to subscribers-only. If you send emails to the lists and are not subscribed then you will get an automated reply saying that your message is waiting for approval, but it's very likely that we will miss your e-mail in all the spam (we're very sorry about that), so better subscribe before posting to the list.
 
-== Can I help? ==
+== How can I help? ==
 
-You most certainly can.
-* [[Contributing|Creating game content]] in the form of sounds, music, [[Translation|translations]], [[Contributing#Artists|images]], and [[Contributing#Level designers|levels]]
-* Writing [[Contributing#Programmers/Code|code]] for new features
+* [[Contributing|Create game content]] in the form of sounds, music, [[Translation|translations]], [[Contributing#Artists|images]], and [[Contributing#Level designers|levels]] - see [[Contributing]] for details
+* Write [[Contributing#Programmers/Code|code]] for new features
 * Proofread and improve the program's and the levels' translation (See [[Translation]])
-* Work on the story and the settings (all around the wiki)
+* Work on the story and the settings (all around the wiki, mostly in [[:Category:Design]])
 There's many things to be done - even besides actually creating game content:
 * Post good [[User ideas|ideas]] to the wiki
 * Help keep these pages up-to-date and free of spam (See [[Special:Recentchanges]])
