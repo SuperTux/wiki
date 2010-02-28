@@ -84,7 +84,7 @@ An '''.nfo file''' is a file in the typical Lisp-syntax which describes your add
 ; author
 : Your name
 ; license
-: License under which your levels are provided. "GPL 2+ / CC-by-sa 3.0" is the preferred license for ''SuperTux'' content.
+: License under which your levels are provided. "GPL 3+ / CC-by-sa 3.0" is the preferred license for ''SuperTux'' content.
 ; http-url
 : URL pointing to this add-on, i.e. the .zip-file. Used for downloading the add-on based on the information provided in the (separate) info file.
 ; file
