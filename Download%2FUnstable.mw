@@ -3,6 +3,7 @@
 The 0.3.x versions series is meant to show of new features of the engine, new graphics and such. It is not meant to be fully playable or polished. For that reason it is recommend that distributions should, for example, not replace a "supertux" package of SuperTux 0.1.x, but instead ship a new "supertux2" package of SuperTux 0.3.x.
 
 == Release 0.3.3 ==
+:''→ [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-March/002815.html Announcement] on supertux-devel''
 
 This is an unstable development snapshot of SuperTux, released on ''March&nbsp;1<sup>st</sup>, 2010''.
 
