@@ -20,8 +20,6 @@ To download SuperTux, you can choose from two types of packages:
 | The '''[[Download/Subversion|Subversion repository]]''' contains ''SuperTux'' in a state of development. This means new features and a large amount of bugs. If you are interested in the development of SuperTux, feel like contributing or just simply want to try out the new features and you are ready to endure some bugs and crashes, this is what you want. If you have never played ''SuperTux'' before and are interested in developing ''SuperTux'', it is recommended you try out the stable package first.
 |}
 
-* The '''[http://elektromaniak.wz.cz/download.html Editor 0.3.2-SVN snapshots]''' contain start-able SuperTux-editor binaries that may suffer from critical bugs since only basic tests were performed, but have a lot of new features. They are for all users who do not want to compile the editor and won't be annoyed if error/level data loss occurs. They can be used with any 0.3.x game, but only 0.3.1 will be recognized automatically. Be warned that it may not work well on your system, if at all. Be also warned that there is a small amount of features from Subversion that aren't supported in 0.3.1 or 0.3.0. Package managers and repositories should not package content of these archives unless it is slotted beside the stable version.
-
 Links to additional game content can be found on the following pages:
 * [[Levels]]
 * [[Modifications]]
@@ -29,7 +27,17 @@ Links to additional game content can be found on the following pages:
 
 == Level Editor ==
 
-Additional to the built-in editor of SuperTux 0.1 there is also the Flexlay editor which provides more features and better level editing capabilities. You can find it at
+=== SuperTux 0.3 ===
+
+The level editor for ''SuperTux 0.3'' can be found in the same [[SVN]] repository as ''SuperTux'' itself.
+
+==== Binary package ====
+
+The [http://elektromaniak.wz.cz/download.html Editor 0.3.2-SVN snapshots] contain start-able SuperTux-editor binaries that may suffer from critical bugs since only basic tests were performed, but have a lot of new features. They are for all users who do not want to compile the editor and won't be annoyed if error/level data loss occurs. They can be used with any 0.3.x game, but only 0.3.1 will be recognized automatically. Be warned that it may not work well on your system, if at all. Be also warned that there is a small amount of features from Subversion that aren't supported in 0.3.1 or 0.3.0. Package managers and repositories should not package content of these archives unless it is slotted beside the stable version.
+
+=== SuperTux 0.1 ===
+
+Additional to the built-in editor of SuperTux 0.1 there is also the ''Flexlay'' editor which provides more features and better level editing capabilities. You can find it at
 
  http://flexlay.berlios.de
 
@@ -41,9 +49,9 @@ You can find older releases here:
 
  http://sourceforge.net/project/showfiles.php?group_id=69183
 
-= More Unofficial Ports =
+== More Unofficial Ports ==
 
-There are lots more unofficial ports of SuperTux for various platforms such as:
+There are lots more unofficial ports of ''SuperTux'' for various platforms such as:
 
 * Dingoo A320
 * GP2X (you can even get SuperTux bundled with the hardware)
