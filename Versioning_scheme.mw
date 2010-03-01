@@ -43,6 +43,8 @@ There will not be any <tt>0.2.x</tt> releases.
 
 The <tt>0.3.x</tt> branch is being used to develop SuperTux 0.4.0. It has implemented the [[Milestone 1.9]] goals.
 
+There will be no <tt>0.3.2</tt> release. There were some unofficial releases of SuperTux incorrectly labelled as version <tt>0.3.2</tt>, so there will be no official <tt>0.3.2</tt> release in order to avoid confusion.
+
 === <tt>0.4.x</tt> releases ===
 
 SuperTux 0.4.0 will be the next stable ([[Milestone 2]]) release.
