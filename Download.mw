@@ -1,17 +1,17 @@
 == SuperTux ==
 
-To download SuperTux, you can choose from two types of packages:
+To download ''SuperTux'', you can choose between two types of packages and the development repository:
 
 {| style="border: 1px solid green; border-spacing: 2px; margin: 1em 0px;"
 ! style="background: rgb(240,255,240);" | Stable release
 |-
-| The '''[[Download/Stable|stable package]]''' contains a playable SuperTux that should not suffer from critical bugs and has had much testing. If you simply want to play the game this is the package for you.
+| The '''[[Download/Stable|stable release]]''' contains a playable ''SuperTux'' that should not suffer from critical bugs and has had much testing. If you simply want to play the game this is the package for you.
 |}
 
 {| style="border: 1px solid rgb(192,192,0); border-spacing: 2px; margin: 1em 0px;"
 ! style="background: rgb(255,255,240);" | Development snapshot
 |-
-| The '''[[Download/Unstable|unstable package]]''' contains a playable ''SuperTux'' that has not been fully tested and may suffer from critical bugs, but does sport newly added features. This package is for showing off and testing new features and levels, so don't expect it to be good, fun, well-balanced game. Be warned that it may not work well on your system, if at all. If you simply want to play the game use the stable package instead; if you are a SuperTux expert and want to experiment with the new features, you might want to try this version. Package managers and repositories should not include this package unless it is slotted beside the stable version.
+| The '''[[Download/Unstable|development snapshot]]''' contains a playable ''SuperTux'' that has not been fully tested and may suffer from critical bugs, but does sport newly added features. This package is for showing off and testing new features and levels, so don't expect it to be good, fun, well-balanced game. Be warned that it may not work well on your system, if at all. If you simply want to play the game use the stable package instead; if you are a SuperTux expert and want to experiment with the new features, you might want to try this version. Package managers and repositories should not include this package unless it is slotted beside the stable version.
 |}
 
 {| style="border: 1px solid red; border-spacing: 2px; margin: 1em 0px;"
