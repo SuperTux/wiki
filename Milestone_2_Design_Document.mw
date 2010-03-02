@@ -33,7 +33,8 @@ The Milestone 2 Design Document lists a lot of additional features for the icewo
 
 The levels of Milestone1 lack verticality as well as unisolid tiles, Milestone2 should fix that by adding those elements. Also the levels should be shortened/split to avoid the need for reset points. Another important point is that each level should try follow a clear design premise instead of being more or less random collection of tiles and enemies. The levels from Milestone1 should be taken as a point of inspiration and starting point, not as something that is verbatim copied over to Milestone2. 
 
-The worldmap should be rolled back to that of Milestone1, i.e. a mostly linear map, but additional optional paths shall be added. 
+The ''worldmap'' should be rolled back to that of [[Milestone 1]], i.e. a mostly linear map, but additional optional paths shall be added.
+: This has been done in {{Revision|6424}} and is included in this form in ''version 0.3.3''. The only additional path is to the bonus level, though. --[[User:Octo|octo]] 07:12, 2 March 2010 (UTC)
 
 See [[Milestone 2 Design Document/Levels]] for a more detailed analysis of the current levels.
 
