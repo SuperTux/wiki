@@ -889,7 +889,7 @@ There are ice tiles or ice ground that can be walked on. They can also be jumped
 *I've implemented that in my own version - I can now smash wooden boxes with buttjump from top. - 500million
 
 : Or the fireflower could melt them. --[[User:Julius Freezer|Julius_Freezer]] 23:58, 2 July 2009 (UTC)
-:: There are [[Crumbling block]]s which dissolve after a while of Tux standing on them and [[Weak block]]s which burn when shot with the [[Fireflower]]. --[[User:Octo|octo]] 07:58, 28 February 2010 (UTC)
+:: There are [[Unstable tile]]s which dissolve after a while of Tux standing on them and [[Weak block]]s which burn when shot with the [[Fireflower]]. --[[User:Octo|octo]] 07:58, 28 February 2010 (UTC)
 
 === Geyser ===
 There can be geysers on levels. That blow up water. Tux can stand on this stream to reach high places which are too high for him to jump upon. Could also be wind or something.
