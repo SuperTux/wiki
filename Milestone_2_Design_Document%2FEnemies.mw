@@ -26,6 +26,7 @@ A snowman enemy shall be added, a snowman is build out of a base body combined w
 
 '''Status:''' A very basic Snowman prototype is in [[SVN]], but lacks death animation and the whole separation behavior. Could use fists instead of balls as hands. -- [[User:Grumbel|Grumbel]] 09:39, 23 February 2010 (UTC)
 : Basic separation behavior has been implemented in {{Revision|6418}}. We're missing a graphic for the Snowman's body though. —[[User:Octo|octo]] 19:07, 27 February 2010 (UTC)
+: The snowman's body is now falling down when he's squished. [[User:Grumbel|grumbel]] wants to make a proper death graphic though. --[[User:Octo|octo]] 22:20, 2 March 2010 (UTC)
 <br clear="all" />
 
 == Bouncy, <strike>Bouncing Snowball</strike> ==
