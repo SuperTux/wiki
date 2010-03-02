@@ -56,3 +56,16 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-02-15: Possible to lose while winning:
 ** (2010-02-15 05:10:59 UTC) Forty-Two: I notice that in Light and Magic, if you reach the finish while holding a lantern, you drop it and it kills you (you lose 25 coins) although you also finish the level
 ** Can fall off the screen (only in pathological levels)
+
+* 2010-02-20: Can jump over some of the exits:
+** Up and Down
+** Tux the Builder
+* Others?
+
+* 2010-02-24: If I hold a camera pan key (e.g., delete) when leaving a sector, the camera pan persists when re-entering the sector even if I am not holding the key.
+
+* 2010-03-01: In octo's "Broken Elevator", lava is killing me even when it is invisible.  Bug in the effective solidity report ({{bug|524}})?
+
+* 2010-03-01: Hilarious glitch seen in octo's "Yoshi's Island 2".  When we change sectors while holding an ice block, the player in the first sector is still holding the ice block.  If we now return to the first sector in a different place, the ice block flies into Tux's arms.  Tracking bug for "too much sector-specific state"?
+
+* 2010-03-01: Need to clear backflipping when starting to climb.
