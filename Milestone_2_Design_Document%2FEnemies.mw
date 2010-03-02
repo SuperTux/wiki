@@ -160,6 +160,9 @@ The spike isn't really an enemy, so much as an obstacle, but for some strange re
 == ShortFuse, <strike>Mini Bomb</strike> ==
 [[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
 The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
+
+A first version of this badguy has been added to [[SVN]] in {{Revision|6511}}.
+
 <br clear="all" />
 
 == Spitter (proposed) ==
