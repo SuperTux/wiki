@@ -8,7 +8,11 @@ The following are topics we would like to discuss. Since it's possible that we c
 # Project management
 #* …
 # Gameplay
-#* Feedback for the [[Yeti]] level.
+#* Badguys
+#** [[Haywire]] has been implemented by [[User:Octo|octo]]. He'd like to get some feedback.
+#** Basic [[Snowman]] code exists, but the body simply disappears after he's hit. A graphic of only his body is needed.
+#** [[Krush]] (2x2 icecrusher) has been implemented. What about his big brother, [[Krosh]]? Which size? What graphics? (Resize existing graphics?)
+#** What [[Milestone 2 Design Document/Enemies|badguys]] to implement next?
 # Source code
 #* Split physics, drawing, etc. apart
 #** Which design pattern to use?
