@@ -69,3 +69,9 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-03-01: Hilarious glitch seen in octo's "Yoshi's Island 2".  When we change sectors while holding an ice block, the player in the first sector is still holding the ice block.  If we now return to the first sector in a different place, the ice block flies into Tux's arms.  Tracking bug for "too much sector-specific state"?
 
 * 2010-03-01: Need to clear backflipping when starting to climb.
+
+* 2010-03-02: Do something about missing badguys during cutscenes due to activation. [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-February/002768.html]
+
+* 2010-03-02: While camera is in autoscroll mode, badguy activation should be based on camera instead of Tux.
+
+* 2010-03-02: Remove hacks around camera bounding in "Village in the Forest".
