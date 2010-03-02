@@ -2,7 +2,7 @@
 
 {{Outdated}}
 [[Image:gameobjects2.png|thumb|A diagram illustrating the planned design for the GameObjects]]
-'''GameObject''' is a base class in the ''SuperTux'' source code. It is the most basic class for objects in the game. Nearly everything should inherit from this class, for instance [[badguy]]s, [[crumbling block]]s and [[trampoline]]s. All ''GameObjects'' are stored in a list by the engine.
+'''GameObject''' is a base class in the ''SuperTux'' source code. It is the most basic class for objects in the game. Nearly everything should inherit from this class, for instance [[badguy]]s, [[unstable tile]]s and [[trampoline]]s. All ''GameObjects'' are stored in a list by the engine.
 This list will be traversed twice per frame. First the action function is called on each object, and then the draw function of each object is called.
 
 The class also contains a flag that indicates if the object should be removed at the end of the frame. You can call <code>-&gt;remove_me()</code> to set this flag.
