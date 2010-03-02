@@ -1,0 +1,18 @@
+{{Infobox Badguy
+| Name=Short Fuse
+| Image=
+| FoundIn=[[Icy Island]]
+| Appearance=A tiny version of [[Mr. Bomb]].
+| Behaviour=Walks around excitedly. Falls off platforms.
+| Squish=yes
+| Buttjump=yes
+| Freeze=no
+| Burnable=yes
+| FirstVersion=Milestone 2
+}}
+'''Short Fuse''' is a [[badguy]] found in [[Icy Island]].
+
+This badguy is planned for [[Milestone 2]]. It is in SVN since {{Revision|6511}}.
+
+{{Navbox Badguys}}
+[[Category:Badguy.4]]
