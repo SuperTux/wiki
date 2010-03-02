@@ -5,7 +5,7 @@ This document is meant to give a reasonably detailed guide on what shall and sha
 
 = Motivation = 
 
-Development of the forest world hasn't made much progress over the last few years. Milestone&nbsp;2 is a try to bring development back up to speed by setting more reasonable goals and by cutting out a lot of allocated cruft, reducing the game back to a maintainable state that allows further development. This means the forest world will be cut out complete and focus will be given to the Iceworld of Milestone 1. The core goals of Milestone 2 are:
+Development of the forest world hasn't made much progress over the last few years. Milestone&nbsp;2 is a try to bring development back up to speed by setting more reasonable goals and by cutting out a lot of allocated cruft, reducing the game back to a maintainable state that allows further development. This means the [[Forest|forest world]] will be cut out completely and focus will be given to the [[Iceworld]] of [[Milestone 1]]. The core goals of Milestone 2 are:
 
 * cleanup the engine and fix long standing issues (broken OpenGL texturing, broken collision detection, etc)
 * enhance and adopt the levels of [[Milestone 1]] to use new engine features
