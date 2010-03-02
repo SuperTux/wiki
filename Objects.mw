@@ -3,7 +3,7 @@
 
 == Available objects ==
 
-The following objects are available in the 0.3.x release or have been committed to the SVN repository.
+The following objects are available in the 0.3.x release or have been committed to the [[SVN]] repository.
 
 * Various [[badguy]]s
 * [[Ambient sound]]
@@ -62,7 +62,6 @@ The following objects are available in the 0.3.x release or have been committed 
 * [[Wind]]
 * Special Block Types
 ** [[Bonus block]]
-** [[Crumbling block]]
 ** [[Infoblock]]
 ** [[Invisible block]]
 ** [[Magic Block]]
