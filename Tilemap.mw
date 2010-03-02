@@ -27,6 +27,6 @@ Tilemaps are also [[Scripting reference|scriptable]] if given a (unique) name, s
 
 Tilemaps may also be given a [[ScriptingPath|path]], which they will follow once scripted to do so.
 
-Note that [[Infoblock|infoblocks]], [[Crumbling block|crumbling blocks]], [[Bonus block|bonus blocks]], invisible blocks that can be activated, coins, and wooden bricks are not actually part of the tilemap; after the level is parsed, the tiles with the ID's or attributes representing those objects are replaced with the objects themselves and the tiles changed to empty.
+Note that [[infoblock]]s, [[unstable tile]]s, [[bonus block]]s, invisible blocks that can be activated, coins, and wooden bricks are not actually part of the tilemap; after the level is parsed, the tiles with the ID's or attributes representing those objects are replaced with the objects themselves and the tiles changed to empty.
 
 [[Category:Game Object]]
