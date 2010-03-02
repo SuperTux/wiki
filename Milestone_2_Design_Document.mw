@@ -40,8 +40,7 @@ See [[Milestone 2 Design Document/Levels]] for a more detailed analysis of the c
 == Cleanup ==
 
 The test/ levels are currently quite a big mess, there needs to be cleanup to reduce them to those that are really needed otherwise its to easy to miss the ones that are important.
-
-
+: [[User:Mathnerd314|Mathnerd314]] has cleaned up test levels a bit in {{Revision|6477}}. --[[User:Octo|octo]] 07:09, 2 March 2010 (UTC)
 
 = World 1 - Icyisland =
 
