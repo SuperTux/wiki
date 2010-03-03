@@ -15,24 +15,24 @@ Before you proceed, however, carefully read the following warnings:
 
 == FastBuild with Visual Studio ==
 
--This is experimental-
+''This is experimental''
 Tested on W7/VS2010 x64
 
 Steps:
 
-- Install Visual Studio
-- Download CMake 2.8+
-- Open cmake gui
-- Set dirs according to your Environment (p.ex.: H:\STuxSVN and H:\STuxSVN\bin)
-- Press Configure, select your version of VS (with native compilers) and click on finish
-- Now CMake tells you what to do. If asked for any libs, make sure to download and add them to your environment strings
+* Install Visual Studio
+* Download CMake 2.8+
+* Open cmake gui
+* Set dirs according to your Environment (p.ex.: H:\STuxSVN and H:\STuxSVN\bin)
+* Press Configure, select your version of VS (with native compilers) and click on finish
+* Now CMake tells you what to do. If asked for any libs, make sure to download and add them to your environment strings
 
 Small List of DLs:
-- Boost: BOOST_ROOT: H:\STuxSVN\boost_1_42_0 / BOOST_LIBRARYDIR: $BOOST_ROOT\libs)
-- OpenAL: OPENAL_INCLUDE_DIR: D:\Program Files (x86)\OpenAL 1.1 SDK\include
-- Ogg Vorbis: VORBIS_INCLUDE_DIR: H:\STuxSVN\libvorbis-1.2.3
-- SDLIMAGE: SDLIMAGE_INCLUDE_DIR: H:\STuxSVN\SDL_image-1.2.10\include
-- SDL: SDL_INCLUDE_DIR: H:\STuxSVN\SDL-1.2.14
+* Boost: BOOST_ROOT: H:\STuxSVN\boost_1_42_0 / BOOST_LIBRARYDIR: $BOOST_ROOT\libs)
+* OpenAL: OPENAL_INCLUDE_DIR: D:\Program Files (x86)\OpenAL 1.1 SDK\include
+* Ogg Vorbis: VORBIS_INCLUDE_DIR: H:\STuxSVN\libvorbis-1.2.3
+* SDLIMAGE: SDLIMAGE_INCLUDE_DIR: H:\STuxSVN\SDL_image-1.2.10\include
+* SDL: SDL_INCLUDE_DIR: H:\STuxSVN\SDL-1.2.14
 
 == Preparation ==
 
