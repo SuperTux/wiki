@@ -78,6 +78,7 @@
 * can't run while carrying an object, but should be able to 
 :No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
 :: With *large* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [[User:Grumbel|Grumbel]] 17:13, 28 May 2008 (UTC)
+::: The speed limiting code has been deactivated in {{Revision|6540}}. --[[User:Octo|octo]] 06:51, 5 March 2010 (UTC)
 * replace "you found a secret area" with a special sound (Wansti)
 * level startup needs a fade-in, so does game startup, level abort and a few other places
 * add all fade-in/out effects to DisplayEffect
