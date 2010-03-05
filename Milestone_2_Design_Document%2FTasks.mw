@@ -90,6 +90,7 @@
 == Other ==
 * add PNG support for screenshots, BMP support currently broken
 ** <small>What's wrong with BMP support? It seems to work for me - [[User:Sik0fewl|sik0fewl]] 06:11, 13 June 2008 (UTC)</small>
+*** ACK, BMP-based screenshots work, at least with the SDL renderer. --[[User:Octo|octo]] 06:53, 5 March 2010 (UTC)
 * at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
 * aspect ratio init code (Grumbel)
 * think about peeking in relation to large screen size
