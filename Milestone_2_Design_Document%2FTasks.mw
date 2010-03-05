@@ -109,8 +109,10 @@
 * General: Have particle throwing starting enemies (fireflower like)
 * General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
 * Bomb: Roll back to behavior of Milestone1, get rid of particle effects
+** Particle effects are currently deactivated in {{SvnFile|src/object/explosion.cpp}}. --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
 * Bomb(normal): let the fuse burn after one touched it
 * Bomb(crazy): new bomb type (crazy pink bomb) that runs around after being touched
+** Initial version is done. Waiting for feedback and improvements. See [[Milestone 2 Design Document/Enemies]] --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
 * Flying Snowball: Add acceleration/deceleration instead of linear up and down
 *: Isn't this the current behavior ({{Revision|6402}})? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
 * Flying Snowball: smoke effect for the motor seem to be to seldomly triggered
