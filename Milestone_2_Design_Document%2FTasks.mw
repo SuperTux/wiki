@@ -8,6 +8,7 @@
 == Sound and Music Tasks ==
 * Create replacements for missing sound files - see [[DataFiles]]
 * Create more music tracks for IcyIsland or add BlastOffTek's pack.
+* Compress music more. The 40 MBytes of music make up two thirds of the source tarball.
 
 == Graphics / Sprites ==
 * Crystallo dead/dying sprites
