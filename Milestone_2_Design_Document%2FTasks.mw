@@ -98,6 +98,7 @@
 
 == Enemies ==
 * fix and cleanup all the enemy names - see [[Milestone 2 Design Document/Enemies]] for new names
+** A beginning has been made by renaming ''Kamikaze Snowball'' to [[Snowshot]]. There's not much consensus about the other changes though, see [[Meeting 2010-02-27]]. --[[User:Octo|octo]] 07:01, 5 March 2010 (UTC)
 * AngryBonusBlock: Have a bonus block type that comes to life when tux jumps against it and then chases Tux
 :Break the "only good stuff from bonus blocks" and "same look same behaviour" rules? --[[User:WolfgangB|WolfgangB]] 01:27, 25 May 2008 (UTC)
 ::Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Also, bonus blocks already have varied behaviors. --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
