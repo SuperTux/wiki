@@ -115,6 +115,9 @@ Already in the code, but not much used in Milestone1 Levels. Since Milestone2 wo
 == Owl ==
 [[Image:Owl.png|thumbnail|right|Owl]]
 A flying enemy that can carry things around and let them drop on Tux. One thing it is throwing might be the BombFish.
+
+Some initial code is available from the [[SVN]] repository since {{Revision|6558}}. Graphics are still pretty much a to-do. —[[User:Octo|octo]] 17:25, 6 March 2010 (UTC)
+
 <br clear="all" />
 
 == SkyDive == 
