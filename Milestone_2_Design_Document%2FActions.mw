@@ -6,8 +6,13 @@ The major change in the basic actions will be making running automatic. Running 
 Rationale: The run key is overlooked by many people making the game extremely frustrating and annoying for them, since it isn't obvious that there is one, the tutorial situation in the form of a high wall in Milestone1 didn't really fix the problem, since we got still plenty of questions about the situation. It also serves little purpose since more experienced players will basically always press it down, i.e. almost nobody actually walks through the game on purpose.
 
 == Jumping ==
-FIXME: How high, how is it influenced by running?
-<br clear="all" />
+
+When standing or walking, [[Tux]] can jump ''four tiles'' high. When running or using the [[backflip]] jump, ''Tux'' can jump ''five tiles'' high.
+: ''(This if from the top of my head. Please correct if this is wrong. --[[User:Octo|octo]] 08:33, 6 March 2010 (UTC))''
+
+'''FIXME:'''
+* How high, how is it influenced by running?
+* How far can Tux jump, i.e. what is the widest "normal" gap width that should occur in levels?
 
 == Running ==
 FIXME: How fast, how does it influence jump, how long is acceleration?
