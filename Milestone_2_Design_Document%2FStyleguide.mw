@@ -17,7 +17,7 @@ When creating slopes, make sure that they are smooth and don't make sudden jumps
 
 == Tiles ==
 
-Don't use tiles in the background that were built for the foreground. Use only special background tiles in the background. In general, don't mix tilesets except for an obvious reason such as a transition level. Clearly distinguish between the layers - players should be able to see immediately where they can safely walk and what is foreground and background. (Secret areas, of course, are allowed to violate this)
+Don't use tiles in the background that were built for the foreground. Use only special background tiles in the background. In general, don't ever mix tilesets. Clearly distinguish between the layers - players should be able to see immediately where they can safely walk and what is foreground and background. Secret areas can violate this.
 
 [[Image:Styleguide_tiles.png|Styleguide Tiles]]
 
