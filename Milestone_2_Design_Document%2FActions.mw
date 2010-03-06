@@ -16,9 +16,37 @@ When standing or walking, [[Tux]] can jump ''four tiles'' high. When running or 
 * How far can Tux jump, i.e. what is the widest "normal" gap width that should occur in levels?
 
 == Running ==
-FIXME: How fast, how does it influence jump, how long is acceleration?
 
-<br clear="all" />
+Walking and running velocity and acceleration are defined in {{SvnFile|src/object/player.cpp}}. Currently those values are:
+
+{| class="wikitable" border="1"
+! Name
+! Value
+! Description
+|-
+| <code>WALK_ACCELERATION_X</code>
+| 300
+| acceleration in horizontal direction when walking
+|-
+| <code>RUN_ACCELERATION_X</code>
+| 400
+| acceleration in horizontal direction when running
+|-
+| <code>MAX_WALK_XM</code>
+| 230
+| maximum walk velocity (pixel/s)
+|-
+| <code>MAX_RUN_XM</code>
+| 320
+| maximum horizontal climb velocity
+|-
+| <code>WALK_SPEED</code>
+| 100
+| instant velocity when tux starts to walk
+|}
+
+'''FIXME:'''
+* How fast, how does it influence jump, how long is acceleration?
 
 == Backflip ==
 The backflip is a special jump which gives Tux some extra height compared to a normal jump.
