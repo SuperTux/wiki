@@ -13,7 +13,8 @@ The following are topics we would like to discuss. Since it's possible that we c
 #** Basic [[Snowman]] code exists, but the body simply disappears after he's hit. A graphic of only his body is needed.
 #** [[Krush]] (2x2 icecrusher) has been implemented. What about his big brother, [[Krosh]]? Which size? What graphics? (Resize existing graphics?)
 #** What [[Milestone 2 Design Document/Enemies|badguys]] to implement next?
-#** Supertux Accessibility: is support for visually impaired gamers feasible?
+#* Supertux Accessibility: is support for visually impaired gamers feasible?
+#** How could such a support look like? Something like zooming the graphics so they are displayed larger? --[[User:Octo|octo]] 01:18, 6 March 2010 (UTC)
 # Source code
 #* Split physics, drawing, etc. apart
 #** Which design pattern to use?
