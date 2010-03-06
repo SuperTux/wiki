@@ -7,9 +7,9 @@ In [[Milestone 2]], we focus on [[Icy Island]], the island already present in [[
 
 == Difficulty ==
 
-The goal of SuperTux is to be fun, not to be hard, so the goal is to make levels not to make them challenging. Remember that a player will get frustrated and annoyed if he dies more then small number of times in a level and also keep in mind that a player will see the level for the first time when he plays it.
+The goal of ''SuperTux'' is to be fun, not to be hard. So the goal is to make ''fun'' levels, not to make them ''challenging''. Remember that a player will get frustrated and annoyed if he dies more than small number of times in a level and also keep in mind that a player will see the level for the first time when he plays it.
 
-'''Tip:''' If you are in doubt if a level is getting to hard, change the style of play to something that is unfamiliar to you, invert left/right controls, play with the left hand, play only as small Tux or anything like that. If you can still beat the level without problems and without dying, it likely is easy enough, if not, then it is likely to hard.
+'''Tip:''' If you are in doubt if a level is getting too hard, change the style of play to something that is unfamiliar to you, invert left/right controls, play with the left hand, play only as small Tux or anything like that. If you can still beat the level without problems and without dying, it likely is easy enough. If not, then it is likely to hard.
 
 == Enemies ==
 
