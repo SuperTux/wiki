@@ -125,6 +125,8 @@ Some initial code is available from the [[SVN]] repository since {{Revision|6558
 [[Image:BombFish.png|right]]
 An enemy that is let go by Owl and then falls down to the ground and explodes.
 
+An initial version of this badguy has been committed to [[SVN]] in {{Revision|6564}}.
+
 <br clear="all" />
 
 == [[Krush and Krosh]] ==
