@@ -165,6 +165,8 @@ The Mini-Bomb is an small version of the normal bomb, it approaches in groups mo
 
 A first version of this badguy has been added to [[SVN]] in {{Revision|6511}}.
 
+Should "pop" like it was filled with air pressure air, not explode in fire, to make it clear that its not deadly.
+
 <br clear="all" />
 
 == Spitter (proposed) ==
