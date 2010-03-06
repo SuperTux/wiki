@@ -26,6 +26,7 @@ Don't use tiles in the background that were built for the foreground. Use only s
 SuperTux is meant to be a fair and fun game, so don't create unfair configurations, like a spike on the roof as well as one on the ground, that require way too much precision or luck and just aren't fun to play.
 
 [[Image:Howtonotdesignlevels.jpg|right|thumb|200px|How '''NOT''' to design levels]]
+[[Image:Hallofshame.jpg|right|thumb|200px|More things to avoid]]
 
 Other things to avoid:
 
@@ -41,7 +42,8 @@ Other things to avoid:
 * Secret areas should be well-hidden and not be visible on first sight. Use your imagination to think of new ways to create secrets - some of the above rules can be broken for that purpose, but be careful!
 * Avoid impossible-to-reach coins or lives. Collecting everything in a level is often important to players. However, difficulty can be just short of impossible - requiring frame-by-frame accuracy is fine. (So long as you provide a demo to prove that it is in fact possible) This only applies to bonus items - players should be able to complete the level minus some items with only moderate difficulty.
 * Avoid using any water. Swimming and water physics have not been finalized, so any current water behavior is unreliable.
-[[Image:Hallofshame.jpg|left|thumb|800px|More things to avoid]]
+* Don't overuse "new" things (enemies, objects, tiles): Use them when and where they make sense. Don't use them just because they are new.
+
 <br clear="all"/>
 
 == External Links ==
