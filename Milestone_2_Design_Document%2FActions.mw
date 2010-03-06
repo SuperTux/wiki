@@ -1,7 +1,8 @@
 {{Navbox Milestone 2 Design Document}}
 = Actions =
 
-The major change in the basic actions will be making running automatic. Running will automatically happen when you have walked continuously into a certain direction and will be different by a new animation. The acceleration phase will be long enough to be able to make walking-jumps. The jump height should be similar to what it is now with different height for run and jump. The current implementation of having a walk-key and and Milestone1-style running by default is *NOT* the intended final behavior.
+The major change in the basic actions will be making running automatic. Running will automatically happen when you have walked continuously into a certain direction and will be different by a new animation. The acceleration phase will be long enough to be able to make walking-jumps. The jump height should be similar to what it is now with different height for run and jump. The current implementation of having a walk-key and [[Milestone 1|Milestone-1]]-style running by default is ''not'' the intended final behavior.
+:What means "current" here? Which [[SVN]] revision are you referring to? --[[User:Octo|octo]] 08:38, 6 March 2010 (UTC)
 
 Rationale: The run key is overlooked by many people making the game extremely frustrating and annoying for them, since it isn't obvious that there is one, the tutorial situation in the form of a high wall in Milestone1 didn't really fix the problem, since we got still plenty of questions about the situation. It also serves little purpose since more experienced players will basically always press it down, i.e. almost nobody actually walks through the game on purpose.
 
