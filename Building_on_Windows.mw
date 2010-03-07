@@ -173,7 +173,7 @@ to
  IF(PHYSFS_IS_GCC4 AND NOT WINDOWS)
    ADD_DEFINITIONS(-fvisibility=hidden)
  ENDIF(PHYSFS_IS_GCC4 AND NOT WINDOWS)
-in local/phyfs-2.0.0/CMakeLists.txt
+in /phyfs-2.0.0/CMakeLists.txt
 * We're ready to build PhysFS.
 * Launch MSYS with msys.bat and type in the following: (you can paste into MSYS using the icon in the title bar)
  cd /physfs*
