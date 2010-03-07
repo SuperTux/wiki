@@ -1,6 +1,4 @@
-== Introduction ==
-
-Supertux tilemaps are composed from tiles. Little 32x32 pixel wide images. These tiles are defined in an [[S-expr]] based file, "data/images/tiles.strf", or for one or two bleeding-edge SVN levels a custom tileset ending with ".stts". These tilesets are included into the level by a <tt>tileset</tt> or <tt>tilesets</tt> entry, usually at the beginning of the level.
+''SuperTux'' [[tilemap]]s are composed from '''tiles''', little 32x32 pixel wide images. These tiles are defined in an [[S-expr]] based file, {{SvnFile|data/images/tiles.strf}}, or for one or two bleeding-edge [[SVN]] levels a custom tileset ending with ".stts". These tilesets are included into the level by a <tt>tileset</tt> or <tt>tilesets</tt> entry, usually at the beginning of the level.
 A <tt>tile</tt> has an ID number a set of images (it's an animated tile if it has more than 1 image) and contains a set of attributes like solid, icy, anim-fps...
 
 == Example ==
