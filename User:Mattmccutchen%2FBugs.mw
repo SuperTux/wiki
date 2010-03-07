@@ -65,6 +65,7 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-02-24: If I hold a camera pan key (e.g., delete) when leaving a sector, the camera pan persists when re-entering the sector even if I am not holding the key.
 
 * 2010-03-01: In octo's "Broken Elevator", lava is killing me even when it is invisible.  Bug in the effective solidity report ({{bug|524}})?
+** I just checked with the latest version from SVN ({{Revision|6567}}) and couldn't reproduce the bug. This problem was the reason for writing the patch in the first place, so I'm relatively confident that it fixes that problem. --[[User:Octo|octo]] 08:39, 7 March 2010 (UTC)
 
 * 2010-03-01: Hilarious glitch seen in octo's "Yoshi's Island 2".  When we change sectors while holding an ice block, the player in the first sector is still holding the ice block.  If we now return to the first sector in a different place, the ice block flies into Tux's arms.  Tracking bug for "too much sector-specific state"?
 
@@ -77,3 +78,4 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-03-02: Remove hacks around camera bounding in "Village in the Forest".
 
 * 2010-03-06: Billboard + infoblock about checkpoints in "Welcome to Antarctica" are out of date.
+** How are they out of date? --[[User:Octo|octo]] 08:39, 7 March 2010 (UTC)
