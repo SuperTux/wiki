@@ -80,3 +80,4 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 ** How are they out of date? --[[User:Octo|octo]] 08:39, 7 March 2010 (UTC)
 *** {{Revision|6556}} [[User:Mattmccutchen|Mattmccutchen]] 09:01, 7 March 2010 (UTC)
 **** Thanks for the hint, I totally missed that. --[[User:Octo|octo]] 09:49, 7 March 2010 (UTC)
+**** I've created {{Bug|591}} for this issue. —[[User:Octo|octo]] 13:08, 7 March 2010 (UTC)
