@@ -60,7 +60,7 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-02-20: Can jump over some of the exits:
 ** Up and Down
 ** Tux the Builder
-* Others?
+** Others?
 
 * 2010-02-24: If I hold a camera pan key (e.g., delete) when leaving a sector, the camera pan persists when re-entering the sector even if I am not holding the key.
 
