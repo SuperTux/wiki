@@ -189,6 +189,22 @@ Tiles can have the following attributes:
 |
 |}
 
+== Data section ==
+
+Each <code>tile</code> definition can have a <code>data</code> section ("<code>datas</code>" when using the <code>tiles</code> definition). This section is used when the yes/no-information usually stored in the ''attributes'' definition isn't appropriate for the type of information. Currently, this section is only used to store ''slope'' data.
+
+Each type of information stored in the data section needs to reserve a range of values for itself. The slope information, for example, uses the values zero through 67 (64+3), so the mask is at least <code>0x007f</code>. To allow for future extension, the mask <code>0x00ff</code> has been reserved.
+
+{| border="1" style="border-collapse: collapse;"
+! Name
+! Mask
+! Meaning
+|-
+| Slope information
+| <code>0x00ff</code> (actually: <code>0x0073</code>)
+| Valid only when the ''solid'' attribute is set. See [[#Slope types]] below.
+|}
+
 === Slope types ===
 [[Image:Slopes.png]]
 
@@ -217,6 +233,34 @@ The ''deformation'' means the following. The “circle” on the right shows the
 |}
 
 The important part is that the deformation determines which part of the tile is used and not the actual ''form'' of the tile. For example, the <code>0+48</code> tile is a (steep, south-west) ''triangle'', while <code>2+48</code> is a (steep, south-east) ''trapezoid''.
+
+=== Example ===
+
+The following defines several tiles, some of which are slopes. Their slope information is stored in the ''datas'' section.
+
+  (tiles
+    (width 11)
+    (height 4)
+    (ids
+      7  8  9  0    1826 1827 0    1837 1838 1843 1844
+      13 14 15 1829 1830 1831 1832 1839 1840 1845 1846
+      10 11 12 1833 1834 1835 1836 1841 1842 1847 1848
+      16 17 18 0    0    0    0    0    0    1849 1850
+    )
+    (attributes
+      0 0 0 0  0  0  0  0  0  0  0
+      1 1 1 17 17 17 17 17 17 17 17
+      1 1 1 1  1  1  1  1  1  17 17
+      0 0 0 0  0  0  0  0  0  1  1
+    )
+    (datas
+      0 0 0 0  0  0  0  0 0 0  0
+      0 0 0 18 34 32 16 2 0 66 48
+      0 0 0 0  0  0  0  0 0 50 64
+      0 0 0 0  0  0  0  0 0 0  0
+    )
+    (image "tiles/snow/convex.png")
+  )
 
 == Adding new tiles ==
 
