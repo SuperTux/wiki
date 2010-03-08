@@ -112,7 +112,7 @@ Sleeping Spiky sleeps, when Tux comes near he activates and behaves like a norma
 Already in the code, but not much used in Milestone1 Levels. Since Milestone2 won't have water he should probably jump out of pipes.
 <br clear="all" />
 
-== Owl ==
+== [[Owl]] ==
 [[Image:Owl.png|right]]
 A flying enemy that can carry things around and let them drop on Tux. One thing it is throwing might be the BombFish.
 
