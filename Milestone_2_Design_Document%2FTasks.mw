@@ -105,6 +105,7 @@
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
 ** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
 * General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
+** Fixed in {{Revision|6554}} —[[User:Octo|octo]] 07:35, 9 March 2010 (UTC)
 * General: Get rid of enemies stacking on top of each other
 * General: Have particle throwing starting enemies (fireflower like)
 * General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
