@@ -57,6 +57,7 @@
 * Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector <strike>or at least a hint in the status bar</strike>.(status bar done)
 * finish editor improvements (MatzeB)
 * editor doesn't align [[Cannon]] and [[Krush and Krosh]] properly (grid is wrong)
+** I think it's using the 0,0-position of the ''image'' to align objects, not the ''hitbox''. —[[User:Octo|octo]] 07:50, 9 March 2010 (UTC)
 * add 'recent files' to level editor
 
 == Meta / Organization ==
