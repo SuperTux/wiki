@@ -2,6 +2,11 @@ __NOTOC__
 
 = 2010 =
 
+== 2010-03-06 ==
+
+* Since {{Revision|6556}} spawning at ''reset points'' is "for free", i.e. you won't lose any coins if you die and start at a bell.
+* The [[Owl]] and [[SkyDive]] [[badguy]]s from the [[Milestone 2 Design Document]] have been implemented.
+
 == 2010-03-02 ==
 
 * The images and code for the [[Short Fuse]] has been added to the [[SVN]] repository. For testing purposes, it has been added to level&nbsp;12 of [[Icy Island]], ''Into the Stars''.
