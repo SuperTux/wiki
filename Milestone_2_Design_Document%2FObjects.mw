@@ -19,7 +19,7 @@ Change [[unstable tile]]s to be have like one of those:
 ** Blocks crumble until they disappear. Then the player falls through.
 * [http://www.youtube.com/watch?v=n_SqtR3xFpM#t=1m20s Donut Blocks in Super Mario World]
 ** Blocks fall down without crumbling first. The player can still jump off of them.
-Currently, they crumble and then fall down. Jumping off of them is not possible.
+Since {{Revision|6492}}, either behavior is possible, depending on the actions available in the sprite. The exact behavior is documented on the [[Unstable tile]] page.
 
 == Slope Tiles ==
 
