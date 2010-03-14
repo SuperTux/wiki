@@ -39,8 +39,10 @@ Hints:
 
 === Level designers ===
 
-Your level should try to follow with the [[Milestone 2 Design Document/Styleguide|level guidelines]] set by the SuperTux team. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
+Your level should try to follow with the [[Milestone 2 Design Document/Styleguide|level guidelines]] set by the ''SuperTux'' [[team]]. See the [[Editor FAQ]] for some help on using the Supertux-sharp editor.
 If your levels break the rules or you don't want them as part of the main world, try [[CreatingMods|packaging them as an addon]]. (Note that addons can be under licenses other than GPLv2 and CC-by-SA, though they should allow non-commercial distribution if you want them be in the addon manager)
+
+Once you have created a cool and awesome level, open a bug report in the [[bug tracker]] and attach your <code>.stl</code> file. If the level looks like a candidate for the main game, it may be included in the [[Incubator Island]]. Please don't feel bad if you are asked to do a couple of changes on your level prior to it being accepted as a candidate; in order for ''SuperTux'' to be a fun game, there must be some consistency between all levels in the game.
 
 == Programmers/Code ==
 
