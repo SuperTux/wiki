@@ -1,8 +1,20 @@
-If you would like to contribute to SuperTux, you should follow a series of instructions to make the process as hassle-free as possible for you and the developers.
+So you would like to '''contribute''' to ''SuperTux''? Great! We can use all the help we can get. The following instructions should get you started.
 
 == Why ==
 *Show your changes to the world, and contribute them to the project!
 *You get write access to our repository and join the team if you contribute enough.
+
+== Test new levels ==
+
+The easiest way to contribute to ''SuperTux'' is actually fun: Play the new "for testing" levels and tell us what you think. Just go to
+:''Main menu'' → ''Contrib Levels'' → ''[[Incubator Island]]''
+and play the levels you find there. Then log on to [[IRC]], a chat network, and tell us what you think. Or send an email to the [[mailing list]]. Or see if there is a "bug report" in our [[bug tracker]] that handles the new level.
+
+We're especially interested to hear about the following points:
+* Where did you die the most? Did you die at all?
+* Can you collect all the coins in the level?
+* Did you find all the secrets?
+* Did any [[badguy]]s die / fall down before you reached them?
 
 == Licenses ==
 
