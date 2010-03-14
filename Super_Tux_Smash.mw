@@ -162,7 +162,8 @@ Comments should be posted here or directed to zratchet -at- gmail -dot- com
 
 Then the portal spits Tux Penny and Gown out onto the ground. Credits roll.
 
-* IDEA for characters: special moves you can learn at dojos. A_key is arrow key
+* IDEA: special moves you can learn at dojos. A_key is arrow key. Advantage defines a little bonus to player "advantaged" in the stage.
+LOCATIONS:Icyisland (advantage to Tux), The Forest, Penguinos Island (advantge to Pingu, how to unlock: Destroy Tux statue at Icyisland and jump into secret passage under it), Antarctica Meltdown (unlock all special moves) Nolok's Castle (Advantage to Nolok and Eviltux (from supertuxkart)) Grand Finale (beat game with all stages unlocked by every character)
 		TUX
 DESCRIPTION:Our hero, cool as usual.
 QUOTES TO GAME:"Here I am, Tux!", "Woot! I won!"
@@ -185,6 +186,8 @@ A_up while ducking - backflip (jumps back and makes enemy landed on unable to mo
  A_up in midair - Penguin punch (Tux jumps in midair, striking enemies touching him) - available at level 6 dojo
 
 		PINGU
+UNLOCK:Beat Penguinos island with Tux.
+CUTSCENE: Some penguin (Pingu) runs into Tux. "HI! NOW I FOUND YOU!I..." TUX:"Wait a bit, who are you?" "I AM YOUR BROTHER!!" Tux feels like WTF? PENGUIN:"I will explain it. Sit down just here... I remember you when I was young. We were taking a vacation at Icyisland. Then, returned to home, we noticed that you were lost... *sniff* BUT NOW I GLAD TO SEE YOU BRO!!!"
 DESCRIPTION:Tux's brother, has his own cool moves.
 QUOTES TO GAME:"It's action time for Pingu!", "WOW! I am so cool!"
 	COMMON MOVES:
