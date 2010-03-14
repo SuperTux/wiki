@@ -161,3 +161,46 @@ Comments should be posted here or directed to zratchet -at- gmail -dot- com
 #Nolok with wings and magic (FINAL BOSS)
 
 Then the portal spits Tux Penny and Gown out onto the ground. Credits roll.
+
+* IDEA for characters: special moves you can learn at dojos.
+		TUX
+DESCRIPTION:Our hero, cool as usual.
+QUOTES TO GAME:"Here I am, Tux!", "Woot! I won!"
+	COMMON MOVES:
+A_left, A-right - move
+A_up - jump
+A_down - duck (makes Tux invincible,  and stand-on-able for 5 seconds, then, if anybody stands on him, gives them shot in air)
+|2| - punch
+|2| in midair - sky kick
+|1| repeatedly in midair - air spin (throws enemies who touch him back to hell they came from and falls slower)
+A_up while ducking - backflip (jumps back and makes enemy landed on unable to move(stomped))
+|1| repeatedly while ducking - spring jump (very high spinjump)
+|1| repeatedly - spin (throws enemies who touch him back to hell they came from)
+	SPECIAL MOVES:
+|2| while moving - ram (rams at enemy, shooting him up and in moving direction a bit) - available at level 1 dojo
+|2| and A_left/A_right while ducking - power ram (rams at enemy at very high speed, shooting him up and in moving direction) - available at level 2 dojo
+|2| while ducking - power bomb (strikes enemies nearby) - avaible at level 3 dojo
+|2| and |1| repeatedly - rage (makes Tux run fast and strikes enemies on his way) - available at level 4 dojo
+|2| and |1| repeatedly while ducking - rampage (makes Tux run very fast and pwns enemies on his way) - available at level 5 dojo
+ A_up in midair - Penguin punch (Tux jumps in midair, striking enemies touching him) - available at level 6 dojo
+
+		PINGU
+DESCRIPTION:Tux's brother, has his own cool moves.
+QUOTES TO GAME:"It's action time for Pingu!", "WOW! I am so cool!"
+	COMMON MOVES:
+A_left, A-right - move
+A_up - jump
+A_down - focus (makes Pingu unable to move for 2 seconds, then decreases knockback rate for 10 seconds. Then can't do this move for 1 minute)
+|2| - punch
+|2| in midair - sky kick
+|1| repeatedly in midair - air spin (throws enemies who touch him back to hell they came from and falls slower)
+A_up while ducking - backflip (jumps back and makes enemy landed on unable to move(stomped))
+|1| repeatedly while ducking - spin spell (same as spin, but with wider range)
+|1| repeatedly - spin (throws enemies who touch him back to hell they came from)
+	SPECIAL MOVES:
+|2| while moving - dodge (makes Pingu walkthroughable for 30 seconds, recharge for 1 minute) - available at level 1 dojo
+|2| and A_left/A_right while ducking - action dodge (makes Pingu walkthroughable for 30 seconds, pressing |2| will attack touching player, recharge for 2 minutes) - available at level 2 dojo
+|2| while ducking - raging soul (must be >99 damage to do this - everybody (and Pingu) receives 1/20 of Pingu's damage, Pingu's unable to move for 10 seconds) - available at level 3 dojo
+|2| and |1| repeatedly - fireball (a flying fireball appears, striking first enemy touched) - available at level 4 dojo
+|2| and |1| repeatedly while ducking - thunderball (a flying thunderball appears, striking all enemies on his way) - available at level 5 dojo
+A_up in midair - Teleport (Pingu teleports up a bit, damaging all enemies on his vertical coordinates and near these) - available at level 6 dojo
