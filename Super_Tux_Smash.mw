@@ -183,7 +183,7 @@ A_up while ducking - backflip (jumps back and makes enemy landed on unable to mo
 |2| while ducking - power bomb (strikes enemies nearby) - avaible at level 3 dojo
 |2| and |1| repeatedly - rage (makes Tux run fast and strikes enemies on his way) - available at level 4 dojo
 |2| and |1| repeatedly while ducking - rampage (makes Tux run very fast and pwns enemies on his way) - available at level 5 dojo
- A_up in midair - Penguin punch (Tux jumps in midair, striking enemies touching him) - available at level 6 dojo
+A_up in midair - Penguin punch (Tux jumps in midair, striking enemies touching him) - available at level 6 dojo
 
 		PINGU
 UNLOCK:Beat Penguinos island with Tux.
