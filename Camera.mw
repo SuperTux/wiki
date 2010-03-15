@@ -30,6 +30,7 @@ play with the parameters yourself. This way you can test/try out fixed
 camera, Yoshi Island and Kirby Camera and their parameters easily. You
 can make the game reparse the Camera by typing
 "sector.Camera.reload_config()" on the console.
+Put [http://supertux.lethargik.org/viewvc/viewvc.cgi/branches/supertux/0_3_x/data/camera.cfg?view=markup camera.cfg] in ~/.supertux2/ .
 
 [[Category:Game Object]]
 [[Category:Game Engine]]
