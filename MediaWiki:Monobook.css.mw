@@ -50,3 +50,18 @@ table.objectlist td.title
   font-size: 15pt;
   padding: 5px;
 }
+
+table.prettytable
+{
+  color: black;
+  background-color: white;
+  border-collapse: collapse;
+  border: 1px solid #AAAAAA;
+}
+
+table.prettytable td,
+table.prettytable th
+{
+  border: 1px solid #AAAAAA;
+  padding: 0.3ex;
+}
