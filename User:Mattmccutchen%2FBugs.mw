@@ -76,9 +76,3 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-03-02: While camera is in autoscroll mode, badguy activation should be based on camera instead of Tux.
 
 * 2010-03-02: Remove hacks around camera bounding in "Village in the Forest".
-
-* 2010-03-06: Billboard + infoblock about checkpoints in "Welcome to Antarctica" are out of date.
-** How are they out of date? --[[User:Octo|octo]] 08:39, 7 March 2010 (UTC)
-*** {{Revision|6556}} [[User:Mattmccutchen|Mattmccutchen]] 09:01, 7 March 2010 (UTC)
-**** Thanks for the hint, I totally missed that. --[[User:Octo|octo]] 09:49, 7 March 2010 (UTC)
-**** I've created {{Bug|591}} for this issue. —[[User:Octo|octo]] 13:08, 7 March 2010 (UTC)
