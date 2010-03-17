@@ -41,9 +41,6 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 
 * 2010-01-31: Editor: Typing ".3" in path node time, 0 is inserted automatically.  Distracting and mispositions cursor.  Validate on blur?
 
-* 2010-01-31: Editor: Crash when right-clicking a tilemap in the list after resizing it.  Partially known issue?
-** I think ''MMlosh'' has done a couple of changes to the editor to fix crashes related to resizing. Could you retry if the problem still exists? --[[User:Octo|octo]] 10:04, 7 March 2010 (UTC)
-
 * 2010-01-31: Cannot have objects controlled by fix_old_tiles on a moving tilemap.
 
 * 2010-02-09: In the beginning of one of the "moo" levels, a snowball's sprite is not set correctly when it is dying.
