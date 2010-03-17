@@ -73,3 +73,11 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-03-02: While camera is in autoscroll mode, badguy activation should be based on camera instead of Tux.
 
 * 2010-03-02: Remove hacks around camera bounding in "Village in the Forest".
+
+* 2010-03-07: Infoblock popup is in front of pause shading, should be behind.
+
+* 2010-03-16: Incubator level "The not so long way" uses fish in translucent water.  One can see the fish appear and disappear.  That looks bad.
+
+* 2010-03-16: In lower-left corner of incubator level "Crystal Cataclysm", Tux sticks to the slopes in the ceiling.  The slopes may be miscoded.
+
+* 2010-03-16: Bug tracker: There should be a "View Revisions" for deleted notes too, at least for administrators.
