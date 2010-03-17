@@ -11,6 +11,7 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 
 * 2010-01-11: Integer screen coordinates
 ** Fixed in {{Revision|6568}}. --[[User:Octo|octo]] 10:01, 7 March 2010 (UTC)
+*** What I meant was "FIXME Force integer translation for all graphics, not just tilemaps" in src/object/tilemap.cpp . [[User:Mattmccutchen|Mattmccutchen]] 00:27, 17 March 2010 (UTC)
 
 * 2010-01-11: What is the aspect ratio control supposed to do?  Values other than "auto" produce a display ridiculously stretched horizontally.  I guess we want 2880:900.  But why, when the window is smaller???
 
