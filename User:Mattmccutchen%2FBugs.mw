@@ -81,3 +81,5 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-03-16: In lower-left corner of incubator level "Crystal Cataclysm", Tux sticks to the slopes in the ceiling.  The slopes may be miscoded.
 
 * 2010-03-16: Bug tracker: There should be a "View Revisions" for deleted notes too, at least for administrators.
+
+* 2010-03-17: Global coin counter is no longer meaningful ({{Bugnote|591|1772}})
