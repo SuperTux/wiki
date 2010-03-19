@@ -1,0 +1,15 @@
+<includeonly>!-
+| {{{Name}}}
+| {{{Contributor}}}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
+
+== Usage ==
+
+ <nowiki>{{</nowiki>Level list entry | Name=''name_of_level'' | Contributor=''name_of_contributor'' <nowiki>}}</nowiki>
+
+== See also ==
+
+* [[Template:Level list begin]]
+* [[Template:Level list end]]
+
+[[Category:Templates]]
+</noinclude>
