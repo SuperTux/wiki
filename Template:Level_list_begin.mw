@@ -1,0 +1,16 @@
+<includeonly>{| class="prettytable sortable"
+! Name
+! Contributor
+</includeonly><noinclude>The '''Level list begin''' template starts a level listing. The listing has to end with the ''Level list end'' template.
+
+== Usage ==
+
+ <nowiki>{{</nowiki>Level list begin<nowiki>}}</nowiki>
+
+== See also ==
+
+* [[Template:Level list entry]]
+* [[Template:Level list end]]
+
+[[Category:Templates]]
+</noinclude>
