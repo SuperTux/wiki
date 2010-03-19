@@ -102,7 +102,8 @@
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
 ** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
 * General: Get rid of enemies stacking on top of each other
-** What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)
+** <small>What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)</small>
+** <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [[User:Sik0fewl|sik0fewl]] 16:53, 19 March 2010 (UTC)</small>
 * General: Have particle throwing starting enemies (fireflower like)
 ** Not on the ''Enemies'' page. Postpone to ''Milestone 3''? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)
 * General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
