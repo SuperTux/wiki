@@ -1,11 +1,21 @@
 <includeonly>|-
-| {{#ifexist: Image:{{{Name}}}.png | [[Image:{{{Name}}}.png|100px|Screenshot of level {{{Name}}}]] | ''[[:Image:{{{Name}}}.png|Add screenshot]]'' }}
+| {{#if: {{{Screenshot|}}}
+    | [[Image:{{{Screenshot}}}|100px|Screenshot of level {{{Name}}}]]
+    | {{#ifexist: Image:{{{Name}}}.png
+        | [[Image:{{{Name}}}.png|100px|Screenshot of level {{{Name}}}]]
+        | ''[[:Image:{{{Name}}}.png|Add screenshot]]''
+    }}
+  }}
 | {{{Name}}}
 | {{{Contributor}}}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
 
 == Usage ==
 
- <nowiki>{{</nowiki>Level list entry | Name=''name_of_level'' | Contributor=''name_of_contributor'' <nowiki>}}</nowiki>
+ <nowiki>{{</nowiki>Level list entry
+   | Name=''name_of_level''
+   | Contributor=''name_of_contributor''
+   | Screenshot=''screenshot.png''        &lt;!-- ''(optional)'' --&gt;
+ <nowiki>}}</nowiki>
 
 == See also ==
 
