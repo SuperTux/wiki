@@ -1,12 +1,14 @@
 {{Navbox Milestone 2 Design Document}}
+
 == Code Tasks ==
 * Empty top/middle/bottom background image string should be handled as transparent image (more parallax backgrounds)
 * write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
+** <small>Fixed with non_power_of_two? --[[User:Mathnerd314|Mathnerd314]] 20:43, 19 March 2010 (UTC)</small>
 * Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
 
 == Sound and Music Tasks ==
-* Create replacements for missing sound files - see [[DataFiles]]
+* Improve the sounds
 * Create more music tracks for IcyIsland or add BlastOffTek's pack.
 * Compress music more. The 40 MBytes of music make up two thirds of the source tarball.
 
@@ -37,7 +39,6 @@
 * animate minibomb
 * paint tutorial boards for grabbing, backflip and run-jump
 * think of a new way to represent the exit area (snow molted with smooth ground below or so)
-* background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL_NEAREST instead of GL_LINEAR)
 * add turn-around animation for smart-snowball
 * add sprite scaling
 * remove border from menu screen or make it scalable for different resolutions
@@ -46,14 +47,15 @@
 * create some playable test levels for new stuff
 ** <small>Anything in particular? - [[User:Sik0fewl|sik0fewl]] 20:07, 15 June 2008 (UTC)</small>
 *:Try these, since they're probably most noticeable to Milestone1 users: --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
-*# Slopes and background tiles
-*# Moving platforms (ice platforms haven't been used yet...)
+*# <strike>Slopes and background tiles</strike>
+*# Moving platforms <strike>(ice platforms haven't been used yet...)</strike>
 *# Climbable ladders and directly accessible powerups
-*# New unisolid snow tiles
+*# <strike>New unisolid snow tiles</strike>
 *# Parallax backgrounds
-*# Sector/Scripting use
-*# Crystallo and IceBlock badguys
-*# Add-ons + manager (To distribute these new levels, of course!)
+*# <strike>Sector/Scripting use</strike>
+*# <strike>Crystallo and IceBlock badguys</strike>
+*# <strike>Add-ons + manager (To distribute these new levels, of course!)</strike>
+*:: [[Incubator Island]] and [http://verplant.org/supertux octo's levels] should do most of this
 * reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
 * Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector <strike>or at least a hint in the status bar</strike>.(status bar done)
 * finish editor improvements (MatzeB)
@@ -89,9 +91,11 @@
 ** <small>What's wrong with BMP support? It seems to work for me - [[User:Sik0fewl|sik0fewl]] 06:11, 13 June 2008 (UTC)</small>
 *** ACK, BMP-based screenshots work, at least with the SDL renderer. --[[User:Octo|octo]] 06:53, 5 March 2010 (UTC)
 * at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
+** <small>Fixed?</small>
 * aspect ratio init code (Grumbel)
 * think about peeking in relation to large screen size
 ** <small>Maybe disable peeking if the resolution is at a certain size or greater? Tux would just be centered. [[User:Sik0fewl|sik0fewl]] 18:34, 30 April 2009 (UTC)</small>
+* port to Haskell
 
 == Enemies ==
 * fix and cleanup all the enemy names - see [[Milestone 2 Design Document/Enemies]] for new names
@@ -101,6 +105,7 @@
 ::Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Also, bonus blocks already have varied behaviors. --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
 ** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
+*** <small>No, this enemy is intelligent (reacts to Tux) --[[User:Mathnerd314|Mathnerd314]] 20:43, 19 March 2010 (UTC) </small>
 * General: Get rid of enemies stacking on top of each other
 ** <small>What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)</small>
 ** <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [[User:Sik0fewl|sik0fewl]] 16:53, 19 March 2010 (UTC)</small>
@@ -112,8 +117,9 @@
 * [[Mr. Bomb]]: let the fuse burn after one touched it
 * [[Haywire]]: new bomb type (crazy pink bomb) that runs around after being touched
 ** Initial version is done. Waiting for feedback and improvements. See [[Milestone 2 Design Document/Enemies]] --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
-* [[Flying Snowball]]: smoke effect for the motor seem to be to seldomly triggered
 * [[Flying Snowball]]: Remove randomness, should be periodic and predictable
+* [[Flying Snowball]]: Change timings to match that of Milestone1
+* [[Flying Snowball]]: smoke effect for the motor seem to be to seldomly triggered
 * [[Krush and Krosh|Icecrusher]]: gravitation instead of linear, facial expression, maybe screen shaking
 *: Gravitation has been done in {{Revision|6403}}. —[[User:Octo|octo]] 19:19, 26 February 2010 (UTC)
 * [[Krosh]] (big icecrusher): add a larger version of [[Krush]] (the icecrusher), twice the size (4x4 files)
@@ -128,14 +134,12 @@ These are items that can be postponed until milestone 3, but are still welcome f
 
 ===Code Tasks===
 * separate lisp reader, tinygettext and other libraries properly out of SuperTux
-*: <small>Is this necessary for milestone 2? - [[User:Sik0fewl|sik0fewl]] 20:54, 15 June 2008 (UTC)</small>
-*:: <small>Probably not. -- [[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC) </small>
 
 ===Editor / Developer Conveniences===
 * optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
 
 ===Levels / Scripting / Gameplay===
-* SuperTux should stand on the ground when a level starts, not fall down
+* SuperTux should stand on the ground when a level starts, not fall down (move all spawnpoints to 1 tile above ground)
 * fix console command set_game_speed() so that it doesn't slow down the console
 
 ===Other===
@@ -181,12 +185,13 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * <del>create mountain and night background</del>
 * <del>create proper background tiles for level22</del> - all you need are the blue bg tiles and maybe some unisolid ones
 * <del>new enemy type with more interesting walking pattern (follows Tux as long as Tux doesn't look, walks forward and backward, etc.), see Crystallo for a possible sprite</del>
-* add 'recent files' to level editor
-* can't run while carrying an object, but should be able to 
+* <strike>add 'recent files' to level editor</strike>
+* <strike>can't run while carrying an object, but should be able to</strike>
 :No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
 :: With *large* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [[User:Grumbel|Grumbel]] 17:13, 28 May 2008 (UTC)
 ::: The speed limiting code has been deactivated in {{Revision|6540}}. --[[User:Octo|octo]] 06:51, 5 March 2010 (UTC)
-* General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
+* <strike>General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour</strike>
 ** Fixed in {{Revision|6554}} —[[User:Octo|octo]] 07:35, 9 March 2010 (UTC)
-* [[Flying Snowball]]: Add acceleration/deceleration instead of linear up and down
+* <strike>[[Flying Snowball]]: Add acceleration/deceleration instead of linear up and down</strike>
 *: Isn't this the current behavior ({{Revision|6402}})? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
+* <strike>background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL_NEAREST instead of GL_LINEAR)</strike>
