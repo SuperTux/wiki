@@ -1,5 +1,5 @@
 <includeonly>|-
-| ''screenshot''
+| {{#ifexist: Image:{{{Name}}}.png | [[Image:{{{Name}}}.png|100px|Screenshot of level {{{Name}}}]] | ''[[:Image:{{{Name}}}.png|Add screenshot]]'' }}
 | {{{Name}}}
 | {{{Contributor}}}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
 
