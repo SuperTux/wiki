@@ -3,7 +3,7 @@
     | [[Image:{{{Screenshot}}}|100px|Screenshot of level {{{Name}}}]]
     | {{#ifexist: Image:{{{Name}}}.png
         | [[Image:{{{Name}}}.png|100px|Screenshot of level {{{Name}}}]]
-        | Not available<br />[[Media:{{{Name}}}.png|(Add&nbsp;…)]]
+        | ''Not available''<br />[[Media:{{{Name}}}.png|(Add&nbsp;…)]]
     }}
   }}
 | {{{Name}}}
