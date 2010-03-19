@@ -3,6 +3,41 @@ If you have created your own levels, and wish to release them, then you can plac
 == Addons ==
 The development version has the ability to automatically download some specially packaged levels, known as "addons". Simply ensure you have an internet connection, and select "Addons" from the main menu, where you can choose to install the 3 addons currently available.
 
+== Icy Island ==
+
+The following levels are currently part of [[Icy Island]].
+
+{{Level list begin}}
+{{Level list entry | Name=Welcome to Antarctica }}
+{{Level list entry | Name=The Journey Begins }}
+{{Level list entry | Name=Via Nostalgica }}
+{{Level list entry | Name=Tobgle Road }}
+{{Level list entry | Name=The Somewhat Smaller Bath | Contributor=Philippe Saint-Pierre }}
+{{Level list entry | Name=The Frosted Fields }}
+{{Level list entry | Name=Oh no! More Snowballs! | Contributor=Voluptuous Pachyderm }}
+{{Level list entry | Name=Stone Cold }}
+{{Level list entry | Name=Grumbel's Sense of Snow }}
+{{Level list entry | Name=23rd Airborne }}
+{{Level list entry | Name=Night Chill }}
+{{Level list entry | Name=Into the Stars }}
+{{Level list entry | Name=Above the Arctic Skies }}
+{{Level list entry | Name=Entrance to the Cave }}
+{{Level list entry | Name=Under the Ice }}
+{{Level list entry | Name=Living in a Fridge }}
+{{Level list entry | Name='...or is it just me?' }}
+{{Level list entry | Name=Ice in the Hole }}
+{{Level list entry | Name=Miyamoto Monument }}
+{{Level list entry | Name=End of the Tunnel }}
+{{Level list entry | Name=A Path in the Clouds }}
+{{Level list entry | Name=A Mysterious House of Ice }}
+{{Level list entry | Name=The Escape }}
+{{Level list entry | Name=The Shattered Bridge }}
+{{Level list entry | Name=Arctic Ruins }}
+{{Level list entry | Name=The Castle of Nolok }}
+{{Level list entry | Name=No More Mr Ice Guy }}
+<!-- {{Level list entry | Name=Bonus Level }} -->
+{{Level list end}}
+
 == Incubator Island ==
 
 In the [[SVN]] version, there is a special island, [[Incubator Island]]. In this world are brand new levels that we plan to include in the main level set once they are "ready", i.e. well tested and fun to play. You can actually help us by playing those levels and giving us feedback about them.
