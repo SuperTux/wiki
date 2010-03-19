@@ -65,3 +65,9 @@ table.prettytable th
   border: 1px solid #AAAAAA;
   padding: 0.3ex;
 }
+
+table.prettytable th
+{
+  color: black;
+  background-color: #F9F9F9;
+}
