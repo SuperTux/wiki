@@ -1,4 +1,4 @@
-'''Incubator Island''' is a [[world]] of ''SuperTux'' where new&nbsp;/ proposed levels are improved until they are ready to go into the main game. Levels in the main game have to comply with our [[level style guide]]. Levels that are ''supposed'' to go onto one of the ''bonus islands'' do ''not'' go onto the ''Incubator Island'' – they should go on a bonus island directly.
+'''Incubator Island''' is a [[world]] of ''SuperTux'' where new&nbsp;/ proposed levels are improved until they are ready to go into the main game. [[Levels]] in the main game have to comply with our [[level style guide]]. Levels that are ''supposed'' to go onto one of the ''bonus islands'' do ''not'' go onto the ''Incubator Island'' – they should go on a bonus island directly.
 
 Levels have to pass some basic tests before going into ''Incubator Island'':
 * Has a license for the level been specified and is it compatible with ''SuperTux'''s own license?<br /><small>(''SuperTux'' is released under the GPL version 3 or later)</small>
