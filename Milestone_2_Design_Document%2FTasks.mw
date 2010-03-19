@@ -59,7 +59,6 @@
 * finish editor improvements (MatzeB)
 * editor doesn't align [[Cannon]] and [[Krush and Krosh]] properly (grid is wrong)
 ** I think it's using the 0,0-position of the ''image'' to align objects, not the ''hitbox''. —[[User:Octo|octo]] 07:50, 9 March 2010 (UTC)
-* add 'recent files' to level editor
 
 == Meta / Organization ==
 * create a timeline what shall be done and when — [[Milestone 2 Design Document/Timeline]]
@@ -77,10 +76,6 @@
 * make left/right change an option in the menu, let enter apply it (needed for fullscreen)
 
 == Levels / Scripting / Gameplay ==
-* can't run while carrying an object, but should be able to 
-:No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
-:: With *large* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [[User:Grumbel|Grumbel]] 17:13, 28 May 2008 (UTC)
-::: The speed limiting code has been deactivated in {{Revision|6540}}. --[[User:Octo|octo]] 06:51, 5 March 2010 (UTC)
 * replace "you found a secret area" with a special sound (Wansti)
 * level startup needs a fade-in, so does game startup, level abort and a few other places
 * add all fade-in/out effects to DisplayEffect
@@ -106,8 +101,6 @@
 ::Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Also, bonus blocks already have varied behaviors. --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
 ** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
-* General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
-** Fixed in {{Revision|6554}} —[[User:Octo|octo]] 07:35, 9 March 2010 (UTC)
 * General: Get rid of enemies stacking on top of each other
 ** What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)
 * General: Have particle throwing starting enemies (fireflower like)
@@ -118,8 +111,6 @@
 * [[Mr. Bomb]]: let the fuse burn after one touched it
 * [[Haywire]]: new bomb type (crazy pink bomb) that runs around after being touched
 ** Initial version is done. Waiting for feedback and improvements. See [[Milestone 2 Design Document/Enemies]] --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
-* [[Flying Snowball]]: Add acceleration/deceleration instead of linear up and down
-*: Isn't this the current behavior ({{Revision|6402}})? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
 * [[Flying Snowball]]: smoke effect for the motor seem to be to seldomly triggered
 * [[Flying Snowball]]: Remove randomness, should be periodic and predictable
 * [[Krush and Krosh|Icecrusher]]: gravitation instead of linear, facial expression, maybe screen shaking
@@ -189,3 +180,12 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * <del>create mountain and night background</del>
 * <del>create proper background tiles for level22</del> - all you need are the blue bg tiles and maybe some unisolid ones
 * <del>new enemy type with more interesting walking pattern (follows Tux as long as Tux doesn't look, walks forward and backward, etc.), see Crystallo for a possible sprite</del>
+* add 'recent files' to level editor
+* can't run while carrying an object, but should be able to 
+:No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
+:: With *large* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [[User:Grumbel|Grumbel]] 17:13, 28 May 2008 (UTC)
+::: The speed limiting code has been deactivated in {{Revision|6540}}. --[[User:Octo|octo]] 06:51, 5 March 2010 (UTC)
+* General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour
+** Fixed in {{Revision|6554}} —[[User:Octo|octo]] 07:35, 9 March 2010 (UTC)
+* [[Flying Snowball]]: Add acceleration/deceleration instead of linear up and down
+*: Isn't this the current behavior ({{Revision|6402}})? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
