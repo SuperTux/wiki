@@ -195,3 +195,5 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * <strike>[[Flying Snowball]]: Add acceleration/deceleration instead of linear up and down</strike>
 *: Isn't this the current behavior ({{Revision|6402}})? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
 * <strike>background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL_NEAREST instead of GL_LINEAR)</strike>
+
+[[Category:Development]]
