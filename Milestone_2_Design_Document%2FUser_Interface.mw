@@ -37,3 +37,5 @@ Menu system of Milestone1 is rather ugly and could need a rewrite as well as a r
 = Configuration =
 
 The games configuration (fullscreen, aspect ratio, geometry, etc.) shouldn't be saved when supplied by command line.
+
+[[Category:Development]]
