@@ -12,46 +12,52 @@
 | Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=The Journey Begins
-| Description = overground, a few holes covered by wood-bridges/pieces 
-| Length = 300
+| Name        = The Journey Begins
+| Description = overground, a few holes covered by wood-bridges/pieces
+| Difficulty  = easy
+| Length      = 300
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Via Nostalgica
-| Description = overground, almost no holes
-| Length = 390
-| Contributor = Bill Kendrick
-| Display={{{Display}}}
-}}
-{{Level list entry
-| Name=Tobgle Road
-| Description = overground, almost no holes, a few areas where the player can walk above or below, many wood pieces
-| Length = 270
-| Contributor = Tobias Gläßer
-| Display={{{Display}}}
-}}
-{{Level list entry
-| Name=The Somewhat Smaller Bath
-| Contributor=Philippe Saint-Pierre
+| Name        = Via Nostalgica
 | Description = overground
-| Length = 355
-| Display={{{Display}}}
+| Difficulty  = easy
+| Length      = 390
+| Contributor = Bill Kendrick
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=The Frosted Fields
+| Name        = Tobgle Road
+| Description = overground, almost no holes, a few areas where the player can walk above or below, many wood pieces
+| Difficulty  = easy
+| Length      = 270
+| Contributor = Tobias Gläßer
+| Display     = {{{Display}}}
+}}
+{{Level list entry
+| Name        = The Somewhat Smaller Bath
+| Contributor = Philippe Saint-Pierre
+| Description = overground
+| Difficulty  = easy
+| Length      = 355
+| Display     = {{{Display}}}
+}}
+{{Level list entry
+| Name        = The Frosted Fields
 | Description = overground, some pipes, many spike enemies, some holes
-| Length = 510
+| Difficulty  = easy
+| Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Oh no! More Snowballs!
-| Contributor=Voluptuous Pachyderm
+| Name        = Oh no! More Snowballs!
+| Contributor = Voluptuous Pachyderm
 | Description = overground, plenty of holes, crappy looking labyrinth at the end, some copy&paste tile patterns
-| Length = 525
-| Display={{{Display}}}
+| Difficulty  = medium
+| Length      = 525
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = Stone Cold
