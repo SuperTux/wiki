@@ -180,11 +180,12 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=The Castle of Nolok
+| Name        = The Castle of Nolok
 | Description = castle theme
-| Length = 525
+| Difficulty  = hard
+| Length      = 525
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 <!-- {{Level list entry | Name=No More Mr Ice Guy }} -->
 <!-- {{Level list entry | Name=Bonus Level }} -->
