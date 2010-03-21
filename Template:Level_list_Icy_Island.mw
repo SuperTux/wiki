@@ -166,11 +166,12 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=The Shattered Bridge
+| Name        = The Shattered Bridge
 | Description = overworld, bridge/water setting
-| Length = 525
+| Difficulty  = hard
+| Length      = 525
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = Arctic Ruins
