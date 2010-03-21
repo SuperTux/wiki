@@ -10,9 +10,12 @@
 -->{{#if: {{{Description|}}}
      | {{{Description}}}
      | ''No description available.''
-   }}<!--
+   }}<br /><!--
 -->{{#if: {{{Difficulty|}}}
-     | <div style="font-size: smaller; margin-top: 1em;">Difficulty:&nbsp;{{Difficulty | {{{Difficulty}}} }}</div>
+     | <div style="font-size: smaller;">Difficulty:&nbsp;{{Difficulty | {{{Difficulty}}} }}</div>
+   }}<!--
+-->{{#if: {{{Length|}}}
+     | <div style="font-size: smaller;">Length:&nbsp;{{Level length | {{{Length}}} }}</div>
    }}
 | {{#if: {{{Contributor|}}} | {{{Contributor}}} | [[Team|''SuperTux'' team]] }}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
 
@@ -20,8 +23,11 @@
 
  <nowiki>{{</nowiki>Level list entry
    | Name=''name_of_level''
+   | Description=''description''
    | Contributor=''name_of_contributor''  &lt;!-- (optional; default: ''SuperTux'' team) --&gt;
    | Screenshot=''screenshot.png''        &lt;!-- (optional; default: ''Name''.png) --&gt;
+   | Difficulty=easy|medium|hard      &lt;!-- (optional) --&gt;
+   | Length=''n tiles''                   &lt;!-- (optional) --&gt;
  <nowiki>}}</nowiki>
 
 == See also ==
