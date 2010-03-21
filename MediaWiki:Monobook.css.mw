@@ -66,8 +66,16 @@ table.prettytable th
   padding: 0.3ex;
 }
 
+table.prettytable td
+{
+  text-align: left;
+  vertical-align: top;
+}
+
 table.prettytable th
 {
   color: black;
   background-color: #F9F9F9;
+  text-align: center;
+  vertical-align: middle;
 }
