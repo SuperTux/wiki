@@ -3,11 +3,11 @@
 | normal
 | long={{{1}}}
 | #default={{#ifexpr: {{{1}}} < 250
-             | short
+             | short ({{{1}}} tiles)
              | {{#ifexpr: {{{1}}} <= 400
-                 | normal
+                 | normal ({{{1}}} tiles)
                  | {{#ifexpr: {{{1}}} > 400
-                     | long
+                     | long ({{{1}}} tiles)
                      | [[Category:Invalid length]] {{{1}}}
                    }}
                }}
