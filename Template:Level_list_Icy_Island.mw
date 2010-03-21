@@ -131,25 +131,28 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=Miyamoto Monument
+| Name        = Miyamoto Monument
 | Description = underground
-| Length = 505
+| Difficulty  = hard
+| Length      = 505
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=End of the Tunnel
+| Name        = End of the Tunnel
 | Description = underground
-| Length = 510
+| Difficulty  = medium
+| Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=A Path in the Clouds
-| Description = overground, but with lots of air, lots of tile-abuse, needs a special tileset
-| Length = 525
+| Name        = A Path in the Clouds
+| Description = Overground, but with lots of air. Lots of tile-abuse, needs a special tileset. Also, the first half is easy while the tunnel requires some jumps that are hard to do with Bigtux.
+| Difficulty  = medium
+| Length      = 525
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = A Mysterious House of Ice
