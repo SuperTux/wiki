@@ -11,7 +11,9 @@
      | {{{Description}}}
      | ''No description available.''
    }}<!--
--->{{#if: {{{Difficulty|}}} | <br />Difficulty:&nbsp;{{Difficulty | {{{Difficulty}}} }} }}
+-->{{#if: {{{Difficulty|}}}
+     | <div style="font-size: small; margin-top: 1em;">Difficulty:&nbsp;{{Difficulty | {{{Difficulty}}} }}</div>
+   }}
 | {{#if: {{{Contributor|}}} | {{{Contributor}}} | [[Team|''SuperTux'' team]] }}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
 
 == Usage ==
