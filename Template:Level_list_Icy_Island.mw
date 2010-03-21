@@ -159,11 +159,12 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=The Escape
+| Name        = The Escape
 | Description = overground, but with a backplane of ice
-| Length = 515
+| Difficulty  = easy
+| Length      = 515
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = The Shattered Bridge
