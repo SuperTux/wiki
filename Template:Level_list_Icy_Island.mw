@@ -54,46 +54,52 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=Stone Cold
+| Name        = Stone Cold
 | Description = overground, ends in a cave, quite a few holes
-| Length = 520
+| Difficulty  = hard
+| Length      = 520
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Grumbel's Sense of Snow
+| Name        = Grumbel's Sense of Snow
 | Description = overground, mostly holow, lots of wood, little snow/ice
-| Length = 525
+| Difficulty  = medium
+| Length      = 525
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=23rd Airborne
+| Name        = 23rd Airborne
 | Description = overground, some air
-| Length = 515
+| Difficulty  = hard
+| Length      = 515
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Night Chill
+| Name        = Night Chill
 | Description = night, lots of air
-| Length = 515
+| Difficulty  = medium
+| Length      = 515
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Into the Stars
+| Name        = Into the Stars
 | Description = overground, lots of air, night
-| Length = 520
+| Difficulty  = medium
+| Length      = 520
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Above the Arctic Skies
+| Name        = Above the Arctic Skies
 | Description = overground, sky themed
-| Length = 290
+| Difficulty  = easy
+| Length      = 290
 | Contributor = Ricardo Cruz
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = Entrance to the Cave
