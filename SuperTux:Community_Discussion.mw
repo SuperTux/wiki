@@ -1,24 +1,24 @@
 <blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page.'' </blockquote>
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
 [[Image:RATEDFUN.png]]
-==Iceflower?  What iceflower?==
+=Iceflower?  What iceflower?=
 Hey, I read about something called the "iceflower" and I thought it sounded pretty awesome.  I have not found it implemented anywhere in SuperTux 0.3.1 and I was wondering, is it just an idea that has been going around or is my version of SuperTux just old? --[[User:MegaTux|MegaTux]] 00:00, 21 March 2010 (UTC)
 
 I got SuperTux from the Ubuntu Karmic Koala software center under the title SuperTux 2.  It was the latest version listed.  If there is an iceflower, and it is in a newer version of SuperTux, could somebody please ask the Ubuntu packager to upload a more recent version? \I found ice flower and ice cap graphics in game code, but it isn't implented in the game.
 
-==Tux.getCoins or whatever==
+=Tux.getCoins or whatever=
 I searched the scripting reference and i cannot find a method to get the amount of coins wich the player owns. also, if possible, the currenst state of tux (fire , small or ice).
 :True, there is currently no way to get either of those. (though you can add bonuses and coins) What would you use the information for? --[[User:Mathnerd314|Mathnerd314]] 00:21, 25 August 2009 (UTC)
 ::That is sad. I would like to implement a shop or something like that.
 :::To make a shop work, you'd have to implement even more stuff to use with scripting, why not start with a function to get Tux's abount of cash?
 ::::Just want it to be on a single level. And btw i was originally asked for something  to get Tux's abount of cash(already).
-==Help! (On the level Kneep Deep in the Depth)==
+=Help! (On the level Kneep Deep in the Depth)=
 Can anyone give a solution to the dilemna of the rising lava and finding the secret "ride" on it? Yes, I have spent many hours (3-4) on it to no avail. Please help!!!
 :Tux needs to run up very quickly once he has pushed the switch. (It helps to have destroyed all the enemies with the fireflower on the way down). All I'll say is to go up as high as you can go. (You should reach just below where you came in.) What happens after that should be self-explanatory.
 
-==How to draw Supertux or Badguys==
+=How to draw Supertux or Badguys=
 With wich programs were the Figures drawed ? Could anyone write a Tutorial how to draw Supertux or badguys probaply with the GIMP ?
-==Psychological Effects==
+=Psychological Effects=
 Hi! I often get angry because when I play a level and die, I have to begin (nearly) from the start. I think it would be better to place more bells in the levels. I think so you might get more players... What do you think about placing more bells in the levels? In return we should arise the number of coins, which are detached if tux dies. 
 
 '''Bob:'''
@@ -29,7 +29,7 @@ Personally, I appreciate Supertux's current difficulty.  To be more exact, I lov
 
 '''Nummer9 / Marjin:''' I'm not the original poster, but I think it's worth reminding people games are supposed to be *fun*, and that a difficulty level that is fun for one person is frustrating to another. Good game design accommodates both. If you look at Mario Brothers, generally speaking there is a relatively easy way through each level, and then there are harder, but not compulsory sections for more advanced players that reveal secrets. This way everyone is *challenged* (creating fun) without hitting impassable barriers (=not fun!). Right now the difficulty level in *most* of SuperTux allows for both. There are a few parts pretty early on though, that force new players into overly difficult "one mistake and you instantly die" situations. "Entrance to the Cave" is a classic example of this. Large sections of fiddly, fall-to-your-death-instantly areas, that make repeat large sections from the level beginning every single time. Even just putting a save point just before the parts people die at repeatedly (like just before the icicles drop in this case) would make the game more fun. Even when you can do a part of a level, doing it repeatedly, over and over to get to where you're dying each time just gets boring. I say this as someone who's been playing videogames since they were first invented (yes, I remember Space Invaders being released) and as an ex beta tester in a commercial games house. By now I like to think that I'm a decent gamer and should be able to get through most reasonable levels easily enough. Most of Supertux's levels are well laid out and fun. There are *some* areas though that have *design flaws* making them overly difficult. The only way to improve this is to listen to users and fix the flaws. This isn't even necessarily making the game easier. Just less repetitious. </rant> OK, I'm off to have another go at compiling the Supertux level editor (and to long for the day it's available in Ubuntu's repositories). Peace all.
 
-==End of Earth Series==
+=End of Earth Series=
 Hi, I was able to achieve the 1st and 4th key, but I can't find a way to find the other keys, or even a way past the "Under Construction" map!  Has this not been finished yet?  Thanks for helping --Bob
 
 You need to get the third key in the Forest World, those levels are shown as keys on the map.
@@ -37,29 +37,29 @@ Then in the "Under Construction" level, the stomp with key on it will open and r
 
 And actually, if you look at what "Under Construction" means, you might see that it's hinted that it's not quite finished. --[[User:Julius Freezer|Julius_Freezer]] 04:00, 25 June 2009 (UTC)
 
-==Website update?==
+=Website update?=
 
 I've built supertux from svn and saw all the great updates you guys have done. Don't you believe it's about time to let the world know a bit about it? Just like, let's say, a little piece of news with one or two screenshots on the front page, telling "we're not dead". Because I really thought supertux was a dying project, before managing to compile svn version.
 --[[User:PolyPrograms|polyprograms]] 17:15, 4 Sep 2006 (BST)
 
 (note: sorry, I had to break links to be able to edit)
 
-==Speed issue==
+=Speed issue=
 Hello. My SuperTux 0.1 is good, but my SuperTux 0.3 is slow. How I make to increase the speed of the game supertux? Thank you
 :Make sure your computer got hardware acceleration for OpenGL. How to check for that depends on what operating system you use (Linux, Windows, Mac OS X, and so on). On Linux you run the command "glxinfo | grep -i direct" (without quotes), in a terminal. It should return something like "direct rendering: Yes", the important part being the "yes". On Windows I don't know, maybe someone else can help you. If you don't have hardware acceleration for OpenGL you won't be able to use SuperTux 0.3. --[[User:AnMaster|AnMaster]] 18:48, 14 September 2007 (UTC)
 
-==Level 24==
+=Level 24=
 Hey I just recently found your game and am stuck at level 24... I guess that there have to be blocks behind the water texture but I have no idea on how to figure where are these... and I doubt it just comes to luck there. What am I missing? mfg DJGummikuh
 :Just look closely and you will see there are single blocks to step on. You might want to ask on the [http://supertux.info/forums/ fansite forums] next time you need help, you'll get more responses there. --[[User:FlyingPenguins|FlyingPenguins]] 22:35, 29 Jul 2006 (BST)
 
-==Wiki external links==
+=Wiki external links=
 This is just a note: I have realised that on the wiki, whenever an anon or normal user edits a page with external links on it, it will be without the <nowiki>"http: </nowiki><nowiki>//"</nowiki> part, essentially breaking the link. This can be troublesome for a page with lots of links on it. Sysops will then have to fill back the links.
 
 Also, just a suggestion, maybe it would be a good idea to upgrade this version of MediaWiki, to prevent any security vulnerabilities. --[[User:FlyingPenguins|FlyingPenguins]] 22:47, 29 Jul 2006 (BST)
 
 I would upgrade if the MySQL version of wasn't too old. This have been discussed in #supertux and there is [http://developer.berlios.de/support/index.php?func=detailsupport&support_id=102138&group_id=1 a berlios bug] for it. Also [http ://developer.berlios.de/bugs/?func=detailbug&bug_id=8012&group_id=1 this bug about php not available on shell.berlios.de] blocks the update. --[[User:AnMaster|AnMaster]] 00:21, 30 Jul 2006 (BST)
 
-==Supertux being sold?!==
+=Supertux being sold?!=
 Has anybody else noticed that SuperTux is being sold at ClickGamer? The porters site is located here; www.oldray.net. Seems to also have made a one level demo available. While I know that the GPL permits this, I can't stand people it. I was planning to create a Pocket PC port before I found this. We should be able to get the source from this shouldn't we?
 :You can download a Pocket PC Binary there. They call it a demo. Anyway, its a binary based on our GPL Code. As fas as I understand the GPL they have to give the source to everyone who has a Binary. --[[User:62.214.230.124|62.214.230.124]] 15:03, 2 Aug 2006 (BST)
 :Is it possible to build the binary with the source included in the demo's .zip file?
@@ -89,7 +89,7 @@ To answer a few questions from above:
 If you have questions, get hold of me on irc.freenode.net -- [[User:RichiH|RichiH]] 23:10, 25 Sep 2006 (BST)
 Anyone willing to buy this up and distribute it for free?
 
-==supertux copy==
+=supertux copy=
 
 I found superburgerworld on source forge and all it is is supertux w/ a few titles and images changed!
 : Mind giving us a link? Also, did you look for copied code?--[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 02:43, 28 Sep 2006 (CEST)
@@ -106,7 +106,7 @@ Hi, I'm the guy who makes Super Burger World, I really don't mean to take any cr
 Hi, I'm the Super Burger World "developer", I just wanted to let you know that I signed up for an account here so in future there is an easy way of contacting me with regards to anything Super Burger World related. Just visit my talk page and write away.
 --[[User:Matt Whitehorn|Matt Whitehorn]] 03:18, 10 Jan 2007 (CET)
 
-== Another SuperTux Copy? ==
+= Another SuperTux Copy? =
 
 There may be another copy, Fuzzyland Adventures. He (magnuslundsted) seems to deny forking the code of SuperTux, but does (at least) use sound and graphics from SuperTux without credit. This might actually be a fork of Milestone 1? Is found at sourceforge.net/projects/fuzzyadventure/
 
@@ -114,7 +114,7 @@ There may be another copy, Fuzzyland Adventures. He (magnuslundsted) seems to de
 
 :: Magnus has repeatedly been on the SuperTux IRC channel, presenting alpha builds of what was then called "Wasteland". Moreover, it is written in Java - unlike SuperTux, which is in C/C++, so I am 100% sure it's no ripoff, even featuring some nice concepts of its own. According to what he told us on IRC, though, the font is the same as the one SuperTux uses, hence the confusion. --[[User:195.158.180.33|195.158.180.33]] 21:50, 1 Nov 2006 (CET)
 
-==SuperTux graphics for other projects==
+=SuperTux graphics for other projects=
 
 Hi, I'm making a game whose only relation to SuperTux is that it features a penguin. Now, I'm not an artist, so I wondered if I could use the main SuperTux graphic, with modifications (like a collander for a helmet!) in my game. The game itself will be available online, it's a small HTML/CSS/JavaScript thing involving a penguin being fired out of a cannon (think like Fling The Cow, as was)
 
@@ -132,7 +132,7 @@ Peter Spicer
 :Read the licence. If you use anything from supertux, the result will be GPLed.
 
 
-==A Glitch==
+=A Glitch=
 I had 0 lives, died, and quickly aborted the level, and survived with -1 lives.
 : I'll have to substract one point from your overall score for only re-reporting the second bug on the [[Bugs]] page. Try to get the first one next time... --[[User:84.146.251.243|84.146.251.243]] 13:54, 29 Oct 2006 (CET)
 : Sorry about that.
@@ -141,7 +141,7 @@ I had 0 lives, died, and quickly aborted the level, and survived with -1 lives.
 Yes, I have seen the superburger world on sourceforge. when all of you start arguing about it, its a disgrace supertux is OPEN SOURCE, meaning you can edit the source as you please then sell it if you want i suppose, but not call it original work. super burger world said that it was based off supertux. they aren't going to give you the source code, basic editor, and SVN access if its NOT open source. SO just stop arguing. as long as a "copy of supertux" gives credit to supertux, then its fine!
 : Oh, maaan... Here we go again... First off, this is NOT the place for something like that! Look UP. Second off, we already worked out a compromise. It's even on our Wikipedia article. It's a month old already, so get OVER it. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]] 15:34, 5 Nov 2006 (CET)
 
-== Vista ==
+= Vista =
 
 I've just installed Supertux on Vista (final) and it runs like...well...slow as ice.:) What could be the reason? I installed the latest Nvidia drivers which did not help at all. BTW, before you go crazy on me, I am only testing Vista for my pleasure. --[[User:84.255.241.61|84.255.241.61]] 15:19, 6 Jan 2007 (CET)
 
@@ -154,7 +154,7 @@ https://slashdot.org/articles/05/08/06/177251.shtml  Windows Vista May Degrade O
 ----
 I have Vista Ultimate x64 & x86, Nvidia Forceware 158.24 , supertux 0.1.3, 0.3.0 and svn works idealy. Is what you version of drivers? This Machine is not old, because Nvidia drivers intall only on GeForce 6100 or better...
 
-== FRAUD!!! ==
+= FRAUD!!! =
 
 I've found a game on sourceforge.net called Super Michael (sourceforge.net/projects/michaels-land/), which is exactly the same as supertux 0.1.3, except for the name, story and version number (1.1.3 instead of 0.1.3), and Michael Gravestone (the "developer") takes full credit!!! He even claims that it's his "original idea"!
 :Looks like a massive joe job against Ultra-Software. Or can you be that stupid?
@@ -187,14 +187,14 @@ Horray!  Looks like I got him to stop.  He sent me this email back:
 
 ...Hopefully that's the last of him.  -- Chris Webber (paroneayea)
 
-== How to Remove SuperTux? ==
+= How to Remove SuperTux? =
 
 I installed SuperTux on my Ubuntu 7.04 system using the command: sudo apt-get install supertux
 
 How do I remove or uninstall SuperTux, please?
  sudo apt-get remove supertux
 ::Or use synaptic. The effect is the same but thats the Win^wUbuntu way of doing it. Why read documentation for your operating system? You just typed a command because somebody on the internet told you to? 
-==How to delete saves==
+=How to delete saves=
 
 I need to delete all the save files for
 SuperTux. A search for "supertux" reveals several folders and files, none of which seem to be related to save files.
@@ -206,7 +206,7 @@ I have Ubuntu 7.04.
 ::Since SuperTux works the same for all distros, these instructions apply for Ubuntu. Or, you could remove it *completely* (via Synaptic), which deletes config files as well. --[[User:Djwings|DJ Wings]][[User_talk:Djwings|<sub>Freesyle here</sub>]]: N0 PH33R 18:22, 12 July 2007 (UTC)
 :::No, it does not. Data files in the user's home directory are not removed when deleting the application. You won't lose all your documents when removing latex. <nowiki>--~~~~</nowiki>
 
-==OpenAL32.dll error on Windows Vista==
+=OpenAL32.dll error on Windows Vista=
 If you're running [http://sourceforge.net/project/showfiles.php?group_id=69183&package_id=68044&release_id=476295 SuperTux 0.3.0] on Vista then you may have gotten this error:
 
  The entrance point of procedure alcGetString is untraceable in the dynamic-link library OpenAL32.dll
@@ -304,7 +304,7 @@ Response:
 Please note that the 0.3.x series are development releases - don't expect everything to work smoothly or be complete; some of the above are direct consequences of that. --[[User:Mathnerd314|Mathnerd314]] 03:00, 5 August 2008 (UTC)
 
 <br>
-==Supertux sprites seen elsewhere==
+=Supertux sprites seen elsewhere=
 I recently saw the snowball sprite for Supertux as the icon for the Facebook application called "Snowball Fight." I thought that was kind of cool. [[User:Cooljeanius|Cooljeanius]] 21:13, 1 December 2008 (UTC)
 :Interesting. Where can I get the sourcecode?
 
@@ -321,24 +321,24 @@ i think supertux is SOO cool
 = Add-ons on Ubuntu =
 I am running Ubuntu Karmic Koala, and the add-on feature is telling me that it is disabled.  From what I understand, if you build the source you can enable the feature by installing libcurl3.  I do not want to build the source code myself, as with previous experience I have normally destroyed my computer.
 
-I was wondering if and when the package guy will build SuperTux with libcurl3 and add it as a dependency so that other users and I can install add-ons and stuff.
+I was wondering if and when the package guy will build SuperTux with libcurl3 and add it as a dependency so that other users and I can install add-ons and stuff. ~~----
 
 = No More Mr. Ice Guy Level Difficulty =
-== Current situation ==
+= Current situation =
 Lives: 9
 
 Part 1: First 4 lives icicles drop where Tux is.
 
 Part 2: Last 5 lives all icicles fall in a pattern.
 
-== Vote ==
+= Vote =
 Make it:
-=== Easier ===
+== Easier ==
 adamorjames,
 Auria,
 Tux,
 octo
-=== Same ===
+== Same ==
 Forty-Two
-=== Harder ===
+== Harder ==
 Mathnerd314
