@@ -13,31 +13,37 @@ If a level passes those tests, it may be added to the ''Incubator Island'' for g
 | Name=A snowy hill
 | Description=Please give feedback in {{Bug|605}}.
 | Contributor=Wolfs
+| Length = 250
 }}
 {{Level list entry
 | Name=Cave Run
 | Description=Please give feedback in {{Bug|606}}.
 | Contributor=Stuart Rynn
+| Length = 300
 }}
 {{Level list entry
 | Name=Crystal Cataclysm
 | Description=Map using the new ''Night Cave'' tileset. Please give feedback in {{Bug|594}}.
 | Contributor=lazure
+| Length = 550
 }}
 {{Level list entry
 | Name=Mad Ysonn Cube Garden
 | Description=Please give feedback in {{Bug|609}}.
 | Contributor=[[User:Octo|octo]]
+| Length = 300
 }}
 {{Level list entry
 | Name=My Penny is over the ocean
 | Description=Please give feedback in {{Bug|607}}.
 | Contributor=Wolfs
+| Length = 341
 }}
 {{Level list entry
 | Name=The not so long way
 | Description=Please give feedback in {{Bug|608}}.
 | Contributor=Wolfs
+| Length = 292
 }}
 {{Level list end}}
 
