@@ -16,7 +16,7 @@
     | ''unknown''
   }}
 | {{#if: {{{Length|}}}
-    | {{Level length | {{{Length}}} }}
+    | {{Level length | 1={{{Length}}} }} <!-- hack: only strings to named arguments are trimmed (leading and trailing whitespace is removed. -->
     | ''unknown''
   }}
 | {{#if: {{{Contributor|}}} | {{{Contributor}}} | [[Team|''SuperTux'' team]] }}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
