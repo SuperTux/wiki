@@ -6,134 +6,160 @@
 | Name        = Welcome to Antarctica
 | Description = Overground, almost no holes
 | Difficulty  = easy
+| Length      = 310
 | Screenshot  = Screenshot Billboard Fireflower.png
 | Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name=The Journey Begins
 | Description = overground, a few holes covered by wood-bridges/pieces 
+| Length = 300
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Via Nostalgica
 | Description = overground, almost no holes
+| Length = 390
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Tobgle Road
 | Description = overground, almost no holes, a few areas where the player can walk above or below, many wood pieces
+| Length = 270
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=The Somewhat Smaller Bath
 | Contributor=Philippe Saint-Pierre
 | Description = overground
+| Length = 355
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=The Frosted Fields
 | Description = overground, some pipes, many spike enemies, some holes
+| Length = 510
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Oh no! More Snowballs!
 | Contributor=Voluptuous Pachyderm
 | Description = overground, plenty of holes, crappy looking labyrinth at the end, some copy&paste tile patterns
+| Length = 525
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Stone Cold
 | Description = overground, ends in a cave, quite a few holes
+| Length = 520
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Grumbel's Sense of Snow
 | Description = overground, mostly holow, lots of wood, little snow/ice
+| Length = 525
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=23rd Airborne
 | Description = overground, some air
+| Length = 515
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Night Chill
 | Description = night, lots of air
+| Length = 515
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Into the Stars
 | Description = overground, lots of air, night
+| Length = 520
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Above the Arctic Skies
 | Description = overground, sky themed
+| Length = 290
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Entrance to the Cave
 | Description = starts overground, ends in a cave setting
+| Length = 510
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Under the Ice
 | Description = underground
+| Length = 510
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Living in a Fridge
 | Description = underground
+| Length = 510
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name='...or is it just me?'
 | Description = underground
+| Length = 515
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Ice in the Hole
 | Description = underground
+| Length = 500
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Miyamoto Monument
 | Description = underground
+| Length = 505
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=End of the Tunnel
 | Description = underground
+| Length = 510
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=A Path in the Clouds
 | Description = overground, but with lots of air, lots of tile-abuse, needs a special tileset
+| Length = 525
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=A Mysterious House of Ice
 | Description = overground, but with a backplane of ice
+| Length = 260
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=The Escape
 | Description = overground, but with a backplane of ice
+| Length = 515
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=The Shattered Bridge
 | Description = overworld, bridge/water setting
+| Length = 525
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=Arctic Ruins
 | Description = overworld, bridge/water setting, contains blocks under water which are hard to see -> remove water completely
+| Length = 500
 | Display={{{Display}}}
 }}
 {{Level list entry
 | Name=The Castle of Nolok
 | Description = castle theme
+| Length = 525
 | Display={{{Display}}}
 }}
 <!-- {{Level list entry | Name=No More Mr Ice Guy }} -->
