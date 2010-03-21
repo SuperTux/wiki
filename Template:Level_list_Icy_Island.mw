@@ -173,11 +173,12 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=Arctic Ruins
-| Description = overworld, bridge/water setting, contains blocks under water which are hard to see -> remove water completely
-| Length = 500
+| Name        = Arctic Ruins
+| Description = overworld, bridge/water setting, contains blocks under water which are hard to see → remove water completely
+| Difficulty  = hard
+| Length      = 500
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = The Castle of Nolok
