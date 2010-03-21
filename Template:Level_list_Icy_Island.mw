@@ -152,11 +152,12 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=A Mysterious House of Ice
+| Name        = A Mysterious House of Ice
 | Description = Overground, but with a backplane of ice. In [[Milestone 1]] this level was named ''No More Mr Ice Guy''.
-| Length = 260
+| Difficulty  = medium
+| Length      = 260
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = The Escape
