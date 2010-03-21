@@ -96,39 +96,44 @@
 | Display={{{Display}}}
 }}
 {{Level list entry
-| Name=Entrance to the Cave
+| Name        = Entrance to the Cave
 | Description = starts overground, ends in a cave setting
-| Length = 510
+| Difficulty  = hard
+| Length      = 510
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Under the Ice
+| Name        = Under the Ice
 | Description = underground
-| Length = 510
+| Difficulty  = easy
+| Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Living in a Fridge
+| Name        = Living in a Fridge
 | Description = underground
-| Length = 510
+| Difficulty  = medium
+| Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name='...or is it just me?'
+| Name        = '...or is it just me?'
 | Description = underground
-| Length = 515
+| Difficulty  = medium
+| Length      = 515
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
-| Name=Ice in the Hole
+| Name        = Ice in the Hole
 | Description = underground
-| Length = 500
+| Difficulty  = hard
+| Length      = 500
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display={{{Display}}}
+| Display     = {{{Display}}}
 }}
 {{Level list entry
 | Name        = Miyamoto Monument
