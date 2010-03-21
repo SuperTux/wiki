@@ -6,7 +6,7 @@
         | ''Not available''<br /><small>[[Media:{{{Name}}}.png|(Add&nbsp;…)]]</small>
     }}
   }}
-| style="vertical-align: top;" | '''{{{Name}}}'''<br /><!--
+| '''{{{Name}}}'''<br /><!--
 -->{{#if: {{{Description|}}}
      | {{{Description}}}
      | ''No description available.''
