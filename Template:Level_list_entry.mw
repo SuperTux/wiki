@@ -6,7 +6,7 @@
         | ''Not available''<br /><small>[[Media:{{{Name}}}.png|(Add&nbsp;…)]]</small>
     }}
   }}
-| {{{Name}}}
+| style="vertical-align: top;" | '''{{{Name}}}'''<br /> {{#if: {{{Description|}}} | {{{Description}}} | ''No description available.'' }}
 | {{#if: {{{Contributor|}}} | {{{Contributor}}} | [[Team|''SuperTux'' team]] }}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
 
 == Usage ==
