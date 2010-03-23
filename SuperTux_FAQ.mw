@@ -17,7 +17,7 @@ sketchy right now.
 Most information on these Wiki pages is about what's new in SuperTux 0.3. Just browse around, and feel free to add your own ideas. :-)
 
 === How do I use SDL in the development version? ===
-OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. The command line option <code>--renderer sdl</code> will use the SDL renderer. Note that this is usually slower and does not display some images/levels correctly.
+OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. The command line option <code>--renderer&nbsp;sdl</code> will use the SDL renderer. Note that this is usually slower and does not display some images/levels correctly.
 
 === How do you get to or past level x? ===
 Please see [[SuperTux FAQ/Spoilers]].
