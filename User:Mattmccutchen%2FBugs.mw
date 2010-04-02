@@ -1,6 +1,6 @@
 This is a list of potential bugs in SuperTux that I have noticed but have not taken the time to properly report.  I'm publishing it here for the sake of open development.  Others are welcome to add comments.  These descriptions are intentionally terse (that's the purpose of this page compared to the bug tracker); if you are not sure what I mean, please ask.
 
-See also the patches at https://mattmccutchen.net/private/supertux.git/ .
+See also the patches in the "for-upstream" branch of https://mattmccutchen.net/private/supertux.git/ , if any.
 
 * 2009-12-28: Coins in 1-tile gaps are collected inconsistently in Boney.M Mega Mix.  Maybe another issue with floating point error vs. x coordinate?
 
