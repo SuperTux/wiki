@@ -95,3 +95,5 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 * 2010-04-02: The player should not squish badguys while the safe_timer is running.  That would improve the balance of the game.
 
 * 2010-04-02: The silent period at the beginning of data/music/invincible.ogg is a hack that shows up if the user pauses while invincible (so the music loops), goes through a door (so the music restarts; example in "Crumbling Path"), or even runs "invincible()" in the console.  Remove the silent period, and instead don't start data/music/invincible.ogg until after data/sounds/invincible_start.ogg is finished.
+
+* 2010-04-02: Allowing buttjump to break boxes and activate bonus blocks makes some parts of levels ''way'' too easy.  E.g., the fish puzzle in "Area 42" is trivialized.
