@@ -83,3 +83,15 @@ See also the patches at https://mattmccutchen.net/private/supertux.git/ .
 * 2010-03-16: Bug tracker: There should be a "View Revisions" for deleted notes too, at least for administrators.
 
 * 2010-03-17: Global coin counter is no longer meaningful ({{Bugnote|591|1772}})
+
+* 2010-04-01: When a sliding ice block slows down and then starts walking, it remains vertically lower than a walking ice block should be.
+
+* 2010-04-01: "Down the Rabbit Hole": Snowshots don't belong in the forest world.  Why not restore the rockets?  The implementation was just fine.
+
+* 2010-04-01: "Down the Rabbit Hole": Cannon gets deactivated.  Avoid that somehow.  A decent heuristic would be to keep a dispenser active as long as any of the badguys it produced is active.
+
+* 2010-04-01: It's confusing if an ice block sliding on a long floor gets deactivated and doesn't bounce back by itself.  To avoid this, deactivate an ice block only if its latest bounce x-interval is far from the screen.
+
+* 2010-04-02: The player should not squish badguys while the safe_timer is running.  That would improve the balance of the game.
+
+* 2010-04-02: The silent period at the beginning of data/music/invincible.ogg is a hack that shows up if the user pauses while invincible (so the music loops), goes through a door (so the music restarts; example in "Crumbling Path"), or even runs "invincible()" in the console.  Remove the silent period, and instead don't start data/music/invincible.ogg until after data/sounds/invincible_start.ogg is finished.
