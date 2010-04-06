@@ -1181,3 +1181,49 @@ Not just getting thrown off from screen...
 * Snowball that spins and throws off bits of snow at you
 * Dragon boss that flies around top of the room, spitting fire
 * Snow bomb could be rolled around and would explode on contact with enemies
+
+== Some cool ideas ==
+
+BouncingGlassball:
+Kind of like the BouncingSnowball but it bounces 3 tiles higher and is for the forest world.
+
+Vinehat:
+Just like the Icehat except it fires vines so it works for the forest world.
+
+SpikeyBoss:
+A big version of the stay-on-platform spikey bad-guys(64x64). When he reaches an edge of the platform, 
+he pauses, soots a ball that blows up on contact, and repeats on the other side. You guys decide how to kill.
+
+SpikeheadSnbowball:
+Exactly like the Snowball, but after a configurable amount of spaces it jumps and lands 5 spaces foreward on it's spike. After a moment, it jumps back up and repeats.
+
+WaterHeater:
+Like Lightning except you can tell when you need to get out of the water because you slowly turn red.
+
+TileChanger:
+Changes everything in the level into SnowTiles(if Snowcone), GrassTiles(if Leaf), and CastleTiles(if Stone).
+
+FrozenWater/Iced-water:
+Just a frozen version of water where Tux skids 6 tiles when turning around after running.
+
+Lightnincloud: Looks like the normal cloud except gray. Every 7 time measurements, it blasts lightning down at Tux. Every 3rd blast is slower.
+
+DesertTiles:
+Like Grass and Snow tiles, except with only the flat, and sloped parts for Desert.
+
+QuickSand:
+A pre-programmed beam to sector ”UNDERGROUND”.
+Ape:
+An Ape that is stay-on-platform. When big Tux touches it, the Ape would squeeze Tux to hurt him. When smallTux, the Ape would throw Tux.
+
+OceanTileset:
+contains;     Ship tiles(big and small) and all water tiles.
+
+Right/Left-jump-Fish:
+A fish that jumps up to 7 tiles right or left.
+
+Shark:
+Just a huge version of the original fish made to look like a shark.
+
+Waterflow:
+a foaming right/left edge of the water so you can make it so the water looks like  blockade in the river was removed.
