@@ -1206,8 +1206,8 @@ Changes everything in the level into SnowTiles(if Snowcone), GrassTiles(if Leaf)
 '''FrozenWater/Iced-water''':
 Just a frozen version of water where Tux skids 6 tiles when turning around after running.
 '''
-Lightnincloud''': Looks like the normal cloud except gray. Every 7 time measurements, it blasts lightning down at Tux. Every 3rd blast is slower.
-'''
+'''Lightnincloud''': Looks like the normal cloud except gray. Every 7 time measurements, it blasts lightning down at Tux. Every 3rd blast is slower.
+
 DesertTiles''':
 Like Grass and Snow tiles, except with only the flat, and sloped parts for Desert.
 '''
