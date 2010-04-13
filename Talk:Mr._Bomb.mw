@@ -16,6 +16,7 @@ Please cast your vote by adding to the following table:
  !AnMaster
  !Julius_Freezer
  !Wolfs
+ !Quispiam
  |-
  !shot
  |explosion
@@ -26,6 +27,7 @@ Please cast your vote by adding to the following table:
  |explosion
  |ineffective
  |ineffective
+ |explosion
  |explosion
  |explosion
  |explosion
@@ -42,6 +44,7 @@ Please cast your vote by adding to the following table:
  |fall
  |explosion
  |fall
+ |ticking bomb
  |-
  !kicked badguy
  |fall
@@ -55,8 +58,10 @@ Please cast your vote by adding to the following table:
  |fall
  |no opinion
  |explosion
+ |explosion
  |-
  !squish
+ |ticking bomb
  |ticking bomb
  |ticking bomb
  |ticking bomb
@@ -80,6 +85,7 @@ Please cast your vote by adding to the following table:
  |ticking bomb
  |fall
  |ticking bomb, or fall
+ |ticking bomb
  |ticking bomb
  |}
 
