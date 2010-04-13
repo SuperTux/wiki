@@ -1210,10 +1210,10 @@ Just a frozen version of water where Tux skids 6 tiles when turning around after
 '''
 '''Lightnincloud''': Looks like the normal cloud except gray. Every 7 time measurements, it blasts lightning down at Tux. Every 3rd blast is slower.
 
-DesertTiles''':
+'''DesertTiles''':
 Like Grass and Snow tiles, except with only the flat, and sloped parts for Desert.
-'''
-QuickSand''':
+
+'''QuickSand''':
 A pre-programmed beam to sector ”UNDERGROUND”.
 
 '''Ape''':
