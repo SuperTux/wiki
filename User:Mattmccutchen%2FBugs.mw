@@ -16,6 +16,7 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 * 2010-01-11: What is the aspect ratio control supposed to do?  Values other than "auto" produce a display ridiculously stretched horizontally.  I guess we want 2880:900.  But why, when the window is smaller???
 
 * 2010-01-21: Everything in the collision detection torture test
+** The horizontal crush in gaps of width between 16 and 24 can happen in the tree stump in "Under Construction".  Easy to reproduce in 0.3.1, harder in the trunk where the moving tilemaps carry Tux along ({{bug|269}} fixed).
 
 * 2010-01-21: Shrink tilemaps to size
 
@@ -82,6 +83,10 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 
 * 2010-03-16: Bug tracker: There should be a "View Revisions" for deleted notes too, at least for administrators.
 
+* 2010-03-16: CMakeLists.txt might as well use GLOB_RECURSE to specify the source files.
+
+* 2010-03-16: [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ The viewvc interface] says "No admin address has been configured".
+
 * 2010-03-17: Global coin counter is no longer meaningful ({{Bugnote|591|1772}})
 
 * 2010-04-01: When a sliding ice block slows down and then starts walking, it remains vertically lower than a walking ice block should be.
@@ -97,3 +102,13 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 * 2010-04-02: The silent period at the beginning of data/music/invincible.ogg is a hack that shows up if the user pauses while invincible (so the music loops), goes through a door (so the music restarts; example in "Crumbling Path"), or even runs "invincible()" in the console.  Remove the silent period, and instead don't start data/music/invincible.ogg until after data/sounds/invincible_start.ogg is finished.
 
 * 2010-04-02: Allowing buttjump to break boxes and activate bonus blocks makes some parts of levels ''way'' too easy.  E.g., the fish puzzle in "Area 42" is trivialized.
+
+* 2010-04-02: Falling ice blocks can nest, at the beginning of "End of the Tunnel".
+
+* 2010-04-13: Specifying a worldmap on the command line does not work: it incurs "Insecure filename" errors from PhysFS.
+
+* 2010-04-14: Review [http://cvs.fedoraproject.org/viewvc/rpms/supertux/devel/ Fedora's changes].
+** Use the system Squirrel
+** Desktop file
+
+* 2010-04-14: Fedora nipped the 2 from supertux2 until the latest build, and I actually liked that.  The original reason for the 2 was to have separate configuration from milestone 1 ({{revision|3968}}), but do we still care?  {{bug|535}} might help.
