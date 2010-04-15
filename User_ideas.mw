@@ -1219,7 +1219,7 @@ When added, QuickSand would beam Tux to a new sector called ”UNDERGROUND” th
 *'''Ape''':
 An Ape that is stay-on-platform. When big Tux touches it, the Ape would squeeze Tux to hurt him. When smallTux, the Ape would throw Tux.
 
-*'''OceanTileset'''''':
+*'''OceanTileset''':
 contains;     Ship tiles(big and small) and all water tiles.
 
 *'''Right/Left-jump-Fish''':
