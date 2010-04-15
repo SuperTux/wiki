@@ -87,8 +87,6 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 
 * 2010-03-16: [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ The viewvc interface] says "No admin address has been configured".
 
-* 2010-03-17: Global coin counter is no longer meaningful ({{Bugnote|591|1772}})
-
 * 2010-04-01: When a sliding ice block slows down and then starts walking, it remains vertically lower than a walking ice block should be.
 
 * 2010-04-01: "Down the Rabbit Hole": Snowshots don't belong in the forest world.  Why not restore the rockets?  The implementation was just fine.
