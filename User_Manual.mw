@@ -49,7 +49,7 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 |-
 | [[Image:Coin-0.png]] || Coin || '''SuperTux 0.1:''' Collect 100 coins to gain an extra life. '''SuperTux 0.3:''' Every time Tux dies, he will restart at the last firefly he activated.
 |-
-| [[Image:Egg.png]] || Egg || Makes Tux grow. He can then smash wooden boxes with his head.
+| [[Image:Egg.png]] || Egg || Makes Tux grow. He can then smash wooden boxes with his head and perform a somersault.
 |-
 | [[Image:Fire_flower-0.png]] || Fireflower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs.
 |-
