@@ -69,7 +69,7 @@ void Menu::get_controlfield_key_into_input(MenuItem *item);
 becomes
 void get_controlfield_key_into_input(MenuItem *item);
 
-This fix is currently in the 0.1.x branch, but there's not much reason to release a 0.1.4 for one typo.
+This fix is currently in the 0.1.x branch and [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-March/002941.html will be released in 0.1.4] as soon as someone can find the time to actually make the release.
 
 == I'm having sound problems on a system that uses PulseAudio ==
 There is a workaround for this problem. Edit the file ~/.alsoftrc (which may not exist) and add the line:
