@@ -79,5 +79,13 @@ There is a workaround for this problem. Edit the file ~/.alsoftrc (which may not
 
 If you have paid for SuperTux, you have been ripped off. Supertux is available for free download at [[Download|Download/Installation]]. An equivalent Live CD, to be downloaded free of charge, is available under [[Links]]. If you ''want'' to pay for SuperTux, you can make a donation, which would be highly appreciated, but we're not making you pay.
 
+== Where did the Forest levels go? ==
+
+Versions ''0.3.0'' and ''0.3.1'' contained the [[Forest|Forest world]]. In an attempt to get development up to speed after a period of idleness, the focus was narrowed. Development of the Forest world has been moved to [[Milestone 3]]. The ''0.3.*'' and eventually the ''0.4.*'' versions implement the [[Milestone 2 Design Document]], i.e. a game without the Forest world.
+
+The old Forest world is still included in the ''0.3.2'' version, but it's no longer part of the main game nor our current development focus. To access the Forest world, go to:
+:Contrib Levels → Forest World
+
 [[Category:For Users]]
 [[Category:FAQs]]
+__NEWSECTIONLINK__
