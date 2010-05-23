@@ -168,6 +168,7 @@ Yes, it does, but the setup is complex; you will have to do the following:
 * install Apple's X11
 * download and build Gtk and its dependencies (Glib, Pango, Cairo, Atk, Gdk and maybe more)
 * download and build Mono and GTK#
+* install glew and boost via Mac port
 * download and build the editor
 
 Since the Mono project doesn't pre-package Gtk# and its dependencies with the OS X installer, we are unable to provide a nice editor package. Additionally, we offer no official support, so no one might be able to help you on the mailing list if the editor crashes due to an OS X-specific problem.
