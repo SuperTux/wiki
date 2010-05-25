@@ -16,6 +16,7 @@ Install libraries from Macports:
  mkdir build
  cd build
  cmake ..
+ make
 
 ==Resolve issues with missing library==
  cd ..
