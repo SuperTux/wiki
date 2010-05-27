@@ -271,6 +271,9 @@ I also think that Tux should break boxes with the butt stomp, but it doesn't wor
 
 : The ice flower isn't finished yet; currently, it sets straw boxes on fire, too.
 
+=SuperTux New Bomb Coding=
+I'm having problumbs trying to load the new imige files for the bomb sprite on to my mac but when I go to a level with a bomb it says this:Warning: Parse error when trying to load sprite 'images/creatures/mr_bomb/mr_bomb.sprite': Parse Error at 'images/creatures/mr_bomb/mr_bomb.sprite' line 45 Unexpected EOF. Can someone help me?
+
 =A Couple Gameplay questions=
 
 Hello once more, I've noticed that quite unlike the previous Supertux's behaviour, Tux is able to bounce on a Bad-guy without bouncing back.  This will only happen when the jump key is not being held, and when it is not, this seems to happen randomly.  Any explanation for this behaviour?
