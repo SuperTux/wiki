@@ -103,3 +103,12 @@ Do I see a Windows binary of SuperTux 0.3.3 on Google Code? If not, what is it? 
 ::No Linux Autopackage? So Linux gamers are second class citizens now while M$ users get a ready made binary. :-( Supertux used to be a flagship of Linux gaming, not a reason to boot Windows.
 ::: There's a 0.3.3 package in [http://packages.debian.org/experimental/supertux Debian Experimental] and [http://packages.ubuntu.com/lucid/supertux Ubuntu Lucid]. If you want to contribute binary packages for other platforms, you're very welcome. The OpenSUSE build service might be a good place to build an own package. You should tune down your tone a notch, though: The ''SuperTux'' developers provide a source tarball. Any other (binary) form of ''SuperTux'' is the distributions' packager's business, not ours. If we do provide some package, this is an ''optional extra''. So if version 0.3.3 is missing for your favorite distribution, complain to the people behind that distribution, not us. --[[User:Octo|octo]] 22:41, 17 March 2010 (UTC)
 :::: I think this is not about any distribution specific package. The Supertux Developers used to provide a generic Linux binary via Autopackage for all the previous releases. I'd like to have that for 0.3.3, please. Building from source takes ages on my machine. Yeah, I know you do all that in your spare time and just because you created an Autopackage two years ago does not mean you have to release on again. But many Linux gamers would like to have one.  --[[Special:Contributions/85.214.71.145|85.214.71.145]] 21:13, 18 March 2010 (UTC)
+
+== Editor doesn't work on Ubuntu 10.04 ==
+
+Hey guys,
+
+I tried to download the 0.3.0 editor today, I used the Linux > Editor link but it didn't work. It just came up with gedit has not been able to detect the character encoding. Please check that you are not trying to open a binary file.
+Select a character encoding from the menu and try again. So, I tried changing it to Western and Current Locale UTF-8 but still, nothing. I got it working (sort of) on 9.10, but I couldn't create, edit or save levels. The editor was just a white box. When I inserted something, It didn't appear. When I pressed play the came up but they were just everywhere and if I tried saving a level, it just came up with an error. If anyone has any tips, I would be very grateful. Thanks.
+
+Tuxmaster257
