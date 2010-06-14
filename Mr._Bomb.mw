@@ -10,7 +10,7 @@
 | Burnable=yes
 | FirstVersion=0.1
 }}
-'''Mr. Bomb''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. When Tux or another badguy hits him, he stops and begins ticking. After a few seconds, he explodes, hurting all creatures within range. The presence of other Mr. Bombs during explosion may cause a chain reaction of explosions.
+'''Mr. Bomb''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. When Tux or another badguy hits him, he stops and begins ticking. After a few seconds, he explodes, hurting all creatures within range. The presence of other Mr. Bombs during explosion may cause a chain reaction of explosions. He also initiates ticking if he is hit by one of Tux's fireballs, but if hit by an iceball, he freezes without exploding.
 
 <div style="clear: both;"></div>
 
