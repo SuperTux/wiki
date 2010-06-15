@@ -1236,3 +1236,11 @@ a foaming right/left edge of the water so you can make it so the water looks lik
 == New Tile Ideas ==
 === New Air Tiles ===
 [[Image:New_air_tiles.PNG]]
+
+== Some badguys ==
+
+These are some rough sketches of badguy behaviors. They don't have to be snowballs, either.
+*'''Climbing snowball''': Snowball that can climb up walls and ceilings, not affected by gravity.
+*'''Ninja snowball''': Snowball that leaps at Tux if he is in range.
+*'''Rolling snowball''': Large snowball that rolls around, destroying other badguys and hurting Tux on contact. Think Indiana Jones...except frozen.
+[[User:Tuxnut|Tuxnut]] 00:23, 15 June 2010 (UTC)
