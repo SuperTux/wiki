@@ -368,3 +368,4 @@ I'm new here, I've been playing 0.3.1 from fedora repo (i guess), but there's ju
 
 = Music =
 Helloes, I have two MIDI songs that I would like to contribute to SuperTux. Unfortunately, their file type (.mid) is not allowed for upload on the wiki, and I'm not interested in joining a file-sharing service. Any suggestions? [[User:Tuxnut|Tuxnut]] 23:44, 14 June 2010 (UTC)
+:Compress them as .zip or .gz and upload them on the [{{Mediawiki:Bugtracker-url}} bug tracker] in a new bug under "Sound and Music." --[[User:Mathnerd314|Mathnerd314]] 00:16, 15 June 2010 (UTC)
