@@ -12,5 +12,7 @@
 }}
 '''Flames''' are [[badguys]] found in both [[worlds]] in ''SuperTux''. They move in fixed circles, hurting [[Tux]] and other badguys on contact (unless, of course, Tux is in invincibility mode.) Flames are immune to all attacks and cannot be destroyed in any way.
 
+It is possible to create a flame with a non-circular path using a hurting platform equipped with the flame sprite.
+
 {{Navbox Badguys}}
 [[Category:Badguy.1]]
