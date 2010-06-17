@@ -1,19 +1,17 @@
 {{Proposed}}
 
-'''Name:''' Mr Palm Tree
-
 [[Image:Coloredmrpalmtree.png]]
 
-'''Appearance:''' A tottering palm tree with many pairs of eyes.
-
-'''Behaviour:''' Walks around. Stays on platforms and turns if any segment touches a block. Found in Tropical Islands.
-
-'''Squishable:''' Yes, but only bottom segment is squished. Next segment then grows legs.
-
-'''Butt-Jumpable:''' No
-
-'''Freezable:''' Yes
-
-'''Burnable:''' No
+{{Infobox Badguy
+| Name=Mr Palm Tree
+| FoundIn=Nowhere Yet
+| Appearance= A tottering palm tree with many pairs of eyes.
+| Behaviour= Walks around. Stays on platforms and turns if any segment touches a block. Found in Tropical Islands.
+| Squish=yes (But only bottom segment is squished. Next segment then grows legs.)
+| Buttjump=no
+| Freeze=yes
+| Burnable=no
+| FirstVersion=0.3
+}}
 
 [[Category:ProposedBadguy]]
