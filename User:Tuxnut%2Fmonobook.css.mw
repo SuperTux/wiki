@@ -6,7 +6,3 @@
 .mw-plusminus-neg {
     color: #a00;
 }
-
-body {
-    background-image: -moz-linear-gradient(#0ff 0%, #fff 100%);
-}
