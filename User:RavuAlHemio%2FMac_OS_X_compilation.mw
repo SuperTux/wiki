@@ -162,4 +162,4 @@ dylibbundler -b -x ./SuperTux.app/Contents/MacOS/supertux -d ./SuperTux.app/Cont
 
 This will only work if you installed libs in /usr/local or another prefix (e.g. /opt/local for macports). If you put them in /usr they are undistinguishable from libraries installed by default on OS X so it's harder to package them, and dylibbundler won't be able to do it automatically.
 
-Done! Want to test to see if everything is linked properly? ''sudo mv /usr/local /usr/local-disabled'' (or any other prefix) will temporarly restore your mac in a near vanilla state for libraries. Then you can test the game, and of course run the opposite command after to put the folder back in its correct location. You can also test the resulting executable and libraries with ''otool -L''
+Done! Want to test to see if everything is linked properly? ''sudo mv /usr/local /usr/local-disabled'' (or any other suffix) will temporarly restore your mac in a near vanilla state for libraries. Then you can test the game, and of course run the opposite command after to put the folder back in its correct location. You can also test the resulting executable and libraries with ''otool -L''
