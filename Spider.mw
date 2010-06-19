@@ -7,11 +7,11 @@
 | Behaviour=Moves up and down.
 | Squish=yes
 | Buttjump=yes
-| Freeze=unknown
-| Burnable=unknown
+| Freeze=no
+| Burnable=yes
 | FirstVersion=0.4
 }}
-'''Spider''' is a [[badguy]] available in SVN. It is themed to appear in the [[Forest]] world but is not (widely) used yet.
+'''Spider''' is a [[badguy]] available in SVN. It is themed to appear in the [[Forest]] world but is not (widely) used yet. Its current behaviour is to move up and down, trying to hit [[Tux]]
 
 {{Navbox Badguys}}
 [[Category:Badguy.4]]
