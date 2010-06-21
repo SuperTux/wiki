@@ -1239,10 +1239,12 @@ a foaming right/left edge of the water so you can make it so the water looks lik
 === New Air Tiles ===
 [[Image:New_air_tiles.PNG]]
 
-== Some badguys ==
+== Some badguys and objects ==
 
-These are some rough sketches of badguy behaviors. They don't have to be snowballs, either.
+These are some rough sketches of badguy and object behaviors. They don't have to be snowballs, either.
 *'''Climbing snowball''': Snowball that can climb up walls and ceilings, not affected by gravity.
 *'''Ninja snowball''': Snowball that leaps at Tux if he is in range.
-*'''Rolling snowball''': Large snowball that rolls around, destroying other badguys and hurting Tux on contact. Think Indiana Jones...except frozen.
-[[User:Tuxnut|Tuxnut]] 00:23, 15 June 2010 (UTC)
+*'''Rolling snowball''': Large snowball that rolls around, destroying other badguys and hurting Tux on contact. Think Indiana Jones...except frozen. Could be a kind of boss level, although we've already got one for Icyisland :/
+*'''FreezeBall''': a kickable (but not portable) object that can be used to squish badguys. If the FreezeBall lands in a particular area (let's call it a goal) then a script is activated, possibly opening a door to a secret area...
+
+[[User:Tuxnut|Tuxnut]] 00:23, 15 June 2010 (UTC) - updated 17:26, 21 June 2010 (UTC)
