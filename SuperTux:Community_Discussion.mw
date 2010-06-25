@@ -381,3 +381,6 @@ Helloes, I have two MIDI songs that I would like to contribute to SuperTux. Unfo
 ::::::::I believe he is talking more about the test/experimental levels included in the SVN (Bouncy Coils and Crumbling Path, e.g.) than the user-submitted content. But that's enough of this semi-trivial discussion; this bickering (especially on my part) is not why I created this section. [[User:Tuxnut|TUX/√UT]] ([[User talk:Tuxnut|plz talk 2 me internets]] | [[Special:Contributions/Tuxnut|view horrendous deeds]]) 18:12, 22 June 2010 (UTC)
 
 :http://lmgtfy.com/?q=filehoster+without+signup
+
+= Frame Delay Time? =
+Hello, I'm new here, and I need to know the correct delay (in ms) between frames of a animation, as in a sprite. I've searched the source code, but there seems to be too much to sift through. Can anyone help me?
