@@ -385,3 +385,7 @@ Helloes, I have two MIDI songs that I would like to contribute to SuperTux. Unfo
 = Frame Delay Time? =
 Hello, I'm new here, and I need to know the correct delay (in ms) between frames of a animation, as in a sprite. I've searched the source code, but there seems to be too much to sift through. Can anyone help me? --[[User:1a2a3a2a1a|1a2a3a2a1a]]
 :Never mind, found it. (10 fps, or 100 ms) --[[User:1a2a3a2a1a|1a2a3a2a1a]]
+
+= Screen Res? =
+
+just installed SuperTux on my mac. the screen resolution is wrong, how can i change this?
