@@ -389,3 +389,4 @@ Hello, I'm new here, and I need to know the correct delay (in ms) between frames
 = Screen Res? =
 
 just installed SuperTux on my mac. the screen resolution is wrong, how can i change this?
+: Use <code>--geometry WIDTHxHEIGHT</code>, as <code>supertux2 --help</code> should show. --[[User:Mathnerd314|Mathnerd314]] 15:30, 14 July 2010 (UTC)
