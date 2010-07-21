@@ -12,8 +12,6 @@ This is from the source code, however there seems to be no code to handle displa
 
 = Settings =
 
-[http://www.essaywriters.net/ freelance writing]
-
 == Format ==
 The settings files are written in LISP ([[Wikipedia:LISP|Wikipedia about LISP]]). Variables get defined with the define command. Example:
 
