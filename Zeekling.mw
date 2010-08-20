@@ -14,7 +14,7 @@ __NOTOC__
 }}
 '''Zeekling''' is a [[badguy]] found in the [[Forest]]. It flies left and right in a straight path, usually near the top of the level. When [[Tux]] is below it, will dive down to hit him. Tux can avoid being hit by hiding underneath platform and other solid blocks.
 
-== Proposed behavior ==
+== Proposed behaviour ==
 
 {{Proposed}}
 
@@ -38,7 +38,7 @@ __NOTOC__
 * Flies at tops of levels unless Tux is below, then drops to try to catch him and take him to another area
 
 ==== Appearance ====
-* Bigger and different color than #1
+* Bigger and different colour than #1
 
 ==== Attack ====
 * Can drop you in bad places
@@ -48,7 +48,7 @@ __NOTOC__
 
 === Proposal 3 ===
 
-==== Behavior ====
+==== Behaviour ====
 * Flies in a straight path
 * Swoops down when it sees Tux
 
@@ -68,7 +68,7 @@ __NOTOC__
 
 === Proposal 4 ===
 
-=== Behavior ===
+=== Behaviour ===
 * Flies in a straight path
 
 === Appearance ===
@@ -76,8 +76,8 @@ __NOTOC__
 
 === Attack ===
 * Touches Tux
-* Shoots Fire, prehaps Firetux can't get hurt from fire?
+* Shoots Fire, perhaps Firetux can't get hurt from fire?
 
 ===Vulnerabilities===
 *can be jumped on
-*ice, elecricity
+*ice, electricity
