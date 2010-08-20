@@ -48,7 +48,7 @@ __NOTOC__
 
 === Proposal 3 ===
 
-==== Behaviour ====
+==== Behavior ====
 * Flies in a straight path
 * Swoops down when it sees Tux
 
@@ -65,3 +65,19 @@ __NOTOC__
 
 {{Navbox Badguys}}
 [[Category:Badguy.3]]
+
+=== Proposal 3 ===
+
+=== Behavior ===
+* Flies in a straight path
+
+=== Appearance ===
+* you guys are smart, and can probably make it look better than me
+
+=== Attack ===
+* Touches Tux
+* Shoots Fire, prehaps Firetux can't get hurt from fire?
+
+===Vulnerabilities===
+*can be jumped on
+*ice, elecricity
