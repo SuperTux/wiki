@@ -394,3 +394,7 @@ just installed SuperTux on my mac. the screen resolution is wrong, how can i cha
 == Cannot delete levels ==
 Hi, I have linux. I have recently been in the leveleditor and made some of my own levels. But, whenever I say 'don't save' to a level that I just made, it appears in the 'bonus level' section. I think I have the first version where the evil penguin-guy takes Penny so I think it's the first one. Please help. I hope you understand what I just said!
 :Your levels should be in <code>~/.supertux/levels</code>. Find the ones you don't want and delete them, and rename the rest so that they go in numerical order.
+
+= Old Discussions =
+
+Some of the comments are totally obsolete. They should be removed or archived. Not just this page but the whole wiki is full of outdated comments. Often it is hard to spot the still interesting parts. Articles usually get updated, but I don't like touching comments by other users. Maybe move old discussions away by some bot.  [[User:Superdev|Superdev]] 19:21, 26 August 2010 (UTC)
