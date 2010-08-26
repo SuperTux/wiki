@@ -13,9 +13,20 @@ Keep in mind that many people on <code>#supertux</code> have spent many hours pl
 
 Don't forget that if you're young, you should get your parent's permission before getting on the webchat. Most people that get on our webchat are nice, but that doesn't change that you need permission.
 
-:Join using [http://webchat.freenode.net/?randomnick=1&channels=supertux freenode Webchat]
+:Join using [http://webchat.freenode.net/?randomnick=1&channels=supertux freenode Webchat] or see [[Contact#IRC]].
 
 Oh, and if your level is good enough, we'll ask you if we can add it to the [http://www.beige-box.com/supertux/pml.html player made levels] area. Let's see some levels! :)
+
+===How do I install the new supertux-editor?===
+You have two options:
+# From source through [[Download/Subversion|Subversion]].
+## Choose the supertux-editor URL from the [[Download/Subversion#Locations inside the Subversion repository|listing]] and checkout the repository.
+  $ svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux-editor
+## Install the development versions of the [[#What do I need to compile supertux-editor SVN edition.3F|necessary dependencies]]. This requires you to know methods appropriate to your distribution or operating system.
+## Compile
+  $ cd supertux-editor
+  $ make
+# From a [[Download#Level Editor|binary package]] by MMlosh or for your distribution.
 
 ===What do I need to compile supertux-editor SVN edition?===
 You first need the supertux-editor package from the [[Download/Subversion|Subversion Repository]].
