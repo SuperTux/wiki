@@ -302,14 +302,13 @@ Response:
 *: 0.3 doesn't have lives or points; we could probably add them back in.
 * the rotating coin sprite looks too shiny and computer-rendered in 0.3, and so doesn't fit in so well with the rest of the art, which is all hand drawn
 *:It is true that the coins were computer-generated in 0.3; we could probably change it if we had more people (i.e. Grumbel) agree.
-* the death noise is so frustrating and dumb in 0.3.x - it sounds like someone slamming a car door, so i get angry when i die and starting all near from begining of level. the old noise from 0.1.x is less frustrating but still dumb.
+* the death noise is dumb - it sounds like someone slamming a car door
 *:SVN has a new noise - the files are at http://supertux.lethargik.org/svn/supertux/trunk/supertux/data/sounds/; I think it's hurt.wav but it could be something else.
 
 
 Please note that the 0.3.x series are development releases - don't expect everything to work smoothly or be complete; some of the above are direct consequences of that. --[[User:Mathnerd314|Mathnerd314]] 03:00, 5 August 2008 (UTC)
 
 <br>
-
 =Supertux sprites seen elsewhere=
 I recently saw the snowball sprite for Supertux as the icon for the Facebook application called "Snowball Fight." I thought that was kind of cool. [[User:Cooljeanius|Cooljeanius]] 21:13, 1 December 2008 (UTC)
 :Interesting. Where can I get the sourcecode?
@@ -319,3 +318,7 @@ Downloaded the cheats I need, (using slot1.stsg), unsure where to put it on Vist
 :No idea what you are talking about. What did you download from where? --[[User:Superdev|Superdev]] 18:53, 7 March 2009 (UTC)
 ::Probably the savegames at the [http://www.supertux.info/cheat.php fan site]. You put those in your save directory, which for 0.1.3 and Windows should be <code><supertux install directory>/.supertux/save</code>. --[[User:Mathnerd314|Mathnerd314]] 20:09, 8 March 2009 (UTC)
 ::BTW, if you've already played SuperTux, you'll be overwriting the file instead of placing it. And 0.3.1 has a different savegame format, but you can use the console and worldmapfinish() to get them solved anyway.
+
+= Computer crashing with BSOD =
+One attempt typed the text and got a BSOD which you had to restart the computer in order to make the BIOS screen appear. Then the computer hears a long beep and restarts it. After that, the computer will be restarted with a BIOS screen. How did you kern a Cyrillic flared font??? [[Special:Contributions/222.233.98.107|222.233.98.107]] 07:32, 15 April 2009 (UTC)
+i think supertux is SOO cool
