@@ -21,11 +21,11 @@ Oh, and if your level is good enough, we'll ask you if we can add it to the [htt
 You have two options:
 # From source through [[Download/Subversion|Subversion]].
 ## Choose the supertux-editor URL from the [[Download/Subversion#Locations inside the Subversion repository|listing]] and checkout the repository.
-##: <pre>$ svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux-editor</pre>
+ svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux-editor
 ## Install the development versions of the [[#What do I need to compile supertux-editor SVN edition.3F|necessary dependencies]]. This requires you to know methods appropriate to your distribution or operating system.
-## Compile
-##: <pre>   $ cd supertux-editor
-##:$ make</pre>
+## Compile:
+ cd supertux-editor
+ make
 # From a [[Download#Level Editor|binary package]] by MMlosh or for your distribution.
 
 ===What do I need to compile supertux-editor SVN edition?===
