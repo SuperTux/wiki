@@ -41,12 +41,16 @@ There will not be any <tt>0.2.x</tt> releases.
 
 === <tt>0.3.x</tt> releases ===
 
-The <tt>0.3.x</tt> branch is being used to develop SuperTux 0.4.0. It has implemented the [[Milestone 1.9]] goals.
+The <tt>0.3.x</tt> branch is being used to develop SuperTux 0.4.0. It is implementing the [[Milestone 1.9]] and [[Milestone 2 Design Document|Milestone 2]] goals.
 
 There will be no <tt>0.3.2</tt> release. There were some unofficial releases of SuperTux incorrectly labelled as version <tt>0.3.2</tt> so in order to avoid confusion there will be no official <tt>0.3.2</tt> release.
 
 === <tt>0.4.x</tt> releases ===
 
 SuperTux 0.4.0 will be the next stable ([[Milestone 2]]) release.
+
+=== <tt>SVN</tt> "releases" ===
+
+SVN builds will have version numbers of the form <tt>x.y.z-SVN</tt> with an optional version specifier at the end. <tt>x.y.z</tt> will be one past the latest unstable release, and the version specifier will be the result of running <code>svnversion</code>.
 
 [[Category:Developer documentation]]
