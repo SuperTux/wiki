@@ -20,7 +20,7 @@ __NOEDITSECTION__
 ** [[SuperTux:Community Discussion|Community Discussion]]
 ** [[User ideas|Ideas]]
 ** [http://supertux.lethargik.org/bugs Bug Tracker], [[OldBugs|Old Bugs]]
-** [[Contact]]
+** [[Contact]] ([irc://chat.freenode.net/supertux IRC] and the [http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org mailing list])
 |}
 
 |class="MainPageMiddle" width="50%"|
@@ -31,11 +31,11 @@ __NOEDITSECTION__
 |
 * [[Next Meeting Agenda]]
 * [[News]]
-* [[Team]]
 * [[Game design]]
 ** [[Milestone 1.9]] (unstable release)
 ** [[Milestone 2 Design Document]] (next release)
 ** [[Milestone 3 Design Document]] (future)
+* [[Team]]
 * [[Meeting logs]]
 * [[Voice Meeting Setup]]
 |}
@@ -47,11 +47,12 @@ __NOEDITSECTION__
 !<h2 class="MainPageBoxH">[[Image:Infoblock.png]] Developer documentation</h2>
 |-
 |
-* [[Building SuperTux]]
-* [[Tips and Tricks]]
-* [[Scripting reference]]
 * [[Contributing]]
+* [[Building SuperTux]]
+* [http://supertux.lethargik.org/development/doxygen/html/index.html Doxygen]
 * [[Game Engine]]
+* [[Scripting reference]]
+* [[Tips and Tricks]]
 |}
 
 |class="MainPageMiddle" width="50%"|
@@ -62,13 +63,13 @@ __NOEDITSECTION__
 |
 * [http://supertux.lethargik.org SuperTux homepage]
 * [http://developer.berlios.de/projects/supertux/ SuperTux project page] at [http://www.berlios.de BerliOS]
+* [http://code.google.com/p/supertux/ SuperTux project page] at [http://code.google.com/projecthosting/ Google Project Hosting]
 * [http://freshmeat.net/projects/supertux/ SuperTux info page] at [http://freshmeat.net/ freshmeat.net]
 * [http://happypenguin.org/show?SuperTux SuperTux entry] at [http://happypenguin.org/ The Linux Game Tome]
 <!-- http://supertux.lethargik.org/bugs/view.php?id=611#c1824 -->
 * [http://www.beige-box.com/supertux/ SuperTux Fan Site]
 * [http://www.last.fm/music/Wansti/Assorted+Songs+From+SuperTux+Milestone+2 SuperTux music available for streaming and download] at [http://www.last.fm last.fm]
 * [http://www.discarded-ideas.org/music Wansti's music page] containing more songs as well as downloadable sheet music for SuperTux
-* ...
 * [[Links|More Links]]
 |}
 
