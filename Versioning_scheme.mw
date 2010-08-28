@@ -51,6 +51,6 @@ SuperTux 0.4.0 will be the next stable ([[Milestone 2]]) release.
 
 === <tt>SVN</tt> "releases" ===
 
-SVN builds will have version numbers of the form <tt>x.y.z-SVN</tt> with an optional version specifier at the end. <tt>x.y.z</tt> will be one past the latest unstable release, and the version specifier will be the result of running <code>svnversion</code>.
+SVN builds will have version numbers of the form <tt>x.y.z-SVN</tt> with an optional version specifier at the end. <tt>x.y.z</tt> will be the latest unstable release, and the version specifier will be the result of running <code>svnversion</code>.
 
 [[Category:Developer documentation]]
