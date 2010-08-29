@@ -140,7 +140,7 @@ http://icculus.org/physfs/downloads/physfs-2.0.0.tar.gz
 
 * [http://www.boost.org/ Boost]
 
-http://sourceforge.net/projects/boost/files/boost/1.41.0/boost_1_41_0.7z/download
+http://sourceforge.net/projects/boost/files/boost/1.44.0/boost_1_44_0.7z/download
 
 * [http://www.7-zip.org/ 7-zip] for your favorite extraction program
 
@@ -190,7 +190,7 @@ in /phyfs-2.0.0/CMakeLists.txt
  mkdir build
  cd build
 * Start the actual build (everything else was libraries)
- INCLUDE="/local/include/SDL:/boost_1_41_0" cmake -G"MSYS Makefiles" -DDEBUG=ON -DCMAKE_BUILD_TYPE=Debug ..
+ INCLUDE="/local/include/SDL:/boost_1_44_0" cmake -G"MSYS Makefiles" -DCOMPILE_AMALGATION=ON -DCMAKE_CXX_FLAGS=-Wl,--enable-auto-import ..
  make
 * You need to copy some dll's from /local/bin, /local/lib, and /bin into /supertux. 
  cd ..
