@@ -14,7 +14,7 @@ To disable or enable the console if you don't want to pass command line paramete
 |-
 | align="left" | Linux            || align="left" | ~/.supertux2/config
 |-
-| align="left" | Windows          || align="left" | %USERPROFILE%/.supertux2/config
+| align="left" | Windows          || align="left" | %USERPROFILE%/supertux2/config
 |-
 | align="left" | Mac OS X         || align="left" | Home/Library/Application Support/SuperTux/config.txt
 |-
