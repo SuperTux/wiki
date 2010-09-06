@@ -198,6 +198,10 @@ This can be several things:
 #If you run it under mono (unless you know that you don't do it, you probably do run it under mono) check that the mono version is at least [http://www.mono-project.com/Downloads 1.2.2.1].
 '''Note: That the Mono version with installation is not compatible with the Level Editor.'''
 
+=== Bug on SuperTux Level Editor crashes while attempting to play the levels that I made =====
+We are on Linux Ubuntu 10.04 lucid 32 bit. The supertux level editor is labeled as supertux-editor-svn in the synaptic package manager. I don't know have to do a "Full Backtrace" or the version "Mono, GTK, or GTK#" With further instructions, I would post that info. 
+
+
 === My bug is not listed above ===
 If any of the above didn't solve the problem and you manage to recreate the error, report the bug with at least this info:
 *Full backtrace
