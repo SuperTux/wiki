@@ -70,3 +70,7 @@ How do you register local variables when a badguy execs "DeadScript"?.And How to
 :::Miniswig also needs a bit of a rewrite, as Squirrel 2.2 adds true constants to the language (<code>const x = 4; a <- x</code> will compile directly to <code>a <- 4</code>), and templates could eliminate most of miniswig's work, if anyone is interested. (Try looking at create_wrapper.cpp create_*_constant_* code) --[[User:Mathnerd314|Mathnerd314]] 16:28, 24 December 2008 (UTC)
 ::[http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/levels/world2/village.stl?view=markup world2/village.stl] looks like it is using level persistent variables. --[[User:Superdev|Superdev]] 14:52, 25 December 2008 (UTC)
 ::No, those are sector-persistent, since they disappear once you switch sectors. (I assume you mean hint_displayed and bridge_active?) That level illustrates another problem: Tux falls off the screen during cutscenes. (Comment out Camera code and turn on debug_collrects to see) --[[User:Mathnerd314|Mathnerd314]] 01:54, 26 December 2008 (UTC)
+
+== Bug on SuperTux Level Editor crashes while attempting to play the levels that I made ==
+
+I am on Linux Ubuntu 10.04 lucid 32 bit. The supertux level editor is labeled as supertux-editor-svn in the synaptic package manager. I don't know have to do a "Full Backtrace" or the version "Mono, GTK, or GTK#" With further instructions, I would post that info. <small>-- unsigned request by [[User:Aaron]] 01:22, 13 September 2010</small>
