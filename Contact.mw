@@ -28,7 +28,10 @@ You could just download an IRC client (e.g. XChat), connect to freenode, and joi
 
 Please keep basic netiquette in mind. Wait a moment after joining to see if there is a discussion in progress, then ask your question. Don't ask if you can ask a question, just ask. If nobody answers, don't be upset---maybe nobody knows the answer. Don't give up too fast, wait some time for an answer. Usually, people run IRC clients in the background and check for channel activity every 20 minutes or so. It is really annoying when you are just typing the answer and the person asking the question leaves the channel after waiting only 5 minutes. If you still receive no response, you might try the mailing list; it is read by far more people and good questions are normally answered.
 
-[http://sackheads.org/~bnaylor/spew/away_msgs.html Please don't use public away notifications.]
+*[http://sackheads.org/~bnaylor/spew/away_msgs.html Please don't use public away notifications.]
+*Please use a [http://dpaste.com/ pastebin] instead of pasting code directly into the channel.
+
+Thanks!
 
 == External links ==
 *[irc://chat.freenode.net/supertux Official SuperTux IRC channel (freenode#supertux)]
