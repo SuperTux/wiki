@@ -26,7 +26,6 @@ Normal Linux config, try ALSA and dsp, then fallback to arts and esd or no audio
  (define alsa-device "default")
  (define speaker-num 2)
  (define sampling-rate 44100)
-[http://www.bestessays.com essays]
 
 ALSA surround sound with a 5.1 sound system and 48khz high quality audio:
 
