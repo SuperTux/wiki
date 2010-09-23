@@ -71,6 +71,8 @@ Download all these to your build directory.
 * MinGW and MSYS
 
 http://sourceforge.net/projects/mingw/files/MinGW%20API%20for%20MS-Windows/w32api-3.14/w32api-3.14-mingw32-dev.tar.gz/download
+Above link not working... its been moved to here...
+http://sourceforge.net/projects/mingw/files/MinGW/BaseSystem/RuntimeLibrary/Win32-API/w32api-3.14/w32api-3.14-mingw32-dev.tar.gz/download
 
 http://sourceforge.net/projects/mingw/files/MSYS%20Base%20System/msys-1.0.11/msysCORE-1.0.11-bin.tar.gz/download
 
