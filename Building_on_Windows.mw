@@ -71,50 +71,86 @@ Download all these to your build directory.
 * MinGW and MSYS
 
 http://sourceforge.net/projects/mingw/files/MinGW%20API%20for%20MS-Windows/w32api-3.14/w32api-3.14-mingw32-dev.tar.gz/download
-Above link not working... its been moved to here...
+Working Link:
 http://sourceforge.net/projects/mingw/files/MinGW/BaseSystem/RuntimeLibrary/Win32-API/w32api-3.14/w32api-3.14-mingw32-dev.tar.gz/download
 
 http://sourceforge.net/projects/mingw/files/MSYS%20Base%20System/msys-1.0.11/msysCORE-1.0.11-bin.tar.gz/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/BaseSystem/msys-core/msys-1.0.11/msysCORE-1.0.11-bin.tar.gz/download
 
 http://sourceforge.net/projects/mingw/files/GNU%20Binutils/binutils-2.20/binutils-2.20-1-mingw32-bin.tar.gz/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/BaseSystem/GNU-Binutils/binutils-2.20/binutils-2.20-1-mingw32-bin.tar.gz/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20Runtime/mingwrt-3.16/mingwrt-3.16-mingw32-dll.tar.gz/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/BaseSystem/RuntimeLibrary/MinGW-RT/mingwrt-3.16/mingwrt-3.16-mingw32-dll.tar.gz/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20Runtime/mingwrt-3.16/mingwrt-3.16-mingw32-dev.tar.gz/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/BaseSystem/RuntimeLibrary/MinGW-RT/mingwrt-3.16/mingwrt-3.16-mingw32-dev.tar.gz/download
 
 http://sourceforge.net/projects/mingw/files/GCC%20Version%204/Current%20Release_%20gcc-4.4.0/gcc-full-4.4.0-mingw32-bin-2.tar.lzma/download (rather large)
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/BaseSystem/GCC/Version4/Previous%20Release%20gcc-4.4.0/gcc-full-4.4.0-mingw32-bin-2.tar.lzma/download
 
 * OpenSSH (for committing)
 
 http://sourceforge.net/projects/mingw/files/MSYS%20openssh/openssh-4.7p1-2/openssh-4.7p1-2-msys-1.0.11-bin.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/openssh/openssh-4.7p1-2/openssh-4.7p1-2-msys-1.0.11-bin.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MSYS%20openssl/openssl-0.9.8k-1/libopenssl-0.9.8k-1-msys-1.0.11-dll-098.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/openssl/openssl-0.9.8k-1/libopenssl-0.9.8k-1-msys-1.0.11-dll-098.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MSYS%20minires/minires-1.02_1-1/libminires-1.02_1-1-msys-1.0.11-dll.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/minires/minires-1.02_1-1/libminires-1.02_1-1-msys-1.0.11-dll.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20zlib/zlib-1.2.3-1-mingw32/libz-1.2.3-1-mingw32-dll-1.tar.gz/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/zlib/zlib-1.2.3-1/zlib-1.2.3-1-msys-1.0.11-dll.tar.gz/download
 
 * Bison and Flex (for miniswig)
 
 http://sourceforge.net/projects/mingw/files/MSYS%20bison/bison-2.4.1-1/bison-2.4.1-1-msys-1.0.11-bin.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/bison/bison-2.4.1-1/bison-2.4.1-1-msys-1.0.11-bin.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MSYS%20flex/flex-2.5.35-1/flex-2.5.35-1-msys-1.0.11-bin.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/flex/flex-2.5.35-1/flex-2.5.35-1-msys-1.0.11-bin.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MSYS%20regex/regex-1.20090805-1/libregex-1.20090805-1-msys-1.0.11-dll-1.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MSYS/BaseSystem/regex/regex-1.20090805-1/libregex-1.20090805-1-msys-1.0.11-dll-1.tar.lzma/download
 
 * Gettext (for translations)
 
 http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/libintl-0.17-1-mingw32-dll-8.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/gettext/gettext-0.17-1/libintl-0.17-1-mingw32-dll-8.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20libiconv/libiconv-1.13.1-1/libcharset-1.13.1-1-mingw32-dll-1.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/libiconv/libiconv-1.13.1-1/libcharset-1.13.1-1-mingw32-dll-1.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20libiconv/libiconv-1.13.1-1/libiconv-1.13.1-1-mingw32-dll-2.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/libiconv/libiconv-1.13.1-1/libiconv-1.13.1-1-mingw32-dll-2.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/libgettextpo-0.17-1-mingw32-dll-0.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/gettext/gettext-0.17-1/libgettextpo-0.17-1-mingw32-dll-0.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/gettext-0.17-1-mingw32-bin.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/gettext/gettext-0.17-1/gettext-0.17-1-mingw32-bin.tar.lzma/download
 
 http://sourceforge.net/projects/mingw/files/MinGW%20gettext/gettext-0.17-1/gettext-0.17-1-mingw32-dev.tar.lzma/download
+Working Link:
+http://sourceforge.net/projects/mingw/files/MinGW/gettext/gettext-0.17-1/gettext-0.17-1-mingw32-dev.tar.lzma/download
 
 *[http://cmake.org/cmake/resources/software.html CMake]
 
@@ -123,6 +159,8 @@ http://www.cmake.org/files/v2.8/cmake-2.8.0-win32-x86.zip
 * [http://curl.haxx.se/downloads.html cURL] (add-on manager)
 
 http://www.gknw.net/mirror/curl/win32/curl-7.19.7-devel-mingw32.zip
+Working Link:
+http://www.gknw.net/mirror/curl/win32/old_releases/curl-7.19.7-devel-mingw32.zip
 
 * [http://www.libsdl.org/download-1.2.php SDL] graphics library
 
