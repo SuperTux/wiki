@@ -43,7 +43,8 @@ hi, dont want to be annoying. how do you make the level scroll in the editor? an
 == Windows vista ==
 
 I have installed mono, but when I try to open the editor it suddenly closes. What other gtk packages are you mentioning in the FAQ.( I´m using supertux editor 3.0
-I have
+reply---10/5/10
+I had a problem like that. try uninstalling your editor, then reinstalling. if it asked for your directory, remember to select the data folder.  But now I have a black box where the tlemap should be... someone can hep me with that I hope.
 
 == mono == 
 
