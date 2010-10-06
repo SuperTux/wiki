@@ -78,6 +78,7 @@ How do you register local variables when a badguy execs "DeadScript"?.And How to
 == Bug on SuperTux Level Editor crashes while attempting to play the levels that I made ==
 
 I am on Linux Ubuntu 10.04 lucid 32 bit. The supertux level editor is labeled as supertux-editor-svn in the synaptic package manager. I don't know have to do a "Full Backtrace" or the version "Mono, GTK, or GTK#" With further instructions, I would post that info. <small>-- unsigned request by [[User:Aaron]] 01:22, 13 September 2010</small>
+        I figured it out.
 
 == Level Editor help!!! ==
 
