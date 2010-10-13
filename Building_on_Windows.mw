@@ -193,42 +193,7 @@ http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip
 suck dick ASS HOLE!!!
 
 == Building ==
-
-* PhysFS 2.0.0 needs a patch to make it compile without warnings under Windows. Change
- IF(PHYSFS_IS_GCC4)
-   ADD_DEFINITIONS(-fvisibility=hidden)
- ENDIF(PHYSFS_IS_GCC4)
-to
- IF(PHYSFS_IS_GCC4 AND NOT WINDOWS)
-   ADD_DEFINITIONS(-fvisibility=hidden)
- ENDIF(PHYSFS_IS_GCC4 AND NOT WINDOWS)
-in /phyfs-2.0.0/CMakeLists.txt
-* We're ready to build PhysFS.
-* Launch MSYS with msys.bat and type in the following: (you can paste into MSYS using the icon in the title bar)
- cd /physfs*
- mkdir build
- cd build
- cmake .. -G "MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH=/local
- make
- make install
-* We're ready to build SuperTux.
-* Change to the SuperTux checkout directory
- cd /supertux
-* Make a build directory to store generated files
- mkdir build
- cd build
-* Start the actual build (everything else was libraries)
- INCLUDE="/local/include/SDL:/boost_1_44_0" cmake -G"MSYS Makefiles" -DCOMPILE_AMALGATION=ON -DCMAKE_CXX_FLAGS=-Wl,--enable-auto-import ..
- make
-* You need to copy some dll's from /local/bin, /local/lib, and /bin into /supertux. 
- cd ..
- cp /local/bin/*.dll .
- cp /local/lib/*.dll .
- cp /bin/*.dll .
-A lot of these are unnecessary; use objdump -p or strings to prune the tree.
-* Now run supertux2.exe, sit back, and enjoy the game.
- cd /supertux
- ./supertux2.exe
+ASS HOLE
 
 == Building the editor ==
 IF YOU CAN SUCK A PLAY THIS WITHOUT PUKING, YOU ARE A DICK SUCKER
