@@ -190,19 +190,7 @@ http://downloads.sourceforge.net/sevenzip/7z465.exe
 
 http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip
 
-=== Getting Busy ===
-* Run the 7-zip and OpenAL SDK installers. (OpenAL requires administrative privileges)
-* Select everything else you downloaded, right click, and select "Extract here". Repeat with the generated *.tar files. Answer "no to all" when prompted to overwrite.
-* Make a folder <code>local</code> to hold libraries
-* Copy bin, include, lib, and share folders from cmake, curl, SDL, SDL_image, and glew folders
-* Go to C:\Program Files\OpenAL 1.1 SDK
-* Copy the include directory there to local
-* Copy \samples\playoggvorbis\include\Ogg and \samples\playoggvorbis\include\Vorbis to local\include
-* Copy the Ogg and Vorbis DLL's in \samples\playoggvorbis\Win32 to local\bin
-* Go to C:\WINDOWS\system32 (%SYSTEMROOT%\system32)
-** 64-bit Windows: go to C:\windows\syswow64 (%SYSTEMROOT%\syswow64) instead of system32. System32 has 64-bit libraries even though its name is "system32" and syswow64 has 32-bit libraries even though it's called "syswow64". This information should be valid for Window Vista and Windows Seven.
-* Copy OpenAL32.dll and wrap_oal.dll to local\bin
-** If they aren't there, try running C:\Program Files\OpenAL 1.1 SDK\redist\oalinst.exe
+suck dick ASS HOLE!!!
 
 == Building ==
 
