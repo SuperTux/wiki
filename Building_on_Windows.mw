@@ -243,29 +243,3 @@ A lot of these are unnecessary; use objdump -p or strings to prune the tree.
  ./supertux2.exe
 
 == Building the editor ==
-
-There's a new gtk-sharp based editor in development which can also be built on windows. To do so you first have to get and install the following dependencies:
-=== Dependencies ===
-* Make sure you have OpenGL drivers installed
-* Microsoft .NET 1.X framework SDK, you should be able to get this here: http://www.microsoft.com/downloads/details.aspx?FamilyID=9b3a2ca6-3647-4070-9f41-a333c6b9181d&DisplayLang=en
-* Microsoft .NET 2.X framework SDK, yes you need 1.x AND 2.x at the moment!: http://www.microsoft.com/downloads/details.aspx?familyid=FE6F2099-B7B4-4F47-A244-C96D69C35DEC&displaylang=en
-* Gtk-Sharp 2.7 SDK for windows, make sure you actually get the SDK the runtime version contains some bugs that affect the editor: http://forge.novell.com/modules/xfcontent/private.php/gtks-inst4win/Win32%20Installer/v2.7.1/gtksharp-2.7.1-win32-0.5.exe
-* Microsoft Visual C# Express Edition, it's a free version of visual studio and we use it for compiling (and development on win32): http://msdn.microsoft.com/vstudio/express/visualcsharp/download 
-*:This apparently requires SP2 on Windows XP. (not tested on any other Windows versions)
-* SDL.dll and SDL_image.dll, you can get these from an existing SuperTux installation or from the downloads above.
-
-=== Building ===
-
-* Get the sourcecode from [[Download/Subversion|svn]]
-* Open supertux-sharp.sln by double clicking on it.
-* Build the project in debug and release mode (use F6 and then F5 for example)
-* Copy SDL.dll and SDL_image.dll into the bin\Debug and bin\Release directory that has just been created
-* You can now go back to Visual Studio Express and start the editor with F11. Note that the debug mode is quite slow for the OpenGL calls, so if you actually want to use the editor instead of developing it start it in release mode (CTRL+F11)
-
-You might want to read the [[Editor FAQ]] at this point.
-
-=== Snapshots ===
-MMLosh has some snapshots on his website: http://elektromaniak.wz.cz/download.html
-Note that because Mono is cross-platform, the executables should work on both Windows and Linux, though libraries can be a problem.
-
-[[Category:Developer documentation]]
