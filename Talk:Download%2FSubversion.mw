@@ -4,3 +4,7 @@ How could I update SuperTux to the last version without svn, just with repositor
 
 I'd be grateful for extendind the PPA repository to Ubuntu 10.04 (Lucid Lynx) - especially that it's an LTS release and can be used for up to 3 years. Thanks in advance. [[User:M gol|m_gol]] 20:39, 3 May 2010 (UTC)
 :I am doing so right now. Sorry for the delay, but my internet was upgraded from 768 kbit down / 384 kbit up to 12 mbit down / 1.5 mbit up yesterday. I was waiting for that to take place so it wouldn't take so long to upload. -[[User:Some Person|Some Person]] 21:20, 5 May 2010 (UTC)
+
+== SVN repo for Ubuntu 10.10 (Maverick) ==
+
+Just asking: are there any plans to include Supertux SVN PPA repository also for Ubuntu 10.10 (Maverick) or will it only remain available for 10.04 LTS? [[Special:Contributions/82.210.189.188|82.210.189.188]] 23:12, 15 October 2010 (UTC)
