@@ -8,3 +8,4 @@ I'd be grateful for extendind the PPA repository to Ubuntu 10.04 (Lucid Lynx) - 
 == SVN repo for Ubuntu 10.10 (Maverick) ==
 
 Just asking: are there any plans to include Supertux SVN PPA repository also for Ubuntu 10.10 (Maverick) or will it only remain available for 10.04 LTS? (I just have to consider if I want to upgrade) [[User:M gol|m_gol]] 23:13, 15 October 2010 (UTC)
+:You have to ask the Ubuntu team about that. I hope they ship stable stuff and not some unfinished svn snapshot. If you want unstable Supertux get the distribution independent autopackage. --[[User:Queser|Queser]] 23:15, 16 October 2010 (UTC)
