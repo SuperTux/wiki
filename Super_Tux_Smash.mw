@@ -224,3 +224,5 @@ A_up while ducking - backflip (jumps back and makes enemy landed on unable to mo
 |2| and |1| repeatedly - fireball (a flying fireball appears, striking first enemy touched) - available at level 4 dojo
 |2| and |1| repeatedly while ducking - thunderball (a flying thunderball appears, striking all enemies on his way) - available at level 5 dojo
 A_up in midair - Teleport (Pingu teleports up a bit, damaging all enemies on his vertical coordinates and near these) - available at level 6 dojo
+
+Also see [http://www.superiorpapers.com/ term paper]
