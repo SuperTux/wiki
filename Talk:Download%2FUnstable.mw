@@ -108,6 +108,11 @@ Do I see a Windows binary of SuperTux 0.3.3 on Google Code? If not, what is it? 
 ::: There's a 0.3.3 package in [http://packages.debian.org/experimental/supertux Debian Experimental] and [http://packages.ubuntu.com/lucid/supertux Ubuntu Lucid]. If you want to contribute binary packages for other platforms, you're very welcome. The OpenSUSE build service might be a good place to build an own package. You should tune down your tone a notch, though: The ''SuperTux'' developers provide a source tarball. Any other (binary) form of ''SuperTux'' is the distributions' packager's business, not ours. If we do provide some package, this is an ''optional extra''. So if version 0.3.3 is missing for your favorite distribution, complain to the people behind that distribution, not us. --[[User:Octo|octo]] 22:41, 17 March 2010 (UTC)
 :::: I think this is not about any distribution specific package. The Supertux Developers used to provide a generic Linux binary via Autopackage for all the previous releases. I'd like to have that for 0.3.3, please. Building from source takes ages on my machine. Yeah, I know you do all that in your spare time and just because you created an Autopackage two years ago does not mean you have to release on again. But many Linux gamers would like to have one.  --[[Special:Contributions/85.214.71.145|85.214.71.145]] 21:13, 18 March 2010 (UTC)
 
+== Supertux 0.3.3 on 64-bit Windows? ==
+
+The development version of Supertux (0.3.3) doesn't work on Windows (Vista, 7) 64-bit. Is it possible to create a version that runs on 64-bit? 
+Or is there any way to play the game on 64-bit?
+
 == Editor doesn't work on Ubuntu 10.04 ==
 
 Hey guys,
