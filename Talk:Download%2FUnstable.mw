@@ -113,6 +113,7 @@ Do I see a Windows binary of SuperTux 0.3.3 on Google Code? If not, what is it? 
 The development version of Supertux (0.3.3) doesn't work on Windows (Vista, 7) 64-bit. Is it possible to create a version that runs on 64-bit? 
 Or is there any way to play the game on 64-bit?
 :See this bug: [https://supertux.lethargik.org/bugs/view.php?id=647]. I have a similar problem, but it only crashes most of the time, not all the time.
+:Does it work on Linux? It should be possible to creat a 64-Bit windows version if windows can't run the 31-Bit version. Just grab the source and build it.
 
 == Editor doesn't work on Ubuntu 10.04 ==
 
