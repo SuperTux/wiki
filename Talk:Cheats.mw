@@ -24,3 +24,10 @@ I get this error:
  Using random seed 1199386134, from time().
 
 That option is for 0.1.x (milestone 1) not for 0.3.x (milestone 1.9/milestone2). And you are using a 0.3.x version. --[[User:AnMaster|AnMaster]] 14:47, 4 January 2008 (UTC)
+
+== Broken? (2) ==
+
+I get this error :
+Error: I could not load the icon image: ./SuperTux.app/Contents/Resources/data/images/icon.xpm
+The Simple DirectMedia error that occured was:
+Couldn't open ./SuperTux.app/Contents/Resources/data/images/icon.xpm
