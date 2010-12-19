@@ -79,3 +79,6 @@ I like the cave levels in the Icyisland world &ndash; finally, we get some contr
 Here is one of the many ways to incorporate the cave levels into SuperTux:
 :Tux first visits Nolok's castle, but realizes that nobody can enter without the key, which is located in the ice cave. Tux enters the ice cave, going deeper and deeper into the crystal mines (this is where Incubator Island levels like Crystal Beauty come in handy) until he finds the key. Then he escapes and enters the castle.
 I don't know. As long as there's an explanation that works, I'm happy with it. [[User:Tuxnut|TUX/√UT]] ([[User talk:Tuxnut|plz talk 2 me internets]] | [[Special:Contributions/Tuxnut|view horrendous deeds]]) 18:49, 4 September 2010 (UTC)
+
+== Profile folder ==
+With SuperTux 0.3.3 on Windows, it possible to consolidate the profile folder (user/application data/supertux2) into the Program Files/SuperTux folder so that all the files are in one place? [[Special:Contributions/70.41.197.99|70.41.197.99]] 04:02, 19 December 2010 (UTC)
