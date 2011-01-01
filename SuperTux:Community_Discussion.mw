@@ -89,3 +89,6 @@ With SuperTux 0.3.3 on Windows, it possible to consolidate the profile folder (u
 Hi, i was thinking to make levels in 0.3.3 version, but how can i do it ? How can i create a worldmap? 
 I was thinking to make levels and upload it, then, with the option in add-ons menu: Check online, then my worldmap with my levels and mod appears. How can i do it? (Sorry from my English)
 :To create a worldmap use the editor. Either load an existing worldmap or switch the tileset in level - properties" to "images/worldmap.strf".
+
+I've stopped playing supertux by moths... Before i remember how to do it now i don't. I have ST_ Editor in SuperTux 0.1.3 but, i never saw a editor! only in supertux 0.1.3 (ST_Editor V1.11)
+I used now ST_Editor V1.11, but when i load any level or worldmap, nothing appears in the screen!
