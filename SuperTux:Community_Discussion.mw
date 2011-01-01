@@ -100,7 +100,9 @@ I used now ST_Editor V1.11, but when i load any level or worldmap, nothing appea
 Thank you for the download link. All works perfect, i can load levels and worldmaps, but a problem: When i move any object in worldmap or in a level, appears a box saying:
 
 Supertux-Editor exception                                                     
-------------------------
+
 Unexpected exception: Object reference not set to an instance of an object.
 
-How can i fix this ...?
+How can i fix this ...? Even when creating a level it does the same error :(
+
+I've made 3 mods to supertux 0.1.3 (world 2, bonus island 2 beta, a modified version of the island, and, my newest mod is: SuperTux 0.2.3 6-in-8 island mod).
