@@ -20,13 +20,13 @@
   | '''Squishable:'''
   | <includeonly>{{Squishable|{{{Squish}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Squishable|Squishable]]<nowiki>}}</nowiki></code></noinclude>
 |- valign="top"
-  | '''Burnable:'''
+  | '''[[Fireflower|Burnable]]:'''
   | <includeonly>{{Burnable|{{{Burnable}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Burnable|Burnable]]<nowiki>}}</nowiki></code></noinclude>
 |- valign="top"
-  | '''Butt-Jumpable:'''
+  | '''[[Buttjump|Butt-Jumpable]]:'''
   | <includeonly>{{Buttjumpable|{{{Buttjump}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Buttjumpable|Buttjumpable]]<nowiki>}}</nowiki></code></noinclude>
 |- valign="top"
-  | '''Freezable:'''
+  | '''[[Iceflower|Freezable]]:'''
   | <includeonly>{{Freezable|{{{Freeze}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Freezable|Freezable]]<nowiki>}}</nowiki></code></noinclude>
 {{#if: {{{FirstVersion|}}} |
  {{!}}-
