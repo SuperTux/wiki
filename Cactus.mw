@@ -1,5 +1,5 @@
 {{Infobox Badguy
-| Image=Cactus2.jpg
+| Image=Cactus1.jpg
 | Name=Cactus
 | FoundIn=Nowhere Yet
 | Appearance= A potted cactus with legs and eyes.
@@ -9,6 +9,8 @@
 | Freeze=yes
 | Burnable=somewhat
 }}
+
+==Behavior==
 
 
 [[Category:ProposedBadguy]]
