@@ -211,7 +211,14 @@
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
 | Display     = {{{Display}}}
 }}
-<!-- {{Level list entry | Name=No More Mr Ice Guy }} -->
+{{Level list entry
+| Name        = No More Mr. Ice Guy
+| Description = overworld, boss level
+| Difficulty  = hard
+| Length      = 40
+| Contributor = [[User:MatzeB|Matze Braun]]
+| Display     = {{{Display}}}
+}}
 <!-- {{Level list entry | Name=Bonus Level }} -->
 {{Level list end
 | Display={{{Display}}}
