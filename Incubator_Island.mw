@@ -22,6 +22,12 @@ If a level passes those tests, it may be added to the ''Incubator Island'' for g
 | Length = 300
 }}
 {{Level list entry
+| Name=Pink Snow
+| Description=Please give feedback in {{Bug|700}}.
+| Contributor=Stuart Rynn
+| Length = 270
+}}
+{{Level list entry
 | Name=Crystal Cataclysm
 | Description=Map using the new ''Night Cave'' tileset. Please give feedback in {{Bug|594}}.
 | Contributor=lazure
@@ -44,6 +50,12 @@ If a level passes those tests, it may be added to the ''Incubator Island'' for g
 | Description=Please give feedback in {{Bug|608}}.
 | Contributor=Wolfs
 | Length = 292
+}}
+{{Level list entry
+| Name=Crystal Beauty
+| Description=Please give feedback in {{Bug|633}}.
+| Contributor=niso
+| Length = 301
 }}
 {{Level list end}}
 
