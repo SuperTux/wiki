@@ -53,7 +53,7 @@ When Tux bumps a bonus block from below, he will either collect a coin or the bo
 |-
 | [[Image:Fire_flower-0.png]] || Fireflower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs. The SuperTux 0,1 you can shoot more than two at a time, in the SuperTux 0,3 you can shoot them at once as many as you collected.
 |-
-| [[Image:Ice_flower-0.png]] || Iceflower || (In SuperTux 0,3 only) Similarly, as Fireflower, but instead of Fireballs shoot Iceballs. In the SuperTux 0.3.0 does the same as Fireflower.
+|  || Iceflower || (In SuperTux 0,3 only) Similarly, as Fireflower, but instead of Fireballs shoot Iceballs. In the SuperTux 0.3.0 does the same as Fireflower.
 |-
 | [[Image:1up.png]] || Tux Doll ||  Ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded an extra life '''(SuperTux 0.1)''' or 100 coins '''(SuperTux 0.3)'''.
 |-
