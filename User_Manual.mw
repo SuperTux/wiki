@@ -45,13 +45,15 @@ To help Tux in his quest to rescue Penny, various powerups have been placed thro
 When Tux bumps a bonus block from below, he will either collect a coin or the bonus block releases one of several powerups:
 
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
-! Pic !! Name !! Effect
+! Pic. !! Name !! Effect
 |-
 | [[Image:Coin-0.png]] || Coin || '''SuperTux 0.1:''' Collect 100 coins to gain an extra life. '''SuperTux 0.3:''' Every time Tux dies, he will restart at the last firefly he activated.
 |-
 | [[Image:Egg.png]] || Egg || Makes Tux grow. He can then smash wooden boxes with his head and perform a somersault.
 |-
-| [[Image:Fire_flower-0.png]] || Fireflower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs.
+| [[Image:Fire_flower-0.png]] || Fireflower || Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs. The SuperTux 0,1 you can shoot more than two at a time, in the SuperTux 0,3 you can shoot them at once as many as you collected.
+|-
+| [[Image:ice_flower-0.png]] || Iceflower || (In SuperTux 0,3 only) Similarly, as Fireflower, but instead of Fireballs shoot Iceballs. In the SuperTux 0.3.0 does the same as Fireflower.
 |-
 | [[Image:1up.png]] || Tux Doll ||  Ejected from the bonus block and needs to be caught before falling off the screen. When Tux manages to catch it, he is awarded an extra life '''(SuperTux 0.1)''' or 100 coins '''(SuperTux 0.3)'''.
 |-
@@ -70,6 +72,9 @@ Normally, when you keep running in the same direction, Tux will go faster and ju
 
 === Fireballs ===
 After picking up the [[Fireflower]], Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut '''(SuperTux 0.3 only)'''.
+
+=== Iceballs (SuperTux 0.3.1 and later) ===
+Similarly, as the Fireballs, but objects to which it hits the freeze. It works only on "mrbomb", "Jump ", "Spike", "fish", "Haywire". It happens the same when they fall "stalactite".
 
 === Butt Stomp (SuperTux 0.3.3 and later) ===
 Only Big and Fire Tux have this ability. When in the air, press the Duck key to perform a Butt Stomp. Tux can use it to break wooden crates from above and defeat certain badguys that are not harmed by a normal jump.
@@ -145,10 +150,14 @@ Info blocks can be bumped from below to display helpful text that introduces a c
 When you activated an info block, the game will pause and you can use the Up and Down buttons to scroll through the text. Press the Menu button to resume the game.
 
 === Trampolines (SuperTux 0.3 only) ===
+[[Image:trampoline1-0.png|right]]
+[[Image:trampoline2-0.png|right]]
 
 Trampolines come in two flavours: A stationary version, which looks a bit like a mushroom and a portable version, which looks like a large spring. For information about carrying stuff around, see section [[#Carrying Objects|Carrying Objects]].
 
 Normally, Tux will only bounce up and down a little bit on a trampoline. To make him jump really high, hold down the jump button when landing on the trampoline.
+
+<br style="clear: both;" />
 
 === Magic Blocks and Lanterns (SuperTux 0.3 only) ===
 
