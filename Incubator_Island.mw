@@ -28,6 +28,12 @@ If a level passes those tests, it may be added to the ''Incubator Island'' for g
 | Length = 270
 }}
 {{Level list entry
+| Name=Jagged Path
+| Description=Please give feedback in {{Bug|701}}.
+| Contributor=Stuart Rynn
+| Length = 230
+}}
+{{Level list entry
 | Name=Crystal Cataclysm
 | Description=Map using the new ''Night Cave'' tileset. Please give feedback in {{Bug|594}}.
 | Contributor=lazure
