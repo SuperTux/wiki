@@ -1,0 +1,29 @@
+'''Add-ons''' are extensions for ''SuperTux'' which are distributed separately from the main distribution. In most cases, they are sets of levels contributed by users or groups of users. They may, however, include custom [[tileset]]s, which may give these levels a very distinct look.
+
+Currently, the following ''add-ons'' are available:
+
+{| class="prettytable"
+! Name
+! Author
+|-
+| Coconut Fortress
+| Anja
+|-
+| In The Spring
+| Anja
+|-
+| Dungeon Island
+| Torfi Gunnarsson
+|-
+| Tux Strikes Back
+| Christian Schaefers
+|-
+| Mattie's Iceberg
+| LMH
+|}
+
+== See also ==
+
+* [[Levels]]
+
+[[Category:For Users]]
