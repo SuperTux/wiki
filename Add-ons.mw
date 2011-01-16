@@ -1,4 +1,7 @@
-'''Add-ons''' are extensions for ''SuperTux'' which are distributed separately from the main distribution. In most cases, they are sets of levels contributed by users or groups of users. They may, however, include custom [[tileset]]s, which may give these levels a very distinct look.
+{{Milestone 2}}
+'''Add-ons''' are extensions for ''SuperTux'' which are distributed separately from the main distribution. In most cases, they are sets of levels contributed by users or groups of users. They may, however, include custom [[tileset]]s, which may give these levels a very distinct look. Add-ons are a new feature of ''version&nbsp;0.3'' and are ''not'' available in the [[Milestone 1]] version.
+
+Add-ons can be downloaded from within ''SuperTux''. Simply ensure you have an internet connection, and select "Addons" from the main menu, where you can choose to install the currently available add-ons.
 
 Currently, the following ''add-ons'' are available:
 
@@ -27,6 +30,12 @@ Currently, the following ''add-ons'' are available:
 | LMH
 | [http://supertux.lethargik.org/addons/files/mattie_world.zip download]
 |}
+
+== Manual installation ==
+
+If you cannot use the ''Add-on manager'' for some reason, you can download the add-ons, which are distributed as <code>.zip</code>&nbsp;files. Just copy the file(s) to your ''SuperTux&nbsp;2'' config directory (<code>~/.supertux2/</code> on UNIX&nbsp;/ Linux, <code>%USERPROFILE%\supertux2\</code> on Windows).
+
+ $ wget -P ~/.supertux2 <span style="color: navy;">$ADDON_URL</span>
 
 == See also ==
 
