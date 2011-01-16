@@ -33,7 +33,7 @@ Currently, the following ''add-ons'' are available:
 
 == Manual installation ==
 
-If you cannot use the ''Add-on manager'' for some reason (eg. you built ST without libcurl), you can download the add-ons, which are distributed as <code>.zip</code>&nbsp;files. Just copy the file(s) to your ''SuperTux&nbsp;2'' config directory (<code>~/.supertux2/</code> on UNIX&nbsp;/ Linux, <code>%USERPROFILE%\supertux2\</code> on Windows).
+If you cannot use the ''Add-on manager'' for some reason (for example if you built ''SuperTux'' without ''libcurl''), you can download the add-ons, which are distributed as <code>.zip</code>&nbsp;files. Just copy the file(s) to your ''SuperTux&nbsp;2'' config directory (<code>~/.supertux2/</code> on UNIX&nbsp;/ Linux, <code>%USERPROFILE%\supertux2\</code> on Windows).
 
  $ wget -P ~/.supertux2 <span style="color: navy;">$ADDON_URL</span>
 
