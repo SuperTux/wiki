@@ -1273,3 +1273,13 @@ I see that I can't do what I wan't in the editor because there are a lot of tile
 [[Image:Lost_tiles.png]]
 
 ( the tile in the center don't corespond with the tile on the left )
+
+== Idea : Infinite patern ==
+
+== The infinite patern ==
+An idea to have the graphic not break. 
+All tilemap that have a name becoming with * where an infinite patern tilemap, it make the graphic to be repeated if that the player see is out of the world
+For example, I make a very small level to demonstrate how to make a good mario like pipe effect:
+[[Image:Infinite_Tiles_0.png]] [[Image:Infinite_Tiles_1.png]]
+
+For now we can make this effect by creating a tilemap that have an offset and that the size is over the most large screen size divided by 32.
