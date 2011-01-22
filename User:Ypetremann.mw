@@ -1,15 +1,16 @@
-== Who I am ? ==
+== About Me ==
 
-I'm a french person that play supertux since it come on ubuntu.
-I'm very sorry for my english. It is not perfect, but I know it is not a good solution to speak french here
+I'm a french person that play supertux since it come on Ubuntu.
+I use Ubuntu and for testing, I use Windows.
+I have a pen tablet to make computer graphics like the image below.
 
-== What's my tools ? ==
+[[Image:http://farm2.static.flickr.com/1297/5187131143_d7b3a8e783_b.jpg]]
 
-The first tool I use is a graphic tablet on a Ubuntu computer.
-
-First I use it on Inkscape to make a global mockup of that I want to make, after I use it and the picture on gimp for doing all that it can't do on inkscape.
-
-Because I make website ( for now, just one is online and can be seen ), I use Geany for the programation part. 
+I use Inkscape to make a global mockup of that I want to make.
+I use Gimp to make photorealistic or draw-style images.
+For scripting, I use Geany.
+I have made script in Html, Css, Javascript, Php, Bash, C/C++, Basic, Asm, Basic on Casio and Ti.
+I made script now in Html, Css, Javascript, Php and Bash because I work on my website ( that is not online ).
 
 == What did I expect from Supertux ? ==
 
@@ -17,7 +18,8 @@ I expect that supertux can be comparable of the SMB/NSMB on Nintendo DS, and tha
 
 == What I do for supertux ? ==
 
-I make a level that have all tiles from one type, and make it more complete with new tiles.
+I'm making a level that have all tiles from one type, and make it more complete with new tiles.
+
 
 == What can I do for supertux ? ==
 
