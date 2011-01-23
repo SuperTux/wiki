@@ -1286,6 +1286,9 @@ Here I make a lot of snow tiles that were not created. With it and with the orig
 An idea to have the graphic not break. 
 All tilemap that have a name becoming with * where an infinite patern tilemap, it make the graphic to be repeated if that the player see is out of the world
 For example, I make a very small level to demonstrate how to make a good mario like pipe effect:
-[[Image:Infinite_Tiles_0.png]] [[Image:Infinite_Tiles_1.png]]
+[[Image:Infinite_Tiles_0.png|center|thumb|100px|Lost Tiles 1]]
+[[Image:Infinite_Tiles_1.png|center|thumb|100px|Lost Tiles 2]]
 
 For now we can make this effect by creating a tilemap that have an offset and that the size is over the most large screen size divided by 32.
+
+--Ypetremann 13:00, 23 January 2011 (UTC)
