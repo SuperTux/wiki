@@ -870,6 +870,10 @@ These are small, brightly colored fish that just float around in the same place 
 
 This would be a powerup looking like a fireflower, except that it glows green. When Tux gets this powerup, if the Action button is pressed, a glowing green laser shoots out of Tux's beak and rebounds 3 times before disappearing, killing all badguys that can be killed with fire shot. The laser should be about as slow as Tux's walking speed.
 
+''' '' Colorpile '' '''
+[[Image:Colorpile.png]]
+They can be of different colors. When Tux eats a colorpile, Tux begins to shine color, what color has colorpile, what Tux ate.
+
 === Stylus control ===
 
 Why couldn’t one control Tux with stylus? By dragging right Tux would move right and after certain point would change to ctrl-mode.
