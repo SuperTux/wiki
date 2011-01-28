@@ -407,11 +407,15 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 
 ==== Mr windows ====
 [[Image:Win-0.png]]<br>
-<small>''Mr windows-normal''</small><br>
+<small>''Mr windows - normal''</small><br>
 [[Image:Win-block.png]]<br>
-''Italic text''
+<small>''Mr windows - shield''</small><br>
 [[Image:Win-dead.png]]<br>
-''Italic text''
+<small>''Mr windows - squished''</small><br>
+*Mr windows sometimes stays and sometimes walks around one place.
+*Mr windows is squishable.
+*When Tux approaches a distance of two tiles, they will turn the shield and become invincible and stay put. Once again, get into a longer distance than two tiles, it will turn back.
+*I can kill him at a distance or it can kill other object.
 
 :[[Rejected_ideas#No_Beastie]]
 
