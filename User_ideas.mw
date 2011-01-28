@@ -1195,7 +1195,6 @@ I just read the Milestone 2 Design Document and I cannot believe that the forest
 [[Image:Colorpile.png]]
 <br>
 They can be of different colors. When Tux eats a colorpile, Tux begins to shine color, what color has colorpile, what Tux ate.
-<br>
 ==== Bonus-block: dummy ====
 [[Image:Dummybonus.gif]]
 <br><small>''editor-image''</small><br>
@@ -1204,6 +1203,17 @@ Normally looks like any other bonus-block, but does not give any bonus.
 [[Image:Scriptedbox.png]]
 <br>
 It makes no bonus,it but calls a script.
+==== Fire escape ====
+[[Image:Exit.gif]]
+<br>
+Behaves like "sequence-trigger" with parameter "sequence" set to value "stoptux.
+==== Wanishing bonus ====
+[[Image:Wanishing.png]]
+<br><small>''editor-image''</small>
+===== Version A =====
+Similarly, a dummy, but after the bump will disappear.
+===== Version B =====
+As a bonus, gives a coin, but after the bump will disappear.
 
 == More badguy ideas ==
 
