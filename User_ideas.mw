@@ -1207,7 +1207,8 @@ It makes no bonus, but it calls a script.
 ==== Fire escape ====
 [[Image:Exit.gif]]
 <br>
-Behaves like "sequence-trigger" with parameter "sequence" set to value "stoptux.
+Behaves like "sequence-trigger" with parameter "sequence" set to value "stoptux".
+
 ==== Wanishing bonus ====
 [[Image:Wanishing.png]]
 <br><small>''editor-image''</small>
