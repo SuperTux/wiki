@@ -418,10 +418,20 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 *I can kill him at a distance or it can kill other object.
 
 ==== Smart eye ====
-[[Image:Eye-ul.png]][[Image:Eye-u.png]][[Image:Eye-ur.png]]<br>
-[[Image:Eye-l.png]][[Image:Eye-center.png]][[Image:Eye-r.png]]<br>
-[[Image:Eye-dl.png]][[Image:Eye-d.png]][[Image:Eye-dr.png]]<br>
-
+{|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
+| [[Image:Eye-ul.png]] || [[Image:Eye-u.png]] || [[Image:Eye-ur.png]]
+|-
+| [[Image:Eye-l.png]] || [[Image:Eye-center.png]] || [[Image:Eye-r.png]]
+|-
+| [[Image:Eye-dl.png]] || [[Image:Eye-d.png]] || [[Image:Eye-dr.png]]
+|-
+|}
+[[Image:Eye-freezed.png]]<br><small>''freezed Smart eye''<small><br>
+*Jakmyle the Tux gets to near, it will haunt him until it hurt.
+*Smart eye is not squishable.
+*Smart eye is a bit faster than Tux.
+*His pupil rotates under the direction of movement.
+*Smart eye is freezable.
 :[[Rejected_ideas#No_Beastie]]
 
 === More Objects to Meet ===
