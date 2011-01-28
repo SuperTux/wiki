@@ -1284,6 +1284,7 @@ Just draw in a tilemap where you want tux walk with a type of tile, where you wa
 If the creator want to create with more than 1 type of tiles, just make 2 tilemap and apply them on one ...
 
 :Like the magic brush from supertux editor?
+::Oh sorry, I don't see it because I doesn't know how it run and that because I haven't any bruxh...
 
 === Have a more complete tileset for each style of tiles ===
 I see that I can't do what I wan't in the editor because there are a lot of tiles that where not implemented Like in the image below 
