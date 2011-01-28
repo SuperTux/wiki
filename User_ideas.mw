@@ -1190,11 +1190,20 @@ Not just getting thrown off from screen...
 
 I just read the Milestone 2 Design Document and I cannot believe that the forest world should be deleted! I really like it (more than the ice world). People worked much on the forest world, should that work be destroyed? Save the forest world!
 
-=== New powerups ===
+=== New powerups and bonus blocks===
 ==== Colorpile ====
 [[Image:Colorpile.png]]
 <br>
 They can be of different colors. When Tux eats a colorpile, Tux begins to shine color, what color has colorpile, what Tux ate.
+<br>
+==== Bonus-block: dummy ====
+[[Image:Dummybonus.gif]]
+<br><small>''editor-image''</small><br>
+Normally looks like any other bonus-block, but does not give any bonus.
+==== Scripted-bonus-block ====
+[[Image:Scriptedbox.png]]
+<br>
+It makes no bonus,it but calls a script.
 
 == More badguy ideas ==
 
