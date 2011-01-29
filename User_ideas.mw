@@ -417,6 +417,8 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 *When Tux approaches a distance of two tiles, they will turn the shield and become invincible and stay put. Once again, get into a longer distance than two tiles, it will turn back.
 *I can kill him at a distance or it can kill other object.
 
+:Yet another Logo. See [[Rejected_ideas#No_Beastie]]
+
 ==== Smart eye ====
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
 | [[Image:Eye-ul.png]] || [[Image:Eye-u.png]] || [[Image:Eye-ur.png]]
@@ -432,7 +434,7 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 *Smart eye is a bit faster than Tux.
 *His pupil rotates under the direction of movement.
 *Smart eye is freezable.
-:[[Rejected_ideas#No_Beastie]]
+
 
 === More Objects to Meet ===
 
@@ -1172,6 +1174,7 @@ I think that for a final boss that Nolok could transform into something really p
 
 What about a version for iPod touch/iPhone. 
 I have no idea if this is possible, just a suggestion.
+: GPLed software is not compatible with the app store http://www.fsf.org/blogs/licensing/more-about-the-app-store-gpl-enforcement
 
 === Planet Map? ===
 
