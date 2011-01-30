@@ -78,6 +78,8 @@ Then add the following to your repository sources (/etc/fstab or your favorite e
  <code>deb http://supertux.lethargik.org/apt VERSION contrib</code>
 Replace VERSION with your Debian version, e.g. lenny/squeeze/sid or stable/testing/unstable.
 
+Finally, install the "supertux-svn" package.
+
 == Gentoo Users ==
 If you would like to have a clean system-wide installation of the development version of supertux, you can grab the [http://ohnopub.net/hg/ohnobinki_overlay/file/tip/games-arcade/supertux live ebuild and patch]. If you need help using this, contact <tt>ohnobinki</tt> on [[Contact#IRC|<tt>#supertux</tt>]].
 
