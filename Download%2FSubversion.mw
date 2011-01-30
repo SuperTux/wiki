@@ -74,7 +74,7 @@ If anyone else would like to take up this project, please feel free to do so. If
 First add the public key to authenticate the repository by running the following:
  <code>wget -q https://supertux.lethargik.org/apt/supertux.key -O- | sudo apt-key add -</code>
 
-Then add the following to your repository sources (/etc/fstab or your favorite editor)
+Then add the following to your repository sources (/etc/apt/sources.list or your favorite editor)
  <code>deb http://supertux.lethargik.org/apt VERSION contrib</code>
 Replace VERSION with your Debian version, e.g. lenny/squeeze/sid or stable/testing/unstable.
 
