@@ -1250,7 +1250,27 @@ Similarly, a dummy, but after the bump will disappear.
 As a bonus, gives a coin, but after the bump will disappear.
 :it will look like a crate --Ypetremann 06:27, 28 January 2011 (UTC)
 
-=== throwobject ===
+=== Throwobject ===
+{|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
+| Big || Small
+|-
+| [[Image:Brick.png]] || [[Image:Wood.png]]
+|-
+| [[Image:Stone_brick.png]] || [[Image:Stone.png]]
+|-
+| [[Image:Sigil.png]] || [[Image:Crystal.png]]
+|-
+|}
+<small>''If someone suggests another form, you can add it to this table.''</small><br>
+Throwobject can pick up, point and throw it. If you do that, and hit into a badguy, so it dies. The throwobjects are large and small.
+
+==== Small throwobject ====
+*If you miss the target and falls to the ground, I can throw it more.
+*If you hit, the throwobject is destroyed.
+
+==== Big throwobject ====
+*Small Tux can not use it (because it can not carry).
+*Once it reaches the target or falls to the ground, broken into four small throwobjects the same type.
 
 == More badguy ideas ==
 
