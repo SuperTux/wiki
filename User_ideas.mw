@@ -1267,7 +1267,14 @@ You gain 10 coins.
 |-
 |}
 <small>''If someone suggests another form, you can add it to this table.''</small><br>
-Throwobject can pick up, point and throw it. If you do that, and hit into a badguy, so it dies. Throwobjects are large and small.
+Throwobject can pick up, point and throw it. If you do that, and hit into a badguy, so it dies. Throwobjects are '''big''' and '''small'''.
+<pre>
+(throwobject
+ (x <x-pos>)
+ (y <y-pos>)
+ (sprite "<sprite fileneme>")
+ (type <"big" or "small">))
+</pre>
 
 ==== Small throwobject ====
 *If you miss the target and falls to the ground, I can throw it more.
