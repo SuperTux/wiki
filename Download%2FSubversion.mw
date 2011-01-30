@@ -71,8 +71,12 @@ NOTE: THIS REPOSITORY IS NO LONGER MAINTAINED. NO NEW BUILDS WILL BE UPLOADED.
 If anyone else would like to take up this project, please feel free to do so. If you need help, contact me at stownsend42@sbcglobal.net
 
 == Debian Repository ==
+First add the public key to authenticate the repository by running the following:
+ <code>wget -q https://supertux.lethargik.org/apt/supertux.key -O- | sudo apt-key add -</code>
 
-Add <code>deb http://supertux.lethargik.org/apt VERSION contrib</code> to your repository sources, where VERSION is lenny/squeeze/sid or stable/testing/unstable. To authenticate the repository, run this command to get the public key: <code>wget -q https://supertux.lethargik.org/apt/supertux.key -O- | sudo apt-key add -</code>.
+Then add the following to your repository sources (/etc/fstab or your favorite editor)
+ <code>deb http://supertux.lethargik.org/apt VERSION contrib</code>
+Replace VERSION with your Debian version, e.g. lenny/squeeze/sid or stable/testing/unstable.
 
 == Gentoo Users ==
 If you would like to have a clean system-wide installation of the development version of supertux, you can grab the [http://ohnopub.net/hg/ohnobinki_overlay/file/tip/games-arcade/supertux live ebuild and patch]. If you need help using this, contact <tt>ohnobinki</tt> on [[Contact#IRC|<tt>#supertux</tt>]].
