@@ -1253,6 +1253,7 @@ As a bonus, gives a coin, but after the bump will disappear.
 ==== Ten-coin ====
 [[Image:10c-0.png]][[Image:10c-1.png]][[Image:10c-2.png]][[Image:10c-3.png]][[Image:10c-4.png]][[Image:10c-5.png]][[Image:10c-2.png]][[Image:10c-6.png]][[Image:10c-0.png]]<br>
 You gain 10 coins.
+:I think that for this, we should just copy the originals but in other color like argent, because it will be the same and diferent, when I play Supertux, I don't want to see text, just symbols, like a flower for the fire flower power ... --Ypetremann 18:26, 30 January 2011 (UTC)
 
 === Throwobject ===
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
