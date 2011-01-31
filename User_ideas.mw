@@ -1295,6 +1295,8 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 *Small Tux can not use it (because it can not carry).
 *Once it reaches the target or falls to the ground, broken into four small throwobjects the same type.
 
+=== Overload light ===
+
 == More badguy ideas ==
 
 * '''SpinningSnowball''': Just like the original except that it spins and throws off bits of snow at you.
