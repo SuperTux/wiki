@@ -1274,7 +1274,7 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 (throwobject
  (x <x-pos>)
  (y <y-pos>)
- (sprite "<sprite fileneme>")
+ (sprite <sprite fileneme>)
  (type <"big" or "small">))
 </pre>
 
