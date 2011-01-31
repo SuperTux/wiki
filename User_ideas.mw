@@ -1259,6 +1259,8 @@ You gain 10 coins.
 
 ==== Powerup: Gem ====
 [[Image:Gem_blue.png]][[Image:Gem_brown.png]][[Image:Gem_dark-green.png]][[Image:Gem_green.png]][[Image:Gem_grey.png]][[Image:Gem_lava.png]][[Image:Gem_lime.png]][[Image:Gem_pink.png]][[Image:Gem_purple.png]][[Image:Gem_red.png]][[Image:Gem_skyblue.png]][[Image:Gem_yellow.png]]<br>
+<small>''different colors of gems''</small><br>
+This is a powerup '''without any specific features''', allowing that their function  can not confused with something else. It would be appropriate if I want to do unusual powerup, which would call a different script than the usual like egg, fireflower ... and it wouldnt to powerup the confused with somewhat usunal. Gems could be a different color.
 
 === Throwobject ===
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
