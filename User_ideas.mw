@@ -1257,6 +1257,9 @@ As a bonus, gives a coin, but after the bump will disappear.
 You gain 10 coins.
 :I think that for this, we should just copy the originals but in other color like argent, because it will be the same and diferent, when I play Supertux, I don't want to see text, just symbols, like a flower for the fire flower power ... --Ypetremann 18:26, 30 January 2011 (UTC)
 
+==== Powerup: Gem ====
+[[Image:Gem_blue.png]][[Image:Gem_brown.png]][[Image:Gem_dark-green.png]][[Image:Gem_green.png]][[Image:Gem_grey.png]][[Image:Gem_lava.png]][[Image:Gem_lime.png]][[Image:Gem_pink.png]][[Image:Gem_purple.png]][[Image:Gem_red.png]][[Image:Gem_skyblue.png]][[Image:Gem_yellow.png]]<br>
+
 === Throwobject ===
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
 | Big || Small
