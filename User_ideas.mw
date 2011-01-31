@@ -1296,6 +1296,16 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 *Once it reaches the target or falls to the ground, broken into four small throwobjects the same type.
 
 === Overload light ===
+{| border=1
+| [[Image:Light000.jpg|100px]] || [[Image:Light0-50-50-5.jpg|100px]] || [[Image:Light0-51-51.jpg|100px]]
+| [[Image:Light1-51-51-5.jpg|100px]] || [[Image:Light1-511.jpg|100px]]
+|-
+| Ambient light 0;0;0 || Ambient light 0.5;0.5;0.5 || Ambient light 0.5;1.5;1 || Ambient light 1.5;1.5;1.5 || Ambient light 1.5;1;1 
+|-
+| [[Image:Light1-511-25.jpg|100px]] || [[Image:Light111.jpg|100px]] || [[Image:Light121.jpg|100px]] || [[Image:Light200.jpg|100px]] || [[Image:Light222.jpg|100px]] 
+|-
+| Ambient light 1.5;1;1.25 || Ambient light 1;1;1 || Ambient light 1;2;1 || Ambient light 2;0;0 || Ambient light 2;2;2 
+|}
 
 == More badguy ideas ==
 
