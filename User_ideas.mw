@@ -1262,9 +1262,20 @@ You gain 10 coins.
 <small>''different colors of gems''</small><br>
 This is a powerup '''without any specific features''', allowing that their function  can not confused with something else. It would be appropriate if I want to do unusual powerup, which would call a different script than the usual like egg, fireflower ... and it wouldnt to powerup the confused with somewhat usunal. Gems could be a different color.
 
-==== New property for powerup: flying ====
+==== New properties for powerup ====
+===== flying =====
 <nowiki>#</nowiki>t: PowerUp will float in the air.<br>
 <nowiki>#</nowiki>f: Poverup will lie on the ground and possibly fall.<br>
+===== stacking =====
+<pre>
+(stacking
+ (on_flying <boolean>)
+ (on_non_flying <boolean>))
+</pre>
+''on_flying''<br>
+Powerup can lie on anything else powerup with flying.<br>
+''on_non_flying''<br>
+Powerup can lie on anything else powerup withoult flying.<br>
 
 === Throwobject ===
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
