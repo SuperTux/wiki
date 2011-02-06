@@ -1390,6 +1390,25 @@ a foaming right/left edge of the water so you can make it so the water looks lik
 == New Tile Ideas ==
 === New Air Tiles ===
 [[Image:New_air_tiles.PNG]]
+=== Have an automatic mode in the editor ===
+Just draw in a tilemap where you want tux walk with a type of tile, where you want a tile apear but not walkable, and after, select a tile style and the editor will create the map with that it was maked. after you can have the ability to draw on ... 
+
+If the creator want to create with more than 1 type of tiles, just make 2 tilemap and apply them on one ...
+
+:Like the magic brush from supertux editor?
+::Oh sorry, I don't see it because I doesn't know how it run and that because I haven't any bruxh... But instead of changing 9 block that depending of 25 blocks ( because the blocks around the patern ), that has 33554432 possibility to resolve, just changing the center block that depend of 9 block, it will have just 512 paterns to resolve for a good look.
+
+=== Have a more complete tileset for each style of tiles ===
+I see that I can't do what I wan't in the editor because there are a lot of tiles that where not implemented Like in the image below 
+
+[[Image:Lost_tiles.png]]
+
+( the tile in the center don't corespond with the tile on the left )
+
+Here I make a lot of snow tiles that were not created. With it and with the originals you can make up to 512 paterns that 3x3 sized
+[[Image:Lost_Tiles_Snow.png]]
+
+--Ypetremann 13:00, 23 January 2011 (UTC)
 
 == Some badguys and objects ==
 
