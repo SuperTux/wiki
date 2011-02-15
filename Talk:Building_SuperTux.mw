@@ -13,3 +13,4 @@ It should be "emerge -avn subversion ftjam media-libs/openal physfs libsdl sdl-i
 == Debian ==
 
 In Debian, there is a package for Supertux 0.3.3. Using the command "apt-get build-dep supertux", one can install the libraries supertux depends on, which are exactly the ones used in the svn version. Using this command is simpler than to know which libraries are to install, which are already there on the system, how to compile them and so on. Couldn't edit, the article is locked.
+:Only locked for newly created accounts. Spam bots learned to register. :-( Anyway, which Debian version ships SVN snapshot instead of stable?
