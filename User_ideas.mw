@@ -1358,14 +1358,69 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 
 === New methods and properties ===
 ==== Globals ====
-*functions
+*methods
 :*get_pos_x(object)
 ::return the x-pos of target object
 :*get_pos_y(object)
 ::return the y-pos of target object
-*methods
 :*call_script(script)
 ::call target script
+==== Lantern ====
+*properties
+:*brightness
+::times the value of lightmap on site one tile away from lantern and color of lantern
+*methods
+:*get_color_red()
+::return red component of color of the lantern
+:*get_color_green()
+::return green component of color of the lantern
+:*get_color_blue()
+::return blue component of color of the lantern
+:*get_brightness()
+::return brightness of the lantern
+:*set_color(red,green,blue)
+::set color of the lantern
+:*float_to_color(red,green,blue)
+::float color of lantern to target
+:*set_brightness(brightness)
+::set brightness of the lantern
+:*float_to_brightness(brightness)
+::float brightness of lantern to target
+==== Candle ====
+*properties
+:*color
+::color of candle
+:*brightness
+::times the value of lightmap on site one tile away from lantern and color of lantern
+*methods
+:*get_color_red()
+::return red component of color of the lantern
+:*get_color_green()
+::return green component of color of the lantern
+:*get_color_blue()
+::return blue component of color of the lantern
+:*get_brightness()
+::return brightness of the lantern
+:*set_color(red,green,blue)
+::set color of the lantern
+:*float_to_color(red,green,blue)
+::float color of lantern to target
+:*set_brightness(brightness)
+::set brightness of the lantern
+:*float_to_brightness(brightness)
+::float brightness of lantern to target
+==== Willowisp ====
+*properties
+:*color
+::color of willowisp
+==== Kugelblitz ====
+*properties
+:*lenght_of_live
+::lenght of kugelblitz's live
+==== Spidermite ====
+*properties
+:*radius
+::radius, where spidermite stay
 
 == More badguy ideas ==
 
