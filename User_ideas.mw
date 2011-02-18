@@ -1360,12 +1360,12 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 ==== Globals ====
 *functions
 :*get_pos_x(object)
-::*return the x-pos of target object
+::return the x-pos of target object
 :*get_pos_y(object)
-::*return the y-pos of target object
+::return the y-pos of target object
 *methods
 :*call_script(script)
-::*call target script
+::call target script
 
 == More badguy ideas ==
 
