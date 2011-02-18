@@ -1426,6 +1426,11 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 :*radius
 ::radius, where spidermite stay
 === Laser ===
+[[Image:Laser.png|200px|thumb|left|laser]]
+[[Image:Laser-light.png|200px|thumb|left|laser-light]]
+Not a laser, as you might think. This laser can not hurt anyone and always lights up. Lights are still in one direction and the beam ends where the wall stops. Bonus blocks laser beam can pass too. It also has the ability to light up the magic blocks.
+<!-- your comments -->
+<br clear=all>
 
 == More badguy ideas ==
 
