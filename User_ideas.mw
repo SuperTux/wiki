@@ -1356,6 +1356,17 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 | Ambient light 1.5;1;1.25 || Ambient light 1;1;1 || Ambient light 1;2;1 || Ambient light 2;0;0 || Ambient light 2;2;2 
 |}
 
+=== New methods and properties ===
+==== Globals ====
+*functions
+:*get_pos_x(object)
+::*return the x-pos of target object
+:*get_pos_y(object)
+::*return the y-pos of target object
+*methods
+:*call_script(script)
+::*call target script
+
 == More badguy ideas ==
 
 * '''SpinningSnowball''': Just like the original except that it spins and throws off bits of snow at you.
