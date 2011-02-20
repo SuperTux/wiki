@@ -31,10 +31,16 @@ You have two options:
 ===What do I need to compile supertux-editor SVN edition?===
 You first need the supertux-editor package from the [[Download/Subversion|Subversion Repository]].
 
-The following packages are required by the SVN supertux-editor:
+The following packages are required by the SVN supertux-editor at runtime and buildtime:
 *gtk-sharp
 *glade-sharp
 *mono
+
+The following packages are only needed at runtime:
+*libsdl
+*sdl-image
+*opengl
+*glu
 
 Unix-specific dependencies:
 *make
