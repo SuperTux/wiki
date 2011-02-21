@@ -74,7 +74,7 @@ Normally, when you keep running in the same direction, Tux will go faster and ju
 After picking up the [[Fireflower]], Tux will throw little fireballs when the Action button is pressed. Most badguys can be knocked off the screen by hitting them with a fireball. Also, special "straw" blocks can be set on fire by hitting them with a fireball, revealing areas with special items or opening a shortcut '''(SuperTux 0.3 only)'''.
 
 === Iceballs (SuperTux 0.3.1 and later) ===
-Similarly, as the Fireballs, but objects to which it hits the freeze. It works only on "mrbomb", "Jump ", "Spike", "fish", "Haywire". It happens the same when they fall "stalactite".
+Similarly, as the Fireballs, but objects to which it hits the freeze. It works only on "mrbomb", "Jump ", "Spiky", "fish", "Haywire". It happens the same when they fall "stalactite".
 
 === Butt Stomp (SuperTux 0.3.3 and later) ===
 Only Big and Fire Tux have this ability. When in the air, press the Duck key to perform a Butt Stomp. Tux can use it to break wooden crates from above and defeat certain badguys that are not harmed by a normal jump.
