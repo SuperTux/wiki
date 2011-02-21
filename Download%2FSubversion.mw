@@ -80,10 +80,40 @@ Replace VERSION with your Debian version, e.g. lenny/squeeze/sid or stable/testi
 
 Finally, install the "supertux-svn" package.
 
-== Gentoo Users ==
-If you would like to have a clean system-wide installation of the development version of supertux, you can grab the [http://ohnopub.net/hg/ohnobinki_overlay/file/tip/games-arcade/supertux live ebuild and patch]. If you need help using this, contact <tt>ohnobinki</tt> on [[Contact#IRC|<tt>#supertux</tt>]].
+== Gentoo Linux ==
+If you have any problems with supertux on [http://gentoo.org/ Gentoo] or trouble understanding the instructions below, please contact <tt>binki</tt> on [[Contact#IRC|<tt>#supertux</tt>]]. He'll be glad to help if he can and to know that his ebuilds are useful ;-).
 
-If you have layman set up, you may just [http://ohnopub.net/~ohnobinki/gentoo grab my overlay] although it includes just a few other things than the live supertux ebuild.
+=== Get the Overlays ===
+
+To install the latest and greatest development versions of supertux and supertux-editor, please grab [http://ohnopub.net/~ohnobinki/gentoo#overlay my overlay]. It includes a few other things than the live supertux ebuild, but if you're not running ~arch (you'll know if you are) this shouldn't affect your Gentoo installation. If you have any issues with the overlay itself, just contact <tt>binki</tt> or [https://ohnopub.net/bugzilla/enter_bug.cgi?product=ohnobinki_overlay file a bug]. To install my overlay, first set up layman. Make sure that the <code>subversion</code> and <code>mercurial</code> useflags are set in <code>/etc/make.conf</code> before emerging layman:
+
+ <code><nowiki>emerge -va layman</nowiki></code>
+
+After layman is installed, it should print out instructions for modifying your <code>make.conf</code>. This will enable portage to see ebuilds in layman-managed overlays. Recent versions of layman will suggest to add something lik the following to <code>make.conf</code>:
+
+ <code><nowiki>source /var/lib/layman/make.conf</nowiki></code>
+
+Then, install the overlays. SuperTux and its dependencies are spread between my overlay and the somewhat more official [http://overlays.gentoo.org/proj/sunrise Sunrise User Overlay].
+
+ <code><nowiki>layman -f -a ohnobinki -a sunrise</nowiki></code>
+
+=== Unmask and Emerge ===
+
+Then, add the necessary package (dependencies of supertux and supertux itself) to <code>/etc/portage/package.keywords</code>. If <code>package.keywords</code> doesn't exist, you may create it in <code>/etc/portage</code>. Deposit the following lines into this file:
+
+ <code><nowiki>dev-libs/findlocale
+dev-libs/tinygettext
+games-arcade/supertux
+dev-games/supertux-editor</nowiki></code>
+
+Now just emerge supertux and/or supertux-editor :-)
+
+ <code><nowiki>emerge -va supertux supertux-editor</nowiki></code>
+
+If you are brave and want builds straight from SVN, place <code>**</code> after the supertux and supertux-editor packages in <code>package.keywords</code>:
+
+ <code><nowiki>games-arcade/supertux **
+dev-games/supertux-editor **</nowiki></code>
 
 [[Category:Development]]
 [[Category:Meta]]
