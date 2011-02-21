@@ -84,7 +84,7 @@ Only Big and Fire Tux have this ability. Hold down the Duck key, then press Jump
 
 === Carrying Objects ===
 [[Image:needrock.png|left]]
-Some objects Tux comes across can be picked up and carried around. This includes a squished [[MrIceBlock|Mr. IceBlock]] ('''SuperTux 0.1''' and '''SuperTux 0.3'''), a [[Rock]] ('''SuperTux 0.3''') and a [[Trampoline]] ('''SuperTux 0.3''').
+Some objects Tux comes across can be picked up and carried around. This includes a squished [[MrIceBlock|Mr. IceBlock]] ('''SuperTux 0.1''' and '''SuperTux 0.3'''), a [[Rock]] ('''SuperTux 0.3'''), a [[Trampoline]] ('''SuperTux 0.3''') and a [[MrBomb|Mr. Bomb]] ('''SuperTux 0.3.3''')
 
 To pick a portable object up, hold down the Action button and walk into the object. Tux will then carry the object as long as the Action button is held down.
 
