@@ -1387,12 +1387,13 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 ::return brightness of the lantern
 :*set_color(red,green,blue)
 ::set color of the lantern
-:*float_to_color(red,green,blue)
+:*float_to_color(red,green,blue,time)
 ::float color of lantern to target
 :*set_brightness(brightness)
 ::set brightness of the lantern
-:*float_to_brightness(brightness)
+:*float_to_brightness(brightness,time)
 ::float brightness of lantern to target
+
 ==== Candle ====
 *properties
 :*color
