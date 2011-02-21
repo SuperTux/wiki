@@ -1165,6 +1165,12 @@ Unless you leave the game running while you go out and work in the yard, there w
 === Flame sprite ===
 I think that the current flame sprite sucks. I've designed a new one, maybe this could also be used as a meterorite.
 [[Image:Newflame.png|thumb|right|300px|Possible new flame sprite]]
+:I think it's a bad idea for three reasons:
+:*'''Flame''' is always '''flame''' and never can be meteorite.
+:*If the flame should have a tail, the flame would have to draw on all angles.
+:*That's how you drew it looks weird.
+<!--insert your comments here-->
+<br clear=all>
 
 === Own Sketches ===
 
