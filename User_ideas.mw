@@ -1466,7 +1466,7 @@ This would reflect all the light produced from the objects away. Some mirrors Tu
 </pre>
 
 === restart level ===
-It would be good if in pause can restart the level. Sometimes it happens that we commit a fatal mistake and turn off and re-on level it takes too long and it's very frustrating. It would also be good if holding down the "v" rewind all the action back and Tux would it cost coins, but it was not rewind more than 10 seconds.
+It would be good if in pause can restart the level. Sometimes it happens that we commit a fatal mistake and turn off and re-on level it takes too long and it's very frustrating. It would also be good if holding down the "v" rewind all the action back and Tux would it cost coins, but it was not rewind more than 10 seconds. Action "rewind" could call with script "Rewind (seconds);".
 
 == More badguy ideas ==
 
