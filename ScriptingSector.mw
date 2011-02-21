@@ -13,6 +13,9 @@ An instance under sector.settings is available from scripts and the console.
 |-
 ! class="method" style="vertical-align: top"| set_ambient_light(float red, float green, float blue)
 | Sets the sector's ambient light to the specified color.
+|-
+! class="method" style="vertical-align: top"| set_gravity(float gravity)
+| Sets the sector's gravity.
 |}
 
 == Constants ==
