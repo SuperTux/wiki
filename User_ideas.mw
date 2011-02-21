@@ -1369,6 +1369,9 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 ::return the y-pos of target object
 :*call_script(script)
 ::call target script
+:*create_object(type,properties)
+::create a object
+
 ==== Lantern ====
 *properties
 :*brightness
