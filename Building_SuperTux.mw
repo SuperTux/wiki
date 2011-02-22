@@ -40,6 +40,10 @@ and (if you want the Add-on Manager)
  apt-get install libcurl3-dev
 to install them.
 
+== Ubuntu ==
+If you use Ubuntu 10.04 or newer, you can install the libraries very simply:
+ apt-get build-dep supertux
+
 == Gentoo ==
 Gentoo users should run
  emerge -avn subversion ftjam media-libs/openal physfs libsdl sdl-image libvorbis libogg
