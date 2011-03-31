@@ -216,9 +216,6 @@ If any of the above didn't solve the problem and you manage to recreate the erro
 *What versions of mono, the editor itself, GTK and GTK# that you use
 These types of bugs can not be solved without that info (and sometimes we might need more details than that, so please check back at the bug once day or so if there is any more info asked for).
 
-===Can the editor be run with Wine?===
-
-Unfortunately, since it needs mono/GTK, that would be pretty hard. The editor relies on some programs, so it could not be without manually installing the components.
 [[Category:Development]]
 [[Category:For Users]]
 [[Category:FAQs]]
