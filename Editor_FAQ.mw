@@ -190,6 +190,10 @@ Yes, it does, but the setup is complex; you will have to do the following:
 
 Since the Mono project doesn't pre-package Gtk# and its dependencies with the OS X installer, we are unable to provide a nice editor package. Additionally, we offer no official support, so no one might be able to help you on the mailing list if the editor crashes due to an OS X-specific problem.
 
+===Can the editor be run with Wine?===
+
+Unfortunately, since it needs mono/GTK, that would be pretty hard. The editor relies on some programs, so it could not be without manually installing the components.
+
 === Does the editor work under Microsoft Windows Vista? ===
 Yes, but it requires a complete setup. you will have to compile some GTK# programs amongst other things. We are able to provide a package.
 
