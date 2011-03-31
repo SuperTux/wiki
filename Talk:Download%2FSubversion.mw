@@ -16,3 +16,7 @@ Just asking: are there any plans to include Supertux SVN PPA repository also for
 == SVN Help! ==
 
 How do I build the SVN editor version?
+# Check out as described on http://supertux.lethargik.org/wiki/Svn
+# Read [http://supertux.lethargik.org/svn/supertux/trunk/supertux/INSTALL INSTALL] which comes with the files you just checked out
+# ???
+# Play supertux.
