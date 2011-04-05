@@ -19,6 +19,8 @@ To disable or enable the console if you don't want to pass command line paramete
 | align="left" | Mac OS X         || align="left" | ~/Library/Application Support/SuperTux/config.txt
 |-
 | align="left" | Mac OS X Leopard || align="left" | ~/.supertux2/config
+|-
+| align="left" | Mac OS X Leopard (Wine) || align="left" | ~/Library/Application Support/Wine/Prefixes/drive_c/Program FIles/(Name of your Supertux)/.supertux2/config
 |}
 
 You may have to enable viewing hidden files or folders.
