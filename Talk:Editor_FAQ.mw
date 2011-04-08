@@ -113,3 +113,4 @@ Hello, It seems that I'm missing some DLL files for the editor. One of them is G
 
 When he looked jesm editor-in help how to use brushes, I found there that I find the brushes in the "trunk / SuperTux-sharp / data / brushes". What nonsense! This folder doesn't exist! Moreover, it will not know the structure of the file, so I do not know what to do! Can I at least know the structure of the document, as I saw it in a text editor, so I could make a brush?
 --[[User:Hume|Hume]] 09:48, 23 January 2011 (UTC)
+Hmm. Maybe you could search your computer to try to find them? DOwnloading the source of a windows version might help... [[User:Monster|Monster]] 23:43, 8 April 2011 (UTC)
