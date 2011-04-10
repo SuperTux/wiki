@@ -155,9 +155,4 @@ My improved version of the Bonusisland1:[http://supertux.lethargik.org/bugs/view
 <!--Your votes--><br>
 
 == Forbidden (ViewVC) ==
-When you try to go to ViewVC, you get this error:
-Forbidden
-
-You don't have permission to access /viewvc/viewvc.cgi/trunk/supertux/ on this server.
-
-Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.
+When you try to go to ViewVC, you get this error: Forbidden You don't have permission to access /viewvc/viewvc.cgi/trunk/supertux/ on this server. Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request. Is there a way that the problem should be fixed? --[[Special:Contributions/121.164.146.45|121.164.146.45]] 21:26, 10 April 2011 (UTC)
