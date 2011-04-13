@@ -28,3 +28,5 @@ http://www.filedropper.com/supertux033b_1 Mirror 1 from FileDropper Last SVN Upd
 ===Updating the SVN===
 
 Easy-Download from http://supertux.lethargik.org/svn/supertux/trunk/supertux with some sort of SVN downloader thingy. I use Tortoise SVN, so you can try that. Then, put the data folder in: "users/(Your Profile)/Library/Application Support/Wine/Prefixes/Supertux 0.3.3b" and replace. (I honestly don't know what the other folders do) Tip: Don't go through the whole process that often. maybe once every two-three weeks.
+
+Thank you and enjoy! [[User:Monster|Monstertux]] 20:58, 13 April 2011 (UTC)
