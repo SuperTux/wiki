@@ -115,6 +115,10 @@ If you are brave and want builds straight from SVN, place <code>**</code> after 
  <code><nowiki>games-arcade/supertux **
 dev-games/supertux-editor **</nowiki></code>
 
+===Getting the SVN for mac===
+
+I have provided a link to download packaged SVN builds for mac: http://supertux.lethargik.org/wiki/Download/Supertux_SVN_Version_Mac [[User:Monster|Monstertux]] 21:03, 13 April 2011 (UTC)
+
 [[Category:Development]]
 [[Category:Meta]]
 [[Category:SuperTux]]
