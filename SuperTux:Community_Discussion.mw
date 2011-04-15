@@ -157,3 +157,6 @@ If you visit this page, you get the following error: APPLICATION ERROR #200 A re
 
 == Forbidden (ViewVC) ==
 When you try to go to ViewVC, you get this error: Forbidden You don't have permission to access /viewvc/viewvc.cgi/trunk/supertux/ on this server. Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request. Is there a way that the problem should be fixed? --[[Special:Contributions/121.164.146.45|121.164.146.45]] 21:26, 10 April 2011 (UTC)
+
+Here is the link.
+http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ --[[Special:Contributions/121.164.146.45|121.164.146.45]] 07:11, 15 April 2011 (UTC)
