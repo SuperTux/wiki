@@ -2,7 +2,7 @@
 
 ===About:===
 
-The SVN version of Supertux is also available for download for Leopard in an easy-to-use installer. Currently, The installer is not available, but the application is included. The Installer will be included in a later release. The version of supertux uses a program for macintosh intel only called Wine. It uses the intel chip to process windows applications. Don't worry, Wine is included within the file. There are easy steps.
+The SVN version of Supertux is also available for download for Leopard in an easy-to-use installer. Currently, The installer is not available, but the application is included. The Installer will be included in a later release. The version of supertux uses a program for macintosh intel ""or windows"" only called Wine. It uses the intel chip to process windows applications. Don't worry, Wine is included within the file. There are three easy steps for mac.
 1. Download.
 2. Move to a suitable spot
 3. Open!
@@ -20,7 +20,9 @@ To download the game you need the following items.
 •Apple's X11
 •Mac OSX 10.5 or later
 •At least 350 Megabytes of hard drive space
-
+•I've tested it on my iMac, which has 1920 1200 resolution.
+Or for windows:
+Windows XP for best results. the executable is in <code>/Users/Robert/Supertux 0.3.3b.app/Contents/Resources/drive_c/Program Files/SuperTux 0.3.3/supertux2.exe</code>
 ===Download Link===
 
 http://www.filedropper.com/supertux033b_1 Mirror 1 from FileDropper Last SVN Update: March 28
@@ -52,3 +54,15 @@ I don't know of anything else...
 READ '''ALL''' OF THE FOLLOWING!
 
 Go to [this page]http://supertux.lethargik.org/wiki/index.php?title=Download/Supertux_SVN_Version_Mac/Bugs] '''and go to the "Discussion" area and add a new post.'''
+
+===The game briefly launches (If at all) and quits===
+
+This is a common problem for non iMac users.
+
+I am hard at work trying to fix the bug. Sorry!
+
+===What will be new in the May 1st (1.1) svn version?===
+
+-For game specific answers, ask the Supertux dev team.
+
+-Installer
