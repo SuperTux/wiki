@@ -203,6 +203,7 @@ Yes, but it requires a complete setup. you will have to compile some GTK# progra
 ===SuperTux is slow when I test my level===
 
 Very common. You just need to make sure your out of the "Node Editor" and switch to the tile editor.
+:There is no bug report about this so called "common problem". Works fine on all systems I know about.
 
 == Bugs and Errors ==
 {{Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]}}
