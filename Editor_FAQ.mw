@@ -194,6 +194,7 @@ Since the Mono project doesn't pre-package Gtk# and its dependencies with the OS
 
 Unfortunately, since it needs mono/GTK, that would be pretty hard. The editor relies on some programs, so it could not be without manually installing the components.
 :Why run it in wine? Mono binaries run natively on Linux, too. Don't be confused by the .exe extension, just run it.
+:Because is really hard to run with mac without it. I would be nice just to be able to open it, no building necessary. [[Special:Contributions/173.55.240.235|173.55.240.235]](Monstertux)
 
 === Does the editor work under Microsoft Windows Vista? ===
 Yes, but it requires a complete setup. you will have to compile some GTK# programs amongst other things. We are able to provide a package.
