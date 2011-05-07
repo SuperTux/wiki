@@ -205,6 +205,7 @@ Yes, but it requires a complete setup. you will have to compile some GTK# progra
 
 Very common. You just need to make sure your out of the "Node Editor" and switch to the tile editor.
 :There is no bug report about this so called "common problem". Works fine on all systems I know about.
+:Well you must not have tested with the 0.3.0 mono one then. Its fine with the net version.
 
 == Bugs and Errors ==
 {{Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]}}
