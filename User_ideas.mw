@@ -1494,6 +1494,11 @@ This would reflect all the light produced from the objects away. Some mirrors Tu
 === restart and rewind level ===
 It would be good if in pause can restart the level. Sometimes it happens that we commit a fatal mistake and turn off and re-on level it takes too long and it's very frustrating. It would also be good if holding down the "v" rewind all the action back and Tux would it cost coins, but it was not rewind more than 10 seconds. Action "rewind" could call with script "Rewind (seconds);".
 
+=== Extro in IcyIsland ===
+When you solve level "The castle of Nolok" Tux remains in place and nothing happens to him. Therefore I suggest: Tux roots and blooms there.<br>
+[[Image:Stand-0.png]]<big><big><big>'''-->'''</big></big></big>[[Image:Root-0.png]][[Image:Root-1.png]][[Image:Root-2.png]][[Image:Root-3.png]][[Image:Bloom-0.png]][[Image:Bloom-1.png]][[Image:Bloom-2.png]][[Image:Bloom-3.png]]<br>
+<small>''Think it as a joke but not as an insult. I want to point out on this error, which should be solved. This error should be solved in another way than this.''</small>
+
 == More badguy ideas ==
 
 * '''SpinningSnowball''': Just like the original except that it spins and throws off bits of snow at you.
