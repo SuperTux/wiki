@@ -16,3 +16,15 @@ only for SuperTux
 * Use scripts.
 * Add some bonus-levels to your worldmap.
 * Make multi-sector levels.
+
+== SuperTux critics ==
+# IcyIslan - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms there?
+# Water in 0.3.0: When you jump into the water splash sounds. Water in 0.3.3: The effect was deleted. Why??
+# When I go to the end of the level and try to get out of level, Tux is moving a bit beyond the level.
+# The result of burning wood is ash, but not fall below the screen.
+# Lot of test levels are unfinishable.
+# Level "Easter egg demo": The secret area has a parameter "message", but it does not work.
+# The hitbox of plant is wrong.
+# Smoke effects was removed. Why??
+# I do not like using nicknames for badguys. Correct names are those which are listed below in SuperTux levels.
+# There are unused badguys.
