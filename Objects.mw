@@ -72,27 +72,47 @@ The following objects are available in the 0.3.x release or have been committed 
 The following objects can actually be generated with ''ObjectFactory'', i.e. from within a level:
 
 * ambient_sound
+* angrystone
 * background
 * bicycle-platform
 * bonusblock
+* bouncingsnowball
 * candle
+* captainsnowball
 * coin
 * climbale
+* crystallo
 * decal
 * door
+* dispenser
 * explosion
+* fish
 * firefly
+* flame
+* flyingsnowball
+* ghosttree
 * gradient
+* haywire
 * hurting_platform
 * icecrusher
+* igel
 * infoblock
 * invisible_wall
 * ispy
+* jumpy
+* kamikazesnowball
+* kugelblitz
 * lantern
 * leveltime
 * magicblock
+* mole
+* mrbomb
+* mriceblosk
+* mrtree
+* plant
 * platform
 * pneumatic-platform
+* poisonivi
 * powerup
 * pushbutton
 * rock
@@ -100,14 +120,29 @@ The following objects can actually be generated with ''ObjectFactory'', i.e. fro
 * scripttrigger
 * secretarea
 * sequencetrigger
+* skullyhop
+* skydive
+* smartball
+* snail
+* snowball
+* snowman
+* spidermite
+* spiky
 * spotlight
+* stalactite
 * switch
 * thunderstorm
 * tilemap
+* toad
+* totem
 * trampoline
 * unstable_tile
+* valkingleaf
 * weak_block
+* willowisp
 * wind
+* yeti
+* zeekling
 
 == Proposed objects ==
 
