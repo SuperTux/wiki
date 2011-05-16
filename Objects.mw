@@ -1,5 +1,5 @@
 :''This page lists the available objects in the game. For a description of the ''implementation'' see [[Game object]].''
-'''object''' is anything that can contain [[sector]] and it has its position.
+'''object''' is anything that can contain [[sector]] and it has its position. '''Tiles''' aren't '''Objects'''!
 == Nicknames of objects and unexisting objects ==
 
 The following objects are available in the 0.3.x release or have been committed to the [[SVN]] repository.
