@@ -77,7 +77,9 @@ The following objects can actually be generated with ''ObjectFactory'', i.e. fro
 * bonusblock
 * candle
 * coin
+* climbale
 * decal
+* door
 * explosion
 * firefly
 * gradient
@@ -95,20 +97,17 @@ The following objects can actually be generated with ''ObjectFactory'', i.e. fro
 * pushbutton
 * rock
 * scriptedobject
-* skull_tile
+* scripttrigger
+* secretarea
+* sequencetrigger
 * spotlight
+* switch
 * thunderstorm
 * tilemap
 * trampoline
 * unstable_tile
 * weak_block
 * wind
-* climbable
-* door
-* scripttrigger
-* secretarea
-* sequencetrigger
-* switch
 
 == Proposed objects ==
 
