@@ -175,7 +175,7 @@ Tiles can have the following attributes:
 |-
 | ice
 | <code>0x0100</code>&nbsp;/ 256
-| the tile will be slippery ''(currently not implemented)''
+| the tile will be slippery 
 |
 |-
 | water
