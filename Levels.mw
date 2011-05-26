@@ -1,1 +1,29 @@
-Vandalized.
+If you have created your own levels, and wish to release them, then you can place a link here. Alternately, follow the guide at [[Contributing]] if you want them to be in the main game.
+
+== Icy Island ==
+
+The following levels are currently part of [[Icy Island]].
+{{Level list Icy Island}}
+
+== Incubator Island ==
+: ''→ See also: [[Incubator Island]]''
+
+In the [[SVN]] version, there is a special island, [[Incubator Island]]. In this world are brand new levels that we plan to include in the main level set once they are "ready", i.e. well tested and fun to play. You can actually help us by playing those levels and giving us feedback about them.
+
+== Third-party levels ==
+
+=== Add-ons ===
+: ''→ See also: [[Add-ons]]''
+
+The development version has the ability to automatically download some specially packaged levels, known as "[[add-ons]]". Simply ensure you have an internet connection, and select "Addons" from the main menu, where you can choose to install the currently available add-ons.
+
+=== External links ===
+
+* [http://www.beige-box.com/supertux/pml.html SuperTux Fan Site Levels]
+* [http://shygypsy.com/supertux/ Abednego's Levels - Trot like a Fox]
+* [http://www.christian-schaefers.de/files/Tux_Strikes_Back.zip Tux Strikes Back]
+* [http://malfela.blogspot.com/2008/02/malfela-supertux-world.html Malfela SuperTux World]
+* [http://i1.dk/download/supertux-levels/ Snowball Attack]
+* http://verplant.org/supertux/ &ndash;&nbsp;Levels for the latest [[SVN]] version by [[User:Octo|octo]].
+
+[[Category:For Users]]
