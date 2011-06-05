@@ -26,3 +26,9 @@ Kill yourself several times. When you have 0 lives, get killed once again and qu
 
 I use SuperTux 0.1.3 for openSUSE [[User:83.23.221.174|83.23.221.174]] 12:05, 1 November 2007 (UTC)
 :See [[OldBugs]]; this has been reported many times.
+
+==V.0.3.3 on GoogleCode==
+Could you please check the win32 0.3.3 binarys? Security Essentials says it's a backdoor!
+
+http://code.google.com/p/supertux/downloads/detail?name=supertux-0.3.3b-win32.exe
+http://www.microsoft.com/security/portal/Threat/Encyclopedia/Entry.aspx?name=Backdoor%3aWin32%2fBisar!rts&threatid=2147625172
