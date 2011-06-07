@@ -29,3 +29,5 @@ How do you install SVN ?
 
 On ubuntu.
 sudo apt-get install svn
+:Actually, if I remember correctly the command is:<br>'''<nowiki>sudo apt-get install subversion</nowiki>'''
+: -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 03:03, 7 June 2011 (UTC)
