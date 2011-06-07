@@ -6,7 +6,7 @@ This is by far the most frequently asked question of all, and the answer is simp
 
 Honestly, we don't have a release date yet. Just like many of you, we'd like to see SuperTux finished and released to the public as soon as possible, but since we all are busy with other, probably less interesting things, the amount of time we are able to put into this game is limited. Please be patient.
 
-=== When will Milestone 3 be released? ===
+== When will Milestone 3 be released? ==
 
 We plan to release the Linux version on 2038-11-30. Not sure if we
 will do a GNU Hurd version by then, too. The schedule is a bit
@@ -16,16 +16,16 @@ sketchy right now.
 
 Most information on these Wiki pages is about what's new in SuperTux 0.3. Just browse around, and feel free to add your own ideas. :-)
 
-=== How do I use SDL in the development version? ===
+== How do I use SDL in the development version? ==
 OpenGL was and is the current default renderer. However, 0.3.1 added in support for multiple renderers. The command line option <code>--renderer&nbsp;sdl</code> will use the SDL renderer. Note that this is usually slower and does not display some images/levels correctly.
 
-=== How do you get to or past level x? ===
+== How do you get to or past level x? ==
 Please see [[SuperTux FAQ/Spoilers]].
 
-=== How do I create levels in 0.3.x? ===
+== How do I create levels in 0.3.x? ==
 The level editor was removed (again), but you can now use the C# editor instead, which is distributed as a separate package. See [[Editor FAQ]] for some hints on how to use it. You can also create levels in 0.1.3 and play them in 0.3.x.
 
-=== Why is 0.3.1 considered unstable? ===
+== Why is 0.3.1 considered unstable? ==
 Please read the [[Versioning scheme]]. It clearly states that all odd release branches are unstable development versions. Now, as to why there isn't a 0.4.x release...
 
 == SuperTux 0.3.1? 0.1.3? Subversion? ==
@@ -90,8 +90,6 @@ The old Forest world is still included in the ''0.3.2'' version, but it's no lon
 [[Category:FAQs]]
 __NEWSECTIONLINK__
 
-== Can I use the svn version for macintosh intel? ==
+== Can I use the SVN version for Intel Macintoshes? ==
 
 Yes you can! go to this link: http://supertux.lethargik.org/wiki/Download/Supertux_SVN_Version_Mac And follow the instructions.
-
-FAQ Answer by [[User:Monster|Monstertux]] 20:57, 13 April 2011 (UTC)
