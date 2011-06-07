@@ -20,12 +20,9 @@ Oh, and if your level is good enough, the third party fansite would ask you if t
 ===How do I install the new supertux-editor?===
 You have two options:
 # From source through [[Download/Subversion|Subversion]].
-## Choose the supertux-editor URL from the [[Download/Subversion#Locations inside the Subversion repository|listing]] and checkout the repository.
- svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux-editor
+## Choose the supertux-editor URL from the [[Download/Subversion#Locations inside the Subversion repository|listing]] and checkout the repository:<br>'''<nowiki>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux-editor</nowiki>'''
 ## Install the development versions of the [[#What do I need to compile supertux-editor SVN edition.3F|necessary dependencies]]. This requires you to know methods appropriate to your distribution or operating system.
-## Compile:
- cd supertux-editor
- make
+## Compile:<br>'''cd supertux-editor'''<br> '''make'''
 # From a [[Download#Level Editor|binary package]] by MMlosh or for your distribution.
 
 ===What do I need to compile supertux-editor SVN edition?===
