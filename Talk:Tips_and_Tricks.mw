@@ -1,3 +1,4 @@
+== Update ==
 Hi!
 
 I've tried both configurations and to get sound in game I have to change "output" to "dmixer" in first example. It seems, that it depends on asound configuration and so on distro. I suggest to upgrade this page.
