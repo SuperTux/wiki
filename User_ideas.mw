@@ -1503,6 +1503,247 @@ When you solve level "The castle of Nolok" Tux remains in place and nothing happ
 
 === Definition of own objects ===
 
+I thought it should be possible to define custom objects without building SuperTux. Writing in the level would look like this:
+<pre>
+(own_object
+ (object "path of object")
+ (object_parameters /value/)
+; next parameters
+)
+</pre>
+Objects should be located in their own files. That might look like their template:
+<pre>
+;SuperTux-object
+(object
+ (type "my_object")
+ (area /bool area/)
+ (sprite "default_sprite_path")
+ (solid /bool solid/)
+ (platform_solid /bool solid/)
+ (lightmap /bool drawing on lightmap/)
+ (carryable /bool carryable/)
+ (properties
+  (my_propery /default value/)
+;  next properties
+ )
+ (local-variables
+  (my_variable /default value/)
+;  next variables
+ )
+ (timers
+  (timmer
+   (name "my_timer")
+   (time /secounds per actions/)
+   (enabled /bool enabled/)
+   (script "//script_of_timmer")
+  )
+;  next timers
+ )
+ (events
+  (event
+   (name "action")
+   (enabled /bool_enabled/)
+   (script "//script_of_event")
+  )
+;  next events
+ )
+ (methods
+  (method
+   (name "my_method")
+   (parameters "my_parameter" "next_parameter" "etc")
+   (local /bool/)
+   (returns "type")
+   (script "//script_of_method")
+  )
+;  next methods
+ )
+ (private_objects
+;  definition of private objects
+ )
+)
+</pre>
+names of events:
+*on_jump_on
+*on_jump_in
+*on_jump_to
+*on_jump_out
+*on_butt_jump_on
+*on_butt_jump_in
+*on_butt_jump_to
+*on_butt_jump_out
+*on_cheer_on
+*on_cheer_in
+*on_cheer_to
+*on_cheer_out
+*on_enter_top
+*on_enter_left
+*on_enter_right
+*on_enter_bottom
+*on_action
+*on_collision_left
+*on_collision_right
+*on_collision_bottom
+*on_grab
+*on_move
+*on_relase
+*on_ground_under
+*on_hole_under
+*on_wall_left
+*on_wall_right
+*on_ceiling_top
+*on_last_tile_left
+*on_last_tile_right
+*on_deep_hole_left
+*on_deep_hole_right
+
+automaticaly properties:
+*for area objects:
+**x
+**y
+**width
+**height
+*for non-area objects:
+**x
+**y
+
+Timmer repeats the same script after a certain time.
+
+methods for events and timmers:
+*enable()
+*disable()
+*play()
+
+As an example I present here the definition of snowball:
+<pre>
+;SuperTux-object
+(object
+ (type "snowball")
+ (area #f)
+ (sprite "images/creatures/snowball/snowball.sprite")
+ (solid #f)
+ (platform_solid #t)
+ (lightmap #f)
+ (carryable #f)
+ (properties
+  (dirrection "left")
+ )
+ (local-wariables
+  (squished #f)
+  (fall_speed 0)
+ )
+ (timers
+  (timmer
+   (name "walking")
+   (time 0.1)
+   (enabled #t)
+   (script "if (dirrection == \"left\"){
+             object.pos.x <- object.pos.x - 1;
+            }else{
+             object.pos.x <- object.pos.x + 1;
+            }
+           "
+   )
+  )
+  (timmer
+   (name "falling")
+   (time 0.1)
+   (enabled #f)
+   (script "object.fall_speed <- object.fall_speed + object.settings.gravity;
+            object.pos.y <- object.pos.y + object.fall_speed;
+            if (object.pos.y > sector.height){
+             object.delete();
+            }
+           "
+   )
+  )
+ )
+ (events
+  (event
+   (name "on_wall_left")
+   (enabled #t)
+   (script "if (dirrection == \"left\"){
+             object.properties.dirrection <- \"right\"
+            }
+           "
+   )
+  )
+  (event
+   (name "on_wall_right")
+   (enabled #t)
+   (script "if (dirrection == \"right\"){
+             object.properties.dirrection <- \"left\"
+            }
+           "
+   )
+  )
+  (event
+   (name "on_collision_left")
+   (enabled #t)
+   (script "Tux.shirk;")
+  )
+  (event
+   (name "on_collision_right")
+   (enabled #t)
+   (script "object.events.on_collision_left.play();")
+  )
+  (event
+   (name "on_collision_bottom")
+   (enabled #t)
+   (script "object.events.on_collision_left.play();")
+  )
+  (event
+   (name "on_jump_on")
+   (enabled #t)
+   (script "object.sprite.action <- \"squished\";
+            object.methods.disable_solid();
+           "
+   )
+  )
+  (event
+   (name "on_butt_jump_on")
+   (enabled #t)
+   (script "object.events.on_jump_on.play();")
+  )
+  (event
+   (name "on_fire")
+   (enabled #t)
+   (script "object.methods.disable_solid();
+            object.timers.falling.enable();
+           "
+   )
+  (event
+   (name "on_ground_under")
+   (enabled #t)
+   (script "object.timers.falling.disable();
+            object.fall_speed <- 0;
+           "
+   )
+  )
+  (event
+   (name "on_hole_under")
+   (enabled #t)
+   (script "object.timers.falling.enable();")
+  )
+ )
+ (methods
+  (method
+   (name "disable_solid")
+   (local #t)
+   (returns "nothing")
+   (script "object.events.on_collision_left.disable();
+            object.events.on_collision_right.disable();
+            object.events.on_collision_bottom.disable();
+            object.events.on_fire.disable();
+            object.events.on_ground_under.disable();
+            object.solid <- false;
+           "
+   )
+  )
+ )
+)
+
+</pre>
+
 == More badguy ideas ==
 
 * '''SpinningSnowball''': Just like the original except that it spins and throws off bits of snow at you.
