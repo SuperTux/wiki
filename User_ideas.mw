@@ -1522,6 +1522,7 @@ Objects should be located in their own files. That might look like their templat
  (platform_solid /bool solid/)
  (lightmap /bool drawing on lightmap/)
  (carryable /bool carryable/)
+ (init-script "")
  (properties
   (my_propery /default value/)
 ;  next properties
