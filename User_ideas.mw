@@ -1602,9 +1602,11 @@ automaticaly properties:
 **y
 **width
 **height
+**sprite (optional)
 *for non-area objects:
 **x
 **y
+**sprite (optional)
 
 Timmer repeats the same script after a certain time.
 
