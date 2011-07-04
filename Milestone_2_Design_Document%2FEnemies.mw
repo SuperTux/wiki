@@ -90,15 +90,6 @@ When the fuse of Haywire gets activated he starts to run around, maybe chasing T
 Again a very basic enemy, but unlike the Snowball he doesn't walk around in a straight pattern, but walks forward and backward around a fixed position. It is a stationary enemy.
 <br clear="all" />
 
-Angry Stone
-Angry Stone
-Angry Stone
-
-Angry stone is attached to the roof of a level, once Tux gets close to him (one tile to the left or right, he crushes to the ground, trying to kill Tux. Soon after he lifts back up to the ceiling for another attack. Angry stones might come in different sizes, from really small ones, 32x32, to very large ones, 256x256. Angry stones are always a multiple of the tilesize large so that they fit into the tilemap properly.
-
-
-
-
 == [[Spiky]] ==
 
 [[Image:SpikySprite.png|right]]
