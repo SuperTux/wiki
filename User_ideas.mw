@@ -496,6 +496,9 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 * mr_earthblock
 [[Image:Meb-flat-left.png]][[Image:Meb-left-0.png]][[Image:Meb-left-1.png]][[Image:Meb-left-2.png]][[Image:Meb-left-3.png]]
 : Simlary as mr-iceblock
+==== Angry Stone ====
+
+Angry stone is attached to the roof of a level, once Tux gets close to him (one tile to the left or right, he crushes to the ground, trying to kill Tux. Soon after he lifts back up to the ceiling for another attack. Angry stones might come in different sizes, from really small ones, 32x32, to very large ones, 256x256. Angry stones are always a multiple of the tilesize large so that they fit into the tilemap properly. --Mux
 
 === More Objects to Meet ===
 
