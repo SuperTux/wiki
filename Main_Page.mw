@@ -1,1 +1,81 @@
-#REDIRECT [[Mr. Bomb]]
+__NOTOC__
+__NOEDITSECTION__
+[[Image:Logo2.png|center]]
+{|cellpadding="2" cellspacing="5" class="MainPageOuter" width="100%"|
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox" width="100%"|
+!<h2 class="MainPageBoxH">[[Image:Fire flower-0.png]] SuperTux users</h2>
+|-
+|
+* [[About]]
+* [[Screenshots]]
+* [[Download]]
+* Documentation
+** [[User Manual]]
+** [[SuperTux FAQ|Frequently asked questions]]
+** [[Editor FAQ|Level editor help]]
+** [[OpenAL Configuration]]
+* Feedback
+** [[SuperTux:Community Discussion|Community Discussion]]
+** [[User ideas|Ideas]]
+** [http://supertux.lethargik.org/bugs Bug Tracker], [[OldBugs|Old Bugs]]
+** [[Contact]] ([irc://chat.freenode.net/supertux IRC] and the [http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org mailing list])
+|}
+
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox" width="100%"|
+!<h2 class="MainPageBoxH">[[Image:Star-0.png]] SuperTux development</h2>
+|-
+|
+* [[Next Meeting Agenda]]
+* [[News]]
+* [[Game design]]
+** [[Milestone 1.9]] (unstable release)
+** [[Milestone 2 Design Document]] (next release)
+** [[Milestone 3 Design Document]] (future)
+* [[Team]]
+* [[Meeting logs]]
+* [[Voice Meeting Setup]]
+|}
+
+|-
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox" width="100%"|
+!<h2 class="MainPageBoxH">[[Image:Infoblock.png]] Developer documentation</h2>
+|-
+|
+* [[Contributing]]
+* [[Building SuperTux]]
+* [http://supertux.lethargik.org/development/doxygen/html/index.html Doxygen]
+* [[Game Engine]]
+* [[Scripting reference]]
+* [[Tips and Tricks]]
+|}
+
+|class="MainPageMiddle" width="50%"|
+
+{|class="MainPageBox" width="100%"|
+!<h2 class="MainPageBoxH">[[Image:Coin-0.png]] External links</h2>
+|-
+|
+* [http://supertux.lethargik.org SuperTux homepage]
+* [http://developer.berlios.de/projects/supertux/ SuperTux project page] at [http://www.berlios.de BerliOS]
+* [http://code.google.com/p/supertux/ SuperTux project page] at [http://code.google.com/projecthosting/ Google Project Hosting]
+* [http://freshmeat.net/projects/supertux/ SuperTux info page] at [http://freshmeat.net/ freshmeat.net]
+* [http://happypenguin.org/show?SuperTux SuperTux entry] at [http://happypenguin.org/ The Linux Game Tome]
+<!-- http://supertux.lethargik.org/bugs/view.php?id=611#c1824 -->
+* [http://www.beige-box.com/supertux/ SuperTux Fan Site]
+* [http://www.last.fm/music/Wansti SuperTux music available for streaming and download] at [http://www.last.fm last.fm]
+* [http://www.discarded-ideas.org/music Wansti's music page] containing more songs as well as downloadable sheet music for SuperTux
+* [[Links|More Links]]
+|}
+
+|}
+----
+
+Please feel free to [[Special:Userlogin|sign up]] for a user account. It lets people see who's contributing ideas and makes it easier to watch for spam. Newcomers, please use the [[SuperTux:Sandbox|Sandbox]] for testing.
+
+[[Category:SuperTux]]
