@@ -27,6 +27,7 @@ Hi, I have no idea how to install SDL .. I don't know what to do after unpacking
 
 Just for fun I ran Supertux 0.3.1 in Wine. The installer worked all right, supertux2.exe runs but it is too slow to be fun. It is faster than SDL-Mode but still too slow. On my machine Supertux works fine when playing the native version. No idea what went wrong here, other games run in Wine just a bit slower or even as fast as in Windows but not Supertux. Not a real problem from me but maybe the windows port has some problems?
 :Why does this project care for Window$ so much?
+::I'm not sure what your question is. -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 14:54, 9 July 2011 (UTC)
 
 == Please improve documentation. ==
 
