@@ -29,3 +29,9 @@ Supertux svn r5911 sometimes crashes with
  Fatal: Unexpected exception: Couldn't unqueue audio buffer: Invalid Value
 
 Not really sure how to reproduce it. I played world 1 and was dying when it happend. But usually that does not cause a crash, just about 1 in 20 or so. Debian testing on x86. --[[User:Superdev|Superdev]] 17:57, 1 September 2009 (UTC)
+
+== Bug Tracker Registration ==
+
+I registered an account at the bugtracker a few days ago and have yet to receive a confirmation email. I requested a password reminder hoping that would work but it hasn't arrived either.
+
+I signed up for an account on another email address today but it seems like it's doing the same thing. Is registration enabled? -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 13:45, 16 July 2011 (UTC)
