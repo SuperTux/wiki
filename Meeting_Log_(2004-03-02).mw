@@ -580,9 +580,9 @@ Mar 02 23:14:25 <grumbel>	send patches
 Mar 02 23:15:47 <wolfman8k>	grumbel: using css positioning and stuff. i'm not really an expert. i just copy code :) the only problem is that ie sucks donkey balls when it comes to css :(
 Mar 02 23:17:10 <virus>	wolfman8k, valid CSS is mostly displayed correct in IE (5.5- is horrible, but 6.0+ can does at least obey the basic rules)
 Mar 02 23:17:12 <grumbel>	wolfman8k: I have tried a bit with the positioning stuff of css, but either it got *way* more complicated than simple tables or it simply didn't work at all in all browsers
-Mar 02 23:17:33 <virus>	however IE just fucked the whole CSS box model, but M$ does that with every standard...
+Mar 02 23:17:33 <virus>	however IE just broke the whole CSS box model, but M$ does that with every standard...
 Mar 02 23:17:42 <grumbel>	the worst thing is that if css breaks it mostly renders the webpage near unusable
-Mar 02 23:17:57 <virus>	I sometimes got to laught when thinking of M$ even fucking up the SMB proctocol which is the very backbone of all windows domains
+Mar 02 23:17:57 <virus>	I sometimes got to laught when thinking of M$ even messing up the SMB proctocol which is the very backbone of all windows domains
 Mar 02 23:18:04 <grumbel>	tables down do that
 Mar 02 23:18:33 <grumbel>	s/down/don't/
 Mar 02 23:19:04 <virus>	grumbel, a good strict html file including a nice CSS is usualy displayed with grace by IE... even the older ones
