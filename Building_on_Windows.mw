@@ -27,7 +27,7 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 * Pick a [http://subversion.tigris.org/getting.html#binary-packages Subversion client]: (instructions vary depending on client)
 *# CollabNet binaries require a login, but are very similar to the next option
 *#* I chose [http://www.collab.net/servlets/OCNDirector?id=CSVN1.6.6WINS]
-*# [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Apache 2.2 Binaries]
+*# [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Apache 2.2 Binaries] Down. Alternatives can be found at http://alagazam.net/
 *#* I chose [http://subversion.tigris.org/files/documents/15/46144/svn-win32-1.6.6.zip svn-win32-1.6.6.zip]
 *#* Unpack the binaries to svn
 *#* Add subversion to your path
