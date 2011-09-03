@@ -46,6 +46,15 @@ The following are topics we would like to discuss. Since it's possible that we c
 **# sliding joints (pneumatic platform, also only a test level)
 **# path constraints/motors (for moving tilemaps/platforms)
 
-=== Scripts in level ===
+=== Scripting in level ===
+*New scripts suggestions
+**a script for active level
+**a script for get position of Tux
+**a script for get position of camera
+**a script for set position of Tux
+**a script for get/set tilemap tiles
+**a script for get atributes of tilemap tiles
+**a script which returns solid(unisolid) of target point.
+*suggestion: definiting of own objects withoult changing the source code of SuperTux
 
 [[Category:Development]]
