@@ -55,6 +55,6 @@ The following are topics we would like to discuss. Since it's possible that we c
 **a script for get/set tilemap tiles
 **a script for get atributes of tilemap tiles
 **a script which returns solid(unisolid) of target point.
-*suggestion: definiting of own objects withoult changing the source code of SuperTux
+*suggestion: defining of own objects withoult changing the source code of SuperTux
 
 [[Category:Development]]
