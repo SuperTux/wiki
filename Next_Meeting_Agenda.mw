@@ -54,7 +54,9 @@ The following are topics we would like to discuss. Since it's possible that we c
 **a script for set position of Tux
 **a script for get/set tilemap tiles
 **a script for get atributes of tilemap tiles
-**a script which returns solid(unisolid) of target point.
+**a script which returns solid(unisolid) of target point
+**a script for create object
+**a script for delete object
 *suggestion: defining of own objects without changing the source code of SuperTux
 
 [[Category:Development]]
