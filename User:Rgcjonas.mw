@@ -1,5 +1,6 @@
 == Supertux SVN Builds for Windows ==
 
-During a distribution switch i accidentially lost my build environment and at the same time my free web hoster disabled my account because of "File storage".
+=== r6693 ===
+Built on Windows XP SP3 using MinGW / GCC 4.6.
 
-So I'll now set up a fresh copy of Windoze and compile r6693.
+Download: http://www.mediafire.com/?1j3eed9r76m1xnd
