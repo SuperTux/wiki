@@ -52,7 +52,7 @@ If you don't do a level, then you lose 600 points. Who has the most points wins.
 
 === Competion levels ===
 I discover scores after end of competion.
-==== Competion 2011-09-15 ''!IN PROGRESS!'' ====
+==== Competion 2011-09-15 ====
 
 Levels:
 [http://www.teratux.wz.cz/competions/2011_09_15/lvl/level1.stl]
@@ -60,10 +60,10 @@ Levels:
 [http://www.teratux.wz.cz/competions/2011_09_15/lvl/level3.stl]
 {|border=1
 |-
-! player !! level 1 !! level 2 !! level 3 !! points total !! medal 
+! player !! level 1 !! level 2 !! level 3 !! points total !! position 
 |-
-| Narre || ??? || ??? || ??? || ??? || ???
+| Narre || 0 || 0 || 0 || 0 || 1
 |-
-| Kocanska || ??? || ??? || ??? || ??? || ???
+| Kocanska || -600 || -600 || -600 || -1800 || 2
 
 |}
