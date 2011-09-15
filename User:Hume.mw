@@ -47,7 +47,7 @@ These competions are in progress from 20:00 UTC on wednesday to 20:00 UTC on thu
 
 === Who wins ===
 Your points will be counted with this method:<br>
-coins*10+secrets*100-time<br>
+coins * 10 + secrets * 100 - time<br>
 If you don't do a level, then you lose 600 points. Who has the most points wins.
 
 === Competion levels ===
