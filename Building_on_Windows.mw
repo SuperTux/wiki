@@ -145,7 +145,7 @@ You might want to read the [[Editor FAQ]] at this point.
 MMLosh has some snapshots on his website: http://elektromaniak.wz.cz/download.html
 Note that because Mono is cross-platform, the executables should work on both Windows and Linux, though libraries can be a problem.
 
-== FastBuild with Visual Studio ==
+== Fast and Easy Build with Visual Studio ==
 
 ''This is experimental''
 Tested on W7/VS2010 x64
