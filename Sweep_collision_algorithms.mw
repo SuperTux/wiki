@@ -25,3 +25,5 @@ Analogue we can calculate the time when x leaves the area of the rectangle by ch
 Now we can calculate t_min_x the time when a collision on the x-axis begins and t_max_x the time when the collision on the x-axis is over. We do the same for t_min_y and t_max_y. The 2 rectangles abviously collide when we have on overlap on both the x- and the y-axis. So if t_max_y is not smaller than t_min_x and t_max_x is not smaller than t_min_y, then the time when the 2 rectangles collide is <tt>t = max(t_min_x, t_min_y)</tt>.
 
 [[Category:Developer documentation]]
+
+[http://customwritingservices.org/custom-term-paper.php term paper writing service]
