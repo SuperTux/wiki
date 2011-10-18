@@ -1,0 +1,31 @@
+Greetings, I am LMH.  
+
+==Levels Collection for 0.3.3==
+
+With the SuperTux fansite no longer in existence and the unfortunate amount of time since the last stable release of the game, finding additional levels that can be played with version 0.3.3 and later is rather difficult.  Fortunately the [[Add-ons]] feature available in 0.3 allows levels and ideas to be shared more readily than in Milestone 1.  However, add-ons made available to players by download through the game are currently few, and the list changes infrequently.  This means that player-made levels are not easily shared and level designers typically experience long waits for their content to be enjoyed.
+
+Since the most common comment I hear from other players is that they desire more levels, and custom level designers appear to be frustrated that they cannot share their creations, I've begun to collect custom levels in order to make them more accessible.  The resulting collection can be found [http://www.mediafire.com/?k47v61nz6i230 here].  Although the collection is available by a rather crude method, its simplicity should also make it more robust.  I am hoping that this means I will be able to maintain it with a minimal commitment on my part yet will be a reliable source of levels for players (i.e. it won't disappear like the fansite).
+
+===Downloading and Playing===
+
+What you need to do to access the level collection:
+
+* Install either the development snapshot (0.3.3) or the [[SVN]] version of SuperTux
+* Download the desired add-on from the [http://www.mediafire.com/?k47v61nz6i230 level collection] (please pay attention to the version the level was made for, they may still work but might suffer from bugs)
+* All downloads are "zipped" and there is no need to extract them...
+* Instead, place the .zip file downloaded into your supertux2 directory (alternatively if you are using the more recent versions of SVN you may place the .zip file directly into the data directory)
+* Start SuperTux and choose "Contrib Levels" on the main menu, the add-on should be listed here
+
+Note that these levels are of many different difficulties.  Some may not conform to the level design criteria.  Some may suffer from bugs.  Please do not contact the developers about any issues you may encounter, instead try to contact the level creator (there may be information in the description on the download page if it is available).  Remember that these are unofficial add-ons.
+
+===Updates and Additions===
+
+Currently the collection consists primarily of the add-ons I've come across more-or-less randomly on the [http://supertux.lethargik.org/bugs/ bug tracker].  If left entirely up to me, then updates and additions will also be done more-or-less randomly as I encounter them.  However, if you have a custom levelset you would like to share you may contact me via email: <LMH.0013_at_gmail.com>.  Please keep in mind the following if you want your levels to be part of the collection:
+
+* Levels must be packaged as an [[add-on]] (it's not difficult to do and it minimizes confusion for installation)
+* All levels should be completable, all secrets should be reachable, and coins/poweups attainable
+* Keep in mind the [[Milestone 2 Design Document/Styleguide|level guidelines]]; although they are not a hard requirement for this collection, following them will make your levels appeal to a larger audience
+* Levels should be designed for 0.3.3 or 0.3.3-SVN (let me know which yours are intended for)
+* Let me know if you would like some sort of contact info to be included with the download
+* Feel free to provide a level description- although due to the limitation to the file hosting service, only the bare minimum will appear, I may put together a more comprehensive set of information about the levels
+* Have patience, I will generally play through the level first before uploading it to the collection; if I choose not to upload your set I will tell you why but I should be fairly lenient to creative liberties
