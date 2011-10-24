@@ -9,7 +9,7 @@
 * Make multi-sector levels.
 
 == SuperTux criticisms ==
-# IcyIslan - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms there?
+# IcyIsland - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms there?
 # Water in 0.3.0: When you jump into the water splash sounds. Water in 0.3.3: This effect was deleted. Why??
 # When I go to the end of the level and try to get out of level, Tux is moving a bit beyond the level.
 # The result of burning wood is ash, but not fall below the screen.
@@ -29,25 +29,3 @@
 # Cave levels from IcyIsland in worldmap aren't in cave.
 # Owls can not carry badguys.
 # Menu in 0.3.x: theres are menu border. Menu in 0.3.3-svn-r6694: the border was removed. Why??
-
-== SuperTux rebith plan ==
-Admins are very slow. Everyone, who tried contrib them something is only waiting for admin's opinion. I thing, It's not possible to only wait. There is a faster way. I need some waiting contributors for complete this plan. Your contributions will be added to SuperTux. I need someone, who can edit SuperTux source code, someone, who can draw good graphics and someone, who can create levels. If you can something else useful for SuperTux, you can join us too. Please, ask me please on my e-mail: teratux.mail@gmail.com for more information. If you are an angry waiting contributor, then join us. You can join us on my e-mail.
-:Or you could always keep the open source spirit and fork the project. Non-existent development is, IMO, a completely justified and respectful reason to do so. I wish you luck; I would enjoy seeing more done on Supertux. [[Special:Contributions/75.162.30.18|75.162.30.18]] 23:40, 12 October 2011 (UTC)
-::Yes, nobody can ban the develop in SuperTux devel team. I thought fork the devel of SuperTux. --[[User:Hume|Hume]] 18:01, 18 October 2011 (UTC)
-
-=== Our goals ===
-*Vote all current and future suggestions including "stupid" suggestions. (We vote the future suggestions in the future.)
-*Add all new levels to add-ons.
-*Serve all contributors fast.
-*Prioritize instalations before building.
-*Avaible editor for all full versions.
-*Not requiring licences. Require only a writtlen agreement of general conditions.
-*Access for all contributors to vote pool and rebith-devel team.
-*Who will contrubte more, he will have more votes.
-*Do an editor fully working on windows for all full versions.
-*I won't here any idle contributors!
-
-=== Plan beginning ===
-#Collect a team
-#Get the SuperTux source code
-#Change the addon adress
