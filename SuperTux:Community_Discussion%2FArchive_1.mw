@@ -302,7 +302,7 @@ Response:
 *: 0.3 doesn't have lives or points; we could probably add them back in.
 * the rotating coin sprite looks too shiny and computer-rendered in 0.3, and so doesn't fit in so well with the rest of the art, which is all hand drawn
 *:It is true that the coins were computer-generated in 0.3; we could probably change it if we had more people (i.e. Grumbel) agree.
-* the death noise is so frustrating and dumb in 0.3.x - it sounds like someone slamming a car door
+* the death noise is so frustrating and dumb in 0.3.x - it sounds like someone slamming a car door, so i get angry when i die and starting all near from begining of level. the old noise from 0.1.x is less frustrating but still dumb.
 *:SVN has a new noise - the files are at http://supertux.lethargik.org/svn/supertux/trunk/supertux/data/sounds/; I think it's hurt.wav but it could be something else.
 
 
