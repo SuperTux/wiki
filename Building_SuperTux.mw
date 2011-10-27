@@ -100,7 +100,15 @@ This section is under construction. IDEs that should be able to handle supertux 
 You can feed Kdevelop with the CMakeLists.txt. (Project -> Open/Import Project)
 
 ==Eclipse with CDT==
-* This section is under construction.
+* create a build directory '''outside''' of the supertux checkout dir.
+
+Example: Your supertux source is located in <code>~/supertux</code>. You would normally create your build directory <code>~/supertux/build</code> but eclipse seems to fail in that case. So you create <code>~/supertux-build</code>.
+
+* run cmake inside that build directory using the eclipse generator:
+    cmake -G"Eclipse CDT4 - Unix Makefiles" /path/to/source
+
+* now open eclipse and select File -> import -> general -> existing project into workspace
+* Select your build directory as root directory and click finish.
 
 = Compiling the editor =
 
