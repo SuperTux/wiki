@@ -66,6 +66,9 @@ Good job! You can use many other tiles. You can individually place them by left 
 Now you're going to learn how to place objects, such as enemies, (Badguys) moving platforms, script triggers, ladders, and more.
 First, you'll want to make some more snow. So add another snow platform.  This time, make it longer.
 First select the "Objects" button.
+
 [[Image:(STE)_Objects_Button.png‎]]
+
 Then, select a snowball (Like the one on the icon for the objects) and place it on the new snow you made. It should look like this:
+
 [[Image:(STE)_Snowball_on_ground.png]]
