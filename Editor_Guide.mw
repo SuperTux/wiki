@@ -32,7 +32,7 @@ It should look something like this for your Executable directory: C:\Program Fil
 Once you've done that, we can finally start some editing!
 
 ==Basic Editing==
-
+===Placing Tiles===
 Now restart the editor, and it should now look like this.
 [[Image:(STE)_The_editor.png]]
 
@@ -57,4 +57,9 @@ Afterwards, while holding down the right mouse button, drag the cursor down so t
 Then place it on the map below the thing that says "Spawn Point"
 [[Image:(STE)_Snapshot_of_Snow.png]]
 
-This will be finished later. [[User:Monster|Monstertux]] 14:02, 29 October 2011 (UTC)
+Now, to see the level, click the "Play" button on the top left, shaped like a triangle pointing to the right.
+You should fall out of the sky and land on the snow.
+[[Image:(STE)_Level_test_(1).png]]
+
+Good job! You can use many other tiles. You can individually place them by left clicking one, and placing it on the tile map. (The area where you placed the snow.)
+===Placing Objects===
