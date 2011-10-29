@@ -25,6 +25,7 @@ Now launch "supertux-editor.exe" in the editor's folder you just downloaded, and
 ==Setup==
 
 Now that it's launched, a little window should pop up telling you to select the SuperTux directory. This is so it can get the images for the tiles, the music, the sounds ect. You also need to select the SuperTux Game's .exe file.
+[[Image:Pop_Up_Dialog.png]]
 So select the two directories. It should look something like this for the data directory: "C:\Program Files\SuperTux 0.3.3\data"
 It should look something like this for your Executable directory: C:\Program Files\SuperTux 0.3.3\supertux2"
 
