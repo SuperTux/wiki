@@ -35,3 +35,22 @@ Once you've done that, we can finally start some editing!
 
 Now restart the editor, and it should now look like this.
 [[Image:(STE)_The_editor.png]]
+
+So click the button on the top.
+[[Image:(STE)_New.png]]
+It should have a forest background. If not, then click this: 
+[[Image:(STE)_Prefs.png]]
+
+Select "Preferences" and redo what I told you to do above.
+
+If you see a forest background, great!
+
+To start, select this button: [[Image:(STE)_Tile_Editor.png]]
+
+There should be a bunch of tiles. The tiles are the little squares you put down.
+
+Lets make a basic level. First, select the little drop down menu above all the tiles, then select "Snow."
+
+[[Image: (STE)_Drop_down_map_select.png]]
+Afterwards, while holding down the right mouse button, drag the cursor down so the snow brick thing is highlighted in blue.
+[[Image:(STE)_Blue_snow_brick.png]]
