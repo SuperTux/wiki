@@ -1,0 +1,29 @@
+== Intro ==
+<font size=6>Let's face it:</font> Nobody ever gave you a clear explanation on how to make a SuperTux level.
+
+It's sad, but true. So, why are you crying over lost cake? Guess what: I made a better one. What I'm going to do, is
+show you how to make a nice, proper SuperTux level using the Microsoft .NET extension. But probably the best thing
+about this guide, is with your cheese burger, I'm holding the nerd-sauce. Now your probably waiting for me to stop
+making odd food metaphors, so let's begin.
+
+== Get the tools ==
+Keep in mind, sadly, the editor does NOT work on Mac, and this editor is intnded for Windows XP. but there are a few ways you could fix that. The best would be getting Parallels Desktop for Mac (Which is what I use), from the website.
+You can get a free trial, but after 30 days, sorry. Well, if you bought it (which would be fantastic) or if you have windows, keep going.
+
+First of all, you'll need the "Microsoft .NET framework." There is a good link right '''[http://www.microsoft.com/net HERE]'''
+
+After that, get the '''Mono Framework''' which can be downloaded '''[http://www.mono-project.com/Download HERE]'''
+Just follow the instructions, and download the latest version. On the bottom there will be a link that will say something like "Download Mono and GTK," so get that one.
+
+Lastly, we can't be running around with no editor. So download the latest version (the one at the top) '''[http://elektromaniak.wz.cz/download.html HERE.]''' make sure it
+says "Windows, 32bit, .NET, GTK# 2.10" or something towards the end of the link in the page.
+
+SKIP THIS IF YOU ARE NOT USING WINDOWS SEVEN OR HIGHER: There are a few extra steps for Windows 7 and up. Complete the following steps here, made by SK1LL: [https://supertux.lethargik.org/bugs/view.php?id=790#c2340 Link]
+
+Now launch "supertux-editor.exe" in the editor's folder you just downloaded, and we can begin.
+
+==Setup==
+
+Now that it's launched, a little window should pop up telling you to select the SuperTux directory. This is so it can get the images for the tiles, the music, the sounds ect. You also need to select the SuperTux Game's .exe file.
+So select the two directories. It should look something like this for the data directory: "C:\Program Files\SuperTux 0.3.3\data"
+It should look something like this for your Executable directory: C:\Program Files\SuperTux 0.3.3\supertux2"
