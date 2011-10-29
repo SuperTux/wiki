@@ -72,3 +72,11 @@ First select the "Objects" button.
 Then, select a snowball (Like the one on the icon for the objects) and place it on the new snow you made. It should look like this:
 
 [[Image:(STE)_Snowball_on_ground.png]]
+
+Test the level again, and kill the snowball!
+
+'''Snowballls:'''
+<br>Snowballs walk around.
+<br>When they come to the end of the platform, they fall off. 
+<br>They can be killed by you jumping on them, and if they 
+<br>walk into you, you will be downgraded or killed.
