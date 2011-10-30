@@ -10,12 +10,13 @@ making odd food metaphors, so let's begin.
 Keep in mind, sadly, the editor does NOT work on Mac, and this editor is intnded for Windows XP. but there are a few ways you could fix that. The best would be getting Parallels Desktop for Mac (Which is what I use), from the website.
 You can get a free trial, but after 30 days, sorry. Well, if you bought it (which would be fantastic) or if you have windows, keep going.
 
-First of all, you'll need the "Microsoft .NET framework." There is a good link right '''[http://www.microsoft.com/net HERE]'''
+Well, of course, before you begin, your gonna need the actual game. Just install it into Program files, to keep everything organized, and it can be downloaded (WARNING! Will download instantly on click!) [http://supertux.googlecode.com/files/supertux-0.3.3b-win32.exe '''Supertux 0.3.3 (Beta)''']
+First of all, you'll need the "Microsoft .NET framework." There is a good link right '''[http://www.microsoft.com/net .NET Framework]'''
 
-After that, get the '''Mono Framework''' which can be downloaded (WARNING! Will download on click!) '''[http://download.mono-project.com/gtk-sharp/gtk-sharp-2.12.10.win32.msi HERE]'''
+After that, get the '''GTK Framework''' which can be downloaded (WARNING! Will download on click!) '''[http://download.mono-project.com/gtk-sharp/gtk-sharp-2.12.10.win32.msi GTK for .NET framework]'''
 Just follow the instructions, and download the latest version. On the bottom there will be a link that will say something like "Download Mono and GTK," so get that one.
 
-Lastly, we can't be running around with no editor. So download the latest version (the one at the top) '''[http://elektromaniak.wz.cz/download.html HERE.]''' make sure it
+Lastly, we can't be running around with no editor. So download the latest version (the one at the top) '''[http://elektromaniak.wz.cz/download.html SuperTux Editor.]''' make sure it
 says "Windows, 32bit, .NET, GTK# 2.10" or something towards the end of the link in the page.
 
 SKIP THIS IF YOU ARE NOT USING WINDOWS SEVEN OR HIGHER: There are a few extra steps for Windows 7 and up. Complete the following steps here, made by SK1LL: [https://supertux.lethargik.org/bugs/view.php?id=790#c2340 Link]
