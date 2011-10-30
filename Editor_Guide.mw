@@ -30,6 +30,10 @@ Now that it's launched, a little window should pop up telling you to select the 
 So select the two directories. It should look something like this for the data directory: "C:\Program Files\SuperTux 0.3.3\data"
 It should look something like this for your Executable directory: C:\Program Files\SuperTux 0.3.3\supertux2"
 
+Restart and it should look like this:
+
+[[Image:(STE)_The_editor]]
+
 Once you've done that, we can finally start some editing!
 
 ==Editing the Game's Properties==
