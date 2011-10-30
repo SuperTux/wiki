@@ -40,10 +40,8 @@ Before you start editing, you should edit the properties of the sector. Right cl
 
 ==Basic Editing==
 ===Placing Tiles===
-Now restart the editor, and it should now look like this.
-[[Image:(STE)_The_editor.png]]
+Okay, you've finished the properties. Now click the button on the top.
 
-So click the button on the top.
 [[Image:(STE)_New.png]]
 It should have a forest background. If not, then click this: 
 [[Image:(STE)_Prefs.png]]
