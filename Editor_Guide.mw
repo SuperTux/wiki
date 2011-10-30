@@ -87,5 +87,29 @@ If you have played Mario, then you will notice a lot of enemies are like the one
 So since you tried it, if you didn't kill the snowball, it probably bumped into the wall, turned around, and fell.
 
 Now we are going to learn about advanced enemies. An example is the fish.
+In order for the fish to work, (jump out of water) you must have water for it.
+So go back to the tile selection screen and click on the snow one (If it isn't already selected) and make three snow bricks for the water to be contained in.
 
-To be continued... [[User:Monster|Monstertux]] 22:42, 29 October 2011 (UTC)
+[[Image:(STE)_Three_snow_bricks.png]]
+
+I guess it doesn't have to look like that, but for the sake of simplicity, this is what I'm using.
+So next select some water from the drop down '''tile''' menu. Click "Misc" and you will se something like this.
+
+[[Image:(STE)_Misc_tiles.png]]
+
+Now select the water. You'll notice one is slightly darker than the other. That one is more translucent, so you will be able to see through it a bit. I will be using that one.
+
+[[Image:(STE)_Water_brick.png]]
+
+Now, you need to put some water in between the bricks.
+
+[[Image:(STE)_Water_between_bricks.png]]
+
+It doesn't look very clean, but hey, it works.
+<br>Now go back to the Objects menu and select the fish and place it.
+
+[[Image:(STE)_Place_the_fish_in_water.png]]
+
+Okay, now that you did that, you can test it. It should be like this. (The snowball is falling in the water because I put the three bricks right next to the first part of the level, therefore, he wanders over.
+
+[[Image:(STE)_Fish_in_water_test.png]]
