@@ -113,3 +113,7 @@ It doesn't look very clean, but hey, it works.
 Okay, now that you did that, you can test it. It should be like this. (The snowball is falling in the water because I put the three bricks right next to the first part of the level, therefore, he wanders over.)
 
 [[Image:(STE)_Fish_in_water_test.png]]
+
+So now you've learned how to make fish work. If you spawn them above the snow, they will face plant in it and wont do much, but if you touch them, you die.
+
+The best way to learn how to use Badguys is experimenting. So, lets move on.
