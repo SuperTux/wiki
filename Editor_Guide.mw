@@ -32,7 +32,9 @@ It should look something like this for your Executable directory: C:\Program Fil
 
 Once you've done that, we can finally start some editing!
 
-==Editing the Sector's Properties==
+==Editing the Game's Properties==
+===Sector Properties:===
+
 Before you start editing, you should edit the properties of the sector. Right click the word "main" on the top left (Not all the way to the top though,) and select "Properties." You should see a few feilds and buttons.
 <br>Refer to the diagram below for information on these things.
 <br>
