@@ -12,7 +12,7 @@ You can get a free trial, but after 30 days, sorry. Well, if you bought it (whic
 
 First of all, you'll need the "Microsoft .NET framework." There is a good link right '''[http://www.microsoft.com/net HERE]'''
 
-After that, get the '''Mono Framework''' which can be downloaded '''[http://www.mono-project.com/Download HERE]'''
+After that, get the '''Mono Framework''' which can be downloaded (WARNING! Will download on click!) '''[http://download.mono-project.com/gtk-sharp/gtk-sharp-2.12.10.win32.msi HERE]'''
 Just follow the instructions, and download the latest version. On the bottom there will be a link that will say something like "Download Mono and GTK," so get that one.
 
 Lastly, we can't be running around with no editor. So download the latest version (the one at the top) '''[http://elektromaniak.wz.cz/download.html HERE.]''' make sure it
