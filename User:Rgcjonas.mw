@@ -1,9 +1,14 @@
 == Supertux SVN Builds for Windows ==
 
-=== r6694 ===
+=== SuperTux r6694 ===
 Built on Windows XP SP3 using MinGW / GCC 4.6.
 
 Download: http://www.mediafire.com/?tk5pky5h2lnx00e
+
+=== SuperTux-Editor r6694 ===
+Built on Linux using Mono. Runs on Windows, too (I added some dll files).
+
+Download: http://www.mediafire.com/?fig8350kxu733x0
 
 === all ===
 Every build (especially older ones):
