@@ -12,7 +12,7 @@ Vocabulary? This isn't school! This is a level editor. Yes, I tried telling myse
 <u>'''multiscript'''</u>: Multiple scripts played at the same time as another.
 <u>'''script'''</u>: A program that preforms a function, such as moving a platform, or playing music.
 <u>'''tilemap'''</u>: The area where you place tiles, the "terrain" blocks.
-<u>'''translucent'''<u>: Something that you can vaguely see through. Not to be confused with <i>transparent.</i>
+<u>'''translucent'''</u>: Something that you can vaguely see through. Not to be confused with <i>transparent.</i>
 <u>'''transparent'''</u>: Something that you can see very clearly through. Not to be confused with <i>translucent.</i>
 
 == Get the tools ==
