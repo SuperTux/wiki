@@ -253,6 +253,8 @@ A little red block should appear at the top left corner of it. That is the start
 
 [[Image:(STE)_First_Node.png]]
 
-Good! Now click the object elector again, and select the platform again. Name your platform something simple.
+Good! Now click the object elector again, and select the platform again. Now with the property editor at the bottom, name your platform something simple. How about, "Move1".
 
-tbc ---[[User:Monster|Monstertux]]
+<br>Great! Now in the object selector, select the little pink box that says "Script." It is third from the bottom, all the way to the left. Now, this part is a little hard to explain, so I will break out a picture. Woo-Hoo. Click above the [http://supertux.lethargik.org/wiki/Editor_Guide#Advanced_Tile_Techniques stairs].
+
+[[Image:Example.jpg]]
