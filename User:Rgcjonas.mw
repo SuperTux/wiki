@@ -25,7 +25,7 @@ The improved editor uses GtkSharp instead of sdl to load images. This reduces th
 
 You can follow one of the solutions there or downgrade to GtkSharp 2.12.9-2: ftp://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi
 
-=== r7 ===
+=== r8 ===
 Built on Linux using Mono. Runs on both Windows and Linux. CorFlags already set.
 
-http://www.mediafire.com/?the4538yjsmh885
+http://www.mediafire.com/?61b5z6buzt8ix9i
