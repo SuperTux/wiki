@@ -14,3 +14,18 @@ Download: http://www.mediafire.com/?i1uy7eysmc42dzw
 Every build (especially older ones):
 
 http://www.mediafire.com/?cd61bdcv3wt5a
+
+== SuperTux Improved Editor ==
+This is a fork of the SuperTux level editor. Contains some improvements.
+
+https://launchpad.net/supertux-improved-editor
+
+=== Warning for Windows Users ===
+The improved editor uses GtkSharp instead of sdl to load images. This reduces the amount of dll files. Unfortunately, GtkSharp 2.12.10 for Windows '''has a bug and won't load any jpeg files'''. More info: http://arsuceno.blogspot.com/2011/05/bug-in-gtk-sharp-21210-for-windows.html
+
+You can follow one of the solutions there or downgrade to GtkSharp 2.12.9-2: ftp://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi
+
+=== r7 ===
+Built on Linux using Mono. Runs on both Windows and Linux. CorFlags already set.
+
+http://www.mediafire.com/?the4538yjsmh885
