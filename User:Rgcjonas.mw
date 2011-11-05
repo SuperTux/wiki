@@ -20,22 +20,7 @@ This is a fork of the SuperTux level editor. Contains some improvements.
 
 https://launchpad.net/supertux-improved-editor
 
-=== Warning for Windows Users ===
-The improved editor uses GtkSharp instead of sdl to load images. This reduces the amount of dll files. Unfortunately, GtkSharp 2.12.10 for Windows '''has a bug and won't load any jpeg files'''. More info: http://arsuceno.blogspot.com/2011/05/bug-in-gtk-sharp-21210-for-windows.html
+=== r14 ===
+Built on Linux using Mono. Runs on both Windows and Linux. Can work around the [http://arsuceno.blogspot.com/2011/05/bug-in-gtk-sharp-21210-for-windows.html bug in GtkSharp for Windows] now.
 
-You have to do one of the following things:
-* read [http://arsuceno.blogspot.com/2011/05/bug-in-gtk-sharp-21210-for-windows.html] and follow the instructions
-* downgrade to GtkSharp 2.12.9-2: ftp://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi
-OR:
-* download [ftp://ftp.novell.com/pub/mono/gtk-sharp/gtk-sharp-2.12.9-2.win32.msi GtkSharp 2.12.9-2] and GtkSharp 2.12.10
-* install 2.12.10
-* rename C:/Program Files/GtkSharp/2.12/bin/libjpeg7.dll to libjpeg-7.dll
-* repair 2.12.10 (launch the installer again and click repair)
-* install/repair 2.12.9-2
-* install/repair 2.12.10 again
-* now it works.
-
-=== r8 ===
-Built on Linux using Mono. Runs on both Windows and Linux.
-
-http://www.mediafire.com/?61b5z6buzt8ix9i
+http://www.mediafire.com/?fiohgc5dswb3c12
