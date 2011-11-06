@@ -1,3 +1,5 @@
 == SuperTux Improved Editor ==
 
 Why start a fork instead of contributing to the existing editor? More work to keep it in sync just to be leader of your own project or is there a reason to do it? --[[User:Allofthese|Allofthese]] 15:01, 6 November 2011 (UTC)
+
+:The number of patches i uploaded to the bug tracker and never got applied into the main game taught me that i can't work that way. Forking was the quickest and simplest way to actually ''work'' on the editor instead of sending in patches and wait until they get applied. And usually they don't get applied at all. --[[User:Rgcjonas|Rgcjonas]] 16:04, 6 November 2011 (UTC)
