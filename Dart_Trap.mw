@@ -5,10 +5,10 @@
 | FoundIn=[[Forest]]
 | Appearance=A skull mounted to the wall.
 | Behaviour=Static. Shoots darts at regular intervals.
-| Squish=unknown
-| Buttjump=unknown
-| Freeze=unknown
-| Burnable=unknown
+| Squish=no
+| Buttjump=no
+| Freeze=no
+| Burnable=no
 | FirstVersion=0.3
 }}
 The '''Dart trap''' is a [[badguy]] in form of a skull. In regular intervals it shoots darts out of its mouth. The darts fly in a straight line, hurt [[Tux]] and cannot be destroyed but must be avoided. The ''Dart trap'' is mostly found in castles in the [[Forest]] world. 
