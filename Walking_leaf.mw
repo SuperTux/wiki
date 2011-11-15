@@ -7,7 +7,7 @@
 | Behaviour=Walks around. Stays on platforms.
 | Squish=yes
 | Buttjump=yes
-| Freeze=unknown
+| Freeze=no
 | Burnable=yes
 | FirstVersion=
 }}
