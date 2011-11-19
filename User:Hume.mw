@@ -9,7 +9,7 @@
 * Make multi-sector levels.
 
 == SuperTux criticisms ==
-# IcyIsland - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms there?
+# IcyIsland - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms here?
 # Water in 0.3.0: When you jump into the water splash sounds. Water in 0.3.3: This effect was deleted. Why??
 # When I go to the end of the level and try to get out of level, Tux is moving a bit beyond the level.
 # The result of burning wood is ash, but not fall below the screen.
@@ -28,4 +28,3 @@
 # Tux and Penny speak during a picnic, but they do not open the beak.
 # Cave levels from IcyIsland in worldmap aren't in cave.
 # Owls can not carry badguys.
-# Menu in 0.3.x: theres are menu border. Menu in 0.3.3-svn-r6694: the border was removed. Why??
