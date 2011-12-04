@@ -11,8 +11,6 @@ SuperTux is a side-scrolling 2D platformer featuring [[Tux]], the Linux mascot, 
 
 <br style="clear: both;" />
 
-SuperTux is a fun and enjoyable game! Just remember to run into the guys with the spikey heads and you'll be fine! Download TuxPaint and Tuxtype for more games from Tux (tm)!  Enjoy and get some coins!
-
 == Controls ==
 
 [[Image:Littletrees.png|right]]
@@ -129,9 +127,8 @@ Press the Up key to activate a switch. This might open blocked paths, start plat
 
 Most switches are near the object they affect. Objects that are farther away from their switch often have a colored sign next to them. A sign of the same color can then be found next to the corresponding switch.
 
-== Headline text ==
 === Platforms (SuperTux 0.3 only) ===
-[[Image:Flying plathttp://www.parkavearmory.org/wiki/skins/common/images/button_media.pngform-0.png|right]]
+[[Image:Flying platform-0.png|right]]
 
 Over the course of his adventure, Tux comes across a variety of moving Platforms.
 
@@ -140,7 +137,6 @@ Some are mounted on rails, some swim in water, some even float freely through th
 While some Platforms just move on their own, most Platforms will only move when Tux steps on them.
 
 Some might also require Tux to visit another part of the level and activate a Switch first. When this is the case Tux will most probably find a helpful sign next to the Platform.
-Ad[[Media:Example.ogg]][[Media:[[Media:Example.ogg]][[Media:]]]]
 
 === Info Blocks (SuperTux 0.3 only) ===
 [[Image:Infoblock.png|right]]
