@@ -11,6 +11,8 @@ You expect the level designer to test them with several screensize and the size 
 ::I think the screen area should be limited to a minimum of 20x15 tiles and a maximum of 30x20, anything else should be downscaled or upscaled from that. If you're worried that owners of large screens will be displeased, stop being lazy and start working on some damn 64x64 tiles.
 ::Remember on Command & Conquer, originally a 320x240 game, which got turned into 640x480 by simply changing the resolution, giving the players a hard time clicking on those tiny soldiers? Same idea, who wants to play supertux on a huge 1080p screen just to have a tiny tux which can barely jump across 1/5 of that? --[[User:Jack Mcslay|Jack Mcslay]] 20:10, 18 December 2009 (UTC)
 
+Just a question: is supertux still alive?  Waited long time for milestone 2
+
 == Supertux's life/game over management ==
 
 On milestone 1, the management of lives is so-so
