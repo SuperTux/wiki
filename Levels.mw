@@ -17,9 +17,49 @@ In the [[SVN]] version, there is a special island, [[Incubator Island]]. In this
 
 The development version has the ability to automatically download some specially packaged levels, known as "[[add-ons]]". Simply ensure you have an internet connection, and select "Addons" from the main menu, where you can choose to install the currently available add-ons.
 
+===Manually Installed Add-ons===
+
+Additional [[Add-ons]] can be installed manually.  You can either obtain them from an external source or make your own.  You will need to perform the following steps to play these add-ons:
+
+* Install either the development snapshot (0.3.3) or the [[SVN]] version of SuperTux
+* Download the desired add-on which should be "zipped" - there is no need to extract them...
+* Instead, place the .zip file downloaded into your supertux2 directory (alternatively if you are using the more recent versions of SVN you may place the .zip file directly into the data directory)
+* Start SuperTux and choose "Contrib Levels" on the main menu, the add-on should be listed here
+
+External add-ons may suffer from more bugs than those automatically downloaded through the game client.  They also may not conform to the level design criteria and difficulty requirements for SuperTux.  If an external add-on fails to work properly, try to contact the developer of the add-on directly.  
+
+====Add-on Collection for 0.3.3 and 0.3.3-SVN====
+
+Several add-ons are available for manual installation from an external download site [http://www.mediafire.com/?k47v61nz6i230 here].  These levels have been collected by [[User:LMH|lmh]].  Most of these are available on the bugtracker, but are not accessible through the automatic download feature.  This collection is meant to make add-ons more widely available and consists of unofficial add-ons created by a variety of authors.  The table below outlines the current content of the level collection:
+
+{|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show;"
+! Add-on Name !! ST Version/Type !! Author !! Description !! Additional Informaion
+|-
+|Ice Mountain || 0.3.3 Levels(2) || Eliminator || The first level in this small set features a unique key mechanic where Tux must collect 4 crystals prior to reaching the level exit. || [https://supertux.lethargik.org/bugs/view.php?id=619 Bugtracker entry 1], [https://supertux.lethargik.org/bugs/view.php?id=621 Bugtracker entry 2], [http://www.mediafire.com/?9mlxvv4yk80iqfg Download]
+|-
+|Newworld || 0.3.3 Levels(5) || Estaban || Small collection of levels for SuperTux 0.3.3.  A couple levels utilize custom graphics || [https://supertux.lethargik.org/bugs/view.php?id=486 Bugtracker entry], [http://www.mediafire.com/?prk6v4wkvc2ev2s Download]
+|-
+|Bugtracker-DEC2011 || 0.3.3 Levels(19) || Various Authors || Random set of levels found on bugtracker as of December 2011 || [https://supertux.lethargik.org/bugs/ Link to Bugtracker], [http://www.mediafire.com/?e18w7j1si8p517q Download]
+|-
+|octo's Levels|| 0.3.3-SVN Worldmap(16) || [[User:Octo|Octo]] || Worldmap features several remade levels from Super Mario World and Super Mario Land || [http://verplant.org/supertux/ SuperTux levels on octo's homepage], [http://www.mediafire.com/?eeryo6tu9c717p4 Download]
+|-
+|Mattie's Testworld (beta) || 0.3.3-SVN Worldmap(36)|| [[User:LMH|LMH]] || Includes update to the add-on "Mattie's Iceberg" as well as a preview of "DOOM Islands".  Features 2 worldmaps (21 levels and 15 levels) as well as custom graphics and mechanics.  You may need to disable any previously installed versions of this add-on.  Not suggested for non-SVN versions. || Contact: lmh.0013_at_gmail.com, [http://www.mediafire.com/?3l36un8vj7wobly Download]
+|-
+|Island of Moob (beta) || 0.3.3 Worldmap(22) || Treskalle || Worldmap under construction, but currently playable.  Features custom content.  Comments welcomed on bugtracker. || [https://supertux.lethargik.org/bugs/view.php?id=799 Bugtracker entry], [http://www.mediafire.com/?08f6bks7r07ai0e Download]
+|-
+|CT's Domain || 0.3.3 Worldmap(49) || [[User:Ct dabomb|CT. da'Bomb]] || Large worldmap containing multiple environments. || [https://supertux.lethargik.org/bugs/view.php?id=827 Bugtracker entry], [http://www.mediafire.com/?nuug1b8iy00jv74 Download]
+|-
+|Yeti's Revenge || 0.3.3-SVN Worldmap(43) || nisso || Worldmap featuring many custom graphics, powerups, and mechanics.  Features unlockable content and includes 2 storylines each concluding with unique boss encounters. || [http://www.youtube.com/watch?v=pFgh6ffZH68 YouTube video], [https://supertux.lethargik.org/bugs/view.php?id=836 Bugtracker entry], [http://www.mediafire.com/?8zmnz5wul38xz8r Download]
+|-
+|Hume's Rainbow Cave || 0.3.3 Worldmap(49) || [[User:Hume|hume2]] || Worldmap that features achievements that once unlocked grants access to several bonus levels.  The code usefull in level "Bonus levels gate" is: 567418.  When reloading this worldmap you may need to move to make Tux visible. || [https://supertux.lethargik.org/bugs/view.php?id=860 Bugtracker entry] [http://www.mediafire.com/?rcki441lzuktcj1 Download]
+|-
+|Race to Penny || 0.3.3 Worldmap(19) || [[User:Ct dabomb|CT. da'Bomb]] || Features custom graphics. || [https://supertux.lethargik.org/bugs/view.php?id=873 Bugtracker entry], [http://www.mediafire.com/?kq9lmyl1ic5cnza Download]
+|-
+|The Valley of Chaos || 0.3.3 Worldmap(25) || SemajD || Worldmap features own original music. || [https://supertux.lethargik.org/bugs/view.php?id=886 Bugtracker entry] [https://supertux.lethargik.org/bugs/view.php?id=875 Bugtracker music entry] [http://www.mediafire.com/?jsfl84p4ngkkg47 Download]
+|}
+
 === External links ===
 
-* [http://www.beige-box.com/supertux/pml.html SuperTux Fan Site Levels]
 * [http://shygypsy.com/supertux/ Abednego's Levels - Trot like a Fox]
 * [http://www.christian-schaefers.de/files/Tux_Strikes_Back.zip Tux Strikes Back]
 * [http://malfela.blogspot.com/2008/02/malfela-supertux-world.html Malfela SuperTux World]
