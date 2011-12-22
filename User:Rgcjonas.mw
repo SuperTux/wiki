@@ -25,7 +25,7 @@ The following things are implemented:
 * no need for the sdl libs anymore: The editor loads textures using Gtk.Pixbuf or System.Drawing.Bitmap, which are shipped with Gtk#/.Net Runtime => less unneeded dlls
 * some bugfixes ([https://supertux.lethargik.org/bugs/view.php?id=845 ShortFuse dispenser bug], [https://supertux.lethargik.org/bugs/view.php?id=461 Arrow object Drag&Drop bug], [https://supertux.lethargik.org/bugs/view.php?id=878 Property edit bug])
 
-=== r18 ===
+=== r23 ===
 Built on Linux using Mono. Runs on both Windows and Linux. Can work around the [http://arsuceno.blogspot.com/2011/05/bug-in-gtk-sharp-21210-for-windows.html bug in GtkSharp for Windows] now.
 
-http://www.mediafire.com/?7wk15v48ulttqva
+http://www.mediafire.com/?ox873689t4ih6k6
