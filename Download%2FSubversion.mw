@@ -1,20 +1,21 @@
+I tried to update this from the move from SVN to git. but I didn't do a very good job so some one better should make this page better. - CT. da'Bomb
+
 == Repository ==
 SuperTux development is coordinated with the help of the Subversion version control system. In a nutshell, it's a file-storing facility that can be used by multiple users simultaneously, keeping track of changes and archiving old versions of files. You can find out more about Subversion in general on their [http://subversion.apache.org/ homepage].
 
 == Getting the data (anonymous read-only access) ==
-Anonymous read access to the repository is granted to everybody. Once you have installed Subversion, all you have to do to get your hands on the data is to use the following command:
+Anonymous read access to the repository is granted to everybody. Once you have installed Git, all you have to do to get your hands on the data is to use the following command in your terminal:
 
- <nowiki>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux</nowiki>
+ <nowiki>git clone https://code.google.com/r/lmh0013-clone/</nowiki>
+or:
+ <nowiki>git clone https://code.google.com/p/supertux/</nowiki>
 
-This will create a new directory named ''supertux'' which contains the latest versions of the SuperTux source code and data. Once this is complete, you can use
-
- svn update
-
+This will create a new directory named ''supertux'' which contains the latest versions of the SuperTux source code and data. 
 inside the ''supertux'' directory to update to the latest version in the repository. This will only download changed files to save bandwidth.
 
 === Locations inside the Subversion repository ===
 
-Checking out the path above will get you all you need to contribute to SuperTux. However, if you don't want to check out the entire repository, you can just check out the pieces you need. For example, the media directory is notably large and it only necessary if you are working on sounds or graphics.
+THIS IS OLD:Checking out the path above will get you all you need to contribute to SuperTux. However, if you don't want to check out the entire repository, you can just check out the pieces you need. For example, the media directory is notably large and it only necessary if you are working on sounds or graphics.
 {|
 ||'''<tt><nowiki>http://supertux.lethargik.org/svn/supertux/trunk/htdocs</nowiki></tt>'''
 |Website source
