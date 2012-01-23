@@ -1,0 +1,28 @@
+== Repository ==
+SuperTux development is coordinated with the help of the Git version control system. In a nutshell, it's a file-storing facility that can be used by multiple users simultaneously, keeping track of changes and archiving old versions of files. You can find out more about Git in general on their [http://git-scm.com/ homepage].
+
+The SuperTux Git repository is accessible through Google code, available [https://code.google.com/p/supertux/ here].
+
+== Getting the data (anonymous read-only access) ==
+Anonymous read access to the repository is granted to everybody. You will first need to install Git; downloads, tutorials for setting up, and information about using Git are available on the [http://git-scm.com/ Git website]. Once you have installed Git, all you have to do to get your hands on the data is to use the following command in your terminal:
+
+ <nowiki>git clone https://code.google.com/p/supertux/</nowiki>
+
+This will create a new directory named ''supertux'' which contains the latest versions of the SuperTux source code and data. 
+inside the ''supertux'' directory to update to the latest version in the repository. This will only download changed files to save bandwidth.
+
+== Building from Source Code ==
+After you obtain the data from the repository, you will need to go through the building process to make a playable version of the game.  Follow the instructions in the ''INSTALL'' file located in the ''supertux'' directory to do this.
+
+Note that after any subsequent update from the Git repository you will likely need to repeat the building process to ensure that all new features are available.
+
+== SuperTux Level Editor ==
+Data for the SuperTux level editor is also available through the Git repository.  Accessing the code in Google Code is done by changing the repository from ''default'' to ''editor''.  To obtain a local clone of the editor code use the command:
+
+ <nowiki>git clone https://code.google.com/p/supertux.editor/</nowiki>
+
+You will need to follow the installation instructions provided with the repository data.
+
+[[Category:Development]]
+[[Category:Meta]]
+[[Category:SuperTux]]
