@@ -17,7 +17,7 @@ To download ''SuperTux'', you can choose between two types of packages and the d
 {| style="border: 1px solid red; border-spacing: 2px; margin: 1em 0px;"
 ! style="background: rgb(255,240,240);" | Git repository
 |-
-| The '''[https://code.google.com/p/supertux Git repository]''' (formerly the [[Download/Subversion|Subversion repository]]) contains ''SuperTux'' in a state of development. This means new features and a large amount of bugs. If you are interested in the development of SuperTux, feel like contributing or just simply want to try out the new features and you are ready to endure some bugs and crashes, this is what you want. If you have never played ''SuperTux'' before and are interested in developing ''SuperTux'', it is recommended you try out the stable package first.
+| The '''[[Download/Git | Git repository]]''' (formerly the [[Download/Subversion|Subversion repository]]) contains ''SuperTux'' in a state of development. This means new features and a large amount of bugs. If you are interested in the development of SuperTux, feel like contributing or just simply want to try out the new features and you are ready to endure some bugs and crashes, this is what you want. If you have never played ''SuperTux'' before and are interested in developing ''SuperTux'', it is recommended you try out the stable package first.
 |}
 
 Links to additional game content can be found on the following pages:
