@@ -13,6 +13,8 @@ Prebuilt binaries can be found at [[User:Rgcjonas]]
 
 [[User:x2on|x2on]] writes a [[User:x2on/Mac_OS_X_compilation|guide]] for Mac OS X Snow Leopard users on building SuperTux >=0.3.2 SVN.
 
+A new guide for building SuperTux >= 0.3.3 Git is [http://www.x2on.de/2012/01/28/tutorial-building-supertux-0-3-3-on-mac-os-x-lion/ here] available
+
 = Prerequisites =
 
 You will need the following tools and libraries to build SuperTux on your system:
