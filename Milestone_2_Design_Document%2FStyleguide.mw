@@ -31,6 +31,8 @@ Don't use tiles in the background that were built for the foreground. Use only s
 
 Levels ''must'' be at least 25 tiles high, using at least 32 tiles is recommended. Levels should be between 250 and 350 tiles long.<br />(A couple of levels in [[Icy Island]] are over 500&nbsp;tiles long – newer levels should not be this long and it's possible we'll split up those long levels in the future.)
 
+== The application-fall composition ==
+
 == Other ==
 
 SuperTux is meant to be a fair and fun game, so don't create unfair configurations, like a spike on the roof as well as one on the ground, that require way too much precision or luck and just aren't fun to play.
