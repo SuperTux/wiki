@@ -9,44 +9,43 @@
 
 == Sound and Music Tasks ==
 * Improve the sounds
-* Create more music tracks for IcyIsland or add BlastOffTek's pack.
+* Create more music tracks for IcyIsland or add BlastOffTek's pack or the music by semaJD [https://supertux.lethargik.org/bugs/view.php?id=875].
 * Compress music more. The 40 MBytes of music make up two thirds of the source tarball.
 
 == Graphics / Sprites ==
 * Crystallo dead/dying sprites
-* replace old bomb with new bomb sprite
-** <small>Done? - [[User:Sik0fewl|sik0fewl]] 03:29, 20 June 2008 (UTC)</small>
 * Create SuperTux idle animations (<del>stage1: blinking with the eye,</del> stage2: tipping with the food, stage3: scratching the head)
 ** <small>I've added the code for idle animations, we just need the graphics now. The blinking animation already exists, but it needs some tweaking - [[User:Sik0fewl|sik0fewl]] 06:25, 16 June 2008 (UTC)</small>
-* remove pictures from credits, looks to uneven that way 
-:<small>Really? I like the pictures. --[[User:WolfgangB|WolfgangB]] 19:00, 29 April 2008 (UTC)</small>
-:<small>I do too. --[[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC)</small>
+** [https://supertux.lethargik.org/bugs/view.php?id=681]
 * when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
 * Tux isn't centered properly to his collision box
 * repair jump Tux sprite (to dark black) (Grumbel)
 * butt jump animation (Grumbel)
 * backflip animation (Grumbel)
 * draw a bigger arrow for when Tux is jumping out of the screen
+** [[https://supertux.lethargik.org/wiki/Image:Airarrow.png]]
 * do a 32x32 top-down water animation for the worldmap
+** use theswe tiles [https://supertux.lethargik.org/bugs/view.php?id=852]
 * finish [[cannon]] graphics, also snowball graphics, death, etc (Grumbel)
 * try to fix white-lines around graphics problems (MatzeB)
+** Where? -CT. da'Bomb
 * [[Snowman]] graphics (death animation, turn-around graphics) (Grumbel)
 * [[Owl]] graphics (basically placeholder graphics right now) <small>—[[User:Octo|octo]] 07:53, 9 March 2010 (UTC)</small>
 * some decor for ice tiles, cracks and stuff (Grumbel)
 * finish icecrusher graphics
 * deep snow tiles
+** [https://supertux.lethargik.org/bugs/view.php?id=911]
 * icicle graphics for decoration purpose
+** [https://supertux.lethargik.org/bugs/view.php?id=911] an okay job, but not the best -CT.da'Bomb
 * animate minibomb
 * paint tutorial boards for grabbing, backflip and run-jump
+** run-jump and grabbing are done -CT. da'Bomb
 * think of a new way to represent the exit area (snow molted with smooth ground below or so)
 * add turn-around animation for smart-snowball
 * add sprite scaling
-* remove border from menu screen or make it scalable for different resolutions
 
 == Editor / Developer Conveniences ==
-* create some playable test levels for new stuff
-** <small>Anything in particular? - [[User:Sik0fewl|sik0fewl]] 20:07, 15 June 2008 (UTC)</small>
-*:Try these, since they're probably most noticeable to Milestone1 users: --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
+
 *# <strike>Slopes and background tiles</strike>
 *# Moving platforms <strike>(ice platforms haven't been used yet...)</strike>
 *# <strike>Climbable ladders</strike>
@@ -150,6 +149,14 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * create SuperTux .xo Activity for OLPC (Grumbel)
 
 == Finished ==
+* create some playable test levels for new stuff
+** <small>Anything in particular? - [[User:Sik0fewl|sik0fewl]] 20:07, 15 June 2008 (UTC)</small>
+*:Try these, since they're probably most noticeable to Milestone1 users: --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
+* remove border from menu screen or make it scalable for different resolutions
+* remove pictures from credits, looks to uneven that way 
+:<small>Really? I like the pictures. --[[User:WolfgangB|WolfgangB]] 19:00, 29 April 2008 (UTC)</small>
+:<small>I do too. --[[User:Mathnerd314|Mathnerd314]] 00:05, 6 July 2008 (UTC)</small>
+* replace old bomb with new bomb sprite
 * <strike>change game back to use Milestone1 single-sprite SuperTux (done)</strike>
 * <strike>switch supertux-editor over to CMake? (done, is now a simple Makefile)</strike>
 * <strike>when BigTux ducks, the camera moves/jumps, but should stand still (fixed, MatzeB)</strike>
