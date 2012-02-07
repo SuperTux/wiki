@@ -129,7 +129,7 @@
 * merge AngryStone and Icecrusher, both do the same thing, just with different graphics (actually they don't, maybe they should?)
 *: "Angry Stone" follows [[Tux]] around, [[Krush and Krosh]] only drop down (not left/right/up) towards Tux. —[[User:Octo|octo]] 09:39, 27 February 2010 (UTC)
 *: The ''Angry Stone'' is currently not used in any level. It is used in {{SvnFile|data/levels/world2/dfk-placeholder-1.stl}} and {{SvnFile|data/levels/world2/castledoor.stl}}, but neither is contained in the [[World 2]] worldmap. Wouldn't it be easiest to just remove ''Angry Stone''? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)
-* [[Mr. IceBlock]]: transparency looks shit on dark backgrounds, Wiki had a better looking version floating around
+* [[Mr. IceBlock]]: transparency looks horrible on dark backgrounds, Wiki had a better looking version floating around
 
 == Postpone to Milestone 3 ==
 
