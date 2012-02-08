@@ -32,7 +32,7 @@ Don't use tiles in the background that were built for the foreground. Use only s
 Levels ''must'' be at least 25 tiles high, using at least 32 tiles is recommended. Levels should be between 250 and 350 tiles long.<br />(A couple of levels in [[Icy Island]] are over 500&nbsp;tiles long – newer levels should not be this long and it's possible we'll split up those long levels in the future.)
 
 == The application-fall composition ==
-When something falls on [[haywire]], then application falls. This is happening on ST 0.3.3. This bug is corrected in ST 0.3.3SVN, but it's only a development version and not full version. It's very frusturating, when the application is always falling. Don't make levels, where is possible something like that!!
+When something falls on [[haywire]], then application falls. This is happening on ST 0.3.3. This bug is corrected in ST 0.3.3SVN, but it's only a development version and not full version. It's very frusturating, when the application is always falling. Don't make levels, where is possible something like that!! It's good to follow it, while is ST 0.3.3 in power.
 
 == Other ==
 
