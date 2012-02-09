@@ -77,6 +77,10 @@ Before you start editing, you should edit the properties of the sector. Right cl
 [[Image:(STE)_Sector_settings_Diagram.png]]
 
 == <font color=blue>Lesson 1:</font>''' Basic Editing==
+===Before you read this===
+Before you go gung-ho about making a level, I strongly suggest you read this section to get a grip on how things work: http://supertux.lethargik.org/wiki/Editor_FAQ
+Now you don't need to read [i]all[/i] of this, but read this to understand the stuff you don't in this guide.
+
 ===Placing Tiles===
 Okay, you've finished the properties. Now click the button on the top.
 
