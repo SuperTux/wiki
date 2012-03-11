@@ -35,7 +35,7 @@ Several add-ons are available for manual installation from an external download 
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show; " class="prettytable sortable"
 ! Add-on Name !! Type !! # of Levels !! Author !! Description !! Additional Informaion
 |-
-|UltimaAddon FEB2012 || Worlds || 341 || Various Authors || The complete Add-on Collection in one file for your download convenience.  Simply treat as you would any add-on and place in your supertux2 or data directory unzipped.  This will add fifteen entries to the 'contrib levels' menu consisting of 10 worlds 5 levelsets and totalling 341 levels.  Enjoy! || [http://www.mediafire.com/?a3mnqlq3d5hx16g Download]
+|UltimaAddon FEB2012 || Worlds || 341 || Various Authors || The complete Add-on Collection in one file for your download convenience.  Simply treat as you would any add-on and place directly in your supertux2 or data directory (do not unzip).  This will add fifteen entries to the 'contrib levels' menu consisting of 10 worlds 5 levelsets and totalling 341 levels.  Enjoy! || [http://www.mediafire.com/?a3mnqlq3d5hx16g Download]
 |-
 |Bugtracker-PreGit collection || Levelsets || 25 || Various Authors || Set of levels found on bugtracker as of January 2012.  Will show up as three individual entries in contrib levels: "Bugtracker_PreGit_Collection", "Ice Mountain", & "Newworld".  The latter two use custom content.  Soon to be incorporated into a worldmap.|| [http://www.mediafire.com/download.php?ex1i64ob4r53ogg Download] [https://supertux.lethargik.org/bugs/view.php?id=915 Bugtracker entry]
 |-
