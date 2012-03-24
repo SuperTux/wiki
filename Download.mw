@@ -20,6 +20,8 @@ To download ''SuperTux'', you can choose between two types of packages and the d
 | The '''[[Download/Git | Git repository]]''' (formerly the [[Download/Subversion|Subversion repository]]) contains ''SuperTux'' in a state of development. This means new features and a large amount of bugs. If you are interested in the development of SuperTux, feel like contributing or just simply want to try out the new features and you are ready to endure some bugs and crashes, this is what you want. If you have never played ''SuperTux'' before and are interested in developing ''SuperTux'', it is recommended you try out the stable package first.
 |}
 
+== Levels and Additional Game Content ==
+
 Links to additional game content can be found on the following pages:
 * [[Levels]]
 * [[Modifications]]
