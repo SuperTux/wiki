@@ -237,3 +237,7 @@ Is there a active Supertux forum? All forums linked from the wiki are dead. On f
 
 View SVN leads to an error. Object not found! The requested URL was not found on this server. You might want to try to search for "supertux" at our wiki.
 The link on the referring page seems to be wrong or outdated. Please inform the author of that page about the error. Error 404 supertux.lethargik.org Wed Feb 1 06:36:25 2012 [[Special:Contributions/121.164.146.203|121.164.146.203]] 10:41, 31 January 2012 (UTC)
+
+== Sound Effects section: sort by last name order ==
+
+The sound section should sort their names by last name order in the credits file, however the original credits file have them sorted by first name order. ~~
