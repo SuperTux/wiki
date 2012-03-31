@@ -1,0 +1,335 @@
+{{Attention|s=Site still in work!}}
+
+<center>[[Image:Yetis_Revenge_Logo.png‎]]</center>
+
+'''Yeti's Revenge''' is an addon for Supertux 0.3.3-svn (September 2011) by ''niso''. It contains a brand new worldmap, two storylines and over 30 levels. At the end of the main story Tux has to fight against Yeti again. Although the whole addon ist more challenging than the main game, all levels can be finished completely (each coin, secret etc. is reachable). 
+
+
+==== Links ====
+* Download addon from [https://supertux.lethargik.org/bugs/view.php?id=836 Bugtracker Entry] (to prefer) or [http://forum.freegamedev.net/viewtopic.php?f=69&t=2451 Fan-Forum]
+* Download best working snapshot from [http://forum.freegamedev.net/viewtopic.php?p=27149#p27149 Fan-Forum]
+* [http://www.youtube.com/watch?v=pFgh6ffZH68 Youtube-Video]
+
+
+==== New Bonuses ====
+{|
+|-
+| [[Image:Fish_small.png]] || || '''Fishboxes:''' To play the second storyline Tux has to search for 35 fishboxes which are hidden (sometimes hard to find)
+|-
+| [[Image:Coinblue-0.png‎]] || || '''Blue Coins:''' If Tux collects 5 of these coins in one level (without to die), he will get 3 lifes.
+|}
+
+
+
+==== Levels ====
+{| border="1" class="wikitable sortable"
+|-
+! Screenshot 
+! Name 
+! Type 
+! Direction 
+! Difficulty 
+! Lenght
+|-
+| [[Image:Yr3.PNG|120px]]
+| A Loud Night
+|style="text-align:center"| intro
+|style="text-align:center"| right
+|style="text-align:center"| - 
+|style="text-align:center"| -
+|-
+| [[Image:Yr4.PNG|120px]]
+| Leaving Home and Start the Journey       
+|style="text-align:center"| normal        
+|style="text-align:center"| right        
+|style="text-align:center"| <p style="background-color:green">easy</p>       
+|style="text-align:center"| normal     
+|-
+| [[Image:Yr6.PNG|120px]]
+| Above the Clouds
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr7.PNG|120px]]
+| Carry Me
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Hail Storm
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr8.PNG|120px]]
+| Through the Groundwater
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| long
+|-
+| [[Image:Yr10.PNG|120px]]
+| Playground in the Water
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr11.PNG|120px]]
+| Crazy Cave
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr12.PNG|120px]]
+| Lotus Grotto
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr13.PNG|120px]]
+| Staple Me
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| normal
+|-
+| screen
+| It's Getting Colder
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr14.PNG|120px]]
+| A Bombastic Day
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr15.PNG|120px]]
+| Blue Mountain
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| long
+|-
+| [[Image:Yr17.PNG|120px]]
+| More of the Blue Mountain
+|style="text-align:center"| normal
+|style="text-align:center"| up
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| long
+|-
+| [[Image:Yr18.PNG|120px]]
+| Reaching the Top
+|style="text-align:center"| normal
+|style="text-align:center"| up
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| long
+|-
+| [[Image:Yr20.PNG|120px]]
+| The Way Down
+|style="text-align:center"| normal
+|style="text-align:center"| down
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| long
+|-
+| [[Image:Yr22.PNG|120px]]
+| Don't Be Afraid
+|style="text-align:center"| puzzle
+|style="text-align:center"| ?
+|style="text-align:center"| <p style="background-color:grey">?</p>
+|style="text-align:center"| ?
+|-
+| [[Image:Yr23.PNG|120px]]
+| Path Without Name
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yr24.PNG|120px]]
+| Pirate's Harbor
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Foreign Passenger
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| long
+|-
+| screen
+| Escape From the Pirates
+|style="text-align:center"| chase
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| long
+|-
+| screen
+| Something to Enjoy
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| short
+|-
+| screen
+| Windy Day On Ice
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p> 
+|style="text-align:center"| normal
+|-
+| screen
+| Next to the Stars
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Slippery Climbing
+|style="text-align:center"| normal
+|style="text-align:center"| up
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| long
+|-
+| screen
+| Controlling the Temperature
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| screen
+| The Grand Bridge
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Shaft Racing
+|style="text-align:center"| normal/autoscroll
+|style="text-align:center"| down
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| long
+|-
+| screen
+| I Go With My Latern
+|style="text-align:center"| puzzle
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:grey">?</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Freeze 'n' Flee
+|style="text-align:center"| normal
+|style="text-align:center"| ?
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Living Spikes
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Spooky Way of Life
+|style="text-align:center"| puzzle
+|style="text-align:center"| ?
+|style="text-align:center"| <p style="background-color:grey">?</p>
+|style="text-align:center"| ?
+|-
+| screen
+| Hang Out in the Underground
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:yellow">medium</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Cave of Waterfalls
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yrquestion.jpg|120px]]
+| All's Well That Ends Well
+|style="text-align:center"| ?
+|style="text-align:center"| ?
+|style="text-align:center"| <p style="background-color:grey">?</p>
+|style="text-align:center"| ?
+|-
+| [[Image:Yrquestion.jpg|120px]]
+| Yeti's Revenge
+|style="text-align:center"| bossfight
+|style="text-align:center"| -
+|style="text-align:center"| <p style="background-color:grey">?</p>
+|style="text-align:center"| -
+|-
+| [[Image:Yrquestion.jpg|120px]]
+| Bonus
+|style="text-align:center"| ?
+|style="text-align:center"| -
+|style="text-align:center"| -
+|style="text-align:center"| -
+|-
+| screen
+| Something in the Water
+|style="text-align:center"| intro
+|style="text-align:center"| right
+|style="text-align:center"| -
+|style="text-align:center"| -
+|-
+| screen
+| A Wonderful Day
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:green">easy</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Big Wave
+|style="text-align:center"| chase
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| normal
+|-
+| screen
+| Surfing Tux
+|style="text-align:center"| autoscroll
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| normal
+|-
+| screen
+| No Brigde Out There
+|style="text-align:center"| normal
+|style="text-align:center"| right
+|style="text-align:center"| <p style="background-color:red">hard</p>
+|style="text-align:center"| normal
+|-
+| [[Image:Yrquestion.jpg|120px]]
+| Still Waters Run Deep
+|style="text-align:center"| bossfight
+|style="text-align:center"| ?
+|style="text-align:center"| <p style="background-color:grey">?</p> 
+|style="text-align:center"| ?
+|-
+|}
