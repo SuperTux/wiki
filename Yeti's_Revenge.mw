@@ -1,14 +1,18 @@
-{{Attention|s=Site still in work!}}
-
 <center>[[Image:Yetis_Revenge_Logo.png‎]]</center>
 
 '''Yeti's Revenge''' is an addon for Supertux 0.3.3-svn (September 2011) by ''niso''. It contains a brand new worldmap, two storylines and over 30 levels. At the end of the main story Tux has to fight against Yeti again. Although the whole addon ist more challenging than the main game, all levels can be finished completely (each coin, secret etc. is reachable). 
+
 
 
 ==== Links ====
 * Download addon from [https://supertux.lethargik.org/bugs/view.php?id=836 Bugtracker Entry] (to prefer) or [http://forum.freegamedev.net/viewtopic.php?f=69&t=2451 Fan-Forum]
 * Download best working supertux-snapshot from [http://forum.freegamedev.net/viewtopic.php?p=27149#p27149 Fan-Forum]
 * [http://www.youtube.com/watch?v=pFgh6ffZH68 Youtube-Video]
+
+
+==== Worldmap ====
+[[Image:Yrmap.PNG|300px]]
+
 
 ==== New Bonuses ====
 {|
@@ -21,6 +25,7 @@
 
 
 ==== Levels ====
+
 {| border="1" cellpadding="3" cellspacing="1" 
 |-
 ! Screenshot 
@@ -58,7 +63,7 @@
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr34.PNG|100px]]
 | Hail Storm
 |style="text-align:center"| normal
 |style="text-align:center"| right
@@ -100,7 +105,7 @@
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr33.PNG|100px]]
 | It's Getting Colder
 |style="text-align:center"| normal
 |style="text-align:center"| right
@@ -163,7 +168,7 @@
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr35.PNG|100px]]
 | Foreign Passenger
 |style="text-align:center"| normal
 |style="text-align:center"| right
@@ -219,49 +224,49 @@
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr36.PNG|100px]]
 | Shaft Racing
 |style="text-align:center"| normal/autoscroll
 |style="text-align:center"| down
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| long
 |-
-| screen
+| [[Image:Yr37.PNG|100px]]
 | I Go With My Latern
 |style="text-align:center"| puzzle
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:grey">?</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr38.PNG|100px]]
 | Freeze 'n' Flee
 |style="text-align:center"| normal
 |style="text-align:center"| ?
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr39.PNG|100px]]
 | Living Spikes
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr40.PNG|100px]]
 | Spooky Way of Life
 |style="text-align:center"| puzzle
 |style="text-align:center"| ?
 |style="text-align:center"| <p style="background-color:grey">?</p>
 |style="text-align:center"| ?
 |-
-| screen
+| [[Image:Yr41.PNG|100px]]
 | Hang Out in the Underground
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr42.PNG|100px]]
 | Cave of Waterfalls
 |style="text-align:center"| normal
 |style="text-align:center"| right
@@ -289,35 +294,35 @@
 |style="text-align:center"| -
 |style="text-align:center"| -
 |-
-| screen
+| [[Image:Yr43.PNG|100px]]
 | Something in the Water
 |style="text-align:center"| intro
 |style="text-align:center"| right
 |style="text-align:center"| -
 |style="text-align:center"| -
 |-
-| screen
+| [[Image:Yr44.PNG|100px]]
 | A Wonderful Day
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr45.PNG|100px]]
 | Big Wave
 |style="text-align:center"| chase
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr46.PNG|100px]]
 | Surfing Tux
 |style="text-align:center"| autoscroll
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| normal
 |-
-| screen
+| [[Image:Yr47.PNG|100px]]
 | No Brigde Out There
 |style="text-align:center"| normal
 |style="text-align:center"| right
