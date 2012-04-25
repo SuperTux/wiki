@@ -61,23 +61,15 @@
 
 == Levels / Scripting / Gameplay ==
 * replace "you found a secret area" with a special sound (Wansti)
+**why I like it the way it is. -ctdabomb
 * level startup needs a fade-in, so does game startup, level abort and a few other places
 * add all fade-in/out effects to DisplayEffect
-* peeking should stick instead of jumping back or jumping back should be limited to normal range that the camera can do
-** <small>I think this is fixed or at least better now? - [[User:Sik0fewl|sik0fewl]] 18:34, 30 April 2009 (UTC)</small>
-* bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug), capslock is bound to ctrl and ctrl is bound as action key, using space for action works as workaround (Grumbel)
 * camera vertical scroll doesn't work properly in a small window (i.e. it doesn't move at all)
 
 == Other ==
-* add PNG support for screenshots, BMP support currently broken
-** <small>What's wrong with BMP support? It seems to work for me - [[User:Sik0fewl|sik0fewl]] 06:11, 13 June 2008 (UTC)</small>
-*** ACK, BMP-based screenshots work, at least with the SDL renderer. --[[User:Octo|octo]] 06:53, 5 March 2010 (UTC)
-* at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
-** <small>Fixed?</small>
 * aspect ratio init code (Grumbel)
 * think about peeking in relation to large screen size
 ** <small>Maybe disable peeking if the resolution is at a certain size or greater? Tux would just be centered. [[User:Sik0fewl|sik0fewl]] 18:34, 30 April 2009 (UTC)</small>
-* port to Haskell
 
 == Enemies ==
 * fix and cleanup all the enemy names - see [[Milestone 2 Design Document/Enemies]] for new names
@@ -91,24 +83,14 @@
 * General: Get rid of enemies stacking on top of each other
 ** <small>What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)</small>
 ** <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [[User:Sik0fewl|sik0fewl]] 16:53, 19 March 2010 (UTC)</small>
-* General: Have particle throwing starting enemies (fireflower like)
-** Not on the ''Enemies'' page. Postpone to ''Milestone 3''? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)
 * General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
-* [[Mr. Bomb]]: Roll back to behavior of [[Milestone 1]], get rid of particle effects
-** Particle effects are currently deactivated in {{SvnFile|src/object/explosion.cpp}}. --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
 * [[Mr. Bomb]]: let the fuse burn after one touched it
-* [[Haywire]]: new bomb type (crazy pink bomb) that runs around after being touched
-** Initial version is done. Waiting for feedback and improvements. See [[Milestone 2 Design Document/Enemies]] --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
 * [[Flying Snowball]]: Remove randomness, should be periodic and predictable
 * [[Flying Snowball]]: Change timings to match that of Milestone1
 * [[Flying Snowball]]: smoke effect for the motor seem to be to seldomly triggered
 * [[Krush and Krosh|Icecrusher]]: gravitation instead of linear, facial expression, maybe screen shaking
 *: Gravitation has been done in {{Revision|6403}}. —[[User:Octo|octo]] 19:19, 26 February 2010 (UTC)
 * [[Krosh]] (big icecrusher): add a larger version of [[Krush]] (the icecrusher), twice the size (4x4 files)
-* merge AngryStone and Icecrusher, both do the same thing, just with different graphics (actually they don't, maybe they should?)
-*: "Angry Stone" follows [[Tux]] around, [[Krush and Krosh]] only drop down (not left/right/up) towards Tux. —[[User:Octo|octo]] 09:39, 27 February 2010 (UTC)
-*: The ''Angry Stone'' is currently not used in any level. It is used in {{SvnFile|data/levels/world2/dfk-placeholder-1.stl}} and {{SvnFile|data/levels/world2/castledoor.stl}}, but neither is contained in the [[World 2]] worldmap. Wouldn't it be easiest to just remove ''Angry Stone''? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)
-* [[Mr. IceBlock]]: transparency looks horrible on dark backgrounds, Wiki had a better looking version floating around
 
 == Postpone to Milestone 3 ==
 
@@ -122,12 +104,27 @@ These are items that can be postponed until milestone 3, but are still welcome f
 
 ===Levels / Scripting / Gameplay===
 * SuperTux should stand on the ground when a level starts, not fall down (move all spawnpoints to 1 tile above ground)
+**just needs to get committed from ctdabomb's clone
 * fix console command set_game_speed() so that it doesn't slow down the console
 
 ===Other===
 * create SuperTux .xo Activity for OLPC (Grumbel)
+* Have particle throwing starting enemies (fireflower like)
 
 == Finished ==
+* [[Mr. IceBlock]]: transparency looks horrible on dark backgrounds, Wiki had a better looking version floating around
+* [[Haywire]]: new bomb type (crazy pink bomb) that runs around after being touched
+** Initial version is done. Waiting for feedback and improvements. See [[Milestone 2 Design Document/Enemies]] --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
+* [[Mr. Bomb]]: Roll back to behavior of [[Milestone 1]], get rid of particle effects
+** Particle effects are currently deactivated in {{SvnFile|src/object/explosion.cpp}}. --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
+* add PNG support for screenshots, BMP support currently broken
+** <small>What's wrong with BMP support? It seems to work for me - [[User:Sik0fewl|sik0fewl]] 06:11, 13 June 2008 (UTC)</small>
+*** ACK, BMP-based screenshots work, at least with the SDL renderer. --[[User:Octo|octo]] 06:53, 5 March 2010 (UTC)
+* at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
+** <small>Fixed?</small>
+* bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug), capslock is bound to ctrl and ctrl is bound as action key, using space for action works as workaround (Grumbel)
+* peeking should stick instead of jumping back or jumping back should be limited to normal range that the camera can do
+** <small>I think this is fixed or at least better now? - [[User:Sik0fewl|sik0fewl]] 18:34, 30 April 2009 (UTC)</small>
 * <strike>add an cmd option --default</strike> and/or a menu entry "Reset to Default" to reset any changes to resolution or aspect ratio (or something along those lines) (cmd done, WolfgangB)
 * <strike>create an overview of the current levels</strike> — [[Milestone 2 Design Document/Levels]]
 *: —[[User:Octo|octo]] 07:24, 11 January 2011 (UTC)
