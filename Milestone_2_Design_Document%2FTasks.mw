@@ -7,7 +7,7 @@
 == Sound and Music Tasks ==
 * Improve the sounds
 * Create more music tracks for IcyIsland or add BlastOffTek's pack or the music by semaJD [https://supertux.lethargik.org/bugs/view.php?id=875].
-    semajd's music is added, we just need to add the music to levels
+**semajd's music is added, we just need to add the music to levels
 * Compress music more. The 40 MBytes of music make up two thirds of the source tarball.
 
 == Graphics / Sprites ==
