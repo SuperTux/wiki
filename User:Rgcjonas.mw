@@ -18,6 +18,9 @@ http://www.mediafire.com/?cd61bdcv3wt5a
 == SuperTux Improved Editor ==
 This is a fork of the SuperTux level editor. Contains some improvements.
 
+'''DISCONTINUED: Development has been stopped since I don't have time anymore. You're welcome to take over or (better) merge the improvements into the main codebase
+'''
+
 https://launchpad.net/supertux-improved-editor
 
 The following things are implemented:
