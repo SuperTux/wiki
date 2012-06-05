@@ -6,8 +6,6 @@
 
 == Sound and Music Tasks ==
 * Improve the sounds
-* Create more music tracks for IcyIsland or add BlastOffTek's pack or the music by semaJD [https://supertux.lethargik.org/bugs/view.php?id=875].
-**semajd's music is added, we just need to add the music to levels
 * Compress music more. The 40 MBytes of music make up two thirds of the source tarball.
 
 == Graphics / Sprites ==
@@ -31,8 +29,7 @@
 * icicle graphics for decoration purpose
 ** [https://supertux.lethargik.org/bugs/view.php?id=911] an okay job, but not the best -CT.da'Bomb
 * animate minibomb
-* paint tutorial boards for grabbing, backflip and run-jump
-** run-jump and grabbing are done -CT. da'Bomb
+* paint tutorial board for backflip
 * think of a new way to represent the exit area (snow molted with smooth ground below or so)
 * add turn-around animation for smart-snowball
 * add sprite scaling
@@ -112,6 +109,8 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * Have particle throwing starting enemies (fireflower like)
 
 == Finished ==
+* Create more music tracks for IcyIsland or add BlastOffTek's pack or the music by semaJD [https://supertux.lethargik.org/bugs/view.php?id=875].
+**semajd's music is added, we just need to add the music to levels
 * [[Mr. IceBlock]]: transparency looks horrible on dark backgrounds, Wiki had a better looking version floating around
 * [[Haywire]]: new bomb type (crazy pink bomb) that runs around after being touched
 ** Initial version is done. Waiting for feedback and improvements. See [[Milestone 2 Design Document/Enemies]] --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
