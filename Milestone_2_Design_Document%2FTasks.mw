@@ -15,8 +15,6 @@
 * when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
 * Tux isn't centered properly to his collision box
 * repair jump Tux sprite (to dark black) (Grumbel)
-* draw a bigger arrow for when Tux is jumping out of the screen
-** [[https://supertux.lethargik.org/wiki/Image:Airarrow.png]]
 * do a 32x32 top-down water animation for the worldmap
 ** use these tiles [https://supertux.lethargik.org/bugs/view.php?id=852]
 * finish [[cannon]] graphics, also snowball graphics, death, etc (Grumbel)
@@ -109,6 +107,8 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * Have particle throwing starting enemies (fireflower like)
 
 == Finished ==
+* draw a bigger arrow for when Tux is jumping out of the screen
+** [[https://supertux.lethargik.org/wiki/Image:Airarrow.png]]
 * Create more music tracks for IcyIsland or add BlastOffTek's pack or the music by semaJD [https://supertux.lethargik.org/bugs/view.php?id=875].
 **semajd's music is added, we just need to add the music to levels
 * [[Mr. IceBlock]]: transparency looks horrible on dark backgrounds, Wiki had a better looking version floating around
