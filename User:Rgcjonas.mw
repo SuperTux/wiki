@@ -18,19 +18,8 @@ Every build (especially older ones):
 http://www.mediafire.com/?cd61bdcv3wt5a
 
 == SuperTux Improved Editor ==
-This is a fork of the SuperTux level editor. Contains some improvements.
+'''The old improved editor has been superseeded by my clone of the official supertux-editor repo.'''
 
-'''DISCONTINUED: Development has been stopped since I don't have time anymore. You're welcome to take over or (better) merge the improvements into the main codebase
-'''
+http://code.google.com/r/rgcjonas-steditor
 
-https://launchpad.net/supertux-improved-editor
-
-The following things are implemented:
-* Syntax Highlighting for squirrel scripts & more text editor settings
-* no need for the sdl libs anymore: The editor loads textures using Gtk.Pixbuf or System.Drawing.Bitmap, which are shipped with Gtk#/.Net Runtime => less unneeded dlls
-* some bugfixes ([https://supertux.lethargik.org/bugs/view.php?id=845 ShortFuse dispenser bug], [https://supertux.lethargik.org/bugs/view.php?id=461 Arrow object Drag&Drop bug], [https://supertux.lethargik.org/bugs/view.php?id=878 Property edit bug])
-
-=== r23 ===
-Built on Linux using Mono. Runs on both Windows and Linux. Can work around the [http://arsuceno.blogspot.com/2011/05/bug-in-gtk-sharp-21210-for-windows.html bug in GtkSharp for Windows] now.
-
-http://www.mediafire.com/?ox873689t4ih6k6
+I'll make a binary available soon.
