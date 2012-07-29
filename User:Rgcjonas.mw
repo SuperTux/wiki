@@ -23,3 +23,12 @@ http://www.mediafire.com/?cd61bdcv3wt5a
 http://code.google.com/r/rgcjonas-steditor
 
 I'll make a binary available soon.
+
+=== MDI branch ===
+I recently worked on implementing a MDI interface which makes the supertux editor capable of opening multiple levels in one instance.
+
+The result lives here: http://code.google.com/r/rgcjonas-steditor/source/browse/?name=mdi
+
+Windows binary (self extracting archive): http://www.mediafire.com/?bl5y151u11jdxnm
+<br />
+You'll need the .NET Framework 4.0 Runtime. GtkSharp is included.
