@@ -54,8 +54,6 @@
 * make left/right change an option in the menu, let enter apply it (needed for fullscreen)
 
 == Levels / Scripting / Gameplay ==
-* replace "you found a secret area" with a special sound (Wansti)
-**why I like it the way it is. -ctdabomb
 * level startup needs a fade-in, so does game startup, level abort and a few other places
 * add all fade-in/out effects to DisplayEffect
 * camera vertical scroll doesn't work properly in a small window (i.e. it doesn't move at all)
@@ -74,9 +72,6 @@
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
 ** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
 *** <small>No, this enemy is intelligent (reacts to Tux) --[[User:Mathnerd314|Mathnerd314]] 20:43, 19 March 2010 (UTC) </small>
-* General: Get rid of enemies stacking on top of each other
-** <small>What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)</small>
-** <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [[User:Sik0fewl|sik0fewl]] 16:53, 19 March 2010 (UTC)</small>
 * General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
 * [[Mr. Bomb]]: let the fuse burn after one touched it
 * [[Flying Snowball]]: Remove randomness, should be periodic and predictable
@@ -97,15 +92,19 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
 
 ===Levels / Scripting / Gameplay===
-* SuperTux should stand on the ground when a level starts, not fall down (move all spawnpoints to 1 tile above ground)
-**just needs to get committed from ctdabomb's clone
 * fix console command set_game_speed() so that it doesn't slow down the console
+* replace "you found a secret area" with a special sound (Wansti)
+**why I like it the way it is. -ctdabomb
 
 ===Other===
 * create SuperTux .xo Activity for OLPC (Grumbel)
 * Have particle throwing starting enemies (fireflower like)
 
 == Finished ==
+* General: Get rid of enemies stacking on top of each other
+** <small>What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)</small>
+** <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [[User:Sik0fewl|sik0fewl]] 16:53, 19 March 2010 (UTC)</small>
+* SuperTux should stand on the ground when a level starts, not fall down (move all spawnpoints to 1 tile above ground)
 * paint tutorial board for backflip
 * draw a bigger arrow for when Tux is jumping out of the screen
 ** [[https://supertux.lethargik.org/wiki/Image:Airarrow.png]]
