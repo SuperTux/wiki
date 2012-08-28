@@ -29,13 +29,10 @@
 * animate minibomb
 * think of a new way to represent the exit area (snow molted with smooth ground below or so)
 * add turn-around animation for smart-snowball
-* add sprite scaling
 
 == Editor / Developer Conveniences ==
 
 *# directly accessible powerups
-* reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
-* Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector <strike>or at least a hint in the status bar</strike>. (status bar done)
 * finish editor improvements (MatzeB)
 * editor doesn't align [[Cannon]] and [[Krush and Krosh]] properly (grid is wrong)
 ** I think it's using the 0,0-position of the ''image'' to align objects, not the ''hitbox''. —[[User:Octo|octo]] 07:50, 9 March 2010 (UTC)
@@ -43,7 +40,6 @@
 == Meta / Organization ==
 * create a timeline what shall be done and when — [[Milestone 2 Design Document/Timeline]]
 * discuss in the meetings what shall be done over the coming week — [[Next Meeting Agenda]]
-* document the behaviour of all badguys to be used in Milestone2 along with how they interact with each other - [[Milestone 2 Design Document/Enemies]]
 
 == Menu System / Game Configuration ==
 * add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
@@ -72,12 +68,11 @@
 * create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
 ** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
 *** <small>No, this enemy is intelligent (reacts to Tux) --[[User:Mathnerd314|Mathnerd314]] 20:43, 19 March 2010 (UTC) </small>
-* General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
 * [[Mr. Bomb]]: let the fuse burn after one touched it
 * [[Flying Snowball]]: Remove randomness, should be periodic and predictable
 * [[Flying Snowball]]: Change timings to match that of Milestone1
 * [[Flying Snowball]]: smoke effect for the motor seem to be to seldomly triggered
-* [[Krush and Krosh|Icecrusher]]: gravitation instead of linear, facial expression, maybe screen shaking
+* [[Krush and Krosh|Icecrusher]]: gravitation instead of linear, facial expression.
 *: Gravitation has been done in {{Revision|6403}}. —[[User:Octo|octo]] 19:19, 26 February 2010 (UTC)
 * [[Krosh]] (big icecrusher): add a larger version of [[Krush]] (the icecrusher), twice the size (4x4 files)
 
@@ -95,12 +90,16 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * fix console command set_game_speed() so that it doesn't slow down the console
 * replace "you found a secret area" with a special sound (Wansti)
 **why I like it the way it is. -ctdabomb
-
+* General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
 ===Other===
 * create SuperTux .xo Activity for OLPC (Grumbel)
 * Have particle throwing starting enemies (fireflower like)
+* add sprite scaling
 
 == Finished ==
+* document the behaviour of all badguys to be used in Milestone2 along with how they interact with each other - [[Milestone 2 Design Document/Enemies]]
+* reorganize the editor to something more like this [http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png SuperTux-Editor MookUp]
+* Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector <strike>or at least a hint in the status bar</strike>. (status bar done)
 * General: Get rid of enemies stacking on top of each other
 ** <small>What does that mean? —[[User:Octo|octo]] 07:45, 9 March 2010 (UTC)</small>
 ** <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [[User:Sik0fewl|sik0fewl]] 16:53, 19 March 2010 (UTC)</small>
