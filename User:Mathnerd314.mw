@@ -1,23 +1,5 @@
 == About me ==
-I'm a bored teenager who has a laptop (with Windows SP2, currently), an internet connection (fairly slow, so I wait a long time), and lots of free time. I program Java, [http://en.wikipedia.org/wiki/Zilog_Z80 z80 assembly] (ever heard of a TI calculator?), and some C and C++ (because of its similarity to Java). I am currently trying to learn more of C and C++, and C# so I can work on the level editor. I have a few ideas that will revolutionize (or so I think) level designing...
-
-== Miscellaneous notes on SuperTux ==
-I have a few interesting quirks of SuperTux that I discovered, so I post them here because there is no documentation (both in the source and on the wiki)
-*I'm not certain why the devs put in path support for will-o-wisps, but being able to both stay on a path and track seems kind of useless... The only it changes from ordinary tracking is the direction the willowisp comes from...
-*Ispy seems kind of odd... Why doesn't he count as a badguy, as opposed to currently being an object? Also, why not let a direction of auto mean down, instead of giving a warning? And why is there a check for a direction of up in Ispy's update method?
-*Pneumatic and bicycle platforms both look cool... but I'm not certain I understand how they work. I no doubt need to look at the test levels for them... and currently they have no documentation other than their source code (and my cool page).
+I'm a bored college student who has a laptop (with Windows 7, currently), an internet connection (the university's fast one, sometimes, but usually a slow one), and very little free time. I program Java, [http://en.wikipedia.org/wiki/Zilog_Z80 z80 assembly], and some C and C++ (because of its similarity to Java), but my favorite language is definitely [http://www.haskell.org/ Haskell]. I am currently trying to get through college.
 
 == Current Projects ==
-I have a fairly short attention span of a few months, during which I try to make a working (albeit roughish) program that does some cool thing.
-
-Right now, I'm currently trying to write a converter for [http://www.ticalc.org/pub/83plus/asm/games/levels/mario/ these mario levels] that run under [http://www.ticalc.org/archives/files/fileinfo/192/19225.html this mario calculator game] to get a huge source of levels for SuperTux. I'll post the converter (written in Java) and my pick of the converted levels once I get it done.
-
-I also have some ideas for the level editor that I'm trying to develop into a Java-based level editor, but I'm being bogged down by Lisp... Maybe when the book I reserved on Lisp comes in, I'll make some progress.
-
-== Wiki ==
-I'm fairly active on the wiki, as you can no doubt can [[Special:Contributions/Mathnerd314|tell]]. I clean up various pages, update them, and fix broken links. However, there's a problem with the [[Special:Wantedpages|wanted pages page]]: It has a little less than 100 pages, but more than 3/4 of them are linked by the help pages, and completely unrelated to  Supertux. Here's a list of non-help namespace pages with broken links, to help an intrepid soul who wants to fix the real ones (such as me):
-*[[Objects]]
-*[[Actions]]
-*[[Light Forest Maps]]
-*[[Pipes]]
-*[[Tilemap]]
+I'm not very active, but occasionally I submit patches to various Firefox addons that I use. I might get back into SuperTux development, depending on how my class load is.
