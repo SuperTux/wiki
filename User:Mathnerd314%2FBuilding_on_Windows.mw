@@ -25,15 +25,20 @@ OK, enough of that. Here are the steps I used for building SuperTux on a (mostly
 
 === It's Download Time ===
 
-We need lots of libraries, so let's download them:
+We need lots of libraries as well as a copy of the supertux development tree, so let's download them:
 
  mkdir C:\MinGW
  cd C:\MinGW
  curl -OL [http://sourceforge.net/projects/mingw/files/Installer/mingw-get/ http://downloads.sourceforge.net/project/mingw/Installer/mingw-get/mingw-get-0.5-beta-20120426-1/mingw-get-0.5-mingw32-beta-20120426-1-bin.tar.xz]
  7za e mingw-get-*-bin.tar.xz
  7za x mingw-get-*-bin.tar
- bin\mingw-get install mingw32-gcc-g++ mingw32-make msys-bison msys-flex
+ bin\mingw-get install g++ msys-base msys-bison msys-flex
+ echo C:/MinGW /mingw> msys\1.0\etc\fstab
+ mkdir libs
+ cd libs
  curl -OL [http://www.libsdl.org/download-1.2.php http://www.libsdl.org/release/SDL-devel-1.2.15-mingw32.tar.gz] [http://glew.sourceforge.net/ http://downloads.sourceforge.net/project/glew/1.9.0/glew-1.9.0-win32.zip] [http://www.libsdl.org/projects/SDL_image/ http://www.libsdl.org/projects/SDL_image/release/SDL_image-devel-1.2.12-VC.zip] [http://icculus.org/physfs/downloads/ http://icculus.org/physfs/downloads/physfs-2.0.2.tar.gz] [http://www.boost.org/ http://download.sourceforge.net/project/boost/1.51.0/boost_1_51_0.7z] [http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip]
+ cd ..
+ git clone https://code.google.com/p/supertux/ 
 
 === Getting Busy ===
 * Make a folder <code>local</code> to hold libraries
