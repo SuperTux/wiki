@@ -39,9 +39,14 @@ We need lots of libraries as well as a copy of the supertux development tree, so
  curl -OL [http://www.libsdl.org/download-1.2.php http://www.libsdl.org/release/SDL-devel-1.2.15-mingw32.tar.gz] -OL [http://glew.sourceforge.net/ http://prdownloads.sourceforge.net/glew/glew-1.9.0-win32.zip] -OL [http://www.libsdl.org/projects/SDL_image/ http://www.libsdl.org/projects/SDL_image/release/SDL_image-devel-1.2.12-VC.zip] -OL [http://icculus.org/physfs/downloads/ http://icculus.org/physfs/downloads/physfs-2.0.2.tar.gz] -OL [http://www.boost.org/ http://prdownloads.sourceforge.net/boost/boost_1_51_0.7z] -OL [http://kcat.strangesoft.net/openal.html http://kcat.strangesoft.net/openal-soft-1.14-bin.zip] -OL [http://downloads.xiph.org/releases/vorbis/ http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.3.zip] -OL [http://downloads.xiph.org/releases/ogg/ http://downloads.xiph.org/releases/ogg/libogg-1.3.0.zip]
  cd ..
  git clone https://code.google.com/p/supertux/ 
+ msys\1.0\msys.bat
 
 === Getting Busy ===
-* Make a folder <code>local</code> to hold libraries
+ mkdir /local
+ cd /mingw/libs
+ cmd //c '7za x *.zip -ai!*.7z'
+ cat *.tar.gz | tar -xzi
+
 * Copy bin, include, lib, and share folders from cmake, curl, SDL, SDL_image, and glew folders (don't include physfs or boost)
 * Go to C:\Program Files\OpenAL 1.1 SDK
 * Copy the include directory there to local
