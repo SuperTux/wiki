@@ -5,6 +5,8 @@
 
 Supertux development mainly happens on Linux. The source code is written in a portable manner but the tools and development environment for windows isn't there. However, you should be able to get the game built with the help of MSYS and MinGW. Find more detailed instructions at [[Building on Windows]].
 
+You can also cross-compile the game with MinGW or [[Cross_compiling_with_MXE|M Cross Environment]].
+
 Prebuilt binaries can be found at [[User:Rgcjonas]]
 
 = Mac OS X =
