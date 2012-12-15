@@ -2,6 +2,19 @@
 
 The 0.3.x versions series is meant to show of new features of the engine, new graphics and such. It is not meant to be fully playable or polished. For that reason it is recommend that distributions should, for example, not replace a "supertux" package of SuperTux 0.1.x, but instead ship a new "supertux2" package of SuperTux 0.3.x.
 
+== Most Recent Binaries ==
+These versions are unstable development snapshots of SuperTux containing features added since the release of 0.3.3.  These are '''unofficial''' versions of SuperTux and are generally built by third parties.  These snapshots are not all at the same point of development, and may suffer from bugs unique to their build.  They are ideal for those interested in the most recent developments of the game but do not want or know how to build from the source code.
+=== Ubuntu ===
+Builds of for both SuperTux and editor are available for Ubuntu.  They are updated daily to contain the most recent developments and are accessible here:
+* https://code.launchpad.net/~landronimirc/+recipe/supertux-git-daily
+=== Windows ===
+Snapshot of SuperTux as of November 2012 (compiled on Win7/VS2010):
+* https://github.com/downloads/logzero/vdrift/supertux-0.3.3-GIT-win32-setup.exe
+=== Mac OS X ===
+Snapshots of development just prior to moving from SVN to GIT:
+* http://www.supertuxkart.de/SuperTux_SVN_Mac_PowerPC.zip (Power PC)
+* http://www.supertuxkart.de/SuperTux_SVN-6268-macosx-leopard-intel.dmg.zip (Intel)
+
 == Release 0.3.3 ==
 :''→ [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-March/002815.html Announcement] on supertux-devel''
 
