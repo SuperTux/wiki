@@ -11,6 +11,8 @@ Builds of for both SuperTux and editor are available for Ubuntu.  They are updat
 Snapshot of SuperTux as of November 2012 (compiled on Win7/VS2010):
 * https://github.com/downloads/logzero/vdrift/supertux-0.3.3-GIT-win32-setup.exe
 === Mac OS X ===
+* http://www.mediafire.com/?x5zk4kwcbh5c45u (Feb 2012)
+
 Snapshots of development just prior to moving from SVN to GIT:
 * http://www.supertuxkart.de/SuperTux_SVN_Mac_PowerPC.zip (Power PC)
 * http://www.supertuxkart.de/SuperTux_SVN-6268-macosx-leopard-intel.dmg.zip (Intel)
