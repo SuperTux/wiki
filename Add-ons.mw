@@ -7,28 +7,84 @@ Currently, the following ''add-ons'' are available:
 
 {| class="prettytable"
 ! Name
+! # of Levels
 ! Author
 ! Download
 |-
-| Coconut Fortress
+| Christoph's
+| 2
 | Anja
-| [http://supertux.lethargik.org/addons/files/coconut_fortress.zip download]
+| [https://addons.supertux.googlecode.com/git/Levels/christoph.zip download]
 |-
-| In The Spring
-| Anja
-| [http://supertux.lethargik.org/addons/files/in_the_spring.zip download]
+| Levels of Wolfs
+| 9
+| Wolfs
+| [https://addons.supertux.googlecode.com/git/Levels/levels-of-wolfs.zip download]
 |-
 | Dungeon Island
+| 4
 | Torfi Gunnarsson
-| [http://supertux.lethargik.org/addons/files/dungeon_island.zip download]
+| [https://addons.supertux.googlecode.com/git/Worldmaps/dungeon_island.zip download]
 |-
 | Tux Strikes Back
+| 20
 | Christian Schaefers
-| [http://supertux.lethargik.org/addons/files/tsblevels.zip download]
+| [https://addons.supertux.googlecode.com/git/Worldmaps/tsblevels.zip download]
 |-
 | Mattie's Iceberg
+| 17
 | LMH
 | [http://supertux.lethargik.org/addons/files/mattie_world.zip download]
+|-
+| Hume's Islands
+| 49
+| Hume
+| [https://addons.supertux.googlecode.com/git/Worldmaps/hume_v10.zip download]
+|-
+| Hume's Rainbow Cave
+| 49
+| Hume
+| [https://addons.supertux.googlecode.com/git/Worldmaps/hume_rc_v3.zip download]
+|-
+| Octo's Levels
+| 20
+| Octo
+| [https://addons.supertux.googlecode.com/git/Worldmaps/octo.zip download]
+|-
+| CT's Domain
+| 49
+| CT.da'Bomb
+| [https://addons.supertux.googlecode.com/git/Worldmaps/CTs_Domain.zip download]
+|-
+| Race to Penny
+| 19
+| CT.da'Bomb
+| [https://addons.supertux.googlecode.com/git/Worldmaps/penny_mod.zip download]
+|-
+| Island of Moob (beta)
+| 27
+| Treskalle
+| [https://addons.supertux.googlecode.com/git/Worldmaps/moob-island-beta6.zip download]
+|-
+| Narre Land
+| 36
+| Narre
+| [https://addons.supertux.googlecode.com/git/Worldmaps/narre_addon.zip download]
+|-
+| The Valley of Chaos
+| 25
+| SemajD
+| [https://addons.supertux.googlecode.com/git/Worldmaps/The_Valley_Of_Chaos.zip download]
+|-
+| Yeti's Revenge
+| 43
+| Niso
+| [https://addons.supertux.googlecode.com/git/Worldmaps/YETIS_REVENGE_update3.zip download]
+|-
+| Mantis Valley
+| 45
+| Various Authors
+| [https://addons.supertux.googlecode.com/git/Worldmaps/pre_git_bugtracker_worldmap.zip download]
 |}
 
 == Manual installation ==
