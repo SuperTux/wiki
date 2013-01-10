@@ -21,16 +21,18 @@ The development version has the ability to automatically download some specially
 
 Additional [[Add-ons]] can be installed manually.  You can either obtain them from an external source or make your own.  You will need to perform the following steps to play these add-ons:
 
-* Install either the development snapshot (0.3.3) or the [[SVN]] version of SuperTux
+* Install either the development snapshot (0.3.3) or the GIT version of SuperTux
 * Download the desired add-on which should be "zipped" - there is no need to extract them...
-* Instead, place the .zip file downloaded into your supertux2 directory (alternatively if you are using the more recent versions of SVN you may place the .zip file directly into the data directory)
+* Instead, place the .zip file downloaded into your supertux2 directory (alternatively if you are using a GIT version you may place the .zip file directly into the data directory)
 * Start SuperTux and choose "Contrib Levels" on the main menu, the add-on should be listed here
 
 External add-ons may suffer from more bugs than those automatically downloaded through the game client.  They also may not conform to the level design criteria and difficulty requirements for SuperTux.  If an external add-on fails to work properly, try to contact the developer of the add-on directly.  
 
-====Add-on Collection for 0.3.3 and 0.3.3-SVN====
+====Add-on Collection for 0.3.3 and 0.3.3-SVN/GIT====
 
-Several add-ons are available for manual installation from an external download site [http://www.mediafire.com/?k47v61nz6i230 here].  These levels have been collected by [[User:LMH|lmh]].  Most of these are available on the bugtracker, but are not accessible through the automatic download feature.  This collection is meant to make add-ons more widely available and consists of unofficial add-ons created by a variety of authors.  To reduce the clutter on the bugtracker, a [http://forum.freegamedev.net/viewforum.php?f=69 forum] has been set up to discuss issues with the individual add-ons.  The table below outlines the current content of the level collection including the last time the add-on was updated in the collection:
+{{Attention|s=As of January 2013 the addons accessible in-game have been moved to google code.  This means that this addon collection is no longer needed for recent versions of GIT and will no longer be maintained.  However, the addons will remain accessible for older versions of SuperTux.}}
+
+Several add-ons are available for manual installation from an external download site [http://www.mediafire.com/?k47v61nz6i230 here].  These levels have been collected by [[User:LMH|lmh]].  Most of these are available on the bugtracker  This collection is meant to make add-ons more widely available and consists of unofficial add-ons created by a variety of authors.  To reduce the clutter on the bugtracker, a [http://forum.freegamedev.net/viewforum.php?f=69 forum] has been set up to discuss issues with the individual add-ons.  The table below outlines the current content of the level collection including the last time the add-on was updated in the collection:
 
 {|border="1" cellspacing="0" cellpadding="4" rules="all" style="margin: 1em; border: 1px solid silver; border-collapse: collapse; empty-cells: show; " class="prettytable sortable"
 ! Add-on Name !! Last Update !! Type !! # of Levels !! Author !! Description !! Additional Informaion
@@ -69,6 +71,6 @@ Several add-ons are available for manual installation from an external download 
 * [http://www.sendspace.com/file/nq9u10 Adventure to the new World] - SuperTux 0.1.3 levelset.
 * [http://nyten.heliohost.org/supertux/levelsets.html Mytros - Devils Home(hard)] - SuperTux 0.1.3 levelset.
 * http://verplant.org/supertux/ &ndash;&nbsp;Levels for the latest [[SVN]] version by [[User:Octo|octo]].
-* [http://www.mediafire.com/?k47v61nz6i230 Collection of add-ons for 0.3.3 and 0.3.3-SVN] maintained by [[User:LMH|lmh]]. 
+* [http://www.mediafire.com/?k47v61nz6i230 Collection of add-ons for 0.3.3 and 0.3.3-SVN/GIT] maintained by [[User:LMH|lmh]]. 
 
 [[Category:For Users]]
