@@ -3,7 +3,7 @@
 
 Add-ons can be downloaded from within ''SuperTux''. Simply ensure you have an internet connection, and select "Addons" from the main menu, where you can choose to install the currently available add-ons.
 
-Currently, the following ''add-ons'' are available:
+Currently, the following ''add-ons'' are available (in the most recent GIT versions of the game):
 
 {| class="prettytable"
 ! Name
