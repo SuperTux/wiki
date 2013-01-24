@@ -4,19 +4,7 @@ Greetings, I am LMH.  Since I was five-years-old and got my hands on my first NE
 
 I intend to devote a consistent effort in maintaining the [[Add-ons]] downloadable through the in-game add-on manager (now stored on [https://code.google.com/p/supertux/source/list?repo=addons google code]).  This is the natural evolution of the add-on collection I maintained while the in-game list was difficult to change.  That collection still exists [http://www.mediafire.com/?k47v61nz6i230 here], which serves as an archive for older versions of SuperTux.  I will also try to maintain one add-on to rule them all, that is all add-ons combined in one for easy activation.  This will need to be manually installed since it is a very large file and I do not think it is appropriate to lag up the game with its download through the in-game add-on manager.
 
-===Downloading and Playing===
 
-In the most recent builds of the GIT code of SuperTux simply access "Add-ons" from the main menu.
-
-Using an older version of SuperTux (0.3.3 or later) or to manually install the Ultima Addon:
-
-* Install either the development snapshot (0.3.3 or any others you can find) or the [[Git]] version of SuperTux
-* Download the desired add-on from the [http://www.mediafire.com/?k47v61nz6i230 level collection] (note that other than the Ultima Addon these will not be updated so they may still work but might suffer from bugs)
-* All downloads are "zipped" and there is no need to extract them...
-* Instead, place the .zip file downloaded into your supertux2 directory (alternatively if you are using the recent Git version you may place the .zip file directly into the data directory)
-* Start SuperTux and choose "Contrib Levels" on the main menu, the add-on should be listed here
-
-Note that these levels are of many different difficulties.  Some may not conform to the level design criteria.  Some may suffer from bugs.  Please do not contact the developers about any issues you may encounter, instead try to contact the level creator (there may be information in the description on the download page if it is available).  Remember that these are third party add-ons.
 
 ==Mattie's World==
 
