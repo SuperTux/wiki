@@ -22,10 +22,6 @@ The rest of the ice-themed levels that I make are expected to live in the worldm
 
 The final worldmap is meant to be a for forest levels and is only in the concept phase.  The general idea is that Tux reaches a peninsula where the DOOM Toad had a new and powerful ally.  There is no ETA on this portion of the project.
 
-==New Icy Island Worldmap Graphics==
-
-In anticipation of Milestone II, I thought it would be appropriate to give the main worldmap a bit of a visual revamp.  The results of this effort can be seen [https://supertux.lethargik.org/bugs/view.php?id=852 here on the bugtracker].  Although I am mostly done with my efforts here, there remains plenty of room for improvement.  As far as my own efforts go, I will likely try to put together an alternative Icy Island worldmap using these graphics and maybe a few more tweaks to the graphics.  The use of these graphics is a bit more complicated than the traditional worldmap graphics (requiring more tilemap layering), but the idea is much more can be done with them.  Unfortunately I have yet to find a way to use these graphics concurrently with the traditional graphics without making an absurdly long and kind of repetitive tile mapping configuration.  I would be interested in the use of multiple tile mappings being used at the same time.
-
 ==Glow Effects==
 
 One of the most interesting mechanics in SuperTux (for me) is the use of light (ambient, candles, magic blocks, and lanterns).  However they are not often utilized or are easily made obnoxious.  In an effort to make lighting a little cleaner and more enjoyable I've begun some coding work to add more built-in lighting effects.  The progress can be tracked in the "glow_effects" branch of [http://code.google.com/r/lmh0013-clone/source/list?name=glow_effects my SuperTux clone in Google Code].  My ideas for this project are listed below:
