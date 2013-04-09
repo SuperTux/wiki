@@ -28,9 +28,9 @@ One of the most interesting mechanics in SuperTux (for me) is the use of light (
 
 * More ability for candles: choose color, option to disable flicker and glare, allows for better integration of custom sprites and environmental glow
 * Optional candle graphic sprites:  animated background torches from underground tileset, glowing crystals for the crystal tileset, maybe a brazier/open flame for castles, maybe a light bulb
-* Powerups glow-in-the-dark: standard powerups (excepting 1ups) are easily located in dark areas and look cool in dim areas
-* Fireballs glow: they are fire after all, this always bothered me about the current configuration
-* Explosions light up immediate area: another obvious improvement
+* (DONE) Powerups glow-in-the-dark: standard powerups (excepting 1ups) are easily located in dark areas and look cool in dim areas
+* (DONE) Fireballs glow: they are fire after all, this always bothered me about the current configuration
+* (DONE) Explosions light up immediate area: another obvious improvement 
 * Weakblocks burn: probably should make burning weakblocks give off light as well
 * Some badguys glow: flame, willowisp, kugelblitz (I also want to play around with making flames vulnerable to ice and expanding to have other vulnerabilities/appearances at this point)
 * New badguy, dark_snowball: a dark themed badguy for the icy tileset, would be invincible while in the dark and vulnerable/stationary in the light.  Gives off a sinister glow.
