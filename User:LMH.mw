@@ -26,7 +26,7 @@ The final worldmap is meant to be a for forest levels and is only in the concept
 
 One of the most interesting mechanics in SuperTux (for me) is the use of light (ambient, candles, magic blocks, and lanterns).  However they are not often utilized or are easily made obnoxious.  In an effort to make lighting a little cleaner and more enjoyable I've begun some coding work to add more built-in lighting effects.  The progress can be tracked in the "glow_effects" branch of [http://code.google.com/r/lmh0013-clone/source/list?name=glow_effects my SuperTux clone in Google Code].  My ideas for this project are listed below:
 
-* (IN-PROGRESS) More ability for candles: choose color, option to disable flicker and glare, allows for better integration of custom sprites and environmental glow
+* (DONE) More ability for candles: choose color, option to disable flicker and glare, allows for better integration of custom sprites and environmental glow
 * (IN-PROGRESS) Optional candle graphic sprites:  animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb
 * (DONE) Powerups glow-in-the-dark: standard powerups (excepting 1ups) are easily located in dark areas and look cool in dim areas
 * (DONE) Fireballs glow: they are fire after all, this always bothered me about the current configuration
