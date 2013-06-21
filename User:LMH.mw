@@ -34,6 +34,38 @@ One of the most interesting mechanics in SuperTux (for me) is the use of light (
 * Weakblocks burn: probably should make burning weakblocks give off light as well
 * (DONE) Some badguys glow: flame, willowisp, kugelblitz (also make flames vulnerable to ice and add a couple of flame-like badguys with other vulnerabilities/appearances)
 * New badguy, dark_snowball: a dark themed badguy for the icy tileset, would be invincible while in the dark and vulnerable/stationary in the light.  Gives off a sinister glow.
-* Possible new badguy, walking flame: like spiky, but can be "extinguished" using iceflower.  Would obviously also glow.
+* (IN-PROGRESS) Possible new badguy, walking flame: like spiky, but can be "extinguished" using iceflower.  Would obviously also glow.
 * (DONE) Tux glows when invincible: might be a nice addition
 * Possible new powerup, earth flower: would give Tux a mining hat and subsequent light directly in front.  Would also have the ability to turn to stone momentarily similar to the Tanooki Suit of Mario 3
+* Three levels for alternate cave path on Icy Island that shows everything off
+
+==Additional Additions==
+
+In addition to the projects mentioned here, there are several other random things I would like to do if I ever find the time.  These are things that I believe are within my ability as a hobbyist programmer and could be of great value for Milestone 2 and beyond.  These are ideas that are more or less on the back burner, thus the following list is mostly so that I do not forget.
+
+===Regular Levels===
+* Put together levels that introduce new game components for Icy island
+* Incorporate new components into existing levels
+* Work on Incubator Island -> Icy Island
+* Add parallax backgrounds to Icy Island levels
+
+===Statistics===
+* Allow partial stats when respawning at a checkpoint- should stop people from thinking that no stats on he worldmap is a bug
+* New worldmap sprite for a level with stats at 100% (maybe including an option to have a target time as well)
+* Fix the badguy counting bug with dispensers... ugh
+
+===Badguys===
+* Moving eyes for icecrusher as well as throw up some particles when it hits the ground
+* Bouncing snowball without horizontal motion
+* A sticky snowball that walks on walls/ceilings
+* Another boss fight- A giant worm that bores through the ground 
+* Play with a fire proof crystallo
+* Maybe an ice proof spiky and invulnerably spiky
+
+===Powerups===
+* Make iceflower more functional- pickup/stand on frozen enemies, unfreeze after time, update vulnerabilities, have a default frozen graphic
+* Make coin rain an official bonusblock option
+* Airflower that allows Tux to jump a little higher and a little farther
+* Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
+* Some sort of temporary speed boost
+* Alchemy potion that changes coins to a solid lead block and vice-versa
