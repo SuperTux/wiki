@@ -34,6 +34,12 @@ Levels ''must'' be at least 25 tiles high, using at least 32 tiles is recommende
 == The application-fall composition ==
 When something falls on [[haywire]], then application falls. This is happening on ST 0.3.3. This bug is corrected in ST 0.3.3SVN, but it's only a development version and not full version. It's very frusturating, when the application is always falling. Don't make levels, where is possible something like that!! It's good to follow it, while is ST 0.3.3 in power.
 
+== Floor and roof ==
+When you are buildin a level, don't forget building floor and roof where is it neccessary. For example, cave level without floor and roof looks strangely. However, the floor and roof don't have to be solid.
+* Overground levels should have a floor and no roof.
+* Underground and interiour levels should have a floor and a roof.
+* Sky levels shouldn't have any floor and any roof.
+
 == Other ==
 
 SuperTux is meant to be a fair and fun game, so don't create unfair configurations, like a spike on the roof as well as one on the ground, that require way too much precision or luck and just aren't fun to play.
