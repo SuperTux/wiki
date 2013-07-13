@@ -23,10 +23,20 @@ Comming soon!
 ***{{pf-i}} Giant chewinggum
 ***{{pf-i}} Vomitland
 *{{pf-w}} Many tilesets tweaks
-**{{pf-a}} slope tiles
-**{{pf-w}} border slope tiles
-**{{pf-a}} upper slopes
-**{{pf-a}} some corner tiles
+**{{pf-a}} slope tiles for tilegroups:
+***{{pf-a}} darksnow
+***{{pf-a}} darksnow2
+***{{pf-u}} snow air platform
+***{{pf-a}} underground forest
+**{{pf-c}} only border slope tiles for tilegroups:
+***{{pf-c}} snow
+**{{pf-a}} upper slopes and border slope tiles for tilegroups:
+***{{pf-a}} forest
+**{{pf-a}} some corner tiles for tilegroups:
+***{{pf-a}} forest
+***{{pf-a}} forest underground
+***{{pf-a}} darksnow2
+***{{pf-a}} ghostforest
 *{{pf-w}} Some features from [[User:LMH#Additional_Additions|LMH's TODO list]]
 
 == Further releases ==
