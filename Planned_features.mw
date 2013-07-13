@@ -3,6 +3,8 @@ You can see, what everything is planned to next SuperTux releases. Implemented f
 {{pf-a}}: This feature is planned.<br>
 {{pf-w}}: It's beeing worked on implementing that feature.<br>
 {{pf-c}}: This feature is implemented in development versions.<br>
+{{pf-i}}: ignored
+{{pf-m}}: moved to further release
 
 == 0.3.4 ==
 Comming soon!
