@@ -8,19 +8,19 @@ You can see, what everything is planned to next SuperTux releases. Implemented f
 Comming soon!
 
 == 0.3.5 ==
-* Combine SuperTux with [[SuperTux extra]]. (at least partional)
-** Add new worldmap tiles for [[SuperTux extra]] environments.
-** Retexture old [[SuperTux extra]] tiles.
-** Add levels to new environments:
-*** Jungle
-*** Crystal cave
-*** Lavaland
-*** Giant chewinggum
-*** Vomitland
-* Many tilesets tweaks
-** slope tiles
-** border slope tiles
-** upper slopes
-** some corner tiles
+* {{pf-w}}Combine SuperTux with [[SuperTux extra]]. (at least partional)
+** {{pf-a}}Add new worldmap tiles for [[SuperTux extra]] environments.
+** {{pf-w}}Retexture old [[SuperTux extra]] tiles.
+** {{pf-a}}Add levels to new environments:
+*** {{pf-a}}Jungle
+*** {{pf-a}}Crystal cave
+*** {{pf-a}}Lavaland
+*** {{pf-u}}Giant chewinggum
+*** {{pf-u}}Vomitland
+* {{pf-a}}Many tilesets tweaks
+** {{pf-a}}slope tiles
+** {{pf-u}}border slope tiles
+** {{pf-a}}upper slopes
+** {{pf-a}}some corner tiles
 
 == Further releases ==
