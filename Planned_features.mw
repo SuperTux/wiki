@@ -13,20 +13,20 @@
 Comming soon!
 
 == 0.3.5 ==
-* {{pf-w}}Combine SuperTux with [[SuperTux extra]]. (at least partional)
-** {{pf-a}}Add new worldmap tiles for [[SuperTux extra]] environments.
-** {{pf-c}}Retexture old [[SuperTux extra]] tiles.
-** {{pf-a}}Add levels to new environments:
-*** {{pf-a}}Jungle
-*** {{pf-a}}Crystal cave
-*** {{pf-a}}Lavaland
-*** {{pf-i}}Giant chewinggum
-*** {{pf-i}}Vomitland
-* {{pf-a}}Many tilesets tweaks
-** {{pf-a}}slope tiles
-** {{pf-w}}border slope tiles
-** {{pf-a}}upper slopes
-** {{pf-a}}some corner tiles
-* {{pf-w}}Some features from [[User:LMH#Additional_Additions|LMH's TODO list]]
+*{{pf-w}} Combine SuperTux with [[SuperTux extra]]. (at least partional)
+**{{pf-a}} Add new worldmap tiles for [[SuperTux extra]] environments.
+**{{pf-c}} Retexture old [[SuperTux extra]] tiles.
+**{{pf-a}} Add levels to new environments:
+***{{pf-a}} Jungle
+***{{pf-a}} Crystal cave
+***{{pf-a}} Lavaland
+***{{pf-i}} Giant chewinggum
+***{{pf-i}} Vomitland
+*{{pf-a}} Many tilesets tweaks
+**{{pf-a}} slope tiles
+**{{pf-w}} border slope tiles
+**{{pf-a}} upper slopes
+**{{pf-a}} some corner tiles
+*{{pf-w}} Some features from [[User:LMH#Additional_Additions|LMH's TODO list]]
 
 == Further releases ==
