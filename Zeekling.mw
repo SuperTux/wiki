@@ -1,5 +1,4 @@
 __NOTOC__
-{{Notice Milestone 3}}
 {{Infobox Badguy
 | Name=Zeekling
 | Image=
@@ -14,70 +13,11 @@ __NOTOC__
 }}
 '''Zeekling''' is a [[badguy]] found in the [[Forest]]. It flies left and right in a straight path, usually near the top of the level. When [[Tux]] is below it, will dive down to hit him. Tux can avoid being hit by hiding underneath platform and other solid blocks.
 
-== Proposed behaviour ==
+== Behaviour ==
+* Flies at tops of levels unless Tux is below, then flies down to kill Tux.
 
-{{Proposed}}
-
-=== Proposal 1 ===
-
-==== Behaviour ====
-* Zigzag flight
-
-==== Appearance ====
-* paroneayea's domain...
-
-==== Attack ====
-* Can steal your powerups, but no actual getting him (i.e doesn't smallify)
-
-==== Vulnerabilities ====
-* If you can catch it you can jump on it. You can also retrieve stolen powerups
-
-=== Proposal 2 ===
-
-==== Behaviour ====
-* Flies at tops of levels unless Tux is below, then drops to try to catch him and take him to another area
-
-==== Appearance ====
-* Bigger and different colour than #1
-
-==== Attack ====
-* Can drop you in bad places
-
-==== Vulnerabilities ====
-* With invulnerability shield or maybe electricity
-
-=== Proposal 3 ===
-
-==== Behaviour ====
-* Flies in a straight path
-* Swoops down when it sees Tux
-
-==== Appearance ====
-* paroneayea's decision
-
-==== Attack ====
-* Touches [[Tux]].
-* Most likely to hit Tux during the swoops
-
-==== Vulnerabilities ====
-* Can be jumped on
-* Ice, fire, electricity
-
-=== Proposal 4 ===
-
-=== Behaviour ===
-* Flies in a straight path
-
-=== Appearance ===
-* you guys are smart, and can probably make it look better than me
-
-=== Attack ===
-* Touches Tux
-* Shoots Fire, perhaps Firetux can't get hurt from fire?
-
-===Vulnerabilities===
-*can be jumped on
-*ice, electricity
+== Vulnerabilities ==
+* Zeekling is squishable and flamable.
 
 {{Navbox Badguys}}
 [[Category:Badguy.3]]
