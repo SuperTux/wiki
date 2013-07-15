@@ -6,6 +6,7 @@
 | <!--
 -->   [[Bouncing Snowball]] <!--
 --> · [[Flame]] <!--
+--> · [[Fish]] <!--
 --> · [[Flying Snowball]] <!--
 --> · [[Jumpy]] <!--
 --> · [[Mr. Bomb]] <!--
@@ -18,7 +19,6 @@
 | <!--
 -->   [[Cannon]] <!--
 --> · [[Crystallo]] <!--
---> · [[Fish]] <!--
 --> · [[Haywire]] <!--
 --> · [[Krush and Krosh]] <!--
 --> · [[Mrs. Snowball]] <!--
@@ -28,19 +28,13 @@
 --> · [[Snowman]] <!--
 --> · [[Snowshot]] <!--
 --> · [[Spike]] <!--
---> · [[SkyDive]]
-|-
-| {{Version to status cell|Milestone 3|Milestone&nbsp;3}}
-| <!--
+--> · [[SkyDive]] <!--
 -->   [[Poison Ivy]] <!--
 --> · [[Snail]] <!--
 --> · [[Spider]] <!--
 --> · [[Walking totem]] <!--
 --> · [[Walking tree]] <!--
---> · [[Zeekling]]
-|-
-| style="background-color: #f0f0f0;" | Proposed
-| <!--
+--> · [[Zeekling]] <!--
 -->   [[Captain Snowball]] <!--
 --> · [[Igel]] <!--
 --> · [[Ispy]] <!--
@@ -48,7 +42,14 @@
 --> · [[Mole]] <!--
 --> · [[Toad]] <!--
 --> · [[Walking leaf]] <!--
---> · [[Will-o-wisp]]
+--> · [[Will-o-wisp]] 
+
+|-
+| {{Version to status cell|Milestone 3|Milestone&nbsp;3}}
+| <!-- -->
+|-
+| style="background-color: #f0f0f0;" | Proposed
+| <!-- -->
 |}
 [[Category:Badguy]]
 <noinclude>[[Category:Templates]]</noinclude>
