@@ -4,27 +4,67 @@ Greetings, I am LMH.  Since I was five-years-old and got my hands on my first NE
 
 I intend to devote a consistent effort in maintaining the [[Add-ons]] downloadable through the in-game add-on manager (now stored on [https://code.google.com/p/supertux/source/list?repo=addons google code]).  This is the natural evolution of the add-on collection I maintained while the in-game list was difficult to change.  That collection still exists [http://www.mediafire.com/?k47v61nz6i230 here], which serves as an archive for older versions of SuperTux.  I will also try to maintain one add-on to rule them all, that is all add-ons combined in one for easy activation.  This will need to be manually installed since it is a very large file and I do not think it is appropriate to lag up the game with its download through the in-game add-on manager.
 
+==LMH's Development TODO List==
 
+I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my personal thoughts of what the game could use or needs (thus highly likely to be incomplete).  There is no particular order to this list.
 
-==Mattie's World==
+===Coding and Bug Fixes===
+Some things that should be done before a stable release (milestone) can be released
+* Screen resolution/full screen toggle graphics issues
+* Tux jitter when running up a slope and into a wall
+* Timer to cancel backflip (currently an upward wind against a wall can cause Tux to be stuck)
+* Camera reset after unpause (try peeking and then pausing)
+* Dependent add-ons?  might be useful for custom tilesets
+* Reset worldmap with ability to preserve stats or not
 
-Mattie's World is the collection of all the levels I've developed.  It will be a work in progress so long as I'm making levels.  Although designing levels is my primary interest, it should be fairly evident that I'm easily distracted.  My current plan is to have three worldmaps.
+===Sounds===
+Could use the following sound effects
+* A fire-ice interaction, probably hissing like dropping a lit match into a glass of water
+* Coin sound(s) that differ from coin collected sound
+* Icecrusher landing
+* ShortFuse pop
+* Freeze/unfreeze?
 
-===Mattie's Iceberg===
+===Graphics===
+* Replace backflip sprites with actual rotation
+* Frozen enemies
+* Better fish
+* Better (animated) explosion
+* A finished owl
+* Consolidate/cleanup image files and tilesets
+* Find a way to make the menu border work
 
-The original set of levels made for SuperTux and available as an in-game [[add-on]], Mattie's Iceberg is the first worldmap ([http://supertux.lethargik.org/addons/files/mattie_world.zip lives here]).  Although it has changed considerably over the years, it is likely in it's final state and was made for the SVN version of SuperTux (requiring only compatibility tweaks as SuperTux is further developed).  Set near Antarctica, levels are primarily ice-themed.  The story is that the iceberg has been overrun by the minions of the DOOM Toad who resides in the end castle.
+===Regular Level design===
+* (IN-PROGRESS) Put together levels that introduce new game components for Icy island
+* (IN-PROGRESS) Incorporate new components into existing levels
+* Work on Incubator Island -> Icy Island
+* (IN-PROGRESS) Add parallax backgrounds to Icy Island levels
 
-===DOOM Islands===
+===Statistics Improvements===
+* Allow partial stats when respawning at a checkpoint- should stop people from thinking that no stats on he worldmap is a bug
+* New worldmap sprite for a level with stats at 100% (maybe including an option to have a target time as well)
+* Fix the badguy counting bug with dispensers... ugh
 
-The rest of the ice-themed levels that I make are expected to live in the worldmap DOOM Islands which is currently under construction ([http://www.mediafire.com/?3l36un8vj7wobly beta here]).  These frozen islands are to the north of Antarctica, and the stronghold of the DOOM Toad.  There will be more flexibility in path for this worldmap, and my intention is to have a second optional storyline culminating with a unique boss fight.  The main idea is to take out the Toad on his home turf.  Ideally these levels will be optimized for Milestone II.
+===Badguy Ideas===
+* Moving eyes for icecrusher as well as throw up some particles when it hits the ground
+* Bouncing snowball without horizontal motion
+* A sticky snowball that walks on walls/ceilings
+* Another boss fight- A giant worm that bores through the ground 
+* Play with a fire proof crystallo
+* Maybe an ice proof spiky and invulnerably spiky
+* Highly customizable mini-boss that can utilize different behaviors/sprites/vulnerabilities
 
-===Peninsula Inland===
+===Powerup Ideas===
+Some possible new powerups
+* Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
+* Airflower that allows Tux to jump a little higher and a little farther
+* Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
+* Some sort of temporary speed boost
+* Alchemy potion that changes coins to a solid lead block and vice-versa
 
-The final worldmap is meant to be a for forest levels and is only in the concept phase.  The general idea is that Tux reaches a peninsula where the DOOM Toad had a new and powerful ally.  There is no ETA on this portion of the project.
+===Glow Effects===
 
-==Glow Effects==
-
-One of the most interesting mechanics in SuperTux (for me) is the use of light (ambient, candles, magic blocks, and lanterns).  However they are not often utilized or are easily made obnoxious.  In an effort to make lighting a little cleaner and more enjoyable I've begun some coding work to add more built-in lighting effects.  The progress can be tracked in the "glow_effects" branch of [http://code.google.com/r/lmh0013-clone/source/list?name=glow_effects my SuperTux clone in Google Code].  My ideas for this project are listed below:
+In an effort to make lighting effects in SuperTux a little more enjoyable I've begun some coding work to add more built-in lighting effects.  The progress can be tracked in the "glow_effects" branch of [http://code.google.com/r/lmh0013-clone/source/list?name=glow_effects my SuperTux clone in Google Code].  My ideas for this project are listed below:
 
 * (DONE) More ability for candles: choose color, option to disable flicker and glare, allows for better integration of custom sprites and environmental glow
 * (IN-PROGRESS) Optional candle graphic sprites:  animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb
@@ -39,33 +79,18 @@ One of the most interesting mechanics in SuperTux (for me) is the use of light (
 * Possible new powerup, earth flower: would give Tux a mining hat and subsequent light directly in front.  Would also have the ability to turn to stone momentarily similar to the Tanooki Suit of Mario 3
 * Three levels for alternate cave path on Icy Island that shows everything off
 
-==Additional Additions==
+==Mattie's World==
 
-In addition to the projects mentioned here, there are several other random things I would like to do if I ever find the time.  These are things that I believe are within my ability as a hobbyist programmer and could be of great value for Milestone 2 and beyond.  These are ideas that are more or less on the back burner, thus the following list is mostly so that I do not forget.
+Mattie's World is the collection of all the levels I've developed.  It will be a work in progress so long as I'm making levels.  Although designing levels is my primary interest, it should be fairly evident that I'm easily distracted.  My current plan is to have three worldmaps.
 
-===Regular Levels===
-* Put together levels that introduce new game components for Icy island
-* Incorporate new components into existing levels
-* Work on Incubator Island -> Icy Island
-* Add parallax backgrounds to Icy Island levels
+===Mattie's Iceberg===
 
-===Statistics===
-* Allow partial stats when respawning at a checkpoint- should stop people from thinking that no stats on he worldmap is a bug
-* New worldmap sprite for a level with stats at 100% (maybe including an option to have a target time as well)
-* Fix the badguy counting bug with dispensers... ugh
+The original set of levels made for SuperTux and available as an in-game [[add-on]], Mattie's Iceberg is the first worldmap.  Although it has changed considerably over the years, it is likely in it's final state and was made for the SVN version of SuperTux (requiring only compatibility tweaks as SuperTux is further developed).  Set near Antarctica, levels are primarily ice-themed.  The story is that the iceberg has been overrun by the minions of the DOOM Toad who resides in the end castle.
 
-===Badguys===
-* Moving eyes for icecrusher as well as throw up some particles when it hits the ground
-* Bouncing snowball without horizontal motion
-* A sticky snowball that walks on walls/ceilings
-* Another boss fight- A giant worm that bores through the ground 
-* Play with a fire proof crystallo
-* Maybe an ice proof spiky and invulnerably spiky
+===DOOM Islands===
 
-===Powerups===
-* Make iceflower more functional- pickup/stand on frozen enemies, unfreeze after time, update vulnerabilities, have a default frozen graphic
-* Make coin rain an official bonusblock option
-* Airflower that allows Tux to jump a little higher and a little farther
-* Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
-* Some sort of temporary speed boost
-* Alchemy potion that changes coins to a solid lead block and vice-versa
+The rest of the ice-themed levels that I make are expected to live in the worldmap DOOM Islands which is currently under construction.  These frozen islands are to the north of Antarctica, and the stronghold of the DOOM Toad.  There will be more flexibility in path for this worldmap, and my intention is to have a second optional storyline culminating with a unique boss fight.  The main idea is to take out the Toad on his home turf.  Ideally these levels will be optimized for Milestone II.
+
+===Peninsula Inland===
+
+The final worldmap is meant to be a for forest levels and is only in the concept phase.  The general idea is that Tux reaches a peninsula where the DOOM Toad had a new and powerful ally.  There is no ETA on this portion of the project.
