@@ -28,13 +28,14 @@ Comming soon!
 ***{{pf-c}} darksnow2
 ***{{pf-u}} snow air platform
 ***{{pf-c}} underground forest
+***{{pf-a}} ghostforest
 **{{pf-c}} only border slope tiles for tilegroups:
 ***{{pf-c}} snow
 **{{pf-c}} upper slopes and border slope tiles for tilegroups:
 ***{{pf-c}} forest
 **{{pf-w}} some corner tiles for tilegroups:
 ***{{pf-c}} forest
-***{{pf-a}} forest underground
+***{{pf-c}} forest underground
 ***{{pf-c}} darksnow2
 ***{{pf-a}} ghostforest
 **{{pf-c}} Upgrade signs.
