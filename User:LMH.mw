@@ -6,24 +6,34 @@ I intend to devote a consistent effort in maintaining the [[Add-ons]] downloadab
 
 ==LMH's Development TODO List==
 
-I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my personal thoughts of what the game could use or needs (thus highly likely to be incomplete).  There is no particular order to this list.
+I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my personal thoughts of what the game could use or needs (thus highly likely to be incomplete).  There is no particular order to this list.  Aside from some of the coding and just about all of the sound, these are all things within my ability.  Nevertheless help is more than welcomed :)
 
 ===Coding and Bug Fixes===
-Some things that should be done before a stable release (milestone) can be released
 * Screen resolution/full screen toggle graphics issues
 * Tux jitter when running up a slope and into a wall
 * Timer to cancel backflip (currently an upward wind against a wall can cause Tux to be stuck)
 * Camera reset after unpause (try peeking and then pausing)
 * Dependent add-ons?  might be useful for custom tilesets
 * Reset worldmap with ability to preserve stats or not
+* Work on ungrab behavior for bomb (should be able to be tossed)
+* Standardize grab/ungrab by moving behavior from rock to portable?
+* Release images so the terminal doesn't fill up on close
+* Multiple tilemapping support?  by sector or tilemap instead of level
+* Loading/downloading messages for processes that can lag
+* The firefly reactivation issue
+* Instead of a coin penalty, reset powerups/coins on "Abort Level"
+* Ability to download updates for languages
+* Translatable script messages
+* Sprite replacement ability e.g. Tux -> Penny/Penny -> Tux for "Play as Penny" (also available to add-ons)
+* Swimming like a forced climbing (but fast- Tux is a penguin)? Think frog suit but controllable
 
-===Sounds===
-Could use the following sound effects
+===Sounds/Music===
 * A fire-ice interaction, probably hissing like dropping a lit match into a glass of water
-* Coin sound(s) that differ from coin collected sound
+* Coin sound(s) that differ from coin collected sound (for coin rain/coin explode)
 * Icecrusher landing
 * ShortFuse pop
 * Freeze/unfreeze?
+* Tweak some of the voc music repetition
 
 ===Graphics===
 * Replace backflip sprites with actual rotation
@@ -31,19 +41,31 @@ Could use the following sound effects
 * Better fish
 * Better (animated) explosion
 * A finished owl
-* Consolidate/cleanup image files and tilesets
+:Can owl drop bombs? have to check, then make skydive splat
+* Consolidate/cleanup/organize image files and tilesets
 * Find a way to make the menu border work
+* A waterfall to match the new water look
+* Fix tiling of crystal cave tiles
+* Fill out some of the new tilesets (darksnow/blue mtn./etc.)
+* Separate out some tilesets (ice/forest/castle/etc.)
+* Re-work the backflip billboard since "jump with up" may not be in use
 
-===Regular Level design===
-* (IN-PROGRESS) Put together levels that introduce new game components for Icy island
+===Regular Level Design===
+* (IN-PROGRESS) Put together levels that introduce new game components for Icy Island
+:Current iteration: platforms, multi-block, weak_block, blue mnt. tiles, short_fuse, climbing
 * (IN-PROGRESS) Incorporate new components into existing levels
+:Current iteration: levels prior to cave
 * Work on Incubator Island -> Icy Island
 * (IN-PROGRESS) Add parallax backgrounds to Icy Island levels
+* A shop to spend coins
 
 ===Statistics Improvements===
 * Allow partial stats when respawning at a checkpoint- should stop people from thinking that no stats on he worldmap is a bug
 * New worldmap sprite for a level with stats at 100% (maybe including an option to have a target time as well)
 * Fix the badguy counting bug with dispensers... ugh
+
+===Editor===
+Where to begin...  let's just say that the editor needs lots of work from it's current state.
 
 ===Badguy Ideas===
 * Moving eyes for icecrusher as well as throw up some particles when it hits the ground
@@ -53,9 +75,12 @@ Could use the following sound effects
 * Play with a fire proof crystallo
 * Maybe an ice proof spiky and invulnerably spiky
 * Highly customizable mini-boss that can utilize different behaviors/sprites/vulnerabilities
+* Someone's gotta throw things at Tux
 
 ===Powerup Ideas===
-Some possible new powerups
+* BonusBlock drops powerups on butt-jump
+* A BonusBlock that explodes like a bomb
+* Generalized BonusBlock that can dispense badguys/objects
 * Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
 * Airflower that allows Tux to jump a little higher and a little farther
 * Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
