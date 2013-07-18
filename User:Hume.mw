@@ -17,7 +17,54 @@
 * And finally SuperTux 1.0.0.
 
 == Wishlist ==
-comming soon.
+*Make Bonus island 3.
+*Upgrade the climbing Tux.
+*Implement LMH's new worldmap tilesets.
+*Create bonus-levels dots.
+*Implement IceTux worldmap graphics.
+*Repair the bug of boat in the main game.
+*Make an editor.
+*Make a windows installation.
+*Make the climbing tux faster.
+
+=== objects ===
+
+==== timer ====
+*This object is invisible
+*It's repeating a script in an interval.
+<pre>
+(timer
+ (name <string name>)
+ (interval <int>)
+ (enabled <bool enabled>)
+ (script <script>)
+)
+</pre>
+==== Teleport-trigger ====
+[[Image:Teleporttrigger.png|thumb|right|Differences of scripttrigger and teleport-trigger teleporting]]
+*This object is invisible.
+*It's an area object.
+*It's warping from one teleport-trigger to another teleport-trigger to the same position in the teleport-trigger, which Tux got to.
+*Advantage: Sripttrigger can warp with the script "Level.spawn" only to one place, when Tux can enter wherever to the scripttrigger. One teleport-trigger can warp wherever to the destination teleport-trigger. It depends on Tux's position in the teleport-trigger.
+*Tux will be teleported only when Tux gets inside the teleport-trigger from another place of the sector, where isn't the teleport-trigger, but not when Tux is inside. That means, when the teleport-trigger teleports Tux to another teleport-trigger, Tux can't be teleported back, until Tux leaves the destination teleport-trigger.
+<pre>
+(teleport-trigger
+ (x <int x-pos>)
+ (y <int y-pos>)
+ (width <int width>)
+ (height <int height>)
+ (name <string name>)
+ (sector <destination sector>)
+ (teleport-trigger <destination teleport-trigger>)
+)
+</pre>
+
+=== scripting ===
+*Something for get Tux's x and y position
+*create_object(<object type>,<object name>,{default settings}) for create an object
+*A possibility for Get/set every properties of object (eg.: my_snowball.x <- 320; Text.set_text(my_dispenser.badguy[0])) 
+
+This list is not completely. You can add anything, if you want.
 
 == SuperTux criticisms ==
 # IcyIsland - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms here?
