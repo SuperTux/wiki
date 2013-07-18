@@ -62,9 +62,7 @@
 === scripting ===
 *Something for get Tux's x and y position
 *create_object(<object type>,<object name>,{default settings}) for create an object
-*A possibility for Get/set every properties of object (eg.: my_snowball.x <- 320; Text.set_text(my_dispenser.badguy[0])) 
-
-This list is not completely. You can add anything, if you want.
+*A possibility for Get/set every properties of object (eg.: my_snowball.x <- 320; Text.set_text(my_dispenser.badguy[0]))
 
 == SuperTux criticisms ==
 # IcyIsland - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms here?
