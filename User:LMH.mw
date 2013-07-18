@@ -6,7 +6,7 @@ I intend to devote a consistent effort in maintaining the [[Add-ons]] downloadab
 
 ==LMH's Development TODO List==
 
-I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my personal thoughts of what the game could use or needs (thus highly likely to be incomplete).  There is no particular order to this list.  Aside from some of the coding and just about all of the sound, these are all things within my ability.  Nevertheless help is more than welcomed :)
+I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my own thoughts of what the game could use or needs (thus highly likely to be incomplete or outright inaccurate).  There is no particular order to this list.  Aside from some of the coding and just about all of the sound, these are all things within my ability.  Nevertheless help is more than welcomed :)
 
 ===Coding and Bug Fixes===
 * Screen resolution/full screen toggle graphics issues
@@ -26,6 +26,11 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Translatable script messages
 * Sprite replacement ability e.g. Tux -> Penny/Penny -> Tux for "Play as Penny" (also available to add-ons)
 * Swimming like a forced climbing (but fast- Tux is a penguin)? Think frog suit but controllable
+* Optional ability to respawn unstable tile after a set duration
+* Slope behavior needs improvement, perhaps allow Tux to slide
+* Check on some of the draw layers for objects
+:For example should draw weak_blocks on top of other objects such as coins
+:Also killed badguys fall in front of bonus_blocks but behind bricks (or vice-versa)
 
 ===Sounds/Music===
 * A fire-ice interaction, probably hissing like dropping a lit match into a glass of water
@@ -34,6 +39,8 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * ShortFuse pop
 * Freeze/unfreeze?
 * Tweak some of the voc music repetition
+* Bounce on enemy sound
+* Splash in water?
 
 ===Graphics===
 * Replace backflip sprites with actual rotation
@@ -41,7 +48,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Better fish
 * Better (animated) explosion
 * A finished owl
-:Can owl drop bombs? have to check, then make skydive splat
+:Can owl drop bombs? have to check, could then make skydive splat
 * Consolidate/cleanup/organize image files and tilesets
 * Find a way to make the menu border work
 * A waterfall to match the new water look
@@ -49,6 +56,9 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Fill out some of the new tilesets (darksnow/blue mtn./etc.)
 * Separate out some tilesets (ice/forest/castle/etc.)
 * Re-work the backflip billboard since "jump with up" may not be in use
+* Slick ice tiles that are useable (maybe as a semi-transparent overlay)
+* Some of the newer snow/ice tiles are slightly discolored- fit it
+* Animate some badguy deaths
 
 ===Regular Level Design===
 * (IN-PROGRESS) Put together levels that introduce new game components for Icy Island
@@ -63,9 +73,19 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Allow partial stats when respawning at a checkpoint- should stop people from thinking that no stats on he worldmap is a bug
 * New worldmap sprite for a level with stats at 100% (maybe including an option to have a target time as well)
 * Fix the badguy counting bug with dispensers... ugh
+* Check on worldmap stats text drawing at different resolutions
 
 ===Editor===
 Where to begin...  let's just say that the editor needs lots of work from it's current state.
+
+===Documentation and Distribution===
+* Guide to GIT
+* Update/consolodate TODO lists
+* Remove/replace SVN wiki references
+* Building references should be revisited
+:I need to muster the courage to build in Windows, and document it
+* Get CPack working to make distributable binaries - so close...
+* Would a ST virtual machine be worthwhile? it would avoid Windows building falderal
 
 ===Badguy Ideas===
 * Moving eyes for icecrusher as well as throw up some particles when it hits the ground
