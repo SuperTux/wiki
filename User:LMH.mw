@@ -6,7 +6,7 @@ I intend to devote a consistent effort in maintaining the [[Add-ons]] downloadab
 
 ==LMH's Development TODO List==
 
-I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my own thoughts of what the game could use or needs (thus highly likely to be incomplete or outright inaccurate).  There is no particular order to this list.  Aside from some of the coding and just about all of the sound, these are all things within my ability.  Nevertheless help is more than welcomed :)
+I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my own thoughts of what the game could use or needs (thus highly likely to be incomplete or outright inaccurate).  There is no particular order to this list.  Aside from some of the coding and just about all of the sound, these are all things within my ability.  Nevertheless help is more than welcomed :)  I have re-evaluated what I would like to do in an effort to push toward stable releases rather than getting too carried away with new features.  As such, items preceded by an "X" are items that I have no intent on pursuing at the current time.
 
 ===Coding and Bug Fixes===
 * Screen resolution/full screen toggle graphics issues
@@ -25,12 +25,13 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Ability to download updates for languages
 * Translatable script messages
 * Sprite replacement ability e.g. Tux -> Penny/Penny -> Tux for "Play as Penny" (also available to add-ons)
-* Swimming like a forced climbing (but fast- Tux is a penguin)? Think frog suit but controllable
-* Optional ability to respawn unstable tile after a set duration
 * Slope behavior needs improvement, perhaps allow Tux to slide
 * Check on some of the draw layers for objects
 :For example should draw weak_blocks on top of other objects such as coins
 :Also killed badguys fall in front of bonus_blocks but behind bricks (or vice-versa)
+* Put together a smart spiky/unify spiky and sspiky behavior
+* X Swimming like a forced climbing (but fast- Tux is a penguin)? Think frog suit but controllable
+* X Optional ability to respawn unstable tile after a set duration
 
 ===Sounds/Music===
 * A fire-ice interaction, probably hissing like dropping a lit match into a glass of water
@@ -59,6 +60,9 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Slick ice tiles that are useable (maybe as a semi-transparent overlay)
 * Some of the newer snow/ice tiles are slightly discolored- fit it
 * Animate some badguy deaths
+* LiveFire sprite
+* Alternative candle sprites (animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb)
+* Need parallax versions of backgrounds
 
 ===Regular Level Design===
 * (IN-PROGRESS) Put together levels that introduce new game components for Icy Island
@@ -67,7 +71,8 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 :Current iteration: levels prior to cave
 * Work on Incubator Island -> Icy Island
 * (IN-PROGRESS) Add parallax backgrounds to Icy Island levels
-* A shop to spend coins
+* Levels to show off glow effects
+* X A shop to spend coins
 
 ===Statistics Improvements===
 * Allow partial stats when respawning at a checkpoint- should stop people from thinking that no stats on he worldmap is a bug
@@ -86,43 +91,31 @@ Where to begin...  let's just say that the editor needs lots of work from it's c
 :I need to muster the courage to build in Windows, and document it
 * Get CPack working to make distributable binaries - so close...
 * Would a ST virtual machine be worthwhile? it would avoid Windows building falderal
+* Put together a how-to for custom graphics (sprites, tilesets), maybe combine/enhance with add-ons
+* Start updating "what's new" in-situ so next release we know what to say
 
 ===Badguy Ideas===
 * Moving eyes for icecrusher as well as throw up some particles when it hits the ground
-* Bouncing snowball without horizontal motion
-* A sticky snowball that walks on walls/ceilings
-* Another boss fight- A giant worm that bores through the ground 
-* Play with a fire proof crystallo
-* Maybe an ice proof spiky and invulnerably spiky
-* Highly customizable mini-boss that can utilize different behaviors/sprites/vulnerabilities
-* Someone's gotta throw things at Tux
+* Play with a fire proof crystall
+* X? Highly customizable mini-boss that can utilize different behaviors/sprites/vulnerabilities
+* X Bouncing snowball without horizontal motion
+* X A sticky snowball that walks on walls/ceilings
+* X Another boss fight- A giant worm that bores through the ground 
+* X Spiky made of ice, invulnerable to ice
+* X Spiky made of obsidian, invulnerable to bullets
+* X Someone's gotta throw things at Tux
+* X Dark_snowball: a dark themed badguy for the icy tileset, would be invincible while in the dark and vulnerable/stationary in the light.  Gives off a sinister glow
 
 ===Powerup Ideas===
 * BonusBlock drops powerups on butt-jump
-* A BonusBlock that explodes like a bomb
 * Generalized BonusBlock that can dispense badguys/objects
 * Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
-* Airflower that allows Tux to jump a little higher and a little farther
-* Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
-* Some sort of temporary speed boost
-* Alchemy potion that changes coins to a solid lead block and vice-versa
-
-===Glow Effects===
-
-In an effort to make lighting effects in SuperTux a little more enjoyable I've begun some coding work to add more built-in lighting effects.  The progress can be tracked in the "glow_effects" branch of [http://code.google.com/r/lmh0013-clone/source/list?name=glow_effects my SuperTux clone in Google Code].  My ideas for this project are listed below:
-
-* (DONE) More ability for candles: choose color, option to disable flicker and glare, allows for better integration of custom sprites and environmental glow
-* (IN-PROGRESS) Optional candle graphic sprites:  animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb
-* (DONE) Powerups glow-in-the-dark: standard powerups (excepting 1ups) are easily located in dark areas and look cool in dim areas
-* (DONE) Fireballs glow: they are fire after all, this always bothered me about the current configuration
-* (DONE) Explosions light up immediate area: another obvious improvement 
-* Weakblocks burn: probably should make burning weakblocks give off light as well
-* (DONE) Some badguys glow: flame, willowisp, kugelblitz (also make flames vulnerable to ice and add a couple of flame-like badguys with other vulnerabilities/appearances)
-* New badguy, dark_snowball: a dark themed badguy for the icy tileset, would be invincible while in the dark and vulnerable/stationary in the light.  Gives off a sinister glow.
-* (IN-PROGRESS) Possible new badguy, walking flame: like spiky, but can be "extinguished" using iceflower.  Would obviously also glow.
-* (DONE) Tux glows when invincible: might be a nice addition
-* Possible new powerup, earth flower: would give Tux a mining hat and subsequent light directly in front.  Would also have the ability to turn to stone momentarily similar to the Tanooki Suit of Mario 3
-* Three levels for alternate cave path on Icy Island that shows everything off
+* X A BonusBlock that explodes like a bomb
+* X Airflower that allows Tux to jump a little higher and a little farther
+* X Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
+* X Some sort of temporary speed boost
+* X Alchemy potion that changes coins to a solid lead block and vice-versa
+* X earth flower: would give Tux a mining hat and subsequent light directly in front.  Would also have the ability to turn to stone momentarily similar to the Tanooki Suit of Mario 3 (alternatively ACTION button allows directing of light cone)
 
 ==Mattie's World==
 
