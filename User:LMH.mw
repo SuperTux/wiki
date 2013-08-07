@@ -32,6 +32,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Put together a smart spiky/unify spiky and sspiky behavior
 * X Swimming like a forced climbing (but fast- Tux is a penguin)? Think frog suit but controllable
 * X Optional ability to respawn unstable tile after a set duration
+* X Generalize badguy behavior - combine with sprite files for highly customized badguys/simpler editor implementation?
 
 ===Sounds/Music===
 * A fire-ice interaction, probably hissing like dropping a lit match into a glass of water
@@ -47,7 +48,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Replace backflip sprites with actual rotation
 * Frozen enemies
 * Better fish
-* Better (animated) explosion
+* Animated explosion with particles (pop for short_fuse)
 * A finished owl
 :Can owl drop bombs? have to check, could then make skydive splat
 * Consolidate/cleanup/organize image files and tilesets
@@ -88,15 +89,13 @@ Where to begin...  let's just say that the editor needs lots of work from it's c
 * Update/consolodate TODO lists
 * Remove/replace SVN wiki references
 * Building references should be revisited
-:I need to muster the courage to build in Windows, and document it
-* Get CPack working to make distributable binaries - so close...
+* Get Windows installer finished
 * Would a ST virtual machine be worthwhile? it would avoid Windows building falderal
 * Put together a how-to for custom graphics (sprites, tilesets), maybe combine/enhance with add-ons
 * Start updating "what's new" in-situ so next release we know what to say
 
 ===Badguy Ideas===
-* Moving eyes for icecrusher as well as throw up some particles when it hits the ground
-* Play with a fire proof crystall
+* Play with a fire proof crystallo
 * X? Highly customizable mini-boss that can utilize different behaviors/sprites/vulnerabilities
 * X Bouncing snowball without horizontal motion
 * X A sticky snowball that walks on walls/ceilings
