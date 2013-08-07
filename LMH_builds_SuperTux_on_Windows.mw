@@ -26,7 +26,7 @@ I will try to be both as explicit and concise as possible.  Any deviation or alt
 #* PhysFS http://icculus.org/physfs/downloads/physfs-2.0.2.tar.gz
 #* boost http://sourceforge.net/projects/boost/files/boost/1.47.0/boost_1_47_0.7z/download
 #* 7-zip http://downloads.sourceforge.net/sevenzip/7z920.exe
-#* OpenAL http://www.filecluster.com/downloads/OpenAL-SDK.html <br> '''<font color=#008800>[!]</font>''' the OpenAL website was "unavailable", I found the alternative by putting the filename into a search engine
+#* OpenAL http://www.filecluster.com/download-link-4/97572.html <br> '''<font color=#008800>[!]</font>''' the OpenAL website was "unavailable", I found the alternative by putting the filename into a search engine
 # Install and configure dependencies
 #* run 7-zip installer using defaults
 #* run OpenAL installer using defaults
@@ -100,6 +100,4 @@ I will try to be both as explicit and concise as possible.  Any deviation or alt
 
 == The Result ==
 
-After this process I had a nice updated version of SuperTux running in Windows.  However, it should be very apparent that the process is very long and prone to hiccups.  While these steps worked for me, it is quite possible that others will run into their own random issues, especially if using other versions of any of the software including OS.  Novices may have an exceptionally difficult time troubleshooting issues and finding workarounds such as those I found in building physfs and supertux itself.  Perhaps one is better off heeding the advice in [[Building on Windows#Warnings]] and finding something more productive to do.
-
-The final product (somewhat modified for packaging purposes) can be downloaded [http://www.mediafire.com/download/qsin76cnf1idge4/Supertux-0.3.4-win32.zip here].
+After this process I had a nice updated version of SuperTux running in Windows.  However, it should be very apparent that the process is very long and prone to hiccups.  While these steps worked for me, it is quite possible that others will run into their own random issues, especially if using other versions of any of the software including OS.  Novices may have an exceptionally difficult time troubleshooting issues and finding workarounds such as those I found in building physfs and supertux itself.  Perhaps one is better off heeding the advice in [[Building on Windows|Warnings]] and finding something more productive to do.
