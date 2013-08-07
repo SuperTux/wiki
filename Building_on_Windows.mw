@@ -45,7 +45,8 @@ http://www.cmake.org/files/v2.8/cmake-2.8.5-win32-x86.zip
 
 * [http://curl.haxx.se/download.html cURL] (add-on manager)
 
-http://www.gknw.net/mirror/curl/win32/curl-7.21.7-devel-mingw32.zip
+http://www.gknw.net/mirror/curl/win32/curl-7.21.7-devel-mingw32.zip <br>
+[http://curl.haxx.se/gknw.net/7.31.0/dist-w32/curl-7.31.0-devel-mingw32.zip Alternative download (v 7.31.0)]
 
 * [http://www.libsdl.org/download-1.2.php SDL] graphics library
 
@@ -73,7 +74,8 @@ http://downloads.sourceforge.net/sevenzip/7z920.exe
 
 * [http://connect.creativelabs.com/openal/Downloads/Forms/AllItems.aspx OpenAL], for all your OggVorbis needs
 
-http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip
+http://connect.creativelabs.com/openal/Downloads/OpenAL11CoreSDK.zip <br>
+[http://www.filecluster.com/downloads/OpenAL-SDK.html Alternative download location]
 
 === Getting Busy ===
 * Run the 7-zip, mingw-get-inst, and OpenAL SDK installers.
