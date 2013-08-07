@@ -100,4 +100,6 @@ I will try to be both as explicit and concise as possible.  Any deviation or alt
 
 == The Result ==
 
-After this process I had a nice updated version of SuperTux running in Windows.  However, it should be very apparent that the process is very long and prone to hiccups.  While these steps worked for me, it is quite possible that others will run into their own random issues, especially if using other versions of any of the software including OS.  Novices may have an exceptionally difficult time troubleshooting issues and finding workarounds such as those I found in building physfs and supertux itself.  Perhaps one is better off heeding the advice in [[Building on Windows|Warnings]] and finding something more productive to do.
+After this process I had a nice updated version of SuperTux running in Windows.  However, it should be very apparent that the process is very long and prone to hiccups.  While these steps worked for me, it is quite possible that others will run into their own random issues, especially if using other versions of any of the software including OS.  Novices may have an exceptionally difficult time troubleshooting issues and finding workarounds such as those I found in building physfs and supertux itself.  Perhaps one is better off heeding the advice in [[Building on Windows#Warnings]] and finding something more productive to do.
+
+The final product (somewhat modified for packaging purposes) can be downloaded [http://www.mediafire.com/download/qsin76cnf1idge4/Supertux-0.3.4-win32.zip here].
