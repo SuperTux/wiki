@@ -26,7 +26,7 @@ I will try to be both as explicit and concise as possible.  Any deviation or alt
 #* PhysFS http://icculus.org/physfs/downloads/physfs-2.0.2.tar.gz
 #* boost http://sourceforge.net/projects/boost/files/boost/1.47.0/boost_1_47_0.7z/download
 #* 7-zip http://downloads.sourceforge.net/sevenzip/7z920.exe
-#* OpenAL http://www.filecluster.com/download-link-4/97572.html <br> '''<font color=#008800>[!]</font>''' the OpenAL website was "unavailable", I found the alternative by putting the filename into a search engine
+#* OpenAL http://www.filecluster.com/downloads/OpenAL-SDK.html <br> '''<font color=#008800>[!]</font>''' the OpenAL website was "unavailable", I found the alternative by putting the filename into a search engine
 # Install and configure dependencies
 #* run 7-zip installer using defaults
 #* run OpenAL installer using defaults
