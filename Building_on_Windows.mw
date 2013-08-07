@@ -28,7 +28,7 @@ OK, enough of that. Here are the exact steps for building SuperTux on a fresh Wi
 ** For example using [https://msysgit.googlecode.com/files/Git-1.8.3-preview20130601.exe MsysGit]
 *** Run the installer
 *** Run Git Bash and navigate to the folder you want to save SuperTux to
-*** Type: <nowiki>git clone https://code.google.com/p/supertux/</nowiki>
+*** Type: <code><nowiki>git clone https://code.google.com/p/supertux/</nowiki></code>
 *** Begin your checkout and wait - this might take some time, so to the next step...
 
 === It's Download Time ===
