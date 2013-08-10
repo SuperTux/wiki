@@ -11,13 +11,11 @@ Builds of for both SuperTux and editor are available for Ubuntu.  They are updat
 == Release 0.3.4 ==
 This is an unstable development snapshot of SuperTux released in July of 2013.
 
-The source code tarball, can be downloaded from the following link:
+<!-- The source code tarball, can be downloaded from the following link: -->
 
-http://supertux.googlecode.com/files/supertux-0.3.4.tar.bz2
+[http://supertux.googlecode.com/files/supertux-0.3.4.tar.bz2 Source code]
 
-Windows download:
-
-[https://docs.google.com/file/d/0ByRzWtyxhnRZX2s3S19RTE1MazQ/edit?usp=sharing]
+[https://docs.google.com/file/d/0ByRzWtyxhnRZX2s3S19RTE1MazQ/edit?usp=sharing Windows download]
 
 == Release 0.3.3 ==
 :''→ [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-March/002815.html Announcement] on supertux-devel''
