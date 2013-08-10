@@ -26,6 +26,9 @@
 *Make an editor.
 *Make a windows installation.
 *Make the climbing tux faster.
+*New path mode: no_order
+**Platform wouldn't start moving on script platform.start_moving().
+**Platform would go dirrectly to the node on script platform.goto_node(int node).
 
 === objects ===
 
