@@ -1,0 +1,11 @@
+<font size=5>Jungle island</font><hr><br>
+This island will be after [[Forest|Forest island]] in milestone 3. [[SuperTux extra]] worlds will be added into SuperTux. Because of both SuperTux and [[SuperTux extra]] have a [[Forest|Forest island]], the [[SuperTux extra]] Forest island will be changed to Jungle island.
+
+== Badguys ==
+Jungle island is very similar to [[Forest|Forest island]], so they can use the same badguys. Jungle island will use some of them more often, than are used in [[Forest|Forest island]]. There will be also some new badguys only for Jungle island.
+
+=== Tumbleweed ===
+Its graphics are implemented, but there is no sprite or badguy for them. It rolls along the floor, when Tux is on the left or on the right. When Tux is above or under, it stops rolling. It hurts on touch and it can't be squished. It's flameable and freezable.
+
+=== Hanging ball ===
+It could be a stone stalactite that fits the forest and jungle theme, but stone stalactite wouldn't break suddenly. It's a ball of dirt and stones hanging on a wine. When Tux walks under it, it would fall down. It hurts on touch. When it's hit by fireball, it falls down and when it's hit by iceball, it will freeze and it doesn't fall, when is Tux under it. It doesn't freeze enemies, like [[Stalactite]].
