@@ -6,11 +6,11 @@
 | Behaviour=Follows a circular path around a certain point.
 | Squish=no
 | Buttjump=no
-| Freeze=no
+| Freeze=yes
 | Burnable=no
 | FirstVersion=0.1
 }}
-'''Flames''' are [[badguys]] found in both [[worlds]] in ''SuperTux''. They move in fixed circles, hurting [[Tux]] and other badguys on contact (unless, of course, Tux is in invincibility mode.) Flames are immune to all attacks and cannot be destroyed in any way.
+'''Flames''' are [[badguys]] found in both [[worlds]] in ''SuperTux''. They move in fixed circles, hurting [[Tux]] and other badguys on contact (unless, of course, Tux is in invincibility mode.) Flames are immune to fire. However, ice balls can kill them permanently as of version 0.3.4.
 
 It is possible to create a flame with a non-circular path using a hurting platform equipped with the flame sprite.
 
