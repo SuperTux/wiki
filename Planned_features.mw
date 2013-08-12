@@ -15,10 +15,10 @@
 *{{pf-w}} Combine SuperTux with [[SuperTux extra]]. (at least partional)
 **{{pf-w}} Add new worldmap tiles for [[SuperTux extra]] environments.
 **{{pf-h}} Retexture old [[SuperTux extra]] tiles.
-**{{pf-a}} Add levels to new environments:
-***{{pf-a}} Jungle
-***{{pf-a}} Crystal cave
-***{{pf-a}} Lavaland
+**{{pf-m}} Add levels to new environments:
+***{{pf-m}} Jungle
+***{{pf-m}} Crystal cave
+***{{pf-m}} Lavaland
 ***{{pf-i}} Giant chewinggum
 ***{{pf-i}} Vomitland
 *{{pf-c}} Many tilesets tweaks 
