@@ -47,9 +47,10 @@
 *{{pf-w}} re-implement Forest island
 *{{pf-a}} Add death-script to ghosttree.
 *{{pf-c}} Add a stone stalactite sprite.
-*{{pf-u}} Add badguys for [[Wordld 3|Jungle island]].
+*{{pf-u}} Add badguys for [[World 3|Jungle island]].
 *{{pf-a}} Add more usages for iceflower. Iceflower shouldn't be too useless.
 *{{pf-u}} Limit the usage of fireflower. Fireflower shouldn't be too overpowered.
+
 == 0.3.6 ==
 *Maybe a milestone 3 release.
 *{{pf-u}} Add [[World 3|Jungle island]].
