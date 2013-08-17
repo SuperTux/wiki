@@ -1,0 +1,28 @@
+This is the actual thing to solve before Milestone 2 
+[[Category:Development]]
+===Major Issue===
+These Issus Need particular knowledge of coding.
+*SDL2 Migration 
+**Rendering
+**Control
+*Fix the editor 
+**adding function/debug 
+or
+**Re-writte/Translate code in C
+
+===Minor Issue===
+*Non-fatal bug to fix:
+**sqapi.cpp
+**sqdebug.cpp
+**sqobject.h
+**sqfuncstate.cpp
+**sqvm.cpp
+**sqstdrex.cpp
+**brick.cpp
+**icecrusher.cpp
+**ispy.cpp
+*Localisation improve
+**Translation  of menu and worlds [https://www.transifex.com/projects/p/supertux/]
+**Font design for non latin alphabet (traditional Chinese,  Nepali, Arabic) 
+
+As long as all these points haven't been fixed, Milestone 2 will not be considered as Stable, so won't be released.
