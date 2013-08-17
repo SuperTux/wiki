@@ -1,8 +1,100 @@
 {{Navbox Milestone 2 Design Document}}
 
 {{nextversion}}
+== Code Tasks ==
+* properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
 
-moved to: [[Planned features]]
+== Sound and Music Tasks ==
+* Improve the sounds
+* Compress music more. The 40 MBytes of music make up two thirds of the source tarball.
+
+== Graphics / Sprites ==
+* Create SuperTux idle animations (<del>stage1: blinking with the eye,</del> stage2: tipping with the food, stage3: scratching the head)
+** <small>I've added the code for idle animations, we just need the graphics now. The blinking animation already exists, but it needs some tweaking - [[User:Sik0fewl|sik0fewl]] 06:25, 16 June 2008 (UTC)</small>
+** [https://supertux.lethargik.org/bugs/view.php?id=681]
+* when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
+* Tux isn't centered properly to his collision box
+* repair jump Tux sprite (to dark black) (Grumbel)
+* do a 32x32 top-down water animation for the worldmap
+** use these tiles [https://supertux.lethargik.org/bugs/view.php?id=852]
+* finish [[cannon]] graphics, also snowball graphics, death, etc (Grumbel)
+* [[Snowman]] graphics (death animation, turn-around graphics) (Grumbel)
+* [[Owl]] graphics (basically placeholder graphics right now) <small>—[[User:Octo|octo]] 07:53, 9 March 2010 (UTC)</small>
+* some decor for ice tiles, cracks and stuff (Grumbel)
+* finish icecrusher graphics
+* deep snow tiles
+** [https://supertux.lethargik.org/bugs/view.php?id=911]
+* icicle graphics for decoration purpose
+** [https://supertux.lethargik.org/bugs/view.php?id=911] an okay job, but not the best -CT.da'Bomb
+* animate minibomb
+* think of a new way to represent the exit area (snow molted with smooth ground below or so)
+* add turn-around animation for smart-snowball
+
+== Editor / Developer Conveniences ==
+
+*# directly accessible powerups
+* finish editor improvements (MatzeB)
+* editor doesn't align [[Cannon]] and [[Krush and Krosh]] properly (grid is wrong)
+** I think it's using the 0,0-position of the ''image'' to align objects, not the ''hitbox''. —[[User:Octo|octo]] 07:50, 9 March 2010 (UTC)
+
+== Meta / Organization ==
+* create a timeline what shall be done and when — [[Milestone 2 Design Document/Timeline]]
+* discuss in the meetings what shall be done over the coming week — [[Next Meeting Agenda]]
+
+== Menu System / Game Configuration ==
+* add gamma control to the option menu, see: int SDL_SetGamma (float redgamma, float greengamma, float bluegamma);
+* make aspect ratio option menu thing work
+* need to properly auto-detect and set aspect ratio on games first startup (i.e. on a 1280x1024 screen aspect must be set to 5:4, not 4:3)
+* option menu entries are currently not in sync with gameconfig
+* add scale-with-window option to magnification or something like that
+* make left/right change an option in the menu, let enter apply it (needed for fullscreen)
+
+== Levels / Scripting / Gameplay ==
+* level startup needs a fade-in, so does game startup, level abort and a few other places
+* add all fade-in/out effects to DisplayEffect
+* camera vertical scroll doesn't work properly in a small window (i.e. it doesn't move at all)
+
+== Other ==
+* aspect ratio init code (Grumbel)
+* think about peeking in relation to large screen size
+** <small>Maybe disable peeking if the resolution is at a certain size or greater? Tux would just be centered. [[User:Sik0fewl|sik0fewl]] 18:34, 30 April 2009 (UTC)</small>
+
+== Enemies ==
+* fix and cleanup all the enemy names - see [[Milestone 2 Design Document/Enemies]] for new names
+** A beginning has been made by renaming ''Kamikaze Snowball'' to [[Snowshot]]. There's not much consensus about the other changes though, see [[Meeting 2010-02-27]]. --[[User:Octo|octo]] 07:01, 5 March 2010 (UTC)
+* AngryBonusBlock: Have a bonus block type that comes to life when tux jumps against it and then chases Tux
+:Break the "only good stuff from bonus blocks" and "same look same behaviour" rules? --[[User:WolfgangB|WolfgangB]] 01:27, 25 May 2008 (UTC)
+::Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Also, bonus blocks already have varied behaviors. --[[User:Mathnerd314|Mathnerd314]] 04:23, 7 September 2008 (UTC)
+* create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
+** <small>Is this a dupe of the Crystallo proposal for week 4? - [[User:Sik0fewl|sik0fewl]] 19:58, 15 May 2008 (UTC)</small>
+*** <small>No, this enemy is intelligent (reacts to Tux) --[[User:Mathnerd314|Mathnerd314]] 20:43, 19 March 2010 (UTC) </small>
+* [[Mr. Bomb]]: let the fuse burn after one touched it
+* [[Flying Snowball]]: Remove randomness, should be periodic and predictable
+* [[Flying Snowball]]: Change timings to match that of Milestone1
+* [[Flying Snowball]]: smoke effect for the motor seem to be to seldomly triggered
+* [[Krush and Krosh|Icecrusher]]: gravitation instead of linear, facial expression.
+*: Gravitation has been done in {{Revision|6403}}. —[[User:Octo|octo]] 19:19, 26 February 2010 (UTC)
+* [[Krosh]] (big icecrusher): add a larger version of [[Krush]] (the icecrusher), twice the size (4x4 files)
+
+== Postpone to Milestone 3 ==
+
+These are items that can be postponed until milestone 3, but are still welcome for milestone 2.
+
+===Code Tasks===
+* separate lisp reader, tinygettext and other libraries properly out of SuperTux
+
+===Editor / Developer Conveniences===
+* optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
+
+===Levels / Scripting / Gameplay===
+* fix console command set_game_speed() so that it doesn't slow down the console
+* replace "you found a secret area" with a special sound (Wansti)
+**why I like it the way it is. -ctdabomb
+* General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
+===Other===
+* create SuperTux .xo Activity for OLPC (Grumbel)
+* Have particle throwing starting enemies (fireflower like)
+* add sprite scaling
 
 == Finished ==
 * document the behaviour of all badguys to be used in Milestone2 along with how they interact with each other - [[Milestone 2 Design Document/Enemies]]
