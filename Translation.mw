@@ -1,17 +1,10 @@
 == How to Translate ==
-# Check at the end of this site and on the [http://supertux.lethargik.org/bugs/search.php?project_id=0&category=Translations&sticky_issues=on&sortby=summary&dir=DESC&hide_status_id=-2 Issue Tracker] if '''someone else''' is already working on the translation for your language. If there is someone contact him/her!
-# If you already have '''messages.pot''' files you can skip this step. If you don't already have messages.pot files (the files that contain all the text that can be translated) you can have them created for you by following these instructions:
-#* Install [http://www.gnu.org/software/gettext/ gettext]
-#* Get an [[Download/Subversion|SVN snapshot]] of SuperTux. You then have two ways to make the templates:
-#** '''Compile SuperTux''', making certain CMake finds xgettext.
-#** '''Run the makepot.sh shell script''', making certain xgettext is in your path. You may have to edit makepot.sh slightly to enlarge the list of level subsets.
-# '''Create or update the .po files''' for your language. Many GUI tools (see below) will help you with this, so if you indeed to use one you can skip this step. Here's how to do things yourself:
-#* Go into data/locale and data/levels/*/ and in each of those directories:
-#** In case you want to create a new translation, run <tt>msginit -i messages.pot -o $LANG.po</tt> (where $LANG is the two-character handle of your language)
-#** In case you want to update an existing translation, issue the following command: <tt>msgmerge -U $LANG.po messages.pot</tt>
-# '''Edit the .po files''' with your favourite editor or with one of the GUI tools below.
-# You should also edit '''supertux.desktop''' and add a comment entry for your language.
-# Either '''send''' a link to the translated .po files to the [[Mailing Lists|supertux-devel mailing list]], or upload them to the [http://supertux.lethargik.org/bugs/search.php?project_id=0&category=Translations&sticky_issues=on&sortby=summary&dir=DESC&hide_status_id=-2 Issue Tracker].
+# Register on our On-line translation manager [https://www.transifex.com/projects/p/supertux/]
+# Request à New language or join an existing one
+# Just translate on line
+
+If you have no internet access for translation work, then download po files from Transifex, complete them on your local system with Poedit. then upload them on transifex. 
+If letters/alphabets are missing  ask the language guru [[Giby]] to add it after completing all po files on Transifex.
 
 == Notes for Translators ==
 * If there isn't a good translation for some term (e.g. "Credits" or "Sound"), you might consider to '''simply keep it''' in English. It's better to allow users to make an educated guess than to confuse them by displaying '''meaningless''' or garbled text.
