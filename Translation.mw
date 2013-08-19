@@ -4,7 +4,7 @@
 # Just translate on line
 
 If you have no internet access for translation work, then download po files from Transifex, complete them on your local system with Poedit. then upload them on transifex. 
-If letters/alphabets are missing  ask the language guru [[Giby]] to add it after completing all po files on Transifex.
+If letters/alphabets are missing  ask the language guru ( [[User:Giby]] ) to add it after completing all po files on Transifex.
 
 == Notes for Translators ==
 * If there isn't a good translation for some term (e.g. "Credits" or "Sound"), you might consider to '''simply keep it''' in English. It's better to allow users to make an educated guess than to confuse them by displaying '''meaningless''' or garbled text.
