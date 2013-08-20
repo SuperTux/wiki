@@ -19,16 +19,14 @@
 == Wishlist ==
 *Make Bonus island 3.
 *Upgrade the climbing Tux.
-*Implement LMH's new worldmap tilesets.
 *Create bonus-levels dots.
-*Implement IceTux worldmap graphics.
 *Repair the bug of boat in the main game.
 *Make an editor.
 *Make a windows installation.
 *Make the climbing tux faster.
 *New path mode: no_order
-**Platform wouldn't start moving on script platform.start_moving().
-**Platform would go dirrectly to the node on script platform.goto_node(int node).
+**Platform would go randomly between nodes on script platform::start_moving().
+**Platform would go dirrectly to the node on script platform::goto_node(int node_no).
 
 === objects ===
 
@@ -65,7 +63,7 @@
 === scripting ===
 *Something for get Tux's x and y position
 *create_object(<object type>,<object name>,{default settings}) for create an object
-*A possibility for Get/set every properties of object (eg.: my_snowball.x <- 320; Text.set_text(my_dispenser.badguy[0]))
+*A possibility for get/set every properties of object (eg.: my_snowball.x <- 320; Text.set_text(my_dispenser.badguy[0]))
 
 == SuperTux criticisms ==
 # IcyIsland - extro: What will happen with Tux, when done level "The castle of Nolok"? He roots and blossoms here?
