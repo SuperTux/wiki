@@ -9,7 +9,7 @@ I intend to devote a consistent effort in maintaining the [[Add-ons]] downloadab
 I've decided to keep a list of all the things I'd like to do (or seen done) in SuperTux.  Instead of randomly throwing these into one of the many existing TODO lists, I've instead elected to keep my personal agenda here to emphasize that these are my own thoughts of what the game could use or needs (thus highly likely to be incomplete or outright inaccurate).  There is no particular order to this list.  Aside from some of the coding and just about all of the sound, these are all things within my ability.  Nevertheless help is more than welcomed :)  
 
 ===Coding and Bug Fixes===
-====Important Tasks for Next Milestone====
+====Important/Useful Tasks for Next Milestone====
 * Screen resolution/full screen toggle graphics issues
 * Tux jitter when running up a slope and into a wall
 * Timer to cancel backflip (currently an upward wind against a wall can cause Tux to be stuck)
@@ -24,13 +24,17 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 :For example should draw weak_blocks on top of other objects such as coins
 :Also killed badguys fall in front of bonus_blocks but behind bricks (or vice-versa)
 * Let brick shatter in appropriate directions
-* BonusBlock drops powerups on butt-jump
 * Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
 * Fade in/out on sector change
 * Figure out why Tux sometimes dies in the menu (appropriately end menu.stl before loading a worlmap?)
+* Fix the bonusblock mess I've made- custom content already allows for objects/badguys
+: thus no need for the rock/trampoline options, although users may find them useful
+: should have a level-flip default
+: ultimately what is needed is editor support- try to mimic dispenser objects?
+* Moving tilemaps do not behave the same as platforms, figure out collision physics and fix
+* Are the random (position, direction) badguy definitions for old dispenser behavior?  If so they could be removed (some are needed for snowman/mrtree so be careful)
 ====Other Potentially Useful Coding Ideas====
 * Snowmen take two fireballs- one to drop body similar to being jumped on
-* Generalized BonusBlock that can dispense badguys/objects
 * Stalactites fall when hit with bullet
 * Replace backflip sprites with actual rotation
 * Dependent add-ons ability, might be useful for custom tilesets
@@ -51,6 +55,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Coin sound(s) that differ from coin collected sound (for coin rain/coin explode)
 * Icecrusher landing
 * ShortFuse pop
+* Haywire fizz/grunt
 * Tweak/remove some of the voc music
 ====Other Useful Sound Tasks====
 * Bounce on enemy sound
@@ -64,15 +69,14 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Animated explosion with particles (pop for short_fuse)
 * A finished owl
 :Can owl drop bombs? have to check, could then make skydive splat
+:Owl could probably drop game objects if this is not already set up
 * Consolidate/cleanup/organize image files and tilesets
 * Find a way to make the menu border work
 * A waterfall to match the new water look
 * Fix tiling of crystal cave tiles
 * Fill out some of the new tilesets or remove (e.g. blue mtn.)
 * Separate out some tilesets (ice/forest/castle/etc.)
-* Re-work the backflip billboard since "jump with up" may not be in use
 * Slick ice tiles that are useable (maybe as a semi-transparent overlay)
-* Some of the newer snow/ice tiles are slightly discolored- fit it
 * Animate some badguy deaths
 * LiveFire sprite
 * Alternative candle sprites (animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb)
@@ -82,6 +86,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Replace airarrow with one that is both visible and isn't confusing (maybe a glowing sprite w/o Tux)
 * The brown castle tiles do not tile well- they should
 * General icons for jump and action buttons, can be used on billboards and in keybinding menu
+:the backflip billboard doesn't work if "jump with up" is not selected
 
 ===Regular Level Design===
 * (IN-PROGRESS) Put together levels that introduce new game components for Icy Island
@@ -113,6 +118,7 @@ Where to begin...  let's just say that the editor needs some work
 * Update credits appropriately
 
 ===Badguy Ideas===
+* Bring back mrrocket
 * Play with a fire proof crystallo
 * Bouncing snowball without horizontal motion
 * A sticky snowball that walks on walls/ceilings
@@ -123,7 +129,6 @@ Where to begin...  let's just say that the editor needs some work
 * Dark_snowball: a dark themed badguy for the icy tileset, would be invincible while in the dark and vulnerable/stationary in the light.  Gives off a sinister glow
 
 ===Powerup Ideas===
-* A BonusBlock that explodes like a bomb
 * Airflower that allows Tux to jump a little higher and a little farther
 * Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
 * Some sort of temporary speed boost
