@@ -1510,251 +1510,60 @@ When you solve level "The castle of Nolok" Tux remains in place and nothing happ
 [[Image:Stand-0.png]]<big><big><big>'''-->'''</big></big></big>[[Image:Root-0.png]][[Image:Root-1.png]][[Image:Root-2.png]][[Image:Root-3.png]][[Image:Bloom-0.png]][[Image:Bloom-1.png]][[Image:Bloom-2.png]][[Image:Bloom-3.png]]<br>
 <small>''Think it as a joke but not as an insult. I want to point out on this error, which should be solved. This error should be solved in another way than this.''</small>
 
-=== Definition of own objects ===
+=== External badguys definiton files ===
 
-I thought it should be possible to define custom objects without building SuperTux. Writing in the level would look like this:
+I thing, it should be possible to define custom badguys without changing the source code. i could be implemented in milestone 3. Writing in the level would look like this:
 <pre>
-(own_object
- (object "path of object")
- (object_parameters /value/)
-; next parameters
+(badguy
+ (object "path of object definition file")
+ (x int x_pos)
+ (y int y_pos)
+ (others struct other_parameters)
+ (sprite UnicodeString sprite_path) ;optional
 )
 </pre>
-Objects should be located in their own files. That might look like their template:
-<pre>
-;SuperTux-object
-(object
- (type "my_object")
- (area /bool area/)
- (sprite "default_sprite_path")
- (solid /bool solid/)
- (platform_solid /bool solid/)
- (lightmap /bool drawing on lightmap/)
- (carryable /bool carryable/)
- (init-script "")
- (properties
-  (my_propery /default value/)
-;  next properties
- )
- (local-variables
-  (my_variable /default value/)
-;  next variables
- )
- (timers
-  (timmer
-   (name "my_timer")
-   (time /secounds per actions/)
-   (enabled /bool enabled/)
-   (script "//script_of_timmer")
-  )
-;  next timers
- )
- (events
-  (event
-   (name "action")
-   (enabled /bool_enabled/)
-   (script "//script_of_event")
-  )
-;  next events
- )
- (methods
-  (method
-   (name "my_method")
-   (parameters "my_parameter" "next_parameter" "etc")
-   (local /bool/)
-   (returns "type")
-   (script "//script_of_method")
-  )
-;  next methods
- )
- (private_objects
-;  definition of private objects
- )
-)
-</pre>
-names of events:
-*on_jump_on
-*on_jump_in
-*on_jump_to
-*on_jump_out
-*on_butt_jump_on
-*on_butt_jump_in
-*on_butt_jump_to
-*on_butt_jump_out
-*on_cheer_on
-*on_cheer_in
-*on_cheer_to
-*on_cheer_out
-*on_enter_top
-*on_enter_left
-*on_enter_right
-*on_enter_bottom
-*on_action
-*on_collision_left
-*on_collision_right
-*on_collision_bottom
-*on_grab
-*on_move
-*on_relase
-*on_ground_under
-*on_hole_under
-*on_wall_left
-*on_wall_right
-*on_ceiling_top
-*on_last_tile_left
-*on_last_tile_right
-*on_deep_hole_left
-*on_deep_hole_right
+Objects should be located in their own files. They would look like this:
+::compound '''supertux-badguy''' The root tag for whole structure.
+::*UnicodeString '''default_sprite''' The sprite, that the badguy will use, when it won't be defined.
+::*bool '''gravity''' Set on, when the badguy will be affected by the gravity.
+::*UnicodeString '''center''' The center of the badguy. '''center''' means the badguy's hitbox center point, '''border''' means the point of badguy's hitbox border, that is closest to Tux.
+::*struct '''others''' The properties, that can be changed via the '''others''' tag in the badguy calling tag. They are accessible via the "others" variable in scripts.
+::*compound '''events''' A compound of names of scripts, that will be called when...
+::**UnicodeString '''on-hit-top''' ...Tux hits the badguy from top.
+::**UnicodeString '''on-hit-side''' ...Tux hits the badguy from side.
+::**UnicodeString '''on-hit-bottom''' ...Tux hits the badguy from bottom.
+::**UnicodeString '''on-reach-edge''' ...the badguy reaches an edge of platform and the badguy can't fall under the sector, when the badguy falls off the platform.
+::**UnicodeString '''on-reach-pit''' ...the badguy reaches an edge of platform and the badguy will fall under the sector when he falls off the platform.
+::**UnicodeString '''on-hit-ground''' ...the badguy hits a solid ground.
+::**UnicodeString '''on-hit-ceiling''' ...the badguy hits a solid ceiling.
+::**UnicodeString '''on-hit-water''' ...the badguy hits a water tile.
+::**UnicodeString '''on-hit-wall''' ...the badguy hits a solid wall.
+::**UnicodeString '''on-hit-hurts''' ...the badguy hits a hurting tile.
+::**UnicodeString '''on-fire''' ...the badguy hits a fireball.
+::**UnicodeString '''on-freeze''' ...the badguy hits an iceball.
+::**UnicodeString '''on-grab''' ...Tux tries to grab the badguy.
+::**UnicodeString '''on-relase''' ...Tux tries to relase the badguy.
+::**UnicodeString '''on-exist''' The name of script, that will run each 100ms, when the badguy exists.
+::*compound-array '''scripts''' The scripts, that the events call.
+::**compound '''script''' One of the scripts. Note: there will be possible to add scripts, that the events wouldn't use.
+::***UnicodeString '''name''' The script's name, that the events use.
+::***UnicodeString '''content''' The content of the script, that the events call.
 
-automaticaly properties:
-*for area objects:
-**x
-**y
-**width
-**height
-**sprite (optional)
-*for non-area objects:
-**x
-**y
-**sprite (optional)
-
-Timmer repeats the same script after a certain time.
-
-methods for events and timmers:
-*enable()
-*disable()
-*play()
-
-As an example I present here the definition of snowball:
-<pre>
-;SuperTux-object
-(object
- (type "snowball")
- (area #f)
- (sprite "images/creatures/snowball/snowball.sprite")
- (solid #f)
- (platform_solid #t)
- (lightmap #f)
- (carryable #f)
- (properties
-  (dirrection "left")
- )
- (local-wariables
-  (squished #f)
-  (fall_speed 0)
- )
- (timers
-  (timmer
-   (name "walking")
-   (time 0.1)
-   (enabled #t)
-   (script "if (dirrection == \"left\"){
-             object.pos.x <- object.pos.x - 1;
-            }else{
-             object.pos.x <- object.pos.x + 1;
-            }
-           "
-   )
-  )
-  (timmer
-   (name "falling")
-   (time 0.1)
-   (enabled #f)
-   (script "object.fall_speed <- object.fall_speed + object.settings.gravity;
-            object.pos.y <- object.pos.y + object.fall_speed;
-            if (object.pos.y > sector.height){
-             object.delete();
-            }
-           "
-   )
-  )
- )
- (events
-  (event
-   (name "on_wall_left")
-   (enabled #t)
-   (script "if (dirrection == \"left\"){
-             object.properties.dirrection <- \"right\"
-            }
-           "
-   )
-  )
-  (event
-   (name "on_wall_right")
-   (enabled #t)
-   (script "if (dirrection == \"right\"){
-             object.properties.dirrection <- \"left\"
-            }
-           "
-   )
-  )
-  (event
-   (name "on_collision_left")
-   (enabled #t)
-   (script "Tux.shirk;")
-  )
-  (event
-   (name "on_collision_right")
-   (enabled #t)
-   (script "object.events.on_collision_left.play();")
-  )
-  (event
-   (name "on_collision_bottom")
-   (enabled #t)
-   (script "object.events.on_collision_left.play();")
-  )
-  (event
-   (name "on_jump_on")
-   (enabled #t)
-   (script "object.sprite.action <- \"squished\";
-            object.methods.disable_solid();
-           "
-   )
-  )
-  (event
-   (name "on_butt_jump_on")
-   (enabled #t)
-   (script "object.events.on_jump_on.play();")
-  )
-  (event
-   (name "on_fire")
-   (enabled #t)
-   (script "object.methods.disable_solid();
-            object.timers.falling.enable();
-           "
-   )
-  (event
-   (name "on_ground_under")
-   (enabled #t)
-   (script "object.timers.falling.disable();
-            object.fall_speed <- 0;
-           "
-   )
-  )
-  (event
-   (name "on_hole_under")
-   (enabled #t)
-   (script "object.timers.falling.enable();")
-  )
- )
- (methods
-  (method
-   (name "disable_solid")
-   (local #t)
-   (returns "nothing")
-   (script "object.events.on_collision_left.disable();
-            object.events.on_collision_right.disable();
-            object.events.on_collision_bottom.disable();
-            object.events.on_fire.disable();
-            object.events.on_ground_under.disable();
-            object.solid <- false;
-           "
-   )
-  )
- )
-)
-
-</pre>
+methods:
+*'''fade()''' The badguy will fall under the screen.
+*'''set_velocity(int x, int y)''' Sets the badguy's velocity.
+*int '''get_velocity_x()''' Gets the badguy's X velocity.
+*int '''get_velocity_y()''' Gets the badguy's Y velocity.
+*'''set_pos(int x, int y)''' Sets the badguy's position.
+*int '''get_pos_x()''' Gets the badguy's X position.
+*int '''get_pos_y()''' Gets the badguy's Y position.
+*bool '''on_ground()''' Will return true, when the badguy is on a solid ground.
+*'''grab()''' The badguy will appear in Tux's hands.
+*'''release()''' Tux will release the badguy.
+*bool '''is_carried''' Returns true, when Tux carrys the badguy.
+*'''set_action(UnicodeString action)''' Sets the sprite action. The default action is "default".
+*'''call_member_script(UnicodeString script_name)''' Calls a script defined in the "scripts" tag.
+*'''despawn(bool scoreboard)''' Despawns the badguy. When the bool "scoreboard" is set on true, the number of killed badguys in the scoreboard will be incremented.
 
 == More badguy ideas ==
 
