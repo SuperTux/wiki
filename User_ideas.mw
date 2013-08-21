@@ -1563,6 +1563,8 @@ methods:
 *bool '''is_carried''' Returns true, when Tux carrys the badguy.
 *'''set_action(UnicodeString action)''' Sets the sprite action. The default action is "default".
 *'''call_member_script(UnicodeString script_name)''' Calls a script defined in the "scripts" tag.
+*int '''get_tux_distance()''' Gets the distance between Tux and the badguy's center point.
+*int '''get_tux_angle()''' Gets the angle, in which Tux currently is. When is Tux above the badguy, the function will return 0. When Tux is under the badguy, it returns 180.
 *'''mark_as_killed()''' The number of killed badguys on scoreboard will be incremented.
 *'''despawn()''' Despawns the badguy.
 
