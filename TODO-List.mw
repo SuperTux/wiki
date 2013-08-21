@@ -5,10 +5,27 @@ These Issus Need particular knowledge of coding.
 *SDL2 Migration 
 **Rendering
 **Control
+**Files to edit: 
+***joystickkeyboardcontroller.hpp
+***joystickkeyboardcontroller.cpp 
+***gl_renderer.cpp 
+***sdl_renderer.cpp 
+***console.cpp
+***screen_manager.cpp
+***title_screen.cpp 
+***keyboard_menu.hpp
+***addon_menu.cppjoystickkeyboardcontroller.hpp
+***joystickkeyboardcontroller.cppgl_renderer.cpp
+***sdl_renderer.cppfunctions.cpp
+***physfs_sdl.cpp
+***button_group.cpp
+***button.hpp
+***button.cpp
+***firefly.cpp 
+**Fix the fullscreen/windows mode management 
 *Fix the editor 
 **adding function/debug 
-or
-**Re-writte/Translate code in C
+**Re-writte/Translate code in C/C++
 
 ===Minor Issue===
 *Non-fatal bug to fix:
