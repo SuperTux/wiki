@@ -189,7 +189,7 @@ def calc(parallax, screen, tiles):
 SuperTux shall support resolutions from 640x480 to 1280x800 at a magnification of 1x.
 For resolutions higher, such as 2560x1600, upscaling will be used.
 For resolutions smaller, like 320x240 downscaling will be used.
-
+:You expect people play testing the levels in more than one resolution? How many between 640x480 to 1280x800 should I try exactly? 
 Higher resolution graphics for 2x maginification might be provided.
 Lower res graphics for 0.5x maginification might be provided as well.
 
