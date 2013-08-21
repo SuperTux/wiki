@@ -1563,7 +1563,8 @@ methods:
 *bool '''is_carried''' Returns true, when Tux carrys the badguy.
 *'''set_action(UnicodeString action)''' Sets the sprite action. The default action is "default".
 *'''call_member_script(UnicodeString script_name)''' Calls a script defined in the "scripts" tag.
-*'''despawn(bool scoreboard)''' Despawns the badguy. When the bool "scoreboard" is set on true, the number of killed badguys in the scoreboard will be incremented.
+*'''mark_as_killed()''' The number of killed badguys on scoreboard will be incremented.
+*'''despawn()''' Despawns the badguy.
 
 == More badguy ideas ==
 
