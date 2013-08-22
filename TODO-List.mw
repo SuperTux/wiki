@@ -22,6 +22,7 @@ These Issus Need particular knowledge of coding.
 ***button.hpp
 ***button.cpp
 ***firefly.cpp 
+***main.cpp
 **Fix the fullscreen/windows mode management 
 *Fix the editor 
 **adding function/debug 
