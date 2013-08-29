@@ -61,23 +61,3 @@
 *{{pf-u}} Change the level structure
 **{{pf-u}} Objects will use external definition files
 *{{pf-u}} Remove all useless tiles
-
-== Milestone 3 ==
-
-These are items that can be postponed until milestone 3, but are still welcome for milestone 2.
-
-===Code Tasks===
-* separate lisp reader, tinygettext and other libraries properly out of SuperTux
-
-===Editor / Developer Conveniences===
-* optimize the build process, building SuperTux currently takes ages (I don't see how we could speed it up..., MatzeB)
-
-===Levels / Scripting / Gameplay===
-* fix console command set_game_speed() so that it doesn't slow down the console
-* replace "you found a secret area" with a special sound (Wansti)
-**why I like it the way it is. -ctdabomb
-* General: Do something about the walking speed, feels wrong at the moment, maybe a bit slower
-===Other===
-* create SuperTux .xo Activity for OLPC (Grumbel)
-* Have particle throwing starting enemies (fireflower like)
-* add sprite scaling
