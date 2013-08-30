@@ -207,6 +207,7 @@ In tiles this means we have 40x25 (=1280x800px) tiles per screen.
 :Why?
 * redraw/replace data/images/tiles/waterfall/
 * draw/redraw/replace for a ghostly word.
+** There are currently two types of ghostwood textures, brown and cyan. I have already completed the cyan one. Which is better and will be the only supported? Having two textures for one theme is quite useless. --[[User:Hume|Hume]] 20:18, 30 August 2013 (UTC)
 
 
 Whats the point in adding new features while the existing features and badguys can't be used due to lack of images or animations?
