@@ -23,6 +23,7 @@ These Issus Need particular knowledge of coding.
 ***button.cpp
 ***firefly.cpp 
 ***scr/supertux/main.cpp
+***options_menu.cpp
 **Fix the fullscreen/windows mode management 
 *Fix the editor 
 **adding function/debug 
