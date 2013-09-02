@@ -12,13 +12,12 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 ====Important/Useful Tasks for Next Milestone====
 * Screen resolution/full screen toggle graphics issues
 * Tux jitter when running up a slope and into a wall
-* Timer to cancel backflip (currently an upward wind against a wall can cause Tux to be stuck)
 * Camera reset after unpause (try peeking and then pausing)
 * Reset worldmap with ability to preserve stats or not
 * Work on ungrab behavior for bomb (should be able to be tossed)
 * Release images so the terminal doesn't fill up on close
 * Loading/downloading messages for processes that can lag
-* Instead of a coin penalty, reset powerups/coins on "Abort Level"
+* Reset powerups/coins on "Abort Level"
 * Translatable script messages
 * Check on some of the draw layers for objects
 :For example should draw weak_blocks on top of other objects such as coins
@@ -27,10 +26,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
 * Fade in/out on sector change
 * Figure out why Tux sometimes dies in the menu (appropriately end menu.stl before loading a worlmap?)
-* Fix the bonusblock mess I've made- custom content already allows for objects/badguys
-: thus no need for the rock/trampoline options, although users may find them useful
-: should have a level-flip default
-: ultimately what is needed is editor support- try to mimic dispenser objects?
+* Editor support for custom bonus block content, try to mimic dispenser objects?
 * Moving tilemaps do not behave the same as platforms, figure out collision physics and fix
 * Are the random (position, direction) badguy definitions for old dispenser behavior?  If so they could be removed (some are needed for snowman/mrtree so be careful)
 ====Other Potentially Useful Coding Ideas====
@@ -70,15 +66,15 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * A finished owl
 :Can owl drop bombs? have to check, could then make skydive splat
 :Owl could probably drop game objects if this is not already set up
+:The editor will need to support owl objects
 * Consolidate/cleanup/organize image files and tilesets
 * Find a way to make the menu border work
 * A waterfall to match the new water look
 * Fix tiling of crystal cave tiles
 * Fill out some of the new tilesets or remove (e.g. blue mtn.)
 * Separate out some tilesets (ice/forest/castle/etc.)
-* Slick ice tiles that are useable (maybe as a semi-transparent overlay)
 * Animate some badguy deaths
-* LiveFire sprite
+* LiveFire final sprite
 * Alternative candle sprites (animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb)
 * Need parallax versions of backgrounds
 * Visual effects for willowisp warp and level flip
@@ -99,9 +95,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * A shop to spend coins
 
 ===Statistics Improvements===
-* Allow partial stats when respawning at a checkpoint- should stop people from thinking that no stats on he worldmap is a bug
 * New worldmap sprite for a level with stats at 100% (maybe including an option to have a target time as well)
-* Fix the badguy counting bug with dispensers... ugh (disallow dispensing of objects, badguys only?)
 * Check on worldmap stats text drawing at different resolutions
 
 ===Editor===
@@ -116,24 +110,6 @@ Where to begin...  let's just say that the editor needs some work
 * Put together a how-to for custom graphics (sprites, tilesets), maybe combine/enhance with add-ons
 * Start updating "what's new" in-situ so next release we know what to say
 * Update credits appropriately
-
-===Badguy Ideas===
-* Bring back mrrocket
-* Play with a fire proof crystallo
-* Bouncing snowball without horizontal motion
-* A sticky snowball that walks on walls/ceilings
-* Another boss fight- A giant worm that bores through the ground 
-* Spiky made of ice, invulnerable to ice
-* Spiky made of obsidian, invulnerable to bullets
-* Someone's gotta throw things at Tux
-* Dark_snowball: a dark themed badguy for the icy tileset, would be invincible while in the dark and vulnerable/stationary in the light.  Gives off a sinister glow
-
-===Powerup Ideas===
-* Airflower that allows Tux to jump a little higher and a little farther
-* Pau Pumpkin (pau is Hawaiian for done, pronounced "pow") like a pow block from Mario that kills everything on screen
-* Some sort of temporary speed boost
-* Alchemy potion that changes coins to a solid lead block and vice-versa
-* earth flower: would give Tux a mining hat and subsequent light directly in front.  Would also have the ability to turn to stone momentarily similar to the Tanooki Suit of Mario 3 (alternatively ACTION button allows directing of light cone)
 
 ==Mattie's World==
 
