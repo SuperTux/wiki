@@ -14,6 +14,8 @@ Just a normal [[fish]], but with another sprite.
 Tux will be able to ride on it, but it will hurt from sideways. It will be freezable, but not flameable.
 === Running candle ===
 This badguy will hurt on touch. It will light in a color. It will stop lighting on hit by an iceball and it will light again on hit by a fireball. It will fall down, when it reaches an edge of the platform.
+=== Falling crystal ===
+It will just fall down until a it will reach solid ground and hurt on touch.
 
 == Objects ==
 Crystal cave won't use many new badguys only for it, but it will use some new objects only for crystal cave.
