@@ -10,28 +10,24 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 
 ===Coding and Bug Fixes===
 ====Important/Useful Tasks for Next Milestone====
+* Loading/downloading messages for processes that can lag
+* Fade in/out on sector change
 * Screen resolution/full screen toggle graphics issues
+* Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
 * Tux jitter when running up a slope and into a wall
 * Camera reset after unpause (try peeking and then pausing)
 * Reset worldmap with ability to preserve stats or not
 * Work on ungrab behavior for bomb (should be able to be tossed)
 * Release images so the terminal doesn't fill up on close
-* Loading/downloading messages for processes that can lag
 * Reset powerups/coins on "Abort Level"
 * Translatable script messages
-* Check on some of the draw layers for objects
-:For example should draw weak_blocks on top of other objects such as coins
-:Also killed badguys fall in front of bonus_blocks but behind bricks (or vice-versa)
 * Let brick shatter in appropriate directions
-* Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
-* Fade in/out on sector change
 * Figure out why Tux sometimes dies in the menu (appropriately end menu.stl before loading a worlmap?)
 * Editor support for custom bonus block content, try to mimic dispenser objects?
 * Moving tilemaps do not behave the same as platforms, figure out collision physics and fix
 * Are the random (position, direction) badguy definitions for old dispenser behavior?  If so they could be removed (some are needed for snowman/mrtree so be careful)
 ====Other Potentially Useful Coding Ideas====
 * Snowmen take two fireballs- one to drop body similar to being jumped on
-* Stalactites fall when hit with bullet
 * Replace backflip sprites with actual rotation
 * Dependent add-ons ability, might be useful for custom tilesets
 * Ability to download updates for languages
@@ -48,7 +44,6 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 ===Sounds/Music===
 ====Sounds Needed Immediately====
 * A fire-ice interaction, probably hissing like dropping a lit match into a glass of water
-* Coin sound(s) that differ from coin collected sound (for coin rain/coin explode)
 * Icecrusher landing
 * ShortFuse pop
 * Haywire fizz/grunt
@@ -94,10 +89,6 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Levels to show off glow effects
 * A shop to spend coins
 
-===Statistics Improvements===
-* New worldmap sprite for a level with stats at 100% (maybe including an option to have a target time as well)
-* Check on worldmap stats text drawing at different resolutions
-
 ===Editor===
 Where to begin...  let's just say that the editor needs some work
 
@@ -106,7 +97,7 @@ Where to begin...  let's just say that the editor needs some work
 * Update/consolodate TODO lists
 * Remove/replace SVN wiki references
 * Building references should be revisited
-* Would a ST virtual machine be worthwhile? it would avoid Windows building falderal
+* Would a ST+editor virtual machine be worthwhile? it would avoid Windows/OS X building falderal
 * Put together a how-to for custom graphics (sprites, tilesets), maybe combine/enhance with add-ons
 * Start updating "what's new" in-situ so next release we know what to say
 * Update credits appropriately
