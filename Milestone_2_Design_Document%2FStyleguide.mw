@@ -34,6 +34,8 @@ Levels ''must'' be at least 25 tiles high, using at least 32 tiles is recommende
 == Naming the Level File ==
 When saving the level file, name it like this:  02 - example level.stl So you have the number (02 in the example) showing what order you play the levels, and the level name for a few reasons, separated by a hyphen. If you don't understand, look at the world1 level folder. 
 
+However, it's not critical, when the level file is named else, because it can be easily renamed, and when you want to contribute into the main game, you probably don't know, which number the level will have. When it is for an add-on, you haven't to do so, because nobody will see, how the level is named, and it will work the same. On the other side, it's good to name the level file as the level is named, because nobody knows, what jasdbgadyijbgyiao.stl means, when is somebody trying to find a level file with specific name.
+
 == The application-fall composition ==
 When something falls on [[haywire]], then application falls. This is happening on ST 0.3.3. This bug is corrected in ST 0.3.4, but it's only a development version and not full version. It's very frusturating, when the application is always falling. Don't make levels, where is possible something like that!! It's good to follow it, while is ST 0.3.3 in power.
 
