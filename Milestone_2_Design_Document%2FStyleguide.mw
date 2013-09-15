@@ -1,9 +1,9 @@
 {{Navbox Milestone 2 Design Document}}
-These guidelines should be kept for any level that appears on the official world maps. Designers contributing levels to the Contrib and Bonus sections are free of regulations - that's what those sections are for.
+These guidelines should be kept for any level that appears in the main SuperTux level sequence. Any deviation should be rare and with great consideration (for example for a secret area).  Designers making custom levels intended for an [[Add-on]] or Bonus Island are free of regulations - that's what those sections are for.  However, keep in mind that if your levels violate too many of these suggestions people will likely find them not very fun.
 
 == Setting ==
 
-In [[Milestone 2]], we focus on [[Icy Island]], the island already present in [[Milestone 1]]. It has a snow and ice setting, so please use the appropriate [[tile]]s only. Most of them are in the "Snow" and "Blocks" groups in the level editor. There are numerous other tiles currently available in the editor, but they are either either not finalized or not appropriate for ''Icy Island'' (the [[Forest]] tiles, for example). 
+In [[Milestone 2]], we focus on [[Icy Island]], the island already present in [[Milestone 1]]. It has a snow and ice setting, so please use the appropriate [[tile]]s only. Most of them are in the "Snow" and "Blocks" groups in the level editor. There are numerous other tiles currently available in the editor, but they are either either not finalized (e.g. ice mountain) or not appropriate (e.g. [[Forest]]) for ''Icy Island''. 
 
 == Difficulty ==
 
@@ -13,11 +13,13 @@ The goal of ''SuperTux'' is to be fun, not to be hard. So the goal is to make ''
 
 == Enemies ==
 
-Do not randomly mix enemies of all different kinds. Level should follow a certain theme and thus focus on enemies that fit that theme. Don't just randomly place each and every type of snow enemy into level. Fire enemies are reserved for castle levels.
+Do not randomly mix enemies of all different kinds.  Level should follow a certain theme and thus focus on enemies that fit that theme.  For example, fire enemies should only appear in castle levels.  In addition, don't just randomly place each and every type of snow enemy into a level- pick a few enemies that best fit into your level.
+
+Be mindful of how enemies react to the environment when deciding where to put them.  For example, snowball will always fall off ledges while smartball will always turn around at a ledge, thus snowball is a poor choice in a sky level where smarball is much more appropriate.  Enemies should not fall off the screen before players have a chance to engage them, and it should be possible to fill out the ''badguys killed'' stat.  Finally avoid placing enemies where they will reach a spawn point.  This is most important around the level start and reset points, as there should be ample time for a player to see and assess the level before being forced to act.  Levels that switch back-and-forth between sectors are also prone to having an enemy wander into a spawn point resulting in Tux being hurt immediately after spawning- this is bad and makes players sad.
 
 == Slopes ==
 
-When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination. Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems.
+When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination.  Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems.  You may want to avoid the use of steep slopes for the time being, at least until the slope collision physics are improved some more.  Along those same lines, the placement of slopes directly next to a vertical wall currently produces some bizarre behavior and should be avoided until the mechanics are improved.
 
 [[Image:Styleguide_slope.png|Styleguide Slope]]
 
@@ -29,26 +31,25 @@ Don't use tiles in the background that were built for the foreground. Use only s
 
 == Size ==
 
-Levels ''must'' be at least 25 tiles high, using at least 32 tiles is recommended. Levels should be between 250 and 350 tiles long.<br />(A couple of levels in [[Icy Island]] are over 500&nbsp;tiles long – newer levels should not be this long and it's possible we'll split up those long levels in the future.)
+Levels ''must'' be at least 25 tiles high, and using at least 32 tiles is recommended. Levels should be between 250 and 350 tiles long.<br />(A couple of levels in [[Icy Island]] are over 500&nbsp;tiles long – newer levels should not be this long and it's possible we'll split up those long levels in the future.)<br />Any vertical scrolling sector should be no narrower than 40 tiles wide to ensure it displays well in every resolution setting currently supported by SuperTux.
 
-== Naming the Level File ==
-When saving the level file, name it like this:  02 - example level.stl So you have the number (02 in the example) showing what order you play the levels, and the level name for a few reasons, separated by a hyphen. If you don't understand, look at the world1 level folder. 
+== File Naming Conventions ==
 
-However, it's not critical, when the level file is named else, because it can be easily renamed, and when you want to contribute into the main game, you probably don't know, which number the level will have. When it is for an add-on, you haven't to do so, because nobody will see, how the level is named, and it will work the same. On the other side, it's good to name the level file as the level is named, because nobody knows, what jasdbgadyijbgyiao.stl means, when is somebody trying to find a level file with specific name.
+When saving the level file, stick with the convention used for the worldmap.  For example, ''Icy Island'' levels are named like this:  ''02 - example level.stl'' where the number (02 in the example) showing what order you play the levels, and the level name are separated by a hyphen.  The level extension is ''.stl'', if you forget the extension, the level will not be recognized.  If you need an example of naming convention, look at the data/levels/world1 directory.  If level order does not matter, or is unknown, the number and hyphen can be omitted.
 
-== The application-fall composition ==
-When something falls on [[haywire]], then application falls. This is happening on ST 0.3.3. This bug is corrected in ST 0.3.4, but it's only a development version and not full version. It's very frusturating, when the application is always falling. Don't make levels, where is possible something like that!! It's good to follow it, while is ST 0.3.3 in power.
+Note: having spaces in the level names makes command-line manipulation of files for development atrocious, there should probably be a discussion about changing the convention to use underscores in the level names instead.
 
-== Sector border ==
+However, it's not critical that custom levels necessarily follow the same naming convention.  It is nevertheless best to stick with a non-cryptic naming scheme where it is obvious which file is for which level.
+
+== Sectors ==
+
 [[Image:nsb.png|thumbnail|right|How NOT bind sectors together]]
-When you are building a level, don't forget building floor and roof where is neccessary. For example, cave level without floor and roof looks strangely. However, the floor and roof don't have to be solid.
-* Overground levels should have a floor and no roof.
-* Underground and interiour levels should have a floor and a roof.
-* Sky levels shouldn't have any floor and any roof.
+When making a level, use floors and ceilings where appropriate. Basic rule of thumb is that your environment should visually make sense.  For example:
+* Overground areas should have a floor and no ceiling.
+* Underground/cave and interior areas should have both a floor and a ceiling.
+* Sky area should have neither a floor nor ceiling.
 
-Levels shouldn't use going above the screen. Firstly, you can't see, what exactly is arround tux. Secoundly, you can make the level higher. Levels shouldn't contain detours that lead above the screen including secret areas.
-
-When you fall under the sreen, you will die, because a trap is expected, not because of a strange natural power. Use spikes or so instead, when is possible. And when a hole contains a scripttrigger, that warps you to a sector bellow, the other holes should warp you to another sector too, or have a trap in them.
+Transitions between sectors should also make sense.  Having Tux walk off a screen of overground ice and suddenly appearing in the middle of a castle is confusing.  Also one-way sector transitions should only be used where it is logical, such as dropping down a hole.  Doors should be two-way.  Sectors designed to be next to each other should be able to be visually connected.
 
 == Other ==
 
@@ -68,9 +69,10 @@ Other things to avoid:
 # Try to limit the use of reset points; if you can get away with none whatsoever, do so.
 # Don't allow dead ends or impossible levels; either the player dies, or there's still a way to solve it. (Allowing the player to suicide from a trap works as well) Test your level thoroughly to find possible paths you missed before.
 # Avoid too hard or too easy levels. Too easy levels get boring very quickly while too hard ones can be frustrating. Levels you built often appear a lot easier for yourself, so be sure to let other people test them.
-# Secret areas should be well-hidden and not be visible on first sight. Use your imagination to think of new ways to create secrets - some of the above rules can be broken for that purpose, but be careful!
-# Avoid impossible-to-reach coins or lives. Collecting everything in a level is often important to players. However, difficulty can be just short of impossible - requiring frame-by-frame accuracy is fine. (So long as you provide a demo to prove that it is in fact possible) This only applies to bonus items - players should be able to complete the level minus some items with only moderate difficulty.
+# Secret areas should be well-hidden and not be visible on first sight, but can still have a visual cue that they are there. Use your imagination to think of new ways to create secrets - some of the above rules can be broken for that purpose, but be careful!
+# Avoid impossible-to-reach coins, powerups, areas, and badguys. Collecting everything or reaching everywhere in a level is often important to players. However, difficulty can be just short of impossible - requiring frame-by-frame accuracy is fine. (So long as you provide a demo to prove that it is in fact possible) This only applies to bonus items - players should be able to complete the level minus some items with only moderate difficulty.
 # Avoid using any water. Swimming and water physics have not been finalized, so any current water behavior is unreliable.
+# Avoid using very steep slopes or placing slopes next to vertical walls, the collision physics is still a bit off.
 # Don't overuse "new" things (enemies, objects, tiles): Use them when and where they make sense. Don't use them just because they are new.
 # Change gravity only when it has sense. Don't change it, when you want only Tux jumping higher/lower.
 
