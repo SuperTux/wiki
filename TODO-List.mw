@@ -48,6 +48,22 @@ These Issus Need particular knowledge of coding.
 **Translation  of menu and worlds [https://www.transifex.com/projects/p/supertux/]
 **Font design for non latin alphabet (traditional Chinese,  Nepali, Arabic)
 
+===Graphic Tasks===
+
+* animate cave background torch: data/images/tiles/background/backgroundtile3.png
+: Are that tiles really useful? --[[User:Hume|Hume]] 13:14, 31 August 2013 (UTC)
+* do parallax tiles (done, I think) 
+* remove lightmap tiles
+* redraw/replace data/images/tiles/waterfall/
+* draw/redraw/replace for a ghostly word.
+
+===To reimplant after SDL2 migration===
+Some good effects had to be removed because of some bug of SDL… 
+*Smoke effect of bombs 
+*Frame in main menu
+*Splash effect when falling in water 
+
+
 ==Misc.==
 
 From previous TODO list, some point should be rethink, or may have been corrected … 
@@ -190,29 +206,6 @@ def calc(parallax, screen, tiles):
     return (1 - parallax) * screen + parallax * tiles * 32
 
 
-===Supported Resolutions===
-
-SuperTux shall support resolutions from 640x480 to 1280x800 at a magnification of 1x.
-For resolutions higher, such as 2560x1600, upscaling will be used.
-For resolutions smaller, like 320x240 downscaling will be used.
-:You expect people play testing the levels in more than one resolution? How many between 640x480 to 1280x800 should I try exactly? 
-Higher resolution graphics for 2x maginification might be provided.
-Lower res graphics for 0.5x maginification might be provided as well.
-
-Resolution and magnification can be freely configured by the user within the given limits.
-
-In tiles this means we have 40x25 (=1280x800px) tiles per screen.
-
-===Graphic Tasks===
-
-* animate cave background torch: data/images/tiles/background/backgroundtile3.png
-: Are that tiles really useful? --[[User:Hume|Hume]] 13:14, 31 August 2013 (UTC)
-* do parallax tiles (done, I think) 
-* remove lightmap tiles
-:Why?
-* redraw/replace data/images/tiles/waterfall/
-* draw/redraw/replace for a ghostly word.
-: There are currently two types of ghostwood textures, brown and cyan. I have already completed the cyan one. Which is better and will be the only supported? Having two textures for one theme is quite useless. --[[User:Hume|Hume]] 20:18, 30 August 2013 (UTC)
 
 
 Whats the point in adding new features while the existing features and badguys can't be used due to lack of images or animations?
