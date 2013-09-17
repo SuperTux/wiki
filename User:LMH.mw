@@ -13,7 +13,7 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Loading/downloading messages for processes that can lag
 * Fade in/out on sector change
 * Screen resolution/full screen toggle graphics issues
-* Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen
+* Make iceflower more functional- pickup/stand on frozen enemies, unfreeze timer, update vulnerabilities, have a default frozen graphic, indication that unfreeze is about to happen, freeze/unfreeze audible cues
 * Tux jitter when running up a slope and into a wall
 * Camera reset after unpause (try peeking and then pausing)
 * Reset worldmap with ability to preserve stats or not
@@ -26,8 +26,8 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Editor support for custom bonus block content, try to mimic dispenser objects?
 * Moving tilemaps do not behave the same as platforms, figure out collision physics and fix
 * Are the random (position, direction) badguy definitions for old dispenser behavior?  If so they could be removed (some are needed for snowman/mrtree so be careful)
+* Tweak or remove some of the voc music
 ====Other Potentially Useful Coding Ideas====
-* Snowmen take two fireballs- one to drop body similar to being jumped on
 * Replace backflip sprites with actual rotation
 * Dependent add-ons ability, might be useful for custom tilesets
 * Ability to download updates for languages
@@ -36,27 +36,21 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Slope behavior needs improvement, perhaps allow Tux to slide
 * Standardize grab/ungrab by moving behavior from rock to portable?
 * Multiple tilemapping support, perhaps by sector or tilemap instead of level
-* Swimming like a forced climbing (but fast- Tux is a penguin), think frog suit but controllable
+* Improve how water works
+:Swimming like a forced climbing (but fast- Tux is a penguin), think frog suit but controllable
+:Bring back splash sound for entering
+:extinguish things made of fire (bullet/badguy/etc)
+:water badguys
 * Optional ability to respawn unstable tile after a set duration
 * Generalize badguy behavior - combine with sprite files for highly customized badguys/simpler editor implementation
 * Highly customizable mini-boss that can utilize different behaviors/sprites/vulnerabilities
-
-===Sounds/Music===
-====Sounds Needed Immediately====
-* A fire-ice interaction, probably hissing like dropping a lit match into a glass of water
-* Icecrusher landing
-* ShortFuse pop
-* Haywire fizz/grunt
-* Tweak/remove some of the voc music
-====Other Useful Sound Tasks====
-* Bounce on enemy sound
 * Level flip sound
-* Freeze/unfreeze
-* Splash in water
 
 ===Graphics===
 * Frozen enemies
-* Better fish
+* Improve fish
+:it also looks weird when fish disappears in transparent water
+:start of the jump should depend on top of water- i.e. be dynamic for moving water tiles
 * Animated explosion with particles (pop for short_fuse)
 * A finished owl
 :Can owl drop bombs? have to check, could then make skydive splat
@@ -65,7 +59,12 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Consolidate/cleanup/organize image files and tilesets
 * Find a way to make the menu border work
 * A waterfall to match the new water look
-* Fix tiling of crystal cave tiles
+* Fix tiling issues
+:crystal cave tiles
+:brown castle tiles
+:some blue castle tiles
+:ice mountain
+:arcticskies background (not tiling, but a line artifact)
 * Fill out some of the new tilesets or remove (e.g. blue mtn.)
 * Separate out some tilesets (ice/forest/castle/etc.)
 * Animate some badguy deaths
@@ -73,19 +72,14 @@ I've decided to keep a list of all the things I'd like to do (or seen done) in S
 * Alternative candle sprites (animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb)
 * Need parallax versions of backgrounds
 * Visual effects for willowisp warp and level flip
-* Fix climbing graphics ugliness
+* Fix Tux graphics ugliness (floating debris outside of Tux and transparent holes inside)
 * Replace airarrow with one that is both visible and isn't confusing (maybe a glowing sprite w/o Tux)
-* The brown castle tiles do not tile well- they should
 * General icons for jump and action buttons, can be used on billboards and in keybinding menu
 :the backflip billboard doesn't work if "jump with up" is not selected
 
 ===Regular Level Design===
-* (IN-PROGRESS) Put together levels that introduce new game components for Icy Island
-:Current iteration: platforms, multi-block, weak_block, blue mnt. tiles, short_fuse, climbing
-* (IN-PROGRESS) Incorporate new components into existing levels
-:Current iteration: levels prior to cave
+* Tweak castle and bonus on Icy Island
 * Work on Incubator Island -> Icy Island
-* (IN-PROGRESS) Add parallax backgrounds to Icy Island levels
 * Levels to show off glow effects
 * A shop to spend coins
 
