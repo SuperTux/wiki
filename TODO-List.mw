@@ -55,6 +55,35 @@ These Issus Need particular knowledge of coding.
 * remove lightmap tiles
 * redraw/replace data/images/tiles/waterfall/
 * draw/redraw/replace for a ghostly word.
+* Frozen enemies
+* Improve fish
+:it also looks weird when fish disappears in transparent water
+:start of the jump should depend on top of water- i.e. be dynamic for moving water tiles
+* Animated explosion with particles (pop for short_fuse)
+* A finished owl
+:Can owl drop bombs? have to check, could then make skydive splat
+:Owl could probably drop game objects if this is not already set up
+:The editor will need to support owl objects
+* Consolidate/cleanup/organize image files and tilesets
+* Find a way to make the menu border work
+* A waterfall to match the new water look
+* Fix tiling issues
+:crystal cave tiles
+:brown castle tiles
+:some blue castle tiles
+:ice mountain
+:arcticskies background (not tiling, but a line artifact)
+* Fill out some of the new tilesets or remove (e.g. blue mtn.)
+* Separate out some tilesets (ice/forest/castle/etc.)
+* Animate some badguy deaths
+* LiveFire final sprite
+* Alternative candle sprites (animated background torches, glowing crystals, maybe a brazier/open flame, maybe a light bulb)
+* Need parallax versions of backgrounds
+* Visual effects for willowisp warp and level flip
+* Fix Tux graphics ugliness (floating debris outside of Tux and transparent holes inside)
+* Replace airarrow with one that is both visible and isn't confusing (maybe a glowing sprite w/o Tux)
+* General icons for jump and action buttons, can be used on billboards and in keybinding menu
+:the backflip billboard doesn't work if "jump with up" is not selected
 
 ===To reimplant after SDL2 migration===
 Some good effects had to be removed because of some bug of SDL… 
