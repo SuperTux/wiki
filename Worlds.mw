@@ -20,6 +20,7 @@
 ** Worm
 ** Sinkhole
 ** Vine
+** Grass & flowers (implemented as object, so the level creator can edit colors. Variants: standard, ghost, maybe killer)
 * World 5 - Desert
 ** [[Cactus]]
 ** [[Dillo]]
