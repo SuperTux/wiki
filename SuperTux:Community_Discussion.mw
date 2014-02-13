@@ -91,57 +91,7 @@ With SuperTux 0.3.3 on Windows, it possible to consolidate the profile folder (u
 Hi im new here.
 How do you make bosses or worldmaps?
 
-= SuperTux - as well as presenting it =
-You can vote what suits you best. If you prefer, you can write a factual point of view. Who wants vote, sign up for the item you want vote. You can vote under these topics, but for each only once.
-== How about level editor in newer versions of SuperTux? ==
-I don't understand the question, please explain. --[[Special:Contributions/84.156.185.24|84.156.185.24]] 18:51, 12 March 2011 (UTC)
-:And now? --[[User:Hume|Hume]] 08:50, 13 March 2011 (UTC)
-=== A) SuperTux should contain the level editor. ===
---[[User:Hume|Hume]] 05:43, 1 March 2011 (UTC)<!--Your votes-->
-=== B) Editor should be separately. ===
-<br><!--Your votes-->
-*Due to the massive amount of features now included in SuperTux, the editor is a very large program! Including it in SuperTux would make the whole bundle very bloated, and this overload would be unnecessary and irritating to those who just want to play the game without the editor. [[User:Tuxnut|TUX/√UT]] ([[User talk:Tuxnut|plz talk 2 me internets]] | [[Special:Contributions/Tuxnut|view horrendous deeds]]) 23:18, 18 March 2011 (UTC)
--- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 02:34, 7 June 2011 (UTC)
 
-=== C) Editors not to develop further. ===
-<br><!--Your votes-->
-
-== It would require any external editor application? ==
-:Can you restate the question? Do you mean an external text editor or an external map editor? (Or something else completely) -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 02:36, 7 June 2011 (UTC)
-::I thing an application like Mono which is required for run the level editor for 0.3.0.--[[User:Hume|Hume]] 12:45, 24 June 2011 (UTC)
-=== A) Yes ===
-<br><!--Your votes-->
-=== B) If so, install the editor should include the external application need to run. ===
---[[User:Hume|Hume]] 05:43, 1 March 2011 (UTC)
-<br><!--Your votes-->
-
-=== C) No ===
-<!--Your votes-->
-Users should install it themselves, the way they install PhysicsFS now. -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 22:33, 24 June 2011 (UTC)
-
-== What control should pass M1 levels? ==
-=== A) strict control ===
---[[User:Hume|Hume]] 05:43, 1 March 2011 (UTC)
-=== B) lower control ===
-<br><!--Your votes-->
-=== C) no control ===
-== I will ... ==
-=== A) ... write code designed by this committee ===
-<br><!--Your votes-->
-=== B) ... provide artwork designed by this committee ===
---[[User:Hume|Hume]] 19:12, 1 March 2011 (UTC)<!--Your votes-->
-=== C) ... create sound effects designed by this committee ===
-<br><!--Your votes-->
-=== D) ... create music designed by this committee ===
-<br><!--Your votes-->
-=== E) ... expect someone else to do the work and just be part of this committee ===
-<br><!--Your votes-->
-== Do you want better bonus islands? ==
-My improved version of the Bonusisland1 is on bug tracker (id 728).
---[[Special:Contributions/121.164.146.45|121.164.146.45]] 21:28, 10 April 2011 (UTC)
-:If you visit this page, you get the following error: APPLICATION ERROR #200 A required parameter to this page (id) was not found. Please use the "Back" button in your web browser to return to the previous page. There you can correct whatever problems were identified in this error or select another action. You can also click an option from the menu bar to go directly to a new section. --[[Special:Contributions/77.247.181.165|77.247.181.165]] 20:07, 5 June 2011 (UTC)
-=== A) Yes ===
---[[User:Hume|Hume]] 20:03, 15 April 2011 (UTC)<!--Your votes--><br>
 I would like more quality and more quantity of bonus levels (in order of preference if you only have the resources to do one or the other.) -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 02:38, 7 June 2011 (UTC)
 
 === B) No ===
