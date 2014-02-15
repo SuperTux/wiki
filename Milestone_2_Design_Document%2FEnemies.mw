@@ -113,7 +113,7 @@ Sleeping Spiky sleeps, when Tux comes near he activates and behaves like a norma
 == Ice Fish / [[Fish]] == 
 
 [[Image:IceFish.png|right]]
-Already in the code, but not much used in Milestone1 Levels. Since Milestone2 won't have water he should probably jump out of pipes.
+Already in the code, but not much used in Milestone1 Levels. This badguy shouldn't be used in Icyland, it is a forest enemy. 
 <br clear="all" />
 
 == [[Owl]] ==
