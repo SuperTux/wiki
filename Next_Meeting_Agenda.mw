@@ -9,58 +9,15 @@ The following are topics we would like to discuss. Since it's possible that we c
 There is most on the time someone on our IRC chanel on Freenode (#supertux) but it is easier to meet us on regular meeting, click following link to know when the next will take place: 
 [http://www.timeanddate.com/countdown/generic?p0=211&iso=20131109T18&year=2013&month=11&day=9&hour=18&min=0&sec=0&msg=SuperTux%20IRC%20Meeting%20]
 
-=== Project management ===
-* Who is making levels? Can they be improved enough to make main game levels?
-** Expand the [[Milestone 2 Design Document/Styleguide|Styleguide]] to cover all the mistakes
 
-=== Gameplay ===
-* [[Haywire]], [[Short Fuse]], [[Owl]], and [[SkyDive]] have been implemented by [[User:Octo|octo]].
-** Feedback from grumbel:
-*** Short fuse is good
-*** Haywire is missing some "umph", needs to be more crazy
-*** Owl should fly in a sinusoidal shape instead of straight
-*** Owl should slow before dropping so SkyDive flies straight down
-** [[Krush]] (2x2 icecrusher) has been implemented. What about his big brother, [[Krosh]]? Which size? What graphics? (Resize existing graphics?)
-** What [[Milestone 2 Design Document/Enemies|badguys]] to implement next?
-* Supertux Accessibility: is support for visually impaired gamers feasible?
-** How could such a support look like? Something like zooming the graphics so they are displayed larger? --[[User:Octo|octo]] 01:18, 6 March 2010 (UTC)
-** I guess this is about http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2010-March/002847.html --[[User:Superdev|Superdev]] 17:19, 6 March 2010 (UTC)
-** Problem: Nobody wants to work on it and it would probably change the game a lot.
+===Program of next meeting (unknown date, 2014)===
+*Should we use gmane to keep messages from the mailing list? 
+*Work of the Arizona student for our project:
+**It might change the world available in Milestone 2 
+**SDL2 migration
+**Quartz rendering for editor
+**They might code for next world (badguys behavior, Bosses, thema) 
+**They were told that they was "free" to make new features if they are relevant in the game play
 
-=== Source code ===
-* Proposal - merge src and data of objects/enemies together so that all content is in only a single folder (i.e., folder data/mrtree/ would contain mrtree.?pp, mrtree.sprite, mrtree.ogg, left-*.png, etc.)
-** Slightly harder to build and distribute packages (exclude *.?pp from data directory in binary builds)
-** Easier to take out/add objects, because there's less to keep track of
-* Add non-hacky two player mode and remove supertux-coop patch
-** Remove global variables that prevent this from happening
-** Change references to lists
-* Split physics, drawing, etc. apart
-** Which design pattern to use?
-* Find some way to change object constants without recompiling (sprites, Yeti bounds, velocities of various things, …)
-** Suggestion: keep around lisp parse tree and use it to hold constants
-* Switch to some physics engine?
-** Features needed for everything to work:
-**# tilemaps (or a good broadphase and efficient collision data format)
-**# static constraint solver (so Tux doesn't get stuck on tile edges; problem in Box2D/Chipmunk)
-**# raycasting (ispy)
-**# kinematic objects (HitResponse FORCE_MOVE)
-**# AABB queries (Drawing to screen)
-**# custom collision callbacks/handlers/listeners/filters (all that collision code in MovingObject)
-**# wheel joints (bicycle platform, unused except for test levels)
-**# sliding joints (pneumatic platform, also only a test level)
-**# path constraints/motors (for moving tilemaps/platforms)
-
-=== Scripting in level ===
-*New scripts suggestions
-**a script for active level
-**a script for get position of Tux
-**a script for get position of camera
-**a script for set position of Tux
-**a script for get/set tilemap tiles
-**a script for get atributes of tilemap tiles
-**a script which returns solid(unisolid) of target point
-**a script for create object
-**a script for delete object
-*suggestion: defining of own objects without changing the source code of SuperTux
 
 [[Category:Development]]
