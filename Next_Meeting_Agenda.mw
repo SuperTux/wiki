@@ -18,6 +18,10 @@ There is most on the time someone on our IRC chanel on Freenode (#supertux) but 
 **Quartz rendering for editor
 **They might code for next world (badguys behavior, Bosses, thema) 
 **They were told that they was "free" to make new features if they are relevant in the game play
+*Iceflower behavior:
+**make mechanical badguy breakable on buttjump 
+**induce senescence of vegetal badguy
+**freeze and make caryable animal badguys 
 
 
 [[Category:Development]]
