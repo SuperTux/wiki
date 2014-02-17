@@ -26,8 +26,10 @@ These Issus Need particular knowledge of coding.
 ***options_menu.cpp
 **Fix the fullscreen/windows mode management 
 *Fix the editor 
+** Quartz support
 **adding function/debug 
 **Re-writte/Translate code in C/C++
+** See if anything is usefull in [[Editor_Ideas]] 
 :Why? If you want a C++ editor use flexlay.
 
 ==Minor Issue==
