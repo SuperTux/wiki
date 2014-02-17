@@ -3,6 +3,7 @@
 {{nextversion}}
 == Code Tasks ==
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
+* SDL2 migration (and all related side effect)
 
 == Sound and Music Tasks ==
 * Improve the sounds
