@@ -10,7 +10,7 @@
 * Compress music more. The 40 MBytes of music make up two thirds of the source tarball.
 
 == Graphics / Sprites ==
-* Create SuperTux idle animations (<del>stage1: blinking with the eye,</del> stage2: tipping with the food, stage3: scratching the head)
+* Create SuperTux idle animations (<del>stage1: blinking with the eye,</del> stage2: tipping with the foot, stage3: scratching the head)
 ** <small>I've added the code for idle animations, we just need the graphics now. The blinking animation already exists, but it needs some tweaking - [[User:Sik0fewl|sik0fewl]] 06:25, 16 June 2008 (UTC)</small>
 ** [https://supertux.lethargik.org/bugs/view.php?id=681]
 * when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
