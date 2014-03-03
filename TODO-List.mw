@@ -41,7 +41,6 @@ These Issus Need particular knowledge of coding.
 **sqvm.cpp (52:51: warning: format specifies type 'int' but the argument has type 'SQInteger' (aka 'long'),252:51: warning: format specifies type 'int' but the argument has type 'SQInteger' (aka 'long') ,649:37: warning: '&&' within '||' [-Wlogical-op-parentheses])
 **sqstdrex.cpp(486:23: warning: '&&' within '||' [-Wlogical-op-parentheses], 486:23: note: place parentheses around the '&&' expression to silence this warning,500:3: warning: expression result unused [-Wunused-value],506:4: warning: expression result unused [-Wunused-value],512:4: warning: expression result unused [-Wunused-value], 518:3: warning: expression result unused [-Wunused-value], 608:3: warning: expression result unused [-Wunused-value])
 **brick.cpp
-**icecrusher.cpp (288:79: warning: operator '?:' has lower precedence than '*'; '*' will be evaluated first [-Wparentheses])
 **ispy.cpp
 **sqlexer.cpp.o
 
