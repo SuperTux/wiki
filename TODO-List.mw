@@ -34,15 +34,17 @@ These Issus Need particular knowledge of coding.
 
 ==Minor Issue==
 *Non-fatal bug to fix:
-**sqapi.cpp
-**sqdebug.cpp
-**sqobject.h (103:23: note: expanded from macro '_integer',120:22: note: expanded from macro '_rawval')
-**sqfuncstate.cpp (82:41: warning: format specifies type 'int' but the argument has type 'SQInteger' (aka 'long'), 84:51: warning: format specifies type 'void *' but the argument has type 'SQRawObjectVal'  (aka 'unsigned long') )
-**sqvm.cpp (52:51: warning: format specifies type 'int' but the argument has type 'SQInteger' (aka 'long'),252:51: warning: format specifies type 'int' but the argument has type 'SQInteger' (aka 'long') ,649:37: warning: '&&' within '||' [-Wlogical-op-parentheses])
-**sqstdrex.cpp(486:23: warning: '&&' within '||' [-Wlogical-op-parentheses], 486:23: note: place parentheses around the '&&' expression to silence this warning,500:3: warning: expression result unused [-Wunused-value],506:4: warning: expression result unused [-Wunused-value],512:4: warning: expression result unused [-Wunused-value], 518:3: warning: expression result unused [-Wunused-value], 608:3: warning: expression result unused [-Wunused-value])
-**brick.cpp
-**ispy.cpp
-**sqlexer.cpp.o
+gl_texture.cpp 
+src/video/gl/gl_texture.cpp:149:7: warning: 
+      'gluBuild2DMipmaps' is deprecated: first deprecated in OS X 10.9 -
+      "Use glGenerateMipmap" [-Wdeprecated-declarations]
+      gluBuild2DMipmaps(GL_TEXTURE_2D, GL_RGBA, texture_width,
+      ^
+/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:247:14: note: 
+      'gluBuild2DMipmaps' declared here
+extern GLint gluBuild2DMipmaps (GLenum target, GLint internalFormat, GLs...
+             ^
+
 
 *Localisation improve
 **Translation  of menu and worlds [https://www.transifex.com/projects/p/supertux/]
