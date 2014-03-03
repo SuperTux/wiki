@@ -34,16 +34,7 @@ These Issus Need particular knowledge of coding.
 
 ==Minor Issue==
 *Non-fatal bug to fix:
-gl_texture.cpp 
-src/video/gl/gl_texture.cpp:149:7: warning: 
-      'gluBuild2DMipmaps' is deprecated: first deprecated in OS X 10.9 -
-      "Use glGenerateMipmap" [-Wdeprecated-declarations]
-      gluBuild2DMipmaps(GL_TEXTURE_2D, GL_RGBA, texture_width,
-      ^
-/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:247:14: note: 
-      'gluBuild2DMipmaps' declared here
-extern GLint gluBuild2DMipmaps (GLenum target, GLint internalFormat, GLs...
-             ^
+  None at the moment (compiler warnings)
 
 
 *Localisation improve
