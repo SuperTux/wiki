@@ -145,3 +145,17 @@ This page should give an over view about the currently active members of the dev
 |past=Only recently joined ''SuperTux'' development (January&nbsp;2010)
 |current=Fixed some bugs, improved wiki
 }}
+
+----
+
+{{Developer
+|real=Benjamin Leduc
+|nick=[[User:giby|giby]] 
+|email=<code>&lt;giby(underscore)the(underscore)kid at yahoo dot fr&gt;</code>
+|icq=''I've forgotten''
+|jabber="none"
+|abilities="should I say none?"
+|os=Mageia Linux, Mac OSX 
+|past= Translation maintenance, font design 
+|current= prepare task for Milestone2, SDL2 migration, Wiki cleaning 
+}}
