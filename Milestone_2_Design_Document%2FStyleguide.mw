@@ -3,7 +3,9 @@ These guidelines should be kept for any level that appears in the main SuperTux 
 
 == Setting ==
 
-In [[Milestone 2]], we focus on [[Icy Island]], the island already present in [[Milestone 1]]. It has a snow and ice setting, so please use the appropriate [[tile]]s only. Most of them are in the "Snow" and "Blocks" groups in the level editor. There are numerous other tiles currently available in the editor, but they are either either not finalized (e.g. ice mountain) or not appropriate (e.g. [[Forest]]) for ''Icy Island''. 
+In [[Milestone 2]], will have [[Icy Island]] as game discovering area,  the island already present in [[Milestone 1]]. It has a snow and ice setting, so please use the appropriate [[tile]]s only. Most of them are in the "Snow" and "Blocks" groups in the level editor. There are numerous other tiles currently available in the editor, but they are either either not finalized (e.g. ice mountain) or not appropriate for ''Icy Island''.  In that first world, only basic elements should be found. 
+It will present a revised [[Forest]], where more elaborate elements may be found. The Boss have to be designed. 
+And eventually a third world (proposed to be [[Tropical_Island]]) with the Fun Pif quest. Please Note that Neither art or code is ready yet for this part, then you shall not design any level with their elements already available.
 
 == Difficulty ==
 
