@@ -1,10 +1,17 @@
-{{Notice Milestone 3}}
 [[Image:Worldmap2.png|thumb|right|Concept graphic for the Forest worldmap.]]
-The '''Forest''' is the second world in [[SuperTux]]. It is generally a lively place with many creatures roaming about. Parts of the ''Forest'', however, are spooked. This world was included in the unstable ''SuperTux&nbsp;0.3'' releases but will be ''removed'' before [[Milestone 2]].
+The '''Forest''' is the second world in [[SuperTux]]. It is generally a lively place with many creatures roaming about. Parts of the ''Forest'', however, are spooked. This world was included in the unstable ''SuperTux&nbsp;0.3'' releases but will be ''removed'' before [[MMilestone 1.9]].  It has been project to removed it, so status is uncertain. It will need attention before next release. 
 
 == Badguys ==
 
 Badguys in the ''Forest'' can be found at the [[Badguys]] page.
+
+== New Features == 
+
+*Switch
+*Moving Plateformes
+*Trampolino & Bouncing coils  
+*Transportable Bricks
+*Doors & Teleport  
 
 == Levels ==
 [[Image:SuperTux-0.3.0-4.png|thumb|right|Screenshot of [[Tux]] in the ''Forest''.]]
