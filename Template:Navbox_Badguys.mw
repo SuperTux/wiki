@@ -2,56 +2,58 @@
 {| style="border: 1px solid silver; margin-top: 1ex;"
 ! colspan="2" style="background: #901010;" | [[Badguy|<span style="color: white;">Badguys</span>]]
 |-
-| {{Version to status cell|0.1|Version&nbsp;0.1}}
+| {{Version to status cell|0.1|Icyland}}
 | <!--
 -->   [[Bouncing Snowball]] <!--
---> · [[Flame]] <!--
+-->   [[Captain Snowball]] <!--
+--> · [[Crystallo]] <!--
 --> · [[Fish]] <!--
 --> · [[Flying Snowball]] <!--
 --> · [[Jumpy]] <!--
---> · [[Mr. Bomb]] <!--
+--> · [[Krush and Krosh]] <!--
 --> · [[Mr. IceBlock]] <!--
+--> · [[Mrs._IceBlock]] <!--
+--> · [[Mrs. Snowball]] <!--
+--> · [[Sleeping Spiky]] <!--
+--> · [[Snowshot]] <!--
+--> · [[Snowman]] <!--
 --> · [[Snowball]] <!--
 --> · [[Spiky]] <!--
 --> · [[Stalactite]]
 |-
-| {{Version to status cell|Milestone 2|Milestone&nbsp;2}}
+| {{Version to status cell|Milestone 2|Forest world}}
 | <!--
--->   [[Cannon]] <!--
---> · [[Crystallo]] <!--
---> · [[Haywire]] <!--
---> · [[Krush and Krosh]] <!--
---> · [[Mrs._IceBlock]] <!--
---> · [[Mrs. Snowball]] <!--
+
+--> · [[Igel]] <!--
+--> · [[Ispy]] <!--
+--> · [[Mole]] <!--
 --> · [[Owl]] <!--
---> · [[Short Fuse]] <!--
---> · [[Sleeping Spiky]] <!--
---> · [[Snowman]] <!--
---> · [[Snowshot]] <!--
 --> · [[Spike]] <!--
 --> · [[SkyDive]] <!--
 -->   [[Poison Ivy]] <!--
 --> · [[Snail]] <!--
+--> · [[Walking leaf]] <!--
+--> · [[Walking tree]] <!--
+--> · [[Will-o-wisp]] <!--
+--> · [[Zeekling]] <!--
+
+ -->
+|-
+| {{Version to status cell|Milestone 3|Tropical Island}}
+| <!--
 --> · [[Spider]] <!--
 --> · [[Tikitchokwe]] <!--
---> · [[Walking totem]] <!--
---> · [[Walking tree]] <!--
---> · [[Zeekling]] <!--
--->   [[Captain Snowball]] <!--
---> · [[Igel]] <!--
---> · [[Ispy]] <!--
---> · [[Kugelblitz]] <!--
---> · [[Mole]] <!--
 --> · [[Toad]] <!--
---> · [[Walking leaf]] <!--
---> · [[Will-o-wisp]] 
-
+ -->
 |-
-| {{Version to status cell|Milestone 3|Milestone&nbsp;3}}
-| <!-- -->
-|-
-| style="background-color: #f0f0f0;" | Proposed
-| <!-- -->
+| style="background-color: #f0f0f0;" | Any world
+| <!--
+-->   [[Cannon]] <!--
+--> · [[Flame]] (for castle only) <!--
+--> · [[Haywire]] <!--
+--> · [[Short Fuse]] <!--
+--> · [[Mr. Bomb]] <!--
+ -->
 |}
 [[Category:Badguy]]
 <noinclude>[[Category:Templates]]</noinclude>
