@@ -3,28 +3,7 @@ This is the actual thing to solve before Milestone 2
 ==Major Issue==
 These Issus Need particular knowledge of coding.
 *SDL2 Migration 
-**Rendering
-**Control
-**Files to edit: 
-***joystickkeyboardcontroller.hpp
-***joystickkeyboardcontroller.cpp 
-***gl_renderer.cpp 
-***sdl_renderer.cpp 
-***console.cpp
-***screen_manager.cpp
-***title_screen.cpp 
-***keyboard_menu.hpp
-***addon_menu.cppjoystickkeyboardcontroller.hpp
-***joystickkeyboardcontroller.cppgl_renderer.cpp
-***sdl_renderer.cppfunctions.cpp
-***physfs_sdl.cpp
-***button_group.cpp
-***button.hpp
-***button.cpp
-***firefly.cpp 
-***scr/supertux/main.cpp
-***options_menu.cpp
-**Fix the fullscreen/windows mode management 
+**testing debugging 
 *Fix the editor 
 ** Quartz support
 **adding function/debug 
