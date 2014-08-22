@@ -26,7 +26,6 @@ These Issus Need particular knowledge of coding.
 * animate cave background torch: data/images/tiles/background/backgroundtile3.png
 : Are that tiles really useful? --[[User:Hume|Hume]] 13:14, 31 August 2013 (UTC)
 * do parallax tiles (done, I think) 
-* remove lightmap tiles
 * redraw/replace data/images/tiles/waterfall/
 * draw/redraw/replace for a ghostly word.
 * Frozen enemies
@@ -45,8 +44,6 @@ These Issus Need particular knowledge of coding.
 :crystal cave tiles
 :brown castle tiles
 :some blue castle tiles
-:ice mountain
-:arcticskies background (not tiling, but a line artifact)
 * Fill out some of the new tilesets or remove (e.g. blue mtn.)
 * Separate out some tilesets (ice/forest/castle/etc.)
 * Animate some badguy deaths
