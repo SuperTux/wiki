@@ -83,10 +83,10 @@ From previous TODO list, some point should be rethink, or may have been correcte
 * replace random generator with C++11 stuff
 * md5.hpp and random_generator.hpp could go to external/
 * write/finish scripts to automatically:
- **make all includes relative to top level dir
- **sort includes (.hpp file, then system includes, then other project files)
- **include guards proper and of the form HEADER_SUPERTUX_${PATH_TO_FILE}_HPP
- **remove trailing whitespace
+** make all includes relative to top level dir
+** sort includes (.hpp file, then system includes, then other project files)
+** include guards proper and of the form HEADER_SUPERTUX_${PATH_TO_FILE}_HPP
+** remove trailing whitespace
 
 ===Suggesions===
 
