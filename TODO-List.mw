@@ -227,3 +227,17 @@ Lower res graphics for 0.5x maginification might be provided as well.
 Resolution and magnification can be freely configured by the user within the given limits.
 
 In tiles this means we have 40x25 (=1280x800px) tiles per screen.
+
+== Music Recode ==
+
+Currently the music makes up a large chunk of the total tarball
+size. Compression could fix this:
+
+   ,-- Size of data/music/*.ogg
+   V
+ 40MB - Current quality in SVN
+ 24MB - Default oggenc quality (3)
+ 14MB - oggenc at 0 quality
+ 10MB - oggenc at -1 quality
+
+No audible difference on my sound setup. -- grumbel
