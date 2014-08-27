@@ -211,9 +211,19 @@ drivers = oss
  def calc(parallax, screen, tiles):
     return (1 - parallax) * screen + parallax * tiles * 32
 
-
-
-
 Whats the point in adding new features while the existing features and badguys can't be used due to lack of images or animations?
 
 As long as all these points haven't been fixed, Milestone 2 will not be considered as Stable, so won't be released.
+
+== Supported Resolutions ==
+
+SuperTux shall support resolutions from 640x480 to 1280x800 at a magnification of 1x.
+For resolutions higher, such as 2560x1600, upscaling will be used.
+For resolutions smaller, like 320x240 downscaling will be used.
+
+Higher resolution graphics for 2x maginification might be provided.
+Lower res graphics for 0.5x maginification might be provided as well.
+
+Resolution and magnification can be freely configured by the user within the given limits.
+
+In tiles this means we have 40x25 (=1280x800px) tiles per screen.
