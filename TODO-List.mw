@@ -1,4 +1,12 @@
-This is the actual thing to solve before Milestone 2 
+This is a list of tasks and issues that might be worth to implement or
+fix. This list is however not an authorative list of things that must
+be done, its a collection of random things that pop up during
+development, therefore not everything in here might be well thought
+out or worth to implement. Use your brain before implementing anything
+on this list and always think about how useful a new feature would be
+in the context of the whole game or if a potential performance
+enhanchment, actually enhanchmes anything at all.
+
 [[Category:Development]]
 ==Major Issue==
 These Issus Need particular knowledge of coding.
