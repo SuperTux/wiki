@@ -208,7 +208,7 @@ drivers = oss
 
   image_size = (1 - parallax_speed) * screen_size + level_size * parallax_speed
 
-def calc(parallax, screen, tiles):
+ def calc(parallax, screen, tiles):
     return (1 - parallax) * screen + parallax * tiles * 32
 
 
