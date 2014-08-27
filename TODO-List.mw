@@ -166,41 +166,41 @@ drivers = oss
 
 * random idea to restructure engine stuff (might lead to nicer code and easier scriptability (and a need to rewrite lots of stuff...):
 
-class SomeBadGuy : public PhysicsCallbackListener // or use boost::function
-{
-private:
-      PhysicsPtr box;
-      SpritePtr sprite;
-        
-public:
-      SomeBadGuy(Engine& engine)  
-      {
-         box    = engine.physics().create_box(Rectf(0,0,32,32));
-         box->register_listener(this);
-         sprite = engine.graphics().create_and_add_sprite("Foobar");
-      }
-
-      void update(float delta)
-      {
-         // not much to do, as most stuff is done internally in the engine
-         if (dead)
-         {
-                  sprite->replace_with("Foobar_dead");
-         }
-         else
-         {
-                sprite->hide();
-                sprite->set_pos(box->get_pos());
-        }
-      }
-
-      // no more draw(), done by the scene graph
-
-      void on_collision(CollisionData data)
-      {
-        // respond
-      }
-};
+    class SomeBadGuy : public PhysicsCallbackListener // or use boost::function
+    {
+    private:
+          PhysicsPtr box;
+          SpritePtr sprite;
+            
+    public:
+          SomeBadGuy(Engine& engine)  
+          {
+             box    = engine.physics().create_box(Rectf(0,0,32,32));
+             box->register_listener(this);
+             sprite = engine.graphics().create_and_add_sprite("Foobar");
+          }
+    
+          void update(float delta)
+          {
+             // not much to do, as most stuff is done internally in the engine
+             if (dead)
+             {
+                      sprite->replace_with("Foobar_dead");
+             }
+             else
+             {
+                    sprite->hide();
+                    sprite->set_pos(box->get_pos());
+            }
+          }
+    
+          // no more draw(), done by the scene graph
+    
+          void on_collision(CollisionData data)
+          {
+            // respond
+          }
+    };
 
 ==Random Notes==
 
