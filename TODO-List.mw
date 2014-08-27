@@ -90,6 +90,24 @@ From previous TODO list, some point should be rethink, or may have been correcte
 
 ===Suggesions===
 
+* more moving directories around?
+**addon/
+**audio/	
+**control/
+**gui/	
+**lisp/	
+**math/
+**physfs/	
+**sprite/	
+**util/
+**video/
+**squirrel/ - for generic squirrel code
+**supertux/
+***worldmap/
+***trigger/
+***scripting/ - for scripting wrapper code
+***badguy/
+***object/
 * implement a system that allows to attach comments to specific regions in a level
 * implement a tool to "screenshot" a complete level
 * GameObject::RemoveListenerListEntry: Ughs, somebody trying to implement a list class within in the GameObject?!
