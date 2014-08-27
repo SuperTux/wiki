@@ -73,21 +73,6 @@ From previous TODO list, some point should be rethink, or may have been correcte
 
 ===Coding Standard Stuff===
 
-
-* make code clean: "-O2", "-g3",
-**"-ansi",
-** "-pedantic",
-** "-Wall",
-**"-Wextra",
-** "-Wnon-virtual-dtor",
-**"-Weffc++",
-**"-Wconversion",
-**"-Werror",
-**"-Wshadow",
-**"-Wcast-qual",
-**"-Winit-self", # only works with >= -O1
-**"-Wno-unused-parameter",
-
 * remove overuse of multi-inheritance 
 * remove overuse of friend'ship
 * maybe mark interfaces as interfaces (ISerializable or SerializableInterface)
@@ -95,12 +80,13 @@ From previous TODO list, some point should be rethink, or may have been correcte
 * Decide what to do with magic constants of objects (static vs anonymous namespace vs lisp property)
 * check the code with Valgrind and profilers
 * use Vector in Physics for 'a' and 'v'
-* replace random generator with mersenne twister and/or move to external/ (maybe use boost's random stuff)
+* replace random generator with C++11 stuff
 * md5.hpp and random_generator.hpp could go to external/
 * write/finish scripts to automatically:
  **make all includes relative to top level dir
  **sort includes (.hpp file, then system includes, then other project files)
  **include guards proper and of the form HEADER_SUPERTUX_${PATH_TO_FILE}_HPP
+ **remove trailing whitespace
 
 ===Suggesions===
 
