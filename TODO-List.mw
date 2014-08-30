@@ -59,8 +59,7 @@ enhanchment, actually enhanchmes anything at all.
 
 ===To reimplant after SDL2 migration===
 Some good effects had to be removed because of some bug of SDL… 
-*Smoke effect of bombs 
-*Frame in main menu
+*Smoke effect of bombs
 *Splash effect when falling in water
 
 ==Misc.==
