@@ -12,9 +12,8 @@ enhanchment, actually enhanchmes anything at all.
 *Fix the editor 
 ** Quartz support
 **adding function/debug 
-**Re-writte/Translate code in C/C++
-** See if anything is usefull in [[Editor_Ideas]] 
-:Why? If you want a C++ editor use flexlay.
+**Re-writte/Translate code in C/C++ -> Not needed, [https://github.com/Grumbel/flexlay Flexlay] is based on Python/Qt4 now, not quite done yet, but can load SuperTux V2 levels
+** See if anything is usefull in [[Editor_Ideas]]
 
 ==Minor Issue==
 *Localisation improve
