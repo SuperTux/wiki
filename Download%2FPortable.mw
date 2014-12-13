@@ -10,6 +10,7 @@ An iPhone port of the development version was being developed by a third party g
 
 === Android === 
 
+* Port by pelya:  [https://play.google.com/store/apps/details?id=org.lethargik.supertux2 Google Play] [http://libsdl-android.sourceforge.net/ Web site] [https://github.com/pelya/commandergenius/tree/sdl_android/project/jni/application/supertux GitHub]<br />As of December 2014, this one uses a recent development snapshot (contrary to the Google Play screenshots) and receives updates from its developer.  It is mostly playable, but with pitifully low framerates on some levels on a Nexus 5 and a 2013 LTE Nexus 7 both running the Carbon ROM.
 * [http://forum.xda-developers.com/showthread.php?t=753526 A functional, but outdated, port]
 
 === Symbian ===
