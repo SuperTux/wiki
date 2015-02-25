@@ -18,7 +18,6 @@ enhanchment, actually enhanchmes anything at all.
 ==Minor Issue==
 *Localisation improve
 **Translation  of menu and worlds [https://www.transifex.com/projects/p/supertux/]
-**Font design for non latin alphabet (traditional Chinese,  Nepali, Arabic)
 **Support of add-ons translation
 
 ===Graphic Tasks===
@@ -58,7 +57,6 @@ enhanchment, actually enhanchmes anything at all.
 
 ===To reimplant after SDL2 migration===
 Some good effects had to be removed because of some bug of SDL… 
-*Smoke effect of bombs
 *Splash effect when falling in water
 
 ==Misc.==
