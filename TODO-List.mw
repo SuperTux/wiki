@@ -7,6 +7,21 @@ on this list and always think about how useful a new feature would be
 in the context of the whole game or if a potential performance
 enhanchment, actually enhanchmes anything at all.
 
+==TODO List as of March of 2015==
+
+===Translation Related Stuff===
+
+
+===Graphic Related Stuff===
+*make "downer" lava tiles for the newer lava graphics. WIP by Sydney.
+
+
+
+
+
+
+
+==OLD TODO LIST==
 [[Category:Development]]
 ==Major Issue==
 * Memory leaks : Assigned to Tobbi, fixed soon 
