@@ -19,7 +19,7 @@ Note that after any subsequent update from the Git repository you will likely ne
 == SuperTux Level Editor ==
 Data for the SuperTux level editor is also available through the Git repository.  Accessing the code in Google Code is done by changing the repository from ''default'' to ''editor''.  To obtain a local clone of the editor code use the command:
 
- <nowiki>git clone https://code.google.com/p/supertux.editor/</nowiki>
+ <nowiki>git clone https://github.com/SuperTuxTeam/supertux-editor.git</nowiki>
 
 You will need to follow the installation instructions provided with the repository data.
 
