@@ -4,4 +4,4 @@ The improvements in Milestone 1 are in huge part the result of the work done sur
 
 Milestone 2 is currently work in progress. It features a complete make-over from M1, including all new graphics, SDL2 graphics rendering, built in addons and a ton more features. 
 
-If you have paid for SuperTux, you have been ripped off. SuperTux is open source (if you haven't figured that out already) and completely free. You can download it on our [Downloads section](https://github.com/SuperTuxTeam/supertux/wiki/Downloads).
+If you have paid for SuperTux, you have been ripped off. SuperTux is open source (if you haven't figured that out already) and completely free. You can download pre-built binaries [here](https://github.com/SuperTuxTeam/supertux/wiki/Downloads), the source code is hosted in our [Git repository](https://github.com/SuperTuxTeam/supertux).
