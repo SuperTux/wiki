@@ -1,7 +1,7 @@
 == Repository ==
 SuperTux development is coordinated with the help of the Git version control system. In a nutshell, it's a file-storing facility that can be used by multiple users simultaneously, keeping track of changes and archiving old versions of files. You can find out more about Git in general on their [http://git-scm.com/ homepage].
 
-The SuperTux Git repository is accessible through Github, available [https://github.com/SuperTuxTeam/ here].
+The SuperTux Git repository is accessible through GitHub, available [https://github.com/SuperTuxTeam/ here].
 
 == Getting the data (anonymous read-only access) ==
 Anonymous read access to the repository is granted to everybody. You will first need to install Git; downloads, tutorials for setting up, and information about using Git are available on the [http://git-scm.com/ Git website]. Once you have installed Git, all you have to do to get your hands on the data is to use the following command in your terminal:
