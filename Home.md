@@ -1,12 +1,12 @@
 ![](https://github.com/SuperTuxTeam/supertux/blob/master/data/images/engine/menu/logo.png?raw=true)
-##Welcome to the Supertux Wiki!!##
+## Welcome to the SuperTux Wiki
 
-We hope you have a great time here. If you would like to help improve this wiki, or see errors, please feel free to let us know. 
-We can always use new or experienced developers for graphics, music, coding and game testing. . If you would like to help please see the 'Contributing' section under 'Supertux Developer Links".
+Welcome to the SuperTux wiki. If you would like to improve this wiki or correct mistakes, please use the GitHub interface to do so. We are always interested in new or experienced developers, artists and testers. If you would like to help, please see the _Contributing_ section in the links below.
 
-### The current version of Supertux is 3.4. ###
-We are hoping to release 3.5 soon. 
+The current release of SuperTux is 0.3.4. We are hoping to release version 0.3.5 soon.
 
-###Supertux Players Links:###
+### Links
 
-###Supertux Developer Links:###
+#### For players
+
+#### For developers
