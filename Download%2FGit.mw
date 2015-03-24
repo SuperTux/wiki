@@ -6,7 +6,7 @@ The SuperTux Git repository is accessible through GitHub, available [https://git
 == Getting the data (anonymous read-only access) ==
 Anonymous read access to the repository is granted to everybody. You will first need to install Git; downloads, tutorials for setting up, and information about using Git are available on the [http://git-scm.com/ Git website]. Once you have installed Git, all you have to do to get your hands on the data is to use the following command in your terminal:
 
- <nowiki>git clone https://github.com/SuperTuxTeam/supertux.git</nowiki>
+ <nowiki>git clone https://github.com/SuperTux/supertux.git</nowiki>
 
 This will create a new directory named ''supertux'' which contains the latest versions of the SuperTux source code and data. 
 inside the ''supertux'' directory to update to the latest version in the repository. This will only download changed files to save bandwidth.
