@@ -1,0 +1,30 @@
+This is a list of tasks and issues that might be worth to implement or fix. This list is however not an authorative list of things that must be done, its a collection of random things that pop up during development, therefore not everything in here might be well thought out or worth to implement. Use your brain before implementing anything on this list and always think about how useful a new feature would be in the context of the whole game or if a potential performance enhancement, actually enhancements anything at all. 
+
+The list is Incomplete, and is just a rough outline, but it does faeature some of our bigger issues.
+
+===Translation Related Stuff===
+*http://supertux.lethargik.org/bugs/view.php?id=106
+
+===Graphic Related Stuff===
+*make "downer" lava tiles for the newer lava graphics. WIP by Sydney.
+*Iced Cherry bomb graphics are ugly. http://supertux.lethargik.org/bugs/view.php?id=1036
+* Stone Tux graphics would be nice. Tobbi and Sydney tried but didn't get far. contact them if you want to see what they have so far. http://supertux.lethargik.org/bugs/view.php?id=1072
+* Tree Boss need Graphics improvement.
+
+===Code Related Stuff===
+*https://github.com/SuperTuxTeam/supertux/issues/14
+*http://supertux.lethargik.org/bugs/view.php?id=1052
+*https://github.com/SuperTuxTeam/supertux/issues/24
+
+===Level Related Stuff===
+*On going task, always WIP it seems. Mostly fixed though. http://supertux.lethargik.org/bugs/view.php?id=1016
+*Add ghost tree level: http://supertux.lethargik.org/bugs/view.php?id=1037
+
+
+===Editor related Stuff===
+*http://supertux.lethargik.org/bugs/view.php?id=1066
+*http://supertux.lethargik.org/bugs/view.php?id=1056
+*http://supertux.lethargik.org/bugs/view.php?id=1055
+
+===Mailing List stuff===
+*http://supertux.lethargik.org/bugs/view.php?id=1073
