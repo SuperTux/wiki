@@ -10,8 +10,6 @@ The list is incomplete and is just a rough outline, but it does feature some of 
 
 ### Graphics
 * make "downer" lava tiles for the newer lava graphics. WIP by Sydney.
-* Improve graphics for iced cherry bomb:
-  - [Mantis 1036](http://supertux.lethargik.org/bugs/view.php?id=1036)
 * Create stone graphics of Tux: 
   - Tobbi and Sydney tried but didn't get far. Contact them if you want to see what they have so far.
   - [Mantis 1072](http://supertux.lethargik.org/bugs/view.php?id=1072)
@@ -20,8 +18,6 @@ The list is incomplete and is just a rough outline, but it does feature some of 
 ### Code
 * Having slopes that end in a wall produces Tux to jitter:
   - [SuperTux/supertux#14](https://github.com/SuperTux/supertux/issues/14)
-* Fix keyboard remapping in menu/world views:
-  - [Mantis 1052](http://supertux.lethargik.org/bugs/view.php?id=1052)
 * Tux's feet can be seen under the igloo at the end of a level:
   - [SuperTux/supertux#24](https://github.com/SuperTux/supertux/issues/24)
 
