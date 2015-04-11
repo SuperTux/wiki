@@ -1079,4 +1079,5 @@
 *[http://github.com/supertux/supertux/commit/b6483f1667379a7ef93b42561390f7ce6cf54b67 view commit] &bull; Add stone tux image and make it work in game 
 *[http://github.com/supertux/supertux/commit/d5c854d536ae8dbe7d422016631cb7f55dcd8301 view commit] &bull; Merge pull request #59 from sydneyjd/tuxstatue 
 *[http://github.com/supertux/supertux/commit/8b167fa31821ab578a96b99368b85da35f25ccd4 view commit] &bull; Fix compiler warning in player.cpp 
-*[http://github.com/supertux/supertux/commit/f3dc3d66872c7c1e113edb3dc8d6f04c69cee34f view commit] &bull; Release SuperTux 0.3.5
+*[http://github.com/supertux/supertux/commit/f3dc3d66872c7c1e113edb3dc8d6f04c69cee34f view commit] &bull; Release SuperTux 0.3.5 
+*[http://github.com/supertux/supertux/commit/17e036806328f453b7d166b4859cff085bb88e19 view commit] &bull; Revert "Fix compiler warning in player.cpp"
