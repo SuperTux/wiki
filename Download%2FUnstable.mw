@@ -8,6 +8,26 @@ These versions are unstable development binaries of SuperTux containing features
 Builds of for both SuperTux and editor are available for Ubuntu.  They are updated daily to contain the most recent developments and are accessible here:
 * https://code.launchpad.net/~landronimirc/+recipe/supertux-git-daily
 
+== Release 0.3.5 ==
+This is an unstable development snapshot of SuperTux released on April 11, 2015.
+{| border="1" cellpadding="5" cellspacing="0" style="margin-top:2em;margin-bottom:2em;"
+|-----
+|
+<div class="downloadtitle">Windows Installer:</div>
+|
+<div class="downloadlink">[https://github.com/SuperTux/supertux/releases/download/v0.3.5/supertux-0.3.5-win32-setup.exe Game]</div>
+|-----
+|
+<div class="downloadtitle">Mac OS X (Intel only):</div>
+|
+<div class="downloadlink">[https://github.com/SuperTux/supertux/releases/download/v0.3.5/SuperTux-0.3.5-osx-intel.dmg Game]</div>
+|-----
+|
+<div class="downloadtitle">Source:</div>
+|
+<div class="downloadlink">[https://github.com/SuperTux/supertux/releases/download/v0.3.5/supertux-0.3.5.tar.bz2 Game]</div>
+|}
+
 == Release 0.3.4 ==
 This is an unstable development snapshot of SuperTux released in July of 2013.
 {| border="1" cellpadding="5" cellspacing="0" style="margin-top:2em;margin-bottom:2em;"
