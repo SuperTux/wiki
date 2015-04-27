@@ -47,8 +47,44 @@ and (if you want the Add-on Manager)
 to install them.
 
 == Ubuntu ==
-If you use Ubuntu 10.04 or newer, you can install the libraries very simply:
- apt-get build-dep supertux
+  Tested on Ubuntu 14.04 (Trusty Tahr), but probably the process works in other versions of system.
+  The way is very simple, but I have detailed here to facilitate the process. 
+  Follow the steps below:
+
+First of all, set the "sources" of Ubuntu:
+
+Open the [[Software and Updates]] and [[Ubuntu Software]] tab select [[Main Server]] in the [[Download from]]; in the [[Other Software]] tab check the two [[Independent]] boxes. Click [[Close]] and then [[Reload]]. Wait for the update process to finish. 
+----
+
+
+1. Open the Terminal and use the "[[sudo apt-get build-dep supertux]]" command and after use "[[s]]" to confirm;
+
+2. Use the following commands, one after the other, and wait to download them:
+   sudo apt-get install libsdl2-2.0-0
+   sudo apt-get install libsdl2-dev
+   sudo apt-get install libsdl2-image-2.0-0
+   sudo apt-get install libsdl2-image-dev
+
+3. Using Mozilla Firefox or the browser you prefer, download this file:
+   [http://ftp.gnu.org/gnu/libiconv/libiconv-1.12.tar.gz libiconv 1.12]
+...and unzip it in the ''Home'' folder. In Terminal, use the following commands:
+   cd /home/user/libiconv-1.12 (replace the [[user]] name of your account user)
+   ./configure --prefix=/usr
+   sudo make
+   sudo make install
+
+4. [https://code.google.com/p/supertux/source/browse/ Open this link and click on "Download .zip"]
+After downloading, unzip the downloaded file to the [[Home]] folder and rename it to ''"supertux"'' (without quotes).
+
+5. In Terminal, use these commands:
+   cd/home/user/supertux (replace the [[user]] name of your account User)
+   mkdir build
+   cd build
+   cmake -DDEBUG=ON ..
+   sudo make (this is a long process)
+   sudo make install
+
+Just go in ''supertux'' folder you will find the game compiled and ready to run.
 
 == Gentoo ==
 Gentoo users should run
