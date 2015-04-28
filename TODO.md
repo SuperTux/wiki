@@ -11,7 +11,7 @@ The list is incomplete and is just a rough outline, but it does feature some of 
 ### Graphics
 * make "downer" lava tiles for the newer lava graphics. WIP by Sydney.
 * Create stone graphics of Tux: 
-  - Tobbi and Sydney tried but didn't get far. Contact them if you want to see what they have so far.
+  - Done but could use improvements.
   - [Mantis 1072](http://supertux.lethargik.org/bugs/view.php?id=1072)
 * Graphics improvements for Tree Boss
 
