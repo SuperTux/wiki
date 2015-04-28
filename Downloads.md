@@ -12,6 +12,6 @@ Milestone 2 (0.3.x series) is currently in development. The most recent snapshot
 
 * OS X: [0.3.5 Intel](https://github.com/SuperTux/downloads/blob/master/SuperTux-0.3.5-osx-intel.dmg?raw=true)
 * Source: [0.3.5 source](https://github.com/SuperTux/downloads/blob/master/supertux-0.3.5.tar.bz2?raw=true)
-* Windows: [0.3.4 32-bit](https://github.com/SuperTux/downloads/blob/master/supertux-0.3.4-win32.exe?raw=true)
+* Windows: [0.3.5 32-bit](https://github.com/SuperTux/downloads/blob/master/supertux-0.3.5-win32-setup.exe?raw=true)
 
 If you paid for SuperTux you have been ripped off! The project is covered by the [GNU GPLv3](https://www.gnu.org/licenses/gpl.html) and completely free.
