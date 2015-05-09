@@ -8,10 +8,10 @@ You can download SuperTux here. The versions currently available are Milestone 1
 
 ### Milestone 2 (0.3.x series)
 
-Milestone 2 (0.3.x series) is currently in development. The most recent snapshot, 0.3.5, was released on April 11, 2015 (15 years after the initial release of SuperTux). For more recent development versions, please use our Git repository.
+Milestone 2 (0.3.x series) is currently in development. The most recent snapshot, 0.3.5a, was released on May 8, 2015 (2015-05-08). For more recent development versions, please use our Git repository.
 
-* OS X: [0.3.5 Intel](https://github.com/SuperTux/downloads/blob/master/SuperTux-0.3.5-osx-intel.dmg?raw=true)
-* Source: [0.3.5 source](https://github.com/SuperTux/downloads/blob/master/supertux-0.3.5.tar.bz2?raw=true)
-* Windows: [0.3.5 32-bit](https://github.com/SuperTux/downloads/blob/master/supertux-0.3.5-win32-setup.exe?raw=true)
+* OS X: [0.3.5a Intel](https://github.com/SuperTux/supertux/releases/download/v0.3.5a/SuperTux-0.3.5a-osx-intel.dmg)
+* Source: [0.3.5a source](https://github.com/SuperTux/supertux/releases/download/v0.3.5a/supertux-0.3.5a.tar.bz2)
+* Windows: [0.3.5a 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.3.5a/supertux-0.3.5a-win32-setup.exe), [0.3.5a 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.3.5a/supertux-0.3.5a-win64-setup.exe)
 
 If you paid for SuperTux you have been ripped off! The project is covered by the [GNU GPLv3](https://www.gnu.org/licenses/gpl.html) and completely free.
