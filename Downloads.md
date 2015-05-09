@@ -1,4 +1,4 @@
-You can download SuperTux here. The versions currently available are Milestone 1 (stable, 0.1.3) and Milestone 2 (unstable, 0.3.4). If you need older versions, please have a look at our [download archives](https://github.com/SuperTux/downloads).
+You can download SuperTux here. The versions currently available are Milestone 1 (stable, 0.1.3) and Milestone 2 (unstable, 0.3.5a). If you need older versions, please have a look at our [download archives](https://github.com/SuperTux/downloads).
 
 ### Milestone 1 (0.1.x series)
 
