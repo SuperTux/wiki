@@ -1,8 +1,8 @@
 * navigation
 ** mainpage|mainpage
 ** homepage-url|homepage
-** https://code.google.com/p/supertux/|projectpage
-** bugtracker-url|bugtracker
+** https://github.com/SuperTux/|projectpage
+** https://github.com/SuperTux/supertux/issues|bugtracker
 ** recentchanges-url|recentchanges
 ** https://www.transifex.com/projects/p/supertux/|Translations
 ** http://forum.freegamedev.net/viewforum.php?f=66|Forum
