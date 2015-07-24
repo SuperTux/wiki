@@ -13,12 +13,12 @@ unrelated to Linux. Over the course of the game, Tux will have to make
 his way through many different levels, in order to reach and rescue Penny, who was captured by evil
 Nolok.
 
-
+![](http://supertux.lethargik.org/wiki/images/6/6e/Littletrees.png "Littletrees.png")
 
 Controls
 --------
 
-![](http://supertux.lethargik.org/wiki/images/6/6e/Littletrees.png "Littletrees.png")
+
 
 SuperTux is played with either the keyboard or any game controller
 recognized by the operating system. The following list shows all
