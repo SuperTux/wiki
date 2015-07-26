@@ -6,7 +6,7 @@ __TOC__
 == Generic ==
 ===How do i find out if my level is good or not?===
 Ask somebody! There is an internet chat (we use [[IRC]]) that you can get on, 
-show your level, and if you stick around for a few minutes (it takes a little while to get noticed), 
+show your level, and if you stic@k around for a few minutes (it takes a little while to get noticed), 
 they'll probably love to tell you how good it is or isn't and what's right or wrong about it. Now isn't that exciting?
 
 Keep in mind that many people on <code>#supertux</code> have spent many hours playing ''SuperTux''. Therefore it is often hard for them to judge difficulty of a level. If you have a sister, young cousin or son, they may be a better judge with regard to difficulty.
@@ -19,7 +19,7 @@ Oh, and if your level is good enough, the third party fansite would ask you if t
 
 ===How do I install the new supertux-editor?===
 You have two options:
-# From source through [[Download/Subversion|Subversion]].
+# From source through [[ http://supertux.lethargik.org/wiki/Download/Subversion |Subversion]].
 ## Choose the supertux-editor URL from the [[Download/Subversion#Locations inside the Subversion repository|listing]] and checkout the repository:<br>'''<nowiki>svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux-editor</nowiki>'''
 ## Install the development versions of the [[#What do I need to compile supertux-editor SVN edition.3F|necessary dependencies]]. This requires you to know methods appropriate to your distribution or operating system.
 ## Compile:<br>'''cd supertux-editor'''<br> '''make'''
