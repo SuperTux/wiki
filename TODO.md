@@ -9,7 +9,7 @@ The list is incomplete and is just a rough outline, but it does feature some of 
   - [Mantis 106](http://supertux.lethargik.org/bugs/view.php?id=106)
 
 ### Graphics
-* make "downer" lava tiles for the newer lava graphics. WIP by Sydney.
+* make "downer" lava tiles for the newer lava graphics. 
 * Create stone graphics of Tux: 
   - Done but could use improvements.
   - [Mantis 1072](http://supertux.lethargik.org/bugs/view.php?id=1072)
