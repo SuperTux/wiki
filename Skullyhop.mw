@@ -7,7 +7,7 @@
 | Squish=yes
 | Buttjump=yes
 | Burnable=yes
-| Freeze=unknown
+| Freeze=yes
 }}
 '''Skullyhops''' jump around and chase Tux.
 
