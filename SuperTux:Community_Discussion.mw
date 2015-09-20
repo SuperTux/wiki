@@ -177,7 +177,7 @@ Isn't it time to create a new snapshot of supertux (game and editor). For most i
 ::::::::I created a new repository and then a new folder. But I can't find "Check Out here" or something like that. There are the following options: Copy URL to Clipboard, Browse, Properties, New/Folder, New/Project Structure,...
 :::::::::You actually don't want to be using VisualSVN (I don't think.) Try [http://tortoisesvn.net/ TortiseSVN] which is what I remember using. -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 16:30, 7 July 2011 (UTC)
 :::::::::I must say, compiling software is a heck of a lot simpler on Linux. "tar, cd, make" -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 16:34, 7 July 2011 (UTC)
-
+:::::::::I use ppa:supertux-dev/daily. It isn't daily, but every 3 months or so.
 
 = Forum =
 
