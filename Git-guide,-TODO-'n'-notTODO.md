@@ -29,7 +29,7 @@ Type `git rebase -i HEAD~<number of commits>` and it opens you a kind of gui wit
 
 ## Other things you should respect
 * Do never force-push to a shared branch.
-* Don't force/ask/beg other people to update their content.
+* Don't constantly ask other people to update their content.
 * Use only constructive criticism.
 * Don't beg anyone to learn a new ability.
 * Don't revert other people's work unless you're told to do so.
