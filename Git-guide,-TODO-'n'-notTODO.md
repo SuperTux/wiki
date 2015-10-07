@@ -1,14 +1,14 @@
 Before you start pushing your changes to SuperTux, you should read this. We can't force you to read it, but if you are at all new to git then you will almost certainly mess up at some point. This should help to avoid some mistakes that may be specific to Supertux.
 
-## Do not use your master branch.
-This will disable your master branch, so the branch master will be the SuperTux master. Note that you need a permission to access the master branch, so you have to create your own branch after that.
+## Do not use your master branch to make a pull request.
+This will tie your master branch to the pull request. Note that you need a permission to access the Supertux master branch, so you have to create your own branch after that.
 
 1. Make sure that the remote origin is really the original SuperTux remote.
  * Use `git remote -vv` to show your remotes. `git remote rename <old name> <new name>` to rename a remote.
 2. `git branch master --set-upstream-to origin/master` or `git branch master -u origin/master`
 3. `git pull`
 
-When you want to change something, create a branch first.
+__When you want to change something, create a branch first__.
 
 1. Make sure that you are on the master branch by `git branch -vv`.
 2. Create a branch by `git branch <branch name>`.
@@ -17,7 +17,7 @@ When you want to change something, create a branch first.
 5. Push it to your fork by `git push --set-upstream <remote>/<branch>` the first time you do this. After that push only by `git push`. The `<remote>` should be the name of your fork, usually your nickname. Use `git remote -vv` to get the names of all your remotes.
 6. Make a pull request.
 
-## Do merge branches, or pull without --rebase.
+## Don't merge branches, or pull without --rebase.
 Merges create extra merge commits we don't need; rebase your changes instead. So when you want to make your pull request up-to-date with master, then don't use `git pull origin master`, but `git pull --rebase origin master` instead. After that use `git push -f` to push your changes to upstream.
 
 When you want to test someone's changes, then `git branch <branch name>` and `git branch <branch name> -u <remote>/<branch name>`. Make sure that you are on the root of that branch. Otherwise DO NOT push your merge commit!
