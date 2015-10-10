@@ -17,8 +17,13 @@ This wiki is currently missing some stuff ( more than some ;)), but our [Old Wik
 See our issue page to find ways to help out:
 * [Graphic or Sounds](https://github.com/SuperTux/supertux/labels/category%3ADesign)
 * [Coders](https://github.com/SuperTux/supertux/labels/category%3ACode)
+
 or-
+
 Discuss Changes with us:
+
 * [Needs Discussion](https://github.com/SuperTux/supertux/labels/status%3Aneeds-discussion)
+
 Helping to identify and give information about bugs is helpful:
+
 * [Bugs](https://github.com/SuperTux/supertux/labels/type%3Abug)
