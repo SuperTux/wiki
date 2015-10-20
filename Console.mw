@@ -44,7 +44,7 @@ Following is a list of predefined scripts to run in the console:
 |-
 |'''grow()'''||Grows Tux into big Tux
 |-
-|'''shrink()'''||Shrinks Tux into little Tux (currently broken)
+|'''shrink()'''||Shrinks Tux into little Tux
 |-
 |'''fire()'''||Gives Tux the fire powerup
 |-
