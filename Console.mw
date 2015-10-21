@@ -49,6 +49,9 @@ Following is a list of predefined scripts to run in the console:
 |'''fire()'''||Gives Tux the fire powerup
 |-
 |'''ice()'''||Gives Tux the ice powerup
+|'''air()'''||Gives Tux the air powerup
+|-
+|'''earth()'''||Gives Tux the earth powerup
 |-
 |'''lifeup()'''||Gives Tux 100 more coins
 |-
