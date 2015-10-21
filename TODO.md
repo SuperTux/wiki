@@ -25,9 +25,6 @@ The list is incomplete and is just a rough outline, but it does feature some of 
 * Remove unreachable badguys in worlds:
   - Ongoing task, always WIP it seems. Mostly fixed though.
   - [Mantis 1016](http://supertux.lethargik.org/bugs/view.php?id=1016)
-* Add ghost tree boss to forest world:
-  - [Mantis 1037](http://supertux.lethargik.org/bugs/view.php?id=1037)
-
 
 ## Editor
 * Switching layers while Brush Tool is active causes fatal exceptions:
