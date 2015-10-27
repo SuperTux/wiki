@@ -5,11 +5,11 @@ Welcome to the SuperTux wiki. If you would like to improve this wiki or correct 
 
 The current release of SuperTux is 0.3.5a.
 
-This wiki is currently missing some stuff ( more than some ;)), but our [Old Wiki](http://supertux.lethargik.org/wiki/Main_Page) has alot more information.
+This wiki is currently missing some stuff ( more than some ;)), but our [Old Wiki](http://supertux.lethargik.org/wiki/Main_Page) has a lot more information.
  Beware though that information on our old wiki may be out of date and confusing.
 
 ### Links
-
+[Contact Us](https://github.com/SuperTux/supertux/wiki/Contact/)
 #### For players
 
 #### For developers
