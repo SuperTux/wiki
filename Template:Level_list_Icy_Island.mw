@@ -78,7 +78,7 @@
 {{Level list entry
 | Name        = 23rd Airborne
 | Description = overground, some air
-| Difficulty  = hard
+| Difficulty  = easy
 | Length      = 515
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
 | Display     = {{{Display}}}
@@ -166,7 +166,7 @@
 {{Level list entry
 | Name        = A Path in the Clouds
 | Description = Overground, but with lots of air. Lots of tile-abuse, needs a special tileset. Also, the first half is easy while the tunnel requires some jumps that are hard to do with Bigtux.
-| Difficulty  = medium
+| Difficulty  = hard
 | Length      = 525
 | Contributor = [[User:Wansti|Marek Moeckel]]
 | Display     = {{{Display}}}
@@ -206,7 +206,7 @@
 {{Level list entry
 | Name        = The Castle of Nolok
 | Description = castle theme
-| Difficulty  = hard
+| Difficulty  = medium
 | Length      = 525
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
 | Display     = {{{Display}}}
@@ -214,7 +214,7 @@
 {{Level list entry
 | Name        = No More Mr. Ice Guy
 | Description = overworld, boss level
-| Difficulty  = hard
+| Difficulty  = medium
 | Length      = 40
 | Contributor = [[User:MatzeB|Matze Braun]]
 | Display     = {{{Display}}}
