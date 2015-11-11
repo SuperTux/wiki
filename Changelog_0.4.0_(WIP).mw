@@ -209,7 +209,7 @@ Savsish (44):
       Update zh_CN.po
       Update zh_TW.po
 
-Stekar (3):
+Karkus (3):
       Changes to Level Introduction screen.     The correct tux animation is now shown on the level introduction screen.     See: SuperTux/supertux#127     Fixes #127, Closes #131
       LevelIntro jumping shows correct animation
       Bombs can now be thrown; copied the goldbomb throw code to the bomb code.
