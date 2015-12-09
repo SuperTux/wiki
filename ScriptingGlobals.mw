@@ -95,6 +95,12 @@ This module contains global constants and methods.
 |-
 ! class="method"| int rand()
 | Returns a random evenly-distributed integer between 0 and 2147483647, inclusive.
+|-
+! class="method"| record_demo(string filename)
+| Record a demo to the given file.
+|-
+! class="method"| play_demo(string filename)
+| Play back a demo from the given file.
 |}
 
 = Constants =
