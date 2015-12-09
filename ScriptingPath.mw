@@ -27,6 +27,7 @@ The ''mode'' specifies the behavior at the end of the path when automatic moveme
 * '''circular'''<br />After reaching the last node go directly back to the first node, forming a circle.
 * '''pingpong'''<br />After reaching the last node go back the path, visiting all nodes in reverse order. This is especially useful for moving platforms that go back and forth a specific path.
 * '''oneshot'''<br />When reaching the last node, stay there.<br />''(FIXME: I have no idea if this is correct)''
+* '''unordered'''<br />Travels to a random node and never stops. Goes directly to given node when not running.
 
 '''Example:'''
  (mode "circular")
