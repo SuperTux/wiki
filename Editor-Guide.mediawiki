@@ -1,3 +1,8 @@
+<hr/>
+A great guide for the editor, created by Devyn Collier Johnson, can be found here:
+<a href="http://dcjtech.info/topic/gaming/#supertux">DCJTech Gaming</a>
+<hr />
+
 == Intro ==
 <font size=6>Let's face it:</font> Nobody ever gave you a clear explanation on how to make a SuperTux level.
 
