@@ -70,6 +70,12 @@ The object can be accessed from the console <tt>sector.SUPERTUX</tt>.
 ! class="method"| get_velocity_y()
 | Returns the Y coordinate of the object's velocity.
 |-
+! class="method"| enable_gravity(bool gravity_enabled)
+| Shows or hides the object according to the value of <tt>gravity_enabled</tt>.
+|-
+! class="method"| gravity_enabled()
+| Returns true if the object's gravity is enabled, false otherwise.
+|-
 ! class="method"| set_visible(bool visible)
 | Shows or hides the object according to the value of <tt>visible</tt>.
 |-
