@@ -6,7 +6,7 @@ Milestone 2 is our latest stable. Enjoy!
 
 * OS X: [0.4.0 Intel](https://github.com/SuperTux/supertux/releases/download/v0.4.0/SuperTux-0.4.0-osx-intel.dmg)
 * Source: [0.4.0 source](https://github.com/SuperTux/supertux/releases/download/v0.4.0/supertux-0.4.0.tar.bz2)
-* Windows: [0.3.5a 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.4.0/supertux-0.4.0-win32-setup.exe), [0.4.0 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.4.0/supertux-0.4.0-win64-setup.exe)
+* Windows: [0.4.0 32-bit](https://github.com/SuperTux/supertux/releases/download/v0.4.0/supertux-0.4.0-win32-setup.exe), [0.4.0 64-bit](https://github.com/SuperTux/supertux/releases/download/v0.4.0/supertux-0.4.0-win64-setup.exe)
 
 ### Milestone 1 (0.1.x series)
 
