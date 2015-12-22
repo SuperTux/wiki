@@ -12,6 +12,8 @@ This wiki is currently missing some stuff ( more than some ;)), but our [Old Wik
 [Contact Us](https://github.com/SuperTux/supertux/wiki/Contact/)
 #### For players
 
+* [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid=7d271ca537028e81027e0b3cdab4f0ca)
+
 #### For developers
 
 See our issue page to find ways to help out:
