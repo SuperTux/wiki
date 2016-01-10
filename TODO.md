@@ -1,40 +1,41 @@
-This is a list of tasks and issues that might be worth to implement or fix, however it is not an authoritative list of things that must be done, it is a collection of random things popping up during development. Thus not everything in here might be well thought out or really worth to implement. Use your brain before implementing anything on this list and always think about how useful a new feature would be in the context of the whole game or if a potential performance enhancement, actually enhances anything at all. 
-
-The list is incomplete and is just a rough outline, but it does feature some of our bigger issues.
+This is a list of issues that are outstanding, or
+resource requests which are not major enough to warrant an issue report.
 
 ## Milestone 2
 
 ### Translations
-* Extract translatable strings from scripts:
-  - [Mantis 106](http://supertux.lethargik.org/bugs/view.php?id=106)
+Nothing here!
+Check us out [on Transifex](https://www.transifex.com/arctic-games/supertux/)
 
 ### Graphics
-* make "downer" lava tiles for the newer lava graphics. 
-* Create stone graphics of Tux: 
+See [our design issues](https://github.com/SuperTux/supertux/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acategory%3Adesign)
+
+Needed Soon:
+
+- Swimming Graphics
+Needs Updating:
+- New Climbing sprites for Tux
+- Grabbing sprite + run animation (when holding an item)
+Low Priority:
+- make "downer" lava tiles for the newer lava graphics. 
+- Create stone graphics of Tux: 
   - Done but could use improvements.
   - [Mantis 1072](http://supertux.lethargik.org/bugs/view.php?id=1072)
-* Graphics improvements for Tree Boss
+Prepared To Accept for Future Releases:
+- Second, Third and Fourth Player sprites
 
 ### Code
-* Having slopes that end in a wall produces Tux to jitter:
-  - [SuperTux/supertux#14](https://github.com/SuperTux/supertux/issues/14)
-* Tux's feet can be seen under the igloo at the end of a level:
-  - [SuperTux/supertux#24](https://github.com/SuperTux/supertux/issues/24)
+
+See [our code issues](https://github.com/SuperTux/supertux/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acategory%3Acode)
 
 ### Levels
-* Remove unreachable badguys in worlds:
-  - Ongoing task, always WIP it seems. Mostly fixed though.
-  - [Mantis 1016](http://supertux.lethargik.org/bugs/view.php?id=1016)
 
-## Editor
-* Switching layers while Brush Tool is active causes fatal exceptions:
-  - [Mantis 1066](http://supertux.lethargik.org/bugs/view.php?id=1066)
-* The editor claims there is something wrong with a Bonus Block in my level, when there isn't:
-  - [Mantis 1056](http://supertux.lethargik.org/bugs/view.php?id=1056)
-* Snowshot dispensers do not work in the editor:
-  - [Mantis 1055](http://supertux.lethargik.org/bugs/view.php?id=1055)
-* Move this section to the [editor repository](https://github.com/SuperTux/supertux-editor) on GitHub?
+See [our level issues](https://github.com/SuperTux/supertux/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Acategory%3Alevels)
 
-## Meta
-* Mailing List archive is outdated
-  - [Mantis 1073](http://supertux.lethargik.org/bugs/view.php?id=1073)
+ - A new forest world, including an underground area which then transitions to a "ghost forest"
+ - Redesigned Forest World levels will be accepted at any time.
+
+### Meta
+
+Update this wiki (please, please, please!)
+
