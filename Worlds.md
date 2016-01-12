@@ -2,6 +2,10 @@ This page serves as a collection of all existing and proposed official SuperTux 
 
 ## Established Worlds
 * [World 1 - Icy Island](Icy-Island)
-* World 2 - Forest
+
+## Worlds Under Development
+
+* [World 2 - Forest](Ghost-Forest)
 
 ## Proposed Worlds
+

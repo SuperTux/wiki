@@ -5,6 +5,7 @@ Badguys for Icy Island can be found at the [Badguys](Badguys) page.
 
 ### Levels
 As of January 2010, _Icy Island_ features the following levels:
+
 * Picnic with Penny
 * Welcome to Antarctica
 * The Journey Begins
@@ -36,3 +37,4 @@ As of January 2010, _Icy Island_ features the following levels:
 
 ### End boss
 The Yeti is end boss for _Icy Island_. He is featured in No More Mr Ice Guy and tries to attack Tux indirectly using the icicles to his power.
+
