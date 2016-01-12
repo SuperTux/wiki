@@ -1,4 +1,4 @@
-**The Ghost Forest** is the second world in SuperTux. 
+**The Forest** is the second world in SuperTux. 
 This world is currently in the Contrib Levels menu, and has been in the game for a while now. 
 It has yet to be added to the story, as it is not considered stable enough. 
 It is currently one of the teams priorities for a future release.
