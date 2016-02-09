@@ -39,6 +39,8 @@ bugs in right-to-left languages and isn't able to properly display Arabic.
 The plan is to move to a TTF rendering library such as SDL\_ttf or HarfBuzz/FreeType and
 integrate it into the game.
 
+**Possible mentors:** Mathnerd314
+
 ### In-game level editor
 
 Since removing the in-game level editor in favor of the external ones, players
@@ -65,3 +67,6 @@ SuperTux does not currently support WiiMotes; this project would implement suppo
 ### Water Physics / Sliding Physics
 
 Penguins swim quite frequently, but so far there has not been any swimming in SuperTux. This project would add buoyancy and possibly some fluid simulation to SuperTux, allowing Tux to swim as well as any other penguin. Ideas for swimming are [here](http://supertux.lethargik.org/wiki/Swimming). Also interesting would be the ability to slide down slopes and jump off ramps.
+
+**Possible mentors:** Mathnerd314
+
