@@ -1,3 +1,5 @@
+language: ruby
+sudo: false
 addons:
   apt:
     sources:
@@ -5,7 +7,9 @@ addons:
     packages:
       - git
 
-install:
+install: true
+
+script:
 - git --version
 - openssl aes-256-cbc -K $encrypted_6626094401ff_key -iv $encrypted_6626094401ff_iv -in key.enc -out key -d
 - chmod 600 ./key

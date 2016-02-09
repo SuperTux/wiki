@@ -67,7 +67,7 @@ SuperTux does not currently support WiiMotes; this project would implement suppo
 
 ### Water Physics / Sliding Physics
 
-Penguins swim quite frequently, but so far there has not been any swimming in SuperTux. This project would add buoyancy and possibly some fluid simulation to SuperTux, allowing Tux to swim as well as any other penguin. Ideas for swimming are [here](http://supertux.lethargik.org/wiki/Swimming). Also interesting would be the ability to slide down slopes and jump off ramps. Both of these would entail adding support for oriented bounding boxes to the collision detection system.
+Penguins swim quite frequently, but there has not been any swimming in SuperTux so far. This project would add buoyancy and possibly some fluid simulation to SuperTux, allowing Tux to swim as well as any other penguin. Ideas for swimming are [here](http://supertux.lethargik.org/wiki/Swimming). Also interesting would be the ability to slide down slopes and jump off ramps. Both of these would entail adding support for oriented bounding boxes to the collision detection system.
 
 **Possible mentors:** Mathnerd314
 
