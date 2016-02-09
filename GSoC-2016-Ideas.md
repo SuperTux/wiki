@@ -14,6 +14,22 @@ pulling a switch.
 
 **Possible mentors:** Tobbi
 
+### Web application
+
+The current implementation of our add-ons system as a simple
+[addons repo](https://github.com/SuperTux/addons) hosted on GitHub isn't really
+flexible or friendly to normal users who just want to submit add-ons. This is
+why a better solution should be made.
+
+This project includes writing a web application that allows admins (and later on,
+users) to easily manage the add-ons that are available in the game's add-on
+manager. This web application should also provide a stable API for accessing
+add-ons from within the game's add-on manager.
+
+For future goals, this service could be opened so that users can easily contribute
+own levels and add-ons using either the in-game level editor (if available)
+or [flexlay](https://github.com/SuperTux/flexlay).
+
 ### Font improvements
 
 Our current font system is using png images containing the glyphs. This has
