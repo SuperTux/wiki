@@ -5,7 +5,7 @@ be proposed. The page can also be used to coordinate mentor assignments.
 
 ### Multi-Player mode
 
-A long-requested feature from the user community is having more than two people
+A long-requested feature from the user community is having two people (or even more)
 playing the game. The project would include adding the ability for two instances
 of a Player inside the game, and the student would ideally add the possibility
 to add more than one input device to the game, as the two players need to be
@@ -17,7 +17,7 @@ able to play at the same time.
 
 Our current font system is using png images containing the glyphs. This has
 proven to be hard to edit and hard to understand for contributors, and has
-even introduced a few bugs or wasn't able to properly display serveral characters.
+even introduced a few bugs or wasn't able to properly display several characters.
 
 The plan is to move to a TTF rendering library such as SDL\_ttf or FreeType and
 integrate it into the game.
