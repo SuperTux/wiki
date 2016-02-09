@@ -3,12 +3,13 @@ Even though it's still unclear whether SuperTux will be accepted into
 list of potential ideas for students. This is not an exact plan, and changes can
 be proposed. The page can also be used to coordinate mentor assignments.
 
-### Multi-Player / Split-Screen
+### Multi-Player
 
 A long-requested feature from the user community is having two people (or even more)
 playing the game. An [old patch](https://github.com/SuperTux/supertux/blob/master/contrib/supertux-coop.diff)
 implements the basics such as multiple instances of the player and multiple input devices,
-but it does not affect the camera. The plan would be to implement split-screen display,
+but it does not affect the camera. The plan would be to either repeat this more
+effectively (the patch mentioned is now out of date) or implement split-screen display,
 preferably in a way that also allows it to be used for cutscene animations such as
 pulling a switch.
 
