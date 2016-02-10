@@ -13,6 +13,11 @@ addons:
     packages:
       - git
 
+# Only push master branch to remote master.
+branches:
+  only:
+    - master
+
 install: true
 
 script:
