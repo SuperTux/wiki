@@ -31,6 +31,8 @@ For future goals, this service could be opened so that users can easily contribu
 own levels and add-ons using either the in-game level editor (if available)
 or [flexlay](https://github.com/SuperTux/flexlay).
 
+**Possible mentors:** maths22
+
 ### Font improvements
 
 Our current font system is using png images containing the glyphs. This has
