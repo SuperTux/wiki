@@ -12,6 +12,11 @@ This wiki is currently missing some stuff ( more than some ;)), but our [Old Wik
 [Contact Us](https://github.com/SuperTux/supertux/wiki/Contact/)
 #### For players
 
+* Since now there were no written **rules**. It was OK, but we have to write the **rules**, because some people though that there are no **rules** at all. Therefore:
+ * No spamming, No off-topic posts, you know right.
+ * No flaming. This is a forum and not a flamewar.
+ * Representing the majority or the development team is strictly forbidden.
+ * Please don't ask for help about unrelated topics (e.g. git). If you're told to look for external resources on such a topic, please do so.
 * [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid=7d271ca537028e81027e0b3cdab4f0ca)
 
 #### For developers
