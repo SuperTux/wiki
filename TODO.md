@@ -22,10 +22,20 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
 #### Graphics
 
 - [ ] Castle
-  - [ ] Add Tiles adapted to the location of the castle (example: upper
+  - [ ] Add tiles adapted to the location of the castle (example: upper
         right-hand corner of
         <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>)
+  - [ ] Add tiles that can be used as background tiles in levels close to the
+        castles
+  - [ ] Worldmap graphics for a smaller Forest castle - the current one,
+        containing five levels, is way too large for a non-final castle
 - [ ] Different players? (very low priority)
+- [ ] Forest
+  - [ ] Tile variance
+  - [ ] More backgrounds
+    - [ ] as tiles (similar to the background tiles in Icy Island)
+    - [ ] as background images
+  - [ ] Improve tree graphics/tiles (implement as decals?)
 - [ ] Ghost Forest/Wasteland
   - [ ] Tiles and Background as pictured in the upper left-hand corner of
         <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>
