@@ -1,27 +1,60 @@
-This is a list of issues that are outstanding, or resource requests which are
-not major enough to warrant an issue report. It would be nice to have
-contributions for tasks with high priority (as seen in issue tags) to be submitted
-first, but it's not strictly neccessary.
+This is a centralized list of things that need to be done. It is maintained by
+the SuperTux development team. It can include issues that are outstanding, or
+resource requests. The document will also be used to track decisions on these
+issues and requests.
 
 Please have a look at our issue tracker on GitHub where you can also find
 issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
 `category:code` for code tasks, and `category:levels` for level design tasks).
 
-### v0.5 series
+### Artwork
 
-- A new forest world, including an underground area which then transitions to
-  a "ghost forest" (high priority)
-- Redesigned Forest World levels will be accepted for this release (high priority)
-- Swimming graphics (high priority)
-- New climbing sprites for Tux
-- Grabbing sprite and a run animation (when holding an item)
-- Make lava tiles for deeper areas of lava (using the newer fluids graphics style,
-  low priority)
-- Improve stone graphics of Tux (low priority):
+#### Cutscenes
+
+- [ ] Intro: Picnic with Penny
+  - [x] Make it look less like a level
+  - [ ] Fix some minor issues with new version
+- [ ] Antarctica part II
+  - [ ] Interlude: Yeti
+  - [ ] Interlude: Where is Penny?
+  - [ ] Outro: Leaving Antarctica…
+
+#### Graphics
+
+- [ ] Castle
+  - [ ] Add Tiles adapted to the location of the castle (example: upper
+        right-hand corner of
+        <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>)
+- [ ] Different players? (very low priority)
+- [ ] Ghost Forest/Wasteland
+  - [ ] Tiles and Background as pictured in the upper left-hand corner of
+        <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>
+  - [ ] Ghost enemy (<http://supertux.lethargik.org/wiki/images/8/8b/Ghost-sprite.png>)
+- [ ] Improve stone graphics of Tux
   - [Mantis 1072](http://supertux.lethargik.org/bugs/view.php?id=1072)
-- Graphics for different players (very low priority, will be accepted when
-  multiplayer is being developed)
+- [ ] Lava tiles ("modern fluid style")
+  - [ ] Add tiles for deeper areas of lava (needed for castles)
+- [ ] Portable objects (needs discussion)
+  - [ ] Grabbing
+  - [ ] Tux running while holding portable objects
+- [ ] Sliding (Tux)
+- [ ] Swimming (Tux)
+- [ ] Wallstone tileset and backgrounds
+  - <http://supertux.lethargik.org/wiki/images/4/4b/Wallstone-tileset.jpg>
+  - <http://supertux.lethargik.org/wiki/images/a/ab/Wallstone-tileset2.jpg>
 
+### Levels
+
+- [ ] Improved Forest World
+
+### Code
+
+- [ ] Comments: explain arbitary(?) constants in physics code
+- [ ] Ghost enemy
+- [ ] Sliding
+- [ ] Swimming
+  - [x] Basic code for moving in water tiles
+  - [ ] How to move underwater?
 
 ### Translations
 
@@ -30,4 +63,5 @@ to them [on Transifex](https://www.transifex.com/arctic-games/supertux/).
 
 ### Meta
 
-- This wiki needs updates
+- [ ] Improve wiki content
+- [ ] Maintain this To-Do list
