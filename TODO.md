@@ -32,6 +32,7 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
 - [ ] Different players? (very low priority)
 - [ ] Forest
   - [ ] Tile variance
+    - [ ] Snowy Forest (needs discussion)
   - [ ] More backgrounds
     - [ ] as tiles (similar to the background tiles in Icy Island)
     - [ ] as background images
@@ -56,6 +57,8 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
 ### Levels
 
 - [ ] Improved Forest World
+  - [ ] Tileset variance: Snowy Forest (needs discussion, needs graphics if we
+        decide to add)
 
 ### Code
 
