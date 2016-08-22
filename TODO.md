@@ -37,10 +37,12 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
     - [ ] as tiles (similar to the background tiles in Icy Island)
     - [ ] as background images
   - [ ] Improve tree graphics/tiles (implement as decals?)
+  - [ ] Worldmap: mountains? clouds (for airkey)? more trees?
 - [ ] Ghost Forest/Wasteland
   - [ ] Tiles and Background as pictured in the upper left-hand corner of
         <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>
   - [ ] Ghost enemy (<http://supertux.lethargik.org/wiki/images/8/8b/Ghost-sprite.png>)
+  - [ ] Separate worldmap tileset (different from dark forest)
 - [ ] Improve stone graphics of Tux
   - [Mantis 1072](http://supertux.lethargik.org/bugs/view.php?id=1072)
 - [ ] Lava tiles ("modern fluid style")
