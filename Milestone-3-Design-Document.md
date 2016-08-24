@@ -32,3 +32,18 @@ once or twice. The shop could be implemented as a lighthouse on the coast of the
 island. The shopkeeper (e.g. an old walrus with a beard) will provide the player
 items (power-ups limited to the shop) and services (unlock a level) in exchange
 for coins or items that can be collected only one time in secret areas of levels.
+
+### Swimming
+
+Swimming is a feature which has been planned for a while. The intention is to
+avoid cloning Mario's swimming mechanics, and come up with something similar,
+but unique in its own way.
+Tux will wear goggles while swimming, and will still be able to use his flowers,
+while underwater.
+Tux will begin swimming immediately as he enters the water. (needs discussion)
+Two ideas have been propsed (loosely) for the implementation of this feature:
+ - Tux moves in a curve through the water, at high speed, like a penguin might
+   in real life
+ - The player presses up/down/left/right, and Tux moves in that direction. When
+   the player presses the jump key, Tux will get a boost in the current direction
+   he is facing
