@@ -70,6 +70,7 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
 - [ ] Swimming
   - [x] Basic code for moving in water tiles
   - [ ] How to move underwater?
+- [ ] Ice crusher sound should be deeper / lighter depending on size of icecrusher sprite.
 
 ### Translations
 
