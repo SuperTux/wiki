@@ -21,46 +21,54 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
 
 #### Graphics
 
-- [ ] Castle
-  - [ ] Add tiles adapted to the location of the castle (example: upper
-        right-hand corner of
-        <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>)
-  - [ ] Add tiles that can be used as background tiles in levels close to the
-        castles
-  - [ ] Worldmap graphics for a smaller Forest castle - the current one,
-        containing five levels, is way too large for a non-final castle
-- [ ] Different players? (very low priority)
-- [ ] Forest
-  - [ ] Tile variance
-    - [ ] Snowy Forest (needs discussion)
-  - [ ] More backgrounds
-    - [ ] as tiles (similar to the background tiles in Icy Island)
-    - [ ] as background images
-  - [ ] Improve tree graphics/tiles (implement as decals?)
-  - [ ] Worldmap: mountains? clouds (for airkey)? more trees?
-- [ ] Ghost Forest/Wasteland
-  - [ ] Tiles and Background as pictured in the upper left-hand corner of
-        <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>
-  - [ ] Ghost enemy (<http://supertux.lethargik.org/wiki/images/8/8b/Ghost-sprite.png>)
-  - [ ] Separate worldmap tileset (different from dark forest)
-- [ ] Improve stone graphics of Tux
-  - [Mantis 1072](http://supertux.lethargik.org/bugs/view.php?id=1072)
-- [ ] Lava tiles ("modern fluid style")
-  - [ ] Add tiles for deeper areas of lava (needed for castles)
-- [ ] Portable objects (needs discussion)
-  - [ ] Grabbing
-  - [ ] Tux running while holding portable objects
 - [ ] Sliding (Tux)
 - [ ] Swimming (Tux)
-- [ ] Wallstone tileset and backgrounds
-  - <http://supertux.lethargik.org/wiki/images/4/4b/Wallstone-tileset.jpg>
-  - <http://supertux.lethargik.org/wiki/images/a/ab/Wallstone-tileset2.jpg>
 
-### Levels
+##### Tiles
+
+- Levels
+  - Add tiles for deeper areas of modern lava (needed for castles)
+  - Parallax background tiles (Milestone 1 castle, Snow Castle, Brown Castle, DFK Castle) that can be used in levels close to the castles
+  - More background tiles (parallax background) such as those in Antarctica, but for (Ghost Forest)
+  - Dead bushes
+  - More variants of dead trees
+  - Underground tiles (<https://github.com/SuperTux/data/issues/48>; Parallax background tiles, slopes, decoration, tiles that can be used to make a platform some tiles higher without having to end the platform and having to make a new one)
+  - Fixed tiling for Snow and Brown Castle
+  - Crystalcave tileset should be fixed to be usable
+  - Waterfall graphics fitting to the new water type
+  - Electrified version of new water
+  - Add modern fluid style acid/poison (purple liquid)
+  - Castle: Add tiles adapted to the location of the castle (example: upper right-hand corner of <http://supertux.lethargik.org/wiki/images/9/97/Forestworldoverview.jpg>)
+
+- Worldmap
+  - Dark forest worldmap tiles without river required for transition
+  - Ghost Forest worldmap tiles matching the new, blue-grass style from the levels (Ghost Forest style from <http://supertux.lethargik.org/wiki/File:Forestworldoverview.jpg> will be used later for Wasteland, no need for that now)
+  - Transition tiles from normal as well as dark forest to ghost forest
+  - Mountain worldmap tiles, similar to those of Icy Island
+  - "Slope" tiles for the worldmap too, to create an illusion of height on the Forest Island.
+  - Small forest castle tiles (Snow/Brown castle variant as well as Dark Forest Keep castle variant) (already discussed before)
+  - All castle tile variants in a smaller version, as a tower
+  - "Also some decoration for the ghost forest worldmap: dead bushes and dead trees (or are we using those decals from the halloween worldmap?). The same for the forest in general. The tiles should have a transparant background, so you can use them everywhere, like the trees, slopes and edges of icy island, because some decoration tiles from forest and darker forest have a background of the land that they are placed on." ~ RustyBox
+  - Forest cave/underground worldmap tiles
+
+##### Backgrounds
+
+- More diverse Ghost Forest backgrounds
+
+##### Objects
+
+- Badguys
+  - MrIceBlock: waking graphics (see <https://github.com/SuperTux/supertux/pull/581>)
+  - Ghost enemy (<http://supertux.lethargik.org/wiki/images/8/8b/Ghost-sprite.png>)
+
+##### Meta
+
+- Source files for all stuff?
+- Clarify license? GPLv2+ only? CC-BY-SA what version only? Dual: GPLv2+ / CC-BY-SA Y.Z?
+
+#### Levels
 
 - [ ] Improved Forest World
-  - [ ] Tileset variance: Snowy Forest (needs discussion, needs graphics if we
-        decide to add)
 
 ### Code
 
@@ -71,9 +79,6 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
   - [x] Basic code for moving in water tiles
   - [ ] How to move underwater?
   - [ ] Discuss: fluid simulation as game object rather than tiles?
-- [ ] Ice crusher sound should be deeper / lighter depending on size of icecrusher sprite.
-- [ ] Ice floe as a game object (might also depend on fluid simulation as game
-      object)
 
 ### Translations
 
