@@ -34,3 +34,5 @@ in the future.
 - Ice floe as a game object (might also depend on fluid simulation as game
     object)
 - Mega Tux power up (suggested in issue [#582](https://github.com/SuperTux/supertux/issues/582))
+- Arrow key navigation for text fields.
+- Squirrel code completion for MN_SCRIPT items. This is a huge undertaking, but easier for people who want to get into scripting.
