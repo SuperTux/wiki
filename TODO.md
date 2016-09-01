@@ -79,6 +79,8 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
   - [x] Basic code for moving in water tiles
   - [ ] How to move underwater?
   - [ ] Discuss: fluid simulation as game object rather than tiles?
+- [ ] Coin: expose to scripting interface for path/movement settings
+- [ ] HeavyCoin: expose to scripting interface to enable/disable effect of gravity
 
 ### Translations
 
