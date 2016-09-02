@@ -1,264 +1,126 @@
-## NOTE: This manual is *VERY* incomplete, feel free to add info to it!
+# SuperTux User Manual (For v0.5.0)
 
-Introduction
-------------
+SuperTux is a side-scrolling 2D platformer featuring Tux, the Linux mascot. Over the course of the game, Tux will have to make his way through many different levels, in order to reach and rescue Penny, who was captured by evil Nolok.
 
-![Rated FUN](http://supertux.lethargik.org/wiki/images/b/b6/RATEDFUN.png "Rated FUN")
+This file should help players to understand the features of the game at a user level (How to play, not how it works...)
 
-![](http://supertux.lethargik.org/wiki/images/c/c9/Logo.png "Logo.png")
+See the [old wiki's user manual](http://supertux.lethargik.org/wiki/User_Manual) to see the (now outdated) source of some of this information.
 
-SuperTux is a side-scrolling 2D platformer featuring
-Tux wikilink, the Linux mascot, but it's otherwise entirely
-unrelated to Linux. Over the course of the game, Tux will have to make
-his way through many different levels, in order to reach and rescue Penny, who was captured by evil
-Nolok.
+## Getting Started
 
-![](http://supertux.lethargik.org/wiki/images/6/6e/Littletrees.png "Littletrees.png")
+ - Download a copy of the game [here](https://supertuxproject.org/download.html)
+ - Start it up, after installing it
+ - Use the up/down arrow keys or the mouse to select "Start Game" at the main menu
+ - Press the Enter key, or Left Click with the mouse
+ - Press the Enter key, or click again, this time on "Story Mode"
+ 
+After this, the intro cutscene should begin. Watch it, and then continue onto the section labelled "Gameplay" in this document.
 
-Controls
---------
+## Gameplay
 
+Oh no! Nolok has captured Tux's girlfriend, Penny. It is now your responsibility to control Tux, and save Penny.
 
+*Disclaimer: It is not currently possible to save Penny, since the game is not complete.*
 
-SuperTux is played with either the keyboard or any game controller
-recognized by the operating system. The following list shows all
-controls needed to play the game, along with their default keys. Note
-that all of the controls can be configured in-game.
+In order to do this, you need to understand how to play the game. This section of the Manual should help you.
 
-  ---------------------------------------------------------------------------------------------
-  Control   Default mapping   Description
-                              
-  --------- ----------------- -----------------------------------------------------------------
-  Left      Cursor Left       Makes Tux walk left
-                              
+### Worldmaps
 
-  Right     Cursor Right      Makes Tux walk right
-                              
+A worldmap is an island which Tux must explore in search of Penny (or for some other goal). They feature levels which appear as dots/icons connected by paths.
 
-  Up        Cursor Up         Enter door, activate switch
-                              
+Currently, there is only one worldmap availible in Story Mode: [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island)
 
-  Down      Cursor Down       Duck
-                              
+In later releases, more worldmaps will feature.
 
-  Jump      Spacebar          Makes Tux jump. Hold down longer to jump higher.
-                              
+Some other worldmaps which you can play are:
 
-  Action    Left Control      Varies; all actions are [explained below](#Actions "wikilink").
-                              
-  ---------------------------------------------------------------------------------------------
+ - The Halloween Island (Spooky)
+ - Bonus Islands 1-3
+ - All the addons
 
-  : Controls
+Check the Contrib Levels menu:
+Start Game > Contrib Levels
 
+There are also worldmaps availible in addons. Please see the section labelled "Addons" below for more information.
 
+### Levels
 
-Powerups
---------
+A level is an area of an worldmap which Tux must traverse.
+To "win" in a level, Tux must pass through a finish area, often marked by a set of poles.
 
-To help Tux in his quest to rescue Penny, various powerups have been
-placed throughout the levels. Some are in plain view, but most are
-hidden in bonus blocks:
+Levels are filled with Nolok's minions, out to stop Tux's progress, and item boxes,
+which provide a way for Tux to collect coins and powerups. They are also filled with puzzles, difficult jumps, coins to collect and [other objects](https://github.com/SuperTux/supertux/wiki/Objects) which Tux can interact with.
 
-![Bonus Block](http://supertux.lethargik.org/wiki/images/b/b8/Bonusblock.png "Bonus Block")
+First, though, you need to understand the controls:
 
-When Tux bumps a bonus block from below, he will either collect a coin
-or the bonus block will release one of several powerups:
+### Controls
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Control |	Default mapping |	Description
+--------|-----------------|--------------------
+Left    |	Cursor Left     |	Makes Tux walk left
+Right 	| Cursor Right    | 	Makes Tux walk right
+Up 	    | Cursor Up       |	Enter door, activate switch
+Down    |	Cursor Down     |	Duck
+Jump 	  | Spacebar        |	Makes Tux jump. Hold down longer to jump higher.
+Action  |	Left Control    |	Varies; actions are explained below. 
 
-  ![](http://supertux.lethargik.org/wiki/images/4/48/Coin-0.png "Coin-0.png")                 Coin                                  **SuperTux 0.1:** Collect 100 coins to gain an extra life. **SuperTux 0.3:** Every time Tux dies, he will restart at the last firefly he activated.
-                                                                                     
+The "P" and "Escape" keys can be used to pause the game.
 
-  ![](http://supertux.lethargik.org/wiki/images/2/26/Egg.png "Egg.png")                       Egg                                   Makes Tux grow. He can then smash wooden boxes with his head and perform a *backflip* (see below).
-                                                                                     
+To change the controls, go to Options > Setup Keyboard.
+Select the control you wish to change, and click the key you wish to assign it to.
 
-  ![](http://supertux.lethargik.org/wiki/images/d/dd/Fire_flower-0.png "Fire_flower-0.png")   [Fireflower](Fireflower "wikilink")   Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs. In SuperTux 0.1 you can shoot more than two at a time. In SuperTux 0.3 you can shoot them at once as many as you collected.
-                                                                                     
+Unfortunately, it's not as simple as just running and jumping freely through levels:
 
-  ![](http://supertux.lethargik.org/wiki/images/6/6a/Ice_flower.png "Ice flower.png")         [Iceflower](Iceflower "wikilink")     Similar to the Fireflower, but shoots iceballs instead of fireballs. If an enemy is hit, it will be frozen. Does not work on most snow and ice enemies. **(unstable)**
-                                                                                     
+### Getting Hurt
 
-  ![](http://supertux.lethargik.org/wiki/images/7/76/1up.png "1up.png")                       Tux Doll                              Ejected from the bonus block and needs to be caught before falling off the screen. If Tux manages to catch it, he is awarded an extra life **(SuperTux 0.1)** or 100 coins **(SuperTux 0.3)**.
-                                                                                     
+Tux can get hurt in a number of ways:
 
-  ![](http://supertux.lethargik.org/wiki/images/1/15/Star-0.png "Star-0.png")                 Star                                  Gives Tux invincibility to most hazards for a short amount of time.
-                                                                                     
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ - Walking into [badguys](https://github.com/SuperTux/supertux/wiki/Badguys) (see below)
+ - Being crushed by moving objects
+ - Being hit by thrown objects (see below)
+ - Falling onto spikes or into lava
+ - Falling down a pit
+ 
+Usually, this will cause Tux to lose a [powerup]((https://github.com/SuperTux/supertux/wiki/Items)). If he has a [Fire, Ice, Air or Earth Powerup](https://github.com/SuperTux/supertux/wiki/Items), he will lose his hat. If he is only [Big Tux](https://github.com/SuperTux/supertux/wiki/Items), he will shrink.
 
+*If he is small Tux, he will die!*
+ 
+When Tux dies, it will cause him to return to the start of the level (unless he has reached a checkpoint, please see below)
 
-Actions
--------
+But don't worry, Tux can find [items](https://github.com/SuperTux/supertux/wiki/Items) in the levels, to help him overcome these adversaries:
 
-### Running (SuperTux 0.1)
+### [Item Boxes](https://github.com/SuperTux/supertux/wiki/Items)
 
-Press the Action button and keep running in the same direction. Tux will
-go faster and jump higher. If you release the Action button while
-running, Tux will walk at a slower pace again.
+Tux can find powerups, coins and other goodies in [item boxes](https://github.com/SuperTux/supertux/wiki/Items)
 
-### Walking (SuperTux 0.3)
+### [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys)
 
-Normally, when you keep running in the same direction, Tux will go
-faster and jump higher. If you press the Action button while running,
-Tux will walk at a slower pace again.
+Tux must also avoid "[Badguys](https://github.com/SuperTux/supertux/wiki/Badguys)" which are found in the level. These are Nolok's minions, and can cause Tux to get hurt.
 
-### Fireballs
+### Other [Objects](https://github.com/SuperTux/supertux/wiki/Objects)
 
-After picking up the [Fireflower](Fireflower "wikilink"), Tux will throw
-fireballs when the Action button is pressed. Most badguys can be knocked
-off the screen by hitting them with a fireball. Also, special "Straw"
-blocks can be set on fire by hitting them with a fireball, revealing
-areas with special items or opening a shortcut **(SuperTux 0.3 only)**.
+There are also some other [objects](https://github.com/SuperTux/supertux/wiki/Objects) that Tux can interact with.
 
-### Iceballs (SuperTux 0.3.1 and later)
+## Addons
 
-Similar to the Fireballs, but objects which they hit freeze. It only
-works on "MrBomb", "Jump ", "Spiky", "Fish", "Haywire". They are also
-frozen when they are hit by a falling "Stalactite".
+Addons are sets of levels provided by the community. To install and play a new addon: 
 
-### Butt Stomp (SuperTux 0.3.3 and later)
+ - Select "Add-ons" on the main menu
+ - Click on the addon you wish to install
+ - Watch as it downloads
+ - Go back to the Main Menu (by pressing Escape, or selecting Back)
+ - Go into Start Game > Contrib Levels
+ - Select the new item(s) in this list, which you wish to play
 
-Only Big and Fire Tux have this ability. When in the air, press the Duck
-key to perform a Butt Stomp. Tux can use this ability to break wooden
-crates from above and defeat certain badguys that are not harmed by a
-normal jump.
+These addons are not managed by The SuperTux Team, so please do not register your issues regarding them on the SuperTux/supertux repository.
+You *may* be able to get help by making an issue [here](https://github.com/SuperTux/addons/issues)
 
-### Backflip (SuperTux 0.3 only)
+By default the game searches for new addons in the SuperTux Team's addon repo [here](https://github.com/SuperTux/addons).
+If you wish to submit a new addon to the repo, please make an issue or pull request there.
+If you would rather change the addon repo which the game looks for new addons in, you can start the game with the repository-url argument specified: ```supertux2 --repository-url URL```
+**WARNING: THIS IS NOT RECOMMENDED BY THE SUPERTUX TEAM**
 
-Only Big and Fire Tux have this ability. Hold down the Duck key, then
-press Jump to make Tux do a backflip. This will make him jump as high as
-he would when running, which is very useful in places where there's not
-enough space to run. Note that in 0.3.0, but not 0.3.1, Fire Tux will
-lose his hat when doing a backflip.
+## Using The Level Editor
 
-### Carrying Objects
-
-![](http://supertux.lethargik.org/wiki/images/e/e3/Needrock.png "fig:needrock.png") Some objects Tux comes across can
-be picked up and carried around. This includes a squished Mr.
-IceBlock (**SuperTux 0.1** and **SuperTux
-0.3**), a Rock (**SuperTux 0.3**), a
-Trampoline (**SuperTux 0.3**) and a Mr.
-Bomb (**SuperTux 0.3.3**)
-
-To pick up a portable object, hold down the Action button and walk into
-the object. Tux will then carry the object as long as the Action button
-is held down.
-
-
-
-Badguys
--------
-
-![](http://supertux.lethargik.org/wiki/images/e/ed/Left-1.png "fig:Left-1.png")
-![](http://supertux.lethargik.org/wiki/images/e/e1/Mriceblock_new.png "fig:Mriceblock new.png")
-![|right](http://supertux.lethargik.org/wiki/images/5/5a/Spiky.png "fig:|right") ![](http://supertux.lethargik.org/wiki/images/7/70/Snowsnail.png "fig:Snowsnail.png")
-
-Over the course of the game, Tux will encounter lots of different
-enemies – some easy to avoid, some tough to get past. When Tux touches a
-badguy, he will either lose a Powerup or – if no powerups are left – get
-thrown off the screen. Most, but not all, of the easier enemies can
-easily be knocked out by jumping on their head, but take care: As a rule
-of thumb, enemies with a pointy top cannot be squished, and if he tries,
-it will hurt him. Fireballs can take out most badguys, but beware: Some
-badguys are even immune to those.
-
-Special Game Objects
---------------------
-
-### Bells
-
-![](http://supertux.lethargik.org/wiki/images/9/99/Bell-r.png "fig:bell-r.png") When Tux gets thrown off the screen, he
-will normally have to start the current level over from the beginning.
-There is one exception, though: Most levels contain one or more bells.
-When Tux activates a Bell by touching it, he won't have to restart the
-level from the beginning, but will instead restart from the last
-activated bell - as long as he has at least one life **(SuperTux 0.1)**
-or 25 coins **(SuperTux 0.3)** left. In SuperTux 0.1, bells are
-invisible, but don't need to be touched to use- only passed by.
-
-### Secret Blocks
-
-![](http://supertux.lethargik.org/wiki/images/5/59/Empty.png "fig:Empty.png") Secret blocks are special blocks that
-appear out of thin air when Tux jumps in certain places.
-
-They can then be stepped on to reach higher places, e.g. a secret area
-or a shortcut.
-
-appart from that they do nothing, you can stand on them.
-
-### Doors (SuperTux 0.3 only)
-
-![](http://supertux.lethargik.org/wiki/images/6/67/Door-0.png "fig:Door-0.png") Press the Up key to enter a door. Tux
-will be transported to another place in the level.
-
-
-### Switches (SuperTux 0.3 only)
-
-![](http://supertux.lethargik.org/wiki/images/7/74/Left-0.png "fig:Left-0.png") Switches come in two different styles:
-Levers and panels.
-
-Press the Up key to activate a switch. This might open blocked paths,
-start platforms, turn off a stream of air, etc.
-
-Most switches are near the object they affect. Objects that are farther
-away from their switch often have a colored sign next to them. A sign of
-the same color can then be found next to the corresponding switch.
-
-### Platforms (SuperTux 0.3 only)
-
-![](http://supertux.lethargik.org/wiki/images/f/fb/Flying_platform-0.png "Flying platform-0.png")
-
-Over the course of his adventure, Tux comes across a variety of moving
-Platforms.
-
-Some are mounted on rails, some swim in water, some even float freely
-through the air.
-
-While some Platforms just move on their own, most Platforms will only
-move when Tux steps on them.
-
-Some might also require Tux to visit another part of the level and
-activate a Switch first. When this is the case Tux will most probably
-find a helpful sign next to the Platform.
-
-### Info Blocks (SuperTux 0.3 only)
-
-![](http://supertux.lethargik.org/wiki/images/c/cb/Infoblock.png "Infoblock.png")
-
-Levels that introduce new game elements often contain Info Blocks.
-
-Info Blocks can be bumped from below to display helpful text that
-introduces a certain element.
-
-When you activate an Info Block, the game will pause and you can use the
-Up and Down buttons to scroll through the text. Press the Menu button to
-resume the game.
-
-they are really useful. make sure to bop one if you see it.
-
-### Trampolines (SuperTux 0.3 only)
-
-![](http://supertux.lethargik.org/wiki/images/1/1a/Trampoline1-0.png "fig:trampoline1-0.png")
-![](http://supertux.lethargik.org/wiki/images/6/64/Trampoline2-0.png "fig:trampoline2-0.png")
-
-Trampolines come in two flavors: A stationary version, which looks a bit
-like a mushroom and a portable version, which looks like a large spring.
-
-
-Normally, Tux will only bounce up and down a small amount on a
-Trampoline. To make him jump higher, hold down the jump button when
-landing on the Trampoline.
-
-
-### Magic Blocks and Lanterns (SuperTux 0.3 only)
-
-Magic Blocks look pale and are not solid unless Tux brings a carry-able
-Lantern that is the same color as the block near the block. Lanterns
-also double as a light source which allows Tux to see in dark areas.
-
-### Wind (SuperTux 0.3 only)
-
-The Wind transports Tux to another location. Levels with Wind: "Find the
-Bigger Fish!", "Treasure in the skies", "Tree sheets in the wind" and "A
-Village in the Forest".
-
+*Level Editor documentation has not been written yet.*
 
