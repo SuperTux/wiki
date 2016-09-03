@@ -26,7 +26,7 @@ In order to do this, you need to understand how to play the game. This section o
 
 ### Worldmaps
 
-A worldmap is an island which Tux must explore in search of Penny (or for some other goal). They feature levels which appear as dots/icons connected by paths.
+A worldmap is an island or a collection of islands which Tux must explore in search of Penny (or for some other goal). They feature levels which appear as dots/icons connected by paths.
 
 Currently, there is only one worldmap availible in Story Mode: [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island)
 
@@ -34,6 +34,7 @@ In later releases, more worldmaps will feature.
 
 Some other worldmaps which you can play are:
 
+ - Forest World (development island)
  - The Halloween Island (Spooky)
  - Bonus Islands 1-3
  - All the addons
@@ -81,9 +82,9 @@ Tux can get hurt in a number of ways:
  - Falling onto spikes or into lava
  - Falling down a pit
  
-Usually, this will cause Tux to lose a [powerup]((https://github.com/SuperTux/supertux/wiki/Items)). If he has a [Fire, Ice, Air or Earth Powerup](https://github.com/SuperTux/supertux/wiki/Items), he will lose his hat. If he is only [Big Tux](https://github.com/SuperTux/supertux/wiki/Items), he will shrink.
+Usually, this will cause Tux to lose a [powerup]((https://github.com/SuperTux/supertux/wiki/Items)). If he has a [Fire, Ice, Air or Earth Powerup](https://github.com/SuperTux/supertux/wiki/Items), he will lose his hat. If he is only [Big Tux](https://github.com/SuperTux/supertux/wiki/Items), he will shrink. Some things will make Tux die instantly, like falling down below the level. Powerups won't help you here.
 
-*If he is small Tux, he will die!*
+**If he is small Tux, hurting Tux will make him die!**
  
 When Tux dies, it will cause him to return to the start of the level (unless he has reached a checkpoint, please see below)
 
@@ -92,6 +93,15 @@ But don't worry, Tux can find [items](https://github.com/SuperTux/supertux/wiki/
 ### [Item Boxes](https://github.com/SuperTux/supertux/wiki/Items)
 
 Tux can find powerups, coins and other goodies in [item boxes](https://github.com/SuperTux/supertux/wiki/Items)
+
+### Powerups
+
+Powerups can be found in bonus blocks and on the ground. Most are eggs, which will allow you to backflip by pressing down then jumping and butt-jumping by jumping then pressing down. However, if you already have an egg getting an egg powerup can give you a flower.
+
+- Fireflowers will allow you to kill most badguys by pressing the action key.
+- Iceflowers will allow you to freeze some badguys and kill some others by pressing the action key. If they are frozen, you can kill most badguys by butt-jumping on them.
+- Airflowers will allow you to jump further, sometimes even run faster. However, it can be difficult to do certain jumps as Air Tux.
+- Earthflowers give you a light. Also, pressing the action key then down will turn you into a rock for a few seconds.
 
 ### [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys)
 
@@ -123,4 +133,3 @@ If you would rather change the addon repo which the game looks for new addons in
 ## Using The Level Editor
 
 *Level Editor documentation has not been written yet.*
-
