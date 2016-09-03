@@ -10,8 +10,8 @@ Notes for Windows Users
 Most SuperTux developers tend to work on UNIX-like operating systems such as
 Linux or macOS. While the code can be compiled on Windows, and automated (test)
 builds run for every commit on Windows, this document currently doesn't explain
-how to build on Windows. These details will be added later in a separate
-section of this document.
+how to build on Windows. These details can be found in the document INSTALL.md,
+at https://github.com/SuperTux/supertux/blob/master/INSTALL.md
 
 Dependencies
 ------------
