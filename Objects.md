@@ -51,3 +51,9 @@ Trampolines are available fixed and portable. They can be jumped on to help Tux 
 ![alt text](https://github.com/SuperTux/data/blob/master/images/objects/rock/rock.png?raw=true "Rock")
 
 Rocks can be carried with the action key. They can allow Tux to get over new obstacles.
+
+### Lanterns
+
+![alt text](https://github.com/SuperTux/data/blob/master/images/objects/lantern/lantern-1.png?raw=true "Lantern")
+
+Lanterns can be carried like rocks. However, they are alsoa good light source and can make some blocks of the same colour solid.
