@@ -96,12 +96,16 @@ Tux can find powerups, coins and other goodies in [item boxes](https://github.co
 
 ### Powerups
 
-Powerups can be found in bonus blocks and on the ground. Most are eggs, which will allow you to backflip by pressing down then jumping and butt-jumping by jumping then pressing down. However, if you already have an egg getting an egg powerup can give you a flower.
+Powerups can be found in bonus blocks and on the ground. Most are eggs, which will allow you to backflip by pressing down then jumping and butt-jumping by jumping then pressing down. If you already have an egg, hitting an item box containing a powerup will give you a flower.
 
-- Fireflowers will allow you to kill most badguys by pressing the action key.
-- Iceflowers will allow you to freeze some badguys and kill some others by pressing the action key. If they are frozen, you can kill most badguys by butt-jumping on them.
+- Fireflowers will allow you to kill most badguys by pressing the action key, which makes Tux throw a fireball
+- Iceflowers will allow you to freeze some badguys and kill some others by pressing the action key, which makes Tux throw a ball of ice. If they are frozen, you can kill most badguys by butt-jumping on them.
 - Airflowers will allow you to jump further, sometimes even run faster. However, it can be difficult to do certain jumps as Air Tux.
-- Earthflowers give you a light. Also, pressing the action key then down will turn you into a rock for a few seconds.
+- Earthflowers give you a light. Also, pressing the action key then down will turn you into a rock for a few seconds, which means Tux is completely invulnerable.
+
+The more fireflowers you collect, the more fireballs you can throw at once.
+The more iceflowers you collect, the more balls of ice you can throw at once.
+The more earthflowers you collect, the longer you can remain as a rock
 
 ### [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys)
 
