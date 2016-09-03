@@ -42,5 +42,6 @@ Info Blocks can give valuable information about the level ahead. They can be hit
 
 ![alt text](https://github.com/SuperTux/data/blob/master/images/objects/trampoline/trampoline1-0.png?raw=true "Portable Trampoline")
 ![alt text](https://github.com/SuperTux/data/blob/master/images/objects/trampoline/trampoline2-0.png?raw=true "Fixed Trampoline")
+![alt text](https://github.com/SuperTux/data/blob/master/images/objects/rusty-trampoline/trampoline1-0.png?raw=true "Rusty Portable Trampoline")
 
 Trampolines are available fixed and portable. They can be jumped on to help Tux reach new heights. Portable ones can be moved with the action key. There are also ones that rust and break after a few jumps.
