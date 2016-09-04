@@ -1,5 +1,7 @@
 # SuperTux User Manual (For v0.5.0)
 
+![](https://github.com/SuperTux/data/blob/master/images/creatures/tux/big/stand-0.png)
+
 SuperTux is a side-scrolling 2D platformer featuring Tux, the Linux mascot. Over the course of the game, Tux will have to make his way through many different levels, in order to reach and rescue Penny, who was captured by evil Nolok.
 
 This file should help players to understand the features of the game at a user level (How to play, not how it works...)
@@ -26,6 +28,8 @@ In order to do this, you need to understand how to play the game. This section o
 
 ### Worldmaps
 
+![Worldmap Image](https://i.imgur.com/JuNXmRf.jpg)
+
 A worldmap is an island or a collection of islands which Tux must explore in search of Penny (or for some other goal). They feature levels which appear as dots/icons connected by paths.
 
 Currently, there is only one worldmap availible in Story Mode: [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island)
@@ -45,6 +49,8 @@ Start Game > Contrib Levels
 There are also worldmaps availible in addons. Please see the section labelled "Addons" below for more information.
 
 ### Levels
+
+![Level Image](https://i.imgur.com/XMaMJYQ.png)
 
 A level is an area of an worldmap which Tux must traverse.
 To "win" in a level, Tux must pass through a finish area, often marked by a set of poles.
