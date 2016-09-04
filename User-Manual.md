@@ -1,6 +1,6 @@
 # SuperTux User Manual (For v0.5.0)
 
-![](https://github.com/SuperTux/data/blob/master/images/creatures/tux/big/stand-0.png)
+![](https://github.com/SuperTux/data/blob/master/images/creatures/tux/big/stand-0.png)--------------------------------------> ![](https://github.com/SuperTux/data/blob/master/images/creatures/nolok/walk-0.png) ![](https://github.com/SuperTux/data/blob/master/images/creatures/penny/penny.png) *Help Me!*
 
 SuperTux is a side-scrolling 2D platformer featuring Tux, the Linux mascot. Over the course of the game, Tux will have to make his way through many different levels, in order to reach and rescue Penny, who was captured by evil Nolok.
 
