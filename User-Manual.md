@@ -50,7 +50,7 @@ There are also worldmaps availible in addons. Please see the section labelled "A
 
 ### Levels
 
-![Level Image](https://i.imgur.com/XMaMJYQ.png)
+![Level Image](http://i.imgur.com/mCCpB74.jpg)
 
 A level is an area of an worldmap which Tux must traverse.
 To "win" in a level, Tux must pass through a finish area, often marked by a set of poles.
