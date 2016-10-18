@@ -32,7 +32,7 @@ In order to do this, you need to understand how to play the game. This section o
 
 A worldmap is an island or a collection of islands which Tux must explore in search of Penny (or for some other goal). They feature levels which appear as dots/icons connected by paths.
 
-Currently, there is only one worldmap availible in Story Mode: [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island)
+Currently, there is only one worldmap availible in Story Mode: [Icy Island](Icy-Island)
 
 In later releases, more worldmaps will feature.
 
@@ -56,7 +56,7 @@ A level is an area of an worldmap which Tux must traverse.
 To "win" in a level, Tux must pass through a finish area, often marked by a set of poles.
 
 Levels are filled with Nolok's minions, out to stop Tux's progress, and item boxes,
-which provide a way for Tux to collect coins and powerups. They are also filled with puzzles, difficult jumps, coins to collect and [other objects](https://github.com/SuperTux/supertux/wiki/Objects) which Tux can interact with.
+which provide a way for Tux to collect coins and powerups. They are also filled with puzzles, difficult jumps, coins to collect and [other objects](Objects) which Tux can interact with.
 
 First, though, you need to understand the controls:
 
@@ -82,23 +82,23 @@ Unfortunately, it's not as simple as just running and jumping freely through lev
 
 Tux can get hurt in a number of ways:
 
- - Walking into [badguys](https://github.com/SuperTux/supertux/wiki/Badguys) (see below)
+ - Walking into [badguys](Badguys) (see below)
  - Being crushed by moving objects
  - Being hit by thrown objects (see below)
  - Falling onto spikes or into lava
  - Falling down a pit
  
-Usually, this will cause Tux to lose a [powerup]((https://github.com/SuperTux/supertux/wiki/Items)). If he has a [Fire, Ice, Air or Earth Powerup](https://github.com/SuperTux/supertux/wiki/Items), he will lose his hat. If he is only [Big Tux](https://github.com/SuperTux/supertux/wiki/Items), he will shrink. Some things will make Tux die instantly, like falling down below the level. Powerups won't help you here.
+Usually, this will cause Tux to lose a [powerup](Items). If he has a [Fire, Ice, Air or Earth Powerup](Items), he will lose his hat. If he is only [Big Tux](Items), he will shrink. Some things will make Tux die instantly, like falling down below the level. Powerups won't help you here.
 
 **If he is small Tux, hurting Tux will make him die!**
  
 When Tux dies, it will cause him to return to the start of the level (unless he has reached a checkpoint, please see below)
 
-But don't worry, Tux can find [items](https://github.com/SuperTux/supertux/wiki/Items) in the levels, to help him overcome these adversaries:
+But don't worry, Tux can find [items](Items) in the levels, to help him overcome these adversaries:
 
-### [Item Boxes](https://github.com/SuperTux/supertux/wiki/Items)
+### [Item Boxes](Items)
 
-Tux can find powerups, coins and other goodies in [item boxes](https://github.com/SuperTux/supertux/wiki/Items)
+Tux can find powerups, coins and other goodies in [item boxes](Items)
 
 ### Powerups
 
@@ -113,13 +113,13 @@ The more fireflowers you collect, the more fireballs you can throw at once.
 The more iceflowers you collect, the more balls of ice you can throw at once.
 The more earthflowers you collect, the longer you can remain as a rock
 
-### [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys)
+### [Badguys](Badguys)
 
-Tux must also avoid "[Badguys](https://github.com/SuperTux/supertux/wiki/Badguys)" which are found in the level. These are Nolok's minions, and can cause Tux to get hurt.
+Tux must also avoid "[Badguys](Badguys)" which are found in the level. These are Nolok's minions, and can cause Tux to get hurt.
 
-### Other [Objects](https://github.com/SuperTux/supertux/wiki/Objects)
+### Other [Objects](Objects)
 
-There are also some other [objects](https://github.com/SuperTux/supertux/wiki/Objects) that Tux can interact with.
+There are also some other [objects](Objects) that Tux can interact with.
 
 ## Addons
 
