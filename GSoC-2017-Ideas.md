@@ -33,30 +33,6 @@ or [flexlay](https://github.com/SuperTux/flexlay).
 
 **Possible mentors:** maths22
 
-### Font improvements
-
-Our current font system is using png images containing the glyphs. This has
-proven to be hard to maintain and hard to understand for contributors, and has
-bugs in right-to-left languages and isn't able to properly display Arabic.
-
-The plan is to move to a TTF rendering library such as SDL\_ttf or HarfBuzz/FreeType and
-integrate it into the game.
-
-**Possible mentors:** Mathnerd314
-
-### In-game level editor
-
-Since removing the in-game level editor in favor of the external ones, players
-have complained about level editing being hard, and even the developer team has
-had problems with running the editor on their computers, mostly due to portability
-issues.
-
-As such, we'd like to re-introduce an in-game level editor. Work
-has started at [#269](https://github.com/SuperTux/supertux/pull/269) but it
-is far from being finished
-
-**Possible mentors:** Hume2
-
 ### OpenGL ES support
 
 Update our `opengl` renderer option to be able to support OpenGL ES. This would
