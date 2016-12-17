@@ -9,7 +9,7 @@ Many of the badguys Tux can knock out by jumping on them and squishing them. Oth
 | [Bouncing Snowball](http://supertux.lethargik.org/wiki/Bouncing_Snowball) | Icy Island | M1 | !(img/badguy/icon/Bouncingsnowball.png) |
 | [Cannon](http://supertux.lethargik.org/wiki/Cannon) | Any world | M2 |!(img/badguy/icon/ |
 | [Captian Snowball](http://supertux.lethargik.org/wiki/Captain_Snowball) | Icy Island | M2 |!(img/badguy/icon/Captain_Snowball.png) |
-| [Crystallo](http://supertux.lethargik.org/wiki/Crystallo) | Icy Island | M2 |!(img/badguy/icon/Crystallo.png) |
+| [Crystallo](http://supertux.lethargik.org/wiki/Crystallo) | Icy Island | M2 |![alt text](img/badguy/icon/Crystallo.png) |
 | [Fish](http://supertux.lethargik.org/wiki/Fish) | Any world | M2 |!(img/badguy/icon/FishBlue.png) |
 | [Flame](http://supertux.lethargik.org/wiki/Flame) | Any world | M1 |!(img/badguy/icon/Flame.png) |
 | [Flying Snowball](http://supertux.lethargik.org/wiki/Flying_Snowball) | Icy Island | M1 |!(img/badguy/icon/Flyingsnowball.png) |
