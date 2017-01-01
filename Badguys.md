@@ -17,7 +17,7 @@ Many of the badguys Tux can knock out by jumping on them and squishing them. Oth
 | [Ispy](http://supertux.lethargik.org/wiki/Ispy) | Any world | M2 |![Ispy](img/badguy/icons/Ispy.png) |
 | [Jumpy](http://supertux.lethargik.org/wiki/Jumpy) | Any world | M1 |![Jumpy](img/badguy/icons/Left-up.png) |
 | [Igel](http://supertux.lethargik.org/wiki/Igel) | Forest | M2 |![Igel](img/badguy/icons/Igel.png) |
-| [Krush and Krosh](http://supertux.lethargik.org/wiki/Krush_and_Krosh) | Icy Island | M2 |![Iceblock](img/badguy/icons/iceblock.png) |
+| [Krush and Krosh](http://supertux.lethargik.org/wiki/Krush_and_Krosh) | Icy Island | M2 |![Iceblock](img/badguy/icons/Iceblock.png) |
 | [Mole](http://supertux.lethargik.org/wiki/Mole) | Forest | M2 |![Mole](img/badguy/icons/Mole.png) |
 | [Mr. Bomb](http://supertux.lethargik.org/wiki/Mr._Bomb) | Any world | M1 |![Mr. Bomb](img/badguy/icons/Mrbomb.png) |
 | [Mr. Iceblock](http://supertux.lethargik.org/wiki/Mr._IceBlock) | Icy Island | M1 |![Mr. Iceblock](img/badguy/icons/Mr_iceblock.gif) |
