@@ -1,5 +1,5 @@
 Even though it's still unclear whether SuperTux will be accepted into
-[GSoC 2016](https://summerofcode.withgoogle.com/), this page should serve as a
+[GSoC 2017](https://summerofcode.withgoogle.com/), this page should serve as a
 list of potential ideas for students. This is not an exact plan, and changes can
 be proposed. The page can also be used to coordinate mentor assignments.
 
@@ -12,36 +12,29 @@ but it does not affect the camera. The plan would be to either repeat this more
 effectively (the patch mentioned is now out of date) or implement split-screen display,
 preferably in a way that also allows it to be used for cutscene animations such as
 pulling a switch.
-
+#### Prerequisites
+  * Knowledge of C++
+ 
+  
 **Possible mentors:** Tobbi
 
-### Web application
-
-The current implementation of our add-ons system as a simple
-[addons repo](https://github.com/SuperTux/addons) hosted on GitHub isn't really
-flexible or friendly to normal users who just want to submit add-ons. This is
-why a better solution should be made.
-
-This project includes writing a web application that allows admins (and later on,
-users) to easily manage the add-ons that are available in the game's add-on
-manager. This web application should also provide a stable API for accessing
-add-ons from within the game's add-on manager.
-
-For future goals, this service could be opened so that users can easily contribute
-own levels and add-ons using either the in-game level editor (if available)
-or [flexlay](https://github.com/SuperTux/flexlay).
-
-**Possible mentors:** maths22
 
 ### OpenGL ES support
 
 Update our `opengl` renderer option to be able to support OpenGL ES. This would
 make running SuperTux on lower-spec devices more fluent, with more fun for the
-player. Graphics skills are required for this task.
+player. 
+#### Prerequisites
+  * Knowledge of C++
+  * Graphic Skills
+  * It wouldn't be bad, to already know a bit about OpenGl
 
 ### Wiimote support
 
-SuperTux does not currently support WiiMotes; this project would implement support, using the popular [Wiiuse](https://github.com/rpavlik/wiiuse) library.
+SuperTux currently only supports keyboards and joysticks as an input device, but it would be great if you'd be able to play supertux using a bluetooth controller, e.g. a WiiMote ; this project would implement support, using the popular [Wiiuse](https://github.com/rpavlik/wiiuse) library. 
+#### Prerequisites
+  * Knowledge of C++
+  * Owning a Wii (or at least a WiiMote)
 
 ### Water Physics / Sliding Physics
 
