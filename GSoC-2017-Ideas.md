@@ -12,6 +12,7 @@ but it does not affect the camera. The plan would be to either repeat this more
 effectively (the patch mentioned is now out of date) or implement split-screen display,
 preferably in a way that also allows it to be used for cutscene animations such as
 pulling a switch.
+
 #### Prerequisites
   * Knowledge of C++
  
@@ -24,21 +25,16 @@ pulling a switch.
 Update our `opengl` renderer option to be able to support OpenGL ES. This would
 make running SuperTux on lower-spec devices more fluent, with more fun for the
 player. 
+
 #### Prerequisites
   * Knowledge of C++
   * Graphic Skills
-  * It wouldn't be bad, to already know a bit about OpenGl
+  * Possibly OpenGl Skills
 
 ### Wiimote support
 
 SuperTux currently only supports keyboards and joysticks as an input device, but it would be great if you'd be able to play supertux using a bluetooth controller, e.g. a WiiMote ; this project would implement support, using the popular [Wiiuse](https://github.com/rpavlik/wiiuse) library. 
+
 #### Prerequisites
   * Knowledge of C++
   * Owning a Wii (or at least a WiiMote)
-
-### Water Physics / Sliding Physics
-
-Penguins swim quite frequently, but there has not been any swimming in SuperTux so far. This project would add buoyancy and possibly some fluid simulation to SuperTux, allowing Tux to swim as well as any other penguin. Ideas for swimming are [here](http://supertux.lethargik.org/wiki/Swimming). Also interesting would be the ability to slide down slopes and jump off ramps. Both of these would entail adding support for oriented bounding boxes to the collision detection system.
-
-**Possible mentors:** Mathnerd314
-
