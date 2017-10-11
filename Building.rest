@@ -7,11 +7,7 @@ command line on UNIX-like systems.
 Notes for Windows Users
 -----------------------
 
-Most SuperTux developers tend to work on UNIX-like operating systems such as
-Linux or macOS. While the code can be compiled on Windows, and automated (test)
-builds run for every commit on Windows, this document currently doesn't explain
-how to build on Windows. These details can be found in the document INSTALL.md,
-at https://github.com/SuperTux/supertux/blob/master/INSTALL.md
+To build on Windows, see the instructions here: https://github.com/SuperTux/supertux/blob/master/INSTALL.md#installing-under-windows-using-cmake-and-visual-studio
 
 Dependencies
 ------------
