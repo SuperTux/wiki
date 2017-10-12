@@ -1,3 +1,5 @@
+<strong>Note:</strong> This editor guide is for the deprecated external level editor. An editor guide for the ingame editor is currently in progress.
+
 <hr/>
 A great guide for the editor, created by Devyn Collier Johnson, can be found here:
 <a href="http://dcjtech.info/topic/gaming/#supertux">DCJTech Gaming</a>
