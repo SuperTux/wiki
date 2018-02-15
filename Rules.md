@@ -1,5 +1,3 @@
-# SuperTux Forums, GitHub and IRC Rules
-
 Before now there were no written rules. It was OK, but we now need to write the rules, because some people seem to think that there are no rules at all. Therefore:
 
 Forum rules:

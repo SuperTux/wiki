@@ -1,5 +1,3 @@
-# SuperTux Glossary
-
 Here are some useful terms which will help you understand what people are talking about, on IRC, the mailing list or GitHub.
 
 ## Beginner Terms

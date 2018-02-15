@@ -1,6 +1,3 @@
-IRC
-===
-
 One of the ways of getting in touch with the SuperTux community and developers
 is to use IRC. IRC is a form of real-time chat that's been around for ages.
 While there might be some people in the channel, they might not always be
