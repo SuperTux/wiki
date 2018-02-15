@@ -1,2 +1,1 @@
-[Back to Home](https://github.com/SuperTux/supertux/wiki) |
-[Edit this page](https://github.com/SuperTux/wiki/wiki)
+[Home](https://github.com/SuperTux/supertux/wiki) | [Edit the Wiki](https://github.com/SuperTux/wiki/wiki)
