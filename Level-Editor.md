@@ -10,7 +10,7 @@ There are various videos on the internet documenting the use of the built-in lev
 - [Advanced Tutorial (Part 2/2)](https://www.youtube.com/watch?v=UoaGDuBax6E) by Oliver Buo
 - [Expert Tutorial](https://www.youtube.com/watch?v=lL3oZbPfw08) by Oliver Buo
 
-## Share Levels
+## Sharing Levels
 
 When you finished creating a level or even more, it is possible to share it with the SuperTux community.
 
@@ -68,7 +68,7 @@ Every add-on needs an `.nfo`-file which looks like this:
 
 If you just zip it like this, you are already able to share it, but the player has to save it in the `supertux2/levels/` directory and unpack it first.
 
-So, create a directory called `levels/YOUR-WORLDMAP-ID/` and move the level.stl, worldmap.stwm and the info-file into it (but not the .nfo-file!). Put all graphics in an `images/`-directory, all sounds into `sounds/` and music into `music/` in the same structure SuperTux uses. You can find the original graphics at  `C:\Program Files\SuperTux\data\images\` (Windows) or `/usr/share/supertux2/images/` (Linux). But be careful, as the file locations in the levels must match the directory structure you create.
+So, create a directory called `levels/YOUR-WORLDMAP-ID/` and move the `level.stl`, `worldmap.stwm` and the `info`-file into it (but not the `.nfo`-file!). Put all graphics in an `images/` directory, all sounds into `sounds/` and music into `music/` in the same structure SuperTux uses. You can find the original graphics at  `C:\Program Files\SuperTux\data\images\` (Windows) or `/usr/share/supertux2/images/` (Linux). But be careful, as the file locations in the levels must match the directory structure you create.
 The file structure should now look like this:
 
 ![](https://forum.freegamedev.net/download/file.php?id=10828)
