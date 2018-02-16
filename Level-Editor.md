@@ -12,16 +12,17 @@ There are various videos on the internet documenting the use of the built-in lev
 
 ## Share Levels
 
-When you finished creating a level or even more, there is an easy way to share it with the SuperTux community.
+When you finished creating a level or even more, it is possible to share it with the SuperTux community.
 
-### Go to the SuperTux directory
+### Go to the SuperTux Directory
 
 You can find them at `C:\Users\YOUR-USERNAME\AppData\Roaming\SuperTux\supertux2\levels\YOUR-LEVELSETNAME\` on Windows or `/home/YOUR-USERNAME/.local/share/supertux2/levels/YOUR-LEVELSETNAME/` on Linux.
-There should be some files called level1.stl, level2.stl and so on, depending on the number of levels you have created. Additionally, there will be a file called worldmap.stwm, if you created a worldmap.
+There should be some files called `level1.stl`, `level2.stl` and so on, depending on the number of levels you have created. Those files contain the actual levels you created.
+If you created a worldmap, there will also be a file called `worldmap.stwm`. That file stores the content of the worldmap.
 
-### The info file
+### The `info` File
 
-Another file should be called "info" without any file ending. It contains the following code:
+Another file should be called `info` without any file ending. It contains the following code:
 
 ```
 (supertux-level-subset
@@ -39,9 +40,9 @@ Another file should be called "info" without any file ending. It contains the fo
 | `levelset`           | Use `#f` if you created a worldmap and `#t` if you didn't.                                                                        |
 | `hide-from-contribs` | If this is set to #t, your levelset won't show up in-game. This should only be used internaly in SuperTux, so just leave it `#f`. |
 
-### The .nfo file
+### The `.nfo` File
 
-An add-on needs an .nfo-file which looks like this:
+Every add-on needs an `.nfo`-file which looks like this:
 
 ```
 (supertux-addoninfo
@@ -63,7 +64,7 @@ An add-on needs an .nfo-file which looks like this:
 | `author`  | Your name/nickname.                                                                                                                                                                                                              |
 | `license` | Leave it like this to allow sharing and modification of your worldmap.                                                                                                                                                           |
 
-### Create the add-on structure
+### Create the Add-On Structure
 
 If you just zip it like this, you are already able to share it, but the player has to save it in the `supertux2/levels/` directory and unpack it first.
 
@@ -74,7 +75,7 @@ The file structure should now look like this:
 
 Now the player can simply save this file in `supertux2/addons/` and activate it in-game at the "Add-ons" menu by checking the checkbox.
 
-### Compress it as a .zip-archive
+### Compress it as a `.zip`-Archive
 
 Select the levels-directory, the .nfo-file - and if you added additional content - those directories and compress them as a .zip-file.
 
