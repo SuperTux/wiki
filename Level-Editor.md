@@ -66,18 +66,34 @@ Every add-on needs an `.nfo`-file which looks like this:
 
 ### Creating the Add-On Structure
 
-If you just zip it like this, you are already able to share it, but the player has to save it in the `supertux2/levels/` directory and unpack it first.
+To have a working add-on, you will need to structure it similar to the structure described below.
+Note that if some directory or file is placed between brackets, like `[worldmap.stwm]`, those brakets are **not** part of the filename. They indicate that this is optional and only necessary in some cases.
+`[...]` means that there can be some files, but we won't specify a name or file extension here.
 
-So, create a directory called `levels/YOUR-WORLDMAP-ID/` and move the `level.stl`, `worldmap.stwm` and the `info`-file into it (but not the `.nfo`-file!). Put all graphics in an `images/` directory, all sounds into `sounds/` and music into `music/` in the same structure SuperTux uses. You can find the original graphics at  `C:\Program Files\SuperTux\data\images\` (Windows) or `/usr/share/supertux2/images/` (Linux). But be careful, as the file locations in the levels must match the directory structure you create.
-The file structure should now look like this:
+```
+├── [images]
+│   └── [...]
+├── levels
+│   └── YOUR-WORLDMAP-ID
+│       ├── level1.stl
+│       ├── level2.stl
+│       ├── [...].stl
+│       ├── info
+│       └── [worldmap.stwm]
+├── [music]
+│   └── [...]
+└── YOUR-WORLDMAP-ID.nfo
+```
 
-![](https://forum.freegamedev.net/download/file.php?id=10828)
-
-Now the player can simply save this file in `supertux2/addons/` and enable it in-game at the "Add-ons" menu by checking the checkbox.
+Put all graphics in an `images/` directory, all sounds in a `sounds/` directory and music into a `music/` directory, as shown above.
+To help you properly structure and plan this, you can take a look at the structure for such files used within SuperTux. You will find this at  `C:\Program Files\SuperTux\data\` (Windows) or `/usr/share/supertux2/` (Linux).
+But be careful, as the file locations in the levels must match the directory structure you create.
 
 ### Compressing the Add-On as a `.zip`-Archive
 
 Select the levels-directory, the `.nfo`-file - and if you added additional content - those directories and compress them as a `.zip`-file.
+
+Now the player can simply save this file in `supertux2/addons/` and enable it in-game at the "Add-ons" menu by checking the checkbox.
 
 ### Uploading the Add-On
 
