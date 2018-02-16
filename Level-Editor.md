@@ -73,7 +73,7 @@ The file structure should now look like this:
 
 ![](https://forum.freegamedev.net/download/file.php?id=10828)
 
-Now the player can simply save this file in `supertux2/addons/` and activate it in-game at the "Add-ons" menu by checking the checkbox.
+Now the player can simply save this file in `supertux2/addons/` and enable it in-game at the "Add-ons" menu by checking the checkbox.
 
 ### Compressing the Add-On as a `.zip`-Archive
 
