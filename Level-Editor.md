@@ -14,7 +14,7 @@ There are various videos on the internet documenting the use of the built-in lev
 
 When you finished creating a level or even more, it is possible to share it with the SuperTux community.
 
-### Go to the SuperTux Directory
+### Getting the Relevant Files
 
 You can find them at `C:\Users\YOUR-USERNAME\AppData\Roaming\SuperTux\supertux2\levels\YOUR-LEVELSETNAME\` on Windows or `/home/YOUR-USERNAME/.local/share/supertux2/levels/YOUR-LEVELSETNAME/` on Linux.
 There should be some files called `level1.stl`, `level2.stl` and so on, depending on the number of levels you have created. Those files contain the actual levels you created.
@@ -64,7 +64,7 @@ Every add-on needs an `.nfo`-file which looks like this:
 | `author`  | Your name/nickname.                                                                                                                                                                                                              |
 | `license` | Leave it like this to allow sharing and modification of your worldmap.                                                                                                                                                           |
 
-### Create the Add-On Structure
+### Creating the Add-On Structure
 
 If you just zip it like this, you are already able to share it, but the player has to save it in the `supertux2/levels/` directory and unpack it first.
 
@@ -75,11 +75,11 @@ The file structure should now look like this:
 
 Now the player can simply save this file in `supertux2/addons/` and activate it in-game at the "Add-ons" menu by checking the checkbox.
 
-### Compress it as a `.zip`-Archive
+### Compressing the Add-On as a `.zip`-Archive
 
 Select the levels-directory, the .nfo-file - and if you added additional content - those directories and compress them as a .zip-file.
 
-### Upload
+### Uploading the Add-On
 
 Now you can upload your file. We recommend creating a new topic [at the Add-ons forum](https://forum.freegamedev.net/viewforum.php?f=69). Describe your worldmap, and add one or two screenshots, depending on the number of levels you created. Then attach your .zip-file to the post. *Caution: Files larger than 2MB in size cannot be uploaded there.*
 
