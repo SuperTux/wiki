@@ -15,10 +15,12 @@ There are various videos on the internet documenting the use of the built-in lev
 When you finished creating a level or even more, there is an easy way to share it with the SuperTux community.
 
 ### Go to the SuperTux directory
+
 You can find them at `C:\Users\YOUR-USERNAME\AppData\Roaming\SuperTux\supertux2\levels\YOUR-LEVELSETNAME\` on Windows or `/home/YOUR-USERNAME/.local/share/supertux2/levels/YOUR-LEVELSETNAME/` on Linux.
 There should be some files called level1.stl, level2.stl and so on, depending on the number of levels you have created. Additionally, there will be a file called worldmap.stwm, if you created a worldmap.
 
 ### The info file
+
 Another file should be called "info" without any file ending. It contains the following code:
 
 ```
@@ -38,6 +40,7 @@ Another file should be called "info" without any file ending. It contains the fo
 | `hide-from-contribs` | If this is set to #t, your levelset won't show up in-game. This should only be used internaly in SuperTux, so just leave it `#f`. |
 
 ### The .nfo file
+
 An add-on needs an .nfo-file which looks like this:
 
 ```
@@ -61,6 +64,7 @@ An add-on needs an .nfo-file which looks like this:
 | `license` | Leave it like this to allow sharing and modification of your worldmap.                                                                                                                                                           |
 
 ### Create the add-on structure
+
 If you just zip it like this, you are already able to share it, but the player has to save it in the `supertux2/levels/` directory and unpack it first.
 
 So, create a directory called `levels/YOUR-WORLDMAP-ID/` and move the level.stl, worldmap.stwm and the info-file into it (but not the .nfo-file!). Put all graphics in an `images/`-directory, all sounds into `sounds/` and music into `music/` in the same structure SuperTux uses. You can find the original graphics at  `C:\Program Files\SuperTux\data\images\` (Windows) or `/usr/share/supertux2/images/` (Linux). But be careful, as the file locations in the levels must match the directory structure you create.
@@ -71,9 +75,11 @@ The file structure should now look like this:
 Now the player can simply save this file in `supertux2/addons/` and activate it in-game at the "Add-ons" menu by checking the checkbox.
 
 ### Compress it as a .zip-archive
+
 Select the levels-directory, the .nfo-file - and if you added additional content - those directories and compress them as a .zip-file.
 
 ### Upload
+
 Now you can upload your file. We recommend creating a new topic [at the Add-ons forum](https://forum.freegamedev.net/viewforum.php?f=69). Describe your worldmap, and add one or two screenshots, depending on the number of levels you created. Then attach your .zip-file to the post. *Caution: Files larger than 2MB in size cannot be uploaded there.*
 
 ## Questions? Problems?
