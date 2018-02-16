@@ -22,7 +22,7 @@ There should be some files called level1.stl, level2.stl and so on, depending on
 Another file should be called "info" without any file ending. It contains the following code:
 
 ```
-(supertux-level-subset</br>
+(supertux-level-subset
   (title (_ "Name that should be displayed"))
   (description (_ "A short description"))
   (levelset #f)
@@ -41,7 +41,7 @@ Another file should be called "info" without any file ending. It contains the fo
 An add-on needs an .nfo-file which looks like this:
 
 ```
-(supertux-addoninfo</br>
+(supertux-addoninfo
   (id "Worldmap-ID")
   (version 1)
   (type "world")
