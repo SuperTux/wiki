@@ -21,28 +21,44 @@ There should be some files called level1.stl, level2.stl and so on, depending on
 ### The info file
 Another file should be called "info" without any file ending. It contains the following code:
 
-Code | Description
------|-------------
-`(supertux-level-subset` |
-`(title (_ "Name"))` | `Title`: The name of your add-on that will be displayed to players. This can be translated with a language file.
-`(description (_ "Description"))` | `Description`: A short description about your add-on. Write a short summary. This can be translated with a language file.
-`(levelset #f)` | `Levelset`: Use #f if you created a worldmap and #t if you didn't.
-`(hide-from-contribs #f)` | `Hide-from-contribs`: If this is set to #t, your levelset won't show up in-game. This should only be used internaly in SuperTux, so just leave it #f.
-`)` |
+```
+(supertux-level-subset</br>
+  (title (_ "Name that should be displayed"))
+  (description (_ "A short description"))
+  (levelset #f)
+  (hide-from-contribs #f)
+)
+```
+
+| Property             | Description                                                                                                                       |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `title`              | The name of your add-on that will be displayed to players. This can be translated with a language file.                           |
+| `description`        | A short description about your add-on. Write a short summary. This can be translated with a language file.                        |
+| `levelset`           | Use `#f` if you created a worldmap and `#t` if you didn't.                                                                        |
+| `hide-from-contribs` | If this is set to #t, your levelset won't show up in-game. This should only be used internaly in SuperTux, so just leave it `#f`. |
 
 ### The .nfo file
 An add-on needs an .nfo-file which looks like this:
 
-Code | Description
------|------------
-`(supertux-addoninfo` | 
-`  (id "Worldmap-ID")` | `id`: The ID of your worldmap. You are only allowed to use letters, _ (underscore) and - (minus). To avoid having two add-ons with the same ID, call it "yourname_name-of-your-worldmap". The .nfo file should be named after your ID.
-`  (version 1)` | `Version`: If you updated your worldmap, count up. Only whole numbers are allowed, so don't set it to 1.1 or something.
-`  (type "world")` | `Type`: Use `"world"` or `"worldmap"` if you created a worldmap and `"levelset"` if you didn't.
-`  (title "Name")` | `Title`: The title of the worldmap.
-`  (author "Author")` | `Author`: Your name/nickname.
-`  (license "CC-by-sa 4.0")` | `License`: Leave it like this to allow sharing and modification of your worldmap.
-`)` | 
+```
+(supertux-addoninfo</br>
+  (id "Worldmap-ID")
+  (version 1)
+  (type "world")
+  (title "Your Worldmap Name")
+  (author "Your Name")
+  (license "CC-by-sa 4.0")
+)
+```
+
+| Property  | Description                                                                                                                                                                                                                      |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`      | The ID of your worldmap. You are only allowed to use letters, _ (underscore) and - (minus). To avoid having two add-ons with the same ID, call it "yourname_name-of-your-worldmap". The .nfo file should be named after your ID. |
+| `version` | If you updated your worldmap, count up. Only whole numbers are allowed, so don't set it to 1.1 or something.                                                                                                                     |
+| `type`    | Use `world` or `worldmap` if you created a worldmap and `levelset` if you didn't.                                                                                                                                                |
+| `title`   | The title of the worldmap.                                                                                                                                                                                                       |
+| `author`  | Your name/nickname.                                                                                                                                                                                                              |
+| `license` | Leave it like this to allow sharing and modification of your worldmap.                                                                                                                                                           |
 
 ### Create the add-on structure
 If you just zip it like this, you are already able to share it, but the player has to save it in the `supertux2/levels/` directory and unpack it first.
