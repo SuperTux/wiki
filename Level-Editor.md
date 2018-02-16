@@ -38,7 +38,7 @@ Code | Description
 `(supertux-addoninfo` | 
 `  (id "Worldmap-ID")` | `id`: The ID of your worldmap. You are only allowed to use letters, _ (underscore) and - (minus). To avoid having two add-ons with the same ID, call it "yourname_name-of-your-worldmap". The .nfo file should be named after your ID.
 `  (version 1)` | `Version`: If you updated your worldmap, count up. Only whole numbers are allowed, so don't set it to 1.1 or something.
-`  (type "world")` | `Type`: Use "world" or "worldmap" if you created a worldmap and "levelset" if you didn't.
+`  (type "world")` | `Type`: Use `"world"` or `"worldmap"` if you created a worldmap and `"levelset"` if you didn't.
 `  (title "Name")` | `Title`: The title of the worldmap.
 `  (author "Author")` | `Author`: Your name/nickname.
 `  (license "CC-by-sa 4.0")` | `License`: Leave it like this to allow sharing and modification of your worldmap.
@@ -47,7 +47,7 @@ Code | Description
 ### Create the add-on structure
 If you just zip it like this, you are already able to share it, but the player has to save it in the `supertux2/levels/` directory and unpack it first.
 
-So, create a directory called `levels/YOUR-WORLDMAP-ID/` and move the level.stl, worldmap.stwm and the info-file into it (but not the .nfo-file!). Put all graphics in an `images/`-directory, all sounds into `sounds/` and music into `music/` in the same structure SuperTux uses. You can find the original graphics at  `C:\Program Files\SuperTux\data\images\` (Windows) or `/usr/share/supertux2/images/` (Linux).
+So, create a directory called `levels/YOUR-WORLDMAP-ID/` and move the level.stl, worldmap.stwm and the info-file into it (but not the .nfo-file!). Put all graphics in an `images/`-directory, all sounds into `sounds/` and music into `music/` in the same structure SuperTux uses. You can find the original graphics at  `C:\Program Files\SuperTux\data\images\` (Windows) or `/usr/share/supertux2/images/` (Linux). But be careful, as the file locations in the levels must match the directory structure you create.
 The file structure should now look like this:
 
 ![](https://forum.freegamedev.net/download/file.php?id=10828)
