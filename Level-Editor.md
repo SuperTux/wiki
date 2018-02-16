@@ -55,14 +55,14 @@ Every add-on needs an `.nfo`-file which looks like this:
 )
 ```
 
-| Property  | Description                                                                                                                                                                                                                      |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `id`      | The ID of your worldmap. You are only allowed to use letters, _ (underscore) and - (minus). To avoid having two add-ons with the same ID, call it "yourname_name-of-your-worldmap". The .nfo file should be named after your ID. |
-| `version` | If you updated your worldmap, count up. Only whole numbers are allowed, so don't set it to 1.1 or something.                                                                                                                     |
-| `type`    | Use `world` or `worldmap` if you created a worldmap and `levelset` if you didn't.                                                                                                                                                |
-| `title`   | The title of the worldmap.                                                                                                                                                                                                       |
-| `author`  | Your name/nickname.                                                                                                                                                                                                              |
-| `license` | Leave it like this to allow sharing and modification of your worldmap.                                                                                                                                                           |
+| Property  | Description                                                                                                                                                                                                                        |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`      | The ID of your worldmap. You are only allowed to use letters, _ (underscore) and - (minus). To avoid having two add-ons with the same ID, call it `yourname_name-of-your-worldmap`. The `.nfo` file should be named after your ID. |
+| `version` | If you updated your worldmap, count up. Only whole numbers are allowed, so don't set it to 1.1 or something.                                                                                                                       |
+| `type`    | Use `world` or `worldmap` if you created a worldmap and `levelset` if you didn't.                                                                                                                                                  |
+| `title`   | The title of the worldmap.                                                                                                                                                                                                         |
+| `author`  | Your name/nickname.                                                                                                                                                                                                                |
+| `license` | Leave it like this to allow sharing and modification of your worldmap.                                                                                                                                                             |
 
 ### Creating the Add-On Structure
 
@@ -77,7 +77,7 @@ Now the player can simply save this file in `supertux2/addons/` and activate it 
 
 ### Compressing the Add-On as a `.zip`-Archive
 
-Select the levels-directory, the .nfo-file - and if you added additional content - those directories and compress them as a .zip-file.
+Select the levels-directory, the `.nfo`-file - and if you added additional content - those directories and compress them as a `.zip`-file.
 
 ### Uploading the Add-On
 
