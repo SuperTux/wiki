@@ -12,7 +12,7 @@ There are various videos on the internet documenting the use of the built-in lev
 
 ## Share Levels
 
-When you finished creating a level or even more, there is an easy way to share it to the SuperTux community.
+When you finished creating a level or even more, there is an easy way to share it with the SuperTux community.
 
 ### Go to the SuperTux directory
 You can find them at `C:\Users\YOUR-USERNAME\AppData\Roaming\SuperTux\supertux2\levels\YOUR-LEVELSETNAME\` on Windows or `/home/YOUR-USERNAME/.local/share/supertux2/levels/YOUR-LEVELSETNAME/` on Linux.
