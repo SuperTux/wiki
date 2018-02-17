@@ -35,8 +35,8 @@ Another file should be called `info` without any file ending. It contains the fo
 
 | Property             | Description                                                                                                                       |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `title`              | The name of your add-on that will be displayed to players. This can be translated with a language file.                           |
-| `description`        | A short description about your add-on. Write a short summary. This can be translated with a language file.                        |
+| `title`              | The name of your add-on that will be displayed to players. This can be translated with a `.po` language file.                           |
+| `description`        | A short description about your add-on. Write a short summary. This can be translated with a `.po` language file.                        |
 | `levelset`           | Use `#f` if you created a worldmap and `#t` if you didn't.                                                                        |
 | `hide-from-contribs` | If this is set to #t, your levelset won't show up in-game. This should only be used internaly in SuperTux, so just leave it `#f`. |
 
@@ -79,7 +79,8 @@ Note that if some directory or file is placed between brackets, like `[worldmap.
 │       ├── level2.stl
 │       ├── [...].stl
 │       ├── info
-│       └── [worldmap.stwm]
+│       ├── [worldmap.stwm]
+|       └── [...].po
 ├── [music]
 │   └── [...]
 └── YOUR-WORLDMAP-ID.nfo
