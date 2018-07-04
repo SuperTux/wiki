@@ -19,7 +19,7 @@ In order to edit a script, right click a scriptable object and open the script e
 
 The basic structure of a line of script is as so:
 
-object.action(Number);
+    object.action(Number);
 
 "object" is what you are going to activate, "action" is what the object does, and "Number" is the property of the action, like a number, series of numbers, or words. The semicolon activates the script, you have to use it in most situations.
 
@@ -29,19 +29,19 @@ Here are some things you can script in a sector:
 
 * Light: 
 
-settings.set_ambient_light(color1, color2, color3);
+      settings.set_ambient_light(color1, color2, color3);
 
-, where "color" is a decimal number between 0 and 1.
+ where "color" is a decimal number between 0 and 1.
 
 * Music: 
 
-play_music(\"music/song\"); 
+      play_music(\"music/song\"); 
 
 where "song" is a piece of music from the music folder.
 
 * A change to another sector's spawnpoint, or a spawnpoint in the current sector, is as shown: 
 
-Level.spawn(\"sector\", \"spawn\");
+      Level.spawn(\"sector\", \"spawn\");
 
 where "sector" is the sector and "spawn" is the spawnpoint.
 
@@ -52,28 +52,35 @@ Are you starting to get it?
 
 Here's an example of a cutscene, followed by the ending of a level.
 
-Text.set_text(\"Tux: Penny? Are you here? \\nPenny: Over here!\\nI'm coming!\");
+    Text.set_text(\"Tux: Penny? Are you here? \\nPenny: Over here!\\nI'm coming!\");
+
 	Text.set_centered(false);
+	
 	Text.fade_in(0.2);
+	
 	wait(4);
+	
 	Text.fade_out(0.2);
+	
 	wait(1.5);
 
 This would make a blob of text show around Tux that says:
 
-Tux: Penny? Are you here?
-Penny: Over here!
-I'm coming!
+> "Tux: Penny? Are you here?
+> Penny: Over here!
+> I'm coming!"
 
 The slashes represent the text and the n represents a new line.
 
 wait(); represents how long to wait for the next script. Fading In and Out would take 0.2 seconds each and the text is not centered, according to the script.
 
-Tux.deactivate();
-Effect.fade_out(1);
-wait(2);
-Tux.activate();
-Level.finish(true);
+### End of a Level
+
+    Tux.deactivate();
+    Effect.fade_out(1);
+    wait(2);
+    Tux.activate();
+    Level.finish(true);
 
 This represents the end of a level -
 * Line 1 forces Tux to stop where he is, 
@@ -82,11 +89,11 @@ This represents the end of a level -
 * line 4 reactivates Tux, 
 * and Line 5 makes the level complete without any special effects.
 
-A useful script for learning cutscenes is the script of Picnic with Penny, which is stored in a file called "intro.nut". The file "intro.stl" shows where the parts of intro.nut come in.
+A useful script for learning cutscenes is the script of Picnic with Penny, which is stored in a file called "[intro.nut](https://raw.githubusercontent.com/SuperTux/supertux/master/data/levels/world1/intro.nut)". The file [intro.stl](https://raw.githubusercontent.com/SuperTux/supertux/master/data/levels/world1/intro.stl) shows where the parts of intro.nut come in.
 
 ### Platforms
 
-platform.goto_node(1);
+    platform.goto_node(1);
 
 This line makes the object named "platform" go to the first node. Changing the 1 to 0 makes it go back to the beginning.
 
