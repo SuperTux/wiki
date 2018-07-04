@@ -1,20 +1,21 @@
-##### SuperTux Level Editor Scripting Tutorial
+# SuperTux Level Editor Scripting Tutorial
 
-What is Scripting?
+## What is Scripting?
 
 Scripting in SuperTux is when a game object is altered using things like a script trigger or a switch.  Scripting is written in the Squirrel coding language.
 
-What sort of things use scripting?
+#### What sort of things use scripting?
 
 Scripts can be activated by the following things, plus many more:
 
-Script Trigger, which activates the script.
-Switch/Button, which activate scripts when used.
-Death Scripts, which activate when an enemy dies.
-Init-Scripts, which activate when Tux enters the sector.
+* Script Trigger, which activates the script.
+* Switch/Button, which activate scripts when used.
+* Death Scripts, which activate when an enemy dies.
+* Init-Scripts, which activate when Tux enters the sector.
+
 In order to edit a script, right click a scriptable object and open the script editor.
 
-##### Structure of scripts
+## Structure of scripts
 
 The basic structure of a line of script is as so:
 
@@ -22,29 +23,32 @@ object.action(Number);
 
 "object" is what you are going to activate, "action" is what the object does, and "Number" is the property of the action, like a number, series of numbers, or words. The semicolon activates the script, you have to use it in most situations.
 
-##### Some scriptable objects
+### Some scriptable objects
 
 Here are some things you can script in a sector:
 
-Light: 
+* Light: 
 
 settings.set_ambient_light(color1, color2, color3);
 
 , where "color" is a decimal number between 0 and 1.
 
-Music: 
+* Music: 
 
 play_music(\"music/song\"); 
 
 where "song" is a piece of music from the music folder.
 
-A change to another sector's spawnpoint, or a spawnpoint in the current sector, is as shown: 
+* A change to another sector's spawnpoint, or a spawnpoint in the current sector, is as shown: 
 
 Level.spawn(\"sector\", \"spawn\");
 
 where "sector" is the sector and "spawn" is the spawnpoint.
 
+
 Are you starting to get it?
+
+### Cutscenes
 
 Here's an example of a cutscene, followed by the ending of a level.
 
@@ -71,14 +75,23 @@ wait(2);
 Tux.activate();
 Level.finish(true);
 
-This represents the end of a level. Line 1 forces Tux to stop where he is, Line 2 fades out the screen, line 3 waits 2 seconds, line 4 reactivates Tux, and Line 5 makes the level complete without any special effects.
+This represents the end of a level -
+* Line 1 forces Tux to stop where he is, 
+* Line 2 fades out the screen, 
+* line 3 waits 2 seconds, 
+* line 4 reactivates Tux, 
+* and Line 5 makes the level complete without any special effects.
+
+A useful script for learning cutscenes is the script of Picnic with Penny, which is stored in a file called "intro.nut". The file "intro.stl" shows where the parts of intro.nut come in.
+
+### Platforms
 
 platform.goto_node(1);
 
 This line makes the object named "platform" go to the first node. Changing the 1 to 0 makes it go back to the beginning.
 
-There are lots of other things you can do with scripting, and the best way to learn is to open existing levels and learn from their scripts. That's how I learned scripting!
+## Conclusion
 
-A useful script for learning cutscenes can be found in the SuperTux directory under levels/world1/intro.nut. This is the script that plays in Picnic with Penny.
+There are lots of other things you can do with scripting, and the best way to learn is to open existing levels and learn from their scripts. That's how I learned scripting!
 
 Thanks for reading and I hope you make many lovely scripts!
