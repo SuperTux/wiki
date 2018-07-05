@@ -1,4 +1,6 @@
-# SuperTux Level Editor Scripting Tutorial
+# SuperTux Basic Level Editor Scripting Tutorial
+
+Hello! It seems you have taken an interest in scripting. If you are just getting started, this tutorial is for you.
 
 ## What is Scripting?
 
@@ -18,84 +20,48 @@ In order to edit a script, right click a scriptable object and open the script e
 ## Structure of scripts
 
 The basic structure of a line of script is as so:
+```
+object.action(var);
+```
+`object` is what you are going to activate, `action` is what the object does, and `var` is the variable of the action, like a number, series of numbers, file paths or words that go more in-depth about `action`. You'd need it a lot of the time. The semicolon lets to interpreter figure out it's the end of that line, you have to use it in most situations.
 
-    object.action(Number);
-
-"object" is what you are going to activate, "action" is what the object does, and "Number" is the property of the action, like a number, series of numbers, or words. The semicolon activates the script, you have to use it in most situations.
-
-### Some scriptable objects
+### Some other scriptable objects
 
 Here are some things you can script in a sector:
 
 * Light: 
-
-      settings.set_ambient_light(color1, color2, color3);
-
- where "color" is a decimal number between 0 and 1.
+```
+ settings.set_ambient_light(color1, color2, color3);
+```
+Let's take a look at our basic structure. `settings` is our object, and setting the ambient light is our action. `Color` is a series of decimal numbers between 0 and 1.
 
 * Music: 
-
-      play_music(\"music/song\"); 
-
-where "song" is a piece of music from the music folder.
+```
+play_music(\"music/song\"); 
+```
+We don't have an object here, just an action. Here, `song` is a piece of music from the music folder, like `chipdisko.ogg`.
 
 * A change to another sector's spawnpoint, or a spawnpoint in the current sector, is as shown: 
-
-      Level.spawn(\"sector\", \"spawn\");
-
-where "sector" is the sector and "spawn" is the spawnpoint.
-
+```
+Level.spawn(\"sector\", \"spawn\");
+```
+`Level` is our object, and `spawn` is our action.  `sector` is the sector and `spawn` is the spawnpoint. A sector's spawnpoint is normally called `main` but can be named other things.
 
 Are you starting to get it?
 
 ### Cutscenes
 
-Here's an example of a cutscene, followed by the ending of a level.
-
-    Text.set_text(\"Tux: Penny? Are you here? \\nPenny: Over here!\\nI'm coming!\");
-
-	Text.set_centered(false);
-	
-	Text.fade_in(0.2);
-	
-	wait(4);
-	
-	Text.fade_out(0.2);
-	
-	wait(1.5);
-
-This would make a blob of text show around Tux that says:
-
-> "Tux: Penny? Are you here?
-> Penny: Over here!
-> I'm coming!"
-
-The slashes represent the text and the n represents a new line.
-
-wait(); represents how long to wait for the next script. Fading In and Out would take 0.2 seconds each and the text is not centered, according to the script.
-
-### End of a Level
-
-    Tux.deactivate();
-    Effect.fade_out(1);
-    wait(2);
-    Tux.activate();
-    Level.finish(true);
-
-This represents the end of a level -
-* Line 1 forces Tux to stop where he is, 
-* Line 2 fades out the screen, 
-* line 3 waits 2 seconds, 
-* line 4 reactivates Tux, 
-* and Line 5 makes the level complete without any special effects.
-
-A useful script for learning cutscenes is the script of Picnic with Penny, which is stored in a file called "[intro.nut](https://raw.githubusercontent.com/SuperTux/supertux/master/data/levels/world1/intro.nut)". The file [intro.stl](https://raw.githubusercontent.com/SuperTux/supertux/master/data/levels/world1/intro.stl) shows where the parts of intro.nut come in.
+A useful script for learning cutscenes is the script of Picnic with Penny, which is stored in a file called "[intro.nut](https://raw.githubusercontent.com/SuperTux/supertux/master/data/levels/world1/intro.nut)". The file [intro.stl](https://raw.githubusercontent.com/SuperTux/supertux/master/data/levels/world1/intro.stl) shows where the parts of intro.nut come in. Cutscenes won't be introduced here, this is a basic tutorial.
 
 ### Platforms
-
-    platform.goto_node(1);
-
-This line makes the object named "platform" go to the first node. Changing the 1 to 0 makes it go back to the beginning.
+```
+platform.goto_node(1);
+```
+This line makes the object named 'platform' go to the first node. Changing the 1 to 0 makes it go back to the beginning. If the platform has multiple nodes, you add a line for each node and change the number to the next in the sequence. If you want to make it wait before it goes to the next node, add this line in between the two lines you want to wait between:
+```
+wait(3);
+```
+This makes the platform stop moving for 3 seconds and then continue. Whatever number is in the parenthesis is the time in seconds.
 
 ## Conclusion
 
