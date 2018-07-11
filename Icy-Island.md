@@ -1,16 +1,34 @@
 **Icy Island** is the very first world in SuperTux. It is an Antarctica-type world. This world was released in _SuperTux 0.1_.
 
 ### Badguys
-Badguys for Icy Island can be found at the [Badguys](Badguys) page.
+This world contains snowy enemies and some neutral enemies, including:
+* Snowball
+* Smartball
+* Iceblock
+* Smartblock
+* Mr. Bomb
+* Haywire Bomb
+* Gold Bomb
+* Stalactite
+* Jumpy
+* Spiky
+* Captain Snowball
+* Snowman
+* Yeti
+* Cannon, with Snowshot and Short Fuse
+* Sleeping Spiky
+* Icecrusher
+* Flame
 
 ### Levels
-As of January 2010, _Icy Island_ features the following levels:
+As of July 2018, _Icy Island_ features the following levels:
 
 * Picnic with Penny
 * Welcome to Antarctica
 * The Journey Begins
 * Via Nostalgica
 * Tobgle Road
+* A Fork in the Road
 * The Somewhat Smaller Bath
 * The Frosted Fields
 * Oh no! More Snowballs!
@@ -30,6 +48,7 @@ As of January 2010, _Icy Island_ features the following levels:
 * A Path in the Clouds
 * A Mysterious House of Ice
 * The Escape
+* Bonus Level
 * The Shattered Bridge
 * Arctic Ruins
 * The Castle of Nolok
