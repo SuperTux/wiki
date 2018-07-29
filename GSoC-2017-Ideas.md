@@ -15,8 +15,7 @@ pulling a switch.
 
 #### Prerequisites
   * Knowledge of C++
- 
-  
+
 **Possible mentors:** Tobbi
 
 
@@ -24,17 +23,9 @@ pulling a switch.
 
 Update our `opengl` renderer option to be able to support OpenGL ES. This would
 make running SuperTux on lower-spec devices more fluent, with more fun for the
-player. 
+player.
 
 #### Prerequisites
   * Knowledge of C++
   * Graphic Skills
   * Possibly OpenGl Skills
-
-### Wiimote support
-
-SuperTux currently only supports keyboards and joysticks as an input device, but it would be great if you'd be able to play supertux using a bluetooth controller, e.g. a WiiMote ; this project would implement support, using the popular [Wiiuse](https://github.com/rpavlik/wiiuse) library. 
-
-#### Prerequisites
-  * Knowledge of C++
-  * Owning a Wii (or at least a WiiMote)
