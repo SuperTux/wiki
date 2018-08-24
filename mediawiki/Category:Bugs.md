@@ -1,1 +1,0 @@
-Pages and images related to bugs. This is mostly old stuff. The [http://supertux.lethargik.org/bugs/ bug tracker] is used nowdays.

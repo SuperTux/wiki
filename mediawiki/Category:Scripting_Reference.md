@@ -1,1 +1,0 @@
-[[Category:Developer documentation]]

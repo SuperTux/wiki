@@ -1,1 +1,0 @@
-This category lists articles that describe content that still needs code, sounds, graphics or anything else.

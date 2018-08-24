@@ -1,1 +1,0 @@
-This serves as a root category to all things SuperTux.

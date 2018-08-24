@@ -1,1 +1,0 @@
-This category contains templates.
