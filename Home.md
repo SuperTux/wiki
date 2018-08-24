@@ -19,10 +19,6 @@ Chat on the [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid
 
 ## For developers
 
-### For artists
-
-See [our graphics artist guide](https://github.com/SuperTux) for more information
-
 ### For level designers
 
 Publish levels to the [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid=7d271ca537028e81027e0b3cdab4f0ca),
