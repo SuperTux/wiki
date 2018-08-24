@@ -10,14 +10,14 @@
 | Burnable=yes
 | FirstVersion=Milestone 3
 }}
-:''This [[badguy]] has been removed from the [[Milestone 2]] branch in {{Revision|6280}}.''
+:''This [[badguy]] has been removed from the [[Milestone 2]] branch in [[Template:Revision|6280]].''
 '''Walking totem''' is a [[badguy]] that's not widely used. It may be used in [[Forest]] levels in the future, though.
 
 There is some “stacking” and “carrying” code in the SVN repository, which is probably a preparation for the functionality described below. Currently, only one segment is implemented – layered totems squish the ones below them.
 
 == Design considerations ==
 
-{{Proposed}}
+[[Template:Proposed]]
 
 [[Image:Totem.jpg|right|Walking Totem]]
 
@@ -45,6 +45,6 @@ Hurt it: jump at it to break into smaller Totems which can be jumped on or spat 
 * The Walking Totem looses only its topmost face when Tux jumps NORMAL on it, and it looses more faces when Tux butt-jump on it
 * maybe each face shoots, and when one is squashed, it will not shoot.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.3]]
 [[Category:Boss]]

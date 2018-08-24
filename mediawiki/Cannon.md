@@ -40,5 +40,5 @@ Image:Dispenser rocket launcher.png
 * spawn badguys in tubes
 * launches molten rocks out of a lava lakes
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.3]]

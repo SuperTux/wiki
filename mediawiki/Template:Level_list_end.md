@@ -2,7 +2,7 @@
 
 == Usage ==
 
- <nowiki>{{</nowiki>Level list end<nowiki>}}</nowiki>
+ <nowiki>[[Template:</nowiki>Level list end<nowiki>]]</nowiki>
 
 == See also ==
 

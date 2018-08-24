@@ -1,4 +1,4 @@
-{{Archive}}
+[[Template:Archive]]
 
 =Tux.getCoins or whatever=
 I searched the scripting reference and i cannot find a method to get the amount of coins wich the player owns. also, if possible, the currenst state of tux (fire , small or ice).

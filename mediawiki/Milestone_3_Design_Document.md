@@ -1,4 +1,4 @@
-{{Notice Milestone 3}}
+[[Template:Notice Milestone 3]]
 = About this Document =
 
 This document is a work in progress, nothing here is considered even remotely final.

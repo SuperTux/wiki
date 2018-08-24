@@ -1,8 +1,8 @@
 {{ #ifeq:
-  {{SERVERNAME}}
+  [[Template:SERVERNAME]]
 | www.mediawiki.org
-| [[{{{1}}}|{{{2|{{{1}}}}}}]]
-| [http://www.mediawiki.org/wiki/{{urlencode:{{{1}}}}} {{{2|{{{1}}}}}}]
+| [[[[Template:{1]]}|[[Template:{2|{{{1]]}}}}]]
+| [http://www.mediawiki.org/wiki/[[Template:urlencode:{{{1]]}}} [[Template:{2|{{{1]]}}}}]
 }}<noinclude>
 ----
 This template links to a page on mediawiki.org from the [[Help:Contents|Help pages]]. The template has two parameters:
@@ -10,7 +10,7 @@ This template links to a page on mediawiki.org from the [[Help:Contents|Help pag
 # (optional) Link description
 
 {{ #ifeq:
-{{SERVERNAME}}
+[[Template:SERVERNAME]]
 | www.mediawiki.org
 | This is so that the public domain help pages - which can be freely copied and included in other sites - have correct links to Mediawiki:
 * on external sites, it creates an external link

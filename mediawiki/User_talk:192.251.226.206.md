@@ -1,6 +1,6 @@
 == Recent Edit ==
 
-{{spam|User_talk:121.209.218.246|13571}}
+[[Template:spam|User_talk:121.209.218.246|13571]]
 
 As a side note, if you wish to contribute something positive to this project or it's associated wiki and still wish to use the Tor network to remain anonymous, I highly doubt anyone here has any problem. However, continued edits like this are not going to bring you good reputation and might end up in the subnets of these Tor exit nodes being blocked.
 

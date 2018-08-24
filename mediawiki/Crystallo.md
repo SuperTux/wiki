@@ -12,4 +12,4 @@
 }}
 '''Crystallo''' is a [[badguy]] in [[Icy Island]]. He moves back and forth in a fixed range. He is not yet widely used, but he has been implemented in some test levels and some user-submitted levels.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]

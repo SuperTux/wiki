@@ -12,7 +12,7 @@
 }}
 '''SkyDive''' is a [[badguy]] usually carried around and dropped by [[Owl]].
 
-An initial version of this badguy has been committed to [[SVN]] in {{Revision|6564}}.
+An initial version of this badguy has been committed to [[SVN]] in [[Template:Revision|6564]].
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Portable]]

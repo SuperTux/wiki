@@ -1,4 +1,4 @@
-{{Archive links}}
+[[Template:Archive links]]
 
 <blockquote style="background: white; border: 1px dotted black; padding: 1em;">''Welcome to the '''SuperTux Community Discussion!''' Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the '''edit''' button on the top of the page. Also consider the foum http://forum.freegamedev.net/viewforum.php?f=66'' </blockquote>
 <!-- Please only after this line. Do not remove anything above this. Thank you! -->
@@ -57,7 +57,7 @@ I'm new here, I've been playing 0.3.1 from fedora repo (i guess), but there's ju
 
 = Music =
 Helloes, I have two MIDI songs that I would like to contribute to SuperTux. Unfortunately, their file type (.mid) is not allowed for upload on the wiki, and I'm not interested in joining a file-sharing service. Any suggestions? [[User:Tuxnut|Tuxnut]] 23:44, 14 June 2010 (UTC)
-:Compress them as .zip or .gz and upload them on the [{{Mediawiki:Bugtracker-url}} bug tracker] in a new bug under "Sound and Music." --[[User:Mathnerd314|Mathnerd314]] 00:16, 15 June 2010 (UTC)
+:Compress them as .zip or .gz and upload them on the [[[Template:Mediawiki:Bugtracker-url]] bug tracker] in a new bug under "Sound and Music." --[[User:Mathnerd314|Mathnerd314]] 00:16, 15 June 2010 (UTC)
 ::Thanks for the quick reply; I'll do that when I have the time. [[Special:Contributions/75.0.181.82|75.0.181.82]] 03:31, 15 June 2010 (UTC)
 ::Just a question: Is anyone even there? :/ [[User:Tuxnut|TUX/√UT]] ([[User talk:Tuxnut|plz talk 2 me internets]] | [[Special:Contributions/Tuxnut|view horrendous deeds]]) 03:21, 20 June 2010 (UTC)
 :::Where? I don't get it. --[[Special:Contributions/155.223.52.5|155.223.52.5]] 10:25, 20 June 2010 (UTC)

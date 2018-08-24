@@ -1,4 +1,4 @@
-{{Milestone 2}} 
+[[Template:Milestone 2]] 
 
 [http://mxe.cc/ M Cross Evironment] (MXE) provides an easy to set up cross compiling environment which produces static windows binaries.
 You can use MXE to build SuperTux.

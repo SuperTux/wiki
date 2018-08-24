@@ -26,6 +26,6 @@ If Mr. IceBlock is eliminated, Tux is awarded 100 points. If destroyed via repea
 
 When carrying Mr. IceBlock, Tux is granted a "get out of jail free" card: if he hits another, non-invincible badguy, both Mr. IceBlock and the other badguy are killed, leaving Tux unharmed. A minor glitch occurs: Mr. IceBlock is scored as 0 points.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.1]]
 [[Category:Portable]]

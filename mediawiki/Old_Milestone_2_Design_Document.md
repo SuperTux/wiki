@@ -1,4 +1,4 @@
-{{Notice Milestone 3}}
+[[Template:Notice Milestone 3]]
 :''This page described the features that once were planned for ''Milestone&nbsp;2''. However, implementing all this turned out to be impractical. In order to clean up the codebase, much of the features originally described here have been moved to [[Milestone 3 Design Document]]. The current goals for ''Milestone 2'' are documented in [[Milestone 2 Design Document]].''
 
 = About This Page =

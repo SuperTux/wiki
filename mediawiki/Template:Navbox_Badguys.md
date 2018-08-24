@@ -2,7 +2,7 @@
 {| style="border: 1px solid silver; margin-top: 1ex;"
 ! colspan="2" style="background: #901010;" | [[Badguy|<span style="color: white;">Badguys</span>]]
 |-
-| {{Version to status cell|0.1|Icyland}}
+| [[Template:Version to status cell|0.1|Icyland]]
 | <!--
 -->   [[Bouncing Snowball]] <!--
 -->   [[Captain Snowball]] <!--
@@ -21,7 +21,7 @@
 --> · [[Spiky]] <!--
 --> · [[Stalactite]]
 |-
-| {{Version to status cell|Milestone 2|Forest world}}
+| [[Template:Version to status cell|Milestone 2|Forest world]]
 | <!--
 
 --> · [[Igel]] <!--
@@ -39,7 +39,7 @@
 
  -->
 |-
-| {{Version to status cell|Milestone 3|Tropical Island}}
+| [[Template:Version to status cell|Milestone 3|Tropical Island]]
 | <!--
 --> · [[Spider]] <!--
 --> · [[Tikitchokwe]] <!--

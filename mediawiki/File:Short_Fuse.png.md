@@ -1,1 +1,1 @@
-Image of [[Short Fuse]]. From [[SVN]] {{Revision|6511}}.
+Image of [[Short Fuse]]. From [[SVN]] [[Template:Revision|6511]].

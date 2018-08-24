@@ -1,4 +1,4 @@
-{{delete}} Some [[User ideas]] about a completely different game.
+[[Template:delete]] Some [[User ideas]] about a completely different game.
 
 =Super Tux Smash=
 

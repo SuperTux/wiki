@@ -50,5 +50,5 @@ This will stop the time.
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

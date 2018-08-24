@@ -1,25 +1,25 @@
 <includeonly>|-
-| {{#if: {{{Screenshot|}}}
-    | [[Image:{{{Screenshot}}}|100px|Screenshot of level {{{Name}}}]]
-    | {{#ifexist: Image:{{{Name}}}.png
-        | [[Image:{{{Name}}}.png|100px|Screenshot of level {{{Name}}}]]
-        | ''Not available''<br /><small>[[Media:{{{Name}}}.png|(Add&nbsp;…)]]</small>
+| [[Template:#if: {{{Screenshot|]]}
+    | [[Image:[[Template:{Screenshot]]}|100px|Screenshot of level [[Template:{Name]]}]]
+    | [[Template:#ifexist: Image:{{{Name]]}.png
+        | [[Image:[[Template:{Name]]}.png|100px|Screenshot of level [[Template:{Name]]}]]
+        | ''Not available''<br /><small>[[Media:[[Template:{Name]]}.png|(Add&nbsp;…)]]</small>
     }}
   }}
-| '''{{{Name}}}'''<br /><!--
--->{{#if: {{{Description|}}}
-     | {{{Description}}}
+| '''[[Template:{Name]]}'''<br /><!--
+-->[[Template:#if: {{{Description|]]}
+     | [[Template:{Description]]}
      | ''No description available.''
    }}
-| {{#if: {{{Difficulty|}}}
-    | {{Difficulty | {{{Difficulty}}} }}
+| [[Template:#if: {{{Difficulty|]]}
+    | [[Template:Difficulty | {{{Difficulty]]} }}
     | ''unknown''
   }}
-| {{#if: {{{Length|}}}
-    | {{Level length | 1={{{Length}}} }} <!-- hack: only strings to named arguments are trimmed (leading and trailing whitespace is removed. -->
+| [[Template:#if: {{{Length|]]}
+    | [[Template:Level length | 1={{{Length]]} }} <!-- hack: only strings to named arguments are trimmed (leading and trailing whitespace is removed. -->
     | ''unknown''
   }}
-| {{#if: {{{Contributor|}}} | {{{Contributor}}} | [[Team|''SuperTux'' team]] }}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
+| [[Template:#if: {{{Contributor|]]} | [[Template:{Contributor]]} | [[Team|''SuperTux'' team]] }}</includeonly><noinclude>The '''Level list entry''' template inserts information about a level into a level listing.
 
 == Usage ==
 

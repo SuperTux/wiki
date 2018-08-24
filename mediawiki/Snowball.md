@@ -23,5 +23,5 @@
 * [[Snowshot]]
 * [[Spiky]]
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.1]]

@@ -12,5 +12,5 @@
 }}
 '''Spider''' is a [[badguy]] available in SVN. It flies up and down vertically, hurting Tux on contact, although Tux can squish him like a [[Snowball]]. It is themed to appear in the [[Forest]] world but is not (widely) used yet.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.4]]

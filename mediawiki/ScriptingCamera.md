@@ -44,5 +44,5 @@ The ''mode'' of the camera is either '''normal''' (the camera is following the p
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

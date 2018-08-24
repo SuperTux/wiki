@@ -1,4 +1,4 @@
-{{Please don't edit this line. Thanks!}}
+[[Template:Please don't edit this line. Thanks!]]
 
 Mediawiki Update Test
 

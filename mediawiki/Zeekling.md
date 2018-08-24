@@ -15,5 +15,5 @@ __NOTOC__
 
 Should be removed from Forest World for now.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.3]]

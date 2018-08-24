@@ -14,4 +14,4 @@
 
 When shot with a [[Fireflower]], explodes immediately.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]

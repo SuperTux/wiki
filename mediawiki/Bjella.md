@@ -1,6 +1,6 @@
-{{NeedCode}}
-{{NeedSound}}
-{{NeedGraphics}}
+[[Template:NeedCode]]
+[[Template:NeedSound]]
+[[Template:NeedGraphics]]
 
 Copied from [[User ideas]].
 

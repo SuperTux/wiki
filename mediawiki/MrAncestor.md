@@ -1,6 +1,6 @@
-{{NeedCode}}
-{{NeedGraphics}}
-{{NeedSound}}
+[[Template:NeedCode]]
+[[Template:NeedGraphics]]
+[[Template:NeedSound]]
 (or Mrs Ancestor)
 
 Behaviour: a painted figure trying to hurt Tux from out of his frame when he gets close, either by reaching out/grabbing him or by screaming at him

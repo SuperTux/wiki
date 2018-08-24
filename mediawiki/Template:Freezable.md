@@ -1,6 +1,6 @@
 <includeonly>{{TableCell YesNoUnknown
-| Value={{{1|unknown}}}
-| Text={{{2|}}}
+| Value=[[Template:{1|unknown]]}
+| Text=[[Template:{2|]]}
 | YesCategory=Freezable badguys
 | NoCategory=Non freezable badguys
 | UnknownCategory=Badguys with unknown freezability

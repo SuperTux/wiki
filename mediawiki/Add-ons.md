@@ -1,4 +1,4 @@
-{{Milestone 2}}
+[[Template:Milestone 2]]
 '''Add-ons''' are extensions for ''SuperTux'' which are distributed separately from the main distribution. In most cases, they are sets of levels contributed by users or groups of users. They may, however, include custom [[tileset]]s, which may give these levels a very distinct look. Add-ons are a new feature of ''version&nbsp;0.3'' and are ''not'' available in the [[Milestone 1]] version.
 
 Add-ons can be downloaded from within ''SuperTux''. Simply ensure you have an internet connection, and select "Addons" from the main menu, where you can choose to install the currently available add-ons.

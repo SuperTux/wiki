@@ -1,4 +1,4 @@
-{{Attention|s=This user manual is by no means error free, nor is it complete yet. If you have anything to add, just click an "Edit" link and add some text}}
+[[Template:Attention|s=This user manual is by no means error free, nor is it complete yet. If you have anything to add, just click an "Edit" link and add some text]]
 == Introduction ==
 
 [[Image:RATEDFUN.png|right|Rated FUN]]
@@ -97,7 +97,7 @@ To pick up a portable object, hold down the Action button and walk into the obje
 <br style="clear: both;" />
 
 == Badguys ==
-{{See also|[[Badguys]]}}
+[[Template:See also|[[Badguys]]]]
 
 [[Image:Left-1.png|right]] [[Image:Mriceblock new.png|right]] [[Image:Spiky.png||right]] [[Image:Snowsnail.png|right]]
 

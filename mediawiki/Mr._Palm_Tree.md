@@ -10,7 +10,7 @@
 | Burnable=no
 }}
 
-{{Proposed}}
+[[Template:Proposed]]
 
 '''Mr. Palm Tree''' is a proposed badguy in the [[Tropical Island]]. He is made of three to five segments. If Tux lands on the top segment, the bottom segment is squished. Through repeated squishes, Tux can kill Mr. Palm Tree.
 

@@ -12,7 +12,7 @@
 }}
 '''Mrs. Snowball''' is a [[badguy]] found in [[Icy Island]]. In contrast to (Mr.)&nbsp;[[Snowball]] she will stay on platforms rather than falling down. [[Tux]] can easily handle these “badgals” by jumping on them, squishing them in the process.
 
-This badguy is planned for [[Milestone 2]]. It is in SVN since {{Revision|5321}}.
+This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revision|5321]].
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.4]]

@@ -1,4 +1,4 @@
-{{Navbox Milestone 2 Design Document}}
+[[Template:Navbox Milestone 2 Design Document]]
 == General ==
 
 There are 4 axes of achievement: completion, collection, speed-run, and rampage, all 4 must be considered when designing levels.
@@ -15,6 +15,6 @@ There are 4 axes of achievement: completion, collection, speed-run, and rampage,
 
 == Levels ==
 
-{{Level list Icy Island}}
+[[Template:Level list Icy Island]]
 
 [[Category:Development]]

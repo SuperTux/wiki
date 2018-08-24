@@ -45,7 +45,7 @@ Depending on who you want to reach - and for what purpose - you can either join 
 There's many things to be done - even besides actually creating game content:
 * Post good [[User ideas|ideas]] to the wiki
 * Help keep these pages up-to-date and free of spam (See [[Special:Recentchanges]])
-* Test the game on a variety of platforms (please read [[#I found a bug in the developer version!|I found a bug in the developer version!]] first) Check [[OldBugs]] and the [{{MediaWiki:bugtracker-url}} bug tracker] which supersedes that page before posting to see if your problem is already there.
+* Test the game on a variety of platforms (please read [[#I found a bug in the developer version!|I found a bug in the developer version!]] first) Check [[OldBugs]] and the [[[Template:MediaWiki:bugtracker-url]] bug tracker] which supersedes that page before posting to see if your problem is already there.
 * Write and/or maintain documentation for [[User Manual|users]] and [[Game Engine|developers]]
 
 If you want to help, just [[Contact|get in touch]] and ask.
@@ -61,7 +61,7 @@ Good question. But try http://supertuxkart.sourceforge.net/ instead.
 
 Well, that's not really a question, but great anyway. Keep in mind, however, that SuperTux is bound to have lots of bugs at this stage of development. Actually, chances are quite high that a particular bug is already known but not yet fixed because we just didn't have the time yet.
 
-If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a [[Providing a backtrace|backtrace]] of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [{{MediaWiki:Bugtracker-url}} bug tracker].
+If you find a bug you think has escaped our attention, make sure you have as much information about when it occurred as possible. This might include steps to reproduce the bug, constellations where the bug won't show, a [[Providing a backtrace|backtrace]] of the call stack if you got an exception (use a debugger for this), etc. Then add an entry to the [[[Template:MediaWiki:Bugtracker-url]] bug tracker].
 
 == SuperTux "stable package" version (0.1.3) has a minor error when compiling: ==
 That is not a question either, but we do know that you have to change line 210 of menu.h:

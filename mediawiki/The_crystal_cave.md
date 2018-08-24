@@ -1,4 +1,4 @@
-{{template:planned}}
+[[Template:template:planned]]
 <font size=5>The crystal cave</font><hr><br>
 [[image:crystalcave-concept.png|thumb|right|The concept art of the crystal cave]]
 == Story ==

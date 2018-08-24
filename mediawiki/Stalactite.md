@@ -12,5 +12,5 @@
 }}
 '''Stalactites''' are basic enemies, usually found hanging on ceilings. They start shaking when [[Tux]] approaches, falling down after a short time. They hurt Tux and kill non-invincible enemies on touch.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.1]]

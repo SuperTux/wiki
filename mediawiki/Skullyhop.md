@@ -15,5 +15,5 @@
 [[Image:Skullyhop-iced-left.png|right|thumb|Iced skully hop.]]
 
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy]]

@@ -1,31 +1,31 @@
 <noinclude><div style="color: maroon; background-color: yellow; border: 2px solid red; padding: 1em;">'''Deprecated!'''<br />Please don't use this template for new pages. Use [[Template:Infobox Badguy]] instead.</div>
-[[Category:Templates|{{PAGENAME}}]]</noinclude>'''Name:''' {{{name}}}
+[[Category:Templates|[[Template:PAGENAME]]]]</noinclude>'''Name:''' [[Template:{name]]}
 
-{{#if: {{{image|}}}
+[[Template:#if: {{{image|]]}
 |
-{{#ifexist: Image:{{{image}}}
-| [[Image:{{{image}}}|{{{name}}}]]
-| [[Image:{{{image}}}.png|{{{name}}}]]
+[[Template:#ifexist: Image:{{{image]]}
+| [[Image:[[Template:{image]]}|[[Template:{name]]}]]
+| [[Image:[[Template:{image]]}.png|[[Template:{name]]}]]
 }}
 |
-{{#ifexist: Image:{{{name}}}.png
-| [[Image:{{{name}}}.png|{{{name}}}]]
+[[Template:#ifexist: Image:{{{name]]}.png
+| [[Image:[[Template:{name]]}.png|[[Template:{name]]}]]
 | <includeonly>[[Category:Badguys without image]]</includeonly>
 }}
 }}
 
-'''Found in:''' {{{worlds}}}
+'''Found in:''' [[Template:{worlds]]}
 
-'''Appearance:''' {{{appearance}}}
+'''Appearance:''' [[Template:{appearance]]}
 
-'''Behaviour:''' {{{behaviour}}}
+'''Behaviour:''' [[Template:{behaviour]]}
 
-'''Squishable:''' {{{squish}}}
+'''Squishable:''' [[Template:{squish]]}
 
-'''Butt-Jumpable:''' {{{butt-jump}}}
+'''Butt-Jumpable:''' [[Template:{butt-jump]]}
 
-'''Freezable:''' {{{freeze}}}
+'''Freezable:''' [[Template:{freeze]]}
 
-'''Burnable:''' {{{ignite}}}
+'''Burnable:''' [[Template:{ignite]]}
 
 ''This data reflects the behavior of the development version; the behavior in older versions may vary. Please note that [[Buttjump|"butt jumping"]] is a new feature in the development version of ''SuperTux'' and is not available in the 0.1.x releases.''

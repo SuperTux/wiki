@@ -12,5 +12,5 @@
 }}
 '''Stumpy''' is a [[badguy]] in [[Forest Island]]. He is beahaviour as [[Snowball]], but it is added in version 0.3.0.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.2]]

@@ -32,5 +32,5 @@ SuperTux creates an instance named <tt>Effect</tt> when starting the scripting e
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

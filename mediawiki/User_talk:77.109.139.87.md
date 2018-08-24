@@ -1,4 +1,4 @@
-You recently made an [{{fullurl:Talk:Building_on_Windows|diff=prev&oldid=13506}} edit] to [[Talk:Building on Windows]] which could be seen as spam. I have removed the content. Please refrain from making edits like that in the future.
+You recently made an [[[Template:fullurl:Talk:Building_on_Windows|diff=prev&oldid=13506]] edit] to [[Talk:Building on Windows]] which could be seen as spam. I have removed the content. Please refrain from making edits like that in the future.
 
 Neither of the reports you filed:
 * https://supertux.lethargik.org/bugs/view.php?id=817

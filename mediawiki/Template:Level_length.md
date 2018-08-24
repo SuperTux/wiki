@@ -1,14 +1,14 @@
-<includeonly>{{#switch: {{{1}}}
+<includeonly>[[Template:#switch: {{{1]]}
 | short
 | normal
-| long={{{1}}}
-| #default={{#ifexpr: {{{1}}} < 250
-             | short ({{{1}}} tiles)
-             | {{#ifexpr: {{{1}}} <= 400
-                 | normal ({{{1}}} tiles)
-                 | {{#ifexpr: {{{1}}} > 400
-                     | long ({{{1}}} tiles)
-                     | [[Category:Invalid length]] {{{1}}}
+| long=[[Template:{1]]}
+| #default=[[Template:#ifexpr: {{{1]]} < 250
+             | short ([[Template:{1]]} tiles)
+             | [[Template:#ifexpr: {{{1]]} <= 400
+                 | normal ([[Template:{1]]} tiles)
+                 | [[Template:#ifexpr: {{{1]]} > 400
+                     | long ([[Template:{1]]} tiles)
+                     | [[Category:Invalid length]] [[Template:{1]]}
                    }}
                }}
            }}
@@ -16,7 +16,7 @@
 
 == Usage ==
 
- <nowiki>{{Level length|short}}</nowiki>
- <nowiki>{{Level length|350}}</nowiki>
+ <nowiki>[[Template:Level length|short]]</nowiki>
+ <nowiki>[[Template:Level length|350]]</nowiki>
 
 [[Category:Templates]]</noinclude>

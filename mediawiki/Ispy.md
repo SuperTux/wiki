@@ -14,5 +14,5 @@
 
 [[Image:ChristophEstart.png]]
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.3]]

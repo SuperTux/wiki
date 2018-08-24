@@ -1,4 +1,4 @@
-{{Navbox Milestone 2 Design Document}}
+[[Template:Navbox Milestone 2 Design Document]]
 Obsolete things from other pages. Note however that obsolete doesn't mean its useless, sometimes things are already done while other times they just haven't been properly integrated into the Milestone 2 Design Document yet and got moved here as a result of cleanup.
 
 For the old forest page, see [[Milestone 3 Design Document]]

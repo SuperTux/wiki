@@ -1,4 +1,4 @@
-{{Attention|s=<big>'''Please click on the "+" above or use [http://supertux.lethargik.org/wiki/index.php?title=Talk:Editor_FAQ&action=edit&section=new this link] if you want to ask about a separate issue.'''</big>}}
+[[Template:Attention|s=<big>'''Please click on the "+" above or use [http://supertux.lethargik.org/wiki/index.php?title=Talk:Editor_FAQ&action=edit&section=new this link] if you want to ask about a separate issue.'''</big>]]
 
 == Reset point/checkpoint ==
 Hi. I don't want to be a pain, so I apologize if this is stupid. How do you place the checkpoint or midpoint of a level?

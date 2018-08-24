@@ -8,7 +8,7 @@
 
 == Usage ==
 
- <nowiki>{{</nowiki>Level list begin<nowiki>}}</nowiki>
+ <nowiki>[[Template:</nowiki>Level list begin<nowiki>]]</nowiki>
 
 == See also ==
 

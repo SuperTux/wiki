@@ -1,6 +1,6 @@
 {{Level list begin
 | Caption = [[Icy Island]] levels
-| Display = {{{Display}}}
+| Display = [[Template:{Display]]}
 }}
 {{Level list entry
 | Screenshot  = Screenshot Billboard Fireflower.png
@@ -9,7 +9,7 @@
 | Difficulty  = easy
 | Length      = 310
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = The Journey Begins
@@ -17,7 +17,7 @@
 | Difficulty  = easy
 | Length      = 300
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Via Nostalgica
@@ -25,7 +25,7 @@
 | Difficulty  = easy
 | Length      = 390
 | Contributor = Bill Kendrick
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Tobgle Road
@@ -33,7 +33,7 @@
 | Difficulty  = easy
 | Length      = 270
 | Contributor = Tobias Gläßer
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = A Fork in the Road
@@ -41,7 +41,7 @@
 | Difficulty  = easy
 | Length      = unknown
 | Contributor = LMH
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = The Somewhat Smaller Bath
@@ -49,7 +49,7 @@
 | Description = overground
 | Difficulty  = easy
 | Length      = 355
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = The Frosted Fields
@@ -57,7 +57,7 @@
 | Difficulty  = easy
 | Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Oh no! More Snowballs!
@@ -65,7 +65,7 @@
 | Description = overground, plenty of holes, some copy&paste tile patterns
 | Difficulty  = medium
 | Length      = 525
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Stone Cold
@@ -73,7 +73,7 @@
 | Difficulty  = hard
 | Length      = 520
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Grumbel's Sense of Snow
@@ -81,7 +81,7 @@
 | Difficulty  = medium
 | Length      = 525
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = 23rd Airborne
@@ -89,7 +89,7 @@
 | Difficulty  = easy
 | Length      = 515
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Night Chill
@@ -97,7 +97,7 @@
 | Difficulty  = medium
 | Length      = 515
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Into the Stars
@@ -105,7 +105,7 @@
 | Difficulty  = medium
 | Length      = 520
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Above the Arctic Skies
@@ -113,7 +113,7 @@
 | Difficulty  = easy
 | Length      = 290
 | Contributor = Ricardo Cruz
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Entrance to the Cave
@@ -121,7 +121,7 @@
 | Difficulty  = hard
 | Length      = 510
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Under the Ice
@@ -129,7 +129,7 @@
 | Difficulty  = easy
 | Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Living in a Fridge
@@ -137,7 +137,7 @@
 | Difficulty  = medium
 | Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = '...or is it just me?'
@@ -145,7 +145,7 @@
 | Difficulty  = medium
 | Length      = 515
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Ice in the Hole
@@ -153,7 +153,7 @@
 | Difficulty  = hard
 | Length      = 500
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Miyamoto Monument
@@ -161,7 +161,7 @@
 | Difficulty  = hard
 | Length      = 505
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = End of the Tunnel
@@ -169,7 +169,7 @@
 | Difficulty  = medium
 | Length      = 510
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = A Path in the Clouds
@@ -177,7 +177,7 @@
 | Difficulty  = hard
 | Length      = 525
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = A Mysterious House of Ice
@@ -185,7 +185,7 @@
 | Difficulty  = medium
 | Length      = 260
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = The Escape
@@ -193,7 +193,7 @@
 | Difficulty  = easy
 | Length      = 515
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = The Shattered Bridge
@@ -201,7 +201,7 @@
 | Difficulty  = hard
 | Length      = 525
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = Arctic Ruins
@@ -209,7 +209,7 @@
 | Difficulty  = hard
 | Length      = 500
 | Contributor = [[User:Wansti|Marek Moeckel]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = The Castle of Nolok
@@ -217,7 +217,7 @@
 | Difficulty  = medium
 | Length      = 525
 | Contributor = [[User:Grumbel|Ingo Ruhnke]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
 {{Level list entry
 | Name        = No More Mr. Ice Guy
@@ -225,9 +225,9 @@
 | Difficulty  = medium
 | Length      = 40
 | Contributor = [[User:MatzeB|Matze Braun]]
-| Display     = {{{Display}}}
+| Display     = [[Template:{Display]]}
 }}
-<!-- {{Level list entry | Name=Bonus Level }} -->
+<!-- [[Template:Level list entry | Name=Bonus Level ]] -->
 {{Level list end
-| Display={{{Display}}}
+| Display=[[Template:{Display]]}
 }}

@@ -4,8 +4,8 @@ An '''Infoblock''' is a [[game object]] which is used to provide non-obvious inf
 == Format ==
 
 The message is formatted line-wise. The first character of each line determines how the line is formatted. The first character is not printed.
-The parsing is done in three functions defined in {{SvnFile|src/supertux/info_box_line.cpp}}.
-The colors are defined in {{SvnFile|src/supertux/colorscheme.cpp}}.
+The parsing is done in three functions defined in [[Template:SvnFile|src/supertux/info_box_line.cpp]].
+The colors are defined in [[Template:SvnFile|src/supertux/colorscheme.cpp]].
 
 {| border="1"
 ! Character

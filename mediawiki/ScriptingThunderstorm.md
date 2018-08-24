@@ -55,5 +55,5 @@ sector.ELIZA.electrify()
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

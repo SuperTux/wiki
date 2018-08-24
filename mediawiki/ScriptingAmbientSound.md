@@ -48,5 +48,5 @@ sector.niagara.set_pos(18, 35)
 
 * ''None''
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

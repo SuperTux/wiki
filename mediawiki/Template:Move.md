@@ -1,8 +1,8 @@
-{| class="messagebox {{#ifeq:{{{small|}}}|yes|small|standard}}-talk" style="border:1px solid #cedff2;background-color:#ffffcc" 
+{| class="messagebox [[Template:#ifeq:{{{small|]]}|yes|small|standard}}-talk" style="border:1px solid #cedff2;background-color:#ffffcc" 
 |-
-| [[Image:Merge-arrow.gif|{{#ifeq:{{{small|}}}|yes|30px|50px}}]]
-| '''Move proposal''' : It has been suggested that this page be moved to a new name{{#if:{{{1|}}}|&nbsp;: '{{{1}}}'|}}.<br/><small>Use the [[{{TALKPAGENAME}}|talk page]] to discuss this action.</small>
-|}<includeonly>{{{category|[[Category:Move proposals|{{PAGENAME}}]]}}}</includeonly><noinclude>
+| [[Image:Merge-arrow.gif|[[Template:#ifeq:{{{small|]]}|yes|30px|50px}}]]
+| '''Move proposal''' : It has been suggested that this page be moved to a new name[[Template:#if:{{{1|]]}|&nbsp;: '[[Template:{1]]}'|}}.<br/><small>Use the [[[[Template:TALKPAGENAME]]|talk page]] to discuss this action.</small>
+|}<includeonly>[[Template:{category|[[Category:Move proposals|{{PAGENAME]]]]}}}</includeonly><noinclude>
 
 ----
 
@@ -16,5 +16,5 @@ Draw attention to the move proposal prior to carrying out a move, by using this 
 ==== See also ====
 * [[Help:Moving a page]] - Note that this help page is generic mediawiki help (suitable for copying into other MediaWiki installations). The information is not customised to apply specifically to moving pages here on mediawiki.org.
 
-[[Category:Templates|{{PAGENAME}}]]
+[[Category:Templates|[[Template:PAGENAME]]]]
 </noinclude><noinclude>[[Category:Imported help]]</noinclude>

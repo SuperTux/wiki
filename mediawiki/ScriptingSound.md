@@ -15,5 +15,5 @@ This class provides a very simple interface to the audio subsystem.
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

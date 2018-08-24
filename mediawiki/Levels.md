@@ -3,7 +3,7 @@ If you have created your own levels, and wish to release them, then you can plac
 == Icy Island ==
 
 The following levels are currently part of [[Icy Island]].
-{{Level list Icy Island}}
+[[Template:Level list Icy Island]]
 
 == Incubator Island ==
 : ''→ See also: [[Incubator Island]]''
@@ -30,7 +30,7 @@ External add-ons may suffer from more bugs than those automatically downloaded t
 
 ====Add-on Collection for 0.3.3 and 0.3.3-SVN/GIT====
 
-{{Attention|s=As of January 2013 the addons accessible in-game have been moved to google code.  This means that this addon collection is no longer needed for recent versions of GIT and will no longer be maintained.  However, the addons will remain accessible for older versions of SuperTux.}}
+[[Template:Attention|s=As of January 2013 the addons accessible in-game have been moved to google code.  This means that this addon collection is no longer needed for recent versions of GIT and will no longer be maintained.  However, the addons will remain accessible for older versions of SuperTux.]]
 
 The archive of the add-on collection put together by [[User:LMH|lmh]] can be found [http://www.mediafire.com/?k47v61nz6i230 here].  To reduce the clutter on the bugtracker, a [http://forum.freegamedev.net/viewforum.php?f=69 forum] has been set up to discuss issues with the individual add-ons.  All add-ons available to the in-game add-on manager as of June 2013 (461 levels in 16 entries to contrib levels) can be manually installed as a single add-on available [http://www.mediafire.com/download/kjbozzjfz77okb9/addon_collection_JUN2013.zip here].
 

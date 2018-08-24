@@ -14,7 +14,7 @@
 
 == Proposed changes ==
 
-{{Proposed}}
+[[Template:Proposed]]
 
 Maybe a different color can be used in the forest world than in the [[Icyisland]].
 
@@ -28,5 +28,5 @@ Also, possibly there should be a few different types of fish:
 # Swordfish
 #* Curving Jump following Tux and jumping higher when there is a chance to get Tux
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.3]]

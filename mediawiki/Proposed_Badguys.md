@@ -1,4 +1,4 @@
-{{Welcome}}
+[[Template:Welcome]]
 
 See [[:Category:ProposedBadguy]]
 

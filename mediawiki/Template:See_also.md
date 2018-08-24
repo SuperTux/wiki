@@ -1,1 +1,1 @@
-:''→ See also: {{{1}}}''
+:''→ See also: [[Template:{1]]}''

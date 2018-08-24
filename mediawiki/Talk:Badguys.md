@@ -47,9 +47,9 @@ Voices like ''Implemented since MS 1/2'' and ''Current status: implemented/to be
 
 : Having such a template would really be great. Maybe it could even be a Wiki Template. Now all that left to do is finding someone willing to apply the template ;-)
 
-It works now, see [[Template:Badguy]]. Use it as <nowiki>{{</nowiki>badguy|''badguy name''|''image name''|''found in''|''behaviour''|''squishable''|''buttjumpable''|''freezable''|''burnable''<nowiki>}}</nowiki>. Italic parts are variable. -Shylence
+It works now, see [[Template:Badguy]]. Use it as <nowiki>[[Template:</nowiki>badguy|''badguy name''|''image name''|''found in''|''behaviour''|''squishable''|''buttjumpable''|''freezable''|''burnable''<nowiki>]]</nowiki>. Italic parts are variable. -Shylence
 
-New Format is <nowiki>{{Badguy | name=Spiky | image=Spiky | worlds=IcyIsland | appearance=Mr. Snowball wearing a spiky helmet | behaviour=Walks around | squish=no | butt-jump=no | freeze=yes | ignite=yes, killed }}</nowiki>
+New Format is <nowiki>[[Template:Badguy | name=Spiky | image=Spiky | worlds=IcyIsland | appearance=Mr. Snowball wearing a spiky helmet | behaviour=Walks around | squish=no | butt-jump=no | freeze=yes | ignite=yes, killed ]]</nowiki>
 
 == The [[Template:Infobox Badguy|Infobox Badguy]] template ==
 

@@ -1,4 +1,4 @@
-{{Milestone 2}}
+[[Template:Milestone 2]]
 '''Buttons and switches''' could be used a lot.
 
 # To open doors/[[switchable blocks]]

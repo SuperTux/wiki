@@ -10,13 +10,13 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 * 2010-01-11: Key levels should do statistics just like other levels, and maybe invincibility too to be safe.
 
 * 2010-01-11: Integer screen coordinates
-** Fixed in {{Revision|6568}}. --[[User:Octo|octo]] 10:01, 7 March 2010 (UTC)
+** Fixed in [[Template:Revision|6568]]. --[[User:Octo|octo]] 10:01, 7 March 2010 (UTC)
 *** What I meant was "FIXME Force integer translation for all graphics, not just tilemaps" in src/object/tilemap.cpp . [[User:Mattmccutchen|Mattmccutchen]] 00:27, 17 March 2010 (UTC)
 
 * 2010-01-11: What is the aspect ratio control supposed to do?  Values other than "auto" produce a display ridiculously stretched horizontally.  I guess we want 2880:900.  But why, when the window is smaller???
 
 * 2010-01-21: Everything in the collision detection torture test
-** The horizontal crush in gaps of width between 16 and 24 can happen in the tree stump in "Under Construction".  Easy to reproduce in 0.3.1, harder in the trunk where the moving tilemaps carry Tux along ({{bug|269}} fixed).
+** The horizontal crush in gaps of width between 16 and 24 can happen in the tree stump in "Under Construction".  Easy to reproduce in 0.3.1, harder in the trunk where the moving tilemaps carry Tux along ([[Template:bug|269]] fixed).
 
 * 2010-01-21: Shrink tilemaps to size
 
@@ -109,4 +109,4 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 ** Use the system Squirrel
 ** Desktop file
 
-* 2010-04-14: Fedora nipped the 2 from supertux2 until the latest build, and I actually liked that.  The original reason for the 2 was to have separate configuration from milestone 1 ({{revision|3968}}), but do we still care?  {{bug|535}} might help.
+* 2010-04-14: Fedora nipped the 2 from supertux2 until the latest build, and I actually liked that.  The original reason for the 2 was to have separate configuration from milestone 1 ([[Template:revision|3968]]), but do we still care?  [[Template:bug|535]] might help.

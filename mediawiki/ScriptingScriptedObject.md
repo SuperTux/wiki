@@ -96,5 +96,5 @@ The object can be accessed from the console <tt>sector.SUPERTUX</tt>.
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

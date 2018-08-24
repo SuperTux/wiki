@@ -1,37 +1,37 @@
 <includeonly>[[Category:Badguy]]</includeonly>
 {| style="float: right; font-size: 90%; width: 23em; margin-left: 1ex; border-collapse: collapse;" border="1" summary="Infobox"
 |-
-  ! colspan="2" style="font-size: 105%; text-align:center; background: #901010; color: white;" | {{{Name}}}
+  ! colspan="2" style="font-size: 105%; text-align:center; background: #901010; color: white;" | [[Template:{Name]]}
 |- valign="middle"
-  | colspan="2" align="center" | {{#if: {{{Image|}}}
-    | [[Image:{{{Image}}}|Image of {{{Name}}}]]
-    | [[Image:{{{Name}}}.png|Image of {{{Name}}}]]
+  | colspan="2" align="center" | [[Template:#if: {{{Image|]]}
+    | [[Image:[[Template:{Image]]}|Image of [[Template:{Name]]}]]
+    | [[Image:[[Template:{Name]]}.png|Image of [[Template:{Name]]}]]
   }}
 |- valign="top"
   | '''Found in:'''
-  | {{{FoundIn}}}
+  | [[Template:{FoundIn]]}
 |- valign="top"
   | '''Appearance:'''
-  | {{{Appearance}}}
+  | [[Template:{Appearance]]}
 |- valign="top"
   | '''Behaviour:'''
-  | {{{Behaviour}}}
+  | [[Template:{Behaviour]]}
 |- valign="top"
   | '''Squishable:'''
-  | <includeonly>{{Squishable|{{{Squish}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Squishable|Squishable]]<nowiki>}}</nowiki></code></noinclude>
+  | <includeonly>[[Template:Squishable|{{{Squish]]}}}</includeonly><noinclude><code><nowiki>[[Template:</nowiki>[[Template:Squishable|Squishable]]<nowiki>]]</nowiki></code></noinclude>
 |- valign="top"
   | '''[[Fireflower|Burnable]]:'''
-  | <includeonly>{{Burnable|{{{Burnable}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Burnable|Burnable]]<nowiki>}}</nowiki></code></noinclude>
+  | <includeonly>[[Template:Burnable|{{{Burnable]]}}}</includeonly><noinclude><code><nowiki>[[Template:</nowiki>[[Template:Burnable|Burnable]]<nowiki>]]</nowiki></code></noinclude>
 |- valign="top"
   | '''[[Buttjump|Butt-Jumpable]]:'''
-  | <includeonly>{{Buttjumpable|{{{Buttjump}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Buttjumpable|Buttjumpable]]<nowiki>}}</nowiki></code></noinclude>
+  | <includeonly>[[Template:Buttjumpable|{{{Buttjump]]}}}</includeonly><noinclude><code><nowiki>[[Template:</nowiki>[[Template:Buttjumpable|Buttjumpable]]<nowiki>]]</nowiki></code></noinclude>
 |- valign="top"
   | '''[[Iceflower|Freezable]]:'''
-  | <includeonly>{{Freezable|{{{Freeze}}}}}</includeonly><noinclude><code><nowiki>{{</nowiki>[[Template:Freezable|Freezable]]<nowiki>}}</nowiki></code></noinclude>
-{{#if: {{{FirstVersion|}}} |
- {{!}}-
- {{!}} '''Status:'''
- {{!}} {{Version to status cell|{{{FirstVersion}}}}} {{Version to category|{{{FirstVersion}}}}}
+  | <includeonly>[[Template:Freezable|{{{Freeze]]}}}</includeonly><noinclude><code><nowiki>[[Template:</nowiki>[[Template:Freezable|Freezable]]<nowiki>]]</nowiki></code></noinclude>
+[[Template:#if: {{{FirstVersion|]]} |
+ [[Template:!]]-
+ [[Template:!]] '''Status:'''
+ [[Template:!]] [[Template:Version to status cell|{{{FirstVersion]]}}} [[Template:Version to category|{{{FirstVersion]]}}}
 }}
 |-
   ! colspan="2" style="text-align: center;" | [[Badguys]]

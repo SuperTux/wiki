@@ -30,7 +30,7 @@ __NOTOC__
 
 == 2010-03-06 ==
 
-* Since {{Revision|6556}} spawning at ''reset points'' is "for free", i.e. you won't lose any coins if you die and start at a bell.
+* Since [[Template:Revision|6556]] spawning at ''reset points'' is "for free", i.e. you won't lose any coins if you die and start at a bell.
 * The [[Owl]] and [[SkyDive]] [[badguy]]s from the [[Milestone 2 Design Document]] have been implemented.
 
 == 2010-03-02 ==

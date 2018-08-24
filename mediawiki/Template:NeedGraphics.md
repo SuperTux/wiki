@@ -3,4 +3,4 @@
 | style="vertical-align: middle;" | This article describes content that still needs graphics.
 |}
 [[Category:Needs Graphics]]
-<noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>
+<noinclude>[[Category:Templates|[[Template:PAGENAME]]]]</noinclude>

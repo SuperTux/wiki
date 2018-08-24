@@ -69,5 +69,5 @@ Objects a path is associated with usually provide the following methods:
 * [[ScriptingTilemap|Tilemap]]
 * [[ScriptingWill-o-wisp|Will-o-wisp]]
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

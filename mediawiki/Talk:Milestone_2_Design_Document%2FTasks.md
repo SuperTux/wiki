@@ -30,4 +30,4 @@ Image:squished_left.png|crystallo-shatered
 
 But so far no response. Maybe you noticed them here.
 :I like the idea for the air arrow, but it may be a better idea to place Tux ''inside'' the green arrowhead. That way he doesn't look like he's still on the screen. [[User:Tuxnut|TUX/√UT]] ([[User talk:Tuxnut|plz talk 2 me internets]] | [[Special:Contributions/Tuxnut|view horrendous deeds]]) 20:34, 15 January 2011 (UTC)
-: You eventually found the right place when you added the pictures to the bug tracker. Please comment in {{Bug|717}}. —[[User:Octo|octo]] 09:05, 16 January 2011 (UTC)
+: You eventually found the right place when you added the pictures to the bug tracker. Please comment in [[Template:Bug|717]]. —[[User:Octo|octo]] 09:05, 16 January 2011 (UTC)

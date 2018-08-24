@@ -27,7 +27,7 @@ These instructions apply to every function you may want to adopt.
 #Check out the latest SuperTux [[Download/Subversion|development version]] and compile it by following the instructions in the [http://supertux.lethargik.org/svn/supertux/trunk/supertux/INSTALL INSTALL file] if you want to develop code or levels.
 #Modify or add something that is either listed in the [[Milestone 2 Design Document/Tasks|task list]] or seems useful to you.
 #Give us your work:
-#*The preferred way is to open a new report on our [{{MediaWiki:bugtracker-url}} bug tracker] and attach the files to it. (You can upload and attach files to bug reports using the “Upload File” button when filing or perusing them).
+#*The preferred way is to open a new report on our [[[Template:MediaWiki:bugtracker-url]] bug tracker] and attach the files to it. (You can upload and attach files to bug reports using the “Upload File” button when filing or perusing them).
 #*Alternatively, upload the files to some website or ftp server and send us the link on the mailing list.
 #*Do NOT use attachments on the mailing list; the files tend to get big, annoy people, and the mailing list often eats them
 

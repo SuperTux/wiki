@@ -12,9 +12,9 @@
 }}
 '''Snowshot''' is a [[badguy]] planned to debut in [[Milestone 2]]. He is a version of [[Snowball]] which is shot from a [[Cannon]] and flies a straight line until crashing into something.
 
-In [[SVN]] since {{Revision|5323}}.
+In [[SVN]] since [[Template:Revision|5323]].
 
 [[Image:Kamikaze-left.png|thumb|right|Old version of the badguy.]]
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.4]]

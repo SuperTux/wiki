@@ -1,6 +1,6 @@
 == Spam ==
 
-You recently made an [{{fullurl:Talk:Building_on_Windows|diff=prev&oldid=13518}} edit] to [[Talk:Building_on_Windows]] which could be seen as spam. I have removed the content. Please refrain from making edits like that in the future.
+You recently made an [[[Template:fullurl:Talk:Building_on_Windows|diff=prev&oldid=13518]] edit] to [[Talk:Building_on_Windows]] which could be seen as spam. I have removed the content. Please refrain from making edits like that in the future.
 
 As a side note, if this is you:
 * https://www.projecthoneypot.org/ip_77.247.181.162

@@ -1,4 +1,4 @@
-{{Attention|s=This is about the SuperTux 0.3 series editor, '''NOT''' about the editor built into SuperTux 0.1.}}
+[[Template:Attention|s=This is about the SuperTux 0.3 series editor, '''NOT''' about the editor built into SuperTux 0.1.]]
 
 __TOC__
 
@@ -205,7 +205,7 @@ Very common. You just need to make sure your out of the "Node Editor" and switch
 :Well you must not have tested with the 0.3.0 mono one then. Its fine with the net version.
 
 == Bugs and Errors ==
-{{Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]}}
+[[Template:Attention|s=For any bug reports where please provide the '''full backtrace''' (if one exists) when reporting at our [http://supertux.lethargik.org/bugs/ bugtracker]]]
 
 === I get an error about "Object reference not set to an instance of an object" ===
 This can be several things:

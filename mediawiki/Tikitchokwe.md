@@ -11,5 +11,5 @@
 }}
 Tikitchokwe is a proposed badguy for world 3 [[Tropical_Island]]. Graphism would be influenced by Hawaiian Tiki and Tchokwe mask design. Behavior has to be think about, limited torch or not, squish without torch but not with. 
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.4]]

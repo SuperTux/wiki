@@ -1,4 +1,4 @@
-{{Milestone 2}}
+[[Template:Milestone 2]]
 The Secret Area Trigger is used to mark secret areas, at the moment it fades a tilemap, writes a message to the screen, and adds to the number of secrets the player has found in a level, as well as marking the total number of secrets.
 
 It is specified something like the following:

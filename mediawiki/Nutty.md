@@ -1,4 +1,4 @@
-{{Proposed}}
+[[Template:Proposed]]
 {{Infobox Badguy
 | Name=Nutty
 | Image=NewNutty.png

@@ -134,5 +134,5 @@ This module contains global constants and methods.
 | represents the bottom right anchor point of a rectangle
 |}
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

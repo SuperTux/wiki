@@ -1,4 +1,4 @@
-{{Attention|s=This is the talk page for gathering feedback from users and fans. Please see the [[Long Term Issues|Developer Long Term Issues Page]] for more info}}
+[[Template:Attention|s=This is the talk page for gathering feedback from users and fans. Please see the [[Long Term Issues|Developer Long Term Issues Page]] for more info]]
 
 == What Tux should look like with Fire Flower ==
 

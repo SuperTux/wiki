@@ -40,5 +40,5 @@ The following code teleports the player to [[spawnpoint]] "main" in [[sector]] "
    ...
  )
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

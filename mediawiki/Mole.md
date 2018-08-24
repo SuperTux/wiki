@@ -10,8 +10,8 @@
 | Burnable=yes
 | FirstVersion=
 }}
-:''This [[badguy]] has been removed from the [[Milestone 2]] branch in {{Revision|6281}}.''
+:''This [[badguy]] has been removed from the [[Milestone 2]] branch in [[Template:Revision|6281]].''
 The '''Mole''' is a [[badguy]] found in the [[Forest]]. He's usually underground, so that only his molehill can be seen. He throws out small rocks in random directions that can hurt [[Tux]]. From time to time, he peeks out which is the time in which Tux can squish him by jumping on him.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.3]]

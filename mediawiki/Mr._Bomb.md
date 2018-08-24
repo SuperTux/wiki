@@ -17,5 +17,5 @@
 [[Image:Mrbomb-left-0.png|thumb|right|Old image of Mr. Bomb]]
 Due to Grumbel's complaint that “Mr. Bomb is the ugliest badguy ever created”, user [[User:Poison Ivy|Poison Ivy]] created a concept image for a new look by combining features of [[Snowball]] and the old Mr.&nbsp;Bomb in Gimp. This approach was not accepted either.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.1]]

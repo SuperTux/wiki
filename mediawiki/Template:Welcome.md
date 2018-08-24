@@ -10,6 +10,6 @@ There are lots of ways you can get involved in SuperTux's development:
 
 Happy editing!<noinclude>
 ----
-<nowiki>{{subst:Welcome}}</nowiki> to use.
+<nowiki>[[Template:subst:Welcome]]</nowiki> to use.
 
 </noinclude>

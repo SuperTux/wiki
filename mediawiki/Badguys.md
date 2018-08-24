@@ -7,7 +7,7 @@ Tux will try to avoid approaching badguys if possible. If he runs into one or on
 Many of the badguys Tux can knock out by jumping on them and squishing them. Others are only stunned by this for a short while or are insusceptible to this and hurt Tux instead. As a rule of thumb, badguys with a spiky head or helmet can usually not be jumped on. For a list of badguys that can be squished take a look at the [[:Category:Squishable badguys|squishable badguys category]].
 
 == List of badguys in SuperTux 0.1.3 ==
-{{See also|[[:Category:Badguy.1|Badguy.1 category]]}}
+[[Template:See also|[[:Category:Badguy.1|Badguy.1 category]]]]
 
 The following badguys are available in the stable 0.1&nbsp;release.
 
@@ -24,7 +24,7 @@ The following badguys are available in the stable 0.1&nbsp;release.
 ** [[Fish]]
 
 == [[Milestone 2]] ==
-{{See also|[[Milestone 2 Design Document/Enemies]]}}
+[[Template:See also|[[Milestone 2 Design Document/Enemies]]]]
 * Endemic (any world)
 ** [[Cannon]]
 ** [[Haywire]]
@@ -64,7 +64,7 @@ The following badguys are available in the stable 0.1&nbsp;release.
 * [[Worlds]]
 * [[Bosses]]
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:For Users]]
 [[Category:Design]]
 [[Category:Badguy]]

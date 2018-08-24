@@ -1,4 +1,4 @@
-{{Welcome}}
+[[Template:Welcome]]
 
 This page is for general bosses ideas. Any world-specific plans or ideas should go on the respective [[Worlds|world]] page.
 

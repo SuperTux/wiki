@@ -1,6 +1,6 @@
 :''This page is about the class in the source code. For a list of objects available in the game, see [[Objects]].''
 
-{{Outdated}}
+[[Template:Outdated]]
 [[Image:gameobjects2.png|thumb|A diagram illustrating the planned design for the GameObjects]]
 '''GameObject''' is a base class in the ''SuperTux'' source code. It is the most basic class for objects in the game. Nearly everything should inherit from this class, for instance [[badguy]]s, [[unstable tile]]s and [[trampoline]]s. All ''GameObjects'' are stored in a list by the engine.
 This list will be traversed twice per frame. First the action function is called on each object, and then the draw function of each object is called.
@@ -18,7 +18,7 @@ These are objects you can interact with. The objects will have an area in the wo
 This class provides a position and functions for collision detection. All Moving objects are held in a separate list by the engine which is also traveled once (between action and draw calls) for collision detection.
 
 == Class hierarchy ==
-:''As of {{Revision|6274}}.''
+:''As of [[Template:Revision|6274]].''
 
 * GameObject
 ** AmbientSound

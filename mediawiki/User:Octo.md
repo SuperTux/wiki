@@ -17,5 +17,5 @@ Please note that these levels are made with the latest SVN version at that time.
 
 == Release checklist ==
 
-* Set <code>SUPERTUX_VERSION</code> in {{SvnFile|CMakeLists.txt}}.
-* Replace image in {{SvnFile|data/images/objects/logo/logo.sprite}}<br />''logo_dev.png → logo.png''
+* Set <code>SUPERTUX_VERSION</code> in [[Template:SvnFile|CMakeLists.txt]].
+* Replace image in [[Template:SvnFile|data/images/objects/logo/logo.sprite]]<br />''logo_dev.png → logo.png''

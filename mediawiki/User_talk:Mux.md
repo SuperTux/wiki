@@ -1,15 +1,15 @@
 == Recent Edits ==
 
 You recently made multiple edits to multiple articles:
-*[{{fullurl:Talk:Fish|diff=prev&oldid=13426}} Talk:Fish]
-*[{{fullurl:Talk:Walking_tree|diff=prev&oldid=13428}} Talk:Walking Tree]
-*[{{fullurl:Talk:Milestone_3_Design_Document|diff=prev&oldid=13429}} Talk:Milestone 3 Design Document]
+*[[[Template:fullurl:Talk:Fish|diff=prev&oldid=13426]] Talk:Fish]
+*[[[Template:fullurl:Talk:Walking_tree|diff=prev&oldid=13428]] Talk:Walking Tree]
+*[[[Template:fullurl:Talk:Milestone_3_Design_Document|diff=prev&oldid=13429]] Talk:Milestone 3 Design Document]
 which deleted content made by other editors. I have replaced the content. If you would like to add content, do so without deleting other editors' contributions.
-You also recently made an [{{fullurl:Talk:Argrystone|diff=prev&oldid=13431}} edit] to [[Talk:Argrystone]] which could be seen as spam. I have removed the content. Please refrain from making edits like that in the future. -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 22:27, 3 July 2011 (UTC)
+You also recently made an [[[Template:fullurl:Talk:Argrystone|diff=prev&oldid=13431]] edit] to [[Talk:Argrystone]] which could be seen as spam. I have removed the content. Please refrain from making edits like that in the future. -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 22:27, 3 July 2011 (UTC)
 
 == Recent Edits and Uploads ==
 
-You recently made an [{{fullurl:Talk:Fish|diff=prev&oldid=13439}} edit] to [[Fish]]
+You recently made an [[[Template:fullurl:Talk:Fish|diff=prev&oldid=13439]] edit] to [[Fish]]
 which deleted content made by other editors. I have replaced the content. If you would like to add content, do so without deleting other editors' contributions. Please refrain from making edits like that in the future.
 
 You also recently uploaded multiple images:
@@ -20,12 +20,12 @@ which do not fit the subject and could be seen as spam. I have removed the conte
 
 == Recent Edits, Moves, and Uploads ==
 
-You recently made an [{{fullurl:Milestone_2_Design_Document/Enemies|diff=prev&oldid=13452}} edit] to [[Milestone_2_Design_Document/Enemies]]
+You recently made an [[[Template:fullurl:Milestone_2_Design_Document/Enemies|diff=prev&oldid=13452]] edit] to [[Milestone_2_Design_Document/Enemies]]
 which was not in the correct section. I have moved the content. If you would like to add content, do so in the correct section. Please refrain from making edits like that in the future.
 
 You also recently moved multiple pages:
-*[{{fullurl:Mr.Bomb|diff=prev&oldid=13455}} Mr.Bomb]
-*[{{fullurl:Talk:Mr.Bomb|diff=prev&oldid=13457}} Talk:Mr.Bomb]
+*[[[Template:fullurl:Mr.Bomb|diff=prev&oldid=13455]] Mr.Bomb]
+*[[[Template:fullurl:Talk:Mr.Bomb|diff=prev&oldid=13457]] Talk:Mr.Bomb]
 to titles that do not fit the subject. I have moved the content back. Please refrain from making edits like that in the future.
 
 You also recently uploaded multiple images:

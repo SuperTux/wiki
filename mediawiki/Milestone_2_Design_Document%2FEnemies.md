@@ -1,4 +1,4 @@
-{{Navbox Milestone 2 Design Document}}
+[[Template:Navbox Milestone 2 Design Document]]
 __NOTOC__
 This page shall describe all enemies, old and new, in as much detail as possible. We also need to settle down on proper names for enemies, since currently there is a lot of confusion. If you want see on real names, click [[real_badguys_names|here]].
 
@@ -25,7 +25,7 @@ Mrs. Snowball behaves like a normal [[Snowball]], but instead of walking off a p
 A snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball. Alternative: Let the head get destroyed and the body turn into a snowball that can be rolled around.
 
 '''Status:''' A very basic Snowman prototype is in [[SVN]], but lacks death animation and the whole separation behavior. Could use fists instead of balls as hands. -- [[User:Grumbel|Grumbel]] 09:39, 23 February 2010 (UTC)
-: Basic separation behavior has been implemented in {{Revision|6418}}. We're missing a graphic for the Snowman's body though. —[[User:Octo|octo]] 19:07, 27 February 2010 (UTC)
+: Basic separation behavior has been implemented in [[Template:Revision|6418]]. We're missing a graphic for the Snowman's body though. —[[User:Octo|octo]] 19:07, 27 February 2010 (UTC)
 : The snowman's body is now falling down when he's squished. [[User:Grumbel|grumbel]] wants to make a proper death graphic though. --[[User:Octo|octo]] 22:20, 2 March 2010 (UTC)
 <br clear="all" />
 
@@ -54,7 +54,7 @@ Here are some ideas: Flyper, Propeller, Gadget, and Floatall. I'm Agent Spook, a
 The [[Snowshot]] comes out of a [[Cannon]]. He is very angry, or very "wise", and so can levitate through the force of his will. He is so concentrated on this, however, that he cannot turn or adjust his velocity.
 
 '''Status:''' There is MrRocket in SVN which should be recycled and turned into a Snowshot. There is also a cannon that can be reused after its graphics have been replaced. -- [[User:Grumbel|Grumbel]] 11:55, 23 February 2010 (UTC)
-: There's a Kamikaze Snowball in SVN, too. "Mr. Rocket" has been removed in {{Revision|6408}}. —[[User:Octo|octo]] 21:03, 26 February 2010 (UTC)
+: There's a Kamikaze Snowball in SVN, too. "Mr. Rocket" has been removed in [[Template:Revision|6408]]. —[[User:Octo|octo]] 21:03, 26 February 2010 (UTC)
 <br clear="all" />
 
 == [[Mr. IceBlock]] ==
@@ -79,7 +79,7 @@ The base behavior of [[Mr. Bomb]] is similar to the normal Snowball, except that
 When the fuse isn't burning Haywire looks similar to a normal Bomb except color and face.
 When the fuse of Haywire gets activated he starts to run around, maybe chasing Tux. He can't be carried around. Jumping on him when the fuse is burning will cause Tux to bounce and Haywire to be stunned for a short moment (fraction of a second).
 
-'''Status:''' An initial version is available since {{Revision|6443}}.
+'''Status:''' An initial version is available since [[Template:Revision|6443]].
 
 <br clear="all" />
 
@@ -120,7 +120,7 @@ Already in the code, but not much used in Milestone1 Levels. This badguy shouldn
 [[Image:Owl.png|right]]
 A flying enemy that can carry things around and let them drop on Tux. One thing it is throwing might be ''SkyDive''.
 
-Some initial code is available from the [[SVN]] repository since {{Revision|6558}}. Graphics are still pretty much a to-do. —[[User:Octo|octo]] 17:25, 6 March 2010 (UTC)
+Some initial code is available from the [[SVN]] repository since [[Template:Revision|6558]]. Graphics are still pretty much a to-do. —[[User:Octo|octo]] 17:25, 6 March 2010 (UTC)
 
 <br clear="all" />
 
@@ -129,7 +129,7 @@ Some initial code is available from the [[SVN]] repository since {{Revision|6558
 [[Image:BombFish.png|right]]
 An enemy that is let go by ''Owl'' and then falls down to the ground and explodes.
 
-An initial version of this badguy has been committed to [[SVN]] in {{Revision|6564}}.
+An initial version of this badguy has been committed to [[SVN]] in [[Template:Revision|6564]].
 
 <br clear="all" />
 
@@ -139,8 +139,8 @@ An initial version of this badguy has been committed to [[SVN]] in {{Revision|65
 Krush and Krosh are enemies that are hanging on the ceiling. When [[Tux]] gets within one tile they will fall down and try to smash Tux. When hanging on the ceiling, Krush and Krosh'es eyes shall follow Tux. The face expression shall become angry when he is falling down.
 
 '''Status:''' Needs a cool-down time after an attack, so it doesn't go up instantly. Needs particle effects when it hits the ground. Eyes should follow Tux. Should be larger, maybe 3x3 tiles or 4x4. Should accelerate while falling down, currently looks to much like constant velocity. -- [[User:Grumbel|Grumbel]] 09:54, 23 February 2010 (UTC)
-: Acceleration has been fixed in {{Revision|6403}}. —[[User:Octo|octo]] 19:38, 26 February 2010 (UTC)
-: A cooldown timer has been added in {{Revision|6405}}. —[[User:Octo|octo]] 19:49, 26 February 2010 (UTC)
+: Acceleration has been fixed in [[Template:Revision|6403]]. —[[User:Octo|octo]] 19:38, 26 February 2010 (UTC)
+: A cooldown timer has been added in [[Template:Revision|6405]]. —[[User:Octo|octo]] 19:49, 26 February 2010 (UTC)
 <br clear="all" />
 
 == ([[Cannon]]) Dispenser ==
@@ -172,7 +172,7 @@ The flame rotates around in a circle, hurting Tux when he gets too close. It is 
 [[Image:Minibomb.png|thumbnail|right|Mini-Bomb]]
 The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
 
-A first version of this badguy has been added to [[SVN]] in {{Revision|6511}}.
+A first version of this badguy has been added to [[SVN]] in [[Template:Revision|6511]].
 
 Should "pop" like it was filled with air pressure air, not explode in fire, to make it clear that its not deadly.
 
@@ -213,6 +213,6 @@ The Eater is a very small enemy, half the size of a snowball, he can however exp
 
 [[Image:Minibomb-and-stuff.png|Milestone 2 Enemies]]
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Milestone 2]]
 [[Category:Development]]

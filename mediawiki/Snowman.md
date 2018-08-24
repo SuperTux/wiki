@@ -12,7 +12,7 @@
 }}
 '''Snowman''' is a [[badguy]] found in [[Icy Island]].
 
-This badguy is planned for [[Milestone 2]]. It is in SVN since {{Revision|6392}}.
+This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revision|6392]].
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.4]]

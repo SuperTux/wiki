@@ -3,4 +3,4 @@
 IDs: 296, 297, 295, 298<br>
 All spikes are hurting.
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]

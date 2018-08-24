@@ -1,4 +1,4 @@
-{{Navbox Milestone 2 Design Document}}
+[[Template:Navbox Milestone 2 Design Document]]
 = Actions =
 
 The major change in the basic actions will be making running automatic. Running will automatically happen when you have walked continuously into a certain direction and will be different by a new animation. The acceleration phase will be long enough to be able to make walking-jumps. The jump height should be similar to what it is now with different height for run and jump. The current implementation of having a walk-key and [[Milestone 1|Milestone-1]]-style running by default is ''not'' the intended final behavior.
@@ -17,7 +17,7 @@ When standing or walking, [[Tux]] can jump ''four tiles'' high. When running or 
 
 == Running ==
 
-Walking and running velocity and acceleration are defined in {{SvnFile|src/object/player.cpp}}. Currently those values are:
+Walking and running velocity and acceleration are defined in [[Template:SvnFile|src/object/player.cpp]]. Currently those values are:
 
 {| class="wikitable" border="1"
 ! Name

@@ -1,4 +1,4 @@
-{{Navbox Milestone 2 Design Document}}
+[[Template:Navbox Milestone 2 Design Document]]
 __TOC__
 
 This document is meant to give a reasonably detailed guide on what shall and shall not happen in Milestone&nbsp;2. It is also intended as a complete replacement of other, incomplete or otherwise flawed, Milestone&nbsp;2 documents floating around in this Wiki. This design document is written by [[User:Grumbel|Grumbel]], question and comments are welcome, use the [[Talk:Milestone 2 Design Document|talk page]] or the [[IRC]] channel for that. At the moment this document is a work-in-progress, meaning goals might change as time progresses. This document has not yet been approved by any other member of the ''SuperTux'' [[Team|development staff]].
@@ -34,14 +34,14 @@ The Milestone 2 Design Document lists a lot of additional features for the icewo
 The levels of Milestone1 lack verticality as well as unisolid tiles, Milestone2 should fix that by adding those elements. Also the levels should be shortened/split to avoid the need for reset points. Another important point is that each level should try follow a clear design premise instead of being more or less random collection of tiles and enemies. The levels from Milestone1 should be taken as a point of inspiration and starting point, not as something that is verbatim copied over to Milestone2. 
 
 The ''worldmap'' should be rolled back to that of [[Milestone 1]], i.e. a mostly linear map, but additional optional paths shall be added.
-: This has been done in {{Revision|6424}} and is included in this form in ''version 0.3.3''. The only additional path is to the bonus level, though. --[[User:Octo|octo]] 07:12, 2 March 2010 (UTC)
+: This has been done in [[Template:Revision|6424]] and is included in this form in ''version 0.3.3''. The only additional path is to the bonus level, though. --[[User:Octo|octo]] 07:12, 2 March 2010 (UTC)
 
 See [[Milestone 2 Design Document/Levels]] for a more detailed analysis of the current levels.
 
 == Cleanup ==
 
 The test/ levels are currently quite a big mess, there needs to be cleanup to reduce them to those that are really needed otherwise its to easy to miss the ones that are important.
-: [[User:Mathnerd314|Mathnerd314]] has cleaned up test levels a bit in {{Revision|6477}}. --[[User:Octo|octo]] 07:09, 2 March 2010 (UTC)
+: [[User:Mathnerd314|Mathnerd314]] has cleaned up test levels a bit in [[Template:Revision|6477]]. --[[User:Octo|octo]] 07:09, 2 March 2010 (UTC)
 
 = World 1 - Icyisland =
 
@@ -75,7 +75,7 @@ The text based intro and credits shall be replaced with cutscenes, showing the e
 
 = Things to know =
 
-* {{SvnFile|data/levels/test/unisolid.stl}} shows a few new features of Milestone&nbsp;2 (parallax scrolling, unisolid snow tiles, new water)
+* [[Template:SvnFile|data/levels/test/unisolid.stl]] shows a few new features of Milestone&nbsp;2 (parallax scrolling, unisolid snow tiles, new water)
 * [[News]] is there to be used, so if something interesting happens, write it down there
 
 [[Category:Development]]

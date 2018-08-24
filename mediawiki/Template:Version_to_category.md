@@ -1,4 +1,4 @@
-<includeonly>{{#switch: {{{1|}}}
+<includeonly>[[Template:#switch: {{{1|]]}
  | = <!-- empty is ignored for now -->
  | 0.1 = [[Category:Version 0.1]]
  | 0.3 = [[Category:Version 0.3]]
@@ -26,7 +26,7 @@ Currently the following mapping is performed:
 
 == Example usage ==
 
- <nowiki>{{Version to category|0.3}}</nowiki>
+ <nowiki>[[Template:Version to category|0.3]]</nowiki>
 
 [[Category:Templates]]
 </noinclude>

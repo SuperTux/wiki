@@ -1,4 +1,4 @@
-{{Attention|s=This page is for developers. Users: please use [[Talk:Long Term Issues|talk page]]}}
+[[Template:Attention|s=This page is for developers. Users: please use [[Talk:Long Term Issues|talk page]]]]
 
 == What Tux should look like with Fire Flower ==
 

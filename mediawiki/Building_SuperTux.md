@@ -1,4 +1,4 @@
-{{Milestone 2}}  {{Outdated}}
+[[Template:Milestone 2]]  [[Template:Outdated]]
 '''Outdated''': SVN version uses cmake/make instead of autoconf/jam. See [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/INSTALL?view=markup INSTALL]. 
 
 = Some notes for windows users =

@@ -1,1 +1,1 @@
-{{Rejected}}
+[[Template:Rejected]]

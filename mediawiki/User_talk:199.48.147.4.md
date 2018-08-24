@@ -1,6 +1,6 @@
 == Recent Edit ==
 
-{{spam|User_talk:121.209.218.246|13561}}
+[[Template:spam|User_talk:121.209.218.246|13561]]
 
 As a side note, if this is you:
 * http://www.projecthoneypot.org/ip_199.48.147.4

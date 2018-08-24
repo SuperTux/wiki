@@ -22,5 +22,5 @@ An instance under sector.settings is available from scripts and the console.
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

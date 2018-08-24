@@ -1,5 +1,5 @@
-{{NeedCode}}
-{{NeedGraphics}}
+[[Template:NeedCode]]
+[[Template:NeedGraphics]]
 
 Behaviour: Drop from trees or have pouncing movement like wolf suggestion
 

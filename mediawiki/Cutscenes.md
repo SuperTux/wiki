@@ -1,4 +1,4 @@
-{{Outdated}}
+[[Template:Outdated]]
 It would be very nice to have support for cutscenes to drive the story of the game forward and enhance athmosphere for the player. No details discussed yet. Some questions that should be answered:
 
 * video files like .avi or [[Scripting|scripted]] "in-game" cutscenes that use the game-engine?

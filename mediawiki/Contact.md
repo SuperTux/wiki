@@ -7,7 +7,7 @@ Development is mainly coordinated via IRC and the mailing list. Be sure to visit
 [http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org Subscription page],
 [http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/ Archives], [https://lists.berlios.de/pipermail/supertux-devel/ Old Archives]
 
-Except for the IRC Channel, this is where most of the development is being discussed. This is the place to send praises and constructive criticism, inform the team about publicity, etc. Note that bugs, including translation updates, should be reported in the [{{MediaWiki:Bugtracker-url}} bug tracker] and not to this list. Due to large amounts of spam, the list is currently set to subscribers-only, so please join before sending anything.
+Except for the IRC Channel, this is where most of the development is being discussed. This is the place to send praises and constructive criticism, inform the team about publicity, etc. Note that bugs, including translation updates, should be reported in the [[[Template:MediaWiki:Bugtracker-url]] bug tracker] and not to this list. Due to large amounts of spam, the list is currently set to subscribers-only, so please join before sending anything.
 
 == Repository updates (Supertux-commit) ==
 [http://lists.lethargik.org/listinfo.cgi/supertux-commit-lethargik.org Subscription page],

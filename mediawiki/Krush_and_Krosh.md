@@ -18,4 +18,4 @@ Both "icecrushers" are available in [[SVN]], but only Krush is implemented in le
 
 [[Image:Icecrusher (concept art).png|400px|Concept art for ''Icecrusher'']]
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]

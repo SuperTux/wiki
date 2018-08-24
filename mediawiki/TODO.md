@@ -4,7 +4,7 @@ Documents and ideas: [[Milestone 2]] esp. [[World 2]]
 
 == Notes ==
 
-{{Attention|s=Only developers should edit this page. Please add [[User ideas]] and [[Bugs]] to the end of their pages}}
+[[Template:Attention|s=Only developers should edit this page. Please add [[User ideas]] and [[Bugs]] to the end of their pages]]
 
 Apart from issues listed here, [[:Category:Needs Code]], [[:Category:Needs Sound]] and [[:Category:Needs Graphics]] list articles that describe content which still lacks one of the three. Bugs can be found in our [http://supertux.lethargik.org/bugs bug tracker].
 

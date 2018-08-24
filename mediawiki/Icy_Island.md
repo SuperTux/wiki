@@ -6,7 +6,7 @@
 Badguys for Icyisland can be found at the [[Badguys]] page.
 
 == Levels ==
-{{See also|[[Levels#Icy Island]]}}
+[[Template:See also|[[Levels#Icy Island]]]]
 Currently (January 2010) the ''Icy Island'' consists of the following 27&nbsp;levels:
 
 * Picnic with Penny (the events are technically right before Welcome to Antarctica, but the level can only be explored/seen in the Test Levels)

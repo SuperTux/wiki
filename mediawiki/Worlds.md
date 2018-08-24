@@ -1,4 +1,4 @@
-{{Welcome}}
+[[Template:Welcome]]
 == Established Worlds ==
 * [[World 1|World 1 - Icyisland]]
 * [[World 2|World 2 - Forest]]

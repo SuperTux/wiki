@@ -1,6 +1,6 @@
-{{Navbox Milestone 2 Design Document}}
+[[Template:Navbox Milestone 2 Design Document]]
 
-{{nextversion}}
+[[Template:nextversion]]
 == Code Tasks ==
 * properly GPL'ify the supertux-editor (COPYING file, GPL headers, etc.)
 * SDL2 migration (and all related side effect)
@@ -74,7 +74,7 @@
 * [[Flying Snowball]]: Change timings to match that of Milestone1
 * [[Flying Snowball]]: smoke effect for the motor seem to be to seldomly triggered
 * [[Krush and Krosh|Icecrusher]]: gravitation instead of linear, facial expression.
-*: Gravitation has been done in {{Revision|6403}}. —[[User:Octo|octo]] 19:19, 26 February 2010 (UTC)
+*: Gravitation has been done in [[Template:Revision|6403]]. —[[User:Octo|octo]] 19:19, 26 February 2010 (UTC)
 * [[Krosh]] (big icecrusher): add a larger version of [[Krush]] (the icecrusher), twice the size (4x4 files)
 
 == Postpone to Milestone 3 ==
@@ -114,7 +114,7 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * [[Haywire]]: new bomb type (crazy pink bomb) that runs around after being touched
 ** Initial version is done. Waiting for feedback and improvements. See [[Milestone 2 Design Document/Enemies]] --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
 * [[Mr. Bomb]]: Roll back to behavior of [[Milestone 1]], get rid of particle effects
-** Particle effects are currently deactivated in {{SvnFile|src/object/explosion.cpp}}. --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
+** Particle effects are currently deactivated in [[Template:SvnFile|src/object/explosion.cpp]]. --[[User:Octo|octo]] 07:08, 5 March 2010 (UTC)
 * add PNG support for screenshots, BMP support currently broken
 ** <small>What's wrong with BMP support? It seems to work for me - [[User:Sik0fewl|sik0fewl]] 06:11, 13 June 2008 (UTC)</small>
 *** ACK, BMP-based screenshots work, at least with the SDL renderer. --[[User:Octo|octo]] 06:53, 5 March 2010 (UTC)
@@ -197,11 +197,11 @@ These are items that can be postponed until milestone 3, but are still welcome f
 * <strike>can't run while carrying an object, but should be able to</strike>
 :No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial "no stuff behind this line" object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[[User:WolfgangB|WolfgangB]] 01:22, 25 May 2008 (UTC))  
 :: With *large* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [[User:Grumbel|Grumbel]] 17:13, 28 May 2008 (UTC)
-::: The speed limiting code has been deactivated in {{Revision|6540}}. --[[User:Octo|octo]] 06:51, 5 March 2010 (UTC)
+::: The speed limiting code has been deactivated in [[Template:Revision|6540]]. --[[User:Octo|octo]] 06:51, 5 March 2010 (UTC)
 * <strike>General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour</strike>
-** Fixed in {{Revision|6554}} —[[User:Octo|octo]] 07:35, 9 March 2010 (UTC)
+** Fixed in [[Template:Revision|6554]] —[[User:Octo|octo]] 07:35, 9 March 2010 (UTC)
 * <strike>[[Flying Snowball]]: Add acceleration/deceleration instead of linear up and down</strike>
-*: Isn't this the current behavior ({{Revision|6402}})? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
+*: Isn't this the current behavior ([[Template:Revision|6402]])? —[[User:Octo|octo]] 18:22, 26 February 2010 (UTC)
 * <strike>background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL_NEAREST instead of GL_LINEAR)</strike>
 
 [[Category:Development]]

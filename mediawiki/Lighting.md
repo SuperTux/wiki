@@ -1,4 +1,4 @@
-{{Outdated}}
+[[Template:Outdated]]
 == Simple Lighting ==
 [[Image:Lighting4.png|thumb|right|Simple non colored lighting]]
 

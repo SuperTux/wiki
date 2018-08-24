@@ -44,5 +44,5 @@ sector.CANDLE1.set_burning(false)
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

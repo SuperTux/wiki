@@ -1,4 +1,4 @@
-{{Proposed}}
+[[Template:Proposed]]
 
 Tropical Island is a proposed world/island that could be the third world of SuperTux. The suggested plotline for this world is as follows:
 

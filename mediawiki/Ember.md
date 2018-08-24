@@ -1,5 +1,5 @@
-{{NeedGraphics}}
-{{NeedCode}}
+[[Template:NeedGraphics]]
+[[Template:NeedCode]]
 
 * small Flame with eyes
 * rises while slowly swinging left and right

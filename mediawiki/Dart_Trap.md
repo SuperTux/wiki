@@ -1,4 +1,4 @@
-{{NeedSound}}
+[[Template:NeedSound]]
 {{Infobox Badguy
 | Name=Dart Trap
 | Image=
@@ -14,7 +14,7 @@
 The '''Dart trap''' is a [[badguy]] in form of a skull. In regular intervals it shoots darts out of its mouth. The darts fly in a straight line, hurt [[Tux]] and cannot be destroyed but must be avoided. The ''Dart trap'' is mostly found in castles in the [[Forest]] world. 
 
 == To be done ==
-{{outdated}}
+[[Template:outdated]]
 
 * mechanical sound when dart is loaded
 * hissing sound when dart is fired

@@ -48,5 +48,5 @@ sector.WIND1.stop()
 
 None
 
-{{Navbox Scripting reference}}
+[[Template:Navbox Scripting reference]]
 [[Category:Scripting Reference]]

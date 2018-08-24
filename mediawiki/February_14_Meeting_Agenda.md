@@ -1,4 +1,4 @@
-{{Attention|s=If you have anything to add, just click the "Edit" link and add some text}}
+[[Template:Attention|s=If you have anything to add, just click the "Edit" link and add some text]]
 
 The '''next developer's meeting''' will be held on ''Saturday, February&nbsp;20<sup>th</sup>'' starting at ''15:00&nbsp;UCT''. Anybody interested in ''SuperTux'' is invited to participate. The discussion will be held on IRC, network ''freenode'', channel ''#supertux''. Minutes of the meeting will be made available at [[Meeting 2010-02-20]].
 
@@ -30,7 +30,7 @@ The [[Meeting 2010-02-14‎|minutes]] and [[Talk:Meeting 2010-02-14‎|IRC log]]
 
 == Things to do ==
 
-* Document the license of data files in a file named <code>AUTHORS</code> or <code>CONTRIBUTORS</code>. See also: {{Bug|578}}.
+* Document the license of data files in a file named <code>AUTHORS</code> or <code>CONTRIBUTORS</code>. See also: [[Template:Bug|578]].
 * Fix bugs / things you don't like
 * Make certain game is fun
 * Update wiki pages (clean up design documents)

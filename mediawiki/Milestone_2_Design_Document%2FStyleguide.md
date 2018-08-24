@@ -1,4 +1,4 @@
-{{Navbox Milestone 2 Design Document}}
+[[Template:Navbox Milestone 2 Design Document]]
 These guidelines should be kept for any level that appears in the main SuperTux level sequence. Any deviation should be rare and with great consideration (for example for a secret area).  Designers making custom levels intended for an [[Add-on]] or Bonus Island are free of regulations - that's what those sections are for.  However, keep in mind that if your levels violate too many of these suggestions people will likely find them not very fun.
 
 == Setting ==

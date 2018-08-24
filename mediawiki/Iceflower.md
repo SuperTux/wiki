@@ -1,5 +1,5 @@
-{{NeedGraphics}}
-{{NeedSound}}
+[[Template:NeedGraphics]]
+[[Template:NeedSound]]
 [[Image:Ice flower.png|right|The iceflower symbol]]
 The '''iceflower''' will give [[Tux]] the [[Actions|ability]] to shoot ice bullets. Ice bullets will not bounce like [[Fireflower|fire bullets]], but will shoot out in a straight path towards the enemy. When the ice bullet hits an enemy it will freeze him for a short time, if the enemy [[:Category:Freezable badguys|is freezable]] not [[Snowball]], [[Mr. Iceblock]] and [[Bouncing Snowball]].
 

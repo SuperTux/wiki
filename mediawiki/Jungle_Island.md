@@ -1,4 +1,4 @@
-{{Template:planned}}
+[[Template:Template:planned]]
 <font size=5>Jungle island</font><hr><br>
 [[Image:jungle-concept.png|thumb|right|Concept art for Jungle island]]
 == Story ==

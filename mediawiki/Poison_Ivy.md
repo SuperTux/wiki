@@ -21,5 +21,5 @@
 * [[Walking tree]]
 * [[Walking leaf]]
 
-{{Navbox Badguys}}
+[[Template:Navbox Badguys]]
 [[Category:Badguy.3]]
