@@ -1,0 +1,705 @@
+<pre>
+(17:54:27) Mathnerd314: sorry about leaving the date in confusion
+(17:54:49) adamorjames: You already know how I feel about the yeti
+(17:54:52) WolfgangB: what? oh, so not monday, i see :-( 
+(17:55:28) Mathnerd314: today does work, though?
+(17:56:13) WolfgangB: well, i think i can do soem multitastking.
+(17:56:29) Mathnerd314: AnMaster, anttil, ced117_, claymore_, const86, danielle, Greeny|afk, Lazure, LinuxDonald, MMlosh, netsrot, octo, ohnobinki, shadowmaster, sik0fewl, supertux, Tux^offline, tuxdev, woldemar, Xjs|moonshine, yetanothername: meeting starts in 5 minutes
+Topic changed from: 
+Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda - Meeting in 10min
+To:
+Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda - Meeting in 5min
+(17:56:45) Mathnerd314 has changed the topic to: Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda - Meeting in 5min
+(17:56:49) ***MMlosh is somewhat here
+(17:57:06) WolfgangB: but even monday would be a bit short term 
+(17:57:08) AnMaster: ...
+(17:57:33) AnMaster: I'm just about to leave for dinner... At a resturant
+(17:57:40) Mathnerd314: :-(
+(17:57:45) tuxdev: fancy
+(17:57:46) WolfgangB: see
+(17:57:59) AnMaster: tuxdev, yeah, usually I'm not eating at such places
+(17:58:04) AnMaster: cya
+Topic changed from: 
+Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda - Meeting in 5min
+To:
+Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda - Meeting in 1min
+(17:58:25) Mathnerd314 has changed the topic to: Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda - Meeting in 1min
+(17:58:36) tuxdev: much more exciting than trying to see if net-redirs can be used to write an HTTP server..
+(17:59:23) ced117_ is now known as ced117
+(17:59:28) ced117 left the room (quit: Changing host).
+(17:59:28) ced117 [~ced117@opensuse/member/ced117] entered the room.
+Topic changed from: 
+Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda - Meeting in 1min
+To:
+SuperTux Development Meeting | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda
+(17:59:45) Mathnerd314 has changed the topic to: SuperTux Development Meeting | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda
+(18:00:05) Mathnerd314: so, we know pretty much who everyone is, right?
+(18:00:06) adamorjames: DING!
+(18:00:32) octo: re
+(18:00:44) octo: Right on time ;)
+(18:00:54) christoph_: Maybe you guys could instead give a short recap of what you're doing on SuperTux and what your plans are?
+(18:01:08) Mathnerd314: that could work
+(18:01:48) Mathnerd314: grumbel was doing some graphics work on IcyIsland, IIRC
+(18:02:15) grumbel: http://www.youtube.com/watch?v=s2Yy1l1q1t0
+(18:02:42) grumbel: just random browsing around for those who aren't up to date with what is in the media/ directory
+(18:03:00) christoph_: grumbel: Aside from what Steven drew, what didn't you draw in ST?
+(18:03:41) Mathnerd314: Steven=?
+(18:04:00) Mathnerd314: groundwater?
+(18:04:02) christoph_: Stephen Groundwater stuck around for a bit, drew stuff for a forest island
+(18:04:16) Mathnerd314: right.
+(18:04:22) grumbel: christoph_: I drew most M1 stuff, except the boxes and the font
+(18:04:42) grumbel: M2 worldmap is Stephen
+(18:04:58) grumbel: not sure who did the enemies, some him some other people I think
+(18:05:00) christoph_: he's no longer active though, right?
+(18:05:19) Mathnerd314: we haven't seen him for a while
+(18:06:17) christoph_: I have to admit, I haven't contributed anything to SuperTux in a long time. I can probably spend some more hours to get a new release out of the door
+(18:06:40) Mathnerd314: a new stable release?
+(18:07:03) christoph_: Well, more stable than 0.3.1 :)
+(18:07:18) Lazure: 0.3.1 doesn't even run in ubuntu 9.10 =p
+(18:07:24) christoph_: I don't think we'll be able to ship a perfect game within the next 10 years
+(18:07:49) bkralik [~xkralik@67.5.broadband11.iol.cz] entered the room.
+(18:08:09) christoph_: there are some things that are just unfinished in 0.3.1, but I think we'll get to that later on
+(18:08:28) Mathnerd314: A new stable release just needs to be as polished as Milestone
+(18:08:31) Lazure: fresh install of ubuntu 9.10 in both a VM and for real, going to ubuntu software center and installing the first supertux , it will not run
+(18:08:39) Mathnerd314: *Milestone 1
+(18:09:03) christoph_: That should be doable. We need to leave a lot of stuff out, but that should be okay
+(18:09:38) Lazure: is there a reason why the current antarctica world map has a lot of areas that could be completely ignored for no gain? =p
+(18:09:41) MMlosh: there is pulseaudio vs openal issue....
+(18:09:57) Mathnerd314: Lazure: yes, so that we have some work to do
+(18:10:29) Mathnerd314: MMlosh: that is mostly a config issue with Ubuntu/OpenAL
+(18:10:44) Lazure: in milestone 1, you had to go through every single level to reach the end ;) , i'm guessing that'll be again the case eventually
+(18:10:58) Lazure: or at least more like super mario bros 3, where SOME maps could be skipped, but often had bonus houses and so on?
+(18:12:23) Mathnerd314: http://supertux.lethargik.org/wiki/Milestone_2_Design_Document
+(18:12:25) MMlosh: Mathnerd314, the issue can be solved by waiting... version planned for next release works without issues
+(18:12:29) WolfgangB: Lazure:  to allow the betatesters to go to world2 faster so they can test that stuff
+(18:13:02) Mathnerd314: The plan is to make it linear with a few shortcuts/extra paths
+(18:14:54) christoph_: Mathnerd314: I'm confused; where on the agenda are we at the moment.
+(18:15:40) Mathnerd314: we're still on "(unstable) release"
+(18:16:35) Mathnerd314: trying to decide if we want to cut world2 out
+(18:17:01) Mathnerd314: or what to do with IcyIsland
+(18:17:06) WolfgangB: do we get artwork to finish it?
+(18:17:44) christoph_: k, so what are the most noticable things that don't work in 0.3.1 - I think collision detection, savegames, and window management
+(18:18:05) Mathnerd314: Savegames work pretty well in latest SVN
+(18:18:06) WolfgangB: no need to build new levels while the engin is not stable
+(18:18:48) Mathnerd314: CD... it's better than M1.
+(18:19:19) Mathnerd314: WolfgangB: Levels shouldn't have to change that much with the engine
+(18:20:21) WolfgangB: oh? so if tux jumps higer or can't jump while standing then the level changes form easy to impossible.
+(18:21:17) Mathnerd314: Tux jump/run height should stay the same all the time (4 tiles normally, 5 tiles running)
+(18:21:24) WolfgangB: or maybe just the timing is wrong because soem budguys are faster now
+(18:21:55) Mathnerd314: Timing is indeed not working as well after we changed badguy activation distances
+(18:22:07) grumbel: Mathnerd314: depends, CD is pretty broken when it comes to taking blocks and stacking them
+(18:22:25) WolfgangB: jumping to/from some single tile colums chaned, too
+(18:22:30) christoph_: CD is also broken when any parts of the level are moving
+(18:22:31) octo: wlan died :(
+(18:22:42) grumbel: Mathnerd314: I want to redesign basically all levels
+(18:22:55) Mathnerd314: That could take a while.
+(18:23:13) grumbel: Mathnerd314: some could be replaced completly, some others just need graphical overvault like with that air level
+(18:23:16) WolfgangB: but while the engine might change building levels makes not much sense
+(18:23:59) grumbel: WolfgangB: finalizing levels makes no sense, building/designing them makes lots of sense
+(18:24:33) Mathnerd314: I don't really see stacking as a be-all game mechanic
+(18:25:09) christoph_: How do you guys feel about switching to a "real" physics engine? Looking at the planned feature sets of the ST engine, I felt that the only thing missing is rotation (which might be necessary for an ice floe) - aside from that ST tries to mimick a physics engine really close
+(18:25:34) WolfgangB: and then the required length changes again. while I created world 2 levels I allways got complains about them being too short. now the latest design document calls short for levels without spawn points. so why create levels until that gets stable?
+(18:26:03) Mathnerd314: christoph_: the problem is that there aren't many "real" open-source physics engines to switch to
+(18:26:14) Mathnerd314: WolfgangB: they can be any length
+(18:26:22) Mathnerd314: but new levels should be shorter
+(18:26:30) grumbel: Mathnerd314: either stacking works perfectly or we have to take it out (or at least the objects that make use of it)
+(18:26:57) WolfgangB: stacking used to work. not any more :-(
+(18:27:28) christoph_: Chipmunk, Bullet or Box2D seem like pretty nice candidates
+(18:27:53) Mathnerd314: Box2D has no tilemap support
+(18:27:54) WolfgangB: same thing here. how can I create a level if I don't konw which game elements  will be kept.
+(18:27:59) Mathnerd314: Bullet is 3D
+(18:28:30) christoph_: Mathnerd314: Why does it have to have tilemap support? Can't we just break the tilemap into an array of convex polys?
+(18:28:53) Mathnerd314: no, then you get stuck on the tile edges
+(18:29:09) christoph_: Mathnerd314: hm?
+(18:29:09) grumbel: ChanServ: argh, not that again. 2D physics engine are ugly and stupid
+(18:30:23) bkralik left the room (quit: ).
+(18:30:42) WolfgangB: if I know: that's the engine, you can use these badguys, tiles and objects then creating levels makes sense. I really don't want to create more stuff just to have it removed
+(18:30:44) bkralik [~xkralik@67.5.broadband11.iol.cz] entered the room.
+(18:31:00) christoph_: WolfgangB: I completely agree
+(18:31:20) Mathnerd314: WolfgangB: Everything we put in-game will all eventually work
+(18:31:31) Mathnerd314: the question is when
+(18:33:13) grumbel: WolfgangB: the point with levels is to create "designs", i.e. themes, tile patterns and enemy combinations that are fun. Once you have those you can easily transfer those concepts to a longer or shorter level
+(18:33:30) Mathnerd314: christoph_: see http://box2d.org/forum/viewtopic.php?p=21160#p21160 for the developer's explanation of why tiles don't/won't work in Box2D
+(18:33:32) octo: WolfgangB: so a set of "ready to use" features would be good?
+(18:35:42) grumbel: octo: level design is something that should start with pen&paper, not with the editor
+(18:35:43) WolfgangB: a stabel engine would be better
+(18:36:28) WolfgangB: grumbel: taht might work for you. if you need tiles you can create the, I have to use the existing stuff
+(18:36:56) Mathnerd314: The engine is stable; bugs are bugs, and it has some.
+(18:38:09) octo: Mathnerd314: i agree
+(18:38:19) grumbel: WolfgangB: you could always write a bug/wiki report requesting new graphics or add simple placeholder gfx, the important part is that the concept of a level is interesting, not so much that everything works right from the start
+(18:38:32) WolfgangB: liek a climbing animation?
+(18:38:46) Mathnerd314: indeed
+(18:39:08) Mathnerd314: climbing is in several levels but lacks an animation
+(18:39:23) Mathnerd314: But you can still design levels around it
+(18:39:29) octo: grumbel: that will lead to "overdesigned" levels
+(18:40:00) Mathnerd314: octo: one still needs code for it to work
+(18:40:02) grumbel: octo: you can always cut things down later
+(18:41:16) grumbel:   http://pingus.seul.org/~grumbel/tmp/md5/6c54813834f98bdf9abd9d7564ccff05-galapix-screenshot-0000.png
+(18:41:16) grumbel:   http://pingus.seul.org/~grumbel/tmp/md5/677e174d88b851844d7fc73570667109-galapix-screenshot-0001.png
+(18:41:16) grumbel:   http://pingus.seul.org/~grumbel/tmp/md5/c72a01dde4b0bd614600f82a41559b2a-galapix-screenshot-0002.png
+(18:41:16) grumbel:   http://pingus.seul.org/~grumbel/tmp/md5/c7d6262a3f24ce3c497139f58c13702a-galapix-screenshot-0003.png
+(18:41:16) grumbel:   http://pingus.seul.org/~grumbel/tmp/md5/66b2b53b8ae6e12148bef83c42b3f946-galapix-screenshot-0004.png
+(18:41:16) grumbel:   http://pingus.seul.org/~grumbel/tmp/md5/9b6a1bc3acc77093b7ab2764ab1014da-galapix-screenshot-0005.png
+(18:41:18) grumbel:   http://pingus.seul.org/~grumbel/tmp/md5/c58c334c7bc2e3e825c67b9274b490b6-galapix-screenshot-0006.png
+(18:42:54) Mathnerd314: I feel like I'm trying to build up to a game while grumbel is trying to build down to a game.
+(18:43:16) Mathnerd314: bottom-up versus top-down design, maybe.
+(18:43:17) grumbel: WolfgangB: if there is an urged need for climbing, sure. However not so sure if we want climbing in Ice world or leave that for forest
+(18:44:27) Mathnerd314: the key thing is that whatever is added is connected to a specific *object* rather than to the player
+(18:44:50) Mathnerd314: e.g., climbing is only possible with a ladder ("climbable")
+(18:45:11) Mathnerd314: you can't bring them with you from one level to another
+(18:46:05) Mathnerd314: so your level can use whatever you want, but not anything you don't want
+(18:46:23) WolfgangB: so, what engine bugs need to be fixed to release it? If we got that we know what features do make it in levels.
+(18:47:21) octo: and which feat. to remove
+(18:47:32) Mathnerd314: I'm willing to release as-is.
+(18:48:04) Mathnerd314: (as an unstable release)
+(18:48:05) octo: (still typing on the phone)
+(18:48:19) octo: dit
+(18:48:24) octo: o
+(18:48:43) WolfgangB: we are talking about an unstable release? 
+(18:48:48) Mathnerd314: right.
+(18:48:53) WolfgangB: oh
+(18:49:39) octo: yes, just show some activity
+(18:50:09) Mathnerd314: it's been years since a new release
+(18:50:24) WolfgangB: then all that has to be fixed ist the license stuff
+(18:50:51) ***Mathnerd314 moves down to the next point on the agenda
+(18:51:07) Auria [~Auria@69-4-213-152.mediom.qc.ca] entered the room.
+(18:51:32) ***WolfgangB assumed this was about a real release.
+(18:51:38) octo: Hooray, I have WLAN again ;)
+(18:51:44) Mathnerd314: sounds/music are all ok
+(18:52:01) octo: There are numerous levels without licensing information
+(18:52:20) Mathnerd314: WolfgangB: we can talk about a real release too (4th/5th point down)
+(18:52:21) octo: Putting some generic license in and moitoring that all levels in SVN do have a license should be easy
+(18:52:31) octo: But which license were they provided under originally?
+(18:53:00) Mathnerd314: bonus worlds... I know the contributors wanted them to be released with the game.
+(18:53:46) WolfgangB: there ware quite some changes after DataFiles was updated last. some audio by some anonymous contruibutors. have to track them down, they are probably mentioned in the wiki or on the mailing list or in svn log somewhere. this needs to be documented so we know where we got the stuff in case debian wants to knoe
+(18:54:46) octo: Okay, so for the record: Is anybody strongly opposed to a release in the very near future?
+(18:54:53) Mathnerd314: WolfgangB: They aren't anonymous, and I got their permission/source to license
+(18:55:30) octo: WolfgangB: Yeah, Debian very very likely will want to know
+(18:55:38) WolfgangB: the bonus levels were contributed to use with supertux, probably makes them gpl but I think dual licence was ccbysa was added later. finding all of them might be toomuch work. especially bonus worlds are not fit for 0.3 anyway
+(18:55:42) octo: Mathnerd314: You got relicensing rights?
+(18:56:13) Mathnerd314: no, to release as GPLv2+ and CC-BY-SA
+(18:56:43) WolfgangB: Mathnerd314: maybe so, but where can I find that information in 10 years? this has to be somwhere next to the data before we release it
+(18:56:44) octo: What about removing them from SVN and telling people on the ML that they should contact us with licensing information if they want them back in the game?
+(18:56:56) Mathnerd314: octo: we did that
+(18:57:02) grumbel: move them to a non-free/ folder
+(18:57:14) octo: Or what grumbel said sounds good, too
+(18:57:19) octo: Mathnerd314: When?
+(18:57:35) WolfgangB: they don't use new features and need fine tuning anyway. 
+(18:58:17) WolfgangB: can we convert all sounds to ogg just to have mata date in file?
+(18:58:28) WolfgangB: *meta*
+(18:58:33) grumbel: I personally have no interest in a development release, its just unfinished bits and pieces and creates expectations that the final release won't match
+(18:59:27) grumbel: i'd go with svn:props and a script to automatically check those
+(18:59:34) WolfgangB: i know this license stuff sucks, (I don't like it alt all) but we have to document it while we still can find out where the data is from
+(19:00:42) octo: WolfgangB: I agree (with both, that it's annoying and that it's necessary ;)
+(19:02:03) Mathnerd314: so what do we need, besides "when I added it, I knew that the submitter had given me permission to release it under license x"?
+(19:02:14) octo: About how many files from how many contributors are we talking about here?
+(19:02:55) WolfgangB: probably who the commiter was
+(19:03:15) Mathnerd314: that's in svn log
+(19:03:34) octo: How would you find out who contributed a file? The mailing list archives?
+(19:04:02) Mathnerd314: svn log (again) or the ML
+(19:04:09) octo: Okay
+(19:04:16) WolfgangB: oh sorry, who *contributed* that files. name/mail
+(19:04:39) WolfgangB: just so we know who to ask for the next licence change
+(19:05:04) Mathnerd314: some people (e.g. Auria) I only know from IRC
+(19:05:21) Auria: well, you can reach me _now_ ;)
+(19:05:33) tuxdev_ [~tim@unaffiliated/tuxdev] entered the room.
+(19:05:37) WolfgangB: and the information should make in in release.tgz 
+(19:05:48) octo: Auria: I'm afraid that, since we can reach you know, *your* contributions are not a problem ;)
+(19:06:03) Auria: hehe I guessed so ;)
+(19:06:12) octo: WolfgangB: Some form of AUTHORS or CONTRIBUTORS file should be okay, right?
+(19:06:28) WolfgangB: ja, think so
+(19:06:41) octo: Okay, just wanted to make sure we're on the same terms ;)
+(19:06:54) WolfgangB: the prblem is to keep it up to date, so creating it from meta date looks like a good idea
+(19:07:46) octo: Yeah, especially for images and audio that'd be good
+(19:07:59) tuxdev left the room (quit: Ping timeout: 240 seconds).
+(19:08:38) Mathnerd314: maybe an author property to go along with licen[cs]e?
+(19:08:45) WolfgangB: "some guy on IRC said a friend of him made it" would be  good enough for me for. but what about linux distributors? 
+(19:08:59) WolfgangB: thats the only reason to have it in a file
+(19:09:38) octo: Okay, so is there some information already available?
+(19:10:20) octo: And, if we don't reach the author of a file, which license do we assume? Can we assume "GPL v2 or later" for files already presend in 0.1.3 or earlier
+(19:10:24) octo: ?
+(19:10:27) WolfgangB: probably all of it, but some on http://supertux.lethargik.org/wiki/DataFiles some in the mailing list archive and some in svn log
+(19:12:12) grumbel: some sound files already have an svn property: "svn propget licence wood.wav"
+(19:12:27) WolfgangB: octo: no, the problem that started the whole discussion was stuff from undisclosed "Royalty free sound effects CDROMs and FTP sites" used in 0.1
+(19:13:30) octo: WolfgangB: ouch
+(19:14:53) WolfgangB: Debian noticed ;-)
+(19:15:39) octo: Okay, so I assume the Debian copyright file is a good place to start, then
+(19:16:53) octo: Okay, so what's the point about "semi-anonymous contributions"?
+(19:17:17) WolfgangB: no idea. maybe the people contributing sound with just a nick name?
+(19:17:33) WolfgangB: which is fine as far as I can tell
+(19:17:35) Mathnerd314: right
+(19:17:41) octo: And what's there to discuss? Does anybody know or do we postpone that?
+(19:18:11) Mathnerd314: I think that's it: it's fine
+(19:18:29) octo: *shrug* Okay, I'll put that down, then
+(19:18:44) WolfgangB: some email address would be nice, so we can reach the author just in case
+(19:19:11) octo: Right
+(19:19:49) octo: Okay, next up: Google code move
+(19:20:41) ***MMlosh agrees with (semi)anonymous too.. at least in cases where a permisive license is granted (perhaps BSD?  nevermind, I am not a lawyer)
+(19:21:52) octo: So, what is there to discuss with the move? Pro/con?
+(19:22:14) Mathnerd314: grumbel: any comments?
+(19:22:47) octo: Yeah, grumbel, maybe you could start us off with some: Why should we move there? What have you already done? What is still to do?
+(19:23:01) grumbel: haven't figured out whats going on with the svn dump changes
+(19:23:03) grumbel: http://pingus.seul.org/~grumbel/tmp/md5/942442e270244b2f999708c7765672d3-supertux-repo-diff.gz
+(19:23:20) WolfgangB: iirc google has some nice featurs for merging branches or something like that
+(19:23:33) WolfgangB: so als long as it works I don't mind where the stuff is hosted
+(19:23:36) grumbel: octo: the svn repo is svnsync'ed
+(19:23:43) grumbel: octo: downloads and bug reports are missing
+(19:24:05) WolfgangB: i think download are still on berlios, 
+(19:24:25) octo: grumbel: What means "downloads and bug reports are missing"? I never used Google Code
+(19:24:37) WolfgangB: having google as another reliable mirror is good for the next release
+(19:24:39) octo: grumbel: Do you propose to move the bug tracker there?
+(19:24:44) grumbel: octo: it means they are hosted on berlios and lethargik
+(19:24:55) octo: (Uh, oh, the WLAN signal is getting low again :( _
+(19:25:10) octo: grumbel: Okay, so no intention to move that
+(19:25:27) Mathnerd314: no, it means we could move them but haven't
+(19:25:31) Mathnerd314: (yet)
+(19:25:47) WolfgangB: can you report bugs on google without creating an account?
+(19:25:55) octo: grumbel: So you propose to move only the SVN repository there? And the main reason for this is the SVN 1.6 merge tracking feature?
+(19:26:08) WolfgangB: then again we disabled anonymous reports on mantis, too
+(19:26:53) grumbel: WolfgangB: no
+(19:27:07) ***MMlosh agrees with google code project as a way to lock the name for us and for providing redundant backup.
+(19:27:14) grumbel: octo: the main reason is that google updates there software regularly and that their bug tracker is nice and simple
+(19:27:15) WolfgangB: I'd like to have anonymous bug reports, but spam bots probably will make taht impossible
+(19:27:21) Mathnerd314: I personally would rather see downloads on Google Code rather than berlios (which is slow+cluttered with ads)
+(19:27:22) MMlosh: providing ability to post bugs with openid/google mail account seems like a good idea
+(19:28:05) grumbel: most people should have a google account by now anyway, I don't see that as a problem
+(19:28:16) grumbel: creating extra mantis account is a much bigger annoyance
+(19:28:41) ***MMlosh agrees on this point, although he dislikes google.. a lot
+(19:28:44) octo: I don't have one and don't plan to create one
+(19:28:47) Mathnerd314: google account is basically email+password+age+captcha
+(19:28:58) Mathnerd314: you can create one from your current email
+(19:29:07) MMlosh: being able to sign in with OpenID would be enough for me
+(19:29:14) octo: Moving to another bugtracker makes only sense if we can move the existing bug reports
+(19:29:24) octo: Has anything been done in this direction?
+(19:29:38) Mathnerd314: I looked into it, it seems that you have to do it manually
+(19:29:55) Auria: just fix all bugs in the existing tracker, then problem is gone ;)
+(19:30:13) octo: Auria: Right, but I doubt it'll work ;)
+(19:30:14) WolfgangB: what about use ing the new bug tracker for all bugs starting with next stable release?
+(19:30:21) Mathnerd314: that was my plan
+(19:30:38) octo: That'd be confusing for users and annoying for developers
+(19:30:39) grumbel: http://code.google.com/p/support/wiki/IssueTrackerAPI
+(19:31:20) Mathnerd314: grumbel: there are no scripts or anything using that yet
+(19:31:36) octo: grumbel: So is there ready-to-use transition software to move from mantis to Google?
+(19:31:43) Mathnerd314: no.
+(19:32:04) octo: Uh, oh, WLAN is low again :(
+(19:32:50) WolfgangB: get some copper  :-)
+(19:34:09) octo: I'm currently skiing..
+(19:34:23) octo: I guess the WLAN antenna's connection is corroded or something
+(19:34:33) octo: Anyway, no Ethernet in the appartmenet
+(19:34:39) octo: *appartement
+(19:35:27) octo: So, we're not getting anywhere
+(19:35:44) octo: grumbel: I oppose moving anything just to use "new software"
+(19:35:58) netsrot left the room (quit: Quit: leaving).
+(19:36:06) octo: grumbel: If we need a feature, that's fine. Just for the new software, it's not worth it
+(19:36:09) grumbel: octo: its for getting rid of mantis, which I consider completly unusable
+(19:36:23) Mathnerd314: it's ancient and nobody knows how to upgrade it
+(19:36:32) grumbel: I don't want *new* features, I want less features
+(19:36:41) octo: grumbel: Okay, so SVN is not the main point, but the bug tracker is?
+(19:36:45) Mathnerd314: right
+(19:36:55) octo: Okay, good to know
+(19:36:57) Mathnerd314: but only for new bugs
+(19:37:24) Mathnerd314: we don't really care about most bugs on Mantis
+(19:37:49) grumbel: octo: it goes hand in hand, I don't like being stuck with old software or waste time maintaining the updates
+(19:38:39) octo: grumbel: Maintaining the updates? You mean updating the software on the server?
+(19:38:44) WolfgangB: if we switch to another bt now we'd be flooded with bugs we probably alredy know are in the unstable release
+(19:39:03) Mathnerd314: we don't have to announce it
+(19:39:07) WolfgangB: :-)
+(19:39:12) octo: o.O
+(19:39:27) WolfgangB: hello tin foil head fraction 
+(19:39:38) grumbel: the new bug tracker should be for the next real release, not for the random development snapshot stuff
+(19:39:53) octo: Okay, so it is some long term project?
+(19:39:56) grumbel: getting bug reports about missing forest keys and stuff drives me nuts
+(19:40:02) Mathnerd314: we could make the new one developer-only and leave the old one in place
+(19:40:18) octo: That's a lot of extra work
+(19:40:42) octo: I don't like Mantis a bit, but using two bug tracker at once is a nightmare
+(19:40:45) netsrot [~netsrot@c80-217-155-114.bredband.comhem.se] entered the room.
+(19:40:57) Mathnerd314: we already have two; we just aren't using them
+(19:41:01) octo: We should try to move all the existing bugs and then make a hard but
+(19:41:12) octo: Mathnerd314: There's a second one?
+(19:41:30) Mathnerd314: yes, the google code project already exists
+(19:41:33) netsrot left the room (quit: Client Quit).
+(19:42:08) octo: Mathnerd314: That's not the same as having a second bug tracker..
+(19:42:55) Mathnerd314: there are two bug trackers! we are using one of them! the question is how to use the other one!
+(19:43:52) grumbel: we also have trunk/supertux/TODO, which is what I use
+(19:43:59) octo: My point being: Just because is exists doesn't mean we have two.
+(19:45:00) octo: Okay, so what's our conclusion?
+(19:45:20) MMlosh: I like mantis... it is easily readable to me... but if it's so big pain to maintain it....   I probably won't check the new one so often, that's all
+(19:45:40) MMlosh: google project might offer supertux resources over IPv6, right?
+(19:45:48) WolfgangB: mantis' rss feed is broken, as is email notification
+(19:45:51) Mathnerd314: octo: new bugs should be filed on google code, old bugs might be moved to google code, we might not use google code
+(19:46:31) grumbel: MMlosh: don't think code.google.com has ipv6
+(19:47:14) MMlosh: code.l.google.com.      300     IN      AAAA    2a00:1450:8007::64
+(19:47:14) MMlosh: code.l.google.com.      300     IN      AAAA    2a00:1450:8007::71
+(19:47:15) MMlosh: code.l.google.com.      300     IN      AAAA    2a00:1450:8007::65
+(19:47:18) MMlosh: it has here...
+(19:47:22) octo: Mathnerd314: I still don't think that makes sense. I want to use one bug tracker only
+(19:47:33) MMlosh: my IPv6 provider is registered into google-over-ipv6
+(19:47:56) Mathnerd314: octo: if you're using one bug tracker, that one will be mantis
+(19:47:59) Mathnerd314: (for now)
+(19:48:00) octo: I don't get the AAAA records :(
+(19:48:20) MMlosh: octo, your DNS server is not registered to receive AAAAs
+(19:48:29) grumbel: MMlosh: hm, I don't get those here
+(19:48:32) octo: Okay, so I'll put down that we intent to switch to a new bug tracker but that's not ready yet
+(19:49:02) WolfgangB: i'd say switch for next release
+(19:49:21) WolfgangB: sooner if it helps creating the release
+(19:49:21) LinuxDonald is now known as LinDon|afk
+(19:49:47) octo: The next stable release, you mean?
+(19:49:48) MMlosh: quick note: I am tunneling ipv6 and using DNS from HurricaneElectric, because the local one from Telefonica o2 stinks a lot
+(19:50:24) WolfgangB: yep, stable release
+(19:50:45) WolfgangB: thats what this is all about
+(19:51:13) octo: Okay, so I think we can close this Google bug tracker issue. Or has anyone still have some points about it?
+(19:52:26) octo: Okay, then on to the Mantis bug tracker
+(19:52:39) Mathnerd314: well, not the bug tracker, but: 1) grumbel needs to add the other developers to the project 2) downloads should be moved from berlios to google code
+(19:53:44) WolfgangB: for the next release yes, but why move download now? thats the well know location which is announced in articles about supertux
+(19:53:46) octo: Should "feedback" mean "needs feedback" or "has received feedback"?
+(19:53:58) Mathnerd314: ok, "copied"
+(19:54:03) grumbel: move will wait till that next development snapshot is out
+(19:54:05) octo: wtr. to downloads, I agree with Wolfgang
+(19:54:20) ***MMlosh liked colorful mantis, google bugracker is only a list of bugs in his opinion
+(19:54:57) ***Mathnerd314 clubs MMLosh with a stick before the pretty colors dissolve his brain
+(19:55:10) Mathnerd314: not really :-)
+(19:56:04) netsrot [~netsrot@c80-217-155-114.bredband.comhem.se] entered the room.
+(19:56:37) Mathnerd314: anyways, we were discussing feedback?
+(19:57:04) octo: Yes
+(19:57:26) grumbel: feedback means "needs feedback", doesn't make sense to have a "received feedback"
+(19:57:26) Mathnerd314: suddenly seems rather quiet in here...
+(19:57:35) octo: The way the Mantis people intend their bug tracker to be used, is that "feedback" is used for "has received feedback"
+(19:57:38) WolfgangB: don't care much. I used it for "need more feedback" but if it is too complicated just remove it
+(19:57:53) netsrot left the room (quit: Client Quit).
+(19:57:53) octo: grumbel: It does, meaning "look at me, there's stuff to do"
+(19:58:05) Mathnerd314: We use "confirmed" for that
+(19:58:16) octo: Mathnerd314: For what?
+(19:58:27) Mathnerd314: for saying "fix me"!
+(19:58:58) MMlosh: splitting feedback into "feedback required" and "to be fixed" seems reasonable
+(19:59:12) Mathnerd314: but "to be fixed" is confirmed
+(19:59:23) netsrot [~netsrot@c80-217-155-114.bredband.comhem.se] entered the room.
+(19:59:33) WolfgangB: for me "new" feels like "nobody looked at it yet", while "feedback" says "discuss, what does he want at all/ do we want it?" and "confirmed" is "yes there is a bug, someone should fix it" 
+(19:59:39) octo: Mathnerd314: Every bug "needs to be fixed", we don't need a state for that.
+(20:00:02) WolfgangB: "won't fix"
+(20:00:12) octo: Mathnerd314: Anyway, the status "confirmed" and "new" are used interchangably right now
+(20:00:23) octo: WolfgangB: That'd be "resolved" ;)
+(20:00:50) WolfgangB: ok, so it really is too complicated if even we don't know hoiw to use it
+(20:01:05) octo: Nobody likes Mantis ;)
+(20:01:16) WolfgangB: poor Mantis
+(20:01:24) Mathnerd314: thus why we want to move
+(20:01:35) octo: I don't feel back for Mantis.. Their developers are weird..
+(20:02:45) octo: Anyway, the way it's intended to be used is: "resolve" bugs that need more feedback with "needs feedback" or "suspended" ...
+(20:03:14) octo: ... when feedback is received, the status is changed to "feedback" which is bright so it's noticed almost as easily as "new"
+(20:03:47) netsrot left the room (quit: Client Quit).
+(20:04:02) Mathnerd314: so it goes new->resolved->feedback->?
+(20:04:06) WolfgangB: nothing is easy to notice in mantis. mail is random and the rss feed just tells me that a item was updated but not what was changed
+(20:04:09) octo: Mathnerd314: Yes
+(20:04:49) WolfgangB: Mathnerd314: ok, so i used "feedback" wrong the whole time
+(20:05:12) MMlosh: finally... that seems reasonable
+(20:05:38) Mathnerd314: then the order of items in the menu is wrong
+(20:05:43) octo: By the way, "reopened" bugs are automatically set to "feedback" and resolution "reopened"
+(20:05:49) WolfgangB: why does it offer "feedback" as next state on "new" bugs then?
+(20:06:12) octo: Good question ;)
+(20:06:23) grumbel: in normal bug terms feedback means that the bug report requires more feedback from the original submitter
+(20:07:02) MMlosh: right.. feedback state should be somewhere at the bottom in "do not set manually" section..
+(20:07:19) octo: Maybe renaming the status would be possible
+(20:07:51) ***MMlosh has seen more paid bugtrackers saying "feedback" when I complained about their solution to my problems... IMHO it is quite acceptable state
+(20:07:52) octo: MMlosh: Yep
+(20:08:16) Mathnerd314: vicious cycle... can we just let "feedback" be "needs feedback" and "confirmed" be "has feedback, actually a defect"?
+(20:08:43) Mathnerd314: and then move on?
+(20:08:56) WolfgangB: mkay
+(20:09:03) octo: Mathnerd314: Then someone should step up and configure mantis that way
+(20:09:29) octo: I certainly don't want to configure mantis to work any other way - that's even more of a nightmare than just to use it
+(20:13:05) grumbel: just don't use "feedback"
+(20:13:48) Mathnerd314: what I described is how it works now
+(20:14:23) grumbel: does anybody mind if I delete branches/supertux-milestone2/ ?
+(20:14:35) ***octo doesn't
+(20:14:51) Mathnerd314: go ahead
+(20:17:26) Mathnerd314: so, next up is... gameplay.
+(20:17:34) Greeny|afk is now known as Greeny|off
+(20:17:35) octo: Hold it for a minute
+(20:17:43) octo: I don't think we've reached a conclusion..
+(20:17:57) octo: What about a vote on the usage of "feedback"?
+(20:18:39) Mathnerd314: feedback is "needs feedback" / "give more information": aye
+(20:19:22) Mathnerd314: any other ayes/nays?
+(20:19:45) octo: I'm in favor of "feedback means has received feedback"
+(20:20:07) ***MMlosh agrees
+(20:20:14) octo: MMlosh: What with?
+(20:20:19) MMlosh: with your, octo
+(20:20:54) MMlosh: knowing that there is a feedback from reporter is one of the essential bugtracking principles :D
+(20:21:02) Mathnerd314: ok, the vote is unanimous in favor of me :-)
+(20:21:12) grumbel: "purple: feedback - bug requires more feedback before work can proceed" - straight from the mantis docu
+(20:21:26) WolfgangB: gut, weiter.
+(20:21:40) grumbel: "feedback - bug requires more information, the original posters should pay attention"
+(20:22:14) octo: grumbel: Where did you find that?
+(20:22:24) MMlosh: OK.. I don't mind how is the "has new feedback" state called...   having one is the important thing
+(20:22:29) grumbel: google -> http://open.affelio.jp/modules/mantis/doc/documentation.html
+(20:23:12) octo: grumbel: I think that is wrong.
+(20:23:28) grumbel: MMlosh: that not a state, something the bugtracker should figure out on its own
+(20:23:42) Mathnerd314: so everyone's outvoted.
+(20:23:53) Mathnerd314: maybe we can finally start discussing actual levels?
+(20:24:11) MMlosh: grumbel, sure... but that thing gets reported as a state to DEVs.. right?
+(20:24:12) grumbel: octo: that document says "Mantis User Documentation" and it lists the exact usage of the term that I know from every other bugtracker around
+(20:24:33) MMlosh: perhaps different color scheme for users and devs may solve the problem?
+(20:24:34) octo: grumbel: That's no official Mantis documentation as far as I see
+(20:24:50) MMlosh: nevermind.. I am sure it is fairly impossible with mantis
+(20:25:18) grumbel: can't you just sort stuff by date or whatever?
+(20:25:55) netsrot [~netsrot@c80-217-155-114.bredband.comhem.se] entered the room.
+(20:27:29) grumbel: Whats with supertux-r6306-tinygettext-external-required.patch?
+(20:27:35) octo: grumbel: So, should I interpret your paste as a vote?
+(20:27:50) netsrot left the room (quit: Client Quit).
+(20:27:58) WolfgangB: what about it?
+(20:28:07) grumbel: octo: Its not a vote its a "I am right and you are wrong"
+(20:29:31) grumbel: WolfgangB: the patch is listed in the agenda
+(20:30:06) grumbel: and in case anybody is wondering, no tinygettext isn't a system library, thats why its in externals/ in the first place
+(20:30:35) WolfgangB: whats that patch supposed to do?
+(20:31:05) octo: grumbel: I haven't found anything specific in the Mantis docs yet, but this makes a lot of sense IMHO: http://www.mantisbt.org/bugs/view.php?id=6046
+(20:31:39) grumbel: WolfgangB: no idea, I assume it looks on the system for tinygettext instead of in external/
+(20:32:16) WolfgangB: ok, so we don't need that 
+(20:32:38) WolfgangB: mybe I shoulld learn cmake
+(20:34:09) Mathnerd314:  well, if we require building tinygettext as a system library, it will be one. (Eventually)
+(20:34:47) octo left the room (quit: Quit: leaving).
+(20:35:09) octo [octo@verplant.org] entered the room.
+(20:35:11) octo: argh
+(20:35:24) Mathnerd314: you didn't miss anything.
+(20:36:06) grumbel: Mathnerd314: we will never do that
+(20:36:36) Mathnerd314: so tinygettext is not really separate from supertux?
+(20:36:58) Mathnerd314: ok...
+(20:37:02) grumbel: Mathnerd314: its separate, but its not meant to be a system library
+(20:37:18) grumbel: its a simple tool thing that you copy&paste into your sourcecode
+(20:37:22) grumbel: or svn:externals
+(20:39:48) Mathnerd314: so like binreloc then.
+(20:41:22) grumbel: yes
+(20:42:20) Mathnerd314: alright, let the packagers deal with it. ;-)
+(20:42:27) Mathnerd314: now can we discuss new levels?
+(20:42:48) octo: The next point on the agenda would be Gameplay
+(20:42:57) octo: First up: Carrying objects
+(20:43:13) Mathnerd314: no, http://supertux.lethargik.org/wiki/Next_Meeting_Agenda
+(20:43:19) Mathnerd314: it's new levels
+(20:44:25) octo: Oh, that was probably added after I created [[Meeting 2010-02-14]]
+(20:45:01) octo: Okay, then, new levels it is
+(20:45:07) octo: What do you want to discuss?
+(20:45:23) Mathnerd314: well, if they're good levels.
+(20:45:45) octo: I'd love to comment, but I haven't played them yet
+(20:45:56) octo: Where can I find them?
+(20:46:03) Mathnerd314: SVN
+(20:46:13) octo: Okay, which levels do you want feedback on?
+(20:46:22) WolfgangB: we don't know what the engine will look like and which features will make it in a release so why discuss levels already?
+(20:46:54) grumbel: all the gameplay discussion can be skipped when you want to get a development snapshot out first
+(20:47:06) WolfgangB: do we?
+(20:47:24) octo: Right, if we change game mechanics later, we will have to re-check all main levels anyway
+(20:47:32) Mathnerd314: there's nothing stopping us from releasing a snapshot right now, is there?
+(20:48:06) octo: Mathnerd314: Except licensing issues
+(20:48:46) octo: Mathnerd314: Can you give me a list of levels you'd like to get feedback on?
+(20:50:37) Mathnerd314: 13 and 27 in world1
+(20:51:55) octo: Mathnerd314: Okay, I'll take a look. I'm on vacation and can't run SuperTux here.. It'll take a week at least
+(20:52:02) MMlosh: Mathnerd314, what about making a worldmap for "needs testing" levels?
+(20:52:12) Greeny|off is now known as Greeny
+(20:52:13) octo: Mathnerd314: Anything specific I should be looking for?
+(20:52:26) Mathnerd314: just whether or not they're fun
+(20:52:43) octo: Mathnerd314: Okay
+(20:52:54) Mathnerd314: MMlosh: sounds like a good idea; what should we call it?
+(20:53:17) WolfgangB: hard to distinguish which parts you can walk on and I don't like the purple flickering in the background, 
+(20:53:36) MMlosh: "needs feedback world" ?
+(20:53:56) Mathnerd314: WolfgangB: where?
+(20:54:06) Mathnerd314: MMlosh: too long
+(20:55:01) Auria: Incubator
+(20:55:13) WolfgangB: level 13. can i jump on that platform or is it decoration? what about that cloud? oh no that ledge was just foreground
+(20:55:27) octo: *nod* Incubator sounds great
+(20:55:44) MMlosh: Auria, sounds nice...  is there enough space to name it "incubator (testing)" ?
+(20:56:01) MMlosh: bad idea... oreginal looks better
+(20:56:10) WolfgangB: the purple stuff is probably a general bug either of ymy 3d lib or the way we use it
+(20:57:09) ohnobinki: the meeting hasn't started, right?
+(20:57:18) WolfgangB: :-)
+(20:57:38) ohnobinki: Ooops
+(20:57:45) WolfgangB: oh and for the next one: please announce the next meeting at least three days before it takes place. a week in advance would be better
+(20:58:22) Mathnerd314: I was thinking we could have one next week, same time + place
+(20:59:11) octo: WolfgangB: Definitely ;) Last point on the agenda in fact ;)
+(20:59:18) MMlosh: I am not sure about that... I have a holiday tomorrow, but there will be some trouble any other week
+(21:00:05) octo: Mathnerd314: Yes, I'd appreciate a (shorter) meeting in short but regular intervals..
+(21:00:45) Mathnerd314: sure, doesn't have to be much longer than an hour
+(21:00:51) MMlosh: hmm.. OK then
+(21:01:04) Mathnerd314: or 1/2 hour if we have them often enough
+(21:01:34) Mathnerd314: 3 hours is definitely too long :-)
+(21:01:45) WolfgangB: what about a voice meeting? 
+(21:01:50) MMlosh: I think I can pay a bit of attention for 30 minutes on regular sundays
+(21:02:00) Mathnerd314: WolfgangB: how?
+(21:02:07) MMlosh: WolfgangB, I prefer this written form
+(21:02:27) WolfgangB: something like teamspeak, mumble, skype, 
+(21:02:37) octo: I prefer written discussions, too
+(21:02:38) octo: Makes it easier to write
+(21:02:39) MMlosh: skype does not work here :(
+(21:02:46) octo: minutes
+(21:02:58) octo: (WLAN on the edge of breaking again)
+(21:04:05) Mathnerd314: ah yes, voice probably doesn't work well over poor connections
+(21:04:09) WolfgangB: I don't like having to write fast and in English. talking is more simple
+(21:04:27) octo: Mathnerd314: My connection at home is great ;)
+(21:04:58) ohnobinki: grumbel: why have tinygettext in externals/ and have its TODO reflect improving the API so that other games could use it and then say that it can't be installed system-wide?
+(21:05:25) Mathnerd314: ohnobinki: compare tinygettext to binreloc
+(21:05:51) ohnobinki: mathnerd314: binreloc is unneeded because you use physfs, a system lib...
+(21:06:11) ohnobinki: I've heard it said that binreloc could be removed...
+(21:06:14) Mathnerd314: but binreloc is packaged with applications
+(21:06:42) MMlosh: WolfgangB, talking is easier, but I was getting lost sometimes (for the last and only time), sure, it prevents people from discussing more things at once, but you can't easily skip one page back and check who said what
+(21:07:32) ohnobinki: anything that can be used as a library and has as generic a target audience as tinygettext does should be system-installable and usable
+(21:08:00) octo: Okay, I guess it's getting kinda late.. What about we finish the gameplay topics and then call it a day?
+(21:08:10) Mathnerd314: sure
+(21:08:13) grumbel: ohnobinki: that would require a stable API and ABI, tinygettext has neither
+(21:08:32) Mathnerd314: at least, not yet
+(21:08:37) WolfgangB: send the levels to test in time before the next meeting. or should we do playtesting now?
+(21:08:48) octo: Any more thoughts on Mathnerd314's levels?
+(21:08:50) ohnobinki: grumbel: I recognize that, hopefully that can be changed; I'll see what I can do when I have time
+(21:09:14) MMlosh: octo, good idea.. I am getting really sleepy... :-/
+(21:10:07) octo: Okay, two points left (plus getting a new date)
+(21:10:21) octo: First, grumbel proposes a change to carrying objects
+(21:10:35) octo: grumbel: Would you please tell us what you plan to do?
+(21:10:38) grumbel: ohnobinki: I don't have any interest in investing extra work for that
+(21:10:42) ohnobinki: now, hasn't supertux been able to use ice-cubes as shields with the current implementation?
+(21:10:48) ohnobinki: grumbel: that's fine
+(21:11:05) ohnobinki: *Tux
+(21:11:06) grumbel: octo: ignore that carry change, just a random idea
+(21:11:27) octo: grumbel: Okay, should I postpone it for the next meeting?
+(21:12:01) ohnobinki: but if Tux is holding an icecube and another icecube is flying at him, does it garauntee that he's protected?
+(21:12:22) ohnobinki: I think I remember that Tux was hurt when I ran into a snowball while carrying an icecube (though I haven't tried for many months)
+(21:12:58) MMlosh: ohnobinki, I don't think so
+(21:13:03) grumbel: octo: yes
+(21:13:06) octo: grumbel: Okay
+(21:13:19) ohnobinki: ok
+(21:13:23) octo: Good, last point then: I'd like to get some opinions on bug #475:
+(21:13:33) MMlosh: empty lantern can protect from will-o-wisp.. that is all I know
+(21:13:35) WolfgangB: no, no shield
+(21:13:41) octo: In autoscrolling levels, Tux is pushed through 1 tile wide walls
+(21:13:49) octo: Two and more tiles wide walls kill Tux
+(21:14:05) octo: How should this be fixed?
+(21:14:12) Greeny is now known as Greeny|off
+(21:14:20) ohnobinki: octo: 1-tile wides should kill tux
+(21:14:24) Mathnerd314: Don't use autoscorlling levels?
+(21:14:33) WolfgangB: we have autoscrolling levels?
+(21:14:40) mattmccutchen [~matt@129-2-138-77.wireless.umd.edu] entered the room.
+(21:14:42) ohnobinki: old bonus levels, iirc
+(21:14:49) Mathnerd314: right
+(21:14:49) ohnobinki: mattmccutchen: you made it! :-D
+(21:14:50) octo: Mathnerd314: I don't like them either, but that answer doesn't help with the bug ;)
+(21:15:00) WolfgangB: delete old bonus
+(21:15:05) octo: mattmccutchen: Hey :)
+(21:15:20) ohnobinki: unfortunately, you came late just like I did
+(21:15:23) Mathnerd314: just in time to miss the meeting :-)
+(21:15:53) ohnobinki: wolfgangb: then autoscrolling should be completely removed from the codebase?
+(21:16:00) MMlosh: I suggest removing autoscrolling too, having a flood that is independent on screen movement would be fine
+(21:17:03) Mathnerd314: ok then.
+(21:17:06) octo: Okay, so I see three options:
+(21:17:10) WolfgangB: don't know. ist autoscrolling fun?
+(21:17:16) Mathnerd314: no
+(21:17:24) octo: 1. Apply Matt's fix. Mimics SMW behavior, kills Tux
+(21:17:24) Mathnerd314: too slow
+(21:17:26) MMlosh: ohnobinki, what about keeping it as "mod", making it available in preferences to make the game harder for levels that provide camera path
+(21:17:48) octo: 2. Make camera / Tux independent. Tux may be out of view, but isn't killed ever
+(21:17:50) ohnobinki: mmlosh: then we need to define what happens when tux is trapped ;-)
+(21:17:54) octo: (by the camera)
+(21:17:57) MMlosh: octo, yes... killing tux would be reasonable in "optional autoscrolling" mode
+(21:18:03) octo: 3. Remove autoscolling altogether
+(21:18:06) WolfgangB: options add more paths that don't get enough testing
+(21:18:15) ohnobinki: I'd just say _not_ #2
+(21:18:16) MMlosh: hmm.. true
+(21:18:21) Mathnerd314: so, anyone against option 3?
+(21:18:39) ohnobinki: no
+(21:18:43) MMlosh: no
+(21:18:44) grumbel: go with 3
+(21:18:56) octo: Okay, looks like we all agree ;)
+(21:19:06) ohnobinki: mattmccutchen: please acknowledge that you're alive :-p
+(21:19:36) mattmccutchen: Yes, I'm listening.
+(21:19:44) Mathnerd314: actually, autoscroll could be useful for cutscenes.
+(21:19:53) christoph_: I'd prefer option ä2
+(21:20:06) Mathnerd314: (pull switch, scroll to activity, scroll back)
+(21:20:13) ohnobinki: so option #2 + #1
+(21:20:15) octo: Just as I typed "consensus" ;)
+(21:20:31) Mathnerd314: christoph_ is outvoted
+(21:20:39) ohnobinki: option #2 comes close to removing autoscroll support from supertux
+(21:20:59) WolfgangB: btw, who is allowed to edit wiki's LocalSettings.php?
+(21:21:14) Mathnerd314: sik0fewl only iirc
+(21:21:20) mattmccutchen: IIUC, cut scenes use a camera scripting command, which isn't the same as "autoscroll".
+(21:21:37) christoph_: wait a sec...
+(21:21:44) ***Mathnerd314 waits
+(21:22:34) christoph_: I'm not for removing autoscrolling the camera (or insta-killing Tux if he's not fast enough), but statically coupling camera and whatever kills Tux for *every* level made all those hacks to the engine necessary
+(21:22:46) octo: Okay, last point of order: Next meeting
+(21:23:32) WolfgangB: so we could remove some hacks when we don't have autoscrolling?
+(21:24:17) WolfgangB: or would it break lots of stuff nobody knows exactly what it does?
+(21:24:26) christoph_: Last time I checked, moving the camera for cutscenes was one big hack - precisely because normally the position of the camera somehow influences when and where Tux is killed
+(21:25:58) christoph_: so, if anything, it should be the other way around: Camera and Tux dying are independent of each other, but autoscrolling enables some kind of workarounds to sync the position of something deadly to the camera position
+(21:26:32) ***christoph_ goes back to lurking
+(21:26:41) MMlosh: detail: the yeti level is really too hard...  it would be fair to have to have more tux lives (eg 3 tries, then yeti lives reset, perhaps with a cutscene), as for respawning icycles: looks nice, perhaps slide-in animanion may make it nicer
+(21:26:45) Mathnerd314: or we just make something deadly and let the camera act as normal
+(21:26:47) ohnobinki: or autoscroll is just removed :-)
+(21:27:12) MMlosh: I vote for the deadly object (if anything at all) too
+(21:27:46) Mathnerd314: so, remove global camera object?
+(21:28:16) ohnobinki: don't you still need it for cutscening...?
+(21:28:16) WolfgangB: no camera =>no more cutscenes?
+(21:28:31) ohnobinki: just get rid of the code that kills tux when he's pushed offscreen
+(21:28:58) Mathnerd314: scripting != global
+(21:29:04) claymore_ left the room (quit: Quit: ChatZilla 0.9.86 [Firefox 3.6/20100115144158]).
+(21:29:15) WolfgangB: then what happens if tux falls down a shaft at the bottom of the level?
+(21:29:29) ohnobinki: then he leaves the sector and dies
+(21:29:31) christoph_: Tux.y > Level.height
+(21:30:47) Mathnerd314: never mind, we need a camera for shaking
+(21:31:06) Mathnerd314: and ambient souns
+(21:31:12) Mathnerd314: *sounds
+(21:32:27) MMlosh: ambient sounds work?  Last time I checked the test level they didn't
+(21:32:37) Mathnerd314: ok, they don't.
+(21:32:50) octo: Okay, lets get the last point done with, so we can all go to bed or do whatever ;)
+(21:32:50) Mathnerd314: using the camera is just bad
+(21:33:05) octo: What about next Saturday, Fabruary 20th, same place and time?
+(21:34:03) WolfgangB: ok
+(21:34:12) Mathnerd314: Saturdays don't work for me, unless they're at 16:00 or earlier
+(21:34:33) ohnobinki: saturday is best for me
+(21:34:39) octo: Mathnerd314: 16:00 UCT?
+(21:34:42) Mathnerd314: yes
+(21:34:58) MMlosh: saturdays are likely to be better, because I usually do not panic at the evening :D
+(21:35:11) Mathnerd314: and 16:00 UTC works only if the meetings are < half an hour
+(21:35:25) octo: Okay, what about 15:00 UCT so Mathnerd314 can participate?
+(21:35:26) claymore_ [~chatzilla@host86-145-135-33.range86-145.btcentralplus.com] entered the room.
+(21:35:33) Mathnerd314: sounds fine
+(21:35:50) MMlosh: Mathnerd314, is that general limitation, or just for the next week
+(21:35:52) MMlosh: ?
+(21:36:00) Mathnerd314: in general, I think
+(21:36:19) Mathnerd314: it might end in a few weeks
+(21:36:29) bkralik left the room (quit: ).
+(21:36:47) MMlosh: I suggest trying it next week and then decide if it worked or not
+(21:37:33) Mathnerd314: ok, we can put it on the mailing list for discussion
+(21:37:50) octo: Okay, anyone opposed to Saturday, Fabruary 20th, 15:00 UCT?
+(21:37:59) grumbel: fine with me
+(21:38:07) WolfgangB: can do
+(21:38:14) grumbel: does anybody have a timeline in mind for the development snapshot?
+(21:38:17) christoph_: 10:00 UTC+5 on a Saturday?! :)
+(21:38:34) octo: christoph_: That's why I ask ;)
+(21:38:35) MMlosh: fine here... I'll have to set an alarm..
+(21:38:55) ohnobinki: 10:00 isn't too bad on saturday... I'm normally up for at least an hour by then :-p
+(21:39:06) christoph_: k, guess I'm overruled
+(21:39:19) ohnobinki: I have no authority, though
+(21:39:50) ced117_ [~ced117@AStrasbourg-157-1-81-99.w90-56.abo.wanadoo.fr] entered the room.
+(21:39:59) Mathnerd314: christoph_: you can physically get up by then, right?
+(21:40:07) octo: Okay, let's announce that to the mailing list.. If many people protest, we can (try to) find another time or date ;)
+(21:40:27) christoph_: Mathnerd314: 15:00 UTC is alright
+(21:41:28) ced117 left the room (quit: Ping timeout: 276 seconds).
+(21:41:31) ohnobinki: I second grumbel's question
+(21:41:38) ***Mathnerd314 writes message to the ML
+(21:41:49) octo: Mathnerd314: Thanks :)
+(21:43:09) octo: grumbel: As for the timeline, I'd say lets see how much work it is to figure out the license information for the binary files and talk about that next week
+(21:43:49) ***Mathnerd314 sends message
+(21:44:28) octo: Okay, the minutes are available at [[Meeting 2010-02-14]].
+(21:44:55) Mathnerd314: do we need an IRC log then?
+(21:44:59) octo: Feel free to correct typos and stuff I got wrong. I'll create the "Who is who" section from the IRC logs
+(21:45:02) MMlosh: octo, scons issue has been removed from agenda  (just in case you haven't noticed)
+(21:45:41) octo: MMlosh: Yeah, I'll update the [[Next Meeting Agenda]] page to refer to the actual "next" meeting again ;)
+(21:46:05) MMlosh: fine..
+(21:46:20) MMlosh: so.. is it over now?
+(21:46:27) octo: I'll protect the page, since minutes shouldn't be modified usually
+(21:46:36) octo: Yes, I'd say it is :)
+(21:46:46) octo: Thanks everybody for taking the time :)
+(21:46:52) octo: Hope to see you again next week :)
+(21:47:46) MMlosh: thanks, goodnight where applicable.. it is nice to be able to plan reasonably long meeting for the next time
+Topic changed from: 
+SuperTux Development Meeting | http://supertux.lethargik.org/wiki/Next_Meeting_Agenda
+To:
+Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/SuperTux_FAQ
+(21:48:04) Mathnerd314 has changed the topic to: Welcome to the SuperTux IRC chatroom | http://supertux.lethargik.org/wiki/SuperTux_FAQ
+(21:48:10) MMlosh left the room (quit: Quit: Bye...).
+(21:48:32) claymore_ left the room (quit: Quit: ChatZilla 0.9.86 [Firefox 3.6/20100115144158]).
+(21:49:38) grumbel left the room (quit: Quit: Ex-Chat).
+(21:49:53) mattmccutchen: Is a log of the meeting available?  I would read it.
+(21:50:26) octo: mattmccutchen: I'll send it to you
+(21:50:45) octo: Actually, I could probably add it to the wiki page.
+</pre>
