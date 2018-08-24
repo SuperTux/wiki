@@ -1,1 +1,0 @@
-#REDIRECT [[Talk:Flying Snowball]]

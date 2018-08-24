@@ -1,1 +1,0 @@
-#REDIRECT [[Scripting reference]]

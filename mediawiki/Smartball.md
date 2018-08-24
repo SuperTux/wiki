@@ -1,1 +1,0 @@
-#REDIRECT [[Mrs. Snowball]]

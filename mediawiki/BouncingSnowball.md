@@ -1,1 +1,0 @@
-#REDIRECT [[Bouncing Snowball]]
