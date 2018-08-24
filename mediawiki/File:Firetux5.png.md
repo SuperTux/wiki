@@ -1,2 +1,0 @@
-Firetux again
-[[Category:Character]]

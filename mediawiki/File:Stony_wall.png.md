@@ -1,1 +1,0 @@
-Stony in Wall

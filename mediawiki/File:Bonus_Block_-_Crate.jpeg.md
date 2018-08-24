@@ -1,3 +1,0 @@
-Crate
-
-[[Category:Game Object]]

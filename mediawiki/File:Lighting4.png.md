@@ -1,1 +1,0 @@
-Demonstration of color lighting

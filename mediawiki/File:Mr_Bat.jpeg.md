@@ -1,1 +1,0 @@
-Mr Bat concept image

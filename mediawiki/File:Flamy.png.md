@@ -1,2 +1,0 @@
-Flamy Enemy
-[[Category:Badguy]]

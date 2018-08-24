@@ -1,1 +1,0 @@
-New SuperTux Snow Tiles

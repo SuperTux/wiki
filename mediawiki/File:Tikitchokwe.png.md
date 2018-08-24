@@ -1,1 +1,0 @@
-Proposed graphical for Tikitchokwe

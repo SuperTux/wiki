@@ -1,2 +1,0 @@
-Resetpoints
-[[Category:Game Object]]

@@ -1,1 +1,0 @@
-Milestone2 Sprite Collection

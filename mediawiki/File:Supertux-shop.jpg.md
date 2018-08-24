@@ -1,1 +1,0 @@
-SuperTux Shop Sketch

@@ -1,1 +1,0 @@
-Sketch for undead penguin.

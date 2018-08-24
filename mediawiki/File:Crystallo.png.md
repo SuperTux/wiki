@@ -1,2 +1,0 @@
-Crystallo Badguy
-[[Category:Badguy]]

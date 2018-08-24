@@ -1,1 +1,0 @@
-ingame lighting demonstration

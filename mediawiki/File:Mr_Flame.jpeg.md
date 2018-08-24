@@ -1,1 +1,0 @@
-Concept image for Pyro

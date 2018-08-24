@@ -1,1 +1,0 @@
-A possible new image for the Flame badguy. Could also be used for a meteorite, etc.

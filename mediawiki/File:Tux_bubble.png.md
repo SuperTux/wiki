@@ -1,1 +1,0 @@
-Tux in Bubble Mode

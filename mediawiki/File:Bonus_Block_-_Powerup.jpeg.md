@@ -1,3 +1,0 @@
-Powerup
-
-[[Category:Game Object]]

@@ -1,1 +1,0 @@
-Another nolok sketch.

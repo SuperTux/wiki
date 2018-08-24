@@ -1,1 +1,0 @@
-Rated Fun SuperTux logo

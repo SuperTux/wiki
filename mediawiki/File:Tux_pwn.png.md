@@ -1,1 +1,0 @@
-Tux is victorious!

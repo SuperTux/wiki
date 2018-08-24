@@ -1,2 +1,0 @@
-[[Category:Badguy]]
-[[Category:Boss]]

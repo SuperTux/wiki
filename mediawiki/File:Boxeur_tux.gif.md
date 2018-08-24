@@ -1,1 +1,0 @@
-Sketch for boxeur Tux

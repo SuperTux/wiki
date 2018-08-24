@@ -1,1 +1,0 @@
-Tiles for cloud path

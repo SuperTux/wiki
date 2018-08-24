@@ -1,1 +1,0 @@
-Wall Stone tileset design

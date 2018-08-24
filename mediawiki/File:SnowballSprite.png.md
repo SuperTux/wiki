@@ -1,1 +1,0 @@
-SnowballSprite.png

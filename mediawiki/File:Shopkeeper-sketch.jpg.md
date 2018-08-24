@@ -1,1 +1,0 @@
-Sketch of the Shopkeeper

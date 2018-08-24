@@ -1,2 +1,0 @@
-'MrPlasma sketch'
-[[Category:Badguy]]

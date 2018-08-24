@@ -1,2 +1,0 @@
-StarTux Sprite
-[[Category:Character]]

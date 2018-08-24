@@ -1,2 +1,0 @@
-Ice Supertux
-[[Category:Character]]

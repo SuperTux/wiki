@@ -1,2 +1,0 @@
-SuperTux Logo
-[[Category:SuperTux]]
