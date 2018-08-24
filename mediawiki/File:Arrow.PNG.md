@@ -1,1 +1,0 @@
-Arrow launched for ArrowMachine
