@@ -22,7 +22,7 @@ parameters, you will have to edit the edit the SuperTux configuration
 file. Depending on your operating system, this varies:
 
 | Operating System        | Config file location
-|---------------------------|---------------------------------------------------------------------------------------------------------------
+|-------------------------|---------------------------------------------------------------------------------------------------------------
 | Linux                   | \~/.supertux2/config
 | Windows                 | %USERPROFILE%\\.supertux2\\config
 | Mac OS X                | \~/Library/Application Support/SuperTux/config.txt
@@ -45,21 +45,21 @@ Commands
 
 Following is a list of predefined scripts to run in the console:
 
-| Command               | Description
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------- ----------- ---------------------------
-| **flip()**            | Flips the current level vertically. Make sure you have something to stand on!
-| **edit()**            |  Puts the level into a state suitable for testing out edits. Tux can't exit the level; if he dies or reaches the end he goes into ghost mode.
-| **play()**            | Goes out of edit mode and restarts the level.
-| **kill()**            |  Kills Tux
-| **grow()**            |  Grows Tux into big Tux
-| **shrink()**          |  Shrinks Tux into little Tux
-| **fire()**            | Gives Tux the fire powerup
-| **ice()**             | Gives Tux the ice powerup
-| **earth()**           | Gives Tux the earth powerup
-| **lifeup()**          | Gives Tux 100 more coins
-| **finish()**          | Finish the current level
-| **worldmapfinish()**  | Finish all the levels on the worldmap
-| **functions(x)**      | Gives a list of the functions available in an object or table. If no argument is given, this prints out the functions in the root table.
+| Command           | Description
+|-------------------|------------------------------------------------------------------------
+| flip()            | Flips the current level vertically. Make sure you have something to stand on!
+| edit()            | Puts the level into a state suitable for testing out edits. Tux can't exit the level; if he dies or reaches the end he goes into ghost mode.
+| play()            | Goes out of edit mode and restarts the level.
+| kill()            | Kills Tux
+| grow()            | Grows Tux into big Tux
+| shrink()          | Shrinks Tux into little Tux
+| fire()            | Gives Tux the fire powerup
+| ice()             | Gives Tux the ice powerup
+| earth()           | Gives Tux the earth powerup
+| lifeup()          | Gives Tux 100 more coins
+| finish()          | Finish the current level
+| worldmapfinish()  | Finish all the levels on the worldmap
+| functions(x)      | Gives a list of the functions available in an object or table. If no argument is given, this prints out the functions in the root table.
 
 There are many more, see [ScriptingGlobals](ScriptingGlobals "wikilink")
 for the full list of utility functions and [Scripting
