@@ -121,7 +121,6 @@ This page should give an over view about the currently active members of the dev
 
 ----
 <!-- No I don't put out my last name on the web like that really, it is quite uncommon so it would be quite simple to track me down. -->
-{|
 {{Developer
 |real=Arvid
 |nick=AnMaster

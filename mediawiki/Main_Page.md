@@ -1,15 +1,15 @@
 __NOTOC__
 __NOEDITSECTION__
 [[Image:Logo2.png|center]]
-{|cellpadding="2" cellspacing="5" class="MainPageOuter" width="100%"|
-== newest version: ==
-<font size=6>[[Download/Unstable#Release 0.3.5|SuperTux 0.3.5]]</font>
-<font size=4>[[Changelog 0.3.5|(Changelog)]]</font>
+{| cellpadding="2" cellspacing="5" class="MainPageOuter" width="100%"
+| == newest version: ==
+| <font size=6>[[Download/Unstable#Release 0.3.5|SuperTux 0.3.5]]</font>
+| <font size=4>[[Changelog 0.3.5|(Changelog)]]</font>
 |}
-{|cellpadding="2" cellspacing="5" class="MainPageOuter" width="100%"|
-|class="MainPageMiddle" width="50%"|
+{|cellpadding="2" cellspacing="5" class="MainPageOuter" width="100%"
+|class="MainPageMiddle" width="50%"
 
-{|class="MainPageBox" width="100%"|
+{|class="MainPageBox" width="100%"
 !<h2 class="MainPageBoxH">[[Image:Fire flower-0.png]] SuperTux users</h2>
 |-
 |
@@ -28,9 +28,9 @@ __NOEDITSECTION__
 ** [[Contact]] ([irc://chat.freenode.net/supertux IRC] and the [http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org mailing list])
 |}
 
-|class="MainPageMiddle" width="50%"|
+|class="MainPageMiddle" width="50%"
 
-{|class="MainPageBox" width="100%"|
+{|class="MainPageBox" width="100%"
 !<h2 class="MainPageBoxH">[[Image:Star-0.png]] SuperTux development</h2>
 |-
 |
@@ -46,11 +46,8 @@ __NOEDITSECTION__
 * [[Voice Meeting Setup]]
 
 |}
-
-|-
-|class="MainPageMiddle" width="50%"|
-
-{|class="MainPageBox" width="100%"|
+|class="MainPageMiddle" width="50%"
+{|class="MainPageBox" width="100%"
 !<h2 class="MainPageBoxH">[[Image:Infoblock.png]] Developer documentation</h2>
 |-
 |
@@ -62,9 +59,9 @@ __NOEDITSECTION__
 * [[Tips and Tricks]]
 |}
 
-|class="MainPageMiddle" width="50%"|
+|class="MainPageMiddle" width="50%"
 
-{|class="MainPageBox" width="100%"|
+{|class="MainPageBox" width="100%"
 !<h2 class="MainPageBoxH">[[Image:Coin-0.png]] External links</h2>
 |-
 |

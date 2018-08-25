@@ -40,7 +40,7 @@ The following badguys are available in the stable 0.1&nbsp;release.
 ** [[Igel]]
 ** [[Mole]]
 ** [[Poison Ivy]]
-**[[Skullyhop]]
+** [[Skullyhop]]
 ** [[Snail]]
 ** [[Spike]]
 ** [[Walking leaf]]
