@@ -1,3 +1,0 @@
-Hi!!! Welcome to my page!!! This is for Tux3000. More links soon...
-
-Tux3000

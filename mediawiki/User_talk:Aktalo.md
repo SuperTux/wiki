@@ -1,1 +1,0 @@
-<nowiki>:-D</nowiki>
