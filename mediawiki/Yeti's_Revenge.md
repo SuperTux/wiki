@@ -11,7 +11,7 @@
 
 
 ==== Worldmap ====
-[[Image:Yrmap.PNG|300px]]
+[[Image:Yrmap.png|300px]]
 
 
 ==== New Bonuses ====
@@ -33,238 +33,238 @@
 ! style="background: #7EC0EE;" | Difficulty 
 ! style="background: #7EC0EE;" | Lenght
 |-
-| [[Image:Yr3.PNG|100px]]
+| [[Image:Yr3.png|100px]]
 | A Loud Night
 |style="text-align:center"| intro
 |style="text-align:center"| right
 |style="text-align:center"| - 
 |style="text-align:center"| -
 |-
-| [[Image:Yr4.PNG|100px]]
+| [[Image:Yr4.png|100px]]
 | Leaving Home and Start the Journey       
 |style="text-align:center"| normal        
 |style="text-align:center"| right        
 |style="text-align:center"| <p style="background-color:green">easy</p>       
 |style="text-align:center"| normal     
 |-
-| [[Image:Yr6.PNG|100px]]
+| [[Image:Yr6.png|100px]]
 | Above the Clouds
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr7.PNG|100px]]
+| [[Image:Yr7.png|100px]]
 | Carry Me
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr34.PNG|100px]]
+| [[Image:Yr34.png|100px]]
 | Hail Storm
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr8.PNG|100px]]
+| [[Image:Yr8.png|100px]]
 | Through the Groundwater
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr10.PNG|100px]]
+| [[Image:Yr10.png|100px]]
 | Playground in the Water
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr11.PNG|100px]]
+| [[Image:Yr11.png|100px]]
 | Crazy Cave
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr12.PNG|100px]]
+| [[Image:Yr12.png|100px]]
 | Lotus Grotto
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr13.PNG|100px]]
+| [[Image:Yr13.png|100px]]
 | Staple Me
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr33.PNG|100px]]
+| [[Image:Yr33.png|100px]]
 | It's Getting Colder
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr14.PNG|100px]]
+| [[Image:Yr14.png|100px]]
 | A Bombastic Day
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr15.PNG|100px]]
+| [[Image:Yr15.png|100px]]
 | Blue Mountain
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr17.PNG|100px]]
+| [[Image:Yr17.png|100px]]
 | More of the Blue Mountain
 |style="text-align:center"| normal
 |style="text-align:center"| up
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr18.PNG|100px]]
+| [[Image:Yr18.png|100px]]
 | Reaching the Top
 |style="text-align:center"| normal
 |style="text-align:center"| up
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr20.PNG|100px]]
+| [[Image:Yr20.png|100px]]
 | The Way Down
 |style="text-align:center"| normal
 |style="text-align:center"| down
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr22.PNG|100px]]
+| [[Image:Yr22.png|100px]]
 | Don't Be Afraid
 |style="text-align:center"| puzzle
 |style="text-align:center"| ?
 |style="text-align:center"| <p style="background-color:grey">?</p>
 |style="text-align:center"| ?
 |-
-| [[Image:Yr23.PNG|100px]]
+| [[Image:Yr23.png|100px]]
 | Path Without Name
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr24.PNG|100px]]
+| [[Image:Yr24.png|100px]]
 | Pirate's Harbor
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr35.PNG|100px]]
+| [[Image:Yr35.png|100px]]
 | Foreign Passenger
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr25.PNG|100px]]
+| [[Image:Yr25.png|100px]]
 | Escape From the Pirates
 |style="text-align:center"| chase
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr26.PNG|100px]]
+| [[Image:Yr26.png|100px]]
 | Something to Enjoy
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr27.PNG|100px]]
+| [[Image:Yr27.png|100px]]
 | Windy Day On Ice
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p> 
 |style="text-align:center"| normal
 |-
-| [[Image:Yr28.PNG|100px]]
+| [[Image:Yr28.png|100px]]
 | Next to the Stars
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr29.PNG|100px]]
+| [[Image:Yr29.png|100px]]
 | Slippery Climbing
 |style="text-align:center"| normal
 |style="text-align:center"| up
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr30.PNG|100px]]
+| [[Image:Yr30.png|100px]]
 | Controlling the Temperature
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr31.PNG|100px]]
+| [[Image:Yr31.png|100px]]
 | The Grand Bridge
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr36.PNG|100px]]
+| [[Image:Yr36.png|100px]]
 | Shaft Racing
 |style="text-align:center"| normal/autoscroll
 |style="text-align:center"| down
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| long
 |-
-| [[Image:Yr37.PNG|100px]]
+| [[Image:Yr37.png|100px]]
 | I Go With My Latern
 |style="text-align:center"| puzzle
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:grey">?</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr38.PNG|100px]]
+| [[Image:Yr38.png|100px]]
 | Freeze 'n' Flee
 |style="text-align:center"| normal
 |style="text-align:center"| ?
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr39.PNG|100px]]
+| [[Image:Yr39.png|100px]]
 | Living Spikes
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr40.PNG|100px]]
+| [[Image:Yr40.png|100px]]
 | Spooky Way of Life
 |style="text-align:center"| puzzle
 |style="text-align:center"| ?
 |style="text-align:center"| <p style="background-color:grey">?</p>
 |style="text-align:center"| ?
 |-
-| [[Image:Yr41.PNG|100px]]
+| [[Image:Yr41.png|100px]]
 | Hang Out in the Underground
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:yellow">medium</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr42.PNG|100px]]
+| [[Image:Yr42.png|100px]]
 | Cave of Waterfalls
 |style="text-align:center"| normal
 |style="text-align:center"| right
@@ -292,35 +292,35 @@
 |style="text-align:center"| -
 |style="text-align:center"| -
 |-
-| [[Image:Yr43.PNG|100px]]
+| [[Image:Yr43.png|100px]]
 | Something in the Water
 |style="text-align:center"| intro
 |style="text-align:center"| right
 |style="text-align:center"| -
 |style="text-align:center"| -
 |-
-| [[Image:Yr44.PNG|100px]]
+| [[Image:Yr44.png|100px]]
 | A Wonderful Day
 |style="text-align:center"| normal
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:green">easy</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr45.PNG|100px]]
+| [[Image:Yr45.png|100px]]
 | Big Wave
 |style="text-align:center"| chase
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr46.PNG|100px]]
+| [[Image:Yr46.png|100px]]
 | Surfing Tux
 |style="text-align:center"| autoscroll
 |style="text-align:center"| right
 |style="text-align:center"| <p style="background-color:red">hard</p>
 |style="text-align:center"| normal
 |-
-| [[Image:Yr47.PNG|100px]]
+| [[Image:Yr47.png|100px]]
 | No Brigde Out There
 |style="text-align:center"| normal
 |style="text-align:center"| right

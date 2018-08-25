@@ -1632,7 +1632,7 @@ a foaming right/left edge of the water so you can make it so the water looks lik
 
 == New Tile Ideas ==
 === New Air Tiles ===
-[[Image:New_air_tiles.PNG]]
+[[Image:New_air_tiles.png]]
 === Have an automatic mode in the editor ===
 Just draw in a tilemap where you want tux walk with a type of tile, where you want a tile apear but not walkable, and after, select a tile style and the editor will create the map with that it was maked. after you can have the ability to draw on ... 
 
