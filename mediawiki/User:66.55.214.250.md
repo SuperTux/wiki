@@ -1,1 +1,0 @@
-Average Super Tux user
