@@ -20,8 +20,6 @@ Tux or even other badguys. In version 0.1.3, he always bounces in the
 same direction, regardless of the angle of the surface that he hits. The
 bouncing action in 0.3 and above is more realistic.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
-
 Cannon
 ===================
 
@@ -78,7 +76,7 @@ Image:Dropper.png Image:Working.png Image:Dispenser rocket launcher.png
 -   spawn badguys in tubes
 -   launches molten rocks out of a lava lakes
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Captain\_Snowball
 ===================
@@ -105,7 +103,7 @@ Planned for 0.4. In [SVN](SVN "wikilink") since
 
 ![](Boarding-nq8.png "Boarding-nq8.png")
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Crystallo
 ===================
@@ -126,7 +124,7 @@ Island](Icy_Island "wikilink"). He moves back and forth in a fixed
 range. He is not yet widely used, but he has been implemented in some
 test levels and some user-submitted levels.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Dart\_Trap
 ===================
@@ -200,7 +198,7 @@ Also, possibly there should be a few different types of fish:
     -   Curving Jump following Tux and jumping higher when there is a
         chance to get Tux
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Flame
 ===================
@@ -223,7 +221,7 @@ hurting [Tux](Tux "wikilink") and other badguys on contact (unless, of
 course, Tux is in invincibility mode.) Flames are immune to fire.
 However, ice balls can kill them permanently as of version 0.3.4.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Flying\_Snowball
 ===================
@@ -245,7 +243,7 @@ Island](Icy_Island "wikilink"). It is a flying version of
 [Snowball](Snowball "wikilink") which doesn't walk around but moves up
 and down at random intervals and speeds.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Haywire
 ===================
@@ -274,7 +272,7 @@ other badguys nearby.
 When shot with a [Fireflower](Fireflower "wikilink"), explodes
 immediately.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Igel
 ===================
@@ -314,7 +312,7 @@ thus exposing the only weakness: When hit by a bullet while facing the
 camera, Igel will flip over for some seconds and can be squished by
 jumping on the exposed belly.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Ispy
 ===================
@@ -339,7 +337,7 @@ doors close or bridges are removed.
 
 ![](ChristophEstart.png "ChristophEstart.png")
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Jumpy
 ===================
@@ -362,7 +360,7 @@ stationary, bouncing up and down on the spot. Unless
 [iceflower](iceflower "wikilink"), the only way to get past *Jumpy* is
 to run below him or jump over him at the right time.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Krush\_and\_Krosh
 ===================
@@ -395,7 +393,7 @@ Krush is implemented in levels.
 ![Concept art for
 *Icecrusher*](Icecrusher_(concept_art).png "Concept art for Icecrusher"){width="400"}
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Kugelblitz
 ===================
@@ -474,7 +472,7 @@ More Ideas
 -   The kugelblitz could be attracted to spikes and if it hits them
     disappear. Like a lightning arrester.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Mole
 ===================
@@ -500,7 +498,7 @@ molehill can be seen. He throws out small rocks in random directions
 that can hurt [Tux](Tux "wikilink"). From time to time, he peeks out
 which is the time in which Tux can squish him by jumping on him.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Mr.\_Bomb
 ===================
@@ -535,7 +533,7 @@ concept image for a new look by combining features of
 [Snowball](Snowball "wikilink") and the old Mr. Bomb in Gimp. This
 approach was not accepted either.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Mr.\_IceBlock
 ===================
@@ -588,7 +586,7 @@ card: if he hits another, non-invincible badguy, both Mr. IceBlock and
 the other badguy are killed, leaving Tux unharmed. A minor glitch
 occurs: Mr. IceBlock is scored as 0 points.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Mrs.\_Snowball
 ===================
@@ -613,7 +611,7 @@ than falling down. [Tux](Tux "wikilink") can easily handle these
 This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
 in SVN since [5321](Template:Revision "wikilink").
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Owl
 ===================
@@ -641,7 +639,7 @@ This badguy is in the [SVN](SVN "wikilink") repository since
 need to be improved. The graphics currently in SVN are colorized
 versions of the concept graphics, basically.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Poison\_Ivy
 ===================
@@ -671,7 +669,7 @@ ground, falling from platforms.
 -   [Walking tree](Walking_tree "wikilink")
 -   [Walking leaf](Walking_leaf "wikilink")
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Short\_Fuse
 ===================
@@ -695,7 +693,7 @@ harm Tux -- they only throw him back.
 This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
 in SVN since [6511](Template:Revision "wikilink").
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Skullyhop
 ===================
@@ -714,7 +712,7 @@ Skullyhop
 
 ![Iced skully hop.](Skullyhop-iced-left.png "Iced skully hop.")
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 SkyDive
 ===================
@@ -736,7 +734,7 @@ dropped by [Owl](Owl "wikilink").
 An initial version of this badguy has been committed to
 [SVN](SVN "wikilink") in [6564](Template:Revision "wikilink").
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Sleeping\_Spiky
 ===================
@@ -759,7 +757,7 @@ Sleeping\_Spiky
 around sleeping. Only when he spots the player he slowly rises to his
 feet and starts walking around.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Snail
 ===================
@@ -808,7 +806,7 @@ to Slow Snail
         only horizontally but also vertically
     -   When it hits a wall while flying it will turn back on its feet
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Snowball
 ===================
@@ -840,7 +838,7 @@ handle these badguys by jumping on them, squishing them in the process.
 -   [Snowshot](Snowshot "wikilink")
 -   [Spiky](Spiky "wikilink")
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Snowman
 ===================
@@ -863,7 +861,7 @@ Island](Icy_Island "wikilink").
 This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
 in SVN since [6392](Template:Revision "wikilink").
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Snowshot
 ===================
@@ -891,7 +889,7 @@ In [SVN](SVN "wikilink") since [5323](Template:Revision "wikilink").
 ![Old version of the
 badguy.](Kamikaze-left.png "Old version of the badguy.")
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Spider
 ===================
@@ -912,7 +910,7 @@ up and down vertically, hurting Tux on contact, although Tux can squish
 him like a [Snowball](Snowball "wikilink"). It is themed to appear in
 the [Forest](Forest "wikilink") world but is not (widely) used yet.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Spike
 ===================
@@ -922,7 +920,7 @@ Spike
 IDs: 296, 297, 295, 298\
 All spikes are hurting.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Spiky
 ===================
@@ -946,7 +944,7 @@ homeland, the [Icy Island](Icy_Island "wikilink"), but sometimes in the
 protecting him from being squished by jumping on him, hurting
 [Tux](Tux "wikilink") instead.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Stalactite
 ===================
@@ -968,7 +966,7 @@ They start shaking when [Tux](Tux "wikilink") approaches, falling down
 after a short time. They hurt Tux and kill non-invincible enemies on
 touch.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Stumpy
 ===================
@@ -988,7 +986,7 @@ Stumpy
 Island](Forest_Island "wikilink"). He is beahaviour as
 [Snowball](Snowball "wikilink"), but it is added in version 0.3.0.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Tikitchokwe
 ===================
@@ -1007,7 +1005,7 @@ Tikitchokwe is a proposed badguy for world 3
 influenced by Hawaiian Tiki and Tchokwe mask design. Behavior has to be
 think about, limited torch or not, squish without torch but not with.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Toad
 ===================
@@ -1027,7 +1025,7 @@ Toad
 [Forest](Forest "wikilink"). It follows [Tux](Tux "wikilink") by jumping
 around in large leaps. Can be squished by jumping on it.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Walking\_leaf
 ===================
@@ -1049,7 +1047,7 @@ badguy because it does not fall off of platforms. The leaf will hurt
 [Tux](Tux "wikilink") on contact and can be killed the usual ways. Since
 it is more careful, it is walks a bit slower than the average badguy.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Walking\_totem
 ===================
@@ -1113,7 +1111,7 @@ or spat at.
     on it, and it looses more faces when Tux butt-jump on it
 -   maybe each face shoots, and when one is squashed, it will not shoot.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Walking\_tree
 ===================
@@ -1192,7 +1190,7 @@ Mr Tree could have a thin branch sticking out either side of him which
 Tux can stand on to be carried around. This could serve a purpose if
 there was something that badguys could walk through but Tux couldn't.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Will-o-wisp
 ===================
@@ -1215,10 +1213,10 @@ Once it reaches Tux, he will be teleported to another, possibly
 dangerous part of the level. If Tux manages to get out of reach of the
 *Will-o-wisp*, it will stop following him.
 
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
 
 Zeekling
-===================
+========
 
 -   Name=Zeekling
 -   Image=
@@ -1239,19 +1237,3 @@ it, will dive down to hit him. Tux can avoid being hit by hiding
 underneath platform and other solid blocks.
 
 Should be removed from Forest World for now.
-
-[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
-
-<Category:Badguy.1> <Category:Outdated> <Category:Badguy.3>
-<Category:Badguy.4> <Category:Badguy.3> <Category:Badguy.3>
-<Category:Badguy.1> <Category:Badguy.1> <Category:Badguy.3>
-<Category:Badguy.3> <Category:Badguy.1> <Category:Badguy.3>
-<Category:Badguy.3> <Category:Badguy.1> <Category:Badguy.1>
-<Category:Portable> <Category:Badguy.4> <Category:Badguy.3>
-<Category:Badguy.4> <Category:Badguy> <Category:Portable>
-<Category:Badguy.3> <Category:Badguy.3> <Category:Badguy.1>
-<Category:Badguy.4> <Category:Badguy.4> <Category:Badguy.4>
-<Category:Badguy.1> <Category:Badguy.1> <Category:Badguy.2>
-<Category:Badguy.4> <Category:Badguy.3> <Category:Badguy.3>
-<Category:Badguy.3> <Category:Boss> <Category:Outdated>
-<Category:Badguy.3> <Category:Badguy.3> <Category:Badguy.3>
