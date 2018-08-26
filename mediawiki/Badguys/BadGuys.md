@@ -1,17 +1,16 @@
 == Bouncing_Snowball
 
-{{Infobox Badguy
-| Name=Bouncing Snowball
-| Image=Bouncingsnowball.png
-| FoundIn=[[Icy Island]]
-| Appearance=A [[Snowball]] with eyes but without feet.
-| Behaviour=Jumps around. Jumping is affected by walls and other badguys.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.1
-}}
+* Name=Bouncing Snowball
+* Image=Bouncingsnowball.png
+* FoundIn=[[Icy Island]]
+* Appearance=A [[Snowball]] with eyes but without feet.
+* Behaviour=Jumps around. Jumping is affected by walls and other badguys.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.1
+
 '''Bouncing Snowball''' is a [[badguy]] in [[Icy Island]]. He bounces around, occasionally hitting Tux or even other badguys. In version 0.1.3, he always bounces in the same direction, regardless of the angle of the surface that he hits. The bouncing action in 0.3 and above is more realistic.
 
 [[Template:Navbox Badguys]]
@@ -20,18 +19,18 @@
 
 == Cannon
 
-{{Infobox Badguy
-| Name=Cannon (dispenser)
-| Image=Dispenser rocket launcher.png
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=Differs, see below.
-| Behaviour=Spawns new badguys at fixed or random intervals.
-| Squish=yes
-| Buttjump=yes
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Cannon (dispenser)
+* Image=Dispenser rocket launcher.png
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=Differs, see below.
+* Behaviour=Spawns new badguys at fixed or random intervals.
+* Squish=yes
+* Buttjump=yes
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 A '''Cannon''' is a [[game object]] that spawns new [[badguy]]s. The interval in which badguys are spawned is either fixed or random. A cannon can be shot with either the [[fireflower]] (dies) or [[iceflower]] (stops it emitting new badguys). Whether or not the dispenser is squishable and butt-jumpable depends on the appearance: The ''trapdoor'' and ''rocket launcher'' types are immune to [[Tux]] standing or jumping on them, the ''cannon'' type can be broken this way.
 
 It is also possible for the cannon to shoot inanimate, non-badguy objects (even other cannons.)
@@ -68,18 +67,18 @@ Image:Dispenser rocket launcher.png
 
 == Captain_Snowball
 
-{{Infobox Badguy
-| Name=Captain Snowball
-| Image=
-| FoundIn=[[Icy Island]]
-| Appearance=A walking pirate snowball with eyes and boots on.
-| Behaviour=Walks slower then the average snowball. Falls down from all cliffs.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=
-}}
+
+* Name=Captain Snowball
+* Image=
+* FoundIn=[[Icy Island]]
+* Appearance=A walking pirate snowball with eyes and boots on.
+* Behaviour=Walks slower then the average snowball. Falls down from all cliffs.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=
+
 '''Captain Snowball''' is a [[badguy]] planned to debut in version&nbsp;0.4. There are not yet many levels which feature ''Captain Snowball'', but he will most likely appear in [[Icy Island]] levels or other snow-themed levels.
 
 Planned for 0.4. In [[SVN]] since [[Template:Revision|5323]].
@@ -92,18 +91,18 @@ Planned for 0.4. In [[SVN]] since [[Template:Revision|5323]].
 
 == Crystallo
 
-{{Infobox Badguy
-| Name=Crystallo
-| Image=
-| FoundIn=[[Icy Island]]
-| Appearance=An ice crystal.
-| Behaviour=Moves around but doesn't leave a certain point.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Crystallo
+* Image=
+* FoundIn=[[Icy Island]]
+* Appearance=An ice crystal.
+* Behaviour=Moves around but doesn't leave a certain point.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''Crystallo''' is a [[badguy]] in [[Icy Island]]. He moves back and forth in a fixed range. He is not yet widely used, but he has been implemented in some test levels and some user-submitted levels.
 
 [[Template:Navbox Badguys]]
@@ -112,18 +111,18 @@ Planned for 0.4. In [[SVN]] since [[Template:Revision|5323]].
 == Dart_Trap
 
 [[Template:NeedSound]]
-{{Infobox Badguy
-| Name=Dart Trap
-| Image=
-| FoundIn=[[Forest]]
-| Appearance=A skull mounted to the wall.
-| Behaviour=Static. Shoots darts at regular intervals.
-| Squish=no
-| Buttjump=no
-| Freeze=no
-| Burnable=no
-| FirstVersion=0.3
-}}
+
+* Name=Dart Trap
+* Image=
+* FoundIn=[[Forest]]
+* Appearance=A skull mounted to the wall.
+* Behaviour=Static. Shoots darts at regular intervals.
+* Squish=no
+* Buttjump=no
+* Freeze=no
+* Burnable=no
+* FirstVersion=0.3
+
 The '''Dart trap''' is a [[badguy]] in form of a skull. In regular intervals it shoots darts out of its mouth. The darts fly in a straight line, hurt [[Tux]] and cannot be destroyed but must be avoided. The ''Dart trap'' is mostly found in castles in the [[Forest]] world. 
 
 === To be done ===
@@ -140,18 +139,18 @@ The '''Dart trap''' is a [[badguy]] in form of a skull. In regular intervals it 
 
 == Fish
 
-{{Infobox Badguy
-| Name=Fish
-| Image=FishBlue.png
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A fish jumping out of water.
-| Behaviour=Jumps up out of water regularly.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Fish
+* Image=FishBlue.png
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=A fish jumping out of water.
+* Behaviour=Jumps up out of water regularly.
+* Squish=no
+* Buttjump=no
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''Fish''' is a [[badguy]] that jumps out of water. When [[Tux]] has to cross the water he has to pay attention to the fish so he doesn't get caught.
 
 === Proposed changes ===
@@ -176,18 +175,18 @@ Also, possibly there should be a few different types of fish:
 
 == Flame
 
-{{Infobox Badguy
-| Name=Flame
-| Image=
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A glowing sphere.
-| Behaviour=Follows a circular path around a certain point.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=no
-| FirstVersion=0.1
-}}
+
+* Name=Flame
+* Image=
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=A glowing sphere.
+* Behaviour=Follows a circular path around a certain point.
+* Squish=no
+* Buttjump=no
+* Freeze=yes
+* Burnable=no
+* FirstVersion=0.1
+
 '''Flames''' are [[badguys]] found in both [[worlds]] in ''SuperTux''. They move in fixed circles, hurting [[Tux]] and other badguys on contact (unless, of course, Tux is in invincibility mode.) Flames are immune to fire. However, ice balls can kill them permanently as of version 0.3.4.
 
 
@@ -198,18 +197,18 @@ Also, possibly there should be a few different types of fish:
 
 == Flying_Snowball
 
-{{Infobox Badguy
-| Name=Flying Snowball
-| Image=Flyingsnowball.png
-| FoundIn=[[Icy Island]]
-| Appearance=A [[Snowball]] with a propeller underneath and a pilot hat and goggles.
-| Behaviour=Flies up and down constantly.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.1
-}}
+
+* Name=Flying Snowball
+* Image=Flyingsnowball.png
+* FoundIn=[[Icy Island]]
+* Appearance=A [[Snowball]] with a propeller underneath and a pilot hat and goggles.
+* Behaviour=Flies up and down constantly.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.1
+
 '''Flying Snowball''' is a [[badguy]] often found in [[Icy Island]]. It is a flying version of [[Snowball]] which doesn't walk around but moves up and down at random intervals and speeds.
 
 [[Template:Navbox Badguys]]
@@ -218,18 +217,18 @@ Also, possibly there should be a few different types of fish:
 
 == Haywire
 
-{{Infobox Badguy
-| Name=Haywire
-| Image=MrBombCrazy.png
-| FoundIn=[[Icy Island]]
-| Appearance=A purple walking bomb.
-| Behaviour=Walks around. When jumped on, it's stunned for a little while and its explosion sequence is triggered.
-| Squish=yes
-| Buttjump=yes
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Haywire
+* Image=MrBombCrazy.png
+* FoundIn=[[Icy Island]]
+* Appearance=A purple walking bomb.
+* Behaviour=Walks around. When jumped on, it's stunned for a little while and its explosion sequence is triggered.
+* Squish=yes
+* Buttjump=yes
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''Haywire''' is a [[badguy]] from the [[Milestone 2 Design Document]]. It is very similar to [[Mr. Bomb]]: When jumped upon, the explosion sequence is triggered. In contrast to ''Mr.&nbsp;Bomb'', ''Haywire'' will not lie still but ran around madly. [[Tux]] can stun ''Haywire'' for a short while by jumping on it again, but should try to get out of its reach. When it explodes, hurts [[Tux]] and other badguys nearby.
 
 When shot with a [[Fireflower]], explodes immediately.
@@ -239,18 +238,18 @@ When shot with a [[Fireflower]], explodes immediately.
 
 == Igel
 
-{{Infobox Badguy
-| Name=Igel
-| Image=
-| FoundIn=[[Forest]]
-| Appearance=Looks like a common hedgehog.
-| Behaviour=Walks around. Stays on platforms.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=
-}}
+
+* Name=Igel
+* Image=
+* FoundIn=[[Forest]]
+* Appearance=Looks like a common hedgehog.
+* Behaviour=Walks around. Stays on platforms.
+* Squish=no
+* Buttjump=no
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=
+
 '''Igel''' is a [[badguy]] in the second world of ''SuperTux'', the [[Forest]]. Igel cannot be squished or [[buttjump]]ed due to its spines but they can be shot with a [[fireflower]] when facing [[Tux]].
 
 The term "Igel" is German for "hedgehog", which is precisely why the ''Igel'' in the game look like hedgehogs.
@@ -268,18 +267,18 @@ Upon reaching a ledge or when [[Tux]] stands less than 5 tiles behind Igel, Igel
 
 == Ispy
 
-{{Infobox Badguy
-| Name=Ispy
-| Image=
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A spying eye.
-| Behaviour=Static, looking towards the nearest player.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=no
-| FirstVersion=
-}}
+
+* Name=Ispy
+* Image=
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=A spying eye.
+* Behaviour=Static, looking towards the nearest player.
+* Squish=no
+* Buttjump=no
+* Freeze=yes
+* Burnable=no
+* FirstVersion=
+
 '''Ispy''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. It is a spying eye looking for the player. When the player can be seen by the eye, i.e. no other badguys or walls are in the way, an action is triggered, for example doors close or bridges are removed.
 
 [[Image:ChristophEstart.png]]
@@ -290,18 +289,18 @@ Upon reaching a ledge or when [[Tux]] stands less than 5 tiles behind Igel, Igel
 
 == Jumpy
 
-{{Infobox Badguy
-| Name=Jumpy
-| Image=Left-up.png
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A spiky grey ball with a spring underneath.
-| Behaviour=Jumps up and down.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=0.1
-}}
+
+* Name=Jumpy
+* Image=Left-up.png
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=A spiky grey ball with a spring underneath.
+* Behaviour=Jumps up and down.
+* Squish=no
+* Buttjump=no
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=0.1
+
 '''Jumpy''' is a [[badguy]] found in many levels. He is stationary, bouncing up and down on the spot. Unless [[Tux]] has a [[fireflower]] or an [[iceflower]], the only way to get past ''Jumpy'' is to run below him or jump over him at the right time.
 
 [[Template:Navbox Badguys]]
@@ -310,18 +309,18 @@ Upon reaching a ledge or when [[Tux]] stands less than 5 tiles behind Igel, Igel
 
 == Krush_and_Krosh
 
-{{Infobox Badguy
-| Name=Krush and Krosh (icecrusher)
-| Image=Iceblock.png
-| FoundIn=[[Icy Island]]
-| Appearance=An ice block (two by two for Krush, four by four for Krosh) making an angry face.
-| Behaviour=Clings to the ceiling until [[Tux]] is underneath. Then drops with unstoppable force.
-| Squish=no
-| Buttjump=no
-| Freeze=no
-| Burnable=no
-| FirstVersion=Milestone 2
-}}
+
+* Name=Krush and Krosh (icecrusher)
+* Image=Iceblock.png
+* FoundIn=[[Icy Island]]
+* Appearance=An ice block (two by two for Krush, four by four for Krosh) making an angry face.
+* Behaviour=Clings to the ceiling until [[Tux]] is underneath. Then drops with unstoppable force.
+* Squish=no
+* Buttjump=no
+* Freeze=no
+* Burnable=no
+* FirstVersion=Milestone 2
+
 '''Krush''' and '''Krosh''' are [[badguy]]s found in [[Icy Island]]. They are usually found on ceilings. If Tux comes underneath one, it suddenly drops without warning. If Tux does not get out of the way fast, he is hurt. After they hit the ground, they slowly drift back up. On this "return trip," Tux may safely climb on top of them and hitch a ride.
 
 Both "icecrushers" are available in [[SVN]], but only Krush is implemented in levels.
@@ -335,17 +334,17 @@ Both "icecrushers" are available in [[SVN]], but only Krush is implemented in le
 
 == Kugelblitz
 
-{{Infobox Badguy
-| Name=Kugelblitz
-| Image=Flying-0.png
-| FoundIn=''n/a''
-| Appearance=A ''ball lightning'' with sparks.
-| Behaviour=Moves to the ground, then randomly to the left and right within a limited range.
-| Squish=no
-| Buttjump=no
-| Freeze=no
-| Burnable=no
-}}
+
+* Name=Kugelblitz
+* Image=Flying-0.png
+* FoundIn=''n/a''
+* Appearance=A ''ball lightning'' with sparks.
+* Behaviour=Moves to the ground, then randomly to the left and right within a limited range.
+* Squish=no
+* Buttjump=no
+* Freeze=no
+* Burnable=no
+
 :''This [[badguy]] has been removed from the [[Milestone 2]] branch in [[Template:Revision|6282]].''
 '''Kugelblitz''' is a [[badguy]] not widely used in ''SuperTux'' yet. The ''Kugelblitz'' moves down to the ground and then randomly left and right within a limited range. After a couple of seconds it vanishes. Like the [[Flame]] it cannot be hurt but [[Tux]] has to avoid it if possible. “Kugelblitz” is German for “ball lightning”.
 
@@ -380,18 +379,18 @@ The kugelblitz would come down and start moving in circles from coin to coin. Yo
 
 == Mole
 
-{{Infobox Badguy
-| Name=Mole
-| Image=
-| FoundIn=[[Forest]]
-| Appearance=A molehill.
-| Behaviour=Static. From time to time, the mole peeks out.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=
-}}
+
+* Name=Mole
+* Image=
+* FoundIn=[[Forest]]
+* Appearance=A molehill.
+* Behaviour=Static. From time to time, the mole peeks out.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=
+
 :''This [[badguy]] has been removed from the [[Milestone 2]] branch in [[Template:Revision|6281]].''
 The '''Mole''' is a [[badguy]] found in the [[Forest]]. He's usually underground, so that only his molehill can be seen. He throws out small rocks in random directions that can hurt [[Tux]]. From time to time, he peeks out which is the time in which Tux can squish him by jumping on him.
 
@@ -401,18 +400,18 @@ The '''Mole''' is a [[badguy]] found in the [[Forest]]. He's usually underground
 
 == Mr._Bomb
 
-{{Infobox Badguy
-| Name=Mr. Bomb
-| Image=Mrbomb.png
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A blue walking bomb.
-| Behaviour=Walks around. When jumped on once, it is activated and explodes after a short time, killing nearby badguys.
-| Squish=yes
-| Buttjump=yes
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=0.1
-}}
+
+* Name=Mr. Bomb
+* Image=Mrbomb.png
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=A blue walking bomb.
+* Behaviour=Walks around. When jumped on once, it is activated and explodes after a short time, killing nearby badguys.
+* Squish=yes
+* Buttjump=yes
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=0.1
+
 '''Mr. Bomb''' is a [[badguy]] that can be found in all [[worlds]] of ''SuperTux''. When Tux or another badguy hits him, he stops and begins ticking. After a few seconds, he explodes, hurting all creatures within range. The presence of other Mr. Bombs during explosion may cause a chain reaction of explosions. He also explodes if he is hit by one of Tux's fireballs, but if hit by an [[Iceflower|iceball]], he freezes without exploding.
 
 <div style="clear: both;"></div>
@@ -426,18 +425,18 @@ Due to Grumbel's complaint that “Mr. Bomb is the ugliest badguy ever created�
 
 == Mr._IceBlock
 
-{{Infobox Badguy
-| Name=Mr. IceBlock
-| Image=Mr iceblock.gif
-| FoundIn=[[Icy Island]]
-| Appearance=A cube of ice with eyes and legs.
-| Behaviour=Walks around. When jumped on once, it becomes a kickable and portable block of ice.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.1
-}}
+
+* Name=Mr. IceBlock
+* Image=Mr iceblock.gif
+* FoundIn=[[Icy Island]]
+* Appearance=A cube of ice with eyes and legs.
+* Behaviour=Walks around. When jumped on once, it becomes a kickable and portable block of ice.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.1
+
 '''Mr. IceBlock''' is a [[badguy]] in [[Icy Island]] with moderately complex behavior. In his ordinary form, he works like an ordinary walking badguy, turning around upon reaching walls and falling off cliffs. In version 0.3 and above, he only walks off a cliff if there is something safe on which he can land.
 
 When stomped on for the first time, Mr. IceBlock suddenly stops short. If he is not stomped again for the next few seconds, he returns back to normal. However, if he is stomped once more while squished, he suddenly skids rapidly in one direction, hurting all creatures that he hits. When skidding, he bounces off walls and falls off cliffs. If another creature (including Tux) can stomp on him while he is skidding, he stops short once more (and if he is stomped again, he begins skidding again, and so on.)
@@ -461,18 +460,18 @@ When carrying Mr. IceBlock, Tux is granted a "get out of jail free" card: if he 
 
 == Mrs._Snowball
 
-{{Infobox Badguy
-| Name=Mrs. Snowball (smartball)
-| Image=
-| FoundIn=[[Icy Island]]
-| Appearance=A walking snowball with eyes and boots on.
-| Behaviour=Walks around. Stays on platforms.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Mrs. Snowball (smartball)
+* Image=
+* FoundIn=[[Icy Island]]
+* Appearance=A walking snowball with eyes and boots on.
+* Behaviour=Walks around. Stays on platforms.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''Mrs. Snowball''' is a [[badguy]] found in [[Icy Island]]. In contrast to (Mr.)&nbsp;[[Snowball]] she will stay on platforms rather than falling down. [[Tux]] can easily handle these “badgals” by jumping on them, squishing them in the process.
 
 This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revision|5321]].
@@ -484,18 +483,18 @@ This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revisi
 == Owl
 
 [[Template:NeedGraphics]]
-{{Infobox Badguy
-| Name=Owl
-| Image=
-| FoundIn=[[Icy Island]]
-| Appearance=A blue owl carrying objects around.
-| Behaviour=Flies left and right. Turns around when it hits a wall.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Owl
+* Image=
+* FoundIn=[[Icy Island]]
+* Appearance=A blue owl carrying objects around.
+* Behaviour=Flies left and right. Turns around when it hits a wall.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 The '''Owl''' is a [[badguy]] from the [[Milestone 2 Design Document]]. It flies high up in the air and carries badguys around. When Tux is below it, it will drop whatever it is carrying.
 
 This badguy is in the [[SVN]] repository since [[Template:Revision|6558]].
@@ -506,18 +505,18 @@ The graphics for this badguy still need to be improved. The graphics currently i
 
 == Poison_Ivy
 
-{{Infobox Badguy
-| Name=Poison Ivy
-| Image=Poisonivy.png
-| FoundIn=[[Forest]]
-| Appearance=A green or red plant with teeth.
-| Behaviour=Walks around. Falls down from every ledge.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.3
-}}
+
+* Name=Poison Ivy
+* Image=Poisonivy.png
+* FoundIn=[[Forest]]
+* Appearance=A green or red plant with teeth.
+* Behaviour=Walks around. Falls down from every ledge.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.3
+
 '''Poison Ivy''' is a [[badguy]] found in the [[Forest]] of world&nbsp;2. The plant roams around at the ground, falling from platforms.
 
 === Proposed behavior ===
@@ -535,18 +534,18 @@ The graphics for this badguy still need to be improved. The graphics currently i
 
 == Short_Fuse
 
-{{Infobox Badguy
-| Name=Short Fuse
-| Image=
-| FoundIn=[[Icy Island]]
-| Appearance=A tiny version of [[Mr. Bomb]].
-| Behaviour=Walks around excitedly. Falls off platforms.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Short Fuse
+* Image=
+* FoundIn=[[Icy Island]]
+* Appearance=A tiny version of [[Mr. Bomb]].
+* Behaviour=Walks around excitedly. Falls off platforms.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''Short Fuse''' is a [[badguy]] found in [[Icy Island]]. His behavior is intended to be similar to that of [[Mr. Bomb]], but the explosions do not harm Tux -- they only throw him back.
 
 This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revision|6511]].
@@ -557,17 +556,17 @@ This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revisi
 
 == Skullyhop
 
-{{Infobox Badguy
-| Name=Skullyhop
-| Image=Standing-0.png
-| FoundIn=Bonus Level, Ghost Forest
-| Appearance=A hopping skull.
-| Behaviour=Hops around, chasing [[Tux]].
-| Squish=yes
-| Buttjump=yes
-| Burnable=yes
-| Freeze=yes
-}}
+
+* Name=Skullyhop
+* Image=Standing-0.png
+* FoundIn=Bonus Level, Ghost Forest
+* Appearance=A hopping skull.
+* Behaviour=Hops around, chasing [[Tux]].
+* Squish=yes
+* Buttjump=yes
+* Burnable=yes
+* Freeze=yes
+
 '''Skullyhops''' jump around and chase Tux.
 
 
@@ -580,18 +579,18 @@ This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revisi
 
 == SkyDive
 
-{{Infobox Badguy
-| Name=SkyDive
-| Image=BombFish.png
-| FoundIn=[[Icy Island]]
-| Appearance=A black, spherical fish.
-| Behaviour=Falls down; explodes when it hits the ground.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=SkyDive
+* Image=BombFish.png
+* FoundIn=[[Icy Island]]
+* Appearance=A black, spherical fish.
+* Behaviour=Falls down; explodes when it hits the ground.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''SkyDive''' is a [[badguy]] usually carried around and dropped by [[Owl]].
 
 An initial version of this badguy has been committed to [[SVN]] in [[Template:Revision|6564]].
@@ -602,18 +601,18 @@ An initial version of this badguy has been committed to [[SVN]] in [[Template:Re
 
 == Sleeping_Spiky
 
-{{Infobox Badguy
-| Name=Sleeping Spiky (sspiky)
-| Image=Sleeping-left.png
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A snowball with a spiky helmet.
-| Behaviour=Sits around; starts walking when [[Tux]] approaches.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Sleeping Spiky (sspiky)
+* Image=Sleeping-left.png
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=A snowball with a spiky helmet.
+* Behaviour=Sits around; starts walking when [[Tux]] approaches.
+* Squish=no
+* Buttjump=no
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 
 '''Sleeping Spiky''' is a variation of the well-known [[Spiky]]. This [[badguy]] just sits around sleeping. Only when he spots the player he slowly rises to his feet and starts walking around.
 
@@ -623,18 +622,18 @@ An initial version of this badguy has been committed to [[SVN]] in [[Template:Re
 
 == Snail
 
-{{Infobox Badguy
-| Name=Snail
-| Image=Snowsnail.png
-| FoundIn=[[Forest]]
-| Appearance=A green snail with a purple helmet.
-| Behaviour=Moves around, falling from platforms.
-| Squish=yes
-| Buttjump=yes
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=0.3
-}}
+
+* Name=Snail
+* Image=Snowsnail.png
+* FoundIn=[[Forest]]
+* Appearance=A green snail with a purple helmet.
+* Behaviour=Moves around, falling from platforms.
+* Squish=yes
+* Buttjump=yes
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=0.3
+
 '''Snail''' or '''Slow Snail''' is a [[badguy]] found in the [[Forest]]. When jumped upon, flips over. When flipped over, further jumps on it will kick it around, hurting everything in its way. Dies when [[buttjump]]ed or after being squished for a number of times.
 
 === Design considerations ===
@@ -656,18 +655,18 @@ Since the Snail is used in the forest world, the name might be changed to Slow S
 
 == Snowball
 
-{{Infobox Badguy
-| Name=Snowball
-| Image=Snowball.gif
-| FoundIn=[[Icy Island]]
-| Appearance=A walking snowball with eyes and boots on.
-| Behaviour=Walks around. Falls down from all cliffs.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.1
-}}
+
+* Name=Snowball
+* Image=Snowball.gif
+* FoundIn=[[Icy Island]]
+* Appearance=A walking snowball with eyes and boots on.
+* Behaviour=Walks around. Falls down from all cliffs.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.1
+
 '''Snowball''' is a simple walking [[badguy]] found in [[Icy Island]]. It will fall off platforms but will turn around when reaching a wall. [[Tux]] can easily handle these badguys by jumping on them, squishing them in the process.
 
 === See also ===
@@ -687,18 +686,18 @@ Since the Snail is used in the forest world, the name might be changed to Slow S
 
 == Snowman
 
-{{Infobox Badguy
-| Name=Snowman
-| Image=SnowmanSprite.png
-| FoundIn=[[Icy Island]]
-| Appearance=A walking snowman with eyes.
-| Behaviour=Walks around. Falls off platforms. When jumped on, it turns into Snowball.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Snowman
+* Image=SnowmanSprite.png
+* FoundIn=[[Icy Island]]
+* Appearance=A walking snowman with eyes.
+* Behaviour=Walks around. Falls off platforms. When jumped on, it turns into Snowball.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''Snowman''' is a [[badguy]] found in [[Icy Island]].
 
 This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revision|6392]].
@@ -709,18 +708,18 @@ This badguy is planned for [[Milestone 2]]. It is in SVN since [[Template:Revisi
 
 == Snowshot
 
-{{Infobox Badguy
-| Name=Snowshot (kamikazesnowball)
-| Image=Kamikaze-left2.png
-| FoundIn=[[Icy Island]]
-| Appearance=A flying snowball with a fierce facial expression.
-| Behaviour=Flies in straight line until he crashes in something. Can be shot from a [[Cannon]].
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 2
-}}
+
+* Name=Snowshot (kamikazesnowball)
+* Image=Kamikaze-left2.png
+* FoundIn=[[Icy Island]]
+* Appearance=A flying snowball with a fierce facial expression.
+* Behaviour=Flies in straight line until he crashes in something. Can be shot from a [[Cannon]].
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 2
+
 '''Snowshot''' is a [[badguy]] planned to debut in [[Milestone 2]]. He is a version of [[Snowball]] which is shot from a [[Cannon]] and flies a straight line until crashing into something.
 
 In [[SVN]] since [[Template:Revision|5323]].
@@ -733,18 +732,18 @@ In [[SVN]] since [[Template:Revision|5323]].
 
 == Spider
 
-{{Infobox Badguy
-| Name=Spider (spidermite)
-| Image=Spidermite0.png
-| FoundIn=[[Forest]]
-| Appearance=A spider hanging from the ceiling.
-| Behaviour=Moves up and down.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.4
-}}
+
+* Name=Spider (spidermite)
+* Image=Spidermite0.png
+* FoundIn=[[Forest]]
+* Appearance=A spider hanging from the ceiling.
+* Behaviour=Moves up and down.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.4
+
 '''Spider''' is a [[badguy]] available in SVN. It flies up and down vertically, hurting Tux on contact, although Tux can squish him like a [[Snowball]]. It is themed to appear in the [[Forest]] world but is not (widely) used yet.
 
 [[Template:Navbox Badguys]]
@@ -763,18 +762,18 @@ All spikes are hurting.
 
 == Spiky
 
-{{Infobox Badguy
-| Name=Spiky
-| Image=
-| FoundIn=[[Icy Island]], [[Forest]]
-| Appearance=A walking [[Snowball]] with a spiky helmet.
-| Behaviour=Walks around. Turns at ledges if about to fall offscreen.
-| Squish=no
-| Buttjump=no
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=0.1
-}}
+
+* Name=Spiky
+* Image=
+* FoundIn=[[Icy Island]], [[Forest]]
+* Appearance=A walking [[Snowball]] with a spiky helmet.
+* Behaviour=Walks around. Turns at ledges if about to fall offscreen.
+* Squish=no
+* Buttjump=no
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=0.1
+
 '''Spiky''' is a [[badguy]] commonly found in his homeland, the [[Icy Island]], but sometimes in the [[Forest]], too. He is wearing a spiky helmet protecting him from being squished by jumping on him, hurting [[Tux]] instead.
 
 [[Template:Navbox Badguys]]
@@ -783,18 +782,18 @@ All spikes are hurting.
 
 == Stalactite
 
-{{Infobox Badguy
-| Name=Stalactite
-| Image=Falling.png
-| FoundIn=[[Icy Island]]
-| Appearance=An icicle hanging from the ceiling and underneath platforms.
-| Behaviour=Falls down when [[Tux]] gets near.
-| Squish=no
-| Buttjump=no
-| Freeze=no
-| Burnable=no
-| FirstVersion=0.1
-}}
+
+* Name=Stalactite
+* Image=Falling.png
+* FoundIn=[[Icy Island]]
+* Appearance=An icicle hanging from the ceiling and underneath platforms.
+* Behaviour=Falls down when [[Tux]] gets near.
+* Squish=no
+* Buttjump=no
+* Freeze=no
+* Burnable=no
+* FirstVersion=0.1
+
 '''Stalactites''' are basic enemies, usually found hanging on ceilings. They start shaking when [[Tux]] approaches, falling down after a short time. They hurt Tux and kill non-invincible enemies on touch.
 
 [[Template:Navbox Badguys]]
@@ -803,18 +802,18 @@ All spikes are hurting.
 
 == Stumpy
 
-{{Infobox Badguy
-| Name=Stumpy
-| Image=Small-left-4.png
-| FoundIn=[[Forest Island]]
-| Appearance=A [[Stumpy]] with eyes but treetop.
-| Behaviour=as [[Snowball]].
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.3
-}}
+
+* Name=Stumpy
+* Image=Small-left-4.png
+* FoundIn=[[Forest Island]]
+* Appearance=A [[Stumpy]] with eyes but treetop.
+* Behaviour=as [[Snowball]].
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.3
+
 '''Stumpy''' is a [[badguy]] in [[Forest Island]]. He is beahaviour as [[Snowball]], but it is added in version 0.3.0.
 
 [[Template:Navbox Badguys]]
@@ -823,17 +822,17 @@ All spikes are hurting.
 
 == Tikitchokwe
 
-{{Infobox Badguy
-| Name= Tikitchokwe
-| FoundIn=[[Tropical_Island]]
-| Appearance=character with a mask juggling with fire torch.
-| Behaviour=Moves right and left, throw fire torch on Tux.
-| Squish=Maybe
-| Buttjump=Maybe
-| Freeze=Maybe
-| Burnable=Maybe
 
-}}
+* Name= Tikitchokwe
+* FoundIn=[[Tropical_Island]]
+* Appearance=character with a mask juggling with fire torch.
+* Behaviour=Moves right and left, throw fire torch on Tux.
+* Squish=Maybe
+* Buttjump=Maybe
+* Freeze=Maybe
+* Burnable=Maybe
+
+
 Tikitchokwe is a proposed badguy for world 3 [[Tropical_Island]]. Graphism would be influenced by Hawaiian Tiki and Tchokwe mask design. Behavior has to be think about, limited torch or not, squish without torch but not with. 
 
 [[Template:Navbox Badguys]]
@@ -842,18 +841,18 @@ Tikitchokwe is a proposed badguy for world 3 [[Tropical_Island]]. Graphism would
 
 == Toad
 
-{{Infobox Badguy
-| Name=Toad
-| Image=
-| FoundIn=[[Forest]]
-| Appearance=Poisonous Toad
-| Behaviour=Takes long leaps at regular intervals.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=
-}}
+
+* Name=Toad
+* Image=
+* FoundIn=[[Forest]]
+* Appearance=Poisonous Toad
+* Behaviour=Takes long leaps at regular intervals.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=
+
 '''Toad''' is a [[badguy]] found in the [[Forest]]. It follows [[Tux]] by jumping around in large leaps. Can be squished by jumping on it.
 
 [[Template:Navbox Badguys]]
@@ -862,18 +861,18 @@ Tikitchokwe is a proposed badguy for world 3 [[Tropical_Island]]. Graphism would
 
 == Walking_leaf
 
-{{Infobox Badguy
-| Name=Walking leaf
-| Image=Leaf.png
-| FoundIn=[[Forest]]
-| Appearance=Reddish version of [[Poison Ivy]].
-| Behaviour=Walks around. Stays on platforms.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=
-}}
+
+* Name=Walking leaf
+* Image=Leaf.png
+* FoundIn=[[Forest]]
+* Appearance=Reddish version of [[Poison Ivy]].
+* Behaviour=Walks around. Stays on platforms.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=
+
 '''Walking Leaf''' is a [[badguy]] in the [[Forest]] world. It is a bit smarter than the ordinary badguy because it does not fall off of platforms. The leaf will hurt [[Tux]] on contact and can be killed the usual ways. Since it is more careful, it is walks a bit slower than the average badguy.
 
 [[Template:Navbox Badguys]]
@@ -882,18 +881,18 @@ Tikitchokwe is a proposed badguy for world 3 [[Tropical_Island]]. Graphism would
 
 == Walking_totem
 
-{{Infobox Badguy
-| Name=Walking totem
-| Image=Walking1.png
-| FoundIn=''none yet''
-| Appearance=A walking totem.
-| Behaviour=Walks around. Falls down from all cliffs.
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=Milestone 3
-}}
+
+* Name=Walking totem
+* Image=Walking1.png
+* FoundIn=''none yet''
+* Appearance=A walking totem.
+* Behaviour=Walks around. Falls down from all cliffs.
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=Milestone 3
+
 :''This [[badguy]] has been removed from the [[Milestone 2]] branch in [[Template:Revision|6280]].''
 '''Walking totem''' is a [[badguy]] that's not widely used. It may be used in [[Forest]] levels in the future, though.
 
@@ -936,18 +935,18 @@ Hurt it: jump at it to break into smaller Totems which can be jumped on or spat 
 
 == Walking_tree
 
-{{Infobox Badguy
-| Name=Walking tree
-| Image=Walk-left-6.png
-| FoundIn=[[Forest]]
-| Appearance=A walking tree with eyes.
-| Behaviour=Walks around. Stays on platforms.
-| Squish=yes
-| Buttjump=yes
-| Freeze=yes
-| Burnable=yes
-| FirstVersion=0.3
-}}
+
+* Name=Walking tree
+* Image=Walk-left-6.png
+* FoundIn=[[Forest]]
+* Appearance=A walking tree with eyes.
+* Behaviour=Walks around. Stays on platforms.
+* Squish=yes
+* Buttjump=yes
+* Freeze=yes
+* Burnable=yes
+* FirstVersion=0.3
+
 '''Walking tree''' (sometimes also '''Mr. Tree''') is a [[badguy]] in the [[Forest]]. When jumped on by [[Tux]], breaks into two [[Poison Ivy]] and one [[Stumpy]].
 
 === Design considerations ===
@@ -987,18 +986,18 @@ Mr Tree could have a thin branch sticking out either side of him which Tux can s
 
 == Will-o-wisp
 
-{{Infobox Badguy
-| Name=Will-o-wisp
-| Image=Willowisp.png
-| FoundIn=[[Forest]]
-| Appearance=Small green patch of light
-| Behaviour=Moves towards and follows [[Tux]].
-| Squish=no
-| Buttjump=no
-| Freeze=no
-| Burnable=no
-| FirstVersion=
-}}
+
+* Name=Will-o-wisp
+* Image=Willowisp.png
+* FoundIn=[[Forest]]
+* Appearance=Small green patch of light
+* Behaviour=Moves towards and follows [[Tux]].
+* Squish=no
+* Buttjump=no
+* Freeze=no
+* Burnable=no
+* FirstVersion=
+
 The '''Will-o-wisp''' is a mean little [[badguy]] found in the haunted regions of the [[Forest]]. When [[Tux]] comes close, it will start to follow him slowly. Once it reaches Tux, he will be teleported to another, possibly dangerous part of the level. If Tux manages to get out of reach of the ''Will-o-wisp'', it will stop following him.
 
 [[Template:Navbox Badguys]]
@@ -1007,19 +1006,17 @@ The '''Will-o-wisp''' is a mean little [[badguy]] found in the haunted regions o
 
 == Zeekling
 
-__NOTOC__
-{{Infobox Badguy
-| Name=Zeekling
-| Image=
-| FoundIn=[[Forest]]
-| Appearance=Purple, winged critter
-| Behaviour=Flies left and right high above ground. Dives to hit [[Tux]].
-| Squish=yes
-| Buttjump=yes
-| Freeze=no
-| Burnable=yes
-| FirstVersion=0.3
-}}
+* Name=Zeekling
+* Image=
+* FoundIn=[[Forest]]
+* Appearance=Purple, winged critter
+* Behaviour=Flies left and right high above ground. Dives to hit [[Tux]].
+* Squish=yes
+* Buttjump=yes
+* Freeze=no
+* Burnable=yes
+* FirstVersion=0.3
+
 '''Zeekling''' is a [[badguy]] found in the [[Forest]]. It flies left and right in a straight path, usually near the top of the level. When [[Tux]] is below it, will dive down to hit him. Tux can avoid being hit by hiding underneath platform and other solid blocks.
 
 Should be removed from Forest World for now.
