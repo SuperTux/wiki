@@ -31,5 +31,3 @@ In this case, the bug is also *resolved* and the resolution is set to
 available. When you *re-open* the bug its status is (automatically) set
 to *feedback* and the resolution is set to *reopened*. The team then
 knows that there is new information available and will review it.
-
-<Category:Bugs>
