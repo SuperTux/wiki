@@ -202,13 +202,15 @@ A few more simple commands:
 
 And example of using wait:
 
-`Candle1.set_burning(true);`\
-`wait(0.1);`\
-`Candle2.set_burning(true);`\
-`wait(2);`\
-`Candle1.set_burning(false);`\
-`wait(0.1);`\
-`Candle2.set_burning(false);`
+```
+Candle1.set_burning(true);
+wait(0.1);
+Candle2.set_burning(true);
+wait(2);
+Candle1.set_burning(false);
+wait(0.1);
+Candle2.set_burning(false);
+```
 
 The result of this will be that candle1 lights, followed by candle2 a
 fraction of a second later. After two more seconds, candle1 and then
@@ -222,8 +224,6 @@ background.\
 Since r5769: Background image is present as “BG Image” in LayerList.
 Click it.\
 Since r5888: Background image is present as “Background IMG.”
-
-\
 
 Other tools
 -----------
@@ -262,8 +262,6 @@ To create a new brush you currently got to “train” an empty one:
 
 Note that a good brush would need several thousand patterns.
 
-\
-
 Sectors
 -------
 
@@ -286,8 +284,6 @@ area and select “New”.
 
 Right click at the [sector tab](#Where_are_the_sector_tabs? "wikilink")
 for the current sector and select “Delete”.
-
-\
 
 Operating system specific notes
 -------------------------------
@@ -339,8 +335,6 @@ installing the components.
 
 Yes, but it requires a complete setup. you will have to compile some
 GTK\# programs amongst other things. We are able to provide a package.
-
-\
 
 ### SuperTux is slow when I test my level
 
