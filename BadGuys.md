@@ -1,4 +1,5 @@
-== Bouncing\_Snowball
+Bouncing\_Snowball
+===================
 
 -   Name=Bouncing Snowball
 -   Image=Bouncingsnowball.png
@@ -21,7 +22,8 @@ bouncing action in 0.3 and above is more realistic.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Cannon
+Cannon
+===================
 
 -   Name=Cannon (dispenser)
 -   Image=Dispenser rocket launcher.png
@@ -78,7 +80,8 @@ Image:Dropper.png Image:Working.png Image:Dispenser rocket launcher.png
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Captain\_Snowball
+Captain\_Snowball
+===================
 
 -   Name=Captain Snowball
 -   Image=
@@ -104,7 +107,8 @@ Planned for 0.4. In [SVN](SVN "wikilink") since
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Crystallo
+Crystallo
+===================
 
 -   Name=Crystallo
 -   Image=
@@ -124,7 +128,8 @@ test levels and some user-submitted levels.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Dart\_Trap
+Dart\_Trap
+===================
 
 <Template:NeedSound>
 
@@ -156,7 +161,8 @@ must be avoided. The *Dart trap* is mostly found in castles in the
 :   i belive this is already implemented in milestone 1.5 & subversion
     --[Disk](User:Disk "wikilink") 18:51, 30 August 2007 (UTC)
 
-== Fish
+Fish
+===================
 
 -   Name=Fish
 -   Image=FishBlue.png
@@ -196,7 +202,8 @@ Also, possibly there should be a few different types of fish:
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Flame
+Flame
+===================
 
 -   Name=Flame
 -   Image=
@@ -218,7 +225,8 @@ However, ice balls can kill them permanently as of version 0.3.4.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Flying\_Snowball
+Flying\_Snowball
+===================
 
 -   Name=Flying Snowball
 -   Image=Flyingsnowball.png
@@ -239,7 +247,8 @@ and down at random intervals and speeds.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Haywire
+Haywire
+===================
 
 -   Name=Haywire
 -   Image=MrBombCrazy.png
@@ -267,7 +276,8 @@ immediately.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Igel
+Igel
+===================
 
 -   Name=Igel
 -   Image=
@@ -306,7 +316,8 @@ jumping on the exposed belly.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Ispy
+Ispy
+===================
 
 -   Name=Ispy
 -   Image=
@@ -330,7 +341,8 @@ doors close or bridges are removed.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Jumpy
+Jumpy
+===================
 
 -   Name=Jumpy
 -   Image=Left-up.png
@@ -352,7 +364,8 @@ to run below him or jump over him at the right time.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Krush\_and\_Krosh
+Krush\_and\_Krosh
+===================
 
 -   Name=Krush and Krosh (icecrusher)
 -   Image=Iceblock.png
@@ -384,7 +397,8 @@ Krush is implemented in levels.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Kugelblitz
+Kugelblitz
+===================
 
 -   Name=Kugelblitz
 -   Image=Flying-0.png
@@ -462,7 +476,8 @@ More Ideas
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Mole
+Mole
+===================
 
 -   Name=Mole
 -   Image=
@@ -487,7 +502,8 @@ which is the time in which Tux can squish him by jumping on him.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Mr.\_Bomb
+Mr.\_Bomb
+===================
 
 -   Name=Mr. Bomb
 -   Image=Mrbomb.png
@@ -521,7 +537,8 @@ approach was not accepted either.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Mr.\_IceBlock
+Mr.\_IceBlock
+===================
 
 -   Name=Mr. IceBlock
 -   Image=Mr iceblock.gif
@@ -573,7 +590,8 @@ occurs: Mr. IceBlock is scored as 0 points.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Mrs.\_Snowball
+Mrs.\_Snowball
+===================
 
 -   Name=Mrs. Snowball (smartball)
 -   Image=
@@ -597,7 +615,8 @@ in SVN since [5321](Template:Revision "wikilink").
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Owl
+Owl
+===================
 
 <Template:NeedGraphics>
 
@@ -624,7 +643,8 @@ versions of the concept graphics, basically.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Poison\_Ivy
+Poison\_Ivy
+===================
 
 -   Name=Poison Ivy
 -   Image=Poisonivy.png
@@ -653,7 +673,8 @@ ground, falling from platforms.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Short\_Fuse
+Short\_Fuse
+===================
 
 -   Name=Short Fuse
 -   Image=
@@ -676,7 +697,8 @@ in SVN since [6511](Template:Revision "wikilink").
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Skullyhop
+Skullyhop
+===================
 
 -   Name=Skullyhop
 -   Image=Standing-0.png
@@ -694,7 +716,8 @@ in SVN since [6511](Template:Revision "wikilink").
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== SkyDive
+SkyDive
+===================
 
 -   Name=SkyDive
 -   Image=BombFish.png
@@ -715,7 +738,8 @@ An initial version of this badguy has been committed to
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Sleeping\_Spiky
+Sleeping\_Spiky
+===================
 
 -   Name=Sleeping Spiky (sspiky)
 -   Image=Sleeping-left.png
@@ -737,7 +761,8 @@ feet and starts walking around.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Snail
+Snail
+===================
 
 -   Name=Snail
 -   Image=Snowsnail.png
@@ -785,7 +810,8 @@ to Slow Snail
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Snowball
+Snowball
+===================
 
 -   Name=Snowball
 -   Image=Snowball.gif
@@ -816,7 +842,8 @@ handle these badguys by jumping on them, squishing them in the process.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Snowman
+Snowman
+===================
 
 -   Name=Snowman
 -   Image=SnowmanSprite.png
@@ -838,7 +865,8 @@ in SVN since [6392](Template:Revision "wikilink").
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Snowshot
+Snowshot
+===================
 
 -   Name=Snowshot (kamikazesnowball)
 -   Image=Kamikaze-left2.png
@@ -865,7 +893,8 @@ badguy.](Kamikaze-left.png "Old version of the badguy.")
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Spider
+Spider
+===================
 
 -   Name=Spider (spidermite)
 -   Image=Spidermite0.png
@@ -885,7 +914,8 @@ the [Forest](Forest "wikilink") world but is not (widely) used yet.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Spike
+Spike
+===================
 
 ![](Rightspike.png "fig:Rightspike.png")![](Down.png "fig:Down.png")\
 ![](Up.png "fig:Up.png")![](Left.png "fig:Left.png")\
@@ -894,7 +924,8 @@ All spikes are hurting.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Spiky
+Spiky
+===================
 
 -   Name=Spiky
 -   Image=
@@ -917,7 +948,8 @@ protecting him from being squished by jumping on him, hurting
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Stalactite
+Stalactite
+===================
 
 -   Name=Stalactite
 -   Image=Falling.png
@@ -938,7 +970,8 @@ touch.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Stumpy
+Stumpy
+===================
 
 -   Name=Stumpy
 -   Image=Small-left-4.png
@@ -957,7 +990,8 @@ Island](Forest_Island "wikilink"). He is beahaviour as
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Tikitchokwe
+Tikitchokwe
+===================
 
 -   Name= Tikitchokwe
 -   FoundIn=[Tropical\_Island](Tropical_Island "wikilink")
@@ -975,7 +1009,8 @@ think about, limited torch or not, squish without torch but not with.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Toad
+Toad
+===================
 
 -   Name=Toad
 -   Image=
@@ -994,7 +1029,8 @@ around in large leaps. Can be squished by jumping on it.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Walking\_leaf
+Walking\_leaf
+===================
 
 -   Name=Walking leaf
 -   Image=Leaf.png
@@ -1015,7 +1051,8 @@ it is more careful, it is walks a bit slower than the average badguy.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Walking\_totem
+Walking\_totem
+===================
 
 -   Name=Walking totem
 -   Image=Walking1.png
@@ -1078,7 +1115,8 @@ or spat at.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Walking\_tree
+Walking\_tree
+===================
 
 -   Name=Walking tree
 -   Image=Walk-left-6.png
@@ -1156,7 +1194,8 @@ there was something that badguys could walk through but Tux couldn't.
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Will-o-wisp
+Will-o-wisp
+===================
 
 -   Name=Will-o-wisp
 -   Image=Willowisp.png
@@ -1178,7 +1217,8 @@ dangerous part of the level. If Tux manages to get out of reach of the
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-== Zeekling
+Zeekling
+===================
 
 -   Name=Zeekling
 -   Image=
