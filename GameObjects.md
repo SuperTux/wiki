@@ -87,7 +87,7 @@ spitting bubbles as soon as Tux “wakes” him by jumping on his nose.
 Buttons\_and\_switches
 ======================
 
-[Template:Milestone 2](Template:Milestone_2 "wikilink") **Buttons and
+**Buttons and
 switches** could be used a lot.
 
 1.  To open doors/[switchable blocks](switchable_blocks "wikilink")
@@ -215,7 +215,7 @@ visualization.
 Magic\_Block
 ============
 
-[Template:Milestone 2](Template:Milestone_2 "wikilink") Magic Blocks are
+Magic Blocks are
 tile-like game objects that are sensitive to
 [Lighting](Lighting "wikilink") conditions. They are rendered in a
 primary color and will only be solid as long as light of the same color
@@ -432,7 +432,7 @@ Uses for pipes:
 Rock
 ====
 
-[Template:Milestone 2](Template:Milestone_2 "wikilink") A **rock** is a
+A **rock** is a
 small [object](Objects "wikilink") that [Tux](Tux "wikilink") can pick
 up and move around. Tux can walk on rocks, so they are useful to reach
 high places. Both Tux and enemies are hurt if a rock falls on their
@@ -455,7 +455,7 @@ currents](Wind "wikilink").
 Secret\_Area
 ============
 
-[Template:Milestone 2](Template:Milestone_2 "wikilink") The Secret Area
+The Secret Area
 Trigger is used to mark secret areas, at the moment it fades a tilemap,
 writes a message to the screen, and adds to the number of secrets the
 player has found in a level, as well as marking the total number of
@@ -522,7 +522,7 @@ back to *Icy Island*.
 Thunderstorm
 ============
 
-[Template:Milestone 2](Template:Milestone_2 "wikilink") When the
+When the
 Thunderstorm goes off, you will hear distant thunder. Shortly afterwards
 a lightning strikes, making the screen flash. All water in the level is
 electrified when the lightning hits and reverts to normal afterwards.
@@ -574,18 +574,17 @@ changed to empty.
 Trampoline
 ==========
 
-[Template:Milestone 2](Template:Milestone_2 "wikilink") The trampoline
-is a small [object](Objects "wikilink") that [Tux](Tux "wikilink") can
-pick up and move around. When [Tux](Tux "wikilink") jumps on the
-trampoline the springs compress and then Tux is launched into the air.
-Trampolines will allow Tux to bounce up to areas he could not normally
-jump to.
+The trampoline is a small [object](Objects "wikilink") that [Tux](Tux
+"wikilink") can pick up and move around. When [Tux](Tux "wikilink")
+jumps on the trampoline the springs compress and then Tux is launched
+into the air. Trampolines will allow Tux to bounce up to areas he
+could not normally jump to.
 
-        (trampoline
-          (x 320)
-          (y 1056)
-          (portable #f)
-        )
+    (trampoline
+      (x 320)
+      (y 1056)
+      (portable #f)
+    )
 
 **x** and **y** are the coordinates as usual. **portable** is a optional
 flag which defaults to true. Set it to false to prevent the player from
@@ -630,36 +629,9 @@ that can be destroyed by shooting it with a
 Wind
 ====
 
-[Template:Milestone 2](Template:Milestone_2 "wikilink") Generally
-speaking, Wind is a region in a level that influences Tux' speed while
-he's not standing on solid ground. Wind can be scripted to create e.g.
-air gushes coming out of pipes or water streams that can be switched on
-and off. See [ScriptingWind](ScriptingWind "wikilink") for a detailed
-description about how to manipulate a Wind object with Squirrel scripts.
-
-[Category:Game Object](Category:Game_Object "wikilink") [Category:Game
-Engine](Category:Game_Engine "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Engine](Category:Game_Engine "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") <Category:Design>
-[Category:Game Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") <Category:Portable>
-[Category:Game Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") <Category:Portable>
-[Category:Game Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink") [Category:Game
-Object](Category:Game_Object "wikilink")
+Generally speaking, Wind is a region in a level that influences Tux'
+speed while he's not standing on solid ground. Wind can be scripted to
+create e.g. air gushes coming out of pipes or water streams that can
+be switched on and off. See [ScriptingWind](ScriptingWind "wikilink")
+for a detailed description about how to manipulate a Wind object with
+Squirrel scripts.
