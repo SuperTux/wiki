@@ -29,35 +29,35 @@ powerups.
 
 The editor differentiates which powerups are given:
 
-![](Bonus_Block.jpeg "Bonus_Block.jpeg")
+![](images/Bonus_Block.jpeg "Bonus_Block.jpeg")
 
 A common bonus block giving [Tux](Tux "wikilink") 1 coin.
 
-![](Bonus_Block_-_Crate.jpeg "Bonus_Block_-_Crate.jpeg")
+![](images/Bonus_Block_-_Crate.jpeg "Bonus_Block_-_Crate.jpeg")
 
 A wooden crate, yielding six coins, one per hit.
 
-![](Bonus_Block_-_Snowy_Crate.jpeg "Bonus_Block_-_Snowy_Crate.jpeg")
+![](images/Bonus_Block_-_Snowy_Crate.jpeg "Bonus_Block_-_Snowy_Crate.jpeg")
 
 The same as the normal crate, but is used when the area is more snowy.
 
-![](Bonus_Block_-_Powerup.jpeg "Bonus_Block_-_Powerup.jpeg")
+![](images/Bonus_Block_-_Powerup.jpeg "Bonus_Block_-_Powerup.jpeg")
 
 Standard powerup, meaning an egg, a fireflower, or an iceflower
 depending on whether Tux is big.
 
-![](Bonus_Block_-_Invinsible.jpeg "Bonus_Block_-_Invinsible.jpeg")
+![](images/Bonus_Block_-_Invinsible.jpeg "Bonus_Block_-_Invinsible.jpeg")
 
 Invincibility star. Collisions which would kill Tux instead kill the
 badguy, if he is killable.
 
-![](Bonus_Block_-_Invisible.jpeg "Bonus_Block_-_Invisible.jpeg")
+![](images/Bonus_Block_-_Invisible.jpeg "Bonus_Block_-_Invisible.jpeg")
 
 This is invisible until you hit it with your head. It then appears as an
 empty bonus block. These are often used to produce paths to [secret
 areas](Secret_Area "wikilink").
 
-![](Bonus_Block_-_100_coins.jpeg "Bonus_Block_-_100_coins.jpeg")
+![](images/Bonus_Block_-_100_coins.jpeg "Bonus_Block_-_100_coins.jpeg")
 
 This block releases a tiny penguin when hit. It goes up slightly at an
 angle away from the side Tux hits it on, then curves and goes down, to
@@ -65,7 +65,7 @@ be lost forever unless Tux can catch it before it goes into the ground.
 He currently gets 100 coins. This could be changed as he only loses
 about 25 when he dies.
 
-![](Bonus_Block_-_Empty.jpeg "Bonus_Block_-_Empty.jpeg")
+![](images/Bonus_Block_-_Empty.jpeg "Bonus_Block_-_Empty.jpeg")
 
 All bonus blocks look like this once used, but there are also some which
 begin like this. They act exactly like a normal, solid block.
@@ -82,7 +82,7 @@ released. The following sketch shows such a bubble dispenser as it could
 appear in the forest world, in form of a fossilized dragon that starts
 spitting bubbles as soon as Tux “wakes” him by jumping on his nose.
 
-![](Bubble_sketch.jpg "Bubble_sketch.jpg")
+![](images/Bubble_sketch.jpg "Bubble_sketch.jpg")
 
 Buttons\_and\_switches
 ======================
@@ -180,7 +180,7 @@ different part of the level, even in a different sector.
 Infoblock
 =========
 
-![](Infoblock.png "fig:Infoblock.png") An **Infoblock** is a [game
+![](images/Infoblock.png "fig:Infoblock.png") An **Infoblock** is a [game
 object](game_object "wikilink") which is used to provide non-obvious
 information for the player. It is displayed as a green block with a
 white exclamation mark. When jumping against the block from below, a
@@ -208,7 +208,7 @@ colors are defined in
 Ladder
 ======
 
-![](Ladder.png "fig:Ladder.png") An [area](Objects "wikilink")
+![](images/Ladder.png "fig:Ladder.png") An [area](Objects "wikilink")
 [Tux](Tux "wikilink") can climb up in. Needs (background) graphics for
 visualization.
 
@@ -222,12 +222,12 @@ primary color and will only be solid as long as light of the same color
 shines on the block.
 
 Illustration of Magic Block behaviour:\
-![](Lighting2.png "fig:Lighting2.png")
+![](images/Lighting2.png "fig:Lighting2.png")
 
 Moving\_platform
 ================
 
-![](Flying_platform-0.png "fig:Flying_platform-0.png") A **moving
+![](images/Flying_platform-0.png "fig:Flying_platform-0.png") A **moving
 platform** is a [MovingObject](MovingObject "wikilink") that can be used
 by level designers to let [Tux](Tux "wikilink") reach high places. It
 can be [scripted](ScriptingPlatform "wikilink") to start moving as a
@@ -442,7 +442,7 @@ For a sample, see the level
 [world2/builder.stl](http://supertux.lethargik.org/svn/supertux/trunk/supertux/data/levels/world2/builder.stl)
 (in 0.3.0 and up).
 
-![](RockHowTo-nq8.png "RockHowTo-nq8.png")
+![](images/RockHowTo-nq8.png "RockHowTo-nq8.png")
 
 Script\_trigger
 ===============
@@ -621,7 +621,7 @@ tile doesn't have a *fall-down* action, it will be removed after the
 Weak\_block
 ===========
 
-![](Weak_block.png "fig:Weak_block.png") This is a special kind of block
+![](images/Weak_block.png "fig:Weak_block.png") This is a special kind of block
 that can be destroyed by shooting it with a
 [fireflower](fireflower "wikilink") or when something explodes nearby,
 [Mr. Bomb](Mr._Bomb "wikilink") for example.
