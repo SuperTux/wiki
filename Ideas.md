@@ -38,3 +38,10 @@ in the future.
 - Squirrel code completion for MN_SCRIPT items. This is a huge undertaking, but easier for people who want to get into scripting.
 - Exporting created levelsets / worldmaps as ZIP files
 - Upon dropping a layer / badguy onto the sector, open its properties (configurable in Options).
+
+### Suggested Tiles
+
+Some new suggested tile types from [[Tiles]]:
+
+* Slime/Mud - Slow down Tux's movement
+* Quicksand - Tux could sink slowly in this and be slower than usual
