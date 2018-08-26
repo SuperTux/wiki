@@ -30,13 +30,11 @@ iceflower power up.
 | [Jumpy](http://supertux.lethargik.org/wiki/Jumpy) | Any world | M1 |![Jumpy](img/badguy/icons/Left-up.png) |
 | [Igel](http://supertux.lethargik.org/wiki/Igel) | Forest | M2 |![Igel](img/badguy/icons/Igel.png) |
 | [Krush and Krosh](http://supertux.lethargik.org/wiki/Krush_and_Krosh) | Icy Island | M2 |![Iceblock](img/badguy/icons/Iceblock.png) |
-| [Mole](http://supertux.lethargik.org/wiki/Mole) | Forest | M2 |![Mole](img/badguy/icons/Mole.png) |
 | [Mr. Bomb](http://supertux.lethargik.org/wiki/Mr._Bomb) | Any world | M1 |![Mr. Bomb](img/badguy/icons/Mrbomb.png) |
 | [Mr. Iceblock](http://supertux.lethargik.org/wiki/Mr._IceBlock) | Icy Island | M1 |![Mr. Iceblock](img/badguy/icons/Mr_iceblock.gif) |
 | [Mr. Snowball](http://supertux.lethargik.org/wiki/Snowball) | Icy Island | M1 |![snowball](img/badguy/icons/Snowball.gif) |
 | [Mrs. Snowball](http://supertux.lethargik.org/wiki/Mrs._Snowball) | Icy Island | M2 |![smartball](img/badguy/icons/Mrs._Snowball_(smartball).png) |
 | [Owl](http://supertux.lethargik.org/wiki/Owl) | Any world | M2 |![Owl](img/badguy/icons/Owl.png) |
-| [Poison Ivy](http://supertux.lethargik.org/wiki/Poison_Ivy) | Forest | M2 |![Poison Ivy](img/badguy/icons/Poisonivy.png)
 | [Short Fuse](http://supertux.lethargik.org/wiki/Short_Fuse) | Any world | M2 |![Short Fuse](img/badguy/icons/Short_Fuse.png) |
 | [Skullyhop](http://supertux.lethargik.org/wiki/Skullyhop) | Forest | M2 |![Skullyhop](img/badguy/icons/Standing-0.png) |
 | [SkyDive](http://supertux.lethargik.org/wiki/SkyDive) | Any world | M2 |![SkyDive](img/badguy/icons/BombFish.png) |
@@ -536,35 +534,7 @@ More Ideas
 -   The kugelblitz could be attracted to spikes and if it hits them
     disappear. Like a lightning arrester.
 
-
-
-Mole
-===================
-
--   Name=Mole
--   Image=
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A molehill.
--   Behaviour=Static. From time to time, the mole peeks out.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=
-
-:   *This [badguy](badguy "wikilink") has been removed from the
-    [Milestone 2](Milestone_2 "wikilink") branch in
-    [6281](Template:Revision "wikilink").*
-
-The **Mole** is a [badguy](badguy "wikilink") found in the
-[Forest](Forest "wikilink"). He's usually underground, so that only his
-molehill can be seen. He throws out small rocks in random directions
-that can hurt [Tux](Tux "wikilink"). From time to time, he peeks out
-which is the time in which Tux can squish him by jumping on him.
-
-
-
-Mr.\_Bomb
+Mr. Bomb
 ===================
 
 -   Name=Mr. Bomb
@@ -702,38 +672,6 @@ This badguy is in the [SVN](SVN "wikilink") repository since
 [6558](Template:Revision "wikilink"). The graphics for this badguy still
 need to be improved. The graphics currently in SVN are colorized
 versions of the concept graphics, basically.
-
-
-
-Poison\_Ivy
-===================
-
--   Name=Poison Ivy
--   Image=Poisonivy.png
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A green or red plant with teeth.
--   Behaviour=Walks around. Falls down from every ledge.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=0.3
-
-**Poison Ivy** is a [badguy](badguy "wikilink") found in the
-[Forest](Forest "wikilink") of world 2. The plant roams around at the
-ground, falling from platforms.
-
-### Proposed behavior
-
--   Advanced forms of Poison Ivy could have the ability to flap their
-    leaf-wings, then (after some flapping) do a short hop towards Tux
-
-### See also
-
--   [Walking tree](Walking_tree "wikilink")
--   [Walking leaf](Walking_leaf "wikilink")
-
-
 
 Short\_Fuse
 ===================
