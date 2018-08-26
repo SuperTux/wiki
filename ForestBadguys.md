@@ -5,9 +5,11 @@
 | [Poison Ivy](http://supertux.lethargik.org/wiki/Poison_Ivy) | Forest | M2 |![Poison Ivy](img/badguy/icons/Poisonivy.png)
 | [Snail](http://supertux.lethargik.org/wiki/Snail) | Forest | M2 |![Snail](img/badguy/icons/Snowsnail.png) |
 | [Spider](http://supertux.lethargik.org/wiki/Spider) | Forest | M2 |![spider](img/badguy/icons/Spidermite0.png) |
+| [Toad](http://supertux.lethargik.org/wiki/Toad) | Forest | M2 |![Toad](img/badguy/icons/Toad.png)  |
 | [Walking Leaf](http://supertux.lethargik.org/wiki/Walking_leaf) | Forest | M2 |![Walking Leaf](img/badguy/icons/Leaf.png)  |
 | [Walking Tree](http://supertux.lethargik.org/wiki/Walking_tree) | Forest | M2 |![Walking Tree](img/badguy/icons/Walk-left-6.png)  |
 | [Will-o-wisp](http://supertux.lethargik.org/wiki/Will-o-wisp) | Forest | M2 |![Will-o-wisp](img/badguy/icons/Willowisp.png)  |
+| [Zeekling](http://supertux.lethargik.org/wiki/Zeekling) | Forest | M2 |![Zeekling](img/badguy/icons/Zeekling.png)  |
 
 
 Mole
@@ -210,7 +212,23 @@ or spat at.
     on it, and it looses more faces when Tux butt-jump on it
 -   maybe each face shoots, and when one is squashed, it will not shoot.
 
+Toad
+===================
 
+-   Name=Toad
+-   Image=
+-   FoundIn=[Forest](Forest "wikilink")
+-   Appearance=Poisonous Toad
+-   Behaviour=Takes long leaps at regular intervals.
+-   Squish=yes
+-   Buttjump=yes
+-   Freeze=no
+-   Burnable=yes
+-   FirstVersion=
+
+**Toad** is a [badguy](badguy "wikilink") found in the
+[Forest](Forest "wikilink"). It follows [Tux](Tux "wikilink") by jumping
+around in large leaps. Can be squished by jumping on it.
 
 Walking\_tree
 ===================
@@ -289,6 +307,26 @@ Mr Tree could have a thin branch sticking out either side of him which
 Tux can stand on to be carried around. This could serve a purpose if
 there was something that badguys could walk through but Tux couldn't.
 
+
+Walking\_leaf
+===================
+
+-   Name=Walking leaf
+-   Image=Leaf.png
+-   FoundIn=[Forest](Forest "wikilink")
+-   Appearance=Reddish version of [Poison Ivy](Poison_Ivy "wikilink").
+-   Behaviour=Walks around. Stays on platforms.
+-   Squish=yes
+-   Buttjump=yes
+-   Freeze=no
+-   Burnable=yes
+-   FirstVersion=
+
+**Walking Leaf** is a [badguy](badguy "wikilink") in the
+[Forest](Forest "wikilink") world. It is a bit smarter than the ordinary
+badguy because it does not fall off of platforms. The leaf will hurt
+[Tux](Tux "wikilink") on contact and can be killed the usual ways. Since
+it is more careful, it is walks a bit slower than the average badguy.
 
 
 Will-o-wisp

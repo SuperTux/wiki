@@ -43,8 +43,6 @@ iceflower power up.
 | [Spike](http://supertux.lethargik.org/wiki/Spike) | Forest | M2 |![Spike](img/badguy/icons/Down.png) |
 | [Spiky](http://supertux.lethargik.org/wiki/Spiky) | Any world | M1 |![Spiky](img/badguy/icons/Spiky.png) |
 | [Stalactite](http://supertux.lethargik.org/wiki/Stalactite) | Icy Island | M1 |![Stalactite](img/badguy/icons/Falling.png) |
-| [Toad](http://supertux.lethargik.org/wiki/Toad) | Forest | M2 |![Toad](img/badguy/icons/Toad.png)  |
-| [Zeekling](http://supertux.lethargik.org/wiki/Zeekling) | Forest | M2 |![Zeekling](img/badguy/icons/Zeekling.png)  |
 
 ##### Further references
 
@@ -909,46 +907,3 @@ Tikitchokwe is a proposed badguy for world 3
 [Tropical\_Island](Tropical_Island "wikilink"). Graphism would be
 influenced by Hawaiian Tiki and Tchokwe mask design. Behavior has to be
 think about, limited torch or not, squish without torch but not with.
-
-
-
-Toad
-===================
-
--   Name=Toad
--   Image=
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=Poisonous Toad
--   Behaviour=Takes long leaps at regular intervals.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=
-
-**Toad** is a [badguy](badguy "wikilink") found in the
-[Forest](Forest "wikilink"). It follows [Tux](Tux "wikilink") by jumping
-around in large leaps. Can be squished by jumping on it.
-
-
-
-Walking\_leaf
-===================
-
--   Name=Walking leaf
--   Image=Leaf.png
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=Reddish version of [Poison Ivy](Poison_Ivy "wikilink").
--   Behaviour=Walks around. Stays on platforms.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=
-
-**Walking Leaf** is a [badguy](badguy "wikilink") in the
-[Forest](Forest "wikilink") world. It is a bit smarter than the ordinary
-badguy because it does not fall off of platforms. The leaf will hurt
-[Tux](Tux "wikilink") on contact and can be killed the usual ways. Since
-it is more careful, it is walks a bit slower than the average badguy.
-
