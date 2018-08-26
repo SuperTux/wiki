@@ -16,7 +16,6 @@ his way through many different levels, in order to reach and rescue
 [Penny](Penny "wikilink"), who was captured by evil
 [Nolok](Nolok "wikilink").
 
-\
 
 Controls
 --------
@@ -39,7 +38,6 @@ that all of the controls can be configured in-game.
 
   : Controls
 
-\
 
 Powerups
 --------
@@ -64,7 +62,6 @@ or the bonus block will release one of several powerups:
   ![](1up.png "1up.png")                       Tux Doll                                Ejected from the bonus block and needs to be caught before falling off the screen. If Tux manages to catch it, he is awarded an extra life **(SuperTux 0.1)** or 100 coins **(SuperTux 0.3)**.
   ![](Star-0.png "Star-0.png")                 Star                                    Gives Tux invincibility to most hazards for a short amount of time.
 
-\
 
 Actions
 -------
@@ -123,7 +120,6 @@ To pick up a portable object, hold down the Action button and walk into
 the object. Tux will then carry the object as long as the Action button
 is held down.
 
-\
 
 Badguys
 -------
@@ -146,7 +142,6 @@ badguys are even immune to those.
 For more information on the occurring badguys, please take a look at the
 [Badguys page](Badguys "wikilink").
 
-\
 
 Special Game Objects
 --------------------
@@ -177,7 +172,6 @@ appart from that they do nothing, you can stand on them.
 ![](Door-0.png "fig:Door-0.png") Press the Up key to enter a door. Tux
 will be transported to another place in the level.
 
-\
 
 ### Switches (SuperTux 0.3 only)
 
@@ -237,7 +231,6 @@ Normally, Tux will only bounce up and down a small amount on a
 Trampoline. To make him jump higher, hold down the jump button when
 landing on the Trampoline.
 
-\
 
 ### Magic Blocks and Lanterns (SuperTux 0.3 only)
 
@@ -251,7 +244,6 @@ The Wind transports Tux to another location. Levels with Wind: “Find the
 Bigger Fish!”, “Treasure in the skies”, “Tree sheets in the wind” and “A
 Village in the Forest”.
 
-\
 
 Further Reading
 ---------------
