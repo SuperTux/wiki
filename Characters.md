@@ -23,9 +23,9 @@ Nolok is the enemy of [[Tux]], the antagonist of [[SuperTux]].
 Just before Tux's picnic with his girlfriend [[Penny]], Nolok jumps out from behind a tree and captures Penny.
 This event begins the [[Iceworld|events of the game]].
 
-== Concept art ==
-
-=== Large form ===
+Concept art
+-----------
+#### Large form
 
 ![](images/Nolok.png)
 ![](images/Nolok_snip.png)
@@ -45,12 +45,12 @@ This event begins the [[Iceworld|events of the game]].
 ![](images/Feline_Nolok.jpg "Feline version")
 
 
-=== Small form ===
+#### Small form
 
-![](images/Nolok_small_color_paron.png)
-![](images/Nolok_small.png)
-![](images/Feline_Nolok_small.png "Feline version")
-![](images/Nolok_statue_sample_5.png)
+![](images/Nolok small color paron.png)
+![](images/Nolok small.png)
+![](images/Feline Nolok small.png "Feline version")
+![](images/Nolok statue sample_5.png)
 
 
 Penny
