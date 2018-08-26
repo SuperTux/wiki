@@ -75,9 +75,8 @@ Hurt Tux: if he is smaller than it. Perhaps the front of anteater (Mr Anteater?)
 Hurt it: jump or spit
 
 Concept Image:
-[[Image:Anteater.jpeg]]
+![](images/Anteater.jpeg)
 
-[[Category:ProposedBadguy]]
 
 
 == Ant
@@ -90,7 +89,6 @@ Hurt Tux: like Snowball
 
 Hurt it: jump or spit - however jumping may make other ants swarm to attack Tux
 
-[[Category:ProposedBadguy]]
 
 
 == Bat
@@ -109,30 +107,28 @@ Flutters up and down, upon seeing Tux dives and tries to catch him (much like [[
 
 Perhaps in Ghost Forest, a Spooky Mr Tree could, when jumped on, release bats instead of Poison Ivies. They could fly straight up into the air, then zoom in on Tux. If Tux dodges the could hurt they ground and get stunned, ay which point Tux could jump on them.
 
-[[Image:bat_behaviour.png]]
+![](images/bat_behaviour.png)
 
 == Alternative ==
 This would work if [[Ghostly Tree]] was to release two bats. They could fly up to the top of the screen and then fly straight down at Tux, who would have to dodge at the last moment. If he succeeds, the bats would be 'stunned,' at which point they could be squished.
 Diagram:
-[[Image:Mr Bat.jpeg]]
-[[Image:Mr Bat Stunned.jpeg]]
+![](images/Mr Bat.jpeg)
+![](images/Mr Bat Stunned.jpeg)
 
-[[Category:ProposedBadguy]]
 
 
 == Bjella
 
-[[Template:NeedCode]]
-[[Template:NeedSound]]
-[[Template:NeedGraphics]]
+
+
+
 
 Copied from [[User ideas]].
 
-[[Image:Biella mrlog limpy.jpg|center]]
+![](images/Biella mrlog limpy.jpg)
 
 Bee. Shoots stingers.
 
-[[Category:ProposedBadguy]]
 
 
 == BouncyBall
@@ -145,7 +141,6 @@ Hurt Tux: like Jumpy
 
 Hurt it: like Jumpy
 
-[[Category:ProposedBadguy]]
 
 
 == Cactus
@@ -165,13 +160,12 @@ Hurt it: like Jumpy
 ==Behavior==
 
 
-[[Category:ProposedBadguy]]
 
 
 == Cat
 
-[[Template:NeedCode]]
-[[Template:NeedGraphics]]
+
+
 
 Behaviour: Drop from trees or have pouncing movement like wolf suggestion
 
@@ -190,7 +184,6 @@ Hurt it: spit
 ### she approaches a concave edge while climbing, she will stop and wait for Tux to get behind her.
 #### When Tux is less than 3 tiles behind her, the Cat will drop and hopefully land on Tux.
 
-[[Category:ProposedBadguy]]
 
 
 == DarkWolf
@@ -214,7 +207,6 @@ On contact
 *stomping it (while it is not in a jump)
 *with fireballs
 
-[[Category:ProposedBadguy]]
 
 
 == Dillo
@@ -261,7 +253,6 @@ From Wikipedia:
 * The armadillo is a prolific digger, and uses its sharp claws to burrow both to feed on grubs and to dig dens.
 * Its main defense is its armor-like outer skin. When threatened by a predator, the armadillo will roll up into a ball.
 
-[[Category:ProposedBadguy]]
 
 
 == Doodle
@@ -277,42 +268,40 @@ Possible transformations could be:
 
 Maybe she could be part of a '''bonus level''' that features '''doodle tiles'''?
 
-[[Category:ProposedBadguy]]
 
 
 == Electric_eel
 
-[[Template:Badguy|name=Electric eel|image=Electric_eel|worlds=World 2|appearance=Looks like a normal electric eel.|behaviour=Swims on the spot in water. Sometimes he electrifies the water and hurt Tux.|squish=yes|butt-jump=yes|freeze=yes|ignite=yes, killed]]
+Template:Badguy
+name=Electric eel|image=Electric_eel|worlds=World 2|appearance=Looks like a normal electric eel.|behaviour=Swims on the spot in water. Sometimes he electrifies the water and hurt Tux.|squish=yes|butt-jump=yes|freeze=yes|ignite=yes, killed
 
-[[Category:ProposedBadguy]]
+
 
 
 == Ember
 
-[[Template:NeedGraphics]]
-[[Template:NeedCode]]
+
+
 
 * small Flame with eyes
 * rises while slowly swinging left and right
 * vanishes on collision
 * created by Dispensers
 
-Might use a variation of the "Flamy" image: [[Image:Flamy.png]]
+Might use a variation of the "Flamy" image: ![](images/Flamy.png)
 
-[[Category:ProposedBadguy]]
 
 
 == EvilPenguin
 
 The Evil Penguin should look similar to Tux, it will probally have another color and another shaped bill. Ranges of attack might be something simple such as spitting balls or eggs at Tux. There might even be multiple levels of evil penguins with different behaviours (fire, ice).
 
-[[Image:evil_penguin.png]]
+![](images/evil_penguin.png)
 
 A few more behaviours (i.e. as if they were jungle tribesmen): Spearthrow, Blowgun, Boomerang, Net, etc.
 
 Maybe they're friendly penguins enslaved by Nolok and Tux could free them?
 
-[[Category:ProposedBadguy]]
 
 
 == Gator
@@ -331,7 +320,6 @@ Hurt it: use Spitting, will try to get Tux when attacked
 
 : i'll support this one --[[User:Disk|Disk]] 18:38, 30 August 2007 (UTC)
 
-[[Category:ProposedBadguy]]
 
 
 == Ghostly_Tree
@@ -340,21 +328,19 @@ Hurt it: use Spitting, will try to get Tux when attacked
 Looks and behaves like MrTree, but it has a darker look (black/burnt wood, no leaves, red glowing eyes...) and has two ghostly lights instead of leafs. When jumped, he turns into a stump and releases two ghosts instead of two Ivies.
 
 Possible look (note this is only a sketch):<br />
-[[Image:Ghostlytree_mockup2.png|Mockup for Ghostly Tree]]
+![](images/Ghostlytree_mockup2.png "Mockup for Ghostly Tree")
 
 Possibly Ghostly Tree could have to thin branches on either side of him (the same goes for the normal Mr Tree) which Tux can stand on. A concept sketch:
-[[Image:Spooky Tree.jpeg]]
+![](images/Spooky Tree.jpeg)
 
 When jumped on, Ghostly (or Spooky) could release two [[bat]]s.
 
-[[Category:ProposedBadguy]]
 
 
 == Ghost,_Pickpocket
 
 This ghost will try to '''steal''' up to one powerup or coin from Tux. If it succeeds its formerly visibly '''hollow belly''' will contain the stolen item and it will switch from chasing Tux to evading Tux. After some seconds it will have '''digested''' the stolen item and come back to steal a new one.
 
-[[Category:ProposedBadguy]]
 
 
 == Ghost,_Type_II
@@ -367,7 +353,6 @@ Hurt Tux: by contact
 
 Hurt it: Butt-Jump
 
-[[Category:ProposedBadguy]]
 
 
 == Ghost,_Type_I
@@ -380,7 +365,6 @@ Hurt Tux: Hurt by contact
 
 Hurt it: Butt-Jump
 
-[[Category:ProposedBadguy]]
 
 
 == HeliBall
@@ -393,7 +377,6 @@ Hurt Tux: if he gets into the prop
 
 Hurt it: spit
 
-[[Category:ProposedBadguy]]
 
 
 == Huey
@@ -402,7 +385,6 @@ This badguy floats in the air. It will try to pickup the nearest walking badguy,
 
 : who're you kidding???? --[[User:Disk|Disk]] 18:42, 30 August 2007 (UTC)
 
-[[Category:ProposedBadguy]]
 
 
 == Hungry_Parakeet
@@ -411,7 +393,7 @@ This badguy floats in the air. It will try to pickup the nearest walking badguy,
 
 '''Name:''' Hungry Parakeet
 
-[[Image:Hungry Parakeet.jpeg]]
+![](images/Hungry Parakeet.jpeg)
 
 '''Found in:''' Tropical Island
 
@@ -427,38 +409,33 @@ This badguy floats in the air. It will try to pickup the nearest walking badguy,
 
 '''Burnable:''' Yes, killed
 
-[[Category:ProposedBadguy]]
 
 
 == Igor
 
-[[Template:NeedCode]]
-[[Template:NeedGraphics]]
+
+
 
 Slower, ghostly version of the [[Igel]] Badguy.Walks straight through walls, but still turns around at ledges.
 
-[[Category:ProposedBadguy]]
 
 
 == Jumping_Spiky
 
 The jumping spiky is/will be another variation on the [[Spiky]] [[badguy]]. As usual, it looks like an innocuous spiky until the player gets near it, at which point it spontaneously hops into the air, hopefully nailing the player.
 
-[[Category:ProposedBadguy]]
 
 
 == Living_Stump
 
 Looks (and behaves!) like a '''regular tree stump''', completely ignoring its surroundings. When it wakes up (bumped against, player nearing?) this monster '''grows eyes and a mouth''' and starts walking around
 
-[[Category:ProposedBadguy]]
 
 
 == Logger_wielding%2Fthrowing_axe
 
 Logger: Lumberjack could either be simply wielding an axe to cut poor tux in two and/or could be throwing axes after third "swish" of axe which Tux has to jump to prevent being hit by onslaught.
 
-[[Category:ProposedBadguy]]
 
 
 == Mounted_Axe
@@ -471,14 +448,13 @@ Hurt Tux: contact with axe
 
 Hurt it: invincible
 
-[[Category:ProposedBadguy]]
 
 
 == MrAncestor
 
-[[Template:NeedCode]]
-[[Template:NeedGraphics]]
-[[Template:NeedSound]]
+
+
+
 (or Mrs Ancestor)
 
 Behaviour: a painted figure trying to hurt Tux from out of his frame when he gets close, either by reaching out/grabbing him or by screaming at him
@@ -489,7 +465,6 @@ Hurt Tux: contact with knight's arm, or lady's sound waves
 
 Hurt it: invincible; alternatively it can be turned into a normal picture somehow
 
-[[Category:ProposedBadguy]]
 
 
 == Mr._Palm_Tree
@@ -524,7 +499,6 @@ Hurt Tux: Walking into Tux.
 
 Hurt it: Jumping on it or using Mr IceBlock to kill it.
 
-[[Category:ProposedBadguy]]
 
 
 == Nutty
@@ -549,7 +523,7 @@ Suggestion: Maybe this thing should be called Mr. Coco?
 How about Mr. Coconut? [[User:Monster|Monstertux]]
 
 ==Falling/Flying Nutty Image==
-[[Image:FallingFlyingNutty.png]]
+![](images/FallingFlyingNutty.png)
 
 
 
@@ -563,13 +537,12 @@ Hurt Tux: knocks Tux off of vines and branches, steals powerups
 
 Hurt it: spit
 
-[[Category:ProposedBadguy]]
 
 
 == Pyro
 
-[[Template:NeedGraphics]]
-[[Template:NeedCode]]
+
+
 An '''inflamed''' version of maybe some other badguy. Just walks around, trying to burn Tux by touching him.
 
 Tricky if combined with other enemies: If (accidentally) hit by [[FireTux]], Pyro will simply swallow the shots, then return fire directly at the player.
@@ -593,15 +566,14 @@ Not only will falling into lava ignite or re-ignite Pyro, but also being touched
 == Variation 3 ==
 
 Pyro could start off as Mr Match or similar, which basically behaves as a Snowball or Ivy:
-[[Image:Mr Match.jpeg]]
+![](images/Mr Match.jpeg)
 Then, once touched by a flame, Firepower, lava or another Pyro, he could become a walking flame:
-[[Image:Mr Flame.jpeg]]
+![](images/Mr Flame.jpeg)
 When Mr Match he could be squishable and butt-jumpable, and when set fire to to become Pyro he could be only killed freezing. (Maybe not even killed by invinsible power.)
 
 
 :Great! do it! --[[User:Disk|Disk]] 18:48, 30 August 2007 (UTC)
 
-[[Category:ProposedBadguy]]
 
 
 == Rabbit
@@ -620,7 +592,6 @@ Hurt it: Bounce on it, spit, invincibility.
 
 Hurt Tux: Other contact.
 
-[[Category:ProposedBadguy]]
 
 
 == Rat
@@ -633,7 +604,6 @@ Hurt it: jump on it, spit, invincibillity.
 
 Hurt Tux: Biting Tux
 
-[[Category:ProposedBadguy]]
 
 
 == Ray
@@ -646,7 +616,6 @@ Hurt Tux: when stepped on (like Spiky)
 
 Hurt it: use Spitting, will try to get away
 
-[[Category:ProposedBadguy]]
 
 
 == Snake
@@ -661,19 +630,17 @@ Hurt Tux: like Icicle
 
 Hurt it: spit
 
-[[Category:ProposedBadguy]]
 
 
 == Surprise_Snowball
 
 Looks like the regular Snowball badguy. Whips out his helmet to become Spiky when the player comes closer.
 
-[[Category:ProposedBadguy]]
 
 
 == Tumbleweed
 
-[[Image:Tumbleweed0.png|thumb]]Behaviour: like Bouncy Snowball
+![](images/Tumbleweed0.png|thumb)Behaviour: like Bouncy Snowball
 
 Look: A brown ball-shaped plant that has eyes
 
@@ -681,15 +648,13 @@ Hurt Tux: like Bouncy Snowball
 
 Hurt it: like Bouncy Snowball
 
-[[Category:ProposedBadguy]]
 
 
 == Vampire_penguin
 
-[[Image:vampirePenguin.png|thumb|right]]
+![](images/vampirePenguin.png)
 What about a "vampire penguin"? This one is just a sketch!
 
-[[Category:ProposedBadguy]]
 
 
 == Walking_Rock
@@ -709,8 +674,7 @@ Some features might be:
 Example (used [[Badguys concept art|Grumbel's sketch for Granito]]):
 
 
-[[Image:Wrock_mockup.jpg|Walking Rock Mockup]]
+![](images/Wrock_mockup.jpg "Walking Rock Mockup")
 
-[[Category:ProposedBadguy]]
 
 
