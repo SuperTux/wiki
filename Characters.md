@@ -30,6 +30,8 @@ Concept art
 
 ![](images/nolok_walk.png)
 ![](images/nolok_anim2.gif)
+![](images/Nolok_statue.jpg)
+
 ![](images/Nolok.png)
 
 ![](images/Nolok statue.jpg)
