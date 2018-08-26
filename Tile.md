@@ -5,104 +5,104 @@ Example
 
 An example of a simple solid tile looks like this:
 
-`(tile`
-`  (id 7)`
-`  (solid #t)`
-`  (images`
-`    `“`tiles/snow/snow1.png`”
-`  )`
-`)`
+     (tile
+       (id 7)
+       (solid #t)
+       (images
+         "tiles/snow/snow1.png"
+       )
+     )
 
 An animated waterfall tile (animation played with 10 fps):
 
-`(tile`
-`  (id 175)`
-`  (images`
-`    `“`tiles/waterfall/trans1-1-1.png`”
-`    `“`tiles/waterfall/trans1-1-2.png`”
-`    `“`tiles/waterfall/trans1-1-3.png`”
-`    `“`tiles/waterfall/trans1-1-4.png`”
-`  )`
-`  (water #t)`
-`  (anim-fps 10)`
-`)`
+     (tile
+       (id 175)
+       (images
+         "tiles/waterfall/trans1-1-1.png"
+         "tiles/waterfall/trans1-1-2.png"
+         "tiles/waterfall/trans1-1-3.png"
+         "tiles/waterfall/trans1-1-4.png"
+       )
+       (water #t)
+       (anim-fps 10)
+     )
 
 It's also possible to extract parts of bigger images to create tiles. This extracts the upper left edge of the foresttiles-1.png file:
 
-`(tile`
-`  (id 1000)`
-`  (images`
-`    (region `“`tiles/forest/foresttiles-1.png`”` 0 0 32 32)`
-`  )`
-`)`
+     (tile
+       (id 1000)
+       (images
+         (region "tiles/forest/foresttiles-1.png" 0 0 32 32)
+       )
+     )
 
 Note that in [Milestone 2](Milestone_2 "wikilink"), the last variant is deprecated in favor of a more compact approach at defining multiple tiles:
 
-`(tiles`
-`  (width 3)`
-`  (height 4)`
-`  (ids  7  8  9`
-`       13 14 15`
-`       10 11 12`
-`       16 17 18)`
-`  (attributes 0 0 0`
-`              1 1 1`
-`              1 1 1`
-`              0 0 0)`
-`  (image `“`tiles/snow/convex.png`”`)`
-`)`
+     (tiles
+       (width 3)
+       (height 4)
+       (ids  7  8  9
+            13 14 15
+            10 11 12
+            16 17 18)
+       (attributes 0 0 0
+                   1 1 1
+                   1 1 1
+                   0 0 0)
+       (image "tiles/snow/convex.png")
+     )
 
 In this example, a block of 3x4 tiles will be extracted from an image with only the middle rows solid. To ignore a portion of the image, use an id of 0 in the appropriate place.
 
 More complex variants are also supported:
 
-`(tiles`
-`  (width 11)`
-`  (height 4)`
-`  (ids`
-`    7  8  9  0    1826 1827 0    1837 1838 1843 1844`
-`    13 14 15 1829 1830 1831 1832 1839 1840 1845 1846`
-`    10 11 12 1833 1834 1835 1836 1841 1842 1847 1848`
-`    16 17 18 0    0    0    0    0    0    1849 1850`
-`  )`
-`  (attributes`
-`    0 0 0 0  0  0  0  0  0  0  0`
-`    1 1 1 17 17 17 17 17 17 17 17`
-`    1 1 1 1  1  1  1  1  1  17 17`
-`    0 0 0 0  0  0  0  0  0  1  1`
-`  )`
-`  (datas`
-`    0 0 0 0  0  0  0  0 0 0  0`
-`    0 0 0 18 34 32 16 2 0 66 48`
-`    0 0 0 0  0  0  0  0 0 50 64`
-`    0 0 0 0  0  0  0  0 0 0  0`
-`  )`
-`  (image `“`tiles/snow/convex.png`”`)`
-`)`
+     (tiles
+       (width 11)
+       (height 4)
+       (ids
+         7  8  9  0    1826 1827 0    1837 1838 1843 1844
+         13 14 15 1829 1830 1831 1832 1839 1840 1845 1846
+         10 11 12 1833 1834 1835 1836 1841 1842 1847 1848
+         16 17 18 0    0    0    0    0    0    1849 1850
+       )
+       (attributes
+         0 0 0 0  0  0  0  0  0  0  0
+         1 1 1 17 17 17 17 17 17 17 17
+         1 1 1 1  1  1  1  1  1  17 17
+         0 0 0 0  0  0  0  0  0  1  1
+       )
+       (datas
+         0 0 0 0  0  0  0  0 0 0  0
+         0 0 0 18 34 32 16 2 0 66 48
+         0 0 0 0  0  0  0  0 0 50 64
+         0 0 0 0  0  0  0  0 0 0  0
+       )
+       (image "tiles/snow/convex.png")
+     )
 
 17 is used for slopes, and the appropriate data/slope-type is put in datas. Alternately, you could go minimalist with no data or attributes:
 
-`(tiles`
-`  (width  12)`
-`  (height 14)`
-`  (ids `
-`     2212 2213 2214 2215 2216 2217 2218 2219 2220 2221 2222 2223 `
-`     2224 2225 2226 2227 2228 2229 2230 2231 2232 2233 2234 2235 `
-`     2236 2237 2238 2239 2240 2241 2242 2243 2244 2245 2246 2247 `
-`     2248 2249 2250 2251 2252 2253 2254 2255 2256 2257 2258 2259 `
-`     2260 2261 2262 2263 2264 2265 2266 2267 2268 2269 2270 2271 `
-`     2272 2273 2274 2275 2276 2277 2278 2279 2280 2281 2282 2283 `
-`     2284 2285 2286 2287 2288 2289 2290 2291 2292 2293 2294 2295 `
-`     2296 2297 2298 2299 2300 2301 2302 2303 2304 2305 2306 2307 `
-`     2308 2309 2310 2311 2312 2313 2314 2315 2316 2317 2318 2319 `
-`     2320 2321 2322 2323 2324 2325 2326 2327 2328 2329 2330 2331 `
-`     2332 2333 2334 2335 2336 2337 2338 2339 2340 2341 2342 2343 `
-`     2344 2345 2346 2347 2348 2349 2350 2351 2352 2353 2354 2355 `
-`     2356 2357 2358 2359 2360 2361 2362 2363 2364 2365 2366 2367 `
-`     2368 2369 2370 2371 2372 2373 2374 2375 2376 2377 2378 2379`
-`  )`
-`  (image `“`tiles/castle/background.png`”`)`
-`)`
+     (tiles
+       (width  12)
+       (height 14)
+       (ids 
+          2212 2213 2214 2215 2216 2217 2218 2219 2220 2221 2222 2223 
+          2224 2225 2226 2227 2228 2229 2230 2231 2232 2233 2234 2235 
+          2236 2237 2238 2239 2240 2241 2242 2243 2244 2245 2246 2247 
+          2248 2249 2250 2251 2252 2253 2254 2255 2256 2257 2258 2259 
+          2260 2261 2262 2263 2264 2265 2266 2267 2268 2269 2270 2271 
+          2272 2273 2274 2275 2276 2277 2278 2279 2280 2281 2282 2283 
+          2284 2285 2286 2287 2288 2289 2290 2291 2292 2293 2294 2295 
+          2296 2297 2298 2299 2300 2301 2302 2303 2304 2305 2306 2307 
+          2308 2309 2310 2311 2312 2313 2314 2315 2316 2317 2318 2319 
+          2320 2321 2322 2323 2324 2325 2326 2327 2328 2329 2330 2331 
+          2332 2333 2334 2335 2336 2337 2338 2339 2340 2341 2342 2343 
+          2344 2345 2346 2347 2348 2349 2350 2351 2352 2353 2354 2355 
+          2356 2357 2358 2359 2360 2361 2362 2363 2364 2365 2366 2367 
+          2368 2369 2370 2371 2372 2373 2374 2375 2376 2377 2378 2379
+       )
+       (image "tiles/castle/background.png")
+     )
 
 Tile attributes
 ---------------
@@ -163,29 +163,29 @@ The important part is that the deformation determines which part of the tile is 
 
 The following defines several tiles, some of which are slopes. Their slope information is stored in the *datas* section.
 
-` (tiles`
-`   (width 11)`
-`   (height 4)`
-`   (ids`
-`     7  8  9  0    1826 1827 0    1837 1838 1843 1844`
-`     13 14 15 1829 1830 1831 1832 1839 1840 1845 1846`
-`     10 11 12 1833 1834 1835 1836 1841 1842 1847 1848`
-`     16 17 18 0    0    0    0    0    0    1849 1850`
-`   )`
-`   (attributes`
-`     0 0 0 0  0  0  0  0  0  0  0`
-`     1 1 1 17 17 17 17 17 17 17 17`
-`     1 1 1 1  1  1  1  1  1  17 17`
-`     0 0 0 0  0  0  0  0  0  1  1`
-`   )`
-`   (datas`
-`     0 0 0 0  0  0  0  0 0 0  0`
-`     0 0 0 18 34 32 16 2 0 66 48`
-`     0 0 0 0  0  0  0  0 0 50 64`
-`     0 0 0 0  0  0  0  0 0 0  0`
-`   )`
-`   (image `“`tiles/snow/convex.png`”`)`
-` )`
+      (tiles
+        (width 11)
+        (height 4)
+        (ids
+          7  8  9  0    1826 1827 0    1837 1838 1843 1844
+          13 14 15 1829 1830 1831 1832 1839 1840 1845 1846
+          10 11 12 1833 1834 1835 1836 1841 1842 1847 1848
+          16 17 18 0    0    0    0    0    0    1849 1850
+        )
+        (attributes
+          0 0 0 0  0  0  0  0  0  0  0
+          1 1 1 17 17 17 17 17 17 17 17
+          1 1 1 1  1  1  1  1  1  17 17
+          0 0 0 0  0  0  0  0  0  1  1
+        )
+        (datas
+          0 0 0 0  0  0  0  0 0 0  0
+          0 0 0 18 34 32 16 2 0 66 48
+          0 0 0 0  0  0  0  0 0 50 64
+          0 0 0 0  0  0  0  0 0 0  0
+        )
+        (image "tiles/snow/convex.png")
+      )
 
 Adding new tiles
 ----------------
