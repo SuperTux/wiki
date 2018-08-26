@@ -37,7 +37,7 @@ Blowflyer
 
 The **blowflyer** or BalloonTux action should be a temporary limited action in which Tux fills his body with air (helium?!) and is thus able to fly for a short time, i.e. as long as he can go without breathing. The end of the flight should be announced by Tux changing color and catching for air.
 
-![](Blowflyer.png "Blowflyer.png")
+![](images/Blowflyer.png "Blowflyer.png")
 
 Perhaps there could be a hidden “pump” in each level, which tux could pump himself up with.
 
@@ -87,7 +87,7 @@ When jumping from a great height, Tux should have his beak facing down, like a d
 Fireflower
 ----------
 
-![](Fire_flower-0.png "fig:Fire_flower-0.png") The behaviour of the **fireflower** is that it gives [Tux](Tux "wikilink") the ability to spit bouncing fire bullets. Most badguys are killed when being struck by a fire bullet. A list of badguys which can be killed with firebullets is available in the [burnable badguys category](:Category:Burnable_badguys "wikilink").
+![](images/Fire_flower-0.png "fig:Fire_flower-0.png") The behaviour of the **fireflower** is that it gives [Tux](Tux "wikilink") the ability to spit bouncing fire bullets. Most badguys are killed when being struck by a fire bullet. A list of badguys which can be killed with firebullets is available in the [burnable badguys category](:Category:Burnable_badguys "wikilink").
 
 Any subsequent fireflowers that Tux takes increase the amount of fire bullets that can be on the screen at the same time, but do not increase the amount of hits Tux can take.
 
@@ -108,7 +108,7 @@ Flapping
 
 Once in the air, [Tux](Tux "wikilink") should be allowed to flap with his wings. They are not enough to let him fly, but should allow him to get some additional air-time (like a small double-jump).
 
-![](flapping.png "flapping.png")
+![](images/flapping.png "flapping.png")
 
 Iceflower
 ---------
@@ -168,9 +168,9 @@ Tux will be able to make use of smooth terrain by using the slide action. By usi
 
 Exact details on how the sliding will work have to be worked out, but it might get a rather central role in gameplay.
 
-![](slider.jpg "slider.jpg")
+![](images/slider.jpg "slider.jpg")
 
-![](slider2.png "slider2.png")
+![](images/slider2.png "slider2.png")
 
 Somewhat related, you could have icy platforms that when running on it is much harder to stop/change-direction (i.e. you could slide off the edge accidently) that require you to be extra careful.. these could appear on later harder levels. If these aren't flat, you get what is shown in the above picture, which you could slide down instead.
 
