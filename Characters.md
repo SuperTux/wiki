@@ -33,9 +33,8 @@ Concept art
 ![](images/Nolok_statue.jpg)
 
 ![](images/Nolok.png)
-
-![](images/Nolok statue.jpg)
-![](images/Nolok_snip.png)
+![](images/Nolok%20statue.jpg)
+![](images/Nolok%20snip.png)
 ![](images/Noloksketches3.jpg)
 ![](images/Noloksketch7.jpg)
 ![](images/Noloksketch8.jpg)
@@ -49,7 +48,6 @@ Concept art
 ![](images/Nolok2.jpg)
 ![](images/Nolok_stand.png)
 ![](images/Feline_Nolok.jpg "Feline version")
-
 
 #### Small form
 
