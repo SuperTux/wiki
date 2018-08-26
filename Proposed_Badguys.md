@@ -766,7 +766,7 @@ Hurt it: like Bouncy Snowball
 Vampire\_penguin
 =======================
 
-![](images/vampirePenguin.png) What about a “vampire penguin”? This
+![](images/VampirePenguin.png) What about a “vampire penguin”? This
 one is just a sketch!
 
 Walking\_Rock
