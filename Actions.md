@@ -251,5 +251,3 @@ It's not about rotating images, but about the correct collision detection for ro
 
   
 That's what I did mean. wouldn't it be possible to make the Tux character be 3 rectangles placed in some diagonal way instead of rotating them? I think that being allowed to use more than one rectangle for the same entity would be more useful than being allowed to rotate them. As you could draw any shape with multiple rectangles. If it is just the 45º rotated Tux collisions what needed to be resolved, it could be made that way and you would not need to care about actual rotation.
-
-<Category:Action> <Category:Action> <Category:Action> <Category:Action> <Category:Action> <Category:Action> <Category:Action> <Category:Action> <Category:Action> <Category:Action> [Category:Game Object](Category:Game_Object "wikilink") <Category:Action> <Category:Action> <Category:Action> <Category:Action>
