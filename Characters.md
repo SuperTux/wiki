@@ -25,8 +25,11 @@ This event begins the [[Iceworld|events of the game]].
 
 Concept art
 -----------
+
 #### Large form
 
+![](images/nolok_walk.png)
+![](images/nolok_anim2.gif)
 ![](images/Nolok.png)
 ![](images/Nolok_snip.png)
 ![](images/Nolok_statue.jpg)
