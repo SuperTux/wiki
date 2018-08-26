@@ -1,4 +1,5 @@
-= Background\_Images
+Background_Images
+=================
 
 With levels that can vary in size both horizontally and vertically comes
 the need for background images that have the same property. This however
@@ -20,7 +21,8 @@ that the tilemaps are big enough.
 Finally, we can anchor images to a portion of the screen so that
 vertical movement doesn't affect the image.
 
-= Bonus\_block
+Bonus_block
+===========
 
 Bonus blocks are blocks that Tux can hit with his head to get coins or
 powerups.
@@ -68,7 +70,8 @@ about 25 when he dies.
 All bonus blocks look like this once used, but there are also some which
 begin like this. They act exactly like a normal, solid block.
 
-= Bubble\_Dispenser
+Bubble_Dispenser
+=================
 
 <Template:NeedCode> <Template:NeedSound> A bubble dispenser is a device
 that, when activated, creates bubbles that slowly float upward. Tux can
@@ -81,7 +84,8 @@ spitting bubbles as soon as Tux “wakes” him by jumping on his nose.
 
 ![](Bubble_sketch.jpg "Bubble_sketch.jpg")
 
-= Buttons\_and\_switches
+Buttons\_and\_switches
+======================
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink") **Buttons and
 switches** could be used a lot.
@@ -91,7 +95,8 @@ switches** could be used a lot.
     directions (when water is inside and pushing Tux)
 3.  To turn lights on/off
 
-= Camera\_blocker
+Camera\_blocker
+===============
 
 <Template:NeedCode> The camera blocker is a trigger-tile that prevents
 the camera from scrolling into a certain direction (i.e. the camera will
@@ -100,7 +105,8 @@ Also, it will instantly kill Tux on contact. It will be used to create
 gaps in vertical-scrolling levels and to hide certain places from the
 player. Of course, like all trigger tiles, this must be used with care!
 
-= Camera
+Camera
+======
 
 Level are typically a lot bigger than the actual screen, so we need to
 scroll the currently visible part around. This page collects some rules
@@ -164,13 +170,15 @@ can make the game reparse the Camera by typing
 [camera.cfg](http://supertux.lethargik.org/viewvc/viewvc.cgi/branches/supertux/0_3_x/data/camera.cfg?view=markup)
 in \~/.supertux2/ .
 
-= Door
+Door
+====
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink")
 [Tux](Tux "wikilink") can enter **doors** to be teleported to a
 different part of the level, even in a different sector.
 
-= Infoblock
+Infoblock
+=========
 
 ![](Infoblock.png "fig:Infoblock.png") An **Infoblock** is a [game
 object](game_object "wikilink") which is used to provide non-obvious
@@ -197,13 +205,15 @@ colors are defined in
   `#` *(hash)*               Normal (left)   Normal      Normal color (white)
   `!` *(exclamation mark)*   Image           *n/a*       *n/a*
 
-= Ladder
+Ladder
+======
 
 ![](Ladder.png "fig:Ladder.png") An [area](Objects "wikilink")
 [Tux](Tux "wikilink") can climb up in. Needs (background) graphics for
 visualization.
 
-= Magic\_Block
+Magic\_Block
+============
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink") Magic Blocks are
 tile-like game objects that are sensitive to
@@ -214,7 +224,8 @@ shines on the block.
 Illustration of Magic Block behaviour:\
 ![](Lighting2.png "fig:Lighting2.png")
 
-= Moving\_platform
+Moving\_platform
+================
 
 ![](Flying_platform-0.png "fig:Flying_platform-0.png") A **moving
 platform** is a [MovingObject](MovingObject "wikilink") that can be used
@@ -231,7 +242,8 @@ See also
 -   [ScriptingPlatform](ScriptingPlatform "wikilink")
 -   [ScriptingPath](ScriptingPath "wikilink")
 
-= Objects
+Objects
+=======
 
 :   ''This page lists the available objects in the game. For a
     description of the *implementation* see [Game
@@ -399,7 +411,8 @@ The following objects are *ideas* that have not yet been implemented.
 -   [Pipes](Pipes "wikilink")
 -   [Ropes](Rope "wikilink")
 
-= Pipes
+Pipes
+=====
 
 Note: General consensus was to avoid pipes in SuperTux. It's really a
 Mario thing and doesn't fit a penguin. Instead, different objects can be
@@ -416,7 +429,8 @@ Uses for pipes:
 -   Pipes that release water geysers or bubbles that take Tux to a
     different place.
 
-= Rock
+Rock
+====
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink") A **rock** is a
 small [object](Objects "wikilink") that [Tux](Tux "wikilink") can pick
@@ -430,14 +444,16 @@ For a sample, see the level
 
 ![](RockHowTo-nq8.png "RockHowTo-nq8.png")
 
-= Script\_trigger
+Script\_trigger
+===============
 
 **Script triggers** are areas that trigger a script when Tux enters
 them. Script triggers are commonly used to activate [moving
 platforms](Moving_platform "wikilink") or [air
 currents](Wind "wikilink").
 
-= Secret\_Area
+Secret\_Area
+============
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink") The Secret Area
 Trigger is used to mark secret areas, at the moment it fades a tilemap,
@@ -462,7 +478,8 @@ found a secret area!” will be displayed, and the user will have one more
 found secret added to his statistics. Nothing is currently done when
 leaving a secret area.
 
-= Spawn\_point
+Spawn\_point
+============
 
 **Spawn points** are the places where [Tux](Tux "wikilink") appears when
 entering a level or a sector. Every sector has a *main* spawn point, the
@@ -484,7 +501,8 @@ See also
 
 -   [ScriptingLevel](ScriptingLevel "wikilink")
 
-= Teleport
+Teleport
+========
 
 :   *This page is about the worldmap object. For teleportation in levels
     see [Door](Door "wikilink") and [Level
@@ -501,7 +519,8 @@ currently two teleporters in [Icy Island](Icy_Island "wikilink")
 *Forest* world there currently is only one automatic teleporter to go
 back to *Icy Island*.
 
-= Thunderstorm
+Thunderstorm
+============
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink") When the
 Thunderstorm goes off, you will hear distant thunder. Shortly afterwards
@@ -513,7 +532,8 @@ alternatively be scripted. See
 [ScriptingThunderstorm](ScriptingThunderstorm "wikilink") for a quick
 reference.
 
-= Tilemap
+Tilemap
+=======
 
 **Tilemaps** consist of all of the ground, spikes, lava, clouds, etc.
 that do not move and do not interact *actively* with the player. Each
@@ -551,7 +571,8 @@ level is parsed, the tiles with the ID's or attributes representing
 those objects are replaced with the objects themselves and the tiles
 changed to empty.
 
-= Trampoline
+Trampoline
+==========
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink") The trampoline
 is a small [object](Objects "wikilink") that [Tux](Tux "wikilink") can
@@ -570,7 +591,8 @@ jump to.
 flag which defaults to true. Set it to false to prevent the player from
 carrying that trampoline around.
 
-= Unstable\_tile
+Unstable\_tile
+==============
 
 **Unstable tiles** are a special kind of [tile](tile "wikilink") on
 which [Tux](Tux "wikilink") can stand only for a limited time. After
@@ -597,14 +619,16 @@ solid when the *fall-down* action is executed (Donut Tile style). If the
 tile doesn't have a *fall-down* action, it will be removed after the
 *dissolve* animation is done (Giana Sisters style).
 
-= Weak\_block
+Weak\_block
+===========
 
 ![](Weak_block.png "fig:Weak_block.png") This is a special kind of block
 that can be destroyed by shooting it with a
 [fireflower](fireflower "wikilink") or when something explodes nearby,
 [Mr. Bomb](Mr._Bomb "wikilink") for example.
 
-= Wind
+Wind
+====
 
 [Template:Milestone 2](Template:Milestone_2 "wikilink") Generally
 speaking, Wind is a region in a level that influences Tux' speed while
