@@ -1,7 +1,4 @@
-[s=This is about the SuperTux 0.3 series editor, **NOT** about the
-editor built into SuperTux 0.1.](Template:Attention "wikilink")
-
-\_\_TOC\_\_
+> This is about the SuperTux C# Editor, **NOT** about the editor built into SuperTux
 
 Generic
 -------
