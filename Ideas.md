@@ -39,9 +39,24 @@ in the future.
 - Exporting created levelsets / worldmaps as ZIP files
 - Upon dropping a layer / badguy onto the sector, open its properties (configurable in Options).
 
-### Suggested Tiles
+### GamePlay
+
+#### Suggested Tiles
 
 Some new suggested tile types from [[Tiles]]:
 
 * Slime/Mud - Slow down Tux's movement
 * Quicksand - Tux could sink slowly in this and be slower than usual
+
+#### Rope
+this could also be implemented as a jungle vine especially for world 2 - zratchet
+
+Tux is turning into Indiana Jones. Swinging on ropes, having darts fired at him by skulls on the wall, acquiring artifacts...but I kind of like that. --[[User:Julius Freezer|Julius_Freezer]] 14:07, 3 June 2009 (UTC)
+
+#### Sonic Spin Dash
+
+HOw about something like Sonic the Hedgehog's rev up spin dash?
+A rev up sliding move.  Or, a Sonic Clone as a project.  Slide dash away.
+ Also would be cool to have loops
+
+*Maybe Tux can destroy things with his beak when sliding. I like the sliding idea as all penguins do it.
