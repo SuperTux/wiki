@@ -47,10 +47,10 @@ Concept art
 
 #### Small form
 
-![](images/Nolok small color paron.png)
-![](images/Nolok small.png)
-![](images/Feline Nolok small.png "Feline version")
-![](images/Nolok statue sample_5.png)
+![](images/Nolok%20small%20color%20paron.png)
+![](images/Nolok%20small.png)
+![](images/Feline%20Nolok%20small.png "Feline version")
+![](images/Nolok%20statue%20sample_5.png)
 
 
 Penny
@@ -60,7 +60,8 @@ We decided that Penny should be the name of [[Tux|Tux's]] girlfriend. Though Gow
 
 Penny will be a playable character in Milestone 3.
 
-== Concept art ==
+Concept art
+-----------
 
 The images below are sketches which are basic sketches of how Penny should be portrayed:
 
