@@ -19,7 +19,7 @@ While squished, Mr. IceBlock can also be "kicked," if Tux runs up right against 
 Continually squishing Mr. IceBlock will eventually kill him.
 
 <div style="clear: both;"></div>
-== Behavior in [[Milestone 1]] ==
+=== Behavior in [[Milestone 1]] ===
 
 [[Image:Mriceblock-left-2.png|thumb|right|Old image of Mr. IceBlock]]
 If Mr. IceBlock is eliminated, Tux is awarded 100 points. If destroyed via repeated squishes, Tux can get up to 550 points.

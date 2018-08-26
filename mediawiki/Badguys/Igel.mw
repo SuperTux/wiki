@@ -14,7 +14,7 @@
 
 The term "Igel" is German for "hedgehog", which is precisely why the ''Igel'' in the game look like hedgehogs.
 
-== Proposed behavior ==
+=== Proposed behavior ===
 :''Note: The behavior described below differs from the behavior currently implemented in the development version of ''SuperTux''.''
 
 Although basically vulnerable to shots that hit the soft head, Igel will immediately curl up for some seconds as soon as being shot at, thus either absorbing or deflecting the shot.

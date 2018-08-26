@@ -12,7 +12,7 @@
 :''This [[badguy]] has been removed from the [[Milestone 2]] branch in [[Template:Revision|6282]].''
 '''Kugelblitz''' is a [[badguy]] not widely used in ''SuperTux'' yet. The ''Kugelblitz'' moves down to the ground and then randomly left and right within a limited range. After a couple of seconds it vanishes. Like the [[Flame]] it cannot be hurt but [[Tux]] has to avoid it if possible. “Kugelblitz” is German for “ball lightning”.
 
-== Design considerations ==
+=== Design considerations ===
 
 The ''Kugelblitz'' (German for [http://en.wikipedia.org/wiki/Ball_lightning "ball lightning"]) falls from the sky without warning; as soon as it hits the ground, it starts moving back and forth randomly for about two or three seconds in a fixed range, then vanishes with a pop in a cloud of smoke. Explodes on contact which hurts Tux. Alternatively, instead of moving at a random pattern, it could also move between coins or badguys.
 

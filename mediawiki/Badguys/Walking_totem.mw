@@ -15,7 +15,7 @@
 
 There is some “stacking” and “carrying” code in the SVN repository, which is probably a preparation for the functionality described below. Currently, only one segment is implemented – layered totems squish the ones below them.
 
-== Design considerations ==
+=== Design considerations ===
 
 [[Template:Proposed]]
 
