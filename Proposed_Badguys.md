@@ -74,7 +74,8 @@ Concept art
 
 <Category:Design>
 
-== Anteater
+Anteater
+=======================
 
 Behaviour: walks, runs if ants are in front of it... grows by eating
 ants
@@ -90,7 +91,8 @@ Hurt it: jump or spit
 
 Concept Image: ![](images/Anteater.jpeg)
 
-== Ant
+Ant
+=======================
 
 Behaviour: Walks or climbs. Runs away from Anteaters
 
@@ -101,7 +103,8 @@ Hurt Tux: like Snowball
 Hurt it: jump or spit - however jumping may make other ants swarm to
 attack Tux
 
-== Bat
+Bat
+=======================
 
 Behaviour: zigzag flight, eats Ants - Can zero in on Tux
 
@@ -137,7 +140,8 @@ he succeeds, the bats would be 'stunned,' at which point they could be
 squished. Diagram: ![](images/Mr Bat.jpeg) ![](images/Mr Bat
 Stunned.jpeg)
 
-== Bjella
+Bjella
+=======================
 
 Copied from [User ideas](User_ideas "wikilink").
 
@@ -145,7 +149,8 @@ Copied from [User ideas](User_ideas "wikilink").
 
 Bee. Shoots stingers.
 
-== BouncyBall
+BouncyBall
+=======================
 
 Behaviour: jumps back and forth in one place
 
@@ -155,7 +160,8 @@ Hurt Tux: like Jumpy
 
 Hurt it: like Jumpy
 
-== Cactus
+Cactus
+=======================
 
 #### Infobox Badguy
 
@@ -173,7 +179,8 @@ Hurt it: like Jumpy
 Behavior
 --------
 
-== Cat
+Cat
+=======================
 
 Behaviour: Drop from trees or have pouncing movement like wolf
 suggestion
@@ -199,7 +206,8 @@ Hurt it: spit
             1.  When Tux is less than 3 tiles behind her, the Cat will
                 drop and hopefully land on Tux.
 
-== DarkWolf
+DarkWolf
+=======================
 
 ### Behaviour
 
@@ -231,7 +239,8 @@ On contact
 -   stomping it (while it is not in a jump)
 -   with fireballs
 
-== Dillo
+Dillo
+=======================
 
 Proposals
 ---------
@@ -293,7 +302,8 @@ From Wikipedia:
 -   Its main defense is its armor-like outer skin. When threatened by a
     predator, the armadillo will roll up into a ball.
 
-== Doodle
+Doodle
+=======================
 
 Looks like a rough, **pencil-drawn** sketch of a Badguy (like step 1 in
 pingus.seul.org/\~grumbel/gimp/drawing/drawing2.jpg).
@@ -310,14 +320,16 @@ Possible transformations could be:
 Maybe she could be part of a **bonus level** that features **doodle
 tiles**?
 
-== Electric\_eel
+Electric\_eel
+=======================
 
 Template:Badguy name=Electric eel|image=Electric\_eel|worlds=World
 2|appearance=Looks like a normal electric eel.|behaviour=Swims on the
 spot in water. Sometimes he electrifies the water and hurt
 Tux.|squish=yes|butt-jump=yes|freeze=yes|ignite=yes, killed
 
-== Ember
+Ember
+=======================
 
 -   small Flame with eyes
 -   rises while slowly swinging left and right
@@ -326,7 +338,8 @@ Tux.|squish=yes|butt-jump=yes|freeze=yes|ignite=yes, killed
 
 Might use a variation of the “Flamy” image: ![](images/Flamy.png)
 
-== EvilPenguin
+EvilPenguin
+=======================
 
 The Evil Penguin should look similar to Tux, it will probally have
 another color and another shaped bill. Ranges of attack might be
@@ -342,7 +355,8 @@ Spearthrow, Blowgun, Boomerang, Net, etc.
 Maybe they're friendly penguins enslaved by Nolok and Tux could free
 them?
 
-== Gator
+Gator
+=======================
 
 I think there should be floating logs in the Forest world, which move
 around when Tux jumps on them.
@@ -360,7 +374,8 @@ Hurt it: use Spitting, will try to get Tux when attacked
 :   i'll support this one --[Disk](User:Disk "wikilink") 18:38, 30
     August 2007 (UTC)
 
-== Ghostly\_Tree
+Ghostly\_Tree
+=======================
 
 **Ghostly Tree** is Mr Tree's counterpart in Ghost Forest. Looks and
 behaves like MrTree, but it has a darker look (black/burnt wood, no
@@ -378,7 +393,8 @@ sketch: ![](images/Spooky Tree.jpeg)
 When jumped on, Ghostly (or Spooky) could release two
 [bats](bat "wikilink").
 
-== Ghost,\_Pickpocket
+Ghost,\_Pickpocket
+=======================
 
 This ghost will try to **steal** up to one powerup or coin from Tux. If
 it succeeds its formerly visibly **hollow belly** will contain the
@@ -386,7 +402,8 @@ stolen item and it will switch from chasing Tux to evading Tux. After
 some seconds it will have **digested** the stolen item and come back to
 steal a new one.
 
-== Ghost,\_Type\_II
+Ghost,\_Type\_II
+=======================
 
 Behaviour: fades in from the background and launches at Tux, then
 vanishes again
@@ -397,7 +414,8 @@ Hurt Tux: by contact
 
 Hurt it: Butt-Jump
 
-== Ghost,\_Type\_I
+Ghost,\_Type\_I
+=======================
 
 Behaviour: simply flies around, or follows Tux
 
@@ -407,7 +425,8 @@ Hurt Tux: Hurt by contact
 
 Hurt it: Butt-Jump
 
-== HeliBall
+HeliBall
+=======================
 
 Behaviour: like a moving platform, but Tux can slide off easier than on
 a normal platform because of the ball shape
@@ -418,7 +437,8 @@ Hurt Tux: if he gets into the prop
 
 Hurt it: spit
 
-== Huey
+Huey
+=======================
 
 This badguy floats in the air. It will try to pickup the nearest walking
 badguy, then drop it on Tux.
@@ -426,7 +446,8 @@ badguy, then drop it on Tux.
 :   who're you kidding???? --[Disk](User:Disk "wikilink") 18:42, 30
     August 2007 (UTC)
 
-== Hungry\_Parakeet
+Hungry\_Parakeet
+=======================
 
 **Option One:**
 
@@ -448,31 +469,36 @@ badguy, then drop it on Tux.
 
 **Burnable:** Yes, killed
 
-== Igor
+Igor
+=======================
 
 Slower, ghostly version of the [Igel](Igel "wikilink") Badguy.Walks
 straight through walls, but still turns around at ledges.
 
-== Jumping\_Spiky
+Jumping\_Spiky
+=======================
 
 The jumping spiky is/will be another variation on the
 [Spiky](Spiky "wikilink") [badguy](badguy "wikilink"). As usual, it
 looks like an innocuous spiky until the player gets near it, at which
 point it spontaneously hops into the air, hopefully nailing the player.
 
-== Living\_Stump
+Living\_Stump
+=======================
 
 Looks (and behaves!) like a **regular tree stump**, completely ignoring
 its surroundings. When it wakes up (bumped against, player nearing?)
 this monster **grows eyes and a mouth** and starts walking around
 
-== Logger\_wielding%2Fthrowing\_axe
+Logger\_wielding%2Fthrowing\_axe
+=======================
 
 Logger: Lumberjack could either be simply wielding an axe to cut poor
 tux in two and/or could be throwing axes after third “swish” of axe
 which Tux has to jump to prevent being hit by onslaught.
 
-== Mounted\_Axe
+Mounted\_Axe
+=======================
 
 Behaviour: An axe that frequently swings out from a horizontal or
 vertical slot in the wall when Tux comes near it - swings left to right
@@ -485,7 +511,8 @@ Hurt Tux: contact with axe
 
 Hurt it: invincible
 
-== MrAncestor
+MrAncestor
+=======================
 
 (or Mrs Ancestor)
 
@@ -506,7 +533,8 @@ Hurt Tux: contact with knight's arm, or lady's sound waves
 Hurt it: invincible; alternatively it can be turned into a normal
 picture somehow
 
-== Mr.\_Palm\_Tree
+Mr.\_Palm\_Tree
+=======================
 
 #### Infobox Badguy
 
@@ -542,7 +570,8 @@ might be a job for a different badguy...Mr. Coconut Tree?
 Idea: how about when he gets hit by a sliding bad guy, he drops 2 or 3
 nuttys. [Monstertux](user:Monster "wikilink")</small>
 
-== MudBall
+MudBall
+=======================
 
 Behavior: A basic enemy (such as [Snowball](Snowball "wikilink")) that
 just walks into [Tux](Tux "wikilink")'s direction. The AI would not be
@@ -554,7 +583,8 @@ Hurt Tux: Walking into Tux.
 
 Hurt it: Jumping on it or using Mr IceBlock to kill it.
 
-== Nutty
+Nutty
+=======================
 
 #### Infobox Badguy
 
@@ -593,7 +623,8 @@ Falling/Flying Nutty Image
 
 ![](images/FallingFlyingNutty.png)
 
-== Primate
+Primate
+=======================
 
 Behaviour: swings in trees and on vines.
 
@@ -603,7 +634,8 @@ Hurt Tux: knocks Tux off of vines and branches, steals powerups
 
 Hurt it: spit
 
-== Pyro
+Pyro
+=======================
 
 An **inflamed** version of maybe some other badguy. Just walks around,
 trying to burn Tux by touching him.
@@ -651,7 +683,8 @@ killed freezing. (Maybe not even killed by invinsible power.)
 :   Great! do it! --[Disk](User:Disk "wikilink") 18:48, 30 August 2007
     (UTC)
 
-== Rabbit
+Rabbit
+=======================
 
 Behavior: Rabbits bounce around hopping over small holes and barriers.
 They
@@ -677,7 +710,8 @@ Hurt it: Bounce on it, spit, invincibility.
 
 Hurt Tux: Other contact.
 
-== Rat
+Rat
+=======================
 
 Behaveior: Would move like ant/snowball and when it nears tux it would
 attack (move forward and bite at) Tux.
@@ -688,7 +722,8 @@ Hurt it: jump on it, spit, invincibillity.
 
 Hurt Tux: Biting Tux
 
-== Ray
+Ray
+=======================
 
 Behaviour: lays at bottom of water
 
@@ -698,7 +733,8 @@ Hurt Tux: when stepped on (like Spiky)
 
 Hurt it: use Spitting, will try to get away
 
-== Snake
+Snake
+=======================
 
 These would drop from treebranches, etc. and hug Tux.
 
@@ -710,12 +746,14 @@ Hurt Tux: like Icicle
 
 Hurt it: spit
 
-== Surprise\_Snowball
+Surprise\_Snowball
+=======================
 
 Looks like the regular Snowball badguy. Whips out his helmet to become
 Spiky when the player comes closer.
 
-== Tumbleweed
+Tumbleweed
+=======================
 
 ![](images/Tumbleweed0.png|thumb)Behaviour: like Bouncy Snowball
 
@@ -725,12 +763,14 @@ Hurt Tux: like Bouncy Snowball
 
 Hurt it: like Bouncy Snowball
 
-== Vampire\_penguin
+Vampire\_penguin
+=======================
 
 ![](images/vampirePenguin.png) What about a “vampire penguin”? This
 one is just a sketch!
 
-== Walking\_Rock
+Walking\_Rock
+=======================
 
 **Walking Rock** is a big rock, unharmed by spikes, fireballs, enemies
 and such, usable by Tux as a platform.
