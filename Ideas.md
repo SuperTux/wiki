@@ -2657,4 +2657,44 @@ Only explosions will be able to break these solid blocks.
 
 Tux will be able to grab this object. It will start ticking and then explodes, when dropped.
 
+Melon BadGuy
+------------
 
+Proposed Badguy: Melon 
+Found In: Tropical Island
+
+Pogonia
+--------
+
+[[Image:Base.png]][[Image:Pogonia-1.png]][[Image:Pogonia-1-flip.png]]<br>
+IDs: 1569, 1570, 1571, 1572, 1573, 1574<br>
+The stem acts as a background and flower is hurting.
+
+
+Rejected_ideas
+--------------
+
+A system supplementing the current power-ups, this is basically a way to allow large and powerful effects without letting the player use them all the time. The meter could be increased by collecting coins, killing enemies, or getting points. When the meter is full the player can enter a specific control sequence (this is so the player can still use the power normally when the meter is full) to use a super-powerful attack, which would usually wipe out all the normal enemies onscreen and might have other effects as well (such as opening secret areas in the level).
+
+== Concept Art ==
+[[Image:no-power.png]] [[Image:firemeter-half.png]] [[Image:firemeter-full.png]]
+
+
+Rukush
+------
+
+[[Template:Proposed]]
+
+A friendly NPC. Rukush the Crystallo could live in the bonus level of icy island, where it would have a garden of tree saplings, fireflowers, and iceflowers.
+
+
+Bigfoot
+-------
+
+[[Image:Bigfoot.png|right|thumb|It's Chewbacca!]]
+I now propose a forest boss (which I think is better than ghost tree)...Sasquatch:
+
+He would function like the [[Yeti]], except have more of a roar than a gna. As Sasquatches and Yeti are very similar (both mythical creatures of the same family), I think that this would be a fun addition to the forest. Please discuss it on its talk page.
+
+
+[[Julius_Freezer]]
