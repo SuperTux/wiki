@@ -18,10 +18,13 @@
 
 #### New Bonuses
 
-|                                        |     |                                                                                                                                         |
-|----------------------------------------|-----|-----------------------------------------------------------------------------------------------------------------------------------------|
-| ![](images/Fish_small.png "Fish_small.png")   |     | **Fishboxes:** To play the second storyline Tux has to search for 35 fishboxes which are hidden (sometimes hard to find) in each level. |
-| ![](images/Coinblue-0.png‎ "Coinblue-0.png‎") |     | **Blue Coins:** If Tux collects 5 of these coins in one level (without to die), he will get 3 lifes (300 coins).                        |
+![](images/Fish_small.png "Fish_small.png") **Fishboxes:** To play the
+second storyline Tux has to search for 35 fishboxes which are hidden
+(sometimes hard to find) in each level. |
+
+![](images/Coinblue-0.png‎ "Coinblue-0.png‎") **Blue Coins:** If Tux
+collects 5 of these coins in one level (without to die), he will get 3
+lifes (300 coins). |
 
 #### Levels
 
