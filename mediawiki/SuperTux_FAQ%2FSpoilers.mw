@@ -1,69 +1,67 @@
-== World 1 ==
+World 1
+-------
 
-=== Welcome to Antarctica ===
+### Welcome to Antarctica
 
-==== How do I get past the wall with the "run" sign next to it? ====
+#### How do I get past the wall with the “run” sign next to it?
 
-To jump high enough, Tux has to [[User Manual#Running (SuperTux 0.1)|run]] while jumping.
+To jump high enough, Tux has to [run](User_Manual#Running_(SuperTux_0.1) "wikilink") while jumping.
 
-=== Arctic Ruins ===
+### Arctic Ruins
 
-==== Why can't I see any blocks to jump on? ====
+#### Why can't I see any blocks to jump on?
 
-There are a few cases where blocks you have to jump on are under water
-and thus harder to see, maybe adjusting your screen's brightness/gamma
-level will help.
+There are a few cases where blocks you have to jump on are under water and thus harder to see, maybe adjusting your screen's brightness/gamma level will help.
 
-=== Ice in the Hole ===
+### Ice in the Hole
 
-==== Where are the secret areas? ====
+#### Where are the secret areas?
 
 One is at the beginning of the level, and the other is embedded in the wall to the left of the second fireflower box.
 
-=== Bonus Island ===
+### Bonus Island
 
-Icy Island's bonus level is reached through a teleporter.
-Try going to the dead end near the bottom right corner and pressing enter.
-* Since SuperTux 0.3.3, the bonus level is easily available.
+Icy Island's bonus level is reached through a teleporter. Try going to the dead end near the bottom right corner and pressing enter.
 
-== World 2 ==
+-   Since SuperTux 0.3.3, the bonus level is easily available.
 
-=== Bouncy Coils ===
+World 2
+-------
 
-==== How do you use the second trampoline to jump past the cliff? ====
+### Bouncy Coils
 
-The trampoline is portable, so just pick it up and move it closer with the [[User Manual#Carrying Objects|action key]].
+#### How do you use the second trampoline to jump past the cliff?
 
-=== Under Construction (0.3.1) ===
+The trampoline is portable, so just pick it up and move it closer with the [action key](User_Manual#Carrying_Objects "wikilink").
 
-==== How do you solve it? ====
+### Under Construction (0.3.1)
 
-Get the 3 keys hidden on forest island. The key levels have a key of some
-color instead of a mushroom as their icon. Once you have those, you can go back to "Under Construction",
-walk around, and something interesting will happen once you get to the tree stump.
+#### How do you solve it?
 
-=== Lights and Magic (0.3.0 Bonus Island) ===
+Get the 3 keys hidden on forest island. The key levels have a key of some color instead of a mushroom as their icon. Once you have those, you can go back to “Under Construction”, walk around, and something interesting will happen once you get to the tree stump.
 
-==== Getting to it ====
+### Lights and Magic (0.3.0 Bonus Island)
 
-There's a teleporter somewhere around "Three sheets to the wind,"
-which you can activate by walking around and through it. Use the 
-left arrow key and hold it then you will get to it.
-* Since SuperTux 0.3.3, this level is easily available.
+#### Getting to it
 
-== Bonus Island I ==
+There's a teleporter somewhere around “Three sheets to the wind,” which you can activate by walking around and through it. Use the left arrow key and hold it then you will get to it.
 
-=== Lies! ===
+-   Since SuperTux 0.3.3, this level is easily available.
 
-[[Image:Lies!.png|200px]]
+Bonus Island I
+--------------
 
-== Old Test collection ==
+### Lies!
 
-=== Inside The Tree ===
+<img src="Lies!.png" title="Lies!.png" alt="Lies!.png" width="200" />
+
+Old Test collection
+-------------------
+
+### Inside The Tree
 
 ==== How do I make the jump at x = 768, y = 5344? ====
 
-You have to come with a running start from the left, then jump and reverse direction in mid-air.  Here is [http://mattmccutchen.net/private/inside-the-tree-trick.ogg a video of the maneuver].
+You have to come with a running start from the left, then jump and reverse direction in mid-air. Here is [a video of the maneuver](http://mattmccutchen.net/private/inside-the-tree-trick.ogg).
 
-[[Category:For Users]]
-[[Category:FAQs]]
+[Category:For Users](Category:For_Users "wikilink") <Category:FAQs>
