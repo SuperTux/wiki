@@ -1,337 +1,75 @@
-<center>[[Image:Yetis_Revenge_Logo.png‎]]</center>
+<center>
+![](Yetis_Revenge_Logo.png‎ "Yetis_Revenge_Logo.png‎")
 
-'''Yeti's Revenge''' is an addon for Supertux 0.3.3-svn (September 2011) by ''niso''. It contains a brand new worldmap, two storylines and over 30 levels. At the end of the main story Tux has to fight against Yeti again. Although the whole addon is more challenging than the main game, all levels can be finished completely (each coin, secret etc. is reachable). 
+</center>
+**Yeti's Revenge** is an addon for Supertux 0.3.3-svn (September 2011) by *niso*. It contains a brand new worldmap, two storylines and over 30 levels. At the end of the main story Tux has to fight against Yeti again. Although the whole addon is more challenging than the main game, all levels can be finished completely (each coin, secret etc. is reachable).
 
-<span style="color:red;">'''Recommended resolution: 1280x720px'''</span>
+<span style="color:red;">**Recommended resolution: 1280x720px**</span>
 
-==== Links ====
-* Download addon from [https://supertux.lethargik.org/bugs/view.php?id=836 Bugtracker Entry] (to prefer) or [http://forum.freegamedev.net/viewtopic.php?f=69&t=2451 Fan-Forum]
-* Download best working supertux-snapshot from [http://forum.freegamedev.net/viewtopic.php?p=27149#p27149 Fan-Forum]
-* [http://www.youtube.com/watch?v=pFgh6ffZH68 Youtube-Video]
+#### Links
+
+-   Download addon from [Bugtracker Entry](https://supertux.lethargik.org/bugs/view.php?id=836) (to prefer) or [Fan-Forum](http://forum.freegamedev.net/viewtopic.php?f=69&t=2451)
+-   Download best working supertux-snapshot from [Fan-Forum](http://forum.freegamedev.net/viewtopic.php?p=27149#p27149)
+-   [Youtube-Video](http://www.youtube.com/watch?v=pFgh6ffZH68)
+
+#### Worldmap
+
+<img src="Yrmap.png" title="Yrmap.png" alt="Yrmap.png" width="300" />
+
+#### New Bonuses
+
+|                                        |     |                                                                                                                                         |
+|----------------------------------------|-----|-----------------------------------------------------------------------------------------------------------------------------------------|
+| ![](Fish_small.png "Fish_small.png")   |     | **Fishboxes:** To play the second storyline Tux has to search for 35 fishboxes which are hidden (sometimes hard to find) in each level. |
+| ![](Coinblue-0.png‎ "Coinblue-0.png‎") |     | **Blue Coins:** If Tux collects 5 of these coins in one level (without to die), he will get 3 lifes (300 coins).                        |
+
+#### Levels
+
+| Screenshot                                                                           | Name                               | Type              | Direction | Difficulty | Lenght |
+|--------------------------------------------------------------------------------------|------------------------------------|-------------------|-----------|------------|--------|
+| <img src="Yr3.png" title="Yr3.png" alt="Yr3.png" width="100" />                      | A Loud Night                       | intro             | right     | -          | -      |
+| <img src="Yr4.png" title="Yr4.png" alt="Yr4.png" width="100" />                      | Leaving Home and Start the Journey | normal            | right     | easy       | normal |
+| <img src="Yr6.png" title="Yr6.png" alt="Yr6.png" width="100" />                      | Above the Clouds                   | normal            | right     | easy       | normal |
+| <img src="Yr7.png" title="Yr7.png" alt="Yr7.png" width="100" />                      | Carry Me                           | normal            | right     | easy       | normal |
+| <img src="Yr34.png" title="Yr34.png" alt="Yr34.png" width="100" />                   | Hail Storm                         | normal            | right     | medium     | normal |
+| <img src="Yr8.png" title="Yr8.png" alt="Yr8.png" width="100" />                      | Through the Groundwater            | normal            | right     | easy       | long   |
+| <img src="Yr10.png" title="Yr10.png" alt="Yr10.png" width="100" />                   | Playground in the Water            | normal            | right     | easy       | normal |
+| <img src="Yr11.png" title="Yr11.png" alt="Yr11.png" width="100" />                   | Crazy Cave                         | normal            | right     | medium     | normal |
+| <img src="Yr12.png" title="Yr12.png" alt="Yr12.png" width="100" />                   | Lotus Grotto                       | normal            | right     | medium     | normal |
+| <img src="Yr13.png" title="Yr13.png" alt="Yr13.png" width="100" />                   | Staple Me                          | normal            | right     | easy       | normal |
+| <img src="Yr33.png" title="Yr33.png" alt="Yr33.png" width="100" />                   | It's Getting Colder                | normal            | right     | easy       | normal |
+| <img src="Yr14.png" title="Yr14.png" alt="Yr14.png" width="100" />                   | A Bombastic Day                    | normal            | right     | medium     | normal |
+| <img src="Yr15.png" title="Yr15.png" alt="Yr15.png" width="100" />                   | Blue Mountain                      | normal            | right     | medium     | long   |
+| <img src="Yr17.png" title="Yr17.png" alt="Yr17.png" width="100" />                   | More of the Blue Mountain          | normal            | up        | medium     | long   |
+| <img src="Yr18.png" title="Yr18.png" alt="Yr18.png" width="100" />                   | Reaching the Top                   | normal            | up        | hard       | long   |
+| <img src="Yr20.png" title="Yr20.png" alt="Yr20.png" width="100" />                   | The Way Down                       | normal            | down      | medium     | long   |
+| <img src="Yr22.png" title="Yr22.png" alt="Yr22.png" width="100" />                   | Don't Be Afraid                    | puzzle            | ?         | ?          | ?      |
+| <img src="Yr23.png" title="Yr23.png" alt="Yr23.png" width="100" />                   | Path Without Name                  | normal            | right     | easy       | normal |
+| <img src="Yr24.png" title="Yr24.png" alt="Yr24.png" width="100" />                   | Pirate's Harbor                    | normal            | right     | medium     | normal |
+| <img src="Yr35.png" title="Yr35.png" alt="Yr35.png" width="100" />                   | Foreign Passenger                  | normal            | right     | hard       | long   |
+| <img src="Yr25.png" title="Yr25.png" alt="Yr25.png" width="100" />                   | Escape From the Pirates            | chase             | right     | hard       | long   |
+| <img src="Yr26.png" title="Yr26.png" alt="Yr26.png" width="100" />                   | Something to Enjoy                 | normal            | right     | easy       | normal |
+| <img src="Yr27.png" title="Yr27.png" alt="Yr27.png" width="100" />                   | Windy Day On Ice                   | normal            | right     | medium     | normal |
+| <img src="Yr28.png" title="Yr28.png" alt="Yr28.png" width="100" />                   | Next to the Stars                  | normal            | right     | medium     | normal |
+| <img src="Yr29.png" title="Yr29.png" alt="Yr29.png" width="100" />                   | Slippery Climbing                  | normal            | up        | hard       | long   |
+| <img src="Yr30.png" title="Yr30.png" alt="Yr30.png" width="100" />                   | Controlling the Temperature        | normal            | right     | medium     | normal |
+| <img src="Yr31.png" title="Yr31.png" alt="Yr31.png" width="100" />                   | The Grand Bridge                   | normal            | right     | medium     | normal |
+| <img src="Yr36.png" title="Yr36.png" alt="Yr36.png" width="100" />                   | Shaft Racing                       | normal/autoscroll | down      | medium     | long   |
+| <img src="Yr37.png" title="Yr37.png" alt="Yr37.png" width="100" />                   | I Go With My Latern                | puzzle            | right     | ?          | normal |
+| <img src="Yr38.png" title="Yr38.png" alt="Yr38.png" width="100" />                   | Freeze 'n' Flee                    | normal            | ?         | medium     | normal |
+| <img src="Yr39.png" title="Yr39.png" alt="Yr39.png" width="100" />                   | Living Spikes                      | normal            | right     | hard       | normal |
+| <img src="Yr40.png" title="Yr40.png" alt="Yr40.png" width="100" />                   | Spooky Way of Life                 | puzzle            | ?         | ?          | ?      |
+| <img src="Yr41.png" title="Yr41.png" alt="Yr41.png" width="100" />                   | Hang Out in the Underground        | normal            | right     | medium     | normal |
+| <img src="Yr42.png" title="Yr42.png" alt="Yr42.png" width="100" />                   | Cave of Waterfalls                 | normal            | right     | hard       | normal |
+| <img src="Yrquestion.jpg" title="Yrquestion.jpg" alt="Yrquestion.jpg" width="100" /> | All's Well That Ends Well          | ?                 | ?         | ?          | ?      |
+| <img src="Yrquestion.jpg" title="Yrquestion.jpg" alt="Yrquestion.jpg" width="100" /> | Yeti's Revenge                     | bossfight         | -         | ?          | -      |
+| <img src="Yrquestion.jpg" title="Yrquestion.jpg" alt="Yrquestion.jpg" width="100" /> | Bonus                              | ?                 | -         | -          | -      |
+| <img src="Yr43.png" title="Yr43.png" alt="Yr43.png" width="100" />                   | Something in the Water             | intro             | right     | -          | -      |
+| <img src="Yr44.png" title="Yr44.png" alt="Yr44.png" width="100" />                   | A Wonderful Day                    | normal            | right     | easy       | normal |
+| <img src="Yr45.png" title="Yr45.png" alt="Yr45.png" width="100" />                   | Big Wave                           | chase             | right     | hard       | normal |
+| <img src="Yr46.png" title="Yr46.png" alt="Yr46.png" width="100" />                   | Surfing Tux                        | autoscroll        | right     | hard       | normal |
+| <img src="Yr47.png" title="Yr47.png" alt="Yr47.png" width="100" />                   | No Brigde Out There                | normal            | right     | hard       | normal |
+| <img src="Yrquestion.jpg" title="Yrquestion.jpg" alt="Yrquestion.jpg" width="100" /> | Still Waters Run Deep              | bossfight         | ?         | ?          | ?      |
+||
 
 
-==== Worldmap ====
-[[Image:Yrmap.png|300px]]
-
-
-==== New Bonuses ====
-{|
-|-
-| [[Image:Fish_small.png]] || || '''Fishboxes:''' To play the second storyline Tux has to search for 35 fishboxes which are hidden (sometimes hard to find) in each level.
-|-
-| [[Image:Coinblue-0.png‎]] || || '''Blue Coins:''' If Tux collects 5 of these coins in one level (without to die), he will get 3 lifes (300 coins).
-|}
-
-==== Levels ====
-
-{| border="1" cellpadding="3" cellspacing="1" class="wikitable sortable"
-|-
-! style="background: #7EC0EE;" class="unsortable" | Screenshot 
-! style="background: #7EC0EE;" | Name 
-! style="background: #7EC0EE;" | Type 
-! style="background: #7EC0EE;" | Direction 
-! style="background: #7EC0EE;" | Difficulty 
-! style="background: #7EC0EE;" | Lenght
-|-
-| [[Image:Yr3.png|100px]]
-| A Loud Night
-|style="text-align:center"| intro
-|style="text-align:center"| right
-|style="text-align:center"| - 
-|style="text-align:center"| -
-|-
-| [[Image:Yr4.png|100px]]
-| Leaving Home and Start the Journey       
-|style="text-align:center"| normal        
-|style="text-align:center"| right        
-|style="text-align:center"| <p style="background-color:green">easy</p>       
-|style="text-align:center"| normal     
-|-
-| [[Image:Yr6.png|100px]]
-| Above the Clouds
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr7.png|100px]]
-| Carry Me
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr34.png|100px]]
-| Hail Storm
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr8.png|100px]]
-| Through the Groundwater
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr10.png|100px]]
-| Playground in the Water
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr11.png|100px]]
-| Crazy Cave
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr12.png|100px]]
-| Lotus Grotto
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr13.png|100px]]
-| Staple Me
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr33.png|100px]]
-| It's Getting Colder
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr14.png|100px]]
-| A Bombastic Day
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr15.png|100px]]
-| Blue Mountain
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr17.png|100px]]
-| More of the Blue Mountain
-|style="text-align:center"| normal
-|style="text-align:center"| up
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr18.png|100px]]
-| Reaching the Top
-|style="text-align:center"| normal
-|style="text-align:center"| up
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr20.png|100px]]
-| The Way Down
-|style="text-align:center"| normal
-|style="text-align:center"| down
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr22.png|100px]]
-| Don't Be Afraid
-|style="text-align:center"| puzzle
-|style="text-align:center"| ?
-|style="text-align:center"| <p style="background-color:grey">?</p>
-|style="text-align:center"| ?
-|-
-| [[Image:Yr23.png|100px]]
-| Path Without Name
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr24.png|100px]]
-| Pirate's Harbor
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr35.png|100px]]
-| Foreign Passenger
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr25.png|100px]]
-| Escape From the Pirates
-|style="text-align:center"| chase
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr26.png|100px]]
-| Something to Enjoy
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr27.png|100px]]
-| Windy Day On Ice
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p> 
-|style="text-align:center"| normal
-|-
-| [[Image:Yr28.png|100px]]
-| Next to the Stars
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr29.png|100px]]
-| Slippery Climbing
-|style="text-align:center"| normal
-|style="text-align:center"| up
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr30.png|100px]]
-| Controlling the Temperature
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr31.png|100px]]
-| The Grand Bridge
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr36.png|100px]]
-| Shaft Racing
-|style="text-align:center"| normal/autoscroll
-|style="text-align:center"| down
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| long
-|-
-| [[Image:Yr37.png|100px]]
-| I Go With My Latern
-|style="text-align:center"| puzzle
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:grey">?</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr38.png|100px]]
-| Freeze 'n' Flee
-|style="text-align:center"| normal
-|style="text-align:center"| ?
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr39.png|100px]]
-| Living Spikes
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr40.png|100px]]
-| Spooky Way of Life
-|style="text-align:center"| puzzle
-|style="text-align:center"| ?
-|style="text-align:center"| <p style="background-color:grey">?</p>
-|style="text-align:center"| ?
-|-
-| [[Image:Yr41.png|100px]]
-| Hang Out in the Underground
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:yellow">medium</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr42.png|100px]]
-| Cave of Waterfalls
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yrquestion.jpg|100px]]
-| All's Well That Ends Well
-|style="text-align:center"| ?
-|style="text-align:center"| ?
-|style="text-align:center"| <p style="background-color:grey">?</p>
-|style="text-align:center"| ?
-|-
-| [[Image:Yrquestion.jpg|100px]]
-| Yeti's Revenge
-|style="text-align:center"| bossfight
-|style="text-align:center"| -
-|style="text-align:center"| <p style="background-color:grey">?</p>
-|style="text-align:center"| -
-|-
-| [[Image:Yrquestion.jpg|100px]]
-| Bonus
-|style="text-align:center"| ?
-|style="text-align:center"| -
-|style="text-align:center"| -
-|style="text-align:center"| -
-|-
-| [[Image:Yr43.png|100px]]
-| Something in the Water
-|style="text-align:center"| intro
-|style="text-align:center"| right
-|style="text-align:center"| -
-|style="text-align:center"| -
-|-
-| [[Image:Yr44.png|100px]]
-| A Wonderful Day
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:green">easy</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr45.png|100px]]
-| Big Wave
-|style="text-align:center"| chase
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr46.png|100px]]
-| Surfing Tux
-|style="text-align:center"| autoscroll
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yr47.png|100px]]
-| No Brigde Out There
-|style="text-align:center"| normal
-|style="text-align:center"| right
-|style="text-align:center"| <p style="background-color:red">hard</p>
-|style="text-align:center"| normal
-|-
-| [[Image:Yrquestion.jpg|100px]]
-| Still Waters Run Deep
-|style="text-align:center"| bossfight
-|style="text-align:center"| ?
-|style="text-align:center"| <p style="background-color:grey">?</p> 
-|style="text-align:center"| ?
-|-
-|}
