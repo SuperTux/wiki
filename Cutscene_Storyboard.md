@@ -9,7 +9,7 @@ Antarctica
 
 Tux and Penny are shown having a picnic at the antarctic shore. In the background, there's a pile of snow, which eventually starts shaking a bit, attracting the focus of the camera. Suddenly Nolok jumps out, and the screen goes black with a flash. After fading in, Tux lies on his back, Penny is gone. Tux finds the letter Nolok left and reads it. Tux looks up, and/or walks a bit to reveal Nolok's fortress in the distance. Fade out.
 
-![](Introcutscene.png "Introcutscene.png")
+![](images/Introcutscene.png "Introcutscene.png")
 
 ### Interlude: Antarctica Miniboss
 
@@ -21,7 +21,7 @@ Tux and Penny are shown having a picnic at the antarctic shore. In the backgroun
 
 Tux reaches a door at the end of the castle. He opens it and finds himself at a balcony outside the castle walls. An angry roar can be heard in the distance. He jumps down into the yeti battle area. After a short conversation between Tux and the Yeti, the battle starts.
 
-![](Interlude01.jpg "Interlude01.jpg")
+![](images/Interlude01.jpg "Interlude01.jpg")
 
 ### Antarctica Outro/Forest Intro
 
@@ -34,7 +34,7 @@ Forest
 
 ### Interlude: Ghost Forest
 
-(Played before ghost forest section) Tux walks up to the edge of the Ghost forest, when suddenly a ghost scares him, then the ghost vanishes. The scene then cuts to Nolok to says that Tux has done well to get so far through the forest, but will not get past the dangers in the Ghost forest(probably should have a name). The scene then continues to cut to Penny who shouts “Tux where are you?” it is possible this is where she then suddenly thinks up or starts to think up her escape plan. ![](Ghostforest.png "fig:Ghostforest.png")
+(Played before ghost forest section) Tux walks up to the edge of the Ghost forest, when suddenly a ghost scares him, then the ghost vanishes. The scene then cuts to Nolok to says that Tux has done well to get so far through the forest, but will not get past the dangers in the Ghost forest(probably should have a name). The scene then continues to cut to Penny who shouts “Tux where are you?” it is possible this is where she then suddenly thinks up or starts to think up her escape plan. ![](images/Ghostforest.png "fig:Ghostforest.png")
 
 Explains why there is a ghost forest.
 

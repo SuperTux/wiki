@@ -1,5 +1,5 @@
 <center>
-![](Yetis_Revenge_Logo.png‎ "Yetis_Revenge_Logo.png‎")
+![](images/Yetis_Revenge_Logo.png‎ "Yetis_Revenge_Logo.png‎")
 
 </center>
 **Yeti's Revenge** is an addon for Supertux 0.3.3-svn (September 2011) by *niso*. It contains a brand new worldmap, two storylines and over 30 levels. At the end of the main story Tux has to fight against Yeti again. Although the whole addon is more challenging than the main game, all levels can be finished completely (each coin, secret etc. is reachable).
@@ -20,8 +20,8 @@
 
 |                                        |     |                                                                                                                                         |
 |----------------------------------------|-----|-----------------------------------------------------------------------------------------------------------------------------------------|
-| ![](Fish_small.png "Fish_small.png")   |     | **Fishboxes:** To play the second storyline Tux has to search for 35 fishboxes which are hidden (sometimes hard to find) in each level. |
-| ![](Coinblue-0.png‎ "Coinblue-0.png‎") |     | **Blue Coins:** If Tux collects 5 of these coins in one level (without to die), he will get 3 lifes (300 coins).                        |
+| ![](images/Fish_small.png "Fish_small.png")   |     | **Fishboxes:** To play the second storyline Tux has to search for 35 fishboxes which are hidden (sometimes hard to find) in each level. |
+| ![](images/Coinblue-0.png‎ "Coinblue-0.png‎") |     | **Blue Coins:** If Tux collects 5 of these coins in one level (without to die), he will get 3 lifes (300 coins).                        |
 
 #### Levels
 

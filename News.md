@@ -260,7 +260,7 @@ Moved tinygettext to <http://tinygettext.googlecode.com>
 2008-02-14
 ----------
 
--   ![](Cpt-right-1.png "fig:Cpt-right-1.png") [Captain
+-   ![](images/Cpt-right-1.png "fig:Cpt-right-1.png") [Captain
     Snowball](Captain_Snowball "wikilink")
 
 2008-02-13

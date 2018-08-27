@@ -2,7 +2,7 @@
 
 > *Welcome to the **SuperTux Community Discussion!** Here you may talk about anything related to SuperTux or this wiki. To make a comment, click on the **edit** button on the top of the page. Also consider the foum <http://forum.freegamedev.net/viewforum.php?f=66>*
 
-![](RATEDFUN.png "RATEDFUN.png")
+![](images/RATEDFUN.png "RATEDFUN.png")
 
 Why no Linux versions?
 ======================

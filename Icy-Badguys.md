@@ -155,7 +155,7 @@ Island](Icy_Island "wikilink") levels or other snow-themed levels.
 Planned for 0.4. In [SVN](SVN "wikilink") since
 [5323](Template:Revision "wikilink").
 
-![](Boarding-nq8.png "Boarding-nq8.png")
+![](images/Boarding-nq8.png "Boarding-nq8.png")
 
 
 
@@ -347,7 +347,7 @@ for the player. When the player can be seen by the eye, i.e. no other
 badguys or walls are in the way, an action is triggered, for example
 doors close or bridges are removed.
 
-![](ChristophEstart.png "ChristophEstart.png")
+![](images/ChristophEstart.png "ChristophEstart.png")
 
 Jumpy
 ===================
@@ -464,13 +464,13 @@ enemy in a range of 3 tiles give that it would not need to change it's
 direction more than 45 degree or so. This would allow the following 2
 situations:
 
-![](Kugelblitz2.jpg "Kugelblitz2.jpg")
+![](images/Kugelblitz2.jpg "Kugelblitz2.jpg")
 
 The kugelblitz would go down and then go upwards along the 2 coins and
 finally killing the 2 spikies and disappearing as there is no object
 anymore it could move to.
 
-![](Kugelblitz1.jpg "Kugelblitz1.jpg")
+![](images/Kugelblitz1.jpg "Kugelblitz1.jpg")
 
 The kugelblitz would come down and start moving in circles from coin to
 coin. You could stop this behaviour by collecting 1 of the coins at the
@@ -838,8 +838,8 @@ the [Forest](Forest "wikilink") world but is not (widely) used yet.
 Spike
 ===================
 
-![](Rightspike.png "fig:Rightspike.png")![](Down.png "fig:Down.png")\
-![](Up.png "fig:Up.png")![](Left.png "fig:Left.png")\
+![](images/Rightspike.png "fig:Rightspike.png")![](images/Down.png "fig:Down.png")\
+![](images/Up.png "fig:Up.png")![](images/Left.png "fig:Left.png")\
 IDs: 296, 297, 295, 298\
 All spikes are hurting.
 
@@ -976,7 +976,7 @@ Real Badguy Names
 Yeti
 ====
 
-![](Yeti2.png "Yeti2.png")
+![](images/Yeti2.png "Yeti2.png")
 
 The **Yeti** is the boss for [Icyisland](Icyisland "wikilink")
 

@@ -142,7 +142,7 @@ Milestone\_2\_Design\_Document%2FEnemies
 [Snowball](Snowball "wikilink")
 -------------------------------
 
-![](SnowballSprite.png "SnowballSprite.png")
+![](images/SnowballSprite.png "SnowballSprite.png")
 
 Snowball is a straight forward walking enemy, when reaching an edge he will fall down and continue walking on the platform below. Jumping on him will squish him and thus kill him.
 
@@ -151,14 +151,14 @@ Snowball is a straight forward walking enemy, when reaching an edge he will fall
 ~~[Mrs. Snowball](Mrs._Snowball "wikilink")~~ smartball
 -------------------------------------------------------
 
-![](SmartSnowballSprite.png "SmartSnowballSprite.png")
+![](images/SmartSnowballSprite.png "SmartSnowballSprite.png")
 
 Mrs. Snowball behaves like a normal [Snowball](Snowball "wikilink"), but instead of walking off a platform she will turn around when reaching the edge.
 
 [Snowman](Snowman "wikilink")
 -----------------------------
 
-![](SnowmanSprite.png "fig:SnowmanSprite.png") A snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball. Alternative: Let the head get destroyed and the body turn into a snowball that can be rolled around.
+![](images/SnowmanSprite.png "fig:SnowmanSprite.png") A snowman enemy shall be added, a snowman is build out of a base body combined with a snowball head, if the body is destroyed, the snowman turns into a snowball. Alternative: Let the head get destroyed and the body turn into a snowball that can be rolled around.
 
 **Status:** A very basic Snowman prototype is in [SVN](SVN "wikilink"), but lacks death animation and the whole separation behavior. Could use fists instead of balls as hands. -- [Grumbel](User:Grumbel "wikilink") 09:39, 23 February 2010 (UTC)
 
@@ -170,7 +170,7 @@ The snowman's body is now falling down when he's squished. [grumbel](User:Grumbe
 ~~Bouncy,~~Bouncing Snowball
 ----------------------------
 
-![](BouncingSnowball.png "fig:BouncingSnowball.png") The [Bouncing Snowball](Bouncing_Snowball "wikilink") is a leg-less Snowball that jumps around like a ball.
+![](images/BouncingSnowball.png "fig:BouncingSnowball.png") The [Bouncing Snowball](Bouncing_Snowball "wikilink") is a leg-less Snowball that jumps around like a ball.
 
 **Status:** Jump height and width could be tweaked a bit to make it easier to stand below it. Placement in the levels is the biggest problem, should only be used in open spaces, not closed ones where bouncing becomes unpredictable. -- [Grumbel](User:Grumbel "wikilink") 09:48, 23 February 2010 (UTC)
 
@@ -198,19 +198,19 @@ There's a Kamikaze Snowball in SVN, too. “Mr. Rocket” has been removed in [6
 [Mr. IceBlock](Mr._IceBlock "wikilink")
 ---------------------------------------
 
-![](MrIceblockSprite.png "fig:MrIceblockSprite.png") Like Snowball, Mr. IceBlock is a simple straight forward enemy. He will not stay on platforms. When jumped upon he will get knocked out and become a portable item that one can use to throw at other enemies.
+![](images/MrIceblockSprite.png "fig:MrIceblockSprite.png") Like Snowball, Mr. IceBlock is a simple straight forward enemy. He will not stay on platforms. When jumped upon he will get knocked out and become a portable item that one can use to throw at other enemies.
 
 ~~Fuse,~~ MrBomb
 ----------------
 
-![](Mrbomb.png "fig:Mrbomb.png") The base behavior of [Mr. Bomb](Mr._Bomb "wikilink") is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
+![](images/Mrbomb.png "fig:Mrbomb.png") The base behavior of [Mr. Bomb](Mr._Bomb "wikilink") is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
 
 **Status:** Explosion timing is wrong, should be long enough to grab it and carry it around. -- [Grumbel](User:Grumbel "wikilink") 09:51, 23 February 2010 (UTC)
 
 [Haywire](Haywire "wikilink"),(Crazy Fuse)
 ------------------------------------------
 
-![](MrBombCrazy.png "MrBombCrazy.png")
+![](images/MrBombCrazy.png "MrBombCrazy.png")
 
 When the fuse isn't burning Haywire looks similar to a normal Bomb except color and face. When the fuse of Haywire gets activated he starts to run around, maybe chasing Tux. He can't be carried around. Jumping on him when the fuse is burning will cause Tux to bounce and Haywire to be stunned for a short moment (fraction of a second).
 
@@ -219,48 +219,48 @@ When the fuse isn't burning Haywire looks similar to a normal Bomb except color 
 [Crystallo](Crystallo "wikilink")
 ---------------------------------
 
-![](Crystallo.png "Crystallo.png")
+![](images/Crystallo.png "Crystallo.png")
 
 Again a very basic enemy, but unlike the Snowball he doesn't walk around in a straight pattern, but walks forward and backward around a fixed position. It is a stationary enemy.
 
 [Spiky](Spiky "wikilink")
 -------------------------
 
-![](SpikySprite.png "fig:SpikySprite.png") Spiky behaves like *Mrs. Snowball*, i.e. he stays on platforms, but he carries a helmet which makes him invulnerable against jump attacks.
+![](images/SpikySprite.png "fig:SpikySprite.png") Spiky behaves like *Mrs. Snowball*, i.e. he stays on platforms, but he carries a helmet which makes him invulnerable against jump attacks.
 
 ~~Sleeping Spiky~~ Spiky
 ------------------------
 
-![](SleepingSpikySprite.png "fig:SleepingSpikySprite.png") Sleeping Spiky sleeps, when Tux comes near he activates and behaves like a normal Spiky. (Grumbel: Not sure that guy is a good idea)
+![](images/SleepingSpikySprite.png "fig:SleepingSpikySprite.png") Sleeping Spiky sleeps, when Tux comes near he activates and behaves like a normal Spiky. (Grumbel: Not sure that guy is a good idea)
 
 ~~Recoil, SnowJumpy~~ Jumpy
 ---------------------------
 
-![](SnowJumpySprite.png "fig:SnowJumpySprite.png") [Jumpy](Jumpy "wikilink") jumps up and down and stays stationary on the same position. His viewing direction might follow [Tux](Tux "wikilink"). The spring should react when hitting the ground.
+![](images/SnowJumpySprite.png "fig:SnowJumpySprite.png") [Jumpy](Jumpy "wikilink") jumps up and down and stays stationary on the same position. His viewing direction might follow [Tux](Tux "wikilink"). The spring should react when hitting the ground.
 
 Ice Fish / [Fish](Fish "wikilink")
 ----------------------------------
 
-![](IceFish.png "fig:IceFish.png") Already in the code, but not much used in Milestone1 Levels. This badguy shouldn't be used in Icyland, it is a forest enemy.
+![](images/IceFish.png "fig:IceFish.png") Already in the code, but not much used in Milestone1 Levels. This badguy shouldn't be used in Icyland, it is a forest enemy.
 
 [Owl](Owl "wikilink")
 ---------------------
 
-![](Owl.png "fig:Owl.png") A flying enemy that can carry things around and let them drop on Tux. One thing it is throwing might be *SkyDive*.
+![](images/Owl.png "fig:Owl.png") A flying enemy that can carry things around and let them drop on Tux. One thing it is throwing might be *SkyDive*.
 
 Some initial code is available from the [SVN](SVN "wikilink") repository since [6558](Template:Revision "wikilink"). Graphics are still pretty much a to-do. —[octo](User:Octo "wikilink") 17:25, 6 March 2010 (UTC)
 
 [SkyDive](SkyDive "wikilink")
 -----------------------------
 
-![](BombFish.png "fig:BombFish.png") An enemy that is let go by *Owl* and then falls down to the ground and explodes.
+![](images/BombFish.png "fig:BombFish.png") An enemy that is let go by *Owl* and then falls down to the ground and explodes.
 
 An initial version of this badguy has been committed to [SVN](SVN "wikilink") in [6564](Template:Revision "wikilink").
 
 ~~[Krush and Krosh](Krush_and_Krosh "wikilink")~~ Icecrusher
 ------------------------------------------------------------
 
-![](Iceblock.png "Iceblock.png")
+![](images/Iceblock.png "Iceblock.png")
 
 Krush and Krosh are enemies that are hanging on the ceiling. When [Tux](Tux "wikilink") gets within one tile they will fall down and try to smash Tux. When hanging on the ceiling, Krush and Krosh'es eyes shall follow Tux. The face expression shall become angry when he is falling down.
 
@@ -274,7 +274,7 @@ A cooldown timer has been added in [6405](Template:Revision "wikilink"). —[oct
 ([Cannon](Cannon "wikilink")) Dispenser
 ---------------------------------------
 
-![](Dispenser_rocket_launcher.png "fig:Dispenser_rocket_launcher.png") The cannon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructible. [SVN](SVN "wikilink") for non-captainsnowball/kamizazesnowball enemies
+![](images/Dispenser_rocket_launcher.png "fig:Dispenser_rocket_launcher.png") The cannon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructible. [SVN](SVN "wikilink") for non-captainsnowball/kamizazesnowball enemies
 
   
 The version in SVN can in fact shoot [Snowshots](Snowshot "wikilink"). Can this sentence be removed or do you mean something else? --[octo](User:Octo "wikilink") 07:55, 27 February 2010 (UTC)
@@ -296,12 +296,12 @@ Captain snowball is used in several level in bonus 3 --[giby](User:giby "wikilin
 295
 ---
 
-![](up.png "fig:up.png")The spike isn't really an enemy, so much as an obstacle, but for some strange reason, it's in the creatures' image directory, but implemented as a tile. Currently the spike only hurts Tux, instead of insta-killing him as might be wanted, for example at the bottom of deep pits. Alternately, we could simply have shallow pits that are easy to jump out of. (but that still hurt Tux)
+![](images/up.png "fig:up.png")The spike isn't really an enemy, so much as an obstacle, but for some strange reason, it's in the creatures' image directory, but implemented as a tile. Currently the spike only hurts Tux, instead of insta-killing him as might be wanted, for example at the bottom of deep pits. Alternately, we could simply have shallow pits that are easy to jump out of. (but that still hurt Tux)
 
 [Short Fuse](Short_Fuse "wikilink"), ~~Mini Bomb~~
 --------------------------------------------------
 
-![](Short_Fuse.png "fig:Short_Fuse.png") ![Mini-Bomb](Minibomb.png "fig:Mini-Bomb") The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
+![](images/Short_Fuse.png "fig:Short_Fuse.png") ![Mini-Bomb](Minibomb.png "fig:Mini-Bomb") The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
 
 A first version of this badguy has been added to [SVN](SVN "wikilink") in [6511](Template:Revision "wikilink").
 

@@ -106,7 +106,7 @@ groups) which filter what is displayed in the pane.
 
 ### How do I hide layers (tiles, background, objects..)?
 
-Click on the small eye (![](EditorEyeIcon.png "fig:EditorEyeIcon.png"))
+Click on the small eye (![](images/EditorEyeIcon.png "fig:EditorEyeIcon.png"))
 in the layer listing to adjust how hidden a layer is. Options are shown,
 semitransparent, and hidden.
 
@@ -121,7 +121,7 @@ for?](#What_is_the_SequenceTrigger_object_for? "wikilink")
 
 ### How do I add a new tilemap?
 
-![](Tilemap.png "fig:Tilemap.png") Select the tilemap object and place
+![](images/Tilemap.png "fig:Tilemap.png") Select the tilemap object and place
 it like a normal object anywhere in the level. The result will be a new
 that a new tilemap is created.\
 Since r5427: Right-click any item in LayerList and select “Add”, this
@@ -140,7 +140,7 @@ Press the Shift key to snap to every 32 pixels.
 
 ### What is the SequenceTrigger object for?
 
-![](Sequencetrigger.png "fig:Sequencetrigger.png") The SequenceTrigger
+![](images/Sequencetrigger.png "fig:Sequencetrigger.png") The SequenceTrigger
 object is used to define the areas that start and stop the end sequence
 (Tux walks into Igloo / Exit). The sequence names for that are
 “endsequence” and “stoptux”, respectively. Also, you can use
@@ -148,7 +148,7 @@ object is used to define the areas that start and stop the end sequence
 
 ### What is the SpawnPoint object for?
 
-![](Spawnpoint.png "fig:Spawnpoint.png") The SpawnPoint object is used
+![](images/Spawnpoint.png "fig:Spawnpoint.png") The SpawnPoint object is used
 to define places where Tux could “spawn”. This is used to mark where Tux
 should start in the level, the destination of doors and more. The
 spawnpoint where Tux will start on loading the level must be named
@@ -156,7 +156,7 @@ spawnpoint where Tux will start on loading the level must be named
 
 ### What is the Script object for?
 
-![](Scripttrigger.png "fig:Scripttrigger.png") The script object is used
+![](images/Scripttrigger.png "fig:Scripttrigger.png") The script object is used
 to define an occurrence which will happen when Tux enters the defined
 area. To edit the script, click the 'Edit Script' button. For details
 please see [Scripting reference](Scripting_reference "wikilink"). Some
@@ -227,7 +227,7 @@ Other tools
 
 ### How do I use brushes?
 
-![](EditorBrushIcon.png "fig:EditorBrushIcon.png") Brushes are used to
+![](images/EditorBrushIcon.png "fig:EditorBrushIcon.png") Brushes are used to
 clean up edge tiles. The brush tool does that by replacing a chosen 3x3
 section of tiles with the best of several “good-looking” patterns stored
 in so-called brushes. Keep that in mind when working with brushes - a

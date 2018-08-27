@@ -11,7 +11,7 @@ When Tux wakes up, he finds that Penny is missing. Where she lay before now lies
 
 Tux looks and see Nolok's fortress in the distance. Determined to save his beloved Penny, he begins his journey.
 
-![](Introcutscene.png "Introcutscene.png")
+![](images/Introcutscene.png "Introcutscene.png")
 
 Part II
 -------

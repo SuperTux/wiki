@@ -59,7 +59,7 @@ If you get a strange error saying: `Unhandled Exception: System.MissingMethodExc
 Setup
 -----
 
-Now that it's launched, a little window should pop up telling you to select the SuperTux directory. This is so it can get the images for the tiles, the music, the sounds ect. You also need to select the SuperTux Game's .exe file. ![](Pop_Up_Dialog.png "fig:Pop_Up_Dialog.png") So select the two directories. It should look something like this for the data directory: “C:\\Program Files\\SuperTux 0.3.3\\data” It should look something like this for your Executable directory: C:\\Program Files\\SuperTux 0.3.3\\supertux2"
+Now that it's launched, a little window should pop up telling you to select the SuperTux directory. This is so it can get the images for the tiles, the music, the sounds ect. You also need to select the SuperTux Game's .exe file. ![](images/Pop_Up_Dialog.png "fig:Pop_Up_Dialog.png") So select the two directories. It should look something like this for the data directory: “C:\\Program Files\\SuperTux 0.3.3\\data” It should look something like this for your Executable directory: C:\\Program Files\\SuperTux 0.3.3\\supertux2"
 
 Restart and it should look like this:
 
@@ -74,7 +74,7 @@ Editing the Game's Properties
 
 Before you start editing, you should edit the properties of the sector. Right click the word “main” on the top left (Not all the way to the top though,) and select “Properties.” You should see a few fields and buttons.
 Refer to the diagram below for information on these things.
-![]((STE)_Sector_settings_Diagram.png "fig:(STE)_Sector_settings_Diagram.png")
+![](images/(STE)_Sector_settings_Diagram.png "fig:(STE)_Sector_settings_Diagram.png")
 
 <font color=blue>Lesson 1:</font>''' Basic Editing
 --------------------------------------------------
@@ -87,7 +87,7 @@ Before you go gung-ho about making a level, I strongly suggest you read this sec
 
 Okay, you've finished the properties. Now click the button on the top.
 
-![]((STE)_New.png "fig:(STE)_New.png") It should have a forest background. If not, then click this: ![]((STE)_Prefs.png "fig:(STE)_Prefs.png")
+![](images/(STE)_New.png "fig:(STE)_New.png") It should have a forest background. If not, then click this: ![]((STE)_Prefs.png "fig:(STE)_Prefs.png")
 
 Select “Preferences” and redo what I told you to do above.
 

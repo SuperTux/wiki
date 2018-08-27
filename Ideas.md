@@ -513,7 +513,7 @@ Flamin':
 -   This enemy is also invincible
 -   This also follows you
 
-(Opposite of Drippin') Drippin' Preview:![](Drippin'pre.jpg "fig:Drippin'pre.jpg")
+(Opposite of Drippin') Drippin' Preview:![](images/Drippin'pre.jpg "fig:Drippin'pre.jpg")
 
 ### Other Playable Characters (Konqui)
 
@@ -681,7 +681,7 @@ should be vary long one. Good idea!
 
 ### Boxing gloves
 
-![](Boxeur_tux.gif "Boxeur_tux.gif")
+![](images/Boxeur_tux.gif "Boxeur_tux.gif")
 
 Boxing gloves might be found as temporary powerups, permanent powerups like the flowers or might be bought at the shops. Boxeur Tux can smash crates, open bonus blocks and defeat most enemies by punching.
 
@@ -748,7 +748,7 @@ I used heavily scripted pipes in my level. It's okay. Just you can see his legs 
 
 Here're three new suggestions for badguys in the forest world:
 
-![](Biella_mrlog_limpy.jpg "Biella_mrlog_limpy.jpg")
+![](images/Biella_mrlog_limpy.jpg "Biella_mrlog_limpy.jpg")
 
 #### Biella
 
@@ -775,7 +775,7 @@ These badguys could fit in somewhere else.
 
 #### Mr Missile
 
-![](MrMissile.png "fig:MrMissile.png") Once he “sees” Tux, Mr Missile starts shadowing him. So if Tux stops he doesn’t stop until he reaches the place Tux stopped at. It is the same with other actions. Mr Missile is as fast as Tux. He is killed by invincibility and Supertux’s fire
+![](images/MrMissile.png "fig:MrMissile.png") Once he “sees” Tux, Mr Missile starts shadowing him. So if Tux stops he doesn’t stop until he reaches the place Tux stopped at. It is the same with other actions. Mr Missile is as fast as Tux. He is killed by invincibility and Supertux’s fire
 
 -   Sounds a little too much like Mr. Rocket... --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
@@ -811,21 +811,21 @@ This badguy could go anywhere.
 
 #### Mr Jump
 
-![](Mr_jump.png "Mr_jump.png")
+![](images/Mr_jump.png "Mr_jump.png")
 
 -   behaviour like the normal snowball
     -   But: You can jump on it like on a trampoline.
 
 #### Wing Snowball
 
-![](Flying_Snowball.png "Flying_Snowball.png")
+![](images/Flying_Snowball.png "Flying_Snowball.png")
 
 -   flies straight and not very fast
 -   If Tux jumps on it, the wings of the snowball will fall down. Then he becomes a Bouncing Snowball.
 
 #### Angry Snowball
 
-![](Angry_Snowball.png "Angry_Snowball.png")
+![](images/Angry_Snowball.png "Angry_Snowball.png")
 
 -   runs very fast (because he's so angry)
 -   If Tux jumps on it, Angry Snowball will be eliminated.
@@ -833,11 +833,11 @@ This badguy could go anywhere.
 
 #### Mr Push-away
 
-![](Mr_Pushaway.png "Mr_Pushaway.png")
+![](images/Mr_Pushaway.png "Mr_Pushaway.png")
 
 #### Electric Eel
 
-![](Electric_eel.png "Electric_eel.png")
+![](images/Electric_eel.png "Electric_eel.png")
 
   
 So kind of like the level “Shocking,” except the electrification of the water is triggered by a specific enemy rather than occurring for the whole level? [Cooljeanius](User:Cooljeanius "wikilink") 22:10, 2 April 2011 (UTC)
@@ -846,7 +846,7 @@ Here is a badguy which could fit into the dark-forest scheme:
 
 #### The Evil Tree
 
-![](Evil_tree.png "Evil_tree.png")
+![](images/Evil_tree.png "Evil_tree.png")
 
 At first, this looks and behaves like a normal background tree, so tux can walk “through” it. (Especially mean when having the same tree often as normal background) When tux passes a special point near the tree (surprise will be much more intense if this point is behind that tree), it becomes alive and hunts tux.
 
@@ -884,7 +884,7 @@ It looks like an ordinary rock, but when Tux gets within range (5 spaces away), 
 
 This badguy is 4 spaces long. It lies motionless, and when Tux is in its sightline (10 spaces long, 1 space high), it opens its eyes, waits one second, and shoots out its tongue. If it misses, it waits another second and shoots out its tongue again. When Tux is hit by the tongue, he gets pulled into the chameleon's now open mouth and gets crushed. If Tux jumps on it, it turns into a smaller, harmless chameleon which crawls around a bit and then disappears. If Tux shoots it, it shrinks; with the second shot, it dies.
 
-*Sasquatch* ![](Bigfoot.png "fig:Bigfoot.png") The [Sasquatch](Sasquatch "wikilink") would be like the Yeti, except in the forest. Perhaps he could be the forest boss, not the ghost tree (or the ghost tree could be the ghost forest boss, and the Sasquatch be the normal forest boss). --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+*Sasquatch* ![](images/Bigfoot.png "fig:Bigfoot.png") The [Sasquatch](Sasquatch "wikilink") would be like the Yeti, except in the forest. Perhaps he could be the forest boss, not the ghost tree (or the ghost tree could be the ghost forest boss, and the Sasquatch be the normal forest boss). --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 *Tick* The tick would hide behind plants and stuff, or in the grass. He attaches himself to Tux, hangs on for a while, and becomes full and drops off, hurting Tux. Tux can then kill it. The tick may be killed by Tux becoming invincible, or when Tux gets hurt by spiky plants, electricity, or lava. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
@@ -940,11 +940,11 @@ As high as BigTux, it runs with its sword held in front of it. It can kill Tux, 
 
 #### Mr windows
 
-![](Win-0.png "fig:Win-0.png")
+![](images/Win-0.png "fig:Win-0.png")
 <small>*Mr windows - normal*</small>
-![](Win-block.png "fig:Win-block.png")
+![](images/Win-block.png "fig:Win-block.png")
 <small>*Mr windows - shield*</small>
-![](Win-dead.png "fig:Win-dead.png")
+![](images/Win-dead.png "fig:Win-dead.png")
 <small>*Mr windows - squished*</small>
 \*Mr windows sometimes stays and sometimes walks around one place.
 
@@ -959,12 +959,12 @@ Yet another Logo. See [Rejected\_ideas\#No\_Beastie](Rejected_ideas#No_Beastie "
 
 |                              |                                      |                              |
 |------------------------------|--------------------------------------|------------------------------|
-| ![](Eye-ul.png "Eye-ul.png") | ![](Eye-u.png "Eye-u.png")           | ![](Eye-ur.png "Eye-ur.png") |
-| ![](Eye-l.png "Eye-l.png")   | ![](Eye-center.png "Eye-center.png") | ![](Eye-r.png "Eye-r.png")   |
-| ![](Eye-dl.png "Eye-dl.png") | ![](Eye-d.png "Eye-d.png")           | ![](Eye-dr.png "Eye-dr.png") |
+| ![](images/Eye-ul.png "Eye-ul.png") | ![](images/Eye-u.png "Eye-u.png")           | ![](images/Eye-ur.png "Eye-ur.png") |
+| ![](images/Eye-l.png "Eye-l.png")   | ![](images/Eye-center.png "Eye-center.png") | ![](images/Eye-r.png "Eye-r.png")   |
+| ![](images/Eye-dl.png "Eye-dl.png") | ![](images/Eye-d.png "Eye-d.png")           | ![](images/Eye-dr.png "Eye-dr.png") |
 ||
 
-![](Eye-freezed.png "fig:Eye-freezed.png")
+![](images/Eye-freezed.png "fig:Eye-freezed.png")
 <small>*freezed Smart eye*</small>
 \*If Tux gets to near a Smart eye, it will haunt him until it hurt. Then Smart eye goes to wanish.
 
@@ -987,9 +987,9 @@ Willowisp is not freezable. --[Hume](User:Hume "wikilink") 19:00, 1 February 201
 |                            |                            |                            |                            |                            |
 |----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 | <center>                   
- ![](Krish.png "Krish.png")  
+ ![](images/Krish.png "Krish.png")  
                              
- </center>                   | ![](Krush.png "Krush.png") | ![](Kresh.png "Kresh.png") | ![](Krosh.png "Krosh.png") | ![](Krash.png "Krash.png") |
+ </center>                   | ![](images/Krush.png "Krush.png") | ![](images/Kresh.png "Kresh.png") | ![](images/Krosh.png "Krosh.png") | ![](images/Krash.png "Krash.png") |
 | <center>                   
  Krish                       
                              
@@ -1012,36 +1012,36 @@ Willowisp is not freezable. --[Hume](User:Hume "wikilink") 19:00, 1 February 201
 -   All earth badguys is freezable but not burnable
 -   captain earth
 
-![](Cpt-left-0.png "fig:Cpt-left-0.png")![](Cpt-left-1.png "fig:Cpt-left-1.png")![](Cpt-left-2.png "fig:Cpt-left-2.png")![](Cpt-squished-left.png "fig:Cpt-squished-left.png")
+![](images/Cpt-left-0.png "fig:Cpt-left-0.png")![](images/Cpt-left-1.png "fig:Cpt-left-1.png")![](images/Cpt-left-2.png "fig:Cpt-left-2.png")![](images/Cpt-squished-left.png "fig:Cpt-squished-left.png")
 : Simlary as Captain snowball
 \* earthball
-![](Eb-left-0.png "fig:Eb-left-0.png")![](Eb-left-1.png "fig:Eb-left-1.png")![](Eb-left-2.png "fig:Eb-left-2.png")![](Eb-squished-left.png "fig:Eb-squished-left.png")
+![](images/Eb-left-0.png "fig:Eb-left-0.png")![](images/Eb-left-1.png "fig:Eb-left-1.png")![](images/Eb-left-2.png "fig:Eb-left-2.png")![](images/Eb-squished-left.png "fig:Eb-squished-left.png")
 : Simlary as snowball
 \* earth jumpy
-![](Ej-left-down.png "fig:Ej-left-down.png")![](Ej-left-middle.png "fig:Ej-left-middle.png")![](Ej-left-up.png "fig:Ej-left-up.png")
+![](images/Ej-left-down.png "fig:Ej-left-down.png")![](images/Ej-left-middle.png "fig:Ej-left-middle.png")![](images/Ej-left-up.png "fig:Ej-left-up.png")
 : Simlary as jumpy
 \* earthman
-![](Em1.png "fig:Em1.png")![](Em2.png "fig:Em2.png")![](Em3.png "fig:Em3.png")![](Em4.png "fig:Em4.png")![](Em5.png "fig:Em5.png")![](Em6.png "fig:Em6.png")![](Em7.png "fig:Em7.png")![](Em8.png "fig:Em8.png")
+![](images/Em1.png "fig:Em1.png")![](images/Em2.png "fig:Em2.png")![](images/Em3.png "fig:Em3.png")![](images/Em4.png "fig:Em4.png")![](images/Em5.png "fig:Em5.png")![](images/Em6.png "fig:Em6.png")![](images/Em7.png "fig:Em7.png")![](images/Em8.png "fig:Em8.png")
 : Simlary as snowman
 \* flying earth
-![](Fe-left-0.png "fig:Fe-left-0.png")![](Fe-left-1.png "fig:Fe-left-1.png")![](Fe-squished.png "fig:Fe-squished.png")
+![](images/Fe-left-0.png "fig:Fe-left-0.png")![](images/Fe-left-1.png "fig:Fe-left-1.png")![](images/Fe-squished.png "fig:Fe-squished.png")
 : Simlary as flying snowball
 \* grassball
-![](Gb-left-0.png "fig:Gb-left-0.png")![](Gb-left-1.png "fig:Gb-left-1.png")![](Gb-left-2.png "fig:Gb-left-2.png")![](Gb-squished-left.png "fig:Gb-squished-left.png")
+![](images/Gb-left-0.png "fig:Gb-left-0.png")![](images/Gb-left-1.png "fig:Gb-left-1.png")![](images/Gb-left-2.png "fig:Gb-left-2.png")![](images/Gb-squished-left.png "fig:Gb-squished-left.png")
 
   
 Simlary as smartball
 
 -   kamikazeearth
 
-![](Ke-left.png "fig:Ke-left.png")![](Ke-collision-left.png "fig:Ke-collision-left.png")
+![](images/Ke-left.png "fig:Ke-left.png")![](images/Ke-collision-left.png "fig:Ke-collision-left.png")
 
   
 Simlary as kamikazesnowball
 
 -   mr\_earthblock
 
-![](Meb-flat-left.png "fig:Meb-flat-left.png")![](Meb-left-0.png "fig:Meb-left-0.png")![](Meb-left-1.png "fig:Meb-left-1.png")![](Meb-left-2.png "fig:Meb-left-2.png")![](Meb-left-3.png "fig:Meb-left-3.png")
+![](images/Meb-flat-left.png "fig:Meb-flat-left.png")![](images/Meb-left-0.png "fig:Meb-left-0.png")![](images/Meb-left-1.png "fig:Meb-left-1.png")![](images/Meb-left-2.png "fig:Meb-left-2.png")![](images/Meb-left-3.png "fig:Meb-left-3.png")
 
   
 Simlary as mr-iceblock
@@ -1054,7 +1054,7 @@ Angry stone is attached to the roof of a level, once Tux gets close to him (one 
 
 #### Radar Man
 
-![](RadarMan.png "fig:RadarMan.png") Radar Man moves by disappearing from the square he is in and appearing in one next to it. He does not harm Tux he simply makes Tux have to move like him for a while. Radar Man cannot be harmed.
+![](images/RadarMan.png "fig:RadarMan.png") Radar Man moves by disappearing from the square he is in and appearing in one next to it. He does not harm Tux he simply makes Tux have to move like him for a while. Radar Man cannot be harmed.
 
   
 Maybe its my poor English, but i dont understand what radar man is supposed to do.
@@ -1072,7 +1072,7 @@ look, it teleports short distances instead of actually moving. if it touches tux
 
 #### Safe
 
-![](Safe.png "fig:Safe.png") Something is hidden in a safe. If it is touched by Tux then as soon as Tux stops touching it the thing is released. If it is a tile that’s hidden in it then to release it the safe turns into it, if it is a bad guy it appears on top of it.
+![](images/Safe.png "fig:Safe.png") Something is hidden in a safe. If it is touched by Tux then as soon as Tux stops touching it the thing is released. If it is a tile that’s hidden in it then to release it the safe turns into it, if it is a bad guy it appears on top of it.
 
   
 I at least do not like that idea. [84.154.88.23](User:84.154.88.23 "wikilink") 22:14, 25 Sep 2006 (BST)
@@ -1137,7 +1137,7 @@ Unrelated with the “Walking rock” above. A big rock that works like a platfo
 
 ##### Undead enemy
 
-![](Undead_penguin.gif "Undead_penguin.gif")
+![](images/Undead_penguin.gif "Undead_penguin.gif")
 
 When killed, stays dead for some time and then comes back to life. Could be a zombie penguin or a skeleton alike to SkullyHops. Might be freezable and killed by fireballs or buttjump.
 
@@ -1145,7 +1145,7 @@ Like Dry Bones in SMW? linuxlove
 
 ##### Volcano
 
-![](Volcano.gif "Volcano.gif")
+![](images/Volcano.gif "Volcano.gif")
 
 Implementation of a Dispenser (took the idea from that page). Spawns rocks and/or flames randomly or at a given interval. Might be frozen and become usable as a platform (or even something like a geyser), but only for a limited time.
 
@@ -1166,7 +1166,7 @@ So it messes up the controls for a bit so that Tux is forced away from it? Origi
 
 #### Polar bear
 
-It's been suggested numerous times that a polar bear be used as a bad guy or NPC. Here's some concept art that I made: ![](Polar-bear.png "fig:Polar-bear.png")
+It's been suggested numerous times that a polar bear be used as a bad guy or NPC. Here's some concept art that I made: ![](images/Polar-bear.png "fig:Polar-bear.png")
 Suggestions for what it could do? Maybe it could pace around like other badguys and charge when it sees Tux? That's probably not a good idea, since it seems like the sort of thing that only a boss should be able to do, and there's already the Yeti. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 14:55, 9 August 2007 (UTC)
 
   
@@ -1184,7 +1184,7 @@ How about an NPC? Would that seem like a good NPC? --[80.31.56.230](User:80.31.5
 
 There should be more Paths to edit in regard to the Badguys. Maybe for the Flame:
 
-![](Editpathfire.png "Editpathfire.png")
+![](images/Editpathfire.png "Editpathfire.png")
 
 (For the flame, you can create a hurting platform that uses the flame sprite. Kind of cheating, but it works.) [Tuxnut](User:Tuxnut "wikilink") 02:44, 16 June 2010 (UTC)
 
@@ -1289,7 +1289,7 @@ See: en.wikipedia.org/wiki/Computer\_and\_video\_game\_settings
   
 The wall stone preview could really be a step in the right direction.
 
-![](Wallstone-tileset.jpg "Wallstone-tileset.jpg")
+![](images/Wallstone-tileset.jpg "Wallstone-tileset.jpg")
 
 ### Alternative worlds
 
@@ -1355,7 +1355,7 @@ Up to now everything that comes out of an ?-block is good for you and not requir
 
 I've read these comments, but nevertheless I made an image. I think objects in ?-Blocks will be more “entertaining”.
 
-![](Blocks_containing_special_things.jpg "Blocks_containing_special_things.jpg")
+![](images/Blocks_containing_special_things.jpg "Blocks_containing_special_things.jpg")
 
 perhaps the blocks could be a different colour.
 
@@ -1364,7 +1364,7 @@ The Block could be an ! and not an ?
 
 ### Change Blocks
 
-![](Change_block.gif "Change_block.gif")
+![](images/Change_block.gif "Change_block.gif")
 
 Maybe you know it from Crash Bandicoot Games. It's a block containing different things. Tux has to choose quickly, before the block become empty.
 
@@ -1391,13 +1391,13 @@ Tux could somehow freeze enemies in a block of ice and carry them in his feet li
 ### Rotating bridge
 
 Create a rotating bridge, like in Mario.
-![](Rotating-bridge.jpg "fig:Rotating-bridge.jpg")
+![](images/Rotating-bridge.jpg "fig:Rotating-bridge.jpg")
 
 ### Libra
 
 There could also be a libra, like in Mario.
 
-![](Auschnitt_Waage1.jpg "fig:Auschnitt_Waage1.jpg") ![](Auschnitt_Waage2.jpg "fig:Auschnitt_Waage2.jpg") ![](Auschnitt_Waage3.jpg "fig:Auschnitt_Waage3.jpg")
+![](images/Auschnitt_Waage1.jpg "fig:Auschnitt_Waage1.jpg") ![](images/Auschnitt_Waage2.jpg "fig:Auschnitt_Waage2.jpg") ![](images/Auschnitt_Waage3.jpg "fig:Auschnitt_Waage3.jpg")
 
   
 There are *pneumatic platforms* in [SVN](SVN "wikilink") which look like what you're proposing here. --[octo](User:Octo "wikilink") 08:09, 28 February 2010 (UTC)
@@ -1702,7 +1702,7 @@ Maybe Tux Could ride a seal like mario rides yoshi! that would be fun.
 
 #### Powerup Ideas
 
-''' '' Laser Flower '' ''' ![](Laser_flower-0.png "fig:Laser_flower-0.png")
+''' '' Laser Flower '' ''' ![](images/Laser_flower-0.png "fig:Laser_flower-0.png")
 
 This would be a powerup looking like a fireflower, except that it glows green. When Tux gets this powerup, if the Action button is pressed, a glowing green laser shoots out of Tux's beak and rebounds 3 times before disappearing, killing all badguys that can be killed with fire shot. The laser should be about as slow as Tux's walking speed.
 
@@ -2012,7 +2012,7 @@ I think there should be a creature (for example a bird?) that can carry you a fe
 
 I think there should be some sort of merchant in the game where you can spend gold and powerups to buy different things so if you have any money that you can't use you at least you have some use for it!
 
-![](Merchant.jpg "Merchant.jpg")
+![](images/Merchant.jpg "Merchant.jpg")
 
 Shops have already been proposed. I rather like the idea. I think that the gnu should be the merchant selling stuff in the shops. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
@@ -2075,7 +2075,7 @@ This is why 0.3.\* is called a “development version.” It is intended to prev
   
 Ah, thanks. Perhaps I should. I have only one thing left to say for now, then. (Although this probably doesn't belong under “Complaints”.) The mere thought of glowy light-effect lava like that makes me drool. I hope somebody figures out some way to implement that in the near future.
 
-![](Castle-lava.jpg "fig:Castle-lava.jpg")
+![](images/Castle-lava.jpg "fig:Castle-lava.jpg")
 
 <!-- -->
 
@@ -2110,28 +2110,28 @@ I just read the Milestone 2 Design Document and I cannot believe that the forest
 
 #### Colorpile
 
-![](Colorpile.png "fig:Colorpile.png")
+![](images/Colorpile.png "fig:Colorpile.png")
 They can be of different colors. When Tux eats a colorpile, Tux begins to shine color, what color has colorpile, what Tux ate.
 
 #### Bonus-block: dummy
 
-![](Dummybonus.gif "fig:Dummybonus.gif")
+![](images/Dummybonus.gif "fig:Dummybonus.gif")
 <small>*editor-image*</small>
 Normally looks like any other bonus-block, but does not give any bonus.
 
 #### Scripted-bonus-block
 
-![](Scriptedbox.png "fig:Scriptedbox.png")
+![](images/Scriptedbox.png "fig:Scriptedbox.png")
 It makes no bonus, but it calls a script.
 
 #### Fire escape
 
-![](Exit.gif "fig:Exit.gif")
+![](images/Exit.gif "fig:Exit.gif")
 Behaves like “sequence-trigger” with parameter “sequence” set to value “stoptux”.
 
 #### Wanishing bonus
 
-![](Wanishing.png "fig:Wanishing.png")
+![](images/Wanishing.png "fig:Wanishing.png")
 <small>*editor-image*</small>
 
 ##### Version A
@@ -2147,7 +2147,7 @@ it will look like a crate --Ypetremann 06:27, 28 January 2011 (UTC)
 
 #### Ten-coin
 
-![](10c-0.png "fig:10c-0.png")![](10c-1.png "fig:10c-1.png")![](10c-2.png "fig:10c-2.png")![](10c-3.png "fig:10c-3.png")![](10c-4.png "fig:10c-4.png")![](10c-5.png "fig:10c-5.png")![](10c-2.png "fig:10c-2.png")![](10c-6.png "fig:10c-6.png")![](10c-0.png "fig:10c-0.png")
+![](images/10c-0.png "fig:10c-0.png")![](images/10c-1.png "fig:10c-1.png")![](images/10c-2.png "fig:10c-2.png")![](images/10c-3.png "fig:10c-3.png")![](images/10c-4.png "fig:10c-4.png")![](images/10c-5.png "fig:10c-5.png")![](images/10c-2.png "fig:10c-2.png")![](images/10c-6.png "fig:10c-6.png")![](images/10c-0.png "fig:10c-0.png")
 You gain 10 coins.
 
   
@@ -2155,7 +2155,7 @@ I think that for this, we should just copy the originals but in other color like
 
 #### Powerup: Gem
 
-![](Gem_brown.png "fig:Gem_brown.png")![](Gem_lava.png "fig:Gem_lava.png")![](Gem_red.png "fig:Gem_red.png")![](Gem_pink.png "fig:Gem_pink.png")![](Gem_yellow.png "fig:Gem_yellow.png")![](Gem_lime.png "fig:Gem_lime.png")![](Gem_green.png "fig:Gem_green.png")![](Gem_dark-green.png "fig:Gem_dark-green.png")![](Gem_blue.png "fig:Gem_blue.png")![](Gem_grey.png "fig:Gem_grey.png")![](Gem_skyblue.png "fig:Gem_skyblue.png")![](Gem_purple.png "fig:Gem_purple.png")
+![](images/Gem_brown.png "fig:Gem_brown.png")![](images/Gem_lava.png "fig:Gem_lava.png")![](images/Gem_red.png "fig:Gem_red.png")![](images/Gem_pink.png "fig:Gem_pink.png")![](images/Gem_yellow.png "fig:Gem_yellow.png")![](images/Gem_lime.png "fig:Gem_lime.png")![](images/Gem_green.png "fig:Gem_green.png")![](images/Gem_dark-green.png "fig:Gem_dark-green.png")![](images/Gem_blue.png "fig:Gem_blue.png")![](images/Gem_grey.png "fig:Gem_grey.png")![](images/Gem_skyblue.png "fig:Gem_skyblue.png")![](images/Gem_purple.png "fig:Gem_purple.png")
 <small>*different colors of gems*</small>
 This is a powerup **without any specific features**, allowing that their function can not confused with something else. It would be appropriate if I want to do unusual powerup, which would call a different script than the usual like egg, fireflower ... and it wouldnt to powerup the confused with somewhat usunal. Gems could be a different color.
 
@@ -2187,9 +2187,9 @@ Powerup can lie on anything else powerup withoult flying.
 |                                        |                                |
 |----------------------------------------|--------------------------------|
 | Big                                    | Small                          |
-| ![](Brick.png "Brick.png")             | ![](Wood.png "Wood.png")       |
-| ![](Stone_brick.png "Stone_brick.png") | ![](Stone.png "Stone.png")     |
-| ![](Sigil.png "Sigil.png")             | ![](Crystal.png "Crystal.png") |
+| ![](images/Brick.png "Brick.png")             | ![](images/Wood.png "Wood.png")       |
+| ![](images/Stone_brick.png "Stone_brick.png") | ![](images/Stone.png "Stone.png")     |
+| ![](images/Sigil.png "Sigil.png")             | ![](images/Crystal.png "Crystal.png") |
 ||
 
 <small>*If someone suggests another form, you can add it to this table.*</small>
@@ -2373,7 +2373,7 @@ radius, where spidermite stay
 ### Laser
 
 <img src="Laser.png" title="fig:laser" alt="laser" width="200" /><img src="Laserblock.png" title="fig:stable-laser" alt="stable-laser" width="200" /> Not a laser, as you might think. This laser can not hurt anyone and always lights up. Lights are still in one direction and the beam ends where the wall stops. Bonus blocks laser beam can pass too. It also has the ability to light up the magic blocks. Tux can carry it.
-{| border=1 cellspacing=1 |![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png")![](Laser-light.png "fig:Laser-light.png") |- |laser's light |}
+{| border=1 cellspacing=1 |![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png") |- |laser's light |}
 
     (laser
      (color <red> <green> <blue>)
@@ -2397,7 +2397,7 @@ It would be good if in pause can restart the level. Sometimes it happens that we
 ### Extro in IcyIsland
 
 When you solve level “The castle of Nolok” Tux remains in place and nothing happens to him. Therefore I suggest: Tux roots and blooms there.
-![](Stand-0.png "fig:Stand-0.png")<big><big><big>**--&gt;**</big></big></big>![](Root-0.png "fig:Root-0.png")![](Root-1.png "fig:Root-1.png")![](Root-2.png "fig:Root-2.png")![](Root-3.png "fig:Root-3.png")![](Bloom-0.png "fig:Bloom-0.png")![](Bloom-1.png "fig:Bloom-1.png")![](Bloom-2.png "fig:Bloom-2.png")![](Bloom-3.png "fig:Bloom-3.png")
+![](images/Stand-0.png "fig:Stand-0.png")<big><big><big>**--&gt;**</big></big></big>![](images/Root-0.png "fig:Root-0.png")![](images/Root-1.png "fig:Root-1.png")![](images/Root-2.png "fig:Root-2.png")![](images/Root-3.png "fig:Root-3.png")![](images/Bloom-0.png "fig:Bloom-0.png")![](images/Bloom-1.png "fig:Bloom-1.png")![](images/Bloom-2.png "fig:Bloom-2.png")![](images/Bloom-3.png "fig:Bloom-3.png")
 <small>*Think it as a joke but not as an insult. I want to point out on this error, which should be solved. This error should be solved in another way than this.*</small>
 
 ### External badguys definiton files
@@ -2547,7 +2547,7 @@ New Tile Ideas
 
 ### New Air Tiles
 
-![](New_air_tiles.png "New_air_tiles.png")
+![](images/New_air_tiles.png "New_air_tiles.png")
 
 ### Have an automatic mode in the editor
 
@@ -2565,11 +2565,11 @@ Oh sorry, I don't see it because I doesn't know how it run and that because I ha
 
 I see that I can't do what I wan't in the editor because there are a lot of tiles that where not implemented Like in the image below
 
-![](Lost_tiles.png "Lost_tiles.png")
+![](images/Lost_tiles.png "Lost_tiles.png")
 
 ( the tile in the center don't corespond with the tile on the left )
 
-Here I make a lot of snow tiles that were not created. With it and with the originals you can make up to 512 paterns that 3x3 sized ![](Lost_Tiles_Snow.png "fig:Lost_Tiles_Snow.png")
+Here I make a lot of snow tiles that were not created. With it and with the originals you can make up to 512 paterns that 3x3 sized ![](images/Lost_Tiles_Snow.png "fig:Lost_Tiles_Snow.png")
 
 --Ypetremann 13:00, 23 January 2011 (UTC)
 
@@ -2738,12 +2738,12 @@ Jungle island is very similar to [Forest island](Forest "wikilink"), so they can
 
 ### Tumbleweed
 
-![](tumbleweed.png "fig:tumbleweed.png") Its graphics are implemented, but there is no sprite or badguy for them. It rolls along the floor, when Tux is on the left or on the right. When Tux is above or under, it stops rolling. It hurts on touch and it can't be squished. It's flameable and freezable.
-=== Hanging ball === ![](hanging_ball.png "fig:hanging_ball.png") It could be a stone stalactite that fits the forest and jungle theme, but stone stalactite wouldn't break suddenly. It's a ball of dirt and stones hanging on a wine. When Tux walks under it, it would fall down. It hurts on touch. When it's hit by fireball, it falls down and when it's hit by iceball, it will freeze and it doesn't fall, when is Tux under it. It doesn't freeze enemies, like [Stalactite](Stalactite "wikilink").
-=== Swarm of flies === ![](swarm_of_flies.png "fig:swarm_of_flies.png") The swarm of flies won't be flameable or freezable. It wouldn't hit on touch immediately, it will last a while. It will fly dirrectly to Tux. When it crashes to a solid wall, it dies.
-=== Jungle ivy === ![](jungle_ivy.png "fig:jungle_ivy.png") Jungle ivy will behave the same as [crystallo](crystallo "wikilink"), but leaf particles will appear on death.
-=== Mr. slimy === ![](mr_slimy.png "fig:mr_slimy.png") Mr. slimy will be squishable, freezable, but not flameable. When Tux jumps on it, Tux will stick and he will move twice slower for five seconds. However, when it will be frozen first, this effect won't appear.
-=== Root === ![](root.png "fig:root.png") This root will grow up, when is Tux nearby and it will throw hurting stones to Tux. Root wouldn't hit on touch neither be solid. Only the stones will hurt Tux. Root will be flameable and freezable.
+![](images/tumbleweed.png "fig:tumbleweed.png") Its graphics are implemented, but there is no sprite or badguy for them. It rolls along the floor, when Tux is on the left or on the right. When Tux is above or under, it stops rolling. It hurts on touch and it can't be squished. It's flameable and freezable.
+=== Hanging ball === ![](images/hanging_ball.png "fig:hanging_ball.png") It could be a stone stalactite that fits the forest and jungle theme, but stone stalactite wouldn't break suddenly. It's a ball of dirt and stones hanging on a wine. When Tux walks under it, it would fall down. It hurts on touch. When it's hit by fireball, it falls down and when it's hit by iceball, it will freeze and it doesn't fall, when is Tux under it. It doesn't freeze enemies, like [Stalactite](Stalactite "wikilink").
+=== Swarm of flies === ![](images/swarm_of_flies.png "fig:swarm_of_flies.png") The swarm of flies won't be flameable or freezable. It wouldn't hit on touch immediately, it will last a while. It will fly dirrectly to Tux. When it crashes to a solid wall, it dies.
+=== Jungle ivy === ![](images/jungle_ivy.png "fig:jungle_ivy.png") Jungle ivy will behave the same as [crystallo](crystallo "wikilink"), but leaf particles will appear on death.
+=== Mr. slimy === ![](images/mr_slimy.png "fig:mr_slimy.png") Mr. slimy will be squishable, freezable, but not flameable. When Tux jumps on it, Tux will stick and he will move twice slower for five seconds. However, when it will be frozen first, this effect won't appear.
+=== Root === ![](images/root.png "fig:root.png") This root will grow up, when is Tux nearby and it will throw hurting stones to Tux. Root wouldn't hit on touch neither be solid. Only the stones will hurt Tux. Root will be flameable and freezable.
 
 
 BG, a bit smarter than Poision Ivy
@@ -2828,7 +2828,7 @@ New Features
 Deeper Into the Island Background Idea
 --------------------------------------
 
-![](Tropicalislandbackgroundidea2.png "fig:Tropicalislandbackgroundidea2.png") You used tux paint, didn't you? Very nice! [Monstertux](user:monster "wikilink")
+![](images/Tropicalislandbackgroundidea2.png "fig:Tropicalislandbackgroundidea2.png") You used tux paint, didn't you? Very nice! [Monstertux](user:monster "wikilink")
 
 Possible Badguys
 ----------------

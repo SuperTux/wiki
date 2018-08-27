@@ -1,4 +1,4 @@
-![](Grumbel.png)
+![](images/Grumbel.png)
 
 This is a list of issues, problems, ideas and stuff that Grumbel has about SuperTux.
 

@@ -169,6 +169,6 @@ For detailed info, see the [Badguys](Badguys "wikilink") page. The following is 
 
 Here are some sketches of things explained above.
 
-![](Worldmap_sketch.png "Worldmap_sketch.png")
+![](images/Worldmap_sketch.png "Worldmap_sketch.png")
 
 <Category:Design> <Category:Outdated>
