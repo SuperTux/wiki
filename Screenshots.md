@@ -68,3 +68,89 @@ Released on 2003-12-29. The graphics were improved. This version features a menu
 ![](http://supertux.lethargik.org/wiki/images/e/ea/Game1-004.png)
 ![](http://supertux.lethargik.org/wiki/images/9/93/Game2-004.png)
 ![](http://supertux.lethargik.org/wiki/images/c/c1/Game3-004.png)
+
+
+
+
+
+
+
+
+
+
+
+Welcome to our SuperTux screenshot album!
+
+Supertux 0.4.0
+--------------
+
+![](Screenshot0.4.0.png "Screenshot0.4.0.png")
+
+SuperTux 0.3.3
+--------------
+
+Released on 2010-03-01, it includes a main world and 3 bonus islands: Bonus Island 1&2 and Forest World but you can also add other levels (click on “Add-Ons” in the beginning).
+
+![](Übersicht_fertig.jpg "Übersicht_fertig.jpg")
+
+![](Main_World_1.jpg "fig:Main_World_1.jpg") ![](Main_World_2.jpg "fig:Main_World_2.jpg") ![](Main_World_3.jpg "fig:Main_World_3.jpg")
+
+![](Forest_World_1.jpg "fig:Forest_World_1.jpg") ![](Forest_World_2.jpg "fig:Forest_World_2.jpg") ![](Forest_World_3.jpg "fig:Forest_World_3.jpg")
+
+SuperTux 0.3.0
+--------------
+
+Released on 2006-12-17, this is was preview of what is to become Milestone 2. Many new features were implemented, e.g. levels that scroll in all directions, levels with multiple sectors, moving platforms, a shortened ice world, and a whole new forest world.
+
+![](SuperTux-0.3.0-1.png "fig:SuperTux-0.3.0-1.png") ![](SuperTux-0.3.0-2.png "fig:SuperTux-0.3.0-2.png") ![](SuperTux-0.3.0-3.png "fig:SuperTux-0.3.0-3.png")
+![](SuperTux-0.3.0-4.png "fig:SuperTux-0.3.0-4.png") ![](SuperTux-0.3.0-5.png "fig:SuperTux-0.3.0-5.png") ![](SuperTux-0.3.0-6.png "fig:SuperTux-0.3.0-6.png")
+![](SuperTux-editor-0.3.0-1.png "fig:SuperTux-editor-0.3.0-1.png")
+
+SuperTux 0.1.2
+--------------
+
+This was a release for the big SuperTux fans. We were asked to make more levels, and to make them more challenging. This was our answer. This version had a brand new Bonus Island map, new map features, a new enemy, and some new tiles.
+
+![](Game1-012.jpg "Game1-012.jpg")
+
+SuperTux 0.1.1
+--------------
+
+This version featured the built-in editor that was removed from the previous release (0.1.0), new hand-written fonts, and a few bug fixes.
+
+![](Menu-011.png "fig:Menu-011.png") ![](Game1-011.png "fig:Game1-011.png") ![](Leveleditor-011.png "fig:Leveleditor-011.png")
+
+SuperTux Milestone1 aka 0.1.0
+-----------------------------
+
+Milestone1 was in huge parts the result of the GotM event on [happypenguin.org](http://happypenguin.org), it contained completely new graphics, lots of new levels, a story and a worldmap.
+
+![](Game-010.png "fig:Game-010.png") ![](Game1-010.png "fig:Game1-010.png")
+![](Game2-010.png "fig:Game2-010.png") ![](Game3-010.png "fig:Game3-010.png")
+
+### Flexlay
+
+Flexlay is the editor that was used to build most of the levels and the Worldmap in Milestone1. It provided a few more features than the built in one (zoom, minimap, worldmap support), but requires a few more dependencies including OpenGL.
+
+![](Flexlay-1.png "fig:Flexlay-1.png") ![](Flexlay-2.png "fig:Flexlay-2.png")
+
+SuperTux 0.0.6
+--------------
+
+Released on 2004-03-15, this was a code clean-up version. It featured a level editor and an OpenGL front-end. The menu was improved, and fonts were also remade.
+
+![](Menu-006.png "fig:Menu-006.png") ![](Game-006.png "fig:Game-006.png") ![](Leveleditor-006.png "fig:Leveleditor-006.png")
+
+SuperTux 0.0.5
+--------------
+
+Released on 2003-12-29. The graphics were improved. This version features a menu and internal clean-ups had started.
+
+![](Intro-005.png "fig:Intro-005.png") ![](Game-005.png "fig:Game-005.png")
+
+SuperTux Prior to 0.0.5
+-----------------------
+
+The graphics were a bit ugly, but it was already playable and had a Super Mario 1 feel.
+
+![](Game1-004.png "fig:Game1-004.png") ![](Game2-004.png "fig:Game2-004.png") ![](Game3-004.png "fig:Game3-004.png")
