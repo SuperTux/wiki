@@ -30,6 +30,7 @@ SuperTux development
 - [Team](Team "wikilink")
 - [Meeting logs](Meeting_logs "wikilink")
 - [Voice Meeting Setup](Voice_Meeting_Setup "wikilink")
+- [Translations](https://www.transifex.com/projects/p/supertux/)
 
 Developer documentation
 -----------------------
