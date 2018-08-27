@@ -1,48 +1,46 @@
-__NOTOC__
+\_\_NOTOC\_\_
 
-== Summary ==
+Summary
+-------
 
 A Candle object that was given a name can be controlled by scripts.
 
-== Instances ==
-A <tt>Candle</tt> is instantiated via a definition in a level. It can be accessed by its <tt>name</tt> in scripts and via <tt>sector.''name''</tt> in the console.
+Instances
+---------
 
-=== Example ===
+A `Candle` is instantiated via a definition in a level. It can be accessed by its `name` in scripts and via `sector.`*`name`* in the console.
+
+### Example
 
 Example of a definition:
-<pre>
-(candle
-  (name "CANDLE1")
-  (burning #f)
-  (x 1632)
-  (y 1088)
-)
-</pre>
+
+    (candle
+      (name "CANDLE1")
+      (burning #f)
+      (x 1632)
+      (y 1088)
+    )
 
 The above object will be exposed under the name CANDLE1 in the scripting engine. Example usage:
 
-<pre>
-CANDLE1.set_burning(true);
-</pre>
+    CANDLE1.set_burning(true);
 
 Console usage:
 
-<pre>
-sector.CANDLE1.set_burning(false)
-</pre>
+    sector.CANDLE1.set_burning(false)
 
-== Methods ==
-{| class="objectlist"
-! class="method"| get_burning()
-| returns true if candle is lighted
-|-
-! class="method"| set_burning(bool burning)
-| true: light candle, false: extinguish candle
-|}
+Methods
+-------
 
-== Constants ==
+| get\_burning()             | returns true if candle is lighted            |
+|----------------------------|----------------------------------------------|
+| set\_burning(bool burning) | true: light candle, false: extinguish candle |
+
+Constants
+---------
 
 None
 
-[[Template:Navbox Scripting reference]]
-[[Category:Scripting Reference]]
+[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
+
+[Category:Scripting Reference](Category:Scripting_Reference "wikilink")
