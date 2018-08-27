@@ -1009,3 +1009,80 @@ Finish
 
 After 3-5 hits the yeti should give up and the screen fade away. Maybe in a short sequence the Yeti could show tux a slide down his hill with a ramp at the end that would bring tux to the next world (animated in the worldmap screen).
 
+
+BadGuys
+=======
+![Flying Snowball](Flyingsnowball.png "fig:Flying Snowball") ![Mr. Bomb](Mrbomb.png "fig:Mr. Bomb") A **badguy** in *SuperTux* is a foe of [Tux](Tux "wikilink"). They may not be “bad” in the way that a hedgehog isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like [Snowballs](Snowball "wikilink") with varying characteristics, but some are more like objects ([Stalactite](Stalactite "wikilink") for example) or phenomena like [Flame](Flame "wikilink").
+
+Tux will try to avoid approaching badguys if possible. If he runs into one or one drops on his head, he is hurt. When hurt Tux will lose a [powerup](powerup "wikilink") or, if Tux has no powerups left, will be pushed off the screen.
+
+Many of the badguys Tux can knock out by jumping on them and squishing them. Others are only stunned by this for a short while or are insusceptible to this and hurt Tux instead. As a rule of thumb, badguys with a spiky head or helmet can usually not be jumped on. For a list of badguys that can be squished take a look at the [squishable badguys category](:Category:Squishable_badguys "wikilink").
+
+List of badguys in SuperTux 0.1.3
+---------------------------------
+
+[[Badguy.1 category](:Category:Badguy.1 "wikilink")](Template:See_also "wikilink")
+
+The following badguys are available in the stable 0.1 release.
+
+-   [Icy Island](Icy_Island "wikilink")
+    -   [Bouncing Snowball](Bouncing_Snowball "wikilink")
+    -   [Flame](Flame "wikilink")
+    -   [FlyingSnowball](FlyingSnowball "wikilink")
+    -   [Jumpy](Jumpy "wikilink")
+    -   [Mr. Bomb](Mr._Bomb "wikilink")
+    -   [Mr. IceBlock](Mr._IceBlock "wikilink")
+    -   [Snowball](Snowball "wikilink")
+    -   [Spiky](Spiky "wikilink")
+    -   [Stalactite](Stalactite "wikilink")
+    -   [Fish](Fish "wikilink")
+
+[Milestone 2](Milestone_2 "wikilink")
+-------------------------------------
+
+[[Milestone 2 Design Document/Enemies](Milestone_2_Design_Document/Enemies "wikilink")](Template:See_also "wikilink")
+
+-   Endemic (any world)
+    -   [Cannon](Cannon "wikilink")
+    -   [Haywire](Haywire "wikilink")
+-   [Icy Island](Icy_Island "wikilink")
+    -   [Captain Snowball](Captain_Snowball "wikilink")
+    -   [Crystallo](Crystallo "wikilink")
+    -   [Krush and Krosh](Krush_and_Krosh "wikilink")
+    -   [Mrs. Snowball](Mrs._Snowball "wikilink")
+    -   [Snowman](Snowman "wikilink")
+    -   [Snowshot](Snowshot "wikilink")
+    -   [Sleeping Spiky](Sleeping_Spiky "wikilink")
+-   [World 2 - Forest](World_2 "wikilink")
+    -   [Igel](Igel "wikilink")
+    -   [Mole](Mole "wikilink")
+    -   [Poison Ivy](Poison_Ivy "wikilink")
+    -   [Skullyhop](Skullyhop "wikilink")
+    -   [Snail](Snail "wikilink")
+    -   [Spike](Spike "wikilink")
+    -   [Walking leaf](Walking_leaf "wikilink")
+    -   [Walking tree](Walking_tree "wikilink")
+    -   [Zeekling](Zeekling "wikilink")
+    -   [Will-o-wisp](Will-o-wisp "wikilink")
+-   [World 3 - Tropical Island](Tropical_Island "wikilink")
+    -   [Toad](Toad "wikilink")
+    -   [Spider](Spider "wikilink")
+
+<!-- -->
+
+-   Badguy in test
+    -   [Short Fuse](Short_Fuse "wikilink")
+    -   [SkyDive](SkyDive "wikilink") and [Owl](Owl "wikilink")
+    -   [Ispy](Ispy "wikilink")
+
+See also
+--------
+
+-   [Proposed Badguys](Proposed_Badguys "wikilink")
+-   [Badguys concept art](Badguys_concept_art "wikilink")
+-   [Worlds](Worlds "wikilink")
+-   [Bosses](Bosses "wikilink")
+
+[Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
+
+[Category:For Users](Category:For_Users "wikilink") <Category:Design> <Category:Badguy>
