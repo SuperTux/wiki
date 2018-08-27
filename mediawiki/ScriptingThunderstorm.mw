@@ -1,59 +1,50 @@
-__NOTOC__
+\_\_NOTOC\_\_
 
-== Summary ==
+Summary
+-------
 
-A [[Thunderstorm]] object that was given a name can be controlled by scripts.
+A [Thunderstorm](Thunderstorm "wikilink") object that was given a name can be controlled by scripts.
 
-== Instances ==
-A <tt>Thunderstorm</tt> is initialised by a definition in the level. It can be accessed via its <tt>name</tt> in scripts and <tt>sector.''name''</tt> in the console.
+Instances
+---------
 
-=== Example ===
+A `Thunderstorm` is initialised by a definition in the level. It can be accessed via its `name` in scripts and `sector.`*`name`* in the console.
+
+### Example
 
 Example of a definition:
-<pre>
-(thunderstorm
-  (name "ELIZA")
-  (running #f)
-)
-</pre>
+
+    (thunderstorm
+      (name "ELIZA")
+      (running #f)
+    )
 
 The above object will be exposed under the name ELIZA in the scripting engine. Example usage:
 
-<pre>
-ELIZA.thunder();
-wait(2);
-ELIZA.lightning();
-</pre>
+    ELIZA.thunder();
+    wait(2);
+    ELIZA.lightning();
 
 In the console:
-<pre>
-sector.ELIZA.electrify()
-</pre>
 
-== Methods ==
-{| class="objectlist"
-! class="method"| start()
-| Start playing thunder and lightning at configured interval
-|-
-! class="method"| stop()
-| Stop playing thunder and lightning at configured interval
-|-
-! class="method"| thunder()
-| Play thunder
-|-
-! class="method"| lightning()
-| Play lightning, i.e. call flash() and electrify()
-|-
-! class="method"| flash()
-| Display a nice flash
-|-
-! class="method"| electrify()
-| Electrify water throughout the whole sector for a short time
-|}
+    sector.ELIZA.electrify()
 
-== Constants ==
+Methods
+-------
+
+| start()     | Start playing thunder and lightning at configured interval   |
+|-------------|--------------------------------------------------------------|
+| stop()      | Stop playing thunder and lightning at configured interval    |
+| thunder()   | Play thunder                                                 |
+| lightning() | Play lightning, i.e. call flash() and electrify()            |
+| flash()     | Display a nice flash                                         |
+| electrify() | Electrify water throughout the whole sector for a short time |
+
+Constants
+---------
 
 None
 
-[[Template:Navbox Scripting reference]]
-[[Category:Scripting Reference]]
+[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
+
+[Category:Scripting Reference](Category:Scripting_Reference "wikilink")
