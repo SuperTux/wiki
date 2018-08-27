@@ -1,26 +1,44 @@
-__NOTOC__
+\_\_NOTOC\_\_
 
-== Summary ==
-The <tt>Sector</tt> class provides basic controlling functions for the current sector.
+Summary
+-------
 
-== Instances ==
+The `Sector` class provides basic controlling functions for the current sector.
+
+Instances
+---------
+
 An instance under sector.settings is available from scripts and the console.
 
-== Methods ==
-{| class="objectlist"
-! class="method" style="vertical-align: top"| float get_ambient_light_red() <br /> float get_ambient_light_green() <br /> float get_ambient_light_blue()
-| Returns the specified channel of the ambient light color.
-|-
-! class="method" style="vertical-align: top"| set_ambient_light(float red, float green, float blue)
-| Sets the sector's ambient light to the specified color.
-|-
-! class="method" style="vertical-align: top"| set_gravity(float gravity)
-| Sets the sector's gravity.
-|}
+Methods
+-------
 
-== Constants ==
+<table>
+<thead>
+<tr class="header">
+<th><p>float get_ambient_light_red()<br />
+float get_ambient_light_green()<br />
+float get_ambient_light_blue()</p></th>
+<th><p>Returns the specified channel of the ambient light color.</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>set_ambient_light(float red, float green, float blue)</p></td>
+<td><p>Sets the sector's ambient light to the specified color.</p></td>
+</tr>
+<tr class="even">
+<td><p>set_gravity(float gravity)</p></td>
+<td><p>Sets the sector's gravity.</p></td>
+</tr>
+</tbody>
+</table>
+
+Constants
+---------
 
 None
 
-[[Template:Navbox Scripting reference]]
-[[Category:Scripting Reference]]
+[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
+
+[Category:Scripting Reference](Category:Scripting_Reference "wikilink")
