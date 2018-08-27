@@ -1,54 +1,52 @@
-__NOTOC__
+\_\_NOTOC\_\_
 
-== Summary ==
-A <tt>LevelTime</tt> object that is given a name can be controlled by scripts.
+Summary
+-------
 
-== Instances ==
-A <tt>LevelTime</tt> object is instantiated by a definition in the level file. It can be accessed by scripts using its <tt>name</tt> and from the console as <tt>sector.''name''</tt>.
+A `LevelTime` object that is given a name can be controlled by scripts.
 
-=== Example ===
+Instances
+---------
+
+A `LevelTime` object is instantiated by a definition in the level file. It can be accessed by scripts using its `name` and from the console as `sector.`*`name`*.
+
+### Example
 
 Example of a definition:
-<pre>
-(leveltime
-  (name "TIME")
-  (time 300)
-)
-</pre>
+
+    (leveltime
+      (name "TIME")
+      (time 300)
+    )
 
 The above time will be exposed under the name TIME in the scripting engine, and start out with a time of 300 game seconds. Example usage:
 
-<pre>
-TIME.stop();
-wait(30);
-TIME.start();
-</pre>
+    TIME.stop();
+    wait(30);
+    TIME.start();
+
 This will cause the time to suddenly stop, then start up again after 30 seconds.
 
 Console access:
-<pre>
-sector.TIME.stop()
-</pre>
+
+    sector.TIME.stop()
+
 This will stop the time.
 
-== Methods ==
-{| class="objectlist"
-! class="method" style="vertical-align: top"| start()
-| Resumes the countdown (assuming it isn't already started, in which case it does nothing)
-|-
-! class="method" style="vertical-align: top"| stop()
-| Pauses the countdown (assuming it isn't already stopped, in which case it does nothing)
-|-
-! class="method" style="vertical-align: top"| float get_time()
-| Returns the number of seconds left on the clock
-|-
-! class="method" style="vertical-align: top"| void set_time(float time_left)
-| Changes the number of seconds left on the clock
-|}
+Methods
+-------
 
-== Constants ==
+| start()                          | Resumes the countdown (assuming it isn't already started, in which case it does nothing) |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| stop()                           | Pauses the countdown (assuming it isn't already stopped, in which case it does nothing)  |
+| float get\_time()                | Returns the number of seconds left on the clock                                          |
+| void set\_time(float time\_left) | Changes the number of seconds left on the clock                                          |
+
+Constants
+---------
 
 None
 
-[[Template:Navbox Scripting reference]]
-[[Category:Scripting Reference]]
+[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
+
+[Category:Scripting Reference](Category:Scripting_Reference "wikilink")
