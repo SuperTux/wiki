@@ -907,3 +907,47 @@ Tikitchokwe is a proposed badguy for world 3
 [Tropical\_Island](Tropical_Island "wikilink"). Graphism would be
 influenced by Hawaiian Tiki and Tchokwe mask design. Behavior has to be
 think about, limited torch or not, squish without torch but not with.
+There are real badguys' names:
+
+Real Badguy Names
+-----------------
+
+| nickname                   | real name        |
+|----------------------------|------------------|
+|                            | angrystone       |
+| bouncing snowball          | bouncingsnowball |
+| crystallo                  | crystallo        |
+| cannon, dispenser, dropper | dispenser        |
+| ice fish                   | fish             |
+| flame                      | flame            |
+| flying snowball            | flyingsnowball   |
+| haywire                    | haywire          |
+| Krush and Krosh            | icecrusher       |
+| igel                       | igel             |
+| snow jumpy                 | jumpy            |
+| kugelblitz                 | kugelblitz       |
+| mole                       | mole             |
+| Mr. bomb                   | mrbomb           |
+| Mr. iceblock               | mriceblock       |
+| Walking tree               | mrtree           |
+| owl                        | owl              |
+|                            | plant            |
+| poison ivy                 | poison\_ivy      |
+| short fuse                 | short\_fuse      |
+|                            | skullyhop        |
+| sky dive                   | skydive          |
+| snail                      | snail            |
+| snowball                   | snowball         |
+| Mrs. snowball              | smartball        |
+| snowshot                   | kamikazesnowball |
+| captain snowball           | captainsnowball  |
+| snowman                    | snowman          |
+| spider                     | spidermite       |
+| spiky                      | spiky            |
+| stalactite                 | stalactite       |
+| toad                       | toad             |
+| walking totem              | totem            |
+| walking leaf               | walkingleaf      |
+| will-o-wisp                | willowisp        |
+| yeti                       | yeti             |
+| wingling                   | zeekling         |
