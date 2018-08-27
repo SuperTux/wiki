@@ -2745,3 +2745,22 @@ Jungle island is very similar to [Forest island](Forest "wikilink"), so they can
 === Mr. slimy === ![](mr_slimy.png "fig:mr_slimy.png") Mr. slimy will be squishable, freezable, but not flameable. When Tux jumps on it, Tux will stick and he will move twice slower for five seconds. However, when it will be frozen first, this effect won't appear.
 === Root === ![](root.png "fig:root.png") This root will grow up, when is Tux nearby and it will throw hurting stones to Tux. Root wouldn't hit on touch neither be solid. Only the stones will hurt Tux. Root will be flameable and freezable.
 
+
+BG, a bit smarter than Poision Ivy
+==================================
+
+To put badguys eg. on a branch or a ledge i'd like to have a Forest World Bad Guy, about one tile in size, easy to be killed (squished, shot, whatever) but does not jump off his ledge.
+
+Something like Poision Ivy but smart enough not to commit suicide. Maybe a autumn version of the walking leaf. Since it's more careful it might walk a bit slower. --[WolfgangB](User:WolfgangB "wikilink") 18:20, 26 Jul 2006 (BST)
+
+Btw, i could just grab the Ivy image and add some red, but maybe there is another BG that matchs the description but looks different. --[WolfgangB](User:WolfgangB "wikilink") 18:44, 26 Jul 2006 (BST)
+
+Done. [WalkingLeaf](WalkingLeaf "wikilink") --[WolfgangB](User:WolfgangB "wikilink") 15:59, 13 Aug 2006 (BST)
+
+Flying Badguy
+=============
+
+Today in \#supertux there was the idea of some flying badguy that if killed just loses his ability to fly and becomes a walking BG. (Rip out his wings, pop his baloon, pull his goggles, etc.) A airborn BG that just flies left/right or even is stationary could be used to jump on to cross a river or as moving obstacle.
+
+  
+Make it so. --[Superdev](User:Superdev "wikilink") 20:29, 31 Jul 2006 (BST)
