@@ -1,4 +1,4 @@
-\_\_NOTOC\_\_ \_\_NOEDITSECTION\_\_ This section is a central point for collecting the game design of SuperTux. It's meant to be an authoritative source; loose ideas which haven't been agreed on should be clearly marked.
+This section is a central point for collecting the game design of SuperTux. It's meant to be an authoritative source; loose ideas which haven't been agreed on should be clearly marked.
 
 Story
 -----
