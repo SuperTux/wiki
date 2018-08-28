@@ -1,33 +1,9 @@
-The *SuperTux* **bug tracker** can be found at:
+The current SuperTux bug tracker can be found at:
 
-:   <http://supertux.lethargik.org/bugs/>
+* https://github.com/SuperTux/supertux/issues
 
-The Bugs page was moved to our [bug
-tracker](http://supertux.lethargik.org/bugs). See
-[OldBugs](OldBugs "wikilink") for older versions.
+The old Mantis bug tracker can be viewed at:
 
-Using the bug tracker
----------------------
+* http://supertux.lethargik.org/bugs/
 
-:   ''This section is a todo. *You can help* by expanding it.''
-
-### Status of a bug report
-
-Each bug report has an associated *status*. When you first open a bug,
-its status is *new* and its resolution is set to *open*.
-
-Once the bug has been fixed or the new feature has been incorporated,
-the status is set to *resolved* and the resolution is set to *fixed* (or
-*unable to reproduce* or something like that).
-
-#### More feedback
-
-:   *“What?! He resolved my bug without doing anything?!”*
-
-It is common that the *SuperTux* team needs more information from you.
-In this case, the bug is also *resolved* and the resolution is set to
-*suspended*. It is your responsibility as the reporter of the bug to
-*re-open* the bug report once you have the required information
-available. When you *re-open* the bug its status is (automatically) set
-to *feedback* and the resolution is set to *reopened*. The team then
-knows that there is new information available and will review it.
+Some even older bugs can be found at [OldBugs](OldBugs "wikilink").
