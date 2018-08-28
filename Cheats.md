@@ -5,7 +5,7 @@ For these cheats to work you have to be in debug mode.
 
 Do not type these in, you just press the appropriate key, eg the Tab key.
 
-|        |                                                                      |
+| Key    | Cheat                                                                |
 |--------|----------------------------------------------------------------------|
 | end    | gain 50 coins                                                        |
 | tab    | become bigtux                                                        |
