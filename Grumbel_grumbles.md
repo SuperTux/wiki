@@ -62,7 +62,7 @@ Some experiments with precompiled headers and ccache (compiling badguy/ subdirec
 
 Flexlay is up and running again, need a bit of testing if it can actually save levels, loading at least seems to work, probally time to move ClanLib over into the flexlay repository.
 
-![Things to avoid in leveldesign](Howtonotdesignlevels.jpg "fig:Things to avoid in leveldesign") ![Some more things to avoid in leveldesign](Hallofshame.jpg "fig:Some more things to avoid in leveldesign")
+![Things to avoid in leveldesign](images/Howtonotdesignlevels.jpg "fig:Things to avoid in leveldesign") ![Some more things to avoid in leveldesign](images/Hallofshame.jpg "fig:Some more things to avoid in leveldesign")
 
 Badguys must not collide or at least not like they do today (ie. stack), best seen in world1/27 where the snowballs and yeti colliding results in compltetly unpredictable and unavoidable patterns, thus killing the player far to often.
 
@@ -125,7 +125,7 @@ New Milestone2 features that look usefull:
 Bugs
 ----
 
--   ![Unsymetric Tux Hitbox](Unsymetrichitbox.png "fig:Unsymetric Tux Hitbox")
+-   ![Unsymetric Tux Hitbox](images/Unsymetrichitbox.png "fig:Unsymetric Tux Hitbox")
 -   Boat is not heading left when sailing back to island
 
 <Category:Development>
