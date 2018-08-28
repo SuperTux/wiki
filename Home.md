@@ -7,7 +7,7 @@ Current stable release: 0.5.0, [download here](https://supertuxproject.org/downl
 
 [Old Wiki](http://supertux.lethargik.org/wiki/Main_Page)
 
-[Contact Us](https://github.com/SuperTux/supertux/wiki/Contact/)
+[Contact Us](https://www.supertux.org/contact.html)
 
 [Improve this wiki](https://github.com/SuperTux/wiki/wiki)
 
