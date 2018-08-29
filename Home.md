@@ -1,8 +1,6 @@
-# Welcome to the SuperTux Wiki
+Welcome to the SuperTux wiki.
 
-Welcome to the SuperTux wiki. 
-
-Current stable release: 0.5.0, [download here](https://supertuxproject.org/download.html)
+Current stable release: 0.5.0, [download here](https://supertux.org/download.html)
 
 [Old Wiki](http://supertux.lethargik.org/wiki/Main_Page)
 

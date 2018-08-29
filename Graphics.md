@@ -11,5 +11,5 @@ Please join us on [IRC](https://github.com/SuperTux/supertux/wiki/IRC), and ask 
 Useful links:
 
  - [Guide to drawing](http://pingus.seul.org/~grumbel/gimp/drawing/)
- - [SuperTux Downloads Page](https://supertuxproject.org/download.html)
+ - [SuperTux Downloads Page](https://supertux.org/download.html)
  

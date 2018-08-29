@@ -8,7 +8,7 @@ See the [old wiki's user manual](http://supertux.lethargik.org/wiki/User_Manual)
 
 ## Getting Started
 
- - Download a copy of the game [here](https://supertuxproject.org/download.html)
+ - Download a copy of the game [here](https://supertux.org/download.html)
  - Start it up, after installing it
  - Use the up/down arrow keys or the mouse to select "Start Game" at the main menu
  - Press the Enter key, or Left Click with the mouse
