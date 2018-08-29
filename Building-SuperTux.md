@@ -1,9 +1,6 @@
-[Template:Milestone 2](Template:Milestone_2 "wikilink") <Template:Outdated> **Outdated**: SVN version uses cmake/make instead of autoconf/jam. See [INSTALL](http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/INSTALL?view=markup).
+> **Outdated**: SVN version uses cmake/make instead of autoconf/jam. See [INSTALL.md](https://github.com/SuperTux/supertux/blob/master/INSTALL.md)
 
-Some notes for windows users
-============================
-
-Supertux development mainly happens on Linux. The source code is written in a portable manner but the tools and development environment for windows isn't there. However, you should be able to get the game built with the help of MSYS and MinGW. Find more detailed instructions at [Building on Windows](Building_on_Windows "wikilink").
+Supertux development mainly happens on Linux. The source code is written in a portable manner but the tools and development environment for windows isn't there. However, you should be able to get the game built with the help of MSYS and MinGW. Find more detailed instructions at [Building on Windows](Building-on-Windows "wikilink").
 
 You can also cross-compile the game with MinGW or [M Cross Environment](Cross_compiling_with_MXE "wikilink").
 
