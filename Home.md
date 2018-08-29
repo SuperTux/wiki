@@ -1,4 +1,3 @@
-![Logo](https://github.com/SuperTux/data/raw/master/images/engine/menu/logo.png)
 # Welcome to the SuperTux Wiki
 
 Welcome to the SuperTux wiki. 
