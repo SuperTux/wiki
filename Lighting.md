@@ -1,56 +1,47 @@
-<Template:Outdated>
-
-Simple Lighting
----------------
-
 ![](images/Lighting4.png)
 
 Lighting is a post-processing effect that can be used to add
-athmosphere to a SuperTux level, it works by either darkening or
-brightning parts of the screen. To implement that effect two
-additional layers need to be rendered, first the **light layer** and
-second the **highlight layer**. The order is as follows, first the
-color layer (the normal sprites, background and stuff) is rendered as
-usual, then the light layer is rendered to an offscreen buffer with
-multiply enabled and last the highlight layer is rendered with
-addition enabled, so we get:
+athmosphere to a SuperTux level, it works by darkening parts of the
+screen.
 
-    Framebuffer = (Color * Light) + Highlight
+To accomplish this effect the game uses two layers for drawing, the
+`color` layer is used for regular drawing, while the `light` layer is
+used to draw objects to the lightmap. The lightmap layer is drawn to a
+separate texture and drawn over the `color` layer with multiplicative
+blending, the final pixel color is thus:
 
-The light layer itself needs to be an offscreen buffer, while the
-highlight layer can be just a collection of sprites, since additive
-rendering is commutative.
+    framebuffer = (color * light)
 
-Lighting in this simple form as no direct impact on gameplay, except
-that it might make parts of the game area harder to see.
+The color layer itself does not exist as a separate texture, but only
+implicitly. The lightmap is drawn over framebuffer when drawing
+objects from the color layer passes `z-pos == LIGHTMAP_LAYER`. All
+color objects above that `z-pos` will not be affected by lighting
+effects, which is useful for GUI elements, but can also be used to
+create lens flares effects and brightly glowing objects.
 
-Color Lighting
+To create said lens flares add objects to the color layer with a z-pos
+bigger than LIGHTMAP_LAYER and set their blend mode to additive.
+
+Magic Lighting
 --------------
 
-Color lighting is a special form of magic light that does impact
-gameplay, the implementation for the rendering is the same as with
-Simple Lighting, in addition however color lighting requires special
-code to remove and add tiles to the tilemap depending on if they are
-in a lightcone or not.
+While lighting is primarily just for visuals, game objects can also
+react to lighting changes, this is done by doing a lookup of pixel
+color on the lightmap.
 
 ![](images/Lighting.png)
 
-The idea behind color lighting is that an object which only uses
+The idea behind magic lighting is that an object which only uses
 colors from a single color channel, say only the red one, turn
 completly black when illuminated by a light source that only contains
 colors of the other channels (blue and green).
 
 ![](images/Lighting2.png)
 
-This also works with multiple lighting, meaning a magenta (1,0,1)
-colored light will make both red and blue objects visible, while
-hiding green ones, while a green light will make red and blue objects
-disapear.
-
-Additional code in the game engine is required to turn the colored
-lighting, which so far is only a visual effect, into one that actually
-removes the invisible blocks from the tilemap or flags them, so that
-Tux can't stand on a block that isn't visible.
+This also works with multiple color channels at once, meaning a
+magenta (1,0,1) colored light will make both red and blue objects
+visible, while hiding green ones, while a green light will make red
+and blue objects disapear.
 
 ![](images/Lighting3.png)
 
