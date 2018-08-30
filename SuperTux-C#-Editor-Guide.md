@@ -243,7 +243,7 @@ So, click objects, then you will see something that looks like this.
 So place it. (How about by the stairs!)
 Now, you need to right-click the platform. Click “Edit Path” A little red block should appear at the top left corner of it. That is the starting node. So, click in front of the platform, and it will make a new white square, (red, depending on the editor) but there will be a line connecting the two.
 
-![](images/STE First Node.png)
+![](images/STE-First-Node.png)
 
 Good! Now click the object elector again, and select the platform again. Now with the property editor at the bottom, name your platform something simple. How about, “Move1”.
 
