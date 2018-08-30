@@ -1,5 +1,5 @@
-[Template:Milestone 2](Template:Milestone_2 "wikilink") The Console is a
-panel normally hidden from view. Its usage is twofold:
+The Console is a panel normally hidden from view. Its usage is
+twofold:
 
 -   It displays informational, warning and error messages that occur
     during gameplay, alerting players of things like low diskspace,

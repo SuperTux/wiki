@@ -1,3 +1,19 @@
+SuperTux 0.3
+------------
+
+If the game was started with the `--developer` option, a cheat menu
+will become accessible by pressing `F1`. This menu is available on
+both the worldmap and the main game.
+
+The [[Console]] can be used for additional cheating.
+
+The `--developer` option can be made permanent with:
+
+  (developer #t)
+
+in the SuperTux configuration file.
+
+
 SuperTux 0.1
 ------------
 
@@ -18,10 +34,3 @@ Do not type these in, you just press the appropriate key, eg the Tab key.
 -   To get in debug mode on other \*nix's start the game with: supertux --debug-mode
 -   For Windows users, create a shortcut to supertux.exe, and edit the properties of the shortcut to include --debug-mode at the end of the “Target” box. ( “C:\\Program Files\\SuperTux\\supertux.exe” --debug-mode )
     Or just run it from a command prompt.
-
-SuperTux 0.3
-------------
-
-Cheat codes got replaced by [Console](Console "wikilink") commands.
-
-[Category:For Users](Category:For_Users "wikilink")
