@@ -1,9 +1,54 @@
-The previous development team for SuperTux has abandoned the project altogether, so development stalled for a few years. When new people took over, we faced a variety of different obstacles, including the following:
+The previous development team for SuperTux has abandoned the project
+altogether, so development stalled for a few years. When new people
+took over, we faced a variety of different obstacles, including the
+following:
 
-- Largely unknown and unmaintained code base (It took a while to really get to grips with the majority of the code, so making changes was often an obstacle. However, after careful studying and a lot of help from various communities, including the C++ developer community) we managed to understand and make first amendments to the code which then over time became more numerous and bigger
-- Outdated code (The old code base used an old standard of C++ (C++98). Updating that to the newer C++ 2011 or 2013 standards is an ongoing process. I, the main developer, have made some code changes in that regard.
-- Non-documented code (This is an ongoing problem which we’re facing. Most of the code that was written is badly documented and can only be understood when the whole software is understood. As we lack the man power to specifically work on documentation, we have decided to document new code additions thoroughly and work on the backlog of undocumented code as we see fit.
-- Low community participation (SuperTux is and has always been a community product, as such we depend on input from the community for various tasks. We have tried to change that by asking people for help using our various social media channels (forum, reddit, Twitter) to ask for help. In some aspects, especially when it comes to levels, we’re getting some participation, in other areas, such as programming and graphic design we’re still looking for help, so we can say that the success of this has been mediocre.
-- Issues dealing with certain community members (Some community members proved to be harder to deal with than others, this included accusing the team of making the game bad on purpose, of being „mean“ and other things. We overcame these issues through setting up guidelines for dealing with community members. This includes responding to incidents in a timely and positive manner.
-- Low visibility (Since SuperTux was dormant for such a long time, everyone assumed that the project was officially dead. It took some time to gain some visibility of the rebirth of SuperTux, as to say). Methods we used include setting up social media channels on twitter, YouTube, reddit and other sites that boost visibility, also releasing early and often certainly helped us gain back some of the initial visibility.
-- Untested code (Our test coverage is extremely low. Since most of our code isn’t modular and depends on other parts of the game, so you can’t test it without starting the game, we have certain problems changing that fact, however, for small parts like the maths library of SuperTux, some tests were written by other members of the community).
+- Largely unknown and unmaintained code base (It took a while to
+  really get to grips with the majority of the code, so making changes
+  was often an obstacle. However, after careful studying and a lot of
+  help from various communities, including the C++ developer
+  community) we managed to understand and make first amendments to the
+  code which then over time became more numerous and bigger
+
+- Outdated code (The old code base used an old standard of C++
+  (C++98). Updating that to the newer C++ 2011 or 2013 standards is an
+  ongoing process. I, the main developer, have made some code changes
+  in that regard.
+
+- Non-documented code (This is an ongoing problem which we’re facing.
+  Most of the code that was written is badly documented and can only
+  be understood when the whole software is understood. As we lack the
+  man power to specifically work on documentation, we have decided to
+  document new code additions thoroughly and work on the backlog of
+  undocumented code as we see fit.
+
+- Low community participation (SuperTux is and has always been a
+  community product, as such we depend on input from the community for
+  various tasks. We have tried to change that by asking people for
+  help using our various social media channels (forum, reddit,
+  Twitter) to ask for help. In some aspects, especially when it comes
+  to levels, we’re getting some participation, in other areas, such as
+  programming and graphic design we’re still looking for help, so we
+  can say that the success of this has been mediocre.
+
+- Issues dealing with certain community members (Some community
+  members proved to be harder to deal with than others, this included
+  accusing the team of making the game bad on purpose, of being „mean“
+  and other things. We overcame these issues through setting up
+  guidelines for dealing with community members. This includes
+  responding to incidents in a timely and positive manner.
+
+- Low visibility (Since SuperTux was dormant for such a long time,
+  everyone assumed that the project was officially dead. It took some
+  time to gain some visibility of the rebirth of SuperTux, as to say).
+  Methods we used include setting up social media channels on twitter,
+  YouTube, reddit and other sites that boost visibility, also
+  releasing early and often certainly helped us gain back some of the
+  initial visibility.
+
+- Untested code (Our test coverage is extremely low. Since most of our
+  code isn’t modular and depends on other parts of the game, so you
+  can’t test it without starting the game, we have certain problems
+  changing that fact, however, for small parts like the maths library
+  of SuperTux, some tests were written by other members of the
+  community).
