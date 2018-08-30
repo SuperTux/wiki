@@ -59,11 +59,11 @@ If you get a strange error saying: `Unhandled Exception: System.MissingMethodExc
 Setup
 -----
 
-Now that it's launched, a little window should pop up telling you to select the SuperTux directory. This is so it can get the images for the tiles, the music, the sounds ect. You also need to select the SuperTux Game's .exe file. ![](images/Pop_Up_Dialog.png "fig:Pop_Up_Dialog.png") So select the two directories. It should look something like this for the data directory: “C:\\Program Files\\SuperTux 0.3.3\\data” It should look something like this for your Executable directory: C:\\Program Files\\SuperTux 0.3.3\\supertux2"
+Now that it's launched, a little window should pop up telling you to select the SuperTux directory. This is so it can get the images for the tiles, the music, the sounds ect. You also need to select the SuperTux Game's .exe file. ![](images/Pop Up Dialog.png "fig:Pop_Up_Dialog.png") So select the two directories. It should look something like this for the data directory: “C:\\Program Files\\SuperTux 0.3.3\\data” It should look something like this for your Executable directory: C:\\Program Files\\SuperTux 0.3.3\\supertux2"
 
 Restart and it should look like this:
 
-<img src="(STE)_The_editor.png" title="(STE)_The_editor.png" alt="(STE)_The_editor.png" width="400" />
+<img src="(STE) The editor.png" title="(STE)_The_editor.png" alt="(STE)_The_editor.png" width="400" />
 
 Once you've done that, we can finally start some editing!
 
@@ -74,7 +74,7 @@ Editing the Game's Properties
 
 Before you start editing, you should edit the properties of the sector. Right click the word “main” on the top left (Not all the way to the top though,) and select “Properties.” You should see a few fields and buttons.
 Refer to the diagram below for information on these things.
-![](images/(STE)_Sector_settings_Diagram.png "fig:(STE)_Sector_settings_Diagram.png")
+![](images/(STE) Sector settings Diagram.png "fig:(STE)_Sector_settings_Diagram.png")
 
 <font color=blue>Lesson 1:</font>''' Basic Editing
 --------------------------------------------------
@@ -87,21 +87,21 @@ Before you go gung-ho about making a level, I strongly suggest you read this sec
 
 Okay, you've finished the properties. Now click the button on the top.
 
-![](images/(STE)_New.png "fig:(STE)_New.png") It should have a forest background. If not, then click this: ![]((STE)_Prefs.png "fig:(STE)_Prefs.png")
+![](images/(STE) New.png "fig:(STE) New.png") It should have a forest background. If not, then click this: ![](images/(STE)_Prefs.png "fig:(STE)_Prefs.png")
 
 Select “Preferences” and redo what I told you to do above.
 
 If you see a forest background, great!
 
-To start, select this button: ![]((STE)_Tile_Editor.png "fig:(STE)_Tile_Editor.png")
+To start, select this button: ![](images/(STE) Tile Editor.png "fig:(STE)_Tile_Editor.png")
 
 There should be a bunch of tiles. The tiles are the little squares you put down.
 
 Lets make a basic level. First, select the little drop down menu above all the tiles, then select “Snow.”
 
-![]((STE)_Drop_down_map_select.png "fig:(STE)_Drop_down_map_select.png") Afterwards, while holding down the right mouse button, drag the cursor down so the snow brick thing is highlighted in blue. ![]((STE)_Blue_snow_brick.png "fig:(STE)_Blue_snow_brick.png") Then place it on the map below the thing that says “Spawn Point” ![]((STE)_Snapshot_of_Snow.png "fig:(STE)_Snapshot_of_Snow.png")
+![](images/(STE) Drop_down_map_select.png "fig:(STE)_Drop_down_map_select.png") Afterwards, while holding down the right mouse button, drag the cursor down so the snow brick thing is highlighted in blue. ![](images/(STE)_Blue_snow_brick.png "fig:(STE)_Blue_snow_brick.png") Then place it on the map below the thing that says “Spawn Point” ![](images/(STE)_Snapshot_of_Snow.png "fig:(STE)_Snapshot_of_Snow.png")
 
-Now, to see the level, click the “Play” button on the top left, shaped like a triangle pointing to the right. You should fall out of the sky and land on the snow. ![]((STE)_Level_test_(1).png "fig:(STE)_Level_test_(1).png")
+Now, to see the level, click the “Play” button on the top left, shaped like a triangle pointing to the right. You should fall out of the sky and land on the snow. ![](images/(STE) Level test (1).png "fig:(STE)_Level_test_(1).png")
 
 Good job! You can use many other tiles. You can individually place them by left clicking one, and placing it on the <u>**tilemap**</u>. (The area where you placed the snow.)
 
@@ -109,11 +109,11 @@ Good job! You can use many other tiles. You can individually place them by left 
 
 Now you're going to learn how to place objects, such as enemies, (Badguys) moving platforms, script triggers, ladders, and more. First, you'll want to make some more snow. So add another snow platform. This time, make it longer. First select the “Objects” button.
 
-![]((STE)_Objects_Button.png‎ "(STE)_Objects_Button.png‎")
+![](images/(STE) Objects Button.png‎ "(STE)_Objects_Button.png‎")
 
 Then, select a snowball (Like the one on the icon for the objects) and place it on the new snow you made. It should look like this:
 
-![]((STE)_Snowball_on_ground.png "(STE)_Snowball_on_ground.png")
+![](images/(STE) Snowball on ground.png "(STE)_Snowball_on_ground.png")
 
 Test the level again, and kill the snowball!
 
@@ -129,28 +129,28 @@ So since you tried it, if you didn't kill the snowball, it probably bumped into 
 
 Now we are going to learn about advanced enemies. An example is the fish. In order for the fish to work, (jump out of water) you must have water for it. So go back to the tile selection screen and click on the snow one (If it isn't already selected) and make three snow bricks for the water to be contained in.
 
-![]((STE)_Three_snow_bricks.png "(STE)_Three_snow_bricks.png")
+![](images/(STE) Three_snow bricks.png "(STE)_Three_snow_bricks.png")
 
 I guess it doesn't have to look like that, but for the sake of simplicity, this is what I'm using. So next select some water from the drop down **tile** menu. Click “Misc” and you will se something like this.
 
-![]((STE)_Misc_tiles.png "(STE)_Misc_tiles.png")
+![](images/(STE) Misc tiles.png "(STE)_Misc_tiles.png")
 
 Now select the water. You'll notice one is slightly darker than the other. That one is more <u>**translucent**</u>, so you will be able to see through it a bit. I will be using that one.
 
-![]((STE)_Water_brick.png "(STE)_Water_brick.png")
+![](images/(STE) Water brick.png "(STE)_Water_brick.png")
 
 Now, you need to put some water in between the bricks.
 
-![]((STE)_Water_between_bricks.png "(STE)_Water_between_bricks.png")
+![](images/(STE) Water between bricks.png "(STE)_Water_between_bricks.png")
 
 It doesn't look very clean, but hey, it works.
 Now go back to the Objects menu and select the fish and place it.
 
-![]((STE)_Place_the_fish_in_water.png "(STE)_Place_the_fish_in_water.png")
+![](images/(STE) Place the fish in water.png "(STE)_Place_the_fish_in_water.png")
 
 Okay, now that you did that, you can test it. It should be like this. (The snowball is falling in the water because I put the three bricks right next to the first part of the level, therefore, he wanders over.)
 
-![]((STE)_Fish_in_water_test.png "(STE)_Fish_in_water_test.png")
+![](images/(STE) Fish in water test.png "(STE)_Fish_in_water_test.png")
 
 So now you've learned how to make fish work. If you spawn them above the snow, they will face plant in it and wont do much, but if you touch them, you die.
 
@@ -162,15 +162,15 @@ So now we're going to learn how to use **Advanced Tile Techniques.**
 
 So first we are going to make a basic “Staircase” type thing. First make sure you are in the snow selection screen from the drop down, then, select this part:
 
-![]((STE)_Select_this_corner.png "(STE)_Select_this_corner.png")
+![](images/(STE) Select this corner.png "(STE)_Select_this_corner.png")
 
 I'm assuming you are building it out of the water bowl thing. Now, place it on the edge of the brick, like this:
 
-![]((STE)_Now_put_the_part_on.png "(STE)_Now_put_the_part_on.png")
+![](images/(STE) Now put the part on.png "(STE)_Now_put_the_part_on.png")
 
 Next, you'll want to put this part above that little thing you just placed.
 
-![]((STE)_Select_the_one_above.png "(STE)_Select_the_one_above.png")
+![](images/(STE) Select the one above.png "(STE)_Select_the_one_above.png")
 
 And put it above the actual snow, and then you want to put some of the parts that fit on the side there too. It should end up like this:
 
@@ -178,51 +178,51 @@ And put it above the actual snow, and then you want to put some of the parts tha
 
 Now, you need to fix the top part. Select two of the top right corner pieces on the brick above.
 
-![]((STE)_Highlight_this_left_side.png‎ "(STE)_Highlight_this_left_side.png‎")
+![](images/(STE) Highlight this left side.png‎ "(STE) Highlight this left side.png‎")
 
 Now place it above the in complete part on the top, replacing one of the tiles, like so...
 
-![]((STE)_Fixed_top_part_1.png "(STE)_Fixed_top_part_1.png")
+![](images/(STE) Fixed top part 1.png "(STE) Fixed top part 1.png")
 
 Now the other side, with these two tiles...
 
-![]((STE)_Highlight_this_right_side.png "(STE)_Highlight_this_right_side.png")
+![](images/(STE) Highlight this right side.png "(STE) Highlight this right side.png")
 
 And place.
 
-![]((STE)_Sort_of_a_Z_shape.png "(STE)_Sort_of_a_Z_shape.png")
+![](images/(STE) Sort of a Z shape.png "(STE) Sort of a Z shape.png")
 
 Now, on the right side, us the right piece,
 
-![]((STE)_Select_the_right_end_middle.png "(STE)_Select_the_right_end_middle.png")
+![](images/(STE) Select the right end middle.png "(STE) Select the right end middle.png")
 
 And fill in the right part of the “Z.”
 
-![]((STE)_L_with_a_nothch.png "(STE)_L_with_a_nothch.png")
+![](images/(STE) L with a nothch.png "(STE) L with a nothch.png")
 
 Now, we need to finish the bottom. So, get the bottom part of the snow brick.
 
-![]((STE)_Select_this_bottom_right_corner.png "(STE)_Select_this_bottom_right_corner.png")
+![](images/(STE) Select this bottom right corner.png "(STE) Select this bottom right corner.png")
 
 Now, place it underneath that bottom right part of the “L” shape.
 
-![]((STE)_Now_I_placed_the_bottom_right.png "(STE)_Now_I_placed_the_bottom_right.png")
+![](images/(STE) Now I placed the bottom right.png "(STE) Now I placed the bottom right.png")
 
 Then, you need to select the part right next to the bottom right corner piece, that will look like this:
 
-![]((STE)_Little_bottom_middle_snow_thing.png "(STE)_Little_bottom_middle_snow_thing.png")
+![](images/(STE) Little bottom middle snow thing.png "(STE) Little bottom middle snow thing.png")
 
 Then place it right next to the last piece, to the left.
 
-![]((STE)_Almost_done_with_bottom_part.png "(STE)_Almost_done_with_bottom_part.png")
+![](images/(STE) Almost done with bottom part.png "(STE) Almost done with bottom part.png")
 
 And finally, get the middle piece, that is in the snow brick,
 
-![]((STE)_Middle_part_of_snow.png "(STE)_Middle_part_of_snow.png")
+![](images/(STE) Middle part of snow.png "(STE) Middle part of snow.png")
 
 Place it above the last piece replacing one other, And it is finished! You just made your first stairs!
 
-![]((STE)_Finished_with_stairs.png "(STE)_Finished_with_stairs.png")
+![](images/(STE) Finished with stairs.png "(STE) Finished with stairs.png")
 
 ### Changing the background:
 
@@ -238,15 +238,15 @@ Now before we jump in to really advanced <u>**multiscripts**</u>, we are going t
 So, click objects, then you will see something that looks like this.
 
 (I have changed my background to the blue mountains, by the way.)
-![]((STE)_Moving_Platform.png "fig:(STE)_Moving_Platform.png")
+![](images/(STE) Moving Platform.png "fig:(STE) Moving Platform.png")
 
 So place it. (How about by the stairs!)
 Now, you need to right-click the platform. Click “Edit Path” A little red block should appear at the top left corner of it. That is the starting node. So, click in front of the platform, and it will make a new white square, (red, depending on the editor) but there will be a line connecting the two.
 
-![]((STE)_First_Node.png "(STE)_First_Node.png")
+![](images/(STE) First Node.png "(STE) First Node.png")
 
 Good! Now click the object elector again, and select the platform again. Now with the property editor at the bottom, name your platform something simple. How about, “Move1”.
 
-Great! Now in the object selector, select the little pink box that says “Script.” It is third from the bottom, all the way to the left. Now, this part is a little hard to explain, so I will break out a picture. Woo-Hoo. Click above the [stairs](http://supertux.lethargik.org/wiki/Editor_Guide#Advanced_Tile_Techniques).
+Great! Now in the object selector, select the little pink box that says “Script.” It is third from the bottom, all the way to the left. Now, this part is a little hard to explain, so I will break out a picture. Woo-Hoo. Click above the [stairs](#Advanced Tile Techniques).
 
-![](Example.jpg "Example.jpg")
+![](images/Example.jpg "Example.jpg")
