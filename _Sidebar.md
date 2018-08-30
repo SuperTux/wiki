@@ -1,6 +1,7 @@
 Guidelines
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
 * [[Disfavored Practices in Development]]
+* [[Rejected-Ideas]]
 
 BadGuys
 * [[Concept Art]]
@@ -16,6 +17,7 @@ Tools
 * [[SuperTux C# Editor Ideas]]
 
 Engine
+* [[Collision]]
 * [[SceneGraph]]
 
 Specifications
@@ -26,7 +28,9 @@ Specifications
 Ideas
 
 * [[Ideas]]
-* [[Rejected-Ideas]]
 * [[Proposed Badguys]]
 * [[Planned Features]]
 
+Meetings
+
+* [[Meeting_logs]]
