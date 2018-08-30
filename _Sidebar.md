@@ -35,7 +35,7 @@ Engine
 * [[Portables]]
 * [[S-Expressions]]
 * [[SceneGraph]]
-* [[Scripting_reference|Scripting]]
+* [[Scripting|Scripting_reference]]
 * [[Sprite]]
 * [[Tile]]
 
