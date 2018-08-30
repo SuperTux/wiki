@@ -26,23 +26,20 @@ Engine
 * [[Collision]]
 * [[Console]]
 * [[Cutscenes]]
-* [[File_formats]]
 * [[Game_Engine]]
 * [[Keyboard]]
-* [[Level-Format]]
 * [[Lighting]]
 * [[Map_transformer]]
 * [[Portables]]
 * [[SceneGraph]]
 * [[Scripting|Scripting_reference]]
-* [[Sprite]]
-* [[Tile]]
 
 Specifications
 * [[S-Expression]]
+* [[File_formats]]
 * [[Level-Format]]
 * [[Tile]]
-* [[File_formats]]
+* [[Sprite]]
 
 Milestones
 
