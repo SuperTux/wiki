@@ -30,11 +30,12 @@ Engine
 * [[Game_Engine]]
 * [[Keyboard]]
 * [[Level-Format]]
+* [[Lighting]]
 * [[Map_transformer]]
 * [[Portables]]
 * [[S-Expressions]]
 * [[SceneGraph]]
-* [[Scripting]]
+* [[Scripting_reference|Scripting]]
 * [[Sprite]]
 * [[Tile]]
 
