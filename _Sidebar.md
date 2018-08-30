@@ -33,14 +33,13 @@ Engine
 * [[Lighting]]
 * [[Map_transformer]]
 * [[Portables]]
-* [[S-Expressions]]
 * [[SceneGraph]]
 * [[Scripting|Scripting_reference]]
 * [[Sprite]]
 * [[Tile]]
 
 Specifications
-* [[S-Expressions]]
+* [[S-Expression]]
 * [[Level-Format]]
 * [[Tile]]
 * [[File_formats]]

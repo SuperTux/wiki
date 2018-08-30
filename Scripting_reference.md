@@ -19,7 +19,7 @@ Squirrel, S-expr and SuperTux
 
 I have no clue if the developers simply chose Squirrel just because
 the name so nicely integrates into the series of words “SuperTux” and
-“[S-Expressions](S-expr "wikilink")”. Currently, the Squirrel code is
+“[S-Expression](S-expr "wikilink")”. Currently, the Squirrel code is
 integrated in string arguments of Scheme elements in SuperTux level
 files. (Whew.) This is an example code block inside a level:
 
