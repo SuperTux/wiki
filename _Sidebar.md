@@ -4,7 +4,7 @@ Home
 
 Guidelines
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
-* [[Disfavored Practices in Development]]
+* [[Disfavored Practices|Disfavored Practices in Development]]
 * [[Rejected-Ideas]]
 * [[Obstacles]]
 
@@ -63,6 +63,7 @@ Ideas
 
 Building (mostly outdated)
 
+* [INSTALL.md](https://github.com/SuperTux/supertux/blob/master/INSTALL.md)
 * [[Building]]
 * [[Building on macOS]]
 * [[Building SuperTux]]
