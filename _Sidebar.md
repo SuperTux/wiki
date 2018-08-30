@@ -17,7 +17,7 @@ BadGuys
 Tools
 * [[Cheats]]
 * [[Level Editor]]
-* [[Recording SuperTux Gameplay]]
+* [[Demo Recording]]
 * [[SuperTux C# Editor FAQ]]
 * [[SuperTux C# Editor Guide]]
 * [[SuperTux C# Editor Ideas]]
