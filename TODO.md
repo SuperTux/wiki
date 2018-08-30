@@ -1,11 +1,18 @@
-This is a centralized list of things that need to be done. It is maintained by
-the SuperTux development team. It can include issues that are outstanding, or
-resource requests. The document will also be used to track decisions on these
-issues and requests.
+> **Note:** This TODO is not to be used blindly. Use your brain and
+> figure out which feature is most important and most practical to
+> implement. Don't chase pie-in-the-sky ideas that you'll never get
+> done. Also be aware that some of the items listed here might be out
+> of date or not good ideas to begin with.
 
-Please have a look at our issue tracker on GitHub where you can also find
-issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
-`category:code` for code tasks, and `category:levels` for level design tasks).
+This is a centralized list of things that need to be done. It is
+maintained by the SuperTux development team. It can include issues
+that are outstanding, or resource requests. The document will also be
+used to track decisions on these issues and requests.
+
+Please have a look at our issue tracker on GitHub where you can also
+find issues by `category:` tags (e.g.: `category:design` for
+graphics/UX tasks, `category:code` for code tasks, and
+`category:levels` for level design tasks).
 
 ### Artwork
 
@@ -87,11 +94,6 @@ issues by `category:` tags (e.g.: `category:design` for graphics/UX tasks,
 Translations are always a very important part of the game. You can contribute
 to them [on Transifex](https://www.transifex.com/arctic-games/supertux/).
 
-### Meta
-
-- [ ] Improve wiki content
-- [ ] Maintain this To-Do list
-
 
 TODO List
 ---------
@@ -134,7 +136,7 @@ TODO List as of March of 2015
 -   <http://supertux.lethargik.org/bugs/view.php?id=1073>
 
 OLD TODO LIST
--------------
+=============
 
 Major Issue
 -----------
@@ -160,7 +162,7 @@ Minor Issue
 -   A waterfall to match the new water look
 -   Fix tiling issues
 
-  
+
 crystal cave tiles
 
 brown castle tiles
@@ -187,7 +189,7 @@ ghostly word
 -   Code effect of Iceflower on forest badguys
 -   Improve fish
 
-  
+
 it also looks weird when fish disappears in transparent water
 
 start of the jump should depend on top of water- i.e. be dynamic for moving water tiles
@@ -282,51 +284,51 @@ From previous TODO list, some point should be rethink, or may have been correcte
 
 -   random idea to restructure engine stuff (might lead to nicer code and easier scriptability (and a need to rewrite lots of stuff...):
 
-`   class SomeBadGuy : public PhysicsCallbackListener // or use boost::function`
-`   {`
-`   private:`
-`         PhysicsPtr box;`
-`         SpritePtr sprite;`
-`           `
-`   public:`
-`         SomeBadGuy(Engine& engine)  `
-`         {`
-`            box    = engine.physics().create_box(Rectf(0,0,32,32));`
-`            box->register_listener(this);`
-`            sprite = engine.graphics().create_and_add_sprite(`“`Foobar`”`);`
-`         }`
-`   `
-`         void update(float delta)`
-`         {`
-`            // not much to do, as most stuff is done internally in the engine`
-`            if (dead)`
-`            {`
-`                     sprite->replace_with(`“`Foobar_dead`”`);`
-`            }`
-`            else`
-`            {`
-`                   sprite->hide();`
-`                   sprite->set_pos(box->get_pos());`
-`           }`
-`         }`
-`   `
-`         // no more draw(), done by the scene graph`
-`   `
-`         void on_collision(CollisionData data)`
-`         {`
-`           // respond`
-`         }`
-`   };`
+   class SomeBadGuy : public PhysicsCallbackListener // or use boost::function
+   {
+   private:
+         PhysicsPtr box;
+         SpritePtr sprite;
+
+   public:
+         SomeBadGuy(Engine& engine)
+         {
+            box    = engine.physics().create_box(Rectf(0,0,32,32));
+            box->register_listener(this);
+            sprite = engine.graphics().create_and_add_sprite(“Foobar”);
+         }
+
+         void update(float delta)
+         {
+            // not much to do, as most stuff is done internally in the engine
+            if (dead)
+            {
+                     sprite->replace_with(“Foobar_dead”);
+            }
+            else
+            {
+                   sprite->hide();
+                   sprite->set_pos(box->get_pos());
+           }
+         }
+
+         // no more draw(), done by the scene graph
+
+         void on_collision(CollisionData data)
+         {
+           // respond
+         }
+   };
 
 Random Notes
 ------------
 
 -   calculate the size of an background image that should fill the screen:
 
-` image_size = (1 - parallax_speed) * screen_size + level_size * parallax_speed`
+     image_size = (1 - parallax_speed) * screen_size + level_size * parallax_speed
 
-`def calc(parallax, screen, tiles):`
-`   return (1 - parallax) * screen + parallax * tiles * 32`
+`def calc(parallax, screen, tiles):`
+`   return (1 - parallax) * screen + parallax * tiles * 32`
 
 Whats the point in adding new features while the existing features and badguys can't be used due to lack of images or animations?
 
@@ -348,17 +350,15 @@ Music Recode
 
 Currently the music makes up a large chunk of the total tarball size. Compression could fix this:
 
-`  ,-- Size of data/music/*.ogg`
-`  V`
-`40MB - Current quality in SVN`
-`24MB - Default oggenc quality (3)`
-`14MB - oggenc at 0 quality`
-`10MB - oggenc at -1 quality`
+      ,-- Size of data/music/*.ogg
+      V
+    40MB - Current quality in SVN
+    24MB - Default oggenc quality (3)
+    14MB - oggenc at 0 quality
+    10MB - oggenc at -1 quality
 
-No audible difference on my sound setup. -- grumbel
-
-<Category:Development>
-
+> No audible difference on my sound setup.
+> -- grumbel
 
 TODO
 ----
@@ -370,8 +370,6 @@ Documents and ideas: [Milestone 2](Milestone_2 "wikilink") esp. [World 2](World_
 
 Notes
 -----
-
-[s=Only developers should edit this page. Please add [User ideas](User_ideas "wikilink") and [Bugs](Bugs "wikilink") to the end of their pages](Template:Attention "wikilink")
 
 Apart from issues listed here, [:Category:Needs Code](:Category:Needs_Code "wikilink"), [:Category:Needs Sound](:Category:Needs_Sound "wikilink") and [:Category:Needs Graphics](:Category:Needs_Graphics "wikilink") list articles that describe content which still lacks one of the three. Bugs can be found in our [bug tracker](http://supertux.lethargik.org/bugs).
 
@@ -422,55 +420,55 @@ Editor
 (The editor is not release critical therefore no ratings for these TODOS)
 
 -   Scroll TileList with middle mouse, Get different Tilegroups
-      
+
     Isn't that the way it is atm? --[WolfgangB](User:WolfgangB "wikilink") 18:23, 7 Aug 2006 (BST)
 
-      
+
     Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to “All” or anything else you can. Should be bug (or feature) in GTK, it's not controlled by program.
 
 -   Create an overview widget (where to place this in the GUI?)
-      
+
     Overview for what? -- [Penguinmaster](User:Penma "wikilink") 15:46, 4 Oct 2006 (CEST)
 
-      
+
     The sector. Like a minimap.
 
 -   Grab Mouse Pointer when scrolling so that we can scroll as much as we want (and the mouse is still where it was before scrolling)
-      
+
     I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[AnMaster](User:AnMaster "wikilink") 10:46, 13 Nov 2006 (CET)
 
 -   More custom property editors:
     -   Texts
     -   Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
-          
+
         Why was it disabled? --[WolfgangB](User:WolfgangB "wikilink") 16:45, 13 Jul 2006 (BST)
 
-          
+
         Because it crash the editor on Windows, and because it add lots of extra deps. --[AnMaster](User:AnMaster "wikilink") 23:27, 20 Jul 2006 (BST)
 
-          
+
         “lots of extra deps” anything that is not part of every serious distro? Why not fix the crash instead of removing features?
 -   Layer switching on keys 1,2,3,...,0 CTRL+1,2,3,...,0 to switch visibility, key 0 for objects
 -   Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
 -   Tool not working after loading new level
-      
+
     Added a workaround for this by resetting to the Select tool when loading new level. --[AnMaster](User:AnMaster "wikilink") 20:25, 8 Sep 2006 (BST)
 
 -   Windows builds seem to silently crash when loading huge levels
-      
+
     huge as in 100x100 or more like 10000x10000?
 
-      
+
     the level old world2/airkey.stl crashed both editor and the game itself on windows. --[AnMaster](User:AnMaster "wikilink") 17:56, 30 Jun 2006 (BST)
 
-      
+
     the old airkey was 300x300. It makes the editor slow on my Linux box but it's working--[WolfgangB](User:WolfgangB "wikilink") 00:14, 6 Jul 2006 (BST)
 
-      
+
     The editor crashes on windows certainly. It stops also responding very often. I think it's partly windows, wich causes the crash. --[Yaniel](User:Yaniel "wikilink")
 
 -   Make the right click menu from sector tab a normal menu so that users can easily find it
-      
+
     Maybe add them to a toolbar? that could be useful. --[AnMaster](User:AnMaster "wikilink") 23:27, 20 Jul 2006 (BST)
 
 -   Add a new way to copy parts of one level to another.
