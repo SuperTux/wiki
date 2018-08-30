@@ -10,7 +10,7 @@ This document is a work in progress, nothing here is considered even remotely fi
 Overview
 ========
 
-![Concept Drawing](Supertux-forest-2004-06-15.jpg "Concept Drawing")
+![Concept Drawing](images/Supertux-forest-2004-06-15.jpg "Concept Drawing")
 
 The goal of Milestone 3 is to add another island/theme to the world of SuperTux, namely the forest island, as well as improving on the short commings that where present in [Milestone 1](Milestone_1_Analysis "wikilink"). Together with the forest island the game will provide additional enemies and items that fit the forest islands look and setting. New actions for Tux might be provided as well, namely the backflip, butt-jump and the iceflower powerup.
 
@@ -19,14 +19,14 @@ Story
 
 The SuperTux game starts with Penny, Tux's girlfriend, getting captured by Nolok. After those events are shown in the intro the player takes control over Tux and has to guide him through around two dozen levels on a snowy island. At the end of the path on the island is a castle, which however doesn't contain Nolok, instead a Yeti will be provided as a final boss battle. After Tux has defeated the Yeti and received a secret letter from Penny explaining where the got taken, Tux continues his journey over the sea to another island, one filled with forests, grass and green stuff.
 
-![Granito together with Tux](Granito.png "fig:Granito together with Tux") On arrival on the forest island Tux will be welcome by the Granitos, which happen to be the native inhabitants of the island. They explain Tux in a cutscene that Nolok has taken control over their island and its magic castle, thus turning a large part of the island into a ghost world. To enter the magic castle five keys are needed, those are however scattered across the island. After hearing their story Tux tells them that he will help and proceeds deeper down into the forest world. On his journey through the forest island Tux will meet both more friendly Granitos as well has a salesman in the form of a walrus which will either tell some more story or help Tux with extra items or guide him through a level (Granitos can walk over spikes, while Tux can't).
+![Granito together with Tux](images/Granito.png "fig:Granito together with Tux") On arrival on the forest island Tux will be welcome by the Granitos, which happen to be the native inhabitants of the island. They explain Tux in a cutscene that Nolok has taken control over their island and its magic castle, thus turning a large part of the island into a ghost world. To enter the magic castle five keys are needed, those are however scattered across the island. After hearing their story Tux tells them that he will help and proceeds deeper down into the forest world. On his journey through the forest island Tux will meet both more friendly Granitos as well has a salesman in the form of a walrus which will either tell some more story or help Tux with extra items or guide him through a level (Granitos can walk over spikes, while Tux can't).
 
 <img src="Totem.jpg" title="fig:Totem" alt="Totem" width="80" /> After having collected the five keys Tux is able to enter the magic castle where he will face the final boss in form of a magic Totem. After defeating the Totem, Tux will yet again receive a letter from Penny telling him on how to continue his journey.
 
 Shop
 ====
 
-![Shop](Shopkeeper-sketch.jpg "Shop")
+![Shop](images/Shopkeeper-sketch.jpg "Shop")
 
 The shop is a little house accessible via the worldmap, it provides the player with items, mini-games or other useful things. The shopkeeper is an old walrus with a beard. Different islands might provide different looking shopkeepers, all walrus, but adopted to the local environment.
 
@@ -44,7 +44,7 @@ Since Tux is a penguin he has a good ability to swim. Water will not harm him. S
 World 2 - Forest
 ================
 
-![Forest Overview](Forestworldoverview.jpg "Forest Overview")
+![Forest Overview](images/Forestworldoverview.jpg "Forest Overview")
 
 The forest island is split into different section, one being a classical forest, one being tree-tops, then a stone based section, followed by a dark ghost forest and finally the boss castle. Each section might feature separate tilesets for above or below ground action.
 
@@ -54,7 +54,7 @@ The forest island is split into different section, one being a classical forest,
 Ghost Forest
 ------------
 
-![Portal into the Ghost forest](Ghost-portal.jpg "Portal into the Ghost forest")
+![Portal into the Ghost forest](images/Ghost-portal.jpg "Portal into the Ghost forest")
 
 The ghost forest is a world that exists in parallel to the normal forest. Instead of a living forest, it as a dead one. Instead of cute little enemies, it has ghosts and skeletons. Portals connect the ghost forest with the normal one, both on the worldmap as well as in the levels themself.
 
@@ -68,7 +68,7 @@ Game Elements
 
 ### New Pipes
 
-![Rostypipe Sketch](Rostypipe-sketch.png "Rostypipe Sketch")
+![Rostypipe Sketch](images/Rostypipe-sketch.png "Rostypipe Sketch")
 
 Pipes in Milestone2 should differ from both Mario1 and Milestone1. Instead of being objects that lead to new levels/section, they shall contain water and allow Tux to swim around in them. There shall not be a specific enter/leave animation, instead the behavior of Tux in pipes will be similar/equal to that in water. To accomplish this tiles might need to change in size and there design need to change to either include a little window to see tux through it or alternatively they need to be designed multi layered so that the foreground layer fades away when entering them.
 
@@ -84,7 +84,7 @@ Windstille contains in file trunk/windstille/src/liquid.?pp an implementation of
 
 ### Ladder
 
-![Ladder](Ladder.png "Ladder")
+![Ladder](images/Ladder.png "Ladder")
 
 Allows Tux to climb up.
 
@@ -99,53 +99,53 @@ World 2 Enemies
 
 ### Snail
 
-![Snail](Snail.png "Snail")
+![Snail](images/Snail.png "Snail")
 
 When jumped up on the snail rolls into her house and thus becomes invincible as well as portable. Snail is a slow moving enemy. Snail might come in different sizes, especially larger ones then the standard 32x32 enemies.
 
 ### Fluffy
 
-![Fluffy](Fluffy.png "fig:Fluffy") Fluffy is a small enemy that moves around via little hop motions, jumping on him will kill him.
+![Fluffy](images/Fluffy.png "fig:Fluffy") Fluffy is a small enemy that moves around via little hop motions, jumping on him will kill him.
 
 ### Greeny
 
-![Greeny](Greeny.png "fig:Greeny") Basic forest enemy, for most part just a simple snowball replacement.
+![Greeny](images/Greeny.png "fig:Greeny") Basic forest enemy, for most part just a simple snowball replacement.
 
 ### MrTree
 
-![](Mrtree.png "fig:Mrtree.png") In its basic version MrTree behaves similary to the Iceblock and thus acts as its replacment in the forest world. He might however also come in stacked-versions, movment stays the same, but its height varies. When jumped up-on a stacked MrTree only the top most one is killed, the others stay untouched. Another variant to MrTree is the toupee one, he has 'green stuff' on its head which might protect him against a single jump, after that jump his green protection is destroyed an he becomes a basic MrTree.
+![](images/Mrtree.png) In its basic version MrTree behaves similary to the Iceblock and thus acts as its replacment in the forest world. He might however also come in stacked-versions, movment stays the same, but its height varies. When jumped up-on a stacked MrTree only the top most one is killed, the others stay untouched. Another variant to MrTree is the toupee one, he has 'green stuff' on its head which might protect him against a single jump, after that jump his green protection is destroyed an he becomes a basic MrTree.
 
 A last version of MrTree might come in large size.
 
 ### Leafman
 
-![Leafman](Leafman.png "fig:Leafman") A basic enemy which however gets near invisible when walking. Every few steps he stays still and thus becomes visible. He might interact with wind.
+![Leafman](images/Leafman.png "fig:Leafman") A basic enemy which however gets near invisible when walking. Every few steps he stays still and thus becomes visible. He might interact with wind.
 
 ### Colory
 
-![Colory](Colory.png "fig:Colory") A enemy specifically for color castles, it can glow in different colors and thus influence the color-tiles. It might also be influenced by lamps itself.
+![Colory](images/Colory.png "fig:Colory") A enemy specifically for color castles, it can glow in different colors and thus influence the color-tiles. It might also be influenced by lamps itself.
 
 ### Spider
 
-![Spider](Spider.png "fig:Spider") The Spider hangs at the side of a tilemap, either a hard one or an unisolid one. At regular intervals the Spider 'charges up' and performs a jump. After the jump it falls back to the tilemap and attach back to it. The spider can walk on the side of the tilemap, but can't walk on normal ground like a Snowball.
+![Spider](images/Spider.png "fig:Spider") The Spider hangs at the side of a tilemap, either a hard one or an unisolid one. At regular intervals the Spider 'charges up' and performs a jump. After the jump it falls back to the tilemap and attach back to it. The spider can walk on the side of the tilemap, but can't walk on normal ground like a Snowball.
 
 ### Ladybug
 
-![Ladybug](Ladybug.png "fig:Ladybug") The Ladybug is a simple flying enemy that flies in a sinus-curve motion.
+![Ladybug](images/Ladybug.png "fig:Ladybug") The Ladybug is a simple flying enemy that flies in a sinus-curve motion.
 
 ### Stony
 
-![Stony in Wall](Stony_wall.png "fig:Stony in Wall") Stony hides himself in stone walls and is invisible, only when one gets closer he becomes alive and drops down. Multiple Stonies might come as group and drop down at irregular intervals.
+![Stony in Wall](images/Stony_wall.png "fig:Stony in Wall") Stony hides himself in stone walls and is invisible, only when one gets closer he becomes alive and drops down. Multiple Stonies might come as group and drop down at irregular intervals.
 
 ### Walking Bush
 
-![Walking Bush](Walkingbush.png "Walking Bush")
+![Walking Bush](images/Walkingbush.png "Walking Bush")
 
 The Walking Bush is an enemy that looks just like an background object, when inactive it also behaves like one, i.e. neither can Tux kill it nor can it kill Tux. When active it might change its color a bit and have eyes, it will walk around a bit to then become inactive again. Jumping on it when active will kill it.
 
 ### Oak
 
-![Oak](Oak.png "fig:Oak") The Oak hangs in trees and doesn't move until Tux approaches, once Tux gets close enough the Oak drops down and slowly floats to the ground.
+![Oak](images/Oak.png "fig:Oak") The Oak hangs in trees and doesn't move until Tux approaches, once Tux gets close enough the Oak drops down and slowly floats to the ground.
 
 ### Flamey
 
@@ -163,17 +163,17 @@ How they interact with Tux is open for discussion.
 
 ### Ghosts
 
-![Ghosts](Ghost-sprite.png "fig:Ghosts") Basic ghosts float around on a fixed path in a sinus-wave like pattern. There may be different kinds of ghosts that follow different patterns as well as ghosts that are inflatable and grow in size on specific events.
+![Ghosts](images/Ghost-sprite.png "fig:Ghosts") Basic ghosts float around on a fixed path in a sinus-wave like pattern. There may be different kinds of ghosts that follow different patterns as well as ghosts that are inflatable and grow in size on specific events.
 
 ### Angry Stone
 
-![Angry Stone](Angrystone.png "Angry Stone")
+![Angry Stone](images/Angrystone.png "Angry Stone")
 
 Angry stone is attached to the roof of a level, once Tux gets close to him (one tile to the left or right, he crushes to the ground, trying to kill Tux. Soon after he lifts back up to the ceiling for another attack. Angry stones might come in different sizes, from really small ones, 32x32, to very large ones, 256x256. Angry stones are always a multiple of the tilesize large so that they fit into the tilemap properly.
 
 ### Carnivorous Plant
 
-![Carnivorous Plant](Plant.png "fig:Carnivorous Plant") Plant is fixed on the ground, when Tux gets close it starts to reach for him. When walking slowly it might be possible to walk by a plant without waking her and thus getting killed.
+![Carnivorous Plant](images/Plant.png "fig:Carnivorous Plant") Plant is fixed on the ground, when Tux gets close it starts to reach for him. When walking slowly it might be possible to walk by a plant without waking her and thus getting killed.
 
 ### Lava Animal
 

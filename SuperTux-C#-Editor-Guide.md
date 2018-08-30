@@ -181,7 +181,7 @@ Next, you'll want to put this part above that little thing you just placed.
 
 And put it above the actual snow, and then you want to put some of the parts that fit on the side there too. It should end up like this:
 
-![](About-Half-Done-1.png)
+![](images/About-Half-Done-1.png)
 
 Now, you need to fix the top part. Select two of the top right corner pieces on the brick above.
 

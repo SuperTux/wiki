@@ -53,7 +53,7 @@ And of course not be usable against Flames.
 Buttjump
 --------
 
-![Image of the buttjump action](Buttjump.png "fig:Image of the buttjump action") The **buttjump** is an ability that lets [Tux](Tux "wikilink") crush boxes from above and destroy some [badguys](badguy "wikilink") that cannot be harmed by a normal jump. It is performed by jumping up into the air and then pressing the *Down* key while in the air. Take a look at the [buttjumpable badguys category](:Category:Buttjumpable_badguys "wikilink") for a list of badguys that can be harmed by a buttjump.
+![Image of the buttjump action](images/Buttjump.png "fig:Image of the buttjump action") The **buttjump** is an ability that lets [Tux](Tux "wikilink") crush boxes from above and destroy some [badguys](badguy "wikilink") that cannot be harmed by a normal jump. It is performed by jumping up into the air and then pressing the *Down* key while in the air. Take a look at the [buttjumpable badguys category](:Category:Buttjumpable_badguys "wikilink") for a list of badguys that can be harmed by a buttjump.
 
 The buttjump has the following flow of actions
 
@@ -113,7 +113,7 @@ Once in the air, [Tux](Tux "wikilink") should be allowed to flap with his wings.
 Iceflower
 ---------
 
-<Template:NeedGraphics> <Template:NeedSound> ![The iceflower symbol](Ice_flower.png "fig:The iceflower symbol") The **iceflower** will give [Tux](Tux "wikilink") the [ability](Actions "wikilink") to shoot ice bullets. Ice bullets will not bounce like [fire bullets](Fireflower "wikilink"), but will shoot out in a straight path towards the enemy. When the ice bullet hits an enemy it will freeze him for a short time, if the enemy [is freezable](:Category:Freezable_badguys "wikilink") not [Snowball](Snowball "wikilink"), [Mr. Iceblock](Mr._Iceblock "wikilink") and [Bouncing Snowball](Bouncing_Snowball "wikilink").
+<Template:NeedGraphics> <Template:NeedSound> ![The iceflower symbol](images/Ice_flower.png "fig:The iceflower symbol") The **iceflower** will give [Tux](Tux "wikilink") the [ability](Actions "wikilink") to shoot ice bullets. Ice bullets will not bounce like [fire bullets](Fireflower "wikilink"), but will shoot out in a straight path towards the enemy. When the ice bullet hits an enemy it will freeze him for a short time, if the enemy [is freezable](:Category:Freezable_badguys "wikilink") not [Snowball](Snowball "wikilink"), [Mr. Iceblock](Mr._Iceblock "wikilink") and [Bouncing Snowball](Bouncing_Snowball "wikilink").
 
 See also
 --------
@@ -149,7 +149,7 @@ The Pogo Stick will give Tux the ability jump higher and to break blocks when he
 
 Perhaps this should be just like a star, just a temporal ability. To avoid making the game too easy. It could also be like the boot in Super Mario Bros. 3, which allows the player to jump on usually harmful enemies, but is gone a the end of the level.
 
-![Concept art of Tux on his Pogo Stick](Pogo.jpg "Concept art of Tux on his Pogo Stick")
+![Concept art of Tux on his Pogo Stick](images/Pogo.jpg "Concept art of Tux on his Pogo Stick")
 
 Rope
 ----

@@ -181,7 +181,7 @@ ones below them.
 
 <Template:Proposed>
 
-![Walking Totem](Totem.jpg "Walking Totem")
+![Walking Totem](images/Totem.jpg "Walking Totem")
 
 Walking Totem Poles could be especially interesting, as they generally
 have many faces... Perhaps as Tux jumps on them it breaks apart into
@@ -198,7 +198,7 @@ Hurt Tux: spitting, run over Tux
 Hurt it: jump at it to break into smaller Totems which can be jumped on
 or spat at.
 
-![Walking tree](Littletrees.png "Walking tree")
+![Walking tree](images/Littletrees.png "Walking tree")
 
 ### Comments
 

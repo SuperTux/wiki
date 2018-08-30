@@ -41,7 +41,7 @@ The Yeti is end boss for _Icy Island_. He is featured in No More Mr Ice Guy and 
 
 
 
-![The Icy Island worldmap in version 0.3](Worldmap1_2.png "fig:The Icy Island worldmap in version 0.3") **Icy Island** is the very first world in [SuperTux](SuperTux "wikilink"). It is an Antarctica-type world. This world was released in *SuperTux 0.1*.
+![The Icy Island worldmap in version 0.3](images/Worldmap1_2.png "fig:The Icy Island worldmap in version 0.3") **Icy Island** is the very first world in [SuperTux](SuperTux "wikilink"). It is an Antarctica-type world. This world was released in *SuperTux 0.1*.
 
 Badguys
 -------

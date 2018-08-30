@@ -21,7 +21,7 @@ Currently, the end boss of this world is The Ghost Tree
 
 == Forest ==
 
-![Concept graphic for the Forest worldmap.](Worldmap2.png "fig:Concept graphic for the Forest worldmap.") The **Forest** is the second world in [SuperTux](SuperTux "wikilink"). It is generally a lively place with many creatures roaming about. Parts of the *Forest*, however, are spooked. This world was included in the unstable *SuperTux 0.3* releases but will be *removed* before [MMilestone 1.9](MMilestone_1.9 "wikilink"). It has been project to removed it, so status is uncertain. It will need attention before next release.
+![Concept graphic for the Forest worldmap.](images/Worldmap2.png "fig:Concept graphic for the Forest worldmap.") The **Forest** is the second world in [SuperTux](SuperTux "wikilink"). It is generally a lively place with many creatures roaming about. Parts of the *Forest*, however, are spooked. This world was included in the unstable *SuperTux 0.3* releases but will be *removed* before [MMilestone 1.9](MMilestone_1.9 "wikilink"). It has been project to removed it, so status is uncertain. It will need attention before next release.
 
 Badguys
 -------
@@ -40,7 +40,7 @@ New Features
 Levels
 ------
 
-![Screenshot of [Tux](Tux "wikilink") in the *Forest*.](SuperTux-0.3.0-4.png "Screenshot of Tux in the Forest.")
+![Screenshot of [Tux](Tux "wikilink") in the *Forest*.](images/SuperTux-0.3.0-4.png "Screenshot of Tux in the Forest.")
 
 Currently (January 2010) the *Forest world* consists of the following 29 levels:
 

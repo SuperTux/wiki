@@ -495,7 +495,7 @@ My enemies will be here if I ever think of them: <User:UltraTux/Enemies>
 
 ### Fake Box Enemy
 
-The Fake Box looks exactly like an ordinary box from a far distance.But if you come closer to the fake box it will either open its eyes and attack you or it will still open its eyes and a random enemy appears above the box. By DryTuxxy. This is the fake box active:![](Block.jpg "fig:Block.jpg") --There is already support for a badguy powerup box. brmbrmcar--
+The Fake Box looks exactly like an ordinary box from a far distance.But if you come closer to the fake box it will either open its eyes and attack you or it will still open its eyes and a random enemy appears above the box. By DryTuxxy. This is the fake box active:![](images/Block.jpg) --There is already support for a badguy powerup box. brmbrmcar--
 
 ### My Enemy Ideas!
 
@@ -2721,7 +2721,7 @@ Trophical Island
 <Template:Template:planned> <font size=5>Jungle island</font>
 
 <hr>
-![Concept art for Jungle island](jungle-concept.png "fig:Concept art for Jungle island")
+![Concept art for Jungle island](images/jungle-concept.png "fig:Concept art for Jungle island")
 
 Story
 -----

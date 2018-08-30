@@ -137,7 +137,7 @@ Each type of information stored in the data section needs to reserve a range of 
 
 ![](images/Slopes.png "Slopes.png")
 
-![Circle showing the 20 different valid slope data values.](Slope_data.png "fig:Circle showing the 20 different valid slope data values.") The *deformation* means the following. The “circle” on the right shows the 20 different possibilities.
+![Circle showing the 20 different valid slope data values.](images/Slope_data.png "fig:Circle showing the 20 different valid slope data values.") The *deformation* means the following. The “circle” on the right shows the 20 different possibilities.
 
 | Name    | Value | Meaning                                  |
 |---------|-------|------------------------------------------|

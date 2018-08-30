@@ -64,12 +64,12 @@ Problem: Its a “now or never” game mechanic, it changes the game to much to 
 Butt Jump
 ---------
 
-![Butt Jump](Supertux-buttjump.png "fig:Butt Jump") The Butt Jump is activated by pressing down while in the air. It causes Tux to crush down on the exact spot over which he currently is. The butt jump provides additional force that allows him to crush blocks and some kind of armored enemies.
+![Butt Jump](images/Supertux-buttjump.png "fig:Butt Jump") The Butt Jump is activated by pressing down while in the air. It causes Tux to crush down on the exact spot over which he currently is. The butt jump provides additional force that allows him to crush blocks and some kind of armored enemies.
 
 Blow Flyer
 ----------
 
-![Tux in Bubble Mode](Tux_bubble.png "Tux in Bubble Mode")
+![Tux in Bubble Mode](images/Tux_bubble.png "Tux in Bubble Mode")
 
 Tux body catches a lot of hot air and thus starts to float. This action is triggered by objects in the game world and automatically terminates after some amount of time.
 
@@ -177,7 +177,7 @@ The snowman's body is now falling down when he's squished. [grumbel](User:Grumbe
 ~~Avior, Dex,~~ Flying Snowball
 -------------------------------
 
-![Flying Snowball|right](Flyingsnowball.png "fig:Flying Snowball|right") The flying snowball has a propeller at his bottom which keeps him floating in the air. Due to Nolok's hurry, the motor is inefficient and varies in effectiveness, causing the flying snowball to move up and down while coughing out smoke and possibly other debris.
+![Flying Snowball|right](images/Flyingsnowball.png "fig:Flying Snowball|right") The flying snowball has a propeller at his bottom which keeps him floating in the air. Due to Nolok's hurry, the motor is inefficient and varies in effectiveness, causing the flying snowball to move up and down while coughing out smoke and possibly other debris.
 
 **In need of a “good” name.**
 
@@ -188,7 +188,7 @@ Here are some ideas: Flyper, Propeller, Gadget, and Floatall. I'm Agent Spook, a
 ~~[Snowshot](Snowshot "wikilink")~~ kamikazesnowball
 ----------------------------------------------------
 
-![Snowshot|right](Kamikaze-left2.png "fig:Snowshot|right") The [Snowshot](Snowshot "wikilink") comes out of a [Cannon](Cannon "wikilink"). He is very angry, or very “wise”, and so can levitate through the force of his will. He is so concentrated on this, however, that he cannot turn or adjust his velocity.
+![Snowshot|right](images/Kamikaze-left2.png "fig:Snowshot|right") The [Snowshot](Snowshot "wikilink") comes out of a [Cannon](Cannon "wikilink"). He is very angry, or very “wise”, and so can levitate through the force of his will. He is so concentrated on this, however, that he cannot turn or adjust his velocity.
 
 **Status:** There is MrRocket in SVN which should be recycled and turned into a Snowshot. There is also a cannon that can be reused after its graphics have been replaced. -- [Grumbel](User:Grumbel "wikilink") 11:55, 23 February 2010 (UTC)
 
@@ -286,12 +286,12 @@ Captain snowball is used in several level in bonus 3 --[giby](User:giby "wikilin
 [Stalactite](Stalactite "wikilink")
 -----------------------------------
 
-![Stalactite|right](Falling.png "fig:Stalactite|right") The stalactite stays stuck to the ceiling until Tux walks near it, then begins shaking. After a bit of shaking, it falls down in an attempt to hurt Tux, while also harming badguys that get in the way.
+![Stalactite|right](images/Falling.png "fig:Stalactite|right") The stalactite stays stuck to the ceiling until Tux walks near it, then begins shaking. After a bit of shaking, it falls down in an attempt to hurt Tux, while also harming badguys that get in the way.
 
 [Flame](Flame "wikilink")
 -------------------------
 
-![Flame|right](Flame.png "fig:Flame|right") The flame rotates around in a circle, hurting Tux when he gets too close. It is indestructible. Do we want it to come in a line of fire?
+![Flame|right](images/Flame.png "fig:Flame|right") The flame rotates around in a circle, hurting Tux when he gets too close. It is indestructible. Do we want it to come in a line of fire?
 
 295
 ---
@@ -301,7 +301,7 @@ Captain snowball is used in several level in bonus 3 --[giby](User:giby "wikilin
 [Short Fuse](Short_Fuse "wikilink"), ~~Mini Bomb~~
 --------------------------------------------------
 
-![](images/Short_Fuse.png "fig:Short_Fuse.png") ![Mini-Bomb](Minibomb.png "fig:Mini-Bomb") The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
+![](images/Short_Fuse.png "fig:Short_Fuse.png") ![Mini-Bomb](images/Minibomb.png "fig:Mini-Bomb") The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
 
 A first version of this badguy has been added to [SVN](SVN "wikilink") in [6511](Template:Revision "wikilink").
 
@@ -310,12 +310,12 @@ Should “pop” like it was filled with air pressure air, not explode in fire, 
 Spitter (proposed)
 ------------------
 
-![Spitter](Spitter.png "fig:Spitter") The spitter acts as walking dispenser, the enemy type that he can spit out might be limited to mini-bombs and similarly small enemies.
+![Spitter](images/Spitter.png "fig:Spitter") The spitter acts as walking dispenser, the enemy type that he can spit out might be limited to mini-bombs and similarly small enemies.
 
 Yeti
 ----
 
-<img src="Yeti-concept.jpg" title="fig:Yeti" alt="Yeti" width="64" /> ![Yeti Boss Cutscene](Yetiapproach.png "fig:Yeti Boss Cutscene")
+<img src="Yeti-concept.jpg" title="fig:Yeti" alt="Yeti" width="64" /> ![Yeti Boss Cutscene](images/Yetiapproach.png "fig:Yeti Boss Cutscene")
 
 The Yeti is the boss that awaits Tux in the first castle. After entering the throne room Tux will find a letter in which Nolok tells Tux of the other castles in other worlds (see Milestone1 extro.txt). In the background there is a window. While reading the note one will see a shadow approaching the window and soon after the Yeti jumping through the window. The normal boss battle starts instantly after the jump.
 
@@ -324,7 +324,7 @@ Alternative: Sequence at end of castle: Tux find Yeti, Yeti jumps out of the win
 Gulpy, ~~Eater~~ (proposed)
 ---------------------------
 
-![Eater](Eater.png "fig:Eater") The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He is not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
+![Eater](images/Eater.png "fig:Eater") The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He is not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 
   
 So how can you defeat Gulpy? As-is, he just seems to be a moving hurting platform. --[Mathnerd314](User:Mathnerd314 "wikilink") 23:28, 7 March 2010 (UTC)
@@ -332,7 +332,7 @@ So how can you defeat Gulpy? As-is, he just seems to be a moving hurting platfor
   
 Maybe with starman--[173.59.123.229](Special:Contributions/173.59.123.229 "wikilink") 16:35, 23 December 2010 (UTC)
 
-![Milestone 2 Enemies](Minibomb-and-stuff.png "Milestone 2 Enemies")
+![Milestone 2 Enemies](images/Minibomb-and-stuff.png "Milestone 2 Enemies")
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
@@ -399,7 +399,7 @@ Game Elements
 Billboards
 ----------
 
-![Billboard explaining the [fireflower](fireflower "wikilink") in *Welcome to Antarctica*.](Screenshot_Billboard_Fireflower.png "fig:Billboard explaining the fireflower in Welcome to Antarctica.") **Billboards** are in-game explanations of game mechanics, such as the [Fireflower](Fireflower "wikilink") or reset points.
+![Billboard explaining the [fireflower](fireflower "wikilink") in *Welcome to Antarctica*.](images/Screenshot_Billboard_Fireflower.png "fig:Billboard explaining the fireflower in Welcome to Antarctica.") **Billboards** are in-game explanations of game mechanics, such as the [Fireflower](Fireflower "wikilink") or reset points.
 
 [Info Board Example](http://pingus.seul.org/~grumbel/tmp/md5/ca5c98b54e92b1317776c49970f2bbbe-info-boxes-done-right.png)
 
@@ -423,7 +423,7 @@ Since [6492](Template:Revision "wikilink"), either behavior is possible, dependi
 Slope Tiles
 -----------
 
-![Snow Slopes](Supertux-slopes.png "Snow Slopes")
+![Snow Slopes](images/Supertux-slopes.png "Snow Slopes")
 
 Slope tiles should be integrated.
 
@@ -433,14 +433,14 @@ Aren't they? —[octo](User:Octo "wikilink") 22:23, 26 February 2010 (UTC)
 Ice Tiles
 ---------
 
-![Ice Tiles](Supertux-icetiles.png "Ice Tiles")
+![Ice Tiles](images/Supertux-icetiles.png "Ice Tiles")
 
 Make Tux skid around and harder to control
 
 Deep Snow Tiles
 ---------------
 
-![deepsnow](Supertux-deepsnow.png "deepsnow")
+![deepsnow](images/Supertux-deepsnow.png "deepsnow")
 
 Slow Tux down, cause him to sink in half
 
@@ -449,7 +449,7 @@ Slow Tux down, cause him to sink in half
 Icefloe
 -------
 
-![Ice Floe](Icefloe.png "Ice Floe")
+![Ice Floe](images/Icefloe.png "Ice Floe")
 
 Problem: We don't have good water behavior.
 
@@ -652,14 +652,14 @@ Slopes
 
 When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination. Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems. You may want to avoid the use of steep slopes for the time being, at least until the slope collision physics are improved some more. Along those same lines, the placement of slopes directly next to a vertical wall currently produces some bizarre behavior and should be avoided until the mechanics are improved.
 
-![Styleguide Slope](Styleguide_slope.png "Styleguide Slope")
+![Styleguide Slope](images/Styleguide_slope.png "Styleguide Slope")
 
 Tiles
 -----
 
 Don't use tiles in the background that were built for the foreground. Use only special background tiles in the background. In general, don't ever mix tilesets. Clearly distinguish between the layers - players should be able to see immediately where they can safely walk and what is foreground and background. Secret areas can violate this.
 
-![Styleguide Tiles](Styleguide_tiles.png "Styleguide Tiles")
+![Styleguide Tiles](images/Styleguide_tiles.png "Styleguide Tiles")
 
 Size
 ----
@@ -680,7 +680,7 @@ However, it's not critical that custom levels necessarily follow the same naming
 Sectors
 -------
 
-![How NOT bind sectors together](nsb.png "fig:How NOT bind sectors together") When making a level, use floors and ceilings where appropriate. Basic rule of thumb is that your environment should visually make sense. For example:
+![How NOT bind sectors together](images/nsb.png "fig:How NOT bind sectors together") When making a level, use floors and ceilings where appropriate. Basic rule of thumb is that your environment should visually make sense. For example:
 
 -   Overground areas should have a floor and no ceiling.
 -   Underground/cave and interior areas should have both a floor and a ceiling.
@@ -1131,7 +1131,7 @@ The test/ levels are currently quite a big mess, there needs to be cleanup to re
 World 1 - Icyisland
 ===================
 
-World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done: ![New Pipe Variations](Newpipe_blue.png "fig:New Pipe Variations")
+World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done: ![New Pipe Variations](images/Newpipe_blue.png "fig:New Pipe Variations")
 
 -   Jumpy shall be replaced with an enemy that fits better into the snow landscape, Jumpy himself shall be reused in a lava-like setting or in the bosses castle
       
@@ -1158,7 +1158,7 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 Intro/Credits
 =============
 
-![Intro Storyboard](Introcutscene.png "fig:Intro Storyboard") The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
+![Intro Storyboard](images/Introcutscene.png "fig:Intro Storyboard") The text based intro and credits shall be replaced with cutscenes, showing the events that are described in the text. Instead of auto-scrolling text the game shall provide text that doesn't scroll, but instead only continues up on user interaction (i.e. press action button to see the next page of text). Text in cutscenes shall get printed letter by letter to the screen to provide a sense of 'motion'. Voice over from a story-teller might be consideration, while Tux, Penny and Nolok itself shall remain without speech.
 
 **Later in the development of Milestone2**
 

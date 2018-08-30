@@ -508,7 +508,7 @@ explodes if he is hit by one of Tux's fireballs, but if hit by an
 
 <div style="clear: both;">
 </div>
-![Old image of Mr. Bomb](Mrbomb-left-0.png "fig:Old image of Mr. Bomb")
+![Old image of Mr. Bomb](images/Mrbomb-left-0.png "fig:Old image of Mr. Bomb")
 Due to Grumbel's complaint that “Mr. Bomb is the ugliest badguy ever
 created”, user [Poison Ivy](User:Poison_Ivy "wikilink") created a
 concept image for a new look by combining features of
@@ -680,7 +680,7 @@ Skullyhop
 
 **Skullyhops** jump around and chase Tux.
 
-![Iced skully hop.](Skullyhop-iced-left.png "Iced skully hop.")
+![Iced skully hop.](images/Skullyhop-iced-left.png "Iced skully hop.")
 
 
 
@@ -1012,7 +1012,7 @@ After 3-5 hits the yeti should give up and the screen fade away. Maybe in a shor
 
 BadGuys
 =======
-![Flying Snowball](Flyingsnowball.png "fig:Flying Snowball") ![Mr. Bomb](Mrbomb.png "fig:Mr. Bomb") A **badguy** in *SuperTux* is a foe of [Tux](Tux "wikilink"). They may not be “bad” in the way that a hedgehog isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like [Snowballs](Snowball "wikilink") with varying characteristics, but some are more like objects ([Stalactite](Stalactite "wikilink") for example) or phenomena like [Flame](Flame "wikilink").
+![Flying Snowball](images/Flyingsnowball.png "fig:Flying Snowball") ![Mr. Bomb](images/Mrbomb.png "fig:Mr. Bomb") A **badguy** in *SuperTux* is a foe of [Tux](Tux "wikilink"). They may not be “bad” in the way that a hedgehog isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like [Snowballs](Snowball "wikilink") with varying characteristics, but some are more like objects ([Stalactite](Stalactite "wikilink") for example) or phenomena like [Flame](Flame "wikilink").
 
 Tux will try to avoid approaching badguys if possible. If he runs into one or one drops on his head, he is hurt. When hurt Tux will lose a [powerup](powerup "wikilink") or, if Tux has no powerups left, will be pushed off the screen.
 
