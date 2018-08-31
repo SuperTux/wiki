@@ -1,32 +1,28 @@
 ### Current
 
-- [Fireflower](#Fireflower)
-- [Running](#Running)
-- [Buttjump](#Buttjump)
-- [Backflip](#Backflip)
+- [Fireflower](#fireflower)
+- [Running](#running)
+- [Buttjump](#buttjump)
+- [Backflip](#backflip)
 
 ### Proposed
 
-- [Standing still/idling](#Idling)
-- [Blowflyer](#Blowflyer)
-- [Iceflower](#Iceflower)
-- [Slider](#Slider)
-- [Flapping](#Flapping)
-- [Soap](#Soap)
-- [Rope](#Rope)
-- [Swimming](#Swimming)
-- [Dive](#Dive)
+- [Standing still/idling](#idling)
+- [Blowflyer](#blowflyer)
+- [Iceflower](#iceflower)
+- [Slider](#slider)
+- [Flapping](#flapping)
+- [Swimming](#swimming)
+- [Dive](#dive)
 
 Fireflower
 ----------
 
-![](images/Fire_flower-0.png "fig:Fire_flower-0.png")
+![](images/Fire-flower-0.png)
 
-The behaviour of the **fireflower** is that it gives [Tux](Tux
-"wikilink") the ability to spit bouncing fire bullets. Most badguys
-are killed when being struck by a fire bullet. A list of badguys which
-can be killed with firebullets is available in the [burnable badguys
-category](:Category:Burnable_badguys "wikilink").
+The behaviour of the **fireflower** is that it gives Tux the ability
+to spit bouncing fire bullets. Most badguys are killed when being
+struck by a fire bullet.
 
 Any subsequent fireflowers that Tux takes increase the amount of fire
 bullets that can be on the screen at the same time, but do not
@@ -53,12 +49,10 @@ Buttjump
 
 ![Image of the buttjump action](images/Buttjump.png "fig:Image of thebuttjump action")
 
-The **buttjump** is an ability that lets [Tux](Tux "wikilink") crush
-boxes from above and destroy some [badguys](badguy "wikilink") that
-cannot be harmed by a normal jump. It is performed by jumping up into
-the air and then pressing the *Down* key while in the air. Take a look
-at the [buttjumpable badguys category](:Category:Buttjumpable_badguys
-"wikilink") for a list of badguys that can be harmed by a buttjump.
+The **buttjump** is an ability that lets Tux crush boxes from above
+and destroy some badguys that cannot be harmed by a normal jump. It is
+performed by jumping up into the air and then pressing the *Down* key
+while in the air.
 
 The buttjump has the following flow of actions
 
@@ -80,8 +74,7 @@ The buttjump has the following flow of actions
 7.  It takes Tux a small amount of time to jump back onto his feet to get back to normal
 
 Proposals featuring special items or power meters have been rejected.
-For reasons why see [Special Items Are Evil](Special_Items_Are_Evil
-"wikilink").
+For reasons why see [Special Items Are Evil](Ideas#special-items-are-evil).
 
 Proposed abilities
 ==================
@@ -120,25 +113,22 @@ pump himself up with.
 Flapping
 --------
 
-Once in the air, [Tux](Tux "wikilink") should be allowed to flap with
+Once in the air, Tux should be allowed to flap with
 his wings. They are not enough to let him fly, but should allow him to
 get some additional air-time (like a small double-jump).
 
-![](images/flapping.png "flapping.png")
+![](images/Flapping.png)
 
 Iceflower
 ---------
 
-<Template:NeedGraphics> <Template:NeedSound> ![The iceflower
-symbol](images/Ice_flower.png "fig:The iceflower symbol") The
-**iceflower** will give [Tux](Tux "wikilink") the [ability](Actions
-"wikilink") to shoot ice bullets. Ice bullets will not bounce like
-[fire bullets](Fireflower "wikilink"), but will shoot out in a
+![](images/Ice-flower.png)
+
+The iceflower will give Tux the ability to shoot ice bullets. Ice
+bullets will not bounce like fire bullets, but will shoot out in a
 straight path towards the enemy. When the ice bullet hits an enemy it
-will freeze him for a short time, if the enemy [is
-freezable](:Category:Freezable_badguys "wikilink") not
-[Snowball](Snowball "wikilink"), [Mr. Iceblock](Mr._Iceblock
-"wikilink") and [Bouncing Snowball](Bouncing_Snowball "wikilink").
+will freeze him for a short time, if the enemy is freezable not
+Snowball, Mr. Iceblock and Bouncing Snowball.
 
 ### Proposed behavior
 
@@ -252,7 +242,7 @@ cheat to get jetpack fast, read through the page)
 
 TODO: Create some sketches for this to better explain it
 
---[MatzeB](User:MatzeB "wikilink") 11:24, 23 Oct 2006 (CEST)
+--[MatzeB](Developers#matzeb) 11:24, 23 Oct 2006 (CEST)
 
 Wario Land 2 for GB has this system:
 
@@ -287,8 +277,7 @@ after that and make the Tux sprite return to the horizontal angle
 acceleration). There could be no need for a new collision detection
 code after all, you don't need to rotate rectangles, just reorganize
 them to fit each Tux shape (horizontal Tux, vertical Tux and +/-45º
-rotated Tux, no more angles needed). --[Ferk](User:Ferk "wikilink")
-13:41, 2 February 2007 (UTC)
+rotated Tux, no more angles needed). -- Ferk 13:41, 2 February 2007 (UTC)
 
 It's not about rotating images, but about the correct collision
 detection for rotated rectangles.
