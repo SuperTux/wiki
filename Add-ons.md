@@ -1,7 +1,7 @@
 **Add-ons** are extensions for *SuperTux* which are distributed
 separately from the main distribution. In most cases, they are sets of
 levels contributed by users or groups of users. They may, however,
-include custom [tilesets](tileset "wikilink"), which may give these
+include custom [[tilesets|Tileset]], which may give these
 levels a very distinct look.
 
 Add-ons can be downloaded from within *SuperTux*. Simply ensure you

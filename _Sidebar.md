@@ -42,7 +42,7 @@ Specifications
 * [[S-Expression]]
 * [[File_formats]]
 * [[Level-Format]]
-* [[Tile]]
+* [[Tileset]]
 * [[Sprite]]
 
 Milestones
