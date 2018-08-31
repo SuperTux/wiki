@@ -48,8 +48,8 @@ Milestones
 
 * [[Milestone 1 Analysis]]
 * [[Milestone 2 Design Document]]
+* [[Milestone 2 Design Document Old]]
 * [[Milestone 3 Design Document]]
-* [[Old_Milestone_2_Design_Document]]
 
 Ideas
 
