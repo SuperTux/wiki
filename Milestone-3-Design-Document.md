@@ -85,8 +85,8 @@ Swimming
 
 Since Tux is a penguin he has a good ability to swim. Water will not harm him. Swimming works by basically having two modes:
 
--   'standing': Tux stands still in the water, via the directional controls he can move up/down/left/right, this mode is very slow, but exact
--   'swimming': by pressing a button Tux can go into swim mode, in this mode he swims at fast speed, can crush blocks with ramming them and perform jumps out of the water
+- 'standing': Tux stands still in the water, via the directional controls he can move up/down/left/right, this mode is very slow, but exact
+- 'swimming': by pressing a button Tux can go into swim mode, in this mode he swims at fast speed, can crush blocks with ramming them and perform jumps out of the water
 
 World 2 - Forest
 ================
@@ -95,8 +95,8 @@ World 2 - Forest
 
 The forest island is split into different section, one being a classical forest, one being tree-tops, then a stone based section, followed by a dark ghost forest and finally the boss castle. Each section might feature separate tilesets for above or below ground action.
 
--   enemies: owl, snail, greeny, plant, eater, spitter, mr tree, leafman, [Cannon](Cannon "wikilink"), spider, ladybugs, stony, walking bush, drop-down oak
--   boss: totem
+- enemies: owl, snail, greeny, plant, eater, spitter, mr tree, leafman, [Cannon](Cannon "wikilink"), spider, ladybugs, stony, walking bush, drop-down oak
+- boss: totem
 
 Ghost Forest
 ------------
@@ -152,37 +152,53 @@ When jumped up on the snail rolls into her house and thus becomes invincible as 
 
 ### Fluffy
 
-![Fluffy](images/Fluffy.png "fig:Fluffy") Fluffy is a small enemy that moves around via little hop motions, jumping on him will kill him.
+![Fluffy](images/Fluffy.png "fig:Fluffy")
+
+Fluffy is a small enemy that moves around via little hop motions, jumping on him will kill him.
 
 ### Greeny
 
-![Greeny](images/Greeny.png "fig:Greeny") Basic forest enemy, for most part just a simple snowball replacement.
+![Greeny](images/Greeny.png "fig:Greeny")
+
+Basic forest enemy, for most part just a simple snowball replacement.
 
 ### MrTree
 
-![](images/Mrtree.png) In its basic version MrTree behaves similary to the Iceblock and thus acts as its replacment in the forest world. He might however also come in stacked-versions, movment stays the same, but its height varies. When jumped up-on a stacked MrTree only the top most one is killed, the others stay untouched. Another variant to MrTree is the toupee one, he has 'green stuff' on its head which might protect him against a single jump, after that jump his green protection is destroyed an he becomes a basic MrTree.
+![](images/Mrtree.png)
+
+In its basic version MrTree behaves similary to the Iceblock and thus acts as its replacment in the forest world. He might however also come in stacked-versions, movment stays the same, but its height varies. When jumped up-on a stacked MrTree only the top most one is killed, the others stay untouched. Another variant to MrTree is the toupee one, he has 'green stuff' on its head which might protect him against a single jump, after that jump his green protection is destroyed an he becomes a basic MrTree.
 
 A last version of MrTree might come in large size.
 
 ### Leafman
 
-![Leafman](images/Leafman.png "fig:Leafman") A basic enemy which however gets near invisible when walking. Every few steps he stays still and thus becomes visible. He might interact with wind.
+![Leafman](images/Leafman.png "fig:Leafman")
+
+A basic enemy which however gets near invisible when walking. Every few steps he stays still and thus becomes visible. He might interact with wind.
 
 ### Colory
 
-![Colory](images/Colory.png "fig:Colory") A enemy specifically for color castles, it can glow in different colors and thus influence the color-tiles. It might also be influenced by lamps itself.
+![Colory](images/Colory.png "fig:Colory")
+
+A enemy specifically for color castles, it can glow in different colors and thus influence the color-tiles. It might also be influenced by lamps itself.
 
 ### Spider
 
-![Spider](images/Spider.png "fig:Spider") The Spider hangs at the side of a tilemap, either a hard one or an unisolid one. At regular intervals the Spider 'charges up' and performs a jump. After the jump it falls back to the tilemap and attach back to it. The spider can walk on the side of the tilemap, but can't walk on normal ground like a Snowball.
+![Spider](images/Spider.png "fig:Spider")
+
+The Spider hangs at the side of a tilemap, either a hard one or an unisolid one. At regular intervals the Spider 'charges up' and performs a jump. After the jump it falls back to the tilemap and attach back to it. The spider can walk on the side of the tilemap, but can't walk on normal ground like a Snowball.
 
 ### Ladybug
 
-![Ladybug](images/Ladybug.png "fig:Ladybug") The Ladybug is a simple flying enemy that flies in a sinus-curve motion.
+![Ladybug](images/Ladybug.png "fig:Ladybug")
+
+The Ladybug is a simple flying enemy that flies in a sinus-curve motion.
 
 ### Stony
 
-![Stony in Wall](images/Stony_wall.png "fig:Stony in Wall") Stony hides himself in stone walls and is invisible, only when one gets closer he becomes alive and drops down. Multiple Stonies might come as group and drop down at irregular intervals.
+![Stony in Wall](images/Stony_wall.png "fig:Stony in Wall")
+
+Stony hides himself in stone walls and is invisible, only when one gets closer he becomes alive and drops down. Multiple Stonies might come as group and drop down at irregular intervals.
 
 ### Walking Bush
 
@@ -220,7 +236,9 @@ Angry stone is attached to the roof of a level, once Tux gets close to him (one 
 
 ### Carnivorous Plant
 
-![Carnivorous Plant](images/Plant.png "fig:Carnivorous Plant") Plant is fixed on the ground, when Tux gets close it starts to reach for him. When walking slowly it might be possible to walk by a plant without waking her and thus getting killed.
+![Carnivorous Plant](images/Plant.png "fig:Carnivorous Plant")
+
+Plant is fixed on the ground, when Tux gets close it starts to reach for him. When walking slowly it might be possible to walk by a plant without waking her and thus getting killed.
 
 ### Lava Animal
 
@@ -229,8 +247,8 @@ A creature that lives in the lava and jumps at Tux every now and then.
 Editor
 ======
 
--   editor needs a minimap, like Flexlay
--   editor needs a grid, like Flexlay
+- editor needs a minimap, like Flexlay
+- editor needs a grid, like Flexlay
 
 Open Questions
 ==============
@@ -244,33 +262,33 @@ What contrib levels contain ideas that might be worth to recycle?
 Disfavored Features in the current Development Version
 ======================================================
 
--   Pogonia graphics: simply don't look as if they are dangerous, shall be removed or ignored for official M2 level
--   Scripting: scripting shall be limited to cutscenes (intro/credits), boss fights, normal levels shall not feature scripting. If scripting is used it should be invisible, i.e. no “I push this trigger, watch that stupid cutscene and then move on stuff”, instead use scripting for rising water/lava, creatures with pseudo intelligent behavior or whatever, make it so that scripting doesn't interrupt gameplay, make it so that scripting provides gameplay
--   Enemies: plenty of them look pretty poor and should get removed/ignored
--   bitmaped backgrounds: shall be replaced with parallax scrolling ones.
--   main menu: could use some serious polishing, simply fill-rect background looks ugly
--   save system: very counter intuitive to get asked for a new save state for contrib levels
--   Tux rap in the intro: must not make its way into Milestone2
--   Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good, Tux should simply have infinitive lives
--   Reset Points: they don't look good and for most part don't do anything good, instead of having reset points levels should simply be made small enough so that they don't need reset points
--   Tux superpowers: hat is *really* ugly and shall go, even old red-Tux was way better
--   Tux split sprite: shall be rolled back to the single-image one of Milestone1
--   Level flipping: It might have some place in a ghost castle, but in the end I prefer it to not be used much at all.
+- Pogonia graphics: simply don't look as if they are dangerous, shall be removed or ignored for official M2 level
+- Scripting: scripting shall be limited to cutscenes (intro/credits), boss fights, normal levels shall not feature scripting. If scripting is used it should be invisible, i.e. no “I push this trigger, watch that stupid cutscene and then move on stuff”, instead use scripting for rising water/lava, creatures with pseudo intelligent behavior or whatever, make it so that scripting doesn't interrupt gameplay, make it so that scripting provides gameplay
+- Enemies: plenty of them look pretty poor and should get removed/ignored
+- bitmaped backgrounds: shall be replaced with parallax scrolling ones.
+- main menu: could use some serious polishing, simply fill-rect background looks ugly
+- save system: very counter intuitive to get asked for a new save state for contrib levels
+- Tux rap in the intro: must not make its way into Milestone2
+- Coin handling as extra life: punishes the weak, doesn't add any gameplay and for most part just doesn't feel good, Tux should simply have infinitive lives
+- Reset Points: they don't look good and for most part don't do anything good, instead of having reset points levels should simply be made small enough so that they don't need reset points
+- Tux superpowers: hat is *really* ugly and shall go, even old red-Tux was way better
+- Tux split sprite: shall be rolled back to the single-image one of Milestone1
+- Level flipping: It might have some place in a ghost castle, but in the end I prefer it to not be used much at all.
 
 Disfavored Practices in Current Development
 ===========================================
 
--   Bug fixing: while some is obviously necessary, to much time is spend fixing bugs in levels or code that might be removed later in the development of Milestone2
--   Feature addition without discussion first
--   Disorganisation: hard to figure out who works on what, when and how. Hard to get enough people together to have a meaningful discussion
--   Mailing list often overrun by non-development people, making it hard to discuss core game features
--   Discussion over details, while leaving the whole game totally out of the picture
--   nobody ever uses [News](News "wikilink")
+- Bug fixing: while some is obviously necessary, to much time is spend fixing bugs in levels or code that might be removed later in the development of Milestone2
+- Feature addition without discussion first
+- Disorganisation: hard to figure out who works on what, when and how. Hard to get enough people together to have a meaningful discussion
+- Mailing list often overrun by non-development people, making it hard to discuss core game features
+- Discussion over details, while leaving the whole game totally out of the picture
+- nobody ever uses [News](News "wikilink")
 
 Tasks
 =====
 
--   develop two showcase levels, one for the ice world another for the forest world, that demonstrate graphics, enemy and objects that will be featured in Milestone2
+- develop two showcase levels, one for the ice world another for the forest world, that demonstrate graphics, enemy and objects that will be featured in Milestone2
 
 Miscellaneous
 =============
