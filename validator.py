@@ -113,7 +113,10 @@ class Validator:
                       file=sys.stderr)
 
             if rest and self._flags & ValidatorFlags.ANCHOR:
-                self.validate_anchor(node, rest[0])
+                # need to read in the other document to validate this
+                # anchor properly
+                # self.validate_anchor(node, rest[0])
+                pass
 
     def validate_anchor(self, node, anchor: str) -> None:
         if anchor not in self._anchors:
@@ -132,7 +135,9 @@ class Validator:
         if starttag:
             if node.t == "heading":
                 children = list(node.walker())
-                self._anchors.append(children[1][0].literal)
+                title = children[1][0].literal
+                anchor = title.lower().replace(" ", "-")
+                self._anchors.append(anchor)
 
     def check(self, node, starttag: bool):
         if starttag:
