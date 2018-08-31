@@ -318,7 +318,7 @@ Captain snowball is used in several level in bonus 3 --[giby](User:giby "wikilin
 295
 ---
 
-![](images/up.png "fig:up.png")The spike isn't really an enemy, so much as an obstacle, but for some strange reason, it's in the creatures' image directory, but implemented as a tile. Currently the spike only hurts Tux, instead of insta-killing him as might be wanted, for example at the bottom of deep pits. Alternately, we could simply have shallow pits that are easy to jump out of. (but that still hurt Tux)
+![](images/Up.png "fig:up.png")The spike isn't really an enemy, so much as an obstacle, but for some strange reason, it's in the creatures' image directory, but implemented as a tile. Currently the spike only hurts Tux, instead of insta-killing him as might be wanted, for example at the bottom of deep pits. Alternately, we could simply have shallow pits that are easy to jump out of. (but that still hurt Tux)
 
 [Short Fuse](Short_Fuse "wikilink"), ~~Mini Bomb~~
 --------------------------------------------------
@@ -337,7 +337,9 @@ Spitter (proposed)
 Yeti
 ----
 
-<img src="Yeti-concept.jpg" title="fig:Yeti" alt="Yeti" width="64" /> ![Yeti Boss Cutscene](images/Yetiapproach.png "fig:Yeti Boss Cutscene")
+![](images/Yeti-concept.jpg)
+
+![](images/Yetiapproach.png)
 
 The Yeti is the boss that awaits Tux in the first castle. After entering the throne room Tux will find a letter in which Nolok tells Tux of the other castles in other worlds (see Milestone1 extro.txt). In the background there is a window. While reading the note one will see a shadow approaching the window and soon after the Yeti jumping through the window. The normal boss battle starts instantly after the jump.
 
@@ -414,7 +416,9 @@ Objects
 Billboards
 ----------
 
-![Billboard explaining the [fireflower](fireflower "wikilink") in *Welcome to Antarctica*.](images/Screenshot_Billboard_Fireflower.png "fig:Billboard explaining the fireflower in Welcome to Antarctica.") **Billboards** are in-game explanations of game mechanics, such as the [Fireflower](Fireflower "wikilink") or reset points.
+![](images/Screenshot-Billboard-Fireflower.png)
+
+**Billboards** are in-game explanations of game mechanics, such as the [Fireflower](Fireflower "wikilink") or reset points.
 
 [Info Board Example](http://pingus.seul.org/~grumbel/tmp/md5/ca5c98b54e92b1317776c49970f2bbbe-info-boxes-done-right.png)
 
@@ -520,9 +524,6 @@ Next Meeting Agenda (7. August 2008, 18:00 GMT)
 
 -   supertux.info status? integrate in main page?
 -   GP2x updates
-
-<!-- -->
-
 -   music submission: BlastOffTek music pack for Supertux.rar
 -   badguy name cleanup
 -   GP2x status
@@ -735,7 +736,7 @@ of slopes directly next to a vertical wall currently produces some
 bizarre behavior and should be avoided until the mechanics are
 improved.
 
-![Styleguide Slope](images/Styleguide_slope.png "Styleguide Slope")
+![Styleguide Slope](images/Styleguide-slope.png "Styleguide Slope")
 
 Tiles
 -----
@@ -746,7 +747,7 @@ ever mix tilesets. Clearly distinguish between the layers - players
 should be able to see immediately where they can safely walk and what
 is foreground and background. Secret areas can violate this.
 
-![Styleguide Tiles](images/Styleguide_tiles.png "Styleguide Tiles")
+![Styleguide Tiles](images/Styleguide-tiles.png "Styleguide Tiles")
 
 Size
 ----
@@ -785,7 +786,7 @@ level.
 Sectors
 -------
 
-![How NOT bind sectors together](images/nsb.png "fig:How NOT bind sectors together") When making a level, use floors and ceilings where appropriate. Basic rule of thumb is that your environment should visually make sense. For example:
+![How NOT bind sectors together](images/Nsb.png "fig:How NOT bind sectors together") When making a level, use floors and ceilings where appropriate. Basic rule of thumb is that your environment should visually make sense. For example:
 
 -   Overground areas should have a floor and no ceiling.
 -   Underground/cave and interior areas should have both a floor and a ceiling.
@@ -1277,7 +1278,7 @@ The test/ levels are currently quite a big mess, there needs to be cleanup to re
 World 1 - Icyisland
 ===================
 
-World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done: ![New Pipe Variations](images/Newpipe_blue.png "fig:New Pipe Variations")
+World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done: ![New Pipe Variations](images/Newpipe-blue.png "fig:New Pipe Variations")
 
 -   Jumpy shall be replaced with an enemy that fits better into the snow landscape, Jumpy himself shall be reused in a lava-like setting or in the bosses castle
 
