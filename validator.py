@@ -131,11 +131,17 @@ class Validator:
                                                         node.destination),
                   file=sys.stderr)
 
+    def get_text(self, node) -> str:
+        result = ""
+        for child, starttag in node.walker():
+            if child.t == "text":
+                result += child.literal
+        return result
+
     def preprocess(self, node, starttag: bool):
         if starttag:
             if node.t == "heading":
-                children = list(node.walker())
-                title = children[1][0].literal
+                title = self.get_text(node)
                 anchor = title.lower().replace(" ", "-")
                 self._anchors.append(anchor)
 
