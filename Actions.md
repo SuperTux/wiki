@@ -1,36 +1,24 @@
 Current abilities
 -----------------
 
--   [Fireflower](Fireflower "wikilink")
--   [Running](Running "wikilink")
+-   [Fireflower](#Fireflower)
+-   [Running](#Running)
 
 Proposed abilities
 ------------------
 
--   [Standing still/idling](Idling "wikilink")
--   [Blowflyer](Blowflyer "wikilink")
--   [Buttjump](Buttjump "wikilink")
--   [Iceflower](Iceflower "wikilink")
--   [Slider](Slider "wikilink")
--   [Flapping](Flapping "wikilink")
--   [Soap](Soap "wikilink")
--   [Rope](Rope "wikilink")
--   [Boomerang](Boomerang "wikilink")
--   [Swimming](Swimming "wikilink")
--   [Pogo Stick](Pogo_Stick "wikilink")
--   [Dive](Dive "wikilink")
-
-Concept art
------------
-
--   [Actions concept art](Actions_concept_art "wikilink")
-
-Game Control
-------------
-
--   [Keyboard](Keyboard "wikilink")
--   [Controller](Controller "wikilink")
--   [Mouse](Mouse "wikilink")
+-   [Standing still/idling](#Idling)
+-   [Blowflyer](#Blowflyer)
+-   [Buttjump](#Buttjump)
+-   [Iceflower](#Iceflower)
+-   [Slider](#Slider)
+-   [Flapping](#Flapping)
+-   [Soap](#Soap)
+-   [Rope](#Rope)
+-   [Boomerang](#Boomerang)
+-   [Swimming](#Swimming)
+-   [Pogo Stick](#Pogo Stick)
+-   [Dive](#Dive)
 
 Blowflyer
 ---------
@@ -142,8 +130,8 @@ Examples:
 
 It would also be nice to make him turn and face the 'camera' if an idle timer was exceeded.
 
-Pogo\_Stick
------------
+Pogo Stick
+----------
 
 The Pogo Stick will give Tux the ability jump higher and to break blocks when he jumps on them. This will work simular to the NES game Ducktales and the PC game Commander Keen.
 
