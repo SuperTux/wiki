@@ -10,6 +10,7 @@ Guidelines
 * [[Disfavored Practices|Disfavored Practices in Development]]
 * [[Rejected-Ideas]]
 * [[Obstacles]]
+* [[Leveldesign]]
 
 Game Mechanics
 * [[Actions]]
