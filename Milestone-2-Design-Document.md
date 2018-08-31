@@ -1,35 +1,48 @@
-Milestone\_2\_Design\_Document%2FActions
-========================================
-
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
-
 Actions
 =======
 
-The major change in the basic actions will be making running automatic. Running will automatically happen when you have walked continuously into a certain direction and will be different by a new animation. The acceleration phase will be long enough to be able to make walking-jumps. The jump height should be similar to what it is now with different height for run and jump. The current implementation of having a walk-key and [Milestone-1](Milestone_1 "wikilink")-style running by default is *not* the intended final behavior.
+The major change in the basic actions will be making running
+automatic. Running will automatically happen when you have walked
+continuously into a certain direction and will be different by a new
+animation. The acceleration phase will be long enough to be able to
+make walking-jumps. The jump height should be similar to what it is
+now with different height for run and jump. The current implementation
+of having a walk-key and [Milestone-1](Milestone_1 "wikilink")-style
+running by default is *not* the intended final behavior.
 
-  
-What means “current” here? Which [SVN](SVN "wikilink") revision are you referring to? --[octo](User:Octo "wikilink") 08:38, 6 March 2010 (UTC)
+What means “current” here? Which [SVN](SVN "wikilink") revision are
+you referring to? --[octo](User:Octo "wikilink") 08:38, 6 March 2010
+(UTC)
 
-Rationale: The run key is overlooked by many people making the game extremely frustrating and annoying for them, since it isn't obvious that there is one, the tutorial situation in the form of a high wall in Milestone1 didn't really fix the problem, since we got still plenty of questions about the situation. It also serves little purpose since more experienced players will basically always press it down, i.e. almost nobody actually walks through the game on purpose.
+Rationale: The run key is overlooked by many people making the game
+extremely frustrating and annoying for them, since it isn't obvious
+that there is one, the tutorial situation in the form of a high wall
+in Milestone1 didn't really fix the problem, since we got still plenty
+of questions about the situation. It also serves little purpose since
+more experienced players will basically always press it down, i.e.
+almost nobody actually walks through the game on purpose.
 
 Jumping
 -------
 
-When standing or walking, [Tux](Tux "wikilink") can jump *four tiles* high. When running or using the [backflip](backflip "wikilink") jump, *Tux* can jump *five tiles* high.
+When standing or walking, [Tux](Tux "wikilink") can jump *four tiles*
+high. When running or using the [backflip](backflip "wikilink") jump,
+*Tux* can jump *five tiles* high.
 
-  
-*(This if from the top of my head. Please correct if this is wrong. --[octo](User:Octo "wikilink") 08:33, 6 March 2010 (UTC))*
+*(This if from the top of my head. Please correct if this is wrong.
+--[octo](User:Octo "wikilink") 08:33, 6 March 2010 (UTC))*
 
 **FIXME:**
 
--   How high, how is it influenced by running?
--   How far can Tux jump, i.e. what is the widest “normal” gap width that should occur in levels?
+- How high, how is it influenced by running?
+- How far can Tux jump, i.e. what is the widest “normal” gap width that should occur in levels?
 
 Running
 -------
 
-Walking and running velocity and acceleration are defined in [src/object/player.cpp](Template:SvnFile "wikilink"). Currently those values are:
+Walking and running velocity and acceleration are defined in
+[src/object/player.cpp](Template:SvnFile "wikilink"). Currently those
+values are:
 
 | Name                  | Value | Description                                       |
 |-----------------------|-------|---------------------------------------------------|
@@ -46,32 +59,42 @@ Walking and running velocity and acceleration are defined in [src/object/player.
 Backflip
 --------
 
-The backflip is a special jump which gives Tux some extra height compared to a normal jump.
+The backflip is a special jump which gives Tux some extra height
+compared to a normal jump.
 
 Flapping
 --------
 
-By flapping his wings Tux is able to get a short amount of additional time in the air as well as gain a tile in height.
+By flapping his wings Tux is able to get a short amount of additional
+time in the air as well as gain a tile in height.
 
-Reasons to have it: fits the penguin, interesting gameplay mechanic, has a reference implementation in the form of Yoshi Island
+Reasons to have it: fits the penguin, interesting gameplay mechanic,
+has a reference implementation in the form of Yoshi Island
 
 Reasons to not have it: Has been tried with not so much success
 
-Problem: Its a “now or never” game mechanic, it changes the game to much to be introduced at a later point.
+Problem: Its a “now or never” game mechanic, it changes the game to
+much to be introduced at a later point.
 
 **Will be ignored for now**
 
 Butt Jump
 ---------
 
-![Butt Jump](images/Supertux-buttjump.png "fig:Butt Jump") The Butt Jump is activated by pressing down while in the air. It causes Tux to crush down on the exact spot over which he currently is. The butt jump provides additional force that allows him to crush blocks and some kind of armored enemies.
+![Butt Jump](images/Supertux-buttjump.png "fig:Butt Jump") The Butt
+Jump is activated by pressing down while in the air. It causes Tux to
+crush down on the exact spot over which he currently is. The butt jump
+provides additional force that allows him to crush blocks and some
+kind of armored enemies.
 
 Blow Flyer
 ----------
 
 ![Tux in Bubble Mode](images/Tux_bubble.png "Tux in Bubble Mode")
 
-Tux body catches a lot of hot air and thus starts to float. This action is triggered by objects in the game world and automatically terminates after some amount of time.
+Tux body catches a lot of hot air and thus starts to float. This
+action is triggered by objects in the game world and automatically
+terminates after some amount of time.
 
 Can interact with wind.
 
@@ -80,12 +103,8 @@ Can interact with wind.
 Sliding down Slopes
 -------------------
 
-When on a slope you can press 'duck' and then slide down the slope, killing enemies in your way.
-
-Milestone\_2\_Design\_Document%2FControls
-=========================================
-
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
+When on a slope you can press 'duck' and then slide down the slope,
+killing enemies in your way.
 
 Controls
 ========
@@ -134,10 +153,13 @@ Notes:
 -   allowing hot-plugging of joystick would be nice (calling 'Setup Joystick' should query the joysticks in the system)
 -   ladders behavior must be compatible with both configurations
 
-Milestone\_2\_Design\_Document%2FEnemies
-========================================
+Enemies
+=======
 
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink") \_\_NOTOC\_\_ This page shall describe all enemies, old and new, in as much detail as possible. We also need to settle down on proper names for enemies, since currently there is a lot of confusion. If you want see on real names, click [here](real_badguys_names "wikilink").
+This page shall describe all enemies, old and new, in as much detail
+as possible. We also need to settle down on proper names for enemies,
+since currently there is a lot of confusion. If you want see on real
+names, click [here](real_badguys_names "wikilink").
 
 [Snowball](Snowball "wikilink")
 -------------------------------
@@ -162,7 +184,7 @@ Mrs. Snowball behaves like a normal [Snowball](Snowball "wikilink"), but instead
 
 **Status:** A very basic Snowman prototype is in [SVN](SVN "wikilink"), but lacks death animation and the whole separation behavior. Could use fists instead of balls as hands. -- [Grumbel](User:Grumbel "wikilink") 09:39, 23 February 2010 (UTC)
 
-  
+
 Basic separation behavior has been implemented in [6418](Template:Revision "wikilink"). We're missing a graphic for the Snowman's body though. —[octo](User:Octo "wikilink") 19:07, 27 February 2010 (UTC)
 
 The snowman's body is now falling down when he's squished. [grumbel](User:Grumbel "wikilink") wants to make a proper death graphic though. --[octo](User:Octo "wikilink") 22:20, 2 March 2010 (UTC)
@@ -192,7 +214,7 @@ Here are some ideas: Flyper, Propeller, Gadget, and Floatall. I'm Agent Spook, a
 
 **Status:** There is MrRocket in SVN which should be recycled and turned into a Snowshot. There is also a cannon that can be reused after its graphics have been replaced. -- [Grumbel](User:Grumbel "wikilink") 11:55, 23 February 2010 (UTC)
 
-  
+
 There's a Kamikaze Snowball in SVN, too. “Mr. Rocket” has been removed in [6408](Template:Revision "wikilink"). —[octo](User:Octo "wikilink") 21:03, 26 February 2010 (UTC)
 
 [Mr. IceBlock](Mr._IceBlock "wikilink")
@@ -266,7 +288,7 @@ Krush and Krosh are enemies that are hanging on the ceiling. When [Tux](Tux "wik
 
 **Status:** Needs a cool-down time after an attack, so it doesn't go up instantly. Needs particle effects when it hits the ground. Eyes should follow Tux. Should be larger, maybe 3x3 tiles or 4x4. Should accelerate while falling down, currently looks to much like constant velocity. -- [Grumbel](User:Grumbel "wikilink") 09:54, 23 February 2010 (UTC)
 
-  
+
 Acceleration has been fixed in [6403](Template:Revision "wikilink"). —[octo](User:Octo "wikilink") 19:38, 26 February 2010 (UTC)
 
 A cooldown timer has been added in [6405](Template:Revision "wikilink"). —[octo](User:Octo "wikilink") 19:49, 26 February 2010 (UTC)
@@ -276,7 +298,7 @@ A cooldown timer has been added in [6405](Template:Revision "wikilink"). —[oct
 
 ![](images/Dispenser_rocket_launcher.png "fig:Dispenser_rocket_launcher.png") The cannon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructible. [SVN](SVN "wikilink") for non-captainsnowball/kamizazesnowball enemies
 
-  
+
 The version in SVN can in fact shoot [Snowshots](Snowshot "wikilink"). Can this sentence be removed or do you mean something else? --[octo](User:Octo "wikilink") 07:55, 27 February 2010 (UTC)
 
 I didn't find any mention of [Captain Snowball](Captain_Snowball "wikilink") in neither the Milestone 2 nor the Milestone 3 design documents. What's the status on him? --[octo](User:Octo "wikilink") 07:55, 27 February 2010 (UTC)
@@ -326,23 +348,21 @@ Gulpy, ~~Eater~~ (proposed)
 
 ![Eater](images/Eater.png "fig:Eater") The Eater is a very small enemy, half the size of a snowball, he can however expand a lot. If Tux gets to close to him the Eater will open his mouth wide enough that he can devour Tux or even other badguys. He is not defeatable by jumping onto him, since he will then just eat Tux. Throwing stuff at him won't work either, since again he will just eat them.
 
-  
+
 So how can you defeat Gulpy? As-is, he just seems to be a moving hurting platform. --[Mathnerd314](User:Mathnerd314 "wikilink") 23:28, 7 March 2010 (UTC)
 
-  
+
 Maybe with starman--[173.59.123.229](Special:Contributions/173.59.123.229 "wikilink") 16:35, 23 December 2010 (UTC)
 
 ![Milestone 2 Enemies](images/Minibomb-and-stuff.png "Milestone 2 Enemies")
 
 [Template:Navbox Badguys](Template:Navbox_Badguys "wikilink")
 
-Milestone\_2\_Design\_Document%2FEngine
-=======================================
-
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
+Engine
+======
 
 Screensize/Aspect-Ratio
-=======================
+-----------------------
 
 Milestone2 will allow near total freedom in setting the screensize and the size of the projected area:
 
@@ -365,11 +385,11 @@ Questions
 
 Might 1280x1024 be a better choice then 1280x800, as its a common LCD resolution?
 
-  
+
 Maybe, if levels would have build in verticallity, at the moment they are just scaled to 25 tiles, which isn't enough for 1024, thus letterboxing. -- [Grumbel](User:Grumbel "wikilink") 11:11, 26 February 2010 (UTC)
 
-Milestone\_2\_Design\_Document%2FLevels
-=======================================
+Levels
+======
 
 [Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
 
@@ -388,13 +408,8 @@ Levels
 
 [Template:Level list Icy Island](Template:Level_list_Icy_Island "wikilink")
 
-Milestone\_2\_Design\_Document%2FObjects
-========================================
-
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
-
-Game Elements
-=============
+Objects
+=======
 
 Billboards
 ----------
@@ -418,7 +433,10 @@ Change [unstable tiles](unstable_tile "wikilink") to be have like one of those:
 -   [Donut Blocks in Super Mario World](http://www.youtube.com/watch?v=n_SqtR3xFpM#t=1m20s)
     -   Blocks fall down without crumbling first. The player can still jump off of them.
 
-Since [6492](Template:Revision "wikilink"), either behavior is possible, depending on the actions available in the sprite. The exact behavior is documented on the [Unstable tile](Unstable_tile "wikilink") page.
+Since [6492](Template:Revision "wikilink"), either behavior is
+possible, depending on the actions available in the sprite. The exact
+behavior is documented on the [Unstable tile](Unstable_tile
+"wikilink") page.
 
 Slope Tiles
 -----------
@@ -427,7 +445,7 @@ Slope Tiles
 
 Slope tiles should be integrated.
 
-  
+
 Aren't they? —[octo](User:Octo "wikilink") 22:23, 26 February 2010 (UTC)
 
 Ice Tiles
@@ -458,22 +476,32 @@ Problem: We don't have good water behavior.
 Reset Points
 ------------
 
-There shall be no reset points in the game, instead it should be made sure that levels are small enough to not require them.
+There shall be no reset points in the game, instead it should be made
+sure that levels are small enough to not require them.
 
 No Lives
 --------
 
-There will be no lives and no punishment for death aside from having to restart the level, due to the lack of reset points there simply is no need for lives.
+There will be no lives and no punishment for death aside from having
+to restart the level, due to the lack of reset points there simply is
+no need for lives.
 
 Collectibles
 ------------
 
-The game shall provide some form of special collectibles per level (5 special coins, 5 pieces of a crystal or stuff like that). How many of those collectibles are found is displayed in a prominent manner, not just part of the statistics. The Tux-doll (ex-1up) could be recycled for this purpose.
+The game shall provide some form of special collectibles per level (5
+special coins, 5 pieces of a crystal or stuff like that). How many of
+those collectibles are found is displayed in a prominent manner, not
+just part of the statistics. The Tux-doll (ex-1up) could be recycled
+for this purpose.
 
-Milestone\_2\_Design\_Document%2FObsolete
-=========================================
+Obsolete
+========
 
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink") Obsolete things from other pages. Note however that obsolete doesn't mean its useless, sometimes things are already done while other times they just haven't been properly integrated into the Milestone 2 Design Document yet and got moved here as a result of cleanup.
+Obsolete things from other pages. Note however that obsolete doesn't
+mean its useless, sometimes things are already done while other times
+they just haven't been properly integrated into the Milestone 2 Design
+Document yet and got moved here as a result of cleanup.
 
 For the old forest page, see [Milestone 3 Design Document](Milestone_3_Design_Document "wikilink")
 
@@ -623,59 +651,136 @@ Misc:
 -   The forum of supertux.info is currently broken or unmaintained. Should we shut down the server? Contact maintainer.
 -   Sounds for Ice Crusher, Flying Snowball, Snowball splashing against wall. Sound of rockets exploding is too loud.
 
-Milestone\_2\_Design\_Document%2FStyleguide
-===========================================
+Styleguide
+==========
 
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink") These guidelines should be kept for any level that appears in the main SuperTux level sequence. Any deviation should be rare and with great consideration (for example for a secret area). Designers making custom levels intended for an [Add-on](Add-on "wikilink") or Bonus Island are free of regulations - that's what those sections are for. However, keep in mind that if your levels violate too many of these suggestions people will likely find them not very fun.
+[Template:Navbox Milestone 2 Design
+Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
+These guidelines should be kept for any level that appears in the main
+SuperTux level sequence. Any deviation should be rare and with great
+consideration (for example for a secret area). Designers making custom
+levels intended for an [Add-on](Add-on "wikilink") or Bonus Island are
+free of regulations - that's what those sections are for. However,
+keep in mind that if your levels violate too many of these suggestions
+people will likely find them not very fun.
 
 Setting
 -------
 
-In [Milestone 2](Milestone_2 "wikilink"), will have [Icy Island](Icy_Island "wikilink") as game discovering area, the island already present in [Milestone 1](Milestone_1 "wikilink"). It has a snow and ice setting, so please use the appropriate [tiles](tile "wikilink") only. Most of them are in the “Snow” and “Blocks” groups in the level editor. There are numerous other tiles currently available in the editor, but they are either either not finalized (e.g. ice mountain) or not appropriate for *Icy Island*. In that first world, only basic elements should be found. It will present a revised [Forest](Forest "wikilink"), where more elaborate elements may be found. The Boss have to be designed. And eventually a third world (proposed to be [Tropical\_Island](Tropical_Island "wikilink")) with the Fun Pif quest. Please Note that Neither art or code is ready yet for this part, then you shall not design any level with their elements already available.
+In [Milestone 2](Milestone_2 "wikilink"), will have [Icy
+Island](Icy_Island "wikilink") as game discovering area, the island
+already present in [Milestone 1](Milestone_1 "wikilink"). It has a
+snow and ice setting, so please use the appropriate [tiles](tile
+"wikilink") only. Most of them are in the “Snow” and “Blocks” groups
+in the level editor. There are numerous other tiles currently
+available in the editor, but they are either either not finalized
+(e.g. ice mountain) or not appropriate for *Icy Island*. In that first
+world, only basic elements should be found. It will present a revised
+[Forest](Forest "wikilink"), where more elaborate elements may be
+found. The Boss have to be designed. And eventually a third world
+(proposed to be [Tropical\_Island](Tropical_Island "wikilink")) with
+the Fun Pif quest. Please Note that Neither art or code is ready yet
+for this part, then you shall not design any level with their elements
+already available.
 
 Difficulty
 ----------
 
-The goal of *SuperTux* is to be fun, not to be hard. So the goal is to make *fun* levels, not to make them *challenging*. Remember that a player will get frustrated and annoyed if he dies more than small number of times in a level and also keep in mind that a player will see the level for the first time when he plays it.
+The goal of *SuperTux* is to be fun, not to be hard. So the goal is to
+make *fun* levels, not to make them *challenging*. Remember that a
+player will get frustrated and annoyed if he dies more than small
+number of times in a level and also keep in mind that a player will
+see the level for the first time when he plays it.
 
-**Tip:** If you are in doubt if a level is getting too hard, change the style of play to something that is unfamiliar to you, invert left/right controls, play with the left hand, play only as small Tux or anything like that. If you can still beat the level without problems and without dying, it likely is easy enough. If not, then it is likely too hard.
+**Tip:** If you are in doubt if a level is getting too hard, change
+the style of play to something that is unfamiliar to you, invert
+left/right controls, play with the left hand, play only as small Tux
+or anything like that. If you can still beat the level without
+problems and without dying, it likely is easy enough. If not, then it
+is likely too hard.
 
 Enemies
 -------
 
-Do not randomly mix enemies of all different kinds. Level should follow a certain theme and thus focus on enemies that fit that theme. For example, fire enemies should only appear in castle levels. In addition, don't just randomly place each and every type of snow enemy into a level- pick a few enemies that best fit into your level.
+Do not randomly mix enemies of all different kinds. Level should
+follow a certain theme and thus focus on enemies that fit that theme.
+For example, fire enemies should only appear in castle levels. In
+addition, don't just randomly place each and every type of snow enemy
+into a level- pick a few enemies that best fit into your level.
 
-Be mindful of how enemies react to the environment when deciding where to put them. For example, snowball will always fall off ledges while smartball will always turn around at a ledge, thus snowball is a poor choice in a sky level where smarball is much more appropriate. Enemies should not fall off the screen before players have a chance to engage them, and it should be possible to fill out the *badguys killed* stat. Finally avoid placing enemies where they will reach a spawn point. This is most important around the level start and reset points, as there should be ample time for a player to see and assess the level before being forced to act. Levels that switch back-and-forth between sectors are also prone to having an enemy wander into a spawn point resulting in Tux being hurt immediately after spawning- this is bad and makes players sad.
+Be mindful of how enemies react to the environment when deciding where
+to put them. For example, snowball will always fall off ledges while
+smartball will always turn around at a ledge, thus snowball is a poor
+choice in a sky level where smarball is much more appropriate. Enemies
+should not fall off the screen before players have a chance to engage
+them, and it should be possible to fill out the *badguys killed* stat.
+Finally avoid placing enemies where they will reach a spawn point.
+This is most important around the level start and reset points, as
+there should be ample time for a player to see and assess the level
+before being forced to act. Levels that switch back-and-forth between
+sectors are also prone to having an enemy wander into a spawn point
+resulting in Tux being hurt immediately after spawning- this is bad
+and makes players sad.
 
 Slopes
 ------
 
-When creating slopes, make sure that they are smooth and don't make sudden jumps in inclination. Note when using slopes that some combinations are ill-fitting; ignore these artifacts as they are graphics problems, not level problems. You may want to avoid the use of steep slopes for the time being, at least until the slope collision physics are improved some more. Along those same lines, the placement of slopes directly next to a vertical wall currently produces some bizarre behavior and should be avoided until the mechanics are improved.
+When creating slopes, make sure that they are smooth and don't make
+sudden jumps in inclination. Note when using slopes that some
+combinations are ill-fitting; ignore these artifacts as they are
+graphics problems, not level problems. You may want to avoid the use
+of steep slopes for the time being, at least until the slope collision
+physics are improved some more. Along those same lines, the placement
+of slopes directly next to a vertical wall currently produces some
+bizarre behavior and should be avoided until the mechanics are
+improved.
 
 ![Styleguide Slope](images/Styleguide_slope.png "Styleguide Slope")
 
 Tiles
 -----
 
-Don't use tiles in the background that were built for the foreground. Use only special background tiles in the background. In general, don't ever mix tilesets. Clearly distinguish between the layers - players should be able to see immediately where they can safely walk and what is foreground and background. Secret areas can violate this.
+Don't use tiles in the background that were built for the foreground.
+Use only special background tiles in the background. In general, don't
+ever mix tilesets. Clearly distinguish between the layers - players
+should be able to see immediately where they can safely walk and what
+is foreground and background. Secret areas can violate this.
 
 ![Styleguide Tiles](images/Styleguide_tiles.png "Styleguide Tiles")
 
 Size
 ----
 
-Levels *must* be at least 25 tiles high, and using at least 32 tiles is recommended. Levels should be between 250 and 350 tiles long.
-(A couple of levels in [Icy Island](Icy_Island "wikilink") are over 500 tiles long – newer levels should not be this long and it's possible we'll split up those long levels in the future.)
-Any vertical scrolling sector should be no narrower than 40 tiles wide to ensure it displays well in every resolution setting currently supported by SuperTux.
+Levels *must* be at least 25 tiles high, and using at least 32 tiles
+is recommended. Levels should be between 250 and 350 tiles long. (A
+couple of levels in [Icy Island](Icy_Island "wikilink") are over
+500 tiles long – newer levels should not be this long and it's
+possible we'll split up those long levels in the future.) Any vertical
+scrolling sector should be no narrower than 40 tiles wide to ensure it
+displays well in every resolution setting currently supported by
+SuperTux.
 
 File Naming Conventions
 -----------------------
 
-When saving the level file, stick with the convention used for the worldmap. For example, *Icy Island* levels are named like this: *02 - example level.stl* where the number (02 in the example) showing what order you play the levels, and the level name are separated by a hyphen. The level extension is *.stl*, if you forget the extension, the level will not be recognized. If you need an example of naming convention, look at the data/levels/world1 directory. If level order does not matter, or is unknown, the number and hyphen can be omitted.
+When saving the level file, stick with the convention used for the
+worldmap. For example, *Icy Island* levels are named like this: *02 -
+example level.stl* where the number (02 in the example) showing what
+order you play the levels, and the level name are separated by a
+hyphen. The level extension is *.stl*, if you forget the extension,
+the level will not be recognized. If you need an example of naming
+convention, look at the data/levels/world1 directory. If level order
+does not matter, or is unknown, the number and hyphen can be omitted.
 
-Note: having spaces in the level names makes command-line manipulation of files for development atrocious, there should probably be a discussion about changing the convention to use underscores in the level names instead.
+Note: having spaces in the level names makes command-line manipulation
+of files for development atrocious, there should probably be a
+discussion about changing the convention to use underscores in the
+level names instead.
 
-However, it's not critical that custom levels necessarily follow the same naming convention. It is nevertheless best to stick with a non-cryptic naming scheme where it is obvious which file is for which level.
+However, it's not critical that custom levels necessarily follow the
+same naming convention. It is nevertheless best to stick with a
+non-cryptic naming scheme where it is obvious which file is for which
+level.
 
 Sectors
 -------
@@ -686,12 +791,20 @@ Sectors
 -   Underground/cave and interior areas should have both a floor and a ceiling.
 -   Sky area should have neither a floor nor ceiling.
 
-Transitions between sectors should also make sense. Having Tux walk off a screen of overground ice and suddenly appearing in the middle of a castle is confusing. Also one-way sector transitions should only be used where it is logical, such as dropping down a hole. Doors should be two-way. Sectors designed to be next to each other should be able to be visually connected.
+Transitions between sectors should also make sense. Having Tux walk
+off a screen of overground ice and suddenly appearing in the middle of
+a castle is confusing. Also one-way sector transitions should only be
+used where it is logical, such as dropping down a hole. Doors should
+be two-way. Sectors designed to be next to each other should be able
+to be visually connected.
 
 Other
 -----
 
-SuperTux is meant to be a fair and fun game, so don't create unfair configurations, like a spike on the roof as well as one on the ground, that require way too much precision or luck and just aren't fun to play.
+SuperTux is meant to be a fair and fun game, so don't create unfair
+configurations, like a spike on the roof as well as one on the ground,
+that require way too much precision or luck and just aren't fun to
+play.
 
 <img src="Howtonotdesignlevels.jpg" title="fig:How NOT to design levels" alt="How NOT to design levels" width="200" /> <img src="Hallofshame.jpg" title="fig:More things to avoid" alt="More things to avoid" width="200" />
 
@@ -718,10 +831,8 @@ External Links
 
 -   Secret Maryo Chronicles has some at <http://secretmaryo.org/wiki/index.php?title=Level_Design_Guidelines>
 
-Milestone\_2\_Design\_Document%2FTasks
-======================================
-
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
+Tasks
+=====
 
 <Template:nextversion>
 
@@ -807,10 +918,10 @@ Enemies
     -   A beginning has been made by renaming *Kamikaze Snowball* to [Snowshot](Snowshot "wikilink"). There's not much consensus about the other changes though, see [Meeting 2010-02-27](Meeting_2010-02-27 "wikilink"). --[octo](User:Octo "wikilink") 07:01, 5 March 2010 (UTC)
 -   AngryBonusBlock: Have a bonus block type that comes to life when tux jumps against it and then chases Tux
 
-  
+
 Break the “only good stuff from bonus blocks” and “same look same behaviour” rules? --[WolfgangB](User:WolfgangB "wikilink") 01:27, 25 May 2008 (UTC)
 
-  
+
 Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Also, bonus blocks already have varied behaviors. --[Mathnerd314](User:Mathnerd314 "wikilink") 04:23, 7 September 2008 (UTC)
 
 -   create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
@@ -821,7 +932,7 @@ Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Al
 -   [Flying Snowball](Flying_Snowball "wikilink"): Change timings to match that of Milestone1
 -   [Flying Snowball](Flying_Snowball "wikilink"): smoke effect for the motor seem to be to seldomly triggered
 -   [Icecrusher](Krush_and_Krosh "wikilink"): gravitation instead of linear, facial expression.
-      
+
     Gravitation has been done in [6403](Template:Revision "wikilink"). —[octo](User:Octo "wikilink") 19:19, 26 February 2010 (UTC)
 
 -   [Krosh](Krosh "wikilink") (big icecrusher): add a larger version of [Krush](Krush "wikilink") (the icecrusher), twice the size (4x4 files)
@@ -882,24 +993,24 @@ Finished
     -   <small>I think this is fixed or at least better now? - [sik0fewl](User:Sik0fewl "wikilink") 18:34, 30 April 2009 (UTC)</small>
 -   ~~add an cmd option --default~~ and/or a menu entry “Reset to Default” to reset any changes to resolution or aspect ratio (or something along those lines) (cmd done, WolfgangB)
 -   ~~create an overview of the current levels~~ — [Milestone 2 Design Document/Levels](Milestone_2_Design_Document/Levels "wikilink")
-      
+
     —[octo](User:Octo "wikilink") 07:24, 11 January 2011 (UTC)
 
     1.  ~~New unisolid snow tiles~~
     2.  Parallax backgrounds
-          
+
         <small>That's heavily used in *Above the Arctic Skies*. —[octo](User:Octo "wikilink") 07:22, 11 January 2011 (UTC)</small>
 
     3.  ~~Sector/Scripting use~~
     4.  ~~Crystallo and IceBlock badguys~~
     5.  ~~Add-ons + manager (To distribute these new levels, of course!)~~
-          
+
         [Incubator Island](Incubator_Island "wikilink") and [octo's levels](http://verplant.org/supertux) should do most of this
 
     6.  ~~Slopes and background tiles~~
     7.  Moving platforms ~~(ice platforms haven't been used yet...)~~
     8.  ~~Climbable ladders~~
-          
+
         <small>Ladders are not in the Milestone 2 document, but in Milestone 3. —[octo](User:Octo "wikilink") 07:22, 11 January 2011 (UTC)</small>
 
 -   try to fix white-lines around graphics problems (MatzeB)
@@ -914,13 +1025,13 @@ Finished
 -   create some playable test levels for new stuff
     -   <small>Anything in particular? - [sik0fewl](User:Sik0fewl "wikilink") 20:07, 15 June 2008 (UTC)</small>
 
-      
+
     Try these, since they're probably most noticeable to Milestone1 users: --[Mathnerd314](User:Mathnerd314 "wikilink") 04:23, 7 September 2008 (UTC)
 
 -   remove border from menu screen or make it scalable for different resolutions
 -   remove pictures from credits, looks to uneven that way
 
-  
+
 <small>Really? I like the pictures. --[WolfgangB](User:WolfgangB "wikilink") 19:00, 29 April 2008 (UTC)</small>
 
 <small>I do too. --[Mathnerd314](User:Mathnerd314 "wikilink") 00:05, 6 July 2008 (UTC)</small>
@@ -968,42 +1079,61 @@ Finished
 -   ~~add 'recent files' to level editor~~
 -   ~~can't run while carrying an object, but should be able to~~
 
-  
+
 No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial “no stuff behind this line” object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[WolfgangB](User:WolfgangB "wikilink") 01:22, 25 May 2008 (UTC))
 
-  
+
 With \*large\* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [Grumbel](User:Grumbel "wikilink") 17:13, 28 May 2008 (UTC)
 
-  
+
 The speed limiting code has been deactivated in [6540](Template:Revision "wikilink"). --[octo](User:Octo "wikilink") 06:51, 5 March 2010 (UTC)
 
 -   ~~General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour~~
     -   Fixed in [6554](Template:Revision "wikilink") —[octo](User:Octo "wikilink") 07:35, 9 March 2010 (UTC)
 -   ~~[Flying Snowball](Flying_Snowball "wikilink"): Add acceleration/deceleration instead of linear up and down~~
-      
+
     Isn't this the current behavior ([6402](Template:Revision "wikilink"))? —[octo](User:Octo "wikilink") 18:22, 26 February 2010 (UTC)
 
 -   ~~background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL\_NEAREST instead of GL\_LINEAR)~~
 
-Milestone\_2\_Design\_Document%2FTimeline
-=========================================
+Timeline
+========
 
-[Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink") Most releases have been in December on or near the 25th. The current goal is to get something cool, playable, and user-friendly out by then. The tasks are split into 3 phases, one for each month, though not necessarily in the order.
+Most releases have been in December on or near the 25th. The current
+goal is to get something cool, playable, and user-friendly out by
+then. The tasks are split into 3 phases, one for each month, though
+not necessarily in the order.
 
 Phase A - Graphics (October?)
 -----------------------------
 
-The ice tileset needs more variety. The current is a good start, but more types of plants are needed. Decorative glaciers, more things trapped in ice, molds, tundra, unisolid tile variants, and ice spikes should get created, so that levels can include them. The forest tileset has twice as many tiles as the ice world does, so copy if needed ideas from there. Also, fix the slope tiles.
+The ice tileset needs more variety. The current is a good start, but
+more types of plants are needed. Decorative glaciers, more things
+trapped in ice, molds, tundra, unisolid tile variants, and ice spikes
+should get created, so that levels can include them. The forest
+tileset has twice as many tiles as the ice world does, so copy if
+needed ideas from there. Also, fix the slope tiles.
 
 Phase B – Levels (November?)
 ----------------------------
 
-Once some tiles are added, people can start making pretty levels with ideas from all the previous ones. Reuse freely but don't constrain because the original had limited height. The [Styleguide](Milestone_2_Design_Document/Styleguide "wikilink") should be followed. Levels should be more than 60 tiles wide and more than 38 tiles tall to support the largest screen resolution we want to have. (1920 x 1200) As many levels as possible should be created so that we can mash ideas together and improve upon them.
+Once some tiles are added, people can start making pretty levels with
+ideas from all the previous ones. Reuse freely but don't constrain
+because the original had limited height. The
+[Styleguide](Milestone_2_Design_Document/Styleguide "wikilink") should
+be followed. Levels should be more than 60 tiles wide and more than 38
+tiles tall to support the largest screen resolution we want to have.
+(1920 x 1200) As many levels as possible should be created so that we
+can mash ideas together and improve upon them.
 
 Phase C – Code (Anytime)
 ------------------------
 
-Various bugs have been uncovered and need to be fixed, so people can create parallax backgrounds and other useful designs. Ice tiles should get implemented so Tux can skid around. We might want slope-sliding, except that requires OBB's... Some new enemy behaviors should be added so people can have variety in playing.
+Various bugs have been uncovered and need to be fixed, so people can
+create parallax backgrounds and other useful designs. Ice tiles should
+get implemented so Tux can skid around. We might want slope-sliding,
+except that requires OBB's... Some new enemy behaviors should be added
+so people can have variety in playing.
 
 Other Phases
 ------------
@@ -1013,12 +1143,18 @@ Some other phases exist that aren't key to playing the game or creating content 
 Phase D – Sounds and Music (Before release)
 -------------------------------------------
 
-The skid sound, grow-up, and some others don't sound quite in line with the rest. They should get tuned up to sound better... The music is also rather monotonous, as there are only 3 or so songs that levels can use. More could/should get created...
+The skid sound, grow-up, and some others don't sound quite in line
+with the rest. They should get tuned up to sound better... The music
+is also rather monotonous, as there are only 3 or so songs that levels
+can use. More could/should get created...
 
 Phase E – Editor (Before level phase begins)
 --------------------------------------------
 
-Some people have lots of trouble running the C\# editor, as evidenced by the large numbers (22) of bugs resulting in the complete inability to edit and create levels. Either some other language should be used, or a full-time support team (person?) should be around...
+Some people have lots of trouble running the C\# editor, as evidenced
+by the large numbers (22) of bugs resulting in the complete inability
+to edit and create levels. Either some other language should be used,
+or a full-time support team (person?) should be around...
 
 Milestone\_2\_Design\_Document%2FUser\_Interface
 ================================================
@@ -1069,12 +1205,22 @@ Configuration
 
 The games configuration (fullscreen, aspect ratio, geometry, etc.) shouldn't be saved when supplied by command line.
 
-Milestone\_2\_Design\_Document
+Milestone 2 Design Document
 ==============================
 
 [Template:Navbox Milestone 2 Design Document](Template:Navbox_Milestone_2_Design_Document "wikilink") \_\_TOC\_\_
 
-This document is meant to give a reasonably detailed guide on what shall and shall not happen in Milestone 2. It is also intended as a complete replacement of other, incomplete or otherwise flawed, Milestone 2 documents floating around in this Wiki. This design document is written by [Grumbel](User:Grumbel "wikilink"), question and comments are welcome, use the [talk page](Talk:Milestone_2_Design_Document "wikilink") or the [IRC](IRC "wikilink") channel for that. At the moment this document is a work-in-progress, meaning goals might change as time progresses. This document has not yet been approved by any other member of the *SuperTux* [development staff](Team "wikilink").
+This document is meant to give a reasonably detailed guide on what
+shall and shall not happen in Milestone 2. It is also intended as a
+complete replacement of other, incomplete or otherwise flawed,
+Milestone 2 documents floating around in this Wiki. This design
+document is written by [Grumbel](User:Grumbel "wikilink"), question
+and comments are welcome, use the [talk
+page](Talk:Milestone_2_Design_Document "wikilink") or the [IRC](IRC
+"wikilink") channel for that. At the moment this document is a
+work-in-progress, meaning goals might change as time progresses. This
+document has not yet been approved by any other member of the
+*SuperTux* [development staff](Team "wikilink").
 
 Motivation
 ==========
@@ -1096,14 +1242,14 @@ General
 =======
 
 -   uni-solid tiles shall be provided for all tilesets
-      
+
     Should the graphics of unisolid tiles differ from those of solid tiles? If not, using invisible unisolid tiles in the interactive tilemap and solid tiles in a non-solid background tilemap works just as well and doesn't duplicate tiles a hundredfold. --[octo](User:Octo "wikilink") 07:06, 2 March 2010 (UTC)
 
 -   multi-layer parallax scrolling background tilemaps shall be used in all levels
 -   menu system should be replaced/reworked
 -   save system could need a rework as well
 -   language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
-      
+
     I think this is how it is currently behaving, isn't it? --[octo](User:Octo "wikilink") 07:06, 2 March 2010 (UTC)
 
 -   worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
@@ -1115,7 +1261,7 @@ The levels of Milestone1 lack verticality as well as unisolid tiles, Milestone2 
 
 The *worldmap* should be rolled back to that of [Milestone 1](Milestone_1 "wikilink"), i.e. a mostly linear map, but additional optional paths shall be added.
 
-  
+
 This has been done in [6424](Template:Revision "wikilink") and is included in this form in *version 0.3.3*. The only additional path is to the bonus level, though. --[octo](User:Octo "wikilink") 07:12, 2 March 2010 (UTC)
 
 See [Milestone 2 Design Document/Levels](Milestone_2_Design_Document/Levels "wikilink") for a more detailed analysis of the current levels.
@@ -1125,7 +1271,7 @@ Cleanup
 
 The test/ levels are currently quite a big mess, there needs to be cleanup to reduce them to those that are really needed otherwise its to easy to miss the ones that are important.
 
-  
+
 [Mathnerd314](User:Mathnerd314 "wikilink") has cleaned up test levels a bit in [6477](Template:Revision "wikilink"). --[octo](User:Octo "wikilink") 07:09, 2 March 2010 (UTC)
 
 World 1 - Icyisland
@@ -1134,13 +1280,13 @@ World 1 - Icyisland
 World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2 is to adapt it to the new engine features as well as improving it by adding new enemies and new gameplay elements. While level structure might be recyclable in many places, it will often need structural improvements to provide real use of vertical and horizontal scrolling, instead of just locking the player in a horizontal-only scrolling level. Things that need to be done: ![New Pipe Variations](images/Newpipe_blue.png "fig:New Pipe Variations")
 
 -   Jumpy shall be replaced with an enemy that fits better into the snow landscape, Jumpy himself shall be reused in a lava-like setting or in the bosses castle
-      
+
     Are you referring to the old *Milestone 1* jumpy? The current snowball-with-a-spring look fits the snowy landscape well, IMHO. --[octo](User:Octo "wikilink") 07:18, 2 March 2010 (UTC)
 
 -   the walrus salesmen shall be added to the island
 -   some levels shall be separated out into optional paths, to provide a less linear path
 -   iceblocks which will melt on contact with fire shall allow to lock paths in a level or lock secrets
-      
+
     Code is there, see [weak blocks](weak_block "wikilink"). Needs graphics to fit into [Icy Island](Icy_Island "wikilink"). --[octo](User:Octo "wikilink") 07:18, 2 March 2010 (UTC)
 
 -   balanced platforms that start to rotate or move when Tux stands on them shall be provided
