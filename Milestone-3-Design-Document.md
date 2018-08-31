@@ -54,8 +54,6 @@ About this Document
 
 This document is a work in progress, nothing here is considered even remotely final.
 
-\_\_TOC\_\_
-
 Overview
 ========
 
@@ -277,6 +275,13 @@ Tasks
 Miscellaneous
 =============
 
-Image:Woodpipe.png|Wood Pipe Image:Treetop-tileset.jpg|Tree Top Level Image:Wallstone-tileset.jpg|Wall Stone Level Image:Wallstone-tileset2.jpg|Wall Stone Inside Image:Forestisland-structure.png|Forest Island Structure Image:Castle-lava.jpg|Lava in the Castle Image:Castletheme.jpg|Castle Theme Image:Ghost-portal.jpg|Portal into the Ghost forest
+![](images/Woodpipe.png "Wood Pipe")
+![](images/Treetop-tileset.jpg "Tree Top Level")
+![](images/Wallstone-tileset.jpg "Wall Stone Level")
+![](images/Wallstone-tileset2.jpg "Wall Stone Inside")
+![](images/Forestisland-structure.png "Forest Island Structure")
+![](images/Castle-lava.jpg "Lava in the Castle")
+![](images/Castletheme.jpg "Castle Theme")
+![](images/Ghost-portal.jpg "Portal into the Ghost forest")
 
 [Some ideas on paper](http://pingus.seul.org/~grumbel/tmp/supertux-2006-08-13/)
