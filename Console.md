@@ -1,25 +1,25 @@
 The Console is a panel normally hidden from view. Its usage is
 twofold:
 
--   It displays informational, warning and error messages that occur
-    during gameplay, alerting players of things like low diskspace,
-    broken levels, ...
--   It helps debug the engine and test levels by allowing direct
-    execution of Squirrel script commands (see [Scripting
-    reference](Scripting_reference "wikilink"))
+- It displays informational, warning and error messages that occur
+  during gameplay, alerting players of things like low diskspace,
+  broken levels, ...
+- It helps debug the engine and test levels by allowing direct
+  execution of Squirrel script commands (see [Scripting
+  reference](Scripting_reference "wikilink"))
 
 The Console pops into view for a short time whenever new messages are
 printed. To review old messages and enter commands, the console needs to
 be activated.
 
-To do so, you will have to run supertux using the `--console` option.
-The key assigned to opening the console can be changed in the keyboard
-setup as soon it is activated. (Default of \^) Use `--noconsole` to
-disable it again.
+To do so, you will have to run supertux using the `--developer`
+option. The key assigned to opening the console can be changed in the
+keyboard setup as soon it is activated. The default key is `\`` (the
+one with the `~` on it) or `^` on German keyboard layout).
 
-To disable or enable the console if you don't want to pass command line
-parameters, you will have to edit the edit the SuperTux configuration
-file. Depending on your operating system, this varies:
+To disable or enable the console if you don't want to pass command
+line parameters, you will have to edit the edit the SuperTux
+configuration file. Depending on your operating system, this varies:
 
 | Operating System        | Config file location
 |-------------------------|---------------------------------------------------------------------------------------------------------------
@@ -32,13 +32,13 @@ file. Depending on your operating system, this varies:
 You may have to enable viewing hidden files or folders. Anyway, open the
 file up with a text editor, and
 
-` (console #t)`
+    (developer #t)
 
 will enable the console, and
 
-` (console #f)`
+    (developer #f)
 
-will disable the console. Find one to change it to the other.
+will disable the console.
 
 Commands
 --------
