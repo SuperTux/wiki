@@ -126,7 +126,12 @@ class Validator:
 
     def validate_image_destination(self, node) -> None:
         # print("image: {}".format(link))
-        if not os.path.exists(node.destination):
+        if node.destination.startswith("http://") or node.destination.startswith("https://"):
+            if self._flags & ValidatorFlags.EXTERNAL:
+                if not url_valid(node.destination):
+                    print("{}: error: {} failed to load".format(self.get_pos(node),
+                                                                node.destination))
+        elif not os.path.exists(node.destination):
             print("{}: error: {} does not exist".format(self.get_pos(node),
                                                         node.destination),
                   file=sys.stderr)
