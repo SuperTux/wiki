@@ -90,7 +90,7 @@ kind of armored enemies.
 Blow Flyer
 ----------
 
-![Tux in Bubble Mode](images/Tux_bubble.png "Tux in Bubble Mode")
+![Tux in Bubble Mode](images/Tux-bubble.png "Tux in Bubble Mode")
 
 Tux body catches a lot of hot air and thus starts to float. This
 action is triggered by objects in the game world and automatically
@@ -199,7 +199,7 @@ The snowman's body is now falling down when he's squished. [grumbel](User:Grumbe
 ~~Avior, Dex,~~ Flying Snowball
 -------------------------------
 
-![Flying Snowball|right](images/Flyingsnowball.png "fig:Flying Snowball|right") The flying snowball has a propeller at his bottom which keeps him floating in the air. Due to Nolok's hurry, the motor is inefficient and varies in effectiveness, causing the flying snowball to move up and down while coughing out smoke and possibly other debris.
+![Flying Snowball|right](img/badguy/icons/Flyingsnowball.png "fig:Flying Snowball|right") The flying snowball has a propeller at his bottom which keeps him floating in the air. Due to Nolok's hurry, the motor is inefficient and varies in effectiveness, causing the flying snowball to move up and down while coughing out smoke and possibly other debris.
 
 **In need of a “good” name.**
 
@@ -210,7 +210,7 @@ Here are some ideas: Flyper, Propeller, Gadget, and Floatall. I'm Agent Spook, a
 ~~[Snowshot](Snowshot "wikilink")~~ kamikazesnowball
 ----------------------------------------------------
 
-![Snowshot|right](images/Kamikaze-left2.png "fig:Snowshot|right") The [Snowshot](Snowshot "wikilink") comes out of a [Cannon](Cannon "wikilink"). He is very angry, or very “wise”, and so can levitate through the force of his will. He is so concentrated on this, however, that he cannot turn or adjust his velocity.
+![Snowshot|right](img/badguy/icons/Kamikaze-left2.png "fig:Snowshot|right") The [Snowshot](Snowshot "wikilink") comes out of a [Cannon](Cannon "wikilink"). He is very angry, or very “wise”, and so can levitate through the force of his will. He is so concentrated on this, however, that he cannot turn or adjust his velocity.
 
 **Status:** There is MrRocket in SVN which should be recycled and turned into a Snowshot. There is also a cannon that can be reused after its graphics have been replaced. -- [Grumbel](User:Grumbel "wikilink") 11:55, 23 February 2010 (UTC)
 
@@ -323,7 +323,7 @@ Captain snowball is used in several level in bonus 3 --[giby](User:giby "wikilin
 [Short Fuse](Short_Fuse "wikilink"), ~~Mini Bomb~~
 --------------------------------------------------
 
-![](images/Short_Fuse.png "fig:Short_Fuse.png") ![Mini-Bomb](images/Minibomb.png "fig:Mini-Bomb") The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
+![](images/Short-Fuse.png "fig:Short_Fuse.png") ![Mini-Bomb](images/Minibomb.png "fig:Mini-Bomb") The Mini-Bomb is an small version of the normal bomb, it approaches in groups most of the time and is aggressive, it however is non-lethal to Tux and only works to either distract him and throw him back.
 
 A first version of this badguy has been added to [SVN](SVN "wikilink") in [6511](Template:Revision "wikilink").
 
