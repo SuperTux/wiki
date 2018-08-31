@@ -1,8 +1,3 @@
-Styleguide
-==========
-
-[Template:Navbox Milestone 2 Design
-Document](Template:Navbox_Milestone_2_Design_Document "wikilink")
 These guidelines should be kept for any level that appears in the main
 SuperTux level sequence. Any deviation should be rare and with great
 consideration (for example for a secret area). Designers making custom
@@ -132,7 +127,11 @@ level.
 Sectors
 -------
 
-![How NOT bind sectors together](images/Nsb.png "fig:How NOT bind sectors together") When making a level, use floors and ceilings where appropriate. Basic rule of thumb is that your environment should visually make sense. For example:
+![How NOT bind sectors together](images/Nsb.png "fig:How NOT bind sectors together")
+
+When making a level, use floors and ceilings where appropriate. Basic
+rule of thumb is that your environment should visually make sense. For
+example:
 
 -   Overground areas should have a floor and no ceiling.
 -   Underground/cave and interior areas should have both a floor and a ceiling.
@@ -159,21 +158,48 @@ play.
 
 Other things to avoid:
 
-1.  Creating paths that are only two tiles high, make things high enough that SuperTux can jump.
-2.  Don't create jumps that require pixel perfect precision unless it is for a special secret area.
+1.  Creating paths that are only two tiles high, make things high
+    enough that SuperTux can jump.
+2.  Don't create jumps that require pixel perfect precision unless it
+    is for a special secret area.
 3.  Don't use invisible tiles for normal gameplay.
-4.  Keep the number of enemies that are on the screen at once small, it shouldn't be more then three for most cases.
-5.  Do not overuse switches and doors: SuperTux isn't an adventure game, it's a jump'n run, so make the level straightforward and easy to understand.
-6.  Avoid creating large monotonous spaces; players get tired of running around a huge level.
-7.  Try to limit the use of reset points; if you can get away with none whatsoever, do so.
-8.  Don't allow dead ends or impossible levels; either the player dies, or there's still a way to solve it. (Allowing the player to suicide from a trap works as well) Test your level thoroughly to find possible paths you missed before.
-9.  Avoid too hard or too easy levels. Too easy levels get boring very quickly while too hard ones can be frustrating. Levels you built often appear a lot easier for yourself, so be sure to let other people test them.
-10. Secret areas should be well-hidden and not be visible on first sight, but can still have a visual cue that they are there. Use your imagination to think of new ways to create secrets - some of the above rules can be broken for that purpose, but be careful!
-11. Avoid impossible-to-reach coins, powerups, areas, and badguys. Collecting everything or reaching everywhere in a level is often important to players. However, difficulty can be just short of impossible - requiring frame-by-frame accuracy is fine. (So long as you provide a demo to prove that it is in fact possible) This only applies to bonus items - players should be able to complete the level minus some items with only moderate difficulty.
-12. Avoid using any water. Swimming and water physics have not been finalized, so any current water behavior is unreliable.
-13. Avoid using very steep slopes or placing slopes next to vertical walls, the collision physics is still a bit off.
-14. Don't overuse “new” things (enemies, objects, tiles): Use them when and where they make sense. Don't use them just because they are new.
-15. Change gravity only when it has sense. Don't change it, when you want only Tux jumping higher/lower.
+4.  Keep the number of enemies that are on the screen at once small,
+    it shouldn't be more then three for most cases.
+5.  Do not overuse switches and doors: SuperTux isn't an adventure
+    game, it's a jump'n run, so make the level straightforward and
+    easy to understand.
+6.  Avoid creating large monotonous spaces; players get tired of
+    running around a huge level.
+7.  Try to limit the use of reset points; if you can get away with
+    none whatsoever, do so.
+8.  Don't allow dead ends or impossible levels; either the player
+    dies, or there's still a way to solve it. (Allowing the player to
+    suicide from a trap works as well) Test your level thoroughly to
+    find possible paths you missed before.
+9.  Avoid too hard or too easy levels. Too easy levels get boring very
+    quickly while too hard ones can be frustrating. Levels you built
+    often appear a lot easier for yourself, so be sure to let other
+    people test them.
+10. Secret areas should be well-hidden and not be visible on first
+    sight, but can still have a visual cue that they are there. Use
+    your imagination to think of new ways to create secrets - some of
+    the above rules can be broken for that purpose, but be careful!
+11. Avoid impossible-to-reach coins, powerups, areas, and badguys.
+    Collecting everything or reaching everywhere in a level is often
+    important to players. However, difficulty can be just short of
+    impossible - requiring frame-by-frame accuracy is fine. (So long
+    as you provide a demo to prove that it is in fact possible) This
+    only applies to bonus items - players should be able to complete
+    the level minus some items with only moderate difficulty.
+12. Avoid using any water. Swimming and water physics have not been
+    finalized, so any current water behavior is unreliable.
+13. Avoid using very steep slopes or placing slopes next to vertical
+    walls, the collision physics is still a bit off.
+14. Don't overuse “new” things (enemies, objects, tiles): Use them
+    when and where they make sense. Don't use them just because they
+    are new.
+15. Change gravity only when it has sense. Don't change it, when you
+    want only Tux jumping higher/lower.
 
 External Links
 --------------
