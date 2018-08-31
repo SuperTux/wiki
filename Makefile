@@ -1,5 +1,5 @@
 all:
-	./validator.py *.md
+	./validator.py --validate link,image,local,anchor *.md
 
 .PHONY: all
 
