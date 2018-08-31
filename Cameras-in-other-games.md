@@ -5,26 +5,29 @@ Super Mario World
 
 The camera seems to know 2 modes when scrolling horizontal: Left and Right scrolling mode. In both modes Mario is kept a little bit away from the middle of the screen:
 
-![](images/marioscroll1.jpg "marioscroll1.jpg")
+![](images/Marioscroll1.jpg)
 
 When Mario walks into the direction opposite from the scrolling direction the camera stands still until he reaches ~65% of the screen. Then the camera makes a fast linear movement into the other camera mode.
 
-![](images/marioscrollchange.jpg "marioscrollchange.jpg")
+![](images/Marioscrollchange.jpg)
 
 ### Vertical Movement
 
 The basic rule here is that the camera tries to keep Mario in the middle vertically:
 
-![](images/marioscrollvert1.jpg "marioscrollvert1.jpg")
+![](images/Marioscrollvert1.jpg)
 
-However when Mario jumps, the camera is NOT following him vertically as long as he doesn't fall deeper as the high where he started the jump. However this exception does not apply for trampoline jumps.
+However when Mario jumps, the camera is NOT following him vertically
+as long as he doesn't fall deeper as the high where he started the
+jump. However this exception does not apply for trampoline jumps.
 
-So normally if you jump up on some tiles, the camera moves from step to step each time Mario is on ground again.
+So normally if you jump up on some tiles, the camera moves from step
+to step each time Mario is on ground again.
 
 Yoshis Island
 -------------
 
-![](images/yoshiscroll.jpg "yoshiscroll.jpg")
+![](images/Yoshiscroll.jpg)
 
 ### Horizontal Movement
 
