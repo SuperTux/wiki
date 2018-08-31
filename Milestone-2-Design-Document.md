@@ -807,7 +807,9 @@ configurations, like a spike on the roof as well as one on the ground,
 that require way too much precision or luck and just aren't fun to
 play.
 
-<img src="Howtonotdesignlevels.jpg" title="fig:How NOT to design levels" alt="How NOT to design levels" width="200" /> <img src="Hallofshame.jpg" title="fig:More things to avoid" alt="More things to avoid" width="200" />
+![](images/Howtonotdesignlevels.jpg "How NOT to design levels")
+
+![](images/Hallofshame.jpg "More things to avoid")
 
 Other things to avoid:
 
