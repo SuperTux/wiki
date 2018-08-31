@@ -46,10 +46,9 @@ Specifications
 
 Milestones
 
-* [[Milestone_1_Analysis]]
-* [[Milestone_2_Design_Document]]
-* [[Milestone_3_Design_Document]]
-* [[Milestone-3-Design-Document]]
+* [[Milestone 1 Analysis]]
+* [[Milestone 2 Design Document]]
+* [[Milestone 3 Design Document]]
 * [[Old_Milestone_2_Design_Document]]
 
 Ideas
