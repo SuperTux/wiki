@@ -2155,7 +2155,19 @@ I think that for this, we should just copy the originals but in other color like
 
 #### Powerup: Gem
 
-![](images/Gem_brown.png "fig:Gem_brown.png")![](images/Gem_lava.png "fig:Gem_lava.png")![](images/Gem_red.png "fig:Gem_red.png")![](images/Gem_pink.png "fig:Gem_pink.png")![](images/Gem_yellow.png "fig:Gem_yellow.png")![](images/Gem_lime.png "fig:Gem_lime.png")![](images/Gem_green.png "fig:Gem_green.png")![](images/Gem_dark-green.png "fig:Gem_dark-green.png")![](images/Gem_blue.png "fig:Gem_blue.png")![](images/Gem_grey.png "fig:Gem_grey.png")![](images/Gem_skyblue.png "fig:Gem_skyblue.png")![](images/Gem_purple.png "fig:Gem_purple.png")
+![](images/Gem-brown.png "fig:Gem-brown.png")
+![](images/Gem-lava.png "fig:Gem-lava.png")
+![](images/Gem-red.png "fig:Gem-red.png")
+![](images/Gem-pink.png "fig:Gem-pink.png")
+![](images/Gem-yellow.png "fig:Gem-yellow.png")
+![](images/Gem-lime.png "fig:Gem-lime.png")
+![](images/Gem-green.png "fig:Gem-green.png")
+![](images/Gem-dark-green.png "fig:Gem-dark-green.png")
+![](images/Gem-blue.png "fig:Gem-blue.png")
+![](images/Gem-grey.png "fig:Gem-grey.png")
+![](images/Gem-skyblue.png "fig:Gem-skyblue.png")
+![](images/Gem-purple.png "fig:Gem-purple.png")
+
 <small>*different colors of gems*</small>
 This is a powerup **without any specific features**, allowing that their function can not confused with something else. It would be appropriate if I want to do unusual powerup, which would call a different script than the usual like egg, fireflower ... and it wouldnt to powerup the confused with somewhat usunal. Gems could be a different color.
 
