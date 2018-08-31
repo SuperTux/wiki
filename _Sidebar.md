@@ -1,4 +1,5 @@
 Home
+* [[News]]
 * [[Glossary]]
 * [[Home]]
 * [[TODO]]
