@@ -2,6 +2,7 @@ Home
 * [[Glossary]]
 * [[Home]]
 * [[TODO]]
+* [[Developers]]
 
 Guidelines
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
