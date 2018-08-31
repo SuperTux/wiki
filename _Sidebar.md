@@ -10,7 +10,8 @@ Guidelines
 * [[Rejected-Ideas]]
 * [[Obstacles]]
 
-BadGuys
+Game Mechanics
+* [[Actions]]
 * [[Concept Art]]
 * [[Icy Badguys]]
 * [[Forest Badguys]]
