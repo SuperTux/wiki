@@ -1,22 +1,21 @@
-Current abilities
-=================
+### Current
 
--   [Fireflower](#Fireflower)
--   [Running](#Running)
+- [Fireflower](#Fireflower)
+- [Running](#Running)
+- [Buttjump](#Buttjump)
+- [Backflip](#Backflip)
 
-Proposed abilities
-==================
+### Proposed
 
--   [Standing still/idling](#Idling)
--   [Blowflyer](#Blowflyer)
--   [Buttjump](#Buttjump)
--   [Iceflower](#Iceflower)
--   [Slider](#Slider)
--   [Flapping](#Flapping)
--   [Soap](#Soap)
--   [Rope](#Rope)
--   [Swimming](#Swimming)
--   [Dive](#Dive)
+- [Standing still/idling](#Idling)
+- [Blowflyer](#Blowflyer)
+- [Iceflower](#Iceflower)
+- [Slider](#Slider)
+- [Flapping](#Flapping)
+- [Soap](#Soap)
+- [Rope](#Rope)
+- [Swimming](#Swimming)
+- [Dive](#Dive)
 
 Fireflower
 ----------
@@ -36,9 +35,18 @@ increase the amount of hits Tux can take.
 Running
 -------
 
-Tux is able to run. Running enables higher and wider jumps and other
-things that require some kind of 'boost'. Running is done by holding
-down the 'run' button.
+Running is an automatic action that gets activated when Tux is walking
+in the same direction for a certain amount of time. When Tux is
+running he is able to jump five tiles high instead of just four.
+
+Milestone 1 used a dedicated run button, in Milestone 2 it's automatic.
+
+Backflip
+--------
+
+The backflip is a special jump which gives Tux some extra height
+compared to a normal jump. It requires that Tux comes to a full stop
+and turns around.
 
 Buttjump
 --------
@@ -78,6 +86,23 @@ For reasons why see [Special Items Are Evil](Special_Items_Are_Evil
 Proposed abilities
 ==================
 
+Idling
+------
+
+Sometimes Tux just stands still. To make things more interesting we should have some animations in this case as well.
+
+Examples:
+
+-   Shaking his head
+-   Flapping his flaps
+-   Open/close an eyelid
+-   Yawning or falling asleep
+-   Whistling a tune
+-   Tapping his feet in impatience
+-   Getting more and more angry the longer he is left.
+
+It would also be nice to make him turn and face the 'camera' if an idle timer was exceeded.
+
 Blowflyer
 ---------
 
@@ -91,11 +116,6 @@ color and catching for air.
 
 Perhaps there could be a hidden “pump” in each level, which tux could
 pump himself up with.
-
-Dive
-----
-
-When jumping from a great height, Tux should have his beak facing down, like a dive. It would work well with the swim ability.
 
 Flapping
 --------
@@ -122,59 +142,69 @@ freezable](:Category:Freezable_badguys "wikilink") not
 
 ### Proposed behavior
 
-Perhaps the ice bullet could freeze water, bouncing across the surface of a body of the aforesaid liquid and freezing the surface of the **one block** it touches, and maybe one block either side of it. I got the idea from water -&gt; ice on the User Ideas page.
+Perhaps the ice bullet could freeze water, bouncing across the surface
+of a body of the aforesaid liquid and freezing the surface of the
+**one block** it touches, and maybe one block either side of it. I got
+the idea from water -&gt; ice on the User Ideas page.
 
-Idling
-------
+Dive
+----
 
-Sometimes Tux just stands still. To make things more interesting we should have some animations in this case as well.
-
-Examples:
-
--   Shaking his head
--   Flapping his flaps
--   Open/close an eyelid
--   Yawning or falling asleep
--   Whistling a tune
--   Tapping his feet in impatience
--   Getting more and more angry the longer he is left.
-
-It would also be nice to make him turn and face the 'camera' if an idle timer was exceeded.
+When jumping from a great height, Tux should have his beak facing
+down, like a dive. It would work well with the swim ability.
 
 Slider
 ------
 
-Tux will be able to make use of smooth terrain by using the slide action. By using the slider action Tux will jump on its belly and thus slide speedy down the hill. Terrain that is formed like a ramp should allow him to make huge jumps, which would be impossible without the slide action. While sliding downhill Tux shall be invulnerable by normal enemies, however special enemies with spikes or so, might still be able to stop him.
+Tux will be able to make use of smooth terrain by using the slide
+action. By using the slider action Tux will jump on its belly and thus
+slide speedy down the hill. Terrain that is formed like a ramp should
+allow him to make huge jumps, which would be impossible without the
+slide action. While sliding downhill Tux shall be invulnerable by
+normal enemies, however special enemies with spikes or so, might still
+be able to stop him.
 
-Exact details on how the sliding will work have to be worked out, but it might get a rather central role in gameplay.
+Exact details on how the sliding will work have to be worked out, but
+it might get a rather central role in gameplay.
 
 ![](images/slider.jpg "slider.jpg")
 
 ![](images/slider2.png "slider2.png")
 
-Somewhat related, you could have icy platforms that when running on it is much harder to stop/change-direction (i.e. you could slide off the edge accidently) that require you to be extra careful.. these could appear on later harder levels. If these aren't flat, you get what is shown in the above picture, which you could slide down instead.
+Somewhat related, you could have icy platforms that when running on it
+is much harder to stop/change-direction (i.e. you could slide off the
+edge accidently) that require you to be extra careful.. these could
+appear on later harder levels. If these aren't flat, you get what is
+shown in the above picture, which you could slide down instead.
 
-We'd probably need tile-based friction to make this work well. Holding “duck” while moving above a certain speed (or on a slope) will reduce Tux's friction by a large factor (4?) and make him slide as illustrated in the above picture. He'll be able to kill/stun certain enemies this way, but some (like the spiky ones) will damage and stop him.
+We'd probably need tile-based friction to make this work well. Holding
+“duck” while moving above a certain speed (or on a slope) will reduce
+Tux's friction by a large factor (4?) and make him slide as
+illustrated in the above picture. He'll be able to kill/stun certain
+enemies this way, but some (like the spiky ones) will damage and stop
+him.
 
 Swimming
 --------
 
 This could be useful in underwater levels.
 
-Before implementing swimming there are some details that need to be specified:
+Before implementing swimming there are some details that need to be
+specified:
 
 -   What can Tux do in water?
 
 Swim left, swim right, dive, and porpoise.
 
-Tux could be able to move a lot faster in water than on land, and he could be able to jump higher when jumping out of a pool of water - like real penguins.
+Tux could be able to move a lot faster in water than on land, and he
+could be able to jump higher when jumping out of a pool of water -
+like real penguins.
 
--   How does he leave the pool, ie. how high can Tux jump while swimming?
-    -   By jumping when near the surface.
+- How does he leave the pool, ie. how high can Tux jump while
+  swimming?
+  - By jumping when near the surface.
 
-<!-- -->
-
--   What happens to existing levels, especially in situations where the water is on the bottom of a shaft with no way to climb out?
+- What happens to existing levels, especially in situations where the water is on the bottom of a shaft with no way to climb out?
 
 ### Proposal 1
 
