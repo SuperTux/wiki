@@ -3200,3 +3200,46 @@ A\_left, A-right - move A\_up - jump A\_down - focus (makes Pingu unable to move
 `   SPECIAL MOVES:`
 
 |2| while moving - dodge (makes Pingu walkthroughable for 30 seconds, recharge for 1 minute) - available at level 1 dojo |2| and A\_left/A\_right while ducking - action dodge (makes Pingu walkthroughable for 30 seconds, pressing |2| will attack touching player, recharge for 2 minutes) - available at level 2 dojo |2| while ducking - raging soul (must be &gt;99 damage to do this - everybody (and Pingu) receives 1/20 of Pingu's damage, Pingu's unable to move for 10 seconds) - available at level 3 dojo |2| and |1| repeatedly - fireball (a flying fireball appears, striking first enemy touched) - available at level 4 dojo |2| and |1| repeatedly while ducking - thunderball (a flying thunderball appears, striking all enemies on his way) - available at level 5 dojo A\_up in midair - Teleport (Pingu teleports up a bit, damaging all enemies on his vertical coordinates and near these) - available at level 6 dojo
+
+Actions
+=======
+
+Pogo Stick
+----------
+
+The Pogo Stick will give Tux the ability jump higher and to break blocks when he jumps on them. This will work simular to the NES game Ducktales and the PC game Commander Keen.
+
+Perhaps this should be just like a star, just a temporal ability. To avoid making the game too easy. It could also be like the boot in Super Mario Bros. 3, which allows the player to jump on usually harmful enemies, but is gone a the end of the level.
+
+![Concept art of Tux on his Pogo Stick](images/Pogo.jpg "Concept art of Tux on his Pogo Stick")
+
+Boomerang
+---------
+
+Tux should be able to collect and use a boomerang on some levels.
+
+This could maybe hit 3 badguys and then come back to Tux.
+
+And of course not be usable against Flames.
+
+Soap
+----
+
+Tux might be able to eat some soap and thus be able to spit out bubbles, bubbles themselves should be usable as steps to reach higher places and might be able to capture enemies.
+
+This behaviour is similar to the bubbles in Bobble Bobble.
+
+Breathing
+---------
+
+I don't know if penguins can breath underwater, but maybe Tux need swim to surface to breath sometimes...
+
+-   They can hold their breaths for up to 12 minutes. Good enough?
+    -   It depends on the penguin. Adélie's--like Tux--can hold their breaths for 15 minutes. I seriously doubt he would be underwater for that long. You probably won't be making a level as long as “Moving On,” (an EXTREMELY long--7000+ length, level made by a friend) all the way below the surface of the water. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 04:32, 25 June 2009 (UTC)
+
+Rope
+----
+
+[Tux](Tux "wikilink") will be able to use a rope (in one form or
+another). The rope should be useful for both swinging around and
+capturing/disabling enemies.
