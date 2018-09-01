@@ -35,9 +35,7 @@ names, click [here](real_badguys_names "wikilink").
 Bouncing Snowball
 =================
 
-![](images/BouncingSnowball.png)
-
-![](img/badguy/icons/Bouncingsnowball.png)
+![](images/BouncingSnowball.png) ![](img/badguy/icons/Bouncingsnowball.png)
 
 A leg-less Snowball with eyes that moves forward in a constant bounce
 motion like a ball. It's jump height should be big enough that Tux can
@@ -51,7 +49,9 @@ pass under him safely, while making it difficult to jump on him or
 > is the biggest problem, should only be used in open spaces, not
 > closed ones where it hits the ceiling and bouncing becomes
 > unpredictable. It could also move faster and jump higher, at the
-> moment it is far to easy to just jump on it. -- [[User#grumbel]]
+> moment it is far to easy to just jump on it.
+>
+> -- [[Grumbel|User#grumbel]]
 
 Cannon (dispenser)
 ==================
