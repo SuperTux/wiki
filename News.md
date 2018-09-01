@@ -561,7 +561,7 @@ list in the past month:
     Wiki
 - ![MrPlasma sketch](images/Mrplasma.png "wikilink")
 - ![sketch of a possible wood-pipe](images/Woodpipe.png "wikilink")
-- [new pipe with blueish color pipe](images/Newpipe_blue.png "wikilink")
+- ![new pipe with blueish color pipe](images/Newpipe_blue.png "wikilink")
 - ![rough sketch of a rusty pipe](images/Rostypipe2.png "wikilink")
 - ![rusty pipe](images/Rostypipe.png "wikilink")
 - ![new pipe design](images/Supertux-newpipe.png "wikilink")
