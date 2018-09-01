@@ -93,9 +93,17 @@ Released on 2010-03-01, it includes a main world and 3 bonus islands: Bonus Isla
 
 ![](images/Uebersicht_fertig.jpg)
 
-![](images/Main_World_1.jpg "fig:Main_World_1.jpg") ![](images/Main_World_2.jpg "fig:Main_World_2.jpg") ![](images/Main_World_3.jpg "fig:Main_World_3.jpg")
+![](images/Main-World-1.jpg)
 
-![](images/Forest_World_1.jpg "fig:Forest_World_1.jpg") ![](images/Forest_World_2.jpg "fig:Forest_World_2.jpg") ![](images/Forest_World_3.jpg "fig:Forest_World_3.jpg")
+![](images/Main-World-2.jpg)
+
+![](images/Main-World-3.jpg)
+
+![](images/Forest_World_1.jpg)
+
+![](images/Forest_World_2.jpg)
+
+![](images/Forest_World_3.jpg)
 
 SuperTux 0.3.0
 --------------

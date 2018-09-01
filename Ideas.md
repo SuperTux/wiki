@@ -1366,7 +1366,7 @@ The Block could be an ! and not an ?
 
 ### Change Blocks
 
-![](images/Change_block.gif "Change_block.gif")
+![](images/Change-block.gif "Change_block.gif")
 
 Maybe you know it from Crash Bandicoot Games. It's a block containing different things. Tux has to choose quickly, before the block become empty.
 
