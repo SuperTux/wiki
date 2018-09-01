@@ -35,26 +35,23 @@ names, click [here](real_badguys_names "wikilink").
 Bouncing Snowball
 =================
 
-![](images/BouncingSnowball.png "fig:BouncingSnowball.png") The [Bouncing Snowball](Bouncing_Snowball "wikilink") is a leg-less Snowball that jumps around like a ball.
+![](images/BouncingSnowball.png)
 
-**Status:** Jump height and width could be tweaked a bit to make it easier to stand below it. Placement in the levels is the biggest problem, should only be used in open spaces, not closed ones where bouncing becomes unpredictable. -- [Grumbel](User#grumbel "wikilink") 09:48, 23 February 2010 (UTC)
+![](img/badguy/icons/Bouncingsnowball.png)
 
-![Bouncing Snowball](img/badguy/icons/Bouncingsnowball.png)
+A leg-less Snowball with eyes that moves forward in a constant bounce
+motion like a ball. It's jump height should be big enough that Tux can
+pass under him safely, while making it difficult to jump on him or
+(potentially) outright impossible when he is at the highest point.
 
--   Appearance=A [Snowball](Snowball "wikilink") with eyes but without
-    feet.
--   Behaviour=Jumps around. Jumping is affected by walls and other
-    badguys.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
+### Comments
 
-**Bouncing Snowball** is a [badguy](badguy "wikilink") in [Icy
-Island](Icy_Island "wikilink"). He bounces around, occasionally hitting
-Tux or even other badguys. In version 0.1.3, he always bounces in the
-same direction, regardless of the angle of the surface that he hits. The
-bouncing action in 0.3 and above is more realistic.
+> Jump height and width in the current implementation could be tweaked
+> a bit to make it easier to stand below it. Placement in the levels
+> is the biggest problem, should only be used in open spaces, not
+> closed ones where it hits the ceiling and bouncing becomes
+> unpredictable. It could also move faster and jump higher, at the
+> moment it is far to easy to just jump on it. -- [[User#grumbel]]
 
 Cannon (dispenser)
 ==================
