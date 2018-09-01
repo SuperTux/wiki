@@ -37,7 +37,6 @@ Bouncing Snowball
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=0.1
 
 **Bouncing Snowball** is a [badguy](badguy "wikilink") in [Icy
 Island](Icy_Island "wikilink"). He bounces around, occasionally hitting
@@ -57,7 +56,6 @@ Cannon (dispenser)
 -   Buttjump=yes
 -   Freeze=yes
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 A **Cannon** is a [game object](game_object "wikilink") that spawns new
 [badguys](badguy "wikilink"). The interval in which badguys are spawned
@@ -116,7 +114,6 @@ Captain Snowball
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=
 
 **Captain Snowball** is a [badguy](badguy "wikilink") planned to debut
 in version 0.4. There are not yet many levels which feature *Captain
@@ -139,7 +136,6 @@ Crystallo
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **Crystallo** is a [badguy](badguy "wikilink") in [Icy
 Island](Icy_Island "wikilink"). He moves back and forth in a fixed
@@ -158,7 +154,6 @@ Dart Trap
 -   Buttjump=no
 -   Freeze=no
 -   Burnable=no
--   FirstVersion=0.3
 
 The **Dart trap** is a [badguy](badguy "wikilink") in form of a skull.
 In regular intervals it shoots darts out of its mouth. The darts fly in
@@ -189,7 +184,6 @@ Fish
 -   Buttjump=no
 -   Freeze=yes
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **Fish** is a [badguy](badguy "wikilink") that jumps out of water. When
 [Tux](Tux "wikilink") has to cross the water he has to pay attention to
@@ -227,7 +221,6 @@ Flame
 -   Buttjump=no
 -   Freeze=yes
 -   Burnable=no
--   FirstVersion=0.1
 
 **Flames** are [badguys](badguys "wikilink") found in both
 [worlds](worlds "wikilink") in *SuperTux*. They move in fixed circles,
@@ -250,7 +243,6 @@ Flying Snowball
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=0.1
 
 **Flying Snowball** is a [badguy](badguy "wikilink") often found in [Icy
 Island](Icy_Island "wikilink"). It is a flying version of
@@ -270,7 +262,6 @@ Haywire
 -   Buttjump=yes
 -   Freeze=yes
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **Haywire** is a [badguy](badguy "wikilink") from the [Milestone 2
 Design Document](Milestone_2_Design_Document "wikilink"). It is very
@@ -294,7 +285,6 @@ Ispy
 -   Buttjump=no
 -   Freeze=yes
 -   Burnable=no
--   FirstVersion=
 
 **Ispy** is a [badguy](badguy "wikilink") that can be found in all
 [worlds](worlds "wikilink") of *SuperTux*. It is a spying eye looking
@@ -314,7 +304,6 @@ Jumpy
 -   Buttjump=no
 -   Freeze=yes
 -   Burnable=yes
--   FirstVersion=0.1
 
 **Jumpy** is a [badguy](badguy "wikilink") found in many levels. He is
 stationary, bouncing up and down on the spot. Unless
@@ -336,7 +325,6 @@ Krush and Krosh (icecrusher)
 -   Buttjump=no
 -   Freeze=no
 -   Burnable=no
--   FirstVersion=Milestone 2
 
 **Krush** and **Krosh** are [badguys](badguy "wikilink") found in [Icy
 Island](Icy_Island "wikilink"). They are usually found on ceilings. If
@@ -441,7 +429,6 @@ Mr. Bomb
 -   Buttjump=yes
 -   Freeze=yes
 -   Burnable=yes
--   FirstVersion=0.1
 
 **Mr. Bomb** is a [badguy](badguy "wikilink") that can be found in all
 [worlds](worlds "wikilink") of *SuperTux*. When Tux or another badguy
@@ -473,7 +460,6 @@ Mr. IceBlock
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=0.1
 
 **Mr. IceBlock** is a [badguy](badguy "wikilink") in [Icy
 Island](Icy_Island "wikilink") with moderately complex behavior. In his
@@ -518,7 +504,6 @@ Mrs. IceBlock
 * Buttjump=yes
 * Freeze=no
 * Burnable=yes
-* FirstVersion=3.4
 
 '''Mrs. IceBlock''' is a [[badguy]] in [[Icy Island]] with moderately
 complex behavior. In his ordinary form, he works like an ordinary
@@ -551,7 +536,6 @@ Mrs. Snowball (smartball)
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **Mrs. Snowball** is a [badguy](badguy "wikilink") found in [Icy
 Island](Icy_Island "wikilink"). In contrast to
@@ -573,7 +557,6 @@ Owl
 - Buttjump=yes
 - Freeze=no
 - Burnable=yes
-- FirstVersion=Milestone 2
 
 The Owl is a [badguy](badguy "wikilink") from the [Milestone 2
 Design Document](Milestone_2_Design_Document "wikilink"). It flies high
@@ -629,7 +612,6 @@ SkyDive
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **SkyDive** is a [badguy](badguy "wikilink") usually carried around and
 dropped by [Owl](Owl "wikilink").
@@ -650,7 +632,6 @@ Sleeping Spiky (sspiky)
 -   Buttjump=no
 -   Freeze=yes
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **Sleeping Spiky** is a variation of the well-known
 [Spiky](Spiky "wikilink"). This [badguy](badguy "wikilink") just sits
@@ -669,7 +650,6 @@ Snowball
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=0.1
 
 **Snowball** is a simple walking [badguy](badguy "wikilink") found in
 [Icy Island](Icy_Island "wikilink"). It will fall off platforms but will
@@ -700,7 +680,6 @@ Snowman
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **Snowman** is a [badguy](badguy "wikilink") found in [Icy
 Island](Icy_Island "wikilink").
@@ -721,7 +700,6 @@ Snowshot (kamikazesnowball)
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=Milestone 2
 
 **Snowshot** is a [badguy](badguy "wikilink") planned to debut in
 [Milestone 2](Milestone_2 "wikilink"). He is a version of
@@ -744,7 +722,6 @@ Spider (spidermite)
 -   Buttjump=yes
 -   Freeze=no
 -   Burnable=yes
--   FirstVersion=0.4
 
 **Spider** is a [badguy](badguy "wikilink") available in SVN. It flies
 up and down vertically, hurting Tux on contact, although Tux can squish
@@ -773,7 +750,6 @@ Spiky
 -   Buttjump=no
 -   Freeze=yes
 -   Burnable=yes
--   FirstVersion=0.1
 
 **Spiky** is a [badguy](badguy "wikilink") commonly found in his
 homeland, the [Icy Island](Icy_Island "wikilink"), but sometimes in the
