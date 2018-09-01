@@ -106,7 +106,7 @@ There should be a bunch of tiles. The tiles are the little squares you put down.
 
 Lets make a basic level. First, select the little drop down menu above all the tiles, then select “Snow.”
 
-![](images/STE-Drop-down-map-select.png) Afterwards, while holding down the right mouse button, drag the cursor down so the snow brick thing is highlighted in blue. ![](images/STE_Blue_snow_brick.png) Then place it on the map below the thing that says “Spawn Point” ![](images/STE_Snapshot_of_Snow.png)
+![](images/STE-Drop-down-map-select.png) Afterwards, while holding down the right mouse button, drag the cursor down so the snow brick thing is highlighted in blue. ![](images/STE-Blue-snow-brick.png) Then place it on the map below the thing that says “Spawn Point” ![](images/STE-Snapshot-of-Snow.png)
 
 Now, to see the level, click the “Play” button on the top left, shaped like a triangle pointing to the right. You should fall out of the sky and land on the snow. ![](images/STE-Level-test-(1).png)
 
@@ -116,7 +116,7 @@ Good job! You can use many other tiles. You can individually place them by left 
 
 Now you're going to learn how to place objects, such as enemies, (Badguys) moving platforms, script triggers, ladders, and more. First, you'll want to make some more snow. So add another snow platform. This time, make it longer. First select the “Objects” button.
 
-![](images/STE-Objects-Button.png‎)
+![](images/STE-Objects-Button.png)
 
 Then, select a snowball (Like the one on the icon for the objects) and place it on the new snow you made. It should look like this:
 

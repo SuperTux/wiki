@@ -381,7 +381,7 @@ Boss: Ghost Tree
 
 The ghost tree is planned as the end boss for the forest world. It is not added yet but a incomplete version could be found in the test collection in contributed levels.
 
-![](images/forestboss.jpg "forestboss.jpg")
+![](images/Forestboss.jpg "forestboss.jpg")
 
 -   The tree is walking left/right, there will be platforms around the tree so tux can jump these to avoid getting hit
 -   The tree is growing roots from the ground to attack you

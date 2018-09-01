@@ -818,14 +818,14 @@ This badguy could go anywhere.
 
 #### Wing Snowball
 
-![](images/Flying_Snowball.png "Flying_Snowball.png")
+![](images/Flying_Snowball.png)
 
 -   flies straight and not very fast
 -   If Tux jumps on it, the wings of the snowball will fall down. Then he becomes a Bouncing Snowball.
 
 #### Angry Snowball
 
-![](images/Angry_Snowball.png "Angry_Snowball.png")
+![](images/Angry-Snowball.png)
 
 -   runs very fast (because he's so angry)
 -   If Tux jumps on it, Angry Snowball will be eliminated.
@@ -833,14 +833,16 @@ This badguy could go anywhere.
 
 #### Mr Push-away
 
-![](images/Mr_Pushaway.png "Mr_Pushaway.png")
+![](images/Mr-Pushaway.png "Mr_Pushaway.png")
 
 #### Electric Eel
 
 ![](images/Electric_eel.png "Electric_eel.png")
 
-  
-So kind of like the level “Shocking,” except the electrification of the water is triggered by a specific enemy rather than occurring for the whole level? [Cooljeanius](User:Cooljeanius "wikilink") 22:10, 2 April 2011 (UTC)
+So kind of like the level “Shocking,” except the electrification of
+the water is triggered by a specific enemy rather than occurring for
+the whole level? [Cooljeanius](User:Cooljeanius "wikilink") 22:10, 2
+April 2011 (UTC)
 
 Here is a badguy which could fit into the dark-forest scheme:
 
@@ -1137,7 +1139,7 @@ Unrelated with the “Walking rock” above. A big rock that works like a platfo
 
 ##### Undead enemy
 
-![](images/Undead_penguin.gif "Undead_penguin.gif")
+![](images/Undead-penguin.gif "Undead_penguin.gif")
 
 When killed, stays dead for some time and then comes back to life. Could be a zombie penguin or a skeleton alike to SkullyHops. Might be freezable and killed by fireballs or buttjump.
 
@@ -1397,7 +1399,7 @@ Create a rotating bridge, like in Mario.
 
 There could also be a libra, like in Mario.
 
-![](images/Auschnitt_Waage1.jpg "fig:Auschnitt_Waage1.jpg") ![](images/Auschnitt_Waage2.jpg "fig:Auschnitt_Waage2.jpg") ![](images/Auschnitt_Waage3.jpg "fig:Auschnitt_Waage3.jpg")
+![](images/Auschnitt-Waage1.jpg "fig:Auschnitt_Waage1.jpg") ![](images/Auschnitt_Waage2.jpg "fig:Auschnitt_Waage2.jpg") ![](images/Auschnitt_Waage3.jpg "fig:Auschnitt_Waage3.jpg")
 
   
 There are *pneumatic platforms* in [SVN](SVN "wikilink") which look like what you're proposing here. --[octo](User:Octo "wikilink") 08:09, 28 February 2010 (UTC)
@@ -1702,7 +1704,7 @@ Maybe Tux Could ride a seal like mario rides yoshi! that would be fun.
 
 #### Powerup Ideas
 
-''' '' Laser Flower '' ''' ![](images/Laser_flower-0.png "fig:Laser_flower-0.png")
+''' '' Laser Flower '' ''' ![](images/Laser-flower-0.png "fig:Laser_flower-0.png")
 
 This would be a powerup looking like a fireflower, except that it glows green. When Tux gets this powerup, if the Action button is pressed, a glowing green laser shoots out of Tux's beak and rebounds 3 times before disappearing, killing all badguys that can be killed with fire shot. The laser should be about as slow as Tux's walking speed.
 
@@ -2147,7 +2149,16 @@ it will look like a crate --Ypetremann 06:27, 28 January 2011 (UTC)
 
 #### Ten-coin
 
-![](images/10c-0.png "fig:10c-0.png")![](images/10c-1.png "fig:10c-1.png")![](images/10c-2.png "fig:10c-2.png")![](images/10c-3.png "fig:10c-3.png")![](images/10c-4.png "fig:10c-4.png")![](images/10c-5.png "fig:10c-5.png")![](images/10c-2.png "fig:10c-2.png")![](images/10c-6.png "fig:10c-6.png")![](images/10c-0.png "fig:10c-0.png")
+![](images/10c-0.png "fig:10c-0.png")
+![](images/10c-1.png "fig:10c-1.png")
+![](images/10c-2.png "fig:10c-2.png")
+![](images/10c-3.png "fig:10c-3.png")
+![](images/10c-4.png "fig:10c-4.png")
+![](images/10c-5.png "fig:10c-5.png")
+![](images/10c-2.png "fig:10c-2.png")
+![](images/10c-6.png "fig:10c-6.png")
+![](images/10c-0.png "fig:10c-0.png")
+
 You gain 10 coins.
 
   

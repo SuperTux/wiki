@@ -91,7 +91,7 @@ SuperTux 0.3.3
 
 Released on 2010-03-01, it includes a main world and 3 bonus islands: Bonus Island 1&2 and Forest World but you can also add other levels (click on “Add-Ons” in the beginning).
 
-![](images/Übersicht_fertig.jpg "Übersicht_fertig.jpg")
+![](images/Uebersicht_fertig.jpg)
 
 ![](images/Main_World_1.jpg "fig:Main_World_1.jpg") ![](images/Main_World_2.jpg "fig:Main_World_2.jpg") ![](images/Main_World_3.jpg "fig:Main_World_3.jpg")
 

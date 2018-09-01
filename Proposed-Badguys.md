@@ -128,7 +128,7 @@ bats instead of Poison Ivies. They could fly straight up into the air,
 then zoom in on Tux. If Tux dodges the could hurt they ground and get
 stunned, ay which point Tux could jump on them.
 
-![](images/bat\_behaviour.png)
+![](images/Batbehaviour.png)
 
 Alternative
 -----------
@@ -347,7 +347,7 @@ something simple such as spitting balls or eggs at Tux. There might even
 be multiple levels of evil penguins with different behaviours (fire,
 ice).
 
-![](images/evil\_penguin.png)
+![](images/Evil-penguin.png)
 
 A few more behaviours (i.e. as if they were jungle tribesmen):
 Spearthrow, Blowgun, Boomerang, Net, etc.

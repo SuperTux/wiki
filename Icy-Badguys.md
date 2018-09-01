@@ -400,9 +400,7 @@ Krush is implemented in levels.
 
 ### Concept art
 
-![Concept art for
-*Icecrusher*](Icecrusher_(concept_art).png "Concept art for Icecrusher"){width="400"}
-
+![Concept art for *Icecrusher*](Icecrusher-(concept-art).png "Concept art for Icecrusher"){width="400"}
 
 
 Kugelblitz

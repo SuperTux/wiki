@@ -38,7 +38,7 @@ Concept art
 ![](images/Nolok3.jpg)
 ![](images/Nolok2.jpg)
 ![](images/Nolok_stand.png)
-![](images/Feline_Nolok.jpg "Feline version")
+![](images/Feline-Nolok.jpg "Feline version")
 
 #### Small form
 
