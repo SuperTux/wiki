@@ -833,7 +833,7 @@ This badguy could go anywhere.
 
 #### Mr Push-away
 
-![](images/Mr-Pushaway.png "Mr_Pushaway.png")
+![](images/Mr_Pushaway.png "Mr_Pushaway.png")
 
 #### Electric Eel
 
@@ -2570,7 +2570,7 @@ New Tile Ideas
 
 ### New Air Tiles
 
-![](images/New_air_tiles.png "New_air_tiles.png")
+![](images/New-air-tiles.png)
 
 ### Have an automatic mode in the editor
 

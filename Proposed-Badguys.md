@@ -128,7 +128,7 @@ bats instead of Poison Ivies. They could fly straight up into the air,
 then zoom in on Tux. If Tux dodges the could hurt they ground and get
 stunned, ay which point Tux could jump on them.
 
-![](images/Batbehaviour.png)
+![](images/Bat-behaviour.png)
 
 Alternative
 -----------

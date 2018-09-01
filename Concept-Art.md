@@ -19,7 +19,7 @@ Forest
 ![](images/Totem.jpg)
 ![](images/Spider.jpg)
 ![](images/Forestguys.jpg)
-![](images/Spookytree.jpg)
+![](images/Spooky-Tree.jpeg)
 
 Miscellaneous
 -------------

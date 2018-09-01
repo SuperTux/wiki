@@ -23,14 +23,13 @@ Concept art
 ![](images/nolok_walk.png)
 ![](images/nolok_anim2.gif)
 ![](images/Nolok.png)
-
 ![](images/Nolok-statue.jpg)
 ![](images/Nolok-snip.png)
 ![](images/Noloksketches3.jpg)
 ![](images/Noloksketch7.jpg)
 ![](images/Noloksketch8.jpg)
 ![](images/Test10.gif)
-![](images/Nolok-jump.png)
+![](images/Nolok_jump.png)
 ![](images/Nolokfrontside.png)
 ![](images/Nolok_large_front_sketch.png)
 ![](images/Nolokfrontside2.png)
@@ -45,7 +44,7 @@ Concept art
 ![](images/Nolok-small-color-paron.png)
 ![](images/Nolok-small.png)
 ![](images/Feline-Nolok-small.png "Feline version")
-![](images/Nolok-statue-sample_5.png)
+![](images/Nolok-statue-sample-5.png)
 
 
 Penny

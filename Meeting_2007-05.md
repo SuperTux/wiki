@@ -1,6 +1,6 @@
 This page is to summarize the accomplishments of the Second Official SuperTux Developers' Meeting, in May 2007.
 
-![](images/groupphoto2.jpg "groupphoto2.jpg")
+![](images/Groupphoto2.jpg)
 
 From left to right: MatzeB, Delta, Wansti, Wolfgangb
 
