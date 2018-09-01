@@ -16,34 +16,6 @@ a list of badguys that can be squished take a look at the squishable
 badguys category. Most badguys can be killed with the fire- or
 iceflower power up.
 
-| Badguy | Can appear in... | Introduction | icons |
-| ------ | ---------------- | ------------ | ----- |
-| [Bouncing Snowball](http://supertux.lethargik.org/wiki/Bouncing_Snowball) | Icy Island | M1 | ![Bouncing Snowball](img/badguy/icons/Bouncingsnowball.png) |
-| [Cannon](http://supertux.lethargik.org/wiki/Cannon) | Any world | M2 |![Cannon](img/badguy/icons/Dispenser_rocket_launcher.png) |
-| [Captian Snowball](http://supertux.lethargik.org/wiki/Captain_Snowball) | Icy Island | M2 |![Captain Snowball](img/badguy/icons/Captain_Snowball.png) |
-| [Crystallo](http://supertux.lethargik.org/wiki/Crystallo) | Icy Island | M2 | ![Crystallo](img/badguy/icons/Crystallo.png) |
-| [Fish](http://supertux.lethargik.org/wiki/Fish) | Any world | M2 |![Fish](img/badguy/icons/FishBlue.png) |
-| [Flame](http://supertux.lethargik.org/wiki/Flame) | Any world | M1 |![Flame](img/badguy/icons/Flame.png) |
-| [Flying Snowball](http://supertux.lethargik.org/wiki/Flying_Snowball) | Icy Island | M1 |![Flying SnowBall](img/badguy/icons/Flyingsnowball.png) |
-| [Haywire](http://supertux.lethargik.org/wiki/Haywire) | Any world | M2 |![Haywire](img/badguy/icons/MrBombCrazy.png) |
-| [Ispy](http://supertux.lethargik.org/wiki/Ispy) | Any world | M2 |![Ispy](img/badguy/icons/Ispy.png) |
-| [Jumpy](http://supertux.lethargik.org/wiki/Jumpy) | Any world | M1 |![Jumpy](img/badguy/icons/Left-up.png) |
-| [Krush and Krosh](http://supertux.lethargik.org/wiki/Krush_and_Krosh) | Icy Island | M2 |![Iceblock](img/badguy/icons/Iceblock.png) |
-| [Mr. Bomb](http://supertux.lethargik.org/wiki/Mr._Bomb) | Any world | M1 |![Mr. Bomb](img/badguy/icons/Mrbomb.png) |
-| [Mr. Iceblock](http://supertux.lethargik.org/wiki/Mr._IceBlock) | Icy Island | M1 |![Mr. Iceblock](img/badguy/icons/Mr_iceblock.gif) |
-| [Mr. Snowball](http://supertux.lethargik.org/wiki/Snowball) | Icy Island | M1 |![snowball](img/badguy/icons/Snowball.gif) |
-| [Mrs. Snowball](http://supertux.lethargik.org/wiki/Mrs._Snowball) | Icy Island | M2 |![smartball](img/badguy/icons/Mrs._Snowball_(smartball).png) |
-| [Owl](http://supertux.lethargik.org/wiki/Owl) | Any world | M2 |![Owl](img/badguy/icons/Owl.png) |
-| [Short Fuse](http://supertux.lethargik.org/wiki/Short_Fuse) | Any world | M2 |![Short Fuse](img/badguy/icons/Short_Fuse.png) |
-| [Skullyhop](http://supertux.lethargik.org/wiki/Skullyhop) | Forest | M2 |![Skullyhop](img/badguy/icons/Standing-0.png) |
-| [SkyDive](http://supertux.lethargik.org/wiki/SkyDive) | Any world | M2 |![SkyDive](img/badguy/icons/BombFish.png) |
-| [Sleeping Spiky](http://supertux.lethargik.org/wiki/Sleeping_Spiky) | Any world | M2 |![Sleeping Spiky](img/badguy/icons/Sleeping-left.png) |
-| [Snowman](http://supertux.lethargik.org/wiki/Snowman) | Icy Island | M2 |![Snowman](img/badguy/icons/SnowmanSprite.png) |
-| [Snowshot](http://supertux.lethargik.org/wiki/Snowshot) | Icy Island | M2 |![SnowShot](img/badguy/icons/Kamikaze-left2.png) |
-| [Spike](http://supertux.lethargik.org/wiki/Spike) | Forest | M2 |![Spike](img/badguy/icons/Down.png) |
-| [Spiky](http://supertux.lethargik.org/wiki/Spiky) | Any world | M1 |![Spiky](img/badguy/icons/Spiky.png) |
-| [Stalactite](http://supertux.lethargik.org/wiki/Stalactite) | Icy Island | M1 |![Stalactite](img/badguy/icons/Falling.png) |
-
 ##### Further references
 
 * [Milestone 2 Design Document/Enemies](http://supertux.lethargik.org/wiki/Milestone_2_Design_Document/Enemies)
@@ -55,9 +27,8 @@ iceflower power up.
 Bouncing Snowball
 =================
 
--   Name=Bouncing Snowball
--   Image=Bouncingsnowball.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
+![Bouncing Snowball](img/badguy/icons/Bouncingsnowball.png)
+
 -   Appearance=A [Snowball](Snowball "wikilink") with eyes but without
     feet.
 -   Behaviour=Jumps around. Jumping is affected by walls and other
@@ -74,13 +45,12 @@ Tux or even other badguys. In version 0.1.3, he always bounces in the
 same direction, regardless of the angle of the surface that he hits. The
 bouncing action in 0.3 and above is more realistic.
 
-Cannon
-======
+Cannon (dispenser)
+==================
 
--   Name=Cannon (dispenser)
+![Cannon](img/badguy/icons/Dispenser_rocket_launcher.png)
+
 -   Image=Dispenser rocket launcher.png
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
 -   Appearance=Differs, see below.
 -   Behaviour=Spawns new badguys at fixed or random intervals.
 -   Squish=yes
@@ -137,9 +107,8 @@ Island](Icy_Island "wikilink") ([Milestone 2](Milestone_2 "wikilink")).
 Captain Snowball
 ================
 
--   Name=Captain Snowball
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink")
+![Captain Snowball](img/badguy/icons/Captain_Snowball.png)
+
 -   Appearance=A walking pirate snowball with eyes and boots on.
 -   Behaviour=Walks slower then the average snowball. Falls down from
     all cliffs.
@@ -162,9 +131,8 @@ Planned for 0.4. In [SVN](SVN "wikilink") since
 Crystallo
 =========
 
--   Name=Crystallo
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink")
+![Crystallo](img/badguy/icons/Crystallo.png)
+
 -   Appearance=An ice crystal.
 -   Behaviour=Moves around but doesn't leave a certain point.
 -   Squish=yes
@@ -183,8 +151,6 @@ Dart Trap
 
 <Template:NeedSound>
 
--   Name=Dart Trap
--   Image=
 -   FoundIn=[Forest](Forest "wikilink")
 -   Appearance=A skull mounted to the wall.
 -   Behaviour=Static. Shoots darts at regular intervals.
@@ -214,10 +180,9 @@ must be avoided. The *Dart trap* is mostly found in castles in the
 Fish
 ====
 
--   Name=Fish
+![Fish](img/badguy/icons/FishBlue.png)
+
 -   Image=FishBlue.png
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
 -   Appearance=A fish jumping out of water.
 -   Behaviour=Jumps up out of water regularly.
 -   Squish=no
@@ -253,10 +218,9 @@ Also, possibly there should be a few different types of fish:
 Flame
 =====
 
--   Name=Flame
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
+![Flame](img/badguy/icons/Flame.png)
+
+
 -   Appearance=A glowing sphere.
 -   Behaviour=Follows a circular path around a certain point.
 -   Squish=no
@@ -276,9 +240,9 @@ However, ice balls can kill them permanently as of version 0.3.4.
 Flying Snowball
 ===============
 
--   Name=Flying Snowball
+![Flying SnowBall](img/badguy/icons/Flyingsnowball.png)
+
 -   Image=Flyingsnowball.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A [Snowball](Snowball "wikilink") with a propeller
     underneath and a pilot hat and goggles.
 -   Behaviour=Flies up and down constantly.
@@ -296,9 +260,9 @@ and down at random intervals and speeds.
 Haywire
 =======
 
--   Name=Haywire
+![Haywire](img/badguy/icons/MrBombCrazy.png)
+
 -   Image=MrBombCrazy.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A purple walking bomb.
 -   Behaviour=Walks around. When jumped on, it's stunned for a little
     while and its explosion sequence is triggered.
@@ -322,11 +286,8 @@ immediately.
 
 Ispy
 ====
+![Ispy](img/badguy/icons/Ispy.png)
 
--   Name=Ispy
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
 -   Appearance=A spying eye.
 -   Behaviour=Static, looking towards the nearest player.
 -   Squish=no
@@ -345,11 +306,8 @@ doors close or bridges are removed.
 
 Jumpy
 =====
-
--   Name=Jumpy
+![Jumpy](img/badguy/icons/Left-up.png)
 -   Image=Left-up.png
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
 -   Appearance=A spiky grey ball with a spring underneath.
 -   Behaviour=Jumps up and down.
 -   Squish=no
@@ -364,12 +322,12 @@ stationary, bouncing up and down on the spot. Unless
 [iceflower](iceflower "wikilink"), the only way to get past *Jumpy* is
 to run below him or jump over him at the right time.
 
-Krush and Krosh
-===============
+Krush and Krosh (icecrusher)
+============================
 
--   Name=Krush and Krosh (icecrusher)
+![Iceblock](img/badguy/icons/Iceblock.png)
+
 -   Image=Iceblock.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=An ice block (two by two for Krush, four by four for
     Krosh) making an angry face.
 -   Behaviour=Clings to the ceiling until [Tux](Tux "wikilink") is
@@ -397,7 +355,6 @@ Krush is implemented in levels.
 Kugelblitz
 ==========
 
--   Name=Kugelblitz
 -   Image=Flying-0.png
 -   FoundIn=*n/a*
 -   Appearance=A *ball lightning* with sparks.
@@ -474,10 +431,9 @@ More Ideas
 Mr. Bomb
 ========
 
--   Name=Mr. Bomb
+![Mr. Bomb](img/badguy/icons/Mrbomb.png)
+
 -   Image=Mrbomb.png
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
 -   Appearance=A blue walking bomb.
 -   Behaviour=Walks around. When jumped on once, it is activated and
     explodes after a short time, killing nearby badguys.
@@ -507,9 +463,9 @@ approach was not accepted either.
 Mr. IceBlock
 ============
 
--   Name=Mr. IceBlock
+![Mr. Iceblock](img/badguy/icons/Mr_iceblock.gif)
+
 -   Image=Mr iceblock.gif
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A cube of ice with eyes and legs.
 -   Behaviour=Walks around. When jumped on once, it becomes a kickable
     and portable block of ice.
@@ -555,9 +511,7 @@ occurs: Mr. IceBlock is scored as 0 points.
 Mrs. IceBlock
 =============
 
-* Name=Mrs. IceBlock
 * Image=Mrs iceblock.gif
-* FoundIn=[[Icy Island]]
 * Appearance=A pink cube of ice with eyes and legs.
 * Behaviour=Walks around. When jumped on once, it becomes a kickable and portable block of ice.
 * Squish=yes
@@ -589,7 +543,8 @@ Continually squishing Mrs. IceBlock will eventually kill him.
 Mrs. Snowball (smartball)
 =========================
 
--   Name=Mrs. Snowball (smartball)
+![smartball](img/badguy/icons/Mrs._Snowball_(smartball).png)
+
 -   Appearance=A walking snowball with eyes and boots on.
 -   Behaviour=Walks around. Stays on platforms.
 -   Squish=yes
@@ -609,6 +564,8 @@ in SVN since [5321](Template:Revision "wikilink").
 
 Owl
 ===
+
+![Owl](img/badguy/icons/Owl.png)
 
 - Appearance=A blue owl carrying objects around.
 - Behaviour=Flies left and right. Turns around when it hits a wall.
@@ -631,6 +588,8 @@ versions of the concept graphics, basically.
 Short Fuse
 ==========
 
+![Short Fuse](img/badguy/icons/Short_Fuse.png)
+
 - Behaviour=Walks around excitedly. Falls off platforms.
 - Squish=yes
 - Buttjump=yes
@@ -643,7 +602,8 @@ but the explosions do not harm Tux -- they only throw him back.
 Skullyhop
 =========
 
--   Name=Skullyhop
+![Skullyhop](img/badguy/icons/Standing-0.png)
+
 -   Image=Standing-0.png
 -   FoundIn=Bonus Level, Ghost Forest
 -   Appearance=A hopping skull.
@@ -660,9 +620,9 @@ Skullyhop
 SkyDive
 =======
 
--   Name=SkyDive
+![SkyDive](img/badguy/icons/BombFish.png)
+
 -   Image=BombFish.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A black, spherical fish.
 -   Behaviour=Falls down; explodes when it hits the ground.
 -   Squish=yes
@@ -677,13 +637,12 @@ dropped by [Owl](Owl "wikilink").
 An initial version of this badguy has been committed to
 [SVN](SVN "wikilink") in [6564](Template:Revision "wikilink").
 
-Sleeping Spiky
-==============
+Sleeping Spiky (sspiky)
+=======================
 
--   Name=Sleeping Spiky (sspiky)
+![Sleeping Spiky](img/badguy/icons/Sleeping-left.png)
+
 -   Image=Sleeping-left.png
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
 -   Appearance=A snowball with a spiky helmet.
 -   Behaviour=Sits around; starts walking when [Tux](Tux "wikilink")
     approaches.
@@ -701,9 +660,9 @@ feet and starts walking around.
 Snowball
 ========
 
--   Name=Snowball
+![snowball](img/badguy/icons/Snowball.gif)
+
 -   Image=Snowball.gif
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A walking snowball with eyes and boots on.
 -   Behaviour=Walks around. Falls down from all cliffs.
 -   Squish=yes
@@ -731,9 +690,9 @@ handle these badguys by jumping on them, squishing them in the process.
 Snowman
 =======
 
--   Name=Snowman
+![Snowman](img/badguy/icons/SnowmanSprite.png)
+
 -   Image=SnowmanSprite.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A walking snowman with eyes.
 -   Behaviour=Walks around. Falls off platforms. When jumped on, it
     turns into Snowball.
@@ -749,12 +708,12 @@ Island](Icy_Island "wikilink").
 This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
 in SVN since [6392](Template:Revision "wikilink").
 
-Snowshot
-========
+Snowshot (kamikazesnowball)
+===========================
 
--   Name=Snowshot (kamikazesnowball)
+![SnowShot](img/badguy/icons/Kamikaze-left2.png)
+
 -   Image=Kamikaze-left2.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A flying snowball with a fierce facial expression.
 -   Behaviour=Flies in straight line until he crashes in something. Can
     be shot from a [Cannon](Cannon "wikilink").
@@ -774,10 +733,9 @@ In [SVN](SVN "wikilink") since [5323](Template:Revision "wikilink").
 
 ![Old version of the badguy.](images/Kamikaze-left.png "Old version of the badguy.")
 
-Spider
-======
+Spider (spidermite)
+===================
 
--   Name=Spider (spidermite)
 -   Image=Spidermite0.png
 -   FoundIn=[Forest](Forest "wikilink")
 -   Appearance=A spider hanging from the ceiling.
@@ -796,6 +754,8 @@ the [Forest](Forest "wikilink") world but is not (widely) used yet.
 Spike
 =====
 
+![Spike](img/badguy/icons/Down.png)
+
 ![](images/Rightspike.png "fig:Rightspike.png")![](images/Down.png "fig:Down.png")\
 ![](images/Up.png "fig:Up.png")![](images/Left.png "fig:Left.png")\
 IDs: 296, 297, 295, 298\
@@ -804,10 +764,8 @@ All spikes are hurting.
 Spiky
 =====
 
--   Name=Spiky
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink"),
-    [Forest](Forest "wikilink")
+![Spiky](img/badguy/icons/Spiky.png)
+
 -   Appearance=A walking [Snowball](Snowball "wikilink") with a spiky
     helmet.
 -   Behaviour=Walks around. Turns at ledges if about to fall offscreen.
@@ -826,9 +784,9 @@ protecting him from being squished by jumping on him, hurting
 Stalactite
 ==========
 
--   Name=Stalactite
+![Stalactite](img/badguy/icons/Falling.png)
+
 -   Image=Falling.png
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=An icicle hanging from the ceiling and underneath
     platforms.
 -   Behaviour=Falls down when [Tux](Tux "wikilink") gets near.
@@ -846,7 +804,6 @@ touch.
 Stumpy
 ======
 
--   Name=Stumpy
 -   Image=Small-left-4.png
 -   FoundIn=[Forest Island](Forest_Island "wikilink")
 -   Appearance=A [Stumpy](Stumpy "wikilink") with eyes but treetop.
@@ -866,7 +823,6 @@ Island](Forest_Island "wikilink"). He is beahaviour as
 Tikitchokwe
 ===================
 
--   Name= Tikitchokwe
 -   FoundIn=[Tropical\_Island](Tropical_Island "wikilink")
 -   Appearance=character with a mask juggling with fire torch.
 -   Behaviour=Moves right and left, throw fire torch on Tux.
