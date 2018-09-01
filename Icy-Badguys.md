@@ -44,14 +44,13 @@ pass under him safely, while making it difficult to jump on him or
 
 ### Comments
 
-> Jump height and width in the current implementation could be tweaked
-> a bit to make it easier to stand below it. Placement in the levels
-> is the biggest problem, should only be used in open spaces, not
-> closed ones where it hits the ceiling and bouncing becomes
-> unpredictable. It could also move faster and jump higher, at the
-> moment it is far to easy to just jump on it.
->
-> -- [[Grumbel|User#grumbel]]
+> [[Grumbel|User#grumbel]]: Jump height and width in the current
+> implementation could be tweaked a bit to make it easier to stand
+> below it. Placement in the levels is the biggest problem, should
+> only be used in open spaces, not closed ones where it hits the
+> ceiling and bouncing becomes unpredictable. It could also move
+> faster and jump higher, at the moment it is far to easy to just jump
+> on it.
 
 Cannon (dispenser)
 ==================
