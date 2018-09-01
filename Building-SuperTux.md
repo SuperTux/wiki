@@ -65,7 +65,7 @@ Open the [Software and Updates](Software_and_Updates "wikilink") and [Ubuntu Sof
 
 ------------------------------------------------------------------------
 
-1. Open the Terminal and use the “[sudo apt-get build-dep supertux](sudo_apt-get_build-dep_supertux "wikilink")” command and after use “[s](s "wikilink")” to confirm;
+1. Open the Terminal and use the `sudo apt-get build-dep supertux` command and after use “[s](s "wikilink")” to confirm;
 
 2. Use the following commands, one after the other, and wait to download them:
 
