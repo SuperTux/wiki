@@ -109,7 +109,11 @@ There are three possible sprites for this object: Trapdoor, cannon and
 name, *rocket launcher* is the preferred appearance, at least in [Icy
 Island](Icy_Island "wikilink") ([Milestone 2](Milestone_2 "wikilink")).
 
-Image:Dropper.png Image:Working.png Image:Dispenser rocket launcher.png
+![](images/Dropper.png)
+
+![](images/Working.png)
+
+![](images/Dispenser-rocket-launcher.png)
 
 ### Design considerations
 
@@ -989,7 +993,15 @@ Here are some random links to get inspired for Yetis:
 
 ### Concept art
 
-Image:Yetiboss.jpg Image:Yeti2.jpg Image:Yeti\_concept.png Image:Yeti\_scan\_roughs.png Image:Yeti concept throw.png
+![](images/Yetiboss.jpg)
+
+![](images/Yeti2.jpg)
+
+![](images/Yeti-concept.png)
+
+![](images/Yeti-scan-roughs.png)
+
+![](images/Yeti-concept-throw.png)
 
 Behaviour
 ---------

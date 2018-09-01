@@ -212,15 +212,25 @@ The Walking Bush is an enemy that looks just like an background object, when ina
 
 ### Flamey
 
-[thumbnails|right|Flamey](Image:Flamy.png "wikilink") Flameies are little enemies build out of fire. They are invulnerable against jumping and when to small ones collide, they turn into a large one. Flameies stays near its starting position and moves a bit around to the left or the right, they don't do walks into one direction like many other enemies. After a while Flameies might shrink and die automatically.
+![](images/Flamy.png)
 
-Special Flamey dispensers (volcano, pot with fire) might throw new Flameies onto the playfield at regular intervals.
+Flameies are little enemies build out of fire. They are invulnerable
+against jumping and when to small ones collide, they turn into a large
+one. Flameies stays near its starting position and moves a bit around
+to the left or the right, they don't do walks into one direction like
+many other enemies. After a while Flameies might shrink and die
+automatically.
+
+Special Flamey dispensers (volcano, pot with fire) might throw new
+Flameies onto the playfield at regular intervals.
 
 Flamey might react special to the ice-flower.
 
 ### Water Droplet
 
-[thumbnails|right|Water Droplet](Image:Waterdroplet.png "wikilink") Water Droplet might behave similarly like Flamey, only instead of fire, they are build out of water. Ice-flower might turn them into an ice-enemy. Multiple water droplets can merge and they can be dispensed from a leaking pipe.
+![](images/Waterdroplet.png)
+
+Water Droplet might behave similarly like Flamey, only instead of fire, they are build out of water. Ice-flower might turn them into an ice-enemy. Multiple water droplets can merge and they can be dispensed from a leaking pipe.
 
 How they interact with Tux is open for discussion.
 

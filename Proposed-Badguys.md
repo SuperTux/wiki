@@ -89,7 +89,7 @@ side and hurt Tux.
 
 Hurt it: jump or spit
 
-Concept Image: ![](images/Anteater.jpeg)
+![](images/Anteater.jpeg)
 
 Ant
 =======================

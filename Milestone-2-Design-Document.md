@@ -796,7 +796,7 @@ Finished
 -   SuperTux should stand on the ground when a level starts, not fall down (move all spawnpoints to 1 tile above ground)
 -   paint tutorial board for backflip
 -   draw a bigger arrow for when Tux is jumping out of the screen
-    -   <https://supertux.lethargik.org/wiki/Image:Airarrow.png>
+    -   ![](images/Airarrow.png)
 -   Create more music tracks for IcyIsland or add BlastOffTek's pack or the music by semaJD [12](https://supertux.lethargik.org/bugs/view.php?id=875).
     -   semajd's music is added, we just need to add the music to levels
 -   [Mr. IceBlock](Mr._IceBlock "wikilink"): transparency looks horrible on dark backgrounds, Wiki had a better looking version floating around
