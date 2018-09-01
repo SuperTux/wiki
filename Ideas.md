@@ -51,7 +51,7 @@ Some new suggested tile types from [[Tiles]]:
 #### Rope
 this could also be implemented as a jungle vine especially for world 2 - zratchet
 
-Tux is turning into Indiana Jones. Swinging on ropes, having darts fired at him by skulls on the wall, acquiring artifacts...but I kind of like that. --[[User:Julius Freezer|Julius_Freezer]] 14:07, 3 June 2009 (UTC)
+Tux is turning into Indiana Jones. Swinging on ropes, having darts fired at him by skulls on the wall, acquiring artifacts...but I kind of like that. --[[User#julius Freezer|Julius_Freezer]] 14:07, 3 June 2009 (UTC)
 
 #### Sonic Spin Dash
 
@@ -175,16 +175,16 @@ User_ideas%2FImplemented
 Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union. Wouldn't that be nice?
 
   
-I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the TODO list, and I guess it will be used for the story intro. --[Ravu](User:RavuAlHemio "wikilink") 14:30, 7 Apr 2005 (BST)
+I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the TODO list, and I guess it will be used for the story intro. --[Ravu](User#ravualhemio "wikilink") 14:30, 7 Apr 2005 (BST)
 
 Wrong! The story was Tux and Penny were having a picnic, when a creature jumped from behind an ice bush, there was a flash and Tux fell asleep when he woke up there was a note from Nolok saying he had Penny and not to try and save her. So Tux looks sees Nolok's castle and sets off.
 
 I think in the story was: “A creature jumped from behind an ice bush, Tux...” ;-)- penma -
 
   
-The \*old\* (as in 0.0.5) cutscene involved the helicopter. The new SVN cutscene is the picnic scene. --[Tuxdev](User:Tuxdev "wikilink") 22:00, 1 Oct 2006 (CEST)
+The \*old\* (as in 0.0.5) cutscene involved the helicopter. The new SVN cutscene is the picnic scene. --[Tuxdev](User#tuxdev "wikilink") 22:00, 1 Oct 2006 (CEST)
 
-Now we have the demos feature in SVN, and it shouldn't be too hard to make a 'movie' level for showing a demo mid-story. --[Ajdlinux](User:Ajdlinux "wikilink") 23:20, 30 Sep 2005 (BST)
+Now we have the demos feature in SVN, and it shouldn't be too hard to make a 'movie' level for showing a demo mid-story. --[Ajdlinux](User#ajdlinux "wikilink") 23:20, 30 Sep 2005 (BST)
 
 ### Add a gamepad configuration
 
@@ -198,7 +198,7 @@ This has been improved in the development version. supertux now uses all availab
 Some levels are very hard in the middle and in the ending. Is there a way to make more starting points? So you haven't to start everytime at beginning of the level. Sometimes I need ten and more trials to cope a situation. It will be very useful. Thanks for the good game! Martin (pmw(at)web(dot)de)
 
   
-Reset points are also being planned. ~~[Ravu](User:RavuAlHemio "wikilink") 17:28, 8 May 2005 (BST)
+Reset points are also being planned. ~~[Ravu](User#ravualhemio "wikilink") 17:28, 8 May 2005 (BST)
 
 perhaps it should be possible to see that you are passing a resetpoint!
 
@@ -240,7 +240,7 @@ In svn: 25 coins let Tux respawn from the latest firefly
 also in “unstable” download
 
 -   Maybe teleports (or something) that cost a certain number of coins to get through?
--   How about the shops on Super Mario 3? they were really a good idea.. I don't understand why they dropped it for Super Mario World --[80.174.65.16](User:80.174.65.16 "wikilink") 21:16, 11 Aug 2006 (BST)
+-   How about the shops on Super Mario 3? they were really a good idea.. I don't understand why they dropped it for Super Mario World --[80.174.65.16](User#80.174.65.16 "wikilink") 21:16, 11 Aug 2006 (BST)
 
   
   
@@ -255,7 +255,7 @@ However, shops are not so typical in Super Mario games and appear in many other 
 -   **Standing on switches** - activate/open things.
     -   In svn (not sure what revision) - just put a script trigger over the platform
 -   **Wind** - make it difficult for Tux to move, push him back, and push him much back if he jump.
-    -   In svn (since r3640). --[AnMaster](User:AnMaster "wikilink") 11:08, 30 Jun 2006 (BST)
+    -   In svn (since r3640). --[AnMaster](User#anmaster "wikilink") 11:08, 30 Jun 2006 (BST)
 -   **Ice pick** - to crush blocking ice in order to enter closed areas.
     -   In svn (since 3468): Straw Blocks that can be destroyed with fire shot
 -   **Falling bridge** - when walk on it, it fall apart, so cant go back and must hurry.
@@ -273,7 +273,7 @@ However, shops are not so typical in Super Mario games and appear in many other 
 
   
   
-You did not implement it. I don't think it is that urgent. Real worlds have a worldmap, to test something you can use command line or call level from editor anyway. --[Superdev](User:Superdev "wikilink") 22:14, 7 February 2007 (UTC)
+You did not implement it. I don't think it is that urgent. Real worlds have a worldmap, to test something you can use command line or call level from editor anyway. --[Superdev](User#superdev "wikilink") 22:14, 7 February 2007 (UTC)
 
   
 In SVN since revision 5420.
@@ -286,14 +286,14 @@ In SVN since revision 5420.
   
 No. Similar reasons as in [Rejected ideas\#No Beastie](Rejected_ideas#No_Beastie "wikilink").
 
-I personally have nothing against Bill Gates and Microsoft. In fact, I quite like Microsoft's products. --[Gyroknight](User:Gyroknight "wikilink")
+I personally have nothing against Bill Gates and Microsoft. In fact, I quite like Microsoft's products. --[Gyroknight](User#gyroknight "wikilink")
 
 ### Greek fonts
 
-You should add these greek letters to the game. How you can add Greek letters to the game? There are no greek letters in the game. They have a F33 so they are accessible. So they have a Ransom font that has to be accessible in DOSBox. Letters not changed: 1, 4, 6, 8, 9, !, @, \#, $, %, ^, &, \*, (, ), ~, \`, etc. were having greatest. Letters changed: 0, 2, 3, 5, 7. A-Z, a-z. No-break space was filled in with JD. Capital R is vertical, 0, 2, 3, 5, 7 were made from different fonts. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, S, T, U, V, W, X, Y, Z, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, were captured from different fonts. Yeah, you don't speak albanian, but you speak korean. The letter you should be added will be: Ë. It's defined as U+00CB.--[Sixtyfour](User:Sixtyfour "wikilink") 10:36, 16 January 2009 (UTC)
+You should add these greek letters to the game. How you can add Greek letters to the game? There are no greek letters in the game. They have a F33 so they are accessible. So they have a Ransom font that has to be accessible in DOSBox. Letters not changed: 1, 4, 6, 8, 9, !, @, \#, $, %, ^, &, \*, (, ), ~, \`, etc. were having greatest. Letters changed: 0, 2, 3, 5, 7. A-Z, a-z. No-break space was filled in with JD. Capital R is vertical, 0, 2, 3, 5, 7 were made from different fonts. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, S, T, U, V, W, X, Y, Z, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, were captured from different fonts. Yeah, you don't speak albanian, but you speak korean. The letter you should be added will be: Ë. It's defined as U+00CB.--[Sixtyfour](User#sixtyfour "wikilink") 10:36, 16 January 2009 (UTC)
 
   
-What are you talking about? You sound like that guy who was spamming the fansite recently. And no, I don't speak Korean. --[Superdev](User:Superdev "wikilink") 18:48, 16 January 2009 (UTC)
+What are you talking about? You sound like that guy who was spamming the fansite recently. And no, I don't speak Korean. --[Superdev](User#superdev "wikilink") 18:48, 16 January 2009 (UTC)
 
 <Category:Design> [Category:For Users](Category:For_Users "wikilink")
 
@@ -395,7 +395,7 @@ It isn't a good idea for SuperTux to be playing with this. If you need to change
 
   
   
-The right place to change those settings would probally in a launcher application that starts before SuperTux itself and allows setting of sound driver, video resolution and other stuff, its a very common thing in Windows and might be a good idea under Linux as well, especially since those SDL environment variables are not exactly easy to find. -- [Grumbel](User:Grumbel "wikilink") 07:47, 1 Aug 2006 (BST)
+The right place to change those settings would probally in a launcher application that starts before SuperTux itself and allows setting of sound driver, video resolution and other stuff, its a very common thing in Windows and might be a good idea under Linux as well, especially since those SDL environment variables are not exactly easy to find. -- [Grumbel](User#grumbel "wikilink") 07:47, 1 Aug 2006 (BST)
 
 ### Nazi Gnome
 
@@ -459,16 +459,16 @@ What's about a level in a world, where you can see a volcano in the background? 
 What's about a snow level where an avalanche is chasing you, or where regulary come some big snowballs and you have to wait on a high platform?
 
   
-This is how *autoscrolling* levels shall work in the future, see [475](Template:Bug "wikilink"). --[octo](User:Octo "wikilink") 08:03, 28 February 2010 (UTC)
+This is how *autoscrolling* levels shall work in the future, see [475](Template:Bug "wikilink"). --[octo](User#octo "wikilink") 08:03, 28 February 2010 (UTC)
 
 ### Light in the dark
 
 A level which is (quite) dark, where you can't see something. Almost. Tux has got something like a torch and you can see a little bit around Tux.
 
---[Asmodeus](User:Asmodeus "wikilink") 19:57, 18 February 2010 (UTC)
+--[Asmodeus](User#asmodeus "wikilink") 19:57, 18 February 2010 (UTC)
 
   
-I liked Aquaria's implementation of light and dark, when you get the light form, you have both a light cone in the direction you're looking and a circle of light around you. Maybe in SuperTux, he could be wearing a miner's helmet which points forward and/or be carrying a lantern which makes the circle of light around him. [Cooljeanius](User:Cooljeanius "wikilink") 22:06, 2 April 2011 (UTC)
+I liked Aquaria's implementation of light and dark, when you get the light form, you have both a light cone in the direction you're looking and a circle of light around you. Maybe in SuperTux, he could be wearing a miner's helmet which points forward and/or be carrying a lantern which makes the circle of light around him. [Cooljeanius](User#cooljeanius "wikilink") 22:06, 2 April 2011 (UTC)
 
   
 [User\_Manual\#Magic\_Blocks\_and\_Lanterns\_.28SuperTux\_0.3\_only.29](User_Manual#Magic_Blocks_and_Lanterns_.28SuperTux_0.3_only.29 "wikilink"), [Lighting](Lighting "wikilink")
@@ -479,7 +479,7 @@ I liked Aquaria's implementation of light and dark, when you get the light form,
 You can play some of these levels in my addon, [Yeti's Revenge](Yeti's_Revenge "wikilink")
 
   
---[niso](User:Niso "wikilink") 17:12, 21 April 2012 (UTC)
+--[niso](User#niso "wikilink") 17:12, 21 April 2012 (UTC)
 
 ### Outfits
 
@@ -487,11 +487,11 @@ I think that Tux should be able to change his look and wear outfits, like color 
 
 Hey! I like that Idea! It would really work. Because if you were a girl you would probably rather Supertux to wear a fairy dress (LOL) So it would be able to blend in well with my 'shop & merchant!' down below. It could be a costume and powerup shop. By CrazyPenguin
 
-Good idea! [UltraTux](User:UltraTux "wikilink") 21:00, 16 August 2009 (UTC)
+Good idea! [UltraTux](User#ultratux "wikilink") 21:00, 16 August 2009 (UTC)
 
 ### Some Of My Enemies
 
-My enemies will be here if I ever think of them: <User:UltraTux/Enemies>
+My enemies will be here if I ever think of them: <User#ultratux/enemies>
 
 ### Fake Box Enemy
 
@@ -544,13 +544,13 @@ Tux should be able to board vehicles. The vehicle could withstand 3 hits from a 
 -   Jetski
 -   Airplane (Two types: Tux Plane, which has a picture of Tux on it and can drop fireballs when Firetux, and Waterplane, which can land on water)
 
-+1 - hell f\*\*\*ing yeah [195.92.67.74](User:195.92.67.74 "wikilink")
++1 - hell f\*\*\*ing yeah [195.92.67.74](User#195.92.67.74 "wikilink")
 
 +1 three airplanes!!?!!?!
 
-Now that's getting AWESOME!! \[\[User:124.183.155.78|124.183.155.78,
+Now that's getting AWESOME!! \[\[User#124.183.155.78|124.183.155.78,
 
-Personally I think that this would not be keeping with the supertux theme.
+personally I think that this would not be keeping with the supertux theme.
 
 ### Puzzles
 
@@ -583,7 +583,7 @@ Being chased by an animal (like a bear in a forest) would be great fun. He could
 Ability to move platforms without a fixed path. Something like: platform.move(x,y,speed) Maybe platforms could detect wether Tux is standing on them or not. For example, you could make a platform that only moves when Tux is standing on top of it. And it could even change directions each time Tux jumps (yes, I know those kind of platforms were in Super Mario 3).
 
   
-How about a platform like the one in level 7-2 of New Super Mario Bros for the DS? [Cooljeanius](User:Cooljeanius "wikilink") 20:53, 1 December 2008 (UTC)
+How about a platform like the one in level 7-2 of New Super Mario Bros for the DS? [Cooljeanius](User#cooljeanius "wikilink") 20:53, 1 December 2008 (UTC)
 
   
 How about describing the desired feature? That way even more people would know wtf you were talking about without buying a console first.
@@ -642,7 +642,7 @@ We're thinking about telling parts of the story from Penny's point of view. --Wa
 Penny is captured by Nolok and locked into cage in his castle so she cant move, so therefor you cant tell view story from her PoV because she cant do anything because shes imprisoned! -- smallfoot
 
   
-Well, the first part of the story would be Penny escaping. The idea is that she would escape from the cage and you would play her escape. However, Tux wouldn't know about the escape and would continue on his adventures. You can take it to anywhere from there - [Sik0fewl](User:Sik0fewl "wikilink") 04:18, 22 Mar 2006 (CET)
+Well, the first part of the story would be Penny escaping. The idea is that she would escape from the cage and you would play her escape. However, Tux wouldn't know about the escape and would continue on his adventures. You can take it to anywhere from there - [Sik0fewl](User#sik0fewl "wikilink") 04:18, 22 Mar 2006 (CET)
 
 I suggest: Tux enters some room in the Dark Forest Keep, sees Penny locked in the cage, comes closer, unlocks it, but suddenly faces Nolok, which uses some magic/etc. to prevent Tux from attacking him, then offers Tux the choice: either free penny and be locked in a cage, or be freed and let penny hang on in cage. Tux gives freedom to penny, and Nolok takes him to World 3. Then you play from Penny's PoV. How is it?
 
@@ -650,17 +650,17 @@ I suggest: Tux enters some room in the Dark Forest Keep, sees Penny locked in th
 Sounds like Nolok is evil and stupid. HE IS!!!!
 
   
-To me, playing Penny sounds like a good idea, yes, and it will be in M3. But I agree with whoever made the last comment. Perhaps, though, when Tux reaches the castle the first level is Nolok, but you need two people to defeat him, so you have to play Penny as she escapes from the cage and makes her way through the castle to help Tux defeat Nolok. This would only work for the last world, though. - [User:Poison Ivy](User:Poison_Ivy "wikilink") 5:12 25 feb 2008
+To me, playing Penny sounds like a good idea, yes, and it will be in M3. But I agree with whoever made the last comment. Perhaps, though, when Tux reaches the castle the first level is Nolok, but you need two people to defeat him, so you have to play Penny as she escapes from the cage and makes her way through the castle to help Tux defeat Nolok. This would only work for the last world, though. - [User#poison Ivy](User#poison_ivy "wikilink") 5:12 25 feb 2008
 
 Heres another Idea, based on the previous one:
 
 Tux sees Penny in a cage, there is a rope attached to the cage and Nolok holding the other end of the rope. Nolok says he will free Penny. Tux is confused and wonders if Nolok is up to something and turns to the camera and asks you if you think he should ask Nolok to free Penny, if you say no, the game continues as normal if you say yes Nolok pulls a rope and, because there is a pulley system on the rope, the cage raises, Tux runs to meet Penny, BIG MISTAKE! A speech bubble appears at Noloks mouth: “whoops!” “LOOK OUT!” yells Penny jumping away, the cage falls and traps Tux. As a side affect of now having to play Penny, you should get ice flowers instead of fire flowers!
 
--   I've said the thing about Penny with the ice flowers before. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 22:44, 2 July 2009 (UTC)
+-   I've said the thing about Penny with the ice flowers before. --[Julius\_Freezer](User#julius_freezer "wikilink") 22:44, 2 July 2009 (UTC)
 
 I have another idea. About at the 1/2 point of the game, you track Nolok down. Boss battle! As Nolok dies (or whatever), a shade floats out of him and solidifies. The shade is in the general shape of a penguin, but is all black. Not even the eyes are visible. If you have lighting effects going by that time, the “Shadow Penguin” literally darkens any light sources he's near, more and more as the game goes on. The Shadow Penguin escapes. At the very end of the game, now you've tracked the Shadow Penguin down, and you've tracked him to some sort of landscape far removed from the world we know. All backgrounds are black, and the world is sort of a cyber, glowing green (or blue) on black, final showdown kind of thing. You finally find the Shadow Penguin, you fight. The Shadow Penguin has a strong shield, then once that's broken down, the fun REALLY begins. The Shadow Penguin is invulnerable unless you jump on him 3 times... then you can damage him. Once he is defeated... LIGHT! The penguin's “aura”, that was causing darkness to take over, vanishes, the blackness (and glowing green, or blue, or whatever) falls away, blue sky and the world we know reasserts itself, and you are revealed to be back in Antarctica, where you started! Tux embracing Penny, happy ending cutscenes, etc. the end.
 
--   I think that's a bad idea. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 22:44, 2 July 2009 (UTC)
+-   I think that's a bad idea. --[Julius\_Freezer](User#julius_freezer "wikilink") 22:44, 2 July 2009 (UTC)
 
 I really don't want special level objectives, and a cutscene per level would get kind of annoying. Level objectives would complicate things,as would multiple cut scenes, but having one or two would be nice.
 
@@ -704,13 +704,13 @@ Have the game engine display background as 75% brightness, making some levels ea
 -   An even better idea - Make it adjustable. Make the player able to adjust the brightness of the background, or every tileset, of blocks and such. Transparency would be a great bonus too. Although one of the suggested changes for milestone two is making the foreground transparent where Tux is, I think this would take some potential level gameplay possibilities away. Transparency around Tux, if implemented, should probably be adjustable. Hopefully in a 'layer' section of preferences.
       
       
-    The transparency and lightmap of a level is a part of level design and therefore really shouldn't be messed with by “normal” players. Changing either of those things would potentially have drastic impact on the playability of a level, either making it easier or harder than originally intended, as well as possibly lose certain atmosphere aspects e.g. bright snowiness, deep dark forest, foreboding castle, etc. [Tuxdev](User:Tuxdev "wikilink") 03:41, 22 Aug 2006 (BST)
+    The transparency and lightmap of a level is a part of level design and therefore really shouldn't be messed with by “normal” players. Changing either of those things would potentially have drastic impact on the playability of a level, either making it easier or harder than originally intended, as well as possibly lose certain atmosphere aspects e.g. bright snowiness, deep dark forest, foreboding castle, etc. [Tuxdev](User#tuxdev "wikilink") 03:41, 22 Aug 2006 (BST)
 
       
-    Eh... you may have misinterpreted me. I was referring to the possibility of adjustment of tileset color or brightness or opacity by level devs for each specific .stl, not by players. It's something that could make for some nifty levels, or at least more aesthetically appealing ones (depending on how it's used.)--[teal](User:Teal "wikilink") 22:23, 22 Aug 2006 (BST)
+    Eh... you may have misinterpreted me. I was referring to the possibility of adjustment of tileset color or brightness or opacity by level devs for each specific .stl, not by players. It's something that could make for some nifty levels, or at least more aesthetically appealing ones (depending on how it's used.)--[teal](User#teal "wikilink") 22:23, 22 Aug 2006 (BST)
 
       
-    Okay, s/player/level designer. I think that both of these things have been implemented in SVN, but still needs tuning. --[Tuxdev](User:Tuxdev "wikilink") 22:43, 22 Aug 2006 (BST)
+    Okay, s/player/level designer. I think that both of these things have been implemented in SVN, but still needs tuning. --[Tuxdev](User#tuxdev "wikilink") 22:43, 22 Aug 2006 (BST)
 
 ### Background Tileset
 
@@ -742,7 +742,7 @@ You should be able to pick up the beetle baddy and hit it from the side. The fis
   
 So sometimes a badguy behaves one way and sometimes it does something else? Stuff that looks the same should behave the same way. Always. Maybe except Mr. Schroedinger's cat.
 
-I used heavily scripted pipes in my level. It's okay. Just you can see his legs sticking out. [Monstertux](User:monster "wikilink")
+I used heavily scripted pipes in my level. It's okay. Just you can see his legs sticking out. [Monstertux](User#monster "wikilink")
 
 ### Some more badguys
 
@@ -765,7 +765,7 @@ it may work better as a boss. -FG42
 -   Maybe “stackable”, similar to the cactuses in SMW: Up to four “Mr Log” could be combined to serve as a high barrier, only destroyable from above (or with FireTux).
 
   
-Hiya. Mr Log would work perfectly as a non-attacking creature in my opinion, that either stands still or moves, and that hurt if you walk into but you can stand upon. If you ever played (the original) Rayman you might know what I mean. [--Quispiam](User:Quispiam "wikilink") 07:31, 13 April 2010 (UTC)
+Hiya. Mr Log would work perfectly as a non-attacking creature in my opinion, that either stands still or moves, and that hurt if you walk into but you can stand upon. If you ever played (the original) Rayman you might know what I mean. [--Quispiam](User#quispiam "wikilink") 07:31, 13 April 2010 (UTC)
 
 #### Limpy
 
@@ -777,7 +777,7 @@ These badguys could fit in somewhere else.
 
 ![](images/MrMissile.png "fig:MrMissile.png") Once he “sees” Tux, Mr Missile starts shadowing him. So if Tux stops he doesn’t stop until he reaches the place Tux stopped at. It is the same with other actions. Mr Missile is as fast as Tux. He is killed by invincibility and Supertux’s fire
 
--   Sounds a little too much like Mr. Rocket... --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+-   Sounds a little too much like Mr. Rocket... --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 #### Rolling Snowball
 
@@ -841,7 +841,7 @@ This badguy could go anywhere.
 
 So kind of like the level “Shocking,” except the electrification of
 the water is triggered by a specific enemy rather than occurring for
-the whole level? [Cooljeanius](User:Cooljeanius "wikilink") 22:10, 2
+the whole level? [Cooljeanius](User#cooljeanius "wikilink") 22:10, 2
 April 2011 (UTC)
 
 Here is a badguy which could fit into the dark-forest scheme:
@@ -852,7 +852,7 @@ Here is a badguy which could fit into the dark-forest scheme:
 
 At first, this looks and behaves like a normal background tree, so tux can walk “through” it. (Especially mean when having the same tree often as normal background) When tux passes a special point near the tree (surprise will be much more intense if this point is behind that tree), it becomes alive and hunts tux.
 
-It maybe would be a good idea to make the tree a little slow as it were strange to have it running around. That could be compensated by making it a bit harder to kill. (I also have the graphic in svg available where it should be easy editable and resizeable.) --[Henning](User:Henning "wikilink") 08:46, 27 Sep 2006 (BST)
+It maybe would be a good idea to make the tree a little slow as it were strange to have it running around. That could be compensated by making it a bit harder to kill. (I also have the graphic in svg available where it should be easy editable and resizeable.) --[Henning](User#henning "wikilink") 08:46, 27 Sep 2006 (BST)
 
 #### Leopard Seals
 
@@ -860,9 +860,9 @@ Just another badguy. See wikipedia article about this: en.wikipedia.org/wiki/Leo
 
 -   That's one that I've wanted since M1.
 
-#### Badguys from <User:Penguin>
+#### Badguys from <User#penguin>
 
-Love these ideas. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:42, 23 March 2007 (UTC)
+love these ideas. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:42, 23 March 2007 (UTC)
 
 ##### Some Badguys for Icyisland
 
@@ -886,9 +886,9 @@ It looks like an ordinary rock, but when Tux gets within range (5 spaces away), 
 
 This badguy is 4 spaces long. It lies motionless, and when Tux is in its sightline (10 spaces long, 1 space high), it opens its eyes, waits one second, and shoots out its tongue. If it misses, it waits another second and shoots out its tongue again. When Tux is hit by the tongue, he gets pulled into the chameleon's now open mouth and gets crushed. If Tux jumps on it, it turns into a smaller, harmless chameleon which crawls around a bit and then disappears. If Tux shoots it, it shrinks; with the second shot, it dies.
 
-*Sasquatch* ![](images/Bigfoot.png "fig:Bigfoot.png") The [Sasquatch](Sasquatch "wikilink") would be like the Yeti, except in the forest. Perhaps he could be the forest boss, not the ghost tree (or the ghost tree could be the ghost forest boss, and the Sasquatch be the normal forest boss). --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+*Sasquatch* ![](images/Bigfoot.png "fig:Bigfoot.png") The [Sasquatch](Sasquatch "wikilink") would be like the Yeti, except in the forest. Perhaps he could be the forest boss, not the ghost tree (or the ghost tree could be the ghost forest boss, and the Sasquatch be the normal forest boss). --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
-*Tick* The tick would hide behind plants and stuff, or in the grass. He attaches himself to Tux, hangs on for a while, and becomes full and drops off, hurting Tux. Tux can then kill it. The tick may be killed by Tux becoming invincible, or when Tux gets hurt by spiky plants, electricity, or lava. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+*Tick* The tick would hide behind plants and stuff, or in the grass. He attaches himself to Tux, hangs on for a while, and becomes full and drops off, hurting Tux. Tux can then kill it. The tick may be killed by Tux becoming invincible, or when Tux gets hurt by spiky plants, electricity, or lava. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ''' *Water Badguys* '''
 
@@ -896,13 +896,13 @@ This badguy is 4 spaces long. It lies motionless, and when Tux is in its sightli
 
 The Swimming Fish is like a fish turned on its side. It swims just below the surface of water and dives at Tux like a Zeekling. It can be killed by jumping on it and by fire shot.
 
--   I've thought of this several times. I think that it will one day be implemented. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+-   I've thought of this several times. I think that it will one day be implemented. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 *Jellyfish*
 
 The Jellyfish is hard to beat because it moves randomly in water. The trailing tentacles (2 spaces long) can kill Tux. It can be killed the same way as a Swimming Fish.
 
-*Shark* Tux can only see the shark's fin. When he's at the surface of the water, the fin will poke out, and the shark will come closer to Tux. It can be forced to submerge by fireballs, and killed by buttjumping or invulnerability. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+*Shark* Tux can only see the shark's fin. When he's at the surface of the water, the fin will poke out, and the shark will come closer to Tux. It can be forced to submerge by fireballs, and killed by buttjumping or invulnerability. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ''' *Underground Badguys* '''
 
@@ -920,7 +920,7 @@ Killer Earthworms move like a Limpy. They look like an Earthworm but are smaller
 
 It looks like a small bolt of lightning with eyes and shoots down from a certain point, trying to hit Tux. It moves twice as fast as a diving Zeekling. It cannot be killed, and it hurts Tux when it hits him, after which it disappears.
 
-*Skullymine* I actually implemented this on my computer. It is the mr. bomb of the ghost forest; it can be frozen, carried, detonated, etc. However, its explosion patterns will work differently of those of mr. bomb; different ways of killing it will produce different results from the bomb, as it is encased in a skull. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC) (P.S. unfortunately, I seem to have lost track of the skullymine files when switching machines; I hope to find where I stashed them soon, and include an article.)
+*Skullymine* I actually implemented this on my computer. It is the mr. bomb of the ghost forest; it can be frozen, carried, detonated, etc. However, its explosion patterns will work differently of those of mr. bomb; different ways of killing it will produce different results from the bomb, as it is encased in a skull. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC) (P.S. unfortunately, I seem to have lost track of the skullymine files when switching machines; I hope to find where I stashed them soon, and include an article.)
 
 *Mr. Bubble*
 
@@ -978,11 +978,11 @@ Yet another Logo. See [Rejected\_ideas\#No\_Beastie](Rejected_ideas#No_Beastie "
   
 I think it is a bit the same of the the willowisp, no ? --Ypetremann 18:26, 30 January 2011 (UTC)
 
-Willowisp teleporting, but this will kill. --[Hume](User:Hume "wikilink") 19:18, 30 January 2011 (UTC)
+Willowisp teleporting, but this will kill. --[Hume](User#hume "wikilink") 19:18, 30 January 2011 (UTC)
 
-With script we can kill with it, or for me the right idea is to create a orange willowisp, like the flames that turn ... I see in the wiki that we will not make lot diferent monster or make the gake so dificult, and I think that the monster you descibe will looks like willowisp --[Ypetremann](User:Ypetremann "wikilink") 19:00, 1 February 2011 (UTC)
+With script we can kill with it, or for me the right idea is to create a orange willowisp, like the flames that turn ... I see in the wiki that we will not make lot diferent monster or make the gake so dificult, and I think that the monster you descibe will looks like willowisp --[Ypetremann](User#ypetremann "wikilink") 19:00, 1 February 2011 (UTC)
 
-Willowisp is not freezable. --[Hume](User:Hume "wikilink") 19:00, 1 February 2011 (UTC)
+Willowisp is not freezable. --[Hume](User#hume "wikilink") 19:00, 1 February 2011 (UTC)
 
 #### Icecrusher family
 
@@ -1065,7 +1065,7 @@ Maybe its my poor English, but i dont understand what radar man is supposed to d
 Radar Man is a teleporter type object. He moves around, and if you touch him, you get teleported... that's how I understand it.
 
   
-In that case, it's already been implemented as a Will-O-Wisp. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 19:52, 9 July 2007 (UTC)
+In that case, it's already been implemented as a Will-O-Wisp. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 19:52, 9 July 2007 (UTC)
 
   
 Seems more like an object that forces Tux to move like it for a while. --Shylence 10:10, 10 July 2007 (UTC)
@@ -1077,11 +1077,11 @@ look, it teleports short distances instead of actually moving. if it touches tux
 ![](images/Safe.png "fig:Safe.png") Something is hidden in a safe. If it is touched by Tux then as soon as Tux stops touching it the thing is released. If it is a tile that’s hidden in it then to release it the safe turns into it, if it is a bad guy it appears on top of it.
 
   
-I at least do not like that idea. [84.154.88.23](User:84.154.88.23 "wikilink") 22:14, 25 Sep 2006 (BST)
+I at least do not like that idea. [84.154.88.23](User#84.154.88.23 "wikilink") 22:14, 25 Sep 2006 (BST)
 
-Every time you use Paint for anything other than pixmapping, God kills a graphics designer. I don't want to die because of you. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 23:15, 26 Oct 2006 (CEST)
+Every time you use Paint for anything other than pixmapping, God kills a graphics designer. I don't want to die because of you. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 23:15, 26 Oct 2006 (CEST)
 
-I don't like it either. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+I don't like it either. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 #### Sleeping Snowball
 
@@ -1103,15 +1103,15 @@ Looks like a Mr Snowball with no feet and closed eyes, on contact with him Tux f
 Robber walks around and, on contact steals bonuses and runs off to somewhere. If he steals every kind of bonus, he gets a weapon, allowing him to hurt Tux.
 
   
-As an addition for this idea, it should be possible to pursuit and kill the robber to get the stuff back, though it should be pretty hard to get him. --[Head](User:Head "wikilink") 23:12, 8 Dec 2006 (CET)
+As an addition for this idea, it should be possible to pursuit and kill the robber to get the stuff back, though it should be pretty hard to get him. --[Head](User#head "wikilink") 23:12, 8 Dec 2006 (CET)
 
 great idea.
 
-Needs work... Besides, it sounds kinda cheesy. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 23:12, 20 Dec 2006 (CET)
+Needs work... Besides, it sounds kinda cheesy. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 23:12, 20 Dec 2006 (CET)
 
-SuperTux is Jump and run game, but not a shooting game. --[Hume](User:Hume "wikilink") 19:21, 30 January 2011 (UTC)
+SuperTux is Jump and run game, but not a shooting game. --[Hume](User#hume "wikilink") 19:21, 30 January 2011 (UTC)
 
-I think that a monster like that will just rob anything, thing that can be important to the rest of the level, like a box, a key... and could look like a fox, or for antartic level, like a little jumping fish ? --[Ypetremann](User:Ypetremann "wikilink") 19:00, 1 February 2011 (UTC)
+I think that a monster like that will just rob anything, thing that can be important to the rest of the level, like a box, a key... and could look like a fox, or for antartic level, like a little jumping fish ? --[Ypetremann](User#ypetremann "wikilink") 19:00, 1 February 2011 (UTC)
 
 #### Scared Cat
 
@@ -1164,23 +1164,23 @@ Might look like ![MrPlasma](images/Mrplasma.png "wikilink"). Generates an electr
 A fly that flies around Tux, annoying him and forcing him to move, but without harming him.
 
   
-So it messes up the controls for a bit so that Tux is forced away from it? Original. Me likes! --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 17:30, 10 July 2007 (UTC)
+So it messes up the controls for a bit so that Tux is forced away from it? Original. Me likes! --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 17:30, 10 July 2007 (UTC)
 
 #### Polar bear
 
 It's been suggested numerous times that a polar bear be used as a bad guy or NPC. Here's some concept art that I made: ![](images/Polar-bear.png "fig:Polar-bear.png")
-Suggestions for what it could do? Maybe it could pace around like other badguys and charge when it sees Tux? That's probably not a good idea, since it seems like the sort of thing that only a boss should be able to do, and there's already the Yeti. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 14:55, 9 August 2007 (UTC)
+Suggestions for what it could do? Maybe it could pace around like other badguys and charge when it sees Tux? That's probably not a good idea, since it seems like the sort of thing that only a boss should be able to do, and there's already the Yeti. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 14:55, 9 August 2007 (UTC)
 
   
-World 1 is [Antarctica](http://simple.wikipedia.org/wiki/Antarctica). That is a far away from polar bears as you can get without leaving the planet. But if we ignore that the bear might make a good boss for a snow world. He is way too big for a ordinary badguy. --[Superdev](User:Superdev "wikilink") 18:38, 9 August 2007 (UTC)
+World 1 is [Antarctica](http://simple.wikipedia.org/wiki/Antarctica). That is a far away from polar bears as you can get without leaving the planet. But if we ignore that the bear might make a good boss for a snow world. He is way too big for a ordinary badguy. --[Superdev](User#superdev "wikilink") 18:38, 9 August 2007 (UTC)
 
   
-Since when have we been all about accuracy? Yeah, the bear is way too big for a normal badguy, and since there's already a boss, that's what I was afraid of. I don't want a clash in interests between me and the development team. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 19:45, 9 August 2007 (UTC)
+Since when have we been all about accuracy? Yeah, the bear is way too big for a normal badguy, and since there's already a boss, that's what I was afraid of. I don't want a clash in interests between me and the development team. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 19:45, 9 August 2007 (UTC)
 
   
-How about an NPC? Would that seem like a good NPC? --[80.31.56.230](User:80.31.56.230 "wikilink") 07:06, 11 August 2007 (UTC)
+How about an NPC? Would that seem like a good NPC? --[80.31.56.230](User#80.31.56.230 "wikilink") 07:06, 11 August 2007 (UTC)
 
-*“Since when have we been all about accuracy?”* I think that we should be more about it ASAP. The ghost forest is unrealistic enough. (No matter *how* cute the skullyhops are) --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+*“Since when have we been all about accuracy?”* I think that we should be more about it ASAP. The ghost forest is unrealistic enough. (No matter *how* cute the skullyhops are) --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 #### More Paths for Badguys
 
@@ -1188,7 +1188,7 @@ There should be more Paths to edit in regard to the Badguys. Maybe for the Flame
 
 ![](images/Editpathfire.png "Editpathfire.png")
 
-(For the flame, you can create a hurting platform that uses the flame sprite. Kind of cheating, but it works.) [Tuxnut](User:Tuxnut "wikilink") 02:44, 16 June 2010 (UTC)
+(For the flame, you can create a hurting platform that uses the flame sprite. Kind of cheating, but it works.) [Tuxnut](User#tuxnut "wikilink") 02:44, 16 June 2010 (UTC)
 
 #### Behaviour of Crystallo
 
@@ -1202,7 +1202,7 @@ There should be more Paths to edit in regard to the Badguys. Maybe for the Flame
 
 -   When a icicled falls on the badguy, it also splits in pieces.
 
-This sounds a bit too much like Mr. Bomb, except that the sprites are very different. Why not have a friendly-ish badguy for once? Tux can jump on Crystallo without harming him, but can use butt jump to kill Crystallo. The sides are sharp and will hurt Tux. Crystallo should also stack onto itself. --[Mathnerd314](User:Mathnerd314 "wikilink") 03:07, 23 January 2008 (UTC)
+This sounds a bit too much like Mr. Bomb, except that the sprites are very different. Why not have a friendly-ish badguy for once? Tux can jump on Crystallo without harming him, but can use butt jump to kill Crystallo. The sides are sharp and will hurt Tux. Crystallo should also stack onto itself. --[Mathnerd314](User#mathnerd314 "wikilink") 03:07, 23 January 2008 (UTC)
 
 That's okay, too, but I didn't think about a badguy like MrBomb. The particles should look like the ones when you destroy the poison ivy. They don't touch Tux when he jumps on Crystallo. Well...let me add another behaviour:
 
@@ -1227,30 +1227,30 @@ A sound if tux hits the ground should be possible. If someone creates a sound. F
 
   
   
-Well, the tiles could get simple attributes, enabling this and, after some time of fooling around with it, lots of other effects. Deep snow makes you sink in and slower. Put the slickness of ice in there. Alternatively, just let the designer designate regions that have certain specs. [84.154.88.23](User:84.154.88.23 "wikilink") 22:17, 25 Sep 2006 (BST)
+Well, the tiles could get simple attributes, enabling this and, after some time of fooling around with it, lots of other effects. Deep snow makes you sink in and slower. Put the slickness of ice in there. Alternatively, just let the designer designate regions that have certain specs. [84.154.88.23](User#84.154.88.23 "wikilink") 22:17, 25 Sep 2006 (BST)
 
 ### Friendly NPCs(non-player characters)
 
 Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivalent(seal?) would be neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok, a character teaches tux certain abilities. -F50
 
-This would be good. Make a 'talking' system that scrolls on the bottom. Maybe some characters could give you extra supplies or even weapons. --[Ajdlinux](User:Ajdlinux "wikilink") 23:23, 30 Sep 2005 (BST)
+This would be good. Make a 'talking' system that scrolls on the bottom. Maybe some characters could give you extra supplies or even weapons. --[Ajdlinux](User#ajdlinux "wikilink") 23:23, 30 Sep 2005 (BST)
 
--   Maybe modify the code for info boxes to let characters talk? Sounds good. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:27, 11 Jul 2006 (BST)
+-   Maybe modify the code for info boxes to let characters talk? Sounds good. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:27, 11 Jul 2006 (BST)
       
-    Text is evil. The player has to be able to read and understand the language which is a requirement that was not there in MS1. --[WolfgangB](User:WolfgangB "wikilink") 14:21, 12 Jul 2006 (BST)
+    Text is evil. The player has to be able to read and understand the language which is a requirement that was not there in MS1. --[WolfgangB](User#wolfgangb "wikilink") 14:21, 12 Jul 2006 (BST)
 
-\*:Stores or some such could just work with numbers and pictures. Having a \_story\_ told in little pictures would even add a very fun element.. [RichiH](User:RichiH "wikilink") 22:42, 25 Sep 2006 (BST)
+\*:Stores or some such could just work with numbers and pictures. Having a \_story\_ told in little pictures would even add a very fun element.. [RichiH](User#richih "wikilink") 22:42, 25 Sep 2006 (BST)
 
-\*: \* Yeah, that would be nice. If nothing else, a translatable infobox could describe a product and its price...Tux could buy flowers (for Penny? LOL), and the picture thing would be nice on a purchaseable map of a level. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+\*: \* Yeah, that would be nice. If nothing else, a translatable infobox could describe a product and its price...Tux could buy flowers (for Penny? LOL), and the picture thing would be nice on a purchaseable map of a level. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
-I think that the Yoshi equivalent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk a lot faster on land than a Seal.[Tuxenegger](User:Tuxenegger "wikilink") 17:35, 20 January 2006
+I think that the Yoshi equivalent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk a lot faster on land than a Seal.[Tuxenegger](User#tuxenegger "wikilink") 17:35, 20 January 2006
 
   
 Bad idea, polar bears live in the arctic, penguins live in the antarctic.
 
-what about more then one Yoshi equivalent depending on the world he is in like for ice a polar bear or a walrus and for forest a sloth or some kind of gecko (nothing looking like yoshi of course) and even if polar bears and penguins dont live together i highly doubt there is such things as walking snowballs/icecubes exist and the yeti is debatable [Atomic1fire](User:Atomic1fire "wikilink") 02:05, 1 Jan 2007 (CET)
+what about more then one Yoshi equivalent depending on the world he is in like for ice a polar bear or a walrus and for forest a sloth or some kind of gecko (nothing looking like yoshi of course) and even if polar bears and penguins dont live together i highly doubt there is such things as walking snowballs/icecubes exist and the yeti is debatable [Atomic1fire](User#atomic1fire "wikilink") 02:05, 1 Jan 2007 (CET)
 
--   I'll get to work on the graphics. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:27, 11 Jul 2006 (BST)
+-   I'll get to work on the graphics. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:27, 11 Jul 2006 (BST)
 
 Perhaps Tux could ride a Gnu? -kcfelix
 
@@ -1261,9 +1261,9 @@ Perhaps Tux could ride a Gnu? -kcfelix
 Perhaps we could make just this exception, since it is kind of a major character. We could tell it like “Tux went to Grass(???) world and met Gnu, who joined Tux against Nolok because <personal reason>”. --tuxdev
 
   
-Yeah. The gnu's almost as much of a figurehead as Tux. He needs to make *some* appearance. (...maybe he could be in the shops, or an Easter egg) --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Yeah. The gnu's almost as much of a figurehead as Tux. He needs to make *some* appearance. (...maybe he could be in the shops, or an Easter egg) --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
-Hey, if you wanna see a possible NPC, go to [Salsa](Salsa "wikilink"). --[Penguin Man](User:Penguin_Man "wikilink") 00:55, 19 March 2007 (UTC)
+Hey, if you wanna see a possible NPC, go to [Salsa](Salsa "wikilink"). --[Penguin Man](User#penguin_man "wikilink") 00:55, 19 March 2007 (UTC)
 
 I once used Mr. Fluffy (Pinkish version of Mr. Snowball) as a friendly NPC in my own level - you control him with levers (I might replace them with script triggers)
 
@@ -1308,7 +1308,7 @@ No that would be unrealistic. Everybody know that Tux is a strong superhero and 
 Yeah, right... As you can read in several other places on the wiki, Penny will be a playable character in Milestone 3.
 
   
-Let's not be so harsh on Penny. However, Tux is all-powerful (pretty much! LOL), and Penny is definitely weaker. However, a playable Penny is something everyone is looking forwards to. (And if this doesn't satisfy all you Penny-fanatics \[you know who you are\], then just switch the Tux/penny graphics around :P) --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Let's not be so harsh on Penny. However, Tux is all-powerful (pretty much! LOL), and Penny is definitely weaker. However, a playable Penny is something everyone is looking forwards to. (And if this doesn't satisfy all you Penny-fanatics \[you know who you are\], then just switch the Tux/penny graphics around :P) --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Level Start
 
@@ -1321,28 +1321,28 @@ There's a problem I experienced with this : when you choose Up arrow key as the 
 
   
   
-Why would they not use the same keys for movement as in the levels? Some of us vi and nethack types might like to use hjkl instead.. [RichiH](User:RichiH "wikilink") 22:45, 25 Sep 2006 (BST)
+Why would they not use the same keys for movement as in the levels? Some of us vi and nethack types might like to use hjkl instead.. [RichiH](User#richih "wikilink") 22:45, 25 Sep 2006 (BST)
 
   
-LOL RichiH, how did you figure out my SuperTuxKart alternate keyboard configuration??? I think that they should be the same as the level-movement...connected to whatever key. In M2, there is an “up” configuration (for doors and switches), so that's that. However, jump, enter, and action should all allow entry to a level. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+LOL RichiH, how did you figure out my SuperTuxKart alternate keyboard configuration??? I think that they should be the same as the level-movement...connected to whatever key. In M2, there is an “up” configuration (for doors and switches), so that's that. However, jump, enter, and action should all allow entry to a level. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Hidden Blocks
 
 -   Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
       
-    Ordinary blocks are implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink"). Hidden bonus blocks are up for discussion. --[84.146.234.2](User:84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Ordinary blocks are implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink"). Hidden bonus blocks are up for discussion. --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
 
 -   Tux should fall through hidden blocks before they're hit. Another implementation for clouds and elevated platforms should be used. The blocks would be more 'hidden' if you can only find them by hitting them from below.
       
-    Implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](User:84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
 
 -   Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
       
-    Implemented as Unisolid [Tiles](Tiles "wikilink") --[84.146.234.2](User:84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Implemented as Unisolid [Tiles](Tiles "wikilink") --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
 
 -   Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect. The current implementation causes Tux fatalities in some levels.
       
-    Already implemented in aforementioned [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](User:84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Already implemented in aforementioned [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
 
 ### Object blocks
 
@@ -1351,9 +1351,9 @@ LOL RichiH, how did you figure out my SuperTuxKart alternate keyboard configurat
   
 Already implemented. Was used in early version of “down the rabbit hole”.
 
-Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[MatzeB](User:MatzeB "wikilink") 10:45, 28 January 2007 (UTC)
+Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[MatzeB](User#matzeb "wikilink") 10:45, 28 January 2007 (UTC)
 
-Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[WolfgangB](User:WolfgangB "wikilink") 11:24, 28 January 2007 (UTC)
+Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[WolfgangB](User#wolfgangb "wikilink") 11:24, 28 January 2007 (UTC)
 
 I've read these comments, but nevertheless I made an image. I think objects in ?-Blocks will be more “entertaining”.
 
@@ -1402,19 +1402,19 @@ There could also be a libra, like in Mario.
 ![](images/Auschnitt-Waage1.jpg "fig:Auschnitt_Waage1.jpg") ![](images/Auschnitt_Waage2.jpg "fig:Auschnitt_Waage2.jpg") ![](images/Auschnitt_Waage3.jpg "fig:Auschnitt_Waage3.jpg")
 
   
-There are *pneumatic platforms* in [SVN](SVN "wikilink") which look like what you're proposing here. --[octo](User:Octo "wikilink") 08:09, 28 February 2010 (UTC)
+There are *pneumatic platforms* in [SVN](SVN "wikilink") which look like what you're proposing here. --[octo](User#octo "wikilink") 08:09, 28 February 2010 (UTC)
 
 ### Cheats
 
 Tux wears a little party hat when you type “tux rocks”. When you type “iddqd”, tux shakes his head. When you type the name of a specific badguy, Tux looks like that badguy.
 
   
-iddqd? idkfa! -- [RichiH](User:RichiH "wikilink") 22:47, 25 Sep 2006 (BST)
+iddqd? idkfa! -- [RichiH](User#richih "wikilink") 22:47, 25 Sep 2006 (BST)
 
-Pointless, useless, and we already have useful cheats. --[Some Person](User:Some_Person "wikilink") 14:29, 17 March 2008 (UTC)
+Pointless, useless, and we already have useful cheats. --[Some Person](User#some_person "wikilink") 14:29, 17 March 2008 (UTC)
 
   
-LOL I spelled “Tux” with “rocks” in *Tux the Builder*! I'll have to dig the screenshot out...I saved it as “Tux rocks”. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+LOL I spelled “Tux” with “rocks” in *Tux the Builder*! I'll have to dig the screenshot out...I saved it as “Tux rocks”. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 IT DOTH COOL!!!!! I shalt put that intoeth mine version of Super tux.-Rorikdude
 
@@ -1422,11 +1422,11 @@ IT DOTH COOL!!!!! I shalt put that intoeth mine version of Super tux.-Rorikdude
 In the mapeditor it should be selectable if the cheats are on or off, maybe for every cheat. Because some cheats will cause a level to malfunction ~,~
 
   
-Or disable cheats altogether. Or, cheats such as ghost() could be built in via the console--sector.Tux.rock(), or sector.Tux.do\_iddqd()? --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Or disable cheats altogether. Or, cheats such as ghost() could be built in via the console--sector.Tux.rock(), or sector.Tux.do\_iddqd()? --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### 1.0
 
-I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 “SuperTux 1.0”? Most people think when they see “0.2” that it is some crappy beta version, which milestone 2 obviously is not. [Cristan](User:Cristan "wikilink") 00:38, 26 Oct 2006 (CEST)
+I've played an old version of the SVN build, and milestone 2 really looks like a very complete game to me. It features everything what I'd expect in SuperTux. I've had just 1 crash on exiting the program, but I really think that will be fixed when going final. Why not call milestone 2 “SuperTux 1.0”? Most people think when they see “0.2” that it is some crappy beta version, which milestone 2 obviously is not. [Cristan](User#cristan "wikilink") 00:38, 26 Oct 2006 (CEST)
 
   
 The story with al the versions is kinda creepy^^ I think the devs want supertux “PERFEKT” before name it 1.0..
@@ -1435,23 +1435,23 @@ The story with al the versions is kinda creepy^^ I think the devs want supertux 
 
 Whenever Tux has a powerup (fire/ice/whatever), a key combo may generate a big (almost whole screen) instant burning/frosting/whatever area (fancy graphics) that results in only one fire/ice/whatever shot effect for each enemy/burnable block/item in the area (this includes the potential [bad-side](User_ideas#Bad_guys_and_Immunity "wikilink") effects). Once this ability is performed, Tux will lose the fire/ice/whatever ability and return to the normal bigTux.
 
-I think this won't unbalance the game. The fact that with a fire/ice hat you have an unlimited fire/ice shot supply is pretty much useful than just an instant fire/ice area. You still could just kill every enemy in the screen by shooting and you still keep the powerup. Different ways with different difficulty and rewards will improve the game IMO. This feature could bring more fanciness and originality to the game along with more possible puzzles involving this ability (Ej: you need to burn a block that is out of range so that it makes a rock fall and push a button). --[Ferk](User:Ferk "wikilink") 10:50, 2 February 2007 (UTC)
+I think this won't unbalance the game. The fact that with a fire/ice hat you have an unlimited fire/ice shot supply is pretty much useful than just an instant fire/ice area. You still could just kill every enemy in the screen by shooting and you still keep the powerup. Different ways with different difficulty and rewards will improve the game IMO. This feature could bring more fanciness and originality to the game along with more possible puzzles involving this ability (Ej: you need to burn a block that is out of range so that it makes a rock fall and push a button). --[Ferk](User#ferk "wikilink") 10:50, 2 February 2007 (UTC)
 
   
-Like a Final Smash from Super Smash Bros Brawl? I'm pretty sure they kept the Smash Balls out of the Subspace Emissary mode of it (which is the closest part of it to Super Tux) for a reason. [Cooljeanius](User:Cooljeanius "wikilink") 21:07, 1 December 2008 (UTC)
+Like a Final Smash from Super Smash Bros Brawl? I'm pretty sure they kept the Smash Balls out of the Subspace Emissary mode of it (which is the closest part of it to Super Tux) for a reason. [Cooljeanius](User#cooljeanius "wikilink") 21:07, 1 December 2008 (UTC)
 
 <!-- -->
 
   
   
-A “superpower mass effect” actually isn't a bad idea. I thought it was at first, but come to think of it, it just might be better. (We'd just have to rewrite Welcome to Antarctica to include a section with it, and explaining not to use it by accident.) The thing would be, a lot of levels would have to have sections reworked in order to work with it. It isn't a bad notion, though, and would be something to keep in mind. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+A “superpower mass effect” actually isn't a bad idea. I thought it was at first, but come to think of it, it just might be better. (We'd just have to rewrite Welcome to Antarctica to include a section with it, and explaining not to use it by accident.) The thing would be, a lot of levels would have to have sections reworked in order to work with it. It isn't a bad notion, though, and would be something to keep in mind. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Improved Tux surroundings viewing
 
-With some keypress the camera zooms out (to 175% for example), so everything looks small and you have a wider scope of the surroundings. As long as you keep the key pressed you can use the arrow keys to move the camera between certain limits (Tux should be always visible). This would enhance the usability of puzzle-oriented maps that had big schemes (buttons that had an effect at farther different places) and would make use of the fancy features of OpenGL. --[Ferk](User:Ferk "wikilink") 11:35, 2 February 2007 (UTC)
+With some keypress the camera zooms out (to 175% for example), so everything looks small and you have a wider scope of the surroundings. As long as you keep the key pressed you can use the arrow keys to move the camera between certain limits (Tux should be always visible). This would enhance the usability of puzzle-oriented maps that had big schemes (buttons that had an effect at farther different places) and would make use of the fancy features of OpenGL. --[Ferk](User#ferk "wikilink") 11:35, 2 February 2007 (UTC)
 
   
-That would make some levels too easy.--[70.153.248.49](User:70.153.248.49 "wikilink") 20:51, 28 March 2007 (UTC)
+That would make some levels too easy.--[70.153.248.49](User#70.153.248.49 "wikilink") 20:51, 28 March 2007 (UTC)
 
 <!-- -->
 
@@ -1480,7 +1480,7 @@ Are they so bad that they need a separate page?
 
 #### Worlds, scenarios, levels
 
--   A Glitch world one put somewhere hard to find [Atomic1fire](User:Atomic1fire "wikilink") 02:35, 1 Jan 2007 (CET)
+-   A Glitch world one put somewhere hard to find [Atomic1fire](User#atomic1fire "wikilink") 02:35, 1 Jan 2007 (CET)
     -   Glitches aren't done on purpose, they are programming mistakes, so we can't do a glitch world on purpose.
 -   Water world
 -   Cave
@@ -1495,9 +1495,9 @@ Are they so bad that they need a separate page?
 -   Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
 -   Geeky computer/circuit board world - “Tux decided that the only way to get Penny back would be to hack into Nolok's computer...” well, worth a try.
       
-    No. Not another so called “geek game”. Kill evil Bill G. won't work with the existing storyline. --[62.214.246.213](User:62.214.246.213 "wikilink") 21:26, 23 Jul 2006 (BST)
+    No. Not another so called “geek game”. Kill evil Bill G. won't work with the existing storyline. --[62.214.246.213](User#62.214.246.213 "wikilink") 21:26, 23 Jul 2006 (BST)
 
-    Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a complete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to frag Gates, go play XTux.--[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 03:08, 28 Jul 2006 (BST)
+    Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a complete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to frag Gates, go play XTux.--[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 03:08, 28 Jul 2006 (BST)
 
   
   
@@ -1506,23 +1506,23 @@ What about replacing the powerups by Apples?
 \*:Tux could hack Nolok's computer to find out where Nolok will take Penny next?
 
   
-.Great idea. And because Nolok uses M$-Software it is super easy. --[Bernd](User:Bernd "wikilink") 14:28, 9 July 2011 (UTC)
+.Great idea. And because Nolok uses M$-Software it is super easy. --[Bernd](User#bernd "wikilink") 14:28, 9 July 2011 (UTC)
 
 -   Some of these ideas might be better served as minigames? Like the Zelda GB crane game, fishing game etc. and could be added to the shop idea (you either buy the item or try your hand at a minigame to get said item, or a not-for-sale special item). Some of those minigames could be hacked into SuperTux by designing levels in other games (PlanetPenguin Racer, Frozen Bubble etc.) which could reduce development time and needs for new graphics.
     -   Good idea. Minigames sounds like an excellent way to channel the creativity which doesn't necessarily fit with the whole. You could go onto the fan site or something, and put them in a special folder in the Super Tux directory.
--   why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something [Atomic1fire](User:Atomic1fire "wikilink") 02:35, 1 Jan 2007 (CET)
+-   why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something [Atomic1fire](User#atomic1fire "wikilink") 02:35, 1 Jan 2007 (CET)
       
     Because they did that in “Tron” already.
 
 -   Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (See Talk:Milestone1.9 under editor error)
       
-    Go download “Tux Strikes Back”. That's the closest thing we have. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:39, 23 March 2007 (UTC)
+    Go download “Tux Strikes Back”. That's the closest thing we have. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:39, 23 March 2007 (UTC)
 
       
     How about picking the best user levels in an bonus island 3?
 
       
-    I'm fine with that. Also, the original M1 levels and worldmap might make an interesting bonus island, too.--[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+    I'm fine with that. Also, the original M1 levels and worldmap might make an interesting bonus island, too.--[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 #### Other
 
@@ -1559,27 +1559,27 @@ you can do that already
 -   **Grouping objects in the editor**, or at least being able to select more than one at a time - this would make it much easier to do levels with many similar objects. Say I have 20 snowballs, and I decide I need only 5 there. It takes 30 clicks to delete 15 snowballs - I should be able to select 15 of them, right click one and delete them all.
 -   **Scrolling**: I know we have worldmaps for most level sets, but the test collection could use a scrolling feature. There are many more levels than the screen shows.
 -   **More forest world badguys**: It'd be cool to have falling things like the stalactites (monkeys that jump on Tux?) and bouncing things (tumbleweeds?) that fit in with Forest world levels.
-    -   I for one thought that monkeys lived in jungles, not forests... --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+    -   I for one thought that monkeys lived in jungles, not forests... --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 -   **More sounds** for example, a ringing noise for whenever Tux touches a bell.
 -   **Fading tilemaps** without a secret area (i.e. a script)
       
-    Could be useful --[AnMaster](User:AnMaster "wikilink") 20:14, 20 January 2007 (UTC)
+    Could be useful --[AnMaster](User#anmaster "wikilink") 20:14, 20 January 2007 (UTC)
 
 -   **Fading parts of tilemaps** so you don't have to make a separate tilemap for each secret area. Just fade the part that's covering \*this\* secret area.
       
-    That would be illogical, and hard to make it work correctly, having a separate tilemap is simpler and more logical. --[AnMaster](User:AnMaster "wikilink") 20:14, 20 January 2007 (UTC)
+    That would be illogical, and hard to make it work correctly, having a separate tilemap is simpler and more logical. --[AnMaster](User#anmaster "wikilink") 20:14, 20 January 2007 (UTC)
 
       
     What about a tilemap, that always makes the part in front of Tux semitransparent?
 
       
-    Doesn't sound useful for anything. --[AnMaster](User:AnMaster "wikilink") 15:03, 21 January 2007 (UTC)
+    Doesn't sound useful for anything. --[AnMaster](User#anmaster "wikilink") 15:03, 21 January 2007 (UTC)
 
       
     Did you ever play Short Visit to El Castillo? It would be very useful if the foreground could fade away so you can see tux.
 
       
-    I have played that level of course... (I'm a SuperTux developer after all...) And I don't see what you mean. The trees directly after the start or what? The secret area fades in it iirc (at least it does in trunk, not sure about 0.3.0) --[AnMaster](User:AnMaster "wikilink") 18:04, 21 January 2007 (UTC)
+    I have played that level of course... (I'm a SuperTux developer after all...) And I don't see what you mean. The trees directly after the start or what? The secret area fades in it iirc (at least it does in trunk, not sure about 0.3.0) --[AnMaster](User#anmaster "wikilink") 18:04, 21 January 2007 (UTC)
 
       
     AnMaster, i think it was about the building, like, from the outside you don't see what is inside, but when you fall into the hole in ceiling the from tilemap fades and you see what's inside. Got it?
@@ -1600,7 +1600,7 @@ Problem: You have to test all the options. Every time you change anything. Does 
     There's already a project that tries to add a [Multiplayer mode](Multiplayer_mode "wikilink").
 
       
-    Besides, Penny would be a better second player. Alternatively, it could be like SuperTuxKart and support up to 4 players (Nolok and Yeti? Gnu and Wilber?), but I feel that it would be a better minigame and that 2-player with Penny would be the best implementation. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+    Besides, Penny would be a better second player. Alternatively, it could be like SuperTuxKart and support up to 4 players (Nolok and Yeti? Gnu and Wilber?), but I feel that it would be a better minigame and that 2-player with Penny would be the best implementation. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 -   the other penguin could be [fluffy](fluffy "wikilink")
 -   +1. I like it.
@@ -1625,30 +1625,30 @@ What about a new glossy SuperTux. Or has he to be as all the other objects in wa
 
 I think that Supertux would be even cooler in 3D. It could be partially implemented, for example, there could be substages in 3D, or a 3D world later on? Or maybe it would more appropriate in a future spin off game?
 
--   Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites in a 2D world. --[Tuxdev](User:Tuxdev "wikilink") 22:51, 3 Oct 2006 (CEST)
-    -   Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 02:19, 10 Oct 2006 (CEST)
-        -   No, he means like New Super Mario Bros or Super Smash Bros Melee, where the game is 2D side-scrolling but the graphics are 3D. (I mean tuxdev meant that, not the OP) [67.168.194.207](User:67.168.194.207 "wikilink") 02:12, 11 Oct 2006 (CEST)
--   2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net. Just throwing around ideas.--[66.153.31.148](User:66.153.31.148 "wikilink") 06:54, 4 Oct 2006 (CEST)
+-   Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites in a 2D world. --[Tuxdev](User#tuxdev "wikilink") 22:51, 3 Oct 2006 (CEST)
+    -   Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 02:19, 10 Oct 2006 (CEST)
+        -   No, he means like New Super Mario Bros or Super Smash Bros Melee, where the game is 2D side-scrolling but the graphics are 3D. (I mean tuxdev meant that, not the OP) [67.168.194.207](User#67.168.194.207 "wikilink") 02:12, 11 Oct 2006 (CEST)
+-   2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net. Just throwing around ideas.--[66.153.31.148](User#66.153.31.148 "wikilink") 06:54, 4 Oct 2006 (CEST)
 -   Maybe leave the game itself how it is, and have 3D cutscenes?
-    -   It's a good idea. Leave the game how it is, only change the cutscenes. [DirtY iCE](User:DirtY_iCE "wikilink") 10:54, 5 Nov 2006 (CET)
+    -   It's a good idea. Leave the game how it is, only change the cutscenes. [DirtY iCE](User#dirty_ice "wikilink") 10:54, 5 Nov 2006 (CET)
 -   This idea may seem a bit wacky, but tux could fall into a hidden hole where he gets virtualized and has to fight virtual enemies in a virtual 3D landscape for a few levels then he has to go through a portal in the last 3D level to take him back to 2D. The only problem is the huge amount of code and graphics that would be required, thus resulting in a huge package size. Perhaps this could be an addon for a new bonus world?
 -   Something similar to the original Jazz Jackrabbit style bonus stages perhaps? (For the uninitiated, picking up a large hidden gem in certain stages in JJ would take you to a 3D bonus stage on completion of the level, in which you would navigate a maze to collect a certain number of gems to win an extra life). Not entirely sure of the best way to set this out, certainly don't want to directly copy off JJ, just throwing the idea out there.
--   Sounds a bit too much like TRON. --[Gyroknight](User:Gyroknight "wikilink")
-    -   At first I was hoping that somebody would want 3D Tux, but the more I thought about it, the more I thought that the game would lose its atmosphere if it went from 2D drawings to 3D models. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
-        -   I wholeheartedly agree. Above all, Supertux \*must\* remain firmly in the second dimension. 3-D models would ruin the game's cartoony, painting-esque charm. --[Mr Eyeball](User:Mr_Eyeball "wikilink") 18:20, 11 October 2009 (UTC)
+-   Sounds a bit too much like TRON. --[Gyroknight](User#gyroknight "wikilink")
+    -   At first I was hoping that somebody would want 3D Tux, but the more I thought about it, the more I thought that the game would lose its atmosphere if it went from 2D drawings to 3D models. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
+        -   I wholeheartedly agree. Above all, Supertux \*must\* remain firmly in the second dimension. 3-D models would ruin the game's cartoony, painting-esque charm. --[Mr Eyeball](User#mr_eyeball "wikilink") 18:20, 11 October 2009 (UTC)
 
 #### Pirates
 
 Any bad guy pirate with a sword also be fun to the milestone 2.
-foudre: yer idea be seconded Me hearties, I bein' with ya, matey. Shiver me timbers, I've dreamed of this since M1, aargh. Cap'n snopwball be here! --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC) (Also, see [Water World](Water_World "wikilink")
+foudre: yer idea be seconded Me hearties, I bein' with ya, matey. Shiver me timbers, I've dreamed of this since M1, aargh. Cap'n snopwball be here! --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC) (Also, see [Water World](Water_World "wikilink")
 
 #### Collect coins by shooting
 
-It should be possible to collect coins by shooting at them with the fire flower powerup. AFAIR, you can do this in Super Mario games. --[217.235.171.77](User:217.235.171.77 "wikilink") 01:24, 9 Dec 2006 (CET)
+It should be possible to collect coins by shooting at them with the fire flower powerup. AFAIR, you can do this in Super Mario games. --[217.235.171.77](User#217.235.171.77 "wikilink") 01:24, 9 Dec 2006 (CET)
 
 -   No, but maybe get coins for killing badguys?
 -   Why we turn that not arround and Tux have to pay coins for ever fireboll?
-    -   I think both are bad ideas. Free fireballs is better, and coins should only be earned by collecting. (EXCEPTION: Tux can get a 100+ coin bonus like in certain blocks for each boss he defeats?) --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+    -   I think both are bad ideas. Free fireballs is better, and coins should only be earned by collecting. (EXCEPTION: Tux can get a 100+ coin bonus like in certain blocks for each boss he defeats?) --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
         -   I like the idea of being able to use fireballs to collect coins. Actually, it seems obvious to me.
 
 #### Pay for restart at reset point, not for dying
@@ -1659,17 +1659,17 @@ This has been proposed as Issue 141. It would mean that Tux doesn't have to pay 
 
 Maybe Tux Could ride a seal like mario rides yoshi! that would be fun.
 
--   Seals eat penguins. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+-   Seals eat penguins. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 <!-- -->
 
--   Dinosaurs eat humans [Anikom15](User:Anikom15 "wikilink") 06:42, 3 January 2010 (UTC)
+-   Dinosaurs eat humans [Anikom15](User#anikom15 "wikilink") 06:42, 3 January 2010 (UTC)
 
 <!-- -->
 
 -   Correction: smaller carnivorous dinosaurs would probably eat humans until they learned to fear our wrath. That is, if they ever met us.
 
-### More Ideas from <User:Penguin>
+### More Ideas from <User#penguin>
 
 #### Some Tile Ideas
 
@@ -1719,7 +1719,7 @@ Picking things up with tapping the screen once?
 Just some thoughts. We should not let the lack of keyboard restrict us.
 
   
-I assume that this would be in a DS version of the game, right? [Cooljeanius](User:Cooljeanius "wikilink") 21:04, 1 December 2008 (UTC)
+I assume that this would be in a DS version of the game, right? [Cooljeanius](User#cooljeanius "wikilink") 21:04, 1 December 2008 (UTC)
 
 <!-- -->
 
@@ -1729,14 +1729,14 @@ Or a version for phones with touchscreens, or (rare) laptops/computers with touc
 
 ### Better levels
 
-The levels in Milestone 1 were ok but in Milestone 2 there are too hard ... :( They may be the same, but Milestone 2 has got a worse control than Milestone 1. --[217.224.71.189](User:217.224.71.189 "wikilink") 18:17, 8 April 2007 (UTC)
+The levels in Milestone 1 were ok but in Milestone 2 there are too hard ... :( They may be the same, but Milestone 2 has got a worse control than Milestone 1. --[217.224.71.189](User#217.224.71.189 "wikilink") 18:17, 8 April 2007 (UTC)
 
   
-Hey, for some of us, harder is better! I thought the Mi1 levels were too easy. --[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 19:30, 8 April 2007 (UTC)
+Hey, for some of us, harder is better! I thought the Mi1 levels were too easy. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 19:30, 8 April 2007 (UTC)
 
 -   I think the levesl are ok but maybe a adjustable grade would help
 -   For example more/less savepoints, firetux directly becomes little when it's hit
-    -   More or less savepoints, sure, but fireTux -&gt; baby Tux = NO. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+    -   More or less savepoints, sure, but fireTux -&gt; baby Tux = NO. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Ice breaking
 
@@ -1745,10 +1745,10 @@ There are ice tiles or ice ground that can be walked on. They can also be jumped
 -   I've implemented that in my own version - I can now smash wooden boxes with buttjump from top. - 500million
 
   
-Or the fireflower could melt them. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Or the fireflower could melt them. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
   
-There are [Unstable tiles](Unstable_tile "wikilink") which dissolve after a while of Tux standing on them and [Weak blocks](Weak_block "wikilink") which burn when shot with the [Fireflower](Fireflower "wikilink"). --[octo](User:Octo "wikilink") 07:58, 28 February 2010 (UTC)
+There are [Unstable tiles](Unstable_tile "wikilink") which dissolve after a while of Tux standing on them and [Weak blocks](Weak_block "wikilink") which burn when shot with the [Fireflower](Fireflower "wikilink"). --[octo](User#octo "wikilink") 07:58, 28 February 2010 (UTC)
 
 ### Geyser
 
@@ -1766,7 +1766,7 @@ You could use wind on a waterfall (upside-down) to make that!
 
 It could be possible to throw objects/shoot fireballs upwards. --Shylence 22:16, 25 February 2008 (UTC)
 
-*I* don't like the idea, but...--[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+*I* don't like the idea, but...--[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Teleporter
 
@@ -1778,9 +1778,9 @@ Doors.
   
 Yes, doors are good. But maybe have other stuff too like teleporter, magic force field, hole, cave or something. --smallfoot
 
-Can be done already. A door with another sprite or a script trigger. --[WolfgangB](User:WolfgangB "wikilink") 19:47, 7 Sep 2006 (BST)
+Can be done already. A door with another sprite or a script trigger. --[WolfgangB](User#wolfgangb "wikilink") 19:47, 7 Sep 2006 (BST)
 
-Plus the willowisps. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Plus the willowisps. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Diving
 
@@ -1804,9 +1804,9 @@ Yes, he could also be faster. But there should be a difference in movement under
 How 'bout make him actually look like he's swimming: - instead of |.
 
   
-Here's what I say: Swimming graphics, MUCH faster, no time limit, and fire/ice don't work (though pecking badguys might). Yes, Tux is a penguin! Penguins fly underwater! --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Here's what I say: Swimming graphics, MUCH faster, no time limit, and fire/ice don't work (though pecking badguys might). Yes, Tux is a penguin! Penguins fly underwater! --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
-see [Swimming](Swimming "wikilink") --[WolfgangB](User:WolfgangB "wikilink") 19:48, 7 Sep 2006 (BST)
+see [Swimming](Swimming "wikilink") --[WolfgangB](User#wolfgangb "wikilink") 19:48, 7 Sep 2006 (BST)
 
 ### Doors / Bridges
 
@@ -1836,7 +1836,7 @@ These stones can be pushable so they start rolling.
 Kind of similar to the above mentioned “rollable/pushable stone”. But these can only be pushed and not rolled. Can not harm enemies. Unlock stones, these has the ability to be stacked on top of each other.
 
   
-Seems already implemented as blocks. --[Some Person](User:Some_Person "wikilink") 14:59, 17 March 2008 (UTC)
+Seems already implemented as blocks. --[Some Person](User#some_person "wikilink") 14:59, 17 March 2008 (UTC)
 
 ### Catching background story
 
@@ -1856,12 +1856,12 @@ I shalt put that intoeth mine version of Super tux.-Rorikdude
 
 Some games have a story that is more interesting than the game itself. Some games you play just because you are so into the story and really needs to know more about it. Kinda like when you started to read a book, you cant put it away. Of when you started watch a movie, it get so exciting you cant switch away channel. :)
 
-= I like the idea of Tux not knowing anything in the beginning. Perhaps at the start - 'Antarctica - the dryest continent on Earth. (shows worldmap) One of the few creatures that can brave the polar winds is the penguin - there's some there...' and zooms in on Tux and Penny. 'Another is the - ' camera shakes, goes funny, ice bush moves and dark shape, blacks out. And when you start level one: 'Tux was confused and upset. Where wass Penny... his Penny... ? He started searching, not really beleiving he would find her, but he had to do something. There were rumours... such rumours... but nothing like that could have happened... could it? And level two: 'Tux caught sight of a peice of paper lying torn and wet under a overhanging ledge of ice. He picked it up carefully, and saw with a leap of his heart that it was only the bottom fragment of a larger sheet. All that was there was a delicately drawn ice flower - the symbol of his beloved Penny' - [User:Poison Ivy](User:Poison_Ivy "wikilink")
+= I like the idea of Tux not knowing anything in the beginning. Perhaps at the start - 'Antarctica - the dryest continent on Earth. (shows worldmap) One of the few creatures that can brave the polar winds is the penguin - there's some there...' and zooms in on Tux and Penny. 'Another is the - ' camera shakes, goes funny, ice bush moves and dark shape, blacks out. And when you start level one: 'Tux was confused and upset. Where wass Penny... his Penny... ? He started searching, not really beleiving he would find her, but he had to do something. There were rumours... such rumours... but nothing like that could have happened... could it? And level two: 'Tux caught sight of a peice of paper lying torn and wet under a overhanging ledge of ice. He picked it up carefully, and saw with a leap of his heart that it was only the bottom fragment of a larger sheet. All that was there was a delicately drawn ice flower - the symbol of his beloved Penny' - [User#poison Ivy](User#poison_ivy "wikilink")
 
 `  -hmm... we could say that Nolok lives at the North Pole (the other side of the world!) and Tux has to cross the planet`
 `   to find Penny. Or/and maybe we could make Nolok escape continuously, and Tux has to follow him.`
 
-It does need to be more passionate/inspiring, but the classic platform-game atmosphere may be the highest priority. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+It does need to be more passionate/inspiring, but the classic platform-game atmosphere may be the highest priority. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### NPC
 
@@ -1874,8 +1874,8 @@ Walls that can be broken (in one way or another) in order for Tux to enter into 
   
 Who the \[censored\] is sonic? There are weak blocks.
 
--   Watch your mouth.--[DJ Wings](User:Djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:35, 11 Jul 2006 (BST)
--   Watch your mouth. I think that Sonic is a blue hedgehog from Sega. If that's true, that's all I know about it. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+-   Watch your mouth.--[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:35, 11 Jul 2006 (BST)
+-   Watch your mouth. I think that Sonic is a blue hedgehog from Sega. If that's true, that's all I know about it. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Dynamic environment
 
@@ -1892,7 +1892,7 @@ He is quite the opposite of Tux with a complete different personality, instead o
 
 Playing a cute little dragon would be cool too! :D Again,I shalt put that intoeth mine version of Super tux.It will be out in three years-Rorikdude
 
-I think that an alternative character (outside of [Super Tux Smash](Super_Tux_Smash "wikilink")) would be another very bad idea. Penny, of course, ***must*** be playable--that is given--but the whole idea is that you have Tux the penguin and you jump and squish your way through a variety of levels until you reach a fortress. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+I think that an alternative character (outside of [Super Tux Smash](Super_Tux_Smash "wikilink")) would be another very bad idea. Penny, of course, ***must*** be playable--that is given--but the whole idea is that you have Tux the penguin and you jump and squish your way through a variety of levels until you reach a fortress. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### In the sea
 
@@ -1938,7 +1938,7 @@ As an Anti-lantern would seem to be a normal lantern, it should be marked someho
 
 Tux could use it when there was an inaccessable Lantern and a Magicblock standing in his way.
 
---[Špule](User:Špule "wikilink") 06:02, 3 July 2007 (UTC)
+--[Špule](User#špule "wikilink") 06:02, 3 July 2007 (UTC)
 
 ### Change language in-game
 
@@ -1956,18 +1956,18 @@ it is already (in idea) implemented as a “kick the badguy and he breaks the wa
 
 ### Supertux 3D
 
-i made a supertux 3D. i am trying to get devel help, and i have a [sourceforge page](http://sourceforge.net/projects/supertux-3d) now, so if anyone knows [blender](http://www.blender.org/) please help! (just tell me if i'm not allowed to make it)--[Disk](User:Disk "wikilink") 22:20, 10 September 2007 (UTC)
+i made a supertux 3D. i am trying to get devel help, and i have a [sourceforge page](http://sourceforge.net/projects/supertux-3d) now, so if anyone knows [blender](http://www.blender.org/) please help! (just tell me if i'm not allowed to make it)--[Disk](User#disk "wikilink") 22:20, 10 September 2007 (UTC)
 
 Of course you're allowed! It's GPL, for heaven's sake!
 
-I know a bit of Blender. I'm still in the basic tutorials (making jeeps, puppies, and cups), but I may be able to help. You might also want to talk to the SuperTuxKart team about this. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+I know a bit of Blender. I'm still in the basic tutorials (making jeeps, puppies, and cups), but I may be able to help. You might also want to talk to the SuperTuxKart team about this. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Submit level
 
 A very nice way to get the community involved in creating artwork/levels for SuperTux would be to have a submit button in the level editor. Submissions received this way can be put on a website where the community “votes” (for example digg style) the levels.
 
   
-See <http://supertux.info/pmlvls.php> . I don't think a button in the editor would do much good. Too many people would submit everything just because they can. Lets hope uploading manually makes them think a bit about their level. --[Superdev](User:Superdev "wikilink") 09:35, 6 October 2007 (UTC)
+See <http://supertux.info/pmlvls.php> . I don't think a button in the editor would do much good. Too many people would submit everything just because they can. Lets hope uploading manually makes them think a bit about their level. --[Superdev](User#superdev "wikilink") 09:35, 6 October 2007 (UTC)
 
 ### Mistakes in SMB3
 
@@ -1987,7 +1987,7 @@ There are underwater platforms in the game. Maybe you can add an indicator of ox
   
 <http://supertux.lethargik.org/wiki/Talk:Swimming>
 
-Unless you leave the game running while you go out and work in the yard, there would be no way Tux could run out of oxygen. Penguins can hold their breaths for a *very long time*...***very*** long time. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Unless you leave the game running while you go out and work in the yard, there would be no way Tux could run out of oxygen. Penguins can hold their breaths for a *very long time*...***very*** long time. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 ### Flame sprite
 
@@ -2000,7 +2000,7 @@ I think it's a bad idea for three reasons:
 -   If the flame should have a tail, the flame would have to draw on all angles.
 -   That's how you drew it looks weird.
 
---[Hume](User:Hume "wikilink") 07:45, 21 February 2011 (UTC)
+--[Hume](User#hume "wikilink") 07:45, 21 February 2011 (UTC)
 
 ### Own Sketches
 
@@ -2016,11 +2016,11 @@ I think there should be some sort of merchant in the game where you can spend go
 
 ![](images/Merchant.jpg "Merchant.jpg")
 
-Shops have already been proposed. I rather like the idea. I think that the gnu should be the merchant selling stuff in the shops. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+Shops have already been proposed. I rather like the idea. I think that the gnu should be the merchant selling stuff in the shops. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
 Really! Where? Thanks! I'm Suprised anyone would answer my ideas! Just tell me where the shops are coz - I've never seen one!
 
-Maybe the coins could be money or something. [UltraTux](User:UltraTux "wikilink") 21:00, 16 August 2009 (UTC)
+Maybe the coins could be money or something. [UltraTux](User#ultratux "wikilink") 21:00, 16 August 2009 (UTC)
 
 ### Death mound
 
@@ -2040,15 +2040,15 @@ I didn't read, I admit, **all** ideas O\_O <small>OMG</small>. Please don't hate
 -   black hole which suck away Tux (he could die or the black hole could work as transporter)
 -   transformed Tux which could cheat enemies
 
---<small style="background:#f00">**[<span style="color:#000">→ A</span>](User:Airon90 "wikilink")[<span style="color:#f00;background:#000">ir</span>](Special:Contributions/Airon90 "wikilink")[<span style="color:#000">on Ĉ</span>](User_talk:Airon90 "wikilink")**</small> 20:36, 2 July 2009 (UTC)
+--<small style="background:#f00">**[<span style="color:#000">→ A</span>](User#airon90 "wikilink")[<span style="color:#f00;background:#000">ir</span>](Special:Contributions/Airon90 "wikilink")[<span style="color:#000">on Ĉ</span>](User_talk:Airon90 "wikilink")**</small> 20:36, 2 July 2009 (UTC)
 
--   -   Personally, I don't think that any of those are good ideas. Not to insult you, but I don't think that any of those fit with the theme. (P.S. I read them all!) --[Julius\_Freezer](User:Julius_Freezer "wikilink") 23:58, 2 July 2009 (UTC)
+-   -   Personally, I don't think that any of those are good ideas. Not to insult you, but I don't think that any of those fit with the theme. (P.S. I read them all!) --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
 
-Hey I saw you Respond to my merchant! I've got an idea: for invisible... maybe you could just see shoes or gloves etc [Crazy\_penguin](User:Crazy_penguin "wikilink") 9:58, 15 July 2009 (UTC)
+Hey I saw you Respond to my merchant! I've got an idea: for invisible... maybe you could just see shoes or gloves etc [Crazy\_penguin](User#crazy_penguin "wikilink") 9:58, 15 July 2009 (UTC)
 
-I think that for a final boss that Nolok could transform into something really powerful, but those ideas are kindof.... strange. [UltraTux](User:UltraTux "wikilink") 21:00, 16 August 2009 (UTC)
+I think that for a final boss that Nolok could transform into something really powerful, but those ideas are kindof.... strange. [UltraTux](User#ultratux "wikilink") 21:00, 16 August 2009 (UTC)
 
-Yes,I think too that Nolok could be the final boss.But very bore,like Bowser.I also think that can be an playable player,for who end the game unlock it and when play with Nolok,have another story (Nolok in the place of tux can be a bit strange,it's better that Nolok has an personal treasure and someone steals it).--[Baghogho](User:Baghogho "wikilink") 21:11, 17 April 2011 (UTC)
+Yes,I think too that Nolok could be the final boss.But very bore,like Bowser.I also think that can be an playable player,for who end the game unlock it and when play with Nolok,have another story (Nolok in the place of tux can be a bit strange,it's better that Nolok has an personal treasure and someone steals it).--[Baghogho](User#baghogho "wikilink") 21:11, 17 April 2011 (UTC)
 
 ### Ipod touch?
 
@@ -2059,20 +2059,20 @@ GPLed software is not compatible with the app store <http://www.fsf.org/blogs/li
 
 ### Planet Map?
 
-To add a sense of proper geography to the game, after you defeat a world's boss, you could be given a brief cutscene of the game's entire world, with a little Tux icon shown moving between the “Worlds.” Antarctica would be at the very bottom, of course. And this would alleviate a little bit of the “Forest World is a little bit east of Antarctica” stress in the back of my mind every time I play. (Sorry to sound nitpicky.) --[Mr Eyeball](User:Mr_Eyeball "wikilink") 18:27, 11 October 2009 (UTC)
+To add a sense of proper geography to the game, after you defeat a world's boss, you could be given a brief cutscene of the game's entire world, with a little Tux icon shown moving between the “Worlds.” Antarctica would be at the very bottom, of course. And this would alleviate a little bit of the “Forest World is a little bit east of Antarctica” stress in the back of my mind every time I play. (Sorry to sound nitpicky.) --[Mr Eyeball](User#mr_eyeball "wikilink") 18:27, 11 October 2009 (UTC)
 
 ### Power up idea
 
-Maybe, just like mario there would be a shop And what ever you brought would appear In the gadget with a thing that says “click here” And whenever you clicked on that the next box you searched would be the thing that you brought. \[\[User:Crazypenguin|Crazypenguin
+Maybe, just like mario there would be a shop And what ever you brought would appear In the gadget with a thing that says “click here” And whenever you clicked on that the next box you searched would be the thing that you brought. \[\[User#crazypenguin|crazypenguin
 
 ### Complaints!
 
-I guess I'll start this section for us all to post our own “Grumbel Grumbles” about the current version. My main complaint would probably be the types of levels in the Forest World. It seems to me that ALL of the levels in there contain a gimmick which is never to be found again. “Bouncy Coils” is the only level to contain the coils. “Crumbling Path” introduces the crumble blocks, which are never seen again. “Tux the Builder” has building blocks which are also never seen again. Call me spoiled, but I'd like to see some more just-plain-levels (Like “Welcome to the Forest”) when Milestone 2 is finally released. --[Mr Eyeball](User:Mr_Eyeball "wikilink") 21:59, 24 October 2009 (UTC)
+I guess I'll start this section for us all to post our own “Grumbel Grumbles” about the current version. My main complaint would probably be the types of levels in the Forest World. It seems to me that ALL of the levels in there contain a gimmick which is never to be found again. “Bouncy Coils” is the only level to contain the coils. “Crumbling Path” introduces the crumble blocks, which are never seen again. “Tux the Builder” has building blocks which are also never seen again. Call me spoiled, but I'd like to see some more just-plain-levels (Like “Welcome to the Forest”) when Milestone 2 is finally released. --[Mr Eyeball](User#mr_eyeball "wikilink") 21:59, 24 October 2009 (UTC)
 
--   One more thing: Just because it's the Forest World, doesn't mean that there have to be ONLY forest levels included in there. The Mario series has Grassland Levels in the Sky World, Sky Levels in the Forest World, Volcano Levels in the Grassland World, etc. After 23 levels of *only*forest, I got a little bored of the theme. You might say the novelty wore off. I'd also like to see certain enemies (Like the Goomba in Mario) that appear in every world. And I think the castles in each world should have the same (or somewhat similar) tileset to add a sense of uniformity to Nolok's designs. --[Mr Eyeball](User:Mr_Eyeball "wikilink") 22:03, 24 October 2009 (UTC)
+-   One more thing: Just because it's the Forest World, doesn't mean that there have to be ONLY forest levels included in there. The Mario series has Grassland Levels in the Sky World, Sky Levels in the Forest World, Volcano Levels in the Grassland World, etc. After 23 levels of *only*forest, I got a little bored of the theme. You might say the novelty wore off. I'd also like to see certain enemies (Like the Goomba in Mario) that appear in every world. And I think the castles in each world should have the same (or somewhat similar) tileset to add a sense of uniformity to Nolok's designs. --[Mr Eyeball](User#mr_eyeball "wikilink") 22:03, 24 October 2009 (UTC)
 
   
-This is why 0.3.\* is called a “development version.” It is intended to preview new features. The levels are the demos for these features. This is also why you can get the editor for these levels. (See [Download/Unstable\#Release\_0.3.0](Download/Unstable#Release_0.3.0 "wikilink")) If you do not like the current levels, please create some. Nobody else is working on SuperTux; you'd probably be the first to make some. Submit them according to the instructions in [Contributing](Contributing "wikilink"). --[Mathnerd314](User:Mathnerd314 "wikilink") 23:31, 24 October 2009 (UTC)
+This is why 0.3.\* is called a “development version.” It is intended to preview new features. The levels are the demos for these features. This is also why you can get the editor for these levels. (See [Download/Unstable\#Release\_0.3.0](Download/Unstable#Release_0.3.0 "wikilink")) If you do not like the current levels, please create some. Nobody else is working on SuperTux; you'd probably be the first to make some. Submit them according to the instructions in [Contributing](Contributing "wikilink"). --[Mathnerd314](User#mathnerd314 "wikilink") 23:31, 24 October 2009 (UTC)
 
   
 Ah, thanks. Perhaps I should. I have only one thing left to say for now, then. (Although this probably doesn't belong under “Complaints”.) The mere thought of glowy light-effect lava like that makes me drool. I hope somebody figures out some way to implement that in the near future.
@@ -2083,7 +2083,7 @@ Ah, thanks. Perhaps I should. I have only one thing left to say for now, then. (
 
   
   
---[Mr Eyeball](User:Mr_Eyeball "wikilink") 06:03, 2 November 2009 (UTC)
+--[Mr Eyeball](User#mr_eyeball "wikilink") 06:03, 2 November 2009 (UTC)
 
 ### Keys and Locks and Secret Levels
 
@@ -2094,7 +2094,7 @@ I think it would be awesome if there were keys, locks, and secret levels in Supe
 Maybe we could have big coins you could collect (like New Super Mario Bros Wii.), and unlock a bonus World (World 9 in NSMB Wii).
 
   
-Collectibles on a per-level basis are planned in *Milestone 2*, see [Milestone 2 Design Document/Objects\#Collectibles](Milestone_2_Design_Document/Objects#Collectibles "wikilink"). --[octo](User:Octo "wikilink") 07:52, 28 February 2010 (UTC)
+Collectibles on a per-level basis are planned in *Milestone 2*, see [Milestone 2 Design Document/Objects\#Collectibles](Milestone_2_Design_Document/Objects#Collectibles "wikilink"). --[octo](User#octo "wikilink") 07:52, 28 February 2010 (UTC)
 
 ### Graphical help
 
@@ -2503,7 +2503,7 @@ More badguy ideas
 
 `     -updated 4-15-10 by fyretux`
 
-SnowBomb is a bit like SkyDive, although SkyDive is for the forest world... [TUX/√UT](User:Tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut "wikilink")) 17:28, 21 June 2010 (UTC)
+SnowBomb is a bit like SkyDive, although SkyDive is for the forest world... [TUX/√UT](User#tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut "wikilink")) 17:28, 21 June 2010 (UTC)
 
 Some cool ideas
 ---------------
@@ -2561,7 +2561,7 @@ contains; Ship tiles(big and small) and all water tiles.
 A fish that jumps up to 7 tiles right or left.
 
   
-<small>Comment: “Flying fish?” [TUX/√UT](User:Tuxnut "wikilink") 20:11, 17 June 2010 (UTC)</small>
+<small>Comment: “Flying fish?” [TUX/√UT](User#tuxnut "wikilink") 20:11, 17 June 2010 (UTC)</small>
 
 -   **Shark**:
 
@@ -2614,7 +2614,7 @@ These are some rough sketches of badguy and object behaviors. They don't have to
 -   **Rolling snowball**: Large snowball that rolls around, destroying other badguys and hurting Tux on contact. Think Indiana Jones...except frozen. Could be a kind of boss level, although we've already got one for Icyisland :/
 -   **FreezeBall**: a kickable (but not portable) object that can be used to squish badguys. If the FreezeBall lands in a particular area (let's call it a goal) then a script is activated, possibly opening a door to a secret area...
 
-[Tuxnut](User:Tuxnut "wikilink") 00:23, 15 June 2010 (UTC) - updated 17:26, 21 June 2010 (UTC)
+[Tuxnut](User#tuxnut "wikilink") 00:23, 15 June 2010 (UTC) - updated 17:26, 21 June 2010 (UTC)
 
 The infinite patern
 -------------------
@@ -2630,7 +2630,7 @@ An one idea for Tux
 
 Big Tux can slam the badguys. If Big Tux gets so close to badguy press Action and he can slam it from left to right. like in most beat'em up games. sample of this can be viewed here <http://i44.tinypic.com/59zfh1.jpg> [89.251.107.53](Special:Contributions/89.251.107.53 "wikilink") 15:37, 30 October 2011 (UTC)
 
-[Hume's](User:Hume "wikilink") ideas
+[Hume's](User#hume "wikilink") ideas
 ------------------------------------
 
 See [Planned features](Planned_features "wikilink")
@@ -2834,11 +2834,11 @@ BG, a bit smarter than Poision Ivy
 
 To put badguys eg. on a branch or a ledge i'd like to have a Forest World Bad Guy, about one tile in size, easy to be killed (squished, shot, whatever) but does not jump off his ledge.
 
-Something like Poision Ivy but smart enough not to commit suicide. Maybe a autumn version of the walking leaf. Since it's more careful it might walk a bit slower. --[WolfgangB](User:WolfgangB "wikilink") 18:20, 26 Jul 2006 (BST)
+Something like Poision Ivy but smart enough not to commit suicide. Maybe a autumn version of the walking leaf. Since it's more careful it might walk a bit slower. --[WolfgangB](User#wolfgangb "wikilink") 18:20, 26 Jul 2006 (BST)
 
-Btw, i could just grab the Ivy image and add some red, but maybe there is another BG that matchs the description but looks different. --[WolfgangB](User:WolfgangB "wikilink") 18:44, 26 Jul 2006 (BST)
+Btw, i could just grab the Ivy image and add some red, but maybe there is another BG that matchs the description but looks different. --[WolfgangB](User#wolfgangb "wikilink") 18:44, 26 Jul 2006 (BST)
 
-Done. [WalkingLeaf](WalkingLeaf "wikilink") --[WolfgangB](User:WolfgangB "wikilink") 15:59, 13 Aug 2006 (BST)
+Done. [WalkingLeaf](WalkingLeaf "wikilink") --[WolfgangB](User#wolfgangb "wikilink") 15:59, 13 Aug 2006 (BST)
 
 Flying Badguy
 =============
@@ -2846,7 +2846,7 @@ Flying Badguy
 Today in \#supertux there was the idea of some flying badguy that if killed just loses his ability to fly and becomes a walking BG. (Rip out his wings, pop his baloon, pull his goggles, etc.) A airborn BG that just flies left/right or even is stationary could be used to jump on to cross a river or as moving obstacle.
 
   
-Make it so. --[Superdev](User:Superdev "wikilink") 20:29, 31 Jul 2006 (BST)
+Make it so. --[Superdev](User#superdev "wikilink") 20:29, 31 Jul 2006 (BST)
 
 Mini-Bosses
 ===========
@@ -3240,7 +3240,7 @@ Comments
 
 Comments should be posted here or directed to zratchet -at- gmail -dot- com
 
--   Sounds great, can't wait. Just *please* keep hexley out of it. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 00:24, 18 June 2009 (UTC)
+-   Sounds great, can't wait. Just *please* keep hexley out of it. --[Julius\_Freezer](User#julius_freezer "wikilink") 00:24, 18 June 2009 (UTC)
 
 <!-- -->
 
@@ -3318,7 +3318,7 @@ Breathing
 I don't know if penguins can breath underwater, but maybe Tux need swim to surface to breath sometimes...
 
 -   They can hold their breaths for up to 12 minutes. Good enough?
-    -   It depends on the penguin. Adélie's--like Tux--can hold their breaths for 15 minutes. I seriously doubt he would be underwater for that long. You probably won't be making a level as long as “Moving On,” (an EXTREMELY long--7000+ length, level made by a friend) all the way below the surface of the water. --[Julius\_Freezer](User:Julius_Freezer "wikilink") 04:32, 25 June 2009 (UTC)
+    -   It depends on the penguin. Adélie's--like Tux--can hold their breaths for 15 minutes. I seriously doubt he would be underwater for that long. You probably won't be making a level as long as “Moving On,” (an EXTREMELY long--7000+ length, level made by a friend) all the way below the surface of the water. --[Julius\_Freezer](User#julius_freezer "wikilink") 04:32, 25 June 2009 (UTC)
 
 Rope
 ----

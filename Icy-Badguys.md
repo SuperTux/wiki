@@ -215,7 +215,7 @@ must be avoided. The *Dart trap* is mostly found in castles in the
 -   clicking sound when dart hits the wall
 
 :   i belive this is already implemented in milestone 1.5 & subversion
-    --[Disk](User:Disk "wikilink") 18:51, 30 August 2007 (UTC)
+    --[Disk](User#disk "wikilink") 18:51, 30 August 2007 (UTC)
 
 Fish
 ===================
@@ -512,7 +512,7 @@ explodes if he is hit by one of Tux's fireballs, but if hit by an
 </div>
 ![Old image of Mr. Bomb](images/Mrbomb-left-0.png "fig:Old image of Mr. Bomb")
 Due to Grumbel's complaint that “Mr. Bomb is the ugliest badguy ever
-created”, user [Poison Ivy](User:Poison_Ivy "wikilink") created a
+created”, user [Poison Ivy](User#poison_ivy "wikilink") created a
 concept image for a new look by combining features of
 [Snowball](Snowball "wikilink") and the old Mr. Bomb in Gimp. This
 approach was not accepted either.

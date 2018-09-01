@@ -135,7 +135,7 @@ Critique:
 -   A jump just after the the end of the first group of moving platforms are too hard (between those dark green things)
 -   Sometimes a bit too many [Zeeklings](Zeekling "wikilink") at the same time.
 
---[AnMaster](User:AnMaster "wikilink")
+--[AnMaster](User#anmaster "wikilink")
 
 christoph5.stl
 --------------
@@ -159,7 +159,7 @@ Critique:
 
 -   Near the end of the level there are some spikes, most of them are good but some are too hard as you can't pass them as bigtux.
 
---[AnMaster](User:AnMaster "wikilink")
+--[AnMaster](User#anmaster "wikilink")
 
 christoph6.stl
 --------------
@@ -172,7 +172,7 @@ Difficulty:
 
   
   
-easy/medium. Can be completed in &lt;2min.--[WolfgangB](User:WolfgangB "wikilink") 00:57, 7 Jul 2006 (BST)
+easy/medium. Can be completed in &lt;2min.--[WolfgangB](User#wolfgangb "wikilink") 00:57, 7 Jul 2006 (BST)
 
 christoph7.stl
 --------------
@@ -191,11 +191,11 @@ Tux has to climb some trees.
 Difficulty:
 
   
-One or two jumps are a bit tricky. --[WolfgangB](User:WolfgangB "wikilink") 16:46, 3 Jul 2006 (BST)
+One or two jumps are a bit tricky. --[WolfgangB](User#wolfgangb "wikilink") 16:46, 3 Jul 2006 (BST)
 
-Update r3937. Longer, more coin trails. --[WolfgangB](User:WolfgangB "wikilink") 03:13, 8 Jul 2006 (BST)
+Update r3937. Longer, more coin trails. --[WolfgangB](User#wolfgangb "wikilink") 03:13, 8 Jul 2006 (BST)
 
-Update r4039: Two more signs right at the beginning to avoid the dead end. --[WolfgangB](User:WolfgangB "wikilink") 18:18, 17 Jul 2006 (BST)
+Update r4039: Two more signs right at the beginning to avoid the dead end. --[WolfgangB](User#wolfgangb "wikilink") 18:18, 17 Jul 2006 (BST)
 
 dfk-level1.stl
 --------------
@@ -221,21 +221,21 @@ Difficulty: Easy so far, but can only be beaten by taking a shortcut/secret path
   
 Appears to be left unfinished, as the ordinary path is still unbeatable (Requires you to cross a large empty space filled with lava)
 
-Uses switches to block/unblock passageways with column-like platforms, questionable usage at best. Extremely large and empty, distances between relevant objects could be shrunk. (Half the time spent in the level is walking back and forth) Spike pit is a bit large. One part requires Tux to jump off blindly, drop into a pit of lava, then lifts him out of the lava with platforms to allow Tux to continue - very disconcerting. The secret path is also odd, as it flips Tux, requires him to ride a platform across the level, passing over the parts he just went through, and then the flip-back area is too small and requires Tux to jump up to activate it. --[Mathnerd314](User:Mathnerd314 "wikilink") 00:39, 23 February 2008 (UTC)
+Uses switches to block/unblock passageways with column-like platforms, questionable usage at best. Extremely large and empty, distances between relevant objects could be shrunk. (Half the time spent in the level is walking back and forth) Spike pit is a bit large. One part requires Tux to jump off blindly, drop into a pit of lava, then lifts him out of the lava with platforms to allow Tux to continue - very disconcerting. The secret path is also odd, as it flips Tux, requires him to ride a platform across the level, passing over the parts he just went through, and then the flip-back area is too small and requires Tux to jump up to activate it. --[Mathnerd314](User#mathnerd314 "wikilink") 00:39, 23 February 2008 (UTC)
 
 dfk-level3.stl
 --------------
 
 Having entered Nolok's castle at the bottom, Tux must now climb up to face him at the top. Status: Playable, although there are some *very* tight jumps in places (Take a running jump and stop on a two-tile platform, then do another running jump off that. Later, Tux gets to take a running jump up, go through a 1-tile gap between the ceiling and a bracket, and come back down 4 tiles later). Missing all its badguys. There are a few dead ends, but those are recoverable as Tux can fall back down.
 
-Difficulty: Very hard, but only requires skilled handling of Tux and a working knowledge of the level. Adding badguys will make it either impossible or improbable to beat, depending on how they are placed. --[Mathnerd314](User:Mathnerd314 "wikilink") 00:39, 23 February 2008 (UTC)
+Difficulty: Very hard, but only requires skilled handling of Tux and a working knowledge of the level. Adding badguys will make it either impossible or improbable to beat, depending on how they are placed. --[Mathnerd314](User#mathnerd314 "wikilink") 00:39, 23 February 2008 (UTC)
 
 dfk-placeholder-1.stl
 ---------------------
 
 Status: placeholder/test, since its displayed name is NOLOK it presumably represents an appearance of Nolok to laugh at Tux/criticize him.
 
-Contains an Angrystone and very odd-looking tilesets as well which can only be accessed by ghosting through the floor. --[Mathnerd314](User:Mathnerd314 "wikilink") 00:39, 23 February 2008 (UTC)
+Contains an Angrystone and very odd-looking tilesets as well which can only be accessed by ghosting through the floor. --[Mathnerd314](User#mathnerd314 "wikilink") 00:39, 23 February 2008 (UTC)
 
 fish.stl
 --------
@@ -245,7 +245,7 @@ Fishponds in the forest.
 Difficulty:
 
   
-My plan was to create a easy level. If you want all coins it's a bit more complicated. --[WolfgangB](User:WolfgangB "wikilink") 16:46, 3 Jul 2006 (BST)
+My plan was to create a easy level. If you want all coins it's a bit more complicated. --[WolfgangB](User#wolfgangb "wikilink") 16:46, 3 Jul 2006 (BST)
 
 ### Mini-Review 2
 
@@ -263,11 +263,11 @@ Critique:
 -   Way too much bonus (165 coins are six extra lives and that's only from the coins)
 -   Feels a bit short
 
---[Sommer](User:Sommer "wikilink")
+--[Sommer](User#sommer "wikilink")
 
-Update: extended in r3957. --[WolfgangB](User:WolfgangB "wikilink") 19:52, 8 Jul 2006 (BST)
+Update: extended in r3957. --[WolfgangB](User#wolfgangb "wikilink") 19:52, 8 Jul 2006 (BST)
 
-Update r4038: Main level is one sector again. Less badguys, removed dispenser, made some jumps simpler. --[WolfgangB](User:WolfgangB "wikilink") 18:20, 17 Jul 2006 (BST)
+Update r4038: Main level is one sector again. Less badguys, removed dispenser, made some jumps simpler. --[WolfgangB](User#wolfgangb "wikilink") 18:20, 17 Jul 2006 (BST)
 
 forest1-grumbel.stl
 -------------------
@@ -328,7 +328,7 @@ owls\_revenge.stl
 Solvable. Easy. A bit short. Wasn't there a similar level on Giana?
 
   
-IIRC sommer (I think it was sommer at least) said he made this level like some level in another game. --[AnMaster](User:AnMaster "wikilink") 14:35, 4 Jul 2006 (BST)
+IIRC sommer (I think it was sommer at least) said he made this level like some level in another game. --[AnMaster](User#anmaster "wikilink") 14:35, 4 Jul 2006 (BST)
 
 trees.stl
 ---------
@@ -338,7 +338,7 @@ Forest, level starting on the right.
 Difficulty:
 
   
-IMO easy, but I got some training while making it. --[WolfgangB](User:WolfgangB "wikilink") 16:46, 3 Jul 2006 (BST)
+IMO easy, but I got some training while making it. --[WolfgangB](User#wolfgangb "wikilink") 16:46, 3 Jul 2006 (BST)
 
 village.stl
 -----------
@@ -348,9 +348,9 @@ A village in the light forest. Tux has to use a switch to solve the level. Use c
 Difficulty:
 
   
-I think it's medium but I played the level a lot while designing it. --[WolfgangB](User:WolfgangB "wikilink") 16:36, 3 Jul 2006 (BST)
+I think it's medium but I played the level a lot while designing it. --[WolfgangB](User#wolfgangb "wikilink") 16:36, 3 Jul 2006 (BST)
 
-Somewhere between medium and easy I would say. --[AnMaster](User:AnMaster "wikilink") 23:53, 6 Jul 2006 (BST)
+Somewhere between medium and easy I would say. --[AnMaster](User#anmaster "wikilink") 23:53, 6 Jul 2006 (BST)
 
 ### Mini-Review 1
 
@@ -370,9 +370,9 @@ Critique:
 -   Having to wait for the platform is boring and complicates speedruns
 -   Jump from roof to roof (without using invisible bonus blocks) is too hard. One shouldn't need the “bonus” blocks.
 
---[Sommer](User:Sommer "wikilink")
+--[Sommer](User#sommer "wikilink")
 
-Update: r3932 should fix most of the problems.--[WolfgangB](User:WolfgangB "wikilink") 21:04, 7 Jul 2006 (BST)
+Update: r3932 should fix most of the problems.--[WolfgangB](User#wolfgangb "wikilink") 21:04, 7 Jul 2006 (BST)
 
 updown.stl
 ----------
@@ -394,12 +394,12 @@ builder.stl
 
 'Tux the Builder'. A forest level with some rocks.
 
--   We might use this as an introductory level, but the first rock Tux encounters has to scream “carry me”. Users already had difficulty interpreting the “Run” sign in Milestone 1, level 1, so let's make this absolutely clear :-) --[Sommer](User:Sommer "wikilink") 10:35, 30 Jul 2006 (BST)
+-   We might use this as an introductory level, but the first rock Tux encounters has to scream “carry me”. Users already had difficulty interpreting the “Run” sign in Milestone 1, level 1, so let's make this absolutely clear :-) --[Sommer](User#sommer "wikilink") 10:35, 30 Jul 2006 (BST)
 
   
   
-I can add another rock near the start. If it's placed in midair it will drop down while the player is watching to make it clear that this rock is not a standard tile. If another sign next to the rock is not good enough we could mention it in the manual or add an infoblock. --[WolfgangB](User:WolfgangB "wikilink") 15:29, 30 Jul 2006 (BST)
+I can add another rock near the start. If it's placed in midair it will drop down while the player is watching to make it clear that this rock is not a standard tile. If another sign next to the rock is not good enough we could mention it in the manual or add an infoblock. --[WolfgangB](User#wolfgangb "wikilink") 15:29, 30 Jul 2006 (BST)
 
-Is something like <Media:RockHowTo-nq8.png> self explaining or does it need additional text? --[WolfgangB](User:WolfgangB "wikilink") 17:05, 31 Jul 2006 (BST)
+Is something like <Media:RockHowTo-nq8.png> self explaining or does it need additional text? --[WolfgangB](User#wolfgangb "wikilink") 17:05, 31 Jul 2006 (BST)
 
 <Category:Development>

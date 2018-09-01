@@ -421,30 +421,30 @@ Editor
 
 -   Scroll TileList with middle mouse, Get different Tilegroups
 
-    Isn't that the way it is atm? --[WolfgangB](User:WolfgangB "wikilink") 18:23, 7 Aug 2006 (BST)
+    Isn't that the way it is atm? --[WolfgangB](User#wolfgangb "wikilink") 18:23, 7 Aug 2006 (BST)
 
 
     Only if one tilegroup is selected, with default group (empty string) you can't scroll, once you have set it to “All” or anything else you can. Should be bug (or feature) in GTK, it's not controlled by program.
 
 -   Create an overview widget (where to place this in the GUI?)
 
-    Overview for what? -- [Penguinmaster](User:Penma "wikilink") 15:46, 4 Oct 2006 (CEST)
+    Overview for what? -- [Penguinmaster](User#penma "wikilink") 15:46, 4 Oct 2006 (CEST)
 
 
     The sector. Like a minimap.
 
 -   Grab Mouse Pointer when scrolling so that we can scroll as much as we want (and the mouse is still where it was before scrolling)
 
-    I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[AnMaster](User:AnMaster "wikilink") 10:46, 13 Nov 2006 (CET)
+    I don't think that would be a good idea. I at least found that applications that does that are hard to use. --[AnMaster](User#anmaster "wikilink") 10:46, 13 Nov 2006 (CET)
 
 -   More custom property editors:
     -   Texts
     -   Scripts (we had a very good gtksourceview based editor which is disabled at the moment, maybe split the editor to a separate dll and load different editors on demand?)
 
-        Why was it disabled? --[WolfgangB](User:WolfgangB "wikilink") 16:45, 13 Jul 2006 (BST)
+        Why was it disabled? --[WolfgangB](User#wolfgangb "wikilink") 16:45, 13 Jul 2006 (BST)
 
 
-        Because it crash the editor on Windows, and because it add lots of extra deps. --[AnMaster](User:AnMaster "wikilink") 23:27, 20 Jul 2006 (BST)
+        Because it crash the editor on Windows, and because it add lots of extra deps. --[AnMaster](User#anmaster "wikilink") 23:27, 20 Jul 2006 (BST)
 
 
         “lots of extra deps” anything that is not part of every serious distro? Why not fix the crash instead of removing features?
@@ -452,24 +452,24 @@ Editor
 -   Editor has strange behaviour when you select a tile in the middle, right-click select and move the mouse too much to the right
 -   Tool not working after loading new level
 
-    Added a workaround for this by resetting to the Select tool when loading new level. --[AnMaster](User:AnMaster "wikilink") 20:25, 8 Sep 2006 (BST)
+    Added a workaround for this by resetting to the Select tool when loading new level. --[AnMaster](User#anmaster "wikilink") 20:25, 8 Sep 2006 (BST)
 
 -   Windows builds seem to silently crash when loading huge levels
 
     huge as in 100x100 or more like 10000x10000?
 
 
-    the level old world2/airkey.stl crashed both editor and the game itself on windows. --[AnMaster](User:AnMaster "wikilink") 17:56, 30 Jun 2006 (BST)
+    the level old world2/airkey.stl crashed both editor and the game itself on windows. --[AnMaster](User#anmaster "wikilink") 17:56, 30 Jun 2006 (BST)
 
 
-    the old airkey was 300x300. It makes the editor slow on my Linux box but it's working--[WolfgangB](User:WolfgangB "wikilink") 00:14, 6 Jul 2006 (BST)
+    the old airkey was 300x300. It makes the editor slow on my Linux box but it's working--[WolfgangB](User#wolfgangb "wikilink") 00:14, 6 Jul 2006 (BST)
 
 
-    The editor crashes on windows certainly. It stops also responding very often. I think it's partly windows, wich causes the crash. --[Yaniel](User:Yaniel "wikilink")
+    The editor crashes on windows certainly. It stops also responding very often. I think it's partly windows, wich causes the crash. --[Yaniel](User#yaniel "wikilink")
 
 -   Make the right click menu from sector tab a normal menu so that users can easily find it
 
-    Maybe add them to a toolbar? that could be useful. --[AnMaster](User:AnMaster "wikilink") 23:27, 20 Jul 2006 (BST)
+    Maybe add them to a toolbar? that could be useful. --[AnMaster](User#anmaster "wikilink") 23:27, 20 Jul 2006 (BST)
 
 -   Add a new way to copy parts of one level to another.
 

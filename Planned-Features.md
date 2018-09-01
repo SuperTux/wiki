@@ -42,7 +42,7 @@ You can see, what everything is planned to next SuperTux releases.
         -   \[✔\] A sign that suggests waiting for a platform.
         -   \[✔\] A sign that suggests using a lantern.
     -   \[✔\] All ghostforest tiles will have similar texture.
--   \[➔\] Some features from [LMH's TODO list](User:LMH#Additional_Additions "wikilink")
+-   \[➔\] Some features from [LMH's TODO list](User#lmh#additional_additions "wikilink")
 -   \[➔\] re-implement Forest island
 -   \[⇓\] Add death-script to ghosttree.
 -   \[✔\] Add a stone stalactite sprite.

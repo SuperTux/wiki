@@ -3,7 +3,7 @@ According to credits.txt some of our sounds are from “Royalty free sound effec
 [data/music](http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/music/)
 ----------------------------------------------------------------------------------------
 
-All files in data/music created by [wansti](User:wansti "wikilink") and licensed under GPLv2+CC-by-sa, unless stated otherwise.
+All files in data/music created by [wansti](User#wansti "wikilink") and licensed under GPLv2+CC-by-sa, unless stated otherwise.
 
 -   bonuscave.ogg
 -   bossattack.ogg
@@ -27,7 +27,7 @@ All files in data/music created by [wansti](User:wansti "wikilink") and licensed
 -   leveldone-special.ogg
 -   leveldone.ogg
 -   nolok.ogg
--   salcon.ogg -- *Salsa Con Carne* by **Mystical** - Has to be removed due to licensing issues (the song itself is okay, but apparently some non-free samples are used). Replaced by a work-in-progress remix in trunk and the 0.3.x branch (r4585), for which we have permission to release under GPL and CC-by-sa. -- [wansti](User:wansti "wikilink")
+-   salcon.ogg -- *Salsa Con Carne* by **Mystical** - Has to be removed due to licensing issues (the song itself is okay, but apparently some non-free samples are used). Replaced by a work-in-progress remix in trunk and the 0.3.x branch (r4585), for which we have permission to release under GPL and CC-by-sa. -- [wansti](User#wansti "wikilink")
 -   theme.ogg
 
 [data/speech](http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/data/speech/)
@@ -44,51 +44,51 @@ All files in data/music created by [wansti](User:wansti "wikilink") and licensed
 
 We mainly need to replace all the sounds from Bill Kendrick ([list message](http://lists.lethargik.org/pipermail/supertux-devel-lethargik.org/2009-September/002436.html))
 
--   bigjump.wav -- self-made by [Wansti](User:Wansti "wikilink")
+-   bigjump.wav -- self-made by [Wansti](User#wansti "wikilink")
 -   brick.wav -- replaced with a self-made sound submitted by Yaniel (revision 5413) GPLv2+CC-by-sa
--   coin.wav -- Replaced by a self-made, almost identical sound by [wansti](User:Wansti "wikilink") (as of revision 5016)
--   dartfire.wav -- self-made by [Sommer](User:Sommer "wikilink")
--   darthit.wav -- self-made by [Sommer](User:Sommer "wikilink")
+-   coin.wav -- Replaced by a self-made, almost identical sound by [wansti](User#wansti "wikilink") (as of revision 5016)
+-   dartfire.wav -- self-made by [Sommer](User#sommer "wikilink")
+-   darthit.wav -- self-made by [Sommer](User#sommer "wikilink")
 -   door.wav -- self-made by gwater (Jun 30 2006 13:42:40 <gwater> ok it's my squeaky step, but it kind of sounds like a door.)
--   explosion.wav -- Replaced by a self-made sound (GPLv2+/CC-by-SA) by --[Sommer](User:Sommer "wikilink") 17:34, 7 June 2007 (UTC)
--   <big>fall.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was “added sounds from Nathan McCoy” --[Sommer](User:Sommer "wikilink") 22:43, 4 Jan 2007 (CET)</big>
+-   explosion.wav -- Replaced by a self-made sound (GPLv2+/CC-by-SA) by --[Sommer](User#sommer "wikilink") 17:34, 7 June 2007 (UTC)
+-   <big>fall.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was “added sounds from Nathan McCoy” --[Sommer](User#sommer "wikilink") 22:43, 4 Jan 2007 (CET)</big>
 -   fire-flower.wav -- submitted as GPL by Bastian Zapf
 -   fireworks.wav -- submitted as GPL by Ricardo Cruz
 -   fizz.wav -- submitted by gwater (source?) replaced by some white noise made with audacity, WolfgangB
--   flame.wav -- self-made by [MatzeB](User:MatzeB "wikilink")
+-   flame.wav -- self-made by [MatzeB](User#matzeb "wikilink")
 -   flip.wav -- replaced in r5343 by wansti “new backflip sound (not perfect but much better than the old one)”
 -   grow.ogg -- replaced grow.wav in r5450
--   hop.ogg -- self-made by [WolfgangB](User:WolfgangB "wikilink") GPLv2+CC-by-sa
--   hurt.wav -- self-made by [MatzeB](User:MatzeB "wikilink")
+-   hop.ogg -- self-made by [WolfgangB](User#wolfgangb "wikilink") GPLv2+CC-by-sa
+-   hurt.wav -- self-made by [MatzeB](User#matzeb "wikilink")
 -   iceblock\_bump.wav -- replaced with a self-made sound by Some\_Person
 -   invincible.wav -- replaced with a self-made sound by Wansti (revision 5404)
--   jump.wav -- self-made by [Wansti](User:Wansti "wikilink")
+-   jump.wav -- self-made by [Wansti](User#wansti "wikilink")
 -   kick.wav -- replaced with a self-made sound by Some\_Person
 -   lava.wav -- submitted as GPL by Bastian Zapf
--   <big>lifeup.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was “added sounds from Nathan McCoy” --[Sommer](User:Sommer "wikilink") 22:43, 4 Jan 2007 (CET)</big>
--   locked.ogg -- self-made by [WolfgangB](User:WolfgangB "wikilink") GPLv2+CC-by-sa
+-   <big>lifeup.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was “added sounds from Nathan McCoy” --[Sommer](User#sommer "wikilink") 22:43, 4 Jan 2007 (CET)</big>
+-   locked.ogg -- self-made by [WolfgangB](User#wolfgangb "wikilink") GPLv2+CC-by-sa
 -   mr\_tree.ogg -- self-made by gwater
 -   mr\_treehit.ogg -- self-made by gwater
 -   phone.wav -- self-made by gwater (unused ATM, was used in infoblock.cpp)
 -   rain.wav -- self-made by wansti
 -   saw.wav Mill1.wav from LinCity-NG (Data is dual licensed under under the GPL and CC-by-sa-v2 ), created by Paulo Morfeo <http://svn.berlios.de/viewcvs/lincity-ng/trunk/data/sounds/Mill1.wav>
--   <big>shoot.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was “added sounds from Nathan McCoy” --[Sommer](User:Sommer "wikilink") 22:43, 4 Jan 2007 (CET)</big>
--   skid.wav -- replaced with a self-made sound by [Wansti](User:Wansti "wikilink") (as of revision 5411)
--   splash.ogg -- self-made by [WolfgangB](User:WolfgangB "wikilink") GPLv2+CC-by-sa
+-   <big>shoot.wav -- added Fri May 14 05:24:24 2004 UTC (2 years, 7 months ago) by sik0fewl. Message was “added sounds from Nathan McCoy” --[Sommer](User#sommer "wikilink") 22:43, 4 Jan 2007 (CET)</big>
+-   skid.wav -- replaced with a self-made sound by [Wansti](User#wansti "wikilink") (as of revision 5411)
+-   splash.ogg -- self-made by [WolfgangB](User#wolfgangb "wikilink") GPLv2+CC-by-sa
 -   squish.wav -- replaced with a self-made sound by Some\_Person
 -   stomp.wav -- replaced with a self-made sound by Some\_Person
--   switch.ogg -- self-made by [WolfgangB](User:WolfgangB "wikilink") GPLv2+CC-by-sa
--   ticking.wav -- self-made by [Sommer](User:Sommer "wikilink")
--   totem.ogg -- self-made by [WolfgangB](User:WolfgangB "wikilink") GPLv2+CC-by-sa
+-   switch.ogg -- self-made by [WolfgangB](User#wolfgangb "wikilink") GPLv2+CC-by-sa
+-   ticking.wav -- self-made by [Sommer](User#sommer "wikilink")
+-   totem.ogg -- self-made by [WolfgangB](User#wolfgangb "wikilink") GPLv2+CC-by-sa
 -   trampoline.wav -- self-made by wansti
--   turnkey.ogg -- self-made by [WolfgangB](User:WolfgangB "wikilink") GPLv2+CC-by-sa
+-   turnkey.ogg -- self-made by [WolfgangB](User#wolfgangb "wikilink") GPLv2+CC-by-sa
 -   upgrade.wav -- replaced with Yaniel's sound
 -   warp.wav -- submitted as GPL by Ricardo Cruz
 -   waterfall.wav -- submitted as GPL by Bastian Zapf
 -   willowisp.wav -- self-made by wansti
 -   wood.wav -- self-made by wansti
--   yeti\_finish.ogg -- self-made by [MatzeB](User:MatzeB "wikilink")
--   yeti\_gna.wav -- self-made by [MatzeB](User:MatzeB "wikilink")
--   yeti\_roar.wav -- self-made by [MatzeB](User:MatzeB "wikilink")
+-   yeti\_finish.ogg -- self-made by [MatzeB](User#matzeb "wikilink")
+-   yeti\_gna.wav -- self-made by [MatzeB](User#matzeb "wikilink")
+-   yeti\_roar.wav -- self-made by [MatzeB](User#matzeb "wikilink")
 
 <Category:Meta>

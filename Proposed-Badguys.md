@@ -121,7 +121,7 @@ Flutters up and down, upon seeing Tux dives and tries to catch him (much
 like [Zeekling](Zeekling "wikilink")).
 
 :   is'nt [Zeekling](Zeekling "wikilink") enough???
-    --[Disk](User:Disk "wikilink") 18:40, 30 August 2007 (UTC)
+    --[Disk](User#disk "wikilink") 18:40, 30 August 2007 (UTC)
 
 Perhaps in Ghost Forest, a Spooky Mr Tree could, when jumped on, release
 bats instead of Poison Ivies. They could fly straight up into the air,
@@ -371,7 +371,7 @@ Hurt Tux: Tries to eat him when jumped on
 
 Hurt it: use Spitting, will try to get Tux when attacked
 
-:   i'll support this one --[Disk](User:Disk "wikilink") 18:38, 30
+:   i'll support this one --[Disk](User#disk "wikilink") 18:38, 30
     August 2007 (UTC)
 
 Ghostly\_Tree
@@ -443,7 +443,7 @@ Huey
 This badguy floats in the air. It will try to pickup the nearest walking
 badguy, then drop it on Tux.
 
-:   who're you kidding???? --[Disk](User:Disk "wikilink") 18:42, 30
+:   who're you kidding???? --[Disk](User#disk "wikilink") 18:42, 30
     August 2007 (UTC)
 
 Hungry\_Parakeet
@@ -562,7 +562,7 @@ might be a job for a different badguy...Mr. Coconut Tree?
     UltraPenguin</small>
 
     :   <small>Perhaps Palmy acts as a kind of dispenser with a limited
-        stock of, say, three coconuts. [TUX/√UT](User:Tuxnut "wikilink")
+        stock of, say, three coconuts. [TUX/√UT](User#tuxnut "wikilink")
         ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") \* [view
         horrendous deeds](Special:Contributions/Tuxnut "wikilink"))
         16:39, 25 June 2010 (UTC)
@@ -611,12 +611,12 @@ ride.
 Suggestion: Maybe this thing should be called Mr. Coco?
 
 :   Mr. Coco is okay, but the Mr. prefix is overused. What about just
-    Coco? [TUX/√UT](User:Tuxnut "wikilink") ([plz talk 2 me
+    Coco? [TUX/√UT](User#tuxnut "wikilink") ([plz talk 2 me
     internets](User_talk:Tuxnut "wikilink") | [view horrendous
     deeds](Special:Contributions/Tuxnut "wikilink")) 21:47, 21 June 2010
     (UTC)
 
-How about Mr. Coconut? [Monstertux](User:Monster "wikilink")
+How about Mr. Coconut? [Monstertux](User#monster "wikilink")
 
 Falling/Flying Nutty Image
 --------------------------
@@ -680,7 +680,7 @@ flame, Firepower, lava or another Pyro, he could become a walking flame:
 butt-jumpable, and when set fire to to become Pyro he could be only
 killed freezing. (Maybe not even killed by invinsible power.)
 
-:   Great! do it! --[Disk](User:Disk "wikilink") 18:48, 30 August 2007
+:   Great! do it! --[Disk](User#disk "wikilink") 18:48, 30 August 2007
     (UTC)
 
 Rabbit
