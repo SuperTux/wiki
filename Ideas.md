@@ -1157,7 +1157,7 @@ Looks like a walking snowball encircled by a cloud of light blue smoke (frozen a
 
 ##### Buzzer
 
-Might look like [MrPlasma](:Image:Mrplasma.png "wikilink"). Generates an electric field that hurts Tux and enemies and electrifies water. This could happen randomly, at fixed intervals or when Tux gets nearby.
+Might look like ![MrPlasma](images/Mrplasma.png "wikilink"). Generates an electric field that hurts Tux and enemies and electrifies water. This could happen randomly, at fixed intervals or when Tux gets nearby.
 
 ##### Fly
 
@@ -2098,7 +2098,15 @@ Collectibles on a per-level basis are planned in *Milestone 2*, see [Milestone 2
 
 ### Graphical help
 
-The current help in *Welcome to Antarctica* is mostly text-based. To enable players without reading skills to understand the information, I propose replacing the textual info screens with graphical ones. I have created a few mockups (heavily inspired by chemical formulae): [bonus block](:Image:GraphicalHelpMockup-bonusblock.png "wikilink"), [fire flower](:Image:GraphicalHelpMockup-fireflower.png "wikilink"), [checkpoint](:Image:GraphicalHelpMockup-checkpoint.png "wikilink"), [checkpoint - second attempt](:Image:GraphicalHelpMockup-checkpoint-v2.png "wikilink")
+The current help in *Welcome to Antarctica* is mostly text-based. To
+enable players without reading skills to understand the information, I
+propose replacing the textual info screens with graphical ones. I have
+created a few mockups (heavily inspired by chemical formulae):
+
+![bonus block](images/GraphicalHelpMockup-bonusblock.png "wikilink")
+![fire flower](images/GraphicalHelpMockup-fireflower.png "wikilink")
+![checkpoint](images/GraphicalHelpMockup-checkpoint.png "wikilink")
+![checkpoint - second attempt](images/GraphicalHelpMockup-checkpoint-v2.png "wikilink")
 
 ### More effects when Badguys are Killed
 

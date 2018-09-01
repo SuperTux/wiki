@@ -106,7 +106,7 @@ Badguys squish each other r4435
   
 No bug in supertux.
 
--   4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [screenshot](:Image:Lightmap_error_on_Windows.png "wikilink") for details.
+-   4162: Error in drawing of tilemap-to-lightmap on Windows. Doesn't happen on Linux. See [screenshot](images/Lightmap_error_on_Windows.png "wikilink") for details.
       
     4251: A similar thing (but not so ugly) happens on Ubuntu Dapper in world2/light+magic.stl, in the dark area near the end, when walking up/down.
 

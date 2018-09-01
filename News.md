@@ -198,14 +198,14 @@ Moved tinygettext to <http://tinygettext.googlecode.com>
 - menu can scroll
 - circular fade got added
 - main menu got a frame (not sure if we gonna keep that
-- [Snowdragon](:Image:Snowdragon.png "wikilink")
-- [Bomb Fish](:Image:Bombfish.png "wikilink")
-- [Snowworld moving platform](:Image:Platform.png "wikilink")
+- ![Snowdragon](images/Snowdragon.png "wikilink")
+- ![Bomb Fish](images/BombFish.png "wikilink")
+- ![Snowworld moving platform](images/Platform.png "wikilink")
 
 2008-04-29
 ----------
 
-- [Thunder Puff](:Image:ThunderPuff.png "wikilink")
+- ![Thunder Puff](images/ThunderPuff.png "wikilink")
 
 2008-03-09
 ----------
@@ -240,7 +240,7 @@ Moved tinygettext to <http://tinygettext.googlecode.com>
 2008-02-25
 ----------
 
-- [New SuperTux Snow Tiles](:Image:SnowBGTiles.jpg "wikilink")
+- ![New SuperTux Snow Tiles](images/SnowBGTiles.jpg "wikilink")
 - [Menu got a little graphical change](http://pingus.seul.org/~grumbel/tmp/md5/c3858765733eb50d18a7857315dec96c-supertux-newmenu.jpg)
 - [Night Sky Background](http://pingus.seul.org/~grumbel/tmp/md5/124f23ee49d6162fb84b2e6420b7d610-supertux-nightsky.png)
 
@@ -355,7 +355,7 @@ into shape.
 2006-10-27
 ----------
 
-- [Nolok Sample Sprite](:Image:Nolok_statue_sample_3.png "wikilink")
+- ![Nolok Sample Sprite](images/Nolok_statue_sample_3.png "wikilink")
 
 2006-10-03
 ----------
@@ -382,8 +382,8 @@ into shape.
 2006-08-09
 ----------
 
-- [Crystallo Badguy](:Image:Crystallo.png "wikilink")
-- [SuperTux Shop Sketch](:Image:Supertux-shop.jpg "wikilink")
+- ![Crystallo Badguy](images/Crystallo.png "wikilink")
+- ![SuperTux Shop Sketch](images/Supertux-shop.jpg "wikilink")
 
 2006-08-03
 ----------
@@ -401,60 +401,60 @@ Some links to 2D physics stuff:
 2006-07-21
 ----------
 
-- [Reset Block (aka Reset Point)](:Image:Resetblock.png "wikilink")
-- [Fireflower redesign](:Image:Fire_flower-redesign.png "wikilink")
-- [Spikey Vine](:Image:Spikyvine.jpg "wikilink")
-- [Wall Stone tileset design](:Image:Wallstone-tileset.jpg "wikilink")
-- [Wall Stone (inside) tileset design](:Image:Wallstone-tileset2.jpg "wikilink")
-- [Tree Top Tileset](:Image:Treetop-tileset.jpg "wikilink")
+- ![Reset Block (aka Reset Point)](images/Resetblock.png "wikilink")
+- ![Fireflower redesign](images/Fire_flower-redesign.png "wikilink")
+- ![Spikey Vine](images/Spikyvine.jpg "wikilink")
+- ![Wall Stone tileset design](images/Wallstone-tileset.jpg "wikilink")
+- ![Wall Stone (inside) tileset design](images/Wallstone-tileset2.jpg "wikilink")
+- ![Tree Top Tileset](images/Treetop-tileset.jpg "wikilink")
 
 2006-07-18
 ----------
 
-- [Milestone2 Sprite Collection](:Image:Milestone2-sprites.png "wikilink")
-- [Flamy Enemy](:Image:Flamy.png "wikilink")
-- [Granito with evil eyes](:Image:Granito-evileyes.png "wikilink")
-- [Tilemap mountain](:Image:Tilemapmountain.png "wikilink")
-- [Tilemap mountain, different layout](:Image:Tilemapmountain2.png "wikilink")
+- ![Milestone2 Sprite Collection](images/Milestone2-sprites.png "wikilink")
+- ![Flamy Enemy](images/Flamy.png "wikilink")
+- ![Granito with evil eyes](images/Granito-evileyes.png "wikilink")
+- ![Tilemap mountain](images/Tilemapmountain.png "wikilink")
+- ![Tilemap mountain, different layout](images/Tilemapmountain2.png "wikilink")
 
 2006-07-16
 ----------
 
-- [MrBomb for Milestone2 (old, but so that it doesn't get lost)](:Image:Mrbombv2.png "wikilink")
+- ![MrBomb for Milestone2 (old, but so that it doesn't get lost)](images/Mrbombv2.png "wikilink")
 
 2006-07-15
 ----------
 
 - Working Trampolines have been added back in.
-- [ Screenshot of map layout using Grumbel's concept 2 sketch](:Image:Wm_concept_2.png "wikilink")
+- ![ Screenshot of map layout using Grumbel's concept 2 sketch](images/Wm_concept_2.png "wikilink")
 
 2006-07-14
 ----------
 
-- [Jump'n Run Collision Test, see trunk/jnrcol/ in SVN](:Image:Jnrcol.png "wikilink")
+- ![Jump'n Run Collision Test, see trunk/jnrcol/ in SVN](images/Jnrcol.png "wikilink")
 
 2006-07-13
 ----------
 
-- [Skunk Tux](:Image:Skunk-stand-0.png "wikilink")
+- ![Skunk Tux](images/Skunk-stand-0.png "wikilink")
 - [Concepts for Worldmap](http://pingus.seul.org/~grumbel/tmp/md5/6617ea630fc0e2c4406c92ba6638cd6f-worldmap2_concept.png)
 - [Concepts for Worldmap 2](http://pingus.seul.org/~grumbel/tmp/md5/8ec5657e72066c656f71eef57e62bcb8-worldmap2_concept2.png)
-- [Firetux Promotional Image](:Image:SuperTux.png "wikilink")
-- [New Firetux concept (variation)](:Image:Firetux10.png "wikilink")
-- [New Firetux concept](:Image:Firetux11.png "wikilink")
-- [World1 Milestone1](:Image:Worldmap1.jpg "wikilink")
-- [World1 Milestone2](:Image:Worldmap1_2.png "wikilink")
-- [World2 Milestone2](:Image:Worldmap2.png "wikilink")
-- [Star Tux](:Image:Startux.png "wikilink")
-- [3D SuperTux for prototyping animation and poses](:Image:Supertux3d.jpg "wikilink")
-- [Forest World Overview](:Image:Forestworldoverview.jpg "wikilink")
-- [Firetux.png](:Image:Firetux.png "wikilink")
-- [Firetux4.png](:Image:Firetux4.png "wikilink")
-- [Firetux5.png](:Image:Firetux5.png "wikilink")
-- [Firetux7.png](:Image:Firetux7.png "wikilink")
-- [Firetux8.png](:Image:Firetux8.png "wikilink")
-- [Firetux9.png](:Image:Firetux9.png "wikilink")
-- [Ice Tux](:Image:Icestand-left.png "wikilink")
+- ![Firetux Promotional Image](images/SuperTux.png "wikilink")
+- ![New Firetux concept (variation)](images/Firetux10.png "wikilink")
+- ![New Firetux concept](images/Firetux11.png "wikilink")
+- ![World1 Milestone1](images/Worldmap1.jpg "wikilink")
+- ![World1 Milestone2](images/Worldmap1_2.png "wikilink")
+- ![World2 Milestone2](images/Worldmap2.png "wikilink")
+- ![Star Tux](images/Startux.png "wikilink")
+- ![3D SuperTux for prototyping animation and poses](images/Supertux3d.jpg "wikilink")
+- ![Forest World Overview](images/Forestworldoverview.jpg "wikilink")
+- ![Firetux.png](images/Firetux.png "wikilink")
+- ![Firetux4.png](images/Firetux4.png "wikilink")
+- ![Firetux5.png](images/Firetux5.png "wikilink")
+- ![Firetux7.png](images/Firetux7.png "wikilink")
+- ![Firetux8.png](images/Firetux8.png "wikilink")
+- ![Firetux9.png](images/Firetux9.png "wikilink")
+- ![Ice Tux](images/Icestand-left.png "wikilink")
 
 2006-07-10
 ----------
@@ -479,8 +479,8 @@ background set.
 2006-07-07
 ----------
 
-- [Lava MockUp](:Image:Lavamockup.jpg "wikilink")
-- [Brown Castle Demo](:Image:Browncastletiles.jpg "wikilink")
+- ![Lava MockUp](images/Lavamockup.jpg "wikilink")
+- ![Brown Castle Demo](images/Browncastletiles.jpg "wikilink")
 
 2006-07-06
 ----------
@@ -502,7 +502,7 @@ Mr.Bomb can now use multiple sprites for themed images.
 2006-07-03
 ----------
 
-- [ingame lighting](:Image:Lighting_ingame.jpg "wikilink")
+- ![ingame lighting](images/Lighting_ingame.jpg "wikilink")
 
 2006-07-02
 ----------
@@ -513,17 +513,17 @@ Mr.Bomb can now use multiple sprites for themed images.
 ----------
 
 - [Lighting](Lighting "wikilink") page
-- [Demonstration of simple lighting](:Image:Lighting4.png "wikilink")
-- [Demonstration of color lighting, Part 3](:Image:Lighting3.png "wikilink")
-- [Demonstration of color lighting, Part 2](:Image:Lighting2.png "wikilink")
-- [Demonstration of color lighting, Part 1](:Image:Lighting.png "wikilink")
+- ![Demonstration of simple lighting](images/Lighting4.png "wikilink")
+- ![Demonstration of color lighting, Part 3](images/Lighting3.png "wikilink")
+- ![Demonstration of color lighting, Part 2](images/Lighting2.png "wikilink")
+- ![Demonstration of color lighting, Part 1](images/Lighting.png "wikilink")
 - New collision detection code can be found in the
     new-collision-detection branch
 
 2006-06-28
 ----------
 
-- [Sketch of a possible forest enemy](:Image:Greeny2.png "wikilink")
+- ![Sketch of a possible forest enemy](images/Greeny2.png "wikilink")
 
 2006-06-25
 ----------
@@ -559,13 +559,12 @@ list in the past month:
 
 - SVN contains now a little script to ease uploading of files into the
     Wiki
-- [MrPlasma sketch](:Image:Mrplasma.png "wikilink")
-- [sketch of a possible wood-pipe](:Image:Woodpipe.png "wikilink")
-- [new pipe with blueish color
-    pipe](:Image:Newpipe_blue.png "wikilink")
-- [rough sketch of a rusty pipe](:Image:Rostypipe2.png "wikilink")
-- [rusty pipe](:Image:Rostypipe.png "wikilink")
-- [new pipe design](:Image:Supertux-newpipe.png "wikilink")
+- ![MrPlasma sketch](images/Mrplasma.png "wikilink")
+- ![sketch of a possible wood-pipe](images/Woodpipe.png "wikilink")
+- [new pipe with blueish color pipe](images/Newpipe_blue.png "wikilink")
+- ![rough sketch of a rusty pipe](images/Rostypipe2.png "wikilink")
+- ![rusty pipe](images/Rostypipe.png "wikilink")
+- ![new pipe design](images/Supertux-newpipe.png "wikilink")
 
 2005
 ====
@@ -573,7 +572,7 @@ list in the past month:
 2005-11-02
 ----------
 
-- [Ice Yeti](:Image:Yeti.png "wikilink")
+- ![Ice Yeti](images/Yeti.png "wikilink")
 
 2005-10-28
 ----------
