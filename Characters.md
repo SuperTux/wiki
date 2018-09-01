@@ -1,6 +1,6 @@
-* [Tux](#Tux), the main character, controlled by the player
-* [Penny](#Penny), Tux's girlfriend
-* [Nolok](#Nolok), Tux's evil enemy
+* [Tux](#tux), the main character, controlled by the player
+* [Penny](#penny), Tux's girlfriend
+* [Nolok](#nolok), Tux's evil enemy
 
 Tux
 ===
