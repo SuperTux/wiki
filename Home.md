@@ -1,3 +1,9 @@
+> **Note:** This Wiki is converted from the previous Mediawiki format,
+> this conversion is not complete, but progressed far enough that this
+> Wiki is ready to be used again, a lot of outdated information does
+> however remain. If you find some, don't delete it, update it and/or
+> move it to an appropriatly titled archive page.
+
 This Wiki is used to document the current state of
 [SuperTux](https://www.supertux.org) as well as keep track of proposed
 additions and changes.
