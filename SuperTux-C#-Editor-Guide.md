@@ -26,13 +26,13 @@ However, You should be able to run it using mono for OS X. If you managed to do 
 
 ### Windows
 
-Well, of course, before you begin, your gonna need the actual game. Just install it into Program files, to keep everything organized, and it can be downloaded [**Supertux 0.3.3 (Beta)**](https://code.google.com/p/supertux/downloads/detail?name=supertux-0.3.3b-win32.exe). If you prefer a recent SVN Snapshot, take a look at <User:Rgcjonas>
+Well, of course, before you begin, your gonna need the actual game. Just install it into Program files, to keep everything organized, and it can be downloaded [**Supertux 0.3.3 (Beta)**](https://code.google.com/p/supertux/downloads/detail?name=supertux-0.3.3b-win32.exe). If you prefer a recent SVN Snapshot, take a look at [[Rgcjonas|User:rgcjonas]]
 
 First of all, you'll need the “Microsoft .NET framework.” There is a good link right **[.NET Framework](http://www.microsoft.com/net)**. Make sure you have **every** Version installed, at least 2.0, 3.5, 4.0 (Windows 7 ships all these by default.)
 
 After that, get the **GTK Framework** which can be downloaded (WARNING! Will download on click!) **[GTK for .NET framework](http://download.mono-project.com/gtk-sharp/gtk-sharp-2.12.10.win32.msi)** Just follow the instructions, and download the latest version. On the bottom there will be a link that will say something like “Download Mono and GTK,” so get that one.
 
-Lastly, we can't be running around with no editor. So download the latest version (the one at the top) **[SuperTux Editor.](http://elektromaniak.wz.cz/download.html)** make sure it says “Windows, 32bit, .NET, GTK\# 2.10” or something towards the end of the link in the page. A more recent build (recommended if you downloaded a svn build of SuperTux above) can be obtained here: <User:Rgcjonas> You should update your game, and then you should download this new version for both Linux and Windows: It is highly recommended, because this is what aI will be using. [Supertux Editor Revision 6694](http://www.mediafire.com/?i1uy7eysmc42dzw).
+Lastly, we can't be running around with no editor. So download the latest version (the one at the top) **[SuperTux Editor.](http://elektromaniak.wz.cz/download.html)** make sure it says “Windows, 32bit, .NET, GTK\# 2.10” or something towards the end of the link in the page. A more recent build (recommended if you downloaded a svn build of SuperTux above) can be obtained here: [[Rgcjonas|User#rgcjonas]] You should update your game, and then you should download this new version for both Linux and Windows: It is highly recommended, because this is what aI will be using. [Supertux Editor Revision 6694](http://www.mediafire.com/?i1uy7eysmc42dzw).
 
 SKIP THIS IF YOU ARE NOT USING WINDOWS SEVEN OR HIGHER: There are a few extra steps for Windows 7 and up. Complete the following steps here, made by SK1LL: [Link](https://supertux.lethargik.org/bugs/view.php?id=790#c2340)
 

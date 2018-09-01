@@ -5,7 +5,7 @@ How to Translate
 2.  Request à New language or join an existing one
 3.  Just translate on line
 
-If you have no internet access for translation work, then download po files from Transifex, complete them on your local system with Poedit. then upload them on transifex. If letters/alphabets are missing ask the language guru ( <User:Giby> ) to add it after completing all po files on Transifex.
+If you have no internet access for translation work, then download po files from Transifex, complete them on your local system with Poedit. then upload them on transifex. If letters/alphabets are missing ask the language guru ( [[Giby|User#Giby]] ) to add it after completing all po files on Transifex.
 
 Notes for Translators
 ---------------------
