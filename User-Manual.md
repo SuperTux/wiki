@@ -66,8 +66,8 @@ Left    |	Cursor Left     |	Makes Tux walk left
 Right 	| Cursor Right    | 	Makes Tux walk right
 Up 	    | Cursor Up       |	Enter door, activate switch
 Down    |	Cursor Down     |	Duck
-Jump 	  | Spacebar        |	Makes Tux jump. Hold down longer to jump higher.
-Action  |	Left Control    |	Varies; actions are explained below. 
+Jump    | Spacebar        |	Makes Tux jump. Hold down longer to jump higher.
+Action  |	Left Control    |	Varies; actions are explained below.
 
 The "P" and "Escape" keys can be used to pause the game.
 
@@ -171,16 +171,14 @@ recognized by the operating system. The following list shows all
 controls needed to play the game, along with their default keys. Note
 that all of the controls can be configured in-game.
 
-  Control   Default mapping   Description
-  --------- ----------------- -----------------------------------------------------------------
-  Left      Cursor Left       Makes Tux walk left
-  Right     Cursor Right      Makes Tux walk right
-  Up        Cursor Up         Enter door, activate switch
-  Down      Cursor Down       Duck
-  Jump      Spacebar          Makes Tux jump. Hold down longer to jump higher.
-  Action    Left Control      Varies; all actions are [explained below](#Actions "wikilink").
-
-  : Controls
+| Control | Default mapping | Description
+|---------|-----------------|-----------------------------------------------------------------
+| Left    | Cursor Left     |  Makes Tux walk left
+| Right   | Cursor Right    |  Makes Tux walk right
+| Up      | Cursor Up       |  Enter door, activate switch
+| Down    | Cursor Down     |  Duck
+| Jump    | Spacebar        |  Makes Tux jump. Hold down longer to jump higher.
+| Action  | Left Control    |  Varies; all actions are [explained below](#Actions)
 
 
 Powerups
@@ -195,16 +193,16 @@ hidden in bonus blocks:
 When Tux bumps a bonus block from below, he will either collect a coin
 or the bonus block will release one of several powerups:
 
-  Pic.                                         Name                                    Effect
-  -------------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](images/Coin-0.png "Coin-0.png")                 Coin                                    **SuperTux 0.1:** Collect 100 coins to gain an extra life. **SuperTux 0.3:** Every time Tux dies, he will restart at the last firefly he activated.
-  ![](images/Egg.png "Egg.png")                       Egg                                     Makes Tux grow. He can then smash wooden boxes with his head and perform a *backflip* (see below).
-  ![](images/Fire-flower-0.png "Fire_flower-0.png")   [Fireflower](Fireflower "wikilink")     Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs. In SuperTux 0.1 you can shoot more than two at a time. In SuperTux 0.3 you can shoot them at once as many as you collected.
-  ![](images/Ice-flower.png "Ice_flower.png")         [Iceflower](Iceflower "wikilink")       Similar to the Fireflower, but shoots iceballs instead of fireballs. If an enemy is hit, it will be frozen. Does not work on most snow and ice enemies. **(unstable)**
-  ![](images/Air-flower.png "Air_flower.png")         [Airflower](Airflower "wikilink")       Allows bigger jumps. **(unstable)**
-  ![](images/Earth-flower.png "Earth_flower.png")     [Earthflower](Earthflower "wikilink")   Makes a small light appear from Tux's helmet.. **(unstable)**
-  ![](images/1up.png "1up.png")                       Tux Doll                                Ejected from the bonus block and needs to be caught before falling off the screen. If Tux manages to catch it, he is awarded an extra life **(SuperTux 0.1)** or 100 coins **(SuperTux 0.3)**.
-  ![](images/Star-0.png "Star-0.png")                 Star                                    Gives Tux invincibility to most hazards for a short amount of time.
+| Pic.                       |  Name                                 |   Effect
+|----------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| ![](images/Coin-0.png)       |     Coin                                  |  **SuperTux 0.1:** Collect 100 coins to gain an extra life. **SuperTux 0.3:** Every time Tux dies, he will restart at the last firefly he activated.
+| ![](images/Egg.png)          |      Egg                                  |   Makes Tux grow. He can then smash wooden boxes with his head and perform a *backflip* (see below).
+| ![](images/Fire-flower-0.png) |  Fireflower    | Only released from bonus blocks when Tux has already picked up an Egg. This will give Tux the power to throw fireballs. In SuperTux 0.1 you can shoot more than two at a time. In SuperTux 0.3 you can shoot them at once as many as you collected.
+| ![](images/Ice-flower.png)   | Iceflower    |   Similar to the Fireflower, but shoots iceballs instead of fireballs. If an enemy is hit, it will be frozen. Does not work on most snow and ice enemies. **(unstable)**
+|                           |        Airflower    |   Allows bigger jumps. **(unstable)**
+|                           |        Earthflower |   Makes a small light appear from Tux's helmet.. **(unstable)**
+| ![](images/1up.png)         |      Tux Doll                               | Ejected from the bonus block and needs to be caught before falling off the screen. If Tux manages to catch it, he is awarded an extra life **(SuperTux 0.1)** or 100 coins **(SuperTux 0.3)**.
+| ![](images/Star-0.png)      |      Star                                   | Gives Tux invincibility to most hazards for a short amount of time.
 
 
 Actions
