@@ -311,7 +311,7 @@ into shape.
 2007-02-15
 ----------
 
-- ![Unisolid Snow Tiles](Supertux-unisolid-snow.jpg "fig:Unisolid Snow Tiles")
+- ![Unisolid Snow Tiles](images/Supertux-unisolid-snow.jpg "fig:Unisolid Snow Tiles")
 
 2007-01-31
 ----------

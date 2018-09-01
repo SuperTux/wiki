@@ -253,7 +253,7 @@ lose his hat when doing a backflip.
 
 ### Carrying Objects
 
-![](images/needrock.png "fig:needrock.png") Some objects Tux comes across can
+![](images/Needrock.png "fig:needrock.png") Some objects Tux comes across can
 be picked up and carried around. This includes a squished [Mr.
 IceBlock](MrIceBlock "wikilink") (**SuperTux 0.1** and **SuperTux
 0.3**), a [Rock](Rock "wikilink") (**SuperTux 0.3**), a

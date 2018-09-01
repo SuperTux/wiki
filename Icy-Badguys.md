@@ -400,7 +400,7 @@ Krush is implemented in levels.
 
 ### Concept art
 
-![Concept art for *Icecrusher*](Icecrusher-(concept-art).png "Concept art for Icecrusher"){width="400"}
+![Concept art for *Icecrusher*](images/Icecrusher-concept-art.png "Concept art for Icecrusher"){width="400"}
 
 
 Kugelblitz
@@ -556,8 +556,7 @@ Continually squishing Mr. IceBlock will eventually kill him.
 </div>
 ### Behavior in [Milestone 1](Milestone_1 "wikilink")
 
-![Old image of Mr.
-IceBlock](Mriceblock-left-2.png "fig:Old image of Mr. IceBlock") If Mr.
+![Old image of Mr. IceBlock](images/Mriceblock-left-2.png "fig:Old image of Mr. IceBlock") If Mr.
 IceBlock is eliminated, Tux is awarded 100 points. If destroyed via
 repeated squishes, Tux can get up to 550 points.
 
@@ -807,8 +806,7 @@ into something.
 
 In [SVN](SVN "wikilink") since [5323](Template:Revision "wikilink").
 
-![Old version of the
-badguy.](Kamikaze-left.png "Old version of the badguy.")
+![Old version of the badguy.](images/Kamikaze-left.png "Old version of the badguy.")
 
 
 

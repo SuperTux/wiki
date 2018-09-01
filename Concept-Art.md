@@ -3,7 +3,7 @@ Actions
 
 ![](images/Actions.jpg)
 ![](images/Actions2.jpg)
-![](images/Image:Pogo.jpg)
+![](images/Pogo.jpg)
 
 BadGuys
 =======

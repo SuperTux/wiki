@@ -185,7 +185,7 @@ And put it above the actual snow, and then you want to put some of the parts tha
 
 Now, you need to fix the top part. Select two of the top right corner pieces on the brick above.
 
-![](images/STE-Highlight-this-left-side.png‎)
+![](images/STE-Highlight-this-left-side.png)
 
 Now place it above the in complete part on the top, replacing one of the tiles, like so...
 

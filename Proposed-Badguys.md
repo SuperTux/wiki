@@ -755,7 +755,9 @@ Spiky when the player comes closer.
 Tumbleweed
 =======================
 
-![](images/Tumbleweed0.png|thumb)Behaviour: like Bouncy Snowball
+![](images/Tumbleweed0.png)
+
+Behaviour: like Bouncy Snowball
 
 Look: A brown ball-shaped plant that has eyes
 

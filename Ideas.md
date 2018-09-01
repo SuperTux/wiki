@@ -513,7 +513,7 @@ Flamin':
 -   This enemy is also invincible
 -   This also follows you
 
-(Opposite of Drippin') Drippin' Preview:![](images/Drippin'pre.jpg "fig:Drippin'pre.jpg")
+(Opposite of Drippin') Drippin' Preview:![](images/Drippin-pre.jpg)
 
 ### Other Playable Characters (Konqui)
 
@@ -2761,12 +2761,55 @@ Jungle island is very similar to [Forest island](Forest "wikilink"), so they can
 
 ### Tumbleweed
 
-![](images/tumbleweed.png "fig:tumbleweed.png") Its graphics are implemented, but there is no sprite or badguy for them. It rolls along the floor, when Tux is on the left or on the right. When Tux is above or under, it stops rolling. It hurts on touch and it can't be squished. It's flameable and freezable.
-=== Hanging ball === ![](images/hanging_ball.png "fig:hanging_ball.png") It could be a stone stalactite that fits the forest and jungle theme, but stone stalactite wouldn't break suddenly. It's a ball of dirt and stones hanging on a wine. When Tux walks under it, it would fall down. It hurts on touch. When it's hit by fireball, it falls down and when it's hit by iceball, it will freeze and it doesn't fall, when is Tux under it. It doesn't freeze enemies, like [Stalactite](Stalactite "wikilink").
-=== Swarm of flies === ![](images/swarm_of_flies.png "fig:swarm_of_flies.png") The swarm of flies won't be flameable or freezable. It wouldn't hit on touch immediately, it will last a while. It will fly dirrectly to Tux. When it crashes to a solid wall, it dies.
-=== Jungle ivy === ![](images/jungle_ivy.png "fig:jungle_ivy.png") Jungle ivy will behave the same as [crystallo](crystallo "wikilink"), but leaf particles will appear on death.
-=== Mr. slimy === ![](images/mr_slimy.png "fig:mr_slimy.png") Mr. slimy will be squishable, freezable, but not flameable. When Tux jumps on it, Tux will stick and he will move twice slower for five seconds. However, when it will be frozen first, this effect won't appear.
-=== Root === ![](images/root.png "fig:root.png") This root will grow up, when is Tux nearby and it will throw hurting stones to Tux. Root wouldn't hit on touch neither be solid. Only the stones will hurt Tux. Root will be flameable and freezable.
+![](images/Tumbleweed.png "fig:tumbleweed.png") 
+
+Its graphics are implemented, but there is no sprite or badguy for
+them. It rolls along the floor, when Tux is on the left or on the
+right. When Tux is above or under, it stops rolling. It hurts on touch
+and it can't be squished. It's flameable and freezable.
+
+### Hanging ball
+
+![](images/Hanging_ball.png "fig:hanging_ball.png")
+
+It could be a stone stalactite that fits the forest and jungle theme,
+but stone stalactite wouldn't break suddenly. It's a ball of dirt and
+stones hanging on a wine. When Tux walks under it, it would fall down.
+It hurts on touch. When it's hit by fireball, it falls down and when
+it's hit by iceball, it will freeze and it doesn't fall, when is Tux
+under it. It doesn't freeze enemies, like [Stalactite](Stalactite
+"wikilink").
+
+### Swarm of flies
+
+![](images/Swarm_of_flies.png "fig:swarm_of_flies.png")
+
+The swarm of flies won't be flameable or freezable. It wouldn't hit on
+touch immediately, it will last a while. It will fly dirrectly to Tux.
+When it crashes to a solid wall, it dies.
+
+### Jungle ivy
+
+![](images/Jungle_ivy.png "fig:jungle_ivy.png")
+
+Jungle ivy will behave the same as [crystallo](crystallo "wikilink"), but leaf particles will appear on death.
+
+### Mr. slimy
+
+![](images/Mr_slimy.png "fig:mr_slimy.png")
+
+Mr. slimy will be squishable, freezable, but not flameable. When Tux
+jumps on it, Tux will stick and he will move twice slower for five
+seconds. However, when it will be frozen first, this effect won't
+appear.
+
+### Root
+
+![](images/Root.png "fig:root.png")
+
+This root will grow up, when is Tux nearby and it will throw hurting
+stones to Tux. Root wouldn't hit on touch neither be solid. Only the
+stones will hurt Tux. Root will be flameable and freezable.
 
 
 BG, a bit smarter than Poision Ivy
