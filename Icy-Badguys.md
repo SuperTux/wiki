@@ -52,8 +52,8 @@ iceflower power up.
 * [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
 * [Bosses](http://supertux.lethargik.org/wiki/Bosses)
 
-Bouncing\_Snowball
-===================
+Bouncing Snowball
+=================
 
 -   Name=Bouncing Snowball
 -   Image=Bouncingsnowball.png
@@ -75,7 +75,7 @@ same direction, regardless of the angle of the surface that he hits. The
 bouncing action in 0.3 and above is more realistic.
 
 Cannon
-===================
+======
 
 -   Name=Cannon (dispenser)
 -   Image=Dispenser rocket launcher.png
@@ -134,10 +134,8 @@ Island](Icy_Island "wikilink") ([Milestone 2](Milestone_2 "wikilink")).
 -   spawn badguys in tubes
 -   launches molten rocks out of a lava lakes
 
-
-
-Captain\_Snowball
-===================
+Captain Snowball
+================
 
 -   Name=Captain Snowball
 -   Image=
@@ -161,10 +159,8 @@ Planned for 0.4. In [SVN](SVN "wikilink") since
 
 ![](images/Boarding-nq8.png "Boarding-nq8.png")
 
-
-
 Crystallo
-===================
+=========
 
 -   Name=Crystallo
 -   Image=
@@ -182,10 +178,8 @@ Island](Icy_Island "wikilink"). He moves back and forth in a fixed
 range. He is not yet widely used, but he has been implemented in some
 test levels and some user-submitted levels.
 
-
-
-Dart\_Trap
-===================
+Dart Trap
+=========
 
 <Template:NeedSound>
 
@@ -218,7 +212,7 @@ must be avoided. The *Dart trap* is mostly found in castles in the
     --[Disk](User#disk "wikilink") 18:51, 30 August 2007 (UTC)
 
 Fish
-===================
+====
 
 -   Name=Fish
 -   Image=FishBlue.png
@@ -256,10 +250,8 @@ Also, possibly there should be a few different types of fish:
     -   Curving Jump following Tux and jumping higher when there is a
         chance to get Tux
 
-
-
 Flame
-===================
+=====
 
 -   Name=Flame
 -   Image=
@@ -281,8 +273,8 @@ However, ice balls can kill them permanently as of version 0.3.4.
 
 
 
-Flying\_Snowball
-===================
+Flying Snowball
+===============
 
 -   Name=Flying Snowball
 -   Image=Flyingsnowball.png
@@ -301,10 +293,8 @@ Island](Icy_Island "wikilink"). It is a flying version of
 [Snowball](Snowball "wikilink") which doesn't walk around but moves up
 and down at random intervals and speeds.
 
-
-
 Haywire
-===================
+=======
 
 -   Name=Haywire
 -   Image=MrBombCrazy.png
@@ -331,7 +321,7 @@ When shot with a [Fireflower](Fireflower "wikilink"), explodes
 immediately.
 
 Ispy
-===================
+====
 
 -   Name=Ispy
 -   Image=
@@ -354,7 +344,7 @@ doors close or bridges are removed.
 ![](images/ChristophEstart.png "ChristophEstart.png")
 
 Jumpy
-===================
+=====
 
 -   Name=Jumpy
 -   Image=Left-up.png
@@ -374,10 +364,8 @@ stationary, bouncing up and down on the spot. Unless
 [iceflower](iceflower "wikilink"), the only way to get past *Jumpy* is
 to run below him or jump over him at the right time.
 
-
-
-Krush\_and\_Krosh
-===================
+Krush and Krosh
+===============
 
 -   Name=Krush and Krosh (icecrusher)
 -   Image=Iceblock.png
@@ -406,9 +394,8 @@ Krush is implemented in levels.
 
 ![Concept art for *Icecrusher*](images/Icecrusher-concept-art.png "Concept art for Icecrusher"){width="400"}
 
-
 Kugelblitz
-===================
+==========
 
 -   Name=Kugelblitz
 -   Image=Flying-0.png
@@ -485,7 +472,7 @@ More Ideas
     disappear. Like a lightning arrester.
 
 Mr. Bomb
-===================
+========
 
 -   Name=Mr. Bomb
 -   Image=Mrbomb.png
@@ -517,10 +504,8 @@ concept image for a new look by combining features of
 [Snowball](Snowball "wikilink") and the old Mr. Bomb in Gimp. This
 approach was not accepted either.
 
-
-
-Mr.\_IceBlock
-===================
+Mr. IceBlock
+============
 
 -   Name=Mr. IceBlock
 -   Image=Mr iceblock.gif
@@ -556,8 +541,6 @@ direction Tux is facing.
 
 Continually squishing Mr. IceBlock will eventually kill him.
 
-<div style="clear: both;">
-</div>
 ### Behavior in [Milestone 1](Milestone_1 "wikilink")
 
 ![Old image of Mr. IceBlock](images/Mriceblock-left-2.png "fig:Old image of Mr. IceBlock") If Mr.
@@ -583,16 +566,28 @@ Mrs. IceBlock
 * Burnable=yes
 * FirstVersion=3.4
 
-'''Mrs. IceBlock''' is a [[badguy]] in [[Icy Island]] with moderately complex behavior. In his ordinary form, he works like an ordinary walking badguy, turning around upon reaching walls or cliffs. 
+'''Mrs. IceBlock''' is a [[badguy]] in [[Icy Island]] with moderately
+complex behavior. In his ordinary form, he works like an ordinary
+walking badguy, turning around upon reaching walls or cliffs.
 
-When stomped on for the first time, Mrs. IceBlock suddenly stops short. If he is not stomped again for the next few seconds, he returns back to normal. However, if he is stomped once more while squished, he suddenly skids rapidly in one direction, hurting all creatures that he hits. When skidding, he bounces off walls and falls off cliffs. If another creature (including Tux) can stomp on him while he is skidding, he stops short once more (and if he is stomped again, he begins skidding again, and so on.)
+When stomped on for the first time, Mrs. IceBlock suddenly stops
+short. If he is not stomped again for the next few seconds, he returns
+back to normal. However, if he is stomped once more while squished, he
+suddenly skids rapidly in one direction, hurting all creatures that he
+hits. When skidding, he bounces off walls and falls off cliffs. If
+another creature (including Tux) can stomp on him while he is
+skidding, he stops short once more (and if he is stomped again, he
+begins skidding again, and so on.)
 
-While squished, Mrs. IceBlock can also be "kicked," if Tux runs up right against him, and "carried" with the Action button. If Tux carries him and lets go of Mr. IceBlock, he suddenly begins skidding in the direction Tux is facing. 
+While squished, Mrs. IceBlock can also be "kicked," if Tux runs up
+right against him, and "carried" with the Action button. If Tux
+carries him and lets go of Mr. IceBlock, he suddenly begins skidding
+in the direction Tux is facing.
 
 Continually squishing Mrs. IceBlock will eventually kill him.
 
-Mrs.\_Snowball
-===================
+Mrs. Snowball
+=============
 
 -   Name=Mrs. Snowball (smartball)
 -   Image=
@@ -614,10 +609,8 @@ than falling down. [Tux](Tux "wikilink") can easily handle these
 This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
 in SVN since [5321](Template:Revision "wikilink").
 
-
-
 Owl
-===================
+===
 
 <Template:NeedGraphics>
 
@@ -642,8 +635,8 @@ This badguy is in the [SVN](SVN "wikilink") repository since
 need to be improved. The graphics currently in SVN are colorized
 versions of the concept graphics, basically.
 
-Short\_Fuse
-===================
+Short Fuse
+==========
 
 -   Name=Short Fuse
 -   Image=
@@ -664,10 +657,8 @@ harm Tux -- they only throw him back.
 This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
 in SVN since [6511](Template:Revision "wikilink").
 
-
-
 Skullyhop
-===================
+=========
 
 -   Name=Skullyhop
 -   Image=Standing-0.png
@@ -683,10 +674,8 @@ Skullyhop
 
 ![Iced skully hop.](images/Skullyhop-iced-left.png "Iced skully hop.")
 
-
-
 SkyDive
-===================
+=======
 
 -   Name=SkyDive
 -   Image=BombFish.png
@@ -705,10 +694,8 @@ dropped by [Owl](Owl "wikilink").
 An initial version of this badguy has been committed to
 [SVN](SVN "wikilink") in [6564](Template:Revision "wikilink").
 
-
-
-Sleeping\_Spiky
-===================
+Sleeping Spiky
+==============
 
 -   Name=Sleeping Spiky (sspiky)
 -   Image=Sleeping-left.png
@@ -728,12 +715,8 @@ Sleeping\_Spiky
 around sleeping. Only when he spots the player he slowly rises to his
 feet and starts walking around.
 
-
-
-
-
 Snowball
-===================
+========
 
 -   Name=Snowball
 -   Image=Snowball.gif
@@ -762,10 +745,8 @@ handle these badguys by jumping on them, squishing them in the process.
 -   [Snowshot](Snowshot "wikilink")
 -   [Spiky](Spiky "wikilink")
 
-
-
 Snowman
-===================
+=======
 
 -   Name=Snowman
 -   Image=SnowmanSprite.png
@@ -785,10 +766,8 @@ Island](Icy_Island "wikilink").
 This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
 in SVN since [6392](Template:Revision "wikilink").
 
-
-
 Snowshot
-===================
+========
 
 -   Name=Snowshot (kamikazesnowball)
 -   Image=Kamikaze-left2.png
@@ -812,10 +791,8 @@ In [SVN](SVN "wikilink") since [5323](Template:Revision "wikilink").
 
 ![Old version of the badguy.](images/Kamikaze-left.png "Old version of the badguy.")
 
-
-
 Spider
-===================
+======
 
 -   Name=Spider (spidermite)
 -   Image=Spidermite0.png
@@ -833,20 +810,16 @@ up and down vertically, hurting Tux on contact, although Tux can squish
 him like a [Snowball](Snowball "wikilink"). It is themed to appear in
 the [Forest](Forest "wikilink") world but is not (widely) used yet.
 
-
-
 Spike
-===================
+=====
 
 ![](images/Rightspike.png "fig:Rightspike.png")![](images/Down.png "fig:Down.png")\
 ![](images/Up.png "fig:Up.png")![](images/Left.png "fig:Left.png")\
 IDs: 296, 297, 295, 298\
 All spikes are hurting.
 
-
-
 Spiky
-===================
+=====
 
 -   Name=Spiky
 -   Image=
@@ -867,10 +840,8 @@ homeland, the [Icy Island](Icy_Island "wikilink"), but sometimes in the
 protecting him from being squished by jumping on him, hurting
 [Tux](Tux "wikilink") instead.
 
-
-
 Stalactite
-===================
+==========
 
 -   Name=Stalactite
 -   Image=Falling.png
@@ -889,10 +860,8 @@ They start shaking when [Tux](Tux "wikilink") approaches, falling down
 after a short time. They hurt Tux and kill non-invincible enemies on
 touch.
 
-
-
 Stumpy
-===================
+======
 
 -   Name=Stumpy
 -   Image=Small-left-4.png
