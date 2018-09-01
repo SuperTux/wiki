@@ -43,6 +43,7 @@ Specifications
 * [[S-Expression]]
 * [[File_formats]]
 * [[Level-Format]]
+* [[Worldmap-Format]]
 * [[Tileset]]
 * [[Sprite]]
 
