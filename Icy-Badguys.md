@@ -586,12 +586,10 @@ in the direction Tux is facing.
 
 Continually squishing Mrs. IceBlock will eventually kill him.
 
-Mrs. Snowball
-=============
+Mrs. Snowball (smartball)
+=========================
 
 -   Name=Mrs. Snowball (smartball)
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink")
 -   Appearance=A walking snowball with eyes and boots on.
 -   Behaviour=Walks around. Stays on platforms.
 -   Squish=yes
@@ -612,20 +610,15 @@ in SVN since [5321](Template:Revision "wikilink").
 Owl
 ===
 
-<Template:NeedGraphics>
+- Appearance=A blue owl carrying objects around.
+- Behaviour=Flies left and right. Turns around when it hits a wall.
+- Squish=yes
+- Buttjump=yes
+- Freeze=no
+- Burnable=yes
+- FirstVersion=Milestone 2
 
--   Name=Owl
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink")
--   Appearance=A blue owl carrying objects around.
--   Behaviour=Flies left and right. Turns around when it hits a wall.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=Milestone 2
-
-The **Owl** is a [badguy](badguy "wikilink") from the [Milestone 2
+The Owl is a [badguy](badguy "wikilink") from the [Milestone 2
 Design Document](Milestone_2_Design_Document "wikilink"). It flies high
 up in the air and carries badguys around. When Tux is below it, it will
 drop whatever it is carrying.
@@ -638,24 +631,14 @@ versions of the concept graphics, basically.
 Short Fuse
 ==========
 
--   Name=Short Fuse
--   Image=
--   FoundIn=[Icy Island](Icy_Island "wikilink")
--   Appearance=A tiny version of [Mr. Bomb](Mr._Bomb "wikilink").
--   Behaviour=Walks around excitedly. Falls off platforms.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=Milestone 2
+- Behaviour=Walks around excitedly. Falls off platforms.
+- Squish=yes
+- Buttjump=yes
+- Freeze=no
+- Burnable=yes
 
-**Short Fuse** is a [badguy](badguy "wikilink") found in [Icy
-Island](Icy_Island "wikilink"). His behavior is intended to be similar
-to that of [Mr. Bomb](Mr._Bomb "wikilink"), but the explosions do not
-harm Tux -- they only throw him back.
-
-This badguy is planned for [Milestone 2](Milestone_2 "wikilink"). It is
-in SVN since [6511](Template:Revision "wikilink").
+His behavior is intended to be similar to that of [Mr. Bomb](#mr-bomb),
+but the explosions do not harm Tux -- they only throw him back.
 
 Skullyhop
 =========
