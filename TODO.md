@@ -29,6 +29,12 @@ ones. Style and color scheme should be kept more or less the same.
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block11.png)
 
+* One trampoline is portable, the other is stationary. They should
+  look more simialr, while still being distinguishable. Maybe make
+  more use of vertical space for more springyness.
+
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/objects/trampoline/trampoline1-0.png) ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/objects/trampoline/trampoline2-0.png)
+
 * These blocks are meant to be iced and slippery versions of bigblock.png, block5.png and Co.
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/icebridge.png)
@@ -66,6 +72,10 @@ ones. Style and color scheme should be kept more or less the same.
   cleanup.
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/crystalcave/ground.png)
+
+* The whole `pole/` folder should be redone
+
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/pole/cross.png)
 
 #### Cutscenes
 
