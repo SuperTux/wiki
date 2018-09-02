@@ -16,6 +16,12 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 ### Artwork
 
+#### In need for cleanup/replacement
+
+* ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block10.png)
+
+* ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block11.png)
+
 #### Cutscenes
 
 - [ ] Intro: Picnic with Penny
