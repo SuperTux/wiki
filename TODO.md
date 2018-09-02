@@ -18,9 +18,43 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 #### In need for cleanup/replacement
 
-* ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block10.png)
+These graphics need to be cleaned up or replaced with better looking
+ones. Style and color scheme should be kept more or less the same.
 
-* ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block11.png)
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block10.png)
+Regular stone block, currently lacking detail.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block11.png)
+Regular stone block, currently lacking detail.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/icebridge.png)
+These blocks are meant to be iced and slippery versions of bigblock.png, block5.png and Co.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/engine/menu/frame.png)
+Too black in spots and sloppy boarders. Not enough detail.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/cloud.png)
+Graphics is screwed up with vertical lines going through it.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snowpara-1.png)
+Placeholder gfx, actual background tileset needs to be more complex. Maybe not worth the effort, background graphics are simpler.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snowpara-2.png)
+Placeholder gfx, actual background tileset needs to be more complex. Maybe not worth the effort, background graphics are simpler.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/backgroundtile3.png)
+Flame could make use of animation.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/goal/goal2-1.png)
+Needs to be converted into a decal or completely replaced with a different kind of end sequence.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/nightcave/ground.png)
+Some issues with tileability.
+
+![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/crystalcave/ground.png)
+Was intended as background graphics, but gets abused as foreground
+graphics. Might need new tile ids to back a backwards compatible
+cleanup.
 
 #### Cutscenes
 
