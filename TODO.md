@@ -49,7 +49,7 @@ ones. Style and color scheme should be kept more or less the same.
 
 * Placeholder gfx, actual background tileset needs to be more complex. Maybe not worth the effort, background graphics are simpler.
 
-  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snow-gpara-1.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snow-para-1.png)
 
 * Placeholder gfx, actual background tileset needs to be more complex. Maybe not worth the effort, background graphics are simpler.
 
@@ -76,6 +76,8 @@ ones. Style and color scheme should be kept more or less the same.
 * The whole `pole/` folder should be redone
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/pole/cross.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/pole/bend.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/pole/t-cross.png)
 
 #### Cutscenes
 
