@@ -55,12 +55,20 @@ pass under him safely, while making it difficult to jump on him or
 Cannon (dispenser)
 ==================
 
-![](images/Dispenser_rocket_launcher.png "fig:Dispenser_rocket_launcher.png") The cannon can be mounted on either static or rotatable pedestal. It shoots angry looking snowballs. It is indestructible. [SVN](SVN "wikilink") for non-captainsnowball/kamizazesnowball enemies
+![](images/Dispenser_rocket_launcher.png)
 
+The cannon can be mounted on either static or rotatable pedestal. It
+shoots angry looking snowballs. It is indestructible. [SVN](SVN
+"wikilink") for non-captainsnowball/kamizazesnowball enemies
 
-The version in SVN can in fact shoot [Snowshots](Snowshot "wikilink"). Can this sentence be removed or do you mean something else? --[octo](User#octo "wikilink") 07:55, 27 February 2010 (UTC)
+The version in SVN can in fact shoot [Snowshots](Snowshot "wikilink").
+Can this sentence be removed or do you mean something else?
+--[octo](User#octo "wikilink") 07:55, 27 February 2010 (UTC)
 
-I didn't find any mention of [Captain Snowball](Captain_Snowball "wikilink") in neither the Milestone 2 nor the Milestone 3 design documents. What's the status on him? --[octo](User#octo "wikilink") 07:55, 27 February 2010 (UTC)
+I didn't find any mention of [Captain Snowball](Captain_Snowball
+"wikilink") in neither the Milestone 2 nor the Milestone 3 design
+documents. What's the status on him? --[octo](User#octo "wikilink")
+07:55, 27 February 2010 (UTC)
 
 Captain snowball is used in several level in bonus 3 --[giby](User#giby "wikilink") Fev 2014
 
@@ -118,6 +126,14 @@ Island](Icy_Island "wikilink") ([Milestone 2](Milestone_2 "wikilink")).
 -   drops badguys from a (shootable) trap door
 -   spawn badguys in tubes
 -   launches molten rocks out of a lava lakes
+
+### Comments
+
+> [[Grumbel|User#grumbel]]: Overly complicated and configurable. It
+> should focus on one thing and doing it well (i.e. shooting
+> snowballs) instead of doing everything and than some. Might be best
+> to discard the current `Dispenser` class and replace it with a Canon
+> class.
 
 Captain Snowball
 ================
@@ -255,54 +271,34 @@ hurting [Tux](Tux "wikilink") and other badguys on contact (unless, of
 course, Tux is in invincibility mode.) Flames are immune to fire.
 However, ice balls can kill them permanently as of version 0.3.4.
 
-
-
 Flying Snowball
 ===============
 
-![Flying Snowball|right](img/badguy/icons/Flyingsnowball.png "fig:Flying Snowball|right") The flying snowball has a propeller at his bottom which keeps him floating in the air. Due to Nolok's hurry, the motor is inefficient and varies in effectiveness, causing the flying snowball to move up and down while coughing out smoke and possibly other debris.
+![](img/badguy/icons/Flyingsnowball.png)
 
-**In need of a “good” name.**
+A Snowball with a propeller underneath and a pilot hat and goggles.
+Flies up and down constantly.
 
-What about Mr. Flyball?--[Noporque](User#noporque "wikilink") 09:00, 10 April 2010 (UTC)
+### Comments
 
-Here are some ideas: Flyper, Propeller, Gadget, and Floatall. I'm Agent Spook, and I'm just trying to help.
-
-![Flying SnowBall](img/badguy/icons/Flyingsnowball.png)
-
--   Image=Flyingsnowball.png
--   Appearance=A [Snowball](Snowball "wikilink") with a propeller
-    underneath and a pilot hat and goggles.
--   Behaviour=Flies up and down constantly.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
-
-**Flying Snowball** is a [badguy](badguy "wikilink") often found in [Icy
-Island](Icy_Island "wikilink"). It is a flying version of
-[Snowball](Snowball "wikilink") which doesn't walk around but moves up
-and down at random intervals and speeds.
+> [[Grumbel|User#grumbel]]: The flight pattern is erratic and
+> unpredictable, it has no rythm. Suggested change: Have the propeller
+> go into overdrive while at the bottom of the flightpath, shut it
+> down before the top and than glide slowly back to the bottom. Rinse
+> and repeat.
 
 Haywire
 =======
 
-![](images/MrBombCrazy.png "MrBombCrazy.png")
+![](img/badguy/icons/MrBombCrazy.png)
 
-When the fuse isn't burning Haywire looks similar to a normal Bomb except color and face. When the fuse of Haywire gets activated he starts to run around, maybe chasing Tux. He can't be carried around. Jumping on him when the fuse is burning will cause Tux to bounce and Haywire to be stunned for a short moment (fraction of a second).
+A purple walking bomb.
 
-**Status:** An initial version is available since [6443](Template:Revision "wikilink").
-
-![Haywire](img/badguy/icons/MrBombCrazy.png)
-
--   Image=MrBombCrazy.png
--   Appearance=A purple walking bomb.
--   Behaviour=Walks around. When jumped on, it's stunned for a little
-    while and its explosion sequence is triggered.
--   Squish=yes
--   Buttjump=yes
--   Freeze=yes
--   Burnable=yes
+When the fuse isn't burning Haywire looks similar to a normal Bomb
+except color and face. When the fuse of Haywire gets activated he
+starts to run around, maybe chasing Tux. He can't be carried around.
+Jumping on him when the fuse is burning will cause Tux to bounce and
+Haywire to be stunned for a short moment (fraction of a second).
 
 **Haywire** is a [badguy](badguy "wikilink") from the [Milestone 2
 Design Document](Milestone_2_Design_Document "wikilink"). It is very
@@ -313,8 +309,18 @@ will not lie still but ran around madly. [Tux](Tux "wikilink") can stun
 get out of its reach. When it explodes, hurts [Tux](Tux "wikilink") and
 other badguys nearby.
 
+
+Behaviour=Walks around. When jumped on, it's stunned for a little
+while and its explosion sequence is triggered.
+
 When shot with a [Fireflower](Fireflower "wikilink"), explodes
 immediately.
+
+### Comments
+
+> [[Grumbel|User#grumbel]]: Visually not distinct enough. Sound
+> effects terrible. Behaviour change when jumped uppon not dangerous
+> enough.
 
 Ispy
 ====
@@ -474,44 +480,41 @@ More Ideas
 Mr. Bomb
 ========
 
-![](images/Mrbomb.png "fig:Mrbomb.png") The base behavior of [Mr. Bomb](Mr._Bomb "wikilink") is similar to the normal Snowball, except that when hit he doesn't get squished, but his fuse starts burning. After ~5 seconds he then explodes. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. Throwing MrBombs is more like a normal throw, not like MrIceblock getting kicked.
-
-**Status:** Explosion timing is wrong, should be long enough to grab it and carry it around. -- [Grumbel](User#grumbel "wikilink") 09:51, 23 February 2010 (UTC)
-
 ![Mr. Bomb](img/badguy/icons/Mrbomb.png)
 
--   Image=Mrbomb.png
--   Appearance=A blue walking bomb.
--   Behaviour=Walks around. When jumped on once, it is activated and
-    explodes after a short time, killing nearby badguys.
--   Squish=yes
--   Buttjump=yes
--   Freeze=yes
--   Burnable=yes
+The base behavior of Mr. Bomb is similar to the normal Snowball,
+except that when hit he doesn't get squished, but knocked out and his
+fuse starts burning.
 
-**Mr. Bomb** is a [badguy](badguy "wikilink") that can be found in all
-[worlds](worlds "wikilink") of *SuperTux*. When Tux or another badguy
-hits him, he stops and begins ticking. After a few seconds, he explodes,
-hurting all creatures within range. The presence of other Mr. Bombs
-during explosion may cause a chain reaction of explosions. He also
-explodes if he is hit by one of Tux's fireballs, but if hit by an
-[iceball](Iceflower "wikilink"), he freezes without exploding.
+After ~5 seconds he then explodes. While the fuse is burning he
+doesn't move, but instead can be carried around like an iceblock.
+Throwing MrBombs is more like a normal throw, not like MrIceblock
+getting kicked.
 
-<div style="clear: both;">
-</div>
-![Old image of Mr. Bomb](images/Mrbomb-left-0.png "fig:Old image of Mr. Bomb")
-Due to Grumbel's complaint that “Mr. Bomb is the ugliest badguy ever
-created”, user [Poison Ivy](User#poison_ivy "wikilink") created a
-concept image for a new look by combining features of
-[Snowball](Snowball "wikilink") and the old Mr. Bomb in Gimp. This
-approach was not accepted either.
+Walks around. When jumped on once, it is activated and explodes after
+a short time, killing nearby badguys.
+
+When Tux or another badguy hits him, he stops and begins ticking.
+After a few seconds, he explodes, hurting all creatures within range.
+The presence of other Mr. Bombs during explosion may cause a chain
+reaction of explosions. He also explodes if he is hit by one of Tux's
+fireballs, but if hit by an iceball, he freezes without exploding.
+
+### Comments
+
+> [[Grumbel|User#grumbel]]: Time to explosion is too short, blinking
+> doesn't signal time to explosion well enough, making it almost
+> impossible to carry it around to do anything. Fuse doesn't actually
+> burn when activated.
 
 Mr. IceBlock
 ============
 
-![](images/MrIceblockSprite.png "fig:MrIceblockSprite.png") Like Snowball, Mr. IceBlock is a simple straight forward enemy. He will not stay on platforms. When jumped upon he will get knocked out and become a portable item that one can use to throw at other enemies.
+![](images/MrIceblockSprite.png) ![](img/badguy/icons/Mr_iceblock.gif)
 
-![Mr. Iceblock](img/badguy/icons/Mr_iceblock.gif)
+Like Snowball, Mr. IceBlock is a simple straight forward enemy. He
+will not stay on platforms. When jumped upon he will get knocked out
+and become a portable item that one can use to throw at other enemies.
 
 -   Image=Mr iceblock.gif
 -   Appearance=A cube of ice with eyes and legs.
