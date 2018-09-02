@@ -43,11 +43,11 @@ ones. Style and color scheme should be kept more or less the same.
 
 * Placeholder gfx, actual background tileset needs to be more complex. Maybe not worth the effort, background graphics are simpler.
 
-  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snowpara-1.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snow-gpara-1.png)
 
 * Placeholder gfx, actual background tileset needs to be more complex. Maybe not worth the effort, background graphics are simpler.
 
-  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snowpara-2.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snow-para-2.png)
 
 * Flame could make use of animation.
 
