@@ -163,7 +163,9 @@ Crystallo
 
 ![](images/Crystallo.png "Crystallo.png")
 
-Again a very basic enemy, but unlike the Snowball he doesn't walk around in a straight pattern, but walks forward and backward around a fixed position. It is a stationary enemy.
+Again a very basic enemy, but unlike the Snowball he doesn't walk
+around in a straight pattern, but walks forward and backward around a
+fixed position. It is a stationary enemy.
 
 ![Crystallo](img/badguy/icons/Crystallo.png)
 
@@ -179,40 +181,16 @@ Island](Icy_Island "wikilink"). He moves back and forth in a fixed
 range. He is not yet widely used, but he has been implemented in some
 test levels and some user-submitted levels.
 
-Dart Trap
-=========
-
-<Template:NeedSound>
-
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A skull mounted to the wall.
--   Behaviour=Static. Shoots darts at regular intervals.
--   Squish=no
--   Buttjump=no
--   Freeze=no
--   Burnable=no
-
-The **Dart trap** is a [badguy](badguy "wikilink") in form of a skull.
-In regular intervals it shoots darts out of its mouth. The darts fly in
-a straight line, hurt [Tux](Tux "wikilink") and cannot be destroyed but
-must be avoided. The *Dart trap* is mostly found in castles in the
-[Forest](Forest "wikilink") world.
-
-### To be done
-
-<Template:outdated>
-
--   mechanical sound when dart is loaded
--   hissing sound when dart is fired
--   clicking sound when dart hits the wall
-
-:   i belive this is already implemented in milestone 1.5 & subversion
-    --[Disk](User#disk "wikilink") 18:51, 30 August 2007 (UTC)
+> [[Grumbel|User#grumbel]]: As is, it's behaviour is pretty useless,
+> needs a complete overhaul. Doing a ice version of the [Stony in
+> Wall](images/Stony_wall.png) would be an option.
 
 Fish
 ====
 
-![](images/IceFish.png "fig:IceFish.png") Already in the code, but not much used in Milestone1 Levels. This badguy shouldn't be used in Icyland, it is a forest enemy.
+![](images/IceFish.png "fig:IceFish.png") Already in the code, but not
+much used in Milestone1 Levels. This badguy shouldn't be used in
+Icyland, it is a forest enemy.
 
 ![Fish](img/badguy/icons/FishBlue.png)
 
@@ -247,6 +225,11 @@ Also, possibly there should be a few different types of fish:
 4.  Swordfish
     -   Curving Jump following Tux and jumping higher when there is a
         chance to get Tux
+
+### Comments
+
+> [[Grumbel|User#grumbel]]: Doesn't look dangerous enough, not obvious
+> if he can be jumped up on. Maybe make it bigger and actually eat Tux.
 
 Flame
 =====
@@ -320,31 +303,16 @@ immediately.
 
 > [[Grumbel|User#grumbel]]: Visually not distinct enough. Sound
 > effects terrible. Behaviour change when jumped uppon not dangerous
-> enough.
-
-Ispy
-====
-![Ispy](img/badguy/icons/Ispy.png)
-
--   Appearance=A spying eye.
--   Behaviour=Static, looking towards the nearest player.
--   Squish=no
--   Buttjump=no
--   Freeze=yes
--   Burnable=no
-
-**Ispy** is a [badguy](badguy "wikilink") that can be found in all
-[worlds](worlds "wikilink") of *SuperTux*. It is a spying eye looking
-for the player. When the player can be seen by the eye, i.e. no other
-badguys or walls are in the way, an action is triggered, for example
-doors close or bridges are removed.
-
-![](images/ChristophEstart.png "ChristophEstart.png")
+> enough. See [Concept Art](images/Milestone2-sprites.png).
 
 Jumpy
 =====
 
-![](images/SnowJumpySprite.png "fig:SnowJumpySprite.png") [Jumpy](Jumpy "wikilink") jumps up and down and stays stationary on the same position. His viewing direction might follow [Tux](Tux "wikilink"). The spring should react when hitting the ground.
+![](images/SnowJumpySprite.png)
+
+[Jumpy](Jumpy "wikilink") jumps up and down and stays stationary on
+the same position. His viewing direction might follow [Tux](Tux
+"wikilink"). The spring should react when hitting the ground.
 
 ![Jumpy](img/badguy/icons/Left-up.png)
 -   Image=Left-up.png
@@ -361,23 +329,24 @@ stationary, bouncing up and down on the spot. Unless
 [iceflower](iceflower "wikilink"), the only way to get past *Jumpy* is
 to run below him or jump over him at the right time.
 
+### Comments:
+
+> [[Grumbel|User#grumbel]]: We have way too many variations of
+> snowballs, making things look a little boring. I tend to prefer the
+> Milestone 1 Jumpy for it's visual distinctiveness.
+>
+> ![](images/Jumpy.png)
+
 Krush and Krosh (icecrusher)
 ============================
 
-![](images/Iceblock.png "Iceblock.png")
-
-Krush and Krosh are enemies that are hanging on the ceiling. When [Tux](Tux "wikilink") gets within one tile they will fall down and try to smash Tux. When hanging on the ceiling, Krush and Krosh'es eyes shall follow Tux. The face expression shall become angry when he is falling down.
-
-**Status:** Needs a cool-down time after an attack, so it doesn't go up instantly. Needs particle effects when it hits the ground. Eyes should follow Tux. Should be larger, maybe 3x3 tiles or 4x4. Should accelerate while falling down, currently looks to much like constant velocity. -- [Grumbel](User#grumbel "wikilink") 09:54, 23 February 2010 (UTC)
-
-
-Acceleration has been fixed in [6403](Template:Revision "wikilink"). —[octo](User#octo "wikilink") 19:38, 26 February 2010 (UTC)
-
-A cooldown timer has been added in [6405](Template:Revision "wikilink"). —[octo](User#octo "wikilink") 19:49, 26 February 2010 (UTC)
-
 ![Iceblock](img/badguy/icons/Iceblock.png)
 
--   Image=Iceblock.png
+Krush and Krosh are enemies that are hanging on the ceiling. When Tux
+gets within one tile they will fall down and try to smash Tux. When
+hanging on the ceiling, Krush and Krosh'es eyes shall follow Tux. The
+face expression shall become angry when he is falling down.
+
 -   Appearance=An ice block (two by two for Krush, four by four for
     Krosh) making an angry face.
 -   Behaviour=Clings to the ceiling until [Tux](Tux "wikilink") is
@@ -399,7 +368,25 @@ Krush is implemented in levels.
 
 ### Concept art
 
+This concept art is for a big version that could serve as a miniboss.
+
 ![Concept art for *Icecrusher*](images/Icecrusher-concept-art.png "Concept art for Icecrusher"){width="400"}
+
+### Comments
+
+> **Status:** Needs a cool-down time after an attack, so it doesn't go
+> up instantly. Needs particle effects when it hits the ground. Eyes
+> should follow Tux. Should be larger, maybe 3x3 tiles or 4x4. Should
+> accelerate while falling down, currently looks to much like constant
+> velocity. -- [Grumbel](User#grumbel "wikilink") 09:54, 23 February
+> 2010 (UTC)
+
+> Acceleration has been fixed in [6403](Template:Revision "wikilink").
+> —[octo](User#octo "wikilink") 19:38, 26 February 2010 (UTC)
+
+> A cooldown timer has been added in [6405](Template:Revision
+> "wikilink"). —[octo](User#octo "wikilink") 19:49, 26 February 2010
+> (UTC)
 
 Kugelblitz
 ==========
@@ -450,8 +437,7 @@ water causes Tux and badguys to get hurt.
 (I chose the German name because it's one of the few words that actually
 sound cooler in German than in English, IMHO.)
 
-Variation1
-==========
+### Variation1
 
 The path of the kugelblitz could be led by looking at surrounding
 things. For example the kugelblitz could always go the nearest coin or
@@ -471,8 +457,7 @@ The kugelblitz would come down and start moving in circles from coin to
 coin. You could stop this behaviour by collecting 1 of the coins at the
 right time.
 
-More Ideas
-==========
+### More Ideas
 
 -   The kugelblitz could be attracted to spikes and if it hits them
     disappear. Like a lightning arrester.
@@ -510,7 +495,7 @@ fireballs, but if hit by an iceball, he freezes without exploding.
 Mr. IceBlock
 ============
 
-![](images/MrIceblockSprite.png) ![](img/badguy/icons/Mr_iceblock.gif)
+![](img/badguy/icons/Mr_iceblock.gif)
 
 Like Snowball, Mr. IceBlock is a simple straight forward enemy. He
 will not stay on platforms. When jumped upon he will get knocked out

@@ -11,6 +11,54 @@
 | [Will-o-wisp](http://supertux.lethargik.org/wiki/Will-o-wisp) | Forest | M2 |![Will-o-wisp](img/badguy/icons/Willowisp.png)  |
 | [Zeekling](http://supertux.lethargik.org/wiki/Zeekling) | Forest | M2 |![Zeekling](img/badguy/icons/Zeekling.png)  |
 
+Ispy
+====
+![Ispy](img/badguy/icons/Ispy.png)
+
+-   Appearance=A spying eye.
+-   Behaviour=Static, looking towards the nearest player.
+-   Squish=no
+-   Buttjump=no
+-   Freeze=yes
+-   Burnable=no
+
+**Ispy** is a [badguy](badguy "wikilink") that can be found in all
+[worlds](worlds "wikilink") of *SuperTux*. It is a spying eye looking
+for the player. When the player can be seen by the eye, i.e. no other
+badguys or walls are in the way, an action is triggered, for example
+doors close or bridges are removed.
+
+![](images/ChristophEstart.png "ChristophEstart.png")
+
+Dart Trap
+=========
+
+<Template:NeedSound>
+
+-   FoundIn=[Forest](Forest "wikilink")
+-   Appearance=A skull mounted to the wall.
+-   Behaviour=Static. Shoots darts at regular intervals.
+-   Squish=no
+-   Buttjump=no
+-   Freeze=no
+-   Burnable=no
+
+The **Dart trap** is a [badguy](badguy "wikilink") in form of a skull.
+In regular intervals it shoots darts out of its mouth. The darts fly in
+a straight line, hurt [Tux](Tux "wikilink") and cannot be destroyed but
+must be avoided. The *Dart trap* is mostly found in castles in the
+[Forest](Forest "wikilink") world.
+
+### To be done
+
+<Template:outdated>
+
+-   mechanical sound when dart is loaded
+-   hissing sound when dart is fired
+-   clicking sound when dart hits the wall
+
+:   i belive this is already implemented in milestone 1.5 & subversion
+    --[Disk](User#disk "wikilink") 18:51, 30 August 2007 (UTC)
 
 Mole
 ===================
