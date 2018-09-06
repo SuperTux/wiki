@@ -16,7 +16,16 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 ### Artwork
 
-#### In need for cleanup/replacement
+#### New graphics needed
+
+* A bonus block that acts as on/off switch
+
+  - design proposal 1: featuring the [on/off symbols](https://www.shutterstock.com/image-illustration/electric-switch-icon-cartoon-illustration-web-579423751),
+    a rollover animation between the states would be nice to have as well (cube tilting/rolling backwards)
+
+  - design proposal 2: use the [powerswitch symbol](https://de.depositphotos.com/152581468/stock-illustration-power-switch-icon.html) instead and just have it grey'ish when off and bright red when on
+
+#### Old graphics in need for cleanup/replacement
 
 These graphics need to be cleaned up or replaced with better looking
 ones. Style and color scheme should be kept more or less the same.
