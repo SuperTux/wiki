@@ -30,6 +30,16 @@ graphics/UX tasks, `category:code` for code tasks, and
 These graphics need to be cleaned up or replaced with better looking
 ones. Style and color scheme should be kept more or less the same.
 
+* In need of a little cleanup:
+
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/arcticskies1.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/bluemountain-middle.png)
+
+* Don't match the style that well, could need a bit of smoothing:
+
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/bridgecloud-dark.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/bridgecloud-dark.png)
+
 * Regular stone block, currently lacking detail.
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/block10.png)
