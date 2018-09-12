@@ -30,6 +30,10 @@ graphics/UX tasks, `category:code` for code tasks, and
 These graphics need to be cleaned up or replaced with better looking
 ones. Style and color scheme should be kept more or less the same.
 
+* Enlarge it to 1280x800, remove signature:
+
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/oiltux.jpg)
+
 * In need of a little cleanup:
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/arcticskies1.png)
@@ -37,7 +41,7 @@ ones. Style and color scheme should be kept more or less the same.
 
 * Don't match the style that well, could need a bit of smoothing:
 
-  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/bridgecloud-dark.png)
+  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/bridgecloud-light.png)
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/bridgecloud-dark.png)
 
 * Regular stone block, currently lacking detail.
@@ -74,7 +78,7 @@ ones. Style and color scheme should be kept more or less the same.
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/snow-para-2.png)
 
-* Flame could make use of animation.
+* Flame could make use of animation (tiles are barely used, so not high priority)
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/background/backgroundtile3.png)
 
