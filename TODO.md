@@ -30,10 +30,6 @@ graphics/UX tasks, `category:code` for code tasks, and
 These graphics need to be cleaned up or replaced with better looking
 ones. Style and color scheme should be kept more or less the same.
 
-* Enlarge it to 1280x800, remove signature:
-
-  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/oiltux.jpg)
-
 * In need of a little cleanup:
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/background/arcticskies1.png)
@@ -58,7 +54,7 @@ ones. Style and color scheme should be kept more or less the same.
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/objects/trampoline/trampoline1-0.png) ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/objects/trampoline/trampoline2-0.png)
 
-* These blocks are meant to be iced and slippery versions of bigblock.png, block5.png and Co.
+* These blocks are iced up versions of bigblock.png, block5.png and Co. (however they are not slippery ice, maybe they should?!)
 
   ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/tiles/blocks/icebridge.png)
 
