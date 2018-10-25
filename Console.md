@@ -3,7 +3,7 @@ twofold:
 
 - It displays informational, warning and error messages that occur
   during gameplay, alerting players of things like low diskspace,
-  broken levels, ...
+  broken levels, …
 - It helps debug the engine and test levels by allowing direct
   execution of Squirrel script commands (see [Scripting
   reference](Scripting_reference "wikilink"))
@@ -12,33 +12,13 @@ The Console pops into view for a short time whenever new messages are
 printed. To review old messages and enter commands, the console needs to
 be activated.
 
-To do so, you will have to run supertux using the `--developer`
-option. The key assigned to opening the console can be changed in the
-keyboard setup as soon it is activated. The default key is `\`` (the
+To do so, you will have to start SuperTux in [[Developer Mode]].
+The key assigned to opening the console can be changed in the
+keyboard setup as soon it is activated. The default key is `` ` `` (the
 one with the `~` on it) or `^` on German keyboard layout).
 
-To disable or enable the console if you don't want to pass command
-line parameters, you will have to edit the edit the SuperTux
-configuration file. Depending on your operating system, this varies:
-
-| Operating System        | Config file location
-|-------------------------|---------------------------------------------------------------------------------------------------------------
-| Linux                   | \~/.supertux2/config
-| Windows                 | %USERPROFILE%\\.supertux2\\config
-| Mac OS X                | \~/Library/Application Support/SuperTux/config.txt
-| Mac OS X Leopard        | \~/.supertux2/config
-| Mac OS X Leopard (Wine) | \~/Library/Application Support/Wine/Prefixes/drive\_c/Program FIles/(Name of your Supertux)/.supertux2/config
-
-You may have to enable viewing hidden files or folders. Anyway, open the
-file up with a text editor, and
-
-    (developer #t)
-
-will enable the console, and
-
-    (developer #f)
-
-will disable the console.
+In order to make this permanent without the usage of command line parameters,
+follow the guide in [[Developer Mode]].
 
 Commands
 --------
