@@ -8,7 +8,7 @@ Home
 Guidelines
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
 * [[Disfavored Practices|Disfavored Practices in Development]]
-* [[Rejected-Ideas]]
+* [[Rejected Ideas]]
 * [[Obstacles]]
 * [[Leveldesign]]
 
@@ -42,8 +42,8 @@ Engine
 Specifications
 * [[S-Expression]]
 * [[File_formats]]
-* [[Level-Format]]
-* [[Worldmap-Format]]
+* [[Level Format]]
+* [[Worldmap Format]]
 * [[Tileset]]
 * [[Sprite]]
 
@@ -66,7 +66,7 @@ Building (mostly outdated)
 * [[Building]]
 * [[Building on macOS]]
 * [[Building SuperTux]]
-* [[Building on-Windows]]
+* [[Building on Windows]]
 * [[Building with MXE (cross-compile)]]
 
 Meetings
