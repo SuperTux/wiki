@@ -1,14 +1,57 @@
+So you've finished the story mode, and the contrib levels and you want more?
+Or you're sick of the in-game worlds and want something new and fresh?
+Well, lucky for you, there are:
+
+Add-Ons
+=======
+
 **Add-ons** are extensions for *SuperTux* which are distributed
-separately from the main distribution. In most cases, they are sets of
-levels contributed by users or groups of users. They may, however,
-include custom [[tilesets|Tileset]], which may give these
-levels a very distinct look.
+separately from the main game. 
 
-Add-ons can be downloaded from within *SuperTux*. Simply ensure you
-have an internet connection, and select “Addons” from the main menu,
-where you can choose to install the currently available add-ons.
+In most cases, they are sets of levels contributed by users or groups of
+users in the form of a levelset or an addon (or in some, mutliple levelsets
+or worldmaps.)
 
-The addons are managed in two repositories:
+Some addons may, however, include custom [[tilesets|Tileset]], which may
+give them a very distinct look, in terms of tiles, levels, backgrounds,
+objects, etc.
+
+Just beware that some add-ons are unstable and may include features that
+aren't ready for the main game! Also, add-ons vary in difficulty; some are
+*VERY* difficult! You have been warned!
+
+Getting and Playing add-ons
+---------------
+
+Add-ons can be downloaded from within *SuperTux*, or from the SuperTux
+forum. 
+
+***From In-Game***
+
+To download add-ons from within the game, simply ensure you have an
+internet connection, and select “Addons” from the main menu, where you
+can choose to install the currently available add-ons.
+
+Once installed, make sure they are enabled and they should show up in
+your contributed levels.
+
+***From the Forum***
+
+To get add-ons from the SuperTux forum, just click this link:
+
+[SuperTux Forum](https://forum.freegamedev.net/viewforum.php?f=66)
+
+Once you're there, explore around and find some that seem interesting.
+
+Then, download that add-on and move it's zip file from your downloads
+folder to your SuperTux data folder. Then, when you find the data folder,
+place the add-on in the add-on folder, enable it in-game, and it should
+appear in the contributed levels.
+
+Debugging In-Game Addons
+------------------------
+
+The in-game addons are managed in two repositories:
 
 * https://github.com/SuperTux/addons
 * https://github.com/SuperTux/addons-src
@@ -32,15 +75,12 @@ which are distributed as `.zip` files. Just copy the file(s) to your
 
     $ wget -P ~/.supertux2 $ADDON_URL
 
-Creating Mods
-=============
+Creating Add-Ons
+================
 
-So you've played SuperTux, beating all the levels, including the bonus levels, and now you want more. Happily, you're in luck. The Supertux Fan Site had loads of levels but supertux.info/pmlvls.php is no more. But now you want to actually play them, instead of looking at the screenshots, or create your own fun levels. These instructions are for you.
+Now you're unhappy with the current add-ons, or you feel there aren't enough? Or maybe you want to be creative and make your own levels?
 
-Creating Levels
----------------
-
-Levels are created in different ways depending on which version you are using, as the format changed between 0.1.x and 0.3.x. Also, 0.3.x has a separate editor and game. Anyway, these will create some .stl files for you to enjoy.
+Levels are created in different ways depending on which version you are using, as the format changed between 0.1.x and 0.3.x. 0.3.x has a separate editor and game. 0.5.x + has a built in editor, and 0.6.x has a different format from the previous two. Anyway, these will create some .stl files for you to enjoy.
 
 ### SuperTux 0.1.x
 
@@ -53,6 +93,10 @@ There's another editor from <http://roofrabbit.com/supertux.html#editor> written
 ### SuperTux 0.3.x
 
 Download the SuperTux Editor from [Download/Unstable](Download/Unstable "wikilink"). The [Editor FAQ](Editor_FAQ "wikilink") might be helpful. Alternately, you could create 0.1.x levels and then modify them using a text editor or the [Scheme converter script](http://supertux.lethargik.org/svn/supertux/trunk/supertux/tools/levelconverter-0.1.3_0.2.0.scm) into version 2 levels. See the [File formats](File_formats "wikilink") page for details.
+
+### SuperTux 0.5.x +
+
+In-Game, you can make levels by accessing the editor from the main menu. Each version of the game after this version adds new features to the editor, and 0.6.0+ levels have a slightly different syntax.
 
 Packaging Levels
 ----------------

@@ -1,32 +1,21 @@
-### Current
+In SuperTux, if the player presses no keys, Tux will stay still and most
+likely get killed by an enemy. Luckily, the player can make Tux do a
+multitude of actions. Some actions require Tux to be Big Tux, while some
+require him to be wearing one of the different hats that are available in
+the game. Most actions require certain key/keys to be pressed, while some
+happen without player input. 
 
-- [Fireflower](#fireflower)
-- [Running](#running)
-- [Buttjump](#buttjump)
-- [Backflip](#backflip)
+As of 0.6.0, the current actions are available:
 
-### Proposed
+Walking
+-------
 
-- [Standing still/idling](#idling)
-- [Blowflyer](#blowflyer)
-- [Iceflower](#iceflower)
-- [Slider](#slider)
-- [Flapping](#flapping)
-- [Swimming](#swimming)
-- [Dive](#dive)
+![](images/Walk-Tux.png)
 
-Fireflower
-----------
+When the presses and holds the "left" or "right" keys, he will walk in the left
+or right direction. 
 
-![](images/Fire-flower-0.png)
-
-The behaviour of the **fireflower** is that it gives Tux the ability
-to spit bouncing fire bullets. Most badguys are killed when being
-struck by a fire bullet.
-
-Any subsequent fireflowers that Tux takes increase the amount of fire
-bullets that can be on the screen at the same time, but do not
-increase the amount of hits Tux can take.
+When the player releases these keys, Tux will slow down and come to a stop.
 
 Running
 -------
@@ -37,12 +26,50 @@ running he is able to jump five tiles high instead of just four.
 
 Milestone 1 used a dedicated run button, in Milestone 2 it's automatic.
 
+Jumping
+-------
+
+![](images/Jump-Tux.png)
+
+If Tux presses the "Jump" Key, he will jump up in the air and come back down.
+Tux normally crosses gaps and pits by running and jumping. Tux can also jump  below a bonusblock and hit it with his head to obtain the item inside. Tux can also kill enemies from below by headbutting filled bonusblocks when an enemy is directly above.
+
+Most enemies can be killed by jumping on them once or twice.
+
+If Tux is big, then he can break crates by jumping underneath them and headbutting them.
+
+Carrying
+--------
+
+![](images/Carry-Tux.png)
+
+Tux can carry one item at a time around with him by pressing the "action" key when he is
+right up against one of these special items. The items Tux can currently
+carry are:
+
+-   Iceblock (after being stepped on)
+-   Bomb (after being ignited)
+-   Trampolines (Movable ones)
+-   Rocks
+-   Lanterns
+(Note: Some Rocks may have different sprites than normal.)
+
+Ducking
+-------
+
+![](images/Duck-Tux.png)
+
+When Tux is Big Tux, or has a flower, he can duck. Simply press the "down" button to duck. 
+
+If the player wants to move while ducking, simply jump and move while ducking. This allows Tux to move through one-tile spaces when he is two tiles tall.
+
 Backflip
 --------
 
 The backflip is a special jump which gives Tux some extra height
-compared to a normal jump. It requires that Tux comes to a full stop
-and turns around.
+(1 tile) compared to a normal jump. 
+
+Tux can backflip by ducking and then jumping.
 
 Buttjump
 --------
@@ -63,24 +90,77 @@ The buttjump has the following flow of actions
 5.  When smashing on the ground wooden boxes will be destroyed
 6.  It takes Tux a small amount of time to jump back onto his feet to get back to normal
 
-### Super-Butt-Jump
-
-1.  Player moves Tux to a high position on the map
-2.  Player jumps from the ledge
-3.  Player presses 'down'
-4.  Tux does some acrobatic movement to get into the 'butt-position'
-5.  Tux then falls down back to the ground, butt first with increasing speed, due to the higher altitude he will change to Super-Butt-Jump-mode
-6.  When smashing on the ground nearby enemies might be turned upside down, rendering them unmovable or killing them (might depend on the type of enemy and of the type of ground)
-7.  It takes Tux a small amount of time to jump back onto his feet to get back to normal
+If Tux jumps from a high place and butt jumps onto a snail, an iceblock,
+or a Walking Tree, he will kill them instantly.
 
 Proposals featuring special items or power meters have been rejected.
 For reasons why see [Special Items Are Evil](Ideas#special-items-are-evil).
 
-Proposed abilities
-==================
 
-Idling
-------
+Fireflower
+----------
+
+![](images/Fire-flower-0.png)
+
+The behaviour of the **fireflower** is that it gives Tux the ability
+to spit bouncing fire bullets. Most badguys are killed when being
+struck by a fire bullet.
+
+Any subsequent fireflowers that Tux takes increase the amount of fire
+bullets that can be on the screen at the same time, but do not
+increase the amount of hits Tux can take.
+
+Iceflower
+---------
+
+![](images/Ice-flower.png)
+
+The iceflower will give Tux the ability to shoot ice bullets. Ice
+bullets will not bounce like fire bullets, but will shoot out in a
+straight path towards the enemy. When the ice bullet hits an enemy it
+will freeze him for a short time (if the enemy is freezable, not
+Snowball, Mr. Iceblock and Bouncing Snowball, etc.).
+
+### Proposed behavior
+
+Perhaps the ice bullet could freeze water, bouncing across the surface
+of a body of the aforesaid liquid and freezing the surface of the
+**one block** it touches, and maybe one block either side of it. I got
+the idea from water -&gt; ice on the User Ideas page.
+
+Airflower
+---------
+
+![](images/Air-Flower.png)
+
+The Airflower will give Tux the ability to run a small bit faster, and
+jump farther. If the player holds the jump key, Tux will fall slower than
+normal.
+
+Earthflower
+-----------
+
+![](images/Earth-Flower.png)
+
+The Earthflower gives Tux a light source in dark areas. If Tux ducks,
+the light points down. If Tux does a backflip, the light will spin.
+
+StoneTux
+--------
+
+![](images/Stonetux.png)
+
+If Tux has a Earth Hat (aka Hardhat) he has the ability to turn into stone for a short while by:
+1.  Pressing the Action key.
+2.  Pressing the down key.
+(Note: If Tux presses the down key first, he will duck instead.)
+
+Now Tux is made of stone and is immune to damage for a short while. After a
+few seconds, he will return to normal and won't be able to turn into stone
+again for a few moments.
+
+Idling (Partially Implemented)
+------------------------------
 
 Sometimes Tux just stands still. To make things more interesting we should have some animations in this case as well.
 
@@ -88,13 +168,17 @@ Examples:
 
 -   Shaking his head
 -   Flapping his flaps
--   Open/close an eyelid
+-   Open/close an eyelid (Implemented)
 -   Yawning or falling asleep
 -   Whistling a tune
 -   Tapping his feet in impatience
 -   Getting more and more angry the longer he is left.
 
 It would also be nice to make him turn and face the 'camera' if an idle timer was exceeded.
+
+
+Proposed abilities
+==================
 
 Blowflyer
 ---------
@@ -119,23 +203,6 @@ get some additional air-time (like a small double-jump).
 
 ![](images/Flapping.png)
 
-Iceflower
----------
-
-![](images/Ice-flower.png)
-
-The iceflower will give Tux the ability to shoot ice bullets. Ice
-bullets will not bounce like fire bullets, but will shoot out in a
-straight path towards the enemy. When the ice bullet hits an enemy it
-will freeze him for a short time, if the enemy is freezable not
-Snowball, Mr. Iceblock and Bouncing Snowball.
-
-### Proposed behavior
-
-Perhaps the ice bullet could freeze water, bouncing across the surface
-of a body of the aforesaid liquid and freezing the surface of the
-**one block** it touches, and maybe one block either side of it. I got
-the idea from water -&gt; ice on the User Ideas page.
 
 Dive
 ----

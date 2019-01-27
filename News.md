@@ -1,19 +1,65 @@
+Note: This is still not complete. Please add to this list if anything is missed. More information about news can be found on the SuperTux website.
+
+2019
+====
+
+- Some parts of story mode levels were redone, including worldmap bridge tiles being fixed.
+- New tile cleanups by Alzter.
+- New background and music by BlasterMaster.
+- Added the GrandMaster Journey, and Adventures to the New World 1 and 2 addons to the add-on manager.
+
 2018
 ====
 
-- Wiki has finally been transfered to Github proper
+- Released 0.6.0!
+- Wiki has finally been transfered to Github properly, but is still being worked on.
+- Both Icy Island and Forest World have been reworked mostly by Rusty-Box, with help from Serano.
+- Some images and sprites have been redone, and some added, including the buttjump, hats, explosions, the save bell, some backgrounds, and more.
+- New images and sprites were added for some worldmap and normal tiles.
+- Level versions have been updated to 3 rather than 2, due to the addition of some new features in level syntax (mostly involving paths).
 - TileMaps are now draw in batches, drastically improving framerates
+- Removed Crystal Mine from add-ons, it's now in the Story Mode.
+- Revamp of Rendering Engine
+- New Font Engine
+- Various Editor Changes
+- New songs (jewels.ogg and Bright Thunders)
+
+2017
+====
+
+- Added Christmas Addon, Crystal Mine, Community Addon to the addon manager.
+- New Images by BlasterMaster and RustyBox
+- Nightly Builds are updated
+- Scripting Improvements
+
+2016
+====
+
+- Released 0.5.0 and 0.5.1!
+- Added Serano's Islands and Serano's Halloween Island to the addon manager.
+- Developers are now accepting donations
+- Editor added in-game and revamped over time.
+- Scripting and level improvements.
+- Some new tiles, images and music.
 
 2015
 ====
 
+- Released 0.3.5 and 0.4.0, complete with many new changes!
 - SuperTux moved from GoogleCode to GitHub, new location is <https://github.com/SuperTux/>
-- SuperTux 0.3.5 has been released.
+- Added the Frozen Continent to the addon manager.
+
+2014
+====
+
+- Added a halloween world.
+- Removed some addons that are now included in Bonus Island III.
 
 2013
 ====
 
 - SuperTux 0.3.4 has been released.
+- Added Lolkat's levels and Rubberduck's levels to the addon manager.
 - Development of [Forest island](Forest "wikilink") continues.
 
 *“Deleting Forest island and the forest badguys is a step backwards. We
@@ -23,6 +69,9 @@ must continue in its development now instead in Milestone 3!”\
 2012
 ====
 
+- Added Levels of Wolves to the Addons manager.
+- Added CT's Addons, Hume's Addons, Octo's Levels, Yeti's Revenge, Island of Moob, Valley of Chaos, and Narre Land to the addons manager.
+- Added Tux Strikes Back to the Addons manager.
 - The official add-ons are kept in a repository on Google Code now;
   various new ones have been created out of levels sitting on the bug
   tracker.
