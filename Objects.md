@@ -1,10 +1,21 @@
-Objects can be found throughout the levels in SuperTux.
+Objects can be found throughout the levels in SuperTux. Most were introduced in Milestone 2 and can be found in the Level Editor.
 
 ### Bonus Blocks
 
 ![Image of a Bonus Block](https://github.com/SuperTux/data/blob/master/images/objects/bonus_block/full-0.png?raw=true "Bonus Block")
 
-Bonus Blocks generally contain powerups. However, they can contain scripts and even nasty badguys. Generally you cannot see what is in the block until you hit it. They can be hit from below but also can be butt-jumped from the top.
+Bonus Blocks generally contain powerups. However, they can rarely contain scripts and even nasty badguys. Generally you cannot see what is in the block until you hit it. They can be hit from below but also can be butt-jumped from the top. The following objects are found in most bonus blocks. Purple Bonus Blocks give Tux more than one powerup.
+
+-  Coins
+-  Eggs
+-  Flowers (Fire, Air, Earth or Ice)
+-  Tux dolls
+-  Invincibility Stars
+-  Coin Explosions
+-  Coin Rain
+-  Trampolines
+-  Rocks
+-  Light Sources
 
 ### Checkpoints
 
@@ -55,3 +66,23 @@ Rocks can be carried with the action key. They can allow Tux to get over new obs
 ![Image of a Lantern](https://github.com/SuperTux/data/blob/master/images/objects/lantern/lantern-1.png?raw=true "Lantern")
 
 Lanterns can be carried like rocks. However, they are also a good light source and can make some blocks of the same colour solid. Some coloured willowisps or other objects can change the colour of a lantern, and lanterns can affect Mr Candles.
+
+### Weak Blocks
+
+![Image of a StrawBox](https://github.com/SuperTux/data/blob/master/images/objects/weak_block/straw.png?raw=true "StrawBox")
+
+![Image of a MeltBox](https://github.com/SuperTux/data/blob/master/images/objects/weak_block/meltbox.png?raw=true "MeltBox")
+
+Weakblocks are solid objects that are  destroyed when a fireball hits them.
+They can either be destroyed one at a time or chain-linked.
+
+### Unstable Tile
+
+![Image of an Unstable Tile](https://github.com/SuperTux/data/blob/master/images/objects/unstable_tile/castleblock-0.png?raw=true "UnstableTile")
+![Image of an Unstable Tile](https://github.com/SuperTux/data/blob/master/images/objects/unstable_tile/crumbling-0.png?raw=true "UnstableTile")
+![Image of an Unstable Tile](https://github.com/SuperTux/data/blob/master/images/objects/unstable_tile/iceplatform.png?raw=true "UnstableTile")
+![Image of an Unstable Tile](https://github.com/SuperTux/data/blob/master/images/objects/unstable_tile/snow-0.png?raw=true "UnstableTile")
+
+Unstable tiles crumble or fall down after Tux has stepped on them. Some
+will crumble until there is nothing left, and Tux will fall down, but some
+will fall into the void, allowing Tux to jump off even while the block is falling.

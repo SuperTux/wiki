@@ -8,7 +8,7 @@ See the [old wiki's user manual](http://supertux.lethargik.org/wiki/User_Manual)
 
 ## Getting Started
 
- - Download a copy of the game [here](https://supertuxproject.org/download.html)
+ - Download a copy of the game [here](https://supertux.org/download.html)
  - Start it up, after installing it
  - Use the up/down arrow keys or the mouse to select "Start Game" at the main menu
  - Press the Enter key, or Left Click with the mouse
@@ -26,19 +26,20 @@ In order to do this, you need to understand how to play the game. This section o
 
 ### Worldmaps
 
-![Worldmap Image](https://i.imgur.com/JuNXmRf.jpg)
+![Worldmap Image](images/IcyMap.png)
 
 A worldmap is an island or a collection of islands which Tux must explore in search of Penny (or for some other goal). They feature levels which appear as dots/icons connected by paths.
 
-Currently, there is only one worldmap availible in Story Mode: [Icy Island](Icy-Island)
+Currently, there are two worldmaps availible in Story Mode: [Icy Island](Icy-Island "wikilink"), and [Forest World](Forest-World "wikilink"), which is currently incomplete.
 
-In later releases, more worldmaps will feature.
+In later releases, more worldmaps will be featured.
 
-Some other worldmaps which you can play are:
+Some other worlds which you can play are:
 
- - Forest World (development island)
- - The Halloween Island (Spooky)
+ - The Halloween Island (Spooky, OOooOOoo!!!)
  - Bonus Islands 1-3
+ - The Incubator Island
+ - Test Collection Levelsets
  - All the addons
 
 Check the Contrib Levels menu:
@@ -48,7 +49,7 @@ There are also worldmaps availible in addons. Please see the section labelled "A
 
 ### Levels
 
-![Level Image](Screenshot_Via-Nostalgica.png)
+![Level Image](images/Screenshot_Via-Nostalgica.png)
 
 A level is an area of an worldmap which Tux must traverse.
 To "win" in a level, Tux must pass through a finish area, often marked by a set of poles.
@@ -66,8 +67,8 @@ Left    |	Cursor Left     |	Makes Tux walk left
 Right 	| Cursor Right    | 	Makes Tux walk right
 Up 	    | Cursor Up       |	Enter door, activate switch
 Down    |	Cursor Down     |	Duck
-Jump 	  | Spacebar        |	Makes Tux jump. Hold down longer to jump higher.
-Action  |	Left Control    |	Varies; actions are explained below. 
+Jump    | Spacebar        |	Makes Tux jump. Hold down longer to jump higher.
+Action  |	Left Control    |	Varies; actions are explained below.
 
 The "P" and "Escape" keys can be used to pause the game.
 
@@ -80,7 +81,7 @@ Unfortunately, it's not as simple as just running and jumping freely through lev
 
 Tux can get hurt in a number of ways:
 
- - Walking into [badguys](Badguys) (see below)
+ - Walking into [badguys](Badguys "wikilink") (see below)
  - Being crushed by moving objects
  - Being hit by thrown objects (see below)
  - Falling onto spikes or into lava
@@ -94,9 +95,9 @@ When Tux dies, it will cause him to return to the start of the level (unless he 
 
 But don't worry, Tux can find [items](Items) in the levels, to help him overcome these adversaries:
 
-### [Item Boxes](Items)
+### Item Boxes
 
-Tux can find powerups, coins and other goodies in [item boxes](Items)
+Tux can find powerups, coins and other goodies in item boxes.
 
 ### Powerups
 
@@ -113,11 +114,11 @@ The more earthflowers you collect, the longer you can remain as a rock
 
 ### [Badguys](Badguys)
 
-Tux must also avoid "[Badguys](Badguys)" which are found in the level. These are Nolok's minions, and can cause Tux to get hurt.
+Tux must also avoid [Badguys](Badguys "wikilink") which are found in the level. These are Nolok's minions, and can cause Tux to get hurt.
 
-### Other [Objects](Objects)
+### Other [Objects](Objects "wikilink")
 
-There are also some other [objects](Objects) that Tux can interact with.
+There are also some other [objects](Objects "wikilink") that Tux can interact with.
 
 ## Addons
 
@@ -138,6 +139,18 @@ If you wish to submit a new addon to the repo, please make an issue or pull requ
 If you would rather change the addon repo which the game looks for new addons in, you can start the game with the repository-url argument specified: ```supertux2 --repository-url URL```
 **WARNING: THIS IS NOT RECOMMENDED BY THE SUPERTUX TEAM**
 
-## Using The Level Editor
+[s=This user manual is by no means error free, nor is it complete yet.
+If you have anything to add, just click an “Edit” link and add some
+text](Template:Attention "wikilink")
+     
+Further Reading
+---------------
 
-*Level Editor documentation has not been written yet.*
+Have fun browsing the SuperTux wiki. You can find lots of in-depth
+information about most objects in the game here.
+
+If you have paid for SuperTux, you have been ripped off. Supertux is
+available for free download at
+[Download/Installation](Download "wikilink").
+
+[Category:For Users](Category:For_Users "wikilink")
