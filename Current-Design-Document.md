@@ -182,9 +182,9 @@ Every frozen enemy should have an overlay of an iceblock instead of unique froze
 
 If the player plays Icy Island/other worlds between 3AM and 3:30AM, certain scripting events can happen. Levels get darker, scary, etc. easter eggs like &#39;bridge stuck&#39;
 
-**After-a-while easter eggs**
+**After-a-while easter eggs/Idle-Graphics**
 
-Snowballs and other enemies do a little break after a while. After all, they were walking for so much time… Tux, after a while of not moving, also gets angry and curses the screen. Jumpy just. Stops jumping after a while
+Snowballs and other enemies do a little break after a while. After all, they were walking for so much time… Tux, after a while of not moving, also gets angry and curses the screen. Jumpy just stops jumping after a while
 
 **Editor Improvements**
 
@@ -220,8 +220,8 @@ Climbables who move.
 
 **Enemy Idea**
 
-A walking enemy who quickly follows Tux and can&#39;t be killed, only stunned by stepping on it, but after reviving itself continues to follow Tux.
+A walking enemy who quickly follows Tux and can't be killed, only stunned by stepping on it, but after reviving itself continues to follow Tux.
 
 **Enemy Idea 2**
 
-An enemy who copies exactly Tux&#39;s behavior and when catches up to him or collides with him Tux dies. Unkillable, but can be trapped as it only obeys Tux&#39;s moves and therefore how he collides as well. Basically a &quot;shadow-tux&quot; but would have a delay that the player can set.
+An enemy who copies exactly Tux's behavior and when catches up to him or collides with him Tux dies. Unkillable, but can be trapped as it only obeys Tux's moves and therefore how he collides as well. Basically a "shadow-tux" (or dark rayman-like), but would have a delay that the player can set.
