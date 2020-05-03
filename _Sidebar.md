@@ -4,6 +4,7 @@ Home
 * [[Home]]
 * [[TODO]]
 * [[Developers]]
+* [Current Design Document](https://github.com/SuperTux/wiki/blob/master/designdoc07.md "Current Design Document")
 
 Guidelines
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
