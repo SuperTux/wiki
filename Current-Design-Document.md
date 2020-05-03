@@ -138,6 +138,10 @@ From Daniel; I&#39;ve had this idea for over a year, would be easy to implement,
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
 
+**Tintable lightbulb/lantern**
+
+A colorable, easily placeable light source for pretty effects in levels.
+
 **Rocks activating pushbuttons**
 
 This should definitely be added for puzzle stages.
