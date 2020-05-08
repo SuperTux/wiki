@@ -100,6 +100,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Deeper Lava (tintable?) –** Suggested by mt and Daniel
 
+**Big Snails -** Sprites for bigger sized snails can be added.
+
 **Acid –** Perhaps could be retinted lava.
 
 **New Unstable Platforms -** Varieties of these tiles/bigger versions would make things look a lot more varied.
@@ -251,3 +253,7 @@ A walking enemy who quickly follows Tux and can't be killed, only stunned by ste
 **Enemy Idea 2**
 
 An enemy who copies exactly Tux's behavior and when catches up to him or collides with him Tux dies. Unkillable, but can be trapped as it only obeys Tux's moves and therefore how he collides as well. Basically a "shadow-tux" (or dark rayman-like), but would have a delay that the player can set.
+
+**Enemy Idea 3**
+
+A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress.
