@@ -102,6 +102,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Acid –** Perhaps could be retinted lava.
 
+**Wide Trampolines -** Wider versions of unportable trampolines for puzzle areas.
+
 **Waterfall -** Waterfall graphics matching the modern water style.
 
 **New Icy Island Deco** – Perhaps look to Pingus for inspiration? The tileset should be as detailed as the forest, imo
