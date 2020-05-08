@@ -102,6 +102,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Acid –** Perhaps could be retinted lava.
 
+**New Unstable Platforms -** Varieties of these tiles/bigger versions would make things look a lot more varied.
+
 **Wide Trampolines -** Wider versions of unportable trampolines for puzzle areas.
 
 **Waterfall -** Waterfall graphics matching the modern water style.
@@ -156,7 +158,19 @@ This should definitely be added for puzzle stages.
 
 **Rock throwing improvements**
 
-Make rocks bounce off of Tux rather than killing him
+Make rocks bounce off of Tux rather than killing him.
+
+**Dispensers obeying gravity**
+
+Dispensers should have an option to obey gravity.
+
+*Airflower improvements**
+
+When wearing the air hat, it should be changed to a flying snowball's propeller hat, and pressing up propels Tux up once, like propeller hat from Super Mario. Also, he should be lighter and not activate falling tiles unless buttjump.
+
+**Respawning falling tiles**
+
+Falling tiles/unstable tiles/skull tiles should respawn when they have fallen.
 
 **Music names**
 
