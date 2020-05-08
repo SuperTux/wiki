@@ -164,7 +164,7 @@ Make rocks bounce off of Tux rather than killing him.
 
 Dispensers should have an option to obey gravity.
 
-*Airflower improvements**
+**Airflower improvements**
 
 When wearing the air hat, it should be changed to a flying snowball's propeller hat, and pressing up propels Tux up once, like propeller hat from Super Mario. Also, he should be lighter and not activate falling tiles unless buttjump.
 
