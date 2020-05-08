@@ -168,9 +168,9 @@ Dispensers should have an option to obey gravity.
 
 When wearing the air hat, it should be changed to a flying snowball's propeller hat, and pressing up propels Tux up once, like propeller hat from Super Mario. Also, he should be lighter and not activate falling tiles unless buttjump.
 
-**Respawning falling tiles**
+**Respawning falling tiles/stalactites**
 
-Falling tiles/unstable tiles/skull tiles should respawn when they have fallen.
+Falling tiles/unstable tiles/skull tiles/stalactites should respawn when they have fallen.
 
 **Music names**
 
