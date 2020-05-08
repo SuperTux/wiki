@@ -148,6 +148,10 @@ Only some, few or none of this stuff may be added, or might get added at a later
 
 A colorable, easily placeable light source for pretty effects in levels.
 
+**Light source objects**
+
+Objects with sprites (cones, etc.) that specifically lit up an area or light didn't apply there, lit it up, etc. might doable using the newer graphic engine surfaces. Z-pos editable, too, and it can be rotated.
+
 **Colored Text per speaker**
 
 In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
