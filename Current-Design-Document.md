@@ -142,6 +142,10 @@ So Tux doesn&#39;t get lonely while swimming, a normal left-right fish enemy sha
 
 From Daniel; I&#39;ve had this idea for over a year, would be easy to implement, etc.
 
+**Falling Tree Branch**
+
+A walkable tree branch that functions like stalactite, but can be walked on, although still falls.
+
 # Other, Unconfirmed Ideas
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
