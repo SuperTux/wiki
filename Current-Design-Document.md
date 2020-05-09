@@ -100,6 +100,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Deeper Lava (tintable?) –** Suggested by mt and Daniel
 
+**Door billboard -** A billboard conveying to the player how to enter a door.
+
 **Big Snails -** Sprites for bigger sized snails can be added.
 
 **Acid –** Perhaps could be retinted lava.
