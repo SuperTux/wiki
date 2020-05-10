@@ -271,3 +271,7 @@ An enemy who copies exactly Tux's behavior and when catches up to him or collide
 **Enemy Idea 3**
 
 A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
+
+**Enemy Idea 4**
+
+A sneaky woodpecker who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again.
