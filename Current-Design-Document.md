@@ -136,6 +136,10 @@ Suggested by RustyBox, key would be like a powerup and would hovering over Tux a
 
 Ghost Tree&#39;s root attack roots should be used in earlier levels to foreshadow his coming. Suggested by RustyBox.
 
+**Secret paths on worldmap**
+
+Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
+
 **Cod**
 
 So Tux doesn&#39;t get lonely while swimming, a normal left-right fish enemy shall be added (equivalent of snowball in the water)
