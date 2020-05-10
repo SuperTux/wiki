@@ -140,14 +140,6 @@ Ghost Tree&#39;s root attack roots should be used in earlier levels to foreshado
 
 So Tux doesn&#39;t get lonely while swimming, a normal left-right fish enemy shall be added (equivalent of snowball in the water)
 
-**Falling Acorn**
-
-From Daniel; I&#39;ve had this idea for over a year, would be easy to implement, etc.
-
-**Falling Tree Branch**
-
-A walkable tree branch that functions like stalactite, but can be walked on, although still falls.
-
 # Other, Unconfirmed Ideas
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
@@ -262,7 +254,7 @@ Climbables who move.
 
 **Enemy Idea**
 
-A walking enemy who quickly follows Tux and can't be killed, only stunned by stepping on it, but after reviving itself continues to follow Tux.
+A walkable tree branch that functions like stalactite, but can be walked on, although still falls.
 
 **Enemy Idea 2**
 
@@ -274,4 +266,16 @@ A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it 
 
 **Enemy Idea 4**
 
-A sneaky woodpecker who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
+A sneaky bluejay who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
+
+**Enemy Idea 5**
+
+The smart variant to the bluejay, the woodpecker pecks down pinecones at Tux, and sits there for a while. Tux can then use the pinecone and throw it up to defeat the woodpecker. Either the pinecone respawns after a while, or the woodpecker is smart enough to go seek out another tree with pinecones.
+
+**Enemy Idea 6**
+
+The pinecone for the woodpecker. Upon falling, which it only falls when pecked by woodpecker, it doesn't despawn, as it can be picked up and used as a projectile (like the rock, just with better range), but when it is falling, it can hurt Tux.
+
+**Enemy Idea 7**
+
+The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
