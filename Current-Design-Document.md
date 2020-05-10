@@ -274,4 +274,4 @@ A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it 
 
 **Enemy Idea 4**
 
-A sneaky woodpecker who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again.
+A sneaky woodpecker who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
