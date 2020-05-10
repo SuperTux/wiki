@@ -8,7 +8,7 @@ SuperTux 0.7.0 will bring about a completion to the first two worlds so work can
 
 # Story
 
-  - Improve it, make it better. There used to be more here but I deleted it for fear of argument because apparently we all have to listen to one guy who&#39;s story has been… lackluster, at least compared to my ideas.
+  - Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
 
 # Levels
 
@@ -16,7 +16,7 @@ SuperTux 0.7.0 will bring about a completion to the first two worlds so work can
 
 Update with the new graphics for their assets. Also: make them more interesting! Most levels are your run-of-the-mill left to right levels and don&#39;t make use of everything available, like most enemies, vertical space, varying directions, multiple paths, autoscrolling, signs, moving tilemaps, unisolids, bricks, multiple paths, those scripting bonus blocks that can be activated by rocks, etc. Make the most of the level gimmicks!
 
-One of the most stupid and awful level design philosophies I have seen (especially considering it comes from one of the main level designers) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
+One of the most stupid and awful level design philosophies I have seen (especially since it was used to block level proposals in the past) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
 
 Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
 
