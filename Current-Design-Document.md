@@ -160,6 +160,10 @@ Objects with sprites (cones, etc.) that specifically lit up an area or light did
 
 In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
 
+**Check for updates**
+
+Upon booting up game, check for updates, and if update is available, place a "Update Game" dialogue item when the game is first opened. If the current version equals the installed version, it's plays normally. Normally only works for major releases, but in dev mode works for every nightly build.
+
 **Pushbutton Improvements**
 
 Add an option for an "unpress" script, or an option for the script to only play when an activator's on it.
