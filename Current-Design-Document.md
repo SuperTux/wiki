@@ -164,6 +164,10 @@ In future cutscenes, Tux, Penny and Nolok might have speaking parts and there sh
 
 Upon booting up game, check for updates, and if update is available, place a "Update Game" dialogue item when the game is first opened. If the current version equals the installed version, it's plays normally. Normally only works for major releases, but in dev mode works for every nightly build.
 
+**Change the tint + speed of decals**
+
+For custom BGs, add ability to change a decal's scroll speed and tint.
+
 **Pushbutton Improvements**
 
 Add an option for an "unpress" script, or an option for the script to only play when an activator's on it.
