@@ -116,6 +116,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Waterfall -** Waterfall graphics matching the modern water style.
 
+**River current -** could be represented with wind on water, but sprites for the running rapids of a river are needed.
+
 **New Icy Island Deco** – Perhaps look to Pingus for inspiration? The tileset should be as detailed as the forest, imo
 
 # Important Bugs
