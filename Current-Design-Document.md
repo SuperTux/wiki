@@ -128,7 +128,11 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Swimming**
 
-See feature/swimming for more info, it looks quite finished. However, some sprite improvements and overall tweaks are needed.
+See feature/swimming2 for more info, it looks quite finished. However, some sprite improvements and overall tweaks are needed.
+
+**Checkpoints and Coins**
+
+Checkpoints are no longer tied to coins, and you can always respawn from them, rather than needing 25 coins. Coins are used for another purpose...
 
 **Ghost Tree and Yeti**
 
