@@ -212,7 +212,11 @@ First step, offline coop multiplayer, step 2 online multiplayer via Servers or a
 
 **Walljumping**
 
-Could be quite useful and nice to have. Would extend move set of Tux.
+Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles.
+
+**Wallclimbing**
+
+Different from walljump, as Tux clings on to/climbs/declimbs these tiles, and a different tiletype is used. Still, both can be jumped off.
 
 **Sliding**
 
