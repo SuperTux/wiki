@@ -43,7 +43,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Miscellaneous**
 
 - Rusty Trampoline
-- Switch Left, Switch Right, Switch Middle
 
 **Backgrounds**
 
@@ -120,6 +119,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **New Icy Island Deco** – Perhaps look to Pingus for inspiration? The tileset should be as detailed as the forest, imo
 
+**Other...*** - Whatever new features get added need proper images, obviously.
+
 # Important Bugs
 
 - All worldmaps listed as new, regardless of if they&#39;ve actually been played or not.
@@ -176,7 +177,7 @@ Upon booting up game, check for updates, and if update is available, place a "Up
 
 **Change the tint + speed of decals**
 
-For custom BGs, add ability to change a decal's scroll speed and tint.
+For custom BGs, add ability to change a decal's scroll speed and tint. Also there should be the option to change the tint of background images.
 
 **Pushbutton Improvements**
 
