@@ -40,10 +40,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 # Revamped Graphics
 
-**Miscellaneous**
-
-- Rusty Trampoline
-
 **Backgrounds**
 
 - Light Forest – add a few varying parallax BGs for normal light levels.
@@ -159,6 +155,10 @@ Only some, few or none of this stuff may be added, or might get added at a later
 
 We need more particle effects for different things, like for wind, to make it look better than just some small cubes, and give it actual images rather than just rects. Also, it would be nice for particles to be used more, such as when Tux/badguy lands, on wind, when slipping on ice or slime, walljumping, etc. in those events, but also in normal behavior, such as with fire/lava having particles come off/particles around it, and also there should be more particle objects, like falling leaves/blowing wind in the normal forest or sky "fairies"/glowing floaty particles in the air in the ghost forest. Also, it would be nice to shake the screen more, such as in cutscenes, when Tux is jolted, to convey certain emotions, when bombs explode, when Tux is hurt, etc. Also bubbles when Tux enters or leaves water, or makes a sudden motion/boosts/starts moving again.
 
+**Better background system**
+
+It would be nice to have better parallax BGs for the foreground and background. And since the very back uses just a gradient, it would also be cool to have more variation in the cloud particle system for more unique clouds. And for BGs with still clouds, it would be nice to have more images for that too. Also, adding sprite files as backgrounds would enhance gameplay as well.
+
 **Tintable lightbulb/lantern**
 
 A colorable, easily placeable light source for pretty effects in levels.
@@ -201,7 +201,7 @@ When wearing the air hat, it should be changed to a flying snowball's propeller 
 
 **Respawning falling tiles/stalactites**
 
-Falling tiles/unstable tiles/skull tiles/stalactites should respawn when they have fallen.
+Skulltiles should respawn when they have fallen.
 
 **Music names**
 
