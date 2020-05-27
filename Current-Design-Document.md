@@ -125,7 +125,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Swimming**
 
-See feature/swimming2 for more info, it looks quite finished. However, some sprite improvements and overall tweaks are needed.
+See feature/swimming2 for more info, it looks quite finished. However, some bugfixes are needed.
 
 **Checkpoints and Coins**
 
@@ -137,7 +137,7 @@ Update boss fight/level/behavior to accommodate new ideas and graphics.
 
 **Locked Doors and Keys**
 
-Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages.
+Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
 
 **Tree Roots**
 
@@ -153,19 +153,35 @@ Only some, few or none of this stuff may be added, or might get added at a later
 
 **More particle events/effects/use of screen shaking**
 
-We need more particle effects for different things, like for wind, to make it look better than just some small cubes, and give it actual images rather than just rects. Also, it would be nice for particles to be used more, such as when Tux/badguy lands, on wind, when slipping on ice or slime, walljumping, etc. in those events, but also in normal behavior, such as with fire/lava having particles come off/particles around it, and also there should be more particle objects, like falling leaves/blowing wind in the normal forest or sky "fairies"/glowing floaty particles in the air in the ghost forest. Also, it would be nice to shake the screen more, such as in cutscenes, when Tux is jolted, to convey certain emotions, when bombs explode, when Tux is hurt, etc. Also bubbles when Tux enters or leaves water, or makes a sudden motion/boosts/starts moving again.
+We need more particle effects for different things, like for wind, to make it look better than just some small cubes, and give it actual images rather than just rects. Also, it would be nice for particles to be used more, such as when Tux/badguy lands, on wind, when slipping on ice or slime, walljumping, etc. in those events, but also in normal behavior, such as with fire/lava having particles come off/particles around it, and also there should be more particle objects, like falling leaves/blowing wind in the normal forest or sky "fairies"/glowing floaty particles in the air in the ghost forest. Also, it would be nice to shake the screen more, such as in cutscenes, when Tux is jolted, to convey certain emotions, when bombs explode, when Tux is hurt, etc. Also bubbles when Tux enters or leaves water, or makes a sudden motion/boosts/starts moving again. Many more particle events and shaking could be added to add liveliness to the game.
 
 **Better background system**
 
-It would be nice to have better parallax BGs for the foreground and background. And since the very back uses just a gradient, it would also be cool to have more variation in the cloud particle system for more unique clouds. And for BGs with still clouds, it would be nice to have more images for that too. Also, adding sprite files as backgrounds would enhance gameplay as well. Another good idea is to add ability to edit the scroll speed of decals for the sake of very custom forest FGs, or maybe just add forest FG tiles?
+It would be nice to have better/more variety parallax BGs for the foreground and background. And since the very back uses just a gradient, it would also be cool to have more variation in the cloud particle system for more unique clouds. And for BGs with still clouds, it would be nice to have more images for that too. Also, adding sprite files as backgrounds would enhance gameplay as well. Another good idea is to add ability to edit the scroll speed of decals for the sake of very custom forest FGs, or maybe just add forest FG tiles? Extending the image set of parallax and parallax tiles would be nice as well.
+
+**Pigeons**
+
+These are special background objects who, when Tux is near, flee in the direction away from his body.
+
+**More sound effects**
+
+Add sound effects for when Tux walks on different tiles, and overall better sounds for when he dies or speaks or enters water.
+
+**Better background tiles/decals**
+
+Ones who are animated (some not) and varied to bring life to the game. THis could be snowy rocks, snowmen, flowing snow grass, more snowpiles, crystals, flags in the wind, sleeping polar bears, arctic foxes/foxes playing, little birds, squirrels, other animals, flowing grass, etc.
 
 **Tintable lightbulb/lantern**
 
-A colorable, easily placeable light source for pretty effects in levels.
+A colorable, easily placeable light source for pretty effects in levels. Also, a creepy pulsing light object for the ghost forest.
 
 **Light source objects**
 
 Objects with sprites (cones, etc.) that specifically lit up an area or light didn't apply there, lit it up, etc. might doable using the newer graphic engine surfaces. Z-pos editable, too, and it can be rotated.
+
+**Sideways Bouncers**
+
+Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain.
 
 **Colored Text per speaker**
 
@@ -213,7 +229,7 @@ First step, offline coop multiplayer, step 2 online multiplayer via Servers or a
 
 **Walljumping**
 
-Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles.
+Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
 
 **Wallclimbing**
 
