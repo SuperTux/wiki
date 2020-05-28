@@ -163,6 +163,10 @@ It would be nice to have better/more variety parallax BGs for the foreground and
 
 These are special background objects who, when Tux is near, flee in the direction away from his body.
 
+**Better Wind**
+
+It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
+
 **More sound effects**
 
 Add sound effects for when Tux walks on different tiles, and overall better sounds for when he dies or speaks or enters water.
