@@ -277,7 +277,7 @@ Autosave and a better text editor, open settings on creation of new level. Also 
 
 **More velocity/acceleration driven platforms**
 
-Allow platforms to be more velocity/acceleration driven, along with other objects that move (like Camera)
+Allow platforms to be more velocity/acceleration driven, along with other objects that move (like Camera) and also allow the player to retain velocity that they did while on moving platforms (for events such as Tux being flung off a platform)
 
 **Falling Platforms/Tilesets**
 
