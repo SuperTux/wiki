@@ -187,6 +187,10 @@ Objects with sprites (cones, etc.) that specifically lit up an area or light did
 
 Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain.
 
+**Coyote Time**
+
+Hardcoded coyote time should be implemented in the game for easier jumps.
+
 **Colored Text per speaker**
 
 In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
