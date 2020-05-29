@@ -279,6 +279,10 @@ Autosave and a better text editor, open settings on creation of new level. Also 
 
 Allow platforms to be more velocity/acceleration driven, along with other objects that move (like Camera) and also allow the player to retain velocity that they did while on moving platforms (for events such as Tux being flung off a platform)
 
+**Better movement on moving tilemaps**
+
+Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
+
 **Falling Platforms/Tilesets**
 
 Set an option for platforms or tilemaps to function like icicles/icecrushers
