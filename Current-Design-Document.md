@@ -187,6 +187,10 @@ Objects with sprites (cones, etc.) that specifically lit up an area or light did
 
 Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain.
 
+**Bouncing Bubbles**
+
+Some object that toss Tux in the opposite direction y-wise and in the opposite direction of impact x-wise (like being thrown back by something) would be nice to have.
+
 **Coyote Time**
 
 Hardcoded coyote time should be implemented in the game for easier jumps.
