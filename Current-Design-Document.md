@@ -46,9 +46,10 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Tiles/Decals**
 
+- Actually implement the already made new forest tiles and slime tiles.
 - A multitude of new forest trees and tree branches to make the forest pretty.
 - The tree moviestar exit.
-- Revamp of the icy island tileset and icy bg tileset to live up to the new forest stuff.
+- Revamp of the icy island tileset and icy background tilesets to live up to the new forest stuff.
 - Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
 
 **Enemies**
@@ -111,11 +112,19 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Waterfall -** Waterfall graphics matching the modern water style.
 
-**River current -** could be represented with wind on water, but sprites for the running rapids of a river are needed.
-
 **New Icy Island Deco** – Perhaps look to Pingus for inspiration? The tileset should be as detailed as the forest, imo
 
-**Other...*** - Whatever new features get added need proper images, obviously.
+**Treetop tileset** - A tileset for when Tux is in the trees.
+
+**Snowfort Tileset** - A small tileset for snowy structures.
+
+**Alternate Icy Tileset** - Forest has one alternate tileset, and it would be cool to have a deep blue ice tileset, or a dirt/rock terrain alternate option for the icy island.
+
+**New decoration (Icy)** - Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags.
+
+**New decoration (Forest)** - Could include things like animals, shrubs, as well as things for the ghost forest.
+
+**Other...** - Whatever new features get added need proper images, obviously.
 
 # Important Bugs
 
@@ -286,10 +295,6 @@ Tux should move better on moving tilemaps. Currently he can hardly jump, or move
 **Falling Platforms/Tilesets**
 
 Set an option for platforms or tilemaps to function like icicles/icecrushers
-
-**Treetop Tileset**
-
-Tileset that takes place in large trees. Suggested by Grumbel, RustyBox, BlasterMaster, and Alzter
 
 **Add support for rotatable/growing hitboxes**
 
