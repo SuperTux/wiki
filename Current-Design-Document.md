@@ -192,6 +192,10 @@ A colorable, easily placeable light source for pretty effects in levels. Also, a
 
 Objects with sprites (cones, etc.) that specifically lit up an area or light didn't apply there, lit it up, etc. might doable using the newer graphic engine surfaces. Z-pos editable, too, and it can be rotated.
 
+**Blinking Tiles**
+
+Tiles whose solidity blinks back and forth.
+
 **Sideways Bouncers**
 
 Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain.
