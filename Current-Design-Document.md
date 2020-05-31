@@ -136,10 +136,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 # Features/Mechanics
 
-**Swimming**
-
-See feature/swimming2 for more info, it looks quite finished. However, some bugfixes are needed.
-
 **Tree Roots**
 
 Ghost Tree&#39;s root attack roots should be used in earlier levels to foreshadow his coming. Suggested by RustyBox.
