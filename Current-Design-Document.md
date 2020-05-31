@@ -24,6 +24,10 @@ One of the most stupid and awful level design philosophies I have seen (especial
 
 Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
 
+**Secret paths on worldmap**
+
+Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
+
 **Cutscene Levels**
 
 Update these levels with the new story decisions and the new graphics/stuff decided for the characters.
@@ -136,25 +140,21 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 See feature/swimming2 for more info, it looks quite finished. However, some bugfixes are needed.
 
-**Checkpoints and Coins**
+**Tree Roots**
 
-Checkpoints are no longer tied to coins, and you can always respawn from them, rather than needing 25 coins. Coins are used for another purpose...
+Ghost Tree&#39;s root attack roots should be used in earlier levels to foreshadow his coming. Suggested by RustyBox.
 
-**Ghost Tree and Yeti**
+**Enemy Idea 8**
 
-Update boss fight/level/behavior to accommodate new ideas and graphics.
+So Tux doesn&#39;t get lonely while swimming, a normal left-right fish enemy shall be added (equivalent of snowball in the water)
 
 **Locked Doors and Keys**
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
 
-**Tree Roots**
+**Ghost Tree and Yeti**
 
-Ghost Tree&#39;s root attack roots should be used in earlier levels to foreshadow his coming. Suggested by RustyBox.
-
-**Secret paths on worldmap**
-
-Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
+Update boss fight/level/behavior to accommodate new ideas and graphics.
 
 # Other, Unconfirmed Ideas
 
@@ -343,7 +343,3 @@ The pinecone for the woodpecker. Upon falling, which it only falls when pecked b
 **Enemy Idea 7**
 
 The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
-
-**Enemy Idea 8**
-
-So Tux doesn&#39;t get lonely while swimming, a normal left-right fish enemy shall be added (equivalent of snowball in the water)
