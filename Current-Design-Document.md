@@ -130,10 +130,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Other...** - Whatever new features get added need proper images, obviously.
 
-# Important Bugs
-
-- All worldmaps listed as new, regardless of if they&#39;ve actually been played or not.
-
 # Features/Mechanics
 
 **Tree Roots**
