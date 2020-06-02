@@ -160,6 +160,14 @@ We need more particle effects for different things, like for wind, to make it lo
 
 It would be nice to have better/more variety parallax BGs for the foreground and background. And since the very back uses just a gradient, it would also be cool to have more variation in the cloud particle system for more unique clouds. And for BGs with still clouds, it would be nice to have more images for that too. Also, adding sprite files as backgrounds would enhance gameplay as well. Another good idea is to add ability to edit the scroll speed of decals for the sake of very custom forest FGs, or maybe just add forest FG tiles? Extending the image set of parallax and parallax tiles would be nice as well.
 
+**Thumbs up**
+
+Tux should twirl and do a happy little thumbs up while the level ending is playing.
+
+**Squash and Stretch**
+
+We use this for backgrounds, so why not for players/objects? I'd recommend adding a squash and stretch effect for Tux jumping, falling and landing, as well as for the bouncing snowball landing. Alternatively, these could just be drawn and programmed to work right, except the landing animation most likely wouldn't work.
+
 **Pigeons**
 
 These are special background objects who, when Tux is near, flee in the direction away from his body.
