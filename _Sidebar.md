@@ -21,8 +21,9 @@ Game Mechanics
 
 Tools
 * [[Cheats]]
-* [[Level Editor]]
 * [[Demo Recording]]
+* [[Developer Mode]]
+* [[Level Editor]]
 * [[SuperTux C# Editor FAQ]]
 * [[SuperTux C# Editor Guide]]
 * [[SuperTux C# Editor Ideas]]
@@ -30,6 +31,7 @@ Tools
 Engine
 * [[Cameras in other games]]
 * [[Collision]]
+* [[Configuration File]]
 * [[Console]]
 * [[Cutscenes]]
 * [[Game_Engine]]
