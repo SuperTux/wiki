@@ -47,6 +47,28 @@ Two ideas have been propsed (loosely) for the implementation of this feature:
  - The player presses up/down/left/right, and Tux moves in that direction. When
    the player presses the jump key, Tux will get a boost in the current direction
    he is facing
+   
+ **Note: Swimming has been fully implemented in the current game, and it functions very different to this, making this extremely outdated.**
+   
+### Underwater Enemies
+Of course new underwater enemies are needed once Tux is able to swim. This is a list
+with some proposed enemies and their behaviour. 
+Underwater enemies will die if they should leave the water.
+#### Jelly Fishes
+Jelly fishes are the most basic underwater enemy. They just swim around and are not 
+hurt when Tux touches them. When they hit a wall, they will turn around. 
+Fire jelly fishes are different, because they are able to hurt Tux. 
+#### Dolphins (Poki)
+The dolphin is a curious animal who wants to get to know Tux. When he encounters Tux,
+he will poke Tux. This results in Tux floating in the water.
+From time to time Poki has to dive up to fetch new air. If Tux is nearby, when he dives up, he might take Tux up to the surface.
+(He can swim in cold waters because he was genetically modified by Nolok)
+#### Leopard seal
+Leopard seals chase after Tux and are able to kill him. They are able to swim faster than Tux 
+for short durations of time. After swimming very fast, they can not attack Tux for some specified time.
+#### Blowfish
+ Blowfishs will blow up in certain time intervals / when Tux is nearby. When blown up,
+ they might shoot deadly spikes and collisions with the blowfish will lead to Tux being hit.
 
 
 About this Document
