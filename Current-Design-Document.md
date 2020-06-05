@@ -176,6 +176,22 @@ These are special background objects who, when Tux is near, flee in the directio
 
 It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
 
+**Sideways Icecrushers**
+
+Yes.
+
+**Shift activated platforms**
+
+Platforms that only go to their node when the player presses shift.
+
+**Bone rider things**
+
+See World 8 of new mario games, they have a nice bone rider thing we could use.
+
+**Swinging on flag strings**
+
+Adding certain strings that can be swung on like Alto Adventure would be nice and would suit a penguin game.
+
 **More sound effects**
 
 Add sound effects for when Tux walks on different tiles, and overall better sounds for when he dies or speaks or enters water.
