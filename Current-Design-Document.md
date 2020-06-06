@@ -340,6 +340,10 @@ Platforms with circular paths, just like a flame, whose path speed can be config
 
 Climbables who move.
 
+**Snow Dune**
+
+A rising snow dune like the sand one from nsmbwii.
+
 **Enemy Idea**
 
 A walkable tree branch that functions like stalactite, but can be walked on, although still falls.
