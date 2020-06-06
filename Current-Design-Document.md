@@ -332,6 +332,10 @@ Two types: One where Tux holds UP to move it and one where Tux can move it freel
 
 Platforms that sink when Tux is on them, and when he leaves, they go back up
 
+**Circular Platforms**
+
+Platforms with circular paths, just like a flame, whose path speed can be configurable and whatnot.
+
 **Movable climbables**
 
 Climbables who move.
