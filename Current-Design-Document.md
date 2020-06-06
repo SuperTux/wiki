@@ -74,13 +74,17 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Igel
 - Snail
 - **Icy Island**
-- Bomb/Gold Bomb/Haywire/Shortfuse
 - Crystallo
 - Jumpy
 - Snowman
 - Bouncing Snowball
 - Flying Snowball
 - Snowshot
+- **General**
+- Bomb
+- Haywire
+- Goldbomb
+- Shortfuse
 
 **Characters**
 
