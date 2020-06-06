@@ -328,6 +328,10 @@ Support for growing hitboxes should be added. Rotatable hitboxes might be a bit 
 
 Two types: One where Tux holds UP to move it and one where Tux can move it freely. They should have sprites to separate them from others, though
 
+**Semi-controllable platforms**
+
+One type that only moves as long as Tux is on it, and when he leaves, it returns to its home.
+
 **Sinking Platforms**
 
 Platforms that sink when Tux is on them, and when he leaves, they go back up
