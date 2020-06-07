@@ -378,4 +378,4 @@ The acorn that the bluejay throws. If used by itself, it falls normally, like a 
 
 **Enemy Idea 8**
 
-An enemy who throws bouncing snowballs would be nice to have.
+Throwable snowball! Used to activate far off blocks/switches.
