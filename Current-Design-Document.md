@@ -140,7 +140,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 Ghost Tree&#39;s root attack roots should be used in earlier levels to foreshadow his coming. Suggested by RustyBox.
 
-**Enemy Idea 8**
+**Fish enemy**
 
 So Tux doesn&#39;t get lonely while swimming, a normal left-right fish enemy shall be added (equivalent of snowball in the water)
 
@@ -375,3 +375,7 @@ The pinecone for the woodpecker. Upon falling, which it only falls when pecked b
 **Enemy Idea 7**
 
 The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
+
+**Enemy Idea 8**
+
+An enemy who throws bouncing snowballs would be nice to have.
