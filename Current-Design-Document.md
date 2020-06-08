@@ -74,6 +74,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Igel
 - Snail
 - **Icy Island**
+- Spiky Walking
 - Crystallo
 - Jumpy
 - Snowman
