@@ -82,10 +82,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Flying Snowball
 - Snowshot
 - **General**
-- Bomb
-- Haywire
-- Goldbomb
-- Shortfuse
+- Haywire (Code improvement to accomodate sprite)
 
 **Characters**
 
