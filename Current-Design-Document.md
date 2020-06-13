@@ -81,8 +81,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Bouncing Snowball
 - Flying Snowball
 - Snowshot
-- **General**
-- Haywire (Code improvement to accomodate sprite)
 
 **Characters**
 
