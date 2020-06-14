@@ -379,3 +379,7 @@ The acorn that the bluejay throws. If used by itself, it falls normally, like a 
 **Enemy Idea 8**
 
 Throwable snowball! Used to activate far off blocks/switches.
+
+**Enemy Idea 9**
+
+A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
