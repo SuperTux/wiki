@@ -180,6 +180,10 @@ It should be easier to move in wind, and movement shouldn't be entirely obscured
 
 Yes.
 
+**Controllable Fall Speed**
+
+Tux should fall faster if he is holding down.
+
 **Shift activated platforms**
 
 Platforms that only go to their node when the player presses shift.
