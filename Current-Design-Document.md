@@ -76,8 +76,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - **Icy Island**
 - Spiky Walking
 - Crystallo
-- Jumpy
 - Snowman
+- Jumpy
 - Bouncing Snowball
 - Flying Snowball
 - Snowshot
