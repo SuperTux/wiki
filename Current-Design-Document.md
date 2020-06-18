@@ -164,6 +164,10 @@ It would be nice to have better/more variety parallax BGs for the foreground and
 
 Tux should twirl and do a happy little thumbs up while the level ending is playing.
 
+**Ghoul improvements**
+
+Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable and there should be a blue light object which attracts them when it is turned on, shifting their focus away from Tux. Also, there should be an object that can only be broken by collision with ghouls.
+
 **Squash and Stretch**
 
 We use this for backgrounds, so why not for players/objects? I'd recommend adding a squash and stretch effect for Tux jumping, falling and landing, as well as for the bouncing snowball landing. Alternatively, these could just be drawn and programmed to work right, except the landing animation most likely wouldn't work.
