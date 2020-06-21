@@ -6,36 +6,6 @@ This document is a work in progress, nothing here is considered even remotely fi
 
 SuperTux 0.7.0 will bring about a completion to the first two worlds so work can begin on World 3. This means improving/revamping the graphics, sound effects, code, story and levels in many areas and adding some new features/mechanics as well. (swimming, etc.)
 
-# Story
-
-  - Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
-
-# Levels
-
-**Levels in general**
-
-The levels of the Add-On menu (Bonus Islands I-IV, Halloween 2014, etc.) should be divided from other contrib levels, which can be downloaded manually or in-game from "Add-Ons". Manually downloaded levelpacks would be subfoldered under "Community Levels", while those already in game would be in a own folder named "Add-Ons". This would make the list of Add-Ons shorter and would clear up which levels are official and which not.
-
-**Normal Levels**
-
-Update with the new graphics for their assets. Also: make them more interesting! Most levels are your run-of-the-mill left to right levels and don&#39;t make use of everything available, like most enemies, vertical space, varying directions, multiple paths, autoscrolling, signs, moving tilemaps, unisolids, bricks, multiple paths, those scripting bonus blocks that can be activated by rocks, etc. Make the most of the level gimmicks!
-
-One of the most stupid and awful level design philosophies I have seen (especially since it was used to block level proposals in the past) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
-
-Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
-
-**Secret paths on worldmap**
-
-Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
-
-**Cutscene Levels**
-
-Update these levels with the new story decisions and the new graphics/stuff decided for the characters.
-
-**Boss Levels**
-
-Update to accommodate the new fights and to make them a lot more interesting.
-
 # Audio
 
 **Tux, Penny, Nolok**
@@ -50,10 +20,10 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Tiles/Decals**
 
-- Actually implement the already made new forest tiles and slime tiles.
+- Actually implement the already made new forest tiles, bush tiles, forest background tiles and slime tiles.
 - A multitude of new forest trees and tree branches to make the forest pretty.
 - The tree moviestar exit.
-- Revamp of the icy island tileset and icy background tilesets to live up to the new forest stuff.
+- Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
 - Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
 
 **Enemies**
@@ -106,29 +76,19 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Door billboard -** A billboard conveying to the player how to enter a door.
 
+**Other billboards -** Other billboards would be needed to convey things.
+
 **Big Snails -** Sprites for bigger sized snails can be added.
 
 **Acid –** Perhaps could be retinted lava.
-
-**New Unstable Platforms -** Varieties of these tiles/bigger versions would make things look a lot more varied.
 
 **Wide Trampolines -** Wider versions of unportable trampolines for puzzle areas.
 
 **Waterfall -** Waterfall graphics matching the modern water style.
 
-**New Icy Island Deco** – Perhaps look to Pingus for inspiration? The tileset should be as detailed as the forest, imo
-
 **Treetop tileset** - A tileset for when Tux is in the trees.
 
-**Snowfort Tileset** - A small tileset for snowy structures.
-
-**Alternate Icy Tileset** - Forest has one alternate tileset, and it would be cool to have a deep blue ice tileset, or a dirt/rock terrain alternate option for the icy island.
-
-**New decoration (Icy)** - Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags.
-
 **New decoration (Forest)** - Could include things like animals, shrubs, as well as things for the ghost forest.
-
-**Other...** - Whatever new features get added need proper images, obviously.
 
 # Features/Mechanics
 
@@ -152,6 +112,34 @@ Update boss fight/level/behavior to accommodate new ideas and graphics.
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
 
+**-Tux movement**
+
+**Thumbs up**
+
+Tux should twirl and do a happy little thumbs up while the level ending is playing.
+
+**Controllable Fall Speed**
+
+Tux should fall faster if he is holding down.
+
+**Coyote Time**
+
+Hardcoded coyote time should be implemented in the game for easier jumps.
+
+**Walljumping**
+
+Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
+
+**Slope Sliding**
+
+Due to current slope detection this might not get added, but it would be awesome to have Tux slide on his belly to hurt enemies and then fly off slopes after gaining momentum.
+
+**Ice Cutlass**
+
+A sword where Tux does a little dash. Might be available as a rock or as a powerup. If it is a powerup, it will replace the ice flower and its freezing ability.
+
+**-Other**
+
 **More particle events/effects/use of screen shaking**
 
 We need more particle effects for different things, like for wind, to make it look better than just some small cubes, and give it actual images rather than just rects. Also, it would be nice for particles to be used more, such as when Tux/badguy lands, on wind, when slipping on ice or slime, walljumping, etc. in those events, but also in normal behavior, such as with fire/lava having particles come off/particles around it, and also there should be more particle objects, like falling leaves/blowing wind in the normal forest or sky "fairies"/glowing floaty particles in the air in the ghost forest. Also, it would be nice to shake the screen more, such as in cutscenes, when Tux is jolted, to convey certain emotions, when bombs explode, when Tux is hurt, etc. Also bubbles when Tux enters or leaves water, or makes a sudden motion/boosts/starts moving again. Many more particle events and shaking could be added to add liveliness to the game.
@@ -159,10 +147,6 @@ We need more particle effects for different things, like for wind, to make it lo
 **Better background system**
 
 It would be nice to have better/more variety parallax BGs for the foreground and background. And since the very back uses just a gradient, it would also be cool to have more variation in the cloud particle system for more unique clouds. And for BGs with still clouds, it would be nice to have more images for that too. Also, adding sprite files as backgrounds would enhance gameplay as well. Another good idea is to add ability to edit the scroll speed of decals for the sake of very custom forest FGs, or maybe just add forest FG tiles? Extending the image set of parallax and parallax tiles would be nice as well.
-
-**Thumbs up**
-
-Tux should twirl and do a happy little thumbs up while the level ending is playing.
 
 **Ghoul improvements**
 
@@ -183,10 +167,6 @@ It should be easier to move in wind, and movement shouldn't be entirely obscured
 **Sideways Icecrushers**
 
 Yes.
-
-**Controllable Fall Speed**
-
-Tux should fall faster if he is holding down.
 
 **Shift activated platforms**
 
@@ -228,10 +208,6 @@ Either an option for trampolines or an entirely new object for bouncing sideways
 
 Some object that toss Tux in the opposite direction y-wise and in the opposite direction of impact x-wise (like being thrown back by something) would be nice to have.
 
-**Coyote Time**
-
-Hardcoded coyote time should be implemented in the game for easier jumps.
-
 **Colored Text per speaker**
 
 In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
@@ -260,10 +236,6 @@ Make rocks bounce off of Tux rather than killing him.
 
 Dispensers should have an option to obey gravity.
 
-**Airflower improvements**
-
-When wearing the air hat, it should be changed to a flying snowball's propeller hat, and pressing up propels Tux up once, like propeller hat from Super Mario. Also, he should be lighter and not activate falling tiles unless buttjump.
-
 **Respawning falling tiles/stalactites**
 
 Skulltiles should respawn when they have fallen.
@@ -276,21 +248,9 @@ The music should use a proper name instead of a filename when selecting it in th
 
 First step, offline coop multiplayer, step 2 online multiplayer via Servers or a user code.
 
-**Walljumping**
-
-Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
-
 **Wallclimbing**
 
 Different from walljump, as Tux clings on to/climbs/declimbs these tiles, and a different tiletype is used. Still, both can be jumped off.
-
-**Sliding**
-
-Due to current slope detection this might not get added, but it would be awesome to have Tux slide on his belly to hurt enemies and then fly off slopes after gaining momentum.
-
-**Ice Cutlass**
-
-A sword where Tux does a little dash. Might be available as a rock or as a powerup. If it is a powerup, it will replace the ice flower and its freezing ability.
 
 **Picking up frozen enemies**
 
@@ -387,3 +347,33 @@ Throwable snowball! Used to activate far off blocks/switches.
 **Enemy Idea 9**
 
 A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
+
+# Story
+
+  - Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
+
+# Levels
+
+**Levels in general**
+
+The levels of the Add-On menu (Bonus Islands I-IV, Halloween 2014, etc.) should be divided from other contrib levels, which can be downloaded manually or in-game from "Add-Ons". Manually downloaded levelpacks would be subfoldered under "Community Levels", while those already in game would be in a own folder named "Add-Ons". This would make the list of Add-Ons shorter and would clear up which levels are official and which not.
+
+**Normal Levels**
+
+Update with the new graphics for their assets. Also: make them more interesting! Most levels are your run-of-the-mill left to right levels and don&#39;t make use of everything available, like most enemies, vertical space, varying directions, multiple paths, autoscrolling, signs, moving tilemaps, unisolids, bricks, multiple paths, those scripting bonus blocks that can be activated by rocks, etc. Make the most of the level gimmicks!
+
+One of the most stupid and awful level design philosophies I have seen (especially since it was used to block level proposals in the past) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
+
+Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
+
+**Secret paths on worldmap**
+
+Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
+
+**Cutscene Levels**
+
+Update these levels with the new story decisions and the new graphics/stuff decided for the characters.
+
+**Boss Levels**
+
+Update to accommodate the new fights and to make them a lot more interesting.
