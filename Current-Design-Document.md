@@ -159,7 +159,7 @@ We need more particle effects for different things, like for wind, to make it lo
 
 Add sound effects for when Tux walks on different tiles, and overall better sounds for when he dies or speaks or enters water.
 
-**-Object Improvements**
+**-Object Improvements/New Object ideas**
 
 **Better background system**
 
@@ -267,7 +267,9 @@ Platforms with circular paths, just like a flame, whose path speed can be config
 
 A rising snow dune like the sand one from nsmbwii.
 
-**-Object ideas**
+**Ice floes**
+
+Ice floes that respond to the gravity placed on top of them would add some goodness.
 
 **-Enemy ideas**
 
