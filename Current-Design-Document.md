@@ -130,10 +130,6 @@ Tux should fall faster if he is holding down.
 
 Hardcoded coyote time should be implemented in the game for easier jumps.
 
-**Blue in water**
-
-Tux and enemies shall be tinted blue while in the water.
-
 **Walljumping**
 
 Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
