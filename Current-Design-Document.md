@@ -27,6 +27,17 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
 - Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
 - New underwater decoration
+- Simple bridge/scaffolding unisolid tiles
+- Treetop Tileset
+- Deeper Lava/Acid
+- Waterfall tiles
+- New decoration (Forest) - Could include things like animals, shrubs, as well as things for the ghost forest.
+
+**Objects**
+
+- Wide/Wider Stationary Trampolines
+- New/Better Billboards
+- Moving platform, bone version
 
 **Enemies**
 
@@ -45,13 +56,12 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Zeekling
 - Igel
 - Snail
+- Big Snail
 - **Icy Island**
 - Spiky Walking
 - Crystallo
 - Snowman
-- Jumpy
 - Bouncing Snowball
-- Flying Snowball
 - Snowshot
 
 **Characters**
@@ -71,28 +81,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
   - Other/cutscene sprites…
 - Yeti
 - Ghost Tree
-
-# New Graphics
-
-**Deeper Lava (tintable?) –** Suggested by mt and Daniel
-
-**Door billboard -** A billboard conveying to the player how to enter a door.
-
-**Other billboards -** Other billboards would be needed to convey things.
-
-**Big Snails -** Sprites for bigger sized snails can be added.
-
-**Acid –** Perhaps could be retinted lava.
-
-**Wide Trampolines -** Wider versions of unportable trampolines for puzzle areas.
-
-**Waterfall -** Waterfall graphics matching the modern water style.
-
-**Treetop tileset** - A tileset for when Tux is in the trees.
-
-**New decoration (Forest)** - Could include things like animals, shrubs, as well as things for the ghost forest.
-
-**Bone moving platform** - For a planned level, a resprite of a moving platform as a bone would be nice.
 
 # Features/Mechanics
 
