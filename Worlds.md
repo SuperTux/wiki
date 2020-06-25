@@ -1,11 +1,13 @@
-This page serves as a collection of all existing and proposed official SuperTux worlds. It's not guaranteed that all of the proposed worlds will be made and added to later SuperTux releases, but helping with graphics and levels can speed up the development process.
+This page serves as a collection of all existing and planned official SuperTux worlds. There are currently no more than four worlds planned for the story mode.
 
 ## Established Worlds
 * [World 1 - Icy Island](Icy-Island)
 
 ## Worlds Under Development
 
-* [World 2 - Forest](Ghost-Forest)
+* [World 2 - Rooted Forest](Ghost-Forest)
 
-## Proposed Worlds
+## Planned Worlds
 
+* World 3 - Tropical Paradise
+* World 4 - Nolok's Mountain Peak
