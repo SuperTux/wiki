@@ -19,7 +19,7 @@ Currently, the end boss of *Rooded Forest* is the [Ghost Tree](Ghosttree "wikili
 See also
 --------
 
--   [Icy Island](Icy_Island.md)
+-   [Icy Island](Icy-Island.md)
 -   [Worlds](Worlds.md)
 
 <Category:World>
