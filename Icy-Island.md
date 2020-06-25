@@ -42,7 +42,7 @@ The [Yeti](Yeti "wikilink") is end boss for *Icy Island*. He is featured in No M
 See also
 --------
 
--   [Rooted Forest](Rooted-Forest.md")
+-   [Rooted Forest](Rooted-Forest.md)
 -   [Worlds](Worlds.md)
 
 <Category:World>
