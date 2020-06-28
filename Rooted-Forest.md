@@ -14,7 +14,7 @@ Badguys for *Rooted Forest* can be found at the [Badguys](Forest-Badguys.md) pag
 
 ### End Boss
 
-Currently, the end boss of *Rooded Forest* is the [Ghost Tree](Ghosttree "wikilink")
+Currently, the end boss of *Rooded Forest* is the [Ghost Tree](Bosses.md)
 
 See also
 --------
