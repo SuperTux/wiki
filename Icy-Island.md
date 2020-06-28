@@ -37,7 +37,7 @@ As of December 2018, *Icy Island* features the following levels:
 Badguys for Icy Island can be found at the [Badguys](Icy-Badguys.md) page.
 
 ### End boss
-The [Yeti](Yeti "wikilink") is end boss for *Icy Island*. He is featured in No More Mr Ice Guy and tries to attack Tux indirectly using the icicles to his power.
+The [Yeti](Bosses.md) is the end boss for *Icy Island*. He is featured in No More Mr Ice Guy and tries to attack Tux indirectly using the icicles to his power.
 
 See also
 --------
