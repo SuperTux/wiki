@@ -154,6 +154,10 @@ Add sound effects for when Tux walks on different tiles, and overall better soun
 
 Sprite files as BGs would be cool.
 
+**Better cutscene methods**
+
+Cutscenes should be skippable, trigger only once per level session, and text should be passed through via a button.
+
 **Better cloud system**
 
 Changing what/the variety of images in cloud particles, as well as speed.
