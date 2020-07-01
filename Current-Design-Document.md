@@ -17,7 +17,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Backgrounds**
 
 - Light Forest – add a few varying parallax BGs for normal light levels.
-- General - add variety of gradient BGs, as well as cloud BGs would be cool.
+- General - More cloud BGs would be cool.
+- Parallax-ify many BGs.
 
 **Tiles/Decals**
 
@@ -32,6 +33,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Deeper Lava/Acid
 - Waterfall tiles
 - New decoration (Forest) - Could include things like animals, shrubs, as well as things for the ghost forest.
+- Snowtops for use in levels
 
 **Objects**
 
