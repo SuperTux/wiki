@@ -236,10 +236,6 @@ Tux should move better on moving tilemaps. Currently he can hardly jump, or move
 
 An object that shakes and falls when Tux is on it or is under it. A UNISOLID option should be added as well.
 
-**Semi-controllable platforms**
-
-One type that only moves as long as Tux is on it, and when he leaves, it returns to its home.
-
 **Circular Platforms**
 
 Platforms with circular paths, just like a flame, whose path speed can be configurable and whatnot.
