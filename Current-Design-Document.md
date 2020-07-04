@@ -34,6 +34,10 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Waterfall tiles
 - New decoration (Forest) - Could include things like animals, shrubs, as well as things for the ghost forest.
 - Snowtops for use in levels
+- Ghost tree root tiles
+- Library tiles, as well as library decoration
+- New decoration for castles
+- New decoration for everyplace!
 
 **Objects**
 
@@ -85,14 +89,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Ghost Tree
 
 # Features/Mechanics
-
-**Tree Roots**
-
-Ghost Tree&#39;s root attack roots should be used in earlier levels to foreshadow his coming. Suggested by RustyBox.
-
-**Fish enemy**
-
-So Tux doesn&#39;t get lonely while swimming, a normal left-right fish enemy shall be added (equivalent of snowball in the water)
 
 **Locked Doors and Keys**
 
@@ -224,7 +220,7 @@ Dispensers should have an option to obey gravity.
 
 Skulltiles should respawn when they have fallen.
 
-**-Moving platforms**
+**-Moving platform Improvements**
 
 **More velocity/acceleration driven platforms**
 
@@ -234,33 +230,19 @@ Allow platforms to be more velocity/acceleration driven, along with other object
 
 Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
 
-**Falling Platforms/Tilesets**
+**-New moving platforms**
 
-Set an option for platforms or tilemaps to function like icicles/icecrushers
+**Falling Platform**
 
-**Controllable Platforms**
-
-Two types: One where Tux holds UP to move it and one where Tux can move it freely. They should have sprites to separate them from others, though
+An object that shakes and falls when Tux is on it or is under it. A UNISOLID option should be added as well.
 
 **Semi-controllable platforms**
 
 One type that only moves as long as Tux is on it, and when he leaves, it returns to its home.
 
-**Shift activated platforms**
-
-Platforms that only go to their node when the player presses shift.
-
-**Sinking Platforms**
-
-Platforms that sink when Tux is on them, and when he leaves, they go back up
-
 **Circular Platforms**
 
 Platforms with circular paths, just like a flame, whose path speed can be configurable and whatnot.
-
-**Snow Dune**
-
-A rising snow dune like the sand one from nsmbwii.
 
 **Ice floes**
 
@@ -268,41 +250,45 @@ Ice floes that respond to the gravity placed on top of them would add some goodn
 
 **-Enemy ideas**
 
-**Enemy Idea 1**
+**Enemy Idea - Cod**
 
-A walkable tree branch that functions like stalactite, but can be walked on, although still falls.
+Simply a little fish enemy that swims back and forth should be added. It swims left to right, switching directions upon hitting a wall. Two variants should be added: a small and big one.
 
-**Enemy Idea 2**
+**Enemy Idea - Shadow Tux**
 
 An enemy who copies exactly Tux's behavior and when catches up to him or collides with him Tux dies. Unkillable, but can be trapped as it only obeys Tux's moves and therefore how he collides as well. Basically a "shadow-tux" (or dark rayman-like), but would have a delay that the player can set.
 
-**Enemy Idea 3**
+**Enemy Idea - Mother**
 
 A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
 
-**Enemy Idea 4**
+**Enemy Idea - Bluejay**
 
 A sneaky bluejay who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
 
-**Enemy Idea 5**
+**Enemy Idea - Woodpecker**
 
 The smart variant to the bluejay, the woodpecker pecks down pinecones at Tux, and sits there for a while. Tux can then use the pinecone and throw it up to defeat the woodpecker. Either the pinecone respawns after a while, or the woodpecker is smart enough to go seek out another tree with pinecones.
 
-**Enemy Idea 6**
+**Enemy Idea - Pinecone**
 
 The pinecone for the woodpecker. Upon falling, which it only falls when pecked by woodpecker, it doesn't despawn, as it can be picked up and used as a projectile (like the rock, just with better range), but when it is falling, it can hurt Tux.
 
-**Enemy Idea 7**
+**Enemy Idea - Acorn**
 
 The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
 
-**Enemy Idea 8**
-
-Throwable snowball! Used to activate far off blocks/switches.
-
-**Enemy Idea 9**
+**Enemy Idea - Tentacle Monster**
 
 A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
+
+**Enemy Idea - Blinking Ghost Roots**
+
+These are ghost tree roots that attack based on a timer. Most similar to the tree's usage of them.
+
+**Enemy Idea - Growing Ghost Roots**
+
+If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
 **-Easter eggs**
 
