@@ -1,6 +1,6 @@
 # About this Document
 
-This document is a work in progress, nothing here is considered even remotely final. Also, SuperTux uses version numbers instead of milestones now. There is a list of stuff that needs to be done, and at the bottom is a list of ideas that could be implemented too.
+This document is a work in progress, nothing here is considered even remotely final. Also, SuperTux uses version numbers instead of milestones now. There is a list of stuff that needs to be done, and at the bottom is a list of ideas that could be implemented too. Check our [TODO List](TODO.md) to see what things are being currently worked on or have been finished.
 
 # Overview
 
@@ -12,22 +12,55 @@ SuperTux 0.7.0 will bring about a completion to the first two worlds so work can
 
 Add new sounds/cutscene speech. Perhaps use a new VA?
 
-# Revamped Graphics
+
+# Story
+
+  - Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
+
+
+# Levels
+
+**Levels in general**
+
+The levels of the Add-On menu (Bonus Islands I-IV, Halloween 2014, etc.) should be divided from other contrib levels, which can be downloaded manually or in-game from "Add-Ons". Manually downloaded levelpacks would be subfoldered under "Community Levels", while those already in game would be in a own folder named "Add-Ons". This would make the list of Add-Ons shorter and would clear up which levels are official and which not.
+
+**Normal Levels**
+
+Update with the new graphics for their assets. Also: make them more interesting! Most levels are your run-of-the-mill left to right levels and don&#39;t make use of everything available, like most enemies, vertical space, varying directions, multiple paths, autoscrolling, signs, moving tilemaps, unisolids, bricks, multiple paths, those scripting bonus blocks that can be activated by rocks, etc. Make the most of the level gimmicks!
+
+One of the most stupid and awful level design philosophies I have seen (especially since it was used to block level proposals in the past) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
+
+Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
+
+**Secret paths on worldmap**
+
+Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
+
+**Cutscenes**
+
+Update cutscenes with the new story decisions and the new graphics/stuff decided for the characters.
+
+**Boss Levels**
+
+Update to accommodate the new fights and to make them a lot more interesting.
+
+
+# New/Revamped Graphics
 
 **Backgrounds**
 
-- Light Forest – add a few varying parallax BGs for normal light levels.
+- Rooted Forest – add a few varying parallax BGs for the normal and ghost forest theme.
 - General - More cloud BGs would be cool.
 - Parallax-ify many BGs.
 
 **Tiles/Decals**
 
-- Actually implement the already made new forest tiles, bush tiles, forest background tiles and slime tiles.
-- A multitude of new forest trees and tree branches to make the forest pretty.
+- Improved forest tiles, bush tiles, forest background tiles.
+- A multitude of new forest trees and tree branches to make the forest prettier.
 - The tree moviestar exit.
 - Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
 - Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
-- New underwater decoration
+- Underwater decoration
 - Simple bridge/scaffolding unisolid tiles
 - Treetop Tileset
 - Deeper Lava/Acid
@@ -37,7 +70,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Ghost tree root tiles
 - Library tiles, as well as library decoration
 - New decoration for castles
-- New decoration for everyplace!
 
 **Objects**
 
@@ -47,32 +79,32 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Enemies**
 
-- **Ghost Forest**
-- Rotten Leaf/Ivy
-- Rotten Tree/Leafless Tree
-- Rotten Stumpy
-- Ghost Tree Roots
-- **Light Forest**
-- Spring Leaf
-- Autumn Leaf
-- Tree
-- Leafless Tree
-- Stumpy
-- Leafshot
-- Zeekling
-- Igel
-- Snail
-- Big Snail
 - **Icy Island**
-- Spiky Walking
-- Crystallo
-- Snowman
-- Bouncing Snowball
-- Snowshot
+  - Spiky
+  - Crystallo
+  - Snowman
+  - Bouncing Snowball
+  - Kamikaze Snowball
+  - Big/Small Fish
+- **Rooted Forest**
+  - Poison Ivy
+  - Walking Leaf
+  - Mr. Tree
+  - Leafshot
+  - Zeekling
+  - Igel
+  - Snail
+  - Big Snail
+- **Ghost Forest**
+  - Ghost Forest
+  - Rotten Ivy/Leaf
+  - Rotten Tree
+  - Rotten Stumpy
+  - Ghost Tree Roots
 
 **Characters**
 
-- Tux
+- **Tux**
   - Skidding
   - Swimming
   - Ducking
@@ -80,13 +112,29 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
   - Kicking
   - Dead
   - Worldmap Boat
-  - Other/cutscene sprites…
-- Penny
-  - Other/cutscene sprites…
-- Nolok
-  - Other/cutscene sprites…
-- Yeti
-- Ghost Tree
+  - Other/cutscene sprites
+- **Penny**
+  - Other/cutscene sprites
+- **Nolok**
+  - Other/cutscene sprites
+- **Yeti**
+  - Throw attack
+  - Other/cutscene sprites
+- **Ghost Tree**
+  - Idle
+  - Dying
+  - Scream
+  - Inhale
+  - Other/cutscene sprites
+- **Toucan**
+  - Flying
+  - Other/cutscene sprites
+- **Totem Boss**
+  - Inactive
+  - Activate
+  - Head attacks
+  - Other/cutscene sprites
+
 
 # Features/Mechanics
 
@@ -94,15 +142,63 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
 
-**Ghost Tree and Yeti**
+**Up Splasher**
+A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
 
-Update boss fight/level/behavior to accommodate new ideas and graphics.
+**Pigeons/Tiny Fish**
 
-# Other, Unconfirmed Ideas
+These are special background objects who, when Tux is near, flee in the direction away from his body.
+
+**Better Wind**
+
+It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
+
+
+# Enemy Improvements/Ideas
+
+**Ghoul improvements**
+
+Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable and there should be a blue light object which attracts them when it is turned on, shifting their focus away from Tux. Also, there should be an object that can only be broken by collision with ghouls.
+
+**Better Haywire**
+
+Haywire should be able to jump over a short distance (like captain snowball) while chasing Tux and not collide with/defeat all enemies in its path.
+
+**Yeti**
+
+Before stomping and letting stalactites fall from above, the yeti will throw 2-3 bouncy snowballs. In Pinch Mode, after his throwing attack the yeti will throw a gigantic snowball that rolls to the other side of the arena and can crush Tux against the wall if not avoided quickly. This snowball breaks when hitting a wall.
+
+**Ghost Tree**
+
+The ghost tree will remain idle for a short time period, its eys following Tux and only attacking from below with its roots. These can be spotted by a crack in the ground. After this, the ghost tree will scream, followed by it inhaling one set of colored ghost wisps (red > green > blue > repeat). Depending on which color has been swallowed, the tree's eys will glow in that color and it will unleash a powerful attack.
+
+- red wisp: ghost tree rages and create a wave of roots which must be jumped over
+- green wisp: summons multiple ghost forest enemies
+- blue wisp: spawns an object that allows hurting the tree (maybe something like a bomb?)
+
+While the green and blue wisps are inhaled, the roots attack will continue to accour! In Pinch Mode the ghost tree will inhale all ghost wisps and combine all their attacks continuesly. Once it looses another life all returns to normal when hit until all ghost wisps are inhaled again.
+
+**Toucan and Totem Boss**
+
+The toucan will primarly fly high up while performing several attacks from above. Occasionally, (if totem boss is present in the same sector) they will  land on the highest totem head to protect it from Tux - otherwise they will occasionally land on the ground, allowing for an attack by Tux.
+
+The totem boss consists out of 5 head pieces which must all be destroyed in order to defeat the boss. Depending on how many head pieces are remaining the totem boss will perform a different attack.
+
+- 5 heads: chases Tux and tries to squish him against a wall (requires Up Splasher or trampoline to avoid)
+- 4 heads: totem shoots spikeball projectile while chasing Tux and trying to squish him
+- 3 heads: spins its sharp wings while constantly jumping (instead of running)
+- 2 heads: reveal spikes on top (other head spits out 1 fire rock & 1 normal rock in sequence normal rock must thrown against upper head)
+- 1 head: totem flies over Tux and stombs down once it is right above Tux (like ice crusher) giving Tux time for a final attack
+
+If a totem head is destroyed it pushes Tux away to prevent landing on the next head right away (like the 'push-explosion' radius). The throwable rock will be a mechanic in the 3rd castle or prior in world 3, allowing to break through certain walls and crush enemies (informing the player that they are throwable and effective against enemies).
+
+
+
+# Unconfirmed Ideas
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
 
-**-Tux movement**
+### Tux movement
 
 **Thumbs up**
 
@@ -128,7 +224,7 @@ Due to current slope detection this might not get added, but it would be awesome
 
 A sword where Tux does a little dash. Might be available as a rock or as a powerup. If it is a powerup, it will replace the ice flower and its freezing ability.
 
-**-Performance Improvements**
+### Performance Improvements
 
 **Editor Improvements**
 
@@ -146,7 +242,8 @@ We need more particle effects for different things, like for wind, to make it lo
 
 Add sound effects for when Tux walks on different tiles, and overall better sounds for when he dies or speaks or enters water.
 
-**-Object Improvements/New Object ideas**
+
+### Object Improvements/Ideas
 
 **Better background system**
 
@@ -160,21 +257,9 @@ Cutscenes should be skippable, trigger only once per level session, and text sho
 
 Changing what/the variety of images in cloud particles, as well as speed.
 
-**Ghoul improvements**
+**Swinging on ropes/strings**
 
-Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable and there should be a blue light object which attracts them when it is turned on, shifting their focus away from Tux. Also, there should be an object that can only be broken by collision with ghouls.
-
-**Pigeons**
-
-These are special background objects who, when Tux is near, flee in the direction away from his body.
-
-**Better Wind**
-
-It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
-
-**Swinging on flag strings**
-
-Adding certain strings that can be swung on like Alto Adventure would be nice and would suit an ice game.
+Having certain ropes/strings that can be swung on like Alto Adventure would be nice and would suit an ice game.
 
 **Tintable lightbulb/lantern**
 
@@ -196,31 +281,28 @@ Either an option for trampolines or an entirely new object for bouncing sideways
 
 In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
 
-**Change the tint + speed of decals**
+**More editing options for decals**
 
-For custom BGs, add ability to change a decal's scroll speed and tint. Also there should be the option to change the tint of background images.
+Add ability to change a decal's scroll speed and tint. Also decals should be scriptable.
 
 **Pushbutton Improvements**
 
-Add an option for an "unpress" script, or an option for the script to only play when an activator's on it. Maybe have a different sprite.
-
-**Rocks activating pushbuttons**
-
-This should definitely be added for puzzle stages.
+Add an option for an "unpress" script, or an option for the script to only play when an activator's on it. Maybe have a different sprite. Also rocks should be able to able to activate pushbuttons.
 
 **Rock throwing improvements**
 
-Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux.
+Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux!
 
 **Dispensers obeying gravity**
 
 Dispensers should have an option to obey gravity.
 
-**Respawning falling tiles/stalactites**
+**Respawning falling tiles**
 
-Skulltiles should respawn when they have fallen.
+Falling tiles should respawn when they have fallen. Either off-screen or on-screen.
 
-**-Moving platform Improvements**
+
+### Moving platform Improvements
 
 **More velocity/acceleration driven platforms**
 
@@ -230,11 +312,8 @@ Allow platforms to be more velocity/acceleration driven, along with other object
 
 Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
 
-**-New moving platforms**
 
-**Falling Platform**
-
-An object that shakes and falls when Tux is on it or is under it. A UNISOLID option should be added as well.
+### New moving platforms
 
 **Circular Platforms**
 
@@ -244,7 +323,8 @@ Platforms with circular paths, just like a flame, whose path speed can be config
 
 Ice floes that respond to the gravity placed on top of them would add some goodness.
 
-**-Enemy ideas**
+
+### Enemy ideas
 
 **Enemy Idea - Cod**
 
@@ -254,7 +334,7 @@ Simply a little fish enemy that swims back and forth should be added. It swims l
 
 An enemy who copies exactly Tux's behavior and when catches up to him or collides with him Tux dies. Unkillable, but can be trapped as it only obeys Tux's moves and therefore how he collides as well. Basically a "shadow-tux" (or dark rayman-like), but would have a delay that the player can set.
 
-**Enemy Idea - Mother**
+**Enemy Idea - Mother Snail**
 
 A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
 
@@ -286,42 +366,12 @@ These are ghost tree roots that attack based on a timer. Most similar to the tre
 
 If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
-**-Easter eggs**
+### Easter eggs
 
-**3AM easter egg**
+**"3AM easter egg"**
 
-If the player plays Icy Island/other worlds between 3AM and 3:30AM, certain scripting events can happen. Levels get darker, scary, etc. easter eggs like &#39;bridge stuck&#39;
+If the player plays a worlds between a certain time frame, certain scripting events can happen. E.g. Levels get darker, scary, etc. easter eggs like &#39;bridge stuck&#39;
 
 **After-a-while easter eggs/Idle-Graphics**
 
 Snowballs and other enemies do a little break after a while. After all, they were walking for so much time… Tux, after a while of not moving, also gets angry and curses the screen. Jumpy just stops jumping after a while
-
-# Story
-
-  - Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
-
-# Levels
-
-**Levels in general**
-
-The levels of the Add-On menu (Bonus Islands I-IV, Halloween 2014, etc.) should be divided from other contrib levels, which can be downloaded manually or in-game from "Add-Ons". Manually downloaded levelpacks would be subfoldered under "Community Levels", while those already in game would be in a own folder named "Add-Ons". This would make the list of Add-Ons shorter and would clear up which levels are official and which not.
-
-**Normal Levels**
-
-Update with the new graphics for their assets. Also: make them more interesting! Most levels are your run-of-the-mill left to right levels and don&#39;t make use of everything available, like most enemies, vertical space, varying directions, multiple paths, autoscrolling, signs, moving tilemaps, unisolids, bricks, multiple paths, those scripting bonus blocks that can be activated by rocks, etc. Make the most of the level gimmicks!
-
-One of the most stupid and awful level design philosophies I have seen (especially since it was used to block level proposals in the past) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
-
-Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
-
-**Secret paths on worldmap**
-
-Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
-
-**Cutscene Levels**
-
-Update these levels with the new story decisions and the new graphics/stuff decided for the characters.
-
-**Boss Levels**
-
-Update to accommodate the new fights and to make them a lot more interesting.
