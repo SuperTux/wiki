@@ -55,7 +55,7 @@ Update to accommodate the new fights and to make them a lot more interesting.
 
 **Tiles/Decals**
 
-- Improved forest tiles, bush tiles, forest background tiles.
+- Improved forest tiles, bush tiles, forest background tiles, as well as new additional tilesets (such as slime).
 - A multitude of new forest trees and tree branches to make the forest prettier.
 - The tree moviestar exit.
 - Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
@@ -90,6 +90,7 @@ Update to accommodate the new fights and to make them a lot more interesting.
   - Poison Ivy
   - Walking Leaf
   - Mr. Tree
+  - Stumpy
   - Leafshot
   - Zeekling
   - Igel
@@ -152,6 +153,10 @@ These are special background objects who, when Tux is near, flee in the directio
 **Better Wind**
 
 It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
+
+**Falling Platform**
+
+An object that shakes and falls when Tux is on it or is under it. A UNISOLID option should be added as well.
 
 
 # Enemy Improvements/Ideas
