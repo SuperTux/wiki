@@ -169,6 +169,14 @@ Ghouls should not collide with each other, and should not collide with solid lan
 
 Haywire should be able to jump over a short distance (like captain snowball) while chasing Tux and not collide with/defeat all enemies in its path.
 
+**Rusty Bomb**
+
+Rusty Bombs are a large variant of Mr. Bomb which are 3x3 tiles in size. They move much slower compared to other bombs but have a wider explosion radius. Furthermore, when they explode they shoot out 2-3 smaller normal sized bombs (= Hellbent).
+
+**Hellbent**
+
+Hellbents are black bombs that run straight towards Tux and explode on contact with either Tux, another enemy or a wall. If they face away from Tux they will turn around to run towards Tux again.
+
 **Yeti**
 
 Before stomping and letting stalactites fall from above, the yeti will throw 2-3 bouncy snowballs. In Pinch Mode, after his throwing attack the yeti will throw a gigantic snowball that rolls to the other side of the arena and can crush Tux against the wall if not avoided quickly. This snowball breaks when hitting a wall.
