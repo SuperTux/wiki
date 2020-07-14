@@ -122,6 +122,10 @@ Update to accommodate the new fights and to make them a lot more interesting.
   - Other/cutscene sprites
 - **Yeti**
   - Throw attack
+  - Idle
+  - Run
+  - Jump
+  - Yell
   - Other/cutscene sprites
 - **Ghost Tree**
   - Idle
@@ -230,10 +234,6 @@ Hardcoded coyote time should be implemented in the game for easier jumps.
 **Walljumping**
 
 Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
-
-**Slope Sliding**
-
-Due to current slope detection this might not get added, but it would be awesome to have Tux slide on his belly to hurt enemies and then fly off slopes after gaining momentum.
 
 ### Performance Improvements
 
