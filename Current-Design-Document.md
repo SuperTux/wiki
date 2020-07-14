@@ -60,16 +60,18 @@ Update to accommodate the new fights and to make them a lot more interesting.
 - The tree moviestar exit.
 - Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
 - Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
-- Underwater decoration
+- Underwater decoration (icy + forest)
 - Simple bridge/scaffolding unisolid tiles
 - Treetop Tileset
-- Deeper Lava/Acid
+- Updates to Deeper Lava/Acid
 - Waterfall tiles
 - New decoration (Forest) - Could include things like animals, shrubs, as well as things for the ghost forest.
 - Snowtops for use in levels
 - Ghost tree root tiles
 - Library tiles, as well as library decoration
 - New decoration for castles
+- New bridge/pier decoration
+- New ice cave decoration
 
 **Objects**
 
@@ -233,15 +235,11 @@ Could be quite useful and nice to have. Would extend move set of Tux. Possible o
 
 Due to current slope detection this might not get added, but it would be awesome to have Tux slide on his belly to hurt enemies and then fly off slopes after gaining momentum.
 
-**Ice Cutlass**
-
-A sword where Tux does a little dash. Might be available as a rock or as a powerup. If it is a powerup, it will replace the ice flower and its freezing ability.
-
 ### Performance Improvements
 
 **Editor Improvements**
 
-A better text editor, Also improve infoblock UI (more like scripting UI)
+A better text editor, Also improve infoblock UI (more like scripting UI) and BGs shouldn't shift weirdly when placed.
 
 **Check for updates**
 
@@ -270,10 +268,6 @@ Cutscenes should be skippable, trigger only once per level session, and text sho
 
 Changing what/the variety of images in cloud particles, as well as speed.
 
-**Swinging on ropes/strings**
-
-Having certain ropes/strings that can be swung on like Alto Adventure would be nice and would suit an ice game.
-
 **Tintable lightbulb/lantern**
 
 A colorable, easily placeable light source for pretty effects in levels. Also, a creepy pulsing light object for the ghost forest.
@@ -281,10 +275,6 @@ A colorable, easily placeable light source for pretty effects in levels. Also, a
 **Light source objects**
 
 Objects with sprites (cones, etc.) that specifically lit up an area or light didn't apply there, lit it up, etc. might doable using the newer graphic engine surfaces. Z-pos editable, too, and it can be rotated, and it is not solid.
-
-**Blinking Tiles**
-
-Tiles whose solidity blinks back and forth.
 
 **Sideways Bouncers**
 
@@ -310,9 +300,9 @@ Make rocks bounce off of Tux rather than killing him. Rocks should not be able t
 
 Dispensers should have an option to obey gravity.
 
-**Respawning falling tiles**
+**Respawning skull tiles**
 
-Falling tiles should respawn when they have fallen. Either off-screen or on-screen.
+Skull tiles should respawn when they have fallen. Either off-screen or on-screen.
 
 
 ### Moving platform Improvements
@@ -379,7 +369,7 @@ These are ghost tree roots that attack based on a timer. Most similar to the tre
 
 If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
-### Easter eggs
+### Easter eggs (Not necessary)
 
 **"3AM easter egg"**
 
