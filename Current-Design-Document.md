@@ -12,6 +12,10 @@ SuperTux 0.7.0 will bring about a completion to the first two worlds so work can
 
 Add new sounds/cutscene speech. Perhaps use a new VA?
 
+#Important Bugs
+
+  - In laggy zones, sprites with one loop sometimes repeat. (https://github.com/SuperTux/supertux/issues/1453)
+  - When flipping, sprites reset to the first frame of the animation, which looks strange. (https://github.com/SuperTux/supertux/issues/1462)
 
 # Story
 
@@ -152,22 +156,39 @@ Suggested by RustyBox, key would be like a powerup and would hovering over Tux a
 **Up Splasher**
 A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
 
-**Pigeons/Tiny Fish**
+**Circular Platforms**
 
-These are special background objects who, when Tux is near, flee in the direction away from his body.
-
-**Better Wind**
-
-It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
-
-**Better trampolines**
-
-Trampolines should work when "falling" too, so that Tux can use them if they are going down.
+Platforms with circular paths, just like a flame, whose path speed can be configurable and whatnot.
 
 **Falling Platform**
 
 An object that shakes and falls when Tux is on it or is under it. A UNISOLID option should be added as well.
 
+**Sideways Bouncers**
+
+Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain. Alternatively, it could be an object that sticks to the side of terrain. Also, it could bounce Tux to the side and a little bit up, and it should always be bouncable, even when going down/not on ground.
+
+**Gold Pushbutton**
+
+A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
+
+# Object Improvements
+
+**Rock improvements**
+
+Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux! Also, rocks should be able to activate pushbuttons.
+
+**Dispenser improvements**
+
+Dispensers should have an option to obey gravity.
+
+**Skull Tile Improvements**
+
+Skull tiles should respawn when they have fallen. Either off-screen or on-screen.
+
+**Wind Improvements**
+
+It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
 
 # Enemy Improvements/Ideas
 
@@ -223,10 +244,6 @@ Only some, few or none of this stuff may be added, or might get added at a later
 
 ### Tux movement
 
-**Thumbs up**
-
-Tux should twirl and do a happy little thumbs up while the level ending is playing.
-
 **Controllable Fall Speed**
 
 Tux should fall faster if he is holding down.
@@ -280,10 +297,6 @@ A colorable, easily placeable light source for pretty effects in levels. Also, a
 
 Objects with sprites (cones, etc.) that specifically lit up an area or light didn't apply there, lit it up, etc. might doable using the newer graphic engine surfaces. Z-pos editable, too, and it can be rotated, and it is not solid.
 
-**Sideways Bouncers**
-
-Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain.
-
 **Colored Text per speaker**
 
 In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
@@ -291,23 +304,6 @@ In future cutscenes, Tux, Penny and Nolok might have speaking parts and there sh
 **More editing options for decals**
 
 Add ability to change a decal's scroll speed and tint. Also decals should be scriptable.
-
-**Pushbutton Improvements**
-
-Add an option for an "unpress" script, or an option for the script to only play when an activator's on it. Maybe have a different sprite. Also rocks should be able to able to activate pushbuttons.
-
-**Rock throwing improvements**
-
-Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux!
-
-**Dispensers obeying gravity**
-
-Dispensers should have an option to obey gravity.
-
-**Respawning skull tiles**
-
-Skull tiles should respawn when they have fallen. Either off-screen or on-screen.
-
 
 ### Moving platform Improvements
 
@@ -321,15 +317,6 @@ Tux should move better on moving tilemaps. Currently he can hardly jump, or move
 
 
 ### New moving platforms
-
-**Circular Platforms**
-
-Platforms with circular paths, just like a flame, whose path speed can be configurable and whatnot.
-
-**Ice floes**
-
-Ice floes that respond to the gravity placed on top of them would add some goodness.
-
 
 ### Enemy ideas
 
@@ -373,6 +360,10 @@ These are ghost tree roots that attack based on a timer. Most similar to the tre
 
 If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
+# Icing-on-the-cake features
+
+These are features that would not directly affect the core gameplay, but might be great for the game overall.
+
 ### Easter eggs (Not necessary)
 
 **"3AM easter egg"**
@@ -382,3 +373,18 @@ If the player plays a worlds between a certain time frame, certain scripting eve
 **After-a-while easter eggs/Idle-Graphics**
 
 Snowballs and other enemies do a little break after a while. After all, they were walking for so much time… Tux, after a while of not moving, also gets angry and curses the screen. Jumpy just stops jumping after a while
+
+### Other
+
+**Ice floes**
+
+Ice floes that respond to the gravity placed on top of them would add some goodness.
+
+**Pigeons/Tiny Fish**
+
+These are special background objects who, when Tux is near, flee in the direction away from his body.
+
+**Thumbs up**
+
+Tux should twirl and do a happy little thumbs up while the level ending is playing.
+
