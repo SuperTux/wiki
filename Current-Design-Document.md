@@ -149,13 +149,6 @@ Update to accommodate the new fights and to make them a lot more interesting.
 
 # Features/Mechanics
 
-**Locked Doors and Keys**
-
-Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
-
-**Up Splasher**
-A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
-
 **Circular Platforms**
 
 Platforms with circular paths, just like a flame, whose path speed can be configurable and whatnot.
@@ -171,6 +164,14 @@ Either an option for trampolines or an entirely new object for bouncing sideways
 **Gold Pushbutton**
 
 A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
+
+**Locked Doors and Keys**
+
+Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
+
+**Up Splasher**
+
+A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
 
 # Object Improvements
 
