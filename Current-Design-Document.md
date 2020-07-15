@@ -160,6 +160,10 @@ These are special background objects who, when Tux is near, flee in the directio
 
 It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
 
+**Better trampolines**
+
+Trampolines should work when "falling" too, so that Tux can use them if they are going down.
+
 **Falling Platform**
 
 An object that shakes and falls when Tux is on it or is under it. A UNISOLID option should be added as well.
