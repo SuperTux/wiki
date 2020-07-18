@@ -193,13 +193,17 @@ It should be easier to move in wind, and movement shouldn't be entirely obscured
 
 # Enemy Improvements/Ideas
 
-**Ghoul improvements**
+**Better Ghoul**
 
 Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable and there should be a blue light object which attracts them when it is turned on, shifting their focus away from Tux. Also, there should be an object that can only be broken by collision with ghouls.
 
 **Better Haywire**
 
 Haywire should be able to jump over a short distance (like captain snowball) while chasing Tux and not collide with/defeat all enemies in its path.
+
+**Better Poison Ivy**
+
+Poison Ivy should fall slower, to differentiate it from the snowball and make it more realistic.
 
 **Rusty Bomb**
 
