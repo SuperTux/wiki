@@ -171,6 +171,10 @@ A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It wil
 
 Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux! Also, rocks should be able to activate pushbuttons.
 
+**Pushbutton Improvements**
+
+Get activated by rocks. Necessary before adding gold buttons.
+
 **Dispenser improvements**
 
 Dispensers should have an option to obey gravity.
@@ -248,6 +252,10 @@ Hardcoded coyote time should be implemented in the game for easier jumps.
 **Walljumping**
 
 Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
+
+**Slope Sliding**
+
+Tux sliding down slopes like a real live penguin would be nice.
 
 ### Performance Improvements
 
