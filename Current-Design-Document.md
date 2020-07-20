@@ -149,14 +149,6 @@ Update to accommodate the new fights and to make them a lot more interesting.
 
 # Features/Mechanics
 
-**Circular Platforms**
-
-Platforms with circular paths, just like a flame, whose path speed can be configurable and whatnot.
-
-**Falling Platform**
-
-An object that shakes and falls when Tux is on it or is under it. A UNISOLID option should be added as well.
-
 **Sideways Bouncers**
 
 Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain. Alternatively, it could be an object that sticks to the side of terrain. Also, it could bounce Tux to the side and a little bit up, and it should always be bouncable, even when going down/not on ground.
