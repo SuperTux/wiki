@@ -241,10 +241,6 @@ Only some, few or none of this stuff may be added, or might get added at a later
 
 ### Tux movement
 
-**Controllable Fall Speed**
-
-Tux should fall faster if he is holding down.
-
 **Coyote Time**
 
 Hardcoded coyote time should be implemented in the game for easier jumps.
