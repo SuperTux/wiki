@@ -1,26 +1,25 @@
 # About this Document
 
-This document is a work in progress, nothing here is considered even remotely final. Also, SuperTux uses version numbers instead of milestones now. There is a list of stuff that needs to be done, and at the bottom is a list of ideas that could be implemented too. Check our [TODO List](TODO.md) to see what things are being currently worked on or have been finished.
+This document is a work in progress, nothing here is considered even remotely final. Also, SuperTux uses version numbers instead of milestones now. There is a list of stuff that needs to be done, and at the bottom is a list of ideas that could be implemented too. Check our [TODO List](https://github.com/SuperTux/supertux/wiki/TODO) to see what things are being currently worked on or have been finished.
 
 # Overview
 
 SuperTux 0.7.0 will bring about a completion to the first two worlds so work can begin on World 3. This means improving/revamping the graphics, sound effects, code, story and levels in many areas and adding some new features/mechanics as well. (swimming, etc.)
 
-# Audio
-
-**Tux, Penny, Nolok**
-
-Add new sounds/cutscene speech. Perhaps use a new VA?
-
-#Important Bugs
-
-  - In laggy zones, sprites with one loop sometimes repeat. (https://github.com/SuperTux/supertux/issues/1453)
-  - When flipping, sprites reset to the first frame of the animation, which looks strange. (https://github.com/SuperTux/supertux/issues/1462)
+# Contents
+  1. [Story](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Story)
+  2. [Levels](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Levels)
+  3. [Audio](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Audio)
+  4. [Graphics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Graphics)
+  5. [Mechanics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Mechanics)
+  6. [Badguys](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Badguys)
+  7. [Unconfirmed Ideas](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Ideas)
 
 # Story
 
-  - Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
+Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
 
+---
 
 # Levels
 
@@ -48,8 +47,17 @@ Update cutscenes with the new story decisions and the new graphics/stuff decided
 
 Update to accommodate the new fights and to make them a lot more interesting.
 
+---
 
-# New/Revamped Graphics
+# Audio
+
+**Tux, Penny, Nolok**
+
+Add new sounds/cutscene speech. Perhaps use a new VA?
+
+---
+
+# Graphics
 
 **Backgrounds**
 
@@ -83,7 +91,7 @@ Update to accommodate the new fights and to make them a lot more interesting.
 - New/Better Billboards
 - Moving platform, bone version
 
-**Enemies**
+**Badguys**
 
 - **Icy Island**
   - Spiky
@@ -146,8 +154,34 @@ Update to accommodate the new fights and to make them a lot more interesting.
   - Head attacks
   - Other/cutscene sprites
 
+---
 
-# Features/Mechanics
+# Mechanics
+
+### Mechanic Improvements
+
+**Rock**
+
+Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux! Also, rocks should be able to activate pushbuttons.
+
+**Pushbutton**
+
+Get activated by rocks. Necessary before adding gold buttons.
+
+**Dispenser**
+
+Dispensers should have an option to obey gravity.
+
+**Skull Tile & Falling Tiles**
+
+Skull tiles as well as falling tiles should respawn when they have fallen. Either off-screen or on-screen.
+
+**Wind**
+
+It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
+
+
+### Mechanic Ideas
 
 **Sideways Bouncers**
 
@@ -165,41 +199,26 @@ Suggested by RustyBox, key would be like a powerup and would hovering over Tux a
 
 A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
 
-# Object Improvements
+---
 
-**Rock improvements**
+# Badguys
 
-Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux! Also, rocks should be able to activate pushbuttons.
+### Badguy Improvements
 
-**Pushbutton Improvements**
-
-Get activated by rocks. Necessary before adding gold buttons.
-
-**Dispenser improvements**
-
-Dispensers should have an option to obey gravity.
-
-**Skull Tile Improvements**
-
-Skull tiles should respawn when they have fallen. Either off-screen or on-screen.
-
-**Wind Improvements**
-
-It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
-
-# Enemy Improvements/Ideas
-
-**Better Ghoul**
+**Ghoul**
 
 Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable and there should be a blue light object which attracts them when it is turned on, shifting their focus away from Tux. Also, there should be an object that can only be broken by collision with ghouls.
 
-**Better Haywire**
+**Haywire**
 
 Haywire should be able to jump over a short distance (like captain snowball) while chasing Tux and not collide with/defeat all enemies in its path.
 
-**Better Poison Ivy**
+**Poison Ivy & Walking Leaf**
 
-Poison Ivy should fall slower, to differentiate it from the snowball and make it more realistic.
+Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic.
+
+
+### Badguy Ideas
 
 **Rusty Bomb**
 
@@ -208,6 +227,9 @@ Rusty Bombs are a large variant of Mr. Bomb which are 3x3 tiles in size. They mo
 **Hellbent**
 
 Hellbents are black bombs that run straight towards Tux and explode on contact with either Tux, another enemy or a wall. If they face away from Tux they will turn around to run towards Tux again.
+
+
+### Bosses
 
 **Yeti**
 
@@ -237,13 +259,13 @@ The totem boss consists out of 5 head pieces which must all be destroyed in orde
 
 If a totem head is destroyed it pushes Tux away to prevent landing on the next head right away (like the 'push-explosion' radius). The throwable rock will be a mechanic in the 3rd castle or prior in world 3, allowing to break through certain walls and crush enemies (informing the player that they are throwable and effective against enemies).
 
-
+---
 
 # Unconfirmed Ideas
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
 
-### Tux movement
+### Tux Movement
 
 **Coyote Time**
 
@@ -256,6 +278,7 @@ Could be quite useful and nice to have. Would extend move set of Tux. Possible o
 **Slope Sliding**
 
 Tux sliding down slopes like a real live penguin would be nice.
+
 
 ### Performance Improvements
 
@@ -306,7 +329,8 @@ In future cutscenes, Tux, Penny and Nolok might have speaking parts and there sh
 
 Add ability to change a decal's scroll speed and tint. Also decals should be scriptable.
 
-### Moving platform Improvements
+
+### Moving Platform Improvements
 
 **More velocity/acceleration driven platforms**
 
@@ -316,64 +340,53 @@ Allow platforms to be more velocity/acceleration driven, along with other object
 
 Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
 
+**New moving platforms**
 
-### New moving platforms
+Add more designs for moving platforms to fit in multiple scenarios better.
 
-### Enemy ideas
 
-**Enemy Idea - Cod**
+### Badguy Ideas
+
+**Cod**
 
 Simply a little fish enemy that swims back and forth should be added. It swims left to right, switching directions upon hitting a wall. Two variants should be added: a small and big one.
 
-**Enemy Idea - Shadow Tux**
+**Shadow Tux**
 
 An enemy who copies exactly Tux's behavior and when catches up to him or collides with him Tux dies. Unkillable, but can be trapped as it only obeys Tux's moves and therefore how he collides as well. Basically a "shadow-tux" (or dark rayman-like), but would have a delay that the player can set.
 
-**Enemy Idea - Mother Snail**
+**Mother Snail**
 
 A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
 
-**Enemy Idea - Bluejay**
+**Bluejay**
 
 A sneaky bluejay who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
 
-**Enemy Idea - Woodpecker**
+**Woodpecker**
 
 The smart variant to the bluejay, the woodpecker pecks down pinecones at Tux, and sits there for a while. Tux can then use the pinecone and throw it up to defeat the woodpecker. Either the pinecone respawns after a while, or the woodpecker is smart enough to go seek out another tree with pinecones.
 
-**Enemy Idea - Pinecone**
+**Pinecone**
 
 The pinecone for the woodpecker. Upon falling, which it only falls when pecked by woodpecker, it doesn't despawn, as it can be picked up and used as a projectile (like the rock, just with better range), but when it is falling, it can hurt Tux.
 
-**Enemy Idea - Acorn**
+**Acorn**
 
 The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
 
-**Enemy Idea - Tentacle Monster**
+**Tentacle Monster**
 
 A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
 
-**Enemy Idea - Blinking Ghost Roots**
+**Blinking Ghost Roots**
 
 These are ghost tree roots that attack based on a timer. Most similar to the tree's usage of them.
 
-**Enemy Idea - Growing Ghost Roots**
+**Growing Ghost Roots**
 
 If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
-# Icing-on-the-cake features
-
-These are features that would not directly affect the core gameplay, but might be great for the game overall.
-
-### Easter eggs (Not necessary)
-
-**"3AM easter egg"**
-
-If the player plays a worlds between a certain time frame, certain scripting events can happen. E.g. Levels get darker, scary, etc. easter eggs like &#39;bridge stuck&#39;
-
-**After-a-while easter eggs/Idle-Graphics**
-
-Snowballs and other enemies do a little break after a while. After all, they were walking for so much time… Tux, after a while of not moving, also gets angry and curses the screen. Jumpy just stops jumping after a while
 
 ### Other
 
@@ -388,4 +401,12 @@ These are special background objects who, when Tux is near, flee in the directio
 **Thumbs up**
 
 Tux should twirl and do a happy little thumbs up while the level ending is playing.
+
+**"3AM easter egg"**
+
+If the player plays a worlds between a certain time frame, certain scripting events can happen. E.g. Levels get darker, scary, etc. easter eggs like &#39;bridge stuck&#39;
+
+**After-a-while easter eggs/Idle-Graphics**
+
+Snowballs and other enemies do a little break after a while. After all, they were walking for so much time… Tux, after a while of not moving, also gets angry and curses the screen. Jumpy just stops jumping after a while
 
