@@ -34,15 +34,15 @@ As of December 2018, *Icy Island* features the following levels:
 
 ### Badguys
 
-Badguys for Icy Island can be found at the [Badguys](Icy-Badguys.md) page.
+Badguys for Icy Island can be found at the [Badguys](https://github.com/SuperTux/supertux/wiki/Icy-Badguys) page.
 
 ### End boss
-The [Yeti](Bosses.md) is the end boss for *Icy Island*. He is featured in No More Mr Ice Guy and tries to attack Tux indirectly using the icicles to his power.
+The [Yeti](https://github.com/SuperTux/supertux/wiki/Bosses) is the end boss for *Icy Island*. He is featured in No More Mr Ice Guy and tries to attack Tux indirectly using the icicles to his power.
 
 See also
 --------
 
--   [Rooted Forest](Rooted-Forest.md)
--   [Worlds](Worlds.md)
+-   [Rooted Forest](https://github.com/SuperTux/supertux/wiki/Rooted-Forest)
+-   [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
 
 <Category:World>
