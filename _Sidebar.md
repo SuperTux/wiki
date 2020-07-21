@@ -9,7 +9,6 @@ Home
 Guidelines
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
 * [[Disfavored Practices|Disfavored Practices in Development]]
-* [[Rejected Ideas]]
 * [[Obstacles]]
 * [[Leveldesign]]
 
@@ -18,6 +17,8 @@ Game Mechanics
 * [[Concept Art]]
 * [[Icy Badguys]]
 * [[Forest Badguys]]
+* [[Bosses]]
+* [[Worlds]]
 
 Tools
 * [[Cheats]]
@@ -60,6 +61,7 @@ Milestones
 Ideas
 
 * [[Ideas]]
+* [[Rejected Ideas]]
 * [[Proposed Badguys]]
 * [[Planned Features]]
 
