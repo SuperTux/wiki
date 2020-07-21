@@ -1,9 +1,9 @@
 Home
+* [[Home]]
 * [[News]]
 * [[Glossary]]
-* [[Home]]
-* [[TODO]]
 * [[Developers]]
+* [[TODO]]
 * [[Current Design Document]]
 
 Guidelines
@@ -25,9 +25,6 @@ Tools
 * [[Demo Recording]]
 * [[Developer Mode]]
 * [[Level Editor]]
-* [[SuperTux C# Editor FAQ]]
-* [[SuperTux C# Editor Guide]]
-* [[SuperTux C# Editor Ideas]]
 
 Engine
 * [[Cameras in other games]]
