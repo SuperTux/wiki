@@ -10,16 +10,16 @@ Rooted Forest is still under development and therefore it is not reasonable to s
 
 ### Badguys
 
-Badguys for *Rooted Forest* can be found at the [Badguys](Forest-Badguys.md) page.
+Badguys for *Rooted Forest* can be found at the [Badguys](https://github.com/SuperTux/supertux/wiki/Forest-Badguys) page.
 
 ### End Boss
 
-Currently, the end boss of *Rooded Forest* is the [Ghost Tree](Bosses.md)
+Currently, the end boss of *Rooded Forest* is the [Ghost Tree](https://github.com/SuperTux/supertux/wiki/Bosses)
 
 See also
 --------
 
--   [Icy Island](Icy-Island.md)
--   [Worlds](Worlds.md)
+-   [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island)
+-   [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
 
 <Category:World>
