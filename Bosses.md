@@ -2,7 +2,7 @@
 
 ### Yeti
 
-The **Yeti** is massive, fuzzy creature preying on Tux in the cold and is the end boss for [Icy Island](Icy-Island.md).
+The **Yeti** is massive, fuzzy creature preying on Tux in the cold and is the end boss for [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island).
 He may not be the brightest but proves to be quite a threat when enraged.
 
 #### Attacks
@@ -13,7 +13,7 @@ This maneuver is then followed by him stomping three times which cause stalactit
 
 *(Note: The Ghost Tree has not yet been fully implemented to the game thus their entry is not complete!)*
 
-The Ghost Tree, a large errie, purple tree with deep, dark holes as eyes, is the end boss of [Rooted Forest](Rooted-Forest.md).
+The Ghost Tree, a large errie, purple tree with deep, dark holes as eyes, is the end boss of [Rooted Forest](https://github.com/SuperTux/supertux/wiki/Rooted-Forest).
 Planted by Nolok, the Ghost Tree began spreading a horrible disease through out the forest through its roots.
 
 #### Attacks
@@ -36,7 +36,7 @@ Equipped with his might staff, he gains access to many powerful spells.
 See also
 --------
 
--   [Icy Island Badguys](Icy-Badguys.md)
--   [Rooted Forest Badguys](Forest-Badguys.md)
+-   [Icy Island Badguys](https://github.com/SuperTux/supertux/wiki/Icy-Badguys)
+-   [Rooted Forest Badguys](https://github.com/SuperTux/supertux/wiki/Forest-Badguys)
 
 <Category:Badguy>
