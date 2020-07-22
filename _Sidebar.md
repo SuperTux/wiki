@@ -1,4 +1,5 @@
 Home
+
 * [[Home]]
 * [[News]]
 * [[Glossary]]
@@ -7,12 +8,14 @@ Home
 * [[Current Design Document]]
 
 Guidelines
+
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
 * [[Disfavored Practices|Disfavored Practices in Development]]
 * [[Obstacles]]
 * [[Leveldesign]]
 
 Game Mechanics
+
 * [[Actions]]
 * [[Concept Art]]
 * [[Icy Badguys]]
@@ -21,12 +24,14 @@ Game Mechanics
 * [[Worlds]]
 
 Tools
+
 * [[Cheats]]
 * [[Demo Recording]]
 * [[Developer Mode]]
 * [[Level Editor]]
 
 Engine
+
 * [[Cameras in other games]]
 * [[Collision]]
 * [[Configuration File]]
@@ -41,6 +46,7 @@ Engine
 * [[Scripting|Scripting_reference]]
 
 Specifications
+
 * [[S-Expression]]
 * [[File_formats]]
 * [[Level Format]]
@@ -54,13 +60,6 @@ Milestones
 * [[Milestone 2 Design Document]]
 * [[Milestone 2 Design Document Old]]
 * [[Milestone 3 Design Document]]
-
-Ideas
-
-* [[Ideas]]
-* [[Rejected Ideas]]
-* [[Proposed Badguys]]
-* [[Planned Features]]
 
 Building (mostly outdated)
 
