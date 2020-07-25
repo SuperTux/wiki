@@ -78,7 +78,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - Updates to Deeper Lava/Acid
 - Waterfall tiles
 - New decoration (Forest) - Could include things like animals, shrubs, as well as things for the ghost forest.
-- Snowtops for use in levels
 - Ghost tree root tiles
 - Library tiles, as well as library decoration
 - New decoration for castles
@@ -88,9 +87,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Objects**
 
-- Wide/Wider Stationary Trampolines
 - New/Better Billboards
-- Moving platform, bone version
+- Moving Platform, made of bones
 
 **Badguys**
 
