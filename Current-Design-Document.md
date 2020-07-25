@@ -84,6 +84,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - New decoration for castles
 - New bridge/pier decoration
 - New ice cave decoration
+- Sideways unisolid tiles
 
 **Objects**
 
