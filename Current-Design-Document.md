@@ -183,11 +183,7 @@ It should be easier to move in wind, and movement shouldn't be entirely obscured
 
 ### Mechanic Ideas
 
-**Sideways Bouncers**
-
-Either an option for trampolines or an entirely new object for bouncing sideways. The bounce should be stronger than Tux's jump length so it is important and should be a little longer than 32 px so it can be embedded in the side of terrain. Alternatively, it could be an object that sticks to the side of terrain. Also, it could bounce Tux to the side and a little bit up, and it should always be bouncable, even when going down/not on ground.
-
-**Gold Pushbutton**
+**Weighted Pushbutton**
 
 A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
 
