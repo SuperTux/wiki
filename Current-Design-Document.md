@@ -179,6 +179,10 @@ Skull tiles as well as falling tiles should respawn when they have fallen. Eithe
 
 It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
 
+**Sideways Trampolines**
+
+They should stick to icecrushers and also the left side of fallblocks, which seems to be a bug.
+
 
 ### Mechanic Ideas
 
