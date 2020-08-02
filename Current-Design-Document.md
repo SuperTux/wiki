@@ -161,7 +161,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Rock**
 
-Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux! Also, rocks should be able to activate pushbuttons.
+Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux!
 
 **Pushbutton**
 
@@ -181,7 +181,7 @@ It should be easier to move in wind, and movement shouldn't be entirely obscured
 
 **Sideways Trampolines**
 
-They should stick to icecrushers and also the left side of fallblocks, which seems to be a bug.
+They should stick to icecrushers.
 
 
 ### Mechanic Ideas
@@ -206,7 +206,7 @@ A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It wil
 
 **Ghoul**
 
-Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable and there should be a blue light object which attracts them when it is turned on, shifting their focus away from Tux. Also, there should be an object that can only be broken by collision with ghouls.
+Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable. They should also have better pathfinding, although if they don't move through solid terrain then this would be unneccesary.
 
 **Haywire**
 
@@ -214,7 +214,7 @@ Haywire should be able to jump over a short distance (like captain snowball) whi
 
 **Poison Ivy & Walking Leaf**
 
-Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic.
+Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. Requires new sprite first.
 
 
 ### Badguy Ideas
