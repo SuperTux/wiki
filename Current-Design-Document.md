@@ -167,10 +167,6 @@ Make rocks bounce off of Tux rather than killing him. Rocks should not be able t
 
 Dispensers should have an option to obey gravity.
 
-**Skull Tile & Falling Tiles**
-
-Skull tiles as well as falling tiles should respawn when they have fallen. Either off-screen or on-screen.
-
 **Wind**
 
 Wind should affect Tux when he stands, and the particles should be better.
@@ -291,6 +287,10 @@ Add sound effects for when Tux walks on different tiles, and overall better soun
 
 
 ### Object Improvements/Ideas
+
+**Skull Tile & Falling Tiles**
+
+Skull tiles as well as falling tiles should respawn when they have fallen. Either off-screen or on-screen.
 
 **Better background system**
 
