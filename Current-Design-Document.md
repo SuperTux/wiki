@@ -163,10 +163,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux!
 
-**Pushbutton**
-
-Get activated by rocks. Necessary before adding gold buttons.
-
 **Dispenser**
 
 Dispensers should have an option to obey gravity.
@@ -177,7 +173,7 @@ Skull tiles as well as falling tiles should respawn when they have fallen. Eithe
 
 **Wind**
 
-It should be easier to move in wind, and movement shouldn't be entirely obscured. Also wind should affect Tux while he stands, too.
+Wind should affect Tux when he stands, and the particles should be better.
 
 
 ### Mechanic Ideas
