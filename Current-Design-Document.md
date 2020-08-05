@@ -163,10 +163,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux!
 
-**Dispenser**
-
-Dispensers should have an option to obey gravity.
-
 **Wind**
 
 Wind should affect Tux when he stands, and the particles should be better.
