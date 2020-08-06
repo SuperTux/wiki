@@ -13,7 +13,8 @@ SuperTux 0.7.0 will bring about a completion to the first two worlds so work can
   4. [Graphics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Graphics)
   5. [Mechanics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Mechanics)
   6. [Badguys](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Badguys)
-  7. [Unconfirmed Ideas](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Ideas)
+  7. [Post-0.7 Tasks](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Post-0.7)
+  8. [Unconfirmed Ideas](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Ideas)
 
 # Story
 
@@ -174,10 +175,6 @@ Wind should affect Tux when he stands, and the particles should be better.
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
 
-**Up Splasher**
-
-A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
-
 ---
 
 # Badguys
@@ -196,19 +193,9 @@ Haywire should be able to jump over a short distance (like captain snowball) whi
 
 Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. Requires new sprite first.
 
-
-### Badguy Ideas
-
-**Rusty Bomb**
-
-Rusty Bombs are a large variant of Mr. Bomb which are 3x3 tiles in size. They move much slower compared to other bombs but have a wider explosion radius. Furthermore, when they explode they shoot out 2-3 smaller normal sized bombs (= Hellbent).
-
-**Hellbent**
-
-Hellbents are black bombs that run straight towards Tux and explode on contact with either Tux, another enemy or a wall. If they face away from Tux they will turn around to run towards Tux again.
-
-
 ### Bosses
+
+These are mainly ideas that are somewhat cemented but can change at any time. These do not serve as mandatory tasks for bosses but are highly encouraged to be implemented.
 
 **Yeti**
 
@@ -220,9 +207,33 @@ The ghost tree will remain idle for a short time period, its eys following Tux a
 
 - red wisp: ghost tree rages and create a wave of roots which must be jumped over
 - green wisp: summons multiple ghost forest enemies
-- blue wisp: spawns an object that allows hurting the tree (maybe something like a bomb?)
+- blue wisp: spawns an object that allows hurting the tree (maybe something like a bomb? or the lanterns, like are currently used)
 
 While the green and blue wisps are inhaled, the roots attack will continue to accour! In Pinch Mode the ghost tree will inhale all ghost wisps and combine all their attacks continuesly. Once it looses another life all returns to normal when hit until all ghost wisps are inhaled again.
+
+---
+
+# Post-0.7 Tasks
+
+This contains confirmed features/tasks for post 0.7/World 3+.
+
+### Mechanic Ideas
+
+**Up Splasher**
+
+A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
+
+### Badguy Ideas
+
+**Rusty Bomb**
+
+Rusty Bombs are a large variant of Mr. Bomb which are 3x3 tiles in size. They move much slower compared to other bombs but have a wider explosion radius. Furthermore, when they explode they shoot out 2-3 smaller normal sized bombs (= Hellbent).
+
+**Hellbent**
+
+Hellbents are black bombs that run straight towards Tux and explode on contact with either Tux, another enemy or a wall. If they face away from Tux they will turn around to run towards Tux again.
+
+### Bosses
 
 **Toucan and Totem Boss**
 
