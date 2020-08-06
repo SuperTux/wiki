@@ -170,10 +170,6 @@ Wind should affect Tux when he stands, and the particles should be better.
 
 ### Mechanic Ideas
 
-**Weighted Pushbutton**
-
-A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
-
 **Locked Doors and Keys**
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
@@ -283,6 +279,10 @@ Add sound effects for when Tux walks on different tiles, and overall better soun
 
 
 ### Object Improvements/Ideas
+
+**Weighted Pushbutton**
+
+A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
 
 **Skull Tile & Falling Tiles**
 
