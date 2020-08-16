@@ -18,10 +18,10 @@ In the level file:
       (y 20)
       (width 100)
       (height 51)
-      (distance_factor 0.5)
+      (distance_factor 0)
       (distance_bias 0)
-      (sample "waterfall.wav")
-      (volume 1)
+      (sample "sounds/waterfall.wav")
+      (volume 100)
     )
 
 In a script:
@@ -35,10 +35,11 @@ In the console:
 Methods
 -------
 
-| set\_pos(float x, float y) | Sets the position of the ambient sound |
-|----------------------------|----------------------------------------|
-| get\_pos\_x()              | Returns the x coordinate.              |
-| get\_pos\_y()              | Returns the y coordinate.              |
+| Method                      | Explanation                             |
+|---------------------------- |---------------------------------------- |
+| `set_pos(float x, float y)` | Sets the position of the ambient sound. |
+| `float get_pos_x()`         | Returns the x coordinate.               |
+| `float get_pos_y()`         | Returns the y coordinate.               |
 
 Constants
 ---------

@@ -30,9 +30,10 @@ Console usage:
 Methods
 -------
 
-| get\_burning()             | returns true if candle is lighted            |
-|----------------------------|----------------------------------------------|
-| set\_burning(bool burning) | true: light candle, false: extinguish candle |
+Method                      | Explanation
+----------------------------|---------------------------------------------------
+`bool get_burning()`        | Returns true if candle is lighted.
+`set_burning(bool burning)` | Lights candle if true; extinguishes candle if false.
 
 Constants
 ---------

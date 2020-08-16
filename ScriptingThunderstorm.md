@@ -30,13 +30,14 @@ In the console:
 Methods
 -------
 
-| start()     | Start playing thunder and lightning at configured interval   |
-|-------------|--------------------------------------------------------------|
-| stop()      | Stop playing thunder and lightning at configured interval    |
-| thunder()   | Play thunder                                                 |
-| lightning() | Play lightning, i.e. call flash() and electrify()            |
-| flash()     | Display a nice flash                                         |
-| electrify() | Electrify water throughout the whole sector for a short time |
+Method        | Explanation
+--------------|--------------------------------------------------------------
+`start()`     | Starts playing thunder and lightning at configured interval.
+`stop()`      | Stops playing thunder and lightning at configured interval.
+`thunder()`   | Plays thunder.
+`lightning()` | Plays lightning, i.e. call `flash()` and `electrify()`.
+`flash()`     | Displays a flash.
+`electrify()` | Electrifies water throughout the whole sector for a short time.
 
 Constants
 ---------

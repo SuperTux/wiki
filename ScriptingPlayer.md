@@ -11,92 +11,33 @@ Due to SuperTux's single-player nature, there is only one instance of the `Playe
 Methods
 -------
 
-<table>
-<thead>
-<tr class="header">
-<th><p>add_bonus(string bonusname)</p></th>
-<th><p>Gives Tux the specified bonus. Replace <code>bonusname</code> with either of “<code>grow</code>”, “<code>fireflower</code>” or “<code>iceflower</code>”.</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>add_coins(int number)</p></td>
-<td><p>Gives Tux <code>number</code> coins.<br />
-Tip: Tux has to pay 25 coins to be revived at the last firefly he visited. If he doesn't have enough coins, the player has to play the whole level again.</p></td>
-</tr>
-<tr class="even">
-<td><p>make_invincible()</p></td>
-<td><p>Makes the player invincible for either a predefined amount of time.<br />
-See also: <code>TUX_INVINCIBLE_TIME</code> in src/object/player.hpp for the amount of seconds that the player becomes invincible.</p></td>
-</tr>
-<tr class="odd">
-<td><p>deactivate()</p></td>
-<td><p>Stops the player and blocks the movement controls.<br />
-Tip: Don't call this in front of a horde of badguys. Carried items like trampolines won't be dropped.</p></td>
-</tr>
-<tr class="even">
-<td><p>activate()</p></td>
-<td><p>Reactivates the player's movement controls.</p></td>
-</tr>
-<tr class="odd">
-<td><p>walk(float speed)</p></td>
-<td><p>Make Tux walk</p></td>
-</tr>
-<tr class="even">
-<td><p>set_visible(bool visible)</p></td>
-<td><p>Shows or hides Tux according to the value of <code>visible</code>. Note: Tux doesn't interact with objects or badguys while invisible.</p></td>
-</tr>
-<tr class="odd">
-<td><p>get_visible()</p></td>
-<td><p>Returns: <code>bool</code>; is Tux visible?</p></td>
-</tr>
-<tr class="even">
-<td><p>kill(bool completely)</p></td>
-<td><p>Hurts a player, if completely=true then the player will be killed even if he had grow or fireflower bonus.</p></td>
-</tr>
-<tr class="odd">
-<td><p>set_ghost_mode(bool enable)</p></td>
-<td><p>Switches ghost mode on/off.<br />
-Lets Tux float around and through solid objects.</p></td>
-</tr>
-<tr class="even">
-<td><p>get_ghost_mode()</p></td>
-<td><p>Returns whether ghost mode is currently enabled</p></td>
-</tr>
-<tr class="odd">
-<td><p>do_cheer()</p></td>
-<td><p>Makes Tux cheer, if possible.</p></td>
-</tr>
-<tr class="even">
-<td><p>do_duck()</p></td>
-<td><p>Makes Tux duck, if possible.</p></td>
-</tr>
-<tr class="odd">
-<td><p>do_standup()</p></td>
-<td><p>Makes Tux stand up, if possible.</p></td>
-</tr>
-<tr class="even">
-<td><p>do_backflip()</p></td>
-<td><p>Makes Tux backflip, if possible.</p></td>
-</tr>
-<tr class="odd">
-<td><p>do_jump()</p></td>
-<td><p>Makes Tux jump, if possible.</p></td>
-</tr>
-<tr class="even">
-<td><p>trigger_sequence(string sequence_name)</p></td>
-<td><p>Orders the current GameSession to start a sequence. One of “stoptux”, “endsequence”, or “fireworks”.</p></td>
-</tr>
-<tr class="odd">
-<td><p>use_scripting_controller(bool use_or_release)</p></td>
-<td><p>Uses a scriptable controller for all user input (or restores controls)</p></td>
-</tr>
-<tr class="even">
-<td><p>do_scripting_controller(string control, bool pressed)</p></td>
-<td><p>Instructs the scriptable controller to press or release a button. control can be “left”, “right”, “up”, “down”, “jump”, “action”, “pause-menu”, “menu-select”, “console”, “peek-left”, or “peek-right”.</p></td>
-</tr>
-</tbody>
-</table>
+Method                        | Explanation                                  
+----------------------------- | ---------------------------------------------
+`add_bonus(string bonusname)` | Gives Tux the specified bonus unless Tux’s current bonus is superior. Replace <var>bonusname</var> with “grow”, “fireflower”, “iceflower”, “airflower”, or “earthflower”.
+`set_bonus(string bonusname)` | Gives Tux the specified bonus. Replace <var>bonusname</var> with “grow”, “fireflower”, “iceflower”, “airflower”, “earthflower”, or “none”.
+`add_coins(int number)`       | Gives Tux <var>number</var> coins.
+`int get_coins()`             | Returns the number of coins Tux has.
+`make_invincible()`           | Makes the player invincible for a predefined amount of time specified with `TUX_INVINCIBLE_TIME` in src/object/player.cpp.
+`deactivate()`                | Stops the player and blocks the movement controls. Carried items like trampolines won't be dropped.
+`activate()`                  | Reactivates the player's movement controls.
+`walk(float speed)`           | Makes Tux walk.
+`set_dir(bool right)`         | Changes Tux’s direction. Use `true` to make Tux face right and `false` to make him face left.
+`set_visible(bool visible)`   | Shows or hides Tux according to the value of <var>visible</var>. Tux doesn't interact with objects or badguys while invisible.
+`bool get_visible()`          | Returns `true` if Tux is visible.
+`kill(bool completely)`       | Hurts a player. If <var>completely</var> is `true`, the player will be killed regardless of the current bonus.
+`set_ghost_mode(bool enable)` | Switches ghost mode on/off. Lets Tux float around through solid objects.
+`bool get_ghost_mode()`       | Returns whether ghost mode is currently enabled.
+`do_cheer()`                  | Makes Tux cheer, if possible.
+`do_duck()`                   | Makes Tux duck, if possible.
+`do_standup()`                | Makes Tux stand up, if possible.
+`do_backflip()`               | Makes Tux backflip, if possible.
+`do_jump()`                   | Makes Tux jump, if possible.
+`trigger_sequence(string sequence_name)` | Orders the current GameSession to start a sequence. One of “stoptux”, “endsequence”, or “fireworks”.
+`use_scripting_controller(bool use_or_release)` | Uses a scriptable controller for all user input (or restores controls).
+`do_scripting_controller(string control, bool pressed)` | Instructs the scriptable controller to press or release a button. <var>control</var> can be “left”, “right”, “up”, “down”, “jump”, “action”, “start”, “escape”, “menu-select”, “menu-select-space”, “menu-back”, “remove”, “cheat-menu”, “debug-menu”, “console”, “peek-left”, “peek-right”, “peek-up”, or “peek-down”,
+`float get_velocity_x()`      | Return Tux’s velocity in x direction.
+`float get_velocity_y()`      | Return Tux’s velocity in y direction.
+`bool has_grabbed(string name)` | Return `true` if Tux carries a <var>name</var> object.
 
 Constants
 ---------

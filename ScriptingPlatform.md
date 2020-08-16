@@ -12,22 +12,22 @@ An instance is created by being defined in a level. It may be accessed via its `
 
 Example of a definition:
 
-      (platform
-        (name "PLATFORM1")
-        (running #f)
-        (sprite "images/objects/platforms/vertical-wood.sprite")
-        (path
-          (mode "circular")
-          (node
-            (x 832)
-            (y 800)
-          )
-          (node
-            (x 832)
-            (y 704)
-          )
+    (platform
+      (name "PLATFORM1")
+      (running #f)
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+      (path
+        (mode "circular")
+        (node
+          (x 832)
+          (y 800)
         )
-      ) 
+        (node
+          (x 832)
+          (y 704)
+        )
+      )
+    ) 
      
 
 The above object will be exposed under the name PLATFORM1 in the scripting engine. Example usage:
@@ -42,10 +42,12 @@ From console:
 Methods
 -------
 
-| goto\_node(int node\_no) | advance until at given node, then stop. |
-|--------------------------|-----------------------------------------|
-| start\_moving()          | start advancing automatically           |
-| stop\_moving()           | stop advancing automatically            |
+Method                   | Explanation
+-------------------------|------------------------------------------
+`goto_node(int node_no)` | Advances until at given node, then stops.
+`start_moving()`         | Starts advancing automatically.
+`stop_moving()`          | Stops advancing automatically.
+`set_action(string action, int repeat)` | Sets the sprite action.
 
 Constants
 ---------

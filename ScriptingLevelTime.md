@@ -34,11 +34,12 @@ This will stop the time.
 Methods
 -------
 
-| start()                          | Resumes the countdown (assuming it isn't already started, in which case it does nothing) |
-|----------------------------------|------------------------------------------------------------------------------------------|
-| stop()                           | Pauses the countdown (assuming it isn't already stopped, in which case it does nothing)  |
-| float get\_time()                | Returns the number of seconds left on the clock                                          |
-| void set\_time(float time\_left) | Changes the number of seconds left on the clock                                          |
+Method                      | Explanation
+----------------------------|---------------------------------------------------
+`start()`                   | Resumes the countdown (assuming it isn't already started, in which case it does nothing).
+`stop()`                    | Pauses the countdown (assuming it isn't already stopped, in which case it does nothing).
+`float get_time()`          | Returns the number of seconds left on the clock.
+`set_time(float time_left)` | Changes the number of seconds left on the clock.
 
 Constants
 ---------

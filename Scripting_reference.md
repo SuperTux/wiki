@@ -81,5 +81,3 @@ using a function that actually doesn't exist.
 * [[ScriptingTilemap]]
 * [[ScriptingWill-o-wisp]]
 * [[ScriptingWind]]
-
-TODO: Improve format maybe?

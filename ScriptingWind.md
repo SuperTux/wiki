@@ -35,9 +35,10 @@ Console access:
 Methods
 -------
 
-| start() | start blowing |
-|---------|---------------|
-| stop()  | stop blowing  |
+| Method    | Explanation   |
+|-----------|---------------|
+| `start()` | start blowing |
+| `stop()`  | stop blowing  |
 
 Constants
 ---------
