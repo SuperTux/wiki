@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 Summary
 -------
 
@@ -60,7 +58,3 @@ The following code teleports the player to [spawnpoint](spawnpoint "wikilink") �
 `  (button #f)`
 `  ...`
 `)`
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

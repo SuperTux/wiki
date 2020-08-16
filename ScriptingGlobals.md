@@ -54,7 +54,3 @@ Constants
 | ANCHOR\_TOP\_RIGHT    | represents the top right anchor point of a rectangle     |
 | ANCHOR\_BOTTOM\_LEFT  | represents the bottom left anchor point of a rectangle   |
 | ANCHOR\_BOTTOM\_RIGHT | represents the bottom right anchor point of a rectangle  |
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

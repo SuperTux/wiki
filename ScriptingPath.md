@@ -76,7 +76,3 @@ Used by
 -   [Platform](ScriptingPlatform "wikilink")
 -   [Tilemap](ScriptingTilemap "wikilink")
 -   [Will-o-wisp](ScriptingWill-o-wisp "wikilink")
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

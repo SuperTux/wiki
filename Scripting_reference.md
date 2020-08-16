@@ -83,7 +83,3 @@ using a function that actually doesn't exist.
 * [[ScriptingWind]]
 
 TODO: Improve format maybe?
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")
