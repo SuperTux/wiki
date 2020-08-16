@@ -6,7 +6,7 @@ A Candle object that was given a name can be controlled by scripts.
 Instances
 ---------
 
-A `Candle` is instantiated via a definition in a level. It can be accessed by its `name` in scripts and via `sector.`*`name`* in the console.
+A `Candle` is instantiated via a definition in a level. It can be accessed by its `name` in scripts and via <code>sector.<var>name</var></code> in the console.
 
 ### Example
 

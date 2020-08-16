@@ -6,7 +6,7 @@ A [Tilemap](Tilemap "wikilink") that was given a name can be controlled by scrip
 Instances
 ---------
 
-An instance is created by being defined in a level. It may be accessed via its `name` from scripts and via `sector.`*`name`* from the console.
+An instance is created by being defined in a level. It may be accessed via its `name` from scripts and via <code>sector.<var>name</var></code> from the console.
 
 ### Example
 

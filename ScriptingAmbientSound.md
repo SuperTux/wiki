@@ -6,7 +6,7 @@ An ambient sound that was given a name can be controlled by scripts.
 Instance
 --------
 
-An `AmbientSound` is instantiated by placing a definition inside a level. It can then be accessed by its `name` from a script or via `sector.`*`name`* from the console.
+An `AmbientSound` is instantiated by placing a definition inside a level. It can then be accessed by its `name` from a script or via <code>sector.<var>name</var></code> from the console.
 
 ### Example
 

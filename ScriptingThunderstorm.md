@@ -6,7 +6,7 @@ A [Thunderstorm](Thunderstorm "wikilink") object that was given a name can be co
 Instances
 ---------
 
-A `Thunderstorm` is initialised by a definition in the level. It can be accessed via its `name` in scripts and `sector.`*`name`* in the console.
+A `Thunderstorm` is initialised by a definition in the level. It can be accessed via its `name` in scripts and <code>sector.<var>name</var></code> in the console.
 
 ### Example
 

@@ -6,7 +6,7 @@ A `LevelTime` object that is given a name can be controlled by scripts.
 Instances
 ---------
 
-A `LevelTime` object is instantiated by a definition in the level file. It can be accessed by scripts using its `name` and from the console as `sector.`*`name`*.
+A `LevelTime` object is instantiated by a definition in the level file. It can be accessed by scripts using its `name` and from the console as <code>sector.<var>name</var></code>.
 
 ### Example
 
