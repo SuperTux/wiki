@@ -325,9 +325,9 @@ Add ability to change a decal's scroll speed and tint. Also decals should be scr
 
 ### Moving Platform Improvements
 
-**More velocity/acceleration driven platforms**
+**Tux storing velocity while on moving platforms**
 
-Allow platforms to be more velocity/acceleration driven, along with other objects that move (like Camera) and also allow the player to retain velocity that they did while on moving platforms (for events such as Tux being flung off a platform)
+Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
 
 **Better movement on moving tilemaps**
 
