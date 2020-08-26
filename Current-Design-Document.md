@@ -44,9 +44,13 @@ Whenever a secret exit to a bonus level is unlocked, a path appears leading to t
 
 Update cutscenes with the new story decisions and the new graphics/stuff decided for the characters.
 
+Maybe add designated text boxes for characters when they speak instead of using the default info box?
+
 **Boss Levels**
 
-Update to accommodate the new fights and to make them a lot more interesting.
+Add new fights and make the existing ones more interesting.
+
+Maybe use [Boss Attack '07](https://discarded-ideas.org/sites/discarded-ideas.org/files/music/bossattack07.ogg) as a boss pinch theme?
 
 ---
 
@@ -63,19 +67,48 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Backgrounds**
 
 - Rooted Forest – add a few varying parallax BGs for the normal and ghost forest theme.
+(Alzter: IMO the forest backgrounds are in need of a redo, the current ones seem very flat)
 - General - More cloud BGs would be cool.
+
+<details>
+  <summary>(Alzter: you mean like these?)</summary>
+  
+  ![](https://user-images.githubusercontent.com/22513909/91281292-3ada8c00-e7cb-11ea-9dac-474cd849eee2.png)
+
+  [Source XCF](https://github.com/SuperTux/media/blob/master/images/tiles/snow/cave7.xcf)
+  
+  ![](https://user-images.githubusercontent.com/22513909/91281362-52197980-e7cb-11ea-9ead-ee72a6f78f84.png)
+
+  [Source XCF](https://github.com/SuperTux/media/blob/master/images/tiles/snow/mountain.xcf)
+  
+  ![](https://user-images.githubusercontent.com/22513909/91281639-ade40280-e7cb-11ea-8545-fcd405b48d31.png)
+
+  [Source XCF](https://github.com/SuperTux/media/blob/master/images/background/snow_background.xcf)
+</details>
+
 - Parallax-ify many BGs.
+
+
 
 **Tiles/Decals**
 
 - Improved forest tiles, bush tiles, forest background tiles, as well as new additional tilesets (such as slime).
 - A multitude of new forest trees and tree branches to make the forest prettier.
-- The tree moviestar exit.
+
+(Gwater and BlasterMaster's tree designs are both great examples of this)
+
+- The tree movie star (outhouse) exit.
 - Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
 - Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
 - Underwater decoration (icy + forest)
 - Simple bridge/scaffolding unisolid tiles
 - Treetop Tileset
+<details>
+<summary>(Reference)</summary>
+
+![](https://user-images.githubusercontent.com/22513909/91283578-1b912e00-e7ce-11ea-8458-1c201bb04d95.png)
+</details>
+
 - Updates to Deeper Lava/Acid
 - Waterfall tiles
 - New decoration (Forest) - Could include things like animals, shrubs, as well as things for the ghost forest.
@@ -94,9 +127,11 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Badguys**
 
 - **Icy Island**
+  - Snow Jumpy
   - Spiky
   - Crystallo
   - Snowman
+  - Flying Snowball
   - Bouncing Snowball
   - Kamikaze Snowball
   - Big/Small Fish
@@ -219,6 +254,8 @@ This contains confirmed features/tasks for post 0.7/World 3+.
 A 2x2 tile wide rock-like object that acts as a less powerful trampoline. It will burst a small water fountain out of its head once Tux stands on it which shoots Tux upwards a bit.
 
 ### Badguy Ideas
+
+![](https://user-images.githubusercontent.com/22513909/91284400-30ba8c80-e7cf-11ea-85d8-86e3db499659.png)
 
 **Rusty Bomb**
 
