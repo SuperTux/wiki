@@ -199,6 +199,10 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux!
 
+**Coyote Time**
+
+This would add some more fair gameplay. This is the fact that Tux can still jump a bit after he leaves the ground, since players can't respond that quickly to whether Tux is on-ground.
+
 ### Mechanic Ideas
 
 **Locked Doors and Keys**
@@ -222,6 +226,28 @@ Haywire should be able to jump over a short distance (like captain snowball) whi
 **Poison Ivy & Walking Leaf**
 
 Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. Requires new sprite first.
+
+### Badguy Ideas
+
+**Shadow Tux**
+
+This is something that will tie in to the game's general story. It is a "shadow tux" that mimmicks Tux's movement on a delay (similar to keys) and appears in a sort of "Nightmare Library"
+
+**Cod**
+
+Simply a little fish enemy that swims back and forth should be added. It swims left to right, switching directions upon hitting a wall. Two variants should be added: a small and big one.
+
+**Stationary Ghost Roots**
+
+Not really an enemy, but just ghost forest "spikes" that are squirming roots.
+
+**Blinking Ghost Roots**
+
+These are ghost tree roots that attack based on a timer. Most similar to the tree's usage of them.
+
+**Growing Ghost Roots**
+
+If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
 ### Bosses
 
@@ -289,10 +315,6 @@ Only some, few or none of this stuff may be added, or might get added at a later
 
 ### Tux Movement
 
-**Coyote Time**
-
-Hardcoded coyote time should be implemented in the game for easier jumps.
-
 **Walljumping**
 
 Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
@@ -306,7 +328,7 @@ Tux sliding down slopes like a real live penguin would be nice.
 
 **Editor Improvements**
 
-A better text editor, Also improve infoblock UI (more like scripting UI) and BGs shouldn't shift weirdly when placed.
+A better text editor, Also improve infoblock UI (more like scripting UI) and BGs shouldn't shift weirdly when placed. Also, editor options should save to the config file.
 
 **Check for updates**
 
@@ -377,14 +399,6 @@ Add more designs for moving platforms to fit in multiple scenarios better.
 
 ### Badguy Ideas
 
-**Cod**
-
-Simply a little fish enemy that swims back and forth should be added. It swims left to right, switching directions upon hitting a wall. Two variants should be added: a small and big one.
-
-**Shadow Tux**
-
-An enemy who copies exactly Tux's behavior and when catches up to him or collides with him Tux dies. Unkillable, but can be trapped as it only obeys Tux's moves and therefore how he collides as well. Basically a "shadow-tux" (or dark rayman-like), but would have a delay that the player can set.
-
 **Mother Snail**
 
 A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
@@ -408,14 +422,6 @@ The acorn that the bluejay throws. If used by itself, it falls normally, like a 
 **Tentacle Monster**
 
 A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
-
-**Blinking Ghost Roots**
-
-These are ghost tree roots that attack based on a timer. Most similar to the tree's usage of them.
-
-**Growing Ghost Roots**
-
-If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
 
 ### Other
