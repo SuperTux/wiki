@@ -1,5 +1,7 @@
 # **Alzter's SuperTux Vision**
 
+**NOTE: This is something I know is not currently feasible, it's more of a far out goal that I may come back to at some point**
+
 ## Start fresh
 
   - Remove all existing content so we don't have to worry about
