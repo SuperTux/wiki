@@ -1,4 +1,4 @@
-# **Ahlzer's SuperTux Vision**
+# **Alzter's SuperTux Vision**
 
 ## Start fresh
 
