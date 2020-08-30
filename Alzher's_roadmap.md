@@ -77,7 +77,7 @@
     rolling snowballs or boulders chase Tux, make scrolling faster
     depending on how far Tux is from the edge to keep a frantic pace
 
-![](images/avalanche.png)
+![](images/avalanche.png | width=500)
 
   - Rework Ispys, make them able to interact with more things and make
     the things they interact with clearly marked as so
@@ -106,16 +106,16 @@
   - Improved level editor that can place ground on a grid in different
     shapes, like full tiles, slopes, possibly even freeform shapes?
 
-![](images/ice_platform.png)![](images/ice_platforms2.jpeg)![](images/stone1.png)![](images/stone2.png)
+![](images/ice_platform.png | width=500)![](images/ice_platforms2.jpeg | width=500)![](images/stone1.png | width=500)![](images/stone2.png | width=500)
 
-![](images/ice_cave1.png)![](images/ice_cave2.png)
+![](images/ice_cave1.png | width=500)![](images/ice_cave2.png | width=500)
 
   - Have water be more dynamic than simply a tile, have it splash and
     ripple at the surface, use some sort of fancy tech to render it as a
     volume instead of using single tiles
 
   - Ice floes that tilt depending on the player's weight, and bob up and
-    down as the player lands on them![](images/ice_floe.png)
+    down as the player lands on them![](images/ice_floe.png | width=500)
 
       - Instead of manually scripting these interactions on a case by
         case basis, have a proper engine that can support it
