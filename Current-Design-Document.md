@@ -309,11 +309,9 @@ If a totem head is destroyed it pushes Tux away to prevent landing on the next h
 
 ---
 
-# Unconfirmed Ideas
+# Non-Priority Features
 
-Only some, few or none of this stuff may be added, or might get added at a later time.
-
-### Tux Movement
+These are features that will come to the game, preferably before 0.7, but aren't really a priority for the time being.
 
 **Walljumping**
 
@@ -323,12 +321,39 @@ Could be quite useful and nice to have. Would extend move set of Tux. Possible o
 
 Tux sliding down slopes like a real live penguin would be nice.
 
-
-### Performance Improvements
-
 **Editor Improvements**
 
 A better text editor, Also improve infoblock UI (more like scripting UI) and BGs shouldn't shift weirdly when placed. Also, editor options should save to the config file.
+
+**Better cutscene methods**
+
+Cutscenes should be skippable, trigger only once per level session, and text should be passed through via a button.
+
+**Colored Text per speaker**
+
+In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
+
+**More editing options for decals**
+
+Add ability to change a decal's scroll speed and tint. Also decals should be scriptable, and should fade.
+
+**Tux storing velocity while on moving platforms**
+
+Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
+
+**Better movement on moving tilemaps**
+
+Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
+
+**Pigeons/Tiny Fish**
+
+These are special background objects who, when Tux is near, flee in the direction away from his body.
+
+# Unconfirmed Ideas
+
+Only some, few or none of this stuff may be added, or might get added at a later time.
+
+### Performance Improvements
 
 **Check for updates**
 
@@ -357,10 +382,6 @@ Skull tiles as well as falling tiles should respawn when they have fallen. Eithe
 
 Sprite files as BGs would be cool.
 
-**Better cutscene methods**
-
-Cutscenes should be skippable, trigger only once per level session, and text should be passed through via a button.
-
 **Better cloud system**
 
 Changing what/the variety of images in cloud particles, as well as speed.
@@ -373,24 +394,7 @@ A colorable, easily placeable light source for pretty effects in levels. Also, a
 
 Objects with sprites (cones, etc.) that specifically lit up an area or light didn't apply there, lit it up, etc. might doable using the newer graphic engine surfaces. Z-pos editable, too, and it can be rotated, and it is not solid.
 
-**Colored Text per speaker**
-
-In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
-
-**More editing options for decals**
-
-Add ability to change a decal's scroll speed and tint. Also decals should be scriptable.
-
-
 ### Moving Platform Improvements
-
-**Tux storing velocity while on moving platforms**
-
-Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
-
-**Better movement on moving tilemaps**
-
-Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
 
 **New moving platforms**
 
@@ -429,10 +433,6 @@ A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper i
 **Ice floes**
 
 Ice floes that respond to the gravity placed on top of them would add some goodness.
-
-**Pigeons/Tiny Fish**
-
-These are special background objects who, when Tux is near, flee in the direction away from his body.
 
 **Thumbs up**
 
