@@ -118,6 +118,9 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - New bridge/pier decoration
 - New ice cave decoration
 - Sideways unisolid tiles
+- Signs declaring something is walljumpable and one that isn't walljumpable
+- Squishy moss and soft snow for walljumping
+- Convert crystal cave, ghost forest and snowfort tiles to walljumping
 
 **Objects**
 
