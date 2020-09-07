@@ -201,10 +201,78 @@ Other things to avoid:
 15. Change gravity only when it has sense. Don't change it, when you
     want only Tux jumping higher/lower.
 
-External Links
+Secret Maryo Chronicles
 --------------
 
--   Secret Maryo Chronicles has some at <http://secretmaryo.org/wiki/index.php?title=Level_Design_Guidelines>
+The Secret Maryo Chronicles wiki (now defunct) had some good guidelines. They are reproduced here (GDFL 1.3+ license)
+ 
+* The level filename must be all lowercase and without spaces but underscore "_" is allowed.
+* All types of text should be written in American English.
+* Test your level thoroughly and let friends play it. Make sure every part isn't too hard, every jump is as far as you want it to be, nothing can be accessed easier then you intended, and all your secrets work.
+
+General
+
+* Beginning Safehaven: Give the player a safe space to start the beginning of each level. If a player dies less than 5 seconds after starting, they're more likely to quit.
+* Ending Safehaven: Try to avoid putting enemies right near the exit door. Dying right at the end of a level is frustrating!
+* Even Difficulty: Try to aim for a fairly even difficulty throughout level. If you want an extra difficult part, make it a sub level, connected by pipes.
+* Bonus Independent: Hidden secrets and bonuses are good, just don't generally make a level dependent on them to avoid frustration. A player who missed the bonus should still be able to get through (see Always Winnable below).
+* Beginner Friendly: Avoid essential objectives that require very high or long jumps. Just because you can make them, doesn't mean everyone else wants to.
+* Always Winnable: Avoid making levels potentially unwinnable if a player does something wrong. If an item is essential, it should come out infinitely; if a player falls off a platform, it should return; if a player walks past something important, they should be able to get back there.
+* Indicate Direction If the way forward is not obvious, clues should be given to encourage exploration. If a player is required to fall off a ledge to an area below the current camera position, a visual clue should be given that it is safe, like some coins in the shape of an arrow.
+* Off Path: Encourage exploration away from the central path with non essential bonuses.
+* Even Ground: Try to make the ground either flat, or very obviously raised. It confuses the player if Maryo suddenly stops because of a ground tile 1 pixel higher than the one before.
+* Passive Filler: Never use massive objects in areas that can't be touched by the player. It puts unnecessary strain on the game and on computers. For large massive areas (especially ground), use a single row of massive around the whole outside of the shape, then passive or Front passive inside.
+* Enemy Visibility: Take care when using Front Passive objects to ensure they never completely cover any enemies. If you want a section where Maryo appears behind the scenery, don't put any enemies in it.
+* Easy for Kids: Use the Textbox only if necessary as a player may have a limited knowledge of the English language or even none at all.
+* Consistently Solid: Don't abuse Massive Types. We all know that you can make a castle you can walk straight through, or clouds you can walk on, but that doesn't mean it's fun to constantly switch between passive and massive for the same objects. It should be obvious which parts are solid and which parts are decoration, otherwise it's very frustrating (examples).
+* Minimal Space: Always leave some free space vertically in small corridors for big Maryo and never require to be small Maryo to reach an Area. 
+
+Optional
+
+* Difficulty Filler: Look at what levels exist and try to fill in the "difficulty gaps" with yours. Often this may mean creating easier levels.
+* Clear Direction: The player should always have a clear idea of which way to go and what to do, the challenge should be in doing it. This is called the central path.
+* Stable Only: Try and show off new features, but only ones that are in the latest stable version.
+* Learning First: Make sure that there is an easy level that encourages learning any new skill safely before challenging players with a level where they die if they do not use that skill successfully.
+* Bonus Clues: Use small clues to hint at hidden secrets (e.g. a single coin otherwise unreachable). Should be visible if player is paying attention but not obvious.
+* Jump Backgrounds: Make sure to use background graphics wherever the player would be jumping. Without backgrounds it can be hard to judge your speed and position. 
+
+Theming
+
+The general rule of theming is to decide on a style in advance and then only add what fits with that theme. Avoid the temptation to think "more is better" by using nearly every enemy / background tile / secret type etc.
+
+* Backgrounds: Generally try to stick to one visual theme per level. Pick one style of background tile and stick to it. Lots of scenery is good, but it should be consistent with the effect you want.
+* Enemies: Select up to 4 types of enemies that best fit the level style and stick with those rather than using every enemy type available. Keep the custom settings (if you use them) of the visually equal enemy the same for the level to not irritate the player with different behaving enemies.
+* Avoid using "boss" characters and use them only for very special parts or the end of an overworld.
+* Use strong colored doors only for special parts of the level. The red door should be used for entering a boss area. 
+
+### Ways of hiding bonuses and secrets
+
+Enemy Assisted:
+
+* Distance Bounce: Bounce on an enemy to reach a distant, normally unreachable platform
+* Deadly Enemy: Stand / run on an enemy that normally hurts you (e.g. Thwomp, or invincibility on an Eato / Spike / Buzz)
+* Enemy Breakout: Enemies break open new areas, e.g. turtle breaks blocks, Spike / Buzz removes Eatos 
+
+Bonus / Maryo State Assisted:
+
+* Ghost Reveal: Ghost Mushrooms show hidden blocks that allow access to new area.
+* Invincibility Reveal: Stars let the player run through obstacles that would normally kill them.
+* Previous Levelup: Use of a certain Maryo type is needed, but this powerup is not in the level, i.e. players must have gotten and kept the powerup from a previous level. Use this only rarely and for special bonus secrets.
+* Speed run: Maryo must still be in a certain state (e.g. Ghost / Star) by the time he gets to the end of a long section to be able to access the secret.
+* Hidden item: An item is hidden behind an innocuous Front Passive object (such as a part of a wall). This can then create any of the state activated bonuses above. 
+
+Surprising Landscape Based:
+
+* Pipe Exit: Pipes, pipes and more pipes that lead to hidden levels or otherwise not accessible parts of a level.
+* Non-Deadly Fall: Fall somewhere that looks deadly but revels a secret / area.
+* Invisible Ground: Invisible ground that allow you to access hidden secrets.
+* Solid Background: Unexpected solid "backgrounds" are not solid except a few that look the same but can be used to get to hidden ground. Use this only extremely rarely.
+* Partially obscured: Secrets or entrances to secret areas can be partially hidden behind background objects.
+* Moving Platform: Moving platforms that the player only sees if they do something unusual e.g. if they just run through an area they never see the platform but if he waits, it moves onscreen. 
+
+Skill Based:
+
+* Skillful Maneuver: Secret is visible, but requires an unusually skillful jump / maneuver to get. 
 
 Old Stuff
 ---------
