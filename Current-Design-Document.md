@@ -130,11 +130,9 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Badguys**
 
 - **Icy Island**
-  - Snow Jumpy
   - Spiky
   - Crystallo
   - Snowman
-  - Flying Snowball
   - Bouncing Snowball
   - Kamikaze Snowball
   - Big/Small Fish
