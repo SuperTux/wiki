@@ -129,8 +129,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Badguys**
 
-- Some enemies were recently redone, and their hitboxes/framerates might need to be adjusted.
-
 - **Icy Island**
   - Spiky
   - Crystallo
