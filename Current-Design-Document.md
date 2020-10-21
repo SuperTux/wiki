@@ -155,7 +155,10 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
   - Rotten Ivy/Leaf
   - Rotten Tree
   - Rotten Stumpy
-  - Ghost Tree Roots
+  - Shadow Tux
+  - Ghost Tree Roots (stationary)
+  - Ghost Tree Roots (blinking)
+  - Ghost Tree Roots (growing)
 
 **Characters**
 
