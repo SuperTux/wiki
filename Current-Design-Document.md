@@ -130,12 +130,16 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Badguys**
 
 - **Icy Island**
-  - Spiky
-  - Crystallo
   - Snowman
   - Bouncing Snowball
-  - Kamikaze Snowball
-  - Big/Small Fish
+  - Snowshot
+  - Spiky
+  - Sleeping Spiky
+  - Crystallo
+- **Icy - Underwater**
+  - Small docile fish
+  - Small enemy fish
+  - Large enemy fish
 - **Rooted Forest**
   - Poison Ivy
   - Walking Leaf
