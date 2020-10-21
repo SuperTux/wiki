@@ -137,9 +137,9 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
   - Sleeping Spiky
   - Crystallo
 - **Icy - Underwater**
-  - Small docile fish
-  - Small enemy fish
-  - Large enemy fish
+  - Small docile fish (1 x 1)
+  - Small enemy fish (1.5 x 1)
+  - Large enemy fish (3 x 2)
 - **Rooted Forest**
   - Poison Ivy
   - Walking Leaf
