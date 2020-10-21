@@ -214,6 +214,10 @@ This would add some more fair gameplay. This is the fact that Tux can still jump
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
 
+**Docile Fish**
+
+A small swimming fish shall be added. It doesn't harm Tux and flees from him when near.
+
 ---
 
 # Badguys
@@ -232,6 +236,10 @@ Haywire should be able to jump over a short distance (like captain snowball) whi
 
 Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. Requires new sprite first.
 
+**Crystallo**
+
+It should turn better (easing?) and also instead of squishing, it should burst out into shards that fly around.
+
 ### Badguy Ideas
 
 **Shadow Tux**
@@ -241,6 +249,10 @@ This is something that will tie in to the game's general story. It is a "shadow 
 **Cod**
 
 Simply a little fish enemy that swims back and forth should be added. It swims left to right, switching directions upon hitting a wall. Two variants should be added: a small and big one.
+
+**Crystal Shards**
+
+Similar to the mole rock, it goes up and then down and kills anything in its path. If it collides with something, it sticks to it (its drawing layer is behind normal tiles) and 4 burst out of crystallos when they die.  They disappear after a short time but remain dangerous when stuck.  They also rotate depending on their direction.
 
 **Stationary Ghost Roots**
 
