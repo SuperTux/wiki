@@ -207,10 +207,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 Make rocks bounce off of Tux rather than killing him. Rocks should not be able to kill Tux!
 
-**Coyote Time**
-
-This would add some more fair gameplay. This is the fact that Tux can still jump a bit after he leaves the ground, since players can't respond that quickly to whether Tux is on-ground.
-
 ### Mechanic Ideas
 
 **Locked Doors and Keys**
