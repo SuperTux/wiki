@@ -133,8 +133,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
   - Snowman
   - Bouncing Snowball
   - Snowshot
-  - Spiky
-  - Sleeping Spiky
   - Crystallo
 - **Icy - Underwater**
   - Small docile fish (1 x 1)
