@@ -98,6 +98,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 (Gwater and BlasterMaster's tree designs are both great examples of this)
 
 - The tree movie star (outhouse) exit.
+- The goalposts at the end of every level need a remake.
 - Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
 - Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
 - Underwater decoration (icy + forest)
