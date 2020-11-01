@@ -131,9 +131,8 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Badguys**
 
 - **Icy Island**
-  - Snowman
-  - Bouncing Snowball
   - Snowshot
+  - Bouncing Snowball
   - Crystallo
 - **Icy - Underwater**
   - Small docile fish (1 x 1)
@@ -142,13 +141,13 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - **Rooted Forest**
   - Poison Ivy
   - Walking Leaf
+  - Leafshot
   - Mr. Tree
   - Stumpy
-  - Leafshot
-  - Zeekling
   - Igel
-  - Snail
-  - Big Snail
+  - Zeekling
+  - Snail (1x1)
+  - Big Snail (2x2)
 - **Ghost Forest**
   - Ghost Forest
   - Rotten Ivy/Leaf
