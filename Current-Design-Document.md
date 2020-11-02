@@ -131,7 +131,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Badguys**
 
 - **Icy Island**
-  - Snowshot
   - Bouncing Snowball
   - Crystallo
 - **Icy - Underwater**
