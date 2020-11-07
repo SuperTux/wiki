@@ -232,6 +232,10 @@ Haywire should be able to jump over a short distance (like captain snowball) whi
 
 Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. Requires new sprite first.
 
+**Bouncing Snowball**
+
+Use a separate animation for when it bounces across the floor.
+
 **Crystallo**
 
 It should turn better (easing?) and also instead of squishing, it should burst out into shards that fly around.
@@ -279,6 +283,14 @@ The ghost tree will remain idle for a short time period, its eys following Tux a
 - blue wisp: spawns an object that allows hurting the tree (maybe something like a bomb? or the lanterns, like are currently used)
 
 While the green and blue wisps are inhaled, the roots attack will continue to accour! In Pinch Mode the ghost tree will inhale all ghost wisps and combine all their attacks continuesly. Once it looses another life all returns to normal when hit until all ghost wisps are inhaled again.
+
+### Level Editor
+
+- Backgrounds shouldn't shift upon placement (default the x and y variables to 0, 0 upon placement)
+- Level Editor Settings should be saved to the config file (they are saved even when the player exits the game)
+- The infoblock editor should more resemble the script one (right now, you can edit only one line which is really bad)
+- Selecting, cutting, copying and pasting text in the text editors
+- moving the typing cursor around in the text editors
 
 ---
 
@@ -333,10 +345,6 @@ Could be quite useful and nice to have. Would extend move set of Tux. Possible o
 **Slope Sliding**
 
 Tux sliding down slopes like a real live penguin would be nice.
-
-**Editor Improvements**
-
-A better text editor, Also improve infoblock UI (more like scripting UI) and BGs shouldn't shift weirdly when placed. Also, editor options should save to the config file.
 
 **Better cutscene methods**
 
