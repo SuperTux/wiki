@@ -46,6 +46,14 @@ Update cutscenes with the new story decisions and the new graphics/stuff decided
 
 Maybe add designated text boxes for characters when they speak instead of using the default info box?
 
+**The Castle of Nolok**
+
+The cutscene at the very beginning should be skippable. (Although skippable cutscenes exist, they don't place Tux where he needs to be. Fix this!!)
+
+The cutscene at the very beginning should also only play once per level session. (If the player dies in the level, DON'T show it.  If the player leaves the level and reenters it, then DO show it.)
+
+If you play through the cutscene after the level and don't skip it, then the level stats will be erased or overridden. This should be fixed!!
+
 **Boss Levels**
 
 Add new fights and make the existing ones more interesting.
