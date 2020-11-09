@@ -241,7 +241,11 @@ Poison Ivy and Walking Leaf should fall slower, to differentiate it from the sno
 
 **Crystallo**
 
-It should turn better (easing?) and also instead of squishing, it should burst out into shards that fly around.
+It should turn better (easing?) and incorporate one or more of these ideas for it:
+
+- Instead of squishing, it should burst out into shards that fly around.
+- It should spawn by bursting out of walls that emerge when Tux is near.
+- It can optionally walk on the roof and then fall like a stalactite and explode into shards (like option 1)
 
 ### Badguy Ideas
 
