@@ -139,7 +139,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 **Badguys**
 
 - **Icy Island**
-  - Bouncing Snowball
   - Crystallo
 - **Icy - Underwater**
   - Small docile fish (1 x 1)
@@ -239,10 +238,6 @@ Haywire should be able to jump over a short distance (like captain snowball) whi
 **Poison Ivy & Walking Leaf**
 
 Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. Requires new sprite first.
-
-**Bouncing Snowball**
-
-Use a separate animation for when it bounces across the floor.
 
 **Crystallo**
 
