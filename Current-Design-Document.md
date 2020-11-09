@@ -245,7 +245,7 @@ It should turn better (easing?) and incorporate one or more of these ideas for i
 
 - Instead of squishing, it should burst out into shards that fly around.
 - It should spawn by bursting out of walls that emerge when Tux is near.
-- It can optionally walk on the roof and then fall like a stalactite and explode into shards (like option 1)
+- It can optionally walk on the roof and then fall like a stalactite and explode into shards upon hitting the floor (like option 1)
 
 ### Badguy Ideas
 
