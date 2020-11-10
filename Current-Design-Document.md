@@ -299,6 +299,16 @@ While the green and blue wisps are inhaled, the roots attack will continue to ac
 - Selecting, cutting, copying and pasting text in the text editors
 - moving the typing cursor around in the text editors
 
+### Swimming
+
+- Adapt to a rotating hitbox, or make the current one more forgiving.
+- It should be easier to stop in the water (more friction)
+
+Swimming suggestions:
+
+- Boosting should be handled better. (One suggestion was to make the boost a "hold" action instead of a "pressed" action but there are also some against this.)
+- Jumping should be disabled underwater.
+
 ---
 
 # Post-0.7 Tasks
