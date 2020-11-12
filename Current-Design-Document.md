@@ -327,6 +327,40 @@ Swimming suggestions:
 
 ---
 
+# Non-Priority Features
+
+These are features that will come to the game, preferably before 0.7, but aren't really a priority for the time being.
+
+**Walljumping**
+
+Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
+
+**Slope Sliding**
+
+Tux sliding down slopes like a real live penguin would be nice.
+
+**Better cutscene methods**
+
+Skipping cutscenes should move Tux to the proper place, and there should be an option to trigger a script only once per level session.  The color of cutscene text should also be editable.
+
+**More editing options for decals**
+
+Add ability to change a decal's scroll speed and tint. Also decals should be scriptable, and should fade.
+
+**Tux storing velocity while on moving platforms**
+
+Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
+
+**Better movement on moving tilemaps**
+
+Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
+
+**Pigeons**
+
+These are special background objects who, when Tux is near, flee in the direction away from his body.
+
+---
+
 # Post-0.7 Tasks
 
 This contains confirmed features/tasks for post 0.7/World 3+.
@@ -366,42 +400,6 @@ The totem boss consists out of 5 head pieces which must all be destroyed in orde
 If a totem head is destroyed it pushes Tux away to prevent landing on the next head right away (like the 'push-explosion' radius). The throwable rock will be a mechanic in the 3rd castle or prior in world 3, allowing to break through certain walls and crush enemies (informing the player that they are throwable and effective against enemies).
 
 ---
-
-# Non-Priority Features
-
-These are features that will come to the game, preferably before 0.7, but aren't really a priority for the time being.
-
-**Walljumping**
-
-Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
-
-**Slope Sliding**
-
-Tux sliding down slopes like a real live penguin would be nice.
-
-**Better cutscene methods**
-
-Cutscenes should be skippable, trigger only once per level session, and text should be passed through via a button.
-
-**Colored Text per speaker**
-
-In future cutscenes, Tux, Penny and Nolok might have speaking parts and there should be the ability to change color of Text in the text object per character (green for Nolok, purple for Penny, etc.) It would also be nice to have high def/large face renders of the characters to appear from the bottom of the screen when they speak.
-
-**More editing options for decals**
-
-Add ability to change a decal's scroll speed and tint. Also decals should be scriptable, and should fade.
-
-**Tux storing velocity while on moving platforms**
-
-Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
-
-**Better movement on moving tilemaps**
-
-Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
-
-**Pigeons**
-
-These are special background objects who, when Tux is near, flee in the direction away from his body.
 
 # Unconfirmed Ideas
 
