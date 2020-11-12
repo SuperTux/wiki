@@ -217,6 +217,24 @@ Make rocks bounce off of Tux rather than killing him. Rocks should not be able t
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
 
+### Level Editor
+
+- Backgrounds shouldn't shift upon placement (default the x and y variables to 0, 0 upon placement)
+- Level Editor Settings should be saved to the config file (they are saved even when the player exits the game)
+- The infoblock editor should more resemble the script one (right now, you can edit only one line which is really bad)
+- Selecting, cutting, copying and pasting text in the text editors
+- moving the typing cursor around in the text editors
+
+### Swimming
+
+- Adapt to a rotating hitbox, or make the current one more forgiving.
+- It should be easier to stop in the water (more friction)
+
+Swimming suggestions:
+
+- Boosting should be handled better. (One suggestion was to make the boost a "hold" action instead of a "pressed" action but there are also some against this.)
+- Jumping should be disabled underwater.
+
 ---
 
 # Badguys
@@ -306,24 +324,6 @@ The ghost tree will remain idle for a short time period, its eys following Tux a
 - blue wisp: spawns an object that allows hurting the tree (maybe something like a bomb? or the lanterns, like are currently used)
 
 While the green and blue wisps are inhaled, the roots attack will continue to accour! In Pinch Mode the ghost tree will inhale all ghost wisps and combine all their attacks continuesly. Once it looses another life all returns to normal when hit until all ghost wisps are inhaled again.
-
-### Level Editor
-
-- Backgrounds shouldn't shift upon placement (default the x and y variables to 0, 0 upon placement)
-- Level Editor Settings should be saved to the config file (they are saved even when the player exits the game)
-- The infoblock editor should more resemble the script one (right now, you can edit only one line which is really bad)
-- Selecting, cutting, copying and pasting text in the text editors
-- moving the typing cursor around in the text editors
-
-### Swimming
-
-- Adapt to a rotating hitbox, or make the current one more forgiving.
-- It should be easier to stop in the water (more friction)
-
-Swimming suggestions:
-
-- Boosting should be handled better. (One suggestion was to make the boost a "hold" action instead of a "pressed" action but there are also some against this.)
-- Jumping should be disabled underwater.
 
 ---
 
