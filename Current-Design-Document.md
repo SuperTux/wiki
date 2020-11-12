@@ -243,23 +243,25 @@ Swimming suggestions:
 
 **Ghoul**
 
-Ghouls should not collide with each other, and should not collide with solid land. Their flying speed should be configurable. They should also have better pathfinding, although if they don't move through solid terrain then this would be unneccesary.
-
-**Haywire**
-
-Haywire should be able to jump over a short distance (like captain snowball) while chasing Tux and not collide with/defeat all enemies in its path.
+- They should not go through each other.
+- Their flying speed should be configurable.
+- They should either have better pathfinding OR be able to go through solid land.
 
 **Poison Ivy & Walking Leaf**
 
-Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. Requires new sprite first.
+- Poison Ivy and Walking Leaf should fall slower, to differentiate it from the snowball and make it more realistic. (requires new sprite)
 
 **Crystallo**
 
-It should turn better (easing?) and incorporate one or more of these ideas for it:
-
+- It should turn around better, with easing.
 - Instead of squishing, it should burst out into shards that fly around.
-- It should spawn by bursting out of walls that emerge when Tux is near.
-- It can optionally walk on the roof and then fall like a stalactite and explode into shards upon hitting the floor (like option 1)
+- It should have an option to spawn by bursting out of walls that emerge when Tux is near, perhaps bursting out shards at the same time?
+- Crystallos should be immune to their own spikes, of course.
+
+**Haywire**
+
+- They should be able to jump over a short distance, like the captain snowball.
+- They should not collide with or defeat all enemies in its path.
 
 ### Badguy Ideas
 
