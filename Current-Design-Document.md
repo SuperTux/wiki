@@ -217,10 +217,6 @@ Make rocks bounce off of Tux rather than killing him. Rocks should not be able t
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
 
-**Docile Fish**
-
-A small swimming fish shall be added. It doesn't harm Tux and flees from him when near.
-
 ---
 
 # Badguys
@@ -253,9 +249,9 @@ It should turn better (easing?) and incorporate one or more of these ideas for i
 
 This is something that will tie in to the game's general story. It is a "shadow tux" that mimmicks Tux's movement on a delay (similar to keys) and appears in a sort of "Nightmare Library"
 
-**Cod**
+**Swimming Fish**
 
-Simply a little fish enemy that swims back and forth should be added. It swims left to right, switching directions upon hitting a wall. Two variants should be added: a small and big one.
+A fish enemy that swims back and forth should be added. It swims left to right, switching directions upon hitting a wall or when its range is up (the player can set the range, similar to crystallo). Three variants should be added: a small and big one, as well as a non-harmful tiny variant. They are planned to appear in the Icy Island and resemble the frozen fish.
 
 **Crystal Shards**
 
@@ -272,6 +268,26 @@ These are ghost tree roots that attack based on a timer. Most similar to the tre
 **Growing Ghost Roots**
 
 If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
+
+**Mother Snail**
+
+A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
+
+**Bluejay + Acorn**
+
+A sneaky bluejay who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
+
+The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
+
+**Woodpecker + Pinecone**
+
+The smart variant to the bluejay, the woodpecker pecks down pinecones at Tux, and sits there for a while. Tux can then use the pinecone and throw it up to defeat the woodpecker. Either the pinecone respawns after a while, or the woodpecker is smart enough to go seek out another tree with pinecones.
+
+Upon falling, which it only falls when pecked by woodpecker, the pinecone doesn't despawn, as it can be picked up and used as a projectile (like the rock, just with better range), but when it is falling, it can hurt Tux.
+
+**Tentacle Monster**
+
+A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
 
 ### Bosses
 
@@ -383,7 +399,7 @@ Tux should have momentum from when on moving objects stored, so he can "fling" o
 
 Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
 
-**Pigeons/Tiny Fish**
+**Pigeons**
 
 These are special background objects who, when Tux is near, flee in the direction away from his body.
 
@@ -420,53 +436,11 @@ Skull tiles as well as falling tiles should respawn when they have fallen. Eithe
 
 Sprite files as BGs would be cool.
 
-**Better cloud system**
-
-Changing what/the variety of images in cloud particles, as well as speed.
-
 **Tintable lightbulb/lantern**
 
-A colorable, easily placeable light source for pretty effects in levels. Also, a creepy pulsing light object for the ghost forest.
+A colorable, easily placeable light source for pretty effects in levels, and the editor can decide if it obeys gravity, what color it is, its shape + rotation, etc...
 
-**Light source objects**
-
-Objects with sprites (cones, etc.) that specifically lit up an area or light didn't apply there, lit it up, etc. might doable using the newer graphic engine surfaces. Z-pos editable, too, and it can be rotated, and it is not solid.
-
-### Moving Platform Improvements
-
-**New moving platforms**
-
-Add more designs for moving platforms to fit in multiple scenarios better.
-
-
-### Badguy Ideas
-
-**Mother Snail**
-
-A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
-
-**Bluejay**
-
-A sneaky bluejay who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
-
-**Woodpecker**
-
-The smart variant to the bluejay, the woodpecker pecks down pinecones at Tux, and sits there for a while. Tux can then use the pinecone and throw it up to defeat the woodpecker. Either the pinecone respawns after a while, or the woodpecker is smart enough to go seek out another tree with pinecones.
-
-**Pinecone**
-
-The pinecone for the woodpecker. Upon falling, which it only falls when pecked by woodpecker, it doesn't despawn, as it can be picked up and used as a projectile (like the rock, just with better range), but when it is falling, it can hurt Tux.
-
-**Acorn**
-
-The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
-
-**Tentacle Monster**
-
-A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
-
-
-### Other
+### Icing-on-the-Cake Features
 
 **Ice floes**
 
@@ -476,9 +450,9 @@ Ice floes that respond to the gravity placed on top of them would add some goodn
 
 Tux should twirl and do a happy little thumbs up while the level ending is playing.
 
-**"3AM easter egg"**
+**Scripting events based off of a time of day**
 
-If the player plays a worlds between a certain time frame, certain scripting events can happen. E.g. Levels get darker, scary, etc. easter eggs like &#39;bridge stuck&#39;
+There should be support for adding scripts that only happen if the player is playing at a certain time of day.
 
 **After-a-while easter eggs/Idle-Graphics**
 
