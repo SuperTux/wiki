@@ -65,7 +65,7 @@ Walking Leaf is a bit smarter than the ordinary *Poison Ivy* because it does not
 Leafshot
 ========
 
-A plant that decided falling from a tree is not the most exciting part in life went ahead and hopes to one day be shot back into a tree. Sadly, the lack of hands makes it impossible for Leafshot to point the [cannon](https://github.com/SuperTux/supertux/wiki/Misc-Badguys#Cannon) upwards. Thus the cannon only shoots him out in a straight line until crashing.
+A plant that decided falling from a tree is not the most exciting part in life went ahead and hoped to one day be shot back into a tree. Sadly, the lack of hands makes it impossible for Leafshot to point the [cannon](https://github.com/SuperTux/supertux/wiki/Misc-Badguys#Cannon) upwards. Thus the cannon only shoots him out in a straight line until crashing.
 
 | Property       | Status |
 |----------------|--------|
