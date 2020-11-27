@@ -167,14 +167,14 @@ Ispy
 
 ![Ispy](img/badguy/icons/Ispy.png)
 
--   Appearance=A spying eye.
--   Behaviour=Static, looking towards the nearest player.
--   Squish=no
--   Buttjump=no
--   Freeze=yes
--   Burnable=no
-
 Ispy is an eye embedded  in a stone housing that works similar to a photoelectric sensor. When Tux can be seen by the eye it will activate a mechanism, like a door closing or a trap activating.
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | no     |
+| Buttjumpable   | no     |
+| Burnable       | no     |
+| Freezable      | no     |
 
 ![](images/ChristophEstart.png "ChristophEstart.png")
 
