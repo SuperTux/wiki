@@ -1,102 +1,39 @@
-| Badguy | Can appear in... | Introduction | icons |
-| ------ | ---------------- | ------------ | ----- |
-| [Igel](http://supertux.lethargik.org/wiki/Igel) | Forest | M2 |![Igel](img/badguy/icons/Igel.png) |
-| [Mole](http://supertux.lethargik.org/wiki/Mole) | Forest | M2 |![Mole](img/badguy/icons/Mole.png) |
-| [Poison Ivy](http://supertux.lethargik.org/wiki/Poison_Ivy) | Forest | M2 |![Poison Ivy](img/badguy/icons/Poisonivy.png)
-| [Snail](http://supertux.lethargik.org/wiki/Snail) | Forest | M2 |![Snail](img/badguy/icons/Snowsnail.png) |
-| [Spider](http://supertux.lethargik.org/wiki/Spider) | Forest | M2 |![spider](img/badguy/icons/Spidermite0.png) |
-| [Toad](http://supertux.lethargik.org/wiki/Toad) | Forest | M2 |![Toad](img/badguy/icons/Toad.png)  |
-| [Walking Leaf](http://supertux.lethargik.org/wiki/Walking_leaf) | Forest | M2 |![Walking Leaf](img/badguy/icons/Leaf.png)  |
-| [Walking Tree](http://supertux.lethargik.org/wiki/Walking_tree) | Forest | M2 |![Walking Tree](img/badguy/icons/Walk-left-6.png)  |
-| [Will-o-wisp](http://supertux.lethargik.org/wiki/Will-o-wisp) | Forest | M2 |![Will-o-wisp](img/badguy/icons/Willowisp.png)  |
-| [Zeekling](http://supertux.lethargik.org/wiki/Zeekling) | Forest | M2 |![Zeekling](img/badguy/icons/Zeekling.png)  |
+## Badguys of Rooted Forest
 
-Ispy
-====
-![Ispy](img/badguy/icons/Ispy.png)
+A badguy in SuperTux is a foe of Tux. They may not be "bad" in the way
+that a hedgehog isn't really bad, but they can certainly hurt Tux.
+Most of the badguys are creatures, like Snowballs with varying
+characteristics, but some are more like objects (Stalactite for
+example) or phenomena like Flame.
 
--   Appearance=A spying eye.
--   Behaviour=Static, looking towards the nearest player.
--   Squish=no
--   Buttjump=no
--   Freeze=yes
--   Burnable=no
+Tux will try to avoid approaching badguys if possible. If he runs into
+one or one drops on his head, he is hurt. When hurt Tux will lose a
+powerup or, if Tux has no powerups left, he will be killed.
 
-**Ispy** is a [badguy](badguy "wikilink") that can be found in all
-[worlds](worlds "wikilink") of *SuperTux*. It is a spying eye looking
-for the player. When the player can be seen by the eye, i.e. no other
-badguys or walls are in the way, an action is triggered, for example
-doors close or bridges are removed.
+Many of the badguys Tux can knock out by jumping on them and squishing
+them. Others are only stunned by this for a short while or are
+insusceptible to this and hurt Tux instead. As a rule of thumb,
+badguys with a spiky head or helmet can usually not be jumped on. For
+a list of badguys that can be squished take a look at the squishable
+badguys category. Most badguys can be killed with the fire- or
+iceflower power up.
 
-![](images/ChristophEstart.png "ChristophEstart.png")
+This page shall describe all enemies, old and new, in as much detail
+as possible. We also need to settle down on proper names for enemies,
+since currently there is a lot of confusion. If you want see on real
+names, click [here](real_badguys_names "wikilink").
 
-Dart Trap
-=========
+##### Further references
 
-<Template:NeedSound>
+* [Milestone 2 Design Document/Enemies](http://supertux.lethargik.org/wiki/Milestone_2_Design_Document/Enemies)
+* [Proposed badguys](http://supertux.lethargik.org/wiki/Proposed_Badguys)
+* [Badguy concept art](http://supertux.lethargik.org/wiki/Badguys_concept_art)
+* [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
+* [Bosses](http://supertux.lethargik.org/wiki/Bosses)
 
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A skull mounted to the wall.
--   Behaviour=Static. Shoots darts at regular intervals.
--   Squish=no
--   Buttjump=no
--   Freeze=no
--   Burnable=no
 
-The **Dart trap** is a [badguy](badguy "wikilink") in form of a skull.
-In regular intervals it shoots darts out of its mouth. The darts fly in
-a straight line, hurt [Tux](Tux "wikilink") and cannot be destroyed but
-must be avoided. The *Dart trap* is mostly found in castles in the
-[Forest](Forest "wikilink") world.
-
-### To be done
-
-<Template:outdated>
-
--   mechanical sound when dart is loaded
--   hissing sound when dart is fired
--   clicking sound when dart hits the wall
-
-:   i belive this is already implemented in milestone 1.5 & subversion
-    --[Disk](User#disk "wikilink") 18:51, 30 August 2007 (UTC)
-
-Mole
-===================
-
--   Name=Mole
--   Image=
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A molehill.
--   Behaviour=Static. From time to time, the mole peeks out.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=
-
-:   *This [badguy](badguy "wikilink") has been removed from the
-    [Milestone 2](Milestone_2 "wikilink") branch in
-    [6281](Template:Revision "wikilink").*
-
-The **Mole** is a [badguy](badguy "wikilink") found in the
-[Forest](Forest "wikilink"). He's usually underground, so that only his
-molehill can be seen. He throws out small rocks in random directions
-that can hurt [Tux](Tux "wikilink"). From time to time, he peeks out
-which is the time in which Tux can squish him by jumping on him.
-
-Poison\_Ivy
-===================
-
--   Name=Poison Ivy
--   Image=Poisonivy.png
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A green or red plant with teeth.
--   Behaviour=Walks around. Falls down from every ledge.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=0.3
+Poison Ivy
+==========
 
 **Poison Ivy** is a [badguy](badguy "wikilink") found in the
 [Forest](Forest "wikilink") of world 2. The plant roams around at the
@@ -113,184 +50,18 @@ ground, falling from platforms.
 -   [Walking leaf](Walking_leaf "wikilink")
 
 
-Igel
-===================
+Walking Leaf
+============
 
--   Name=Igel
--   Image=
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=Looks like a common hedgehog.
--   Behaviour=Walks around. Stays on platforms.
--   Squish=no
--   Buttjump=no
--   Freeze=yes
--   Burnable=yes
--   FirstVersion=
+**Walking Leaf** is a [badguy](badguy "wikilink") in the
+[Forest](Forest "wikilink") world. It is a bit smarter than the ordinary
+badguy because it does not fall off of platforms. The leaf will hurt
+[Tux](Tux "wikilink") on contact and can be killed the usual ways. Since
+it is more careful, it is walks a bit slower than the average badguy.
 
-**Igel** is a [badguy](badguy "wikilink") in the second world of
-*SuperTux*, the [Forest](Forest "wikilink"). Igel cannot be squished or
-[buttjumped](buttjump "wikilink") due to its spines but they can be shot
-with a [fireflower](fireflower "wikilink") when facing
-[Tux](Tux "wikilink").
 
-The term “Igel” is German for “hedgehog”, which is precisely why the
-*Igel* in the game look like hedgehogs.
-
-### Proposed behavior
-
-:   ''Note: The behavior described below differs from the behavior
-    currently implemented in the development version of *SuperTux*.''
-
-Although basically vulnerable to shots that hit the soft head, Igel will
-immediately curl up for some seconds as soon as being shot at, thus
-either absorbing or deflecting the shot.
-
-Upon reaching a ledge or when [Tux](Tux "wikilink") stands less than 5
-tiles behind Igel, Igel will slowly turn around, facing the camera and
-thus exposing the only weakness: When hit by a bullet while facing the
-camera, Igel will flip over for some seconds and can be squished by
-jumping on the exposed belly.
-
-Snail
-===================
-
--   Name=Snail
--   Image=Snowsnail.png
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A green snail with a purple helmet.
--   Behaviour=Moves around, falling from platforms.
--   Squish=yes
--   Buttjump=yes
--   Freeze=yes
--   Burnable=yes
--   FirstVersion=0.3
-
-**Snail** or **Slow Snail** is a [badguy](badguy "wikilink") found in
-the [Forest](Forest "wikilink"). When jumped upon, flips over. When
-flipped over, further jumps on it will kick it around, hurting
-everything in its way. Dies when [buttjumped](buttjump "wikilink") or
-after being squished for a number of times.
-
-### Design considerations
-
-The *Snow Snail* should be an enhanced counterpart to [Icy
-Island](Icy_Island "wikilink")'s [Mr.
-IceBlock](Mr._IceBlock "wikilink"). They currently share the same
-behaviour, i.e. Tux can jump on it to make it stop, carry it around
-and/or kick it to use it as a projectile. In addition to that, the Snow
-Snail could stop from time to time and excrete puddles of slime that
-cover the ground and disappear after a certain amount of time. Whenever
-Tux steps into such a puddle, his movement is slowed down and he cannot
-jump until he slowly worked his way out of the trap or the puddle
-disappears by itself.
-
-The Snow Snail should move slower than Mr IceBlock and speed up whenever
-Tux is in its visible area, especially when he's trapped in a slime
-puddle.
-
-Since the Snail is used in the forest world, the name might be changed
-to Slow Snail
-
--   Proposed modified behaviour:
-    -   When flipped over and bumped horizontally, the Snail will just
-        flip back on its feet
-    -   When flipped over and jumped on one end, the Snail will fly not
-        only horizontally but also vertically
-    -   When it hits a wall while flying it will turn back on its feet
-
-Walking\_totem
-===================
-
--   Name=Walking totem
--   Image=Walking1.png
--   FoundIn=*none yet*
--   Appearance=A walking totem.
--   Behaviour=Walks around. Falls down from all cliffs.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=Milestone 3
-
-:   *This [badguy](badguy "wikilink") has been removed from the
-    [Milestone 2](Milestone_2 "wikilink") branch in
-    [6280](Template:Revision "wikilink").*
-
-**Walking totem** is a [badguy](badguy "wikilink") that's not widely
-used. It may be used in [Forest](Forest "wikilink") levels in the
-future, though.
-
-There is some “stacking” and “carrying” code in the SVN repository,
-which is probably a preparation for the functionality described below.
-Currently, only one segment is implemented – layered totems squish the
-ones below them.
-
-### Design considerations
-
-<Template:Proposed>
-
-![Walking Totem](images/Totem.jpg "Walking Totem")
-
-Walking Totem Poles could be especially interesting, as they generally
-have many faces... Perhaps as Tux jumps on them it breaks apart into
-smaller totems each with a different face.
-
-This or a big Walking Tree could be used as a Boss.
-
-Behaviour: Walks, might spit electricity or fire
-
-Look: A multifaced Totem Pole
-
-Hurt Tux: spitting, run over Tux
-
-Hurt it: jump at it to break into smaller Totems which can be jumped on
-or spat at.
-
-![Walking tree](images/Littletrees.png "Walking tree")
-
-### Comments
-
--   It could be interesting to have the Walking Totem only loose its
-    topmost face when Tux jumps on it
--   Yeah, and it would be even better if Tux has to butt-jump.
--   that would be very hard!
--   the walking tree looks so good, better than a coming-from-nowhere
-    totem!
--   The Walking Totem looses only its topmost face when Tux jumps NORMAL
-    on it, and it looses more faces when Tux butt-jump on it
--   maybe each face shoots, and when one is squashed, it will not shoot.
-
-Toad
-===================
-
--   Name=Toad
--   Image=
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=Poisonous Toad
--   Behaviour=Takes long leaps at regular intervals.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=
-
-**Toad** is a [badguy](badguy "wikilink") found in the
-[Forest](Forest "wikilink"). It follows [Tux](Tux "wikilink") by jumping
-around in large leaps. Can be squished by jumping on it.
-
-Walking\_tree
-===================
-
--   Name=Walking tree
--   Image=Walk-left-6.png
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=A walking tree with eyes.
--   Behaviour=Walks around. Stays on platforms.
--   Squish=yes
--   Buttjump=yes
--   Freeze=yes
--   Burnable=yes
--   FirstVersion=0.3
+Mr. Tree (walkingtree)
+======================
 
 **Walking tree** (sometimes also **Mr. Tree**) is a
 [badguy](badguy "wikilink") in the [Forest](Forest "wikilink"). When
@@ -356,64 +127,174 @@ Tux can stand on to be carried around. This could serve a purpose if
 there was something that badguys could walk through but Tux couldn't.
 
 
-Walking\_leaf
-===================
+Snail
+=====
 
--   Name=Walking leaf
--   Image=Leaf.png
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=Reddish version of [Poison Ivy](Poison_Ivy "wikilink").
--   Behaviour=Walks around. Stays on platforms.
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=
+**Snail** or **Slow Snail** is a [badguy](badguy "wikilink") found in
+the [Forest](Forest "wikilink"). When jumped upon, flips over. When
+flipped over, further jumps on it will kick it around, hurting
+everything in its way. Dies when [buttjumped](buttjump "wikilink") or
+after being squished for a number of times.
 
-**Walking Leaf** is a [badguy](badguy "wikilink") in the
-[Forest](Forest "wikilink") world. It is a bit smarter than the ordinary
-badguy because it does not fall off of platforms. The leaf will hurt
-[Tux](Tux "wikilink") on contact and can be killed the usual ways. Since
-it is more careful, it is walks a bit slower than the average badguy.
+### Design considerations
+
+The *Snow Snail* should be an enhanced counterpart to [Icy
+Island](Icy_Island "wikilink")'s [Mr.
+IceBlock](Mr._IceBlock "wikilink"). They currently share the same
+behaviour, i.e. Tux can jump on it to make it stop, carry it around
+and/or kick it to use it as a projectile. In addition to that, the Snow
+Snail could stop from time to time and excrete puddles of slime that
+cover the ground and disappear after a certain amount of time. Whenever
+Tux steps into such a puddle, his movement is slowed down and he cannot
+jump until he slowly worked his way out of the trap or the puddle
+disappears by itself.
+
+The Snow Snail should move slower than Mr IceBlock and speed up whenever
+Tux is in its visible area, especially when he's trapped in a slime
+puddle.
+
+Since the Snail is used in the forest world, the name might be changed
+to Slow Snail
+
+-   Proposed modified behaviour:
+    -   When flipped over and bumped horizontally, the Snail will just
+        flip back on its feet
+    -   When flipped over and jumped on one end, the Snail will fly not
+        only horizontally but also vertically
+    -   When it hits a wall while flying it will turn back on its feet
 
 
-Will-o-wisp
-===================
+Igel
+====
 
--   Name=Will-o-wisp
--   Image=Willowisp.png
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=Small green patch of light
--   Behaviour=Moves towards and follows [Tux](Tux "wikilink").
--   Squish=no
--   Buttjump=no
--   Freeze=no
--   Burnable=no
--   FirstVersion=
+**Igel** is a [badguy](badguy "wikilink") in the second world of
+*SuperTux*, the [Forest](Forest "wikilink"). Igel cannot be squished or
+[buttjumped](buttjump "wikilink") due to its spines but they can be shot
+with a [fireflower](fireflower "wikilink") when facing
+[Tux](Tux "wikilink").
 
-The **Will-o-wisp** is a mean little [badguy](badguy "wikilink") found
-in the haunted regions of the [Forest](Forest "wikilink"). When
-[Tux](Tux "wikilink") comes close, it will start to follow him slowly.
-Once it reaches Tux, he will be teleported to another, possibly
-dangerous part of the level. If Tux manages to get out of reach of the
-*Will-o-wisp*, it will stop following him.
+The term “Igel” is German for “hedgehog”, which is precisely why the
+*Igel* in the game look like hedgehogs.
 
+### Proposed behavior
+
+:   ''Note: The behavior described below differs from the behavior
+    currently implemented in the development version of *SuperTux*.''
+
+Although basically vulnerable to shots that hit the soft head, Igel will
+immediately curl up for some seconds as soon as being shot at, thus
+either absorbing or deflecting the shot.
+
+Upon reaching a ledge or when [Tux](Tux "wikilink") stands less than 5
+tiles behind Igel, Igel will slowly turn around, facing the camera and
+thus exposing the only weakness: When hit by a bullet while facing the
+camera, Igel will flip over for some seconds and can be squished by
+jumping on the exposed belly.
+
+
+Jumpy (woodjumpy)
+=================
+
+![](images/SnowJumpySprite.png)
+
+Jumpy is a wooden barrel with metal spikes attached to it. He jumps up and down and stays stationary on the same position. His viewing direction follows Tux. The simplest way of avoiding him is usually to run below him or jump over him at the right time.
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | no     |
+| Buttjumpable   | no     |
+| Burnable       | yes    |
+| Freezable      | yes    |
+
+Fish
+====
+
+![](images/IceFish.png "fig:IceFish.png")
+
+Already in the code, but not
+much used in Milestone1 Levels. This badguy shouldn't be used in
+Icyland, it is a forest enemy.
+
+![Fish](img/badguy/icons/FishBlue.png)
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | no     |
+| Buttjumpable   | no     |
+| Burnable       | yes    |
+| Freezable      | yes    |
+
+**Fish** is a [badguy](badguy "wikilink") that jumps out of water. When
+[Tux](Tux "wikilink") has to cross the water he has to pay attention to
+the fish so he doesn't get caught.
+
+### Proposed changes
+
+<Template:Proposed>
+
+Maybe a different color can be used in the forest world than in the
+[Icyisland](Icyisland "wikilink").
+
+Also, possibly there should be a few different types of fish:
+
+1.  Standard up-and-down movement
+2.  Curving Jump landing in a different place, going back and forth
+3.  Archer Fish
+    -   Stays below the surface of the water, but follows tux when he is
+        on platforms above
+    -   Shoots high pressure water which can break blocks and knock Tux
+        into water where the archer fish can get him
+4.  Swordfish
+    -   Curving Jump following Tux and jumping higher when there is a
+        chance to get Tux
+
+### Comments
+
+> [[Grumbel|User#grumbel]]: Doesn't look dangerous enough, not obvious
+> if he can be jumped up on. Maybe make it bigger and actually eat Tux.
+
+
+Mole
+====
+
+The **Mole** is a [badguy](badguy "wikilink") found in the
+[Forest](Forest "wikilink"). He's usually underground, so that only his
+molehill can be seen. He throws out small rocks in random directions
+that can hurt [Tux](Tux "wikilink"). From time to time, he peeks out
+which is the time in which Tux can squish him by jumping on him.
+
+
+Owl
+===
+
+![](images/Owl.png "fig:Owl.png")
+
+A flying enemy that can carry things around and let them drop on Tux. One thing it is throwing might be *SkyDive*.
+
+Some initial code is available from the [SVN](SVN "wikilink") repository since [6558](Template:Revision "wikilink"). Graphics are still pretty much a to-do. —[octo](User#octo "wikilink") 17:25, 6 March 2010 (UTC)
+
+![Owl](img/badguy/icons/Owl.png)
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | yes    |
+| Buttjumpable   | yes    |
+| Burnable       | yes    |
+| Freezable      | no     |
+
+The Owl is a [badguy](badguy "wikilink") from the [Milestone 2
+Design Document](Milestone_2_Design_Document "wikilink"). It flies high
+up in the air and carries badguys around. When Tux is below it, it will
+drop whatever it is carrying.
+
+This badguy is in the [SVN](SVN "wikilink") repository since
+[6558](Template:Revision "wikilink"). The graphics for this badguy still
+need to be improved. The graphics currently in SVN are colorized
+versions of the concept graphics, basically.
 
 
 Zeekling
 ========
-
--   Name=Zeekling
--   Image=
--   FoundIn=[Forest](Forest "wikilink")
--   Appearance=Purple, winged critter
--   Behaviour=Flies left and right high above ground. Dives to hit
-    [Tux](Tux "wikilink").
--   Squish=yes
--   Buttjump=yes
--   Freeze=no
--   Burnable=yes
--   FirstVersion=0.3
 
 **Zeekling** is a [badguy](badguy "wikilink") found in the
 [Forest](Forest "wikilink"). It flies left and right in a straight path,
@@ -424,10 +305,99 @@ underneath platform and other solid blocks.
 Should be removed from Forest World for now.
 
 
-Boss: Ghost Tree
-================
+Skullyhop
+=========
 
-The ghost tree is planned as the end boss for the forest world. It is not added yet but a incomplete version could be found in the test collection in contributed levels.
+![](img/badguy/icons/Standing-0.png)
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | yes    |
+| Buttjumpable   | yes    |
+| Burnable       | yes    |
+| Freezable      | yes    |
+
+**Skullyhops** jump around and chase Tux.
+
+![Iced skully hop.](images/Skullyhop-iced-left.png "Iced skully hop.")
+
+
+Dart Trap
+=========
+
+-   FoundIn=[Forest](Forest "wikilink")
+-   Appearance=A skull mounted to the wall.
+-   Behaviour=Static. Shoots darts at regular intervals.
+-   Squish=no
+-   Buttjump=no
+-   Freeze=no
+-   Burnable=no
+
+The **Dart trap** is a [badguy](badguy "wikilink") in form of a skull.
+In regular intervals it shoots darts out of its mouth. The darts fly in
+a straight line, hurt [Tux](Tux "wikilink") and cannot be destroyed but
+must be avoided. The *Dart trap* is mostly found in castles in the
+[Forest](Forest "wikilink") world.
+
+### To be done
+
+<Template:outdated>
+
+-   mechanical sound when dart is loaded
+-   hissing sound when dart is fired
+-   clicking sound when dart hits the wall
+
+:   i belive this is already implemented in milestone 1.5 & subversion
+    --[Disk](User#disk "wikilink") 18:51, 30 August 2007 (UTC)
+
+
+Spidermite
+==========
+
+-   Image=Spidermite0.png
+-   FoundIn=[Forest](Forest "wikilink")
+-   Appearance=A spider hanging from the ceiling.
+-   Behaviour=Moves up and down.
+-   Squish=yes
+-   Buttjump=yes
+-   Freeze=no
+-   Burnable=yes
+
+**Spider** is a [badguy](badguy "wikilink") available in SVN. It flies
+up and down vertically, hurting Tux on contact, although Tux can squish
+him like a [Snowball](Snowball "wikilink"). It is themed to appear in
+the [Forest](Forest "wikilink") world but is not (widely) used yet.
+
+
+Livefire
+========
+
+...
+
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | no     |
+| Buttjumpable   | no     |
+| Burnable       | no     |
+| Freezable      | yes    |
+
+
+Will-o-wisp
+===========
+
+The **Will-o-wisp** is a mean little [badguy](badguy "wikilink") found
+in the haunted regions of the [Forest](Forest "wikilink"). When
+[Tux](Tux "wikilink") comes close, it will start to follow him slowly.
+Once it reaches Tux, he will be teleported to another, possibly
+dangerous part of the level. If Tux manages to get out of reach of the
+*Will-o-wisp*, it will stop following him.
+
+
+Ghost Tree
+==========
+
+The ghost tree is the planned boss enemy that awaits Tux in the second castle. It is not fully implemented yet and only an unfinished version of it and its graphics incomplete can be found in the game. For more information on bosses, see [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses#Ghost_Tree).
 
 ![](images/Forestboss.jpg "forestboss.jpg")
 
@@ -445,4 +415,40 @@ Less blue, more brown
 
 ![](images/Forestboss2.png "Forestboss2.png")
 
-<Category:Boss>
+List of rooted forest's badguys as of SuperTux 0.6.2
+----------------------------------------------------
+
+-   Poison Ivy
+-   Walking Leaf
+-   Leafshot
+-   Snail
+-   Igel
+-   Jumpy
+-   Fish
+-   Mole
+-   Owl
+-   Zeekling
+-   Skullyhop
+-   Dart Trap
+-   Spidermite
+-   Livefire
+-   Will-o-wisp
+-   Ghost Tree
+
+List of rooted forest's badguys in SuperTux 0.1.3
+-------------------------------------------------
+
+-   Fish
+-   Jumpy
+
+
+See also
+--------
+
+-   [Proposed Badguys](https://github.com/SuperTux/supertux/wiki/Current-Design-Document)
+-   [Badguys concept art](Badguys_concept_art "wikilink")
+-   [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses)
+-   [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
+
+[Category:For Users](Category:For_Users "wikilink") <Category:Design> <Category:Badguy>
+
