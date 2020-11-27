@@ -1,4 +1,4 @@
-## Badguys of Icy Island
+## Miscellaneous Badguys of SuperTux
 
 A badguy in SuperTux is a foe of Tux. They may not be "bad" in the way
 that a hedgehog isn't really bad, but they can certainly hurt Tux.
@@ -107,6 +107,21 @@ The Gold Bomb has the same behavior as *Mr. Bomb*. The only difference being tha
 | Freezable      | yes    |
 
 
+SkyDive
+=======
+
+![](images/BombFish.png "fig:BombFish.png")
+
+A Skydive is a bomb in the shape of a fish that is usually carried around and dropped by *[Owl](https://github.com/SuperTux/supertux/wiki/Forest-Badguys#Owl)* but can also spawn from droppers. They fall down to the ground once dropped and explode.
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | yes    |
+| Buttjumpable   | yes    |
+| Burnable       | yes    |
+| Freezable      | no     |
+
+
 Flame
 =====
 
@@ -146,6 +161,24 @@ Despite its cannon form, there also exists a dropper and invisible variant.
 > to discard the current `Dispenser` class and replace it with a Canon
 > class."
 
+
+Ispy
+====
+
+![Ispy](img/badguy/icons/Ispy.png)
+
+-   Appearance=A spying eye.
+-   Behaviour=Static, looking towards the nearest player.
+-   Squish=no
+-   Buttjump=no
+-   Freeze=yes
+-   Burnable=no
+
+Ispy is an eye embedded  in a stone housing that works similar to a photoelectric sensor. When Tux can be seen by the eye it will activate a mechanism, like a door closing or a trap activating.
+
+![](images/ChristophEstart.png "ChristophEstart.png")
+
+
 List of miscellaneous badguys as of SuperTux 0.6.2
 -------------------------------------------------
 
@@ -153,8 +186,10 @@ List of miscellaneous badguys as of SuperTux 0.6.2
 -   Shortfuse
 -   Haywire
 -   Gold Bomb
+-   Skydive
 -   Flame
 -   Cannon
+-   Ispy
 
 List of icy island's badguys in SuperTux 0.1.3
 ----------------------------------------------
