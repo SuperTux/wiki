@@ -220,7 +220,7 @@ Another very basic enemy, but unlike the *Mr. Snowball* or *Mr. Iceblock* he doe
 Ice Crusher
 ===========
 
-![](img/badguy/icons/icecrusher.png)
+![](img/badguy/icons/icecrusher_krush.png "Krush") ![](img/badguy/icons/icecrusher_krosh.png "Krosh")
 
 Ice Crushers are enemies that are hanging on the ceiling or walls. When Tux gets within one tile they will attempt to crush Tux into the nearest wall or floor. After they hit a wall, they slowly drift back up. On this “return trip,” Tux may safely climb on top of them and hitch a ride. When in their resting position, their eyes shall follow Tux.
 
