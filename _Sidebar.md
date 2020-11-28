@@ -20,6 +20,7 @@ Game Mechanics
 * [[Concept Art]]
 * [[Icy Badguys]]
 * [[Forest Badguys]]
+* [[Misc Badguys]]
 * [[Bosses]]
 * [[Worlds]]
 
