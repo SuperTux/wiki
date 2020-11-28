@@ -9,7 +9,7 @@ Note: For some badguys, we still need to settle down on proper names (e.g. *Mrs.
 Mr. Snowball
 ========
 
-![](img/badguy/icons/Snowball.gif)
+![](img/badguy/icons/snowball.gif)
 
 Mr. Snowball is a straight forward walking enemy, when reaching an edge he will fall down and continue walking on the platform below. Jumping on him will squish him and thus kill him.
 
@@ -24,7 +24,7 @@ Mr. Snowball is a straight forward walking enemy, when reaching an edge he will 
 Mrs. Snowball (smartball)
 =========================
 
-![](images/SmartSnowballSprite.png)
+![](img/badguy/icons/smartball.gif)
 
 Mrs. Snowball behaves like *Mr. Snowball*, but instead of walking off a platform she will turn around when reaching the edge.
 
@@ -39,7 +39,7 @@ Mrs. Snowball behaves like *Mr. Snowball*, but instead of walking off a platform
 Captain Snowball
 ================
 
-![](img/badguy/icons/Captain_Snowball.png)
+![](img/badguy/icons/captain_snowball.gif)
 
 A snowball who claims to be captain of a ship despite not having set foot on one himself. Captain Snowball behaves just like *Mr. Snowball* but once faced with a slope or the edge of a platform, he will attempt to jump over it. Sometimes he succeseds, sometimes he doesn't.
 
@@ -54,7 +54,7 @@ A snowball who claims to be captain of a ship despite not having set foot on one
 Bouncing Snowball
 =================
 
-![](img/badguy/icons/Bouncingsnowball.png)
+![](img/badguy/icons/bouncing_snowball.gif)
 
 A leg-less snowball with eyes that moves forward in a constant bounce motion like a ball. It's jump height is big enough that Tux can pass under him safely, while making it difficult to jump on him or (potentially) outright impossible when he is at the highest point.
 
@@ -79,7 +79,7 @@ A leg-less snowball with eyes that moves forward in a constant bounce motion lik
 Flying Snowball
 ===============
 
-![](img/badguy/icons/Flyingsnowball.png)
+![](img/badguy/icons/flying_snowball.gif)
 
 A snowball with a propeller underneath and a pilot hat and goggles. Flying Snowball, as it name suggests, flies up and down constantly.
 
@@ -94,7 +94,7 @@ A snowball with a propeller underneath and a pilot hat and goggles. Flying Snowb
 Jumpy (snowjumpy)
 =================
 
-![](images/SnowJumpySprite.png)
+![](img/badguy/icons/snowjumpy.png)
 
 Jumpy is an armored snowball, wearing a spiky helmet, who jumps up and down and stays stationary on the same position. His viewing direction follows Tux. The simplest way of avoiding him is usually to run below him or jump over him at the right time.
 
@@ -117,7 +117,7 @@ Jumpy is an armored snowball, wearing a spiky helmet, who jumps up and down and 
 Spiky (armoredsnowball)
 =======================
 
-![](images/SpikySprite.png) ![](img/badguy/icons/Sleeping-left.png "Sleeping Spiky")
+![](img/badguy/icons/spiky.gif) ![](img/badguy/icons/sleeping_spiky.png "Sleeping Spiky")
 
 Spiky behaves just like *Mr. Snowball*, but he carries a spiky helmet which makes him invulnerable against jump attacks as well as hurting Tux. Sometimes, they can  be found asleep waiting for their enemy to approach. Once Tux is in sight Spiky wakes up and behave the same as always.
 
@@ -132,7 +132,7 @@ Spiky behaves just like *Mr. Snowball*, but he carries a spiky helmet which make
 Mr. Iceblock
 ============
 
-![](img/badguy/icons/Mr_iceblock.gif)
+![](img/badguy/icons/iceblock.gif)
 
 Like *Mr. Snowball*, Mr. Iceblock is a simple straight forward enemy. He will not stay on platforms. When jumped upon he will get knocked out and become a portable item that one can use to throw or be kicked at other enemies. Continually squishing Mr. Iceblock will eventually kill him. Since version 0.3, he only walks off a cliff if there is something safe on which he can land.
 
@@ -154,7 +154,7 @@ When carrying Mr. IceBlock, Tux is granted a “get out of jail free” card: if
 Mrs. Iceblock (smartblock)
 ==========================
 
-![](img/badguy/icons/Mr_iceblock.gif)
+![](img/badguy/icons/smartblock.gif)
 
 Similar to Mrs. Snowball, Mrs. Iceblock behaves as Mr. Iceblock but will turn around when reaching the edge of a platform instead of walking off.
 
@@ -169,7 +169,7 @@ Similar to Mrs. Snowball, Mrs. Iceblock behaves as Mr. Iceblock but will turn ar
 Snowman
 =======
 
-![](images/SnowmanSprite.png)
+![](img/badguy/icons/snowman.gif)
 
 A snowman is build out of a base body combined with a *Mr. Snowball* as its head, if the body is destroyed, the *Mr. Snowball* on top will fall out and continue moving around. When attacked with a buttjump both the body and the head are defeated.
 
@@ -184,7 +184,7 @@ A snowman is build out of a base body combined with a *Mr. Snowball* as its head
 Kamikaze Snowball (snowshot)
 ============================
 
-![](img/badguy/icons/Kamikaze-left2.png)
+![](img/badguy/icons/kamikaze_snowball.gif)
 
 The Kamikaze Snowball shoots out of a [cannon](https://github.com/SuperTux/supertux/wiki/Misc-Badguys#Cannon) and flies in a straight line until crashing. He is very angry, or very “wise”, and so can levitate through the force of his will. He is so concentrated on this, however, that he cannot turn or adjust his velocity.
 
@@ -199,7 +199,7 @@ The Kamikaze Snowball shoots out of a [cannon](https://github.com/SuperTux/super
 Crystallo
 =========
 
-![](images/Crystallo.png "Crystallo.png")
+![](img/badguy/icons/crystallo.gif)
 
 Another very basic enemy, but unlike the *Mr. Snowball* or *Mr. Iceblock* he doesn't walk around in a straight pattern, but walks forward and backward around a fixed position.
 
@@ -220,7 +220,7 @@ Another very basic enemy, but unlike the *Mr. Snowball* or *Mr. Iceblock* he doe
 Ice Crusher
 ===========
 
-![](img/badguy/icons/Iceblock.png)
+![](img/badguy/icons/icecrusher.png)
 
 Ice Crushers are enemies that are hanging on the ceiling or walls. When Tux gets within one tile they will attempt to crush Tux into the nearest wall or floor. After they hit a wall, they slowly drift back up. On this “return trip,” Tux may safely climb on top of them and hitch a ride. When in their resting position, their eyes shall follow Tux.
 
@@ -237,7 +237,7 @@ There are two kinds of Ice Crushers, differentiated by their size: Krush (2x2 ti
 Stalactite
 ==========
 
-![](images/Falling.png)
+![](img/badguy/icons/stalactite.png)
 
 The stalactite stays stuck to the ceiling until Tux walks near it, then begins shaking. After a bit of shaking, it falls down in an attempt to hurt Tux, while also harming badguys that get in the way.
 
