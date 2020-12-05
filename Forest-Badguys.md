@@ -332,6 +332,7 @@ List of rooted forest's badguys as of SuperTux 0.6.2
 -   Jumpy
 -   Fish
 -   Mole
+-   Rock Crusher
 -   Owl
 -   Zeekling
 -   Skullyhop
