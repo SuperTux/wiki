@@ -187,6 +187,21 @@ The Mole is usually found in the underground or near a cave, inside his molehill
 | Freezable      | yes    |
 
 
+Rock Crusher
+============
+
+![](img/badguy/icons/rock_crusher.png "Rock") ![](img/badguy/icons/moss_crusher.png "Moss")
+
+Rock Crushers and their mossy counterpart are enemies that are hanging on the ceiling or walls. When Tux gets within one tile they will attempt to crush Tux into the nearest wall or floor. After they hit a wall, they slowly drift back up. On this “return trip,” Tux may safely climb on top of them and hitch a ride. When in their resting position, their eyes shall follow Tux.
+
+| Property       | Status |
+|----------------|--------|
+| Squishable     | no     |
+| Buttjumpable   | no     |
+| Burnable       | no     |
+| Freezable      | no     |
+
+
 Owl
 ===
 
