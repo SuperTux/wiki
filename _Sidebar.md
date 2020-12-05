@@ -18,9 +18,7 @@ Game Mechanics
 
 * [[Actions]]
 * [[Concept Art]]
-* [[Icy Badguys]]
-* [[Forest Badguys]]
-* [[Misc Badguys]]
+* [[Badguys]]
 * [[Bosses]]
 * [[Worlds]]
 
