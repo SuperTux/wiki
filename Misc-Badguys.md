@@ -9,7 +9,7 @@ Note: For some badguys, we still need to settle down on proper names (e.g. *Cann
 Mr. Bomb
 ========
 
-![](img/badguy/icons/Mrbomb.png)
+![](img/badguy/icons/mr_bomb.gif)
 
 The base behavior of Mr. Bomb is walking around forward but turns around when reaching the edge. When hit he doesn't get squished, but knocked out and his fuse starts burning. While the fuse is burning he doesn't move, but instead can be carried around like an iceblock. After ~5 seconds he then explodes, killing nearby badguys as well. The presence of other Mr. Bombs during explosion may cause a chain reaction of explosions. He also explodes if he is hit by one of Tux's fireballs, but if hit by an iceball, he freezes without exploding.
 
@@ -46,7 +46,7 @@ Shortfuse is a small version of Mr. Bomb, who most commonly approaches Tux in gr
 Haywire
 =======
 
-![](img/badguy/icons/MrBombCrazy.png)
+![](img/badguy/icons/haywire.gif)
 
 A purple walking bomb behaving just like Mr. Bomb, happy to be around until touched without its consent. When jumped on Haywire his fuse gets activated. This causes him to start chasing Tux at a much faster speed until he explodes. He can't be carried around but jumping on him when the fuse is burning will cause Tux to bounce and
 Haywire to be stunned for a very short moment (fraction of a second). When shot with a fireball Haywire explodes immediately.
@@ -68,7 +68,7 @@ Haywire to be stunned for a very short moment (fraction of a second). When shot 
 Gold Bomb
 ========
 
-![](img/badguy/icons/Mrbomb.png)
+![](img/badguy/icons/gold_bomb.gif)
 
 The Gold Bomb has the same behavior as *Mr. Bomb*. The only difference being that upon exploding 10 coins will drop.
 
@@ -98,7 +98,7 @@ A Skydive is a bomb in the shape of a fish that is usually carried around and dr
 Flame
 =====
 
-![](images/Flame.png "Flame") ![](images/Flame.png "Ice Flame") ![](images/Flame.png "Ghost Flame")
+![](img/badguy/icons/flame.png "Flame") ![](img/badguy/icons/iceflame.png "Ice Flame") ![](img/badguy/icons/ghostflame.png "Ghost Flame")
 
 Flames are glowing spheres that rotate around in a circle at a set radius, hurting Tux when he gets too close. They are usually found in castles. Flames are mostly indestructible. However, while only the ghost flame variant is fully indestructible the normal flame can be destroyed with an ice ball and the ice flame variant with a fire ball. 
 
