@@ -1,4 +1,4 @@
-This page is a list of people that have at one point in time or another contributed to SuperTux. It's not necessarily complete or in any particular order:
+This page is a list of people that have at one point in time or another contributed to SuperTux and were part of its development team.
 
 
 Current Members of the SuperTux Development Team
