@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 Summary
 -------
 
@@ -8,37 +6,39 @@ The `Sector` class provides basic controlling functions for the current sector.
 Instances
 ---------
 
-An instance under sector.settings is available from scripts and the console.
+An instance under `sector.settings` is available from scripts and the console.
 
 Methods
 -------
 
 <table>
-<thead>
-<tr class="header">
-<th><p>float get_ambient_light_red()<br />
-float get_ambient_light_green()<br />
-float get_ambient_light_blue()</p></th>
-<th><p>Returns the specified channel of the ambient light color.</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>set_ambient_light(float red, float green, float blue)</p></td>
-<td><p>Sets the sector's ambient light to the specified color.</p></td>
-</tr>
-<tr class="even">
-<td><p>set_gravity(float gravity)</p></td>
-<td><p>Sets the sector's gravity.</p></td>
-</tr>
-</tbody>
+ <tr>
+  <td><code>fade_to_ambient_light(float red, float green, float blue, float
+  fadetime)</code></td>
+  <td>Fades to specified ambient light color in <var>fadetime</var> seconds.</td>
+ </tr>
+ <tr>
+  <td><code>float get_ambient_red()</code></td>
+  <td rowspan=3>Returns the specified channel of the ambient light color.</td>
+ </tr>
+ <tr><td><code>float get_ambient_green()</code></td></tr>
+ <tr><td><code>float get_ambient_blue()</code></td></tr>
+ </tr>
+ <tr>
+  <td><code>set_ambient_light(float red, float green, float blue)</code></td>
+  <td>Sets the sector's ambient light to the specified color.</td>
+ </tr>
+ <tr>
+  <td><code>set_gravity(float gravity)</code></td>
+  <td>Sets the sector's gravity.</td>
+ </tr>
+ <tr>
+  <td><code>set_music(string filename)</code></td>
+  <td>Sets the sector's music (full filename relative to the music folder).</td>
+ </tr>
 </table>
 
 Constants
 ---------
 
 None
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

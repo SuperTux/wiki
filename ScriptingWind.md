@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 Summary
 -------
 
@@ -8,7 +6,7 @@ A Wind object that was given a name can be controlled by scripts.
 Instances
 ---------
 
-A `Wind` is instantiated by a definition in the level file. It can be accessed by scripts using its `name` and from the console as `sector.`*`name`*.
+A `Wind` is instantiated by a definition in the level file. It can be accessed by scripts using its `name` and from the console as <code>sector.<var>name</var></code>.
 
 ### Example
 
@@ -37,15 +35,12 @@ Console access:
 Methods
 -------
 
-| start() | start blowing |
-|---------|---------------|
-| stop()  | stop blowing  |
+| Method    | Explanation   |
+|-----------|---------------|
+| `start()` | start blowing |
+| `stop()`  | stop blowing  |
 
 Constants
 ---------
 
 None
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

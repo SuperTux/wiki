@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 Summary
 -------
 
@@ -8,7 +6,7 @@ A `LevelTime` object that is given a name can be controlled by scripts.
 Instances
 ---------
 
-A `LevelTime` object is instantiated by a definition in the level file. It can be accessed by scripts using its `name` and from the console as `sector.`*`name`*.
+A `LevelTime` object is instantiated by a definition in the level file. It can be accessed by scripts using its `name` and from the console as <code>sector.<var>name</var></code>.
 
 ### Example
 
@@ -36,17 +34,14 @@ This will stop the time.
 Methods
 -------
 
-| start()                          | Resumes the countdown (assuming it isn't already started, in which case it does nothing) |
-|----------------------------------|------------------------------------------------------------------------------------------|
-| stop()                           | Pauses the countdown (assuming it isn't already stopped, in which case it does nothing)  |
-| float get\_time()                | Returns the number of seconds left on the clock                                          |
-| void set\_time(float time\_left) | Changes the number of seconds left on the clock                                          |
+Method                      | Explanation
+----------------------------|---------------------------------------------------
+`start()`                   | Resumes the countdown (assuming it isn't already started, in which case it does nothing).
+`stop()`                    | Pauses the countdown (assuming it isn't already stopped, in which case it does nothing).
+`float get_time()`          | Returns the number of seconds left on the clock.
+`set_time(float time_left)` | Changes the number of seconds left on the clock.
 
 Constants
 ---------
 
 None
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

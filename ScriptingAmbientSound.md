@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 Summary
 -------
 
@@ -8,7 +6,7 @@ An ambient sound that was given a name can be controlled by scripts.
 Instance
 --------
 
-An `AmbientSound` is instantiated by placing a definition inside a level. It can then be accessed by its `name` from a script or via `sector.`*`name`* from the console.
+An `AmbientSound` is instantiated by placing a definition inside a level. It can then be accessed by its `name` from a script or via <code>sector.<var>name</var></code> from the console.
 
 ### Example
 
@@ -20,10 +18,10 @@ In the level file:
       (y 20)
       (width 100)
       (height 51)
-      (distance_factor 0.5)
+      (distance_factor 0)
       (distance_bias 0)
-      (sample "waterfall.wav")
-      (volume 1)
+      (sample "sounds/waterfall.wav")
+      (volume 100)
     )
 
 In a script:
@@ -37,16 +35,13 @@ In the console:
 Methods
 -------
 
-| set\_pos(float x, float y) | Sets the position of the ambient sound |
-|----------------------------|----------------------------------------|
-| get\_pos\_x()              | Returns the x coordinate.              |
-| get\_pos\_y()              | Returns the y coordinate.              |
+| Method                      | Explanation                             |
+|---------------------------- |---------------------------------------- |
+| `set_pos(float x, float y)` | Sets the position of the ambient sound. |
+| `float get_pos_x()`         | Returns the x coordinate.               |
+| `float get_pos_y()`         | Returns the y coordinate.               |
 
 Constants
 ---------
 
 -   *None*
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

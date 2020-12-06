@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 Summary
 -------
 
@@ -8,7 +6,7 @@ A Candle object that was given a name can be controlled by scripts.
 Instances
 ---------
 
-A `Candle` is instantiated via a definition in a level. It can be accessed by its `name` in scripts and via `sector.`*`name`* in the console.
+A `Candle` is instantiated via a definition in a level. It can be accessed by its `name` in scripts and via <code>sector.<var>name</var></code> in the console.
 
 ### Example
 
@@ -32,15 +30,12 @@ Console usage:
 Methods
 -------
 
-| get\_burning()             | returns true if candle is lighted            |
-|----------------------------|----------------------------------------------|
-| set\_burning(bool burning) | true: light candle, false: extinguish candle |
+Method                      | Explanation
+----------------------------|---------------------------------------------------
+`bool get_burning()`        | Returns true if candle is lighted.
+`set_burning(bool burning)` | Lights candle if true; extinguishes candle if false.
 
 Constants
 ---------
 
 None
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")

@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 Summary
 -------
 
@@ -8,7 +6,7 @@ A [Thunderstorm](Thunderstorm "wikilink") object that was given a name can be co
 Instances
 ---------
 
-A `Thunderstorm` is initialised by a definition in the level. It can be accessed via its `name` in scripts and `sector.`*`name`* in the console.
+A `Thunderstorm` is initialised by a definition in the level. It can be accessed via its `name` in scripts and <code>sector.<var>name</var></code> in the console.
 
 ### Example
 
@@ -32,19 +30,16 @@ In the console:
 Methods
 -------
 
-| start()     | Start playing thunder and lightning at configured interval   |
-|-------------|--------------------------------------------------------------|
-| stop()      | Stop playing thunder and lightning at configured interval    |
-| thunder()   | Play thunder                                                 |
-| lightning() | Play lightning, i.e. call flash() and electrify()            |
-| flash()     | Display a nice flash                                         |
-| electrify() | Electrify water throughout the whole sector for a short time |
+Method        | Explanation
+--------------|--------------------------------------------------------------
+`start()`     | Starts playing thunder and lightning at configured interval.
+`stop()`      | Stops playing thunder and lightning at configured interval.
+`thunder()`   | Plays thunder.
+`lightning()` | Plays lightning, i.e. call `flash()` and `electrify()`.
+`flash()`     | Displays a flash.
+`electrify()` | Electrifies water throughout the whole sector for a short time.
 
 Constants
 ---------
 
 None
-
-[Template:Navbox Scripting reference](Template:Navbox_Scripting_reference "wikilink")
-
-[Category:Scripting Reference](Category:Scripting_Reference "wikilink")
