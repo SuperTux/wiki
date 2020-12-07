@@ -27,8 +27,8 @@ Nolok is the enemy of Tux, the antagonist of SuperTux. During a lovely picnic be
 Nolok jumps out from behind an ice bush causing a bright flash to appear blinding Tux. He then captures Penny
 leaving only a note behind.
 
-To impede Tux's journey throughout several worlds, Nolok sends out his [minions](https://github.com/SuperTux/supertux/wiki/Badguys)
-as well as his most loyal [followers](https://github.com/SuperTux/supertux/wiki/Bosses).
+To impede Tux's journey throughout several worlds, Nolok sends out his [minions](https://github.com/SuperTux/supertux/wiki/Badguys "Badguys")
+as well as his most loyal [followers](https://github.com/SuperTux/supertux/wiki/Bosses "Bosses").
 
 
 Concept Art
