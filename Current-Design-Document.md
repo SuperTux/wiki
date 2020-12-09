@@ -389,7 +389,14 @@ Hellbents are black bombs that run straight towards Tux and explode on contact w
 
 **Toucan and Totem Boss**
 
-The toucan will primarly fly high up while performing several attacks from above. Occasionally, (if totem boss is present in the same sector) they will  land on the highest totem head to protect it from Tux - otherwise they will occasionally land on the ground, allowing for an attack by Tux.
+The toucan will primarly fly high up while performing several attacks from above. Occasionally, (if totem boss is present in the same sector) they will land on the highest totem head to protect it from Tux - otherwise they will stay midair constantly!
+
+Attacks the toucan could perform:
+ 
+- Spits 3 seeds in an arc (triple shot) - repeats this attack at a set interval depending on its current health
+  (i.e. 5 lives -> attack once, 4 health -> attack twice, ... etc.)
+- A dive attack Tux must jump over to avoid, also giving him a chance of attacking the toucan
+- Toucan summons a few of his normal sized totem minions (if totem boss is not present/defeated beforehand)
 
 The totem boss consists out of 5 head pieces which must all be destroyed in order to defeat the boss. Depending on how many head pieces are remaining the totem boss will perform a different attack.
 
