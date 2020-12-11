@@ -31,7 +31,7 @@ The base behavior of Mr. Bomb is walking around forward but turns around when re
 Short Fuse
 ==========
 
-![](images/Short-Fuse.png)
+![](img/badguy/icons/shortfuse.gif)
 
 Shortfuse is a small version of Mr. Bomb, who most commonly approaches Tux in groups. Since their fuse is so short they will "pop" immediately upon contact. They however are non-lethal to Tux and only work to either distract him and throw him back or push him into other obstacles.
 
@@ -83,7 +83,7 @@ The Gold Bomb has the same behavior as *Mr. Bomb*. The only difference being tha
 SkyDive
 =======
 
-![](images/BombFish.png)
+![](img/badguy/icons/skydive.png)
 
 A Skydive is a bomb in the shape of a fish that is usually carried around and dropped by *[Owl](https://github.com/SuperTux/supertux/wiki/Forest-Badguys#Owl)* but can also spawn from droppers. They fall down to the ground once dropped and explode.
 
