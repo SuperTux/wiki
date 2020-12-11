@@ -1,9 +1,3 @@
-# Contents
-  1. [Playable Characters](https://github.com/SuperTux/supertux/wiki/Concept-Art#Playable-Characters)
-  2. [Badguys](https://github.com/SuperTux/supertux/wiki/Concept-Art#Badguys)
-  3. [Bosses](https://github.com/SuperTux/supertux/wiki/Concept-Art#Bosses)
-
-
 Playable Characters
 ===================
 
