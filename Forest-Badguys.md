@@ -346,12 +346,12 @@ Ghost Tree
 ==========
 
 The ghost tree is the planned boss enemy that awaits Tux in the second castle. It is not fully implemented yet and only
-an unfinished version of it and its graphics incomplete can be found in the game.
+an unfinished version of it and its incomplete graphics can be found in the game.
 
 For more information on bosses, see [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses).
 
 
-List of rooted forest's badguys as of SuperTux 0.6.2
+List of Rooted Forest's badguys as of SuperTux 0.6.2
 ----------------------------------------------------
 
 -   Poison Ivy
@@ -372,7 +372,7 @@ List of rooted forest's badguys as of SuperTux 0.6.2
 -   Will-o-wisp
 -   Ghost Tree
 
-List of rooted forest's badguys in SuperTux 0.1.3
+List of Rooted Forest's badguys in SuperTux 0.1.3
 -------------------------------------------------
 
 -   Fish
