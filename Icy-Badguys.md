@@ -292,11 +292,12 @@ Yeti
 
 ![](images/Yeti2.png)
 
-The Yeti is the boss enemy that awaits Tux in the first castle.
+The yeti is the boss enemy that awaits Tux in the first castle.
+
 For more information on bosses, see [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses).
 
 
-List of icy island's badguys as of SuperTux 0.6.2
+List of Icy Island's badguys as of SuperTux 0.6.2
 -------------------------------------------------
 
 -   Mr. Snowball
@@ -315,7 +316,7 @@ List of icy island's badguys as of SuperTux 0.6.2
 -   Stalactite
 -   Yeti
 
-List of icy island's badguys in SuperTux 0.1.3
+List of Icy Island's badguys in SuperTux 0.1.3
 ----------------------------------------------
 
 -   Mr. Snowball
