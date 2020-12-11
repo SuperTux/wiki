@@ -1,4 +1,4 @@
-A badguy in SuperTux is a foe of Tux, serving as Nolok's minions. They may not be "bad" in the way that a snowball isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like Snowballs with varying characteristics, but some are more like objects (Stalactite for example) or phenomena like Flame.
+A badguy in SuperTux is a foe of Tux, serving as Nolok's minion. They may not be "bad" in the way that a snowball isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like Snowballs with varying characteristics, but some are more like objects (Stalactite for example) or phenomena like Flame.
 
 Tux will try to avoid approaching badguys if possible. If he runs into one or one drops on his head, he is hurt. When hurt Tux will lose a powerup or, if Tux has no powerups left, he will be killed.
 
