@@ -39,7 +39,7 @@ Short Fuse
 
 ![](img/badguy/icons/shortfuse.gif)
 
-Shortfuse is a small version of Mr. Bomb, who most commonly approaches Tux in groups. Since their fuse is so short they
+Short Fuse is a small version of Mr. Bomb, who most commonly approaches Tux in groups. Since their fuse is so short they
 will "pop" immediately upon contact. They however are non-lethal to Tux and only work to either distract him and throw
 him back or push him into other obstacles.
 
