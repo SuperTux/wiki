@@ -7,25 +7,29 @@
 Playable Characters
 ===================
 
+<details>
+  <summary>Tux</summary>
+
 ![](images/Actions.jpg)
 ![](images/Actions2.jpg)
 ![](images/Pogo.jpg)
-
+</details>
 
 Badguys
 =======
 
-Icy Island
-----------
+<details>
+  <summary>Icy Island</summary>
 
 ![](images/Mriceblock-left-2.png)
 ![](images/Kamikaze-left.png)
 
 ![](images/Icecrusher-concept-art.png)
 ![](images/Boarding-nq8.png)
+</details>
 
-Rooted Forest
--------------
+<details>
+  <summary>Rooted Forest</summary>
 
 ![](images/Granito.png)
 ![](images/Littletrees.png)
@@ -36,9 +40,10 @@ Rooted Forest
 ![](images/Spooky-Tree.jpeg)
 ![](images/Stony_wall.png)
 ![](images/Owl.png)
+</details>
 
-Miscellaneous
--------------
+<details>
+  <summary>Miscellaneous</summary>
 
 ![](images/Kugelblitz2.jpg "Kugelblitz2.jpg")
 ![](images/Kugelblitz1.jpg "Kugelblitz1.jpg")
@@ -55,17 +60,25 @@ Miscellaneous
 ![](images/Enemies2.jpg)
 
 Special thanks to the students at Anderson Middle School.
+</details>
 
 
 Bosses
 ======
+
+<details>
+  <summary>Yeti</summary>
 
 ![](images/Yetiboss.jpg)
 ![](images/Yeti2.jpg)
 ![](images/Yeti-concept.png)
 ![](images/Yeti-scan-roughs.png)
 ![](images/Yeti-concept-throw.png)
+</details>
+
+<details>
+  <summary>Ghost Tree</summary>
 
 ![](images/Forestboss.jpg)
 ![](images/Forestboss2.png)
-
+</details>
