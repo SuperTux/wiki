@@ -13,8 +13,8 @@ SuperTux 0.7.0 will bring about a completion to the first two worlds so work can
   4. [Graphics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Graphics)
   5. [Mechanics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Mechanics)
   6. [Badguys](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Badguys)
-  7. [Post-0.7 Tasks](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Post-0.7)
-  8. [Unconfirmed Ideas](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Ideas)
+  7. [Post-0.7 Tasks](https://github.com/SuperTux/supertux/wiki/Current-Design-Document##Post-07-Tasks)
+  8. [Unconfirmed Ideas](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Unconfirmed-Ideas)
 
 # Story
 
