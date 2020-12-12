@@ -74,10 +74,10 @@ Buttjumping Mr. Tree will defeat the entire tree without spawning any *Poison Iv
 
 ### Idea proposal
 
-When Mt. Tree is hit by a fireball, it might be set on fire. A burning
+When Mr. Tree is hit by a fireball, it might be set on fire. A burning
 Mr. Tree runs around, killing small enemies (like Poison Ivies) and
-setting on fire other Mr Trees and straw blocks. If a burning tree hits
-Mr Bomb, they both die (Mr Bomb explodes). After a while, Mr Tree's
+setting on fire other Mr. Trees and straw blocks. If a burning tree hits
+Mr. Bomb, they both die due to Mr. Bomb exploding. After a while, Mr. Tree's
 leaves will burn completely, reducing it to a normal Stumpy (or killing
 it). A burning tree might be immune to fireballs.
 
