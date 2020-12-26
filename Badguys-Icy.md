@@ -213,7 +213,7 @@ Kamikaze Snowball (snowshot)
 
 ![](img/badguy/icons/kamikaze_snowball.gif)
 
-The Kamikaze Snowball shoots out of a [cannon](https://github.com/SuperTux/supertux/wiki/Misc-Badguys#Cannon) and
+The Kamikaze Snowball shoots out of a [cannon](https://github.com/SuperTux/supertux/wiki/Badguys-Misc#Cannon) and
 flies in a straight line until crashing. He is very angry, or very “wise”, and so can levitate through the force of
 his will.
 
@@ -327,6 +327,7 @@ List of Icy Island's badguys in SuperTux 0.1.3
 -   Mr. Iceblock
 -   Stalactite
 
+---
 
 See also
 --------
