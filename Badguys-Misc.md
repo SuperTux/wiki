@@ -190,6 +190,7 @@ List of miscellaneous badguys in SuperTux 0.1.3
 -   Mr. Bomb
 -   Flame
 
+---
 
 See also
 --------
