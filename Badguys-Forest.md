@@ -44,7 +44,7 @@ Leafshot
 
 A plant that decided falling from a tree is not the most exciting part in life went ahead and hoped to
 one day be shot back into a tree. Sadly, the lack of hands makes it impossible for Leafshot to point the
-[cannon](https://github.com/SuperTux/supertux/wiki/Misc-Badguys#Cannon) upwards. Thus the cannon only
+[cannon](https://github.com/SuperTux/supertux/wiki/Badguys-Misc#Cannon) upwards. Thus the cannon only
 shoots him out in a straight line until crashing.
 
 | Property       | Status |
@@ -229,7 +229,7 @@ Owl
 
 A flying enemy that flies high up in the air and carries either badguys or objects around. When Tux is below it,
 it will drop whatever it is carrying. Most of the time Owl is carrying a single
-*[Skydive](https://github.com/SuperTux/supertux/wiki/Misc-Badguys#Skydive)*.
+*[Skydive](https://github.com/SuperTux/supertux/wiki/Badguys-Misc#Skydive)*.
 
 | Property       | Status |
 |----------------|--------|
@@ -378,6 +378,7 @@ List of Rooted Forest's badguys in SuperTux 0.1.3
 -   Fish
 -   Jumpy
 
+---
 
 See also
 --------
