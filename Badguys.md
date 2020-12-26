@@ -11,10 +11,11 @@ If you like to checkout upcoming badguys and/or other mechanics take a look at o
 List of badguys arranged by worlds
 ----------------------------------
 
-- [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Badguys)
-- [Rooted Forest](https://github.com/SuperTux/supertux/wiki/Forest-Badguys)
-- [Miscellaneous](https://github.com/SuperTux/supertux/wiki/Misc-Badguys)
+- [Icy Island](https://github.com/SuperTux/supertux/wiki/Badguys-Icy)
+- [Rooted Forest](https://github.com/SuperTux/supertux/wiki/Badguys-Forest)
+- [Miscellaneous](https://github.com/SuperTux/supertux/wiki/Badguys-Misc)
 
+---
 
 See also
 --------
