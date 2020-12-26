@@ -97,7 +97,7 @@ SkyDive
 ![](img/badguy/icons/skydive.png)
 
 A Skydive is a bomb in the shape of a fish that is usually carried around and dropped by
-*[Owl](https://github.com/SuperTux/supertux/wiki/Forest-Badguys#Owl)* but can also spawn from droppers.
+*[Owl](https://github.com/SuperTux/supertux/wiki/Badguys-Forest#Owl)* but can also spawn from droppers.
 
 They fall down to the ground once dropped and explode.
 
@@ -134,8 +134,8 @@ Cannon (dispenser)
 ![](images/Dispenser_rocket_launcher.png) ![](images/Dropper.png)
 
 While not a badguy in its own right the cannon most commonly spawns badguys like
-*[Kamikaze Snowball](https://github.com/SuperTux/supertux/wiki/Icy-Badguys#Kamikaze)* or
-*[Leafshot](https://github.com/SuperTux/supertux/wiki/Forest-Badguys#Leafshot)*. The cannon can be mounted on either static
+*[Kamikaze Snowball](https://github.com/SuperTux/supertux/wiki/Badguys-Icy#Kamikaze)* or
+*[Leafshot](https://github.com/SuperTux/supertux/wiki/Badguys-Forest#Leafshot)*. The cannon can be mounted on either static
 or rotatable pedestal. It is also possible for the cannon to shoot inanimate, non-badguy objects.
 
 Despite its cannon form, there also exists a dropper and invisible variant.
