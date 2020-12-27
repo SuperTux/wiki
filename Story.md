@@ -10,8 +10,8 @@ It all started with a nice picnic between the two on the ice fields of Icy Islan
 Nolok jumped from behind a nearby ice bush and summoned a bright flash with his mighty staff.
 The flash blinded Tux and Penny was captured in the process, leaving only a small note behind.
 
-"Tux, I have kidnapped your beloved Penny and have taken her to my fortress. The path to my
-fortress is littered with my minions. You don't have a chance of saving her!" - Signed, Nolok.
+*"Tux, I have kidnapped your beloved Penny and have taken her to my fortress. The path to my
+fortress is littered with my minions. You don't have a chance of saving her!"* - Signed, Nolok.
 
 Realizing the trouble Penny could be in, Tux became determined to save her. Thus beginning his
 quest throughout Icy Island.
@@ -20,7 +20,7 @@ Icy Island
 ----------
 
 During his journey, Tux must traverse through a frozen cavern in order to reach the other side of
-the island. Upon reaching the exit of the tunnel, Tux noticed a strange sound in the distance. A
+the island. Upon reaching the exit of the cave, Tux noticed a strange sound in the distance. A
 yeti appeared to be watching him from afar. Before Tux could do anything, however, the yeti ran away.
 Tux was concerned by the yeti's sudden retreat but decided to continue his journey as he had spotted
 a castle.
@@ -41,10 +41,10 @@ Tux behind. Tux now knew where he must go and sets off towards the glacier islan
 Rooted Forest
 -------------
 
-A long trip to the north with a boat and Tux finally managed to reach the southern lands of Rooted Forest. Astonished by
-the scale of the forest and the much warmer temperature Tux continued his search for Nolok and Penny. Since
-had no idea where Nolok could have stationed his forest castle he went ahead and climbed onto a high plateau
-through a mossy and rocky cavern to get a better view. 
+A long trip to the north with a boat and Tux finally managed to reach the southern lands of Rooted Forest.
+Astonished by the scale of the forest and the much warmer temperatures Tux continued his search for Nolok and
+Penny. Since he had no idea where Nolok could have stationed his forest castle he went ahead and climbed onto
+a high plateau through a mossy and rocky cavern to get a better view. 
 
 After a long journey through the woods, rough weather and a dark underground section, something very strange
 started happening. The trees and bushes, the entire forest that Tux was in began changing. Everything began to
