@@ -16,11 +16,12 @@ Guidelines
 
 Game Mechanics
 
+* [[User Manual]]
 * [[Actions]]
-* [[Concept Art]]
 * [[Badguys]]
 * [[Bosses]]
 * [[Worlds]]
+* [[Concept Art]]
 
 Tools
 
