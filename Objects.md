@@ -50,8 +50,8 @@ by a switch or a script. They come in varying forms and sizes.
 
 ### Unstable Tiles
 
-An Unstable Tile is an object that will fall down a few seconds immediately after standing on them. A similar object, the
-Skull Tile, will only begin to fall if standing on them for too long.
+An Unstable Tile is an object that will fall down a few seconds after standing on them. A similar object, the Skull Tile, will
+only begin to fall if standing on them for too long.
 
 ### Trampolines
 
@@ -70,12 +70,17 @@ after a few jumps.
 Rocks can be carried by holding the action key. They can allow Tux to get over new obstacles by stacking them or to crush
 badguys by dropping the rock on their head.
 
+### Rublight
+
+Rublights are commonly used in very dark areas. Stepping on one will generate light for short amount of time. Badguys can
+activate rublights, too.
+
 ### Lanterns
 
 ![](https://github.com/SuperTux/data/blob/master/images/objects/lantern/lantern-1.png?raw=true)
 
 Lanterns can be carried like rocks. They are also a good light source and can turn Magic Blocks of the same colour solid.
-Catching a [Will-o-wisps](https://github.com/SuperTux/supertux/wiki/Forest-Badguys#will-o-wisp) with an empty
+Catching a [Will-o-wisps](https://github.com/SuperTux/supertux/wiki/Badguys-Forest#will-o-wisp) with an empty
 lantern results in the lantern glowing in the colour of the wisp.
 
 ### Magic Blocks
