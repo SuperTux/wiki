@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,6 +16,7 @@ jobs:
           wiki_key: ${{ secrets.wiki_key }}
         run: |
           git --version
+          mkdir -p ~/.ssh/
           echo $wiki_key > ~/.ssh/id_rsa
           ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
           git push git@github.com:SuperTux/supertux.wiki.git HEAD:master
