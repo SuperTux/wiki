@@ -30,7 +30,7 @@ depended on which *Ghost Orb* they absorbed prior.
 
 ### Toucan
 
-The large and emposing **Toucan**, accompanied by **totems**, rules over the tropical temples and
+The large and emposing **Toucan**, accompanied by his **Master Totems**, rules over the tropical temples and
 is the end boss of [Tropical Paradise](Tropical-Paradise "wikilink").
 
 ### Nolok
