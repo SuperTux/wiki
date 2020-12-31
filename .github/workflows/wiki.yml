@@ -11,14 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.wiki_key }}
+
       - name: Update the wiki
-        env:
-          wiki_key: ${{ secrets.wiki_key }}
         run: |
           git --version
-          mkdir -p ~/.ssh/
-          echo $wiki_key > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ls -Al ~/.ssh/
-          ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
           git push git@github.com:SuperTux/supertux.wiki.git HEAD:master
