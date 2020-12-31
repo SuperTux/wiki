@@ -1,0 +1,21 @@
+name: Wiki
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Update the wiki
+        env:
+          wiki_key: ${{ secrets.wiki_key }}
+        run: |
+          git --version
+          echo $wiki_key > ~/.ssh/id_rsa
+          ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
+          git push git@github.com:SuperTux/supertux.wiki.git HEAD:master
