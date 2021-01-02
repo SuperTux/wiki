@@ -13,6 +13,11 @@ This document should help players to understand the features of the game at a us
 See the [old wiki's user manual](http://supertux.lethargik.org/wiki/User_Manual) to see the (now outdated)
 source of some of this information.
 
+# Contents
+  1. [Getting Started](https://github.com/SuperTux/supertux/wiki/User-Manual#Getting-Started)
+  2. [Gameplay](https://github.com/SuperTux/supertux/wiki/User-Manual#Gameplay)
+  3. [Addons](https://github.com/SuperTux/supertux/wiki/User-Manual#Addons)
+
 ---
 
 ## Getting Started
@@ -24,15 +29,15 @@ source of some of this information.
  - Press the Enter key, or click again, this time on **Story Mode**
  
 After this, the intro cutscene should begin. Watch it, and then continue onto the section labelled
-[Gameplay](https://github.com/SuperTux/supertux/wiki/User-Manual#Addons) in this document.
+**Gameplay** in this document.
 
 ## Gameplay
 
 Oh no! Nolok has captured Tux's girlfriend, Penny. It is now your responsibility to control Tux, and save Penny.
 
-*Disclaimer: It is not currently possible to save Penny, since the game is not complete.*
-
 In order to do this, you need to understand how to play the game. This section of the Manual should help you.
+
+*Disclaimer: It is not currently possible to save Penny, since the game is not complete!*
 
 ### Worldmaps
 
@@ -54,8 +59,7 @@ Some other worldmaps which you can play are:
 To play these worldmaps, check out **Contrib Levels** at the main menu:
 Start Game > Contrib Levels
 
-There are also worldmaps availible as addons. Please see the section labelled [Addons](https://github.com/SuperTux/supertux/wiki/User-Manual#Addons)
-below for more information.
+There are also worldmaps availible as addons. Please see the section labelled **Addons** below for more information.
 
 ### Levels
 
@@ -125,7 +129,7 @@ Powerups can be found in bonus blocks and on the ground. Most are eggs, which wi
 jumping and butt-jumping by jumping then pressing down. If you already have an egg, hitting an item box containing a powerup
 will give you one of four special flowers.
 
-For more details on powerups, please see [Actions](https://github.com/SuperTux/supertux/wiki/Actions).
+For more details on powerups, please see [Actions](https://github.com/SuperTux/supertux/wiki/Actions#Power-Ups-1).
 
 ### Badguys
 
