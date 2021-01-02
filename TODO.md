@@ -29,13 +29,13 @@ graphics/UX tasks, `category:code` for code tasks, and
   - [ ] Potentially parallax background castle tiles of all castle styles for levels near a castle
   - [ ] More background assets for Icy Island, Rooted Forest and the Ghost Forest.
   - [ ] Parallax background tiles, decorative tiles for the underground forest
-  - [ ] Crystalcave tileset should be fixed to be usable
+  - [x] Crystalcave tileset should be fixed to be usable
   - [ ] Waterfall graphics fitting to the new water type
   - [ ] Add modern fluid style acid/poison (purple liquid) and swamp
   - [ ] Add castle tiles adapted to their location in story mode (e.g. mossy bricks for the forest castle)
   - [ ] Decorative tiles for underwater areas in all themes
   - [ ] Redraw poles
-  - [ ] Fix tilling for crystal cave tileset (potentially redo it from ground up)
+  - [x] Fix tilling for crystal cave tileset (potentially redo it from ground up)
   - [ ] Cloud tiles are screwed up with vertical lines going through it
   - [ ] Improve ice bridge tiles (right now they are just a recolor)
 
