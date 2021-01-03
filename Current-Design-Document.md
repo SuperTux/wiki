@@ -6,69 +6,17 @@ This document is a work in progress, nothing here is considered even remotely fi
 
 SuperTux 0.7.0 will bring about a completion to the first two worlds so work can begin on World 3. This means improving/revamping the graphics, sound effects, code, story and levels in many areas and adding some new features/mechanics as well. (swimming, etc.)
 
+This will be organized based off of the order it will likely be done in.
+
 # Contents
-  1. [Story](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Story)
-  2. [Levels](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Levels)
-  3. [Audio](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Audio)
-  4. [Graphics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Graphics)
-  5. [Mechanics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Mechanics)
-  6. [Badguys](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Badguys)
+  1. [Graphics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Graphics)
+  2. [Audio](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Audio)
+  3. [Mechanics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Mechanics)
+  4. [Badguys](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Badguys)
+  5. [Story](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Story)
+  6. [Levels](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Levels)
   7. [Post-0.7 Tasks](https://github.com/SuperTux/supertux/wiki/Current-Design-Document##Post-07-Tasks)
   8. [Unconfirmed Ideas](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Unconfirmed-Ideas)
-
-# Story
-
-Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
-
----
-
-# Levels
-
-**Levels in general**
-
-The levels of the Add-On menu (Bonus Islands I-IV, Halloween 2014, etc.) should be divided from other contrib levels, which can be downloaded manually or in-game from "Add-Ons". Manually downloaded levelpacks would be subfoldered under "Community Levels", while those already in game would be in a own folder named "Add-Ons". This would make the list of Add-Ons shorter and would clear up which levels are official and which not.
-
-**Normal Levels**
-
-Update with the new graphics for their assets. Also: make them more interesting! Most levels are your run-of-the-mill left to right levels and don&#39;t make use of everything available, like most enemies, vertical space, varying directions, multiple paths, autoscrolling, signs, moving tilemaps, unisolids, bricks, multiple paths, those scripting bonus blocks that can be activated by rocks, etc. Make the most of the level gimmicks!
-
-One of the most stupid and awful level design philosophies I have seen (especially since it was used to block level proposals in the past) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
-
-Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
-
-**Secret paths on worldmap**
-
-Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
-
-**Cutscenes**
-
-Update cutscenes with the new story decisions and the new graphics/stuff decided for the characters.
-
-Maybe add designated text boxes for characters when they speak instead of using the default info box?
-
-**The Castle of Nolok**
-
-The cutscene at the very beginning should be skippable. (Although skippable cutscenes exist, they don't place Tux where he needs to be. Fix this!!)
-
-The cutscene at the very beginning should also only play once per level session. (If the player dies in the level, DON'T show it.  If the player leaves the level and reenters it, then DO show it.)
-
-If you play through the cutscene after the level and don't skip it, then the level stats will be erased or overridden. This should be fixed!!
-
-**Boss Levels**
-
-Add new fights and make the existing ones more interesting.
-
-Maybe use [Boss Attack '07](https://discarded-ideas.org/sites/discarded-ideas.org/files/music/bossattack07.ogg) as a boss pinch theme?
-
----
-
-# Audio
-
-**Tux, Penny, Nolok**
-
-Add new sounds/cutscene speech. Perhaps use a new VA?
-
----
 
 # Graphics
 
@@ -220,6 +168,14 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 ---
 
+# Audio
+
+**Tux, Penny, Nolok**
+
+Add new sounds/cutscene speech. Perhaps use a new VA?
+
+---
+
 # Mechanics
 
 ### Mechanic Improvements
@@ -327,6 +283,52 @@ The ghost tree will remain idle for a short time period, its eys following Tux a
 - blue wisp: spawns an object that allows hurting the tree (maybe something like a bomb? or the lanterns, like are currently used)
 
 While the green and blue wisps are inhaled, the roots attack will continue to accour! In Pinch Mode the ghost tree will inhale all ghost wisps and combine all their attacks continuesly. Once it looses another life all returns to normal when hit until all ghost wisps are inhaled again.
+
+---
+
+# Story
+
+Improve it, make it better. There used to be more here but I deleted it because nothing is final yet.
+
+---
+
+# Levels
+
+**Levels in general**
+
+The levels of the Add-On menu (Bonus Islands I-IV, Halloween 2014, etc.) should be divided from other contrib levels, which can be downloaded manually or in-game from "Add-Ons". Manually downloaded levelpacks would be subfoldered under "Community Levels", while those already in game would be in a own folder named "Add-Ons". This would make the list of Add-Ons shorter and would clear up which levels are official and which not.
+
+**Normal Levels**
+
+Update with the new graphics for their assets. Also: make them more interesting! Most levels are your run-of-the-mill left to right levels and don&#39;t make use of everything available, like most enemies, vertical space, varying directions, multiple paths, autoscrolling, signs, moving tilemaps, unisolids, bricks, multiple paths, those scripting bonus blocks that can be activated by rocks, etc. Make the most of the level gimmicks!
+
+One of the most stupid and awful level design philosophies I have seen (especially since it was used to block level proposals in the past) is to water down the quality of certain levels to make others stand out, and to this I say: No! That is stupid! You&#39;re only going to improve with time, so you can always go back and add on more and more and make ultimately all levels better. And anyway, would you rather have two amazing levels of the same quality or one crappy level + one amazing level?
+
+Another problem with current levels is sometimes having to hit bonus blocks to advance in a level. Some official levels do this and it should be removed, because every level should be beatable without hitting a bonus block.
+
+**Secret paths on worldmap**
+
+Whenever a secret exit to a bonus level is unlocked, a path appears leading to that level. Currently able and might be easy to implement.
+
+**Cutscenes**
+
+Update cutscenes with the new story decisions and the new graphics/stuff decided for the characters.
+
+Maybe add designated text boxes for characters when they speak instead of using the default info box?
+
+**The Castle of Nolok**
+
+The cutscene at the very beginning should be skippable. (Although skippable cutscenes exist, they don't place Tux where he needs to be. Fix this!!)
+
+The cutscene at the very beginning should also only play once per level session. (If the player dies in the level, DON'T show it.  If the player leaves the level and reenters it, then DO show it.)
+
+If you play through the cutscene after the level and don't skip it, then the level stats will be erased or overridden. This should be fixed!!
+
+**Boss Levels**
+
+Add new fights and make the existing ones more interesting.
+
+Maybe use [Boss Attack '07](https://discarded-ideas.org/sites/discarded-ideas.org/files/music/bossattack07.ogg) as a boss pinch theme?
 
 ---
 
