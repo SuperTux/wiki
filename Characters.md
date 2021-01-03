@@ -19,13 +19,15 @@ her beloved Tux.
 While all attempts to escape by herself have failed, she manages to provide Tux with helpful information about her
 situation through secret letters. But perhaps Nolok has even taken that into account?
 
-
 Nolok
 -----
 
-Nolok is the enemy of Tux, the antagonist of SuperTux. During a lovely picnic between Tux and his beloved Penny,
-Nolok jumps out from behind an ice bush causing a bright flash to appear blinding Tux. He then captures Penny
-leaving only a note behind.
+Nolok the crocodile is the main enemy of Tux, the antagonist of SuperTux. During a lovely picnic between Tux and his
+beloved Penny, Nolok jumps out from behind an ice bush causing a bright flash to appear blinding Tux. He then captures
+Penny leaving only a note behind.
+
+As a predator, Nolok derives pleasure and entertainment from the sorrow of others resulting in him kidnapping Tux's
+girlfriend Penny and sending him on a long and dangerous journey to the unknown.
 
 To impede Tux's journey throughout several worlds, Nolok sends out his [minions](https://github.com/SuperTux/supertux/wiki/Badguys "Badguys")
 as well as his most loyal [followers](https://github.com/SuperTux/supertux/wiki/Bosses "Bosses").
