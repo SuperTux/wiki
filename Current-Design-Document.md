@@ -74,9 +74,9 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 **Backgrounds**
 
-- Rooted Forest – add a few varying parallax BGs for the normal and ghost forest theme.
+- Rooted Forest – Completely redesign backgrounds throughout all of World 2
 (Alzter: IMO the forest backgrounds are in need of a redo, the current ones seem very flat)
-- General - More cloud BGs would be cool.
+- General - More Cloud BGs
 
 <details>
   <summary>(Alzter: you mean like these?)</summary>
@@ -96,42 +96,58 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 
 - Parallax-ify many BGs.
 
-
-
 **Tiles/Decals**
 
-- Improved forest tiles, bush tiles, forest background tiles, as well as new additional tilesets (such as slime).
-- A multitude of new forest trees and tree branches to make the forest prettier.
+- **Icy Island**
+  - New decoration for the normal plain levels, possibly animated? Like snowmen or flags
+  - More unique decoration for the cave levels
+  - More unique decoration for the crystal levels
+  - More unique decoration for the bridge and pier sections
+  - More decoration for the icy castle
 
-(Gwater and BlasterMaster's tree designs are both great examples of this)
+- **Normal Forest**
+  - Base forest tiles (dirt, grass, and both)
+  - Remake the spike vine tiles to appear more dangerous
+  - Forest Bush Tiles
+  - Forest Foliage
+  - Forest Rocks
+  - Slick slime to slide on
+  - A Treetop Tileset
+  - Revamp of the underground tiles
+  - Outhouse Exit
+  - Tree Movie Star Exit
+  - A multitude of new forest trees and tree branches to make the forest prettier.
+    (Gwater and BlasterMaster's tree designs are both great examples of this)
+  - New decoration for underground zones
+  - New decoration for castle/ruins sections
+  - Other Background Decoration
+  - Other tilesets, possibly
+  
+- **Ghost Forest**
+  - Remake the Ghost Forest mushrooms
+  - Root spike tiles
+  - Haunted Library solid, background, and decoration tiles
+  - New Tilesets (both for solid and decoration), Probably
 
-- The tree movie star (outhouse) exit.
-- The goalposts at the end of every level need a remake.
-- Revamp/large extension of the icy island background decals to live up to the new forest stuff. Could include things like snowmen, flags, crates, bridge improvements, improvement/expansion of the current tiles, etc. as well as animated things like animals and flags. Look to Pingus for inspiration, maybe?
-- Miscellaneous other new tilesets for the forest/ghost forest to give it variety and a finished/varied feel
-- Underwater decoration (icy + forest)
-- Simple bridge/scaffolding unisolid tiles
-- Treetop Tileset
+- **General**
+  - Level end goalposts
+  - Underwater decoration
+  - Simple bridge/scaffolding unisolid tiles
+  - Waterfall Tiles
+  - Green Acid
+  - Sideways unisolids
+  
 <details>
 <summary>(Reference)</summary>
 
 ![](https://user-images.githubusercontent.com/22513909/91283578-1b912e00-e7ce-11ea-8458-1c201bb04d95.png)
 </details>
 
-- Updates to Deeper Lava/Acid
-- Waterfall tiles
-- New decoration (Forest) - Could include things like animals, shrubs, as well as things for the ghost forest.
-- Ghost tree root tiles
-- Library tiles, as well as library decoration
-- New decoration for castles
-- New bridge/pier decoration
-- New ice cave decoration
-- Sideways unisolid tiles
-
 **Objects**
 
 - New/Better Billboards
 - Moving Platform, made of bones
+- Wide Trampoline
 
 **Badguys**
 
@@ -147,12 +163,15 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
   - Leafshot
   - Mr. Tree
   - Stumpy
+  - Mole
   - Igel
   - Zeekling
   - Snail (1x1)
   - Big Snail (2x2)
 - **Ghost Forest**
-  - Ghost Forest
+  - Ghoul
+  - Ispy
+  - Spidermite
   - Rotten Ivy/Leaf
   - Rotten Tree
   - Rotten Stumpy
@@ -171,6 +190,7 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
   - Kicking
   - Dead
   - Worldmap Boat
+  - Slope Sliding
   - Other/cutscene sprites
 - **Penny**
   - Other/cutscene sprites
