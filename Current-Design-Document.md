@@ -127,9 +127,6 @@ Add new sounds/cutscene speech. Perhaps use a new VA?
 - New bridge/pier decoration
 - New ice cave decoration
 - Sideways unisolid tiles
-- Signs declaring something is walljumpable and one that isn't walljumpable
-- Squishy moss and soft snow for walljumping
-- Convert crystal cave, ghost forest and snowfort tiles to walljumping
 
 **Objects**
 
@@ -213,6 +210,14 @@ Make rocks bounce off of Tux rather than killing him. Rocks should not be able t
 
 ### Mechanic Ideas
 
+**Walljumping**
+
+Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
+
+**Slope Sliding**
+
+Tux sliding down slopes like a real live penguin would be nice.
+
 **Locked Doors and Keys**
 
 Suggested by RustyBox, key would be like a powerup and would hovering over Tux and auto-unlock any locked door. Locked doors can&#39;t be opened, etc. Would be useful for puzzle stages. Sometimes, multiple keys are needed to open a door and this should be signalled.
@@ -227,11 +232,9 @@ Suggested by RustyBox, key would be like a powerup and would hovering over Tux a
 
 - Adapt to a rotating hitbox, or make the current one more forgiving.
 - It should be easier to stop in the water (more friction)
-
-Swimming suggestions:
-
+- Improve indentation/code quality of swimming sprite and code files.
+- Reduce/optimize the sprite, and make it less messy and buggy.
 - Boosting should be handled better. (One suggestion was to make the boost a "hold" action instead of a "pressed" action but there are also some against this.)
-- Jumping should be disabled underwater.
 
 ---
 
@@ -287,26 +290,6 @@ These are ghost tree roots that attack based on a timer. Most similar to the tre
 
 If Tux steps on them, after he leaves them they grow up so Tux cannot walk on that terrain anymore.
 
-**Mother Snail**
-
-A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
-
-**Bluejay + Acorn**
-
-A sneaky bluejay who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
-
-The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
-
-**Woodpecker + Pinecone**
-
-The smart variant to the bluejay, the woodpecker pecks down pinecones at Tux, and sits there for a while. Tux can then use the pinecone and throw it up to defeat the woodpecker. Either the pinecone respawns after a while, or the woodpecker is smart enough to go seek out another tree with pinecones.
-
-Upon falling, which it only falls when pecked by woodpecker, the pinecone doesn't despawn, as it can be picked up and used as a projectile (like the rock, just with better range), but when it is falling, it can hurt Tux.
-
-**Tentacle Monster**
-
-A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
-
 ### Bosses
 
 These are mainly ideas that are somewhat cemented but can change at any time. These do not serve as mandatory tasks for bosses but are highly encouraged to be implemented.
@@ -324,40 +307,6 @@ The ghost tree will remain idle for a short time period, its eys following Tux a
 - blue wisp: spawns an object that allows hurting the tree (maybe something like a bomb? or the lanterns, like are currently used)
 
 While the green and blue wisps are inhaled, the roots attack will continue to accour! In Pinch Mode the ghost tree will inhale all ghost wisps and combine all their attacks continuesly. Once it looses another life all returns to normal when hit until all ghost wisps are inhaled again.
-
----
-
-# Non-Priority Features
-
-These are features that will come to the game, preferably before 0.7, but aren't really a priority for the time being.
-
-**Walljumping**
-
-Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
-
-**Slope Sliding**
-
-Tux sliding down slopes like a real live penguin would be nice.
-
-**Better cutscene methods**
-
-Skipping cutscenes should move Tux to the proper place, and there should be an option to trigger a script only once per level session.  The color of cutscene text should also be editable.
-
-**More editing options for decals**
-
-Add ability to change a decal's scroll speed and tint. Also decals should be scriptable, and should fade.
-
-**Tux storing velocity while on moving platforms**
-
-Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
-
-**Better movement on moving tilemaps**
-
-Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
-
-**Pigeons**
-
-These are special background objects who, when Tux is near, flee in the direction away from his body.
 
 ---
 
@@ -412,6 +361,46 @@ If a totem head is destroyed it pushes Tux away to prevent landing on the next h
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
 
+**Mother Snail**
+
+A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
+
+**Bluejay + Acorn**
+
+A sneaky bluejay who sits on top of stuff and periodically throws acorns down at Tux. Acorns don't collide with tiles, but do collide with enemies and Tux. When Tux gets near it, it flies away, never to be seen again. Does a cheeky laugh/giggle after throwing the acorn, and its eyes probably follow Tux.
+
+The acorn that the bluejay throws. If used by itself, it falls normally, like a stalactite would, but if the bluejay throws it, it immediately begins falling no matter what. Doesn't collide with tiles, but does collide with enemies/players.
+
+**Woodpecker + Pinecone**
+
+The smart variant to the bluejay, the woodpecker pecks down pinecones at Tux, and sits there for a while. Tux can then use the pinecone and throw it up to defeat the woodpecker. Either the pinecone respawns after a while, or the woodpecker is smart enough to go seek out another tree with pinecones.
+
+Upon falling, which it only falls when pecked by woodpecker, the pinecone doesn't despawn, as it can be picked up and used as a projectile (like the rock, just with better range), but when it is falling, it can hurt Tux.
+
+**Tentacle Monster**
+
+A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
+
+**Better cutscene methods**
+
+Skipping cutscenes should move Tux to the proper place, and there should be an option to trigger a script only once per level session.  The color of cutscene text should also be editable.
+
+**More editing options for decals**
+
+Add ability to change a decal's scroll speed and tint. Also decals should be scriptable, and should fade.
+
+**Tux storing velocity while on moving platforms**
+
+Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
+
+**Better movement on moving tilemaps**
+
+Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
+
+**Pigeons**
+
+These are special background objects who, when Tux is near, flee in the direction away from his body.
+
 ### Performance Improvements
 
 **Check for updates**
@@ -444,8 +433,6 @@ Sprite files as BGs would be cool.
 **Tintable lightbulb/lantern**
 
 A colorable, easily placeable light source for pretty effects in levels, and the editor can decide if it obeys gravity, what color it is, its shape + rotation, etc...
-
-### Icing-on-the-Cake Features
 
 **Ice floes**
 
