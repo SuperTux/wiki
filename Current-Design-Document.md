@@ -20,30 +20,6 @@ This will be organized based off of the order it will likely be done in.
 
 # Graphics
 
-**Backgrounds**
-
-- Rooted Forest – Completely redesign backgrounds throughout all of World 2
-(Alzter: IMO the forest backgrounds are in need of a redo, the current ones seem very flat)
-- General - More Cloud BGs
-
-<details>
-  <summary>(Alzter: you mean like these?)</summary>
-  
-  ![](https://user-images.githubusercontent.com/22513909/91281292-3ada8c00-e7cb-11ea-9dac-474cd849eee2.png)
-
-  [Source XCF](https://github.com/SuperTux/media/blob/master/images/tiles/snow/cave7.xcf)
-  
-  ![](https://user-images.githubusercontent.com/22513909/91281362-52197980-e7cb-11ea-9ead-ee72a6f78f84.png)
-
-  [Source XCF](https://github.com/SuperTux/media/blob/master/images/tiles/snow/mountain.xcf)
-  
-  ![](https://user-images.githubusercontent.com/22513909/91281639-ade40280-e7cb-11ea-8545-fcd405b48d31.png)
-
-  [Source XCF](https://github.com/SuperTux/media/blob/master/images/background/snow_background.xcf)
-</details>
-
-- Parallax-ify many BGs.
-
 **Tiles/Decals**
 
 - **Icy Island**
@@ -61,7 +37,7 @@ This will be organized based off of the order it will likely be done in.
   - Remake the spike vine tiles to appear more dangerous
   - Forest Bush Tiles
   - Forest Foliage
-  - Forest Rocks
+  - Forest Rocks with moss/growth on top
   - Slick slime to slide on
   - A Treetop Tileset
   - Revamp of the underground tiles
@@ -81,12 +57,16 @@ This will be organized based off of the order it will likely be done in.
   - New Tilesets (both for solid and decoration), Probably
 
 - **General**
+  - Topless/Plain Rocks
   - Level end goalposts
   - Underwater decoration
   - Simple bridge/scaffolding unisolid tiles
   - Waterfall Tiles
   - Green Acid
   - Sideways unisolids
+  - Better/New Billboards
+  - Wide Trampolines
+  - New Variants to moving platform, such as one made of bones
   
 <details>
 <summary>(Reference)</summary>
@@ -94,17 +74,10 @@ This will be organized based off of the order it will likely be done in.
 ![](https://user-images.githubusercontent.com/22513909/91283578-1b912e00-e7ce-11ea-8458-1c201bb04d95.png)
 </details>
 
-**Objects**
-
-- New/Better Billboards
-- Moving Platform, made of bones
-- Wide Trampoline
-
 **Badguys**
 
 - **Icy Island**
   - Crystallo
-- **Icy - Underwater**
   - Small docile fish (1 x 1)
   - Small enemy fish (1.5 x 1)
   - Large enemy fish (3 x 2)
@@ -160,14 +133,30 @@ This will be organized based off of the order it will likely be done in.
   - Scream
   - Inhale
   - Other/cutscene sprites
-- **Toucan**
-  - Flying
-  - Other/cutscene sprites
-- **Totem Boss**
-  - Inactive
-  - Activate
-  - Head attacks
-  - Other/cutscene sprites
+
+**Backgrounds**
+
+- Rooted Forest – Completely redesign backgrounds throughout all of World 2
+(Alzter: IMO the forest backgrounds are in need of a redo, the current ones seem very flat)
+- General - More Cloud BGs
+
+<details>
+  <summary>(Alzter: you mean like these?)</summary>
+  
+  ![](https://user-images.githubusercontent.com/22513909/91281292-3ada8c00-e7cb-11ea-9dac-474cd849eee2.png)
+
+  [Source XCF](https://github.com/SuperTux/media/blob/master/images/tiles/snow/cave7.xcf)
+  
+  ![](https://user-images.githubusercontent.com/22513909/91281362-52197980-e7cb-11ea-9ead-ee72a6f78f84.png)
+
+  [Source XCF](https://github.com/SuperTux/media/blob/master/images/tiles/snow/mountain.xcf)
+  
+  ![](https://user-images.githubusercontent.com/22513909/91281639-ade40280-e7cb-11ea-8545-fcd405b48d31.png)
+
+  [Source XCF](https://github.com/SuperTux/media/blob/master/images/background/snow_background.xcf)
+</details>
+
+- Parallax-ify many BGs.
 
 ---
 
@@ -338,6 +327,19 @@ Maybe use [Boss Attack '07](https://discarded-ideas.org/sites/discarded-ideas.or
 # Post-0.7 Tasks
 
 This contains confirmed features/tasks for post 0.7/World 3+.
+
+### Graphics
+
+**Characters**
+
+- **Toucan**
+  - Flying
+  - Other/cutscene sprites
+- **Totem Boss**
+  - Inactive
+  - Activate
+  - Head attacks
+  - Other/cutscene sprites
 
 ### Mechanic Ideas
 
