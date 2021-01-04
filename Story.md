@@ -89,4 +89,25 @@ Tux had now finally found Nolok's final fortress on top an enormous mountain. Ho
 requiring five keys for it to be opened. Nolok, from across his walls, taunts Tux telling him that he hid away the
 keys all over the world and without these Penny would be lost forever.
 
+### Penny's Story Add-on
+
+While captured, Penny attempts to flee herself but in the end is stopped by the cunning Nolok. But instead of giving up
+she writes down information she overhears from Nolok himself in a letter in hopes to reach Tux and to inform him on
+Nolok's plans help him as much as she can on his journey.
+
+### Nolok's Motive
+
+Nolok as a character derives pleasure from causing harm or crime. So the reason he kidnaps Penny is that he derives
+entertainment out of Tux feeling sorrow towards his beloved Penny and having no idea where to find here. Additionally,
+enjoys to see Tux suffer on his journey thus setting out his minions, leading him to a false castle or corrupting an
+entire forest to frighten him.
+
+Once Tux reaches the end of Rooted Forest, Nolok starts to notice Tux's determination being impressed by his commitment
+and bravery to push through even leaving his homeland. After defeating Nolok and rescuing Penny, Nolok acknowledges Tux
+and Penny's bravery shown a more honorable side. He claims to not change his ways due to his nature as a predator, but
+that he respects the two as his equals.
+
+*(Note: Should Nolok ever capture her again or perhaps Tux, he would do it for the entertainment of them having to go
+through his challenges again.)*
+
 <Category:Design>
