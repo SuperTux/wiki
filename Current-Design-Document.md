@@ -47,15 +47,14 @@ This will be organized based off of the order it will likely be done in.
 **Tiles/Decals**
 
 - **Icy Island**
-  - Animated flags for high-altitude levels
-  - Snow topped rocks + stones
-  - Possibly some snowmen for icy plains levels? :D
+  - Snow-topped rocks + stones
   - More unique decoration for:
-    - Icy plains
-    - Cave levels
-    - Crystal Mines
-    - Bridge/Pier sections
-    - Icy Castle
+    - Icy plains (snowmen, snow formations, etc.)
+    - Cave levels (Rock formations, natural pillars, etc.)
+    - Crystal Mines (Crystal plants, mineshafts, etc.)
+    - Bridge/Pier sections (Crates, fences)
+    - Icy Castle (Castle elements?)
+    - High Altitudes (animated flags)
 
 - **Normal Forest**
   - Base forest tiles (dirt, grass, and both)
