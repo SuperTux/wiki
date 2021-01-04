@@ -47,11 +47,15 @@ This will be organized based off of the order it will likely be done in.
 **Tiles/Decals**
 
 - **Icy Island**
-  - New decoration for the normal plain levels, possibly animated? Like snowmen or flags
-  - More unique decoration for the cave levels
-  - More unique decoration for the crystal levels
-  - More unique decoration for the bridge and pier sections
-  - More decoration for the icy castle
+  - Animated flags for high-altitude levels
+  - Snow topped rocks + stones
+  - Possibly some snowmen for icy plains levels? :D
+  - More unique decoration for:
+    - Icy plains
+    - Cave levels
+    - Crystal Mines
+    - Bridge/Pier sections
+    - Icy Castle
 
 - **Normal Forest**
   - Base forest tiles (dirt, grass, and both)
