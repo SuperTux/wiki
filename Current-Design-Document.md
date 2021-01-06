@@ -195,6 +195,8 @@ Suggested by RustyBox, key would be like a powerup and would hovering over Tux a
 - Backgrounds shouldn't shift upon placement (default the x and y variables to 0, 0 upon placement)
 - Level Editor settings should be saved to the config file (they are saved even when the player exits the game)
 - Adapt the textboxes to the new text editing capabilities.
+- Layer Toolbar Subfolders
+- Inner-tilegroup Subfolders
 
 ### Swimming
 
