@@ -390,6 +390,8 @@ If a totem head is destroyed it pushes Tux away to prevent landing on the next h
 
 Only some, few or none of this stuff may be added, or might get added at a later time.
 
+### Features that would affect current gameplay
+
 **Mother Snail**
 
 A huge sleeping snail mother that Tux cannot pass/jump over, but he can wake it up, so he has to find a way to block or move its awake form in order to progress. Possibly also produces a set amount of snail offspring, similar to a dispenser with a set value of enemies. RustyBox's snail concept but much bigger can possibly be used for this enemy.
@@ -410,14 +412,6 @@ Upon falling, which it only falls when pecked by woodpecker, the pinecone doesn'
 
 A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
 
-**Better cutscene methods**
-
-Skipping cutscenes should move Tux to the proper place, and there should be an option to trigger a script only once per level session.  The color of cutscene text should also be editable.
-
-**More editing options for decals**
-
-Add ability to change a decal's scroll speed and tint. Also decals should be scriptable, and should fade.
-
 **Tux storing velocity while on moving platforms**
 
 Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
@@ -426,11 +420,35 @@ Tux should have momentum from when on moving objects stored, so he can "fling" o
 
 Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
 
+**Weighted Pushbutton**
+
+A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
+
+**Skull Tile & Falling Tiles**
+
+Skull tiles as well as falling tiles should respawn when they have fallen. Either off-screen or on-screen.
+
+### Features that wouldn't affect current gameplay
+
+**More editing options for decals**
+
+Add ability to change a decal's scroll speed and tint. Also decals should be scriptable, and should fade.
+
+**Better background system**
+
+Sprite files as BGs would be cool.
+
+**Better cutscene methods**
+
+Skipping cutscenes should move Tux to the proper place, and there should be an option to trigger a script only once per level session.  The color of cutscene text should also be editable.
+
 **Pigeons**
 
 These are special background objects who, when Tux is near, flee in the direction away from his body.
 
-### Performance Improvements
+**Liquid Refactor**
+
+Liquids could be changed into objects that autotile themselves, so effects when entering the water and exiting could be added.
 
 **Check for updates**
 
@@ -443,21 +461,6 @@ We need more particle effects for different things, like for wind, to make it lo
 **More sound effects**
 
 Add sound effects for when Tux walks on different tiles, and overall better sounds for when he dies or speaks or enters water.
-
-
-### Object Improvements/Ideas
-
-**Weighted Pushbutton**
-
-A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
-
-**Skull Tile & Falling Tiles**
-
-Skull tiles as well as falling tiles should respawn when they have fallen. Either off-screen or on-screen.
-
-**Better background system**
-
-Sprite files as BGs would be cool.
 
 **Tintable lightbulb/lantern**
 
