@@ -63,6 +63,7 @@ This will be organized based off of the order it will likely be done in.
   - Simple bridge/scaffolding unisolid tiles
   - Waterfall Tiles
   - Green Acid
+  - Transparent version of the old green castle vine tile
   - Sideways unisolids
   - Better/New Billboards
   - Wide Trampolines
