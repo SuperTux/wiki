@@ -23,51 +23,75 @@ This will be organized based off of the order it will likely be done in.
 **Tiles/Decals**
 
 - **Icy Island**
-  - Snow-topped rocks + stones
-  - More unique decoration for:
-    - Icy plains (snowmen, snow formations, etc.)
-    - Cave levels (Rock formations, natural pillars, etc.)
-    - Crystal Mines (Crystal plants, mineshafts, etc.)
-    - Bridge/Pier sections (Crates, fences)
-    - Icy Castle (Castle elements?)
-    - High Altitudes (animated flags)
+  - *Decorative Tiles*
+    - Snow-topped rocks + stones
+    - More unique decoration for:
+      - Icy plains (snowmen, snow formations, etc.)
+      - Cave levels (Rock formations, natural pillars, etc.)
+      - Crystal Mines (Crystal plants, mineshafts, etc.)
+      - Bridge/Pier sections (Crates, fences)
+      - Icy Castle (Castle elements?)
+      - High Altitudes (animated flags)
 
 - **Normal Forest**
-  - Base forest tiles (dirt, grass, and both)
-  - Remake the spike vine tiles to appear more dangerous
-  - Forest Bush Tiles
-  - Forest Foliage
-  - Forest Rocks with moss/growth on top
-  - Slick slime to slide on
-  - A Treetop Tileset
-  - Revamp of the underground tiles
-  - Outhouse Exit
-  - Tree Movie Star Exit
-  - A multitude of new forest trees and tree branches to make the forest prettier.
-    (Gwater and BlasterMaster's tree designs are both great examples of this)
-  - New decoration for underground zones
-  - New decoration for castle/ruins sections
+  - *Solid Tilesets*
+    - Base forest tiles
+      - Separated dirt from the base tiles
+      - Separated grass from the base tiles
+      - Base forest slopes
+      - Separated dirt from the base forest slopes
+      - Separated grass from the base forest slopes
+      - Moss textures for the base forest tiles
+      - Underground bone decoration for the base forest tiles
+    - Remake the spike vine tiles to appear more dangerous
+    - Slick slime to slide on
+    - A Tileset in the Treetops
+    - Tree Branches to stand on
+  - *Non-Solid Tilesets*
+    - Redo the background tileset for the normal forest textures
+    - Redesign the Forest Bushes
+    - The generic tileable tree
+  - *Decorative Tiles*
+    - Forest Rocks, some with growth on them
+    - Forest Foliage, like vines, growths, mushrooms, flowers and clovers
+    - New decoration for underground zones
+    - New decoration for castle/ruins sections
+  - *Decals*
+    - Outhouse Exit
+    - Tree Movie Star Exit (possibly transparent?)
+    - A multitude of new forest trees and tree branches to make the forest prettier.
+      (Gwater and BlasterMaster's tree designs are both great examples of this)
   - Other Background Decoration
   - Other tilesets, possibly
   
 - **Ghost Forest**
-  - Remake the Ghost Forest mushrooms
-  - Root spike tiles
-  - Haunted Library solid, background, and decoration tiles
+  - *Solid Tilesets*
+    - Root spike tiles
+    - Haunted Library base tiles
+  - *Non-Solid Tilesets*
+    - Bookshelves for the Haunted Library
+    - Background walls for the Haunted Library
+  - *Decorative Tiles*
+    - Decoration for the Haunted Library
+    - Warped versions of the tiled forest decorative elements
+  - *Decals*
+    - Remake the Ghost Forest mushrooms
+    - Warped versions of the larger decal forest decorative elements
   - New Tilesets (both for solid and decoration), Probably
 
 - **General**
-  - Topless/Plain Rocks
-  - Level end goalposts
-  - Underwater decoration
-  - Simple bridge/scaffolding unisolid tiles
-  - Waterfall Tiles
-  - Green Acid
-  - Transparent version of the old green castle vine tile
-  - Sideways unisolids
-  - Better/New Billboards
-  - Wide Trampolines
-  - New Variants to moving platform, such as one made of bones
+  - *Tiles and Tilesets*
+    - Level end goalposts
+    - Underwater decoration
+    - Simple bridge/scaffolding unisolid tiles
+    - Waterfall Tiles
+    - Green Acid
+    - Transparent version of the old green castle vine tile
+    - Sideways unisolids
+  - *Objects and Decals*
+    - Better/New Billboards
+    - Wide Trampolines
+    - New Variants to moving platform, such as one made of bones
   
 <details>
 <summary>(Reference)</summary>
