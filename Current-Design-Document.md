@@ -24,6 +24,7 @@ This will be organized based off of the order it will likely be done in.
 
 - **Icy Island**
   - *Decorative Tiles*
+    - Updates to the snow pile and grass decoration
     - Snow-topped rocks + stones
     - More unique decoration for:
       - Icy plains (snowmen, snow formations, etc.)
