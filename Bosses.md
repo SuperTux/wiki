@@ -38,6 +38,25 @@ is the end boss of [Tropical Paradise](Tropical-Paradise "wikilink").
 **Nolok** is the final boss of story mode and resides at [Nolok's Mountain Peak](Mountain-Peak "wikilink").
 Equipped with his mighty staff, he gains access to many powerful spells.
 
+
+## Mini Bosses
+
+It is yet still unclear if mini bosses are going to be a thing in the actual game. Since entities such as **Shadow Tux** are confirmed to be added
+(though not classified as a mini boss at the moment) a proposed list for potential mini bosses with their potential behaviors can be seen here.
+
+Mini bosses would most likely be used in the hidden bonus levels of each world and protect a certain treasure!
+
+### Shadow Tux
+
+Shadow Tux is a dark spirit taking the form of Tux, which spawned from an eerie disease spread by the Ghost Tree. It haunts an ancient library in
+the middle of the Corrupted Forest. It mimics Tux's every move but at a delay and will chase after him. Tux must flee from it in a parkour oriented
+level segment and avoid getting hit.
+
+### Mimic
+
+The **Mimic** is a large chest holding a sunken treasure which it defends. It stays stationary and throws several obstacles at Tux, such as small
+mimics which jump at Tux, trying to bite him. The ship it resits sunk near the tropical islands.
+
 ---
 
 See also
