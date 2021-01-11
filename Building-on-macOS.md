@@ -9,11 +9,82 @@ Warning
 -   These instructions will build a highly unstable development version of SuperTux. There is a possibility of causing serious damage to your system.
 -   The developers are currently focusing on developing SuperTux for Linux. While some of the developers and other SuperTux users have access to Mac OS X, building and running SuperTux on Mac OS X is not the primary goal, so support may not be available.
 
+
 Types of Builds
 ---------------
 
--   Since Mac OS X contains a Unix subsystem, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux. [Ravu al Hemio](User#ravualhemio "wikilink") has written an excellent [guide](User#ravualhemio/mac_os_x_compilation "wikilink") for a Unix-style build of SuperTux for Mac OS X. If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep SuperTux up to date. If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below. Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [Ravu al Hemio's guide](User#ravualhemio/mac_os_x_compilation "wikilink").
+-   Since Mac OS X contains a Unix subsystem, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux. See the `Unix-Style Build` section below. If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep SuperTux up to date. If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below. Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [Ravu al Hemio's guide](User#ravualhemio/mac_os_x_compilation "wikilink").
 -   If you'd like an easy way to launch SuperTux via Finder but would rather use [Ravu al Hemio's](User#ravualhemio) build, then take a look at [making a .command file](Building_on_Mac_OS_X#.command_File "wikilink").
+
+
+Unix-Style Build
+----------------
+
+These steps were last tested on macOS Big Sur 11.1. This guide was adapted from [x2on's guide](http://x2on.github.io/2012/01/28/tutorial-building-supertux-0-3-3-on-mac-os-x-lion/), which was written for macOS Lion.
+
+1. Clone the SuperTux repository to your computer. <br>
+```git clone https://github.com/SuperTux/supertux.git```
+
+
+2. Download Xcode from the App Store. Once the download is complete, open Xcode. There should be a prompt to install developer tools, so follow the prompts and install the tools.
+
+
+3. Install HomeBrew, which is a package manager for macOS that we will in turn use to install SuperTux's dependencies. <br>
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+Note: If that command fails, go to HomeBrew's website for up-to-date instructions.
+
+
+4. Install SuperTux's dependencies. <br>
+```brew install libvorbis physfs glew sdl2 sdl2_image boost cmake doxygen```
+
+
+5. We need to manually compile and install `libraqm`, the last of SuperTux's dependencies. When I tried to use the version available via HomeBrew, SuperTux would have segmentation faults deep in the `libraqm` library. Manually compiling and installing `libraqm` seems to fix this issue. <br>
+```
+git clone https://github.com/HOST-Oman/libraqm.git
+cd libraqm
+brew install autoconf automake libtool
+./autogen.sh
+./configure
+make
+make install
+```
+
+
+6. Check that `libraqm` was installed properly. The output of the command below should indicate that all tests run and pass. <br>
+```make check```
+
+
+7. Move into the SuperTux directory from the `libraqm` directory. <br>
+```cd ../supertux```
+
+
+8. Get SuperTux's submodules. <br>
+```git submodule update --init --recursive```
+
+
+9. Run CMake. <br>
+```
+mkdir dist
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=../dist/ -DCMAKE_BUILD_TYPE=RELEASE
+```
+
+If the `cmake` command fails, then SuperTux may have added more dependencies (or dependencies may have changed names/locations) since this guide was written. With a little detective work, you should be able to get it working again. Please open a pull request with the fix!
+
+
+10. Compile SuperTux. You may want to use the `j` flag to parallelize the build. <br>
+```make install```
+
+
+11. Run SuperTux. <br>
+```../dist/games/supertux2```
+
+
+Each time you make a change to the SuperTux codebase, you only need to repeat steps 10 and 11 to compile and run your changes. Step 10 uses the Makefile at `build/Makefile`. Step 11 executes the binary at `dist/games/supertux`.
+
+
 
 Disclaimer
 ----------

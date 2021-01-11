@@ -9,11 +9,7 @@ Prebuilt binaries can be found at <User#rgcjonas>
 mac OS X
 ========
 
-[Ravu al Hemio](User#ravualhemio "wikilink") has written a [guide](User#ravualhemio/mac_os_x_compilation "wikilink") for Mac OS X Tiger users on building SuperTux &lt;=0.3.1.
-
-[x2on](User#x2on "wikilink") writes a [guide](User#x2on/mac_os_x_compilation "wikilink") for Mac OS X Snow Leopard users on building SuperTux &gt;=0.3.2 SVN.
-
-A new guide for building SuperTux &gt;= 0.3.3 Git is [here](http://www.x2on.de/2012/01/28/tutorial-building-supertux-0-3-3-on-mac-os-x-lion/) available
+To compile the latest version of SuperTux on macOS Big Sur, open this [guide](Building-on-macOS.md). Look at the `Unix-Style Build` section in particular.
 
 Prerequisites
 =============
