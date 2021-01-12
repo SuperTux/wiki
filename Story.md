@@ -68,7 +68,7 @@ Proposed story for preexisting/future worlds
 
 This section is just some brainstorming ideas for future worlds that may or may not exist.
 
-### Ghost/Corrupt Forest
+### Corrupted Forest
 
 The Ghost Tree was planted by Nolok using his mighty staff to corrupt the forest and its inhabitants to be
 more eerie and dangerous. A group of Granito, inhabitants of the forest who have not yet been overtaken
