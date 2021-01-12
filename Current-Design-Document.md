@@ -204,10 +204,6 @@ Make rocks bounce off of Tux rather than killing him. Rocks should not be able t
 
 ### Mechanic Ideas
 
-**Walljumping**
-
-Could be quite useful and nice to have. Would extend move set of Tux. Possible on certain tiles. To decide: Does Tux cling to the wall or slide down slower?
-
 **Slope Sliding**
 
 Tux sliding down slopes like a real live penguin would be nice.
