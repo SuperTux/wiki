@@ -82,7 +82,7 @@ If the `cmake` command fails, then SuperTux may have added more dependencies (or
 ```../dist/games/supertux2```
 
 
-Each time you make a change to the SuperTux codebase, you only need to repeat steps 10 and 11 to compile and run your changes. Step 10 uses the Makefile at `build/Makefile`. Step 11 executes the binary at `dist/games/supertux`.
+Each time you make a change to the SuperTux codebase, you only need to repeat steps 10 and 11 to compile and run your changes. Step 10 uses the Makefile at `build/Makefile`. Step 11 executes the binary at `dist/games/supertux2`.
 
 
 
