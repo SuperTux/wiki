@@ -37,7 +37,7 @@ Current Members of the SuperTux Development Team
 - Programming
 - Graphics
 
-#### Christian "christ2go" Hagemeier
+#### Christian *"christ2go"* Hagemeier
 - Programming
 
 
