@@ -25,7 +25,6 @@ This will be organized based off of the order it will likely be done in.
 - **Icy Island**
   - *Decorative Tiles*
     - Updates to the snow pile and grass decoration
-    - Snow-topped rocks + stones
     - More unique decoration for:
       - Icy plains (snowmen, snow formations, etc.)
       - Cave levels (Rock formations, natural pillars, etc.)
@@ -53,7 +52,6 @@ This will be organized based off of the order it will likely be done in.
     - Redesign the Forest Bushes
     - The generic tileable tree
   - *Decorative Tiles*
-    - Forest Rocks, some with growth on them
     - Forest Foliage, like vines, growths, mushrooms, flowers and clovers
     - New decoration for underground zones
     - New decoration for castle/ruins sections
@@ -87,7 +85,6 @@ This will be organized based off of the order it will likely be done in.
     - Simple bridge/scaffolding unisolid tiles
     - Waterfall Tiles
     - Green Acid
-    - Transparent version of the old green castle vine tile
     - Sideways unisolids
   - *Objects and Decals*
     - Better/New Billboards
