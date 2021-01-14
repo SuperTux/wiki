@@ -26,12 +26,12 @@ This will be organized based off of the order it will likely be done in.
   - *Decorative Tiles*
     - Updates to the snow pile and grass decoration
     - More unique decoration for:
-      - Icy plains (snowmen, snow formations, etc.)
-      - Cave levels (Rock formations, natural pillars, etc.)
+      - Icy plains (snowmen, snow formations, animals, etc.)
+      - Cave levels (Rock formations, natural pillars, low visibility stalactite/mites, etc.)
       - Crystal Mines (Crystal plants, mineshafts, etc.)
-      - Bridge/Pier sections (Crates, fences)
-      - Icy Castle (Castle elements?)
-      - High Altitudes (animated flags)
+      - Bridge/Pier sections (Crates, fences, anchors)
+      - Icy Castle (Castle elements? Pillars, fixtures, paintings, etc.)
+      - High Altitudes (animated flags + flag pole)
 
 - **Normal Forest**
   - *Solid Tilesets*
