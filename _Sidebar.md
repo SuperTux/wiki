@@ -1,7 +1,7 @@
 Home
 
 * [[Home]]
-* [[News]]
+* [News](https://www.supertux.org/news/)
 * [[Glossary]]
 * [[Developers]]
 * [[TODO]]
