@@ -36,7 +36,7 @@ At last, the yeti was beaten. Rubbing his head and angrily grunting the yeti com
 When asked by Tux if he knew where Nolok went and how he could get there the yeti just laughed at the penguin.
 Though, while further tantalizing Tux about his cluelessness the yeti accidentally revealed the location of the
 forest and where to find a boat. Realizing this, the yeti sets off before revealing even more infomation leaving
-Tux behind. Tux now knew where he must go and sets off towards the glacier islands to find the crystal mine.
+Tux behind. Tux now knew where he must go and sets off towards the glacier isle to find the crystal mine.
 
 Rooted Forest
 -------------
