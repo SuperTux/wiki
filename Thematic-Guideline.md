@@ -1,7 +1,8 @@
-Something this game seems to be missing since most of its development time was a thematic guideline and an clarification
+Something this game seems to be missing since most of its development time was a thematic guideline and a clarification
 of such. This page is meant to fix some of those issues by laying down the main idea and concept for design and world/level
-themes for further development on the game's main story. If you would like to contribute to help finishing the main game,
-we highly recommend reading through this!
+themes etc. for further development on the game's main story.
+
+If you would like to contribute to help finishing the main game, we highly recommend reading through this document!
 
 # Contents
   1. [World Themes](https://github.com/SuperTux/supertux/wiki/Theme#world-themes)
@@ -74,7 +75,9 @@ Story Motives
 -------------
 
 Since this game is oriented primarily towards younger players, the story of the game is set to not be too deep and complex for a
-simple platformer. Thus, we will not include heavy exploration of deep, emotional or dark themes! The story is meant to be lighthearted
-first and foremost. For more insight on the game's current storyline, go [here](https://github.com/SuperTux/supertux/wiki/Story).
+simple platformer. Thus, we will not include heavy exploration of deep, emotional or dark themes!
+
+The story is meant to be lighthearted first and foremost. For more insight on the game's current storyline, go
+[here](https://github.com/SuperTux/supertux/wiki/Story).
 
 <Category:Design>
