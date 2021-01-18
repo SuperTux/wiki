@@ -5,11 +5,11 @@ themes etc. for further development on the game's main story.
 If you would like to contribute to help finishing the main game, we highly recommend reading through this document!
 
 # Contents
-  1. [World Themes](https://github.com/SuperTux/supertux/wiki/Theme#world-themes)
-  2. [Worldmap Design](https://github.com/SuperTux/supertux/wiki/Theme#worldmap-design)
-  3. [Level Length](https://github.com/SuperTux/supertux/wiki/Theme#level-length)
-  4. [Boss Fights](https://github.com/SuperTux/supertux/wiki/Theme#boss-fights)
-  5. [Story Motives](https://github.com/SuperTux/supertux/wiki/Theme#story-motives)
+  1. [World Themes](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#world-themes)
+  2. [Worldmap Design](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#worldmap-design)
+  3. [Level Length](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#level-length)
+  4. [Boss Fights](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#boss-fights)
+  5. [Story Motives](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#story-motives)
 
 World Themes
 ------------
