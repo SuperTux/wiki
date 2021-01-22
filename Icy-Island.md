@@ -5,7 +5,7 @@
 ---
 
 ### Levels
-As of December 2018, *Icy Island* features the following levels:
+As of December 2018, Icy Island features the following levels:
 
 * Welcome to Antarctica
 * The Journey Begins
@@ -39,7 +39,7 @@ As of December 2018, *Icy Island* features the following levels:
 Badguys for Icy Island can be found at the [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys-Icy) page.
 
 ### End boss
-The [Yeti](https://github.com/SuperTux/supertux/wiki/Bosses#Yeti) is the end boss for *Icy Island*. He is featured in *No More Mr Ice Guy* and tries to attack Tux indirectly using the icicles to his power.
+The [Yeti](https://github.com/SuperTux/supertux/wiki/Bosses#Yeti) is the end boss for Icy Island. He is featured in *No More Mr Ice Guy* and tries to attack Tux indirectly using the icicles to his power.
 
 ---
 
