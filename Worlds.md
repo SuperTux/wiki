@@ -16,8 +16,8 @@ bonus worlds, alongside its story mode.
 
 ### Planned Worlds
 
-* World 3 - Tropical Paradise
-* World 4 - Nolok's Mountain Peak
+* [World 3 - Tropical Paradise](https://github.com/SuperTux/supertux/wiki/Tropical-Paradise)
+* [World 4 - Nolok's Mountain Peak](https://github.com/SuperTux/supertux/wiki/Mountain-Peak)
 
 ---
 
