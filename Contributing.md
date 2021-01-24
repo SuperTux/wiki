@@ -14,7 +14,7 @@ The easiest way to contribute to *SuperTux* is actually fun: Play the new “for
   
 *Main menu* → *Contrib Levels* → *[Incubator Island](Incubator_Island "wikilink")*
 
-and play the levels you find there. Then log on to [IRC](IRC "wikilink"), a chat network, and tell us what you think. Or send an email to the [mailing list](mailing_list "wikilink"). Or see if there is a “bug report” in our [bug tracker](bug_tracker "wikilink") that handles the new level.
+and play the levels you find there. Then log on to Discord and tell us what you think. Or see if there is a “bug report” in our [bug tracker](bug_tracker "wikilink") that handles the new level.
 
 We're especially interested to hear about the following points:
 
