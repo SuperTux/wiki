@@ -6,6 +6,19 @@ Why
 -   Show your changes to the world, and contribute them to the project!
 -   You get write access to our repository and join the team if you contribute enough.
 
+Generic instructions
+--------------------
+
+These instructions apply to every function you may want to adopt.
+
+1.  Join the SuperTux Discord to stay up to date with recent developments.
+2.  Check out the latest SuperTux [development version](Download/Subversion "wikilink") and compile it by following the instructions in the [INSTALL file](http://supertux.lethargik.org/svn/supertux/trunk/supertux/INSTALL) if you want to develop code or levels.
+3.  Modify or add something that is either listed in the [task list](Milestone_2_Design_Document/Tasks "wikilink") or seems useful to you.
+4.  Give us your work:
+    -   The preferred way is to open a new report on our [\[Template:MediaWiki:bugtracker-url]([Template:MediaWiki:bugtracker-url "wikilink") bug tracker\] and attach the files to it. (You can upload and attach files to bug reports using the “Upload File” button when filing or perusing them).
+    -   Alternatively, upload the files to some website or ftp server and send us the link on the mailing list.
+    -   Do NOT use attachments on the mailing list; the files tend to get big, annoy people, and the mailing list often eats them
+
 Test new levels
 ---------------
 
@@ -27,19 +40,6 @@ Licenses
 --------
 
 We can't use contributions that aren't redistributable under the same license as SuperTux itself. Usually, GPL will infect small code changes automatically. For everything else (like levels, images, sounds, and new programs), make sure that you can release it under GPLv2 or later (yes, *all* contributions need to be released under GPL) and also CC-BY-SA for data files such as images, sounds, music, and levels. (Scripts count as parts of levels)
-
-Generic instructions
---------------------
-
-These instructions apply to every function you may want to adopt.
-
-1.  Join the SuperTux Discord to stay up to date with recent developments.
-2.  Check out the latest SuperTux [development version](Download/Subversion "wikilink") and compile it by following the instructions in the [INSTALL file](http://supertux.lethargik.org/svn/supertux/trunk/supertux/INSTALL) if you want to develop code or levels.
-3.  Modify or add something that is either listed in the [task list](Milestone_2_Design_Document/Tasks "wikilink") or seems useful to you.
-4.  Give us your work:
-    -   The preferred way is to open a new report on our [\[Template:MediaWiki:bugtracker-url]([Template:MediaWiki:bugtracker-url "wikilink") bug tracker\] and attach the files to it. (You can upload and attach files to bug reports using the “Upload File” button when filing or perusing them).
-    -   Alternatively, upload the files to some website or ftp server and send us the link on the mailing list.
-    -   Do NOT use attachments on the mailing list; the files tend to get big, annoy people, and the mailing list often eats them
 
 Data Files
 ----------
