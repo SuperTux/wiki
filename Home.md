@@ -38,9 +38,15 @@ Guidelines and tips for using this Wiki
 
 * Prefer big pages, don't fracture content over too many small pages.
 
-* Users without write access to this project need to use the
-  [wiki repository](https://github.com/SuperTux/wiki/wiki) to submit
-  changes via pull requests, directly editing this Wiki is disabled
+Making changes to the wiki
+--------------------------
+
+* Users without write access: Directly editing this Wiki is restricted to developers, you have to submit a pull request. First set up a wiki clone using `git clone https://github.com/SuperTux/supertux.wiki.git` and fork the [wiki repository](https://github.com/SuperTux/wiki) and add your fork as a remote. Make your changes locally and push to your fork, or use Github's file editing UI. Then submit a pull request to the wiki repository through the Github UI.
+
+* Developers with commit access: You can edit the wiki directly through the edit interface in the top right corner. To make local changes, set up the clone as above, so that the `origin` remote is `https://github.com/SuperTux/supertux.wiki.git` (or `git@github.com:SuperTux/supertux.wiki.git` for SSH). Then add the wiki repo as a remote: `git remote add wiki https://github.com/SuperTux/wiki.git` or `git remote add wiki git@github.com:SuperTux/wiki.git.` When you push you should push with a `git push origin` first and then follow it up with `git push wiki`. To merge pull requests, ensure that `wiki` is up-to-date with `origin` by doing a `git pull origin; git push wiki`. (If you have local commits you should `git push origin` in the middle). Then you can merge the request to the wiki repository with the GitHub UI and let the GitHub Action merge it back to the origin repo. Or you can fetch the commits to your local clone and do the merge and push like they're your commits.
+
+
+
 
 SuperTux
 --------
