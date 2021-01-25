@@ -16,8 +16,8 @@ These instructions apply to every function you may want to adopt.
 3.  Modify or add something that is either listed in the [task list](Milestone_2_Design_Document/Tasks "wikilink") or seems useful to you.
 4.  Give us your work:
     -   The preferred way is to open a new report on our [\[Template:MediaWiki:bugtracker-url]([Template:MediaWiki:bugtracker-url "wikilink") bug tracker\] and attach the files to it. (You can upload and attach files to bug reports using the “Upload File” button when filing or perusing them).
-    -   Alternatively, upload the files to some website or ftp server and send us the link on the mailing list.
-    -   Do NOT use attachments on the mailing list; the files tend to get big, annoy people, and the mailing list often eats them
+    -   Alternatively, upload the files to some website or ftp server and send us the link. (We don't like this because the links go down, but it's sometimes necessary for large file collections)
+    -   You can also use attachments on Discord, so long as the files aren't too big
 
 Test new levels
 ---------------
