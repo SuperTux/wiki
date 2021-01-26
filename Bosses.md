@@ -31,11 +31,11 @@ depended on which *Ghost Orb* they absorbed prior.
 ### Toucan
 
 The large and emposing **Toucan**, accompanied by his **Master Totems**, rules over the tropical temples and
-is the end boss of [Tropical Paradise](Tropical-Paradise "wikilink").
+is the end boss of [Tropical Paradise](https://github.com/SuperTux/supertux/wiki/Tropical-Paradise).
 
 ### Nolok
 
-**Nolok** is the final boss of story mode and resides at [Nolok's Mountain Peak](Mountain-Peak "wikilink").
+**Nolok** is the final boss of story mode and resides at [Nolok's Mountain Peak](https://github.com/SuperTux/supertux/wiki/Mountain-Peak).
 Equipped with his mighty staff, he gains access to many powerful spells.
 
 
