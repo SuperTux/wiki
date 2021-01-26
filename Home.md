@@ -22,8 +22,7 @@ Guidelines and tips for using this Wiki
   development. Every substantial addition or change to the game should
   be documented here.
 
-* Do not delete information from this Wiki unless it is completely out
-  of date or otherwise useless, prefer moving it over to [[Ideas]],
+* Do not delete information from this Wiki, prefer moving it over to [[Ideas]],
   [[Reject Ideas]] or another appropriate place instead.
 
 * Use Markdown (`.md`) for the Wikipages.
