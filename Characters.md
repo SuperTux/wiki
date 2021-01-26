@@ -1,4 +1,4 @@
-If you like to checkout what's planned for upcoming characters and/or other mechanics take a look at our [current design document](https://github.com/SuperTux/supertux/wiki/Current-Design-Document).
+Note: This is mainly a collection of ideas and subject to change. If you like to checkout what's planned for upcoming characters and/or other mechanics take a look at our [current design document](https://github.com/SuperTux/supertux/wiki/Current-Design-Document).
 
 Main Characters
 ===============
@@ -81,16 +81,9 @@ Nolok
 ![](images/Nolok-statue-sample-5.png)
 </details>
 
-Nolok the crocodile is the main enemy of Tux, the antagonist of SuperTux. During a lovely picnic between Tux and his
-beloved Penny, Nolok jumps out from behind an ice bush causing a bright flash to appear blinding Tux. He then captures
-Penny leaving only a note behind.
+Nolok the crocodile is the main enemy of Tux, the antagonist of SuperTux. Like a cat plays with mice, Nolok is a predator and derives pleasure and entertainment from playing with his prey. So the reason he kidnaps Penny is that he derives entertainment out of Tux feeling sorrow towards his beloved Penny and having no idea where to find her. Additionally, Nolok enjoys to see Tux suffer on his journey, thus leading him to leave jeering notes and wreak havoc on the world by sending out his minions (the badguys and bosses). But Nolok is also like a crocodile hunting in that he waits patiently for his prey to come to him before he springs his ambush; that's why we don't see Nolok in person until the very last stage when Nolok is ready to confront Tux.
 
-As a predator, Nolok derives pleasure and entertainment from the sorrow of others resulting in him kidnapping Tux's
-girlfriend Penny and sending him on a long and dangerous journey to the unknown.
-
-To impede Tux's journey throughout several worlds, Nolok sends out his minions and followers.
-
-Nolok is also the final boss of story mode. Nolok resides at [Nolok's Mountain Peak](Mountain-Peak "wikilink"). He is equipped with a mighty staff that gives him access to many powerful spells.
+In particular Nolok is the final boss of story mode. Nolok resides at [Nolok's Mountain Peak](Mountain-Peak "wikilink"). He is equipped with a mighty staff that gives him access to many powerful spells.
 
 Badguys
 =======
