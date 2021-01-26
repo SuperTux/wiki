@@ -18,10 +18,9 @@ Game Mechanics
 
 * [[User Manual]]
 * [[Actions]]
-* [[Badguys]]
-* [[Bosses]]
+* [[Characters]]
+* [[Story]]
 * [[Worlds]]
-* [[Concept Art]]
 
 Tools
 
