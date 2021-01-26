@@ -54,7 +54,7 @@ is the end boss of [Tropical Paradise](https://github.com/SuperTux/supertux/wiki
 
 ### Nolok
 
-See [[Character#Nolok]] for details.
+See [Nolok](https://github.com/SuperTux/supertux/wiki/Characters#Nolok) for details.
 
 ## Mini Bosses
 
