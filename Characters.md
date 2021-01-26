@@ -108,8 +108,6 @@ Tux will try to avoid approaching badguys if possible. If he runs into one or on
 
 Many of the badguys Tux can knock out by jumping on them and squishing them. Others are only stunned by this for a short while or are insusceptible to this and hurt Tux instead. As a rule of thumb, badguys with a spiky head or helmet can usually not be jumped on.
 
-For a list of the game's badguys and their properties take a look at the badguy categories below.
-
 <details>
   <summary>Unsorted art</summary>
 
