@@ -1,9 +1,8 @@
 ## Badguys of Rooted Forest
 
-This page shall describe all enemies, old and new, that appear in Rooted Forest in as much detail as possible.
+This page shall describe all enemies, old and new, that appear or could appear in Rooted Forest, in as much detail as possible.
 
 Note: For some badguys, we still need to settle down on proper names (e.g. *Mr. Tree* or *Walking Tree*).
-
 
 Poison Ivy
 ==========
@@ -59,6 +58,12 @@ Mr. Tree (walkingtree)
 ======================
 
 ![](img/badguy/icons/mr_tree.gif) ![](img/badguy/icons/mr_tree_leafless.gif)
+
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Littletrees.png)
+</details>
 
 A walking tree crowned with luscious green leaves. Jumping on Mr. Tree will cause him to break into 2-3 *Poison Ivy*
 and one *Stumpy*, a leaf-less version of Mr. Tree.
@@ -227,6 +232,12 @@ Owl
 
 ![](img/badguy/icons/owl.gif)
 
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Owl.png)
+</details>
+
 A flying enemy that flies high up in the air and carries either badguys or objects around. When Tux is below it,
 it will drop whatever it is carrying. Most of the time Owl is carrying a single
 *[Skydive](https://github.com/SuperTux/supertux/wiki/Badguys-Misc#Skydive)*.
@@ -291,6 +302,11 @@ Spidermite
 ==========
 
 ![](img/badguy/icons/spidermite.gif)
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Spider.jpg)
+</details>
 
 Spidermites are simply moving up and down, hurting Tux on contact, but Tux can squished nonetheless.
 
@@ -306,6 +322,11 @@ Livefire
 ========
 
 ![](img/badguy/icons/livefire.gif)
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Firedrop.png)
+</details>
 
 A living flame with two eyes and burning feet that disguises itself as a stationary flame and moves around
 back and forth once awoken.
@@ -341,15 +362,35 @@ If Tux manages to get out of reach of the Will-o-wisp, it will stop following hi
 | Burnable       | no     |
 | Freezable      | no     |
 
+Stony
+=====
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Littlestone.png)
+![](images/Stony_wall.png)
+</details>
+
+Water drop
+==========
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Waterdrop.png)
+</details>
+
+Spooky Tree
+===========
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Spooky-Tree.jpeg)
+</details>
 
 Ghost Tree
 ==========
 
-The ghost tree is the planned boss enemy that awaits Tux in the second castle. It is not fully implemented yet and only
-an unfinished version of it and its incomplete graphics can be found in the game.
-
-For more information on bosses, see [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses).
-
+See [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses#ghost-tree).
 
 List of Rooted Forest's badguys as of SuperTux 0.6.2
 ----------------------------------------------------
@@ -370,7 +411,7 @@ List of Rooted Forest's badguys as of SuperTux 0.6.2
 -   Spidermite
 -   Livefire
 -   Will-o-wisp
--   Ghost Tree
+-   Ghost Tree (boss)
 
 List of Rooted Forest's badguys in SuperTux 0.1.3
 -------------------------------------------------

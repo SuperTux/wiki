@@ -2,25 +2,44 @@
 
 ### Yeti
 
-The **Yeti** is massive, fuzzy creature preying on Tux in the cold and is the end boss for
-[Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island). He may not be the brightest
+<details>
+  <summary>Art</summary>
+
+![](images/Yeti2.png)
+![](images/Yetiboss.jpg)
+![](images/Yeti2.jpg)
+![](images/Yeti-concept.png)
+![](images/Yeti-scan-roughs.png)
+![](images/Yeti-concept-throw.png)
+</details>
+
+The **Yeti** is the boss enemy that awaits Tux after the castle of [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island),
+in the level *No More Mr Ice Guy*.
+He is a massive, fuzzy creature preying on Tux in the cold. He may not be the brightest
 but proves to be quite a threat when enraged.
 
 #### Attacks
 The Yeti will attack the player in two different ways. First, he will rush towards the player,
 going from one side to the other. This maneuver is then followed by him stomping three times which
-cause stalactites to fall on down on you.
+attacks Tux indirectly by making icicles fall down.
 
 ### Ghost Tree
 
-*(Note: The Ghost Tree has not yet been fully implemented to the game thus their entry is not complete!)*
+*(Note: The Ghost Tree is a work in progress. Although it is unfinished some incomplete graphics can be found in the game.)*
+
+<details>
+  <summary>Art</summary>
+
+![](images/Forestboss.jpg)
+![](images/Forestboss2.png)
+</details>
 
 The Ghost Tree, a large errie, purple tree with deep, dark holes as eyes, is the end boss of
-[Rooted Forest](https://github.com/SuperTux/supertux/wiki/Rooted-Forest). Planted by Nolok,
+[Rooted Forest](https://github.com/SuperTux/supertux/wiki/Rooted-Forest).
+The ghost tree awaits Tux in the second castle. Planted by Nolok,
 the Ghost Tree began spreading a horrible disease through out the forest through its roots.
 
 #### Attacks
-
 The Ghost Tree primarily will attack the player from below with its roots, bursting out of the
 ground. These can be anticipated by the cracks appearing on the ground. Its other attacks are
 depended on which *Ghost Orb* they absorbed prior.
@@ -35,9 +54,7 @@ is the end boss of [Tropical Paradise](https://github.com/SuperTux/supertux/wiki
 
 ### Nolok
 
-**Nolok** is the final boss of story mode and resides at [Nolok's Mountain Peak](https://github.com/SuperTux/supertux/wiki/Mountain-Peak).
-Equipped with his mighty staff, he gains access to many powerful spells.
-
+See [[Character#Nolok]] for details.
 
 ## Mini Bosses
 

@@ -1,4 +1,4 @@
-**Icy Island** is the very first world in SuperTux. It is an Antarctica-type world. This world was released in _SuperTux 0.1_.
+**Icy Island** is the very first world in SuperTux. It is an Antarctica-type world. This world was first released in _SuperTux 0.1_.
 
 ![The Icy Island worldmap in version 0.6.2](images/icy_island_0_6_2.png "The Icy Island worldmap in version 0.6.2")
 
@@ -39,7 +39,8 @@ As of December 2018, Icy Island features the following levels:
 Badguys for Icy Island can be found at the [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys-Icy) page.
 
 ### End boss
-The [Yeti](https://github.com/SuperTux/supertux/wiki/Bosses#Yeti) is the end boss for Icy Island. He is featured in *No More Mr Ice Guy* and tries to attack Tux indirectly using the icicles to his power.
+
+See [Yeti](https://github.com/SuperTux/supertux/wiki/Bosses#Yeti)
 
 ---
 

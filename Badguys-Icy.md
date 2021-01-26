@@ -5,7 +5,6 @@ in as much detail as possible.
 
 Note: For some badguys, we still need to settle down on proper names (e.g. *Mrs. Snowball* or *Smartball*).
 
-
 Mr. Snowball
 ============
 
@@ -42,6 +41,11 @@ Captain Snowball
 ================
 
 ![](img/badguy/icons/captain_snowball.gif)
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Boarding-nq8.png)
+</details>
 
 A snowball who claims to be captain of a ship despite not having set foot on one himself.
 
@@ -149,6 +153,11 @@ Mr. Iceblock
 
 ![](img/badguy/icons/iceblock.gif)
 
+<details>
+  <summary>Concept Art</summary>
+![](images/Mriceblock-left-2.png)
+</details>
+
 Like *Mr. Snowball*, Mr. Iceblock is a simple straight forward enemy. He will not stay on platforms. When
 jumped upon he will get knocked out and become a portable item that one can use to throw or be kicked at other
 enemies.
@@ -212,6 +221,10 @@ Kamikaze Snowball (snowshot)
 ============================
 
 ![](img/badguy/icons/kamikaze_snowball.gif)
+<details>
+  <summary>Concept Art</summary>
+![](images/Kamikaze-left.png)
+</details>
 
 The Kamikaze Snowball shoots out of a [cannon](https://github.com/SuperTux/supertux/wiki/Badguys-Misc#Cannon) and
 flies in a straight line until crashing. He is very angry, or very “wise”, and so can levitate through the force of
@@ -254,6 +267,11 @@ Ice Crusher
 ===========
 
 ![](img/badguy/icons/icecrusher_krush.png "Krush") ![](img/badguy/icons/icecrusher_krosh.png "Krosh")
+<details>
+  <summary>Concept Art</summary>
+
+![](images/Icecrusher-concept-art.png)
+</details>
 
 Ice Crushers are enemies that are hanging on the ceiling or walls. When Tux gets within one tile they will attempt
 to crush Tux into the nearest wall or floor. After they hit a wall, they slowly drift back up. On this “return trip”,
@@ -290,12 +308,7 @@ Note: They can also be triggered when hit with a fireball and cause freezable en
 Yeti
 ====
 
-![](images/Yeti2.png)
-
-The yeti is the boss enemy that awaits Tux in the first castle.
-
-For more information on bosses, see [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses).
-
+See [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses#yeti).
 
 List of Icy Island's badguys as of SuperTux 0.6.2
 -------------------------------------------------
@@ -314,7 +327,7 @@ List of Icy Island's badguys as of SuperTux 0.6.2
 -   Crystallo
 -   Ice Crusher
 -   Stalactite
--   Yeti
+-   Yeti (boss)
 
 List of Icy Island's badguys in SuperTux 0.1.3
 ----------------------------------------------
