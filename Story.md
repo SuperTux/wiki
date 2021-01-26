@@ -1,4 +1,4 @@
-Note: This is mainly a collection of ideas and subject to change. Also, they need a lot more detail.
+Note: This is mainly a collection of ideas and subject to change. Also, they need a lot more detail. See also [[Characters]].
 
 Introduction
 ------------
@@ -194,11 +194,6 @@ she writes down information she overhears from Nolok himself in a letter in hope
 Nolok's plans help him as much as she can on his journey.
 
 ### Nolok's Motive
-
-Nolok as a character derives pleasure from causing harm or crime. So the reason he kidnaps Penny is that he derives
-entertainment out of Tux feeling sorrow towards his beloved Penny and having no idea where to find here. Additionally,
-enjoys to see Tux suffer on his journey thus setting out his minions, leading him to a false castle or corrupting an
-entire forest to frighten him.
 
 Once Tux reaches the end of Rooted Forest, Nolok starts to notice Tux's determination being impressed by his commitment
 and bravery to push through even leaving his homeland. After defeating Nolok and rescuing Penny, Nolok acknowledges Tux
