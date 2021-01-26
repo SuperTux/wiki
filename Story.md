@@ -6,7 +6,7 @@ Introduction
 The story of SuperTux focuses on Tux the penguin who has to save his beloved girlfriend Penny
 from the clutches of the evil Nolok.
 
-Antarctica
+Icy Island
 ----------
 
 ### Intro: Penny gets captured!
@@ -14,7 +14,7 @@ Antarctica
 (Played at the start of the game - see also [Milestone 1 version](https://github.com/SuperTux/supertux/blob/v0.1.4/data/intro.txt))
 
 * *" Somewhere at the shores of Antarctica... "*
-* Narrator: Tux and Penny were out having a nice picnic on the ice fields of Antarctica/Icy Island.
+* Narrator: Tux and Penny were out having a nice picnic on the ice fields of Icy Island.
 * *Tux and Penny are shown having a picnic at the antarctic shore. In the background, there's a pile of snow / an ice bush, which eventually starts shaking a bit, attracting the focus of the camera.*
 * Narrator: Suddenly, a creature jumped from behind an ice bush, there was a flash, and Tux fell asleep/was blinded!
 * *Nolok jumps out, and the screen goes black with a bright flash as Nolok uses his mighty staff.*
@@ -81,7 +81,7 @@ Tux immediately ran towards a ravine (yeti battle area) and jumped. The yeti fol
 
 ![](images/Interlude01.jpg "Interlude01.jpg")
 
-### Outro/Forest Intro
+### Outro
 
 (Played after beating the Yeti)
 
@@ -90,8 +90,8 @@ When asked by Tux if he knew where Nolok went and how he could get there the yet
 Though, while further tantalizing Tux about his cluelessness the yeti accidentally revealed the location of the
 forest and where to find a boat. Tux runs away from the Yeti before the Yeti recovers from his mistake. As Tux runs from the Yeti monster, he sees a ship. The monster is gaining, and the ship is leaving. Tux only has one chance... he gets on his belly and slides as fast as he can, because he goes faster when he slides. Tux gets massive “Air Time” as he flies off an iceberg cliff, Yeti in pursuit. The Yeti can't stop in time and falls in to the deep ocean. Tux screams “I'm coming, Penny!” as he lands near the ship. He gets on, the ship moves a little, and the crystal mine comes into view.
 
-Forest
-------
+Rooted Forest
+-------------
 
 A long trip to the north with a boat and Tux finally managed to reach the southern lands of Rooted Forest.
 
@@ -127,7 +127,7 @@ But his journey wasn't over just yet...
 
 Shows Tux using the five keys to enter the castle.
 
-### Interlude: Forest Boss (The Gigantic Tree)
+### Interlude: Boss (The Gigantic Tree)
 
 (Plays at the end of the castle level of Rooted Forest, before the boss battle of world 2)
 
@@ -135,11 +135,11 @@ Tux reaches the top of the tower but still cannot find Penny or Nolok. The tower
 
 Switch to another scene showing Penny in a prison cell, trying to escape. Penny shouts “Tux where are you?”. She is unaware that Tux is nearby. Penny then thinks up or starts to think up her escape plan.
 
-### Forest Outro/Tropical Islands Intro
+### Outro
 
 (Played after beating the ghost tree forest boss)
 
-Tux is shown combatting the forest boss. The ghost tree withers away and the forest returns back to normal.
+Tux is shown combating the forest boss. The ghost tree withers away and the forest returns back to normal.
 
 Scene is switched to Penny, who finally managed to escape her cell. She flees through a window or a crack in the wall, gets out of the castle and disappears in the background. Switch back to Tux who beat the boss and finds her empty cell. Go back to Penny again and show her leaving the forest and entering the next world. In World 3, the player will take Penny's role, and the story is continued from her point of view. (For world 3 only)
 
