@@ -161,11 +161,11 @@ disease began to spread.
 
 Tux goes to a tropical island after the forest keep, named Tropical Paradise.
 
-### Tropical Islands Totem Puzzle
+### Totem Puzzle
 
 (Played after a couple of levels and shows the user of some puzzle involving totems that needs to be completed)
 
-### Tropical Islands Boss
+### Boss
 
 A majestic Toucan resides among the totem temples creating totems in his image. Nolok met the bird and offered him more land and power if he could successfully impede Tux's progress and defend the hidden teleporter to his fortress on top of a mountain peak. So Tux fights. Tux finds Nolok's base camp by the portal. Nolok is chasing Tux, who is chasing Penny. Penny disappears, and Tux evades Nolok. Player control is switched back to Tux. Nolok travels to world 4...
 
