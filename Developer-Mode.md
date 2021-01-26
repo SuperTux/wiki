@@ -1,5 +1,5 @@
 Developer mode enables various features intended to be used by developers of
-the game, most notably various [[Cheats]]. This mode cannot be entered by means
+the game, most notably various cheats. This mode cannot be entered by means
 of a graphical user interface.
 
 SuperTux 0.3
@@ -24,6 +24,11 @@ The option can be made permanent with:
 
 in the SuperTux [[Configuration File]].
 
+### Cheats
+
+A cheat menu will become accessible by pressing `F1`. This menu is available on both the worldmap and the main game.
+
+The [[Console]] can be used for additional cheating.
 
 SuperTux 0.1
 ------------
@@ -33,3 +38,18 @@ process as described above, but instead of the `--developer` option you need to
 use the `--debug-mode` option. Also note that the binary is usually called
 `supertux` for these releases, and *not* `supertux2`. Therefore, on Linux you
 would for example actually run `supertux --debug-mode`.
+
+### Cheats
+
+For these cheats to work you have to be in debug mode.
+
+Do not type these in, you just press the appropriate key, eg the Tab key.
+
+| Key    | Cheat                                                                |
+|--------|----------------------------------------------------------------------|
+| end    | gain 50 coins                                                        |
+| tab    | become bigtux                                                        |
+| delete | become firetux                                                       |
+| l      | take away a life                                                     |
+| insert | become invincible (stars) \[on some keyboards this is the HELP key\] |
+| tab    | become smalltux                                                      |
