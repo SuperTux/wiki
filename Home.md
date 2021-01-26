@@ -23,7 +23,7 @@ Guidelines and tips for using this Wiki
   be documented here.
 
 * Do not delete information from this Wiki, prefer moving it over to [[Ideas]],
-  [[Reject Ideas]] or another appropriate place instead.
+  [[Rejected Ideas]] or another appropriate place instead.
 
 * Use Markdown (`.md`) for the Wikipages.
 
