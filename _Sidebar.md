@@ -25,9 +25,8 @@ Game Mechanics
 
 Tools
 
-* [[Cheats]]
-* [[Demo Recording]]
 * [[Developer Mode]]
+* [[Demo Recording]]
 * [[Level Editor]]
 
 Engine
