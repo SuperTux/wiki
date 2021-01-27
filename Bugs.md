@@ -2,9 +2,9 @@ The current SuperTux bug tracker can be found at:
 
 * https://github.com/SuperTux/supertux/issues
 
-The old Mantis bug tracker can be viewed at:
+The old Mantis bug tracker can be (partially) viewed at:
 
-* http://supertux.lethargik.org/bugs/
+* https://web.archive.org/web/20171027014318/http://supertux.lethargik.org/bugs/my_view_page.php
 
 Some even older bugs can be found at [OldBugs](OldBugs "wikilink").
 
