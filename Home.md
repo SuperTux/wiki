@@ -74,4 +74,4 @@ For coders
 
 Fix some [easy bugs](https://github.com/SuperTux/supertux/issues?q=is%3Aopen+is%3Aissue+label%3Adifficulty%3Aeasy)
 
-Join us on [IRC](https://github.com/SuperTux/supertux/wiki/IRC)
+Join us on Discord
