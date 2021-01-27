@@ -1,4 +1,5 @@
-Note: This is mainly a collection of ideas and subject to change. Also, they need a lot more detail. See also [[Characters]].
+Note: This is mainly a collection of ideas and subject to change. Also, they need a lot more detail. See also
+[Characters](https://github.com/SuperTux/supertux/wiki/Characters).
 
 Introduction
 ------------
@@ -11,75 +12,52 @@ Icy Island
 
 ### Intro: Penny gets captured!
 
-(Played at the start of the game - see also [Milestone 1 version](https://github.com/SuperTux/supertux/blob/v0.1.4/data/intro.txt))
+(Plays at the start of the game - see also [Milestone 1 version](https://github.com/SuperTux/supertux/blob/v0.1.4/data/intro.txt))
 
-* *" Somewhere at the shores of Antarctica... "*
-* Narrator: Tux and Penny were out having a nice picnic on the ice fields of Icy Island.
-* *Tux and Penny are shown having a picnic at the antarctic shore. In the background, there's a pile of snow / an ice bush, which eventually starts shaking a bit, attracting the focus of the camera.*
-* Narrator: Suddenly, a creature jumped from behind an ice bush, there was a flash, and Tux fell asleep/was blinded!
-* *Nolok jumps out, and the screen goes black with a bright flash as Nolok uses his mighty staff.*
-* *After fading in, Tux lies on his back, Penny is gone. Where she lay before now lies a letter.*
-* Narrator: When Tux wakes up, he finds that Penny is missing (captured?).
-* *Player moves Tux to collect the letter Nolok left.*
-* Narrator: The letter reads: “Tux, my arch enemy! I have captured/kidnapped your beautiful/beloved Penny and have taken her to my fortress. The path to my fortress is littered with my minions. Give up on the thought of trying to reclaim her, you don't have a chance of saving her! Signed, Nolok”
-* *Tux looks up, Nolok's fortress appears foggily in the distance.*
-* Narrator: Tux looks and see Nolok's fortress in the distance. Realizing the trouble Penny could be in, Tux became determined to save her. He begins his journey.
-* *Right arrow appears pointing to right edge of screen. Player walks Tux off. Fade out.*
+*" Somewhere at the shores of Antarctica... "*
 
-![](images/Introcutscene.png "Introcutscene.png")
+Tux and Penny are shown having a picnic at the antarctic shore. In the background, there's an ice bush, which
+eventually starts shaking a bit, attracting the focus of the camera. Suddenly, Nolok jumped from behind the nearby
+ice bush and summoned a bright flash with his mighty staff. The flash blinded Tux and Penny was captured in the
+process. Nolok had only left a small note behind.
+
+The note reads: “Tux, my arch enemy! I have kidnapped your beloved Penny and have taken her to my fortress. The
+path to my fortress is littered with my minions. Give up on the thought of trying to reclaim her, you don't have
+a chance of saving her! Signed, Nolok”
+
+As Tux looked up and Nolok's castle appears foggily in the distance.. Realizing the trouble Penny could be in,
+Tux became determined to save her. He begins his journey.
+
+![](images/Introcutscene.png)
 
 ### Interlude: Exit of the cave
 
 (Plays after finishing the level “The End of the Tunnel”)
 
-Tux walks out of the ice cave but stops as he hears a strange sound in the distance. A yeti appeared to be watching him from higher up on a small incline. Before Tux could do anything, however, the yeti ran away. Tux was concerned by the yeti's sudden retreat but decided to continue his journey as he had spotted a castle, in the same direction the yeti went.
+Tux walks out of the ice cave but stops as he hears a strange sound in the distance. A yeti appeared to be
+watching him from higher up on a small incline. Before Tux could do anything, however, the yeti ran away.
+Tux was concerned by the yeti's sudden retreat but decided to continue his journey as he had spotted a castle,
+in the same direction the yeti went.
 
-### Interlude: Castle
+### Interlude: Empty Throne Room
 
-(Played at the end of the level "Castle Of Nolok" - see also [Milestone 1 version](https://github.com/SuperTux/supertux/blob/v0.1.4/data/extro.txt))
+(Plays at the end of the level "Castle Of Nolok")
 
-Tux ran through a door into Nolok's throne room,
-frantically searching for his beloved.
-Alas, he found an empty throne room. No Nolok, no Penny. Only another note from Nolok hanging on a piller.
+Tux reaches an empty throne room with a letter hanging on a pillar. There is a door near by. Tux hears the yeti
+an runs towards it. He opens the door and finds himself at a balcony outside the castle walls. He jumps down into
+the yeti battle area.
 
-"Well done, Tux, well done. If you are
-reading this, you have removed my
-control over this icy fortress. But as
-you can see, your beloved Penny is not
-here. What you did not realize is that
-this is just one of my many fortresses,
-spread far across the lands!
+Tux entered the castle's throne room, frantically searching for his beloved. Alas, he found nothing but an empty
+room. No Nolok, no Penny. Only another note on a piller but this time from Penny.
 
-"Tux, your ambition is most honorable,
-but futile nonetheless. With every
-fortress you conquer of mine, I will
-escape to another, and take Penny with
-me. Do not be silly... it is best that
-you give up now."
+Nolok had tricked him and took off with Penny to a far forest. Tux began to worry even more now. He had no idea
+where the forest was or how to get there. His worries were cut short however, as out of a sudden  he heared a loud
+roar. The yeti had returned running right towards him shouting aggressively! There was a door near by.
 
-Nolok had tricked him and took off with Penny to a far forest. Tux began
-to worry even more now. He had no idea where the forest was or how to get there.
-Tux was sadly leaving the room, when he
-felt something beneath his foot... an
-envelope, addressed to him! Inside was
-a roughly sketched map with fortresses
-drawn in various lands. On the corner
-of the map was Penny's signature, a
-drawing of the ice flower.
+Tux immediately ran towards a nearby door and found himself at a balcony outside the castle walls and jumped. The
+yeti followed him down to a small ravine, leaving Tux no other choice than to fight the yeti. The battle starts.
 
-Tux ran out of the fortress, map in
-hand. No, he decided, he would not give
-up. Penny was counting on him.
-
-### Interlude: Boss
-
-(Played before the level “No more Mr Ice Guy”)
-
-There is a door near by. 
-An angry roar can be heard in the distance. Tux opens the door and finds himself at a balcony outside the castle walls. All of a sudden the yeti Tux had seen before has returned, running right towards him shouting aggressively!
-Tux immediately ran towards a ravine (yeti battle area) and jumped. The yeti followed him down to a small incline, leaving Tux no other choice than to fight the yeti. There is a short conversation between Tux and the Yeti. It turns out that the yeti is Nolok's henchman and was waiting outside the castle to trap Tux! The battle starts.
-
-![](images/Interlude01.jpg "Interlude01.jpg")
+![](images/Interlude01.jpg)
 
 ### Outro
 
@@ -88,27 +66,36 @@ Tux immediately ran towards a ravine (yeti battle area) and jumped. The yeti fol
 At last, the yeti was beaten. Rubbing his head and angrily grunting the yeti communicated his disbelief.
 When asked by Tux if he knew where Nolok went and how he could get there the yeti just laughed at the penguin.
 Though, while further tantalizing Tux about his cluelessness the yeti accidentally revealed the location of the
-forest and where to find a boat. Tux runs away from the Yeti before the Yeti recovers from his mistake. As Tux runs from the Yeti monster, he sees a ship. The monster is gaining, and the ship is leaving. Tux only has one chance... he gets on his belly and slides as fast as he can, because he goes faster when he slides. Tux gets massive “Air Time” as he flies off an iceberg cliff, Yeti in pursuit. The Yeti can't stop in time and falls in to the deep ocean. Tux screams “I'm coming, Penny!” as he lands near the ship. He gets on, the ship moves a little, and the crystal mine comes into view.
+forest and where to find a boat. Realizing this, the yeti sets off before revealing even more infomation leaving
+Tux behind. Tux now knew where he must go and sets off towards the glacier isle to find the crystal mine.
 
 Rooted Forest
 -------------
-
-A long trip to the north with a boat and Tux finally managed to reach the southern lands of Rooted Forest.
 
 ### Intro
 
 (Plays immediately after setting foot on world 2)
 
-Upon setting shore, Tux hops out of his boat and takes his first steps in the grass. Tux has a small inner monolog while wandering around, looking where to go. He decides to find some place higher up to get a better view of the land, since he had no idea where Nolok could have stationed his forest castle.
+A long trip to the north with a boat and Tux finally managed to reach the southern lands of Rooted Forest. Upon
+setting shore, Tux hops out of his boat and takes his first steps in the grass. Tux has a small inner monolog while
+wandering around, looking where to go. He decides to find some place higher up to get a better view of the land,
+since he had no idea where Nolok could have stationed his forest castle.
 
 ### Interlude: The Land Is Changing
 
 (Plays right before the corrupted forest)
 
 Astonished by the scale of the forest and the much warmer temperatures Tux continued his search for Nolok and
-Penny. After a long journey through the woods, rough weather and a dark underground tunnel section (a mossy and rocky cavern), Tux went ahead and climbed onto a high plateau to get a better view. Something very strange started happening. The trees and bushes, the entire forest terrin that Tux was in began slowly changing. Everything began to rot away, turning bluish purple, covered in thick dark green vines. Dark purple roots break through the ground, the sky get dark and cloudy. Eerie wisps and living flames emerged. Nolok's minions he encountered before were affected as well looking much more menacing and eerie, but also... worried. Some were even covered in purple roots. Tux felt uneasy but pushed forward. The scene then cuts to Nolok who says that Tux has done well to get so far through the forest, but will not get past the dangers in the corrupted forest. Tux spots a tower in the distance and heads off towards it.
+Penny. After a long journey through the woods, rough weather and a dark underground tunnel section (a mossy and rocky
+cavern), Tux went ahead and climbed onto a high plateau to get a better view. Something very strange started happening.
+The trees and bushes, the entire forest terrin that Tux was in began slowly changing. Everything began to rot away,
+turning bluish purple, covered in thick dark green vines. Dark purple roots break through the ground, the sky get dark
+and cloudy. Eerie wisps and living flames emerged. Nolok's minions he encountered before were affected as well looking
+much more menacing and eerie, but also... worried. Some were even covered in purple roots. Tux felt uneasy but pushed
+forward. The scene then cuts to Nolok who says that Tux has done well to get so far through the forest, but will not
+get past the dangers in the corrupted forest. Tux spots a tower in the distance and heads off towards it.
 
-![](images/Ghostforest.png "fig:Ghostforest.png")
+![](images/Ghostforest.png)
 
 ### Tower
 
@@ -121,19 +108,13 @@ gazed down upon the small penguin and began attacking with all its might.
 After a rough battle, Tux managed to destroy the Ghost Tree healing the forest and all beings affected by it.
 But his journey wasn't over just yet...
 
-### Interlude: Forest Keep
-
-(Played before entering the first forest castle level)
-
-Shows Tux using the five keys to enter the castle.
-
 ### Interlude: Boss (The Gigantic Tree)
 
 (Plays at the end of the castle level of Rooted Forest, before the boss battle of world 2)
 
-Tux reaches the top of the tower but still cannot find Penny or Nolok. The tower then begins to crumble. Dark purple roots tear down the building and Tux flees. Close by the Ghost Tree boss awaits him. Shows a conversation between Tux and the forest boss.
-
-Switch to another scene showing Penny in a prison cell, trying to escape. Penny shouts “Tux where are you?”. She is unaware that Tux is nearby. Penny then thinks up or starts to think up her escape plan.
+Tux reaches the top of the tower but still cannot find Penny or Nolok. The tower then begins to crumble. Dark
+purple roots tear down the building and Tux flees. Close by the Ghost Tree boss awaits him. Shows a conversation
+between Tux and the forest boss.
 
 ### Outro
 
@@ -141,7 +122,6 @@ Switch to another scene showing Penny in a prison cell, trying to escape. Penny 
 
 Tux is shown combating the forest boss. The ghost tree withers away and the forest returns back to normal.
 
-Scene is switched to Penny, who finally managed to escape her cell. She flees through a window or a crack in the wall, gets out of the castle and disappears in the background. Switch back to Tux who beat the boss and finds her empty cell. Go back to Penny again and show her leaving the forest and entering the next world. In World 3, the player will take Penny's role, and the story is continued from her point of view. (For world 3 only)
 
 Proposed story for bonus/future worlds
 --------------------------------------
@@ -157,29 +137,21 @@ When the Ghost Tree is destroyed and the Granito are healed some of the once inf
 inform Tux about noticing someone strange leaving with another of Tux's kind to the north-east, shortly before the
 disease began to spread.
 
-## Tropical Islands
+### Tropical Paradise
 
-Tux goes to a tropical island after the forest keep, named Tropical Paradise.
+Tux travels with the help of Granito to a tropical island after the forest keep, named Tropical Paradise.
 
 ### Totem Puzzle
 
-(Played after a couple of levels and shows the user of some puzzle involving totems that needs to be completed)
+(Played upon entering the jungle section of world 3 and shows the user of some puzzle involving totems that needs to be completed)
 
 ### Boss
 
-A majestic Toucan resides among the totem temples creating totems in his image. Nolok met the bird and offered him more land and power if he could successfully impede Tux's progress and defend the hidden teleporter to his fortress on top of a mountain peak. So Tux fights. Tux finds Nolok's base camp by the portal. Nolok is chasing Tux, who is chasing Penny. Penny disappears, and Tux evades Nolok. Player control is switched back to Tux. Nolok travels to world 4...
-
-Panda bear: Tux is on a pier on the other side of the island, when he hears a splash. He looks at the water, and sees a giant panda bear get out and on to the pier. Tux prepares to fight him...
-
-The boss panda bear is stunned, and he falls in to the water, causing a huge wave. Tux is swept off his feet and carried through the water, screaming. Four hours later, he finds himself on a beach of an island covered with beautiful sculptures, buildings, and more. As Tux gets up, he sees another penguin wearing a turban on the beach, building a canoe. Tux walks over to him, and asks him what is going on. The penguin looks at him, and in a thick accent says “I am Salsa, ex-ruler of this island. Earlier today, an evil being came to my humble abode and took all my jewels, riches, and power. He called himself Nolok, and drove the people of my Royal kingdom away. He had a girl with him, but I could not see her very well,” and Tux offers to help him. Salsa stands up, and agrees. They begin to head inside the city...
-
-## Ocean
-
-Tux finds the Helicopter that Nolok took Penny in but there is no one there. So, Tux heads off to find Nolok's Hideout, Tux looks around and sees nothing but 16 metal\\concrete platforms. Tux finds out that he must pull a lever on each of these to raise (uncover?) Nolok's Hidden fortress.
-
-## Grassland
-
-After Nolok flees with Penny out of his ocean hideaway, he ends up in a vast Grassland area. It seems to be easier than the previous two worlds as Tux can see the castle in the distance, but when he gets there he finds a number of doors each containing many hazards. He must enter each one to press some (ropes/levers/buttons) to bridge some huge “security” gaps in Nolok's main room. Again, Tux just misses Penny, but finds a new note from her telling him something that will aid him in the next world.
+A majestic Toucan resides among the totem temples located on the tropical island creating totems in his image. Nolok
+met the bird and offered him more land and power if he could successfully impede Tux's progress and defend the hidden
+teleporter to his fortress on top of a mountain peak. After defeating the Toucan and his Master Totem, Tux finds Nolok's
+base camp by the teleporter. Before Tux could confront him however, Nolok teleports to his mountain fortress. Tux gives
+chase and also uses the teleporter...
 
 ### Nolok's Mountain Peak
 
@@ -187,7 +159,15 @@ Tux had now finally found Nolok's final fortress on top an enormous mountain. Ho
 requiring five keys for it to be opened. Nolok, from across his walls, taunts Tux telling him that he hid away the
 keys all over the world and without these Penny would be lost forever.
 
+### Interlude: Entering Final Fortress
+
+(Played at the entrance level to Nolok's final fortress, if all five NOLOK-keys are collected)
+
+Shows Tux using the five keys to enter the castle.
+
 ### Penny's Story Add-on
+
+A scene showing Penny in a prison cell, trying to escape. She is unaware about Tux's current location.
 
 While captured, Penny attempts to flee herself but in the end is stopped by the cunning Nolok. But instead of giving up
 she writes down information she overhears from Nolok himself in a letter in hopes to reach Tux and to inform him on
@@ -200,6 +180,7 @@ and bravery to push through even leaving his homeland. After defeating Nolok and
 and Penny's bravery shown a more honorable side. He claims to not change his ways due to his nature as a predator, but
 that he respects the two as his equals.
 
-*(Note: Should Nolok ever capture her again or perhaps Tux, he would do it for the entertainment of them having to go through his challenges again.)*
+*(Note: Should Nolok ever capture her again or perhaps Tux, he would do it for the entertainment of them having to go
+through his challenges again.)*
 
-<Category:Design>
+<Category:Story>
