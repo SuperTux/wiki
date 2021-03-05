@@ -431,14 +431,6 @@ Upon falling, which it only falls when pecked by woodpecker, the pinecone doesn'
 
 A underwater enemy, which grabs Tux with his arm/tentacle and pulls him deeper into the water (or the bottom edge of the level, to be specific) to his demise. Could be used for older levels, where the swimming feature was not present.
 
-**Tux storing velocity while on moving platforms**
-
-Tux should have momentum from when on moving objects stored, so he can "fling" off high-speed platforms.
-
-**Better movement on moving tilemaps**
-
-Tux should move better on moving tilemaps. Currently he can hardly jump, or move left to right, etc.
-
 **Weighted Pushbutton**
 
 A pushbutton who is only activated when something is pressing it and otherwise turns off. Would have a different color and sprite to differentiate it.
