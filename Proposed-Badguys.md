@@ -32,6 +32,7 @@ Proposed Badguys
 - Bluejay
 - Mother Snail
 - Tumbleweed
+- Beetle
 
 ### Tropical Paradise
 
@@ -45,6 +46,13 @@ Proposed Badguys
 - Squid
 - Pufferfish
 - Crab
+- Hungry Parakeet
+- Palm Tree
+- Coconut
+- Mosquito
+- Electric Eel
+- Feral pig
+- Seagulls
 
 ---
 
