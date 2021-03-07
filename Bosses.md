@@ -44,6 +44,7 @@ The Ghost Tree primarily will attack the player from below with its roots, burst
 ground. These can be anticipated by the cracks appearing on the ground. Its other attacks are
 depended on which *Ghost Orb* they absorbed prior.
 
+---
 
 ## Planned Bosses
 
@@ -56,6 +57,8 @@ is the end boss of [Tropical Paradise](https://github.com/SuperTux/supertux/wiki
 
 See [Nolok](https://github.com/SuperTux/supertux/wiki/Characters#Nolok) for details.
 
+---
+
 ## Mini Bosses
 
 It is yet still unclear if mini bosses are going to be a thing in the actual game. Since entities such as **Shadow Tux** are confirmed to be added
@@ -63,9 +66,19 @@ It is yet still unclear if mini bosses are going to be a thing in the actual gam
 
 Mini bosses would most likely be used in the hidden bonus levels of each world and protect a certain treasure!
 
+### Giga Ice Crusher/Snowball
+
+A gigantic **Ice Crusher/Snowball** statoined in an outpost between two glaciers to protect a frozen treasure from Nolok himself. It will chase Tux and
+try to crush him. Tux must lure them inside a pool of water which later he will freeze to lock it away.
+
+### Stone Golem
+
+An impenetrable **Stone Golem** taken over by Nolok watching the treasures of the ancient ruins. It will try to smash Tux with its fists and causes
+rubble to fall on him, too.
+
 ### Shadow Tux
 
-Shadow Tux is a dark spirit taking the form of Tux, which spawned from an eerie disease spread by the Ghost Tree. It haunts an ancient library in
+**Shadow Tux** is a dark spirit taking the form of Tux, which spawned from an eerie disease spread by the Ghost Tree. It haunts an ancient library in
 the middle of the Corrupted Forest. It mimics Tux's every move but at a delay and will chase after him. Tux must flee from it in a parkour oriented
 level segment and avoid getting hit.
 
@@ -73,6 +86,11 @@ level segment and avoid getting hit.
 
 The **Mimic** is a large chest holding a sunken treasure which it defends. It stays stationary and throws several obstacles at Tux, such as small
 mimics which jump at Tux, trying to bite him. The ship it resits sunk near the tropical islands.
+
+### Dragon
+
+A small, spiky Dragon guards a firery treasure insde a volcanic core. It will cause the volcan to errupt resulting in a run for the exit. Along side
+the rising lava it will shoot fireballs to imped Tux's progress while hovering above him constantly.
 
 ---
 
