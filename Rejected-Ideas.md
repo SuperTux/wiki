@@ -16,7 +16,7 @@ Characters
 Beastie
 -------
 
-> We won't include Beastie or any other FOSS mascot. SuperTux is meant as a good jump'n run, not as a showcase of walking
+We won't include Beastie or any other FOSS mascot. SuperTux is meant as a good jump'n run, not as a showcase of walking
   FOSS logos. The use of Tux is because he makes a good starting point, one that other people can agree on, to create a
   world around him and less because he is the Linux mascot.
 
@@ -25,10 +25,8 @@ Konqui (Other Playable Characters)
 
 It would be cool if you could play other characters than Tux like Konqui the KDE Dragon. If possible he could jump
 higher than Tux but run slower. In the story Konqui could be Tux friend who helps him to find Penny.
-  
-> No Beastie
 
-> Ok sorry havent read that.
+> No Beastie
 
 > I agree that Penny should be the only other playable character. However, [Super Tux Smash](Super_Tux_Smash "wikilink")
   would allow stuff like that.
@@ -40,7 +38,7 @@ Perhaps Tux could ride a Gnu? -kcfelix
 
 > Rejected ideas lists “no FOSS mascots”. I also don't think SuperTux' target audience would understand just why
   SuperTux would feature a penguin riding a gnu. Let's leave Tux the only reference to anything geeky.
-  
+
 > Perhaps we could make just this exception, since it is kind of a major character. We could tell it like “Tux went
   to Grass(???) world and met Gnu, who joined Tux against Nolok because <personal reason>”. --tuxdev
 
@@ -62,11 +60,15 @@ BillBoss
 
 There's probably a good reason, but why doesn't Microsoft play a greater role as an enemy of tux? Couldn't Nolok
 be Bill or one of his minions?
- 
+
 **Updated**: Perhaps nolok could ultimately be defeated by manoeuvring him into Redmond and getting “embraced,
 extended and extinguished” by Bill. :)
-  
+
 > No. Similar reasons as with [Beastie](https://github.com/SuperTux/supertux/wiki/Rejected-Ideas#Beastie).
+
+Someone suggested this on the mailing list, and Marek came up with a concept: An easter egg that makes Nolok look like Bill or Steve (Ballmer, not Jobs). I figure it's at least worth a try, but a complete storyline revision would be imprudent in keeping with this game's general philosophy to be a Mario homage, only. If you want to frag Gates, go play XTux.--[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 03:08, 28 Jul 2006 (BST)
+
+What about replacing the powerups by Apples?
 
 Mr windows
 ----------
@@ -104,17 +106,6 @@ Nazi Gnome
 
 > good joke! no way!
 
-Panda Bear Boss (For Tropical Island)
--------------------------------------
-
-Tux is on a pier on the other side of the island, when he hears a splash. He looks at the water, and
-sees a giant panda bear get out and on to the pier. Tux prepares to fight him...
-
-> The Team decided to go with a toucan and a large totem boss rather than a panda bear. A bird as a boss would allow
-  for a more interesting moveset due to its ability of flight. Also we already have a big, fuzzy character, the yeti.
-
----
-
 Mechanics
 =========
 
@@ -151,50 +142,8 @@ confusing and add unnecessary bloat to the game. There is of course a little nee
 but even with them variety in behaviour is much more important then variety in look. Different looking enemies
 might make pretty screenshots, but different behaviour makes a better game.
 
----
-
-World Themes
-============
-
-Ocean
------
-
-Tux finds the Helicopter that Nolok took Penny in but there is no one there. So, Tux heads off to find Nolok's
-Hideout, Tux looks around and sees nothing but 16 metal\\concrete platforms. Tux finds out that he must pull a
-lever on each of these to raise (uncover?) Nolok's Hidden fortress.
-
-> Oceans will be a sub-theme for tropical island. No need for a full on ocean world.
-
-Grassland
----------
-
-After Nolok flees with Penny out of his ocean hideaway, he ends up in a vast Grassland area. It seems to be easier
-than the previous two worlds as Tux can see the castle in the distance, but when he gets there he finds a number of
-doors each containing many hazards. He must enter each one to press some (ropes/levers/buttons) to bridge some huge
-“security” gaps in Nolok's main room. Again, Tux just misses Penny, but finds a new note from her telling him
-something that will aid him in the next world.
-
-> Too similar to world 2. That would be two green colored worlds, except one has less trees. Boring.
-
-City
-----
-
-The boss panda bear is stunned, and he falls in to the water, causing a huge wave. Tux is swept off his feet and
-carried through the water, screaming. Four hours later, he finds himself on a beach of an island covered with
-beautiful sculptures, buildings, and more. As Tux gets up, he sees another penguin wearing a turban on the beach,
-building a canoe. Tux walks over to him, and asks him what is going on. The penguin looks at him, and in a thick
-accent says “I am Salsa, ex-ruler of this island. Earlier today, an evil being came to my humble abode and took
-all my jewels, riches, and power. He called himself Nolok, and drove the people of my Royal kingdom away. He had
-a girl with him, but I could not see her very well,” and Tux offers to help him. Salsa stands up, and agrees.
-They begin to head inside the city...
-
-> A city as a world theme is too out of place. All world themes are based on natural environments. A city just
-  wouldn't fit.
-
----
-
-Miscellaneous
-=============
+Technical
+=========
 
 Vector (SVG) Graphics
 ---------------------
@@ -224,4 +173,9 @@ variables: sdldoc.csn.ul.ie/sdlenvvars.php.
   idea under Linux as well, especially since those SDL environment variables are not exactly easy to find. --
   [Grumbel](User#grumbel "wikilink") 07:47, 1 Aug 2006 (BST)
 
-<Category:Ideas>
+Ipod touch
+----------
+
+What about a version for iPod touch/iPhone. I have no idea if this is possible, just a suggestion.
+
+GPLed software is not compatible with the app store <http://www.fsf.org/blogs/licensing/more-about-the-app-store-gpl-enforcement>

@@ -31,7 +31,7 @@ Penny
 
 <details>
   <summary>Concept Art</summary>
-  
+
 ![](images/Penny.png "Sketch")
 ![](images/Penny2.png "Sketch 2")
 ![](images/Pennysheetwip.png "Penny actions test")
@@ -55,7 +55,7 @@ Nolok
 
 <details>
   <summary>Concept Art</summary>
-  
+
 ![](images/nolok_walk.png)
 ![](images/nolok_anim2.gif)
 ![](images/Nolok.png)
@@ -83,7 +83,7 @@ Nolok
 
 Nolok the crocodile is the main enemy of Tux, the antagonist of SuperTux. Nolok is always menacing but with a hint of "laid back"; he is very confident but not to the point of being egotistical. Like a cat plays with mice, Nolok is a predator and derives pleasure and entertainment from playing with his prey. So the reason he kidnaps Penny is that he derives entertainment out of Tux feeling sorrow towards his beloved Penny and having no idea where to find her. Additionally, Nolok enjoys to see Tux suffer on his journey, thus leading him to leave jeering notes and wreak havoc on the world by sending out his minions (the badguys and bosses). But Nolok is also like a crocodile hunting in that he waits patiently for his prey to come to him before he springs his ambush; that's why we don't see Nolok in person until the very last stage when Nolok is ready to confront Tux.
 
-In particular Nolok is the final boss of story mode. Nolok resides at [Nolok's Mountain Peak](Mountain-Peak "wikilink"). He is equipped with a mighty staff that gives him access to many powerful spells.
+tl;dr Nolok is evil and stupid.
 
 Badguys
 =======
@@ -111,7 +111,7 @@ Many of the badguys Tux can knock out by jumping on them and squishing them. Oth
 ![](images/Totem.jpg)
 ![](images/Spitter.png)
 ![](images/Eater.png)
-![](images/Minibomb-and-stuff.png) 
+![](images/Minibomb-and-stuff.png)
 ![](images/Forestguys.jpg)
 ![](images/Cactus.jpg)
 

@@ -1,5 +1,4 @@
-Note: This is mainly a collection of ideas and subject to change. Also, they need a lot more detail. See also
-[Characters](https://github.com/SuperTux/supertux/wiki/Characters).
+See also [Characters](https://github.com/SuperTux/supertux/wiki/Characters).
 
 Introduction
 ------------
@@ -122,57 +121,6 @@ between Tux and the forest boss.
 
 Tux is shown combating the forest boss. The ghost tree withers away and the forest returns back to normal.
 
-
-Proposed story for bonus/future worlds
---------------------------------------
-
-The rest of this document is just some brainstorming ideas for future worlds that may or may not exist.
-
-### Corrupted Forest
-
-The Ghost Tree was planted by Nolok using his mighty staff to corrupt the forest and its inhabitants to be
-more eerie and dangerous. A group of Granito, inhabitants of the forest who have not yet been overtaken
-by the Ghost Tree's disease asked Tux to help save their home and fellow Granito that have been corrupted already.
-When the Ghost Tree is destroyed and the Granito are healed some of the once infected Granito living near the tower
-inform Tux about noticing someone strange leaving with another of Tux's kind to the north-east, shortly before the
-disease began to spread.
-
-### Tropical Paradise
-
-Tux travels with the help of Granito to a tropical island after the forest keep, named Tropical Paradise.
-
-### Totem Puzzle
-
-(Played upon entering the jungle section of world 3 and shows the user of some puzzle involving totems that needs to be completed)
-
-### Boss
-
-A majestic Toucan resides among the totem temples located on the tropical island creating totems in his image. Nolok
-met the bird and offered him more land and power if he could successfully impede Tux's progress and defend the hidden
-teleporter to his fortress on top of a mountain peak. After defeating the Toucan and his Master Totem, Tux finds Nolok's
-base camp by the teleporter. Before Tux could confront him however, Nolok teleports to his mountain fortress. Tux gives
-chase and also uses the teleporter...
-
-### Nolok's Mountain Peak
-
-Tux had now finally found Nolok's final fortress on top an enormous mountain. However, the entrance door was locked
-requiring five keys for it to be opened. Nolok, from across his walls, taunts Tux telling him that he hid away the
-keys all over the world and without these Penny would be lost forever.
-
-### Interlude: Entering Final Fortress
-
-(Played at the entrance level to Nolok's final fortress, if all five NOLOK-keys are collected)
-
-Shows Tux using the five keys to enter the castle.
-
-### Penny's Story Add-on
-
-A scene showing Penny in a prison cell, trying to escape. She is unaware about Tux's current location.
-
-While captured, Penny attempts to flee herself but in the end is stopped by the cunning Nolok. But instead of giving up
-she writes down information she overhears from Nolok himself in a letter in hopes to reach Tux and to inform him on
-Nolok's plans help him as much as she can on his journey.
-
 ### Nolok's Motive
 
 Once Tux reaches the end of Rooted Forest, Nolok starts to notice Tux's determination being impressed by his commitment
@@ -182,5 +130,3 @@ that he respects the two as his equals.
 
 *(Note: Should Nolok ever capture her again or perhaps Tux, he would do it for the entertainment of them having to go
 through his challenges again.)*
-
-<Category:Story>
