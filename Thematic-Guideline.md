@@ -84,7 +84,7 @@ The story is meant to be lighthearted first and foremost. For more insight on th
 Overall Gameplay
 ----------------
 
-This section must yet be discuseed in more detail but there are certain aspects and questions to consider.
+This section must yet be discussed in more detail but there are certain aspects and questions to consider.
 
 * Are we going to have item shops? Is SuperTux "rpg" enough for this? Or do we stick more to platformer?
 
