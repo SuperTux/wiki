@@ -1,103 +1,128 @@
-This is a list of ideas that need more discussion/polishing before they are ready to consider, and probably will never see the light of day.
-However these features could be added to SuperTux at some point in the future, if somebody was willing to put in the work and maintain it.
+This is a list of ideas that need more discussion/polishing before they are ready to consider, and probably will never
+see the light of day. However these features could be added to SuperTux at some point in the future, if somebody was
+willing to put in the work and maintain it.
 
 See also:
 * [Implemented ideas](https://github.com/SuperTux/supertux/wiki/Implemented-ideas), for ideas that got implemented
 * [Current Design Document](https://github.com/SuperTux/supertux/wiki/Current-Design-Document), for ideas that will be implemented "soon"
+* [Rejected ideas](https://github.com/SuperTux/supertux/wiki/Rejected-ideas) - you can't polish a turd, and these ideas will never be added
+to SuperTux no matter what
 * The rest of the wiki, for ideas that are clear enough to implement
-* [Rejected ideas](https://github.com/SuperTux/supertux/wiki/Rejected-ideas) - you can't polish a turd, and these ideas will never be added to SuperTux no matter what
 
-Story/Worlds
-----------------
+# Contents
+
+1. [Story](https://github.com/SuperTux/supertux/wiki/Ideas#Story)
+2. [Worlds](https://github.com/SuperTux/supertux/wiki/Ideas#Worlds)
+   * [Side Worlds](https://github.com/SuperTux/supertux/wiki/Ideas#Side-Worlds)
+3. [Level Ideas](https://github.com/SuperTux/supertux/wiki/Ideas#Level-Ideas)
+4. [Multiplayer](https://github.com/SuperTux/supertux/wiki/Ideas#Multiplayer)
+5. [Badguy Ideas](https://github.com/SuperTux/supertux/wiki/Ideas#Badguy-Ideas)
+
+## Story
 
 ### Central Storyline
 
-I believe the game really needs a storyline that makes the game not just about the arcade, but involves a greater plot. There should be a cutscene for just about every level and specific objectives (like you need to find a certain key or something before completing the level) Almost every level should have a cutscene that further adds to the plot. I also like the NPC idea because that can also drive the the plot. An idea for a storyline is detailing how Tux and Penny met and maybe add other characters that touch Tux's life (family, old flames, etc.)
+I believe the game really needs a storyline that makes the game not just about the arcade, but involves a greater plot.
+There should be a cutscene for just about every level and specific objectives (like you need to find a certain key or
+something before completing the level) Almost every level should have a cutscene that further adds to the plot. I also
+like the NPC idea because that can also drive the the plot. An idea for a storyline is detailing how Tux and Penny met
+and maybe add other characters that touch Tux's life (family, old flames, etc.)
 
-> I really don't want special level objectives, and a cutscene per level would get kind of annoying. Level objectives would complicate things,as would multiple cut scenes, but having one or two would be nice.
+> I really don't want special level objectives, and a cutscene per level would get kind of annoying. Level objectives
+> would complicate things, as would multiple cutscenes, but having one or two would be nice.
 
 ### Catching background story
 
-SuperTux needs a catching background story that inspires and motivates the player and drags him into the story so that he understands why Tux is doing what he does and why it is important.
+SuperTux needs a catching background story that inspires and motivates the player and drags him into the story so that
+he understands why Tux is doing what he does and why it is important.
 
-“The bad guy took the penguins girlfriend, go save her from him!” or “Nolok stole Penny from Tux, you must save her!” doesn't cut it.
+“The bad guy took the penguins girlfriend, go save her from him!” or “Nolok stole Penny from Tux, you must save her!”
+doesn't cut it.
 
 It needs be passionate and inspiring like:
 
-“The evil Nolok kidnapped Tux beloved girlfriend Penny. Tux was worried he would never see her again, he was scared and upset but knew he would do anything to get his true love back!”.
+“The evil Nolok kidnapped Tux beloved girlfriend Penny. Tux was worried he would never see her again, he was scared and
+upset but knew he would do anything to get his true love back!”.
 
-The player shouldn't just play level, complete level, go next level, in an infinitive loop until the end. As the player plays the game, he should learn more. When Nolok kidnapped Penny, Tux was shocked and confused. He perhaps don't need where Nolok is hiding or where Nolok has taken Penny, this information he can learn on the way. And maybe he learns about other bad stuff that Nolok has done to other people.
+The player shouldn't just play level, complete level, go next level, in an infinitive loop until the end. As the player
+plays the game, he should learn more. When Nolok kidnapped Penny, Tux was shocked and confused. He perhaps don't need
+where Nolok is hiding or where Nolok has taken Penny, this information he can learn on the way. And maybe he learns about
+other bad stuff that Nolok has done to other people.
 
-I shalt put that intoeth mine version of Super tux.-Rorikdude
+> I shalt put that intoeth mine version of Super tux. - Rorikdude
 
-Some games have a story that is more interesting than the game itself. Some games you play just because you are so into the story and really needs to know more about it. Kinda like when you started to read a book, you cant put it away. Of when you started watch a movie, it get so exciting you cant switch away channel. :)
+> Some games have a story that is more interesting than the game itself. Some games you play just because you are so into
+  the story and really needs to know more about it. Kinda like when you started to read a book, you cant put it away. Of when
+  you started watch a movie, it get so exciting you cant switch away channel. :)
 
-= I like the idea of Tux not knowing anything in the beginning. Perhaps at the start - 'Antarctica - the dryest continent on Earth. (shows worldmap) One of the few creatures that can brave the polar winds is the penguin - there's some there...' and zooms in on Tux and Penny. 'Another is the - ' camera shakes, goes funny, ice bush moves and dark shape, blacks out. And when you start level one: 'Tux was confused and upset. Where wass Penny... his Penny... ? He started searching, not really beleiving he would find her, but he had to do something. There were rumours... such rumours... but nothing like that could have happened... could it? And level two: 'Tux caught sight of a peice of paper lying torn and wet under a overhanging ledge of ice. He picked it up carefully, and saw with a leap of his heart that it was only the bottom fragment of a larger sheet. All that was there was a delicately drawn ice flower - the symbol of his beloved Penny' - [User#poison Ivy](User#poison_ivy "wikilink")
+> I like the idea of Tux not knowing anything in the beginning. Perhaps at the start - 'Antarctica - the dryest continent on
+  Earth. (shows worldmap) One of the few creatures that can brave the polar winds is the penguin - there's some there...' and
+  zooms in on Tux and Penny. 'Another is the - ' camera shakes, goes funny, ice bush moves and dark shape, blacks out. And when
+  you start level one: 'Tux was confused and upset. Where wass Penny... his Penny... ? He started searching, not really beleiving
+  he would find her, but he had to do something. There were rumours... such rumours... but nothing like that could have happened...
+  could it? And level two: 'Tux caught sight of a peice of paper lying torn and wet under a overhanging ledge of ice. He picked it
+  up carefully, and saw with a leap of his heart that it was only the bottom fragment of a larger sheet. All that was there was
+  a delicately drawn ice flower - the symbol of his beloved Penny' - poison Ivy
 
 `  -hmm... we could say that Nolok lives at the North Pole (the other side of the world!) and Tux has to cross the planet`
 `   to find Penny. Or/and maybe we could make Nolok escape continuously, and Tux has to follow him.`
 
-It does need to be more passionate/inspiring, but the classic platform-game atmosphere may be the highest priority. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
+> It does need to be more passionate/inspiring, but the classic platform-game atmosphere may be the highest priority.
+  - Julius\_Freezer 23:58, 2 July 2009 (UTC)
 
-### Forest world
+### Penny's Story
 
-Boss ideas:
-    -   Werewolf or Big Bag Wolf
+In this world, the player will take Penny's role, and the story is continued from her point of view so the player can
+explore the story some more.
 
-#### Sasquatch
+Intro: Scene showing Penny in a prison cell, trying to escape. She is unaware about Tux's current location. She finally
+manages to escape her cell. She flees through a window or a crack in the wall, gets out of the castle and disappears in
+the background. Tux is still a ways away and doesn't find out about the escape (or: he finds her empty cell and a letter).
+Penny wanders around the world looking for Tux.
 
-![](images/Bigfoot.png "fig:Bigfoot.png") I now propose a forest boss . He would function like the [[Yeti]], except have more of a roar than a gna. As Sasquatches and Yeti are very similar (both mythical creatures of the same family), I think that this would be a fun addition to the forest.
+Another intro: Tux enters some room in the Dark Forest Keep, sees Penny locked in the cage, comes closer. There is a rope
+attached to the cage and Nolok holding the other end of the rope. Nolok says he will free Penny. Tux is confused and wonders
+if Nolok is up to something and turns to the camera and asks you if you think he should ask Nolok to free Penny, if you say
+no, the game continues as normal if you say yes Nolok pulls a rope and, because there is a pulley system on the rope, the
+cage raises, Tux runs to meet Penny, BIG MISTAKE! A speech bubble appears at Noloks mouth: “whoops!” “LOOK OUT!” yells Penny
+jumping away, the cage falls and traps Tux. Then you play from Penny's PoV trying to rescue Tux.
 
-Perhaps he could be the forest boss, not the ghost tree (or the ghost tree could be the ghost forest boss, and the Sasquatch be the normal forest boss).
+Or: When Tux reaches the final castle the boss is Nolok, but you need two people to defeat him. So you have to play Penny as
+she escapes from the cage and makes her way through the castle to help Tux defeat Nolok.
+
+Ending: Penny is caught by the cunning Nolok. But she doesn't give up
+because she writes down information she overhears from Nolok himself in a letter
+in hopes to reach Tux and to inform him on Nolok's plans help him as much as she can on his journey.
+
+As a side affect of now having to play Penny, you should get ice flowers instead of fire flowers!
+
+---
+
+## Worlds
 
 ### Crystal Cave
-The crystal cave
 
-[thumb|right|The concept art of the crystal cave](image:crystalcave-concept.png "wikilink")
-
-#### Story
-
-Tux will go into the mountain to the crystal cave. Tux will go trough miscelaneous lifts and mineshafts and cave rooms still deeper and deeper to the cave. There will be dark, so magic blocks and lanterns won't be rare. Then will Tux enter a big room with Nolok's castle. Tux will only pass trough the castle, because Penny is in the [Lavaland](World_5 "wikilink") castle. After that Tux will defeat a crystal boss and then Tux will take a lift leading on the surface of [Lavaland](World_5 "wikilink").
+![](image:crystalcave-concept.png)
 
 #### Badguys
 
-Some of crystal cave badguys are implemented jet, but there will be also some new badguys. These badguys aren't all, that will be in the crystal cave. There will be also some badguys from other worlds such as [Mr.Bomb](MrBomb "wikilink") and [haywire](haywire "wikilink").
+Some of crystal cave badguys are implemented jet, but there will be also some new badguys. These badguys aren't all, that will
+be in the crystal cave.
 
-##### Crystallo
-
-see [crystallo](crystallo "wikilink")
-
-##### Cave fish
-
-Just a normal [fish](fish "wikilink"), but with another sprite.
-
-##### Minecart
-
-Tux will be able to ride on it, but it will hurt from sideways. It will be freezable, but not flameable.
-
-##### Running candle
-
-This badguy will hurt on touch. It will light in a color. It will stop lighting on hit by an iceball and it will light again on hit by a fireball. It will fall down, when it reaches an edge of the platform.
-
-##### Falling crystal
-
-It will just fall down until a it will reach solid ground and hurt on touch.
+For a list of proposed badguys, take a look [here](https://github.com/SuperTux/supertux/wiki/Proposed-Badguys)
 
 #### Objects
 
 Crystal cave won't use many new badguys only for it, but it will use some new objects only for crystal cave.
 
-##### Weak stone
-
-Only explosions will be able to break these solid blocks.
-
-#### TNT
-
-Tux will be able to grab this object. It will start ticking and then explodes, when dropped.
-
-### Broken boat
-
-The boat that goes from ice land to forrest land should be broken, and before Tux can use it, he must fix it somehow, by obtaining some tools like a hammer, saw, sail or something. This would create a new sub-objective in the game, which would make the game more interesting. -- smallfoot
+- **Weak stone**
+  - Only explosions will be able to break these solid blocks.
+- **TNT**
+  - Tux will be able to grab this object. It will start ticking and then explodes, when dropped.
+- **Broken boat**
+  - The boat that goes from ice land to forrest land should be broken, and before Tux can use it, he must fix it somehow, by
+    obtaining some tools like a hammer, saw, sail or something. This would create a new sub-objective in the game, which would
+    make the game more interesting. -- smallfoot
 
 ### In the sea
 
@@ -112,15 +137,13 @@ In SVN version, you can travel with boat across the seas. Maybe there could be;
 
 A possibility for another world is Water World or something like that.
 
-Tux boards a ship, sails to a level in the middle of the ocean, and
-starts it by opening a bonus box and get a pirate hat and a pistol.
-The badguys are fish, seagulls, and pirate seals. Once Tux conquers
-the ship (in one level or a load of them) he can fight other ships, or
-stuff like that. It would be a great way to go between islands.
-Finally, after beating all the islands, he sails to wherever Nolok is.
+Tux boards a ship, sails to a level in the middle of the ocean, and starts it by opening a bonus box and get a pirate hat
+and a pistol. The badguys are fish, seagulls, and pirate seals. Once Tux conquers the ship (in one level or a load of them)
+he can fight other ships, or stuff like that. It would be a great way to go between islands. Finally, after beating all the
+islands, he sails to wherever Nolok is.
 
-The idea needs some more work, but feel free to build upon it. (And if
-the idea is used, I get to make at least one level in it, please?)
+The idea needs some more work, but feel free to build upon it. (And if the idea is used, I get to make at least one level
+in it, please?)
 
 ### Corrupted Forest
 
@@ -143,47 +166,51 @@ something that will aid him in the next world.
 
 ### Jungle Island
 
-![Concept art for Jungle island](images/jungle-concept.png "fig:Concept art for Jungle island")
+![](images/jungle-concept.png)
 
 #### Story
 
-Tux will sail form [Forest island](Forest "wikilink") to Jungle island to get Penny. Then Tux will pass trough some levels to a clearing, where is the Nolok's castle located. Tux will see Penny on the clearing quite far from the castle. She will stand on a platform. However, it won't be penny, but only a wooden dummy and the platform will send tux somewhere deep in the Jungle. Tux will pass about twenty levels to reach the clearing and the Nolok's castle. Then Tux will have to defeat the boss. Tux will arrive in the prison, but there won't be Penny, but only a letter. There will be written:
-::*Dear Tux, I know, you will rather go to the Lavaland now, because Nolok has token me here, but the Nolok's fifth castle is covered in a crystal cave, that has two entrances. One is the mountain on Jungle island and the other is hidden in Lavaland, so you would never find it. Go to the crystal cave first and caputure the castle. Nolok won't go to the castle. And then use the other crystal cave exit to arrive in Lavaland.
-::::-Penny*
+Tux will sail form [Forest island](Forest "wikilink") to Jungle island to get Penny. Then Tux will pass trough some levels
+to a clearing, where is the Nolok's castle located. Tux will see Penny on the clearing quite far from the castle. She will
+stand on a platform. However, it won't be penny, but only a wooden dummy and the platform will send tux somewhere deep in
+the Jungle. Tux will pass about twenty levels to reach the clearing and the Nolok's castle. Then Tux will have to defeat
+the boss. Tux will arrive in the prison, but there won't be Penny, but only a letter. There will be written:
+
+*"Dear Tux, I know, you will rather go to the Lavaland now, because Nolok has token me here, but the Nolok's fifth castle
+is covered in a crystal cave, that has two entrances. One is the mountain on Jungle island and the other is hidden in Lavaland,
+so you would never find it. Go to the crystal cave first and caputure the castle. Nolok won't go to the castle. And then use
+the other crystal cave exit to arrive in Lavaland." ~Penny*
+
 After Tux will read the letter, he will go outside the castle and then into the mountain to the [crystal cave](World_4 "wikilink").
 
 #### Badguys
 
-Jungle island is very similar to [Forest island](Forest "wikilink"), so they can use the same badguys. Jungle island will use some of them more often, than are used in [Forest island](Forest "wikilink"). There will be also some new badguys only for Jungle island.
+Jungle island is very similar to [Forest island](Forest "wikilink"), so they can use the same badguys. Jungle island will
+use some of them more often, than are used in [Forest island](Forest "wikilink"). There will be also some new badguys only
+for Jungle island.
 
 ##### Tumbleweed
 
 ![](images/Tumbleweed.png "fig:tumbleweed.png")
 
-Its graphics are implemented, but there is no sprite or badguy for
-them. It rolls along the floor, when Tux is on the left or on the
-right. When Tux is above or under, it stops rolling. It hurts on touch
-and it can't be squished. It's flameable and freezable.
+Its graphics are implemented, but there is no sprite or badguy for them. It rolls along the floor, when Tux is on the left or on
+the right. When Tux is above or under, it stops rolling. It hurts on touch and it can't be squished. It's flameable and freezable.
 
 ##### Hanging ball
 
 ![](images/Hanging_ball.png "fig:hanging_ball.png")
 
-It could be a stone stalactite that fits the forest and jungle theme,
-but stone stalactite wouldn't break suddenly. It's a ball of dirt and
-stones hanging on a wine. When Tux walks under it, it would fall down.
-It hurts on touch. When it's hit by fireball, it falls down and when
-it's hit by iceball, it will freeze and it doesn't fall, when is Tux
-under it. It doesn't freeze enemies, like [Stalactite](Stalactite
-"wikilink").
+It could be a stone stalactite that fits the forest and jungle theme, but stone stalactite wouldn't break suddenly. It's a ball
+of dirt and stones hanging on a wine. When Tux walks under it, it would fall down. It hurts on touch. When it's hit by fireball,
+it falls down and when it's hit by iceball, it will freeze and it doesn't fall, when is Tux under it. It doesn't freeze enemies,
+like [Stalactite](Stalactite "wikilink").
 
 ##### Swarm of flies
 
 ![](images/Swarm_of_flies.png "fig:swarm_of_flies.png")
 
-The swarm of flies won't be flameable or freezable. It wouldn't hit on
-touch immediately, it will last a while. It will fly dirrectly to Tux.
-When it crashes to a solid wall, it dies.
+The swarm of flies won't be flameable or freezable. It wouldn't hit on touch immediately, it will last a while. It will fly
+dirrectly to Tux. When it crashes to a solid wall, it dies.
 
 ##### Jungle ivy
 
@@ -195,22 +222,21 @@ Jungle ivy will behave the same as [crystallo](crystallo "wikilink"), but leaf p
 
 ![](images/Mr_slimy.png "fig:mr_slimy.png")
 
-Mr. slimy will be squishable, freezable, but not flameable. When Tux
-jumps on it, Tux will stick and he will move twice slower for five
-seconds. However, when it will be frozen first, this effect won't
-appear.
+Mr. slimy will be squishable, freezable, but not flameable. When Tux jumps on it, Tux will stick and he will move twice slower
+for five seconds. However, when it will be frozen first, this effect won't appear.
 
 ##### Root
 
 ![](images/Root.png "fig:root.png")
 
-This root will grow up, when is Tux nearby and it will throw hurting
-stones to Tux. Root wouldn't hit on touch neither be solid. Only the
-stones will hurt Tux. Root will be flameable and freezable.
+This root will grow up, when is Tux nearby and it will throw hurting stones to Tux. Root wouldn't hit on touch neither be solid. Only
+the stones will hurt Tux. Root will be flameable and freezable.
 
 ### Tropical Island
 
-After defeating the forest Boss, Tux go down to the jails of the forest castle to release Penny. The only person he found there is Fun Pif the Puffin, the young prince of Illusion Island. Pif Told tux that Penny was there, but few day earlier, Nolok went to take some prisoners out, including Penny and the Fun family. Then Together, they decide to go and release the prisoners…
+After defeating the forest Boss, Tux go down to the jails of the forest castle to release Penny. The only person he found there is Fun Pif
+the Puffin, the young prince of Illusion Island. Pif Told tux that Penny was there, but few day earlier, Nolok went to take some prisoners out,
+including Penny and the Fun family. Then Together, they decide to go and release the prisoners…
 
 The First stage of this Journey is the tropical Island, altogether they are … Oh Nolok knocked on my door, I'll finish that latter on ;)
 
@@ -223,15 +249,19 @@ The First stage of this Journey is the tropical Island, altogether they are … 
 
 #### Deeper Into the Island Background Idea
 
-![](images/Tropicalislandbackgroundidea2.png "fig:Tropicalislandbackgroundidea2.png") You used tux paint, didn't you? Very nice! [Monstertux](user:monster "wikilink")
+![](images/Tropicalislandbackgroundidea2.png "fig:Tropicalislandbackgroundidea2.png") You used tux paint, didn't you? Very nice!
+[Monstertux](user:monster "wikilink")
 
 #### Possible Badguys
 
 - Electric eel
--   [Mr. Palm Tree](Mr._Palm_Tree "wikilink") - Very tall badguy consisting of stacked segments; jumping on top removes the bottom segment. When there's only one segment left, Mr. Palm Tree dies.
--   [Nutty](Nutty "wikilink") - A harmless, indestructible badguy; a bit like a walking moving platform. Alternative: an equivalent of Mr. Ice Block.
+-   [Mr. Palm Tree](Mr._Palm_Tree "wikilink") - Very tall badguy consisting of stacked segments; jumping on top removes the bottom segment.
+When there's only one segment left, Mr. Palm Tree dies.
+-   [Nutty](Nutty "wikilink") - A harmless, indestructible badguy; a bit like a walking moving platform. Alternative: an equivalent of Mr.
+Ice Block.
 -   Volcano - Stationary boss badguy, spews ashes that can hurt Tux.
--   Wild Boar/Feral pig - Basic walking badguy, starts running faster upon seeing Tux. Tux can stun him by kicking him from behind, and can kill him by stomping on him.
+-   Wild Boar/Feral pig - Basic walking badguy, starts running faster upon seeing Tux. Tux can stun him by kicking him from behind, and can
+kill him by stomping on him.
 -   Hungry Parakeet - Zeekling equivalent.
 -   Melon - Snowball equivalent.
 -   Mosquito - Flying snowball equivalent.
@@ -260,7 +290,8 @@ Tux travels with the help of Granito to a tropical island after the forest keep,
 
 #### Totem Puzzle
 
-Played upon entering the jungle section of the island and shows the user of some puzzle involving totems that needs to be completed. Some sort of Hiroglyphs to open a door at the end of a level.
+Played upon entering the jungle section of the island and shows the user of some puzzle involving totems that needs to
+be completed.Some sort of Hiroglyphs to open a door at the end of a level.
 
 #### Boss
 
@@ -280,14 +311,18 @@ lever on each of these to raise (uncover?) Nolok's Hidden fortress.
 
 ### Pirate Ship
 
-Tux knocks back the boss of the previous world, but the boss still comes after Tux. As Tux runs away, he sees a ship. The monster is gaining, and the ship is leaving. Tux only has one chance... he gets on his belly and slides as fast as he can, because he goes faster when he slides. Tux gets massive “Air Time” as he flies off an iceberg cliff, monster in pursuit. The monster can't stop in time and falls in to the deep ocean. Tux screams “I'm coming, Penny!” as he lands near the ship. He gets on but the ship is crewed by pirates!
+Tux knocks back the boss of the previous world, but the boss still comes after Tux. As Tux runs away, he sees a ship. The
+monster is gaining, and the ship is leaving. Tux only has one chance... he gets on his belly and slides as fast as he can,
+because he goes faster when he slides. Tux gets massive “Air Time” as he flies off an iceberg cliff, monster in pursuit.
+The monster can't stop in time and falls in to the deep ocean. Tux screams “I'm coming, Penny!” as he lands near the ship.
+He gets on but the ship is crewed by pirates!
 
 Enemies: Pirates, Fish, Seagulls
 
 #### Panda Bear Boss
 
-Tux gets off the ship at a pier, when he hears a splash. He looks at the water, and
-sees a giant panda bear get out and on to the pier. Tux prepares to fight him...
+Tux gets off the ship at a pier, when he hears a splash. He looks at the water, and sees a giant panda bear get out and on
+to the pier. Tux prepares to fight him...
 
 ... The boss panda bear is stunned, and he falls in to the water, causing a huge wave. Tux is swept off his feet and
 carried through the water, screaming.
@@ -308,29 +343,40 @@ They begin to head inside the city...
   wouldn't fit.
 
 ### Grassland/Plateau
-Enemies: Llama (spitting), Bear, Worm, Sinkhole, Vine, Grass & flowers (implemented as object, so the level creator can edit colors. Variants: standard, ghost, maybe killer)
+
+Enemies: Llama (spitting), Bear, Worm, Sinkhole, Vine, Grass & flowers (implemented as object, so the level creator can
+edit colors. Variants: standard, ghost, maybe killer)
 
 ### Desert
+
 Enemies: Cactus, Dillo, Dust Devil (Whirlwind), Mummies from pyramids, Mr. Death Worm, Sinkhole
 
 ### Industrial World/City
+
 Enemies: Zombot (Zombi robot), Big Robot, Vacuum Cleaner, Mine, Manufacturing Robot, Laser Cannons
 
 ### Illusion Island
+
 Enemies: Skullyhop, Rainbow Creature e.g. rainbow serpent
+
 Boss: Evil Tux
 
 ### Shanghai Temple
+
 Enemies: Samurai Warrior, Rotten Board Monster
+
 Boss: Chinese flying dragon
+
 ### Dinosaurs terrain
+
 Enemies: T-rex and others Dinosaurs, Mr. Palm Tree
 
 ### Nolok's Mountain Peak (Final)
 
 **Nolok's Mountain Peak** is the final world in SuperTux.
-Tux finally finds Nolok's final fortress on top an enormous mountain.
-However, the entrance door is locked requiring five world keys spelling out Nolok's name for it to be opened.
+
+Tux finally finds Nolok's final fortress on top an enormous mountain. However, the entrance door is locked requiring five world
+keys spelling out Nolok's name for it to be opened.
 
 Unlike previous worlds, world 4 will be rather small but much more difficult!
 
@@ -349,136 +395,146 @@ Nolok is the final boss. He is equipped with a mighty staff that gives him acces
 
 ### Secret worlds
 
-There might be alternative worlds accessible by beating secret levels, e.g. Tux might find a secret exit in a IcyIsland level and go to a volcano world instead of the forest world. Think of Wario Land II. However, I'd reserve this for Milestone 3 or even later, since this would take a lot of designing.
+There might be alternative worlds accessible by beating secret levels, e.g. Tux might find a secret exit in a IcyIsland level and go
+to a volcano world instead of the forest world. Think of Wario Land II. However, I'd reserve this for Milestone 3 or even later, since
+this would take a lot of designing.
 
-Side worlds
------------
+### Side worlds
 
 These don't fit in the main story but could be playable as contrib / add-ons.
 
--   Boreal Forest
--   Dungeon
--   Island world
-    -   Big Island-type Penguin
--   Nolok's Kitchens
-    -   Chef
--   Nolok's Dining Room
-    -   Giant Fork
--   Nolok's Lab
-    -   Giant Amoeba
--   Nolok's Office
-    -   A bad computer
--   Nolok's island (gloomy scary)
--   Outer Walls
-    -   Nolok-type creature
--   Space Station
--   Tower Tops
--   Volcano/Lava world
--   Sky/Cloud world
--   Throne Room
--   Bedroom
-    -   Pillow
--   Space
--   Giant Celebration Cake
-    -   Candles
--   Underground (lava) world.
--   Underground (slimy place) world.
--   Underground (spider nest) world.
--   Moon with low gravity world.
--   Penguin world(with bonus maps where you may go and play 1 level for every ticket item you find(very hidden))
--   Inside a castle or castle yard
--   Mountain range
-    -   Mountain lion
--   Nolok's Underground Laboratory
-    -   Mad Scientist
--   Water world (if Tux can swim...)
--   Ghost world
-    -   Big ghost
--   Light-and-magic world
--   Water world
--   Cave
--   Jungle
--   Desert
--   City
--   candyland
--   Dinosaurs terrain. Boss: Tuxeratops Rex
--   Dark level where it's night!
--   Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
+<details>
+  <summary>List of Themes</summary>
+  
+- Boreal Forest
+- Dungeon
+- Island world
+  - Big Island-type Penguin
+- Nolok's Kitchens
+  - Boss: Chef
+- Nolok's Dining Room
+  - Boss: Giant Fork
+- Nolok's Lab
+  - Boss: Giant Amoeba
+- Nolok's Office
+  - Boss: A bad computer
+- Nolok's island (gloomy scary)
+- Outer Walls
+  - Boss: Nolok-type creature
+- Space Station
+- Tower Tops
+- Volcano/Lava world
+- Sky/Cloud world
+- Throne Room
+- Bedroom
+  - Boss: Pillow
+- Space
+- Giant Celebration Cake
+  - Boss: Candles
+- Underground (lava) world.
+- Underground (slimy place) world.
+- Underground (spider nest) world.
+- Moon with low gravity world.
+- Penguin world(with bonus maps where you may go and play 1 level for every ticket item you find(very hidden))
+- Inside a castle or castle yard
+- Mountain range
+  - Boss: Mountain lion
+- Nolok's Underground Laboratory
+  - Boss: Mad Scientist
+- Water world (if Tux can swim...)
+- Ghost world
+  - Boss: Big ghost
+- Light-and-magic world
+- Water world
+- Cave
+- Jungle
+- Desert
+- City
+- candyland
+- Dinosaurs terrain. Boss: Tuxeratops Rex
+- Dark level where it's night!
+- Levels where Tux has to go up rather than forward -- He could be climbing a mountain or a really tall tree.
 
--   Some of these ideas might be better served as minigames? Like the Zelda GB crane game, fishing game etc. and could be added to the shop idea (you either buy the item or try your hand at a minigame to get said item, or a not-for-sale special item). Some of those minigames could be hacked into SuperTux by designing levels in other games (PlanetPenguin Racer, Frozen Bubble etc.) which could reduce development time and needs for new graphics.
-    -   Good idea. Minigames sounds like an excellent way to channel the creativity which doesn't necessarily fit with the whole. You could go onto the fan site or something, and put them in a special folder in the Super Tux directory.
--   why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something [Atomic1fire](User#atomic1fire "wikilink") 02:35, 1 Jan 2007 (CET)
+> Some of these ideas might be better served as minigames? Like the Zelda GB crane game, fishing game etc. and could be
+  added to the shop idea (you either buy the item or try your hand at a minigame to get said item, or a not-for-sale special
+  item). Some of those minigames could be hacked into SuperTux by designing levels in other games (PlanetPenguin Racer, Frozen
+  Bubble etc.) which could reduce development time and needs for new graphics.
+  > Good idea. Minigames sounds like an excellent way to channel the creativity which doesn't necessarily fit with the
+    whole. You could go onto the fan site or something, and put them in a special folder in the Super Tux directory.
 
-    Because they did that in “Tron” already.
+> why not a portal type place where he gets sucked in or a ray gun firing a beam at tux digitizing him or something -
+  Atomic1fire 02:35, 1 Jan 2007 (CET)
+
+> Because they did that in “Tron” already.
+
+</details>
 
 ### Computer/glitch world
 
--   A Glitch world one put somewhere hard to find
-    -   Glitches aren't done on purpose, they are programming mistakes, so we can't do a glitch world on purpose.
--   Geeky computer/circuit board world - “Tux decided that the only way to get Penny back would be to hack into Nolok's computer...” well, worth a try.
+- A Glitch world one put somewhere hard to find
+  - Glitches aren't done on purpose, they are programming mistakes, so we can't do a glitch world on purpose.
+- Geeky computer/circuit board world - “Tux decided that the only way to get Penny back would be to hack into Nolok's
+computer...” well, worth a try.
 
-    No. Not another so called “geek game”. Kill evil Bill G. won't work with the existing storyline.
+> No. Not another so called “geek game”. Kill evil Bill G. won't work with the existing storyline.
 
-    Great idea. And because Nolok uses M$-Software it is super easy.
-
-### Penny's Story
-
-In this world, the player will take Penny's role, and the story is continued from her point of view so the player can explore the story some more.
-
-Intro: Scene showing Penny in a prison cell, trying to escape. She is unaware about Tux's current location. She finally manages to escape her cell. She flees through a window or a crack in the wall, gets out of the castle and disappears in the background. Tux is still a ways away and doesn't find out about the escape (or: he finds her empty cell and a letter). Penny wanders around the world looking for Tux.
-
-Another intro: Tux enters some room in the Dark Forest Keep, sees Penny locked in the cage, comes closer. There is a rope attached to the cage and Nolok holding the other end of the rope. Nolok says he will free Penny. Tux is confused and wonders if Nolok is up to something and turns to the camera and asks you if you think he should ask Nolok to free Penny, if you say no, the game continues as normal if you say yes Nolok pulls a rope and, because there is a pulley system on the rope, the cage raises, Tux runs to meet Penny, BIG MISTAKE! A speech bubble appears at Noloks mouth: “whoops!” “LOOK OUT!” yells Penny jumping away, the cage falls and traps Tux. Then you play from Penny's PoV trying to rescue Tux.
-
-Or: When Tux reaches the final castle the boss is Nolok, but you need two people to defeat him. So you have to play Penny as she escapes from the cage and makes her way through the castle to help Tux defeat Nolok.
-
-Ending: Penny is caught by the cunning Nolok. But she doesn't give up
-because she writes down information she overhears from Nolok himself in a letter
-in hopes to reach Tux and to inform him on Nolok's plans help him as much as she can on his journey.
-
-As a side affect of now having to play Penny, you should get ice flowers instead of fire flowers!
+> Great idea. And because Nolok uses M$-Software it is super easy.
 
 ### Shadow Penguin
 
-As Nolok dies (or whatever), a shade floats out of him and solidifies. The shade is in the general shape of a penguin, but is all black. Not even the eyes are visible. If you have lighting effects going by that time, the “Shadow Penguin” literally darkens any light sources he's near, more and more as the game goes on. The Shadow Penguin escapes. At the very end of the game, now you've tracked the Shadow Penguin down, and you've tracked him to some sort of landscape far removed from the world we know. All backgrounds are black, and the world is sort of a cyber, glowing green (or blue) on black, final showdown kind of thing. You finally find the Shadow Penguin, you fight. The Shadow Penguin has a strong shield, then once that's broken down, the fun REALLY begins. The Shadow Penguin is invulnerable unless you jump on him 3 times... then you can damage him. Once he is defeated... LIGHT! The penguin's “aura”, that was causing darkness to take over, vanishes, the blackness (and glowing green, or blue, or whatever) falls away, blue sky and the world we know reasserts itself, and you are revealed to be back in Antarctica, where you started! Tux embracing Penny, happy ending cutscenes, etc. the end.
+As Nolok dies (or whatever), a shade floats out of him and solidifies. The shade is in the general shape of a penguin, but is
+all black. Not even the eyes are visible. If you have lighting effects going by that time, the “Shadow Penguin” literally darkens
+any light sources he's near, more and more as the game goes on. The Shadow Penguin escapes. At the very end of the game, now you've
+tracked the Shadow Penguin down, and you've tracked him to some sort of landscape far removed from the world we know. All backgrounds
+are black, and the world is sort of a cyber, glowing green (or blue) on black, final showdown kind of thing. You finally find the
+Shadow Penguin, you fight. The Shadow Penguin has a strong shield, then once that's broken down, the fun REALLY begins. The Shadow
+Penguin is invulnerable unless you jump on him 3 times... then you can damage him. Once he is defeated... LIGHT! The penguin's “aura”,
+that was causing darkness to take over, vanishes, the blackness (and glowing green, or blue, or whatever) falls away, blue sky and the
+world we know reasserts itself, and you are revealed to be back in Antarctica, where you started! Tux embracing Penny, happy ending
+cutscenes, etc. the end.
 
-Level ideas
------------
+---
 
-There should be underwater levels, and ways to go underwater.
+## Level Ideas
 
-### Volcano in the background
-
-What's about a level in a world, where you can see a volcano in the background? And not just seeing it, after a few steps the volcano becomes active and throws up brocks into the level, which may hit you.
-
-### Avalanche
-
-What's about a snow level where an avalanche is chasing you, or where regulary come some big snowballs and you have to wait on a high platform?
-This is how *autoscrolling* levels shall work in the future.
-
-### Getting chased by an animal
-
-Being chased by an animal (like a bear in a forest) would be great fun. He could ride down a mountain in an iceball.
+- There should be underwater levels, and ways to go underwater.
+- What's about a level in a world, where you can see a volcano in the background? And not just seeing it, after a few steps the
+  volcano becomes active and throws up brocks into the level, which may hit you.
+- What's about a snow level where an avalanche is chasing you, or where regulary come some big snowballs and you have to wait
+  on a high platform?
+  - This is how *autoscrolling* levels shall work in the future.
+- Being chased by an animal (like a bear in a forest) would be great fun. He could ride down a mountain in an iceball.
 
 > There is a pirate ship level in Yeti's Revenge where the ship chases you.
 
-Multiplayer
------------
+---
 
-### What?
+## Multiplayer
 
-The main idea of this concept is to improve supertux with multiplayer like “New Super Mario Bros. Wii” on the Wii or something alike. For now idea limits to two players: Tux and Penny. Both players are playing inside one world in single-screen mode.
+The main idea of this concept is to improve supertux with multiplayer like “New Super Mario Bros. Wii” on the Wii or
+something alike. For now idea limits to two players: Tux and Penny. Both players are playing inside one world in
+single-screen mode.
 
-To make game interesting to play in pair, i introduced new type of monsters (or new ability to all monsters) - carry bonus (see Bonuses) and split ability to “fire” to two different types of attack (see Players).
+To make game interesting to play in pair, i introduced new type of monsters (or new ability to all monsters) - carry
+bonus (see Bonuses) and split ability to “fire” to two different types of attack (see Players).
 
-Both players should be approximately equal in playing difficulty, to make the game interesting to all. If you will want to replay level with Penny after finishing level with Tux and vice-versa - then this point is done well. If there will be lots of holy wars over who is most difficult - then this point done well. If not - we have to change some details in concept or fix the balance.
+Both players should be approximately equal in playing difficulty, to make the game interesting to all. If you will
+want to replay level with Penny after finishing level with Tux and vice-versa - then this point is done well. If there
+will be lots of holy wars over who is most difficult - then this point done well. If not - we have to change some details
+in concept or fix the balance.
 
-Players are designed to help each other. This makes game more addictive (as i think). You don't only play, you also help your friend and he helps you. If we don't follow this - what for we are creating multiplayer at all?!
+Players are designed to help each other. This makes game more addictive (as i think). You don't only play, you also help
+your friend and he helps you. If we don't follow this - what for we are creating multiplayer at all?!
 
--   How about the FreeBSD demon (freebsd.org) or another penguin for player 2.
+> How about the FreeBSD demon (freebsd.org) or another penguin for player 2.
 
-    Penny would be a better second player. Alternatively, it could be like SuperTuxKart and support up to 4 players (Nolok and Yeti? Gnu and Wilber?), but I feel that it would be a better minigame and that 2-player with Penny would be the best implementation.
--   the other penguin could be Fluffy
--   +1. I like it.
+> Penny would be a better second player. Alternatively, it could be like SuperTuxKart and support up to 4 players
+  (Nolok and Yeti? Gnu and Wilber?), but I feel that it would be a better minigame and that 2-player with Penny would
+  be the best implementation.
+
+> the other penguin could be Fluffy
+
+> +1. I like it.
 
 ### Players
 
@@ -493,34 +549,51 @@ Both players have same abilities as original tux with following differences:
 
 ### Bonuses
 
-The first thing about bonuses - they may be placed inside enemies. Bonuses in blocks are still exist. Such an enemy may be (or should be always?) marked with some symbol, describing type of bonus, or describing random bonus.
+The first thing about bonuses - they may be placed inside enemies. Bonuses in blocks are still exist. Such
+an enemy may be (or should be always?) marked with some symbol, describing type of bonus, or describing random
+bonus.
 
-The only way to extract bonus from enemy is to freeze enemy (Tux can do that) and then stuck it by jumping on it (both players can do).
+The only way to extract bonus from enemy is to freeze enemy (Tux can do that) and then stuck it by jumping
+on it (both players can do).
 
-There is a list of new bonuses (of course may be more than two, but if you add some - keep your eye on the balance.):
+There is a list of new bonuses (of course may be more than two, but if you add some - keep your eye on the
+balance.):
 
 | Bonus      | Applies to                              | Meaning                                         |
 |------------|-----------------------------------------|-------------------------------------------------|
 | Ice Bonus  | Penny (multiplayer)/Both (singleplayer) | Increases freezing time for Penny's ice bullet. |
 | Fire Bonus | Tux (multiplayer)/Both (singleplayer)   | Increases power for Tux's ice bullet.           |
 
-In single player there will be two types of flowers (from classical supertux) - ice flower and fire flower. As you can see, Tux can become “Pennyish” by gathering ice flower and then get bonuses from monsters. Or Penny can become “Tuxy” by gathering fire flower.
+In single player there will be two types of flowers (from classical supertux) - ice flower and fire flower. As
+you can see, Tux can become “Pennyish” by gathering ice flower and then get bonuses from monsters. Or Penny can
+become “Tuxy” by gathering fire flower.
 
-Notes: “Pennyish” Tux cannot do ice-attack, so he kills enemies and improves fire from blocks. “Tuxy” Penny cannot do fire-attack, so she freezes enemies and have to stuck them in order to kill and optionally gather bonus.
+Notes: “Pennyish” Tux cannot do ice-attack, so he kills enemies and improves fire from blocks. “Tuxy” Penny
+cannot do fire-attack, so she freezes enemies and have to stuck them in order to kill and optionally gather bonus.
 
 ### Problems or what is to be done next
 
-All enemy lives, powers of bullets, and freezing times should be balanced to make both players close (or better - equal) in play difficulty. Maybe these values should be configurable in something like Options-&gt;Difficulty Settings menu. For now I just can assume some sane values, but i haven't any ready-to-work balancing map.
+All enemy lives, powers of bullets, and freezing times should be balanced to make both players close (or better -
+equal) in play difficulty. Maybe these values should be configurable in something like Options-&gt;Difficulty Settings
+menu. For now I just can assume some sane values, but i haven't any ready-to-work balancing map.
 
 Of course, we should paint sprites for Penny and other players, bonuses, monster-has-bonus marks, different bullets...
 
 ### Online mode
 
-How about instead of just a project for a multiplayer mode, a mass multiplayer mode. Of course, someone would probably have to set up a good server for this. You could differentiate your Tux from everyone else's tux through ties, hats, and body colors. Boxes and enemies could reappear after a certain amount of time. You could trade your coins for something different from a one up. You could have firetux duels with other people, or maybe throw snowballs at each other. Maybe kill other tuxes by jumping to hit bricks that they're standing on.
+How about instead of just a project for a multiplayer mode, a mass multiplayer mode. Of course, someone would probably
+have to set up a good server for this. You could differentiate your Tux from everyone else's tux through ties, hats,
+and body colors. Boxes and enemies could reappear after a certain amount of time. You could trade your coins for something
+different from a one up. You could have firetux duels with other people, or maybe throw snowballs at each other. Maybe kill
+other tuxes by jumping to hit bricks that they're standing on.
 
 ### Super Tux Smash
 
-Super Tux Smash would be a mod of the Super Tux Engine for Multiplayer, loosely based on Super Smash Brothers Melee but with some completely different gameplay.
+Super Tux Smash would be a mod of the Super Tux Engine for Multiplayer, loosely based on Super Smash Brothers Melee but
+with some completely different gameplay.
+
+<details>
+  <summary>More Details</summary>
 
 #### Features needed in the engine
 
@@ -544,13 +617,17 @@ Eventual network play team info included.
 
 Deathmatch - Knock the other player(s) off the platforms. Whoever has the least falls wins when time is up. Free for all.
 
-Coin Collect - Collect as many coins as possible while avoiding/harrasing the other player(s). Whoever has the most coins wins when time is up. &lt;4 teams, multiple players or free for all.
+Coin Collect - Collect as many coins as possible while avoiding/harrasing the other player(s). Whoever has the most coins
+wins when time is up. &lt;4 teams, multiple players or free for all.
 
-Capture the Flag - Get the flag of the other player(s)/team(s) to your flag. Whoever has the most touches wins when time is up. &lt;4 teams, multiple players.
+Capture the Flag - Get the flag of the other player(s)/team(s) to your flag. Whoever has the most touches wins when time
+is up. &lt;4 teams, multiple players.
 
-Zone Control - Touch platforms to “paint” them. Whoever has the most platforms of their color wins when time is up. &lt;4 teams, multiple players.
+Zone Control - Touch platforms to “paint” them. Whoever has the most platforms of their color wins when time is up. &lt;4
+teams, multiple players.
 
-Soccer - Use a Bouncy Snowball as a soccer ball and have goals at either side of the (closed) level. Still have platforms and powerups. Whoever has the most goals wins when time is up. 2 teams, multiple players
+Soccer - Use a Bouncy Snowball as a soccer ball and have goals at either side of the (closed) level. Still have platforms
+and powerups. Whoever has the most goals wins when time is up. 2 teams, multiple players
 
 #### Powerups
 
@@ -566,61 +643,40 @@ Umbrella - float farther, slower.
 
 Rocket pack - WASD movement for 15 seconds, fireflower ability.
 
-Balloon - some balloons would be empty but allow you to float. All balloons would pop when hitting a platform or player. There might also be tied balloons which don't pop but you have to jump across fast due to jiggling.
+Balloon - some balloons would be empty but allow you to float. All balloons would pop when hitting a platform or player.
+There might also be tied balloons which don't pop but you have to jump across fast due to jiggling.
 
 Magnet - allows you to grab onto the bottom of platforms and move along them.
 
 Spiky shell - invulnerability for 30 seconds
 
-#### Characters
+### Characters
 
-Tux
+- Tux
+- Penny
+- Other penguins (colorized, EvilPenguin, Albino, Magellenic, Macaroni)
+- Nolok
+- Snowball (Bouncing/Walking/Spiky combination)
+- Walking Flame
+- Mr. Bomb
+- Mr. IceBlock
+- Polar Bear
+- Seal
+- Yeti
+- Poison Ivy
+- Spider
+- Mr. Tree
+- Mr. Totem
+- Zeekling
+- Ghost
+- Dillo
+- Sushi
+- Skirpy
+- Beastie (BSD logo)
+- Platypus (Hexley, Darwin logo)
+- Other OSS logos, e.g. Puffy (OpenBSD) and Glenda (Plan9)
 
-Penny
-
-Other penguins (colorized, EvilPenguin, Albino, Magellenic, Macaroni)
-
-Nolok
-
-Snowball (Bouncing/Walking/Spiky combination)
-
-Walking Flame
-
-MrBomb
-
-MrIceBlock
-
-Polar Bear
-
-Seal
-
-Yeti
-
-Poison Ivy
-
-Spider
-
-MrTree
-
-MrTotem
-
-Zeekling
-
-Ghost
-
-Dillo
-
-Sushi
-
-Skirpy
-
-Beastie (BSD logo)
-
-Platypus (Hexley, Darwin logo)
-
-Other OSS logos, eg Puffy (OpenBSD) and Glenda (Plan9)
-
-#### Attacks
+### Attacks
 
 Peck - run up to opponents to peck them - this can knock them off the platform.
 
@@ -632,49 +688,55 @@ Powerups - above.
 
 Specials - per character.
 
-#### Design Issues
+### Design Issues
 
-Need vertical, multi platform based levels.
+- Need vertical, multi platform based levels.
+- Physics-based platforms (ala Gish) would be nice.
+- Underwater levels would be nice.
+- Seesaws and Trampolines could be important.
+- Could use some enemies like the jumpy spiky, fish etc.
+- Would be nice to have some new ones like:
+- Anvils (drop from the sky once in a while, break platforms)
+- Arrows, Rockets, or Chompers (come from the sides if you get too close to edges)
+- Rockets could also launch from the bottom once in a while.
+- For big (scrolling) levels, teleports (w/ directional arrows and random ones) and/or a minimap would be nice.
+- Bottoms of levels should be water, lava, spikes, or void.
 
-Physics-based platforms (ala Gish) would be nice.
+> Sounds great, can't wait. Just *please* keep hexley out of it. --[Julius\_Freezer](User#julius_freezer "wikilink") 00:24, 18 June 2009 (UTC)
 
-Underwater levels would be nice.
+> STORY IDEAS! MY idea is we could have CPU characters (with AI! WOOT!) and have two single-player modes. Classic
+  (a map of a colloseum with every other character in a straight line) and an Adventure mode (like only as big as
+  one supertux world.) The story for adventure is Tux and Penny were on a walk when meanwhile, Nolok is hiding
+  underground. EvilTux knocks on his door and Nolok opens it. EvilTux says he wants to help Nolok destroy Tux. Then
+  EvilTux shows up with Tux and Penny. You can change between Tux and Penny between levels. Anyway, Tux goes through
+  1 antarctica level. Boss is EvilTux (an easy version). Then EvilTux goes back to Nolok. Nolok puts him in a cloning
+  machine. The next level is Forest level. You fight EvilTux clones at every quarter of the level. Then EvilTux is
+  really destroyed. Meanwhile Nolok puts forest DNA in the Yeti. Next level is Tropical Island. Boss is Sasquatch.
+  Finally, Tux gets back to Antarctica and Nolok appears to fight, but Gown (yes I'm including her for some reason)
+  jumps on Nolok's head (similar to Sonic jumping on Tabuu from smash bros.) Then Nolok zaps Gown. You fight Gown
+  hypnotized. Then Nolok pulls you all into a portal. You fight several bosses.
+>
+> 1.  Yeti
+  2.  Mr. Totem
+  3.  Haunted Tree
+  4.  Sasquatch (harder)
+  5.  EvilTux (harder)
+  6.  Warty Hand (giant nolok hand)
+  7.  Nolok with wings and magic (FINAL BOSS)
+>
+> Then the portal spits Tux Penny and Gown out onto the ground. Credits roll.
 
-Seesaws and Trampolines could be important.
+> IDEA: special moves you can learn at dojos. A\_key is arrow key. Advantage defines a little bonus to player “advantaged”
+  in the stage. PoWER is abbreviated for “Pwnage of Weird Enemies Robotechnics”(EvilTux's Helmetron made by PoWER)
 
-Could use some enemies like the jumpy spiky, fish etc.
-
-Would be nice to have some new ones like:
-
-Anvils (drop from the sky once in a while, break platforms)
-
-Arrows, Rockets, or Chompers (come from the sides if you get too close to edges)
-
-Rockets could also launch from the bottom once in a while.
-
-For big (scrolling) levels, teleports (w/ directional arrows and random ones) and/or a minimap would be nice.
-
-Bottoms of levels should be water, lava, spikes, or void.
-
-#### Comments
-
--   Sounds great, can't wait. Just *please* keep hexley out of it. --[Julius\_Freezer](User#julius_freezer "wikilink") 00:24, 18 June 2009 (UTC)
-
--   STORY IDEAS! MY idea is we could have CPU characters (with AI! WOOT!) and have two single-player modes. Classic (a map of a colloseum with every other character in a straight line) and an Adventure mode (like only as big as one supertux world.) The story for adventure is Tux and Penny were on a walk when meanwhile, Nolok is hiding underground. EvilTux knocks on his door and Nolok opens it. EvilTux says he wants to help Nolok destroy Tux. Then EvilTux shows up with Tux and Penny. You can change between Tux and Penny between levels. Anyway, Tux goes through 1 antarctica level. Boss is EvilTux (an easy version). Then EvilTux goes back to Nolok. Nolok puts him in a cloning machine. The next level is Forest level. You fight EvilTux clones at every quarter of the level. Then EvilTux is really destroyed. Meanwhile Nolok puts forest DNA in the Yeti. Next level is Tropical Island. Boss is Sasquatch. Finally, Tux gets back to Antarctica and Nolok appears to fight, but Gown (yes I'm including her for some reason) jumps on Nolok's head (similar to Sonic jumping on Tabuu from smash bros.) Then Nolok zaps Gown. You fight Gown hypnotized. Then Nolok pulls you all into a portal. You fight several bosses.
-
-1.  Yeti
-2.  Mr. Totem
-3.  Haunted Tree
-4.  Sasquatch (harder)
-5.  EvilTux (harder)
-6.  Warty Hand (giant nolok hand)
-7.  Nolok with wings and magic (FINAL BOSS)
-
-Then the portal spits Tux Penny and Gown out onto the ground. Credits roll.
-
--   IDEA: special moves you can learn at dojos. A\_key is arrow key. Advantage defines a little bonus to player “advantaged” in the stage. PoWER is abbreviated for “Pwnage of Weird Enemies Robotechnics”(EvilTux's Helmetron made by PoWER)
-
-LOCATIONS: Icyisland (advantage to Tux), The Forest, Penguinos Island (advantge to Pingu, how to unlock: Destroy Tux statue at Icyisland and jump into secret passage under it), Antarctica Meltdown (unlock all special moves)\[ Boss:Fry, a fireball with eyes. Intro boss cutscene: Player jumps onto a half-sunk stone platform. Fry appears. “This place is only for one!” PLAYER:"And this “one” is me!"(puts on ice cap) CONTROLS CHANGE: |1| is to shoot iceball. Phase 1. Flying around Fry is equipped with wand shooting fire and with sphrere-shaped shield. To hurt him, shoot his wand with iceball. Phase 2. Fry loses his stuff and starts to jump. If he lands near player, player gets hurt. Shoot him with iceball. Phase 3. Fry splits to some amount of little fireballs, acting like Fry in Phase 2. Shoot them all with iceballs.\] Nolok's Castle (Advantage to Nolok and Eviltux (from supertuxkart))\[ Boss:Nolok\] Grand Finale (accessible only with Tux)\[ Boss: Eviltux\]
+> LOCATIONS: Icyisland (advantage to Tux), The Forest, Penguinos Island (advantge to Pingu, how to unlock: Destroy Tux statue
+  at Icyisland and jump into secret passage under it), Antarctica Meltdown (unlock all special moves)\[ Boss:Fry, a fireball
+  with eyes. Intro boss cutscene: Player jumps onto a half-sunk stone platform. Fry appears. “This place is only for one!”
+  PLAYER:"And this “one” is me!"(puts on ice cap) CONTROLS CHANGE: |1| is to shoot iceball. Phase 1. Flying around Fry is equipped
+  with wand shooting fire and with sphrere-shaped shield. To hurt him, shoot his wand with iceball. Phase 2. Fry loses his stuff
+  and starts to jump. If he lands near player, player gets hurt. Shoot him with iceball. Phase 3. Fry splits to some amount of little
+  fireballs, acting like Fry in Phase 2. Shoot them all with iceballs.\] Nolok's Castle (Advantage to Nolok and Eviltux (from
+  supertuxkart))\[ Boss:Nolok\] Grand Finale (accessible only with Tux)\[ Boss: Eviltux\]
 
 `       TUX`
 
@@ -700,8 +762,9 @@ A\_left, A-right - move A\_up - jump A\_down - focus (makes Pingu unable to move
 
 |2| while moving - dodge (makes Pingu walkthroughable for 30 seconds, recharge for 1 minute) - available at level 1 dojo |2| and A\_left/A\_right while ducking - action dodge (makes Pingu walkthroughable for 30 seconds, pressing |2| will attack touching player, recharge for 2 minutes) - available at level 2 dojo |2| while ducking - raging soul (must be &gt;99 damage to do this - everybody (and Pingu) receives 1/20 of Pingu's damage, Pingu's unable to move for 10 seconds) - available at level 3 dojo |2| and |1| repeatedly - fireball (a flying fireball appears, striking first enemy touched) - available at level 4 dojo |2| and |1| repeatedly while ducking - thunderball (a flying thunderball appears, striking all enemies on his way) - available at level 5 dojo A\_up in midair - Teleport (Pingu teleports up a bit, damaging all enemies on his vertical coordinates and near these) - available at level 6 dojo
 
-Badguy ideas
------------
+</details>
+
+## Badguy Ideas
 
 This is for miscellaneous enemy ideas. Any world-specific enemy plans or ideas go under their world section.
 
