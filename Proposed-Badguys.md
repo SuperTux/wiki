@@ -27,6 +27,13 @@ Confirmed Badguys
 Proposed Badguys
 ================
 
+### Icy Island
+
+- Flying Iceblock
+- Spinning Snowball
+- Snowbomb (Snow Variant of Skydive)
+- Rolling Snowball (big and small)
+
 ### Glacier Islands (Crystal Cave)
 
 - Cave Fish
@@ -60,6 +67,8 @@ Proposed Badguys
 - Electric Eel
 - Feral pig
 - Seagulls
+- Shark
+- Jumping Fish
 
 ---
 
