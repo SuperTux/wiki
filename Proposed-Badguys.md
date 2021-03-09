@@ -21,10 +21,17 @@ Confirmed Badguys
 - Hellbent
 - Metaljumpy
 - Kugelblitz
+- Walking Candle
 
 
 Proposed Badguys
 ================
+
+### Glacier Islands (Crystal Cave)
+
+- Cave Fish
+- Minecart
+- Falling Crystal
 
 ### Rooted Forest
 
