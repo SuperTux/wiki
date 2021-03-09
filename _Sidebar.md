@@ -5,6 +5,7 @@ Home
 * [[Glossary]]
 * [[Developers]]
 * [[TODO]]
+* [[Ideas]]
 * [[Current Design Document]]
 
 Guidelines
