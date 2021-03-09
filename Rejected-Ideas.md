@@ -52,6 +52,22 @@ Perhaps Tux could ride a Gnu? -kcfelix
 
 ---
 
+Story
+=====
+
+Crystal Cave
+------------
+
+Tux will go into the mountain to the crystal cave. Tux will go trough miscelaneous lifts and mineshafts and cave rooms still
+deeper and deeper to the cave. There will be dark, so magic blocks and lanterns won't be rare. Then will Tux enter a big room
+with Nolok's castle. Tux will only pass trough the castle, because Penny is in the [Lavaland](World_5 "wikilink") castle. After
+that Tux will defeat a crystal boss and then Tux will take a lift leading on the surface of [Lavaland](World_5 "wikilink").
+
+> The game is currently set to only feature one large crystal cave level which is 'The Crystal Mine'. Also, lanterns will be saved
+  for the corrupted forest and a lava themed world is not planned to be added based on our current story roadmap.
+
+---
+
 Badguys
 =======
 
@@ -105,6 +121,21 @@ Nazi Gnome
 > I agree,too no way!
 
 > good joke! no way!
+
+Sasquatch
+---------
+
+![](images/Bigfoot.png)
+
+I now propose a forest boss . He would function like the [Yeti](), except have more
+of a roar than a gna. As Sasquatches and Yeti are very similar (both mythical creatures of the same family), I think that this
+would be a fun addition to the forest.
+
+Perhaps he could be the forest boss, not the ghost tree (or the ghost tree could be the ghost forest boss, and the Sasquatch be
+the normal forest boss).
+
+> We want all bosses to differ from one another. Sasquatch being just a yeti with slight changes does not fit this requirement.
+
 
 Mechanics
 =========
