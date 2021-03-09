@@ -10,6 +10,7 @@ If you would like to contribute to help finishing the main game, we highly recom
   3. [Level Length](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#level-length)
   4. [Boss Fights](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#boss-fights)
   5. [Story Motives](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#story-motives)
+  6. [Overall Gameplay](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#overall-gameplay)
 
 World Themes
 ------------
@@ -79,5 +80,35 @@ simple platformer. Thus, we will not include heavy exploration of deep, emotiona
 
 The story is meant to be lighthearted first and foremost. For more insight on the game's current storyline, go
 [here](https://github.com/SuperTux/supertux/wiki/Story).
+
+Overall Gameplay
+----------------
+
+This section must yet be discuseed in more detail but there are certain aspects and questions to consider.
+
+* Are we going to have item shops? Is SuperTux "rpg" enough for this? Or do we stick more to platformer?
+
+> "I don't really mind, I would prefer not since I hardly see it fit but I've had stronger opinions in my life" - Semphris
+
+> "My only true point for a shop or similar is that the coins need some sort of purpose. If not level bonuses, maybe hints
+  for the NOLOK-keys or other hints, unlockables maybe?" - RustyBox
+
+* Is Tux a ninja? Should he have a dash move? Or is he less mobile?
+
+> "no, SuperTux should remain simple in gameplay. SuperTux isn't League of Legends!" - Semphris
+ 
+> "I agree. The most "complex and fast mobility should come from penguin based actions (i.e. swimming, sliding). To be fair
+  wall-jumping is more of a grey area here but it makes sense for more interesting vertical level design I'd say." - RustyBox
+
+* Is weaponry allowed? To which extent? Are swords good? How realistic can the violence in the game become?
+
+> "no, no weaponry at all, for tons of reasons. Yougner audience, cartoon violence, unmatching spirit of Tux being non-violent
+  (not even Noloks hits anyone). All violence should be as unrealistic as possible. Spitting fire bullets and melting snow isn't
+  that bad. Killing enemies with swords and blades is waaaaay too realistic. Seeing enemies burn very briefly, with no pain sound,
+  would be a bit off-limits, but not enough to be worth complaining about imo." - Semphris
+  
+> "100% agree. You may count the new ghost tree death animation too violent? I mean its face explodes into small pieces leaving
+  behind an empty husk and all its branches plus roots break apart. Though due to the more eerie nature of the corrupted forest
+  this might get a pass." - RustyBox
 
 <Category:Design>
