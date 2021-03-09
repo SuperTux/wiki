@@ -173,6 +173,28 @@ confusing and add unnecessary bloat to the game. There is of course a little nee
 but even with them variety in behaviour is much more important then variety in look. Different looking enemies
 might make pretty screenshots, but different behaviour makes a better game.
 
+Sonic Spin Dash
+---------------
+
+How about something like Sonic the Hedgehog's rev up spin dash? A rev up sliding move. Or, a Sonic Clone as a project. Slide dash away.
+Also would be cool to have loops. Maybe Tux can destroy things with his beak when sliding. I like the sliding idea as all penguins do it.
+
+Slam
+----
+
+Big Tux can slam the badguys. If Big Tux gets so close to badguy press Action and he can slam it from left to right. like in most beat'em
+up games. sample of this can be viewed here <http://i44.tinypic.com/59zfh1.jpg> [89.251.107.53](Special:Contributions/89.251.107.53 "wikilink")
+15:37, 30 October 2011 (UTC)
+
+Pay for restart at reset point, not for dying
+---------------------------------------------
+
+This has been proposed as Issue 141. It would mean that Tux doesn't have to pay 25 coins as a penalty for dying. Instead he buys the
+ability to restart at a reset point. In practice, it would mean that Tux doesn't have to pay when he hasn't activated a reset point
+yet. It would make the cost seem less like a penalty and more like a trade-off. (Plus, restarting from the beginning is always
+possible from the worldmap.)
+
+
 Technical
 =========
 
