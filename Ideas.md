@@ -199,7 +199,7 @@ for Jungle island.
 Its graphics are implemented, but there is no sprite or badguy for them. It rolls along the floor, when Tux is on the left or on
 the right. When Tux is above or under, it stops rolling. It hurts on touch and it can't be squished. It's flameable and freezable.
 
-##### Hanging ball
+##### Hanging Ball
 
 ![](images/Hanging_ball.png "fig:hanging_ball.png")
 
@@ -208,20 +208,20 @@ of dirt and stones hanging on a wine. When Tux walks under it, it would fall dow
 it falls down and when it's hit by iceball, it will freeze and it doesn't fall, when is Tux under it. It doesn't freeze enemies,
 like [Stalactite](Stalactite "wikilink").
 
-##### Swarm of flies
+##### Swarm of Flies
 
 ![](images/Swarm_of_flies.png "fig:swarm_of_flies.png")
 
 The swarm of flies won't be flameable or freezable. It wouldn't hit on touch immediately, it will last a while. It will fly
 dirrectly to Tux. When it crashes to a solid wall, it dies.
 
-##### Jungle ivy
+##### Jungle Ivy
 
 ![](images/Jungle_ivy.png "fig:jungle_ivy.png")
 
 Jungle ivy will behave the same as [crystallo](crystallo "wikilink"), but leaf particles will appear on death.
 
-##### Mr. slimy
+##### Mr. Slimy
 
 ![](images/Mr_slimy.png "fig:mr_slimy.png")
 
@@ -705,7 +705,7 @@ Specials - per character.
 - For big (scrolling) levels, teleports (w/ directional arrows and random ones) and/or a minimap would be nice.
 - Bottoms of levels should be water, lava, spikes, or void.
 
-> Sounds great, can't wait. Just *please* keep hexley out of it. --[Julius\_Freezer](User#julius_freezer "wikilink") 00:24, 18 June 2009 (UTC)
+> "Sounds great, can't wait. Just *please* keep hexley out of it." - Julius\_Freezer 00:24, 18 June 2009 (UTC)
 
 > STORY IDEAS! MY idea is we could have CPU characters (with AI! WOOT!) and have two single-player modes. Classic
   (a map of a colloseum with every other character in a straight line) and an Adventure mode (like only as big as
@@ -747,29 +747,54 @@ DESCRIPTION:Our hero, cool as usual. QUOTES TO GAME:“Here I am, Tux!”, “Wo
 
 `   COMMON MOVES:`
 
-A\_left, A-right - move A\_up - jump A\_down - duck (makes Tux invincible, and stand-on-able for 5 seconds, then, if anybody stands on him, gives them shot in air) |2| - punch |2| in midair - sky kick |1| repeatedly in midair - air spin (throws enemies who touch him back to hell they came from and falls slower) A\_up while ducking - backflip (jumps back and makes enemy landed on unable to move(stomped)) |1| repeatedly while ducking - spring jump (very high spinjump) |1| repeatedly - spin (throws enemies who touch him back to hell they came from)
+A\_left, A-right - move A\_up - jump A\_down - duck (makes Tux invincible, and stand-on-able for 5 seconds, then, if anybody stands
+on him, gives them shot in air) |2| - punch |2| in midair - sky kick |1| repeatedly in midair - air spin (throws enemies who touch
+him back to hell they came from and falls slower) A\_up while ducking - backflip (jumps back and makes enemy landed on unable to
+move(stomped)) |1| repeatedly while ducking - spring jump (very high spinjump) |1| repeatedly - spin (throws enemies who touch him
+back to hell they came from)
 
 `   SPECIAL MOVES:`
 
-|2| while moving - ram (rams at enemy, shooting him up and in moving direction a bit) - available at level 1 dojo |2| and A\_left/A\_right while ducking - power ram (rams at enemy at very high speed, shooting him up and in moving direction) - available at level 2 dojo |2| while ducking - power bomb (strikes enemies nearby) - avaible at level 3 dojo |2| and |1| repeatedly - rage (makes Tux run fast and strikes enemies on his way) - available at level 4 dojo |2| and |1| repeatedly while ducking - rampage (makes Tux run very fast and pwns enemies on his way) - available at level 5 dojo A\_up in midair - Penguin punch (Tux jumps in midair, striking enemies touching him) - available at level 6 dojo
+|2| while moving - ram (rams at enemy, shooting him up and in moving direction a bit) - available at level 1 dojo |2| and
+A\_left/A\_right while ducking - power ram (rams at enemy at very high speed, shooting him up and in moving direction) -
+available at level 2 dojo |2| while ducking - power bomb (strikes enemies nearby) - avaible at level 3 dojo |2| and |1|
+repeatedly - rage (makes Tux run fast and strikes enemies on his way) - available at level 4 dojo |2| and |1| repeatedly
+while ducking - rampage (makes Tux run very fast and pwns enemies on his way) - available at level 5 dojo A\_up in midair -
+Penguin punch (Tux jumps in midair, striking enemies touching him) - available at level 6 dojo
 
 `       PINGU`
 
-UNLOCK:Beat Penguinos island with Tux. CUTSCENE: Some penguin (Pingu) runs into Tux. “HI! NOW I FOUND YOU!I...” TUX:“Wait a bit, who are you?” “I AM YOUR BROTHER!!” Tux feels like WTF? PENGUIN:“I will explain it. Sit down just here... I remember you when I was young. We were taking a vacation at Icyisland. Then, returned to home, we noticed that you were lost... \*sniff\* BUT NOW I GLAD TO SEE YOU BRO!!!” DESCRIPTION:Tux's brother, has his own cool moves. QUOTES TO GAME:“It's action time for Pingu!”, “WOW! I am so cool!”
+UNLOCK:Beat Penguinos island with Tux. CUTSCENE: Some penguin (Pingu) runs into Tux. “HI! NOW I FOUND YOU!I...” TUX:“Wait a bit,
+who are you?” “I AM YOUR BROTHER!!” Tux feels like WTF? PENGUIN:“I will explain it. Sit down just here... I remember you when I was
+young. We were taking a vacation at Icyisland. Then, returned to home, we noticed that you were lost... \*sniff\* BUT NOW I GLAD TO
+SEE YOU BRO!!!” DESCRIPTION:Tux's brother, has his own cool moves. QUOTES TO GAME:“It's action time for Pingu!”, “WOW! I am so cool!”
 
 `   COMMON MOVES:`
 
-A\_left, A-right - move A\_up - jump A\_down - focus (makes Pingu unable to move for 2 seconds, then decreases knockback rate for 10 seconds. Then can't do this move for 1 minute) |2| - punch |2| in midair - sky kick |1| repeatedly in midair - air spin (throws enemies who touch him back to hell they came from and falls slower) A\_up while ducking - backflip (jumps back and makes enemy landed on unable to move(stomped)) |1| repeatedly while ducking - spin spell (same as spin, but with wider range) |1| repeatedly - spin (throws enemies who touch him back to hell they came from)
+A\_left, A-right - move A\_up - jump A\_down - focus (makes Pingu unable to move for 2 seconds, then decreases knockback rate for
+10 seconds. Then can't do this move for 1 minute) |2| - punch |2| in midair - sky kick |1| repeatedly in midair - air spin (throws
+enemies who touch him back to hell they came from and falls slower) A\_up while ducking - backflip (jumps back and makes enemy landed
+on unable to move(stomped)) |1| repeatedly while ducking - spin spell (same as spin, but with wider range) |1| repeatedly - spin
+(throws enemies who touch him back to hell they came from)
 
 `   SPECIAL MOVES:`
 
-|2| while moving - dodge (makes Pingu walkthroughable for 30 seconds, recharge for 1 minute) - available at level 1 dojo |2| and A\_left/A\_right while ducking - action dodge (makes Pingu walkthroughable for 30 seconds, pressing |2| will attack touching player, recharge for 2 minutes) - available at level 2 dojo |2| while ducking - raging soul (must be &gt;99 damage to do this - everybody (and Pingu) receives 1/20 of Pingu's damage, Pingu's unable to move for 10 seconds) - available at level 3 dojo |2| and |1| repeatedly - fireball (a flying fireball appears, striking first enemy touched) - available at level 4 dojo |2| and |1| repeatedly while ducking - thunderball (a flying thunderball appears, striking all enemies on his way) - available at level 5 dojo A\_up in midair - Teleport (Pingu teleports up a bit, damaging all enemies on his vertical coordinates and near these) - available at level 6 dojo
+|2| while moving - dodge (makes Pingu walkthroughable for 30 seconds, recharge for 1 minute) - available at level 1 dojo |2| and
+A\_left/A\_right while ducking - action dodge (makes Pingu walkthroughable for 30 seconds, pressing |2| will attack touching player,
+recharge for 2 minutes) - available at level 2 dojo |2| while ducking - raging soul (must be &gt;99 damage to do this - everybody
+(and Pingu) receives 1/20 of Pingu's damage, Pingu's unable to move for 10 seconds) - available at level 3 dojo |2| and |1| repeatedly -
+fireball (a flying fireball appears, striking first enemy touched) - available at level 4 dojo |2| and |1| repeatedly while ducking -
+thunderball (a flying thunderball appears, striking all enemies on his way) - available at level 5 dojo A\_up in midair - Teleport (Pingu
+teleports up a bit, damaging all enemies on his vertical coordinates and near these) - available at level 6 dojo
 
 </details>
 
+---
+
 ## Badguy Ideas
 
-This is for miscellaneous enemy ideas. Any world-specific enemy plans or ideas can be found [here](https://github.com/SuperTux/supertux/wiki/Proposed-Badguys).
+This is for miscellaneous enemy ideas. Any world-specific enemy plans or ideas can be found
+[here](https://github.com/SuperTux/supertux/wiki/Proposed-Badguys).
 
 - “invisible” enemies (you could see only their eyes or something else) maybe you could just see shoes or gloves etc
 - enemies which becomes bigger and longer
@@ -808,24 +833,24 @@ This is for miscellaneous enemy ideas. Any world-specific enemy plans or ideas c
 
 ![](images/Flying_Snowball.png)
 
--   flies straight and not very fast
--   If Tux jumps on it, the wings of the snowball will fall down. Then he becomes a Bouncing Snowball.
+- Flies straight and not very fast
+- If Tux jumps on it, the wings of the snowball will fall down. Then he becomes a Bouncing Snowball.
 
 ### Angry Snowball
 
 ![](images/Angry-Snowball.png)
 
--   runs very fast (because he's so angry)
--   If Tux jumps on it, Angry Snowball will be eliminated.
--   If Tux jumps over him, Angry Snowball turns, making him skid,
+- Runs very fast (because he's so angry)
+- If Tux jumps on it, Angry Snowball will be eliminated.
+- If Tux jumps over him, Angry Snowball turns, making him skid,
 
 ### Mr Push-away
 
-![](images/Mr_Pushaway.png "Mr_Pushaway.png")
+![](images/Mr_Pushaway.png)
 
 ### Electric Eel
 
-![](images/Electric_eel.png "Electric_eel.png")
+![](images/Electric_eel.png)
 
 So kind of like the level “Shocking,” except the electrification of
 the water is triggered by a specific enemy rather than occurring for
@@ -834,73 +859,102 @@ April 2011 (UTC)
 
 ### The Evil Tree
 
-![](images/Evil_tree.png "Evil_tree.png")
+![](images/Evil_tree.png)
 
 A badguy which could fit into the dark-forest scheme.
 
-At first, this looks and behaves like a normal background tree, so tux can walk “through” it. (Especially mean when having the same tree often as normal background) When tux passes a special point near the tree (surprise will be much more intense if this point is behind that tree), it becomes alive and hunts tux.
+At first, this looks and behaves like a normal background tree, so tux can walk “through” it. (Especially mean when
+having the same tree often as normal background) When tux passes a special point near the tree (surprise will be much
+more intense if this point is behind that tree), it becomes alive and hunts tux.
 
-It maybe would be a good idea to make the tree a little slow as it were strange to have it running around. That could be compensated by making it a bit harder to kill. (I also have the graphic in svg available where it should be easy editable and resizeable.) --[Henning](User#henning "wikilink") 08:46, 27 Sep 2006 (BST)
+> "It maybe would be a good idea to make the tree a little slow as it were strange to have it running around. That could
+  be compensated by making it a bit harder to kill. (I also have the graphic in svg available where it should be easy
+  editable and resizeable.)" - Henning 08:46, 27 Sep 2006 (BST)
 
 ### Leopard Seals
 
-Just another badguy. See wikipedia article about this: en.wikipedia.org/wiki/Leopard\_Seal They can grab penguins under water, they can't breath and they die.
+Just another badguy. See wikipedia article about this: en.wikipedia.org/wiki/Leopard\_Seal They can grab penguins under
+water, they can't breath and they die.
 
--   That's one that I've wanted since M1.
+> "That's one that I've wanted since M1."
 
 ### Flattop/Flatbottom Iceberg
 
-Flattop Iceberg looks like an upside-down icy cone with eyes that follow Tux and lives only in water. When jumped on, speeds off at Mr.-Iceblock speed with Tux on top; at collision, Tux flies off and Iceberg crumbles.
+Flattop Iceberg looks like an upside-down icy cone with eyes that follow Tux and lives only in water. When jumped on,
+speeds off at Mr.-Iceblock speed with Tux on top; at collision, Tux flies off and Iceberg crumbles.
 
-Flatbottom Iceberg is a flipped Flattop Iceberg, so it can't be “ridden”. Both kinds of Iceberg can be killed by fire shot and their points kill Tux.
+Flatbottom Iceberg is a flipped Flattop Iceberg, so it can't be “ridden”. Both kinds of Iceberg can be killed by fire
+shot and their points kill Tux.
 
 ### WalkingRock
 
-It looks like an ordinary rock, but when Tux gets within range (5 spaces away), it grows eyes and legs and starts walking. When Tux jumps on it, its legs vanish and its eyes close. Tux can then pick it up. If Tux lets go, or jumps on it again, it speeds off like a Mr. Iceblock. This badguy can't be killed.
+It looks like an ordinary rock, but when Tux gets within range (5 spaces away), it grows eyes and legs and starts
+walking. When Tux jumps on it, its legs vanish and its eyes close. Tux can then pick it up. If Tux lets go, or jumps
+on it again, it speeds off like a Mr. Iceblock. This badguy can't be killed.
 
--   I don't think it should speed off, since it is a rock, not a block of ice and would have a good deal more friction. I do think it would be neat if a few seconds of it coming to a stop it revived and starts to chase Tux again if he is still nearby.
+> "I don't think it should speed off, since it is a rock, not a block of ice and would have a good deal more friction.
+  I do think it would be neat if a few seconds of it coming to a stop it revived and starts to chase Tux again if he
+  is still nearby."
 
 ### Chameleon
 
-This badguy is 4 spaces long. It lies motionless, and when Tux is in its sightline (10 spaces long, 1 space high), it opens its eyes, waits one second, and shoots out its tongue. If it misses, it waits another second and shoots out its tongue again. When Tux is hit by the tongue, he gets pulled into the chameleon's now open mouth and gets crushed. If Tux jumps on it, it turns into a smaller, harmless chameleon which crawls around a bit and then disappears. If Tux shoots it, it shrinks; with the second shot, it dies.
+This badguy is 4 spaces long. It lies motionless, and when Tux is in its sightline (10 spaces long, 1 space high),
+it opens its eyes, waits one second, and shoots out its tongue. If it misses, it waits another second and shoots out
+its tongue again. When Tux is hit by the tongue, he gets pulled into the chameleon's now open mouth and gets crushed.
+If Tux jumps on it, it turns into a smaller, harmless chameleon which crawls around a bit and then disappears. If Tux
+shoots it, it shrinks; with the second shot, it dies.
 
 ### Tick
 
-The tick would hide behind plants and stuff, or in the grass. He attaches himself to Tux, hangs on for a while, and becomes full and drops off, hurting Tux. Tux can then kill it. The tick may be killed by Tux becoming invincible, or when Tux gets hurt by spiky plants, electricity, or lava.
+The tick would hide behind plants and stuff, or in the grass. He attaches himself to Tux, hangs on for a while, and
+becomes full and drops off, hurting Tux. Tux can then kill it. The tick may be killed by Tux becoming invincible, or
+when Tux gets hurt by spiky plants, electricity, or lava.
 
 ### Swimming Fish
 
-The Swimming Fish is like a fish turned on its side. It swims just below the surface of water and dives at Tux like a Zeekling. It can be killed by jumping on it and by fire shot.
+The Swimming Fish is like a fish turned on its side. It swims just below the surface of water and dives at Tux like
+a Zeekling. It can be killed by jumping on it and by fire shot.
 
--   I've thought of this several times. I think that it will one day be implemented.
+> "I've thought of this several times. I think that it will one day be implemented."
 
 ### Jellyfish
 
-The Jellyfish is hard to beat because it moves randomly in water. The trailing tentacles (2 spaces long) can kill Tux. It can be killed the same way as a Swimming Fish.
+The Jellyfish is hard to beat because it moves randomly in water. The trailing tentacles (2 spaces long) can kill Tux.
+It can be killed the same way as a Swimming Fish.
 
 ### Shark
 
-Tux can only see the shark's fin. When he's at the surface of the water, the fin will poke out, and the shark will come closer to Tux. It can be forced to submerge by fireballs, and killed by buttjumping or invulnerability.
+Tux can only see the shark's fin. When he's at the surface of the water, the fin will poke out, and the shark will come
+closer to Tux. It can be forced to submerge by fireballs, and killed by buttjumping or invulnerability.
 
 ### Earthworm
 
-Earthworms slither vertically and horizontally. They are 1 space thick, and therefore would be best in 1- or 2-space-high tunnels. They push Tux back; or, in 2-space-high horizontal tunnels, Tux can ride them. They only kill when they squash Tux against a wall, floor, or ceiling. They cannot be killed.
+Earthworms slither vertically and horizontally. They are 1 space thick, and therefore would be best in 1- or 2-space-high
+tunnels. They push Tux back; or, in 2-space-high horizontal tunnels, Tux can ride them. They only kill when they squash
+Tux against a wall, floor, or ceiling. They cannot be killed.
 
 ### Killer Earthworm
 
-Killer Earthworms move like a Limpy. They look like an Earthworm but are smaller with fangs in their mouth. They can be killed only by fire shot and invincibility.
+Killer Earthworms move like a Limpy. They look like an Earthworm but are smaller with fangs in their mouth. They can be
+killed only by fire shot and invincibility.
 
 ### Mr. Lightning
 
-It looks like a small bolt of lightning with eyes and shoots down from a certain point, trying to hit Tux. It moves twice as fast as a diving Zeekling. It cannot be killed, and it hurts Tux when it hits him, after which it disappears.
+It looks like a small bolt of lightning with eyes and shoots down from a certain point, trying to hit Tux. It moves twice
+as fast as a diving Zeekling. It cannot be killed, and it hurts Tux when it hits him, after which it disappears.
 
 ### Skullymine
 
-I actually implemented this on my computer. It is the mr. bomb of the ghost forest; it can be frozen, carried, detonated, etc. However, its explosion patterns will work differently of those of mr. bomb; different ways of killing it will produce different results from the bomb, as it is encased in a skull. (P.S. unfortunately, I seem to have lost track of the skullymine files when switching machines)
+I actually implemented this on my computer. It is the mr. bomb of the ghost forest; it can be frozen, carried, detonated, etc.
+However, its explosion patterns will work differently of those of mr. bomb; different ways of killing it will produce different
+results from the bomb, as it is encased in a skull. (P.S. unfortunately, I seem to have lost track of the skullymine files when
+switching machines)
 
 ### Mr. Bubble
 
-Mr. Bubble looks like a very fat ghost with legs and eyes. It mostly walks on the ground, but can also float up to 5 spaces above the ground at random times. Upon spotting Tux, it shoots bubbles at him, and Tux has to dodge them. If he doesn't, he gets caught in the bubble, the bubble shrinks to a tiny dot, there is a pop sound, and Tux dies.
+Mr. Bubble looks like a very fat ghost with legs and eyes. It mostly walks on the ground, but can also float up to 5 spaces
+above the ground at random times. Upon spotting Tux, it shoots bubbles at him, and Tux has to dodge them. If he doesn't, he
+gets caught in the bubble, the bubble shrinks to a tiny dot, there is a pop sound, and Tux dies.
 
 Mr.Bubble 2: Looks and acts the same as Mr.Bubble,but warps Tux.
 
@@ -910,137 +964,129 @@ Looks like a walking SkullyHop, but shoots darts at preset intervals. Can be kil
 
 ### Suit of Armor
 
-As high as BigTux, it runs with its sword held in front of it. It can kill Tux, as well as any badguy that can be killed by Tux. When hit with fire shot, it melts and disappears.
+As high as BigTux, it runs with its sword held in front of it. It can kill Tux, as well as any badguy that can be killed by
+Tux. When hit with fire shot, it melts and disappears.
 
-### Smart eye
+### Smart Eye
 
-|                              |                                      |                              |
-|------------------------------|--------------------------------------|------------------------------|
-| ![](images/Eye-ul.png "Eye-ul.png") | ![](images/Eye-u.png "Eye-u.png")           | ![](images/Eye-ur.png "Eye-ur.png") |
-| ![](images/Eye-l.png "Eye-l.png")   | ![](images/Eye-center.png "Eye-center.png") | ![](images/Eye-r.png "Eye-r.png")   |
-| ![](images/Eye-dl.png "Eye-dl.png") | ![](images/Eye-d.png "Eye-d.png")           | ![](images/Eye-dr.png "Eye-dr.png") |
-||
+|                        |                            |                        |
+|------------------------|----------------------------|------------------------|
+| ![](images/Eye-ul.png) | ![](images/Eye-u.png)      | ![](images/Eye-ur.png) |
+| ![](images/Eye-l.png)  | ![](images/Eye-center.png) | ![](images/Eye-r.png)  |
+| ![](images/Eye-dl.png) | ![](images/Eye-d.png)      | ![](images/Eye-dr.png) |
 
-![](images/Eye-freezed.png "fig:Eye-freezed.png")
-<small>*freezed Smart eye*</small>
-\*If Tux gets to near a Smart eye, it will haunt him until it hurt. Then Smart eye goes to wanish.
+![](images/Eye-freezed.png)
 
--   Smart eye is not squishable.
--   Smart eye is a bit faster than Tux.
--   His pupil rotates under the direction of movement.
--   Smart eye is freezable.
+If Tux gets to near a Smart eye, it will haunt him until it hurt. Then Smart eye goes to wanish.
 
-I think it is a bit the same of the the willowisp, no ? --Ypetremann 18:26, 30 January 2011 (UTC)
+- Smart eye is not squishable.
+- Smart eye is a bit faster than Tux.
+- His pupil rotates under the direction of movement.
+- Smart eye is freezable.
 
-Willowisp teleporting, but this will kill. --[Hume](User#hume "wikilink") 19:18, 30 January 2011 (UTC)
+> "I think it is a bit the same of the the willowisp, no ?" - Ypetremann 18:26, 30 January 2011 (UTC)
 
-With script we can kill with it, or for me the right idea is to create a orange willowisp, like the flames that turn ... I see in the wiki that we will not make lot diferent monster or make the gake so dificult, and I think that the monster you descibe will looks like willowisp --[Ypetremann](User#ypetremann "wikilink") 19:00, 1 February 2011 (UTC)
+> "Willowisp teleporting, but this will kill." - Hume 19:18, 30 January 2011 (UTC)
 
-Willowisp is not freezable. --[Hume](User#hume "wikilink") 19:00, 1 February 2011 (UTC)
+> "With script we can kill with it, or for me the right idea is to create a orange willowisp, like the flames that
+  turn ... I see in the wiki that we will not make lot diferent monster or make the gake so dificult, and I think
+  that the monster you descibe will looks like willowisp" - Ypetremann 19:00, 1 February 2011 (UTC)
 
-### Icecrusher family
+> "Willowisp is not freezable." - Hume 19:00, 1 February 2011 (UTC)
 
-|                            |                            |                            |                            |                            |
-|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-| <center>
- ![](images/Krish.png "Krish.png")
+### Icecrusher Family
 
- </center>                   | ![](images/Krush.png "Krush.png") | ![](images/Kresh.png "Kresh.png") | ![](images/Krosh.png "Krosh.png") | ![](images/Krash.png "Krash.png") |
-| <center>
- Krish
+| Krish                 | Krush                 | Kresh                 | Krosh                 | Krash                 |
+|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
+| ![](images/Krish.png) | ![](images/Krush.png) | ![](images/Kresh.png) | ![](images/Krosh.png) | ![](images/Krash.png) |
 
- </center>                   | <center>
-  Krush
 
-  </center>                   | <center>
-   Kresh
+### Earth Badguys
 
-   </center>                   | <center>
-    Krosh
+- All earth badguys is freezable but not burnable
+- Captain earth (simlary as Captain Snowball)
 
-    </center>                   | <center>
-     Krash
+![](images/Cpt-left-0.png) ![](images/Cpt-left-1.png) ![](images/Cpt-left-2.png) ![](images/Cpt-squished-left.png)
 
-     </center>                   |
+- Earthball (simlary as Snowball)
 
-### earth badguys
+![](images/Eb-left-0.png) ![](images/Eb-left-1.png) ![](images/Eb-left-2.png) ![](images/Eb-squished-left.png)
 
--   All earth badguys is freezable but not burnable
--   captain earth
+- Earth Jumpy (simlary as Jumpy)
 
-![](images/Cpt-left-0.png "fig:Cpt-left-0.png")![](images/Cpt-left-1.png "fig:Cpt-left-1.png")![](images/Cpt-left-2.png "fig:Cpt-left-2.png")![](images/Cpt-squished-left.png "fig:Cpt-squished-left.png")
-: Simlary as Captain snowball
-\* earthball
-![](images/Eb-left-0.png "fig:Eb-left-0.png")![](images/Eb-left-1.png "fig:Eb-left-1.png")![](images/Eb-left-2.png "fig:Eb-left-2.png")![](images/Eb-squished-left.png "fig:Eb-squished-left.png")
-: Simlary as snowball
-\* earth jumpy
-![](images/Ej-left-down.png "fig:Ej-left-down.png")![](images/Ej-left-middle.png "fig:Ej-left-middle.png")![](images/Ej-left-up.png "fig:Ej-left-up.png")
-: Simlary as jumpy
-\* earthman
-![](images/Em1.png "fig:Em1.png")![](images/Em2.png "fig:Em2.png")![](images/Em3.png "fig:Em3.png")![](images/Em4.png "fig:Em4.png")![](images/Em5.png "fig:Em5.png")![](images/Em6.png "fig:Em6.png")![](images/Em7.png "fig:Em7.png")![](images/Em8.png "fig:Em8.png")
-: Simlary as snowman
-\* flying earth
-![](images/Fe-left-0.png "fig:Fe-left-0.png")![](images/Fe-left-1.png "fig:Fe-left-1.png")![](images/Fe-squished.png "fig:Fe-squished.png")
-: Simlary as flying snowball
-\* grassball
-![](images/Gb-left-0.png "fig:Gb-left-0.png")![](images/Gb-left-1.png "fig:Gb-left-1.png")![](images/Gb-left-2.png "fig:Gb-left-2.png")![](images/Gb-squished-left.png "fig:Gb-squished-left.png")
+![](images/Ej-left-down.png) ![](images/Ej-left-middle.png) ![](images/Ej-left-up.png)
 
-Simlary as smartball
+- Earthman (simlary as Snowman)
 
--   kamikazeearth
+![](images/Em1.png) ![](images/Em2.png) ![](images/Em3.png) ![](images/Em4.png)! [](images/Em5.png) ![](images/Em6.png)
+![](images/Em7.png) ![](images/Em8.png)
 
-![](images/Ke-left.png "fig:Ke-left.png")![](images/Ke-collision-left.png "fig:Ke-collision-left.png")
+- Flying Earth (simlary as Flying Snowball)
 
-Simlary as kamikazesnowball
+![](images/Fe-left-0.png) ![](images/Fe-left-1.png) ![](images/Fe-squished.png)
 
--   mr\_earthblock
+- Grassball (simlary as Smartball)
 
-![](images/Meb-flat-left.png "fig:Meb-flat-left.png")![](images/Meb-left-0.png "fig:Meb-left-0.png")![](images/Meb-left-1.png "fig:Meb-left-1.png")![](images/Meb-left-2.png "fig:Meb-left-2.png")![](images/Meb-left-3.png "fig:Meb-left-3.png")
+![](images/Gb-left-0.png) ![](images/Gb-left-1.png) ![](images/Gb-left-2.png) ![](images/Gb-squished-left.png)
 
-Simlary as mr-iceblock
+- Kamikazeearth (simlary as Kamikazesnowball)
+
+![](images/Ke-left.png) ![](images/Ke-collision-left.png)
+
+- Mr. Earthblock (Simlary as Mr. Iceblock)
+
+![](images/Meb-flat-left.png) ![](images/Meb-left-0.png) ![](images/Meb-left-1.png) ![](images/Meb-left-2.png)
+![](images/Meb-left-3.png)
 
 ### Angry Stone
 
-Angry stone is attached to the roof of a level, once Tux gets close to him (one tile to the left or right, he crushes to the ground, trying to kill Tux. Soon after he lifts back up to the ceiling for another attack. Angry stones might come in different sizes, from really small ones, 32x32, to very large ones, 256x256. Angry stones are always a multiple of the tilesize large so that they fit into the tilemap properly. --Mux
+> "Angry stone is attached to the roof of a level, once Tux gets close to him (one tile to the left or right, he crushes
+  to the ground, trying to kill Tux. Soon after he lifts back up to the ceiling for another attack. Angry stones might
+  come in different sizes, from really small ones, 32x32, to very large ones, 256x256. Angry stones are always a multiple
+  of the tilesize large so that they fit into the tilemap properly." - Mux
 
 ### Sleeping Snowball
 
-Looks like a Mr Snowball with no feet and closed eyes, on contact with him Tux falls over and can't get up for a few seconds, allowing badguys to get him. Might be defeatable.
+Looks like a Mr Snowball with no feet and closed eyes, on contact with him Tux falls over and can't get up for a few
+seconds, allowing badguys to get him. Might be defeatable.
 
 ### Sitting Spiky
 
--   looks like a metal dome with spikes
--   hurts Tux on contact
+- Looks like a metal dome with spikes
+- Hurts Tux on contact
 
 ### Flying Spiky
 
--   looks like Sitting Spiky with propeller underneath
--   if Tux touches prop. he gets blown away
--   hovers in mid-air
+- Looks like Sitting Spiky with propeller underneath
+- If Tux touches prop. he gets blown away
+- Hovers in mid-air
 
 ### Robber
 
-Robber walks around and, on contact steals bonuses and runs off to somewhere. If he steals every kind of bonus, he gets a weapon, allowing him to hurt Tux.
+Robber walks around and, on contact steals bonuses and runs off to somewhere. If he steals every kind of bonus, he gets
+a weapon, allowing him to hurt Tux.
 
-As an addition for this idea, it should be possible to pursuit and kill the robber to get the stuff back, though it should be pretty hard to get him. --[Head](User#head "wikilink") 23:12, 8 Dec 2006 (CET)
+> "As an addition for this idea, it should be possible to pursuit and kill the robber to get the stuff back, though it should
+  be pretty hard to get him." - Head 23:12, 8 Dec 2006 (CET)
 
-great idea.
+> "Great idea."
 
-Needs work... Besides, it sounds kinda cheesy. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 23:12, 20 Dec 2006 (CET)
+> "Needs work... Besides, it sounds kinda cheesy." - DJ Wings 23:12, 20 Dec 2006 (CET)
 
-SuperTux is Jump and run game, but not a shooting game. --[Hume](User#hume "wikilink") 19:21, 30 January 2011 (UTC)
+> "SuperTux is Jump and run game, but not a shooting game." - Hume 19:21, 30 January 2011 (UTC)
 
-I think that a monster like that will just rob anything, thing that can be important to the rest of the level, like a box, a key... and could look like a fox, or for antartic level, like a little jumping fish ? --[Ypetremann](User#ypetremann "wikilink") 19:00, 1 February 2011 (UTC)
+> "I think that a monster like that will just rob anything, thing that can be important to the rest of the level, like a box,
+  a key... and could look like a fox, or for antartic level, like a little jumping fish?" - Ypetremann 19:00, 1 February 2011 (UTC)
 
 ### Scared Cat
 
--   runs away from Tux
--   would be *nearly* as fast as Tux
--   When he catches one Tux gets a reward-Special bonus?
+- Runs away from Tux
+- Would be *nearly* as fast as Tux
+- When he catches one Tux gets a reward-Special bonus?
 
 ### Ghostly Tree
 
-Ghost forest version of MrTree. See [Ghostly Tree](Ghostly_Tree "wikilink").
+Ghost forest version of Mr. Tree. See [Ghostly Tree](Ghostly_Tree "wikilink").
 
 ### Walking Rock
 
@@ -1048,44 +1094,58 @@ Unrelated with the “Walking rock” above. A big rock that works like a platfo
 
 ### Undead enemy
 
-![](images/Undead-penguin.gif "Undead_penguin.gif")
+![](images/Undead-penguin.gif)
 
-When killed, stays dead for some time and then comes back to life. Could be a zombie penguin or a skeleton alike to SkullyHops. Might be freezable and killed by fireballs or buttjump.
+When killed, stays dead for some time and then comes back to life. Could be a zombie penguin or a skeleton alike
+to SkullyHops. Might be freezable and killed by fireballs or buttjump.
 
-Like Dry Bones in SMW? linuxlove
+> "Like Dry Bones in SMW?" - linuxlove
 
 ### Volcano
 
-![](images/Volcano.gif "Volcano.gif")
+![](images/Volcano.gif)
 
-Implementation of a Dispenser (took the idea from that page). Spawns rocks and/or flames randomly or at a given interval. Might be frozen and become usable as a platform (or even something like a geyser), but only for a limited time.
+Implementation of a Dispenser (took the idea from that page). Spawns rocks and/or flames randomly or at a given
+interval. Might be frozen and become usable as a platform (or even something like a geyser), but only for a
+limited time.
 
 ### Icy
 
-Looks like a walking snowball encircled by a cloud of light blue smoke (frozen air). When the smoke touches an enemy or an object, it reacts like it was hit by an icebullet or a stalactite. Can be killed only by invincibility, firebullet, collision with Iceblocks and similar enmies. When Tux touches it he freezes for a short time, and is not hurt.
+Looks like a walking snowball encircled by a cloud of light blue smoke (frozen air). When the smoke touches an enemy or
+an object, it reacts like it was hit by an icebullet or a stalactite. Can be killed only by invincibility, firebullet,
+collision with Iceblocks and similar enmies. When Tux touches it he freezes for a short time, and is not hurt.
 
 ### Buzzer
 
-Might look like ![MrPlasma](images/Mrplasma.png "wikilink"). Generates an electric field that hurts Tux and enemies and electrifies water. This could happen randomly, at fixed intervals or when Tux gets nearby.
+Might look like ![MrPlasma](images/Mrplasma.png). Generates an electric field that hurts Tux and enemies and electrifies
+water. This could happen randomly, at fixed intervals or when Tux gets nearby.
 
 ### Fly
 
 A fly that flies around Tux, annoying him and forcing him to move, but without harming him.
 
-So it messes up the controls for a bit so that Tux is forced away from it? Original. Me likes! --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 17:30, 10 July 2007 (UTC)
+> "So it messes up the controls for a bit so that Tux is forced away from it? Original. Me likes!" - [DJ Wings N0 PH33R 17:30, 10 July 2007 (UTC)
 
 ### Polar bear
 
-It's been suggested numerous times that a polar bear be used as a bad guy or NPC. Here's some concept art that I made: ![](images/Polar-bear.png "fig:Polar-bear.png")
-Suggestions for what it could do? Maybe it could pace around like other badguys and charge when it sees Tux? That's probably not a good idea, since it seems like the sort of thing that only a boss should be able to do, and there's already the Yeti. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 14:55, 9 August 2007 (UTC)
+It's been suggested numerous times that a polar bear be used as a bad guy or NPC. Here's some concept art that I made: ![](images/Polar-bear.png)
 
-World 1 is [Antarctica](http://simple.wikipedia.org/wiki/Antarctica). That is a far away from polar bears as you can get without leaving the planet. But if we ignore that the bear might make a good boss for a snow world. He is way too big for a ordinary badguy. --[Superdev](User#superdev "wikilink") 18:38, 9 August 2007 (UTC)
+> "Suggestions for what it could do? Maybe it could pace around like other badguys and charge when it sees Tux? That's
+  probably not a good idea, since it seems like  the sort of thing that only a boss should be able to do, and there's
+  already the Yeti." - DJ Wings N0 PH33R 14:55, 9 August 2007 (UTC)
 
-Since when have we been all about accuracy? Yeah, the bear is way too big for a normal badguy, and since there's already a boss, that's what I was afraid of. I don't want a clash in interests between me and the development team. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink"): N0 PH33R 19:45, 9 August 2007 (UTC)
+> "World 1 is [Antarctica](http://simple.wikipedia.org/wiki/Antarctica). That is a far away from polar bears as you can get without
+  leaving the planet. But if we ignore that the bear might make a good boss for a snow world. He is way too big for a ordinary
+  badguy." - Superdev 18:38, 9 August 2007 (UTC)
 
-How about an NPC? Would that seem like a good NPC? --[80.31.56.230](User#80.31.56.230 "wikilink") 07:06, 11 August 2007 (UTC)
+> "Since when have we been all about accuracy? Yeah, the bear is way too big for a normal badguy, and since there's already a
+  boss, that's what I was afraid of. I don't want a clash in interests between me and the development team." -
+  DJ Wings N0 PH33R 19:45, 9 August 2007 (UTC)
 
-*“Since when have we been all about accuracy?”* I think that we should be more about it ASAP. The ghost forest is unrealistic enough. (No matter *how* cute the skullyhops are) --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
+> "How about an NPC? Would that seem like a good NPC?" - 80.31.56.230 07:06, 11 August 2007 (UTC)
+
+> "'Since when have we been all about accuracy?' I think that we should be more about it ASAP. The ghost forest is unrealistic
+  enough. (No matter *how* cute the skullyhops are)" - Julius\_Freezer 23:58, 2 July 2009 (UTC)
 
 ### Pirates
 
@@ -1220,8 +1280,11 @@ Art Ideas
 
 What about a new glossy SuperTux. Or has he to be as all the other objects in wax crayon?
 
--   **fall position** if tux falls unexpectedly e.g. runs off an edge without jumping, he doesn't use the jump position but instead a “fall position”, flippers flailing, or just up in the air, looking down, feet spread to absorb the force of landing he might also use the “fall position” when falling at high speed
--   **fly position** when tux flies into the air unexpectedly e.g. he is blown by wind he assumes the “fly position” feet together pointing down, arms by side, looking up.
+- **Fall position** if tux falls unexpectedly e.g. runs off an edge without jumping, he doesn't use the jump position
+  but instead a “fall position”, flippers flailing, or just up in the air, looking down, feet spread to absorb the force
+  of landing he might also use the “fall position” when falling at high speed
+- **Fly position** when tux flies into the air unexpectedly e.g. he is blown by wind he assumes the “fly position” feet
+  together pointing down, arms by side, looking up.
 
 - Forest
   - Tile variance
@@ -1378,6 +1441,8 @@ to demonstrate how to make a good mario like pipe effect: ![](Infinite_Tiles_0.p
 
 Tux should have a better running animation, his legs should move faster, and perhaps he should flap his wings. Perhaps
 if he reaches full run he could fly like everyone has been wanting.
+
+---
 
 ## Powerups
 
@@ -1572,6 +1637,7 @@ capturing/disabling enemies.
 - **Walk on water** - but only if the water isn't deep
 - Tux becoming frozen (as an ice block) in order to float and kill enemies
 
+---
 
 ## Objects
 
@@ -1843,7 +1909,8 @@ You gain 10 coins.
 
 *If someone suggests another form, you can add it to this table.*
 
-Throwobject can pick up, point and throw it. If you do that, and hit into a badguy, so it dies. Throwobjectsare **big** and **small**.
+Throwobject can pick up, point and throw it. If you do that, and hit into a badguy, so it dies. Throwobjectsare
+**big** and **small**.
 
     (throwobject
      (x <x-pos>)
@@ -1853,13 +1920,13 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 
 #### Small throwobject
 
--   If you miss the target and falls to the ground, I can throw it more.
--   If you hit, the throwobject is destroyed.
+- If you miss the target and falls to the ground, I can throw it more.
+- If you hit, the throwobject is destroyed.
 
 #### Big throwobject
 
--   Small Tux can not use it (because it can not carry).
--   Once it reaches the target or falls to the ground, broken into four small throwobjects the same type.
+- Small Tux can not use it (because it can not carry).
+- Once it reaches the target or falls to the ground, broken into four small throwobjects the same type.
 
 ### Overload light
 
@@ -1872,8 +1939,11 @@ Throwobject can pick up, point and throw it. If you do that, and hit into a badg
 
 ### Laser
 
-<img src="Laser.png" title="fig:laser" alt="laser" width="200" /><img src="Laserblock.png" title="fig:stable-laser" alt="stable-laser" width="200" /> Not a laser, as you might think. This laser can not hurt anyone and always lights up. Lights are still in one direction and the beam ends where the wall stops. Bonus blocks laser beam can pass too. It also has the ability to light up the magic blocks. Tux can carry it.
-{| border=1 cellspacing=1 |![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png")![](images/Laser-light.png "fig:Laser-light.png") |- |laser's light |}
+![](images/Laser-light.png)
+
+Not a laser, as you might think. This laser can not hurt anyone and always lights up. Lights are still in one direction
+and the beam ends where the wall stops. Bonus blocks laser beam can pass too. It also has the ability to light up the
+magic blocks. Tux can carry it.
 
     (laser
      (color <red> <green> <blue>)
@@ -2082,23 +2152,33 @@ See: en.wikipedia.org/wiki/Computer\_and\_video\_game\_settings
 
 The wall stone preview could really be a step in the right direction.
 
-![](images/Wallstone-tileset.jpg "Wallstone-tileset.jpg")
+![](images/Wallstone-tileset.jpg)
 
 ### Friendly NPCs(non-player characters)
 
-Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivalent(seal?) would be neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok, a character teaches tux certain abilities. -F50
+Perhaps there could be friendly(or at least non-hostile) beings in the world. I would prefer implementation in
+milestone 3 or longer so as to not put another thing for the developers to do. A yoshi equivalent(seal?) would be
+neat but may be an entirely different game altogether. Some other ideas: a character who gives tux a quest in exchange
+for a key, hint for a puzzle etc., a charater who fights with tux for a little while to achieve something against nolok,
+a character teaches tux certain abilities. -F50
 
-This would be good. Make a 'talking' system that scrolls on the bottom. Maybe some characters could give you extra supplies or even weapons. --[Ajdlinux](User#ajdlinux "wikilink") 23:23, 30 Sep 2005 (BST)
+> "This would be good. Make a 'talking' system that scrolls on the bottom. Maybe some characters could give you extra
+  supplies or even weapons." - Ajdlinux 23:23, 30 Sep 2005 (BST)
 
--   Maybe modify the code for info boxes to let characters talk? Sounds good. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:27, 11 Jul 2006 (BST)
+> "Maybe modify the code for info boxes to let characters talk? Sounds good." - DJ Wings 18:27, 11 Jul 2006 (BST)
 
-    Text is evil. The player has to be able to read and understand the language which is a requirement that was not there in MS1. --[WolfgangB](User#wolfgangb "wikilink") 14:21, 12 Jul 2006 (BST)
+> "Text is evil. The player has to be able to read and understand the language which is a requirement that was not
+  there in MS1." - WolfgangB 14:21, 12 Jul 2006 (BST)
 
-\*:Stores or some such could just work with numbers and pictures. Having a \_story\_ told in little pictures would even add a very fun element.. [RichiH](User#richih "wikilink") 22:42, 25 Sep 2006 (BST)
+> "Stores or some such could just work with numbers and pictures. Having a *story* told in little pictures would
+  even add a very fun element.." - RichiH 22:42, 25 Sep 2006 (BST)
 
-\*: \* Yeah, that would be nice. If nothing else, a translatable infobox could describe a product and its price...Tux could buy flowers (for Penny? LOL), and the picture thing would be nice on a purchaseable map of a level. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
+> "Yeah, that would be nice. If nothing else, a translatable infobox could describe a product and its price...Tux could
+  buy flowers (for Penny? LOL), and the picture thing would be nice on a purchaseable map of a level." -
+  Julius\_Freezer 23:58, 2 July 2009 (UTC)
 
-I think that the Yoshi equivalent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk a lot faster on land than a Seal.[Tuxenegger](User#tuxenegger "wikilink") 17:35, 20 January 2006
+> "I think that the Yoshi equivalent, if used, could better be a Polar Bear in stead of a Seal. A Polar Bear can walk
+  a lot faster on land than a Seal." - Tuxenegger 17:35, 20 January 2006
 
 Bad idea, polar bears live in the arctic, penguins live in the antarctic.
 
@@ -2142,11 +2222,11 @@ the name of a specific badguy, Tux looks like that badguy.
 
 > "IT DOTH COOL!!!!! I shalt put that intoeth mine version of Super tux." - Rorikdude
 
-In the mapeditor it should be selectable if the cheats are on or off, maybe for every cheat. Because some cheats will cause a level to malfunction.
+In the mapeditor it should be selectable if the cheats are on or off, maybe for every cheat. Because some cheats will
+cause a level to malfunction.
 
 > "Or disable cheats altogether. Or, cheats such as ghost() could be built in via the console--sector.Tux.rock(),
   or sector.Tux.do\_iddqd()?" - Julius\_Freezer 23:58, 2 July 2009 (UTC)
-
 
 ### Improved Tux surroundings viewing
 
@@ -2158,7 +2238,8 @@ In the mapeditor it should be selectable if the cheats are on or off, maybe for 
 
 > "That would make some levels too easy." - 70.153.248.49 20:51, 28 March 2007 (UTC)
 
-Maybe there could be some Map Blocks. Like info-blocks but these should show just a “roughly scetched map” of te level. Or maybe just a part of it
+Maybe there could be some Map Blocks. Like info-blocks but these should show just a “roughly scetched map” of te level.
+Or maybe just a part of it
 
 You can make an info blog and show an image of the level. Maybe distant images are blurry to simulate limited visual acuity
 so the amount of information that is present decreases with distance.
@@ -2168,27 +2249,52 @@ so the amount of information that is present decreases with distance.
 I think that Supertux would be even cooler in 3D. It could be partially implemented, for example, there could be
 substages in 3D, or a 3D world later on? Or maybe it would more appropriate in a future spin off game?
 
--   Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites in a 2D world. --[Tuxdev](User#tuxdev "wikilink") 22:51, 3 Oct 2006 (CEST)
-    -   Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 02:19, 10 Oct 2006 (CEST)
-        -   No, he means like New Super Mario Bros or Super Smash Bros Melee, where the game is 2D side-scrolling but the graphics are 3D. (I mean tuxdev meant that, not the OP) [67.168.194.207](User#67.168.194.207 "wikilink") 02:12, 11 Oct 2006 (CEST)
--   2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net. Just throwing around ideas.--[66.153.31.148](User#66.153.31.148 "wikilink") 06:54, 4 Oct 2006 (CEST)
--   Maybe leave the game itself how it is, and have 3D cutscenes?
-    -   It's a good idea. Leave the game how it is, only change the cutscenes. [DirtY iCE](User#dirty_ice "wikilink") 10:54, 5 Nov 2006 (CET)
--   This idea may seem a bit wacky, but tux could fall into a hidden hole where he gets virtualized and has to fight virtual enemies in a virtual 3D landscape for a few levels then he has to go through a portal in the last 3D level to take him back to 2D. The only problem is the huge amount of code and graphics that would be required, thus resulting in a huge package size. Perhaps this could be an addon for a new bonus world?
--   Something similar to the original Jazz Jackrabbit style bonus stages perhaps? (For the uninitiated, picking up a large hidden gem in certain stages in JJ would take you to a 3D bonus stage on completion of the level, in which you would navigate a maze to collect a certain number of gems to win an extra life). Not entirely sure of the best way to set this out, certainly don't want to directly copy off JJ, just throwing the idea out there.
--   Sounds a bit too much like TRON. --[Gyroknight](User#gyroknight "wikilink")
-    -   At first I was hoping that somebody would want 3D Tux, but the more I thought about it, the more I thought that the game would lose its atmosphere if it went from 2D drawings to 3D models. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
-        -   I wholeheartedly agree. Above all, Supertux \*must\* remain firmly in the second dimension. 3-D models would ruin the game's cartoony, painting-esque charm. --[Mr Eyeball](User#mr_eyeball "wikilink") 18:20, 11 October 2009 (UTC)
+> "Are you thinking of tuxaqfh.sourceforge.net, or something more like the 2.5D New Super Mario which uses 3D sprites
+  in a 2D world." - Tuxdev 22:51, 3 Oct 2006 (CEST)
+  
+> "Like XTux? I don't think 2.5D would work with a completely 2D sidescroller like SuperTux." - DJ Wings 02:19, 10 Oct 2006 (CEST)
+
+> "No, he means like New Super Mario Bros or Super Smash Bros Melee, where the game is 2D side-scrolling but the graphics are 3D.
+  (I mean tuxdev meant that, not the OP)" - 67.168.194.207 02:12, 11 Oct 2006 (CEST)
+
+> "2.5D approach is cool, maybe the game could be played mostly in 2.5D , and the bosses in 3D like tuxaqfh.sourceforge.net.
+  Just throwing around ideas." - 66.153.31.148 06:54, 4 Oct 2006 (CEST)
+  
+> "Maybe leave the game itself how it is, and have 3D cutscenes?"
+
+> "It's a good idea. Leave the game how it is, only change the cutscenes." - DirtY iCE 10:54, 5 Nov 2006 (CET)
+
+> "This idea may seem a bit wacky, but tux could fall into a hidden hole where he gets virtualized and has to fight virtual
+  enemies in a virtual 3D landscape for a few levels then he has to go through a portal in the last 3D level to take him back
+  to 2D. The only problem is the huge amount of code and graphics that would be required, thus resulting in a huge package size.
+  Perhaps this could be an addon for a new bonus world?"
+  
+> "Something similar to the original Jazz Jackrabbit style bonus stages perhaps? (For the uninitiated, picking up a large hidden
+  gem in certain stages in JJ would take you to a 3D bonus stage on completion of the level, in which you would navigate a maze
+  to collect a certain number of gems to win an extra life). Not entirely sure of the best way to set this out, certainly don't
+  want to directly copy off JJ, just throwing the idea out there."
+  
+> "Sounds a bit too much like TRON." - Gyroknight
+
+> "At first I was hoping that somebody would want 3D Tux, but the more I thought about it, the more I thought that the game
+  would lose its atmosphere if it went from 2D drawings to 3D models." - Julius\_Freezer 23:58, 2 July 2009 (UTC)
+  
+> "I wholeheartedly agree. Above all, Supertux \*must\* remain firmly in the second dimension. 3-D models would ruin the
+  game's cartoony, painting-esque charm." - Mr Eyeball 18:20, 11 October 2009 (UTC)
 
 ### Collect coins by shooting
 
-It should be possible to collect coins by shooting at them with the fire flower powerup. AFAIR, you can do this in Super Mario games. --[217.235.171.77](User#217.235.171.77 "wikilink") 01:24, 9 Dec 2006 (CET)
+> "It should be possible to collect coins by shooting at them with the fire flower powerup. AFAIR, you can do this in
+  Super Mario games." - 217.235.171.77 01:24, 9 Dec 2006 (CET)
 
--   No, but maybe get coins for killing badguys?
--   Why we turn that not arround and Tux have to pay coins for ever fireboll?
-    -   I think both are bad ideas. Free fireballs is better, and coins should only be earned by collecting. (EXCEPTION: Tux can get a 100+ coin bonus like in certain blocks for each boss he defeats?) --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
-        -   I like the idea of being able to use fireballs to collect coins. Actually, it seems obvious to me.
+> "No, but maybe get coins for killing badguys?"
 
+> "Why we turn that not arround and Tux have to pay coins for ever fireboll?"
+
+> "I think both are bad ideas. Free fireballs is better, and coins should only be earned by collecting. (EXCEPTION: Tux can
+  get a 100+ coin bonus like in certain blocks for each boss he defeats?)" - Julius\_Freezer 23:58, 2 July 2009 (UTC)
+
+> "I like the idea of being able to use fireballs to collect coins. Actually, it seems obvious to me."
 
 ### Stylus control
 
@@ -2218,12 +2324,12 @@ like a tiger, arrr!
 - In Sonic games, player can play Tails, Amy, Shadow, etc...
 - In Mario games there are many different Yoshi's, and mushroom, princess, Luigi, Wario, etc...
 
-Playing a cute little dragon would be cool too! :D Again,I shalt put that intoeth mine version of Super tux.It will be out in three years-Rorikdude
+Playing a cute little dragon would be cool too! :D Again,I shalt put that intoeth mine version of Super tux.It will be out
+in three years-Rorikdude
 
 > "I think that an alternative character (outside of [Super Tux Smash](Super_Tux_Smash "wikilink")) would be another very bad idea.
   Penny, of course, ***must*** be playable--that is given--but the whole idea is that you have Tux the penguin and you jump and
   squish your way through a variety of levels until you reach a fortress." - Julius\_Freezer 23:58, 2 July 2009 (UTC)
-
 
 ### Submit level
 
@@ -2272,13 +2378,14 @@ the levels.
   under “Complaints”.) The mere thought of glowy light-effect lava like that makes me drool. I hope somebody figures out
   some way to implement that in the near future."
 
-![](images/Castle-lava.jpg "fig:Castle-lava.jpg")
+![](images/Castle-lava.jpg)
 
 ### New Scripting Methods And Properties
 
 #### Globals
 
--   methods
+<details>
+  <summary>Methods</summary>
 
 :\*get\_pos\_x(object)
 
@@ -2296,15 +2403,21 @@ the levels.
 
 create a object
 
+>/details>
+
 #### Lantern
 
--   properties
+<details>
+  <summary>Properties</summary>
 
 :\*brightness
 
 times the value of lightmap on site one tile away from lantern and color of lantern
 
--   methods
+</details>
+
+<details>
+  <summary>Methods</summary>
 
 :\*get\_color\_red()
 
@@ -2338,9 +2451,12 @@ times the value of lightmap on site one tile away from lantern and color of lant
 
 float brightness of lantern to target
 
+</details>
+
 #### Candle
 
--   properties
+<details>
+  <summary>Properties</summary>
 
 :\*color
 
@@ -2350,7 +2466,10 @@ float brightness of lantern to target
 
 times the value of lightmap on site one tile away from lantern and color of lantern
 
--   methods
+</details>
+
+<details>
+  <summary>Methods</summary>
 
 :\*get\_color\_red()
 
@@ -2384,37 +2503,52 @@ times the value of lightmap on site one tile away from lantern and color of lant
 
 float brightness of lantern to target
 
+</details>
+
 #### Will'o'wisp
 
--   properties
+<details>
+  <summary>Properties</summary>
 
 :\*color
 
 color of willowisp
 
+</details>
+
 #### Kugelblitz
 
--   properties
+<details>
+  <summary>Properties</summary>
 
 :\*lenght\_of\_live
 
 lenght of kugelblitz's live
 
+</details>
+
 #### Spidermite
 
--   properties
+<details>
+  <summary>Properties</summary>
 
 :\*radius
 
 radius, where spidermite stay
 
+</details>
+
 ### Restart And Rewind Level
 
-It would be good if in pause can restart the level. Sometimes it happens that we commit a fatal mistake and turn off and re-on level it takes too long and it's very frustrating. It would also be good if holding down the “v” rewind all the action back and Tux would it cost coins, but it was not rewind more than 10 seconds. Action “rewind” could call with script “Rewind (seconds);”.
+It would be good if in pause can restart the level. Sometimes it happens that we commit a fatal mistake and turn off
+and re-on level it takes too long and it's very frustrating. It would also be good if holding down the “v” rewind all
+the action back and Tux would it cost coins, but it was not rewind more than 10 seconds. Action “rewind” could call
+with script “Rewind (seconds);”.
 
 ### External Badguys Definiton Files
 
-I thing, it should be possible to define custom badguys without changing the source code. i could be implemented in milestone 3. Writing in the level would look like this:
+I thing, it should be possible to define custom badguys without changing the source code. i could be implemented in
+Milestone 3. Writing in the level would look like this:
 
     (badguy
      (object "path of object definition file")
@@ -2428,30 +2562,34 @@ Objects should be located in their own files. They would look like this:
 
 compound **supertux-badguy** The root tag for whole structure.
 
--   UnicodeString **default\_sprite** The sprite, that the badguy will use, when it won't be defined.
--   bool **gravity** Set on, when the badguy will be affected by the gravity.
--   UnicodeString **center** The center of the badguy. **center** means the badguy's hitbox center point, **border** means the point of badguy's hitbox border, that is closest to Tux.
--   struct **others** The properties, that can be changed via the **others** tag in the badguy calling tag. They are accessible via the “others” variable in scripts.
--   compound **events** A compound of names of scripts, that will be called when...
-    -   UnicodeString **on-hit-top** ...Tux hits the badguy from top.
-    -   UnicodeString **on-hit-side** ...Tux hits the badguy from side.
-    -   UnicodeString **on-hit-bottom** ...Tux hits the badguy from bottom.
-    -   UnicodeString **on-reach-edge** ...the badguy reaches an edge of platform and the badguy can't fall under the sector, when the badguy falls off the platform.
-    -   UnicodeString **on-reach-pit** ...the badguy reaches an edge of platform and the badguy will fall under the sector when he falls off the platform.
-    -   UnicodeString **on-hit-ground** ...the badguy hits a solid ground.
-    -   UnicodeString **on-hit-ceiling** ...the badguy hits a solid ceiling.
-    -   UnicodeString **on-hit-water** ...the badguy hits a water tile.
-    -   UnicodeString **on-hit-wall** ...the badguy hits a solid wall.
-    -   UnicodeString **on-hit-hurts** ...the badguy hits a hurting tile.
-    -   UnicodeString **on-fire** ...the badguy hits a fireball.
-    -   UnicodeString **on-freeze** ...the badguy hits an iceball.
-    -   UnicodeString **on-grab** ...Tux tries to grab the badguy.
-    -   UnicodeString **on-relase** ...Tux tries to relase the badguy.
-    -   UnicodeString **on-exist** The name of script, that will run each 100ms, when the badguy exists.
--   compound-array **scripts** The scripts, that the events call.
-    -   compound **script** One of the scripts. Note: there will be possible to add scripts, that the events wouldn't use.
-        -   UnicodeString **name** The script's name, that the events use.
-        -   UnicodeString **content** The content of the script, that the events call.
+- UnicodeString **default\_sprite** The sprite, that the badguy will use, when it won't be defined.
+- bool **gravity** Set on, when the badguy will be affected by the gravity.
+- UnicodeString **center** The center of the badguy. **center** means the badguy's hitbox center point, **border** means
+  the point of badguy's hitbox border, that is closest to Tux.
+- struct **others** The properties, that can be changed via the **others** tag in the badguy calling tag. They are accessible
+  via the “others” variable in scripts.
+- compound **events** A compound of names of scripts, that will be called when...
+  - UnicodeString **on-hit-top** ...Tux hits the badguy from top.
+  - UnicodeString **on-hit-side** ...Tux hits the badguy from side.
+  - UnicodeString **on-hit-bottom** ...Tux hits the badguy from bottom.
+  - UnicodeString **on-reach-edge** ...the badguy reaches an edge of platform and the badguy can't fall under the sector,
+    when the badguy falls off the platform.
+  - UnicodeString **on-reach-pit** ...the badguy reaches an edge of platform and the badguy will fall under the sector when
+    he falls off the platform.
+  - UnicodeString **on-hit-ground** ...the badguy hits a solid ground.
+  - UnicodeString **on-hit-ceiling** ...the badguy hits a solid ceiling.
+  - UnicodeString **on-hit-water** ...the badguy hits a water tile.
+  - UnicodeString **on-hit-wall** ...the badguy hits a solid wall.
+  - UnicodeString **on-hit-hurts** ...the badguy hits a hurting tile.
+  - UnicodeString **on-fire** ...the badguy hits a fireball.
+  - UnicodeString **on-freeze** ...the badguy hits an iceball.
+  - UnicodeString **on-grab** ...Tux tries to grab the badguy.
+  - UnicodeString **on-relase** ...Tux tries to relase the badguy.
+  - UnicodeString **on-exist** The name of script, that will run each 100ms, when the badguy exists.
+- compound-array **scripts** The scripts, that the events call.
+  - compound **script** One of the scripts. Note: there will be possible to add scripts, that the events wouldn't use.
+  - UnicodeString **name** The script's name, that the events use.
+  - UnicodeString **content** The content of the script, that the events call.
 
 methods:
 
