@@ -2,9 +2,10 @@ Something this game seems to be missing since most of its development time was a
 of such. This page is meant to fix some of those issues by laying down the main idea and concept for design and world/level
 themes etc. for further development on the game's main story.
 
-If you would like to contribute to help finishing the main game, we highly recommend reading through this document!
+If you would like to contribute to help finish the main game, we highly recommend reading through this document!
 
 # Contents
+
   1. [World Themes](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#world-themes)
   2. [Worldmap Design](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#worldmap-design)
   3. [Level Length](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#level-length)
@@ -15,26 +16,26 @@ If you would like to contribute to help finishing the main game, we highly recom
 World Themes
 ------------
 
-The game's world themes are chosen to be diverse in terms of overall appearance and climate and gameplay elements.
-From the cold antarctic landscape to the lukewarm forests to the tropical beaches of a distant jungle, we want Tux's
+The game's world themes are chosen to be diverse in terms of overall appearance, climate and gameplay elements.
+From the cold antarctic landscapes to the lukewarm forests to the tropical beaches of a distant jungle, we want Tux's
 journey to feature as much design variety as possible.
 
-The first world, Icy Island, serves as the basic introduction into the games core mechanics. Rooted Forest, the game's
-second world will introduce more complex and puzzle oriented elements. The third world, Tropical Paradise, is set to
+The first world, **Icy Island**, serves as the basic introduction into the game's core mechanics. **Rooted Forest**, the game's
+second world will introduce more complex and puzzle oriented elements. The third world, **Tropical Paradise**, is set to
 lay a huge focus on Tux's swimming ability and take full advantage of it with more unique obstacles and challenges. The
-fourth and final world, Nolok's Mountain Peak, will combine all elements of each world but in an even more challenging
+fourth and final world, **Nolok's Mountain Peak**, will combine all elements of each world but in an even more challenging
 way and with its own unique spin. It will also feature more mechanical elements, like a bomb factory or mechanical
 badguys.
 
 Worldmap Design
 ---------------
 
-Similar to how a world's theme is chosen, each world is supposed to have its own unique worldmap design.
+Similar to how a world's theme is chosen, each world is supposed to have its own unique worldmap design and structure.
 
 **Icy Island** is an antarctic island thus being designed to look like an island. **Rooted Forest**, unlike the game's
-first world, is a not an island but part of a large landmass. In order to not have it be too big however, the game only
+first world, is not an island but part of a large landmass. In order to not have it be too big however, the game only
 takes place on the southern part of the forest. Despite being island based again, **Tropical Paradise**'s uniqueness
-comes from the fact that it is the only world that features multiple small isles rather than one big island.
+stems from the fact that it is the only world that features multiple small isles rather than one big island.
 **Nolok's Mountain Peak** compared to all other worlds is very small and takes place primarily inside a large fortress
 located on a snowy mountain peak above the clouds.
 
@@ -61,12 +62,12 @@ All boss fights are meant to vary in how they are fought and how they behave.
   level and attacks upon reaching one side of the arena. Avoid his attacks and jump on his head. Simple.
 
 - The fight against the **Ghost Tree**, the boss of Rooted Forest, will be more round based. Tux can only attack them during a
-  certain attack whereas the Yeti can be attacked in between attack and even during his attacks (if skilled enough).
+  certain attack once whereas the Yeti can be attacked multiple times in between attacks and even during his attacks (if skilled enough).
 
 - The boss fight of Tropical Paradise against **Toucan** and **Master Totem** is unique in the way that Tux must fight two
-  separate boss enemies at once (however they also separate from one another). Toucan attacks the player from high up while
-  granting a chance for a counter attack every once and awhile. Master Totem, in the meantime, will attempt to hurt Tux with
-  varying attacks. Its attacks are depended on their amount of lives!
+  separate boss enemies at once (however they can also function separate from one another). Toucan attacks the player from high up
+  while granting a chance for a counter attack every once and awhile. Master Totem, in the meantime, will attempt to hurt Tux with
+  varying attacks, serving as an additional obstacle during the Toucan fight. Its attacks are depended on their amount of lives!
 
 - **Nolok** is the final boss of the game and is going to appear in Nolok's Mountain Peak. It is yet not confirmed how his boss
   fight is going to function. Either Nolok uses a combination of attacks based on past boss fights and his own unique attacks
@@ -86,14 +87,14 @@ Overall Gameplay
 
 This section must yet be discussed in more detail but there are certain aspects and questions to consider.
 
-* Are we going to have item shops? Is SuperTux "rpg" enough for this? Or do we stick more to platformer?
+* Are we going to have item shops? Is SuperTux "RPG" enough for this? Or do we stick more to platformer?
 
 > "I don't really mind, I would prefer not since I hardly see it fit but I've had stronger opinions in my life" - Semphris
 
 > "My only true point for a shop or similar is that the coins need some sort of purpose. If not level bonuses, maybe hints
   for the NOLOK-keys or other hints, unlockables maybe?" - RustyBox
 
-* Is Tux a ninja? Should he have a dash move? Or is he less mobile?
+* Is Tux a Ninja? Should he have a dash move? Or is he less mobile?
 
 > "SuperTux should remain simple in gameplay. Tux is a fat penguin, and although he should factually be mobile (because it's a platformer),
   his moveset shouldn't make him look skilled in movement (aka, no ninja moves)" - Semphris
