@@ -95,7 +95,8 @@ This section must yet be discussed in more detail but there are certain aspects 
 
 * Is Tux a ninja? Should he have a dash move? Or is he less mobile?
 
-> "no, SuperTux should remain simple in gameplay. SuperTux isn't League of Legends!" - Semphris
+> "SuperTux should remain simple in gameplay. Tux is a fat penguin, and although he should factually be mobile (because it's a platformer),
+  his moveset shouldn't make him look skilled in movement (aka, no ninja moves)" - Semphris
  
 > "I agree. The most "complex and fast mobility should come from penguin based actions (i.e. swimming, sliding). To be fair
   wall-jumping is more of a grey area here but it makes sense for more interesting vertical level design I'd say." - RustyBox
