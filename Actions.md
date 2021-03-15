@@ -2,6 +2,7 @@
 - [Jumping](#jumping)
 - [Running](#running)
 - [Ducking](#ducking)
+- [Carrying](#carrying)
 - [Buttjump](#buttjump)
 - [Backflip](#backflip)
 - [Swimming](#swimming)
@@ -46,12 +47,19 @@ Ducking
 Ducking can be used to slide down small, one tile high holes as big Tux or
 to avoid projectiles which are shot one tile above ground.
 
+Carrying
+--------
+
+Walking into or standing next to [carriable objects](https://github.com/SuperTux/supertux/wiki/Objects#Carriables)
+while holding the ACTION key allows Tux to carry the object around. Releasing the ACTION key while walking results
+in Tux throwing the object. Doing so while standing still results in Tux simply dropping the object right next to him.
+
 Buttjump
 --------
 
-The **buttjump** is an ability that lets Tux crush boxes from above
+The buttjump is an ability that lets Tux crush boxes from above
 and destroy some badguys that cannot be harmed by a normal jump. It is
-performed by jumping up into the air and then pressing the *Down* key
+performed by jumping up into the air and then pressing the DOWN key
 while in the air. It takes Tux a small amount of time to jump back onto his feet to get back to normal
 
 Backflip
@@ -70,6 +78,7 @@ speed being momentum based.
 Instead of jumping, Tux can gain a small boost which lets him swim subsequently faster
 if used repetitively.
 
+---
 
 Power-Ups
 =========
@@ -138,6 +147,7 @@ The **Tuxdoll** grants Tux 100 extra coins.
 
 Before Milestone 2, a Tuxdoll granted one extra life.
 
+---
 
 Proposed abilities
 ==================
@@ -159,7 +169,7 @@ Super-Butt-Jump
 Blowflyer
 ---------
 
-![](images/Blowflyer.png "Blowflyer.png")
+![](images/Blowflyer.png)
 
 The **blowflyer** or BalloonTux action should be a temporary limited
 action in which Tux fills his body with air (helium?!) and is thus
