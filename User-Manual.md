@@ -136,7 +136,7 @@ For more details on powerups, please see [Actions](https://github.com/SuperTux/s
 Badguys are foes of Tux and are encountered in levels. Tux must either avoid or beat these to not get hurt. There are different
 types of badguys that vary in their movement and abilities.
 
-For more details on badguys, please see [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys).
+For more details on badguys, please see [Characters](https://github.com/SuperTux/supertux/wiki/Characters#Badguys).
 
 ---
 
