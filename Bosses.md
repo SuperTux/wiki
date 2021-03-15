@@ -61,36 +61,38 @@ See [Nolok](https://github.com/SuperTux/supertux/wiki/Characters#Nolok) for deta
 
 ## Mini Bosses
 
-It is yet still unclear if mini bosses are going to be a thing in the actual game. Since entities such as **Shadow Tux** are confirmed to be added
-(though not classified as a mini boss at the moment) a proposed list for potential mini bosses with their potential behaviors can be seen here.
+It is yet still unclear if mini bosses are going to be a thing in the actual game. Since entities such as **Shadow Tux** are
+confirmed to be added (though not classified as a mini boss at the moment) a proposed list for potential mini bosses with their
+potential behaviors can be seen here.
 
 Mini bosses would most likely be used in the hidden bonus levels of each world and protect a certain treasure!
 
 ### Giga Ice Crusher/Snowball
 
-A gigantic **Ice Crusher/Snowball** statoined in an outpost between two glaciers to protect a frozen treasure from Nolok himself. It will chase Tux and
-try to crush him. Tux must lure them inside a pool of water which later he will freeze to lock it away.
+A gigantic **Ice Crusher/Snowball** statoined in an outpost between two glaciers to protect a frozen treasure from Tux. It will
+chase and try to crush him. Tux must lure them inside a pool of water which later he will freeze to lock it away.
 
 ### Stone Golem
 
-An impenetrable **Stone Golem** taken over by Nolok watching the treasures of the ancient ruins. It will try to smash Tux with its fists and causes
-rubble to fall on him, too.
+An impenetrable **Stone Golem** taken over by Nolok's spell watching the treasures of the ancient ruins. It will try to smash
+Tux with its fists and causes rubble to fall on him, too.
 
 ### Shadow Tux
 
-**Shadow Tux** is a dark spirit taking the form of Tux, which spawned from an eerie disease spread by the Ghost Tree. It haunts an ancient library in
-the middle of the Corrupted Forest. It mimics Tux's every move but at a delay and will chase after him. Tux must flee from it in a parkour oriented
-level segment and avoid getting hit.
+**Shadow Tux** is a dark spirit taking the form of Tux, which spawned from an eerie disease spread by the Ghost Tree. It haunts
+an ancient library in the middle of the Corrupted Forest. It mimics Tux's every move but at a delay and will chase after him. Tux
+must flee from it in a parkour oriented level segment and avoid getting hit.
 
 ### Mimic
 
-The **Mimic** is a large chest holding a sunken treasure which it defends. It stays stationary and throws several obstacles at Tux, such as small
-mimics which jump at Tux, trying to bite him. The ship it resits sunk near the tropical islands.
+The **Mimic** is a large chest holding a sunken treasure which it defends. The ship it resits sunk near the tropical islands.
+It stays stationary and throws several obstacles at Tux, such as small mimics which jump at Tux, trying to bite him. Tux must
+navigate through the ship and activate a trap inside that can crush the mimic.
 
 ### Dragon
 
-A small, spiky Dragon guards a firery treasure insde a volcanic core. It will cause the volcan to errupt resulting in a run for the exit. Along side
-the rising lava it will shoot fireballs to imped Tux's progress while hovering above him constantly.
+A small, spiky Dragon guards a firery treasure insde a volcanic core. It will cause the volcano to errupt resulting in a run for
+the exit. Along side the rising lava it will shoot fireballs to imped Tux's progress while hovering above him constantly.
 
 ---
 
