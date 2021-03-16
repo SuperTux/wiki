@@ -24,7 +24,7 @@ up over the years! For more information, see [here](https://github.com/SuperTux/
   3. [Audio](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Audio)
   4. [Mechanics](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Mechanics)
   5. [Badguys](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Badguys)
-     * [Bosses](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Bosses)
+     * [Bosses](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Bosses-1)
   7. [Story](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Story)
   8. [Levels](https://github.com/SuperTux/supertux/wiki/Current-Design-Document#Levels)
   9. [Post-0.7 Tasks](https://github.com/SuperTux/supertux/wiki/Current-Design-Document##Post-07-Tasks)
