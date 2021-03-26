@@ -1,17 +1,22 @@
-**Icy Island** is the very first world in SuperTux. It is an Antarctica-type world. This world was first released in _SuperTux 0.1_.
+**Icy Island** is the very first world in SuperTux. It is an ice-themed world, based in Antarctica.
+This world was first released in *SuperTux 0.1*.
 
-![The Icy Island worldmap in version 0.6.2](images/icy_island_0_6_2.png "The Icy Island worldmap in version 0.6.2")
+Its subworld is **Glacier Isle**. An isle to the west of Icy Island covered in large crystals,
+housing the crystal mines.
+
+![The Icy Island worldmap as of version 0.6.2](images/icy_island_0_6_2.png "The Icy Island worldmap as of version 0.6.2")
 
 ---
 
 ### Levels
-As of December 2018, Icy Island features the following levels:
+
+As of October 2020, Icy Island features the following levels:
 
 * Welcome to Antarctica
 * The Journey Begins
-* Via Nostalgica
-* A Fork in the Road
 * The Somewhat Smaller Bath
+* A Fork in the Road
+* Via Nostalgica
 * The Frosted Fields
 * Oh no! More Snowballs!
 * Stone Cold
@@ -36,11 +41,11 @@ As of December 2018, Icy Island features the following levels:
 
 ### Badguys
 
-Badguys for Icy Island can be found at the [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys-Icy) page.
+A list of Badguys for Icy Island can be found [here](https://github.com/SuperTux/supertux/wiki/Badguys-Icy).
 
-### End boss
+### End Boss
 
-See [Yeti](https://github.com/SuperTux/supertux/wiki/Bosses#Yeti)
+See [Yeti](https://github.com/SuperTux/supertux/wiki/Bosses#Yeti).
 
 ---
 
