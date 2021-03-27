@@ -60,6 +60,7 @@ Proposed Badguys
 - Squid
 - Pufferfish
 - Crab
+- Anglerfish
 - Hungry Parakeet
 - Palm Tree
 - Coconut
