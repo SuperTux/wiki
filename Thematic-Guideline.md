@@ -8,7 +8,7 @@ If you would like to contribute to help finish the main game, we highly recommen
 
   1. [World Themes](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#world-themes)
   2. [Worldmap Design](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#worldmap-design)
-  3. [Level Length](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#level-length)
+  3. [Level Design](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#level-design)
   4. [Boss Fights](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#boss-fights)
   5. [Story Motives](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#story-motives)
   6. [Overall Gameplay](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline#overall-gameplay)
@@ -39,16 +39,10 @@ stems from the fact that it is the only world that features multiple small isles
 **Nolok's Mountain Peak** compared to all other worlds is very small and takes place primarily inside a large fortress
 located on a snowy mountain peak above the clouds.
 
-Level Length
+Level Design
 ------------
 
-Usually, levels in SuperTux are meant to be around 300 to 500 tiles in length. Around the middle a checkpoint must be
-placed (preferably near harder section if possible). Levels that are more complex may be shorter to compensate the overall
-playtime which is meant to be about 90 seconds per level.
-
-An exception to this rule are either hidden bonus levels or levels that feature a theme only present in this one level
-(e.g. The Crystal Mine). Those types of level are much longer featuring more complex puzzles, challenges etc. and take
-much longer to beat. Additionally, more checkpoints must be placed! The total amount varies per level.
+A detailed guideline on level making can be read [here](https://github.com/SuperTux/supertux/wiki/Level-Design).
 
 Boss Fights
 -----------
