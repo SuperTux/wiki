@@ -203,8 +203,8 @@ Here are some ways you could hide a bonus or secret area:
 * Change gravity only when it has sense. Don't change it, when you want only Tux jumping higher/lower.
 * Be careful not to create dead ends. Test your level thoroughly to find possible paths you might have missed before.
 * Use everything the engine offers - but don't place it all in a single level!
-* Members of the Crusher-family (Ice-, Rock- etc.) should be able to reach their original position and shouldn't get stuck anywhere in the
-  middle when rising.
+* Members of the Crusher-family (Ice-, Rock- etc.) should be able to reach their original position and shouldn't get stuck anywhere
+  in the middle when rising.
 * Beginning Safehaven: Give the player a safe space to start the beginning of each level. If a player dies less than 5 seconds after
   starting, they're more likely to quit.
 * Ending Safehaven: Try to avoid putting enemies right near the exit door. Dying right at the end of a level is frustrating!
@@ -225,6 +225,10 @@ Here are some ways you could hide a bonus or secret area:
 * Never require to be small Tux to reach an Area. 
 * Clear Direction: The player should always have a clear idea of which way to go and what to do, the challenge should be in doing
   it. This is called the central path.
+  
+* Do not use deadly-falls to disguise a secret unless there is an obvious hint that suggests to jump down there.
+* No secret areas right above a Crusher behind the ceiling. Leave at least a gap of two tiles between the Crusher and ceiling
+  as well as hints that there actually is a secret. Make sure players can tell whether or not they get crushed riding the Crusher.
 
 ### Optional
 
