@@ -125,4 +125,4 @@ by a switch or a script. They come in varying forms and sizes.
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/skull_tile/skull.png?raw=true "Skull Variant")
 
 An Unstable Tile is an object that will fall down a few seconds after standing on them. A similar object, the Skull Tile, will
-only begin to fall if standing on them for too long.
+only begin to fall if standing on them for too long. Both objects respawn after five seconds.
