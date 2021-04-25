@@ -33,9 +33,28 @@ Dependencies
 - cURL
 - libogg
 - libvorbis
+- libfreetype6
+
 
 In addition to the libraries listed above, you will also need the respective
 development headers. Some distributions of Linux ship these as separate package.
+
+Debian
+------
+
+To install depedencies in Debian 10 systems, run the following:
+   ::
+      sudo apt-get install libboost-filesystem-dev 
+      sudo apt-get install libboost-date-time-dev 
+      sudo apt-get install libboost-locale-dev 
+      sudo apt-get install libpng-dev 
+      sudo apt-get install libsdl2-image-dev 
+      sudo apt-get install libglew-dev 
+      sudo apt-get install libopenal-dev 
+      sudo apt-get install libvorbis-dev
+
+Please, note that one can replace *libcurl4-openssl-dev* for *libcurl4-nss-dev* or
+*libcurl4-gnutls-dev* at will.
 
 Instructions
 ------------
