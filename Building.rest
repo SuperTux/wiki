@@ -52,6 +52,7 @@ To install depedencies in Debian 10 systems, run the following:
       sudo apt-get install libglew-dev 
       sudo apt-get install libopenal-dev 
       sudo apt-get install libvorbis-dev
+      sudo apt-get install libfreetype6-dev
 
 Please, note that one can replace *libcurl4-openssl-dev* for *libcurl4-nss-dev* or
 *libcurl4-gnutls-dev* at will.
