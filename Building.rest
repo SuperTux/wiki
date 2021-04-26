@@ -39,23 +39,20 @@ Dependencies
 In addition to the libraries listed above, you will also need the respective
 development headers. Some distributions of Linux ship these as separate package.
 
-Debian
-------
+For ease of use, here are some installation lines for some Linux distributions:
+
+Debian 10
+=========
 
 To install depedencies in Debian 10 systems, run the following:
    ::
-      sudo apt-get install libboost-filesystem-dev 
-      sudo apt-get install libboost-date-time-dev 
-      sudo apt-get install libboost-locale-dev 
-      sudo apt-get install libpng-dev 
-      sudo apt-get install libsdl2-image-dev 
-      sudo apt-get install libglew-dev 
-      sudo apt-get install libopenal-dev 
-      sudo apt-get install libvorbis-dev
-      sudo apt-get install libfreetype6-dev
+      sudo apt-get update && sudo apt-get install cmake build-essential libogg-dev libvorbis-dev libopenal-dev libboost-all-dev libsdl2-dev libsdl2-image-dev libfreetype6-dev libraqm-dev libcurl4-openssl-dev libglew-dev libharfbuzz-dev libfribidi-dev
 
-Please, note that one can replace *libcurl4-openssl-dev* for *libcurl4-nss-dev* or
-*libcurl4-gnutls-dev* at will.
+Please, note that one can replace *libcurl4-openssl-dev* for *libcurl4-nss-dev*
+or *libcurl4-gnutls-dev* at will.
+
+These commands were not tested in Ubuntu distributions but they are likely to
+work.
 
 Instructions
 ------------
