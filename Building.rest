@@ -41,7 +41,7 @@ development headers. Some distributions of Linux ship these as separate package.
 
 For ease of use, here are some installation lines for some Linux distributions:
 
-* Debian 10
+* **Debian 10**
 
 To install depedencies in Debian 10 systems, run the following commmand:
 
