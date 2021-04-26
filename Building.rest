@@ -44,7 +44,7 @@ For ease of use, here are some installation lines for some Linux distributions:
 Debian 10
 =========
 
-To install depedencies in Debian 10 systems, run the following:
+To install depedencies in Debian 10 systems, run the following commmand
    ::
       sudo apt-get update && sudo apt-get install cmake build-essential libogg-dev libvorbis-dev libopenal-dev libboost-all-dev libsdl2-dev libsdl2-image-dev libfreetype6-dev libraqm-dev libcurl4-openssl-dev libglew-dev libharfbuzz-dev libfribidi-dev
 
