@@ -75,8 +75,7 @@ Swimming
 When in water, Tux can move and turn in all directions with his movement
 speed being momentum based.
 
-Instead of jumping, Tux can gain a small boost which lets him swim subsequently faster
-if used repetitively.
+Instead of jumping, Tux can gain a boost which lets him swim much faster.
 
 ---
 
