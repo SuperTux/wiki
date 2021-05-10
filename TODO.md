@@ -9,10 +9,10 @@ graphics/UX tasks, `category:code` for code tasks, and
 `category:levels` for level design tasks).
 
 > **Note:** This TODO is not to be used blindly. Use your brain and
-> figure out which feature is most important and most practical to
-> implement. Don't chase pie-in-the-sky ideas that you'll never get
-> done. Also be aware that some of the items listed here might be out
-> of date or not good ideas to begin with.
+  figure out which feature is most important and most practical to
+  implement. Don't chase pie-in-the-sky ideas that you'll never get
+  done. Also be aware that some of the items listed here might be out
+  of date or not good ideas to begin with.
 
 ### Graphics
 
@@ -40,14 +40,15 @@ graphics/UX tasks, `category:code` for code tasks, and
   - [ ] Improve ice bridge tiles (right now they are just a recolor)
 
 - Worldmap
-  - [ ] Transition tiles from normal to ghost forest
+  - [x] Transition tiles from normal to ghost forest
   - [ ] Decorative mountain worldmap tiles, similar to those of Icy Island
-  - [ ] More decoration tiles for the ghost forest
-  - [ ] Underground forest worldmap tiles
+  - [x] More decoration tiles for the ghost forest
+  - [x] Underground forest worldmap tiles
 
 ##### Backgrounds
 
-- [ ] More diverse backgrounds for all themes. Possibly even for every time of day (i.e. sunrise, midday, sunset, night)
+- [ ] More diverse backgrounds for all themes
+- [ ] Sky backgrounds for every time of day (i.e. sunrise, midday, sunset, night)
 - [ ] Divide backgrounds into multiple layers
 
 ##### Objects
