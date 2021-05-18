@@ -7,7 +7,16 @@ Once development on world 2 has reached a more final state world 3 will become t
 
 ### Levels
 
-There are no levels made for Tropical Paradise yet as active development on word 3 has yet to begin
+There are no levels made for Tropical Paradise yet as active development on word 3 has yet to begin.
+
+A small list of potential level ideas and themes:
+- Deep Coral Caves
+- Jungle/Coast Hybrid
+- Temple Grounds
+- Flooded Temple
+- Sunken Ship
+- Underwater
+- Volcano
 
 ### Badguys
 
@@ -15,7 +24,7 @@ Proposed badguys for Tropical Paradise can be found at the [Badguys](https://git
 
 ### End Boss
 
-The planned end boss of Tropical Paradise is the [Toucan](https://github.com/SuperTux/supertux/wiki/Bosses#Toucan) and his Master Totem.
+The planned end boss of Tropical Paradise is the [Toucan and Master Totem](https://github.com/SuperTux/supertux/wiki/Bosses#Toucan).
 
 ---
 
