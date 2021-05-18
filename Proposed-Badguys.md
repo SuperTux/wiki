@@ -71,6 +71,11 @@ Proposed Badguys
 - Shark
 - Jumping Fish
 
+### Nolok's Mountain Peak
+
+- Metal Crusher
+- Ispy
+
 ---
 
 See also
