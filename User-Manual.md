@@ -29,7 +29,7 @@ source of some of this information.
  - Press the Enter key, or click again, this time on **Story Mode**
  
 After this, the intro cutscene should begin. Watch it, and then continue onto the section labelled
-**Gameplay** in this document.
+[Gameplay](https://github.com/SuperTux/supertux/wiki/User-Manual#Gameplay) in this document.
 
 ## Gameplay
 
@@ -59,7 +59,9 @@ Some other worldmaps which you can play are:
 To play these worldmaps, check out **Contrib Levels** at the main menu:
 Start Game > Contrib Levels
 
-There are also worldmaps availible as addons. Please see the section labelled **Addons** below for more information.
+There are also worldmaps availible as addons. Please see the section labelled
+[Addons](https://github.com/SuperTux/supertux/wiki/User-Manual#Addons) below
+for more information.
 
 ### Levels
 
@@ -151,13 +153,14 @@ Addons are sets of levels provided by the community. To install and play a new a
  - Go into Start Game > Contrib Levels
  - Select the new item(s) in this list, which you wish to play
 
-These addons are not managed by The SuperTux Team, so please do not register your issues regarding them on the SuperTux/supertux repository.
-You *may* be able to get help by making an issue [here](https://github.com/SuperTux/addons/issues)
+These addons are not managed by The SuperTux Team, so please do not register your issues regarding them on the SuperTux/supertux
+repository. You *may* be able to get help by making an issue [here](https://github.com/SuperTux/addons/issues)
 
 By default the game searches for new addons in the SuperTux Team's addon repo [here](https://github.com/SuperTux/addons).
 If you wish to submit a new addon to the repo, please make an issue or pull request there.
-If you would rather change the addon repo which the game looks for new addons in, you can start the game with the repository-url argument specified:
-```supertux2 --repository-url URL```
+
+If you would rather change the addon repo which the game looks for new addons in, you can start the game with the repository-url
+argument specified: ```supertux2 --repository-url URL```
 
 **WARNING: THIS IS NOT RECOMMENDED BY THE SUPERTUX TEAM!**
 
@@ -169,7 +172,7 @@ Further Reading
 Have fun browsing the SuperTux wiki. You can find lots of in-depth
 information about most objects in the game here.
 
-If you have paid for SuperTux, you have been ripped off. Supertux is
+If you have paid for SuperTux, you have been ripped off. SuperTux is
 available for free download at [supertux.org](https://www.supertux.org/download.html).
 
 [Category:For Users](Category:For_Users "wikilink")
