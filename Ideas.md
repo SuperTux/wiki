@@ -73,6 +73,17 @@ other bad stuff that Nolok has done to other people.
 > "It does need to be more passionate/inspiring, but the classic platform-game atmosphere may be the highest priority." -
   Julius\_Freezer 23:58, 2 July 2009 (UTC)
 
+### The Narrator Twist
+
+Upon confronting Nolok for the final battle, an idea would be to have it revealed that Nolok has been the narrator of the game.
+
+Basically, the entire game up until the final confrontation takes place in the past. The cutscene will end with narrator (Nolok)
+saying something like: *"At least, that's where we are now..."*, fading to black as if the game has ended. However, shortly after
+the cutscene will fade in again, now taking place in the present as Nolok and Tux duke it out in the final battle. This would be
+the only cutscene using direct speech!
+
+This would align with his character as he sees the entire quest for Penny as a sick and twisted game.
+
 ### Corrupted Forest
 
 The Ghost Tree was planted by Nolok using his mighty staff to corrupt the forest and its inhabitants to be
