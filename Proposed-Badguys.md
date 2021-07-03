@@ -11,9 +11,10 @@ Confirmed Badguys
 ### Rooted Forest
 
 - Shadow Tux
-- Carnivorous plant
-- Corrupt Ivy/Leaf
-- Corrupt Tree
+- Carnivorous Plant
+- Rotten Ivy/Leaf
+- Haunted Tree
+- Zuurkling
 
 ### Miscellaneous
    
@@ -45,7 +46,7 @@ Proposed Badguys
 - Woodpecker
 - Bluejay
 - Mother Snail
-- Tumbleweed
+- Bouncy Bush
 - Beetle
 
 ### Tropical Paradise
@@ -70,10 +71,13 @@ Proposed Badguys
 - Seagulls
 - Shark
 - Jumping Fish
+- Tumbleweed
 
 ### Nolok's Mountain Peak
 
 - Metal Crusher
+- Razorcopter
+- Rocket
 - Ispy
 
 ---
