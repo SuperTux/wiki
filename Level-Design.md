@@ -147,8 +147,9 @@ Other
 
 ### Hiding Bonuses And Secrets
 
-Secret areas should be well-hidden and not be visible on first sight, but can still have a visual cue that they are there. Use
-your imagination to think of new ways to create secrets - some of the above rules can be broken for that purpose, but be careful!
+For Story Mode, each level must feature at least on secret area. Secret areas should be well-hidden and not be visible on first sight,
+but can still have a visual cue that they are there. Use your imagination to think of new ways to create secrets - some of the above
+rules can be broken for that purpose, but be careful!
 
 Use small clues to hint at hidden secrets (e.g. a single coin otherwise unreachable). They should be visible if player is paying attention
 but not obvious.
