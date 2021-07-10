@@ -1,5 +1,4 @@
-A list of badguys, planned or proposed to be added into the game sometime in the future.
-
+A list of badguys, planned, proposed or confirmed to be added into the game sometime in the future.
 
 Confirmed Badguys
 =================
@@ -11,18 +10,20 @@ Confirmed Badguys
 ### Rooted Forest
 
 - Shadow Tux
-- Carnivorous Plant
 - Rotten Ivy/Leaf
+- Vicious Snail
 - Haunted Tree
 - Zuurkling
 
-### Miscellaneous
+
+### Nolok's Mountain Peak
    
 - Rusty Bomb
 - Hellbent
 - Metaljumpy
-- Kugelblitz
-- Walking Candle
+- Metal Crusher
+- Rocket
+- Ispy
 
 
 Proposed Badguys
@@ -45,6 +46,7 @@ Proposed Badguys
 
 - Woodpecker
 - Bluejay
+- Carnivorous Plant
 - Mother Snail
 - Bouncy Bush
 - Beetle
@@ -75,10 +77,11 @@ Proposed Badguys
 
 ### Nolok's Mountain Peak
 
-- Metal Crusher
 - Razorcopter
-- Rocket
-- Ispy
+
+### Miscellaneous
+
+- Kugelblitz
 
 ---
 
