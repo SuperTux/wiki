@@ -8,12 +8,19 @@ Unlike previous worlds, world 4 will be rather small but much more difficult!
 
 ### Levels
 
-There are no levels made for Nolok's Mountain Peak yet as active development on word 4 has yet to begin.
+There are no levels made for Nolok's Mountain Peak yet as active development on word 4 has yet to begin. It is planned to have 4 gameplay levels with a few cutscenes as well.
 
 A small list of potential level ideas and themes:
 - Industrial
 - Bomb Factory
 - Tower
+
+Proposed names for the levels in Nolok's Mountain Peak:
+- "Above the Clouds": Introductory cutscene where Tux must insert the keys.
+- "Nolok's Bomb Factory": The industrial/bomb factory level.
+- "Two Tiny Towers": The tower level.
+- "I Spy With My Little Eye": The final platforming level, with a focus on the Ispy since it will be repurposed from a World 2 enemy to a World 4 one.
+- "The Seated Throne": The final conflict with Nolok.
 
 ### Badguys
 
