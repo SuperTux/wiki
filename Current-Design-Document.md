@@ -153,7 +153,6 @@ up over the years! For more information, see [here](https://github.com/SuperTux/
 ### Badguys
 
 **Icy Island**
-- Crystallo
 - Small docile fish (1 x 1)
 - Small enemy fish (1.5 x 1)
 - Large enemy fish (3 x 2)
