@@ -243,10 +243,15 @@ He is so concentrated on this, however, that he cannot turn or adjust his veloci
 Crystallo
 =========
 
-![](img/badguy/icons/crystallo.gif)
+![](img/badguy/icons/crystallo.gif "Awake Crystallo") ![](img/badguy/icons/sleeping_crystallo.png "Sleeping Crystallo")
+![](img/badguy/icons/roof_crystallo.gif "Roof Crystallo")
 
 Another very basic enemy, but unlike the *Mr. Snowball* or *Mr. Iceblock* he doesn't walk around in a straight
 pattern, but walks back and forth around a fixed position.
+
+They can be seen on the ground as well as the ceiling. If they notice Tux below them they will drop and shatter
+into four sharp crystal shards upon impact. Some may also rest inside larger crystals. Wake them up and they will
+pop out of their sleepyhole and behave just like any other Crystallo.
 
 | Property       | Status |
 |----------------|--------|
@@ -254,13 +259,6 @@ pattern, but walks back and forth around a fixed position.
 | Buttjumpable   | yes    |
 | Burnable       | no     |
 | Freezable      | no     |
-
-### Comments:
-
-> Grumbel: "As is, it's behaviour is pretty useless,
-> needs a complete overhaul. Doing a ice version of
-> the [Stony in Wall](images/Stony_wall.png) would be
-> an option."
 
 
 Ice Crusher
