@@ -1,17 +1,5 @@
 # How to use the Level Editor
 
-## Contents
-
-1. [Setting up your Level](wikilink)
-2. [Tilemaps and Tilegroups](wikilink)
-3. [Objects and Badguys](wikilink)
-4. [Using Pathnodes](wikilink)
-5. [Ambient Light](wikilink)
-6. [Scripting](wikilink)
-7. [Setting up your Worldmap](wikilink)
-
----
-
 Beginning Steps
 ===============
 
@@ -20,8 +8,25 @@ For this Guide we will start fresh and create a new one.
 
 Select `Create World` and enter a name and description for your new world. The description is optional so if you are unsure what to write, just skip it and select `OK`.
 
-Now you can begin to create your first level.
+Now you can begin to create your first level (or worldmap).
 
+## Contents
+
+### For making Levels
+1. [Setting up your Level](#Setting-Up-Your-Level)
+2. [Tiles and Tilemaps](#Tiles-And-Tilemaps)
+3. [Objects and Badguys](#Objects-And-Badguys)
+4. [Using Pathnodes](#Using-Pathnodes)
+5. [Ambient Light](#Ambient-Light)
+6. [Scripting](#Scripting)
+
+### For making Worldmaps
+1. [Setting up your Worldmap](#Setting-Up-Your-Worldmap)
+2. [Using Teleporter](#Using-Teleporter)
+3. [Using Special Tiles](#Using-Special-Tiles)
+4. [Using Sprite Change](#Using-Sprite-Change)
+
+---
 
 Setting Up Your Level
 =====================
@@ -46,7 +51,7 @@ Placement Tools
   The **Duplicator** can be used to duplicate an object on the spot.
 
 
-Tiles And Tilemaps
+Tiles and Tilemaps
 ==================
 
 Let's make a basic level. First, select the little drop down menu labeled `Tiles` in the top right corner and select a category. In our example we chose `Snow`.
@@ -55,13 +60,24 @@ Select the tile you would like to use by clicking on it. You can select multiple
 
 Note: Right clicking on a tile inside your level, you can copy it. This can save you time if you don't want to frequently switch back and forth between categories.
 
-To make sure Tux is able to stand on the tiles you place must make sure that you are placing them on a solid tilemap. The default for newly made levels is tilemap marked `0` in the bottom bar. You can edit preexisting tilemaps by right clicking on their icon or add new ones. More infos on Objects [here](wikilink).
+To make sure Tux is able to stand on the tiles you place must make sure that you are placing them on a solid tilemap.
 
-The default background tilemap is marked `-100` and the default foreground tilemap is marked `100`.
+Tilemaps
+--------
+
+A tilemap is where all tiles of a level are drawn. They help organizing your tiles and allow for using multiple layers. You can add a tilemap through the `Sector` category in the Objects menu. The default solid tilemap is marked `0` in the bottom bar. You can edit pre-existing tilemaps by right clicking on their icon.
+
+Every newly created level comes with three tilemaps by default. One for background elements, one for forground elements and one for solid ground. Their marked number is defined by their Z-postion. Is it set below 50, it is behind Tux and everything above 50 has it be in front of Tux. The default background tilemap is marked `-100` and the default foreground tilemap is marked `100`.
+
+In the tilemap settings you can change their size, their solidity, Z-position, as well as colour you the tiles inside using **RGBA** values (Red, Green, Blue, Alpha).
+
+You can also use tilemaps to darken or brighten tiles. Add a new unsolid tile map and set the alpha value to a number between 0 (0%) and 1 (100%). Under the `Lightmap` catory of the Tiles menu you find tiles best suited for this.
+
+By enabling `Following path`, reselect the tile map and you will see a small grey circle on the top-left of the tilemap border. You can now click and move the tilemap around as well as have it move. See [Pathnodes](wikilink) for more info!
 
 
-Objects And Badguys
-===================
+Adding Objects and Badguys
+==========================
 
 Now that you have build your level, let's take a look at how to place objects, such as enemies (Badguys), moving platforms, ladders, script triggers, and more. While in **Object Mode** you cannot interact with tiles!
 
@@ -70,7 +86,18 @@ First, select the drop down menu labeled `Objects` and select a category. The ca
 Using Doors
 -----------
 
-For a door to work properly you must first define a destination. This is done by adding another spawnpoint and naming it. Now everything left to do is enter the name of the sector and the spawnpoint you want to Tux to go when using the door.
+For a door to work properly you must first define a destination. This is done by adding another spawnpoint and naming it. Now everything left to do is enter the names of the sector and the spawnpoint you want to Tux to go when using the door, et voilà!
+
+Using Info Blocks
+-----------------
+
+Info Blocks can be given messages, such as explainations. Right click the info block to add a message. The first character of a paragraph can be used for formatting. This character will not be displayed in the actual message:
+
+- A hash `#` is usually used for normal text
+- A hyphen-minus `-` is used for headlines.
+- An exclamation mark `!` alongside an image path `images/...` displays the image in the text.
+- An asterisk `*` displays the text blue and centered.
+- <kbd>Space</kbd> makes the text small.
 
 ---
 
@@ -90,14 +117,14 @@ Ambient Light
 =============
 
 To use things like lanterns, magic blocks or anything else that can emit light and have it shown, you must darken the
-sector beforehand. Rightclick the lightbulb icon next to your tilemaps and define the sector's ambient light using RGBA.
-Give each value a number between 0 (0%) and 1 (100%). For our example we set it to **R:0.5 G:0.5 B:0.8 A:1**.
+sector beforehand. Right-click the lightbulb icon next to your tilemaps and define the sector's ambient light using **RGBA**.
+Give each value a number between 0 (0%) and 1 (100%). For our example we set it to **R: 0.5 G: 0.5 B: 0.8 A: 1**.
 
 
 Scripting
 =========
 
-Scripting allows for much more dynamic elements to be used in level creation. Scripts are written in Squirrel and
+Scripting allows for much more dynamic elements to be used in level creation. Scripts are written in **Squirrel** and
 can be trigger in many different ways:
 
 - A common one is the **Script trigger** object. It marks the area in which the script will be executed with a pink
@@ -123,6 +150,18 @@ Worldmap creation works similar to level making. The biggest differnce stems fro
 Instead of Badguys, Moving Platforms and Blocks you only have Leveldots, Teleports, Special Tiles and Sprite Changer.
 
 - A **leveldot** let's you set a level which to be entered from your worldmap.
-- **Teleporters** move Tux from one place to another in an instant.
-- The **special tile** can be used to initiate scripts or show messages.
-- **Sprite Changer** let you change Tux's sprite on the worldmap into something else after touching it, such as a sailing boat.
+- A **teleporters** move Tux from one place to another in an instant.
+- A **special tile** can be used to initiate scripts or show messages.
+- A **sprite change** let's you change Tux's sprite on the worldmap when touched.
+
+
+Using Teleporter
+================
+
+
+Using Special Tiles
+===================
+
+
+Using Sprite Change
+===================
