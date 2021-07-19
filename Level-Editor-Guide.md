@@ -23,8 +23,7 @@ Now you can begin to create your first level (or worldmap).
 ### For making Worldmaps
 1. [Setting up your Worldmap](#Setting-Up-Your-Worldmap)
 2. [Using Teleporter](#Using-Teleporter)
-3. [Using Special Tiles](#Using-Special-Tiles)
-4. [Using Sprite Change](#Using-Sprite-Change)
+3. [Using Sprite Change](#Using-Sprite-Change)
 
 ---
 
@@ -73,7 +72,7 @@ In the tilemap settings you can change their size, their solidity, Z-position, a
 
 You can also use tilemaps to darken or brighten tiles. Add a new unsolid tile map and set the alpha value to a number between 0 (0%) and 1 (100%). Under the `Lightmap` catory of the Tiles menu you find tiles best suited for this.
 
-By enabling `Following path`, reselect the tile map and you will see a small grey circle on the top-left of the tilemap border. You can now click and move the tilemap around as well as have it move. See [Pathnodes](wikilink) for more info!
+By enabling `Following path`, reselect the tile map and you will see a small grey circle on the top-left of the tilemap border. You can now click and move the tilemap around as well as have it move. See [Pathnodes](#Using-Pathnodes) for more info!
 
 
 Adding Objects and Badguys
@@ -158,10 +157,16 @@ Instead of Badguys, Moving Platforms and Blocks you only have Leveldots, Telepor
 Using Teleporter
 ================
 
+The teleporter is set up similarly to a door in a level. First, you need an additional spawnpoint for where you want Tux to teleport to and name it. Then you enter the name of the spawnpoint in the teleporter's settings. You can also select a target worldmap, if you want it to teleport Tux to a completely different worldmap.
 
-Using Special Tiles
-===================
+Enabling `Automatic` will cause it to teleport Tux instantaneous upon touching the teleporter.
 
 
 Using Sprite Change
 ===================
+
+For a simple sprite change select the sprite you want Tux to change into and make sure `Change on touch` is enabled.
+
+To have something like a boat present on your worldmap you must also enable `Inital stay action` and name the **stay action** and **stay group**. For the boat, simply name both of them `boat`.
+
+Note: Do not forget to add another sprite changer that does change the sprite back to Tux if the sprite change is only meant to be temporary!
