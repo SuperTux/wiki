@@ -8,6 +8,8 @@ For this Guide we will start fresh and create a new one.
 
 Select `Create World` and enter a name and description for your new world. The description is optional so if you are unsure what to write, just skip it and select `OK`.
 
+![](wikilink "Creating a new World")
+
 Now you can begin to create your first level (or worldmap).
 
 ## Contents
@@ -87,6 +89,8 @@ Using Doors
 
 For a door to work properly you must first define a destination. This is done by adding another spawnpoint and naming it. Now everything left to do is enter the names of the sector and the spawnpoint you want to Tux to go when using the door, et voilà!
 
+![](wikilink "Define destination for doors 1/2") ![](wikilink "Define destination for doors 2/2")
+
 Using Info Blocks
 -----------------
 
@@ -109,7 +113,11 @@ To do this, selected the object and click with the **Pathnode tool** on the smal
 
 You can find the tool under `Enviorment` in the Objects menu as a red arrow pointing to the right.
 
+![](wikilink "Drawing Pathnodes for a moving platform")
+
 After setting up your pathnodes you can now edit each nodes property by right clicking each individual node.
+
+![](wikilink "Properties of a pathnode")
 
 
 Ambient Light
@@ -117,7 +125,7 @@ Ambient Light
 
 To use things like lanterns, magic blocks or anything else that can emit light and have it shown, you must darken the
 sector beforehand. Right-click the lightbulb icon next to your tilemaps and define the sector's ambient light using **RGBA**.
-Give each value a number between 0 (0%) and 1 (100%). For our example we set it to **R: 0.5 G: 0.5 B: 0.8 A: 1**.
+Give each value a number between 0 (0%) and 1 (100%). For our example we set it to **R: 0.4 G: 0.45 B: 0.6 A: 1**.
 
 
 Scripting
@@ -145,11 +153,13 @@ Setting Up Your Worldmap
 
 You are now presented with a tilemap that is filled with dark blue tiles, representing the ocean. We recommend you to change the tileset in your worldmap settings fro `worldmap.strf` to `ice_world.strf` as it grants much more and fleshed-out tiles.
 
+![](wikilink "Changing the tileset of a worldmap")
+
 Worldmap creation works similar to level making. The biggest differnce stems from the objects which there is only a small amount.
 Instead of Badguys, Moving Platforms and Blocks you only have Leveldots, Teleports, Special Tiles and Sprite Changer.
 
 - A **leveldot** let's you set a level which to be entered from your worldmap.
-- A **teleporters** move Tux from one place to another in an instant.
+- A **teleporter** moves Tux from one place to another in an instant.
 - A **special tile** can be used to initiate scripts or show messages.
 - A **sprite change** let's you change Tux's sprite on the worldmap when touched.
 
@@ -168,5 +178,7 @@ Using Sprite Change
 For a simple sprite change select the sprite you want Tux to change into and make sure `Change on touch` is enabled.
 
 To have something like a boat present on your worldmap you must also enable `Inital stay action` and name the **stay action** and **stay group**. For the boat, simply name both of them `boat`.
+
+![](wikilink "Setting up a boat for a worldmap")
 
 Note: Do not forget to add another sprite changer that does change the sprite back to Tux if the sprite change is only meant to be temporary!
