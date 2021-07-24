@@ -8,7 +8,7 @@ For this Guide we will start fresh and create a new one.
 
 Select `Create World` and enter a name and description for your new world. The description is optional so if you are unsure what to write, just skip it and select `OK`.
 
-![](wikilink "Creating a new World")
+![](images/editor/create_world.png "Creating a new World")
 
 Now you can begin to create your first level (or worldmap).
 
@@ -35,8 +35,8 @@ Setting Up Your Level
 You are now presented with a snowy background and a lot of empty space.
 On the right you see the Tile Select, Object Select and your general tools and on the bottom you will find several means to edit the level sector.
 
-Placement Tools
----------------
+General Tools
+-------------
 
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode0.png?raw=true)
   The **Red-Selection** is the most basic tool. It allows you to place tiles and Objects.
@@ -47,9 +47,11 @@ Placement Tools
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/rubber.png?raw=true)
   The **Eraser** simply removes tiles and objects from your level.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/arrow.png?raw=true)
-  The **Selector** is the tool that has you select objects from your level.
+  The **Selection** tool is used to select objects from your level.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/move-mode1.png?raw=true)
   The **Duplicator** can be used to duplicate an object on the spot.
+- ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/path_node.png?raw=true)
+  The **Pathnode** tool allows drawing pathnodes for moving objects, see [Using Pathnodes](#Using-Pathnodes).
 
 
 Tiles and Tilemaps
@@ -89,7 +91,7 @@ Using Doors
 
 For a door to work properly you must first define a destination. This is done by adding another spawnpoint and naming it. Now everything left to do is enter the names of the sector and the spawnpoint you want to Tux to go when using the door, et voilà!
 
-![](wikilink "Define destination for doors 1/2") ![](wikilink "Define destination for doors 2/2")
+![](images/editor/how_to_door01.png "Define destination for doors 1/2") ![](images/editor/how_to_door02.png "Define destination for doors 2/2")
 
 Using Info Blocks
 -----------------
@@ -113,11 +115,11 @@ To do this, selected the object and click with the **Pathnode tool** on the smal
 
 You can find the tool under `Enviorment` in the Objects menu as a red arrow pointing to the right.
 
-![](wikilink "Drawing Pathnodes for a moving platform")
+![](images/editor/drawing_pathnodes.png "Drawing Pathnodes for a moving platform")
 
 After setting up your pathnodes you can now edit each nodes property by right clicking each individual node.
 
-![](wikilink "Properties of a pathnode")
+![](images/editor/pathnode_properties.png "Properties of a pathnode")
 
 
 Ambient Light
@@ -125,7 +127,9 @@ Ambient Light
 
 To use things like lanterns, magic blocks or anything else that can emit light and have it shown, you must darken the
 sector beforehand. Right-click the lightbulb icon next to your tilemaps and define the sector's ambient light using **RGBA**.
-Give each value a number between 0 (0%) and 1 (100%). For our example we set it to **R: 0.4 G: 0.45 B: 0.6 A: 1**.
+Give each value a number between 0 (0%) and 1 (100%).
+
+![](images/editor/ambient_light.png "Defining RGBA values to the ambient light object")
 
 
 Scripting
@@ -153,7 +157,7 @@ Setting Up Your Worldmap
 
 You are now presented with a tilemap that is filled with dark blue tiles, representing the ocean. We recommend you to change the tileset in your worldmap settings fro `worldmap.strf` to `ice_world.strf` as it grants much more and fleshed-out tiles.
 
-![](wikilink "Changing the tileset of a worldmap")
+![](images/editor/change_tileset_wm.png "Changing the tileset of a worldmap")
 
 Worldmap creation works similar to level making. The biggest differnce stems from the objects which there is only a small amount.
 Instead of Badguys, Moving Platforms and Blocks you only have Leveldots, Teleports, Special Tiles and Sprite Changer.
@@ -179,6 +183,6 @@ For a simple sprite change select the sprite you want Tux to change into and mak
 
 To have something like a boat present on your worldmap you must also enable `Inital stay action` and name the **stay action** and **stay group**. For the boat, simply name both of them `boat`.
 
-![](wikilink "Setting up a boat for a worldmap")
+![](images/editor/define_boat_wm.png "Setting up a boat for a worldmap")
 
 Note: Do not forget to add another sprite changer that does change the sprite back to Tux if the sprite change is only meant to be temporary!
