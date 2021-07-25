@@ -9,7 +9,7 @@ For this Guide we will start fresh and create a new one.
 Select `Create World` and enter a name and description for your new world. The description is optional so if you
 are unsure what to write, just skip it and select `OK`.
 
-![](images/editor/create_world.png "Creating a new World")
+![](images/editor/create_world.png "Creating a new world")
 
 Now you can begin to create your first level (or worldmap).
 
@@ -19,9 +19,10 @@ Now you can begin to create your first level (or worldmap).
 1. [Setting up your Level](#Setting-Up-Your-Level)
 2. [Tiles and Tilemaps](#Tiles-And-Tilemaps)
 3. [Objects and Badguys](#Objects-And-Badguys)
-4. [Using Pathnodes](#Using-Pathnodes)
-5. [Ambient Light](#Ambient-Light)
-6. [Scripting](#Scripting)
+4. [Making a Goal](#Making-a-Goal)
+5. [Using Pathnodes](#Using-Pathnodes)
+6. [Ambient Light](#Ambient-Light)
+7. [Scripting](#Scripting)
 
 ### For making Worldmaps
 1. [Setting up your Worldmap](#Setting-Up-Your-Worldmap)
@@ -44,7 +45,7 @@ General Tools
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode0.png?raw=true)
   The **Red-Selection** is the most basic tool. It allows you to place tiles and Objects.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode1.png?raw=true)
-  The **Green-Selection** allows placing multiple instaces of a tile or group of tiles by holding the Left-Mouse.
+  The **Green-Selection** allows placing multiple instaces of a tile or group of tiles by holding <kbd>Left-Mouse</kbd>.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode2.png?raw=true)
   The **Fill-Bucket** let's you fill an area with the selected tile.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/rubber.png?raw=true)
@@ -56,14 +57,14 @@ General Tools
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/path_node.png?raw=true)
   The **Pathnode** tool allows drawing pathnodes for moving objects, see [Using Pathnodes](#Using-Pathnodes).
 
-Unlike the other tools you only find the Pathnode tool under `Objects` -> `Environment`.
+Unlike the other tools you only find the Pathnode tool under `Objects` → `Environment`.
 
 
 Tiles and Tilemaps
 ==================
 
 Let's make a basic level. First, select the drop down menu labeled `Tiles` in the top right corner and select
-a category. For example `Snow`.
+a category of your choosing.
 
 Select the tile you would like to use by clicking on it. You can select multiple tiles at once by holding the
 Left-mouse button and dragging your mouse over the tiles you want to select. Your selection is now displayed
@@ -81,6 +82,8 @@ A tilemap is where all tiles of a level are drawn. They help organizing your til
 You can add a tilemap through the `Sector` category in the Objects menu. The default solid tilemap is marked `0` in
 the bottom bar. You can edit pre-existing tilemaps by right clicking on their icon.
 
+![](images/editor/interactive_layer.png "Sector category of the 'Objects' menu")
+
 Every newly created level comes with three tilemaps by default. One for background elements, one for forground elements
 and one for solid ground. Their marked number is defined by their Z-postion. Is it set below 50, it is behind Tux and
 everything above 50 has it be in front of Tux. The default background tilemap is marked `-100` and the default foreground
@@ -90,7 +93,7 @@ In the tilemap settings you can change their size, their solidity, Z-position, a
 using **RGBA** values (Red, Green, Blue, Alpha).
 
 You can also use tilemaps to darken or brighten tiles. Add a new unsolid tile map and set the alpha value to a number
-between 0 (0%) and 1 (100%). Under the `Lightmap` category of the Tiles menu you find tiles best suited for this.
+between 0 (0%) and 1 (100%). Under the `Unisolid + Lightmap` category of the Tiles menu you find tiles best suited for this.
 
 By enabling `Following path`, reselect the tile map and you will see a small grey circle on the top-left of the tilemap
 border. You can now click and move the tilemap around as well as have it move. See [Pathnodes](#Using-Pathnodes) for
@@ -100,7 +103,7 @@ more info!
 Adding Objects and Badguys
 ==========================
 
-Now that you have build your level, let's take a look at how to place objects, such as enemies (Badguys), moving platforms,
+Now that you have build your level, let's take a look at how to place objects, such as enemies, moving platforms,
 ladders, script triggers, and more. While in **Object Mode** you cannot interact with tiles!
 
 First, select the drop down menu labeled `Objects` and select a category. The categories `Enemies` and `Bosses` contain all
@@ -122,13 +125,27 @@ Using Info Blocks
 Info Blocks can be given messages, such as explanations. Right click the info block to add a message. The first character
 of a paragraph can be used for formatting. This character will not be displayed in the actual message:
 
-- A hash `#` is usually used for normal text
+- A hash `#` is usually used for normal text.
 - A hyphen-minus `-` is used for headlines.
 - An exclamation mark `!` alongside an image path `images/...` displays the image in the text.
 - An asterisk `*` displays the text blue and centered.
 - <kbd>Space</kbd> makes the text small.
 
 ---
+
+Adding a Goal
+=============
+
+Every level requires a goal to be finishable!
+
+For an area to be defined as a goal we will make use of the **Sequence Trigger** which is found in the `Environment`
+category of the Objects menu. Place one around something like a goalpost and make sure its sequence is set to `end sequence`.
+
+![](images/editor/making_a_goal.png "Making a goal with Sequence Triggers")
+
+The sequence trigger on the right is used to prevent Tux from walking further right and out of the igloo. For that simply
+place another sequence trigger and set its sequence to `stop Tux`.
+
 
 Using Pathnodes
 ===============
@@ -155,7 +172,7 @@ To use things like lanterns, magic blocks or anything else that can emit light a
 sector beforehand. Right-click the lightbulb icon next to your tilemaps and define the sector's ambient light using **RGBA**.
 Give each value a number between 0 (0%) and 1 (100%).
 
-![](images/editor/ambient_light.png "Defining RGBA values to the ambient light object")
+![](images/editor/ambient_light.png "Defining RGBA values of the ambient light object")
 
 
 Scripting
@@ -223,3 +240,17 @@ and **stay group**. For the boat, simply name both of them `boat`.
 
 Note: Do not forget to add another sprite changer that does change the sprite back to Tux if the sprite change is only meant
 to be temporary!
+
+---
+
+**For more informations on how to design levels and aspects such as badguy/objects behavior etc. we recommend the following:**
+
+-   [Level Design](https://github.com/SuperTux/supertux/wiki/Level-Design)
+-   [Badguys](https://github.com/SuperTux/supertux/wiki/Characters#Badguys)
+-   [Objects](https://github.com/SuperTux/supertux/wiki/Objects)
+
+See also
+--------
+
+-   [Level Format](https://github.com/SuperTux/supertux/wiki/Level-Format)
+-   [Sharing Levels](https://github.com/SuperTux/supertux/wiki/Level-Editor#Sharing-Levels)
