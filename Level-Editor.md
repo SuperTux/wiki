@@ -1,10 +1,17 @@
-The built-in Level Editor provided by the game is a great and easy way to make your own levels and worldmaps.
-There are various videos on the internet documenting the use of the level editor.
+The built-in **Level Editor** provided by the game is a great and easy way to make your own levels and worldmaps which you
+can share as Add-ons with the community.
 
-This list provides some of the useful ones. You're always welcome to contribute new ones!
+There are various guides on the internet documenting how to use the level editor. We have provided a list of several
+video and text based guides (as well as our own) for you to checkout if you are in need of help. You're always welcome
+to contribute your own!
+
+**Note: Some of these may be incomplete or out-dated and it is out of our hands whether the author will provide an update
+or not!**
+
 
 ### Text Tutorials
 
+- [Official Guide](https://github.com/SuperTux/supertux/wiki/Level-Editor-Guide) by SuperTux Team
 - [v0.6.0 Guide](https://github.com/Ordoviz/wiki/blob/master/Editor-Guide-0-6-0.md) by Ordoviz
 
 ### Video Tutorials
