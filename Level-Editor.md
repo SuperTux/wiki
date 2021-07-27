@@ -1,9 +1,9 @@
 The built-in **Level Editor** provided by the game is a great and easy way to make your own levels and worldmaps which you
-can share as Add-ons with the community.
+can share separately or as Add-ons with the community.
 
 There are various guides on the internet documenting how to use the level editor. We have provided a list of several
 video and text based guides (as well as our own) for you to checkout if you are in need of help. You're always welcome
-to contribute your own!
+to contribute your own, too!
 
 **Note: Some of these may be incomplete or out-dated and it is out of our hands whether the author will provide an update
 or not!**
@@ -30,10 +30,12 @@ or not!**
 
 When you finished creating a level or even more, it is possible to share your creations with the SuperTux community.
 
-You can upload your work to the SuperTux Forum or share it on our Discord Sever. You can find the respective links
-[here](https://github.com/SuperTux/supertux/wiki#for-level-designer).
+Upload your work to the SuperTux Forum or share it on our Discord Sever. You can also create your own Add-on for the
+game by submitting it to our Add-on Manager!
 
-### Getting the Relevant Files
+You can find the respective links [here](https://github.com/SuperTux/supertux/wiki#for-level-designer).
+
+### Getting The Relevant Files
 
 You can find your levels at `C:\Users\YOUR-USERNAME\AppData\Roaming\SuperTux\supertux2\levels\YOUR-LEVELSETNAME\` on Windows
 or `/home/YOUR-USERNAME/.local/share/supertux2/levels/YOUR-LEVELSETNAME/` on Linux.
@@ -89,7 +91,7 @@ Every Add-On needs an `.nfo`-file which looks like this:
 
 ---
 
-### Creating the Add-On Structure
+### Creating The Add-On Structure
 
 To have a working Add-On, you will need to structure it similar to the structure described below. That way you can also
 replace or add game assets of your own without causing compatibility issues with other Addons (or even Story Mode) that
@@ -119,18 +121,20 @@ Put all graphics in an `images/` directory, all sounds in a `sounds/` directory 
 as shown above.
 
 To help you properly structure and plan this, you can take a look at the structure for such files used within SuperTux.
-You will find this at  `C:\Program Files\SuperTux\data\` (Windows) or `/usr/share/supertux2/` (Linux). But be careful,
+You will find them at  `C:\Program Files\SuperTux\data\` on Windows or `/usr/share/supertux2/` on Linux. But be careful,
 as the file locations in the levels **must** match the directory structure you create!
 
-### Compressing Add-Ons as a `.zip`-Archive
+
+### Compressing Add-Ons As A `.zip`-Archive
 
 Select the levels-directory, the `.nfo`-file - and if you added additional content - those directories and compress
 them as a `.zip`-file.
 
-Now the player can simply save this file in `supertux2/addons/` and enable it in-game at the "Add-ons" menu by checking
+Now the player can simply save this file in `supertux2/addons/` and enable it in-game in the "Add-ons" menu by checking
 the checkbox.
 
-### Uploading the Add-On
+
+### Uploading The Add-On
 
 Now you can upload your file. We recommend creating a new topic at the [Levels & Add-ons forum](https://forum.freegamedev.net/viewforum.php?f=69).
 
