@@ -19,7 +19,7 @@ Now you can begin to create your first level (or worldmap).
 1. [Setting up your Level](#Setting-Up-Your-Level)
 2. [Tiles and Tilemaps](#Tiles-And-Tilemaps)
 3. [Objects and Badguys](#Objects-And-Badguys)
-4. [Making a Goal](#Making-a-Goal)
+4. [Adding a Goal](#Adding-a-Goal)
 5. [Using Pathnodes](#Using-Pathnodes)
 6. [Ambient Light](#Ambient-Light)
 7. [Scripting](#Scripting)
@@ -60,7 +60,7 @@ General Tools
 Unlike the other tools you only find the Pathnode tool under `Objects` → `Environment`.
 
 
-Tiles and Tilemaps
+Tiles And Tilemaps
 ==================
 
 Let's make a basic level. First, select the drop down menu labeled `Tiles` in the top right corner and select
@@ -100,7 +100,7 @@ border. You can now click and move the tilemap around as well as have it move. S
 more info!
 
 
-Adding Objects and Badguys
+Adding Objects And Badguys
 ==========================
 
 Now that you have build your level, let's take a look at how to place objects, such as enemies, moving platforms,
@@ -135,7 +135,7 @@ of a paragraph can be used for formatting. This character will not be displayed 
 
 ---
 
-Adding a Goal
+Adding A Goal
 =============
 
 Every level requires a goal to be finishable!
