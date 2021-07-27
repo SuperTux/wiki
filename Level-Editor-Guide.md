@@ -68,19 +68,19 @@ a category of your choosing.
 
 Select the tile you would like to use by clicking on it. You can select multiple tiles at once by holding the
 Left-mouse button and dragging your mouse over the tiles you want to select. Your selection is now displayed
-besides the cursor, moving across the grid. By left clicking you can place them now was many times as you want.
+besides the cursor, moving across the grid. By left-clicking you can place them now as many times as you want.
 
-Note: Right clicking on a tile inside your level, you can copy it. This can save you time if you don't want to
-frequently switch back and forth between categories.
-
-To make sure Tux is able to stand on the tiles you place must make sure that you are placing them on a solid tilemap.
+**Note: Right-clicking on a tile inside your level, you can copy it. This can save you time if you don't want to
+frequently switch back and forth between categories.**
 
 Tilemaps
 --------
 
+To make sure Tux is able to stand on the tiles you place must make sure that you are placing them on a solid tilemap.
+
 A tilemap is where all tiles of a level are drawn. They help organizing your tiles and allow for using multiple layers.
 You can add a tilemap through the `Sector` category in the Objects menu. The default solid tilemap is marked `0` in
-the bottom bar. You can edit pre-existing tilemaps by right clicking on their icon.
+the bottom bar. You can edit pre-existing tilemaps by right-clicking on their icon.
 
 ![](images/editor/interactive_layer.png "Sector category of the 'Objects' menu")
 
@@ -107,8 +107,10 @@ Now that you have build your level, let's take a look at how to place objects, s
 ladders, script triggers, and more. While in **Object Mode** you cannot interact with tiles!
 
 First, select the drop down menu labeled `Objects` and select a category. The categories `Enemies` and `Bosses` contain all
-available Badguys and Bosses you can use for your level. Upon placing an enemy you can edit some of their properties by right
+available Badguys and Bosses you can use for your level. Upon placing an enemy you can edit some of their properties by right-
 clicking on the enemy.
+
+**Note: You cannot interact with objects while in the Tiles menu!**
 
 Using Doors
 -----------
@@ -160,7 +162,7 @@ You can find the tool under `Environment` in the Objects menu as a red arrow poi
 
 ![](images/editor/drawing_pathnodes.png "Drawing Pathnodes for a moving platform")
 
-After setting up your pathnodes you can now edit each nodes property by right clicking each individual node.
+After setting up your pathnodes you can now edit each nodes property by right-clicking each individual node.
 
 ![](images/editor/pathnode_properties.png "Properties of a pathnode")
 
@@ -199,8 +201,8 @@ Setting Up Your Worldmap
 ========================
 
 You are now presented with a tilemap that is filled with dark blue tiles, representing the ocean. We recommend you to
-change the tileset in your worldmap settings from `worldmap.strf` to `ice_world.strf` as it grants much more and
-fleshed-out tiles.
+change the tileset in your worldmap settings from `worldmap.strf` to `ice_world.strf` as it grants much more diverse
+and fleshed-out tiles.
 
 ![](images/editor/change_tileset_wm.png "Changing the tileset of a worldmap")
 
