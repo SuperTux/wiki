@@ -45,7 +45,8 @@ General Tools
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode0.png?raw=true)
   The **Red-Selection** is the most basic tool. It allows you to place tiles and Objects.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode1.png?raw=true)
-  The **Green-Selection** allows placing multiple instaces of a tile or group of tiles by holding <kbd>Left-Mouse</kbd>.
+  The **Green-Selection** allows placing multiple instaces of a tile or group of tiles by holding the
+  left mouse button.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode2.png?raw=true)
   The **Fill-Bucket** let's you fill an area with the selected tile.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/rubber.png?raw=true)
@@ -63,7 +64,7 @@ Unlike the other tools you only find the Pathnode tool under `Objects` → `Envi
 Tiles And Tilemaps
 ==================
 
-Let's make a basic level. First, select the drop down menu labeled `Tiles` in the top right corner and select
+Let's make a basic level. First, select the drop-down menu labelled `Tiles` in the top right corner and select
 a category of your choosing.
 
 Select the tile you would like to use by clicking on it. You can select multiple tiles at once by holding the
@@ -84,13 +85,13 @@ the bottom bar. You can edit pre-existing tilemaps by right-clicking on their ic
 
 ![](images/editor/interactive_layer.png "Sector category of the 'Objects' menu")
 
-Every newly created level comes with three tilemaps by default. One for background elements, one for forground elements
+Every newly created level comes with three tilemaps by default. One for background elements, one for foreground elements
 and one for solid ground. Their marked number is defined by their Z-postion. Is it set below 50, it is behind Tux and
 everything above 50 has it be in front of Tux. The default background tilemap is marked `-100` and the default foreground
 tilemap is marked `100`.
 
-In the tilemap settings you can change their size, their solidity, Z-position, as well as colour you the tiles inside
-using **RGBA** values (Red, Green, Blue, Alpha).
+In their settings you can change the size, solidity, Z-position, as well as the colour of the tiles themselves using RGBA
+values (Red, Green, Blue, Alpha).
 
 You can also use tilemaps to darken or brighten tiles. Add a new unsolid tile map and set the alpha value to a number
 between 0 (0%) and 1 (100%). Under the `Unisolid + Lightmap` category of the Tiles menu you find tiles best suited for this.
@@ -106,9 +107,9 @@ Adding Objects And Badguys
 Now that you have build your level, let's take a look at how to place objects, such as enemies, moving platforms,
 ladders, script triggers, and more. While in **Object Mode** you cannot interact with tiles!
 
-First, select the drop down menu labeled `Objects` and select a category. The categories `Enemies` and `Bosses` contain all
-available Badguys and Bosses you can use for your level. Upon placing an enemy you can edit some of their properties by right-
-clicking on the enemy.
+First, select the drop-down menu labelled `Objects` and select a category. The categories `Enemies` and `Bosses` contain all
+available Badguys and Bosses you can use for your level. Upon placing an enemy you can edit some of their properties by
+right-clicking on the enemy.
 
 **Note: You cannot interact with objects while in the Tiles menu!**
 
@@ -119,12 +120,12 @@ For a door to work properly you must first define a destination. This is done by
 Now everything left to do is enter the names of the sector and the spawnpoint you want to Tux to go when using the door,
 et voilà!
 
-![](images/editor/how_to_door01.png "Define destination for doors 1/2") ![](images/editor/how_to_door02.png "Define destination for doors 2/2")
+![](images/editor/how_to_door.png "Define destination for doors")
 
 Using Info Blocks
 -----------------
 
-Info Blocks can be given messages, such as explanations. Right click the info block to add a message. The first character
+Info Blocks can be given messages, such as explanations. Right-click the info block to add a message. The first character
 of a paragraph can be used for formatting. This character will not be displayed in the actual message:
 
 - A hash `#` is usually used for normal text.
@@ -162,7 +163,7 @@ You can find the tool under `Environment` in the Objects menu as a red arrow poi
 
 ![](images/editor/drawing_pathnodes.png "Drawing Pathnodes for a moving platform")
 
-After setting up your pathnodes you can now edit each nodes property by right-clicking each individual node.
+After setting up your pathnodes you can now edit each each node’s properties by right-clicking each individual node.
 
 ![](images/editor/pathnode_properties.png "Properties of a pathnode")
 
@@ -184,14 +185,14 @@ Scripting allows for much more dynamic elements to be used in level creation. Sc
 can be trigger in many different ways:
 
 - A common one is the **Script trigger** object. It marks the area in which the script will be executed with a pink
-  square and can be resized as desired. The script gets trigger when Tux enters this area.
-- If you wish to execute a script immideatly after entering a sector you can do that with the **Initialization script**.
-  You will find it in the settings of your sector. Mind you, the script will also be executed everytime you restard from
+  square and can be resized as desired. The script gets triggered when Tux enters this area.
+- If you wish to execute a script immediately after entering a sector you can do that with the **Initialization script**.
+  You will find it in the settings of your sector. Mind you, the script will also be executed every time you restart from
   a checkpoint in that sector!
 - Badguys may also serve as a way to use scripts. Each badguy can be given a **Death script** that is executed upon
-  the enemy's defeat. This methode is commonly used for Bosses, for example `sector.Tux.trigger_sequence("fireworks");`
+  the enemy's defeat. This method is commonly used for Bosses, for example `sector.Tux.trigger_sequence("fireworks");`
   for the Yeti Boss in Icy Island.
-- Other prominent methodes for scripts are buttons/switches, picking up powerups or running into Will ’O’ Wisp.
+- Other prominent methods for scripts are buttons/switches, picking up powerups or running into Will ’O’ Wisp.
 
 **For a list of commands that can be used in scripts, take a look at the [scripting reference](https://github.com/SuperTux/supertux/wiki/Scripting_reference).**
 
@@ -199,6 +200,8 @@ can be trigger in many different ways:
 
 Setting Up Your Worldmap
 ========================
+
+In the Choose World menu, select your level set and click on Create worldmap.
 
 You are now presented with a tilemap that is filled with dark blue tiles, representing the ocean. We recommend you to
 change the tileset in your worldmap settings from `worldmap.strf` to `ice_world.strf` as it grants much more diverse
@@ -211,13 +214,13 @@ a small amount. Instead of Badguys, Moving Platforms and Blocks you only have Le
 and Sprite Changer.
 
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/worldmap/common/leveldot_red.png?raw=true)
-  A **leveldot** let's you set a level which to be entered from your worldmap.
+  A **leveldot** allows the player to enter a predefined level from the worldmap.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/worldmap/common/teleporterdot_1.png?raw=true)
   A **teleporter** moves Tux from one place to another in an instant.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/worldmap/common/messagedot.png?raw=true)
   A **special tile** can be used to initiate scripts or show messages.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/spritechange.png?raw=true) 
-  A **sprite change** let's you change Tux's sprite on the worldmap when touched.
+  A **sprite change** lets you change Tux's appearence on the worldmap when touched.
 
 
 Using Teleporter
@@ -245,7 +248,7 @@ to be temporary!
 
 ---
 
-**For more informations on how to design levels and aspects such as badguy/objects behavior etc. we recommend the following:**
+**For more information on how to design levels and aspects such as badguy/objects behavior etc. we recommend the following:**
 
 -   [Level Design](https://github.com/SuperTux/supertux/wiki/Level-Design)
 -   [Badguys](https://github.com/SuperTux/supertux/wiki/Characters#Badguys)
