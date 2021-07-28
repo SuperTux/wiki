@@ -2,7 +2,7 @@ The built-in **Level Editor** provided by the game is a great and easy way to ma
 can share separately or as Add-ons with the community.
 
 There are various guides on the internet documenting how to use the level editor. We have provided a list of several
-video and text based guides (as well as our own) for you to checkout if you are in need of help. You're always welcome
+video and text based guides (as well as our own) for you to check out if you are in need of help. You're always welcome
 to contribute your own, too!
 
 **Note: Some of these may be incomplete or out-dated and it is out of our hands whether the author will provide an update
@@ -37,8 +37,8 @@ You can find the respective links [here](https://github.com/SuperTux/supertux/wi
 
 ### Getting The Relevant Files
 
-You can find your levels at `C:\Users\YOUR-USERNAME\AppData\Roaming\SuperTux\supertux2\levels\YOUR-LEVELSETNAME\` on Windows
-or `/home/YOUR-USERNAME/.local/share/supertux2/levels/YOUR-LEVELSETNAME/` on Linux.
+You can find your levels at `C:\Users\YOUR-USERNAME\AppData\Roaming\SuperTux\supertux2\levels\YOUR-LEVELSETNAME\` on Windows,
+`~/Library/Application Support/SuperTux/` on macOS or `/home/YOUR-USERNAME/.local/share/supertux2/levels/YOUR-LEVELSETNAME/` on Linux.
 
 There should be some files called `level1.stl`, `level2.stl` and so on, depending on the number of levels you have created.
 Those files contain the actual levels you created.
@@ -95,9 +95,9 @@ Every Add-On needs an `.nfo`-file which looks like this:
 
 To have a working Add-On, you will need to structure it similar to the structure described below. That way you can also
 replace or add game assets of your own without causing compatibility issues with other Addons (or even Story Mode) that
-do not have these assets avaiable.
+do not have these assets available.
 
-Note that if some directory or file is placed between brackets, like `[worldmap.stwm]`, those brakets are **not** part
+Note that if some directory or file is placed between brackets, like `[worldmap.stwm]`, those brackets are **not** part
 of the filename. They indicate that this is optional and only necessary in some cases. `[...]` means that there can be
 some files, but we won't specify a name or file extension here.
 
