@@ -201,7 +201,7 @@ can be trigger in many different ways:
 Setting Up Your Worldmap
 ========================
 
-In the Choose World menu, select your level set and click on Create worldmap.
+Back in the level menu of your world you can click on `Create Worldmap` to start working on a worldmap.
 
 You are now presented with a tilemap that is filled with dark blue tiles, representing the ocean. We recommend you to
 change the tileset in your worldmap settings from `worldmap.strf` to `ice_world.strf` as it grants much more diverse
