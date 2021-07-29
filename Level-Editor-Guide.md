@@ -90,7 +90,7 @@ and one for solid ground. Their marked number is defined by their Z-postion. Is 
 everything above 50 has it be in front of Tux. The default background tilemap is marked `-100` and the default foreground
 tilemap is marked `100`.
 
-In their settings you can change the size, solidity, Z-position, as well as the colour of the tiles themselves using RGBA
+In the tilemap settings you can change their size, solidity, Z-position, as well as the color of the tiles themselves using RGBA
 values (Red, Green, Blue, Alpha).
 
 You can also use tilemaps to darken or brighten tiles. Add a new unsolid tile map and set the alpha value to a number
