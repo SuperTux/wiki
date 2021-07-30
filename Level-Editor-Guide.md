@@ -86,7 +86,7 @@ A tilemap is where all tiles of a level are drawn. They help organizing your til
 You can add a tilemap through the `Sector` category in the Objects menu. The default solid tilemap is marked `0` in
 the bottom bar. You can edit pre-existing tilemaps by right-clicking on their icon.
 
-![](images/editor/interactive_layer.png "Sector category of the 'Objects' menu")
+![](images/editor/tilemap_layers.gif "The three default tilemaps for levels")
 
 Every newly created level comes with three tilemaps by default. One for background elements, one for foreground elements
 and one for solid ground. Their marked number is defined by their Z-postion. If the Z-position is set to 50 or below, the
