@@ -3,8 +3,8 @@
 Beginning Steps
 ===============
 
-Upon opening the Level Editor you have the option to open an existing world/levelset or create one of your own.
-For this Guide we will start fresh and create a new one.
+Upon opening the level editor you have the option to open an existing world/levelset or create one of your own.
+For this guide we will start fresh and create a new one.
 
 Select `Create World` and enter a name and description for your new world. The description is optional so if you
 are unsure what to write, just skip it and select `OK`.
@@ -17,12 +17,16 @@ Now you can begin to create your first level (or worldmap).
 
 ### For making Levels
 1. [Setting up your Level](#Setting-Up-Your-Level)
-2. [Tiles and Tilemaps](#Tiles-And-Tilemaps)
-3. [Objects and Badguys](#Objects-And-Badguys)
-4. [Adding a Goal](#Adding-a-Goal)
-5. [Using Pathnodes](#Using-Pathnodes)
-6. [Ambient Light](#Ambient-Light)
-7. [Scripting](#Scripting)
+   * [General Tools](#General-Tools)
+3. [Tiles and Tilemaps](#Tiles-And-Tilemaps)
+   * [Tilemaps](#Tilemaps)
+4. [Objects and Badguys](#Objects-And-Badguys)
+   * [Using Doors](#Using-Doors)
+   * [Using Info Blocks](#Using-Info-Blocks)
+5. [Adding a Goal](#Adding-a-Goal)
+6. [Using Pathnodes](#Using-Pathnodes)
+7. [Ambient Light](#Ambient-Light)
+8. [Scripting](#Scripting)
 
 ### For making Worldmaps
 1. [Setting up your Worldmap](#Setting-Up-Your-Worldmap)
@@ -43,12 +47,12 @@ General Tools
 -------------
 
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode0.png?raw=true)
-  The **Red-Selection** is the most basic tool. It allows you to place tiles and Objects.
+  The **Red-Selection** is the most basic tool. It allows you to place tiles and objects.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode1.png?raw=true)
   The **Green-Selection** allows placing multiple instaces of a tile or group of tiles by holding the
   left mouse button.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode2.png?raw=true)
-  The **Fill-Bucket** let's you fill an area with the selected tile.
+  The **Fill-Bucket** lets you fill an area with the selected tile.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/rubber.png?raw=true)
   The **Eraser** simply removes tiles and objects from your level.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/arrow.png?raw=true)
@@ -64,20 +68,19 @@ Unlike the other tools you only find the Pathnode tool under `Objects` → `Envi
 Tiles And Tilemaps
 ==================
 
-Let's make a basic level. First, select the drop-down menu labelled `Tiles` in the top right corner and select
-a category of your choosing.
+Let's make a basic level. First, click on `Tiles` in the top-right and select a category of your choosing.
 
 Select the tile you would like to use by clicking on it. You can select multiple tiles at once by holding the
 Left-mouse button and dragging your mouse over the tiles you want to select. Your selection is now displayed
 besides the cursor, moving across the grid. By left-clicking you can place them now as many times as you want.
 
-**Note: Right-clicking on a tile inside your level, you can copy it. This can save you time if you don't want to
+**Note: By right-clicking on a tile inside your level, you can copy it. This can save you time if you don't want to
 frequently switch back and forth between categories.**
 
 Tilemaps
 --------
 
-To make sure Tux is able to stand on the tiles you place must make sure that you are placing them on a solid tilemap.
+To have Tux be able to stand on your tiles you need to placed them on a solid tilemap.
 
 A tilemap is where all tiles of a level are drawn. They help organizing your tiles and allow for using multiple layers.
 You can add a tilemap through the `Sector` category in the Objects menu. The default solid tilemap is marked `0` in
@@ -86,9 +89,9 @@ the bottom bar. You can edit pre-existing tilemaps by right-clicking on their ic
 ![](images/editor/interactive_layer.png "Sector category of the 'Objects' menu")
 
 Every newly created level comes with three tilemaps by default. One for background elements, one for foreground elements
-and one for solid ground. Their marked number is defined by their Z-postion. Is it set below 50, it is behind Tux and
-everything above 50 has it be in front of Tux. The default background tilemap is marked `-100` and the default foreground
-tilemap is marked `100`.
+and one for solid ground. Their marked number is defined by their Z-postion. If the Z-position is set to 50 or below, the
+tilemap is behind Tux; otherwise it is in front of Tux. The default background tilemap is marked `-100` and the default
+foreground tilemap is marked `100`.
 
 In the tilemap settings you can change their size, solidity, Z-position, as well as the color of the tiles themselves using RGBA
 values (Red, Green, Blue, Alpha).
@@ -96,9 +99,8 @@ values (Red, Green, Blue, Alpha).
 You can also use tilemaps to darken or brighten tiles. Add a new unsolid tile map and set the alpha value to a number
 between 0 (0%) and 1 (100%). Under the `Unisolid + Lightmap` category of the Tiles menu you find tiles best suited for this.
 
-By enabling `Following path`, reselect the tile map and you will see a small grey circle on the top-left of the tilemap
-border. You can now click and move the tilemap around as well as have it move. See [Pathnodes](#Using-Pathnodes) for
-more info!
+If you enable `Following path` and reselect the tilemap, you will see a small gray circle at the top-left corner of the tilemap.
+You can now click and move the tilemap around as well as have it move. See [Pathnodes](#Using-Pathnodes) for more info!
 
 
 Adding Objects And Badguys
@@ -107,11 +109,10 @@ Adding Objects And Badguys
 Now that you have build your level, let's take a look at how to place objects, such as enemies, moving platforms,
 ladders, script triggers, and more. While in **Object Mode** you cannot interact with tiles!
 
-First, select the drop-down menu labelled `Objects` and select a category. The categories `Enemies` and `Bosses` contain all
-available Badguys and Bosses you can use for your level. Upon placing an enemy you can edit some of their properties by
-right-clicking on the enemy.
+First, click on `Objects` in the top-right and select a category. Upon placing an object you can edit some of their
+properties by right-clicking on the object.
 
-**Note: You cannot interact with objects while in the Tiles menu!**
+**Note: You cannot interact with objects while in Tiles Mode!**
 
 Using Doors
 -----------
@@ -153,9 +154,9 @@ place another sequence trigger and set its sequence to `stop Tux`.
 Using Pathnodes
 ===============
 
-Pathnodes are used to form a path for a platforms, coins, tilemaps etc. to move on.
+Pathnodes are used to form a path for platforms, coins, tilemaps etc. to move on.
 
-To do this, selected the object and click with the **Pathnode tool** on the small grey circle on its top-left. If you now
+To do this, select the object and click with the **Pathnode tool** on the small gray circle on its top-left. If you now
 click anywhere else in your level, you will draw a new path node between it and the last node you selected. For coins and
 tilemaps, make sure you have `Following path` enabled!
 
@@ -163,7 +164,7 @@ You can find the tool under `Environment` in the Objects menu as a red arrow poi
 
 ![](images/editor/drawing_pathnodes.png "Drawing Pathnodes for a moving platform")
 
-After setting up your pathnodes you can now edit each each node’s properties by right-clicking each individual node.
+After setting up your pathnodes you can now edit each node’s properties by right-clicking each individual node.
 
 ![](images/editor/pathnode_properties.png "Properties of a pathnode")
 
@@ -182,7 +183,7 @@ Scripting
 =========
 
 Scripting allows for much more dynamic elements to be used in level creation. Scripts are written in **Squirrel** and
-can be trigger in many different ways:
+can be triggered in many different ways:
 
 - A common one is the **Script trigger** object. It marks the area in which the script will be executed with a pink
   square and can be resized as desired. The script gets triggered when Tux enters this area.
