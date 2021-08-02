@@ -17,7 +17,7 @@ Now you can begin to create your first level (or worldmap).
 
 ### For making Levels
 1. [Setting up your Level](#Setting-Up-Your-Level)
-   * [General Tools](#General-Tools)
+   * [General Tools](#General-Tools---Tile-Mode)
 3. [Tiles and Tilemaps](#Tiles-And-Tilemaps)
    * [Tilemaps](#Tilemaps)
 4. [Objects and Badguys](#Objects-And-Badguys)
