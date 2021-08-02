@@ -43,26 +43,43 @@ You are now presented with a snowy background and a lot of empty space.
 On the right you see the Tile Select, Object Select and your general tools. On the bottom you will find several
 means to edit the level sector.
 
-General Tools
--------------
+General Tools - Tile Mode
+-------------------------
+
+In Tile Mode you cannot interact with objects at all! It is active as long as your are in one of the tile categories.
 
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode0.png?raw=true)
-  The **Red-Selection** is the most basic tool. It allows you to place tiles and objects.
+  The **Red-Selection** is the most basic tool. It allows you to place single tiles.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode1.png?raw=true)
   The **Green-Selection** allows placing multiple instaces of a tile or group of tiles by holding the
   left mouse button.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/select-mode2.png?raw=true)
   The **Fill-Bucket** lets you fill an area with the selected tile.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/rubber.png?raw=true)
-  The **Eraser** simply removes tiles and objects from your level.
+  The **Eraser** simply removes tiles from your level.
+  
+To access the **Green-Selection** or **Fill-Bucket** tool you have to click on the **Red-Selection** tool to swap between the three!
+
+General Tools - Object Mode
+---------------------------
+
+In Object Mode you cannot interact with tiles at all! It is active as long as your are in one of the object categories.
+To configure an object's properties simply right-click on the object you wish to configure.
+
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/arrow.png?raw=true)
   The **Selection** tool is used to select objects from your level.
+- ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/rubber.png?raw=true)
+  The **Eraser** simply removes objects from your level.
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/move-mode1.png?raw=true)
   The **Duplicator** can be used to duplicate an object on the spot.
+
+To access the **Duplicator** tool you have to click on ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/move-mode0.png?raw=true)
+and vice versa.
+
 - ![](https://github.com/SuperTux/supertux/blob/master/data/images/engine/editor/path_node.png?raw=true)
   The **Pathnode** tool allows drawing pathnodes for moving objects, see [Using Pathnodes](#Using-Pathnodes).
 
-Unlike the other tools you only find the Pathnode tool under `Objects` → `Environment`.
+Unlike the other tools you only find the **Pathnode** tool under `Objects` → `Environment`.
 
 
 Tiles And Tilemaps
@@ -80,7 +97,7 @@ frequently switch back and forth between categories.**
 Tilemaps
 --------
 
-To have Tux be able to stand on your tiles you need to placed them on a solid tilemap.
+To have Tux be able to stand on your tiles you need to place them on a solid tilemap.
 
 A tilemap is where all tiles of a level are drawn. They help organizing your tiles and allow for using multiple layers.
 You can add a tilemap through the `Sector` category in the Objects menu. The default solid tilemap is marked `0` in
