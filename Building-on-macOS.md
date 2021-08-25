@@ -36,7 +36,7 @@ Note: If that command fails, go to HomeBrew's website for up-to-date instruction
 
 
 4. Install SuperTux's dependencies. <br>
-```brew install libvorbis physfs glew sdl2 sdl2_image boost cmake doxygen```
+```brew install libvorbis physfs glew sdl2 sdl2_image boost cmake doxygen glm```
 
 
 5. We need to manually compile and install `libraqm`, the last of SuperTux's dependencies. When I tried to use the version available via HomeBrew, SuperTux would have segmentation faults deep in the `libraqm` library. Manually compiling and installing `libraqm` seems to fix this issue. <br>
