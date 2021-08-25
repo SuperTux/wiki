@@ -18,9 +18,7 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 ##### Main Menu
 
-- [ ] Add more detail to the ice frame (it is also too blurry)
-
-  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/engine/menu/frame.png)
+- [x] Add more detail to the ice frame (it is also too blurry)
 
 ##### Tiles
 
@@ -86,10 +84,10 @@ graphics/UX tasks, `category:code` for code tasks, and
   - [x] Intro: Picnic with Penny
   - [x] Interlude: A Yeti in the distance
   - [x] Interlude: Where is Penny?
-  - [ ] Outro: Towards the glacier island
+  - [ ] Outro: Towards the Glacier Isle
 ##### Rooted Forest
-  - [x] Intro: A new location
-  - [x] Interlude: An eerie plague
+  - [x] Intro: A New Location
+  - [x] Interlude: An Eerie Plague
   - [ ] Interlude: Gigantic tree
   - [ ] Outro: Bye bye forest
 
