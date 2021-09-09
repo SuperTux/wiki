@@ -29,7 +29,7 @@ Tux becomes determined to save her, thus beginning his journey.
 
 ### Interlude: A Yeti in the Distance
 
-(Plays after finishing the level "Ice in the Hole")
+(Plays after finishing the level "The End of the Tunnel")
 
 Tux walks out of the ice cave but stops as he hears a strange sound in the distance. A yeti appears to be
 watching him from higher up on a small incline. Before Tux can do anything, however, the yeti runs away.
@@ -113,4 +113,4 @@ through his challenges again.)*
 See also
 --------
 
--   [Characters](https://github.com/SuperTux/supertux/wiki/Characters).
+-   [Characters](https://github.com/SuperTux/supertux/wiki/Characters)
