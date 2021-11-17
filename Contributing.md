@@ -11,7 +11,7 @@ Generic instructions
 
 These instructions apply to every function you may want to adopt.
 
-1.  Join the SuperTux Discord to stay up to date with recent developments.
+1.  Join the [SuperTux Discord](https://discord.gg/AcvtHWz) to stay up to date with recent developments.
 2.  Check out the latest SuperTux [development version](Download/Subversion "wikilink") and compile it by following the instructions in the [INSTALL file](http://supertux.lethargik.org/svn/supertux/trunk/supertux/INSTALL) if you want to develop code or levels.
 3.  Modify or add something that is either listed in the [task list](Milestone_2_Design_Document/Tasks "wikilink") or seems useful to you.
 4.  Give us your work:
