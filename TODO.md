@@ -25,12 +25,12 @@ graphics/UX tasks, `category:code` for code tasks, and
 - Levels
   - [ ] Animation for deeper areas of modern lava
   - [ ] Potentially parallax background castle tiles of all castle styles for levels near a castle
-  - [ ] More background assets for Icy Island, Rooted Forest and the Ghost Forest.
-  - [ ] Parallax background tiles, decorative tiles for the underground forest
+  - [x] More background assets for Icy Island, Rooted Forest and the Ghost Forest.
+  - [ ] Decorative tiles for the underground forest
   - [x] Crystalcave tileset should be fixed to be usable
   - [ ] Waterfall graphics fitting to the new water type
   - [ ] Add modern fluid style acid/poison (purple liquid) and swamp
-  - [ ] Add castle tiles adapted to their location in story mode (e.g. mossy bricks for the forest castle)
+  - [x] Add castle tiles adapted to their location in story mode (e.g. mossy bricks for the forest castle)
   - [ ] Decorative tiles for underwater areas in all themes
   - [ ] Redraw poles
   - [x] Fix tilling for crystal cave tileset (potentially redo it from ground up)
@@ -57,7 +57,7 @@ graphics/UX tasks, `category:code` for code tasks, and
   - [ ] Proper Ghost Tree graphics
 
 - Interactives
-  - [ ] Alternative light sources (glowing crystals, hanging/standing brazier, glowing plants)
+  - [x] Alternative light sources (glowing crystals, hanging/standing brazier, glowing plants)
   - [ ] Visual effects for willowisp warp and level flip
  
 - Powerups
