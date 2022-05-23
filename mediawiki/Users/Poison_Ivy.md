@@ -1,4 +1,4 @@
-== '''Hi''' ==
+# Hi
 I'm a Supertux fan. Why would anyone who wasn't have a Tux Wiki account?
 Unless they're putting TRASH on here for fun.
 ... what I'd like to know is why you've come to my user page. 
@@ -8,9 +8,9 @@ Whatever the reason, I'd like to tell you some of my ideas, if you'd care to rea
 
 So, here are my ideas:
 
-== Badguys: ==
+## Badguys:
 
-=== Papaya: ===
+### Papaya:
 
 A papaya with eyes and feet.
 Since this a very tropical fruit, I though it would do well as an badguy for Tropical Islands.
@@ -18,17 +18,17 @@ However, other tropical fruits are certainly an option, and, of course,
 the badguy needn't even ''be'' a fruit.
 Mangoes and bananas would also work fine.
 
-=== [[Nutty]]: ===
+### Nutty:
 
-[[Image:Nutty.jpeg]]
+![Image:Nutty.jpeg](../../images/Nutty.jpeg)
 
 Nutty is a coconut. He has a palm leaf for hair and walks around.
 He is similar to Mr IceBlock and Slow Snail. When jumped,
 he loses his feet and eyes and can be kicked or carried.
 
-=== [[Mr Palm Tree]]: ===
+### Mr Palm Tree:
 
-[[Image:Mr Palm Tree.jpeg]]
+![Image:Mr Palm Tree.jpeg](../../images/Mr-Palm-Tree.jpeg)
 
 Similar to Walking Totem. A stack of segments,
 with the topmost being egg-shaped and having leaves.
@@ -41,9 +41,9 @@ bounce a few times and then turn into [[Nutty]].
 While in the air and while bouncing they are burnable,
 but not squishable, butt-jumpable or freezable.
 
-=== [[Ghostly Tree]]: ===
+### Ghostly Tree:
 
-[[Image:Spooky Tree.jpeg]]
+![Image:Spooky Tree.jpeg](../../images/Spooky-Tree.jpeg)
 
 This one is for the Ghost forest.
 Although, as you'll see if you follow the link, this idea had already been thought of,
@@ -52,9 +52,9 @@ It is similar to the normal Mr Tree, but instead of two Ivies it releases two [[
 I also though that Spooky Tree (or even Mr Tree) could have two branches either side of him 
 which Tux could stand on.
 
-=== [[Bat]]: ===
+### Bat:
 
-[[Image:Mr Bat.jpeg]]
+![Image:Mr Bat.jpeg](../../images/Mr-Bat.jpeg)
 
 I had him called Mr Bat, and discovered as I did with Spooky Tree 
 that someone already had a similar idea.
@@ -68,16 +68,16 @@ If he dodges at the right time, the bats are stunned, at which point they could 
 If they weren't squished soon enough, they would fly
 again to the top of the screen and again at Tux, and so on, and so on...
 
-[[Image:Mr Bat Stunned.jpeg]]
+[Image:Mr Bat Stunned.jpeg]
 
-=== [[Anteater]] ===
+### Anteater:
 
-[[Image:Anteater.jpeg]]
+![Image:Anteater.jpeg](../../images/Anteater.jpeg)
 
 I also provided a few ideas about behaviour. 
 (The head not hurting Tux and the swishy tail.)
 
-=== Avalanche ===
+### Avalanche:
 
 I read in the meeting log for August '07 the idea for an avalanche that chases Tux along,
 as opposed to an auto-scrolling screen.
@@ -86,65 +86,65 @@ I like this idea, and here's a few ideas of my own:
 Forest Island (which insidentally should have a more catchy name like Icyisland) they aren't really round enough to 
 form an avalanche. So perhaps a pile of mossy rocks? Coconuts in the tropical islands?
 
-== Worlds and Tilesets ==
+## Worlds and Tilesets
 
-=== Tilesets for Tropical Islands (World 3) ===
+### Tilesets for Tropical Islands (World 3)
 
-==== The Beach ====
+#### The Beach
 
 Sand dunes with tufts of grass. Levels on the edges of the island could be like this.
 
-==== The Palm Forest ====
+#### The Palm Forest
 
 A rocky ground with mossy rocks and ferns and palm trees (similar to trees in world 2 but palms). Perhaps trees could have coconuts in them, some of which drop? Tufts of grass.
 
-==== The Volcano ====
+#### The Volcano
 
 Tropical islands always have volcanoes on them, it's a known fact. So there could be rocky grey tiles with lots of lava in the levels and different badguys (Lots of Pyros and Flames).
 
-== Objects and Powerups ==
+## Objects and Powerups
 
-=== Table of Bullets ===
+### Table of Bullets
 
 There could be, say, one or two types of bullet for each world, but you can carry them between worlds. Different bullets could be used
 for different things. Eg,
 
-'''ICYISLAND:'''
+* **ICYISLAND:**
 Fire Bullets: Dispatches all Snowballs, Iceblocks, Jumpies and Fish, explodes Bombs.
 Gain 8p/b. Bullet bounces.
 
-Ice Bullets: Dispatches Fish, freezes Spiky Snowballs, Jumpies and Bombs. Dispatches all Forest badguys bar flames and wisps.
+* Ice Bullets: Dispatches Fish, freezes Spiky Snowballs, Jumpies and Bombs. Dispatches all Forest badguys bar flames and wisps.
 Gain 8p/b. Bullet bounces.
 
-Snowball: Dispatches all Snowballs, Iceblocks, Jumpies, Fish and Bombs. Also Ivies, W. Leaves, Trees, Igels, Zeeklings & Snails.
+* Snowball: Dispatches all Snowballs, Iceblocks, Jumpies, Fish and Bombs. Also Ivies, W. Leaves, Trees, Igels, Zeeklings & Snails.
 Gain 4p/b. Snowball flies in straight line and can dispatch two badguys in a row, however stops on all Spikies and Jumpies.
 
-'''FOREST ISLAND:'''
+* **FOREST ISLAND:**
 Fire Bullets: Dispatches Ivies, Walking Leaves, Trees, Fish, Igels (if hit in head), zeeklings and Snails.
 Gain 8p/b. Bullet bounces.
 
-Seed Bullets: Dispatches Fish, takes root on Ivies, Walking Leaves, Trees, Igels, Zeeklings & Snails. Dispatches all Icyisland badguys
+* Seed Bullets: Dispatches Fish, takes root on Ivies, Walking Leaves, Trees, Igels, Zeeklings & Snails. Dispatches all Icyisland badguys
 bar flames.
 Gain 8p/b. Seed bounces.
 
-Rock: Dispatches Ives, Walking Leaves, Trees, Fish, Igels, Zeeklings and Snails. Dispatches Igels if hits head.
+* Rock: Dispatches Ives, Walking Leaves, Trees, Fish, Igels, Zeeklings and Snails. Dispatches Igels if hits head.
 Gain 4p/b. Rock flies in straight line and can dispatch two badguys in a row, however stops on Igels' backs.
 
-=== Non-Bullet Powerups ===
+### Non-Bullet Powerups
 
-Ballooner: A small balloon grows from the top of the box. When gathered, Tux has puffed cheeks. And when you press action, he swells up. He can then move up and down with up and down. However, to move right, you press left, so that tux blows left and blows himself along, and to move left you press right. (Not entirely my idea...)
+* Ballooner: A small balloon grows from the top of the box. When gathered, Tux has puffed cheeks. And when you press action, he swells up. He can then move up and down with up and down. However, to move right, you press left, so that tux blows left and blows himself along, and to move left you press right. (Not entirely my idea...)
 
-FloatyTux: A rubber ducky appears on the box. When gathered, a thing appears round Tux's waist that looks like a deflated floaty.
+* FloatyTux: A rubber ducky appears on the box. When gathered, a thing appears round Tux's waist that looks like a deflated floaty.
 When you press action, it inflates and stays inflated till he gets hit by a baguy, when it pops. The good side?
 He can float across water.
 
-PogoTux: Tux gets a pogo stick. This is essentially like a trampoline, but he carries it with him when he bounces. When he stays
+* PogoTux: Tux gets a pogo stick. This is essentially like a trampoline, but he carries it with him when he bounces. When he stays
 in one spot, he bounces continually but only slightly. When he moves, he bounces slightly higher, and when he jumps its like when 
 he jumps on a trampoline.
 
-BigTux(or helmet Tux): This is the traditional egg. However, if BigTux/SmallTux is erased from the game, he get a helmet or a hardhat instead.
+* BigTux(or helmet Tux): This is the traditional egg. However, if BigTux/SmallTux is erased from the game, he get a helmet or a hardhat instead.
 
-Inventory:
+## Inventory:
 A small inventory box. Tux always has it. It is capable of holding on type of bullet, two types of non-bullet powerup and three
 Penguin Hearts.
 There is a different button for Bullet, Non-Bullet One and Non-Bullet Two.

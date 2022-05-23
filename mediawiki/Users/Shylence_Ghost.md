@@ -3,7 +3,7 @@ A (very buggy) implementation of [[Ghost, Type I]].
 To try this out:
 
 1. Save this image as '''ghost.png'''
-[[Image:ghost.png]]
+[Image:ghost.png]
 
 2. Save the following text as ''somename''.patch
 

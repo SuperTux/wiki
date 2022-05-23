@@ -1,6 +1,6 @@
 Work in Progress....
 
-==Prerequisites==
+## Prerequisites
 
 Installing MacPorts [http://www.macports.org/]
 Update MacPorts
@@ -8,9 +8,9 @@ Update MacPorts
 
 Install libraries from Macports:
 
- sudo port install libsdl libsdl_image cmake libvorbis physfs glew boost
+`sudo port install libsdl libsdl_image cmake libvorbis physfs glew boost`
 
-==Build SuperTux==
+## Build SuperTux
  svn checkout http://supertux.lethargik.org/svn/supertux/trunk/supertux
  cd supertux
  mkdir build
@@ -18,19 +18,19 @@ Install libraries from Macports:
  cmake ..
  make
 
-==Resolve issues with missing library==
- cd ..
- cp /opt/local/lib/libphysfs.2.0.0.dylib libphysfs.1.dylib
+## Resolve issues with missing library
+ `cd ..`
+ `cp /opt/local/lib/libphysfs.2.0.0.dylib libphysfs.1.dylib`
 
-==Test SuperTux==
- ./supertux2
+## Test SuperTux
+ `./supertux2`
 
-==Create SuperTux.app==
- cd build
- sudo make install
- sudo mv /usr/local/SuperTux.app ../
+## Create SuperTux.app
+ `cd build`
+ `sudo make install`
+ `sudo mv /usr/local/SuperTux.app ../`
 
-==Link libaries into the app==
+## Link libaries into the app
 Download mac dylib bundler at http://macdylibbundler.sf.net/ (0.3.1)
 Unpack it and run
  make
