@@ -89,6 +89,6 @@ If you are brave and want builds straight from SVN, place `**` after the supertu
 
 ### Getting the SVN for mac
 
-I have provided a link to download packaged SVN builds for mac: [Download/Supertux SVN Version Mac](Download/Supertux_SVN_Version_Mac "wikilink") [Monstertux](User#monster "wikilink") 21:03, 13 April 2011 (UTC)
+I have provided a link to download packaged SVN builds for mac: [Download/Supertux SVN Version Mac](Download/Supertux_SVN_Version_Mac "wikilink") [Monstertux](mediawiki/Users/monster) 21:03, 13 April 2011 (UTC)
 
 <Category:Development> <Category:Meta> <Category:SuperTux> <Category:Development> <Category:Meta> <Category:SuperTux>

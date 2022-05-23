@@ -3,7 +3,7 @@
 There are various videos on the internet documenting the use of the built-in level editor. This is a list of some of the useful ones. However, due to the nature of the internet this list is probably incomplete. You're always welcome to add new ones!
 
 Markdown-based:
-- [0.6.0 Guide](https://github.com/Ordoviz/wiki/blob/master/Editor-Guide-0-6-0.md) by Ordoviz
+- [0.6.0 Guide](https://github.com/Ordoviz/wiki/blob/master/Editor-Guide-0-6-0) by Ordoviz
 
 Videos:
 - [Basic Tutorial](https://www.youtube.com/watch?v=gsuKAy18iWo) by brmbrmcar

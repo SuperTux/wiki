@@ -261,7 +261,7 @@ variables: sdldoc.csn.ul.ie/sdlenvvars.php.
 > The right place to change those settings would probally in a launcher application that starts before SuperTux itself and
   allows setting of sound driver, video resolution and other stuff, its a very common thing in Windows and might be a good
   idea under Linux as well, especially since those SDL environment variables are not exactly easy to find. --
-  [Grumbel](User#grumbel "wikilink") 07:47, 1 Aug 2006 (BST)
+  [Grumbel](mediawiki/Users/grumbel) 07:47, 1 Aug 2006 (BST)
 
 Ipod touch
 ----------
