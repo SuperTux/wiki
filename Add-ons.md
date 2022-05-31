@@ -1,11 +1,11 @@
 **Add-ons** are extensions for *SuperTux* which are distributed
 separately from the main distribution. In most cases, they are sets of
 levels contributed by users or groups of users. They may, however,
-include custom [[tilesets|Tileset]], which may give these
+include custom [tilesets](Tileset), which may give these
 levels a very distinct look.
 
 Add-ons can be downloaded from within *SuperTux*. Simply ensure you
-have an internet connection, and select “Addons” from the main menu,
+have an internet connection, and select “Add-ons” from the main menu,
 where you can choose to install the currently available add-ons.
 
 The addons are managed in two repositories:
@@ -28,145 +28,109 @@ If you cannot use the *Add-on manager* for some reason (for example if
 you built *SuperTux* without *libcurl*), you can download the add-ons,
 which are distributed as `.zip` files. Just copy the file(s) to your
 *SuperTux 2* config directory (`~/.supertux2/` on UNIX / Linux,
-`%USERPROFILE%\supertux2\` on Windows).
+`%APPDATA%\SuperTux\supertux2\` on Windows).
 
     $ wget -P ~/.supertux2 $ADDON_URL
 
-Creating Mods
-=============
+Creating Addons
+===============
 
-So you've played SuperTux, beating all the levels, including the bonus levels, and now you want more. Happily, you're in luck. The Supertux Fan Site had loads of levels but supertux.info/pmlvls.php is no more. But now you want to actually play them, instead of looking at the screenshots, or create your own fun levels. These instructions are for you.
+So you've played SuperTux, beating all the levels, including the bonus levels, and now you want more.
+
+You can either install addons, or create your own. If you wish to create your own addons, the following instructions are for you:
 
 Creating Levels
 ---------------
 
-Levels are created in different ways depending on which version you are using, as the format changed between 0.1.x and 0.3.x. Also, 0.3.x has a separate editor and game. Anyway, these will create some .stl files for you to enjoy.
+Levels are created in different ways depending on which version you are using, as the format changed between 0.1.x, 0.3.x and 0.5.x. Also, 0.3.x has a separate editor and game. Anyway, these will create some .stl files for you to enjoy.
 
-### SuperTux 0.1.x
-
+<details>
+<summary><b>SuperTux 0.1.x</b></summary>
+<br>
 Create as many levels as you want using the built-in editor. Try reading the editor help first by pressing F1.
-
+   
 #### Creating Worldmaps
 
-There's another editor from <http://roofrabbit.com/supertux.html#editor> written in VB that you can use to create worldmaps, or you could try to use [FlexLay](http://flexlay.berlios.de).
+You could try to use [FlexLay](http://flexlay.berlios.de) for creating worldmaps.
 
-### SuperTux 0.3.x
+</details>
 
-Download the SuperTux Editor from [Download/Unstable](Download/Unstable "wikilink"). The [Editor FAQ](Editor_FAQ "wikilink") might be helpful. Alternately, you could create 0.1.x levels and then modify them using a text editor or the [Scheme converter script](http://supertux.lethargik.org/svn/supertux/trunk/supertux/tools/levelconverter-0.1.3_0.2.0.scm) into version 2 levels. See the [File formats](File_formats "wikilink") page for details.
+<details>
+<summary><b>SuperTux 0.3.x</b></summary>
+<br>
+Download the SuperTux Editor. The Editor FAQ might be helpful. Alternately, you could create 0.1.x levels and then modify them using a text editor or the Scheme converter script into version 2 levels. See the [File formats](File_formats) page for details.
 
-Packaging Levels
+<br>
+</details>
+
+### SuperTux 0.5.x to newest
+
+You can use the in-game level editor to create levels and worldmaps.
+
+Packaging Addons
 ----------------
 
-Once you've made these beautiful levels, you want to let the world see them. Just follow these easy steps, which will make archives usable directly as addons for 0.3.x and allow one-step unpacking in 0.1.x:
+Once you've made these beautiful levels, you want to let the world see them.
 
--   Pick a “meaningful name”. This name will be used as file and directory name - the user won't get in touch with it. So pick a short but descriptive name. Your name or acronym should be sufficient, for example. Here, we will use *my-levels* as example.
--   Create a new directory hierarchy: `levels/`*`my-levels`*
--   Copy your levels (\*.stl files) into your that folder.
--   If you made a [worldmap](worldmap "wikilink"), you have to put it
-    -   **0.1:** in `levels/worldmaps/` as *`my-levels`*`.stwm`, or
-    -   **0.3:** in your `levels/`*`my-levels`*`/` as `worldmap.stwm`.
--   To make it an addon, create a *`my-levels`*`.nfo` text file in the top level of your directory hierarchy and fill it with the following information. See the [\#.nfo files](#.nfo_files "wikilink") section below for details.
+### Automatically packaging addons
 
-`(supertux-addoninfo`
-` (kind `“`<Type:`` ``Level,`` ``Level`` ``Subset,`` ``World,`` ``...>`”`)`
-` (title "`
+Since SuperTux 0.6.3, you can package addons in one click, using the "Package Add-on" option in the main level editor menu.
 
-<Title Here>
-")
+### Manually packaging addons
 
-` (author `“<Your name here>”`)`
-` (license `“<Pick a license; all official levels are at least GPL 2 / CC-by-sa >”`)`
-` (http-url `“<Place where you plan to upload it>”`)`
-` (file `“<Name of your directory>`.zip`”`)`
-`)`
+1. Pick a “meaningful name”. This name will be used as file and directory name - the user won't get in touch with it. So pick a short but descriptive name. Your name or acronym should be sufficient, for example. Here, we will use *my-levels* as example.
+2. Create a new directory hierarchy: `levels/`*`my-levels`*
+3. Copy your levels (\*.stl files) into your that folder.
+4. If you made a worldmap, you have to put it n your `levels/`*`my-levels`*`/` as `worldmap.stwm`.
+5. To make it an addon, create a *`my-levels`*`.nfo` text file in the top level of your directory hierarchy, and fill it in with the information, listed in [NFO files](#nfo-files).
+6. So that it shows up in the “Contrib Levels” -> "Community Contrib Levels" menu, you need to create a `levels/`*`my-levels`*`/info` file. Its contents should look like this:
 
--   So that it shows up in the “Contrib Levels” menu, you need to create an `levels/`*`my-levels`*`/info` file. You really only need this:
+```
+(supertux-level-subset
+  (title "<Name as will appear in menu>")
+  (description "<Description of your levels>")
+  (hide-from-contribs #f)
+  (levelset `<Do you have a worldmap? Yes ⇒ #f, No ⇒ #t>`)
+  (contrib-type "community")
+)
+```
 
-`(supertux-world`
-` (title (_ `“<Name as will appear in menu>”`))`
-` (description `“`<Description`` ``of`` ``your`` ``levels>`”`)`
-` (hide-from-contribs #f)`
-` (levelset `<Do you have a worldmap? Yes ⇒ #f, No ⇒ #t>`)`
-`)`
+7. Use a ZIP utility to package up your directory into `my-levels.zip`.
 
--   Use a ZIP utility to package up your directory into `my-levels.zip`.
--   Once you're done, your tree should look like this:
+NFO files
+---------
 
-**0.1:**
+Addon .nfo files look like this:
 
-`my-levels.zip`
-`!`
-`+-- levels/`
-`!   !`
-`!   +-- my-levels/`
-`!   !   !`
-`!   !   +-- `*`*.stl`*
-`!   !   +-- info`
-`!   !`
-`!   +-- worldmaps/`
-`!       !`
-`!       +-- my-levels.stwm`
-`!`
-`+-- my-levels.nfo`
+```
+(supertux-addoninfo
+  (id "octo-levels")
+  (version 1)
+  (type "worldmap")
+  (title "Octo's Levels")
+  (author "Octo")
+  (license "GPL 2+ / CC-by-sa 3.0")
+)
+```
 
-**0.3:**
+The `id` is a identifier for this addon, it has to be unique across
+all addons, as it is used to compare the addons with new ones from
+other sources to find updates. It is recomment to use something like
+"{author}-{title}". The `id` must be all lowercase and only contain
+characters of the set "[a-z][0-9]-", underscore is not allowed as it
+is used for the version number.
 
-`my-levels.zip`
-`!`
-`+-- levels/`
-`!   !`
-`!   +-- my-levels/`
-`!       !`
-`!       +-- `*`*.stl`*
-`!       +-- info`
-`!       +-- worldmap.stwm`
-`!`
-`+-- my-levels.nfo`
+The `version` number is a simple integer, it should be increased each
+time the addon is changed.
 
--   You've made a package. Now log on to [IRC](Contact#IRC "wikilink") and let us know about your addition! :)
+The `type` gives an indication of what is contained within the addon,
+valid values are "worldmap", "world", "levelset". At the moment this
+is only a description for the user and doesn't have any impact on how
+the addon is handled.
 
-### .nfo files
-
-An **.nfo file** is a file in the typical Lisp-syntax which describes your add-on in some detail. It can originate from two locations:
-
--   As the file *`my-levels`*`/`*`my-levels`*`.nfo` within your add-on.
--   As a text-file retrieved from an URL.
-
-#### Valid keys
-
-  
-*(As of [6398](Template:Revision "wikilink"))*
-
-kind  
-Type of your add-on. This is used when displaying information about your add-on to the user. If in doubt, use “Levels” here.
-
-title  
-Title (name) of your add-on
-
-author  
-Your name
-
-license  
-License under which your levels are provided. “GPL 2+ / CC-by-sa 3.0” is the preferred license for *SuperTux* content.
-
-http-url  
-URL pointing to this add-on, i.e. the .zip-file. Used for downloading the add-on based on the information provided in the (separate) info file.
-
-file  
-Filename used to store the add-on. Be conservative and use “*my-levels*.zip”. This field is intended to be used when the info file is downloaded from a URL.
-
-md5  
-MD5-sum of your .zip-file. This field only makes sense when downloading the info file from an URL.
-
-Installing Levels
------------------
-
-This is the hard part. People don't follow these guidelines, because they didn't exist, and so make lots of strange directory layouts. But there are some general rules:
-
--   If it's advertised as a 0.3.x addon, it probably is. To install this, just unpack it in your supertux data directory, or better yet put it in your .supertux2 directory. (See [Console](Console "wikilink") for the location; it's the directory with the config file in it) Starting with Subversion [5458](Template:revision "wikilink"), you can also put the archives into the data folder without bothering to unpack them.
--   If they followed these instructions for 0.1.x, you can still just unpack the archive into the supertux data directory.
--   For other levels, you'll have to install them manually. Unpack the archive to a convenient location. If there's a README file, see if it has instructions for installation and follow those.
--   If there's no README file, try following the packaging instructions above, skipping the zipping instructions. Then you can copy the stuff in your layout directly into the supertux data directory.
+The .nfo file itself needs to be stored in the top-level directory of
+the addon and should be named by the unique id of the addon, i.e.
+`/octo-levels.nfo` in this example.
 
 TODO
 ----
@@ -178,5 +142,3 @@ This doesn't tell you all there is to know about modifying SuperTux; check back 
 -   Adding new images or sounds
 -   Replacing game files
 -   Installing a new supertux executable
-
-<Category:Development>
