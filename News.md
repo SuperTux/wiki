@@ -1,3 +1,8 @@
+2021
+====
+
+- SuperTux 0.6.3 has been released.
+
 2018
 ====
 
