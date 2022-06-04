@@ -18,13 +18,14 @@ Confirmed Badguys
 ### Tropical Paradise
 
 - Totem
-- Totemjumpy
+- Totem Jumpy
+- Venus Trap
 
 ### Nolok's Mountain Peak
    
 - Rusty Bomb
 - Hellbent
-- Metaljumpy
+- Metal Jumpy
 - Metal Crusher
 - Rocket
 - Ispy
@@ -61,7 +62,7 @@ Proposed Badguys
 - Evil Seaweed
 - Charmeleon
 - Parrot
-- Frog
+- Frog/Toad
 - Snake
 - Monkey
 - Piranha
@@ -79,6 +80,7 @@ Proposed Badguys
 - Shark
 - Jumping Fish
 - Tumbleweed
+- Bee/Wasp/Hornet
 
 ### Nolok's Mountain Peak
 
