@@ -5,24 +5,24 @@ Website
 
 -   The titlebar of the browser in this wiki shows “Wikipedia” instead of “SuperTux” when logged in.
       
-    Can't reproduce that problem. Works fine here. --[WolfgangB](User#wolfgangb "wikilink") 00:30, 15 Sep 2006 (BST)
+    Can't reproduce that problem. Works fine here. --[WolfgangB](mediawiki/Users/wolfgangb) 00:30, 15 Sep 2006 (BST)
 
       
-    I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar. Right now the CSS on the wiki is messed up for me, but I know it is just me. --[Tuxdev](User#tuxdev "wikilink") 00:48, 15 Sep 2006 (BST)
+    I've sometimes noticed with certain sites that exiting a tab (in Firefox) will not update the titlebar. Right now the CSS on the wiki is messed up for me, but I know it is just me. --[Tuxdev](mediawiki/Users/tuxdev) 00:48, 15 Sep 2006 (BST)
 
       
     It's still there. I'm using Opera 9 on Ubuntu Dapper
 
       
-    So am I, but I don't experience anything like it. Maybe a custom skin? Can you give steps to reproduce? --[84.146.251.243](User#84.146.251.243 "wikilink") 14:02, 29 Oct 2006 (CET)
+    So am I, but I don't experience anything like it. Maybe a custom skin? Can you give steps to reproduce? --[84.146.251.243](mediawiki/Users/84.146.251.243) 14:02, 29 Oct 2006 (CET)
 
       
     I simply log in, and when logged in every single page has “Wikipedia” instead of “SuperTux”. I am not using any custom skin or such. --Shylence 18:24, 3 Nov 2006 (CET)
 
       
-    Well I see SuperTux when I login. **Nowhere** does it say Wikipedia. Can you please tell where exactly you see Wikipedia on any page? --[AnMaster](User#anmaster "wikilink") 20:35, 3 Nov 2006 (CET)
+    Well I see SuperTux when I login. **Nowhere** does it say Wikipedia. Can you please tell where exactly you see Wikipedia on any page? --[AnMaster](mediawiki/Users/anmaster) 20:35, 3 Nov 2006 (CET)
 
-    Probably because you set the Wiki to output non-english content. Wikimedia comes in 86 different languages and SuperTux-specific strings were only added for some of them. The Wiki now forces an english locale for all users until we have localizations for the rest of the supported languages. --[Sommer](User#sommer "wikilink") 13:50, 4 Nov 2006 (CET)
+    Probably because you set the Wiki to output non-english content. Wikimedia comes in 86 different languages and SuperTux-specific strings were only added for some of them. The Wiki now forces an english locale for all users until we have localizations for the rest of the supported languages. --[Sommer](mediawiki/Users/sommer) 13:50, 4 Nov 2006 (CET)
 
       
     I was using Italian language pack, works fine with English one. Sorry for the trouble. --Shylence 17:09, 4 Nov 2006 (CET)
@@ -34,7 +34,7 @@ Development version
 
 -   4426: Console is operational during the main menu, which means you can use 'kill()' to kill Tux; the level fades out and does not fade back in again, resulting in a quiet, black background with the main menu (which still works).
       
-    The console is a debugging tool, you can mess up any game using it as you can call any function that you could call using a script. And as normal users would never use the console I don't think that this seems like an important bug. Also having the console reachable from anywhere in the game is good for debugging (and that is what the console is meant for, it isn't for cheating...). --[AnMaster](User#anmaster "wikilink") 12:25, 29 Oct 2006 (CET)
+    The console is a debugging tool, you can mess up any game using it as you can call any function that you could call using a script. And as normal users would never use the console I don't think that this seems like an important bug. Also having the console reachable from anywhere in the game is good for debugging (and that is what the console is meant for, it isn't for cheating...). --[AnMaster](mediawiki/Users/anmaster) 12:25, 29 Oct 2006 (CET)
 
     Not a bug.
 
@@ -42,7 +42,7 @@ Development version
 
 -   If you jump through a non-solid block into a solid one, you go through the solid blocks. (This is kind of hard to explain. We need a site where we can post levels to demonstrate bugs...)
       
-    You might be experiencing a new feature of ST engine, unisolid tiles. Example level is “Detour”, for the tree branches. --[Tuxdev](User#tuxdev "wikilink") 18:11, 20 Dec 2006 (CET)
+    You might be experiencing a new feature of ST engine, unisolid tiles. Example level is “Detour”, for the tree branches. --[Tuxdev](mediawiki/Users/tuxdev) 18:11, 20 Dec 2006 (CET)
 
     I already knew about unisolid tiles. This wasn't a bug in supertux, just a bug in my level - I had put some foreground tiles over unisolid ones thinking they were just plain solid tiles next time I looked at that level.
 
@@ -95,7 +95,7 @@ Different Badguys behave different. Not a bug.
 
 -   4249: In “Tree Fortress” level: sometimes when Zeekling hits first Mr Tree Mr Tree can suddenly appear on wooden border and, of course stuck there. (Quite hard to reproduce)
       
-    This is a general problem when badguys stack - it always looks a bit out of place. SuperTux might be better off either letting badguys walk through each other or having badguys get squished when another badguy steps on their head. --[131.188.73.150](User#131.188.73.150 "wikilink") 14:08, 26 Sep 2006 (BST)
+    This is a general problem when badguys stack - it always looks a bit out of place. SuperTux might be better off either letting badguys walk through each other or having badguys get squished when another badguy steps on their head. --[131.188.73.150](mediawiki/Users/131.188.73.150) 14:08, 26 Sep 2006 (BST)
 
   
   
@@ -174,11 +174,11 @@ Seems to go away with \#define LIGHTMAP\_DIV 5 instead of 4 (light lines) or 1 (
 
 <!-- -->
 
--   4249: Squirrel function wait() counts real seconds, not game seconds - so cutscenes can end up deadly for Tux of time synchronisation doesn't fit. -- [Penguinmaster](User#penma "wikilink") 23:42, 30 Sep 2006 (CEST)
+-   4249: Squirrel function wait() counts real seconds, not game seconds - so cutscenes can end up deadly for Tux of time synchronisation doesn't fit. -- [Penguinmaster](mediawiki/Users/penma) 23:42, 30 Sep 2006 (CEST)
 
 <!-- -->
 
--   4327: Forest worldmap has a level off the path, and says that “tilemap data is buggy” when I get near it.--[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 15:34, 1 Oct 2006 (CEST)
+-   4327: Forest worldmap has a level off the path, and says that “tilemap data is buggy” when I get near it.--[DJ Wings](mediawiki/Users/djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings) 15:34, 1 Oct 2006 (CEST)
 
 <!-- -->
 
@@ -195,7 +195,7 @@ Release 0.3.0
 
 -   When I quit the same on world 2, and then relaunch it, I am back on world 1.
       
-    Fixed in SVN --[Sommer](User#sommer "wikilink") 22:21, 2 Jan 2007 (CET)
+    Fixed in SVN --[Sommer](mediawiki/Users/sommer) 22:21, 2 Jan 2007 (CET)
 
 <!-- -->
 
@@ -207,31 +207,31 @@ Release 0.3.0
 
 -   Doing a backflip while in fire Tux mode causes Tux to lose the fire mode. If this is the intended behavior, it's not documented in the user manual.
       
-    Now it is --[Sommer](User#sommer "wikilink") 22:21, 2 Jan 2007 (CET)
+    Now it is --[Sommer](mediawiki/Users/sommer) 22:21, 2 Jan 2007 (CET)
 
 <!-- -->
 
 -   I've got an Nvidia TNT2 (I'm using legacy drivers version 1.0.7184+2.6.17.6-1 in kubuntu edgy). When I start supertux I get “Fatal: Unexpected exception: Couldn't set video mode (800x600-0bpp): Couldn't find matching GLX visual”.
       
-    I don't think that's SuperTux' fault --[Sommer](User#sommer "wikilink") 22:21, 2 Jan 2007 (CET)
+    I don't think that's SuperTux' fault --[Sommer](mediawiki/Users/sommer) 22:21, 2 Jan 2007 (CET)
 
 <!-- -->
 
 -   carrying an ice cube no longer protects Tux from other badguys. Is this an intended change? It was useful in the previous release.
       
-    Intended behaviour --[Sommer](User#sommer "wikilink") 22:21, 2 Jan 2007 (CET)
+    Intended behaviour --[Sommer](mediawiki/Users/sommer) 22:21, 2 Jan 2007 (CET)
 
 <!-- -->
 
 -   Big Tux can't go through places that are only as high as the small Tux. In previous version Big Tux was able to go through that by ducking, in this version Big Tux reverts back to the small Tux.
       
-    Intended behaviour --[Sommer](User#sommer "wikilink") 22:21, 2 Jan 2007 (CET)
+    Intended behaviour --[Sommer](mediawiki/Users/sommer) 22:21, 2 Jan 2007 (CET)
 
 <!-- -->
 
 -   When I cancel a level, Tux gets back on the map to the level I have finished before starting this level. I would prefer that Tux gets to the level I have just canceled.
       
-    Fixed --[Sommer](User#sommer "wikilink") 23:15, 8 Jan 2007 (CET)
+    Fixed --[Sommer](mediawiki/Users/sommer) 23:15, 8 Jan 2007 (CET)
 
 ### Open
 
@@ -244,7 +244,7 @@ Release 0.3.0
 -   Only a small Bug, but nevertheless mentionable: If you eat a snowball to become the great Tux and you are immediately killed afterwards (so you have eaten the snowball, but the effect has not yet started to work), you start as great Tux at the beginning of the level.
 -   Running the game with the open source ATI graphics driver, there are colored lines shown where tiles meet. This happens in both the world maps and the levels themselves. The closed-source ATI drivers fix this problem, but for those with older ATI hardware, this will look bad.
       
-    This also happens to me using the NVIDIA drivers. Either this is a off-by-one error in SuperTux that happens to be negated by a similar bug in the ATI drivers, or is a bug in the open source and NVIDIA drivers that is exposed by SuperTux. --[Tuxdev](User#tuxdev "wikilink") 05:46, 27 Dec 2006 (CET)
+    This also happens to me using the NVIDIA drivers. Either this is a off-by-one error in SuperTux that happens to be negated by a similar bug in the ATI drivers, or is a bug in the open source and NVIDIA drivers that is exposed by SuperTux. --[Tuxdev](mediawiki/Users/tuxdev) 05:46, 27 Dec 2006 (CET)
 
     This is the graphics card or the drivers doing anti aliasing with the pixels on the edge, although antialiasing shouldn't be needed as the image widths and heights are only whole pixels. We should be able to work around these bugs by producing images with the border pixels doubled (go from 32x32 to 34x34, put the original image into the middle and diplicate the border pixel lines, you can see how this stuff could work in the windstille sources for example)
 
@@ -256,9 +256,9 @@ Release 0.3.0
 -   I get a warning that the tilemap data is buggy, when I force Tux to go straight on where the path on the map has a curve.
 -   At the end of level I get informations about how much coins (...) I got. But this doesn't seem to work since the information below “Now” and “Record” are the same. Sometimes I don't get these information at all and Tux just gets back to the map.
       
-    Level statistics are currently not saved to disk --[Sommer](User#sommer "wikilink") 22:21, 2 Jan 2007 (CET)
+    Level statistics are currently not saved to disk --[Sommer](mediawiki/Users/sommer) 22:21, 2 Jan 2007 (CET)
 
-    Also, no statistics are available when you use a checkpoint after getting killed in a level --[Sommer](User#sommer "wikilink") 22:21, 2 Jan 2007 (CET)
+    Also, no statistics are available when you use a checkpoint after getting killed in a level --[Sommer](mediawiki/Users/sommer) 22:21, 2 Jan 2007 (CET)
 
       
     Thank you for the explanation, will statistics be added even after using a checkpoint?
@@ -267,7 +267,7 @@ Release 0.3.0
 -   At certain places in certain levels on my system, everything slows down to 1-2 frames per second, whereas normally the game is very fast and smooth. I have a 1.1 GHz Mac G3. This slowdown happens every time on the 23rd Airborne level. It's slow as Tux is dropping to the ground at the beginning, then once he's on the ground it speeds up to normal. However, once he runs to the right and jumps to the first “mountain”, the game slows back down to 1 or 2 frames/sec. Could my system simply be too slow to play the game?
 -   Your new autopackage does not work at all. I double click it but nothing happens. No error message, no supertux installed. I use the latest supertux-0.3.0b.x86.package. The supertux-0.3.0a package at least shows a message that you made a mistake building the package. Please fix this fast, I want to play the new levels.
       
-    Did you try manually running the package installer? To do so, open a command line window, change to the directory you downloaded the file supertux-0.3.0b.x86.package to (e.g. “cd ~/Desktop”), then either run “~/.local/bin/package install supertux-0.3.0b.x86.package” or “package install supertux-0.3.0b.x86.package”, depending on where you installed autopackage. --[Sommer](User#sommer "wikilink") 23:03, 8 Jan 2007 (CET)
+    Did you try manually running the package installer? To do so, open a command line window, change to the directory you downloaded the file supertux-0.3.0b.x86.package to (e.g. “cd ~/Desktop”), then either run “~/.local/bin/package install supertux-0.3.0b.x86.package” or “package install supertux-0.3.0b.x86.package”, depending on where you installed autopackage. --[Sommer](mediawiki/Users/sommer) 23:03, 8 Jan 2007 (CET)
 
       
     I manually clicked the installer. There is nowhere I have installed the autopackage yet, because it does not work. No error dialog. If I run the package in a terminal it says FAIL:Install the package with the command 'package install' instead. but i don't have a 'package install' command. :-(
@@ -280,7 +280,7 @@ Release 0.1.3
 -   The texture.cpp file has an incorrect texture type (GL\_RGB10\_A2). Only ATI (FGLRX) drivers will interpret it correctly and will display a non-transparent waterfall in OpenGL. It's better to use GL\_RGBA here since most drivers (ex. mesa) interpret GL\_RGB10\_A2 as GL\_RGBA
 -   Widely experienced bug: After compiling v0.1.3 from source on Ubuntu Linux 5.10 “Breezy Badger”, the game crashes after choosing “Bonus Levels” from the main menu, although going into a 26-level game slot doesn't -djwings
       
-    Solved by upgrading to Dapper. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 16:40, 24 Sep 2006 (BST)
+    Solved by upgrading to Dapper. --[DJ Wings](mediawiki/Users/djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings) 16:40, 24 Sep 2006 (BST)
 
 -   I was able to walk throug the end of the level without finishing it. It happened while playing witw 12 frames/seconds.
 -   The jumping heads with spikes sometimes only jump to the level of a passing cloud.

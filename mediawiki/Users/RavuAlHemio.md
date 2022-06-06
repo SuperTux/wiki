@@ -8,7 +8,7 @@ In January 2006, he became hooked to gaming again and started booting Windows mo
 
 He still has to update his photo in the credits to reflect his new, longer-and-a-bit-unruly hairstyle, with which he can do headbangs while failing dismally at playing the guitar.
 
-== See also ==
+## See also
 * [[/Tasks|Tasks]] he wants to complete or has made attemps at completing
 * [[/Design thoughts|Thoughts]] he had or has about the game's design
 * A [[/Aversions and pet hates|few things]] I despise or really hate in the world of SuperTux. (This is not an attack against the rest of the team, you've done a great job so far, but simply reactions to things I don't like.)

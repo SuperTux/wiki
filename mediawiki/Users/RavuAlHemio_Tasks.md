@@ -15,7 +15,7 @@ I opt to fix the following issues (from the [[TODO]] list):
 
 In case you feel like taking over some of these tasks, tell me about that on the [[User_talk:RavuAlHemio/Tasks|discussion page]].
 
-== Completed tasks ==
+## Completed tasks
 * '''H:''' reimplement stay-on-platform flag '''(implemented with some badguys)'''
 * '''M:''' rework font code to work on UTF-8 pages.
 * '''L:''' rename GameObject::action() to GameObject::update() (this includes renaming active_action and inactive_action)

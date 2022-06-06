@@ -1,4 +1,4 @@
-== Recent Edits ==
+## Recent Edits
 
 You recently made multiple edits to multiple articles:
 *[[[Template:fullurl:Talk:Fish|diff=prev&oldid=13426]] Talk:Fish]
@@ -7,7 +7,7 @@ You recently made multiple edits to multiple articles:
 which deleted content made by other editors. I have replaced the content. If you would like to add content, do so without deleting other editors' contributions.
 You also recently made an [[[Template:fullurl:Talk:Argrystone|diff=prev&oldid=13431]] edit] to [[Talk:Argrystone]] which could be seen as spam. I have removed the content. Please refrain from making edits like that in the future. -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 22:27, 3 July 2011 (UTC)
 
-== Recent Edits and Uploads ==
+## Recent Edits and Uploads
 
 You recently made an [[[Template:fullurl:Talk:Fish|diff=prev&oldid=13439]] edit] to [[Fish]]
 which deleted content made by other editors. I have replaced the content. If you would like to add content, do so without deleting other editors' contributions. Please refrain from making edits like that in the future.
@@ -18,7 +18,7 @@ You also recently uploaded multiple images:
 *[http://supertux.lethargik.org/wiki/images/archive/9/97/20110704035901!Coloredmrpalmtree.png Coloredmrpalmtree.png]
 which do not fit the subject and could be seen as spam. I have removed the content. Please refrain from uploading images like that in the future. -- Qwood [[Special:Contributions/Qwood|(contribs)]] [[User talk:Qwood|(talk)]] 04:10, 4 July 2011 (UTC)
 
-== Recent Edits, Moves, and Uploads ==
+## Recent Edits, Moves, and Uploads
 
 You recently made an [[[Template:fullurl:Milestone_2_Design_Document/Enemies|diff=prev&oldid=13452]] edit] to [[Milestone_2_Design_Document/Enemies]]
 which was not in the correct section. I have moved the content. If you would like to add content, do so in the correct section. Please refrain from making edits like that in the future.

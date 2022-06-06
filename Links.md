@@ -96,6 +96,6 @@ A Live CD featuring SuperTux Mi1.9. [Final release](http://stl.rexburgopensource
 
 ### SuperTux 0.3.3 addon collection
 
-A [collection of addons](http://www.mediafire.com/?k47v61nz6i230) made for development snapshot 0.3.3 and 0.3.3-SVN. Mostly player-made levels submitted to the bugtracker but have yet to be implemented. Note that these levels are for the development version and may even have compatibility issues between the snapshot and the various revisions of SVN. Please pay attention to the intended version and keep in mind that they are unofficial addons and not maintained by the development team. This collection is maintained by [lmh](User#lmh "wikilink").
+A [collection of addons](http://www.mediafire.com/?k47v61nz6i230) made for development snapshot 0.3.3 and 0.3.3-SVN. Mostly player-made levels submitted to the bugtracker but have yet to be implemented. Note that these levels are for the development version and may even have compatibility issues between the snapshot and the various revisions of SVN. Please pay attention to the intended version and keep in mind that they are unofficial addons and not maintained by the development team. This collection is maintained by [lmh](mediawiki/Users/lmh).
 
 <Category:SuperTux>

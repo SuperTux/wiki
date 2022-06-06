@@ -3,18 +3,18 @@ So you've decided to compile SuperTux on Mac OS X. It's a bit less error-prone t
 <div style="border:2px solid gray;background-color:#eee;padding:3px">The Universal Binary-only instructions are enclosed in boxes like this one.</div>
 
 
-== Warnings ==
+## Warnings
 While this document describes how to make use of the OpenGL and OpenAL frameworks that are included with Mac OS X, it tells you how to get SDL compiled and installed UNIX-style (/usr/include and /usr/lib). If you wish to use the SDL framework available on its website, you will have to do some things differently. (This is where Linux programming knowledge is useful.)
 
 This guide also makes you compile SuperTux UNIX-style; you will use the Terminal instead of Xcode. Since it also describes exclusive use of GCC 4.0, your build will only run on versions &#8805; Tiger. (Search the web to find out how to use GCC 3 for the PPC build.)
 
 Quite a few instructions here imply you have already found your way around the terminal. If you haven't, you may wish to search for a few tutorials to become more proficient.
 
-== Installing the development tools ==
+## Installing the development tools
 Insert your Mac OS X installation CD into your DVD-ROM drive. In the window that opens, double-click on '''Xcode Tools''' and then on '''XcodeTools.mpkg'''. Continue through the installation wizard until you come to the '''Installation Type''' section. Here, click '''Customize'''. A successful constellation only requires '''Developer Tools Software''', '''gcc 4.0''', the '''Software Development Ki
 ts''' and the '''Mac OS X 10.4 (Universal) SDK''' (from under '''Cross Development'''). Keep on clicking yourself through the wizard until said tools are installed.
 
-== Building the libraries ==
+## Building the libraries
 You will need the following libraries to run SuperTux:
 * [http://libsdl.org/ SDL]
 * [http://libsdl.org/projects/SDL_image/ SDL_image]
@@ -42,15 +42,15 @@ If you intend to build distributable app bundles, pass ''--enable-jpg-shared=fal
 
 ( '''Note:''' RavuAlHemio, the original author of this document instructed to install libraries in /usr. I (Auria) personally prefer leaving the install default to /usr/local, because this way i can easily tell at any time what libs came with OS X and what libs i installed myself. That's valuable knowledge when you need to decide which libs you will package inside the app bundle ;) Nonetheless, if you would like to install in /usr instead, run <code>./configure --prefix=/usr && make && sudo make install</code>. If you install in /usr/local, also don't forget to add /usr/local/bin to your PATH)
 
-== Building jam ==
+## Building jam
 Since SuperTux uses jam as its building tool, you'll need to download and compile that too. (Apple bundles it with the development tools, but their version is somehow defective, so you're better off getting a clean distribution from Perforce.)
 
 First, download the archive (either in zip or uncompressed tar format) from the [ftp://ftp.perforce.com/jam/ Perforce FTP server]. Then, extract the files into a directory of your choice, enter it via the Terminal and run <code>make</code>. When everything is done, copy the resulting jam binary from <tt>build.x86</tt> or <tt>build.ppc</tt> to <tt>/usr/bin</tt> (e.g. <code>sudo cp build.x86/jam /usr/bin/</code>) and you're all set.
 
-== Getting Subversion and downloading SuperTux ==
+## Getting Subversion and downloading SuperTux
 To download the development version of SuperTux, you'll need [http://subversion.tigris.org/ Subversion]. You can either download precompiled disk images or compile the source yourself using the triplet introduced above. Once this is done, follow the directions in the article [[Download/Subversion]].
 
-== Building SuperTux ==
+## Building SuperTux
 In the Terminal, switch to the directory you have checked out SuperTux into. Then, run the following command to generate the configure script:
 
  ./autogen.sh
@@ -104,7 +104,7 @@ When the build process is completed and you are feeling lucky, the following com
 
 This should have done the trick. If something is too unclear or you think I haven't added enough detail, please alert me on this article's [[User talk:RavuAlHemio/Mac OS X compilation|talk page]] and I will do my best to improve this document.
 
-== Building an app bundle ==
+## Building an app bundle
 Okay, launching from the terminal works, but you'd like an app bundle like all OS X native apps. The instructions below will make it happen.
 
 * create a folder named e.g. "supertux_bundle" and cd into it.
@@ -149,7 +149,7 @@ cp -r ./data ./SuperTux.app/Contents/Resources/data
 </pre>
 * The app bundle will be ready and if all went correctly you should now be able to run SuperTux with a double-click from the Finder! It will not have an icon right now but that will eventually appear. '''However''', this bundle cannot yet be distributed as it depends on libraries not included inside the bundle.
 
-== Making the app bundle distributable ==
+## Making the app bundle distributable
 These instructions should result in a package that you can compress as dmg and put as download on a website.
 
 * Download mac dylib bundler from http://macdylibbundler.sf.net version 0.3 or better and build it with ''make && sudo make install''

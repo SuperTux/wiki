@@ -5,16 +5,16 @@ We do listen to user feedback occasionally. This page functions similarly to a c
 Instead of showing scrolling text, movies can be shown stating Penny's kidnap... and at-last the re-union. Wouldn't that be nice?
 
 
-I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the TODO list, and I guess it will be used for the story intro. --[Ravu](User#ravualhemio "wikilink") 14:30, 7 Apr 2005 (BST)
+I still remember the old SuperTux intro with Penny being kidnapped by the helicopter... as far as I know, cutscene support is on the TODO list, and I guess it will be used for the story intro. --[Ravu](mediawiki/Users/ravualhemio) 14:30, 7 Apr 2005 (BST)
 
 Wrong! The story was Tux and Penny were having a picnic, when a creature jumped from behind an ice bush, there was a flash and Tux fell asleep when he woke up there was a note from Nolok saying he had Penny and not to try and save her. So Tux looks sees Nolok's castle and sets off.
 
 I think in the story was: “A creature jumped from behind an ice bush, Tux...” ;-)- penma -
 
 
-The \*old\* (as in 0.0.5) cutscene involved the helicopter. The new SVN cutscene is the picnic scene. --[Tuxdev](User#tuxdev "wikilink") 22:00, 1 Oct 2006 (CEST)
+The \*old\* (as in 0.0.5) cutscene involved the helicopter. The new SVN cutscene is the picnic scene. --[Tuxdev](mediawiki/Users/tuxdev) 22:00, 1 Oct 2006 (CEST)
 
-Now we have the demos feature in SVN, and it shouldn't be too hard to make a 'movie' level for showing a demo mid-story. --[Ajdlinux](User#ajdlinux "wikilink") 23:20, 30 Sep 2005 (BST)
+Now we have the demos feature in SVN, and it shouldn't be too hard to make a 'movie' level for showing a demo mid-story. --[Ajdlinux](mediawiki/Users/ajdlinux) 23:20, 30 Sep 2005 (BST)
 
 ### Add a gamepad configuration
 
@@ -28,7 +28,7 @@ This has been improved in the development version. supertux now uses all availab
 Some levels are very hard in the middle and in the ending. Is there a way to make more starting points? So you haven't to start everytime at beginning of the level. Sometimes I need ten and more trials to cope a situation. It will be very useful. Thanks for the good game! Martin (pmw(at)web(dot)de)
 
 
-Reset points are also being planned. ~~[Ravu](User#ravualhemio "wikilink") 17:28, 8 May 2005 (BST)
+Reset points are also being planned. ~~[Ravu](mediawiki/Users/ravualhemio) 17:28, 8 May 2005 (BST)
 
 perhaps it should be possible to see that you are passing a resetpoint!
 
@@ -70,7 +70,7 @@ In svn: 25 coins let Tux respawn from the latest firefly
 also in “unstable” download
 
 -   Maybe teleports (or something) that cost a certain number of coins to get through?
--   How about the shops on Super Mario 3? they were really a good idea.. I don't understand why they dropped it for Super Mario World --[80.174.65.16](User#80.174.65.16 "wikilink") 21:16, 11 Aug 2006 (BST)
+-   How about the shops on Super Mario 3? they were really a good idea.. I don't understand why they dropped it for Super Mario World --[80.174.65.16](mediawiki/Users/80.174.65.16) 21:16, 11 Aug 2006 (BST)
 
 
 
@@ -85,7 +85,7 @@ However, shops are not so typical in Super Mario games and appear in many other 
 -   **Standing on switches** - activate/open things.
     -   In svn (not sure what revision) - just put a script trigger over the platform
 -   **Wind** - make it difficult for Tux to move, push him back, and push him much back if he jump.
-    -   In svn (since r3640). --[AnMaster](User#anmaster "wikilink") 11:08, 30 Jun 2006 (BST)
+    -   In svn (since r3640). --[AnMaster](mediawiki/Users/anmaster) 11:08, 30 Jun 2006 (BST)
 -   **Ice pick** - to crush blocking ice in order to enter closed areas.
     -   In svn (since 3468): Straw Blocks that can be destroyed with fire shot
 -   **Falling bridge** - when walk on it, it fall apart, so cant go back and must hurry.
@@ -103,7 +103,7 @@ However, shops are not so typical in Super Mario games and appear in many other 
 
 
 
-You did not implement it. I don't think it is that urgent. Real worlds have a worldmap, to test something you can use command line or call level from editor anyway. --[Superdev](User#superdev "wikilink") 22:14, 7 February 2007 (UTC)
+You did not implement it. I don't think it is that urgent. Real worlds have a worldmap, to test something you can use command line or call level from editor anyway. --[Superdev](mediawiki/Users/superdev) 22:14, 7 February 2007 (UTC)
 
 
 In SVN since revision 5420.
@@ -113,15 +113,15 @@ In SVN since revision 5420.
     you can do that already, see gravity in the sector settings
 -   **Fading tilemaps** without a secret area (i.e. a script)
 
-    Could be useful --[AnMaster](User#anmaster "wikilink") 20:14, 20 January 2007 (UTC)
+    Could be useful --[AnMaster](mediawiki/Users/anmaster) 20:14, 20 January 2007 (UTC)
 
 
 ### Greek fonts
 
-You should add these greek letters to the game. How you can add Greek letters to the game? There are no greek letters in the game. They have a F33 so they are accessible. So they have a Ransom font that has to be accessible in DOSBox. Letters not changed: 1, 4, 6, 8, 9, !, @, \#, $, %, ^, &, \*, (, ), ~, \`, etc. were having greatest. Letters changed: 0, 2, 3, 5, 7. A-Z, a-z. No-break space was filled in with JD. Capital R is vertical, 0, 2, 3, 5, 7 were made from different fonts. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, S, T, U, V, W, X, Y, Z, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, were captured from different fonts. Yeah, you don't speak albanian, but you speak korean. The letter you should be added will be: Ë. It's defined as U+00CB.--[Sixtyfour](User#sixtyfour "wikilink") 10:36, 16 January 2009 (UTC)
+You should add these greek letters to the game. How you can add Greek letters to the game? There are no greek letters in the game. They have a F33 so they are accessible. So they have a Ransom font that has to be accessible in DOSBox. Letters not changed: 1, 4, 6, 8, 9, !, @, \#, $, %, ^, &, \*, (, ), ~, \`, etc. were having greatest. Letters changed: 0, 2, 3, 5, 7. A-Z, a-z. No-break space was filled in with JD. Capital R is vertical, 0, 2, 3, 5, 7 were made from different fonts. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, S, T, U, V, W, X, Y, Z, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, were captured from different fonts. Yeah, you don't speak albanian, but you speak korean. The letter you should be added will be: Ë. It's defined as U+00CB.--[Sixtyfour](mediawiki/Users/sixtyfour) 10:36, 16 January 2009 (UTC)
 
 
-What are you talking about? You sound like that guy who was spamming the fansite recently. And no, I don't speak Korean. --[Superdev](User#superdev "wikilink") 18:48, 16 January 2009 (UTC)
+What are you talking about? You sound like that guy who was spamming the fansite recently. And no, I don't speak Korean. --[Superdev](mediawiki/Users/superdev) 18:48, 16 January 2009 (UTC)
 
 ### Swimming ability
 
@@ -152,19 +152,19 @@ The editor is once again included in-game.
 
 -   Hidden blocks containing items (power-ups, extra lives, etc) as well as ordinary blocks for stepping stones should exist.
 
-    Ordinary blocks are implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink"). Hidden bonus blocks are up for discussion. --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Ordinary blocks are implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink"). Hidden bonus blocks are up for discussion. --[84.146.234.2](mediawiki/Users/84.146.234.2) 06:21, 18 Sep 2006 (BST)
 
 -   Tux should fall through hidden blocks before they're hit. Another implementation for clouds and elevated platforms should be used. The blocks would be more 'hidden' if you can only find them by hitting them from below.
 
-    Implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Implemented as [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](mediawiki/Users/84.146.234.2) 06:21, 18 Sep 2006 (BST)
 
 -   Cloud platforms should be able to be jumped onto from below, similarly to how jumping onto platforms in Mario games works.
 
-    Implemented as Unisolid [Tiles](Tiles "wikilink") --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Implemented as Unisolid [Tiles](Tiles "wikilink") --[84.146.234.2](mediawiki/Users/84.146.234.2) 06:21, 18 Sep 2006 (BST)
 
 -   Tux should be able to horizontally and/or diagonally jump through hidden blocks (transparently) before the blocks have been hit from below, as opposed to getting the jumping-against-a-wall effect. The current implementation causes Tux fatalities in some levels.
 
-    Already implemented in aforementioned [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](User#84.146.234.2 "wikilink") 06:21, 18 Sep 2006 (BST)
+    Already implemented in aforementioned [Secret Blocks](User_Manual#Secret_Blocks "wikilink") --[84.146.234.2](mediawiki/Users/84.146.234.2) 06:21, 18 Sep 2006 (BST)
 
 ### Object blocks
 
@@ -172,9 +172,9 @@ The editor is once again included in-game.
 
 Already implemented. Was used in early version of “down the rabbit hole”.
 
-Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[MatzeB](User#matzeb "wikilink") 10:45, 28 January 2007 (UTC)
+Note that this isn't good style as users don't expect other things to come out of ?-blocks. You should at least create some replacement images for the blocks then, so that you can see it's something special (this is 1 of the reasons why we don't use that feature anymore in down the rabbit hole). --[MatzeB](mediawiki/Users/matzeb) 10:45, 28 January 2007 (UTC)
 
-Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[WolfgangB](User#wolfgangb "wikilink") 11:24, 28 January 2007 (UTC)
+Up to now everything that comes out of an ?-block is good for you and not required to solve the level. So IMO a trampoline that you can use for a shortcut or to reach a secret area is OK, a badguy or a trampoline that you need to reach the only path to the exit is not. --[WolfgangB](mediawiki/Users/wolfgangb) 11:24, 28 January 2007 (UTC)
 
 I've read these comments, but nevertheless I made an image. I think objects in ?-Blocks will be more “entertaining”.
 
@@ -190,7 +190,7 @@ There could also be a libra, like in Mario.
 
 ![](images/Auschnitt-Waage1.jpg "fig:Auschnitt_Waage1.jpg") ![](images/Auschnitt_Waage2.jpg "fig:Auschnitt_Waage2.jpg") ![](images/Auschnitt_Waage3.jpg "fig:Auschnitt_Waage3.jpg")
 
-There are *pneumatic platforms* in [SVN](SVN "wikilink") which look like what you're proposing here. --[octo](User#octo "wikilink") 08:09, 28 February 2010 (UTC)
+There are *pneumatic platforms* in [SVN](SVN "wikilink") which look like what you're proposing here. --[octo](mediawiki/Users/octo) 08:09, 28 February 2010 (UTC)
 
 Or they could be falling platforms, which are also implemented.
 
@@ -208,13 +208,13 @@ You could use wind on a waterfall (upside-down) to make that!
 
 -   Where's bonus island III? The current two bonus islands are getting boring. I suggest it to be a forest world and not start collecting levels until the editor becomes available in a version that uses SDL as to provide an opportunity for more people. I, myself am having trouble with OpenGL and the editor. (See Talk:Milestone1.9 under editor error)
 
-    Go download “Tux Strikes Back”. That's the closest thing we have. --[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:39, 23 March 2007 (UTC)
+    Go download “Tux Strikes Back”. That's the closest thing we have. --[DJ Wings](mediawiki/Users/djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings) 18:39, 23 March 2007 (UTC)
 
 
     How about picking the best user levels in an bonus island 3?
 
 
-    I'm fine with that. Also, the original M1 levels and worldmap might make an interesting bonus island, too.--[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
+    I'm fine with that. Also, the original M1 levels and worldmap might make an interesting bonus island, too.--[Julius\_Freezer](mediawiki/Users/julius_freezer) 23:58, 2 July 2009 (UTC)
 
 ### Backflip animation
 
@@ -233,8 +233,8 @@ Walls that can be broken (in one way or another) in order for Tux to enter into 
 
 Who the \[censored\] is sonic? There are weak blocks.
 
--   Watch your mouth.--[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:35, 11 Jul 2006 (BST)
--   Watch your mouth. I think that Sonic is a blue hedgehog from Sega. If that's true, that's all I know about it. --[Julius\_Freezer](User#julius_freezer "wikilink") 23:58, 2 July 2009 (UTC)
+-   Watch your mouth.--[DJ Wings](mediawiki/Users/djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings) 18:35, 11 Jul 2006 (BST)
+-   Watch your mouth. I think that Sonic is a blue hedgehog from Sega. If that's true, that's all I know about it. --[Julius\_Freezer](mediawiki/Users/julius_freezer) 23:58, 2 July 2009 (UTC)
 ### Kick?
 
 I was thinking have breakable walls that you have to kick to open. It shouldn't be to hard to do would it?
@@ -316,8 +316,8 @@ Autotiling is implemented in the editor now.
 
 To put badguys eg. on a branch or a ledge i'd like to have a Forest World Bad Guy, about one tile in size, easy to be killed (squished, shot, whatever) but does not jump off his ledge.
 
-Something like Poision Ivy but smart enough not to commit suicide. Maybe a autumn version of the walking leaf. Since it's more careful it might walk a bit slower. --[WolfgangB](User#wolfgangb "wikilink") 18:20, 26 Jul 2006 (BST)
+Something like Poision Ivy but smart enough not to commit suicide. Maybe a autumn version of the walking leaf. Since it's more careful it might walk a bit slower. --[WolfgangB](mediawiki/Users/wolfgangb) 18:20, 26 Jul 2006 (BST)
 
-Btw, i could just grab the Ivy image and add some red, but maybe there is another BG that matchs the description but looks different. --[WolfgangB](User#wolfgangb "wikilink") 18:44, 26 Jul 2006 (BST)
+Btw, i could just grab the Ivy image and add some red, but maybe there is another BG that matchs the description but looks different. --[WolfgangB](mediawiki/Users/wolfgangb) 18:44, 26 Jul 2006 (BST)
 
-Done. [WalkingLeaf](WalkingLeaf "wikilink") --[WolfgangB](User#wolfgangb "wikilink") 15:59, 13 Aug 2006 (BST)
+Done. [WalkingLeaf](WalkingLeaf "wikilink") --[WolfgangB](mediawiki/Users/wolfgangb) 15:59, 13 Aug 2006 (BST)

@@ -13,8 +13,8 @@ Warning
 Types of Builds
 ---------------
 
--   Since Mac OS X contains a Unix subsystem, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux. See the `Unix-Style Build` section below. If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep SuperTux up to date. If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below. Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [Ravu al Hemio's guide](User#ravualhemio/mac_os_x_compilation "wikilink").
--   If you'd like an easy way to launch SuperTux via Finder but would rather use [Ravu al Hemio's](User#ravualhemio) build, then take a look at [making a .command file](Building_on_Mac_OS_X#.command_File "wikilink").
+-   Since Mac OS X contains a Unix subsystem, it is fairly simple to build SuperTux for OS X in a similar fashion to building it on Linux. See the `Unix-Style Build` section below. If you plan to run SuperTux on your Mac, and your Mac only, this guide is much quicker and easier to keep SuperTux up to date. If you plan on building SuperTux in a more portable manner, or just like having an app bundle (SuperTux.app) that can be run through the Finder, then continue below. Warning: these instructions are aimed at building a full, portable, Universal Binary of SuperTux and thus are a good deal more complicated and will take longer to compile than [Ravu al Hemio's guide](mediawiki/Users/RavuAlHemio_Mac_OS_X_Compilation).
+-   If you'd like an easy way to launch SuperTux via Finder but would rather use [Ravu al Hemio's](mediawiki/Users/RavuAlHemio) build, then take a look at [making a .command file](Building_on_Mac_OS_X#.command_File "wikilink").
 
 
 Unix-Style Build
@@ -95,7 +95,7 @@ Disclaimer
 .command File
 -------------
 
--   If you just followed [Ravu al Hemio's](User#ravualhemio "wikilink") [guide](User#ravualhemio/mac_os_x_compilation "wikilink") for a Unix-style build of SuperTux for Mac OS X, but would like an easy way to launch SuperTux via the Finder, then read on.
+-   If you just followed [Ravu al Hemio's](mediawiki/Users/RavuAlHemio) [guide](mediawiki/Users/RavuAlHemio_Mac_OS_X_Compilation) for a Unix-style build of SuperTux for Mac OS X, but would like an easy way to launch SuperTux via the Finder, then read on.
 
 <!-- -->
 

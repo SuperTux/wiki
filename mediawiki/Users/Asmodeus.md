@@ -2,7 +2,7 @@ Hello, my name is Simon and I'm from Germany. I like programming in C++. I often
 
 I find SuperTux great and I will follow its development :)
 
-== Programming Skills ==
+## Programming Skills
 
 '''Languages:''' C++, a bit Assembler
 

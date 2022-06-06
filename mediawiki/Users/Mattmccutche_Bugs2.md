@@ -85,7 +85,7 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 
 * 2010-03-16: CMakeLists.txt might as well use GLOB_RECURSE to specify the source files.
 
-* 2010-03-16: [http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/ The viewvc interface] says "No admin address has been configured".
+* 2010-03-16: ![The viewvc interface](http://supertux.lethargik.org/viewvc/viewvc.cgi/trunk/supertux/) says "No admin address has been configured".
 
 * 2010-04-01: When a sliding ice block slows down and then starts walking, it remains vertically lower than a walking ice block should be.
 
@@ -105,7 +105,7 @@ See also the patches in the "for-upstream" branch of https://mattmccutchen.net/p
 
 * 2010-04-13: Specifying a worldmap on the command line does not work: it incurs "Insecure filename" errors from PhysFS.
 
-* 2010-04-14: Review [http://cvs.fedoraproject.org/viewvc/rpms/supertux/devel/ Fedora's changes].
+* 2010-04-14: Review ![Fedora's changes](http://cvs.fedoraproject.org/viewvc/rpms/supertux/devel/).
 ** Use the system Squirrel
 ** Desktop file
 

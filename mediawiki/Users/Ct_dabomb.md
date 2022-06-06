@@ -8,6 +8,6 @@ ctdabomb
 P.S. I might/will soon try to make a forest themed bonus island.
 
 
-'''Supertux Forum'''
+### Supertux Forum
 we now have a supertux forum. hosted by freegamer forums(but thats beside the point) http://forum.freegamedev.net/viewforum.php?f=66
 it is like a more permanent place for the community than the irc of mailing list, and cooler(because I am the moderator). Check it out and have fun.

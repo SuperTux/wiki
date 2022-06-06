@@ -38,7 +38,7 @@ External add-ons may suffer from more bugs than those automatically downloaded t
 
 [s=As of January 2013 the addons accessible in-game have been moved to google code. This means that this addon collection is no longer needed for recent versions of GIT and will no longer be maintained. However, the addons will remain accessible for older versions of SuperTux.](Template:Attention "wikilink")
 
-The archive of the add-on collection put together by [lmh](User#lmh "wikilink") can be found [here](http://www.mediafire.com/?k47v61nz6i230). To reduce the clutter on the bugtracker, a [forum](http://forum.freegamedev.net/viewforum.php?f=69) has been set up to discuss issues with the individual add-ons. All add-ons available to the in-game add-on manager as of June 2013 (461 levels in 16 entries to contrib levels) can be manually installed as a single add-on available [here](http://www.mediafire.com/download/kjbozzjfz77okb9/addon_collection_JUN2013.zip).
+The archive of the add-on collection put together by [lmh](mediawiki/Users/lmh) can be found [here](http://www.mediafire.com/?k47v61nz6i230). To reduce the clutter on the bugtracker, a [forum](http://forum.freegamedev.net/viewforum.php?f=69) has been set up to discuss issues with the individual add-ons. All add-ons available to the in-game add-on manager as of June 2013 (461 levels in 16 entries to contrib levels) can be manually installed as a single add-on available [here](http://www.mediafire.com/download/kjbozzjfz77okb9/addon_collection_JUN2013.zip).
 
 ### External links
 
@@ -48,8 +48,8 @@ The archive of the add-on collection put together by [lmh](User#lmh "wikilink") 
 -   [Snowball Attack](http://i1.dk/download/supertux-levels/) - SuperTux 0.1.3 levelset.
 -   [Adventure to the new World](http://www.sendspace.com/file/nq9u10) - SuperTux 0.1.3 levelset.
 -   [Nyten - Dark Island (hard)](http://nyten.heliohost.org/supertux/levelsets.php) - SuperTux 0.1.3 levelset.
--   <http://verplant.org/supertux/> – Levels for the latest [SVN](SVN "wikilink") version by [octo](User#octo "wikilink").
--   [Collection of add-ons for 0.3.3 and 0.3.3-SVN/GIT](http://www.mediafire.com/?k47v61nz6i230) maintained by [lmh](User#lmh "wikilink").
+-   <http://verplant.org/supertux/> – Levels for the latest [SVN](SVN "wikilink") version by [octo](mediawiki/Users/octo).
+-   [Collection of add-ons for 0.3.3 and 0.3.3-SVN/GIT](http://www.mediafire.com/?k47v61nz6i230) maintained by [lmh](mediawiki/Users/lmh).
 -   <http://a062.apm.etc.tu-bs.de/pmlvls.php> Collection of player-made levels for 0.1.x on the forum.
 
 SuperTux extra is a modification of SuperTux 0.1.3 by Narre that has a full story. There are total 6 worlds:
