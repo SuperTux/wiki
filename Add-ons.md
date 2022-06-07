@@ -65,7 +65,63 @@ Download the SuperTux Editor. The Editor FAQ might be helpful. Alternately, you 
 
 ### SuperTux 0.5.x to newest
 
-You can use the in-game level editor to create levels and worldmaps.
+You can use the [in-game level editor](Level-editor) to create levels and worldmaps.
+
+Custom addon assets
+-------------------
+
+Custom assets can be added to addons. You will have to manually package them
+with the rest of your addon's files, though.
+
+The `data/` folder in the installation directory of SuperTux is helpful for this process, 
+because the directories and files you need to create would look identical to the ones 
+in there. This mini tutorial will mention it as `DATA` and looking at it is recommended, because of occuring 
+examples on given directories and files.
+
+### Adding custom music
+
+Open your SuperTux user directory. Create a new folder, called `music`. 
+If you wish to make additions to current music categories, 
+available in SuperTux (take a look at `DATA/music`), 
+create a new folder with the same folder name as your chosen category, as listed in `DATA/music`.
+Otherwise, create a new folder for your desired new category.
+
+You can now add music tracks into your folder/folders. Here's how to do that!
+
+1. Make sure your track is in `.ogg` or `.wav` file format (`.ogg` is prefered). If not, you will have to convert it to one of those extensions.
+2. Paste it into the folder.
+3. Add a new file, called `{track_filename}.music` (using the file name of the track you pasted in the previous step, without the extension).
+4. The contents of the newly created `.music` file should look as follows:
+
+```
+(supertux-music
+  (file "airship_remix.ogg")
+  (loop-begin 4)
+  (loop-at    58)
+)
+```
+
+* **file** - This is the full file name of your `.ogg` (or `.wav`) track.
+* **loop-begin** (seconds) [optional] - Where your track should start playing in-game.
+* **loop-at** (seconds) [optional] - Where you track should stop playing and loop over, starting on *loop-begin* seconds in the track.
+
+5. Your music file is now added! You can now import it with its `.music` file into your worldmaps/levels in SuperTux.
+
+### Adding custom images or tilesets
+
+In your SuperTux user directory, create a folder, named `images`. 
+If you wish to make additions to current image categories, 
+available in SuperTux (take a look at `DATA/images`), 
+create a new folder with the same folder name as your chosen category, as listed in `DATA/images`.
+Otherwise, create a new folder for your desired new category.
+
+If you're adding [tilesets](Tileset), you can use the `images` directory directly.
+
+Paste your images into your folder/folders.
+
+Now, you can use the image file as it is, but it cannot be animated, nor do specific things on action.
+To be able to do those things with a sequence of images, you need to use a sprite. 
+For information on how to create sprites, take a look at the [Sprite documentation](Sprite).
 
 Packaging Addons
 ----------------
@@ -76,14 +132,17 @@ Once you've made these beautiful levels, you want to let the world see them.
 
 Since SuperTux 0.6.3, you can package addons in one click, using the "Package Add-on" option in the main level editor menu.
 
+However, if you're using custom assets in your addon, you will either have to add their folders (`images/`, `music/`) to the archive's root directory, or package your addon manually.
+
 ### Manually packaging addons
 
-1. Pick a “meaningful name”. This name will be used as file and directory name - the user won't get in touch with it. So pick a short but descriptive name. Your name or acronym should be sufficient, for example. Here, we will use *my-levels* as example.
-2. Create a new directory hierarchy: `levels/`*`my-levels`*
-3. Copy your levels (\*.stl files) into your that folder.
-4. If you made a worldmap, you have to put it n your `levels/`*`my-levels`*`/` as `worldmap.stwm`.
-5. To make it an addon, create a *`my-levels`*`.nfo` text file in the top level of your directory hierarchy, and fill it in with the information, listed in [NFO files](#nfo-files).
-6. So that it shows up in the “Contrib Levels” -> "Community Contrib Levels" menu, you need to create a `levels/`*`my-levels`*`/info` file. Its contents should look like this:
+1. Pick a “meaningful name”. This name will be used as file and directory name - the user won't get in touch with it. So pick a short but descriptive name. Your name or acronym should be sufficient, for example. Here, we will use *my-addon* as example.
+2. Create a new directory hierarchy: *`my-addon-root`*`/levels/`*`my-addon`*
+3. Copy your levels (\*.stl files) into the folder.
+4. If you made a worldmap, you have to put it in your *`my-addon-root`*`/levels/`*`my-addon`*`/` as `worldmap.stwm`.
+5. If your levelset uses [custom assets](#custom-addon-assets), copy their folders from your user directory and paste them into *`my-addon-root`* (the root of where the addon is being created).
+6. To make it an addon, create a *`my-addon`*`.nfo` text file in *`my-addon-root`*, and fill it in with the information, listed in [NFO files](#nfo-files).
+7. So that it shows up in the “Contrib Levels” -> "Community Contrib Levels" menu, you need to create a *`my-addon-root`*`/levels/`*`my-addon`*`/info` file. Its contents should look like this:
 
 ```
 (supertux-level-subset
@@ -95,7 +154,7 @@ Since SuperTux 0.6.3, you can package addons in one click, using the "Package Ad
 )
 ```
 
-7. Use a ZIP utility to package up your directory into `my-levels.zip`.
+7. Use a ZIP utility to package up all contents of *`my-addon-root`* (the root of the addon directory hierarchy) into `my-addon.zip`.
 
 NFO files
 ---------
@@ -139,6 +198,5 @@ This doesn't tell you all there is to know about modifying SuperTux; check back 
 
 -   Intros or extros for levels
 -   Scripting .nut files
--   Adding new images or sounds
 -   Replacing game files
 -   Installing a new supertux executable
