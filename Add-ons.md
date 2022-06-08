@@ -47,6 +47,7 @@ Levels are created in different ways depending on which version you are using, a
 <details>
 <summary><b>SuperTux 0.1.x</b></summary>
 <br>
+
 Create as many levels as you want using the built-in editor. Try reading the editor help first by pressing F1.
    
 #### Creating Worldmaps
@@ -58,9 +59,9 @@ You could try to use [FlexLay](http://flexlay.berlios.de) for creating worldmaps
 <details>
 <summary><b>SuperTux 0.3.x</b></summary>
 <br>
-Download the SuperTux Editor. The Editor FAQ might be helpful. Alternately, you could create 0.1.x levels and then modify them using a text editor or the Scheme converter script into version 2 levels. See the [File formats](File_formats) page for details.
 
-<br>
+Download the SuperTux Editor. The Editor FAQ might be helpful. Alternately, you could create 0.1.x levels and then modify them using a text editor or the Scheme converter script into version 2 levels. See the [file formats](File_formats) page for details.
+
 </details>
 
 ### SuperTux 0.5.x to newest
@@ -83,7 +84,7 @@ examples on given directories and files.
 Open your SuperTux user directory. Create a new folder, called `music`. 
 If you wish to make additions to current music categories, 
 available in SuperTux (take a look at `DATA/music`), 
-create a new folder with the same folder name as your chosen category, as listed in `DATA/music`.
+create a folder with the same folder name as your chosen category, as listed in `DATA/music`.
 Otherwise, create a new folder for your desired new category.
 
 You can now add music tracks into your folder/folders. Here's how to do that!
@@ -105,14 +106,14 @@ You can now add music tracks into your folder/folders. Here's how to do that!
 * **loop-begin** (seconds) [optional] - Where your track should start playing in-game.
 * **loop-at** (seconds) [optional] - Where you track should stop playing and loop over, starting on *loop-begin* seconds in the track.
 
-5. Your music file is now added! You can now import it with its `.music` file into your worldmaps/levels in SuperTux.
+5. Your music track is now added! You can now import it with its `.music` file into your worldmaps or levels in SuperTux.
 
 ### Adding custom images or tilesets
 
 In your SuperTux user directory, create a folder, named `images`. 
 If you wish to make additions to current image categories, 
 available in SuperTux (take a look at `DATA/images`), 
-create a new folder with the same folder name as your chosen category, as listed in `DATA/images`.
+create a folder with the same folder name as your chosen category, as listed in `DATA/images`.
 Otherwise, create a new folder for your desired new category.
 
 If you're adding [tilesets](Tileset), you can use the `images` directory directly.
@@ -154,7 +155,7 @@ However, if you're using custom assets in your addon, you will either have to ad
 )
 ```
 
-7. Use a ZIP utility to package up all contents of *`my-addon-root`* (the root of the addon directory hierarchy) into `my-addon.zip`.
+7. Use a ZIP utility to package up all contents of *`my-addon-root`* into `my-addon.zip`.
 
 NFO files
 ---------
