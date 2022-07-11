@@ -1,5 +1,8 @@
 # How to use the Level Editor
 
+> If you are looking for how to **package your levels and worlds as Add-Ons** so you can submit them
+  to our Add-On manager, go [here](https://github.com/SuperTux/supertux/wiki/Add-ons#packaging-addons)!
+
 Beginning Steps
 ===============
 
@@ -24,9 +27,10 @@ Now you can begin to create your first level (or worldmap).
    * [Using Doors](#Using-Doors)
    * [Using Info Blocks](#Using-Info-Blocks)
 5. [Adding a Goal](#Adding-a-Goal)
-6. [Using Pathnodes](#Using-Pathnodes)
-7. [Ambient Light](#Ambient-Light)
-8. [Scripting](#Scripting)
+6. [Secret Areas](#Secret-Areas)
+7. [Using Pathnodes](#Using-Pathnodes)
+8. [Ambient Light](#Ambient-Light)
+9. [Scripting](#Scripting)
 
 ### For making Worldmaps
 1. [Setting up your Worldmap](#Setting-Up-Your-Worldmap)
@@ -168,6 +172,23 @@ The sequence trigger on the right is used to prevent Tux from walking further ri
 place another sequence trigger and set its sequence to `stop Tux`.
 
 
+Secret Areas
+============
+
+The usage of secret areas is a good way to encourage exploration in your level.
+
+There are many ways to set up secret areas in SuperTux. The most common one is a place hidden behind a wall
+which is revealed once the player enters it. For that you will need to add a new tilemap and give it a name!
+Next you can find the secret area trigger under `Environment` in the Object menu represented by a green
+square near the bottom.
+
+Once you placed your secret area trigger, make sure it covers the area you wish to turn into a secret area.
+Last but not least, right-click the secret area trigger and enter the name of your tilemap that will cover
+the secret area to insure that it will fade away when found!
+
+![](images/editor/secret_area.png "Making a secret area covered by a tilemap")
+
+
 Using Pathnodes
 ===============
 
@@ -263,6 +284,13 @@ and **stay group**. For the boat, simply name both of them `boat`.
 
 Note: Do not forget to add another sprite changer that does change the sprite back to Tux if the sprite change is only meant
 to be temporary!
+
+---
+
+Packaging Levels as Add-Ons
+===========================
+
+You finalized your newly made level or even an entire world and want to know how to package them into an Add-On for others to see? You will find instruction on how to do so [here](https://github.com/SuperTux/supertux/wiki/Add-ons#packaging-addons)!
 
 ---
 
