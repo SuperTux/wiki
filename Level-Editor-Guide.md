@@ -287,13 +287,6 @@ to be temporary!
 
 ---
 
-Packaging Levels as Add-Ons
-===========================
-
-You finalized your newly made level or even an entire world and want to know how to package them into an Add-On for others to see? You will find instruction on how to do so [here](https://github.com/SuperTux/supertux/wiki/Add-ons#packaging-addons)!
-
----
-
 **For more information on how to design levels and aspects such as badguy/objects behavior etc. we recommend the following:**
 
 -   [Level Design](https://github.com/SuperTux/supertux/wiki/Level-Design)
