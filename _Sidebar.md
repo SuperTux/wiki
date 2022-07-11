@@ -11,10 +11,10 @@ Home
 Guidelines
 
 * [[Thematic Guideline]]
+* [[Level Design]]
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
 * [[Disfavored Practices|Disfavored Practices in Development]]
 * [[Obstacles]]
-* [[Leveldesign]]
 
 Game Mechanics
 
@@ -29,6 +29,7 @@ Tools
 * [[Developer Mode]]
 * [[Demo Recording]]
 * [[Level Editor]]
+* [[Add-ons]]
 
 Engine
 
