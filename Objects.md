@@ -63,6 +63,8 @@ the script.
 
 ### Rublight
 
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/rublight/rublight-0.png?raw=true "Glow Crystal")
+
 Rublights are commonly used in very dark areas. Stepping on one will generate light for short amount of time. Badguys can
 activate rublights, too.
 
@@ -74,8 +76,8 @@ Magic Blocks are non solid blocks that only turn solid when illuminated by a lig
 
 ### Weak Blocks
 
-![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/straw.png?raw=true "Straw")
-![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/meltbox.png?raw=true "Meltbox")
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/strawbox-0.png?raw=true "Straw")
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/meltbox-0.png?raw=true "Meltbox")
 
 Weak Blocks, such as Straw or Meltboxes are solid blocks that can be destroyed by throwing a fireball as Fire Tux or detonating a
 [Mr. Bomb](https://github.com/SuperTux/supertux/wiki/Badguys-Misc#Mr-Bomb) or similar close to it.
@@ -103,7 +105,7 @@ after a few jumps.
 
 ### Lantern
 
-![](https://github.com/SuperTux/data/blob/master/images/objects/lantern/lantern-1.png?raw=true)
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/lantern/lantern-0.png?raw=true)
 
 Lanterns can be carried like rocks. They are also a good light source and can activate
 [Magic Blocks](https://github.com/SuperTux/supertux/wiki/Objects#Magic-Blocks) of the same colour solid.
