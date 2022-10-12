@@ -127,7 +127,7 @@ by a switch or a script. They come in varying forms and sizes.
 ### Unstable Tiles
 
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/unstable_tile/snow-0.png?raw=true "Snow Variant")
-![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/unstable_tile/normal.png?raw=true "Brick Variant")
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/unstable_tile/brick-0.png?raw=true "Brick Variant")
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/skull_tile/skull.png?raw=true "Skull Variant")
 
 An Unstable Tile is an object that will fall down a few seconds after standing on them. A similar object, the Skull Tile, will
