@@ -33,7 +33,7 @@ graphics/UX tasks, `category:code` for code tasks, and
   - [ ] Decorative tiles for underwater areas in all themes
   - [x] Redraw poles
   - [x] Fix tilling for crystal cave tileset (potentially redo it from ground up)
-  - [ ] Cloud tiles are screwed up with vertical lines going through it
+  - [x] Cloud tiles are screwed up with vertical lines going through it
   - [x] Improve ice bridge tiles (right now they are just a recolor)
 
 - Worldmap
@@ -96,7 +96,7 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 - [ ] Comments: explain arbitary(?) constants in physics code
 - [ ] Improve Zeekling behavior
-- [ ] Sliding
+- [x] Sliding
 - [x] Swimming
 - [ ] Discuss: fluid simulation as game object rather than tiles?
 - [x] Coin: expose to scripting interface for path/movement settings
