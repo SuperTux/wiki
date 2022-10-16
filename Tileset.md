@@ -1,7 +1,21 @@
 SuperTux tilemaps are composed from tiles, little 32x32 pixel wide images. These tiles are defined
 in an [S-Expression](https://en.wikipedia.org/wiki/S-expression) based file, located under `data/images/tiles.strf`.
 
-These tilesets are included into the level by a `tileset` entry.
+These tilesets are included into the level by a `tiles` and `tilegroup` entry.
+
+# Contents
+
+1. [Introduction](#introduction)
+2. [Tile Attributes](#tile-attributes)
+3. [Tile Datas](#tile-datas)
+   * [Slope Types](#slope-types)
+4. [Adding Your Own Tiles](#adding-your-own-tiles)
+   * [Initial Preparations](#step-1-initial-preparations)
+   * [Adding Tiles](#step-2-adding-tiles)
+   * [Adding Tilegroups](#step-3-adding-tilegroups)
+
+Introduction
+============
 
 A general `tile` contains an ID number, an images path and an attribute to determine its use
 (e.g. a tile being solid, a slope, slippery etc).
@@ -81,7 +95,7 @@ To ignore a portion (e.g. empty spaces) of the image, use an ID of 0 in the appr
 ```
 
 Tile Attributes
----------------
+===============
 
 A tile can have the following attributes:
 
@@ -99,7 +113,7 @@ A tile can have the following attributes:
 | hurts      | `0x0400` / 1024 | The tile hurts the player when touched              |                                                                     |
 
 Tile Datas
-----------
+==========
 
 Each tile definition can have a `datas` section. This section is used when the yes/no-information
 usually stored in the `attributes` definition isn't appropriate for the type of information.
@@ -111,13 +125,12 @@ The slope information, for example, uses the values zero through 67 (64+3), so t
 
 | Name              | Mask                          | Meaning                                                                                |
 |-------------------|-------------------------------|----------------------------------------------------------------------------------------|
-| Slope information | `0x00ff` (actually: `0x0073`) | Valid only when the **solid** attribute is set. See [slope types](#slope_types) below. |
+| Slope information | `0x00ff` (actually: `0x0073`) | Valid only when the **solid** attribute is set. See [slope types](#slope-types) below. |
 
 Slope Types
 -----------
 
 ![](images/Slopes.png "All types of slopes supported by SuperTux")
-
 ![](images/Slope-data.png "Circle showing the 20 different valid slope data values")
 
 The **deformation** means the following:
@@ -133,11 +146,166 @@ The important part is that the deformation determines which part of the tile is 
 not the actual **form** of the tile. For example, the `0+48` tile is a (steep, south-west)
 **triangle**, while `2+48` is a (steep, south-east) **trapezoid**.
 
-Adding New Tiles
-----------------
+---
 
-You can simply add new tiles with your favourite text editor. However we also provide an
-easy to use editor to make this task easier (especially extracting regions of bigger images).
+Adding Your Own Tiles
+=====================
+
+You want to contribute new tiles to the main game or just add custom tilesets for your own levels?
+This next portion will show how to do so.
+
+You can simply add new tiles with the help of a text editor of your choice. You can now either add
+new tiles to the main file `tiles.strf` or create your own should you only seek to use custom tiles.
+In that case create a new file and end it with `.strf`!
+
+At first glance a tileset file can look quite intimidating. But worry not. In its core it is not that
+bad. The following steps will show you how everything works in a more controlled environment. The SuperTux
+tileset file is quite big, which makes it look more complicated than it is.
+
+Step 1: Initial Preparations
+----------------------------
+
+To prepare your new file it is important to set it up the right way, so the game can read it properly
+*(This step can be skipped if you want to add your tiles to `tiles.strf`)*.
+
+**Before you begin adding your tile entries, your file should look like this:**
+
+```
+(supertux-tiles
+)
+```
+
+Step 2: Adding Tiles
+--------------------
+
+Next, you can start adding your tiles one by one. In this example we are adding one tile entry for some
+solid tiles and another one for some slopes.
+
+Which tiles you include in one entry is fully up to you. Technically, you could also combine both tile
+entries into one big tile entry. But for simplicity and better readability it is advised to make separations!
+
+```
+(supertux-tiles
+  (tiles
+    (width 3)
+    (height 3)
+    (ids
+      1 2 3
+      4 5 6
+      7 8 9)
+    (attributes
+      1 1 1
+      1 1 1
+      1 1 1)
+    (image "tiles/[tilegroup]/[tiles1].png")
+  )
+  (tiles
+    (width 4)
+    (height 6)
+    (ids
+      10 11 12 13
+      14 15 16 17
+      18 19 22 23
+      20 21 24 25
+      0  0  26 27
+      0  0  28 29)
+    (attributes
+      17 17 17 17
+      17 17 17 17
+      17 17 17 17
+      17 17 17 17
+      0  0  17 17
+      0  0  17 17)
+    (datas
+      18 34 32 16
+      33 17 19 35
+      2  0  66 48
+      1  3  50 64
+      0  0  49 67
+      0  0  65 51)
+    (image "tiles/[tilegroup]/[tiles2].png")
+  )
+)
+```
+
+Step 3: Adding Tilegroups
+-------------------------
+
+To create a tilegroup which lists all of your new tiles, you must add an `tilegroup` entry. Try categorizing
+your tiles by themes (e.g. Snow, Forest, etc.) so you don't have to search for all your tiles in one single
+tilegroup.
+
+```
+(supertux-tiles
+  (tilegroup
+    (name (_ "My Tilegroup"))
+    (tiles
+      1  2  3  0
+      4  5  6  0
+      7  8  9  0
+      10 11 12 13
+      14 15 16 17
+      18 19 22 23
+      20 21 24 25
+      0  0  26 27
+      0  0  28 29)
+  )
+  
+  (tiles
+    (width 3)
+    (height 3)
+    (ids
+      1 2 3
+      4 5 6
+      7 8 9)
+    (attributes
+      1 1 1
+      1 1 1
+      1 1 1)
+    (image "tiles/[tilegroup]/[tiles1].png")
+  )
+  (tiles
+    (width 4)
+    (height 6)
+    (ids
+      10 11 12 13
+      14 15 16 17
+      18 19 22 23
+      20 21 24 25
+      0  0  26 27
+      0  0  28 29)
+    (attributes
+      17 17 17 17
+      17 17 17 17
+      17 17 17 17
+      17 17 17 17
+      0  0  17 17
+      0  0  17 17)
+    (datas
+      18 34 32 16
+      33 17 19 35
+      2  0  66 48
+      1  3  50 64
+      0  0  49 67
+      0  0  65 51)
+    (image "tiles/[tilegroup]/[tiles2].png")
+  )
+)
+```
+
+And that is all! Go open / create a new level in the Level Editor and select your tileset file in the Level
+Properties and see if your tiles and / or tilegroups appear in the tiles menu.
+
+---
+
+Tileset Manager
+---------------
+
+**WARNING**: *Unfortunately the tilemanage application is broken at the moment and does not work
+correctly! You'll destroy several tile attributes like slopes and some of the tiles created from
+multiple images, when opening and saving a tileset with the editor!*
+
+We provide an easy to use editor to make this task easier (especially extracting regions of bigger images).
 You can find it in the `tools/tilemanager` directory. It's a `mono/gtk\#` app so you have
 to have these 2 things installed and should invoke make in that directory then. It'll create
 `tilemanager.exe` which you can then start with mono like this:
@@ -147,15 +315,6 @@ to have these 2 things installed and should invoke make in that directory then. 
 NOTE: You should be careful when choosing tile ids to not overwrite existing tiles. You should
 also keep in mind that existing levels will break if you change tile numbers later (the levels
 just save a big a list of numbers that reference the tile file).
-
-**WARNING**: Unfortunately the tilemanage application is broken at the moment and does not work
-correctly! You'll destroy several tile attributes like slopes and some of the tiles created from
-multiple images, when opening and saving a tileset with the editor!
-
-Testing
--------
-
-Simply open the Level Editor and see if your tiles or tilegroup appear in the tiles menu.
 
 Trickery
 --------
