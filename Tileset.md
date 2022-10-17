@@ -130,7 +130,7 @@ The slope information, for example, uses the values zero through 67 (64+3), so t
 Slope Types
 -----------
 
-![](images/Slopes.png "All types of slopes supported by SuperTux")
+![](images/aatriangletypes2.png "All types of slopes supported by SuperTux")
 ![](images/Slope-data.png "Circle showing the 20 different valid slope data values")
 
 The **deformation** means the following:
