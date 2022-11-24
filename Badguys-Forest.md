@@ -54,7 +54,7 @@ shoots him out in a straight line until crashing.
 | Freezable      | yes    |
 
 
-Mr. Tree (walkingtree)
+Mr. Tree
 ======================
 
 ![](img/badguy/icons/mr_tree.gif) ![](img/badguy/icons/mr_tree_leafless.gif)
@@ -149,12 +149,6 @@ The simplest way of avoiding him is usually to run below him or jump over him at
 | Buttjumpable   | no     |
 | Burnable       | yes    |
 | Freezable      | yes    |
-
-### Comments
-
-> RustyBox: "Current design looks to bland and boring. Potentially something similar to
-> [this](https://forum.freegamedev.net/viewtopic.php?f=68&t=7281&p=85667&hilit=forest#p71897)
-> with some vines"
 
 
 Fish
