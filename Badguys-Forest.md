@@ -7,7 +7,7 @@ Note: For some badguys, we still need to settle down on proper names (e.g. *Mr. 
 Poison Ivy
 ==========
 
-![](img/badguy/icons/poison_ivy.gif)
+![](img/badguy/icons/vicious_ivy.gif)
 
 Poison Ivy is a vicious plant which walks straight forward and falls when reaching the edge of a platform. Due
 to it flapping its wings while falling it starts hovering slowly towards the ground (not implemented yet).
