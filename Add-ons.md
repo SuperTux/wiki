@@ -157,40 +157,32 @@ However, if you're using custom assets in your addon, you will either have to ad
 
 7. Use a ZIP utility to package up all contents of *`my-addon-root`* into `my-addon.zip`.
 
-NFO files
----------
+The NFO File
+------------
 
-Addon .nfo files look like this:
+Every Add-On needs an `.nfo`-file which looks like this:
 
 ```
 (supertux-addoninfo
-  (id "octo-levels")
+  (id "Worldmap-ID")
   (version 1)
-  (type "worldmap")
-  (title "Octo's Levels")
-  (author "Octo")
-  (license "GPL 2+ / CC-by-sa 3.0")
+  (type "world")
+  (title "Your Worldmap Name")
+  (author "Your Name")
+  (license "CC-by-sa 4.0")
 )
 ```
 
-The `id` is a identifier for this addon, it has to be unique across
-all addons, as it is used to compare the addons with new ones from
-other sources to find updates. It is recomment to use something like
-"{author}-{title}". The `id` must be all lowercase and only contain
-characters of the set "[a-z][0-9]-", underscore is not allowed as it
-is used for the version number.
+| Property  | Description |
+|-----------|-------------|
+| `id`      | The ID of your worldmap. You are only allowed to use letters, `_` (underscore) and `-` (minus). To avoid having two add-ons with the same ID, call it `yourname_name-of-your-worldmap`. The `.nfo` file should be named after your ID. |
+| `version` | If you updated your worldmap, count up. Only whole numbers are allowed, so do not set it to 1.1 or something. |
+| `type`    | Use `world` or `worldmap` if you created a worldmap and `levelset` if you did not. |
+| `title`   | The title of the worldmap. |
+| `author`  | Your name or nickname. |
+| `license` | Leave it like this to allow sharing and modification of your worldmap. |
 
-The `version` number is a simple integer, it should be increased each
-time the addon is changed.
-
-The `type` gives an indication of what is contained within the addon,
-valid values are "worldmap", "world", "levelset". At the moment this
-is only a description for the user and doesn't have any impact on how
-the addon is handled.
-
-The .nfo file itself needs to be stored in the top-level directory of
-the addon and should be named by the unique id of the addon, i.e.
-`/octo-levels.nfo` in this example.
+---
 
 TODO
 ----
