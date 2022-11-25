@@ -5,7 +5,7 @@ You can contact me on ''freenode'', via email at <code>&lt;supertux&nbsp;at&nbsp
 Regards,<br />
 —octo
 
-== Levels ==
+## Levels
 
 I have made a couple of levels of my own. They are described on my homepage at: http://octo.it/supertux/
 
@@ -15,7 +15,7 @@ There's also a [http://git.verplant.org/?p=supertux-levels.git;a=summary Gitweb 
 
 Please note that these levels are made with the latest SVN version at that time. If you find anything broken in a version ''newer'' than the levels, please let me know.
 
-== Release checklist ==
+## Release checklist
 
 * Set <code>SUPERTUX_VERSION</code> in [[Template:SvnFile|CMakeLists.txt]].
 * Replace image in [[Template:SvnFile|data/images/objects/logo/logo.sprite]]<br />''logo_dev.png → logo.png''

@@ -8,15 +8,23 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout the /wiki repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 10
 
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.wiki_key }}
           known_hosts: ${{ secrets.wiki_hosts }}
+
       - name: Update the wiki
         run: |
           git --version
+          git config --global user.email "supertux-bot"
+          git config --global user.name "SuperTux Bot"
+          git pull --ff-only git@github.com:SuperTux/supertux.wiki.git master
           git push git@github.com:SuperTux/supertux.wiki.git HEAD:master

@@ -8,11 +8,10 @@ to contribute your own, too!
 **Note: Some of these may be incomplete or out-dated and it is out of our hands whether the author will provide an update
 or not!**
 
-
 ### Text Tutorials
 
 - [Official Guide](https://github.com/SuperTux/supertux/wiki/Level-Editor-Guide) by SuperTux Team
-- [v0.6.0 Guide](https://github.com/Ordoviz/wiki/blob/master/Editor-Guide-0-6-0.md) by Ordoviz
+- [v0.6.0 Guide](https://github.com/Ordoviz/wiki/blob/master/Editor-Guide-0-6-0) by Ordoviz
 
 ### Video Tutorials
 

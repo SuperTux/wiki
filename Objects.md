@@ -19,7 +19,7 @@ Bonus Blocks generally contain coins and sometimes powerups. Generally you canno
 They can be hit from below but also can be butt-jumped from the top as well as being hit by throwable badguys, like
 [Mr. Iceblock](https://github.com/SuperTux/supertux/wiki/Badguys-Icy#Mr-Iceblock).
 
-### Info Blocks
+### Info Block
 
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/bonus_block/infoblock.png?raw=true)
 
@@ -30,17 +30,21 @@ Info Blocks can give valuable information about the level ahead. They can be hit
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/tiles/blocks/brick0.png?raw=true "Normal Crate")
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/tiles/blocks/brick1.png?raw=true "Snowy Crate")
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/tiles/blocks/brick2.png?raw=true "Spooky Crate")
+![](https://github.com/SuperTux/supertux/blob/master/data/images/tiles/blocks/brick3.png?raw=true "Heavy Crate")
 
 Same as Bonus Blocks, Wooden Crates contain coins and can be hit by the same means. Unlike Bonus Blocks they commonly do
-not contain anything and simply break after hitting them.
+not contain anything and simply break after hitting them as Big Tux.
 
-### Checkpoints
+Heavy Crates are a slightly different as these are metal reinforced crates which require stronger force! They can only be
+broken by detonating a bomb next to it, by large Crusher variants, like Krosh, or using Earth Tux's rock ability.
+
+### Checkpoint
 
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/resetpoints/bell-m.png?raw=true)
 
 Checkpoints are represented by golden bells that when rang will allow you to spawn back there if you die.
 
-### Doors
+### Door
 
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/door/door-0.png?raw=true)
 
@@ -59,10 +63,12 @@ the script.
 
 ### Rublight
 
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/rublight/rublight-0.png?raw=true "Glow Crystal")
+
 Rublights are commonly used in very dark areas. Stepping on one will generate light for short amount of time. Badguys can
 activate rublights, too.
 
-### Magic Blocks
+### Magic Block
 
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/magicblock/magicblock.png?raw=true "Inactive Magic Block")
 
@@ -70,8 +76,8 @@ Magic Blocks are non solid blocks that only turn solid when illuminated by a lig
 
 ### Weak Blocks
 
-![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/straw.png?raw=true "Straw")
-![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/meltbox.png?raw=true "Meltbox")
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/strawbox-0.png?raw=true "Straw")
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/weak_block/meltbox-0.png?raw=true "Meltbox")
 
 Weak Blocks, such as Straw or Meltboxes are solid blocks that can be destroyed by throwing a fireball as Fire Tux or detonating a
 [Mr. Bomb](https://github.com/SuperTux/supertux/wiki/Badguys-Misc#Mr-Bomb) or similar close to it.
@@ -80,7 +86,7 @@ Weak Blocks, such as Straw or Meltboxes are solid blocks that can be destroyed b
 
 ## Carriables
 
-### Rocks
+### Rock
 
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/rock/rock.png?raw=true)
 
@@ -97,9 +103,9 @@ Trampolines are available fixed and portable and sit on the ground or on walls. 
 new heights or push him around. Portable ones can be moved with the action key. There are also ones that rust and break
 after a few jumps.
 
-### Lanterns
+### Lantern
 
-![](https://github.com/SuperTux/data/blob/master/images/objects/lantern/lantern-1.png?raw=true)
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/lantern/lantern-0.png?raw=true)
 
 Lanterns can be carried like rocks. They are also a good light source and can activate
 [Magic Blocks](https://github.com/SuperTux/supertux/wiki/Objects#Magic-Blocks) of the same colour solid.
@@ -121,7 +127,7 @@ by a switch or a script. They come in varying forms and sizes.
 ### Unstable Tiles
 
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/unstable_tile/snow-0.png?raw=true "Snow Variant")
-![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/unstable_tile/normal.png?raw=true "Brick Variant")
+![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/unstable_tile/brick-0.png?raw=true "Brick Variant")
 ![](https://github.com/SuperTux/supertux/blob/master/data/images/objects/skull_tile/skull.png?raw=true "Skull Variant")
 
 An Unstable Tile is an object that will fall down a few seconds after standing on them. A similar object, the Skull Tile, will

@@ -11,7 +11,7 @@ of having a walk-key and [Milestone-1](Milestone_1 "wikilink")-style
 running by default is *not* the intended final behavior.
 
 What means “current” here? Which [SVN](SVN "wikilink") revision are
-you referring to? --[octo](User#octo "wikilink") 08:38, 6 March 2010
+you referring to? --[octo](mediawiki/Users/octo) 08:38, 6 March 2010
 (UTC)
 
 Rationale: The run key is overlooked by many people making the game
@@ -30,7 +30,7 @@ high. When running or using the [backflip](backflip "wikilink") jump,
 *Tux* can jump *five tiles* high.
 
 *(This if from the top of my head. Please correct if this is wrong.
---[octo](User#octo "wikilink") 08:33, 6 March 2010 (UTC))*
+--[octo](mediawiki/Users/octo) 08:33, 6 March 2010 (UTC))*
 
 **FIXME:**
 
@@ -181,7 +181,7 @@ Questions
 Might 1280x1024 be a better choice then 1280x800, as its a common LCD resolution?
 
 
-Maybe, if levels would have build in verticallity, at the moment they are just scaled to 25 tiles, which isn't enough for 1024, thus letterboxing. -- [Grumbel](User#grumbel "wikilink") 11:11, 26 February 2010 (UTC)
+Maybe, if levels would have build in verticallity, at the moment they are just scaled to 25 tiles, which isn't enough for 1024, thus letterboxing. -- [Grumbel](mediawiki/Users/grumbel) 11:11, 26 February 2010 (UTC)
 
 Levels
 ======
@@ -243,7 +243,7 @@ Slope Tiles
 Slope tiles should be integrated.
 
 
-Aren't they? —[octo](User#octo "wikilink") 22:23, 26 February 2010 (UTC)
+Aren't they? —[octo](mediawiki/Users/octo) 22:23, 26 February 2010 (UTC)
 
 Ice Tiles
 ---------
@@ -466,7 +466,7 @@ Graphics / Sprites
 ------------------
 
 -   Create SuperTux idle animations (~~stage1: blinking with the eye,~~ stage2: tipping with the foot, stage3: scratching the head)
-    -   <small>I've added the code for idle animations, we just need the graphics now. The blinking animation already exists, but it needs some tweaking - [sik0fewl](User#sik0fewl "wikilink") 06:25, 16 June 2008 (UTC)</small>
+    -   <small>I've added the code for idle animations, we just need the graphics now. The blinking animation already exists, but it needs some tweaking - [sik0fewl](mediawiki/Users/sik0fewl) 06:25, 16 June 2008 (UTC)</small>
     -   [8](https://supertux.lethargik.org/bugs/view.php?id=681)
 -   when Tux dies he can fly behind blocks instead of in front of them, drawing order bug
 -   Tux isn't centered properly to his collision box
@@ -475,7 +475,7 @@ Graphics / Sprites
     -   use these tiles [9](https://supertux.lethargik.org/bugs/view.php?id=852)
 -   finish [cannon](cannon "wikilink") graphics, also snowball graphics, death, etc (Grumbel)
 -   [Snowman](Snowman "wikilink") graphics (death animation, turn-around graphics) (Grumbel)
--   [Owl](Owl "wikilink") graphics (basically placeholder graphics right now) <small>—[octo](User#octo "wikilink") 07:53, 9 March 2010 (UTC)</small>
+-   [Owl](Owl "wikilink") graphics (basically placeholder graphics right now) <small>—[octo](mediawiki/Users/octo) 07:53, 9 March 2010 (UTC)</small>
 -   some decor for ice tiles, cracks and stuff (Grumbel)
 -   finish icecrusher graphics
 -   deep snow tiles
@@ -493,7 +493,7 @@ Editor / Developer Conveniences
 
 -   finish editor improvements (MatzeB)
 -   editor doesn't align [Cannon](Cannon "wikilink") and [Krush and Krosh](Krush_and_Krosh "wikilink") properly (grid is wrong)
-    -   I think it's using the 0,0-position of the *image* to align objects, not the *hitbox*. —[octo](User#octo "wikilink") 07:50, 9 March 2010 (UTC)
+    -   I think it's using the 0,0-position of the *image* to align objects, not the *hitbox*. —[octo](mediawiki/Users/octo) 07:50, 9 March 2010 (UTC)
 
 Meta / Organization
 -------------------
@@ -523,31 +523,31 @@ Other
 
 -   aspect ratio init code (Grumbel)
 -   think about peeking in relation to large screen size
-    -   <small>Maybe disable peeking if the resolution is at a certain size or greater? Tux would just be centered. [sik0fewl](User#sik0fewl "wikilink") 18:34, 30 April 2009 (UTC)</small>
+    -   <small>Maybe disable peeking if the resolution is at a certain size or greater? Tux would just be centered. [sik0fewl](mediawiki/Users/sik0fewl) 18:34, 30 April 2009 (UTC)</small>
 
 Enemies
 -------
 
 -   fix and cleanup all the enemy names - see [Milestone 2 Design Document/Enemies](Milestone_2_Design_Document/Enemies "wikilink") for new names
-    -   A beginning has been made by renaming *Kamikaze Snowball* to [Snowshot](Snowshot "wikilink"). There's not much consensus about the other changes though, see [Meeting 2010-02-27](Meeting_2010-02-27 "wikilink"). --[octo](User#octo "wikilink") 07:01, 5 March 2010 (UTC)
+    -   A beginning has been made by renaming *Kamikaze Snowball* to [Snowshot](Snowshot "wikilink"). There's not much consensus about the other changes though, see [Meeting 2010-02-27](Meeting_2010-02-27 "wikilink"). --[octo](mediawiki/Users/octo) 07:01, 5 March 2010 (UTC)
 -   AngryBonusBlock: Have a bonus block type that comes to life when tux jumps against it and then chases Tux
 
 
-Break the “only good stuff from bonus blocks” and “same look same behaviour” rules? --[WolfgangB](User#wolfgangb "wikilink") 01:27, 25 May 2008 (UTC)
+Break the “only good stuff from bonus blocks” and “same look same behaviour” rules? --[WolfgangB](mediawiki/Users/wolfgangb) 01:27, 25 May 2008 (UTC)
 
 
-Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Also, bonus blocks already have varied behaviors. --[Mathnerd314](User#mathnerd314 "wikilink") 04:23, 7 September 2008 (UTC)
+Secret Maryo has a poisonous mushroom... if they break the rules, why not us? Also, bonus blocks already have varied behaviors. --[Mathnerd314](mediawiki/Users/mathnerd314) 04:23, 7 September 2008 (UTC)
 
 -   create an enemy type that doesn't just walk straight into one direction, but does something different depending on Tux direction (ninja)
-    -   <small>Is this a dupe of the Crystallo proposal for week 4? - [sik0fewl](User#sik0fewl "wikilink") 19:58, 15 May 2008 (UTC)</small>
-        -   <small>No, this enemy is intelligent (reacts to Tux) --[Mathnerd314](User#mathnerd314 "wikilink") 20:43, 19 March 2010 (UTC) </small>
+    -   <small>Is this a dupe of the Crystallo proposal for week 4? - [sik0fewl](mediawiki/Users/sik0fewl) 19:58, 15 May 2008 (UTC)</small>
+        -   <small>No, this enemy is intelligent (reacts to Tux) --[Mathnerd314](mediawiki/Users/mathnerd314) 20:43, 19 March 2010 (UTC) </small>
 -   [Mr. Bomb](Mr._Bomb "wikilink"): let the fuse burn after one touched it
 -   [Flying Snowball](Flying_Snowball "wikilink"): Remove randomness, should be periodic and predictable
 -   [Flying Snowball](Flying_Snowball "wikilink"): Change timings to match that of Milestone1
 -   [Flying Snowball](Flying_Snowball "wikilink"): smoke effect for the motor seem to be to seldomly triggered
 -   [Icecrusher](Krush_and_Krosh "wikilink"): gravitation instead of linear, facial expression.
 
-    Gravitation has been done in [6403](Template:Revision "wikilink"). —[octo](User#octo "wikilink") 19:19, 26 February 2010 (UTC)
+    Gravitation has been done in [6403](Template:Revision "wikilink"). —[octo](mediawiki/Users/octo) 19:19, 26 February 2010 (UTC)
 
 -   [Krosh](Krosh "wikilink") (big icecrusher): add a larger version of [Krush](Krush "wikilink") (the icecrusher), twice the size (4x4 files)
 
@@ -584,8 +584,8 @@ Finished
 -   reorganize the editor to something more like this [SuperTux-Editor MookUp](http://pingus.seul.org/~grumbel/tmp/md5/68413a9004b402c38a8dd24bf785e2f0-supertux-editor-mockup.png)
 -   Editor: show tile attributes in editor, especially for non-solid and unisolid there is often a very similar solid tile. Either add special editor-images for unisolid, some overlay icon for the tile selector ~~or at least a hint in the status bar~~. (status bar done)
 -   General: Get rid of enemies stacking on top of each other
-    -   <small>What does that mean? —[octo](User#octo "wikilink") 07:45, 9 March 2010 (UTC)</small>
-    -   <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [sik0fewl](User#sik0fewl "wikilink") 16:53, 19 March 2010 (UTC)</small>
+    -   <small>What does that mean? —[octo](mediawiki/Users/octo) 07:45, 9 March 2010 (UTC)</small>
+    -   <small>I'm not sure if this issue still exists, but when one badguy falls on top of another and can't move left or right he will get stuck on top. - [sik0fewl](mediawiki/Users/sik0fewl) 16:53, 19 March 2010 (UTC)</small>
 -   SuperTux should stand on the ground when a level starts, not fall down (move all spawnpoints to 1 tile above ground)
 -   paint tutorial board for backflip
 -   draw a bigger arrow for when Tux is jumping out of the screen
@@ -594,26 +594,26 @@ Finished
     -   semajd's music is added, we just need to add the music to levels
 -   [Mr. IceBlock](Mr._IceBlock "wikilink"): transparency looks horrible on dark backgrounds, Wiki had a better looking version floating around
 -   [Haywire](Haywire "wikilink"): new bomb type (crazy pink bomb) that runs around after being touched
-    -   Initial version is done. Waiting for feedback and improvements. See [Milestone 2 Design Document/Enemies](Milestone_2_Design_Document/Enemies "wikilink") --[octo](User#octo "wikilink") 07:08, 5 March 2010 (UTC)
+    -   Initial version is done. Waiting for feedback and improvements. See [Milestone 2 Design Document/Enemies](Milestone_2_Design_Document/Enemies "wikilink") --[octo](mediawiki/Users/octo) 07:08, 5 March 2010 (UTC)
 -   [Mr. Bomb](Mr._Bomb "wikilink"): Roll back to behavior of [Milestone 1](Milestone_1 "wikilink"), get rid of particle effects
-    -   Particle effects are currently deactivated in [src/object/explosion.cpp](Template:SvnFile "wikilink"). --[octo](User#octo "wikilink") 07:08, 5 March 2010 (UTC)
+    -   Particle effects are currently deactivated in [src/object/explosion.cpp](Template:SvnFile "wikilink"). --[octo](mediawiki/Users/octo) 07:08, 5 March 2010 (UTC)
 -   add PNG support for screenshots, BMP support currently broken
-    -   <small>What's wrong with BMP support? It seems to work for me - [sik0fewl](User#sik0fewl "wikilink") 06:11, 13 June 2008 (UTC)</small>
-        -   ACK, BMP-based screenshots work, at least with the SDL renderer. --[octo](User#octo "wikilink") 06:53, 5 March 2010 (UTC)
+    -   <small>What's wrong with BMP support? It seems to work for me - [sik0fewl](mediawiki/Users/sik0fewl) 06:11, 13 June 2008 (UTC)</small>
+        -   ACK, BMP-based screenshots work, at least with the SDL renderer. --[octo](mediawiki/Users/octo) 06:53, 5 March 2010 (UTC)
 -   at large resolutions frame rate starts to sucks, but CPU usage continues to stay very low, is that a artifact of GPU use or something wrong with our timing/frameskipping code?
     -   <small>Fixed?</small>
 -   bug: can't walk left and jump while pressing ctrl, when going right the same works, might be keyboard specific (Microsoft Natural Ergonomic Keyboard 4000 USB suffers from it, on the same PC a PS/2 keyboard works, maybe kernel driver bug), capslock is bound to ctrl and ctrl is bound as action key, using space for action works as workaround (Grumbel)
 -   peeking should stick instead of jumping back or jumping back should be limited to normal range that the camera can do
-    -   <small>I think this is fixed or at least better now? - [sik0fewl](User#sik0fewl "wikilink") 18:34, 30 April 2009 (UTC)</small>
+    -   <small>I think this is fixed or at least better now? - [sik0fewl](mediawiki/Users/sik0fewl) 18:34, 30 April 2009 (UTC)</small>
 -   ~~add an cmd option --default~~ and/or a menu entry “Reset to Default” to reset any changes to resolution or aspect ratio (or something along those lines) (cmd done, WolfgangB)
 -   ~~create an overview of the current levels~~ — [Milestone 2 Design Document/Levels](Milestone_2_Design_Document/Levels "wikilink")
 
-    —[octo](User#octo "wikilink") 07:24, 11 January 2011 (UTC)
+    —[octo](mediawiki/Users/octo) 07:24, 11 January 2011 (UTC)
 
     1.  ~~New unisolid snow tiles~~
     2.  Parallax backgrounds
 
-        <small>That's heavily used in *Above the Arctic Skies*. —[octo](User#octo "wikilink") 07:22, 11 January 2011 (UTC)</small>
+        <small>That's heavily used in *Above the Arctic Skies*. —[octo](mediawiki/Users/octo) 07:22, 11 January 2011 (UTC)</small>
 
     3.  ~~Sector/Scripting use~~
     4.  ~~Crystallo and IceBlock badguys~~
@@ -625,7 +625,7 @@ Finished
     7.  Moving platforms ~~(ice platforms haven't been used yet...)~~
     8.  ~~Climbable ladders~~
 
-        <small>Ladders are not in the Milestone 2 document, but in Milestone 3. —[octo](User#octo "wikilink") 07:22, 11 January 2011 (UTC)</small>
+        <small>Ladders are not in the Milestone 2 document, but in Milestone 3. —[octo](mediawiki/Users/octo) 07:22, 11 January 2011 (UTC)</small>
 
 -   try to fix white-lines around graphics problems (MatzeB)
     -   Where? -CT. da'Bomb
@@ -634,21 +634,21 @@ Finished
 -   Crystallo dead/dying sprites
 -   Empty top/middle/bottom background image string should be handled as transparent image (more parallax backgrounds)
 -   write TexturePacker to place multiple images on a single texture (better use of texture space and fixes bug with tiles having junk on the edge)
-    -   <small>Fixed with non\_power\_of\_two? --[Mathnerd314](User#mathnerd314 "wikilink") 20:43, 19 March 2010 (UTC)</small>
+    -   <small>Fixed with non\_power\_of\_two? --[Mathnerd314](mediawiki/Users/mathnerd314) 20:43, 19 March 2010 (UTC)</small>
 -   Malformed UTF-8 sequences should not be handled as fatal error, just insert '?' instead (happens with German translation) (fixed? MatzeB)
 -   create some playable test levels for new stuff
-    -   <small>Anything in particular? - [sik0fewl](User#sik0fewl "wikilink") 20:07, 15 June 2008 (UTC)</small>
+    -   <small>Anything in particular? - [sik0fewl](mediawiki/Users/sik0fewl) 20:07, 15 June 2008 (UTC)</small>
 
 
-    Try these, since they're probably most noticeable to Milestone1 users: --[Mathnerd314](User#mathnerd314 "wikilink") 04:23, 7 September 2008 (UTC)
+    Try these, since they're probably most noticeable to Milestone1 users: --[Mathnerd314](mediawiki/Users/mathnerd314) 04:23, 7 September 2008 (UTC)
 
 -   remove border from menu screen or make it scalable for different resolutions
 -   remove pictures from credits, looks to uneven that way
 
 
-<small>Really? I like the pictures. --[WolfgangB](User#wolfgangb "wikilink") 19:00, 29 April 2008 (UTC)</small>
+<small>Really? I like the pictures. --[WolfgangB](mediawiki/Users/wolfgangb) 19:00, 29 April 2008 (UTC)</small>
 
-<small>I do too. --[Mathnerd314](User#mathnerd314 "wikilink") 00:05, 6 July 2008 (UTC)</small>
+<small>I do too. --[Mathnerd314](mediawiki/Users/mathnerd314) 00:05, 6 July 2008 (UTC)</small>
 
 -   replace old bomb with new bomb sprite
 -   ~~change game back to use Milestone1 single-sprite SuperTux (done)~~
@@ -694,19 +694,19 @@ Finished
 -   ~~can't run while carrying an object, but should be able to~~
 
 
-No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial “no stuff behind this line” object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[WolfgangB](User#wolfgangb "wikilink") 01:22, 25 May 2008 (UTC))
+No, that is on purpose: Tux can't run when carrying heavy objects. So you can control where the player can not bring eg. the trampoline without a artificial “no stuff behind this line” object. Any reason why Tux should be able to run when lugging objects almost as big as himself? --[WolfgangB](mediawiki/Users/wolfgangb) 01:22, 25 May 2008 (UTC))
 
 
-With \*large\* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [Grumbel](User#grumbel "wikilink") 17:13, 28 May 2008 (UTC)
+With \*large\* objects I might agree, but an Iceblock or any other 32x32 one isn't a large object, it just robs the gameplay from being dynamic. -- [Grumbel](mediawiki/Users/grumbel) 17:13, 28 May 2008 (UTC)
 
 
-The speed limiting code has been deactivated in [6540](Template:Revision "wikilink"). --[octo](User#octo "wikilink") 06:51, 5 March 2010 (UTC)
+The speed limiting code has been deactivated in [6540](Template:Revision "wikilink"). --[octo](mediawiki/Users/octo) 06:51, 5 March 2010 (UTC)
 
 -   ~~General: Get rid of bouncing snowballs killing normal snowballs and other unintended behaviour~~
-    -   Fixed in [6554](Template:Revision "wikilink") —[octo](User#octo "wikilink") 07:35, 9 March 2010 (UTC)
+    -   Fixed in [6554](Template:Revision "wikilink") —[octo](mediawiki/Users/octo) 07:35, 9 March 2010 (UTC)
 -   ~~[Flying Snowball](Flying_Snowball "wikilink"): Add acceleration/deceleration instead of linear up and down~~
 
-    Isn't this the current behavior ([6402](Template:Revision "wikilink"))? —[octo](User#octo "wikilink") 18:22, 26 February 2010 (UTC)
+    Isn't this the current behavior ([6402](Template:Revision "wikilink"))? —[octo](mediawiki/Users/octo) 18:22, 26 February 2010 (UTC)
 
 -   ~~background graphics glitch at non-800x600 resolutions (black line where background tiles), reason for this is that background gets copied to a 1024x1024 texture with a black border, at non 800x600 resolutions the right edge becomes blended with this black border, need to add 1px border around the texture to fix this blending bug (alternative: use GL\_NEAREST instead of GL\_LINEAR)~~
 
@@ -828,7 +828,7 @@ This document is meant to give a reasonably detailed guide on what
 shall and shall not happen in Milestone 2. It is also intended as a
 complete replacement of other, incomplete or otherwise flawed,
 Milestone 2 documents floating around in this Wiki. This design
-document is written by [Grumbel](User#grumbel "wikilink"), question
+document is written by [Grumbel](mediawiki/Users/grumbel), question
 and comments are welcome, use the [talk
 page](Talk:Milestone_2_Design_Document "wikilink") or the [IRC](IRC
 "wikilink") channel for that. At the moment this document is a
@@ -857,14 +857,14 @@ General
 
 -   uni-solid tiles shall be provided for all tilesets
 
-    Should the graphics of unisolid tiles differ from those of solid tiles? If not, using invisible unisolid tiles in the interactive tilemap and solid tiles in a non-solid background tilemap works just as well and doesn't duplicate tiles a hundredfold. --[octo](User#octo "wikilink") 07:06, 2 March 2010 (UTC)
+    Should the graphics of unisolid tiles differ from those of solid tiles? If not, using invisible unisolid tiles in the interactive tilemap and solid tiles in a non-solid background tilemap works just as well and doesn't duplicate tiles a hundredfold. --[octo](mediawiki/Users/octo) 07:06, 2 March 2010 (UTC)
 
 -   multi-layer parallax scrolling background tilemaps shall be used in all levels
 -   menu system should be replaced/reworked
 -   save system could need a rework as well
 -   language shall be changeable via the option menu, LANG environment variable shall only be used as default setting
 
-    I think this is how it is currently behaving, isn't it? --[octo](User#octo "wikilink") 07:06, 2 March 2010 (UTC)
+    I think this is how it is currently behaving, isn't it? --[octo](mediawiki/Users/octo) 07:06, 2 March 2010 (UTC)
 
 -   worldmap Tux sprite should get animations for left, right, up, down directions, not just a single one as now
 
@@ -876,7 +876,7 @@ The levels of Milestone1 lack verticality as well as unisolid tiles, Milestone2 
 The *worldmap* should be rolled back to that of [Milestone 1](Milestone_1 "wikilink"), i.e. a mostly linear map, but additional optional paths shall be added.
 
 
-This has been done in [6424](Template:Revision "wikilink") and is included in this form in *version 0.3.3*. The only additional path is to the bonus level, though. --[octo](User#octo "wikilink") 07:12, 2 March 2010 (UTC)
+This has been done in [6424](Template:Revision "wikilink") and is included in this form in *version 0.3.3*. The only additional path is to the bonus level, though. --[octo](mediawiki/Users/octo) 07:12, 2 March 2010 (UTC)
 
 See [Milestone 2 Design Document/Levels](Milestone_2_Design_Document/Levels "wikilink") for a more detailed analysis of the current levels.
 
@@ -886,7 +886,7 @@ Cleanup
 The test/ levels are currently quite a big mess, there needs to be cleanup to reduce them to those that are really needed otherwise its to easy to miss the ones that are important.
 
 
-[Mathnerd314](User#mathnerd314 "wikilink") has cleaned up test levels a bit in [6477](Template:Revision "wikilink"). --[octo](User#octo "wikilink") 07:09, 2 March 2010 (UTC)
+[Mathnerd314](mediawiki/Users/mathnerd314 "wikilink") has cleaned up test levels a bit in [6477](Template:Revision "wikilink"). --[octo](User#octo) 07:09, 2 March 2010 (UTC)
 
 World 1 - Icyisland
 ===================
@@ -895,13 +895,13 @@ World 1, the icyisland, was released with Milestone 1, the intend of Milestone 2
 
 -   Jumpy shall be replaced with an enemy that fits better into the snow landscape, Jumpy himself shall be reused in a lava-like setting or in the bosses castle
 
-    Are you referring to the old *Milestone 1* jumpy? The current snowball-with-a-spring look fits the snowy landscape well, IMHO. --[octo](User#octo "wikilink") 07:18, 2 March 2010 (UTC)
+    Are you referring to the old *Milestone 1* jumpy? The current snowball-with-a-spring look fits the snowy landscape well, IMHO. --[octo](mediawiki/Users/octo) 07:18, 2 March 2010 (UTC)
 
 -   the walrus salesmen shall be added to the island
 -   some levels shall be separated out into optional paths, to provide a less linear path
 -   iceblocks which will melt on contact with fire shall allow to lock paths in a level or lock secrets
 
-    Code is there, see [weak blocks](weak_block "wikilink"). Needs graphics to fit into [Icy Island](Icy_Island "wikilink"). --[octo](User#octo "wikilink") 07:18, 2 March 2010 (UTC)
+    Code is there, see [weak blocks](weak_block "wikilink"). Needs graphics to fit into [Icy Island](Icy_Island "wikilink"). --[octo](mediawiki/Users/octo) 07:18, 2 March 2010 (UTC)
 
 -   balanced platforms that start to rotate or move when Tux stands on them shall be provided
 -   water, in its simplistic tile form, shall be removed from all levels

@@ -67,13 +67,13 @@ For Players
 Learn how to play with the [[User Manual]]
 
 Chat on the [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid=7d271ca537028e81027e0b3cdab4f0ca)
-or our [Discord](https://discord.gg/zSBqVvkx)
+or our [Discord](https://discord.gg/AcvtHWz)
 
 For Level Designer
 ------------------
 
 Share your levels on the [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid=7d271ca537028e81027e0b3cdab4f0ca),
-or our [Discord](https://discord.gg/zSBqVvkx) and if we like the look of them, you may be able to submit levels to the official game.
+or our [Discord](https://discord.gg/AcvtHWz) and if we like the look of them, you may be able to submit levels to the official game.
 
 Submit your own level packs or worlds to the [Addon Repository](https://github.com/SuperTux/addons) so more players can see and play
 your levels.

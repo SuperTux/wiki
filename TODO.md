@@ -18,26 +18,23 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 ##### Main Menu
 
-- [ ] Add more detail to the ice frame (it is also too blurry)
-
-  ![](https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/engine/menu/frame.png)
+- [x] Add more detail to the ice frame (it is also too blurry)
 
 ##### Tiles
 
 - Levels
   - [ ] Animation for deeper areas of modern lava
-  - [ ] Potentially parallax background castle tiles of all castle styles for levels near a castle
-  - [ ] More background assets for Icy Island, Rooted Forest and the Ghost Forest.
-  - [ ] Parallax background tiles, decorative tiles for the underground forest
+  - [x] More background assets for Icy Island, Rooted Forest and the Ghost Forest.
+  - [ ] Decorative tiles for the underground forest
   - [x] Crystalcave tileset should be fixed to be usable
   - [ ] Waterfall graphics fitting to the new water type
   - [ ] Add modern fluid style acid/poison (purple liquid) and swamp
-  - [ ] Add castle tiles adapted to their location in story mode (e.g. mossy bricks for the forest castle)
+  - [x] Add castle tiles adapted to their location in story mode (e.g. mossy bricks for the forest castle)
   - [ ] Decorative tiles for underwater areas in all themes
-  - [ ] Redraw poles
+  - [x] Redraw poles
   - [x] Fix tilling for crystal cave tileset (potentially redo it from ground up)
-  - [ ] Cloud tiles are screwed up with vertical lines going through it
-  - [ ] Improve ice bridge tiles (right now they are just a recolor)
+  - [x] Cloud tiles are screwed up with vertical lines going through it
+  - [x] Improve ice bridge tiles (right now they are just a recolor)
 
 - Worldmap
   - [x] Transition tiles from normal to ghost forest
@@ -49,7 +46,7 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 - [ ] More diverse backgrounds for all themes
 - [ ] Sky backgrounds for every time of day (i.e. sunrise, midday, sunset, night)
-- [ ] Divide backgrounds into multiple layers
+- [x] Divide backgrounds into multiple layers
 
 ##### Objects
 
@@ -59,7 +56,7 @@ graphics/UX tasks, `category:code` for code tasks, and
   - [ ] Proper Ghost Tree graphics
 
 - Interactives
-  - [ ] Alternative light sources (glowing crystals, hanging/standing brazier, glowing plants)
+  - [x] Alternative light sources (glowing crystals, hanging/standing brazier, glowing plants)
   - [ ] Visual effects for willowisp warp and level flip
  
 - Powerups
@@ -86,10 +83,10 @@ graphics/UX tasks, `category:code` for code tasks, and
   - [x] Intro: Picnic with Penny
   - [x] Interlude: A Yeti in the distance
   - [x] Interlude: Where is Penny?
-  - [ ] Outro: Towards the glacier island
+  - [ ] Outro: Towards the Glacier Isle
 ##### Rooted Forest
-  - [x] Intro: A new location
-  - [x] Interlude: An eerie plague
+  - [x] Intro: A New Location
+  - [x] Interlude: An Eerie Plague
   - [ ] Interlude: Gigantic tree
   - [ ] Outro: Bye bye forest
 
@@ -99,7 +96,7 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 - [ ] Comments: explain arbitary(?) constants in physics code
 - [ ] Improve Zeekling behavior
-- [ ] Sliding
+- [x] Sliding
 - [x] Swimming
 - [ ] Discuss: fluid simulation as game object rather than tiles?
 - [x] Coin: expose to scripting interface for path/movement settings

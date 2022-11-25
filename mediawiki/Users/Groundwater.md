@@ -1,4 +1,4 @@
-<br><br>[[Image:Snowsnail.png]]<br>
+<br><br>![Snowsnail](../../images/Snowsnail.png)<br>
 '''Stephen Groundwater, N3YLH'''<br>
 [http://gluebox.com GlueBox Homepage]
 <br><br>

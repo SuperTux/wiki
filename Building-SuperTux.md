@@ -1,15 +1,15 @@
-> **Outdated**: SVN version uses cmake/make instead of autoconf/jam. See [INSTALL.md](https://github.com/SuperTux/supertux/blob/master/INSTALL.md)
+> **Outdated**: SVN version uses cmake/make instead of autoconf/jam. See [INSTALL.md](https://github.com/SuperTux/supertux/blob/master/INSTALL)
 
 Supertux development mainly happens on Linux. The source code is written in a portable manner but the tools and development environment for windows isn't there. However, you should be able to get the game built with the help of MSYS and MinGW. Find more detailed instructions at [Building on Windows](Building-on-Windows "wikilink").
 
 You can also cross-compile the game with MinGW or [M Cross Environment](Cross_compiling_with_MXE "wikilink").
 
-Prebuilt binaries can be found at <User#rgcjonas>
+Prebuilt binaries can be found at [User#rgcjonas](mediawiki/Users/Rgcjonas)
 
 mac OS X
 ========
 
-To compile the latest version of SuperTux on macOS Big Sur, open this [guide](Building-on-macOS.md). Look at the `Unix-Style Build` section in particular.
+To compile the latest version of SuperTux on macOS Big Sur, open this [guide](Building-on-macOS). Look at the `Unix-Style Build` section in particular.
 
 Prerequisites
 =============

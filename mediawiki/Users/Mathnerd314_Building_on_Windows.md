@@ -1,8 +1,8 @@
-== Introduction ==
+## Introduction
 
 If you want to build the current development version on Windows, these step-by-step instructions are for you. At the end of the article is a quick guide for Visual Studio.
 
-== Warnings ==
+## Warnings
 
 Before you proceed, however, carefully read the following warnings:
 
@@ -13,17 +13,17 @@ Before you proceed, however, carefully read the following warnings:
 * The whole build process takes about one hour to complete, depending on your internet connection and processor power. Why not do something more productive in that hour? Maybe do some housework?
 * The build process fails on Windows Vista sometimes. (please open a bug in our [http://supertux.lethargik.org/bugs/ bug tracker] to help us figure out why)
 
-=== Installing ===
+### Installing
 
 OK, enough of that. Here are the steps I used for building SuperTux on a (mostly) fresh Windows 7 installation:
-# Copy the install line from http://chocolatey.org/ into the Command Prompt and execute it.
-# Chocolatey only has a few packages now, but there should eventually be more: (This is enough to bootstrap though)
+* Copy the install line from http://chocolatey.org/ into the Command Prompt and execute it.
+* Chocolatey only has a few packages now, but there should eventually be more: (This is enough to bootstrap though)
  cinst 7zip.commandline
  cinst cmake
  cinst curl
  cinst git
 
-=== It's Download Time ===
+### It's Download Time
 
 We need lots of libraries as well as a copy of the supertux development tree, so let's download them:
 
@@ -41,7 +41,7 @@ We need lots of libraries as well as a copy of the supertux development tree, so
  git clone https://code.google.com/p/supertux/ 
  msys\1.0\msys.bat
 
-=== Getting Busy ===
+### Getting Busy
  mkdir /local
  cd /mingw/libs
  cmd //c '7za x *.zip -ai!*.7z'
@@ -57,7 +57,7 @@ We need lots of libraries as well as a copy of the supertux development tree, so
 * Copy OpenAL32.dll and wrap_oal.dll to local\bin
 ** If they aren't there, try running C:\Program Files\OpenAL 1.1 SDK\redist\oalinst.exe
 
-== Building ==
+### Building
 
 * We're going to build PhysFS.
 * Launch MSYS with msys/msys.bat and type in the following: (you can paste into MSYS using the icon in the title bar)
@@ -86,10 +86,10 @@ A lot of these are unnecessary; use objdump -p or strings to prune the tree.
  cd /supertux
  ./supertux2.exe
 
-== Building the editor ==
+### Building the editor
 
 There's a new gtk-sharp based editor in development which can also be built on windows. To do so you first have to get and install the following dependencies:
-=== Dependencies ===
+### Dependencies
 * Make sure you have OpenGL drivers installed
 * Microsoft .NET 1.X framework SDK, you should be able to get this here: http://www.microsoft.com/downloads/details.aspx?FamilyID=9b3a2ca6-3647-4070-9f41-a333c6b9181d&DisplayLang=en
 * Microsoft .NET 2.X framework SDK, yes you need 1.x AND 2.x at the moment!: http://www.microsoft.com/downloads/details.aspx?familyid=FE6F2099-B7B4-4F47-A244-C96D69C35DEC&displaylang=en
@@ -98,7 +98,7 @@ There's a new gtk-sharp based editor in development which can also be built on w
 *:This apparently requires SP2 on Windows XP. (not tested on any other Windows versions)
 * SDL.dll and SDL_image.dll, you can get these from an existing SuperTux installation or from the downloads above.
 
-=== Building ===
+### Building
 
 * Get the sourcecode from [[Download/Subversion|svn]]
 * Open supertux-sharp.sln by double clicking on it.
@@ -108,11 +108,11 @@ There's a new gtk-sharp based editor in development which can also be built on w
 
 You might want to read the [[Editor FAQ]] at this point.
 
-=== Snapshots ===
+### Snapshots
 MMLosh has some snapshots on his website: http://elektromaniak.wz.cz/download.html
 Note that because Mono is cross-platform, the executables should work on both Windows and Linux, though libraries can be a problem.
 
-== Fast and Easy Build with Visual Studio ==
+## Fast and Easy Build with Visual Studio
 
 ''This is experimental''
 Tested on W7/VS2010 x64

@@ -15,12 +15,17 @@ Confirmed Badguys
 - Haunted Tree
 - Zuurkling
 
+### Tropical Paradise
+
+- Totem
+- Totem Jumpy
+- Venus Trap
 
 ### Nolok's Mountain Peak
    
 - Rusty Bomb
 - Hellbent
-- Metaljumpy
+- Metal Jumpy
 - Metal Crusher
 - Rocket
 - Ispy
@@ -36,7 +41,7 @@ Proposed Badguys
 - Snowbomb (Snow Variant of Skydive)
 - Rolling Snowball (big and small)
 
-### Glacier Islands (Crystal Cave)
+### Glacier Isle (Crystal Cave)
 
 - Cave Fish
 - Minecart
@@ -49,6 +54,7 @@ Proposed Badguys
 - Carnivorous Plant
 - Mother Snail
 - Bouncy Bush
+- Ghost Plant
 - Beetle
 
 ### Tropical Paradise
@@ -56,7 +62,7 @@ Proposed Badguys
 - Evil Seaweed
 - Charmeleon
 - Parrot
-- Frog
+- Frog/Toad
 - Snake
 - Monkey
 - Piranha
@@ -74,6 +80,7 @@ Proposed Badguys
 - Shark
 - Jumping Fish
 - Tumbleweed
+- Bee/Wasp/Hornet
 
 ### Nolok's Mountain Peak
 

@@ -15,7 +15,7 @@ be designed with these rules in mind:
   7. [File Naming Conventions](https://github.com/SuperTux/supertux/wiki/Level-Design#File-Naming-Conventions)
   8. [Other](https://github.com/SuperTux/supertux/wiki/Level-Design#Other)
 
-*If you are looking for the guidlines outside of level making see [Thematic Guideline](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline)!*
+*If you are looking for guidelines outside of level making see [Thematic Guideline](https://github.com/SuperTux/supertux/wiki/Thematic-Guideline)!*
 
 ---
 

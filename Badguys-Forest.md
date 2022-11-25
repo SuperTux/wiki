@@ -7,7 +7,7 @@ Note: For some badguys, we still need to settle down on proper names (e.g. *Mr. 
 Poison Ivy
 ==========
 
-![](img/badguy/icons/poison_ivy.gif)
+![](img/badguy/icons/vicious_ivy.gif)
 
 Poison Ivy is a vicious plant which walks straight forward and falls when reaching the edge of a platform. Due
 to it flapping its wings while falling it starts hovering slowly towards the ground (not implemented yet).
@@ -54,7 +54,7 @@ shoots him out in a straight line until crashing.
 | Freezable      | yes    |
 
 
-Mr. Tree (walkingtree)
+Mr. Tree
 ======================
 
 ![](img/badguy/icons/mr_tree.gif) ![](img/badguy/icons/mr_tree_leafless.gif)
@@ -149,12 +149,6 @@ The simplest way of avoiding him is usually to run below him or jump over him at
 | Buttjumpable   | no     |
 | Burnable       | yes    |
 | Freezable      | yes    |
-
-### Comments
-
-> RustyBox: "Current design looks to bland and boring. Potentially something similar to
-> [this](https://forum.freegamedev.net/viewtopic.php?f=68&t=7281&p=85667&hilit=forest#p71897)
-> with some vines"
 
 
 Fish

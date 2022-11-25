@@ -33,7 +33,7 @@ Doors.
   
 Yes, doors are good. But maybe have other stuff too like teleporter, magic force field, hole, cave or something. --smallfoot
 
-Can be done already. A door with another sprite or a script trigger. --[WolfgangB](User#wolfgangb "wikilink") 19:47, 7 Sep 2006 (BST)
+Can be done already. A door with another sprite or a script trigger. --[WolfgangB](mediawiki/Users/wolfgangb) 19:47, 7 Sep 2006 (BST)
 
   
 There should be some cool sprites included in the game which can be choosed.
@@ -57,7 +57,7 @@ Ok, I know the game is already unrealistic but there are still things that don't
   
 Yes, he could also be faster. But there should be a difference in movement under water and on land. Such as different acceleration or physics. -smallfoot
 
-see [Swimming](Swimming "wikilink") --[WolfgangB](User#wolfgangb "wikilink") 19:48, 7 Sep 2006 (BST)
+see [Swimming](Swimming "wikilink") --[WolfgangB](mediawiki/Users/wolfgangb) 19:48, 7 Sep 2006 (BST)
 
 Doors / Bridges
 ---------------
@@ -74,7 +74,7 @@ Good, but I have never seen this implemented in SuperTux yet. The game needs thi
 “Can be done with scripting.” Most everything can be done by scripting, but how? Implent it so everybody can use it..
 
   
-Did you ever look at existing levels? Try world2/village.stl. --[Superdev](User#superdev "wikilink") 14:48, 24 January 2009 (UTC)
+Did you ever look at existing levels? Try world2/village.stl. --[Superdev](mediawiki/Users/superdev) 14:48, 24 January 2009 (UTC)
 
 Rollable/pushable stones
 ------------------------
@@ -110,7 +110,7 @@ The player shouldn't just play level, complete level, go next level, in an infin
 Some games have a story that is more interesting than the game itself. Some games you play just because you are so into the story and really needs to know more about it. Kinda like when you started to read a book, you cant put it away. Of when you started watch a movie, it get so exciting you cant switch away channel. :)
 
   
-In the midst of a flood of games that take themselves too seriously, a game about a penguin who shoots fireballs and squashes walking snowballs in a quest to save his girlfriend is a relief. Adding more story than what's there now would do little more than interfere with the gameplay. [Plombo](User#plombo "wikilink") 22:49, 2 July 2010 (UTC)
+In the midst of a flood of games that take themselves too seriously, a game about a penguin who shoots fireballs and squashes walking snowballs in a quest to save his girlfriend is a relief. Adding more story than what's there now would do little more than interfere with the gameplay. [Plombo](mediawiki/Users/plombo) 22:49, 2 July 2010 (UTC)
 
 NPC
 ---
@@ -127,7 +127,7 @@ Who the \[censored\] is sonic? There are weak blocks.
 
 And Straw Bales (fire shot)
 
--   Watch your mouth.--[DJ Wings](User#djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings "wikilink") 18:35, 11 Jul 2006 (BST)
+-   Watch your mouth.--[DJ Wings](mediawiki/Users/djwings "wikilink")[<sub>Freesyle\ here</sub>](User_talk:Djwings) 18:35, 11 Jul 2006 (BST)
 
 Dynamic environment
 -------------------

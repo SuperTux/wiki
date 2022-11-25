@@ -12,7 +12,7 @@ This is a Linux game. And yet the only way to install 0.3.x levels on it to buil
 Iceflower? What iceflower?
 ==========================
 
-Hey, I read about something called the “iceflower” and I thought it sounded pretty awesome. I have not found it implemented anywhere in SuperTux 0.3.1 and I was wondering, is it just an idea that has been going around or is my version of SuperTux just old? --[MegaTux](User#megatux "wikilink") 00:00, 21 March 2010 (UTC)
+Hey, I read about something called the “iceflower” and I thought it sounded pretty awesome. I have not found it implemented anywhere in SuperTux 0.3.1 and I was wondering, is it just an idea that has been going around or is my version of SuperTux just old? --[MegaTux](mediawiki/Users/megatux) 00:00, 21 March 2010 (UTC)
 
 I got SuperTux from the Ubuntu Karmic Koala software center under the title SuperTux 2. It was the latest version listed. If there is an iceflower, and it is in a newer version of SuperTux, could somebody please ask the Ubuntu packager to upload a more recent version? \\I found ice flower and ice cap graphics in game code, but it isn't implented in the game.
 
@@ -23,7 +23,7 @@ Add-ons on Ubuntu
 
 I am running Ubuntu Karmic Koala, and the add-on feature is telling me that it is disabled. From what I understand, if you build the source you can enable the feature by installing libcurl3. I do not want to build the source code myself, as with previous experience I have normally destroyed my computer.
 
-I was wondering if and when the package guy will build SuperTux with libcurl3 and add it as a dependency so that other users and I can install add-ons and stuff. --[MegaTux](User#megatux "wikilink") 00:02, 21 March 2010 (UTC)
+I was wondering if and when the package guy will build SuperTux with libcurl3 and add it as a dependency so that other users and I can install add-ons and stuff. --[MegaTux](mediawiki/Users/megatux) 00:02, 21 March 2010 (UTC)
 
 Download it and put it in /.supertux2.
 
@@ -33,7 +33,7 @@ No More Mr. Ice Guy Level Difficulty
 no more mr ice guy is really hard yo beat --[121.209.218.246](Special:Contributions/121.209.218.246 "wikilink") 00:55, 14 July 2011 (UTC)
 
   
-Since you no longer can shoot the Yeti, the level is a bit difficult to beat. But IMO that’s fine for a Boss. --[Bernd](User#bernd "wikilink") 17:15, 14 July 2011 (UTC)
+Since you no longer can shoot the Yeti, the level is a bit difficult to beat. But IMO that’s fine for a Boss. --[Bernd](mediawiki/Users/bernd) 17:15, 14 July 2011 (UTC)
 
 Current situation
 =================
@@ -52,7 +52,7 @@ Make it:
 Easier
 ------
 
-adamorjames, Auria, Tux, octo, [A:-)Brunuś](User#a:-)brunuś "wikilink"), Wolfs
+adamorjames, Auria, Tux, octo, [A:-)Brunuś](mediawiki/Users/a:-)brunuś), Wolfs
 
 Same
 ----
@@ -72,27 +72,27 @@ I'm new here, I've been playing 0.3.1 from fedora repo (i guess), but there's ju
 Music
 =====
 
-Helloes, I have two MIDI songs that I would like to contribute to SuperTux. Unfortunately, their file type (.mid) is not allowed for upload on the wiki, and I'm not interested in joining a file-sharing service. Any suggestions? [Tuxnut](User#tuxnut "wikilink") 23:44, 14 June 2010 (UTC)
+Helloes, I have two MIDI songs that I would like to contribute to SuperTux. Unfortunately, their file type (.mid) is not allowed for upload on the wiki, and I'm not interested in joining a file-sharing service. Any suggestions? [Tuxnut](mediawiki/Users/tuxnut) 23:44, 14 June 2010 (UTC)
 
   
-Compress them as .zip or .gz and upload them on the [\[Template:Mediawiki:Bugtracker-url]([Template:Mediawiki:Bugtracker-url "wikilink") bug tracker\] in a new bug under “Sound and Music.” --[Mathnerd314](User#mathnerd314 "wikilink") 00:16, 15 June 2010 (UTC)
+Compress them as .zip or .gz and upload them on the [\[Template:Mediawiki:Bugtracker-url]([Template:Mediawiki:Bugtracker-url "wikilink") bug tracker\] in a new bug under “Sound and Music.” --[Mathnerd314](mediawiki/Users/mathnerd314) 00:16, 15 June 2010 (UTC)
 
   
 Thanks for the quick reply; I'll do that when I have the time. [75.0.181.82](Special:Contributions/75.0.181.82 "wikilink") 03:31, 15 June 2010 (UTC)
 
-Just a question: Is anyone even there? :/ [TUX/√UT](User#tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut "wikilink")) 03:21, 20 June 2010 (UTC)
+Just a question: Is anyone even there? :/ [TUX/√UT](mediawiki/Users/tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut)) 03:21, 20 June 2010 (UTC)
 
   
 Where? I don't get it. --[155.223.52.5](Special:Contributions/155.223.52.5 "wikilink") 10:25, 20 June 2010 (UTC)
 
   
-The bug tracker. I'm seeing a lot of bugs marked “new” and only a few marked “resolved” -\_- [TUX/√UT](User#tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut "wikilink")) 19:34, 20 June 2010 (UTC)
+The bug tracker. I'm seeing a lot of bugs marked “new” and only a few marked “resolved” -\_- [TUX/√UT](mediawiki/Users/tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut)) 19:34, 20 June 2010 (UTC)
 
   
 Most of the new “bugs” are people dumping their files there. What do you axpect the devs to do with them? Reject them would not be a smart move by pissing of users. Accept won't work either because how can you acept leves if noone knows what features are available in milestone 2. But yes, all the noise on the bugtracker sucks. I think about unsubscribing. --[87.118.104.203](Special:Contributions/87.118.104.203 "wikilink") 19:35, 21 June 2010 (UTC)
 
   
-Everyone with Subversion installed knows what features are available in Milestone 2. And of course, since these user levels are submitted by users, and only developer-made levels are decent, it naturally has to be pure junk, right? [TUX/√UT](User#tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut "wikilink")) 03:20, 22 June 2010 (UTC)
+Everyone with Subversion installed knows what features are available in Milestone 2. And of course, since these user levels are submitted by users, and only developer-made levels are decent, it naturally has to be pure junk, right? [TUX/√UT](mediawiki/Users/tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut)) 03:20, 22 June 2010 (UTC)
 
   
 Many of the features in svn are tagged as “to be removed” in the wiki. Maybe you missed that while reformatting the entries. See [Grumbel grumbles](Grumbel_grumbles "wikilink") for
@@ -103,7 +103,7 @@ which levels are consider junk by the main developer. But you probably know that
   
 I found this: *Trash, junk and other garbage and we call it 'levels'. The svn needs really some large cleanup to seperate the useless testing stuff from the usefull \[sic\] ones and the testing from the actually playable.*
 
-I believe he is talking more about the test/experimental levels included in the SVN (Bouncy Coils and Crumbling Path, e.g.) than the user-submitted content. But that's enough of this semi-trivial discussion; this bickering (especially on my part) is not why I created this section. [TUX/√UT](User#tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut "wikilink")) 18:12, 22 June 2010 (UTC)
+I believe he is talking more about the test/experimental levels included in the SVN (Bouncy Coils and Crumbling Path, e.g.) than the user-submitted content. But that's enough of this semi-trivial discussion; this bickering (especially on my part) is not why I created this section. [TUX/√UT](mediawiki/Users/tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut)) 18:12, 22 June 2010 (UTC)
 
 <!-- -->
 
@@ -113,10 +113,10 @@ I believe he is talking more about the test/experimental levels included in the 
 Frame Delay Time?
 =================
 
-Hello, I'm new here, and I need to know the correct delay (in ms) between frames of a animation, as in a sprite. I've searched the source code, but there seems to be too much to sift through. Can anyone help me? --[1a2a3a2a1a](User#1a2a3a2a1a "wikilink")
+Hello, I'm new here, and I need to know the correct delay (in ms) between frames of a animation, as in a sprite. I've searched the source code, but there seems to be too much to sift through. Can anyone help me? --[1a2a3a2a1a](mediawiki/Users/1a2a3a2a1a)
 
   
-Never mind, found it. (10 fps, or 100 ms) --[1a2a3a2a1a](User#1a2a3a2a1a "wikilink")
+Never mind, found it. (10 fps, or 100 ms) --[1a2a3a2a1a](mediawiki/Users/1a2a3a2a1a)
 
 Screen Res?
 ===========
@@ -124,7 +124,7 @@ Screen Res?
 just installed SuperTux on my mac. the screen resolution is wrong, how can i change this?
 
   
-Use `--geometry WIDTHxHEIGHT`, as `supertux2 --help` should show. --[Mathnerd314](User#mathnerd314 "wikilink") 15:30, 14 July 2010 (UTC)
+Use `--geometry WIDTHxHEIGHT`, as `supertux2 --help` should show. --[Mathnerd314](mediawiki/Users/mathnerd314) 15:30, 14 July 2010 (UTC)
 
 Cannot delete levels
 --------------------
@@ -144,7 +144,7 @@ Here is one of the many ways to incorporate the cave levels into SuperTux:
   
 Tux first visits Nolok's castle, but realizes that nobody can enter without the key, which is located in the ice cave. Tux enters the ice cave, going deeper and deeper into the crystal mines (this is where Incubator Island levels like Crystal Beauty come in handy) until he finds the key. Then he escapes and enters the castle.
 
-I don't know. As long as there's an explanation that works, I'm happy with it. [TUX/√UT](User#tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut "wikilink")) 18:49, 4 September 2010 (UTC)
+I don't know. As long as there's an explanation that works, I'm happy with it. [TUX/√UT](mediawiki/Users/tuxnut "wikilink") ([plz talk 2 me internets](User_talk:Tuxnut "wikilink") | [view horrendous deeds](Special:Contributions/Tuxnut)) 18:49, 4 September 2010 (UTC)
 
 Profile folder
 --------------
@@ -166,7 +166,7 @@ brmbrmcar
 
 ### B) Let it be, but increasing M1 levels reject.
 
-=== C) Increasing levels of M1 and reject and old M1 levels turn to M2 levels (as in IcyIsland). === --[Hume](User#hume "wikilink") 20:02, 15 April 2011 (UTC)
+=== C) Increasing levels of M1 and reject and old M1 levels turn to M2 levels (as in IcyIsland). === --[Hume](mediawiki/Users/hume) 20:02, 15 April 2011 (UTC)
 
 ### D) Delete all M1 levels and increasing M1 levels reject.
 
@@ -174,7 +174,7 @@ brmbrmcar
 
 ### A) Yes
 
---[Hume](User#hume "wikilink") 20:11, 15 April 2011 (UTC)
+--[Hume](mediawiki/Users/hume) 20:11, 15 April 2011 (UTC)
 brmbrmcar
 
 ### B) No
@@ -182,35 +182,35 @@ brmbrmcar
 == What to do before relase ST0.3.4? == Write only your signatures here please.
 
 1.  Make Bonus island 3
-    1.  Yes:--[Hume](User#hume "wikilink") 17:40, 2 February 2012 (UTC)
+    1.  Yes:--[Hume](mediawiki/Users/hume) 17:40, 2 February 2012 (UTC)
     2.  No:
 2.  Repair gameplay bugs
     1.  Yes:
-    2.  No:--[Hume](User#hume "wikilink") 17:40, 2 February 2012 (UTC)
+    2.  No:--[Hume](mediawiki/Users/hume) 17:40, 2 February 2012 (UTC)
 3.  Upgrade the climbing Tux
-    1.  Yes:--[Hume](User#hume "wikilink") 17:40, 2 February 2012 (UTC)
+    1.  Yes:--[Hume](mediawiki/Users/hume) 17:40, 2 February 2012 (UTC)
     2.  No:
 4.  Implement LMH's new worldmap tilesets
-    1.  Yes:--[Hume](User#hume "wikilink") 19:10, 13 February 2012 (UTC)
+    1.  Yes:--[Hume](mediawiki/Users/hume) 19:10, 13 February 2012 (UTC)
     2.  No:
 5.  Create bonus-level dots
-    1.  Yes:--[Hume](User#hume "wikilink") 17:40, 2 February 2012 (UTC)
+    1.  Yes:--[Hume](mediawiki/Users/hume) 17:40, 2 February 2012 (UTC)
     2.  No:
 6.  Implement IceTux worldmap graphics
     1.  Yes
-        1.  By Hume2:--[Hume](User#hume "wikilink") 17:40, 2 February 2012 (UTC)
+        1.  By Hume2:--[Hume](mediawiki/Users/hume) 17:40, 2 February 2012 (UTC)
         2.  By LMH:
     2.  No:
 7.  Repair the bug of boat between Icy island and Forest island
     1.  Yes
         1.  Repair the boat:
-        2.  Make another way for get to Forest island:--[Hume](User#hume "wikilink") 17:40, 2 February 2012 (UTC)
+        2.  Make another way for get to Forest island:--[Hume](mediawiki/Users/hume) 17:40, 2 February 2012 (UTC)
     2.  No:
 8.  Make a Windows installation:
-    1.  Yes--[Hume](User#hume "wikilink") 18:01, 2 February 2012 (UTC)
+    1.  Yes--[Hume](mediawiki/Users/hume) 18:01, 2 February 2012 (UTC)
     2.  No:
 9.  Make an edior fully working on windows
-    1.  Yes--[Hume](User#hume "wikilink") 18:28, 9 February 2012 (UTC)
+    1.  Yes--[Hume](mediawiki/Users/hume) 18:28, 9 February 2012 (UTC)
     2.  No:
 
 Your proposions:
@@ -232,7 +232,7 @@ I'm sure you thought that was very funny when you wrote it, but it really is qui
 Bugmenot Account
 ================
 
-As this is an open wiki, I see little reason for the <User#bugmenot> account to exist. I would suggest to any available wiki administrator that the account be deleted and this site blocked at bugmenot.com. -- Qwood [(contribs)](Special:Contributions/Qwood "wikilink") [(talk)](User_talk:Qwood "wikilink") 07:43, 7 June 2011 (UTC)
+As this is an open wiki, I see little reason for the <mediawiki/Users/bugmenot> account to exist. I would suggest to any available wiki administrator that the account be deleted and this site blocked at bugmenot.com. -- Qwood [(contribs)](Special:Contributions/Qwood "wikilink") [(talk)](User_talk:Qwood) 07:43, 7 June 2011 (UTC)
 
 New Supertux Snapshot
 =====================
@@ -286,7 +286,7 @@ Try the mailing list on <http://lists.lethargik.org/listinfo.cgi/supertux-devel-
 The mailing list has been disabled, so like I said, this is really the best place. -- Qwood [(contribs)](Special:Contributions/Qwood "wikilink") [(talk)](User_talk:Qwood "wikilink") 12:29, 20 July 2011 (UTC)
 
   
-No, the list still works. --[WolfgangB](User#wolfgangb "wikilink") 19:09, 25 July 2011 (UTC)
+No, the list still works. --[WolfgangB](mediawiki/Users/wolfgangb) 19:09, 25 July 2011 (UTC)
 
 Why does Qwood add such obvious lies while posting on mailing list himself? More trolling? --[137.56.163.46](Special:Contributions/137.56.163.46 "wikilink") 17:54, 26 July 2011 (UTC)
 

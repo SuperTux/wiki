@@ -1,4 +1,5 @@
-Note: This is mainly a collection of ideas and subject to change. If you like to checkout what's planned for upcoming characters and/or other mechanics take a look at our [current design document](https://github.com/SuperTux/supertux/wiki/Current-Design-Document).
+*Note: This is mainly a collection of ideas and subject to change. If you like to checkout what's planned for
+upcoming characters and/or other mechanics take a look at our [current design document](https://github.com/SuperTux/supertux/wiki/Current-Design-Document).*
 
 Main Characters
 ===============
@@ -81,7 +82,15 @@ Nolok
 ![](images/Nolok-statue-sample-5.png)
 </details>
 
-Nolok the crocodile is the main enemy of Tux, the antagonist of SuperTux. Nolok is always menacing but with a hint of "laid back"; he is very confident but not to the point of being egotistical. Like a cat plays with mice, Nolok is a predator and derives pleasure and entertainment from playing with his prey. So the reason he kidnaps Penny is that he derives entertainment out of Tux feeling sorrow towards his beloved Penny and having no idea where to find her. Additionally, Nolok enjoys to see Tux suffer on his journey, thus leading him to leave jeering notes and wreak havoc on the world by sending out his minions (the badguys and bosses). But Nolok is also like a crocodile hunting in that he waits patiently for his prey to come to him before he springs his ambush; that's why we don't see Nolok in person until the very last stage when Nolok is ready to confront Tux.
+Nolok the crocodile is the main enemy of Tux, the antagonist of SuperTux. Nolok is always menacing but with
+a hint of "laid back"; he is very confident but not to the point of being egotistical. Like a cat plays with
+mice, Nolok is a predator and derives pleasure and entertainment from playing with his prey. So the reason he
+kidnaps Penny is that he derives entertainment out of Tux feeling sorrow towards his beloved Penny and having
+no idea where to find her. Additionally, Nolok enjoys to see Tux suffer on his journey, thus leading him to
+leave jeering notes and wreak havoc on the world by sending out his minions (the badguys and bosses). But
+Nolok is also like a crocodile hunting in that he waits patiently for his prey to come to him before he
+springs his ambush; that's why we don't see Nolok in person until the very last stage when Nolok is ready to
+confront Tux.
 
 Badguys
 =======
@@ -93,11 +102,16 @@ List of badguys:
 - [Miscellaneous](https://github.com/SuperTux/supertux/wiki/Badguys-Misc)
 - [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses)
 
-A badguy in SuperTux is a foe of Tux, serving as Nolok's minion. They may not be "bad" in the way that a snowball isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like Snowballs with varying characteristics, but some are more like objects (Stalactite for example) or phenomena like Flame.
+A badguy in SuperTux is a foe of Tux, serving as Nolok's minion. They may not be "bad" in the way that a
+snowball isn't really bad, but they can certainly hurt Tux. Most of the badguys are creatures, like Snowballs
+with varying characteristics, but some are more like objects (Stalactite for example) or phenomena like Flame.
 
-Tux will try to avoid approaching badguys if possible. If he runs into one or one drops on his head, he is hurt. When hurt Tux will lose a powerup or, if Tux has no powerups left, he will be killed.
+Tux will try to avoid approaching badguys if possible. If he runs into one or one drops on his head, he is hurt.
+When hurt Tux will lose a powerup or, if Tux has no powerups left, he will be killed.
 
-Many of the badguys Tux can knock out by jumping on them and squishing them. Others are only stunned by this for a short while or are insusceptible to this and hurt Tux instead. As a rule of thumb, badguys with a spiky head or helmet can usually not be jumped on.
+Many of the badguys Tux can knock out by jumping on them and squishing them. Others are only stunned by this
+for a short while or are insusceptible to this and hurt Tux instead. As a rule of thumb, badguys with a spiky
+head or helmet can usually not be jumped on.
 
 <details>
   <summary>Unsorted art</summary>
@@ -138,12 +152,19 @@ Granito
 ![](images/Granito.png)
 </details>
 
-Granitos are rock-like creatures living in the rooted forest and plagued by the Ghost Tree corrupting their land.
+Granitos are rock-like creatures living in Rooted Forest and are plagued by the Ghost Tree corrupting their land.
+
+They are peaceful in nature and only those infected by the Ghost Tree's turn hostile. In-game, large Granito can be
+encountered occasionally, resting in the wild, minding their own business. Tux can jump on them, like a platform, to
+reach extra heights or avoid approaching badguys or simply let them be.
+
+Corrupted Granito will attack when Tux is in sight and try to crush him under their own weight. They cannot be defeated
+but once they fell on the ground their infected bodies are too weak to rise back up thus remainng immobile.
 
 Gandrus
 -------
 
-Gandrus is a big imposing walrus with a beard acting as a shopkeeper for the planned item shops.
+Gandrus is a big imposing walrus with a beard acting as a shopkeeper for the planned shops.
 
 
 See also

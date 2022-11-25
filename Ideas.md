@@ -968,7 +968,7 @@ I think it's a bad idea for three reasons:
 - If the flame should have a tail, the flame would have to draw on all angles.
 - That's how you drew it looks weird.
 
---[Hume](User#hume "wikilink") 07:45, 21 February 2011 (UTC)
+--[Hume](mediawiki/Users/hume) 07:45, 21 February 2011 (UTC)
 
 ### Own Sketches
 
