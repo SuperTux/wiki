@@ -33,6 +33,13 @@ An example of a simple solid tile looks like this:
 )
 ```
 
+The `attribute` defines the tile's properties. In this example we set it to 1 which makes this
+tile solid so Tux can stand on it.
+
+More on tile attributes can be read [here](#tile-attributes).
+
+---
+
 For an animated tile you can define its animation speed with an `FPS` value:
 
 ```
@@ -46,6 +53,8 @@ For an animated tile you can define its animation speed with an `FPS` value:
           "tiles/[tilegroup]/[animatedtile]-3.png")
 )
 ```
+
+---
 
 It is also possible to extract parts of bigger images to create tiles:
 
@@ -63,13 +72,19 @@ It is also possible to extract parts of bigger images to create tiles:
 )
 ```
 
-In this example, a basic set of tiles will be extracted from the image `[complextiles].png`.
-The left tiles are solid ground with the rest of the tiles becoming slopes.
+---
+
+In the following example, a basic set of tiles will be extracted from the image `tileset_example.png`.
+The left tiles are solid ground with the rest of the tiles becoming various types of slopes.
+
+To ignore a portion of an image (e.g. empty spaces), an ID of 0 is always being used in the appropriate places.
+
+![tileset_example.png](images/tileset_example.png "An example image of a common tileset structure in SuperTux, with visible tile IDs")
 
 To define a tile as a slope, its `attribute` must be set to 17. You will also have to set an appropriate `data`
-value to define the right slope-type.
+value to define the correct slope-type.
 
-To ignore a portion (e.g. empty spaces) of the image, use an ID of 0 in the appropriate place.
+More on tile datas can be read [here](#tile-datas).
 
 ```
 (tiles
@@ -90,7 +105,7 @@ To ignore a portion (e.g. empty spaces) of the image, use an ID of 0 in the appr
     0 0 0 33 17 19 35 1 3 50 64
     0 0 0 0  0  0  0  0 0 49 67
     0 0 0 0  0  0  0  0 0 65 51)
-  (image "tiles/[tilegroup]/[complextiles].png")
+  (image "tiles/[tilegroup]/tileset_example.png")
 )
 ```
 
