@@ -20,6 +20,10 @@ Introduction
 A general `tile` contains an ID number, an images path and an attribute to determine its use
 (e.g. a tile being solid, a slope, slippery etc).
 
+A `tilegroup` describes the collection of several tiles usually sorted by themes. For example,
+all snow-themed tiles are sorted into a `snow` tilegroup while all forest-themed tiles are sorted
+into a `forest` tilegroup.
+
 Examples
 --------
 
