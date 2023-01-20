@@ -129,8 +129,10 @@ A tile can have the following attributes:
 | fullbox    | `0x0020` / 32   | The tile acts as Bonus Block.                       | 1 = Coin, 2 = Fireflower, 3 = Star, 4 = Tux Doll, 5 = Iceflower     |
 | coin       | `0x0040` / 64   | The tile acts as a coin.                            |                                                                     |
 | ice        | `0x0100` / 256  | The tile is slippery.                               |                                                                     |
-| water      | `0x0200` / 512  | The tile is a water tile                            |                                                                     |
-| hurts      | `0x0400` / 1024 | The tile hurts the player when touched              |                                                                     |
+| water      | `0x0200` / 512  | The tile is a water tile and is swimmable.          |                                                                     |
+| hurts      | `0x0400` / 1024 | The tile hurts the player when touched.             |                                                                     |
+| fire       | `0x0800` / 3584 | The tile is a lava tile and is swimmable, but also hurts the player. |                                                    |
+| walljump   | `0x1000` / 4096 | The tile is walljump-able.                          |                                                                     |
 
 Tile Datas
 ==========
