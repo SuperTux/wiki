@@ -32,8 +32,8 @@ Code
 Graphics
 --------
 
-* [ ] Remove duplicate graphics and tile IDs
-* [ ] Get rid of old and unused graphics
+* [x] Remove duplicate graphics and tile IDs
+* [x] Get rid of old and unused graphics
     - Does not including the retro category!
 
 ---
