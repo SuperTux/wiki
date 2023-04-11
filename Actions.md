@@ -30,11 +30,15 @@ General
 Jumping
 -------
 
+![](https://github.com/ahm8076/wiki/blob/master/images/jump.gif)
+
 Jumping is the most basic ability present in platformers. A jump will allow Tux to reach
 four tiles in height. A running jump reaches five tiles in height.
 
 Running
 -------
+
+![](https://github.com/ahm8076/wiki/blob/master/images/run.gif)
 
 Running is an automatic action that gets activated when Tux is walking in the same direction
 for a certain amount of time.
@@ -44,11 +48,15 @@ Milestone 1 used a dedicated RUN key, since Milestone 2 it is automatic.
 Ducking
 -------
 
+![](https://github.com/ahm8076/wiki/blob/master/images/duck.gif)
+
 Ducking can be used to slide down small, one tile high holes as big Tux or to avoid projectiles
 which are shot one tile above ground.
 
 Carrying
 --------
+
+![](https://github.com/ahm8076/wiki/blob/master/images/carry.gif)
 
 Walking into or standing next to [carriable objects](https://github.com/SuperTux/supertux/wiki/Objects#Carriables)
 while holding the *ACTION* key allows Tux to carry the object around. Releasing the *ACTION* key while walking results
@@ -56,6 +64,8 @@ in Tux throwing the object. Doing so while standing still results in Tux simply 
 
 Buttjump
 --------
+
+![](https://github.com/ahm8076/wiki/blob/master/images/buttjump.gif)
 
 A buttjump allows Tux to crush boxes from above and destroy some badguys that cannot be harmed
 by a normal jump. To perform the buttjump, jump and hold down the *DOWN* key while in the air.
@@ -65,11 +75,15 @@ It takes Tux a small amount of time to jump back onto his feet upon touching the
 Backflip
 --------
 
+![](https://github.com/ahm8076/wiki/blob/master/images/backflip.gif)
+
 The backflip is a special jump which gives Tux some extra height compared to a normal jump.
 It is performed while ducking and pressing the *JUMP* key.
 
 Swimming
 --------
+
+![](https://github.com/ahm8076/wiki/blob/master/images/swim.gif)
 
 When in water, Tux can move and turn in all directions with his movement speed being momentum based.
 
