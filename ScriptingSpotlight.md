@@ -15,6 +15,8 @@ Methods
 
 Method | Explanation
 -------|-------
+`set_enabled(bool enabled)` | Enables/disables the spotlight. 
+`is_enabled()` | Returns `true` if the spotlight is enabled. 
 `set_direction(string direction)` | Sets the direction of the spotlight. 
 `set_angle(float angle)` | Sets the angle of the spotlight. 
 `fade_angle(float angle, float time)` | Fades the angle of the spotlight in `time` seconds. 
