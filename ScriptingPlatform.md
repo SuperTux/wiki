@@ -16,6 +16,7 @@ Methods
 Method | Explanation
 -------|-------
 `goto_node(int node_no)` | Moves the platform until at given node, then stops. 
+`set_node(int node_no)` | Jumps instantly to the given node. 
 `start_moving()` | Starts moving the platform automatically. 
 `stop_moving()` | Stops moving the platform. 
 `get_action()` | Returns the current sprite action. 
