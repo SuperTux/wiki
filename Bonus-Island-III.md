@@ -26,6 +26,7 @@ As of May 2022, Bonus Island III features the following levels:
 * One Night in the Sky
 * My Penny is over the ocean
 * It's getting unfinishable
+* Flower Bonus
 * Pink Snow
 * A snowy hill
 * After the Glaciers
@@ -60,7 +61,7 @@ As of May 2022, Bonus Island III features the following levels:
 
 ### Badguys
 
-Bonus Island III uses Badguys from [Icy Island](https://github.com/SuperTux/supertux/wiki/Badguys-Icy) and [Rooted Forest](https://github.com/SuperTux/supertux/wiki/Badguys-Forest)
+Bonus Island III uses Badguys from [Icy Island](https://github.com/SuperTux/supertux/wiki/Badguys-Icy) and [Rooted Forest](https://github.com/SuperTux/supertux/wiki/Badguys-Forest).
 
 ### End Boss
 
