@@ -31,3 +31,29 @@ This page aims to lay done the goals for story mode for the upcoming version Sup
   - Introduce Fire Flower in the first level along the other basic elements
   - Introduce Air Flower in the first airborne level of the 1st world
   - Introduce Earth Flower early in world 2 followed by the Ice Flower a couple level in (mid-way point at the latest)
+
+## Story Summary
+
+**Icy Island**
+  - Nolok, captures Penny during a picnic, using purple roots to knockout Tux instantly
+  - Nolok leaves behind a note leading him to a castle across the island
+  - Tux spends an entire day, starting mid-day, making his way to said castle and reaches the icy cave around night time
+  - By the time he reached the exit of the cave the sun begins rising
+  - At this point the Yeti makes his first appearence keeping a close eye on Tux (Tux is unaware of the Yetis presence)
+  - After reaching and traversing the castle, the yeti reveals himself to Tux, initiating the fight after Tux flees from him to an outside area
+  - When beat, the yeti accidently informs Tux on the crystal mines and a boat to use to sail up north
+  - The sun sets when Tux arrives at the crystal mines and starts sailing north during the night
+
+**Rooted Forest**
+  - Tux arrives at sunrise
+  - First half of Rooted Forest is Tux exploring the new land, looking for clues on where the next castle is located
+  - Tux passes friendly Granito species along his way
+  - When on a higher section of the forest, Tux takes notice of a big tower towards the far east
+  - During a heavy thunderstorm Tux seeks shelter in a dark cave, stumbeling into another outpost
+  - When Tux left the cave the next day dawned and Tux decided to take a small nap
+  - An ill Vicious Ivy peaks Tux's curiosity, followed by a bunch of purple roots bursting out of the ground everywhere around him
+  - Tux makes his way towards the tower whilst avoding the forest's overtaking by the roots
+  - When entering the castle and reaching the very top, the roots attempt to fully destory the tower and bury Tux
+  - Tux escapes but runs into the Ghost Tree, initating the fight
+  - When beat, the Ghost Tree gets destroyed and the land slowly begins to heal
+  - Surviving Granito thank Tux and wish to help Tux on his journey, leading him to the tropical island Nolok had headed.
