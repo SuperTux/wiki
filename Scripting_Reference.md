@@ -71,6 +71,7 @@ using a function that actually doesn't exist.
 * [Camera](https://github.com/SuperTux/supertux/wiki/ScriptingCamera)
 * [Candle](https://github.com/SuperTux/supertux/wiki/ScriptingCandle)
 * [Clouds](https://github.com/SuperTux/supertux/wiki/ScriptingClouds)
+* [ConveyorBelt](https://github.com/SuperTux/supertux/wiki/ScriptingConveyorBelt)
 * [CustomParticles](https://github.com/SuperTux/supertux/wiki/ScriptingCustomParticles)
 * [Decal](https://github.com/SuperTux/supertux/wiki/ScriptingDecal)
 * [Dispenser](https://github.com/SuperTux/supertux/wiki/ScriptingDispenser)
