@@ -10,7 +10,7 @@ Instance
 
 For in-level sectors, an instance under `sector.settings` is available from scripts and the console.
 
-For worldmaps, such instance is available under `worldmap.settings`. 
+For worldmap sectors, such instance is available under `worldmap.settings`. 
 
 Methods
 -------

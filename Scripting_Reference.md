@@ -98,4 +98,5 @@ using a function that actually doesn't exist.
 * [WillOWisp](https://github.com/SuperTux/supertux/wiki/ScriptingWillOWisp)
 * [Wind](https://github.com/SuperTux/supertux/wiki/ScriptingWind)
 * [WorldMap](https://github.com/SuperTux/supertux/wiki/ScriptingWorldMap)
+* [WorldMapSector](https://github.com/SuperTux/supertux/wiki/ScriptingWorldMapSector)
 
