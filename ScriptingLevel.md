@@ -24,6 +24,8 @@ Method | Explanation
 `flip_vertically()` | Flips the level vertically (i.e. top is now bottom and vice versa). Call again to revert the effect. Make sure the player can land on something after the level is flipped! 
 `toggle_pause()` | Toggle pause. 
 `edit(bool edit_mode)` | Switch to/from edit mode. 
+`pause_target_timer()` | Pauses the target timer. 
+`resume_target_timer()` | Resumes the target timer. 
 
 
 Constants
