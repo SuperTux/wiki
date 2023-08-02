@@ -68,6 +68,8 @@ It is Tux's home island and thus all creatures he encounters here should not see
 
 **Enviornmental Design**
 
+![](images/concept_art_rustybox/world2_design_concept.png)
+
 Rooted Forest, compared to the previous world, is an unfamilar, strange, but also mysterious and magical place. It is much more vibrant and varied in color. Tux is now in a brand new world far from his home that has its own rules and eco-system.
 
 The Corrupted Forest shall invoke a feeling of uneasy-ness, confusion and even loneliness. The forest has lost its vibrant colors. Everything is gritty, desolate, cold, covered in this net of purple, almost organic looking roots everywhere you look.
