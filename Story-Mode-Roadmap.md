@@ -4,7 +4,11 @@ This page aims to lay done the goals for story mode for the upcoming version Sup
 1. [Cutscenes](#cutscenes)
 2. [Difficulty](#level-difficulty)
 3. [Progression](#level-progression)
-4. [Art Direction](#art-direction)
+4. Art Direction
+   - [Icy Island](#icy-island)
+   - [Rooted Forest](#rooted-forest--corrupted-forest)
+   - [Tropical Paradise](#tropical-paradise)
+   - [Mountain Peak](#noloks-mountain-peak)
 5. [Story Summary (v0.7)](#story-summary-for-v07)
 6. [Future Story Draft (post-v0.7)](#story-summary-for-v07)
 
@@ -84,7 +88,7 @@ As a direct oppossit to Icy Island's calm and cold feel, Tropical Paradise will 
 
 This place will have the most bizzarre creautre design out of all the worlds. Much more detailed, animalistic and violent. Toucan will be ironically be the most "friendly" and "harmless" looking creature of this world further showcasing his status of being a push-over, more show than an actual threat to Tux and his quest.
 
-### Molok's Mountain Peak
+### Nolok's Mountain Peak
 
 **Enviornmental Design**
 
@@ -95,6 +99,7 @@ The Mountain Peak's art direction will spring a spin on the Icy Island's art dir
 All creatures encountered here will be mechanical with barely any facial expression. Many of them are actually a re-implementaion of older designs, like the original black Mr. Bomb and Jumpy design during the Milestone 1 development era (represented through Rusty Bomb + Hellbent and Metaljumpy) as well as the scrapped Mr. Rocket design during the early Milestone 2 development era.
 
 ---
+
 ## Story Summary (for v0.7)
 
 **Icy Island**
@@ -125,7 +130,8 @@ All creatures encountered here will be mechanical with barely any facial express
 
 ## Future Story Draft (post-v0.7)
 
-This section is an early and still unfinished draft of the continuation of story mode. Note that all you see here is but an idea of what is to come story-wise and may differ from whatever the final execution may be!
+This section is an early and still unfinished draft of the continuation of story mode past Rooted Forest.
+Note that all you see here is but an idea of what is to come story-wise and may differ from whatever the final execution may be!
 
 **Tropical Paradise**
   - Tux arrives at night
