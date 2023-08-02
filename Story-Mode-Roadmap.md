@@ -4,8 +4,9 @@ This page aims to lay done the goals for story mode for the upcoming version Sup
 1. [Cutscenes](#cutscenes)
 2. [Difficulty](#level-difficulty)
 3. [Progression](#level-progression)
-4. [Story Summary (v0.7)](#story-summary-for-v07)
-5. [Future Story Draft (post-v0.7)](#story-summary-for-v07)
+4. [Art Direction](#art-direction)
+5. [Story Summary (v0.7)](#story-summary-for-v07)
+6. [Future Story Draft (post-v0.7)](#story-summary-for-v07)
 
 ---
 
@@ -45,6 +46,55 @@ This page aims to lay done the goals for story mode for the upcoming version Sup
 
 ---
 
+## Art Direction
+
+It is very important to distinguish each world of Story Mode to ensure they don't feel the same!
+
+### Icy Island
+
+**Enviornmental Design**
+
+Icy Island shall evouce a firendly and familliar presents in its enviorment and character design. Like a Winter Wonderland if you will. Tux knows this place best and mostly nothing shall be of big shock or suprise. The Crystal Mine is the only place that has slight feel of mysticism attached to its design as it is a hidden mining facility of Nolok that Tux had never heard of prior to his win over the Yeti.
+
+**Creature Design**
+
+It is Tux's home island and thus all creatures he encounters here should not seem all too threatening. Simple shapes, firendly faces, an overall cutesy look. An exception to this is the Yeti with his more more animalistic look, being a brutish beast on the hunt for Tux.
+
+### Rooted Forest + Corrupted Forest
+
+**Enviornmental Design**
+
+Rooted Forest, compared to the previous world, is an unfamilar, strange, but also mysterious and magical place. It is much more vibrant and varied in color. Tux is now in a brand new world far from his home that has its own rules and eco-system.
+
+The Corrupted Forest shall invoke a feeling of uneasy-ness, confusion and even loneliness. The forest has lost its vibrant colors. Everything is gritty, desolate, cold, covered in this net of purple, almost organic looking roots everywhere you look.
+
+**Creature Design**
+
+Its creatures are designed to lean more into a more vicious and complex look. Some even resemble real animals, like Igel, Owl and Mole. The idea is to show how outlandish this whole new world feels to Tux. The design of Granito goes back to the design approach of Icy Island to immideatly invoke a feeling of familiarity, indicating their friendly presents.
+
+Their corrupted counterparts have their designs twisted into lifeless husks, lacking all personallity, having become uniform through their shared missery. Even the friendly looking Granito, Tux encountered before have now been turned into the mindless creatures.
+
+### Tropical Paradise
+
+**Enviornmental Design**
+
+As a direct oppossit to Icy Island's calm and cold feel, Tropical Paradise will be a hot and aggressive place. The further Tux progresses the more dangerous the emviornment becomes, starting with a nice open beach setting, to a more covered jungle-beach hybrid into the deep dark thicket that is the main jungle area in the paradises center, covered in temple strcutures and totems.
+
+**Creature Design**
+
+This place will have the most bizzarre creautre design out of all the worlds. Much more detailed, animalistic and violent. Toucan will be ironically be the most "friendly" and "harmless" looking creature of this world further showcasing his status of being a push-over, more show than an actual threat to Tux and his quest.
+
+### Molok's Mountain Peak
+
+**Enviornmental Design**
+
+The Mountain Peak's art direction will spring a spin on the Icy Island's art direction. Back to more simple and familiar designs but devoided of all the "charm" and cuteness of the original. The beautiful snowy landscapes will be nothing but a desolate snowy mountain peak surrounded by nohting but an endless sea of clouds.
+
+**Creature Design**
+
+All creatures encountered here will be mechanical with barely any facial expression. Many of them are actually a re-implementaion of older designs, like the original black Mr. Bomb and Jumpy design during the Milestone 1 development era (represented through Rusty Bomb + Hellbent and Metaljumpy) as well as the scrapped Mr. Rocket design during the early Milestone 2 development era.
+
+---
 ## Story Summary (for v0.7)
 
 **Icy Island**
