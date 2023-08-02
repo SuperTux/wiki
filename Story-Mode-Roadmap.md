@@ -76,6 +76,8 @@ The Corrupted Forest shall invoke a feeling of uneasy-ness, confusion and even l
 
 **Creature Design**
 
+![](images/concept_art_rustybox/world2_creature_design.png)
+
 Its creatures are designed to lean more into a more vicious and complex look. Some even resemble real animals, like Igel, Owl and Mole. The idea is to show how outlandish this whole new world feels to Tux. The design of Granito goes back to the design approach of Icy Island to immideatly invoke a feeling of familiarity, indicating their friendly presents.
 
 Their corrupted counterparts have their designs twisted into lifeless husks, lacking all personallity, having become uniform through their shared missery. Even the friendly looking Granito, Tux encountered before have now been turned into the mindless creatures.
