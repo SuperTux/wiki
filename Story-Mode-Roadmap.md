@@ -58,9 +58,13 @@ It is very important to distinguish each world of Story Mode to ensure they don'
 
 **Enviornmental Design**
 
+![](images/concept_art_rustybox/world1_design_concept.png)
+
 Icy Island shall evouce a firendly and familliar presents in its enviorment and character design. Like a Winter Wonderland if you will. Tux knows this place best and mostly nothing shall be of big shock or suprise. The Crystal Mine is the only place that has slight feel of mysticism attached to its design as it is a hidden mining facility of Nolok that Tux had never heard of prior to his win over the Yeti.
 
 **Creature Design**
+
+![](images/concept_art_rustybox/world1_creature_design.png)
 
 It is Tux's home island and thus all creatures he encounters here should not seem all too threatening. Simple shapes, firendly faces, an overall cutesy look. An exception to this is the Yeti with his more more animalistic look, being a brutish beast on the hunt for Tux.
 
