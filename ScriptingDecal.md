@@ -19,6 +19,7 @@ Method | Explanation
 `change_sprite(string sprite)` | Changes the decal sprite. 
 `fade_in(float time)` | Fades in the decal in `time` seconds. 
 `fade_out(float time)` | Fades out the decal in `time` seconds. 
+`set_action(string action)` | Sets the action for the decal's sprite. 
 
 
 Constants

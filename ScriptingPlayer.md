@@ -46,6 +46,9 @@ Method | Explanation
 `get_y()` | Gets the Y coordinate of the player. 
 `set_pos()` | Sets the position of the player to a programmable/variable position. 
 `get_action()` | Gets the player's current action/animation. 
+`get_input_pressed(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been pressed. <br /><br /> `input` - Can be “left”, “right”, “up”, “down”, “jump”, “action”, “start”, “escape”, “menu-select”, “menu-select-space”, “menu-back”, “remove”, “cheat-menu”, “debug-menu”, “console”, “peek-left”, “peek-right”, “peek-up” or “peek-down”. 
+`get_input_held(string input)` | Gets whether the current input on the keyboard/controller/touchpad is being held. <br /><br /> `input` - Valid values are listed above. 
+`get_input_released(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been released. <br /><br /> `input` - Valid values are listed above. 
 
 
 Constants
