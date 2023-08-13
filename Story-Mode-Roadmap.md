@@ -18,14 +18,14 @@ This page aims to lay down the goals for story mode for the upcoming v0.7 releas
 
 **Part I: Improve current cutscene quality**
 
-- Make sure all cutscenes scripts are stored in their own separate .nut file.
-- Add comments for things that are subject to change once certain contents are added that are missing for the time being.
-- Replace Tux (player object) with a ScriptedObect to allow for using animation not related to gameplay.
+- Make sure all cutscene scripts are stored in their own separate `.nut` files.
+- Add comments for things, which are to be changed, or a subject to being updated once certain contents are added that are missing for the time being.
+- Replace the `Player` object with a `ScriptedObect` to allow for using animations not related to gameplay.
 
 **Part II: Add missing cutscenes**
 
-- A cutscene after the Yeti fight leading to the crystal mine level
-- A cutscene after the Ghost Tree fight leading to Rooted Forest's new outro level
+- A cutscene after the Yeti fight leading to the crystal mine level.
+- A cutscene after the Ghost Tree fight leading to Rooted Forest's new outro level.
 
 ---
 
@@ -84,7 +84,7 @@ Rooted Forest, compared to the previous world, is an unfamiliar, strange, but al
 and varied in color. Tux is now in a brand new world far from his home that has its own rules and ecosystem.
 
 The Corrupted Forest segment shall invoke a feeling of uneasy-ness, confusion and even loneliness. The forest has lost its vibrant colors.
-Everything is gritty, desolate, cold, covered in this net of purple, almost organic looking roots everywhere you look.
+Everything is gritty, desolate, cold, covered in a net of purple, almost organic looking roots everywhere you look.
 
 **Creature Design**
 
@@ -103,7 +103,7 @@ shared misery. Even the friendly looking Granito, Tux encountered before have no
 
 As a direct opposite to Icy Island's calm and cold feel, Tropical Paradise will be a hot and aggressive place. The further Tux progresses
 the more dangerous the environment becomes, starting with a nice open beach setting, to a more covered jungle-beach hybrid into the deep
-dark thicket that is the main jungle area in the paradises center, littered with temple structures and totems.
+dark thicket that is the main jungle area in the paradise's center, littered with temple structures and totems.
 
 **Creature Design**
 
@@ -170,19 +170,19 @@ Note that all you see here is but an idea of what is to come story-wise and may 
   - Tux follows Toucan to a hidden fort with a teleporter
   - Nolok is on his way to activate the teleporter
   - Upon noticing Tux, Nolok pushes Penny into the teleporter as he summons purple roots to block Tux's path, using the teleporter himself soon after
-  - Tux fights himself through the fort until he manages to reach and use teleporter to follow suit
+  - Tux fights himself through the fort until he manages to reach and use the teleporter to follow suit
 
 **Nolok's Mountain Peak**
   - Tux finds himself on top of a huge mountain
   - There is a massive fortress in the center of the mountain's peak
   - The entrance door is locked by five colored keys
 
-> If Tux has not all five NOLOK-keys collected:
+> If Tux does not have all five NOLOK-keys collected:
 
-  - Nolok tells Tux to bring all the five hidden keys spread through out Icy Island, Rooted Forest and Tropical Paradise
+  - Nolok tells Tux to bring all the five hidden keys spread throughout Icy Island, Rooted Forest and Tropical Paradise
 
-> If Tux has all five NOLOK-keys collected:
+> If Tux does have all five NOLOK-keys collected:
   - The door is unlocked
-  - Tux navigates through the Nolok's fortress until he finally reaches his throne room
-  - Nolok awaits Tux baiting him with Penny right next to him in a cage
+  - Tux navigates through Nolok's fortress, until he finally reaches his throne room
+  - Nolok baits Tux by having Penny right next to himself in a cage
   - Nolok uses purple roots one more time to bring both him and Tux on the very top of his fortress, initiating the fight
