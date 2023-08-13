@@ -1,4 +1,4 @@
-This page aims to lay down the goals for story mode to the upcoming v0.7 release and future SuperTux versions.
+This page aims to lay down the goals for story mode for the upcoming v0.7 release and future SuperTux versions.
 
 # Contents
 1. [Cutscenes](#cutscenes)
@@ -18,8 +18,8 @@ This page aims to lay down the goals for story mode to the upcoming v0.7 release
 
 **Part I: Improve current cutscene quality**
 
-- Make sure all cutscenes script are stored in their own separate .nut file.
-- Add comments for things to be changed or subject to being updated once certain contents are added or are missing for the being.
+- Make sure all cutscenes scripts are stored in their own separate .nut file.
+- Add comments for things that are subject to change once certain contents are added that are missing for the time being.
 - Replace Tux (player object) with a ScriptedObect to allow for using animation not related to gameplay.
 
 **Part II: Add missing cutscenes**
@@ -34,7 +34,7 @@ This page aims to lay down the goals for story mode to the upcoming v0.7 release
 - Drastically improve the overall difficulty curve to prevent drastic changes in difficulty across levels. The first levels shall start off easy,
   increasing slowly in difficulty with the last few levels and castle level being one of the hardest of a world.
 - When arriving at a subsequent world, the difficulty scales back down again, roughly around the mid-way point of the previous world's difficulty.
-- Insure levels are kept at a consistent length based on their position in the worldmap progression and story significance
+- Ensure levels are kept at a consistent length based on their position in the worldmap progression and story significance
   (see [Level-Design](https://github.com/SuperTux/supertux/wiki/Level-Design#size) for more details).
 
 ## Level Progression
@@ -43,7 +43,7 @@ This page aims to lay down the goals for story mode to the upcoming v0.7 release
   - First level introduces base mechanics only, nothing too complex
   - Second level is a first test of said mechanics
   - Third level solely introduces swimming alone since it will be a more common and important mechanic further on in story mode
-  - Fourth  level introduces more "advanced" mechanics (i.e. switches, ladders, sliding)
+  - Fourth level introduces more "advanced" mechanics (i.e. switches, ladders, sliding)
   - and so on...
 
 - Introduce powerups one at a time, spread out through story mode - in levels that require their abilities to be used so players get a basic grasp over what they offer
@@ -130,13 +130,13 @@ and Metaljumpy) as well as the scrapped Mr. Rocket design during the early Miles
 ## Story Summary (for v0.7)
 
 **Icy Island**
-  - Nolok, captures Penny during a picnic, using purple roots to knockout Tux instantly
+  - Nolok, captures Penny during a picnic, using purple roots to knock Tux out instantly
   - Nolok leaves behind a note leading him to a castle across the island
   - Tux spends an entire day, starting mid-day, making his way to said castle and reaches the icy cave around night time
-  - By the time he reached the exit of the cave the sun begins rising
-  - At this point the Yeti makes his first appearance keeping a close eye on Tux (Tux is unaware of the Yetis presence)
+  - By the time he reached the exit of the cave the sun begins to rise
+  - At this point, the Yeti makes his first appearance keeping a close eye on Tux (Tux is unaware of the Yeti's presence)
   - After reaching and traversing the castle, the yeti reveals himself to Tux, initiating the fight after Tux flees from him to an outside area
-  - When beat, the yeti accidentally informs Tux on the crystal mines and a boat to use to sail up north
+  - When beat, the Yeti accidentally informs Tux on the crystal mines and a boat to use to sail up north
   - The sun sets when Tux arrives at the crystal mines and starts sailing north during the night
 
 **Rooted Forest**
@@ -161,8 +161,8 @@ This section is an early and still unfinished draft of the continuation of story
 Note that all you see here is but an idea of what is to come story-wise and may differ from whatever the final execution may be!
 
 **Tropical Paradise**
-  - Tux arrives at night
-  - Tux must swim across a tiny isle to the main island
+  - Tux arrives at night at a small beach isle
+  - Tux must swim from there to the main island
   - More and more Totems appear on the island the closer and closer Tux gets to the island's temple
   - Toucan is found inside their throne room admiring themselves on a painting
   - Toucan is infuriated by Tux's sudden appearance, leading him outside, initiating the fight
