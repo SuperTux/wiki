@@ -55,16 +55,16 @@ This page aims to lay down the goals for story mode for the upcoming v0.7 releas
 
 ## Art Direction
 
-It is very important to distinguish each world of Story Mode to ensure they don't feel the same and offer a fresh visual expiereince!
+It is very important to distinguish each world of Story Mode to ensure they don't feel the same and offer a fresh visual experience!
 
 ### Icy Island
 
-**Enviornmental Design**
+**Environmental Design**
 
 ![](images/concept_art_rustybox/world1_design_concept.png)
 
-Icy Island shall evouce a friendly and familiar presents in its environment and character design. Like a Winter Wonderland if you will.
-Tux knows this place best and mostly nothing shall be of big shock or surprise. The Crystal Mine is the only place that has slight feel
+Icy Island shall evoke a friendly and familiar presence in its environment and character design. Like a Winter Wonderland if you will.
+Tux knows this place best and mostly nothing shall be of big shock or surprise. The Crystal Mine is the only place that has a slight feel
 of mysticism attached to its design as it is a hidden mining facility of Nolok that Tux had never heard of prior to his win over the Yeti.
 
 **Creature Design**
@@ -76,12 +76,12 @@ overall cutesy look. An exception to this is the Yeti with his more more animali
 
 ### Rooted Forest + Corrupted Forest
 
-**Enviornmental Design**
+**Environmental Design**
 
 ![](images/concept_art_rustybox/world2_design_concept.png)
 
 Rooted Forest, compared to the previous world, is an unfamiliar, strange, but also mysterious and magical place. It is much more vibrant
-and varied in color. Tux is now in a brand new world far from his home that has its own rules and eco-system.
+and varied in color. Tux is now in a brand new world far from his home that has its own rules and ecosystem.
 
 The Corrupted Forest segment shall invoke a feeling of uneasy-ness, confusion and even loneliness. The forest has lost its vibrant colors.
 Everything is gritty, desolate, cold, covered in this net of purple, almost organic looking roots everywhere you look.
@@ -99,11 +99,11 @@ shared misery. Even the friendly looking Granito, Tux encountered before have no
 
 ### Tropical Paradise
 
-**Enviornmental Design**
+**Environmental Design**
 
 As a direct opposite to Icy Island's calm and cold feel, Tropical Paradise will be a hot and aggressive place. The further Tux progresses
 the more dangerous the environment becomes, starting with a nice open beach setting, to a more covered jungle-beach hybrid into the deep
-dark thicket that is the main jungle area in the paradises center, littered in temple structures and totems.
+dark thicket that is the main jungle area in the paradises center, littered with temple structures and totems.
 
 **Creature Design**
 
@@ -113,7 +113,7 @@ show than an actual threat to Tux and his quest, unlike the Master Totem.
 
 ### Nolok's Mountain Peak
 
-**Enviornmental Design**
+**Environmental Design**
 
 The Mountain Peak's art direction will spring a spin on the Icy Island's art direction. Back to more simple and familiar designs but devoid
 of all the "charm" and cuteness of the original. The beautiful snowy landscapes will be nothing but a desolate snowy mountain peak surrounded
