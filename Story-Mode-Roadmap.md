@@ -35,7 +35,7 @@ This page aims to lay done the goals for story mode for the upcoming version Sup
   increasing slowly in difficulty with the last few levels and castle level being one of the hardest of a world.
 - When arriving at a subsequent world, the difficulty scales back down again, roughly around the mid-way point of the previous world's difficulty.
 - Insure levels are kept at a consistent length based on their position in the worldmap progression and story significance
-  (see [Level-Deisgn](https://github.com/SuperTux/supertux/wiki/Level-Design#Size) for more details).
+  (see [Level-Design](https://github.com/SuperTux/supertux/wiki/Level-Design#size) for more details).
 
 ## Level Progression
 
