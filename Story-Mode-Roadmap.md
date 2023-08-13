@@ -1,4 +1,4 @@
-This page aims to lay done the goals for story mode for the upcoming version SuperTux (v0.7) and future versions.
+This page aims to lay down the goals for story mode to the upcoming v0.7 release and future SuperTux versions.
 
 # Contents
 1. [Cutscenes](#cutscenes)
