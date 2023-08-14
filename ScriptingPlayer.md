@@ -44,7 +44,7 @@ Method | Explanation
 `get_velocity_y()` | Returns Tux’s velocity in Y direction. 
 `get_x()` | Gets the X coordinate of the player. 
 `get_y()` | Gets the Y coordinate of the player. 
-`set_pos()` | Sets the position of the player to a programmable/variable position. 
+`set_pos(float x, float y)` | Sets the position of the player to a programmable/variable position. <br /><br /> `x` - X position. <br /> `y` - Y position. 
 `get_action()` | Gets the player's current action/animation. 
 `get_input_pressed(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been pressed. <br /><br /> `input` - Can be “left”, “right”, “up”, “down”, “jump”, “action”, “start”, “escape”, “menu-select”, “menu-select-space”, “menu-back”, “remove”, “cheat-menu”, “debug-menu”, “console”, “peek-left”, “peek-right”, “peek-up” or “peek-down”. 
 `get_input_held(string input)` | Gets whether the current input on the keyboard/controller/touchpad is being held. <br /><br /> `input` - Valid values are listed above. 
