@@ -122,7 +122,7 @@ by nothing but an endless sea of clouds.
 **Creature Design**
 
 All creatures encountered here will be mechanical with barely any facial expression. Many of them are actually a re-implementation of older
-designs, like the original black Mr. Bomb and Jumpy design from during the Milestone 1 development era (represented through Rusty Bomb + Hellbent
+designs, like the original black Mr. Bomb and Jumpy designs from during the Milestone 1 development era (represented through Rusty Bomb + Hellbent
 and Metaljumpy), as well as the scrapped Mr. Rocket design from during the early Milestone 2 development era.
 
 ---
@@ -137,7 +137,7 @@ and Metaljumpy), as well as the scrapped Mr. Rocket design from during the early
   - At this point, the Yeti makes his first appearance, keeping a close eye on Tux (Tux is unaware of the Yeti's presence).
   - After reaching and traversing the castle, the Yeti reveals himself to Tux, initiating the fight after Tux flees from him to an outside area.
   - When beat, the Yeti accidentally informs Tux on the crystal mines and a boat to use to sail up north.
-  - The sun sets when Tux arrives at the crystal mines He starts sailing up north during the night.
+  - The sun sets when Tux arrives at the crystal mines. He starts sailing up north, during the night.
 
 **Rooted Forest:**
   - Tux arrives at sunrise.
@@ -170,7 +170,7 @@ Note that all you see here is is nothing but an idea of what is to come story-wi
   - Tux follows Toucan to a hidden fort with a teleporter.
   - Nolok is on his way to activate the teleporter.
   - Upon noticing Tux, Nolok pushes Penny into the teleporter as he summons purple roots to block Tux's path, using the teleporter himself soon after.
-  - Tux fights himself through the fort until he manages to reach and use the teleporter to follow suit.
+  - Tux fights himself through the fort, until he manages to reach and use the teleporter to follow suit.
 
 **Nolok's Mountain Peak:**
   - Tux finds himself on top of a huge mountain.
