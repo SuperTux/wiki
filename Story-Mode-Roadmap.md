@@ -142,7 +142,7 @@ and Metaljumpy), as well as the scrapped Mr. Rocket design from during the early
 **Rooted Forest:**
   - Tux arrives at sunrise.
   - First half of Rooted Forest is Tux exploring the new land, looking for clues on where the next castle is located´.
-  - Tux passes friendly Granito species along his way..
+  - Tux passes friendly Granito species along the way.
   - When on a higher section of the forest, Tux takes notice of a big tower towards the far east.
   - During a heavy thunderstorm Tux seeks shelter in a dark cave, stumbling into another outpost.
   - When Tux left the cave the next day dawned and Tux decided to take a small nap.
@@ -182,6 +182,7 @@ Note that all you see here is is nothing but an idea of what is to come story-wi
   - Nolok tells Tux to bring all the five hidden keys spread throughout Icy Island, Rooted Forest and Tropical Paradise.
 
 > If Tux does have all five NOLOK-keys collected:
+
   - The door is unlocked.
   - Tux navigates through Nolok's fortress, until he finally reaches his throne room.
   - Nolok baits Tux by having Penny right next to himself in a cage.
