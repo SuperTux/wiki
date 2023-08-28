@@ -7,6 +7,7 @@ Home
 * [[TODO]]
 * [[Ideas]]
 * [[Current Design Document]]
+* [[Story Mode Roadmap]]
 
 Guidelines
 
