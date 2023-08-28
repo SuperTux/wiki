@@ -18,7 +18,9 @@ Methods
 Method | Explanation
 -------|-------
 `reload_config()` | Reloads the camera's configuration. 
-`shake(float speed, float x, float y)` | Moves camera to the given coordinates in `time` seconds, returning quickly to the original position afterwards. 
+`shake(float duration, float x, float y)` | Shakes the camera in a certain direction only 1 time. 
+`start_earthquake(float strength, float delay)` | Starts "earthquake" mode, which shakes the camera vertically with a specified average `strength`, at a certain minimal `delay`, until stopped. 
+`stop_earthquake()` | Stops "earthquake" mode. 
 `set_pos(float x, float y)` | Moves the camera to the specified absolute position. The origin is at the top left. 
 `move(float x, float y)` | Moves the camera `x` to the left and `y` down. 
 `set_mode(string mode)` | Sets the camera mode. <br /><br /> `mode` - The mode can be "normal" or "manual". 
