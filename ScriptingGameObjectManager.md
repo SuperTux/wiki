@@ -23,6 +23,7 @@ Method | Explanation
 `get_ambient_green()` | Returns the green channel of the ambient light color. 
 `get_ambient_blue()` | Returns the blue channel of the ambient light color. 
 `set_music(string music)` | Sets the sector's music. <br /><br /> `music` - Full filename, relative to the "music" folder. 
+`add_object(string class_name, string name, int posX, int posY, string direction, string data)` | Adds a `MovingObject` to the manager. Note: If adding objects to a worldmap sector, `posX` and `posY` have to be tile positions (sector position / 32). <br /><br /> `class_name` - GameObject's class. <br /> `name` - Name of the created object. <br /> `posX` - X position inside the current sector. <br /> `posY` - Y position inside the current sector. <br /> `direction` - Direction. <br /> `data` - Additional data in S-Expression format (check object definitions in level files). 
 
 
 Constants

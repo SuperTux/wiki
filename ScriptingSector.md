@@ -16,7 +16,6 @@ Methods
 Method | Explanation
 -------|-------
 `set_gravity(float gravity)` | Sets the sector's gravity. 
-`add_object(string class_name, string name, int posX, int posY, string direction, string data)` | Adds a MovingObject to the game. <br /><br /> `class_name` - GameObject's class. <br /> `name` - Name of the created object. <br /> `posX` - X position inside the current sector. <br /> `posY` - Y position inside the current sector. <br /> `direction` - Direction. <br /> `data` - Additional data. 
 
 
 Constants
