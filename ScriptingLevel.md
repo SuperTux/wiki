@@ -16,6 +16,7 @@ Methods
 Method | Explanation
 -------|-------
 `finish(bool win)` | Ends the current level. <br /><br /> `win` - If `true`, the level is marked as completed if launched from a worldmap. 
+`has_active_sequence()` | Gets whether an end sequence has started. (AKA when the stats at the end are visible) 
 `spawn(string sector, string spawnpoint)` | Respawns Tux in sector named `sector` at spawnpoint named `spawnpoint`. <br /><br /> Exceptions: If `sector` or `spawnpoint` are empty, or the specified sector does not exist, the function will bail out the first chance it gets. If the specified spawnpoint doesn't exist, Tux will be spawned at the spawnpoint named “main”. If that spawnpoint doesn't exist either, Tux will simply end up at the origin (top-left 0, 0). 
 `set_start_point(string sector, string spawnpoint)` | Sets the default start spawnpoint of the level. 
 `set_start_pos(string sector, float x, float y)` | Sets the default start spawn position of the level. 
