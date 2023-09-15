@@ -122,26 +122,6 @@ Mr windows sometimes stays and sometimes walks around one place.
 
 > Yet another Logo. See [Beastie](https://github.com/SuperTux/supertux/wiki/Rejected-Ideas#Beastie).
 
-Nazi Gnome
-----------
-
--   There should be in the game a Gnome dressed as a Nazi.
--   The gnome should be fast, always jumping around, chase tux and not just be part of the scenario.
-
-> "Jawohl! Very gut idea. Make sure to add enough swastikas so ve can also get de “Banned in Germany” rating to
-  boost de sales."
-
-> "Yep, I don't see how this could possibly fit into the game theme."
-
-> "Please no Hilter allusions. The badguys are not that bad. Same goes for Stalin, Bush or Mao. Don't even think
-  about Saddam."
-
-> "I agree, bad idea."
-
-> "I agree,too no way!"
-
-> "Good joke! no way!"
-
 Sasquatch
 ---------
 
