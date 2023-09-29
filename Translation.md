@@ -2,7 +2,7 @@ How to Translate
 ----------------
 
 1.  Register on our On-line translation manager [1](https://www.transifex.com/projects/p/supertux/)
-2.  Request à New language or join an existing one
+2.  Request a new language or join an existing one
 3.  Just translate on line
 
 If you have no internet access for translation work, then download po files from Transifex, complete them on your local system with Poedit. then upload them on transifex. If letters/alphabets are missing ask the language guru ( [[Giby|User#Giby]] ) to add it after completing all po files on Transifex.
