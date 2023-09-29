@@ -9,7 +9,7 @@ well as keep track of proposed additions and changes.
 This Wiki is targeted towards developers of the game, users are however free to check out what
 is going on behind the scenes.
 
-The [old Mediawiki based Wiki](http://supertux.lethargik.org/wiki/Main_Page) has been merged
+The [old Mediawiki based Wiki](https://web.archive.org/web/20070210181433/http://supertux.lethargik.org/wiki/Main_Page) has been merged
 into this Wiki and has been switched to read-only mode. It is no longer updated, but it can
 still be viewed.
 
