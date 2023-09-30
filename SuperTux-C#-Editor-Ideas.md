@@ -1,4 +1,4 @@
-[s=This page is mainly for developers. Users: Please mark your comments so that we can see that you are users or use the talk page.](Template:Attention "wikilink")
+> This page is mainly for developers.
 
 This page is about ideas that aren't ready to go into bug tracker as feature requests yet and they might be discarded (quite more likely than those that make it into the bug tracker).
 

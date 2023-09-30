@@ -927,5 +927,3 @@ Things to know
 
 -   [data/levels/test/unisolid.stl](Template:SvnFile "wikilink") shows a few new features of Milestone 2 (parallax scrolling, unisolid snow tiles, new water)
 -   [News](News "wikilink") is there to be used, so if something interesting happens, write it down there
-
-<Category:Development> <Category:Development> [Category:Milestone 2](Category:Milestone_2 "wikilink") <Category:Development> <Category:Development> <Category:Development> <Category:Development> <Category:Development> <Category:Development> <Category:Development> <Category:Development>

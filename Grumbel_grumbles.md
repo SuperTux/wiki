@@ -127,5 +127,3 @@ Bugs
 
 -   ![Unsymetric Tux Hitbox](images/Unsymetrichitbox.png "fig:Unsymetric Tux Hitbox")
 -   Boat is not heading left when sailing back to island
-
-<Category:Development>

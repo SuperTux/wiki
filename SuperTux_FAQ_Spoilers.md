@@ -63,5 +63,3 @@ Old Test collection
 ==== How do I make the jump at x = 768, y = 5344? ====
 
 You have to come with a running start from the left, then jump and reverse direction in mid-air. Here is [a video of the maneuver](http://mattmccutchen.net/private/inside-the-tree-trick.ogg).
-
-[Category:For Users](Category:For_Users "wikilink") <Category:FAQs>

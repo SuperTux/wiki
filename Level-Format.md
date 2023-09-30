@@ -236,5 +236,3 @@ Don't mistake this badguy for Spiky! Spiky is the snowball-like creature with sp
         ;; Path to follow if running is true. See the path in camera-config for the syntax.
       )
     )
-
-[Category:Game Engine](Category:Game_Engine "wikilink") [Category:File Formats](Category:File_Formats "wikilink")

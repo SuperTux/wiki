@@ -283,5 +283,3 @@ On the first run, these paths were not correctly set, so the editor stopped with
 ` `<SupertuxData>`/usr/local/bin/supertux/data/`</SupertuxData>
 
 Yours will probably look differently, and you have to fill in your appropriate paths. Note that `LastDirectoryName` must exist, otherwise you will run into errors again. Just use the path to data, that should be ok. Do not add any white space between the paths and the tags!
-
-[Category:Developer documentation](Category:Developer_documentation "wikilink")

@@ -108,5 +108,3 @@ graphics/UX tasks, `category:code` for code tasks, and
 
 Translations are always a very important part of the game. You can contribute
 to them [on Transifex](https://www.transifex.com/arctic-games/supertux/).
-
-<Category:Development>

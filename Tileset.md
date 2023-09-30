@@ -241,5 +241,3 @@ objects. These include all with the coin, fullbox, brick, or goal
 attributes, and tile id 112 (invisible block). But the game doesn't
 end there. It also adds light sources to torches and lava, which are
 then hidden unless the level uses a lightmap.
-
-[Category:Game Engine](Category:Game_Engine "wikilink") [Category:File Formats](Category:File_Formats "wikilink")

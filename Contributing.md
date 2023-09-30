@@ -106,5 +106,3 @@ You can easily help *SuperTux* by updating the wiki. This can be done without an
 -   [:Category:Badguys with unknown squishability](:Category:Badguys_with_unknown_squishability "wikilink"): Badguys where the *“Squish”* attribute is unknown or incorrect.
 
 If you're unsure if the observed behavior is incorrect (and the differing documented behavior is the intended way), please don't hesitate to ask a developer or open a [bug report](Bugs "wikilink").
-
-<Category:Development> <Category:Meta> <Category:Outdated>

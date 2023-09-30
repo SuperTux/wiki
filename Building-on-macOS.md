@@ -203,5 +203,3 @@ Building the editor
 -------------------
 
 I have been unable as of yet to get supertux-sharp working in Mac OS X. Theoretically it should be possible as it's written in C\# using gtk-sharp, and Mono should support this. If you are able to get the editor built and running under OS X, please post your steps here.
-
-[Category:Developer documentation](Category:Developer_documentation "wikilink")

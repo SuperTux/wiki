@@ -34,5 +34,3 @@ Milestones
 
 -   [Milestone 1](Milestone_1 "wikilink")
 -   [Milestone 2](Milestone_2 "wikilink")
-
-<Category:Development>

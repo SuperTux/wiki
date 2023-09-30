@@ -1,4 +1,4 @@
-<Template:Outdated> It would be very nice to have support for cutscenes to drive the story of the game forward and enhance athmosphere for the player. No details discussed yet. Some questions that should be answered:
+It would be very nice to have support for cutscenes to drive the story of the game forward and enhance athmosphere for the player. No details discussed yet. Some questions that should be answered:
 
 -   video files like .avi or [scripted](Scripting "wikilink") “in-game” cutscenes that use the game-engine?
 -   When using the game engine:
@@ -128,5 +128,3 @@ This is how a scripted cutscene might look like. Please comment if you would lik
 
         script)
     )
-
-[Category:Game Engine](Category:Game_Engine "wikilink")

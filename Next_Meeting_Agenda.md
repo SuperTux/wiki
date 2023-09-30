@@ -2,12 +2,10 @@ The **next developer's meeting** will (probably) be held on a *Saturday* startin
 
 The following are topics we would like to discuss. Since it's possible that we cannot address all the below issues, we might postpone some issues for a later meeting.
 
-<Template:nextversion>
-
 Discussion
 ----------
 
-[s=If you have anything to add, just click the “Edit” link and add some text](Template:Attention "wikilink")
+> If you have anything to add, just click the “Edit” link and add some text
 
 ### Next Meeting ?
 
@@ -26,5 +24,3 @@ There is most on the time someone on our IRC chanel on Freenode (\#supertux) but
     -   make mechanical badguy breakable on buttjump
     -   induce senescence of vegetal badguy
     -   freeze and make caryable animal badguys
-
-<Category:Development>

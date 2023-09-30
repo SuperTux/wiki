@@ -1,4 +1,4 @@
-[s=This page is for developers. Users: please use [talk page](Talk:Long_Term_Issues "wikilink")](Template:Attention "wikilink")
+> This page is for developers.
 
 What Tux should look like with Fire Flower
 ------------------------------------------

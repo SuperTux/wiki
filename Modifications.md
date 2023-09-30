@@ -72,5 +72,3 @@ Creating and Playing Mods
 -------------------------
 
 See [CreatingMods](CreatingMods "wikilink")
-
-[Category:For Users](Category:For_Users "wikilink")

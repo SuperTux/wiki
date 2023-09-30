@@ -22,5 +22,3 @@ You can playback a demo like this:
 
 ` ./supertux --play-demo mydemo.demo data/levels/world1/level25.stl`
 ` supertux.exe --play-demo mydemo.demo data/levels/world1/level25.stl`
-
-[Category:For Users](Category:For_Users "wikilink")
