@@ -20,6 +20,7 @@ Method | Explanation
 `set_sector(string sector)` | Changes the current sector of the worldmap to a specified new sector. 
 `spawn(string sector, string spawnpoint)` | Changes the current sector of the worldmap to a specified new sector, moving Tux to the specified spawnpoint. 
 `move_to_spawnpoint(string spawnpoint)` | Moves Tux to a specified spawnpoint. 
+`get_filename()` | Gets the path to the worldmap file. Useful for saving worldmap specific data. 
 
 
 Constants
