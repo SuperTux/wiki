@@ -20,9 +20,9 @@ Method | Explanation
 `get_current_thread()` | Returns the currently running thread. 
 `is_christmas()` | Returns whether the game is in christmas mode. 
 `display_text_file(string filename)` | Displays a text file and scrolls it over the screen (on next screenswitch). 
-`load_worldmap(string filename)` | Loads and displays a worldmap (on next screenswitch). 
-`set_next_worldmap(string dirname, string spawnpoint)` | Switches to a different worldmap after unloading the current one, after `exit_screen()` is called. 
-`load_level(string filename)` | Loads and displays a level (on next screenswitch). 
+`load_worldmap(string filename, string sector, string spawnpoint)` | Loads and displays a worldmap (on next screenswitch), using the savegame of the current worldmap. <br /><br /> `sector` - Forced sector to spawn in the worldmap on. Leave empty to use last sector from savegame. <br /> `spawnpoint` - Forced spawnpoint to spawn in the worldmap on. Leave empty to use last position from savegame. 
+`set_next_worldmap(string dirname, string sector, string spawnpoint)` | Switches to a different worldmap after unloading the current one, after `exit_screen()` is called. <br /><br /> `dirname` - The world directory, where the "worldmap.stwm" file is located. <br /> `sector` - Forced sector to spawn in the worldmap on. Leave empty to use last sector from savegame. <br /> `spawnpoint` - Forced spawnpoint to spawn in the worldmap on. Leave empty to use last position from savegame. 
+`load_level(string filename)` | Loads and displays a level (on next screenswitch), using the savegame of the current level. 
 `start_cutscene()` | Starts a skippable cutscene. 
 `end_cutscene()` | Ends a skippable cutscene. 
 `check_cutscene()` | Checks if a skippable cutscene is currently running. 
