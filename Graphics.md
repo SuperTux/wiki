@@ -12,4 +12,3 @@ Useful links:
 
  - [Guide to drawing](http://pingus.seul.org/~grumbel/gimp/drawing/)
  - [SuperTux Downloads Page](https://supertux.org/download.html)
- 

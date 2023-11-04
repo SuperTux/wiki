@@ -73,5 +73,3 @@ Giving feedback
 --------------
 
 Of course, giving feedback is very important for levels that are under active development. You can give feedback by joining our [IRC](IRC "wikilink") channel and stating your opinion, by sending a mail to the [mailing list](mailing_list "wikilink"), or by filing/commenting on an appropriate bug report in our [bug tracker](bug_tracker "wikilink").
-
-<Category:Development>

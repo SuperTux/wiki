@@ -73,5 +73,3 @@ These have been ported, but have no links yet:
 -   Nokia 770 Internet Tablet
 -   S60 3rd & 5th Edition smartphones
 -   Sega Dreamcast
-
-<Category:Development>

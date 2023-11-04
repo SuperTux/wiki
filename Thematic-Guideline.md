@@ -106,5 +106,3 @@ This section must yet be discussed in more detail but there are certain aspects 
 > "100% agree. You may count the new ghost tree death animation too violent? I mean its face explodes into small pieces leaving
   behind an empty husk and all its branches plus roots break apart. Though due to the more eerie nature of the corrupted forest
   this might get a pass." - RustyBox
-
-<Category:Design>

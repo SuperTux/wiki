@@ -98,5 +98,3 @@ Some examples of real files used in SuperTux follow. (Ellipsis (three dots) indi
        )
      )
     )
-
-[Category:Game Engine](Category:Game_Engine "wikilink") [Category:File Formats](Category:File_Formats "wikilink")

@@ -90,5 +90,3 @@ We mainly need to replace all the sounds from Bill Kendrick ([list message](http
 -   yeti\_finish.ogg -- self-made by [MatzeB](mediawiki/Users/matzeb)
 -   yeti\_gna.wav -- self-made by [MatzeB](mediawiki/Users/matzeb)
 -   yeti\_roar.wav -- self-made by [MatzeB](mediawiki/Users/matzeb)
-
-<Category:Meta>

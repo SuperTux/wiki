@@ -382,6 +382,3 @@ the error, report the bug with at least this info:
 These types of bugs can not be solved without that info (and sometimes
 we might need more details than that, so please check back at the bug
 once day or so if there is any more info asked for).
-
-<Category:Development> [Category:For
-Users](Category:For_Users "wikilink") <Category:FAQs>

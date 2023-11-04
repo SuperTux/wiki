@@ -20,5 +20,3 @@ I can see two ways to do this:
 2.  When a player dies, the next player starts where the last player died.
 
 Michael Lubker (zratchet), who helped with some of the original Milestone 2/onward concepts, is working on designing [Super Tux Smash](Super_Tux_Smash "wikilink"), a multiplayer mod.
-
-<Category:Design>

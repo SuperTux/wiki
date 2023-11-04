@@ -78,5 +78,3 @@ More Unofficial Ports
 There are lots more unofficial ports of *SuperTux* for various platforms.
 
 These are collected at [Download/Portable](Download/Portable "wikilink").
-
-[Category:For Users](Category:For_Users "wikilink")

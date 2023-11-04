@@ -1,4 +1,4 @@
-[s=This page is not intended for user discussions. Please use [Talk:Milestone 1.9](Talk:Milestone_1.9 "wikilink") instead.](Template:Attention "wikilink")
+> This page is not intended for user discussions. Please use [IRC](IRC "wikilink") instead.
 
 SuperTux 0.3.0, aka Milestone 1.9, was released on 2006-12-17. Although it's already fun to play, SuperTux 0.3.0 is to be considered an unstable developer preview.
 
@@ -44,5 +44,3 @@ Some points I noticed while watching my little sister playing were:
 -   She liked that the game is german
 
 [Grumbel grumbles](Grumbel_grumbles "wikilink") is mostly about Milestone 1.9.
-
-<Category:Development> <Category:SuperTux>

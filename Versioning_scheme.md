@@ -54,5 +54,3 @@ SuperTux 0.4.0 will be the next stable ([Milestone 2](Milestone_2 "wikilink")) r
 ### `SVN` “releases”
 
 SVN builds will have version numbers of the form `x.y.z-SVN` with an optional version specifier at the end. `x.y.z` will be the latest unstable release, and the version specifier will be the result of running `svnversion`.
-
-[Category:Developer documentation](Category:Developer_documentation "wikilink")

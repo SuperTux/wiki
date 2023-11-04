@@ -27,5 +27,3 @@ More in-depth information about the game engine can be found in the source code 
 -   [Collision detection](Collision_detection "wikilink")
 -   [Tile](Tile "wikilink")
 -   [Objects](Objects "wikilink")
-
-[Category:Game Engine](Category:Game_Engine "wikilink")

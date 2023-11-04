@@ -53,5 +53,3 @@ The console currently supports autocomplete, through use of the tab key,
 line editing with left/right/home/end/delete keys, and viewing past
 messages using the up, down, page up, and page down keys. To run a
 command, simply press the enter or return key.
-
-[Category:Game Engine](Category:Game_Engine "wikilink")

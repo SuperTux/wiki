@@ -671,5 +671,3 @@ list in the past month:
 
 - A first 'playable' (not really, just a little tech demo) version of
   [SuperTux Portable](http://pingus.seul.org/~grumbel/tmp/supertux-2005-10-13.gba)
-
-<Category:Development>

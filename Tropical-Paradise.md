@@ -34,5 +34,3 @@ See also
 -   [Icy Island](https://github.com/SuperTux/supertux/wiki/Icy-Island)
 -   [Rooted Forest](https://github.com/SuperTux/supertux/wiki/Rooted-Forest)
 -   [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
-
-<Category:World>

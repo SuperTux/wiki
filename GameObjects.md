@@ -1,6 +1,6 @@
 *This page is about the class in the source code. For a list of objects available in the game, see [Objects](Objects "wikilink").*
 
-<Template:Outdated> ![A diagram illustrating the planned design for the GameObjects](images/Gameobjects2.png "fig:A diagram illustrating the planned design for the GameObjects") **GameObject** is a base class in the *SuperTux* source code. It is the most basic class for objects in the game. Nearly everything should inherit from this class, for instance [badguys](badguy "wikilink"), [unstable tiles](unstable_tile "wikilink") and [trampolines](trampoline "wikilink"). All *GameObjects* are stored in a list by the engine. This list will be traversed twice per frame. First the action function is called on each object, and then the draw function of each object is called.
+![A diagram illustrating the planned design for the GameObjects](images/Gameobjects2.png "fig:A diagram illustrating the planned design for the GameObjects") **GameObject** is a base class in the *SuperTux* source code. It is the most basic class for objects in the game. Nearly everything should inherit from this class, for instance [badguys](badguy "wikilink"), [unstable tiles](unstable_tile "wikilink") and [trampolines](trampoline "wikilink"). All *GameObjects* are stored in a list by the engine. This list will be traversed twice per frame. First the action function is called on each object, and then the draw function of each object is called.
 
 The class also contains a flag that indicates if the object should be removed at the end of the frame. You can call `->remove_me()` to set this flag.
 
@@ -217,8 +217,7 @@ begin like this. They act exactly like a normal, solid block.
 Bubble_Dispenser
 =================
 
-<Template:NeedCode> <Template:NeedSound> A bubble dispenser is a device
-that, when activated, creates bubbles that slowly float upward. Tux can
+A bubble dispenser is a device that, when activated, creates bubbles that slowly float upward. Tux can
 jump into one of these bubbles to get upward movement; he is also able
 to control floating speed and movement to the sides a bit. Bubbles are
 destroyed on contact with solid tiles or objects, whereupon Tux is

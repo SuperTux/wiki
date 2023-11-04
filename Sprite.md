@@ -71,5 +71,3 @@ Sprite Editor
 -------------
 
 A Python/GTK-based sprite editor, named [GSprite](GSprite "wikilink"), is currently under development. Such an editor will have a graphical interface, and be able to add, remove, and edit individual actions, but will require Python, GTK, and PyGTK libraries as dependencies.
-
-[Category:Game Engine](Category:Game_Engine "wikilink") [Category:File Formats](Category:File_Formats "wikilink")

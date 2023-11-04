@@ -87,5 +87,3 @@ MacOS/X - Darwin Specific
 -------------------------
 
 -   **native-backend-debug** - set to true for debugging
-
-[Category:For Users](Category:For_Users "wikilink")

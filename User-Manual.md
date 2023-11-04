@@ -174,5 +174,3 @@ information about most objects in the game here.
 
 If you have paid for SuperTux, you have been ripped off. SuperTux is
 available for free download at [supertux.org](https://www.supertux.org/download.html).
-
-[Category:For Users](Category:For_Users "wikilink")

@@ -244,5 +244,3 @@ Milestone 2:
 Here are some sketches of things explained above.
 
 ![](images/Worldmap-sketch.png "Worldmap-sketch.png")
-
-<Category:Design> <Category:Outdated>

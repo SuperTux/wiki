@@ -111,5 +111,3 @@ See also
 
 -   [Badguys](https://github.com/SuperTux/supertux/wiki/Badguys)
 -   [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
-
-<Category:Badguy>

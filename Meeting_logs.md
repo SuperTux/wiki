@@ -15,5 +15,3 @@ SuperTux development meeting logs.
 SuperTux Community Meeting logs.
 
 -   [First SuperTux Community Meeting: March 22, 2008](First_SuperTux_Community_Meeting:_March_22,_2008 "wikilink")
-
-<Category:Development>

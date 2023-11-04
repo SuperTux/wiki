@@ -124,5 +124,3 @@ Whilst creating a worldmap is optional, you'll need to write a level subset file
       (description (_ "Levels by Ondra and Klara, the Hosek siblings")) ;; ... and a short description.
       (hide-from-contribs #f)                                           ;; Set to true to hide the levelset from the "Contrib Levels" menu.
     )
-
-[Category:Game Engine](Category:Game_Engine "wikilink") [Category:File Formats](Category:File_Formats "wikilink")

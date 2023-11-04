@@ -1,5 +1,3 @@
-<Template:Archive>
-
 Tux.getCoins or whatever
 ========================
 

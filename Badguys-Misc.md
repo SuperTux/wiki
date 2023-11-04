@@ -200,5 +200,3 @@ See also
 -   [Concept Art](https://github.com/SuperTux/supertux/wiki/Concept-Art)
 -   [Bosses](https://github.com/SuperTux/supertux/wiki/Bosses)
 -   [Worlds](https://github.com/SuperTux/supertux/wiki/Worlds)
-
-<Category:Badguy>

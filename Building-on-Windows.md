@@ -191,5 +191,3 @@ Small List of DLs:
 -   Ogg Vorbis: VORBIS\_INCLUDE\_DIR: H:\\STuxSVN\\libvorbis-1.2.3
 -   SDLIMAGE: SDLIMAGE\_INCLUDE\_DIR: H:\\STuxSVN\\SDL\_image-1.2.10\\include
 -   SDL: SDL\_INCLUDE\_DIR: H:\\STuxSVN\\SDL-1.2.14
-
-[Category:Developer documentation](Category:Developer_documentation "wikilink")
