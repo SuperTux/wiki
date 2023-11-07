@@ -20,7 +20,7 @@ Method | Explanation
 `start_moving()` | Starts moving the platform automatically. 
 `stop_moving()` | Stops moving the platform. 
 `get_action()` | Returns the current sprite action. 
-`set_action(string action, string loops)` | Sets the sprite action. 
+`set_action(string action, int loops)` | Sets the sprite action. 
 
 
 Constants
