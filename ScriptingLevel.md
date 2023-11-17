@@ -24,7 +24,6 @@ Method | Explanation
 `set_respawn_pos(string sector, float x, float y)` | Sets the default respawn position of the level. 
 `flip_vertically()` | Flips the level vertically (i.e. top is now bottom and vice versa). Call again to revert the effect. Make sure the player can land on something after the level is flipped! 
 `toggle_pause()` | Toggle pause. 
-`edit(bool edit_mode)` | Switch to/from edit mode. 
 `pause_target_timer()` | Pauses the target timer. 
 `resume_target_timer()` | Resumes the target timer. 
 
