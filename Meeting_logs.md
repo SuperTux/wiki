@@ -11,6 +11,7 @@ SuperTux development meeting logs.
 * [[Meeting_2010-02-20]]
 * [[Meeting_2010-02-27]]
 * [[Meeting_2010-11-27]]
+* [[Meeting_2023-12-10]]
 
 SuperTux Community Meeting logs.
 
