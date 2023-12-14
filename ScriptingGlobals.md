@@ -61,6 +61,7 @@ Method | Explanation
 `rand()` | Returns a random integer. 
 `record_demo(string filename)` | Records a demo to the given file. 
 `play_demo(string filename)` | Plays back a demo from the given file. 
+`set_title_frame(string image)` | Sets the frame, displayed on the title screen. 
 
 
 Constants

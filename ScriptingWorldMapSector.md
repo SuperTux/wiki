@@ -21,6 +21,7 @@ Method | Explanation
 `spawn(string sector, string spawnpoint)` | Changes the current sector of the worldmap to a specified new sector, moving Tux to the specified spawnpoint. 
 `move_to_spawnpoint(string spawnpoint)` | Moves Tux to a specified spawnpoint. 
 `get_filename()` | Gets the path to the worldmap file. Useful for saving worldmap specific data. 
+`set_title_level(string filename)` | Overrides the "Title Screen Level" property for the world with `filename`. The newly set level will be used for the title screen, after exiting the world. 
 
 
 Constants
