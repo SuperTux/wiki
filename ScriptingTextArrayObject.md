@@ -3,12 +3,16 @@
 Summary
 -------
 
-A `TextArrayObject` that was given a name can be controlled by scripts.
+A `TextArrayObject` that was given a name (or manually instantiated) can be controlled by scripts.
 
 Instance
 --------
 
-A `TextArrayObject` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
+A `TextArrayObject` instance is already provided in sectors under `sector.TextArray`.
+
+A `TextArrayObject` can also be created in a script or from the console. Constructor:
+
+```<textarrayobj> <- TextArrayObject()``` 
 
 Methods
 -------

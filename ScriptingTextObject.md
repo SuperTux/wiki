@@ -3,12 +3,16 @@
 Summary
 -------
 
-A `TextObject` that was given a name can be controlled by scripts.
+A `TextObject` that was given a name (or manually instantiated) can be controlled by scripts.
 
 Instance
 --------
 
-A `TextObject` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
+A `TextObject` instance is already provided in sectors under `sector.Text`.
+
+A `TextObject` can also be created in a script or from the console. Constructor:
+
+```<textobj> <- TextObject()``` 
 
 Methods
 -------
@@ -29,6 +33,8 @@ Method | Explanation
 `set_anchor_point(int anchor)` | Sets the anchor point of the text. <br /><br /> `anchor` - One of the `ANCHOR_*` constants (see [AnchorPoints](https://github.com/SuperTux/supertux/wiki/ScriptingAnchorPoints)). 
 `get_anchor_point()` | Returns the current anchor point of the text (one of the `ANCHOR_*` constants; see [AnchorPoints](https://github.com/SuperTux/supertux/wiki/ScriptingAnchorPoints)). 
 `set_anchor_offset(float x, float y)` | Sets the anchor offset of the text. 
+`get_wrap_width()` | Gets the text wrap width of the text. 
+`set_wrap_width(float width)` | Sets the text wrap width of the text. 
 `set_front_fill_color(float red, float green, float blue, float alpha)` | Sets the front fill color of the text. 
 `set_back_fill_color(float red, float green, float blue, float alpha)` | Sets the back fill color of the text. 
 `set_text_color(float red, float green, float blue, float alpha)` | Sets the text color. 
