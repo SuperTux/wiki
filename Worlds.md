@@ -35,7 +35,6 @@ bonus worlds, alongside its story mode.
 * Revenge in Redmond
 * Christmas Special
 * Halloween Special
-* Community Island
 
 ### Planned Addons
 
