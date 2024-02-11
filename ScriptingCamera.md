@@ -17,7 +17,6 @@ Methods
 
 Method | Explanation
 -------|-------
-`reload_config()` | Reloads the camera's configuration. 
 `shake(float duration, float x, float y)` | Shakes the camera in a certain direction only 1 time. 
 `start_earthquake(float strength, float delay)` | Starts "earthquake" mode, which shakes the camera vertically with a specified average `strength`, at a certain minimal `delay`, until stopped. 
 `stop_earthquake()` | Stops "earthquake" mode. 
