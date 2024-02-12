@@ -12,7 +12,7 @@ World 1 - Icy Island
 
 ### General Themes
 
-- Surface level theme
+- Surface level theme (ideally one for sunrise/-set, midday, night)
 - Underground level theme
 - Sky/Airborne level theme
 - Underwater level theme
@@ -31,7 +31,7 @@ World 2 - Rooted Forest
 
 ### General Themes
 
-- Surface level theme
+- Surface level theme (ideally one for sunrise/-set, midday, night)
 - Underground level theme
 - Sky/Airborne level theme
 - Underwater level theme
@@ -50,7 +50,7 @@ World 2.5 - Corrupted Forest
 
 ### General Themes
 
-- Surface level theme
+- Surface level theme (one calm, one intense)
 - Underground level theme
 - Sky/Airborne level theme
 - Underwater level theme
