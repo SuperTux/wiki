@@ -29,7 +29,6 @@ World 2 - Rooted Forest
 
 ### General Themes
 
-- Worldmap theme
 - Surface level theme
 - Underground level theme
 - Sky/Airborne level theme
