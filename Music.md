@@ -1,4 +1,4 @@
-_This page aims to gather the tpyes of themes each world should have/needs to feel complete!_
+_This page aims to gather the types of themes each world should have/needs to feel complete!_
 
 **General themes** are open to optional alternate track to allow for some variety in levels of the same theming.
 
@@ -12,18 +12,18 @@ World 1 - Icy Island
 
 ### General Themes
 
-- Surface level theme (ideally one for sunrise/-set, midday, night)
-- Underground level theme
-- Sky/Airborne level theme
-- Underwater level theme
+- [ ] Surface level theme (ideally one for sunrise/-set, midday, night)
+- [ ] Underground level theme
+- [ ] Sky/Airborne level theme
+- [ ] Underwater level theme
 
 ### Specific Themes
 
-- Worldmap theme
-- Castle level theme
-- Yeti boss theme
-- Crystal cave level theme
-- Snow Fort level theme
+- [ ] Worldmap theme
+- [ ] Castle level theme
+- [ ] Yeti boss theme
+- [ ] Crystal cave level theme
+- [ ] Snow Fort level theme
 
 
 World 2 - Rooted Forest
@@ -31,18 +31,19 @@ World 2 - Rooted Forest
 
 ### General Themes
 
-- Surface level theme (ideally one for sunrise/-set, midday, night)
-- Underground level theme
-- Sky/Airborne level theme
-- Underwater level theme
+- [ ] Surface level theme (ideally one for sunrise/-set, midday, night)
+- [ ] Underground level theme
+- [ ] Sky/Airborne level theme
+- [ ] Underwater level theme
 
 ### Specific Themes
 
-- Worldmap theme
-- Castle level theme
-- Granito level theme
-- Thunderstorm level theme
-- Granito ruin level theme
+- [ ] Worldmap theme
+- [ ] Castle level theme
+- [ ] Granito level theme
+- [ ] Thunderstorm level theme
+- [ ] Granito ruin level theme
+- [ ] Very dark underground level theme
 
 
 World 2.5 - Corrupted Forest
@@ -50,17 +51,17 @@ World 2.5 - Corrupted Forest
 
 ### General Themes
 
-- Surface level theme (one calm, one intense)
-- Underground level theme
-- Sky/Airborne level theme
-- Underwater level theme
+- [ ] Surface level theme (one calm, one intense)
+- [ ] Underground level theme
+- [ ] Sky/Airborne level theme
+- [ ] Underwater level theme
 
 ### Specific Themes
 
-- Worldmap theme
-- Castle level theme
-- Corrupted Granito level theme
-- Corrupted Granito ruin theme
-- Thunderstorm level theme
-- Ghost Tree boss theme
-- (Theme for a forest level that at last is starting to heal from the Corruption cause by the Ghost Tree)
+- [ ] Worldmap theme
+- [ ] Castle level theme
+- [ ] Corrupted Granito level theme
+- [ ] Corrupted Granito ruin theme
+- [ ] Thunderstorm level theme
+- [ ] Ghost Tree boss theme
+- [ ] (Theme for a forest level that at last is starting to heal from the Corruption cause by the Ghost Tree - hopeful vibe)
