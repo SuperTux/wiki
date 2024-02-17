@@ -47,7 +47,7 @@ should be closer to the feel of Icy Island. A save and welcoming place inhabited
 creatures bouncing around in a beautiful calm landscape.
 
 The themes for night time and thunderstorms should feel much more intense due to the powerful lightning
-strikes and bombademou from the Owls. A nice climactic end to the forest world, right before the hidden
+strikes and bombardment from the Owls. A nice climactic end to the forest world, right before the hidden
 underground outpost and dark tunnels, followed by the eventual Corrupted Forest segment!
 
 ### General Themes
