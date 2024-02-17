@@ -11,12 +11,13 @@ World 1 - Icy Island
 --------------------
 
 The music of Icy Island should properly represent Tux's homeland. A familiar and vivid winter wonderland.
-Only the icy caves and underwater themes be a bit more calm and reserved for the most part, but still keep
-a similar spirit overall. The castle and (potentially) the outpost being the only truely intense themes of
-world 1 (the current airship_remix song has a fitting vibe for the outpost so it could be used as a reference point here)!
+Only the icy caves and underwater themes should be more calm and reserved for the most part, but still keep
+a similar spirit overall. The castle and (potentially) the outpost themes being the only truly intense themes of
+world 1 (the current `airship_remix.ogg` has a fitting vibe for the outpost so it could be used as a reference point here)!
 
-Crystal Mine's theme should be the most different as it represents Tux leaving the save and familiar -
-preparing to leave his home towards the unknown to rescue his beloved friend! A mix worry but also determination.
+Crystal Mine's theme should be the most different out of the musical pieces of world 1, as it represents Tux leaving the familiar
+island - preparing to leave his home and traveling towards the unknown (Rooted Forest) to rescue his beloved friend! A mix worry
+but also determination.
 
 ### General Themes
 
@@ -41,14 +42,15 @@ preparing to leave his home towards the unknown to rescue his beloved friend! A 
 World 2 - Rooted Forest
 -----------------------
 
-The music of Rooted Forest should focus more on the mystic and wonder of the brand new environment.
+The music of Rooted Forest should focus more on the mystique and beauty of the brand new environment.
 A place Tux has never seen before. Exciting but with a little bit of caution! The Granito themes
-should be closer to the feel of Icy Island. A save and welcoming place inhabited by kind, yet curious
-creatures bouncing around in a beautiful calm landscape.
+should be closer to the feel of Icy Island, minus the Ruins theme. A save and welcoming place inhabited by kind, yet curious
+creatures bouncing around in a beautiful calm landscape. The Granito ruins on the other hand are more mysterious and ominous
+sounding in nature - abandoned
 
-The themes for night time and thunderstorms should feel much more intense due to the powerful lightning
-strikes and bombardment from the Owls. A nice climactic end to the forest world, right before the hidden
-underground outpost and dark tunnels, followed by the eventual Corrupted Forest segment!
+The themes for nighttime levels and thunderstorms should feel much more intense due to the powerful lightning
+strikes and bombardment by the Owls. A nice climactic end to the forest world, right before the hidden
+underground outpost and dark tunnels, ultimately followed by the Corrupted Forest!
 
 ### General Themes
 
@@ -70,12 +72,15 @@ underground outpost and dark tunnels, followed by the eventual Corrupted Forest 
 World 2.5 - Corrupted Forest
 ----------------------------
 
-The music of the Corrupted Forest should reflect the emptiness and lifeless feel of the once bright and
-vibrant forest - the uncertainty of what happened for the more "calm" and slow paced themes with the
-faster paced themes focusing more on the destruction and horrifying attributes of the corruption.
+The music of the Corrupted Forest should reflect the emptiness and lifelessness of the once bright and
+vibrant forest - focusing more on the uncertainty of what happened for the more "calm", ominous and slow
+paced themes, with the faster paced themes focusing more on the destruction and horrifying attributes of
+the corruption.
 
 Potentially some "twisted" remixes of normal forest themes or at least some slight references here and
-there to connect them closer together.
+there to connect them closer together. The Corrupted Granito themes going in a more somber direction as
+the once welcoming and lively Granito are now nothing but a mindless husk, roaming the fully overtaken
+and destroyed villages and ruins
 
 ### General Themes
 
