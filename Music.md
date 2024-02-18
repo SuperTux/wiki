@@ -32,7 +32,7 @@ but also determination.
 
 ### Specific Themes
 
-- [ ] Worldmap theme
+- [x] Worldmap theme
 - [ ] Castle level theme
 - [ ] Yeti boss theme
 - [ ] Crystal cave level theme
