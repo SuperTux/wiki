@@ -22,20 +22,22 @@ but also determination.
 ### General Themes
 
 - Surface level theme (ideally one for sunrise/-set, midday, night)
-  - [ ] Midday
+  - [x] Midday
+    - [x] Midday Alt.
   - [x] Sunset
   - [x] Night
 
-- [ ] Underground level theme
+- [x] Underground level theme
+  - [x] Underground Alt.
 - [x] Sky/Airborne level theme
-- [ ] Underwater level theme
+- [x] Underwater level theme
 
 ### Specific Themes
 
 - [x] Worldmap theme
 - [ ] Castle level theme
 - [ ] Yeti boss theme
-- [ ] Crystal cave level theme
+- [x] Crystal cave level theme
 - [ ] Snow Fort/Outpost level theme
 
 
@@ -82,12 +84,18 @@ there to connect them closer together. The Corrupted Granito themes going in a m
 the once welcoming and lively Granito are now nothing but a mindless husk, roaming the fully overtaken
 and destroyed villages and ruins
 
+For the final level of world 2 (likely named "Regrowth"), the theme should bare a more hopeful tone.
+At last a moment of relief! The Ghost Tree has been destroyed and the forest slowly begins to recover.
+However the damage left by the Corruption (e.g. broken terrain, ruined land) do remain as a reminder of
+what happend. Grateful for Tux's help, Granito are helping Tux too, proceeding to carry him across the
+ocean towards the 3rd world, Tropical Paradise!
+
 ### General Themes
 
 - [ ] Surface level theme (one calm, one intense)
 - [ ] Underground level theme
-- [ ] Sky/Airborne level theme
-- [ ] Underwater level theme
+- [ ] Sky/Airborne level theme (not quite part of Story Mode but useful more vertical/mountainous levels)
+- [ ] Underwater level theme (not part of Story Mode but useful for those who wish to make a corrupted water level)
 
 ### Specific Themes
 
@@ -97,4 +105,4 @@ and destroyed villages and ruins
 - [ ] Corrupted Granito Ruin level theme
 - [ ] Thunderstorm level theme
 - [ ] Ghost Tree boss theme
-- [ ] (Theme for a forest level that at last is starting to heal from the Corruption cause by the Ghost Tree - hopeful vibe)
+- [ ] Cured Corruption level theme (For an forest level that at last is starting to heal from the Corruption cause by the Ghost Tree, after the boss, leads to world 3 - hopeful vibe)
