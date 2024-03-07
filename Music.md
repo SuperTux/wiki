@@ -54,9 +54,16 @@ The themes for nighttime levels and thunderstorms should feel much more intense 
 strikes and bombardment by the Owls. A nice climactic end to the forest world, right before the hidden
 underground outpost and dark tunnels, ultimately followed by the Corrupted Forest!
 
+The underground outpost and the dark underground level right after are the transition from normal to corrupted forest.
+Ideally their themes should make you feel more uneasy but not give a way the horrors yet to come. Like a looming evil
+you cannot quite put your finger on. Depending on how it is done, both levels might be able to share a theme.
+
 ### General Themes
 
-- [ ] Surface level theme (ideally one for sunrise/-set, midday, night)
+- Surface level theme (ideally one for sunrise/-set, midday, night)
+  - [ ] Midday
+  - [ ] Sunset
+  - [ ] Night
 - [ ] Underground level theme
 - [ ] Sky/Airborne level theme
 - [ ] Underwater level theme
@@ -69,6 +76,7 @@ underground outpost and dark tunnels, ultimately followed by the Corrupted Fores
 - [ ] Thunderstorm level theme
 - [ ] Granito Ruin level theme
 - [ ] Very dark underground level theme
+  - [ ] Underground Outpost level theme
 
 
 World 2.5 - Corrupted Forest
@@ -92,7 +100,9 @@ ocean towards the 3rd world, Tropical Paradise!
 
 ### General Themes
 
-- [ ] Surface level theme (one calm, one intense)
+- Surface level theme (one calm, one intense)
+  - [ ] calm, uneasy
+  - [ ] tense, threatening
 - [ ] Underground level theme
 - [ ] Sky/Airborne level theme (not quite part of Story Mode but useful more vertical/mountainous levels)
 - [ ] Underwater level theme (not part of Story Mode but useful for those who wish to make a corrupted water level)
@@ -105,4 +115,4 @@ ocean towards the 3rd world, Tropical Paradise!
 - [ ] Corrupted Granito Ruin level theme
 - [ ] Thunderstorm level theme
 - [ ] Ghost Tree boss theme
-- [ ] Cured Corruption level theme (For an forest level that at last is starting to heal from the Corruption cause by the Ghost Tree, after the boss, leads to world 3 - hopeful vibe)
+- [ ] Cured Corruption level theme (For a forest level that at last is starting to heal from the Corruption cause by the Ghost Tree, after the boss, leads to world 3 - hopeful vibe)
