@@ -139,6 +139,8 @@ _This list contains potential themes needed for future worlds. Until specified o
 World 3 - Tropical Paradise
 ---------------------------
 
+The music of Tropical Paradise shall start off with a more calm beach vibe getting more tense and hostile.
+
 ### General Themes
 
 - Beach level theme (ideally one for sunrise/-set, midday, night)
@@ -147,10 +149,10 @@ World 3 - Tropical Paradise
   - [ ] Night
 - [ ] Underwater level theme
 
-- Jungle level theme (one calm, one intense, one for totem presence)
-  - [ ] Calm (Open view)
-  - [ ] Intense (
-  - [ ] Totem
+- Jungle level theme (one calm, one intense, one for temple grounds)
+  - [ ] Calm (beach view)
+  - [ ] Intense (deep jungle)
+  - [ ] Temple Grounds
 
 ### Specific Themes
 
@@ -160,10 +162,13 @@ World 3 - Tropical Paradise
 - [ ] Deep Sea level theme
 - [ ] Volcano level theme
 - [ ] Ant Hill level theme
+- [ ] Teleport Station level theme
 
 
 World 4 - Nolok's Mountain Peak
 -------------------------------
+
+The music of Nolok's Mountain Peak will be mostly ominous with references to past world motives.
 
 ### General Themes
 
