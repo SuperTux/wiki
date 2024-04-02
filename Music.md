@@ -105,7 +105,7 @@ you cannot quite put your finger on. Depending on how it is done, both levels mi
 - [ ] Granito Village level theme
 - [ ] Granito Ruin level theme
 - [ ] Very dark underground level theme
-  - [ ] Underground Outpost level theme
+- [ ] Underground Outpost level theme
 
 
 World 2.5 - Corrupted Forest
