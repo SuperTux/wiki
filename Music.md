@@ -1,9 +1,9 @@
 _This page aims to gather the types of themes each world should have/needs to feel complete!_
 
-**General themes** are open to optional alternate track to allow for some variety in levels of the same theming.
+**General themes** are open to optional alternate tracks to allow for some variety in levels of the same theming.
 
-**Specific themes** are set and do not require alternate track as they are used for very specfic level theme, like boss battles,
-special levels (e.g. Crytsal Mine, Between Two Glaciers, Ancient Ruin), worldmap etc.
+**Specific themes** are set and do not require alternate tracks as they are used for very specific level themes, like boss battles,
+special levels (e.g. Crystal Mine, Between Two Glaciers, Ancient Ruin), worldmaps etc.
 
 ---
 
@@ -72,14 +72,14 @@ A mix worry but also determination.
 World 2 - Rooted Forest
 -----------------------
 
-The music of Rooted Forest should focus more on the mystique, beauty and wonder of the brand new environment.
+The music of Rooted Forest should focus more on the mystique, beauty and wonder of the brand-new environment.
 A place Tux has never seen before. Exciting but with a little bit of caution! The Granito themes
 should be closer to the feel of Icy Island, minus the Ruins theme. A safe and welcoming place inhabited by kind, yet curious
-creatures bouncing around in a beautiful calm landscape. The ancient ruins of Granito on the other hand are more mysterious and ominous
+creatures bouncing around in a beautiful and calm landscape. The ancient ruins of Granito on the other hand are more mysterious and ominous
 sounding in nature - abandoned
 
 The themes for nighttime levels and thunderstorms should feel much more intense due to the powerful lightning
-strikes and bombardment by the Owls. A nice climactic end to the forest world, right before the hidden
+strikes and bombardment from the Owls. A nice climactic end to the forest world, right before the hidden
 underground outpost and dark tunnels, ultimately followed by the Corrupted Forest!
 
 The underground outpost and the dark underground level right after are the transition from normal to corrupted forest.
@@ -145,7 +145,7 @@ ocean towards the 3rd world, Tropical Paradise!
 - [ ] Thunderstorm level theme
 - [ ] Ghost Tree boss theme
 - [ ] Mini boss theme (more info must be gathered prior)
-- [ ] Cured Corruption level theme (For a forest level that at last is starting to heal from the Corruption cause by the Ghost Tree, after the boss, leads to world 3 - hopeful vibe)
+- [ ] Cured Corruption level theme (For a forest level that at last is starting to heal from the Corruption caused by the Ghost Tree, after the boss, leads to world 3 - hopeful vibe)
 
 ---
 
