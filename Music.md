@@ -149,7 +149,7 @@ ocean towards the 3rd world, Tropical Paradise!
 
 ---
 
-_NOTE: This following two lists contains potential themes needed for future worlds. Until specified otherwise these are not
+_NOTE: This following two list contains potential themes needed for future worlds. Until specified otherwise these are not
 yet required, but already written down to have an initial list ready to go!_
 
 ---
