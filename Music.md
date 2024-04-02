@@ -7,16 +7,28 @@ special levels (e.g. Crytsal Mine, Between Two Glaciers, Ancient Ruin), worldmap
 
 ---
 
-General Themes
---------------
+# Contents
 
-These themes (the main theme especially) if anything could use some slight touch ups in form of a remix of sorts to improve their
-overall sound quality, choice of instruments etc.
+1. [Non-World Tied Themes](#non-world-tied-themes)
+2. [Icy Island](#world-1---icy-island)
+3. [Rooted Forest](#world-2---rooted-forest)
+4. [Corrupted Forest](#world-25---corrupted-forest)
+5. [Tropical Paradise](#world-3---tropical-paradise)
+6. [Nolok's Mountain Peak](#world-4---noloks-mountain-peak)
 
-The credits theme may be subject to some more than just a remix, depending on what feel we want to go with. Right now it is on the more slow,
-melancholic side.
 
-- [ ] Main theme
+---
+
+Non-World Tied Themes
+---------------------
+
+These themes (the main theme especially) if anything could use some slight touch ups and tweaking in form of a remix of sorts
+to improve their overall sound quality, choice of instruments etc.
+
+The credits theme may be subject to some more than just a remix, depending on what feel we want to go with. Right now it is on
+the more slow, melancholic side.
+
+- [ ] Main theme (Tux theme)
 - [ ] Credits theme
 - [ ] Invincibility theme (star powerup)
 
@@ -51,6 +63,7 @@ A mix worry but also determination.
 - [x] Worldmap theme
 - [x] Castle level theme
 - [x] Yeti boss theme
+- [ ] Mini boss theme (more info must be gathered prior)
 - [x] Crystal cave level theme
 - [x] Snow Fort theme
 - [x] Glacier Outpost theme
@@ -87,6 +100,7 @@ you cannot quite put your finger on. Depending on how it is done, both levels mi
 
 - [ ] Worldmap theme
 - [ ] Tower level theme
+- [ ] Mini boss theme (more info must be gathered prior)
 - [ ] Thunderstorm level theme
 - [ ] Granito Village level theme
 - [ ] Granito Ruin level theme
@@ -130,11 +144,15 @@ ocean towards the 3rd world, Tropical Paradise!
 - [ ] Corrupted Granito Ruin level theme
 - [ ] Thunderstorm level theme
 - [ ] Ghost Tree boss theme
+- [ ] Mini boss theme (more info must be gathered prior)
 - [ ] Cured Corruption level theme (For a forest level that at last is starting to heal from the Corruption cause by the Ghost Tree, after the boss, leads to world 3 - hopeful vibe)
 
 ---
 
-_This list contains potential themes needed for future worlds. Until specified otherwise these are not yet required but already gathered to have an initial list ready to go._
+_NOTE: This following two lists contains potential themes needed for future worlds. Until specified otherwise these are not
+yet required, but already written down to have an initial list ready to go!_
+
+---
 
 World 3 - Tropical Paradise
 ---------------------------
@@ -159,6 +177,8 @@ The music of Tropical Paradise shall start off with a more calm beach vibe getti
 - [ ] Worldmap theme
 - [ ] Temple (castle) level theme
 - [ ] Toucan + Master Totem boss theme
+- [ ] Mini boss A theme (more info must be gathered prior)
+- [ ] Mini boss B theme (more info must be gathered prior)
 - [ ] Deep Sea level theme
 - [ ] Volcano level theme
 - [ ] Ant Hill level theme
@@ -168,7 +188,12 @@ The music of Tropical Paradise shall start off with a more calm beach vibe getti
 World 4 - Nolok's Mountain Peak
 -------------------------------
 
-The music of Nolok's Mountain Peak will be mostly ominous with references to past world motives.
+The specific themes of Nolok's Mountain Peak should feel quite ominous, with references to past worlds' motives.
+An exception will be the worldmap theme as it should reference Nolok's (potential) battle theme but in a more slow
+paced, intimidating style.
+
+The general themes will go in a more unique direction, away from referencing past worlds, with more vast and open
+feel due to all you be seeing is an endless sky of thick clouds below you. A mix of calm but daunting.
 
 ### General Themes
 
@@ -180,8 +205,9 @@ The music of Nolok's Mountain Peak will be mostly ominous with references to pas
 
 ### Specific Themes
 
-- [ ] Bomb Factory level theme
-- [ ] Corrupted level theme
-- [ ] Climactic castle level theme
+- [ ] Worldmap theme
+- [ ] Bomb Factory level theme - reference world 3 (Tropical Paradise)
+- [ ] Corrupted level theme - reference world 2 (Corrupted Forest)
+- [ ] Climactic castle level theme - - reference world 1 (Icy Island)
 - [ ] Nolok boss theme
 - [ ] Nolok final phase theme
