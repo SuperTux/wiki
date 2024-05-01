@@ -15,8 +15,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`goto_node(int node_no)` | Moves the tilemap along a path until at given node, then stops. 
-`set_node(int node_no)` | Jumps instantly to the given node. 
+`goto_node(int node_idx)` | Moves the tilemap along a path until at given node, then stops. 
+`set_node(int node_idx)` | Jumps instantly to the given node. 
 `start_moving()` | Starts moving the tilemap. 
 `stop_moving()` | Stops the tilemap at the next node. 
 `get_tile_id(int x, int y)` | Returns the ID of the tile at the given coordinates or 0 if out of bounds. The origin is at the top left. 

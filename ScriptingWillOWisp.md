@@ -15,7 +15,7 @@ Methods
 
 Method | Explanation
 -------|-------
-`goto_node(int node_no)` | Moves the WillOWisp along a path until at given node, then stops. 
+`goto_node(int node_idx)` | Moves the WillOWisp along a path until at given node, then stops. 
 `set_state(string state)` | Sets the state of the WillOWisp. <br /><br /> `state` - One of the following: "stopped", "move_path" (moves along a path), "move_path_track" (moves along a path but catches Tux when he is near), "normal" (starts tracking Tux when he is near enough), "vanish". 
 `start_moving()` | Starts following a path. 
 `stop_moving()` | Stops following a path. 
