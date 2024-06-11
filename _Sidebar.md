@@ -13,6 +13,7 @@ Guidelines
 
 * [[Thematic Guideline]]
 * [[Level Design]]
+* [[Art]]
 * [[Music]]
 * [Coding Style](https://github.com/SuperTux/supertux/blob/master/CODINGSTYLE.md)
 * [[Disfavored Practices|Disfavored Practices in Development]]
