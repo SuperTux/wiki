@@ -89,7 +89,8 @@ you cannot quite put your finger on. Depending on how it is done, both levels mi
 ### General Themes
 
 - Surface level theme (ideally one for sunrise/-set, midday, night)
-  - [ ] Midday
+  - [x] Midday
+    - [x] Midday alt.
   - [ ] Sunset
   - [ ] Night
 - [ ] Underground level theme
