@@ -362,6 +362,7 @@ Adding Objects As Tiles
 -----------------------
 
 Special tiles can only be defined one by one, that meaning, you can't turn a larger image into multiple tiles.
+Turning a tile into an object is done by adding an `object-name` and an `object-data` within the `tile`
 The general structure for adding a special tile in your tileset is the following:
 ```
 (tile
@@ -378,7 +379,7 @@ The general structure for adding a special tile in your tileset is the following
 ```
 Be aware that any object propriety that has quotation marks on it, must get a backslask (\) before any quotation marks, as they are quotation marks inside other quotation marks.
 ---
-If you find difficulties to write what object you want to add as a tile, you can place this object in your level, open the level in a text editor and copy the information you'll find about this object, for example, if you want a Mr.Snowball, you get in the level file and search for it, you'll find:
+If you find it difficult to write the object proprieties you want to add as a tile, you can place this object in your level, open the level in a text editor and copy the information you'll find about this object, for example, if you want a Mr.Snowball, you get in the level file and search for it, you'll find:
 
 ```
 (snowball
@@ -395,7 +396,7 @@ Let's turn that Mr. Snowball into a tile, then:
 
 ```
 (tile
-    (id 9991)
+    (id 52)
     (images
       "creatures/snowball/snowball-0.png"
     )
@@ -411,7 +412,7 @@ For another example, here is a rock added as a tile:
 
 ```
 (tile
-    (id 9992)
+    (id 53)
     (object-name "rock")
     (images
       "objects/rock/rock.png"
@@ -423,7 +424,7 @@ Now, a not-portable trampoline as a tile:
 
 ```
 (tile
-    (id 9993)
+    (id 54)
     (images
       "objects/trampoline/trampoline2-0.png"
     )
@@ -439,7 +440,7 @@ Now let's be creative, let's say you want to add a bonus block that is orange an
 
 ```
 (tile
-    (id 9994)
+    (id 55)
     (images
       "objects/bonus_block/orange-0.png"
     )
