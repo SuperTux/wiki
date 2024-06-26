@@ -172,7 +172,7 @@ Attribute combination examples:
 | fire          | `0x0C00` / 3072 | `0x0400 + 0x0800` / 1024 + 2048 | The tile hurts the player and emits a red light. |            |
 | lava          | `0x0E00` / 3584 | `0x0200 + 0x0400 + 0x0800` / 512 + 1024 + 2048 | The tile is swimmable, hurts the player and emits a red light. | |
 
-You can try as many different combinations as you want, the ones above are only examples of whatyou can do.
+You can try as many different combinations as you want, the ones above are only examples of what you can do.
 
 Deprecated Attributes
 ---------------------
