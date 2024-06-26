@@ -7,7 +7,7 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
 
 1. [Introduction](#introduction)
 2. [Tile Attributes](#tile-attributes)
-   * [Attribute Combinations]
+   * [Attribute Combinations](#attribute-combinations)
 4. [Tile Datas](#tile-datas)
    * [Slope Types](#slope-types)
    * [Unisolid Direction]
@@ -137,8 +137,9 @@ Attribute Combinations
 A tile can have multiple attributes on it, by adding the values together.
 Attribute combination examples:
 
-| Combination | Value | Description | Data section |
-|-------------|---------------------|-----------------------------------------------------|---------------------------------------------------------------------|
+| Combination   | Value        | Added Values              | Description                                     |Data section |
+|---------------|--------------|---------------------------|-------------------------------------------------|-------------|
+| unisolid tile | `0x0003` / 3 | `0x0001 + 0x0002` / 1 + 2 | The tile is solid, but only from one direction. |             |
 
 Tile Datas
 ==========
