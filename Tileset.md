@@ -8,6 +8,7 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
 1. [Introduction](#introduction)
 2. [Tile Attributes](#tile-attributes)
    * [Attribute Combinations](#attribute-combinations)
+   * [Deprecated Attributes](#deprecated-attributes)
 4. [Tile Datas](#tile-datas)
    * [Slope Types](#slope-types)
 5. [Adding Your Own Tiles](#adding-your-own-tiles)
@@ -171,6 +172,20 @@ Attribute combination examples:
 | lava          | `0x0E00` / 3584 | `0x0200 + 0x0400 + 0x0800` / 512 + 1024 + 2048 | The tile is swimmable, hurts the player and emits a red light. | |
 
 You can try as many different combinations as you want, the ones above are only examples of whatyou can do.
+
+Deprecated Attributes
+---------------------
+
+Some attributes that were used to make a tile have a special behavior don't seem to be working on current builds of the game, as they were replaced by the possibility of creating object tiles.
+[See here](#adding-objects-as-tiles) the guide for adding objects as tiles.
+
+| Attribute | Value          | Description |
+|-----------|----------------|-------------|
+| brick     | `0x0004` / 4   | The tile would act as a brick that could be destroyed by hitting it in different ways. |
+| goal      | `0x0008` / 8   | The tile would finish the level when touched, with data `0` triggering end sequence and data `1` finishing instantly. |
+| fullbox   | `0x0020` / 32  | The tile would act as Bonus Block, with datas `1` to `5` defining its content. |
+| coin      | `0x0040` / 64  | The tile would act as a coin. |
+| ...       | `0x0080` / 128 | This attribute doesn't seem to do anything at all. |
 
 Tile Datas
 ==========
