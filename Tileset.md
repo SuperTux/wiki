@@ -474,7 +474,7 @@ Now let's be creative, let's say you want to add a bonus block that is orange an
     ")
 )
 ```
-Again, if you feel confused with what information you must type in the object name and data sections, you can copy them from an object that's already placed in you level file!
+Again, if you feel confused with what information you must type in the object name and data sections, you can copy them from an object that's already placed in your level file!
 
 ---
 
