@@ -137,9 +137,10 @@ Attribute Combinations
 A tile can have multiple attributes on it, by adding the values together.
 Attribute combination examples:
 
-| Combination   | Value        | Added Values              | Description                                     |Data section |
-|---------------|--------------|---------------------------|-------------------------------------------------|-------------|
-| unisolid tile | `0x0003` / 3 | `0x0001 + 0x0002` / 1 + 2 | The tile is solid, but only from one direction. |             |
+| Combination   | Value           | Added Values                    | Description                                     |Data section |
+|---------------|-----------------|---------------------------------|-------------------------------------------------|-------------|
+| unisolid tile | `0x0003` / 3    | `0x0001 + 0x0002` / 1 + 2       | The tile is solid, but only from one direction. |             |
+| solid slope   | `0x0012` / 17   | `0x0001 + 0x0010` / 1 + 16      | The tile is a walkable slope, solid from all sides. |         |
 
 Tile Datas
 ==========
