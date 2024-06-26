@@ -9,13 +9,13 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
 2. [Tile Attributes](#tile-attributes)
    * [Attribute Combinations](#attribute-combinations)
    * [Deprecated Attributes](#deprecated-attributes)
-4. [Tile Datas](#tile-datas)
+3. [Tile Datas](#tile-datas)
    * [Slope Types](#slope-types)
-5. [Adding Your Own Tiles](#adding-your-own-tiles)
+4. [Adding Your Own Tiles](#adding-your-own-tiles)
    * [Initial Preparations](#step-1-initial-preparations)
    * [Adding Tiles](#step-2-adding-tiles)
    * [Adding Tilegroups](#step-3-adding-tilegroups)
-6. [Special Tiles](#special-tiles)
+5. [Special Tiles](#special-tiles)
    * [Adding Objects As Tiles](#adding-objects-as-tiles)
 
 Introduction
