@@ -63,20 +63,6 @@ For an animated tile you can define its animation speed with an `FPS` value:
 
 ---
 
-For a tile that looks one way in editor and other way in game, you can set the images separately:
-
-```
-(tiles
-  (id 2)
-  (attributes 2)
-  (images "tiles/[tilegroup]/[tile].png")
-  (editor-images "tiles/[tilegroup]/[tile]-editor.png")
-)
-```
-If you want the tile to be invisible in game, you just remove the "(images)" section
-
----
-
 It is also possible to extract parts of bigger images to create tiles:
 
 ```
@@ -92,6 +78,20 @@ It is also possible to extract parts of bigger images to create tiles:
   (image "tiles/[tilegroup]/[multipletiles].png")
 )
 ```
+
+---
+
+For a tile that looks one way in editor and other way in game, you can set the images separately:
+
+```
+(tiles
+  (id 4)
+  (attributes 2)
+  (images "tiles/[tilegroup]/[tile].png")
+  (editor-images "tiles/[tilegroup]/[tile]-editor.png")
+)
+```
+If you want the tile to be invisible in game, you just remove the "(images)" section
 
 ---
 
