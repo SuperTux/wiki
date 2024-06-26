@@ -384,7 +384,8 @@ Adding Objects As Tiles
 -----------------------
 
 Special tiles can only be defined one by one, that meaning, you can't turn a larger image into multiple tiles.
-Turning a tile into an object is done by adding an `object-name` and an `object-data` within the `tile`
+Turning a tile into an object is done by adding an `object-name` and an `object-data` within the `tile`.
+
 The general structure for adding a special tile in your tileset is the following:
 ```
 (tile
