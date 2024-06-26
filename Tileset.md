@@ -139,8 +139,11 @@ Attribute combination examples:
 
 | Combination   | Value           | Added Values                    | Description                                     |Data section |
 |---------------|-----------------|---------------------------------|-------------------------------------------------|-------------|
-| unisolid tile | `0x0003` / 3    | `0x0001 + 0x0002` / 1 + 2       | The tile is solid, but only from one direction. |             |
-| solid slope   | `0x0012` / 17   | `0x0001 + 0x0010` / 1 + 16      | The tile is a walkable slope, solid from all sides. |         |
+| unisolid tile | `0x0003` / 3    | `0x0001 + 0x0002` / 1 + 2       | The tile is solid, but only from one side.      | Unisolid direction. [See below](#unisolid-direction) for possible values. |
+| solid slope   | `0x0011` / 17   | `0x0001 + 0x0010` / 1 + 16      | The tile is a walkable slope, solid from all sides. | Type of slope. [See below](#slope-types) for possible values. |
+| unisolid slope | `0x0013` / 19  | `0x0001 + 0x0002 + 0x0010` / 1 + 2 + 16 | The tile is a walkable slope, only solid from one side. | Type of slope. [See below](#slope-types) for possible values. |
+| ice tile      | `0x0101` / 257  | `0x0001 + 0x0100` / 1 + 256     | The tile is fully solid and slippery.           |             |
+| unisolid ice tile | `0x0103` / 259 | `0x0001 + 0x0002 + 0x0100` / 1 + 2 + 256 | The tile is solid from one side and slippery. | Unisolid direction. [See below](#unisolid-direction) for possible values. |
 
 Tile Datas
 ==========
