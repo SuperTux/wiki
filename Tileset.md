@@ -14,6 +14,8 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
    * [Initial Preparations](#step-1-initial-preparations)
    * [Adding Tiles](#step-2-adding-tiles)
    * [Adding Tilegroups](#step-3-adding-tilegroups)
+6. [Special Tiles](#special-tiles)
+   * [Adding Objects As Tiles](#adding-objects-as-tiles)
 
 Introduction
 ============
@@ -153,6 +155,8 @@ Attribute combination examples:
 | light block   | `0x0801` / 2049 | `0x0001 + 0x0800` / 1 + 2048    | The tile is solid and emits light.              |             |
 | fire          | `0x0C00` / 3072 | `0x0400 + 0x0800` / 1024 + 2048 | The tile hurts the player and emits a red light. |            |
 | lava          | `0x0E00` / 3584 | `0x0200 + 0x0400 + 0x0800` / 512 + 1024 + 2048 | The tile is swimmable, hurts the player and emits a red light. | |
+
+You can try as many different combinations as you want, the ones above are only examples of whatyou can do.
 
 Tile Datas
 ==========
@@ -335,6 +339,108 @@ tilegroup.
   )
 )
 ```
+
+Adding Objects As Tiles
+=======================
+
+Some tiles are special, as they turn into objects (i.e: Bonus Blocks, Coins and Bricks) when the level is loaded.
+
+Special tiles can only be defined one by one, that meaning, you can't turn a larger image into multiple tiles.
+
+The general structure for adding a special tile in your tileset is the following:
+```
+(tile
+    (id [your tile ID])
+    (images
+      "objects/[object]/[object].png"
+    )
+    (object-name "[object class name]")
+    (object-data "
+      ([propriety1] 50)
+      ([propriety2] \"[string]\")
+    ")
+)
+```
+Be aware that any object propriety that has quotation marks on it, must get a backslask (\) before any quotation marks, as they are quotation marks inside other quotation marks.
+If you find difficulties to write what object you want to add as a tile, you can place this object in your level, open the level in a text editor and copy the information you'll find about this object, for example, if you want a Mr.Snowball, you get in the level file and search for it, you'll find:
+
+```
+(snowball
+      (z-pos 52)
+      (direction "left")
+      (x 288)
+      (y 128)
+)
+```
+From this information, you may extract what you want to turn into a tile, you must ignore the x and y positions as they will be defined as where the tile is.
+
+Let's turn that Mr. Snowball into a tile, then:
+
+```
+(tile
+    (id 9991)
+    (images
+      "creatures/snowball/snowball-0.png"
+    )
+    (object-name "snowball")
+    (object-data "
+      (z-pos 50)
+      (direction \"left\")
+    ")
+)
+```
+
+For another example, here is a rock added as a tile:
+
+```
+(tile
+    (id 9992)
+    (object-name "rock")
+    (images
+      "objects/rock/rock.png"
+    )   
+)
+```
+
+Now, a not-portable trampoline as a tile:
+
+```
+(tile
+    (id 9993)
+    (images
+      "objects/trampoline/trampoline2-0.png"
+    )
+    (object-name "trampoline")
+    (object-data "
+      (type \"stationary\")
+      (z-pos 50)
+    ")
+)
+```
+
+Now let's be creative, let's say you want to add a bonus block that is orange and has 2 Mr.Icecubes inside it:
+
+```
+(tile
+    (id 9994)
+    (images
+      "objects/bonus_block/orange-0.png"
+    )
+    (object-name "bonusblock")
+    (object-data "
+      (type \"orange\")
+      (z-pos 51)
+      (custom-contents
+        (mriceblock
+          (z-pos 50)
+        )
+      )
+      (count 2)
+      (contents \"custom\")
+    ")
+)
+```
+Again, if you feel confused with what information you must type in the object name and data sections, you can copy them from an object that's already placed in you level file!
 
 And that is all! Go open / create a new level in the Level Editor and select your tileset file in the Level
 Properties and see if your tiles and / or tilegroups appear in the tiles menu.
