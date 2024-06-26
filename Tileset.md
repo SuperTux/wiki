@@ -7,9 +7,11 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
 
 1. [Introduction](#introduction)
 2. [Tile Attributes](#tile-attributes)
-3. [Tile Datas](#tile-datas)
+   * [Attribute Combinations]
+4. [Tile Datas](#tile-datas)
    * [Slope Types](#slope-types)
-4. [Adding Your Own Tiles](#adding-your-own-tiles)
+   * [Unisolid Direction]
+5. [Adding Your Own Tiles](#adding-your-own-tiles)
    * [Initial Preparations](#step-1-initial-preparations)
    * [Adding Tiles](#step-2-adding-tiles)
    * [Adding Tilegroups](#step-3-adding-tilegroups)
@@ -120,19 +122,23 @@ A tile can have the following attributes:
 
 | Attribute  | Value           | Description                                         | Data section                                                        |
 |------------|-----------------|-----------------------------------------------------|---------------------------------------------------------------------|
-| solid      | `0x0001` / 1    | Defines if the tile should be considered for collision detection |                                                        |
-| unisolid   | `0x0002` / 2    | The tile will only be considered for collision detection when tux is falling down. |                                      |
-| brick      | `0x0004` / 4    | The tile acts as a brick that can be destroyed by hitting it from below, with a buttjump etc. |                           |
-| goal       | `0x0008` / 8    | The tile finishes a level when touched.             | 0 = Trigger **endsequence**, 1 = Finish level instantly             |
-| slope      | `0x0010` / 16 `0x0011` / 17  | The tile is a slope.                   | Type of slope. [See below](#slope-types) for possible values.       |
-| unisolid-slope | `0x0013` / 19 | The tile is a unisolid slope.                     | Type of slope. [See below](#slope-types) for possible values.       |
-| fullbox    | `0x0020` / 32   | The tile acts as Bonus Block.                       | 1 = Coin, 2 = Fireflower, 3 = Star, 4 = Tux Doll, 5 = Iceflower     |
-| coin       | `0x0040` / 64   | The tile acts as a coin.                            |                                                                     |
+| solid      | `0x0001` / 1    | The tile collision is solid / walkable              |                                                                     |
+| unisolid   | `0x0002` / 2    | The tile collision will only be detected if touched from one direction. | Unisolid direction. [See below](#unisolid-direction) for possible values. |
+| slope      | `0x0010` / 16   | The tile collision will act as a slope.             | Type of slope. [See below](#slope-types) for possible values.       |
 | ice        | `0x0100` / 256  | The tile is slippery.                               |                                                                     |
-| water      | `0x0200` / 512  | The tile is a water tile and is swimmable.          |                                                                     |
-| hurts      | `0x0400` / 1024 | The tile hurts the player when touched.             |                                                                     |
-| fire       | `0x0800` / 3584 | The tile is a lava tile and is swimmable, but also hurts the player. |                                                    |
+| water      | `0x0200` / 512  | The tile collision is liquid / swimmable.           |                                                                     |
+| harmful    | `0x0400` / 1024 | The tile collision hurts the player when touched.   |                                                                     |
+| glowing    | `0x0800` / 2048 | The tile emits a light that softly pulsates at random intervals.|                                                         |
 | walljump   | `0x1000` / 4096 | The tile is walljump-able.                          |                                                                     |
+
+Attribute Combinations
+----------------------
+
+A tile can have multiple attributes on it, by adding the values together.
+Attribute combination examples:
+
+| Combination | Value | Description | Data section |
+|-------------|---------------------|-----------------------------------------------------|---------------------------------------------------------------------|
 
 Tile Datas
 ==========
