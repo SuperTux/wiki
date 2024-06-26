@@ -3,15 +3,25 @@ Summary
 
 ${SRG_CLASSSUMMARY}
 
-Instance
+Instances
 --------
 
 ${SRG_CLASSINSTANCES}
+
+Inheritance
+--------
+
+${SRG_CLASSINHERITANCE}
 
 Methods
 -------
 
 ${SRG_CLASSFUNCTIONS}
+
+Variables
+---------
+
+${SRG_CLASSVARIABLES}
 
 Constants
 ---------
