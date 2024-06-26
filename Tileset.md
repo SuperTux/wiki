@@ -63,6 +63,20 @@ For an animated tile you can define its animation speed with an `FPS` value:
 
 ---
 
+For a tile that looks one way in editor and other way in game, you can set the images separately:
+
+```
+(tiles
+  (id 2)
+  (attributes 2)
+  (images "tiles/[tilegroup]/[tile].png")
+  (editor-images "tiles/[tilegroup]/[tile]-editor.png")
+)
+```
+If you want the tile to be invisible in game, you just remove the "(images)" section
+
+---
+
 It is also possible to extract parts of bigger images to create tiles:
 
 ```
@@ -340,13 +354,14 @@ tilegroup.
 )
 ```
 
-Adding Objects As Tiles
-=======================
-
+Special Tiles
+=============
 Some tiles are special, as they turn into objects (i.e: Bonus Blocks, Coins and Bricks) when the level is loaded.
 
-Special tiles can only be defined one by one, that meaning, you can't turn a larger image into multiple tiles.
+Adding Objects As Tiles
+-----------------------
 
+Special tiles can only be defined one by one, that meaning, you can't turn a larger image into multiple tiles.
 The general structure for adding a special tile in your tileset is the following:
 ```
 (tile
@@ -362,6 +377,7 @@ The general structure for adding a special tile in your tileset is the following
 )
 ```
 Be aware that any object propriety that has quotation marks on it, must get a backslask (\) before any quotation marks, as they are quotation marks inside other quotation marks.
+---
 If you find difficulties to write what object you want to add as a tile, you can place this object in your level, open the level in a text editor and copy the information you'll find about this object, for example, if you want a Mr.Snowball, you get in the level file and search for it, you'll find:
 
 ```
@@ -374,6 +390,7 @@ If you find difficulties to write what object you want to add as a tile, you can
 ```
 From this information, you may extract what you want to turn into a tile, you must ignore the x and y positions as they will be defined as where the tile is.
 
+---
 Let's turn that Mr. Snowball into a tile, then:
 
 ```
@@ -389,7 +406,7 @@ Let's turn that Mr. Snowball into a tile, then:
     ")
 )
 ```
-
+---
 For another example, here is a rock added as a tile:
 
 ```
@@ -401,7 +418,7 @@ For another example, here is a rock added as a tile:
     )   
 )
 ```
-
+---
 Now, a not-portable trampoline as a tile:
 
 ```
@@ -417,7 +434,7 @@ Now, a not-portable trampoline as a tile:
     ")
 )
 ```
-
+---
 Now let's be creative, let's say you want to add a bonus block that is orange and has 2 Mr.Icecubes inside it:
 
 ```
@@ -441,6 +458,8 @@ Now let's be creative, let's say you want to add a bonus block that is orange an
 )
 ```
 Again, if you feel confused with what information you must type in the object name and data sections, you can copy them from an object that's already placed in you level file!
+
+---
 
 And that is all! Go open / create a new level in the Level Editor and select your tileset file in the Level
 Properties and see if your tiles and / or tilegroups appear in the tiles menu.
