@@ -10,7 +10,6 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
    * [Attribute Combinations](#attribute-combinations)
 4. [Tile Datas](#tile-datas)
    * [Slope Types](#slope-types)
-   * [Unisolid Direction]
 5. [Adding Your Own Tiles](#adding-your-own-tiles)
    * [Initial Preparations](#step-1-initial-preparations)
    * [Adding Tiles](#step-2-adding-tiles)
@@ -123,7 +122,7 @@ A tile can have the following attributes:
 | Attribute  | Value           | Description                                         | Data section                                                        |
 |------------|-----------------|-----------------------------------------------------|---------------------------------------------------------------------|
 | solid      | `0x0001` / 1    | The tile collision is solid / walkable              |                                                                     |
-| unisolid   | `0x0002` / 2    | The tile collision will only be detected if touched from one direction. | Unisolid direction. [See below](#unisolid-direction) for possible values. |
+| unisolid   | `0x0002` / 2    | The tile collision will only be detected if touched from one side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | slope      | `0x0010` / 16   | The tile collision will act as a slope.             | Type of slope. [See below](#slope-types) for possible values.       |
 | ice        | `0x0100` / 256  | The tile is slippery.                               |                                                                     |
 | water      | `0x0200` / 512  | The tile collision is liquid / swimmable.           |                                                                     |
@@ -134,31 +133,33 @@ A tile can have the following attributes:
 Attribute Combinations
 ----------------------
 
-A tile can have multiple attributes on it, by adding the values together.
+A tile can have multiple attributes on it by adding the values together.
+
 Attribute combination examples:
 
 | Combination   | Value           | Added Values                    | Description                                     |Data section |
 |---------------|-----------------|---------------------------------|-------------------------------------------------|-------------|
-| unisolid tile | `0x0003` / 3    | `0x0001 + 0x0002` / 1 + 2       | The tile is solid, but only from one side.      | Unisolid direction. [See below](#unisolid-direction) for possible values. |
+| unisolid tile | `0x0003` / 3    | `0x0001 + 0x0002` / 1 + 2       | The tile is solid, but only from one side.      | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | solid slope   | `0x0011` / 17   | `0x0001 + 0x0010` / 1 + 16      | The tile is a walkable slope, solid from all sides. | Type of slope. [See below](#slope-types) for possible values. |
 | unisolid slope | `0x0013` / 19  | `0x0001 + 0x0002 + 0x0010` / 1 + 2 + 16 | The tile is a walkable slope, only solid from one side. | Type of slope. [See below](#slope-types) for possible values. |
 | ice tile      | `0x0101` / 257  | `0x0001 + 0x0100` / 1 + 256     | The tile is fully solid and slippery.           |             |
-| unisolid ice tile | `0x0103` / 259 | `0x0001 + 0x0002 + 0x0100` / 1 + 2 + 256 | The tile is solid from one side and slippery. | Unisolid direction. [See below](#unisolid-direction) for possible values. |
-| ice slope     | `0x0111` / 273  | `0x0001 + 0x0010 + 0x0100` / 1 + 16 + 256 | The tile is a fully solid, slippery slope | Type of slope. [See below](#slope-types) for possible values. |
-| unisolid ice slope | `0x0113` / 275 | `0x0001 + 0x0002 + 0x0010 + 0x0100` / 1 + 2 + 16 +256 | The tile is a slippery slope solid only from one side. | Type of slope. [See below](#slope-types) for possible values. |
-| water slope   | `0x0210` / 528 | `0x0010 + 0x0200` / 16 + 512     | The tile is swimmable but with the area of aslope.    | Type of slope. [See below](#slope-types) for possible values. |
-| unisolid spike | `0x0402` / 1026 | `0x0002 + 0x0400` / 2 + 1024   | The tile hurts the player, but only if touched from a certain direction. | Unisolid direction. [See below](#unisolid-direction) for possible values. |
+| unisolid ice tile | `0x0103` / 259 | `0x0001 + 0x0002 + 0x0100` / 1 + 2 + 256 | The tile is solid from one side and slippery. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
+| ice slope     | `0x0111` / 273  | `0x0001 + 0x0010 + 0x0100` / 1 + 16 + 256 | The tile is a fully solid, slippery slope.| Type of slope. [See below](#slope-types) for possible values. |
+| unisolid ice slope | `0x0113` / 275 | `0x0001 + 0x0002 + 0x0010 + 0x0100` / 1 + 2 + 16 +256 | The tile is a slippery slope, solid only from one side. | Type of slope. [See below](#slope-types) for possible values. |
+| water slope   | `0x0210` / 528 | `0x0010 + 0x0200` / 16 + 512     | The tile is swimmable but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
+| harmful unisolid | `0x0402` / 1026 | `0x0002 + 0x0400` / 2 + 1024 | The tile hurts the player, but only if touched from a certain direction. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
+| harmful slope | `0x0410` / 1040 | `0x0400 + 0x0010` / 16 + 1024   | The tile hurts the player, but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
 | harmful water | `0x0600` / 1280 | `0x0400 + 0x0800` / 512 + 1024  | The tile is swimmable and hurts the player.     |             |
 | light block   | `0x0801` / 2049 | `0x0001 + 0x0800` / 1 + 2048    | The tile is solid and emits light.              |             |
-| fire          | `0x0C00` / 3072 | `0x0400 + 0x0800` / 1024 + 2048 | The tile hurts the player and emits a red light. | |
-| lava          | `0x0E00` / 3584 Z `0x0200 + 0x0400 + 0x0800` / 512 + 1024 + 2048 | The tile is swimmable, hurts the player and emits a red light. | |
+| fire          | `0x0C00` / 3072 | `0x0400 + 0x0800` / 1024 + 2048 | The tile hurts the player and emits a red light. |            |
+| lava          | `0x0E00` / 3584 | `0x0200 + 0x0400 + 0x0800` / 512 + 1024 + 2048 | The tile is swimmable, hurts the player and emits a red light. | |
 
 Tile Datas
 ==========
 
 Each tile definition can have a `datas` section. This section is used when the yes/no-information
 usually stored in the `attributes` definition isn't appropriate for the type of information.
-Currently, this section is only used to store slope angles.
+Currently, this section is only used to store slope angles and unisolid directions.
 
 Each type of information stored in the data section needs to reserve a range of values for itself.
 The slope information, for example, uses the values zero through 67 (64+3), so the mask is at least
@@ -166,7 +167,8 @@ The slope information, for example, uses the values zero through 67 (64+3), so t
 
 | Name              | Mask                          | Meaning                                                                                |
 |-------------------|-------------------------------|----------------------------------------------------------------------------------------|
-| Slope information | `0x00ff` (actually: `0x0073`) | Valid only when the **solid** attribute is set. See [slope types](#slope-types) below. |
+| Slope information | `0x00ff` (actually: `0x0073`) | Valid only when the tile has a collision attribute set. See [slope types](#slope-types) below. |
+| Unisolid direction | `0x0003` | Valid only when the tile has a collision attribute set. `0` = up / `1` = down / `2` = left / `3` = right. |
 
 Slope Types
 -----------
