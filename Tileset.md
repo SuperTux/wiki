@@ -142,9 +142,9 @@ A tile can have the following attributes:
 | unisolid   | `0x0002` / 2    | Changes the tile collision to be only detected from one side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | slope      | `0x0010` / 16   | Changes the tile collision to be a slope            | Type of slope. [See below](#slope-types) for possible values.       |
 | ice        | `0x0100` / 256  | Changes the tile collision to make it slippery.     |                                                                     |
-| water      | `0x0200` / 512  | Tile collision that is liquid / swimmable.          |                                                                    |
-| harmful    | `0x0400` / 1024 | Tile collision that hurts the player when touched.  |                                                                    |
-| glowing    | `0x0800` / 2048 | The tile emits a light that softly pulsates at random intervals. |                                                        |
+| water      | `0x0200` / 512  | Tile collision that is liquid / swimmable.          |                                                                     |
+| harmful    | `0x0400` / 1024 | Tile collision that hurts the player when touched.  |                                                                     |
+| glowing    | `0x0800` / 2048 | The tile emits a softly pulsating light. The light becomes red if the tile is harmful. |                                  |
 | walljump   | `0x1000` / 4096 | The tile is walljump-able.                          |                                                                     |
 
 Attribute Combinations
@@ -163,7 +163,7 @@ Attribute combination examples:
 | ice tile      | `0x0101` / 257  | `0x0001 + 0x0100` / 1 + 256     | The tile is fully solid and slippery.           |             |
 | unisolid ice tile | `0x0103` / 259 | `0x0001 + 0x0002 + 0x0100` / 1 + 2 + 256 | The tile is solid from one side and slippery. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | ice slope     | `0x0111` / 273  | `0x0001 + 0x0010 + 0x0100` / 1 + 16 + 256 | The tile is a fully solid, slippery slope.| Type of slope. [See below](#slope-types) for possible values. |
-| unisolid ice slope | `0x0113` / 275 | `0x0001 + 0x0002 + 0x0010 + 0x0100` / 1 + 2 + 16 +256 | The tile is a slippery slope, solid only from one side. | Type of slope. [See below](#slope-types) for possible values. |
+| unisolid ice slope | `0x0113` / 275 | `0x0001 + 0x0002 + 0x0010 + 0x0100` / 1 + 2 + 16 + 256 | The tile is a slippery slope, solid only from one side. | Type of slope. [See below](#slope-types) for possible values. |
 | water slope   | `0x0210` / 528 | `0x0010 + 0x0200` / 16 + 512     | The tile is swimmable but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
 | harmful unisolid | `0x0402` / 1026 | `0x0002 + 0x0400` / 2 + 1024 | The tile hurts the player, but only if touched from a certain side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | harmful slope | `0x0410` / 1040 | `0x0400 + 0x0010` / 16 + 1024   | The tile hurts the player, but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
@@ -186,7 +186,7 @@ Some attributes that were used to make a tile have a special behavior don't seem
 | goal      | `0x0008` / 8   | The tile would finish the level when touched, with data `0` triggering end sequence and data `1` finishing instantly. |
 | fullbox   | `0x0020` / 32  | The tile would act as Bonus Block, with datas `1` to `5` defining its content. |
 | coin      | `0x0040` / 64  | The tile would act as a coin. |
-| ...       | `0x0080` / 128 | This attribute doesn't seem to do anything at all. |
+| ???       | `0x0080` / 128 | This attribute doesn't seem to do anything at all. |
 
 Tile Datas
 ==========
