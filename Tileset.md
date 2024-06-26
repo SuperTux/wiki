@@ -139,7 +139,7 @@ A tile can have the following attributes:
 | Attribute  | Value           | Description                                         | Data section                                                        |
 |------------|-----------------|-----------------------------------------------------|---------------------------------------------------------------------|
 | solid      | `0x0001` / 1    | Tile collision that is solid / walkable             |                                                                     |
-| unisolid   | `0x0002` / 2    | Changes the tile collision to be only detected from side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
+| unisolid   | `0x0002` / 2    | Changes the tile collision to be only detected from one side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | slope      | `0x0010` / 16   | Changes the tile collision to be a slope            | Type of slope. [See below](#slope-types) for possible values.       |
 | ice        | `0x0100` / 256  | Changes the tile collision to make it slippery.     |                                                                     |
 | water      | `0x0200` / 512  | Tile collision that is liquid / swimmable.           |                                                                     |
