@@ -35,7 +35,9 @@ An example of a simple solid tile looks like this:
 
 ```
 (tiles
-  (id 1)
+  (width 1)
+  (height 1)
+  (ids 1)
   (attributes 1)
   (images "tiles/[tilegroup]/[tile].png")
 )
@@ -52,7 +54,9 @@ For an animated tile you can define its animation speed with an `FPS` value:
 
 ```
 (tiles
-  (id 2)
+  (width 1)
+  (height 1)
+  (ids 2)
   (fps 12)
   (attributes 512)
   (images "tiles/[tilegroup]/[animatedtile]-0.png"
@@ -86,7 +90,9 @@ For a tile that looks one way in editor and other way in game, you can set the i
 
 ```
 (tiles
-  (id 4)
+  (width 1)
+  (height 1)
+  (ids 4)
   (attributes 2)
   (images "tiles/[tilegroup]/[tile].png")
   (editor-images "tiles/[tilegroup]/[tile]-editor.png")
