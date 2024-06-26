@@ -142,15 +142,16 @@ A tile can have the following attributes:
 | unisolid   | `0x0002` / 2    | Changes the tile collision to be only detected from one side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | slope      | `0x0010` / 16   | Changes the tile collision to be a slope            | Type of slope. [See below](#slope-types) for possible values.       |
 | ice        | `0x0100` / 256  | Changes the tile collision to make it slippery.     |                                                                     |
-| water      | `0x0200` / 512  | Tile collision that is liquid / swimmable.           |                                                                     |
-| harmful    | `0x0400` / 1024 | Tile collision that hurts the player when touched.   |                                                                     |
-| glowing    | `0x0800` / 2048 | The tile emits a light that softly pulsates at random intervals. The color of the light becomes red if the tile is harmful, and changes with the tilemap tint. |
+| water      | `0x0200` / 512  | Tile collision that is liquid / swimmable.          |                                                                    |
+| harmful    | `0x0400` / 1024 | Tile collision that hurts the player when touched.  |                                                                    |
+| glowing    | `0x0800` / 2048 | The tile emits a light that softly pulsates at random intervals. |                                                        |
 | walljump   | `0x1000` / 4096 | The tile is walljump-able.                          |                                                                     |
 
 Attribute Combinations
 ----------------------
-
 A tile can have multiple attributes on it by adding the values together.
+Some attributes may not work alone in a tile (i.e: unisolid, slope and ice), as they modify the tile collision instead of defining it.
+That being known, it is important to combine different tile attributes in order of making the tile behave as you want it to.
 
 Attribute combination examples:
 
