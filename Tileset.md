@@ -144,6 +144,9 @@ Attribute combination examples:
 | unisolid slope | `0x0013` / 19  | `0x0001 + 0x0002 + 0x0010` / 1 + 2 + 16 | The tile is a walkable slope, only solid from one side. | Type of slope. [See below](#slope-types) for possible values. |
 | ice tile      | `0x0101` / 257  | `0x0001 + 0x0100` / 1 + 256     | The tile is fully solid and slippery.           |             |
 | unisolid ice tile | `0x0103` / 259 | `0x0001 + 0x0002 + 0x0100` / 1 + 2 + 256 | The tile is solid from one side and slippery. | Unisolid direction. [See below](#unisolid-direction) for possible values. |
+| ice slope     | `0x0111` / 273  | `0x0001 + 0x0010 + 0x0100` / 1 + 16 + 256 | The tile is a fully solid, slippery slope | Type of slope. [See below](#slope-types) for possible values. |
+| unisolid ice slope | `0x0113` / 275 | `0x0001 + 0x0002 + 0x0010 + 0x0100` / 1 + 2 + 16 +256 | The tile is a slippery slope solid only from one side. | Type of slope. [See below](#slope-types) for possible values. |
+|  |
 
 Tile Datas
 ==========
