@@ -76,10 +76,10 @@ It is also possible to extract parts of bigger images to create tiles:
   (height 2)
   (ids
     3 4 5 6
-    7 8 9 0)
+    7 8 0 0)
   (attributes
     0 0 0 0
-    1 1 1 0)
+    1 1 0 0)
   (image "tiles/[tilegroup]/[multipletiles].png")
 )
 ```
@@ -92,8 +92,8 @@ For a tile that looks one way in editor and other way in game, you can set the i
 (tiles
   (width 1)
   (height 1)
-  (ids 4)
-  (attributes 2)
+  (ids 9)
+  (attributes 3)
   (images "tiles/[tilegroup]/[tile].png")
   (editor-images "tiles/[tilegroup]/[tile]-editor.png")
 )
