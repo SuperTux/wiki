@@ -7,12 +7,16 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
 
 1. [Introduction](#introduction)
 2. [Tile Attributes](#tile-attributes)
+   * [Attribute Combinations](#attribute-combinations)
+   * [Deprecated Attributes](#deprecated-attributes)
 3. [Tile Datas](#tile-datas)
    * [Slope Types](#slope-types)
 4. [Adding Your Own Tiles](#adding-your-own-tiles)
    * [Initial Preparations](#step-1-initial-preparations)
    * [Adding Tiles](#step-2-adding-tiles)
    * [Adding Tilegroups](#step-3-adding-tilegroups)
+5. [Special Tiles](#special-tiles)
+   * [Adding Objects As Tiles](#adding-objects-as-tiles)
 
 Introduction
 ============
@@ -31,7 +35,9 @@ An example of a simple solid tile looks like this:
 
 ```
 (tiles
-  (id 1)
+  (width 1)
+  (height 1)
+  (ids 1)
   (attributes 1)
   (images "tiles/[tilegroup]/[tile].png")
 )
@@ -48,7 +54,9 @@ For an animated tile you can define its animation speed with an `FPS` value:
 
 ```
 (tiles
-  (id 2)
+  (width 1)
+  (height 1)
+  (ids 2)
   (fps 12)
   (attributes 512)
   (images "tiles/[tilegroup]/[animatedtile]-0.png"
@@ -68,13 +76,29 @@ It is also possible to extract parts of bigger images to create tiles:
   (height 2)
   (ids
     3 4 5 6
-    7 8 9 0)
+    7 8 0 0)
   (attributes
     0 0 0 0
-    1 1 1 0)
+    1 1 0 0)
   (image "tiles/[tilegroup]/[multipletiles].png")
 )
 ```
+
+---
+
+For a tile that looks one way in editor and other way in game, you can set the images separately:
+
+```
+(tiles
+  (width 1)
+  (height 1)
+  (ids 9)
+  (attributes 3)
+  (images "tiles/[tilegroup]/[tile].png")
+  (editor-images "tiles/[tilegroup]/[tile]-editor.png")
+)
+```
+If you want the tile to be invisible in game, you just remove the "(images)" section
 
 ---
 
@@ -120,26 +144,62 @@ A tile can have the following attributes:
 
 | Attribute  | Value           | Description                                         | Data section                                                        |
 |------------|-----------------|-----------------------------------------------------|---------------------------------------------------------------------|
-| solid      | `0x0001` / 1    | Defines if the tile should be considered for collision detection |                                                        |
-| unisolid   | `0x0002` / 2    | The tile will only be considered for collision detection when tux is falling down. |                                      |
-| brick      | `0x0004` / 4    | The tile acts as a brick that can be destroyed by hitting it from below, with a buttjump etc. |                           |
-| goal       | `0x0008` / 8    | The tile finishes a level when touched.             | 0 = Trigger **endsequence**, 1 = Finish level instantly             |
-| slope      | `0x0010` / 16 `0x0011` / 17  | The tile is a slope.                   | Type of slope. [See below](#slope-types) for possible values.       |
-| unisolid-slope | `0x0013` / 19 | The tile is a unisolid slope.                     | Type of slope. [See below](#slope-types) for possible values.       |
-| fullbox    | `0x0020` / 32   | The tile acts as Bonus Block.                       | 1 = Coin, 2 = Fireflower, 3 = Star, 4 = Tux Doll, 5 = Iceflower     |
-| coin       | `0x0040` / 64   | The tile acts as a coin.                            |                                                                     |
-| ice        | `0x0100` / 256  | The tile is slippery.                               |                                                                     |
-| water      | `0x0200` / 512  | The tile is a water tile and is swimmable.          |                                                                     |
-| hurts      | `0x0400` / 1024 | The tile hurts the player when touched.             |                                                                     |
-| fire       | `0x0800` / 3584 | The tile is a lava tile and is swimmable, but also hurts the player. |                                                    |
+| solid      | `0x0001` / 1    | Tile collision that is solid / walkable             |                                                                     |
+| unisolid   | `0x0002` / 2    | Changes the tile collision to be only detected from one side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
+| slope      | `0x0010` / 16   | Changes the tile collision to be a slope            | Type of slope. [See below](#slope-types) for possible values.       |
+| ice        | `0x0100` / 256  | Changes the tile collision to make it slippery.     |                                                                     |
+| water      | `0x0200` / 512  | Tile collision that is liquid / swimmable.          |                                                                     |
+| harmful    | `0x0400` / 1024 | Tile collision that hurts the player when touched.  |                                                                     |
+| glowing    | `0x0800` / 2048 | The tile emits a softly pulsating light. The light becomes red if the tile is harmful. |                                  |
 | walljump   | `0x1000` / 4096 | The tile is walljump-able.                          |                                                                     |
+
+Attribute Combinations
+----------------------
+A tile can have multiple attributes on it by adding the values together.
+Some attributes may not work alone in a tile (i.e: unisolid, slope and ice), as they modify the tile collision instead of defining it.
+That being known, it is important to combine different tile attributes in order of making the tile behave as you want it to.
+
+Attribute combination examples:
+
+| Combination   | Value           | Added Values                    | Description                                     |Data section |
+|---------------|-----------------|---------------------------------|-------------------------------------------------|-------------|
+| unisolid tile | `0x0003` / 3    | `0x0001 + 0x0002` / 1 + 2       | The tile is solid, but only from one side.      | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
+| solid slope   | `0x0011` / 17   | `0x0001 + 0x0010` / 1 + 16      | The tile is a walkable slope, solid from all sides. | Type of slope. [See below](#slope-types) for possible values. |
+| unisolid slope | `0x0013` / 19  | `0x0001 + 0x0002 + 0x0010` / 1 + 2 + 16 | The tile is a walkable slope, only solid from one side. | Type of slope. [See below](#slope-types) for possible values. |
+| ice tile      | `0x0101` / 257  | `0x0001 + 0x0100` / 1 + 256     | The tile is fully solid and slippery.           |             |
+| unisolid ice tile | `0x0103` / 259 | `0x0001 + 0x0002 + 0x0100` / 1 + 2 + 256 | The tile is solid from one side and slippery. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
+| ice slope     | `0x0111` / 273  | `0x0001 + 0x0010 + 0x0100` / 1 + 16 + 256 | The tile is a fully solid, slippery slope.| Type of slope. [See below](#slope-types) for possible values. |
+| unisolid ice slope | `0x0113` / 275 | `0x0001 + 0x0002 + 0x0010 + 0x0100` / 1 + 2 + 16 + 256 | The tile is a slippery slope, solid only from one side. | Type of slope. [See below](#slope-types) for possible values. |
+| water slope   | `0x0210` / 528 | `0x0010 + 0x0200` / 16 + 512     | The tile is swimmable but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
+| harmful unisolid | `0x0402` / 1026 | `0x0002 + 0x0400` / 2 + 1024 | The tile hurts the player, but only if touched from a certain side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
+| harmful slope | `0x0410` / 1040 | `0x0400 + 0x0010` / 16 + 1024   | The tile hurts the player, but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
+| harmful water | `0x0600` / 1280 | `0x0400 + 0x0800` / 512 + 1024  | The tile is swimmable and hurts the player.     |             |
+| light block   | `0x0801` / 2049 | `0x0001 + 0x0800` / 1 + 2048    | The tile is solid and emits light.              |             |
+| fire          | `0x0C00` / 3072 | `0x0400 + 0x0800` / 1024 + 2048 | The tile hurts the player and emits a red light. |            |
+| lava          | `0x0E00` / 3584 | `0x0200 + 0x0400 + 0x0800` / 512 + 1024 + 2048 | The tile is swimmable, hurts the player and emits a red light. | |
+
+You can try as many different combinations as you want, the ones above are only examples of what you can do.
+
+Deprecated Attributes
+---------------------
+
+Some attributes that were used to make a tile have a special behavior don't seem to be working on current builds of the game, as they were replaced by the possibility of creating object tiles.
+[See here](#adding-objects-as-tiles) the guide for adding objects as tiles.
+
+| Attribute | Value          | Description |
+|-----------|----------------|-------------|
+| brick     | `0x0004` / 4   | The tile would act as a brick that could be destroyed by hitting it in different ways. |
+| goal      | `0x0008` / 8   | The tile would finish the level when touched, with data `0` triggering end sequence and data `1` finishing instantly. |
+| fullbox   | `0x0020` / 32  | The tile would act as Bonus Block, with datas `1` to `5` defining its content. |
+| coin      | `0x0040` / 64  | The tile would act as a coin. |
+| ???       | `0x0080` / 128 | This attribute doesn't seem to do anything at all. |
 
 Tile Datas
 ==========
 
 Each tile definition can have a `datas` section. This section is used when the yes/no-information
 usually stored in the `attributes` definition isn't appropriate for the type of information.
-Currently, this section is only used to store slope angles.
+Currently, this section is only used to store slope angles and unisolid sides.
 
 Each type of information stored in the data section needs to reserve a range of values for itself.
 The slope information, for example, uses the values zero through 67 (64+3), so the mask is at least
@@ -147,7 +207,8 @@ The slope information, for example, uses the values zero through 67 (64+3), so t
 
 | Name              | Mask                          | Meaning                                                                                |
 |-------------------|-------------------------------|----------------------------------------------------------------------------------------|
-| Slope information | `0x00ff` (actually: `0x0073`) | Valid only when the **solid** attribute is set. See [slope types](#slope-types) below. |
+| Slope information | `0x00ff` (actually: `0x0073`) | Valid only when the tile has a collision attribute set. See [slope types](#slope-types) below. |
+| Unisolid side | `0x0003` | Valid only when the tile has a collision attribute set. `0` = up / `1` = down / `2` = left / `3` = right. |
 
 Slope Types
 -----------
@@ -314,6 +375,116 @@ tilegroup.
   )
 )
 ```
+
+Special Tiles
+=============
+Some tiles are special, as they turn into objects (i.e: Bonus Blocks, Coins and Bricks) when the level is loaded.
+
+Adding Objects As Tiles
+-----------------------
+
+Special tiles can only be defined one by one, that meaning, you can't turn a larger image into multiple tiles.
+Turning a tile into an object is done by adding an `object-name` and an `object-data` within the `tile`.
+
+The general structure for adding a special tile in your tileset is the following:
+```
+(tile
+    (id [your tile ID])
+    (images
+      "objects/[object]/[object].png"
+    )
+    (object-name "[object class name]")
+    (object-data "
+      ([propriety1] 50)
+      ([propriety2] \"[string]\")
+    ")
+)
+```
+Be aware that any object propriety that has quotation marks on it, must get a backslash (\\) before any quotation marks, as they are quotation marks inside other quotation marks.
+
+---
+If you find it difficult to write the object proprieties you want to add as a tile, you can place this object in your level, open the level in a text editor and copy the information you'll find about this object, for example, if you want a Mr.Snowball, you get in the level file and search for it, you'll find:
+
+```
+(snowball
+      (z-pos 52)
+      (direction "left")
+      (x 288)
+      (y 128)
+)
+```
+From this information, you may extract what you want to turn into a tile, you must ignore the x and y positions as they will be defined as where the tile is.
+
+---
+Let's turn that Mr. Snowball into a tile, then:
+
+```
+(tile
+    (id 52)
+    (images
+      "creatures/snowball/snowball-0.png"
+    )
+    (object-name "snowball")
+    (object-data "
+      (z-pos 50)
+      (direction \"left\")
+    ")
+)
+```
+---
+For another example, here is a rock added as a tile:
+
+```
+(tile
+    (id 53)
+    (object-name "rock")
+    (images
+      "objects/rock/rock.png"
+    )   
+)
+```
+---
+Now, a not-portable trampoline as a tile:
+
+```
+(tile
+    (id 54)
+    (images
+      "objects/trampoline/trampoline2-0.png"
+    )
+    (object-name "trampoline")
+    (object-data "
+      (type \"stationary\")
+      (z-pos 50)
+    ")
+)
+```
+---
+Now let's be creative, let's say you want to add a bonus block that is orange and has 2 Mr.Icecubes inside it:
+
+```
+(tile
+    (id 55)
+    (images
+      "objects/bonus_block/orange-0.png"
+    )
+    (object-name "bonusblock")
+    (object-data "
+      (type \"orange\")
+      (z-pos 51)
+      (custom-contents
+        (mriceblock
+          (z-pos 50)
+        )
+      )
+      (count 2)
+      (contents \"custom\")
+    ")
+)
+```
+Again, if you feel confused with what information you must type in the object name and data sections, you can copy them from an object that's already placed in your level file!
+
+---
 
 And that is all! Go open / create a new level in the Level Editor and select your tileset file in the Level
 Properties and see if your tiles and / or tilegroups appear in the tiles menu.
