@@ -1,26 +1,40 @@
-> Note: This file is auto-generated from the [SuperTux scripting interface source code](https://github.com/SuperTux/supertux/tree/master/src/scripting), using the template [ScriptingPage.md](https://github.com/SuperTux/wiki/tree/master/templates/ScriptingPage.md).
+> This file is auto-generated from the [SuperTux source code](https://github.com/SuperTux/supertux/tree/master/src), using the template [ScriptingPage.md](https://github.com/SuperTux/wiki/tree/master/templates/ScriptingPage.md).
 
 Summary
 -------
 
 A `Decal` that was given a name can be controlled by scripts.
 
-Instance
+Instances
 --------
 
-A `Decal` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
+A `Decal` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console.
+
+Inheritance
+--------
+
+This class inherits functions and variables from the following base classes:
+* [MovingSprite](https://github.com/SuperTux/supertux/wiki/ScriptingMovingSprite)
+* [MovingObject](https://github.com/SuperTux/supertux/wiki/ScriptingMovingObject)
+* [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
+* CollisionListener
+
 
 Methods
 -------
 
 Method | Explanation
 -------|-------
-`fade_sprite(string sprite, float time)` | Fades the decal sprite to a new one in `time` seconds. 
-`change_sprite(string sprite)` | Changes the decal sprite. 
-`fade_in(float time)` | Fades in the decal in `time` seconds. 
-`fade_out(float time)` | Fades out the decal in `time` seconds. 
-`set_action(string action)` | Sets the action for the decal's sprite. 
+`void fade_sprite(string sprite, float time)` | Fades the decal sprite to a new one in `time` seconds
+`void change_sprite(string sprite)` | **Deprecated!** Use `set_sprite()` instead!<br /><br />Changes the decal sprite
+`void fade_in(float time)` | Fades in the decal in `time` seconds
+`void fade_out(float time)` | Fades out the decal in `time` seconds
 
+
+Variables
+---------
+
+None.
 
 Constants
 ---------

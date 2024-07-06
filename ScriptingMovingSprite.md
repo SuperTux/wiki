@@ -3,36 +3,50 @@
 Summary
 -------
 
-A `BadGuy` that was given a name can be controlled by scripts.
+Abstract base class for `MovingObject`s, that are represented by a sprite
 
 Instances
 --------
 
-A `BadGuy` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console.
+None.
 
 Inheritance
 --------
 
 This class inherits functions and variables from the following base classes:
-* [MovingSprite](https://github.com/SuperTux/supertux/wiki/ScriptingMovingSprite)
 * [MovingObject](https://github.com/SuperTux/supertux/wiki/ScriptingMovingObject)
 * [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
 * CollisionListener
-* Portable
-* GameObjectComponent
 
 The following classes inherit functions and variables from this class:
 * AngryStone
+* [BadGuy](https://github.com/SuperTux/supertux/wiki/ScriptingBadGuy)
+* BicyclePlatformChild
+* Block
 * Bomb
+* BonusBlock
 * BouncingSnowball
+* Brick
+* Bumper
+* [Candle](https://github.com/SuperTux/supertux/wiki/ScriptingCandle)
 * CaptainSnowball
+* CirclePlatform
+* Coin
+* [ConveyorBelt](https://github.com/SuperTux/supertux/wiki/ScriptingConveyorBelt)
 * CorruptedGranito
 * CorruptedGranitoBig
+* Crusher
+* CrusherRoot
 * Crystallo
 * Dart
 * DartTrap
+* [Decal](https://github.com/SuperTux/supertux/wiki/ScriptingDecal)
 * Dispenser
 * DiveMine
+* Door
+* Explosion
+* FallBlock
+* Firefly
 * FishChasing
 * FishHarmless
 * FishJumping
@@ -45,27 +59,49 @@ The following classes inherit functions and variables from this class:
 * [Granito](https://github.com/SuperTux/supertux/wiki/ScriptingGranito)
 * [GranitoBig](https://github.com/SuperTux/supertux/wiki/ScriptingGranitoBig)
 * GranitoGiant
+* GrowUp
 * Haywire
+* HeavyBrick
+* HeavyCoin
+* HurtingPlatform
 * Igel
+* InfoBlock
+* InvisibleBlock
+* Ispy
 * Jumpy
 * KamikazeSnowball
+* Key
 * Kugelblitz
+* Lantern
 * LeafShot
+* LevelTile
+* [LitObject](https://github.com/SuperTux/supertux/wiki/ScriptingLitObject)
 * LiveFire
 * LiveFireAsleep
 * LiveFireDormant
+* MagicBlock
 * Mole
 * MoleRock
 * MrBomb
 * MrIceBlock
 * MrTree
+* OneUp
 * Owl
 * Plant
+* Platform
+* PneumaticPlatformChild
+* PowerUp
+* PushButton
 * RCrystallo
+* Rock
 * Root
 * RootSapling
+* RubLight
+* RustyTrampoline
 * SCrystallo
 * SSpiky
+* [ScriptedObject](https://github.com/SuperTux/supertux/wiki/ScriptingScriptedObject)
+* Shard
 * ShortFuse
 * SkyDive
 * SmartBall
@@ -74,19 +110,34 @@ The following classes inherit functions and variables from this class:
 * SnowBall
 * SnowExplosionParticle
 * Snowman
+* SpawnPointObject
+* SpecialTile
 * Spiky
+* SpriteChange
+* SpritedTrigger
 * Stalactite
+* Star
 * StickyBadguy
+* StickyObject
+* StickyTrigger
 * Stumpy
+* Switch
 * Tarantula
+* Teleporter
 * Toad
+* [Torch](https://github.com/SuperTux/supertux/wiki/ScriptingTorch)
 * Totem
+* Trampoline
 * TreeWillOWisp
+* UnstableTile
 * ViciousIvy
 * WalkingBadguy
 * WalkingCandle
 * WalkingLeaf
+* WaterDrop
+* WeakBlock
 * [WillOWisp](https://github.com/SuperTux/supertux/wiki/ScriptingWillOWisp)
+* WorldMapObject
 * Yeti
 * YetiStalactite
 * Zeekling
@@ -97,8 +148,11 @@ Methods
 
 Method | Explanation
 -------|-------
-`void kill()` | Sets the badguy to kill/falling state, which makes it fall of the screen (its sprite is turned upside-down)
-`void ignite()` | Kills the badguy by igniting it
+`void set_sprite(string file)` | Sets the sprite of the object
+`string get_sprite()` | Returns the file of the object's sprite
+`string get_action()` | Returns the name of the current action of the sprite
+`void set_action(string name)` | Sets the current action of the sprite and resizes the bounding box
+`void set_action_loops(string name, int loops)` | Sets the current action of the sprite, as well as the number of times it should loop, and resizes the bounding box
 
 
 Variables
