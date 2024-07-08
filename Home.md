@@ -9,16 +9,15 @@ well as keep track of proposed additions and changes.
 This Wiki is targeted towards developers of the game, users are however free to check out what
 is going on behind the scenes.
 
-The [old Mediawiki based Wiki](http://supertux.lethargik.org/wiki/Main_Page) has been merged
-into this Wiki and has been switched to read-only mode. It is no longer updated, but it can
-still be viewed.
+The now unavailable [old Mediawiki based Wiki](http://supertux.lethargik.org/wiki/Main_Page) has been merged
+into this Wiki.
 
 Guidelines and tips for using this Wiki
 ---------------------------------------
 
 * [[News]] is for keeping track of what is going on in SuperTux
   development. Every substantial addition or change to the game should
-  be documented here.
+  be documented there.
 
 * Do not delete information from this Wiki, prefer moving it over to [[Ideas]],
   [[Rejected Ideas]] or another appropriate place instead.
@@ -58,13 +57,13 @@ General Links
 -------------
 
 * [Download The Game](https://supertux.org/download.html)
-* [The Source Code](https://github.com/SuperTux/supertux)
+* [Source Code](https://github.com/SuperTux/supertux)
 * [Contact Us](https://www.supertux.org/contact.html)
 
 For Players
 -----------
 
-Learn how to play with the [[User Manual]]
+To learn how to play, check out the [[User Manual]].
 
 Chat on the [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid=7d271ca537028e81027e0b3cdab4f0ca)
 or our [Discord](https://discord.gg/AcvtHWz)
@@ -75,14 +74,12 @@ For Level Designer
 Share your levels on the [SuperTux Forum](http://forum.freegamedev.net/viewforum.php?f=66&sid=7d271ca537028e81027e0b3cdab4f0ca),
 or our [Discord](https://discord.gg/AcvtHWz) and if we like the look of them, you may be able to submit levels to the official game.
 
-Submit your own level packs or worlds to the [Addon Repository](https://github.com/SuperTux/addons) so more players can see and play
-your levels.
-
-More info [here](https://github.com/SuperTux/supertux/wiki/Add-ons)
+Submit your own level packs or worlds to the [Add-on Repository](https://github.com/SuperTux/addons) so more players can see and play
+your levels. [More info](https://github.com/SuperTux/supertux/wiki/Add-ons)
 
 For Coders
 -----------
 
 [Build the game](https://github.com/SuperTux/supertux/wiki/Building), and get started.
 
-Fix some [easy bugs](https://github.com/SuperTux/supertux/issues?q=is%3Aopen+is%3Aissue+label%3Adifficulty%3Aeasy)
+Fix some [easy bugs](https://github.com/SuperTux/supertux/issues?q=is%3Aopen+is%3Aissue+label%3Adifficulty%3Aeasy).
