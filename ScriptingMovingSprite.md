@@ -3,7 +3,7 @@
 Summary
 -------
 
-Abstract base class for `MovingObject`s, that are represented by a sprite
+Abstract base class for `MovingObject`s, that are represented by a sprite.
 
 Instances
 --------
@@ -148,11 +148,11 @@ Methods
 
 Method | Explanation
 -------|-------
-`void set_sprite(string file)` | Sets the sprite of the object
-`string get_sprite()` | Returns the file of the object's sprite
-`string get_action()` | Returns the name of the current action of the sprite
-`void set_action(string name)` | Sets the current action of the sprite and resizes the bounding box
-`void set_action_loops(string name, int loops)` | Sets the current action of the sprite, as well as the number of times it should loop, and resizes the bounding box
+`void set_sprite(string file)` | Sets the sprite of the object.
+`string get_sprite()` | Returns the file of the object's sprite.
+`string get_action()` | Returns the name of the current action of the sprite.
+`void set_action(string name)` | Sets the current action of the sprite and resizes the bounding box.
+`void set_action_loops(string name, int loops)` | Sets the current action of the sprite, as well as the number of times it should loop, and resizes the bounding box.
 
 
 Variables

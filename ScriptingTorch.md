@@ -3,12 +3,12 @@
 Summary
 -------
 
-A `Torch` that was given a name can be controlled by scripts
+A `Torch` that was given a name can be controlled by scripts.
 
 Instances
 --------
 
-A `Torch` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console.
+A `Torch` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
 
 Inheritance
 --------
@@ -25,8 +25,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`bool get_burning()` | **Deprecated!** Use the `burning` property instead!<br /><br />Returns `true` if the torch is burning
-`void set_burning(bool burning)` | **Deprecated!** Use the `burning` property instead!<br /><br />Switches the burning state of the torch
+`bool get_burning()` | **Deprecated!** Use the `burning` property instead! <br /><br />Returns `true` if the torch is burning.
+`void set_burning(bool burning)` | **Deprecated!** Use the `burning` property instead! <br /><br />Switches the burning state of the torch.
 
 
 Variables
@@ -34,7 +34,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
-`bool burning` | Determines whether the torch is burning
+`bool burning` | Determines whether the torch is burning.
 
 
 Constants

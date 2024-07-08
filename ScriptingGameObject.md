@@ -3,7 +3,7 @@
 Summary
 -------
 
-Base class for all the things that make up Levels' Sectors
+Base class for all the things that make up Levels' Sectors.
 
 Instances
 --------
@@ -209,12 +209,12 @@ Methods
 
 Method | Explanation
 -------|-------
-`string get_display_name()` | Returns the display name of the object, translated to the user's locale
-`int get_version()` | Returns the current version of the object
-`int get_latest_version()` | Returns the latest version of the object
-`bool is_up_to_date()` | Checks whether the object's current version is equal to its latest one
-`int get_type()` | Returns the type index of the object
-`string get_name()` | Returns the name of the object
+`string get_display_name()` | Returns the display name of the object, translated to the user's locale.
+`int get_version()` | Returns the current version of the object.
+`int get_latest_version()` | Returns the latest version of the object.
+`bool is_up_to_date()` | Checks whether the object's current version is equal to its latest one.
+`int get_type()` | Returns the type index of the object.
+`string get_name()` | Returns the name of the object.
 
 
 Variables

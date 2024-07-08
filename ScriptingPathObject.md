@@ -3,7 +3,7 @@
 Summary
 -------
 
-A base class for all objects that contain, or make use of a path
+A base class for all objects that contain, or make use of a path.
 
 Instances
 --------
@@ -29,10 +29,10 @@ Methods
 
 Method | Explanation
 -------|-------
-`void goto_node(int node_idx)` | Moves the path object until at given node, then stops
-`void set_node(int node_idx)` | Jumps instantly to the given node
-`void start_moving()` | Starts moving the path object automatically
-`void stop_moving()` | Stops moving the path object
+`void goto_node(int node_idx)` | Moves the path object until at given node, then stops.
+`void set_node(int node_idx)` | Jumps instantly to the given node.
+`void start_moving()` | Starts moving the path object automatically.
+`void stop_moving()` | Stops moving the path object.
 
 
 Variables

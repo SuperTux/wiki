@@ -3,12 +3,12 @@
 Summary
 -------
 
-A `BadGuy` that was given a name can be controlled by scripts.
+A `BadGuy` that was given a name can be controlled by scripts. 
 
 Instances
 --------
 
-A `BadGuy` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console.
+A `BadGuy` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
 
 Inheritance
 --------
@@ -97,8 +97,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`void kill()` | Sets the badguy to kill/falling state, which makes it fall of the screen (its sprite is turned upside-down)
-`void ignite()` | Kills the badguy by igniting it
+`void kill()` | Sets the badguy to kill/falling state, which makes it fall of the screen (its sprite is turned upside-down).
+`void ignite()` | Kills the badguy by igniting it.
 
 
 Variables

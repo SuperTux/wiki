@@ -3,12 +3,12 @@
 Summary
 -------
 
-A `WillOWisp` that was given a name can be controlled by scripts
+A `WillOWisp` that was given a name can be controlled by scripts.
 
 Instances
 --------
 
-A `WillOWisp` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console.
+A `WillOWisp` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
 
 Inheritance
 --------
@@ -29,7 +29,7 @@ Methods
 
 Method | Explanation
 -------|-------
-`void set_state(string state)` | Sets the state of the WillOWisp<br /><br /> `state` - One of the following: "stopped", "move_path" (moves along a path), "move_path_track" (moves along a path but catches Tux when he is near), "normal" (starts tracking Tux when he is near enough), "vanish". 
+`void set_state(string state)` | Sets the state of the WillOWisp.<br /><br /> `state` - One of the following: "stopped", "move_path" (moves along a path), "move_path_track" (moves along a path but catches Tux when he is near), "normal" (starts tracking Tux when he is near enough), "vanish". 
 
 
 Variables

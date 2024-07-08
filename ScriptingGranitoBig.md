@@ -3,12 +3,12 @@
 Summary
 -------
 
-A `GranitoBig` that was given a name can be controlled by scripts
+A `GranitoBig` that was given a name can be controlled by scripts.
 
 Instances
 --------
 
-A `GranitoBig` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console.
+A `GranitoBig` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
 
 Inheritance
 --------
@@ -30,7 +30,7 @@ Methods
 
 Method | Explanation
 -------|-------
-`string get_carrying_name()` | Gets the name of the Granito being carried by the Big Granito
+`string get_carrying_name()` | Gets the name of the Granito being carried by the Big Granito.
 
 
 Variables
