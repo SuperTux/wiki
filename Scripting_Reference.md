@@ -1,4 +1,4 @@
-> Note: This file is auto-generated from the [SuperTux scripting interface source code](https://github.com/SuperTux/supertux/tree/master/src/scripting), using the template [ScriptingHome.md](https://github.com/SuperTux/wiki/tree/master/templates/ScriptingHome.md).
+> This file is auto-generated from the [SuperTux source code](https://github.com/SuperTux/supertux/tree/master/src), using the template [ScriptingHome.md](https://github.com/SuperTux/wiki/tree/master/templates/ScriptingHome.md).
 
 Since May 2005, SuperTux sports a Squirrel scripting interface useful
 for level designers who want to add some interactive pep to their
@@ -70,26 +70,28 @@ using a function that actually doesn't exist.
 * [BadGuy](https://github.com/SuperTux/supertux/wiki/ScriptingBadGuy)
 * [Camera](https://github.com/SuperTux/supertux/wiki/ScriptingCamera)
 * [Candle](https://github.com/SuperTux/supertux/wiki/ScriptingCandle)
-* [Clouds](https://github.com/SuperTux/supertux/wiki/ScriptingClouds)
+* [CloudParticleSystem](https://github.com/SuperTux/supertux/wiki/ScriptingCloudParticleSystem)
 * [ConveyorBelt](https://github.com/SuperTux/supertux/wiki/ScriptingConveyorBelt)
-* [CustomParticles](https://github.com/SuperTux/supertux/wiki/ScriptingCustomParticles)
+* [CustomParticleSystem](https://github.com/SuperTux/supertux/wiki/ScriptingCustomParticleSystem)
 * [Decal](https://github.com/SuperTux/supertux/wiki/ScriptingDecal)
-* [Dispenser](https://github.com/SuperTux/supertux/wiki/ScriptingDispenser)
 * [DisplayEffect](https://github.com/SuperTux/supertux/wiki/ScriptingDisplayEffect)
 * [FloatingImage](https://github.com/SuperTux/supertux/wiki/ScriptingFloatingImage)
+* [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
 * [GameObjectManager](https://github.com/SuperTux/supertux/wiki/ScriptingGameObjectManager)
 * [Globals](https://github.com/SuperTux/supertux/wiki/ScriptingGlobals)
 * [Gradient](https://github.com/SuperTux/supertux/wiki/ScriptingGradient)
+* [Granito](https://github.com/SuperTux/supertux/wiki/ScriptingGranito)
+* [GranitoBig](https://github.com/SuperTux/supertux/wiki/ScriptingGranitoBig)
 * [Level](https://github.com/SuperTux/supertux/wiki/ScriptingLevel)
 * [LevelTime](https://github.com/SuperTux/supertux/wiki/ScriptingLevelTime)
 * [LitObject](https://github.com/SuperTux/supertux/wiki/ScriptingLitObject)
-* [ParticleSystem](https://github.com/SuperTux/supertux/wiki/ScriptingParticleSystem)
-* [Platform](https://github.com/SuperTux/supertux/wiki/ScriptingPlatform)
+* [MovingObject](https://github.com/SuperTux/supertux/wiki/ScriptingMovingObject)
+* [MovingSprite](https://github.com/SuperTux/supertux/wiki/ScriptingMovingSprite)
+* [PathObject](https://github.com/SuperTux/supertux/wiki/ScriptingPathObject)
 * [Player](https://github.com/SuperTux/supertux/wiki/ScriptingPlayer)
-* [Rain](https://github.com/SuperTux/supertux/wiki/ScriptingRain)
+* [RainParticleSystem](https://github.com/SuperTux/supertux/wiki/ScriptingRainParticleSystem)
 * [ScriptedObject](https://github.com/SuperTux/supertux/wiki/ScriptingScriptedObject)
 * [Sector](https://github.com/SuperTux/supertux/wiki/ScriptingSector)
-* [SoundObject](https://github.com/SuperTux/supertux/wiki/ScriptingSoundObject)
 * [Spotlight](https://github.com/SuperTux/supertux/wiki/ScriptingSpotlight)
 * [TextArrayObject](https://github.com/SuperTux/supertux/wiki/ScriptingTextArrayObject)
 * [TextObject](https://github.com/SuperTux/supertux/wiki/ScriptingTextObject)
@@ -97,6 +99,4 @@ using a function that actually doesn't exist.
 * [TileMap](https://github.com/SuperTux/supertux/wiki/ScriptingTileMap)
 * [Torch](https://github.com/SuperTux/supertux/wiki/ScriptingTorch)
 * [WillOWisp](https://github.com/SuperTux/supertux/wiki/ScriptingWillOWisp)
-* [Wind](https://github.com/SuperTux/supertux/wiki/ScriptingWind)
-* [WorldMapSector](https://github.com/SuperTux/supertux/wiki/ScriptingWorldMapSector)
 
