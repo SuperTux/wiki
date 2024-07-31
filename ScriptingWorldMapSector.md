@@ -23,13 +23,13 @@ Methods
 
 Method | Explanation
 -------|-------
-`float get_tux_x()` | 
-`float get_tux_y()` | 
-`void set_sector(string sector)` | 
-`void spawn(string sector, string spawnpoint)` | 
-`void move_to_spawnpoint(string spawnpoint)` | 
-`string get_filename()` | 
-`void set_title_level(string filename)` | 
+`float get_tux_x()` | Returns Tux's X position on the worldmap.
+`float get_tux_y()` | Returns Tux's Y position on the worldmap.
+`void set_sector(string sector)` | Changes the current sector of the worldmap to a specified new sector.
+`void spawn(string sector, string spawnpoint)` | Changes the current sector of the worldmap to a specified new sector, moving Tux to the specified spawnpoint.
+`void move_to_spawnpoint(string spawnpoint)` | Moves Tux to the specified spawnpoint.
+`string get_filename()` | Gets the path to the worldmap file.
+`void set_title_level(string filename)` | Overrides the "Title Screen Level" property for the world with `filename`.
 
 
 Variables
