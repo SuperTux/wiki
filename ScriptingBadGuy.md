@@ -24,6 +24,7 @@ This class inherits functions and variables from the following base classes:
 The following classes inherit functions and variables from this class:
 * AngryStone
 * Bomb
+* Boss
 * BouncingSnowball
 * CaptainSnowball
 * CorruptedGranito

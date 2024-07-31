@@ -23,9 +23,11 @@ The following classes inherit functions and variables from this class:
 * [BadGuy](https://github.com/SuperTux/supertux/wiki/ScriptingBadGuy)
 * BezierMarker
 * BicyclePlatformChild
+* BigSnowball
 * Block
 * Bomb
 * BonusBlock
+* Boss
 * BouncingSnowball
 * Brick
 * Bullet

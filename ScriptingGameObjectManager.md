@@ -17,7 +17,7 @@ Inheritance
 
 The following classes inherit functions and variables from this class:
 * [Sector](https://github.com/SuperTux/supertux/wiki/ScriptingSector)
-* WorldMapSector
+* [WorldMapSector](https://github.com/SuperTux/supertux/wiki/ScriptingWorldMapSector)
 
 
 Methods

@@ -22,9 +22,11 @@ The following classes inherit functions and variables from this class:
 * AngryStone
 * [BadGuy](https://github.com/SuperTux/supertux/wiki/ScriptingBadGuy)
 * BicyclePlatformChild
+* BigSnowball
 * Block
 * Bomb
 * BonusBlock
+* Boss
 * BouncingSnowball
 * Brick
 * Bumper
