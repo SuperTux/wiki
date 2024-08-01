@@ -91,7 +91,7 @@ you cannot quite put your finger on. Depending on how it is done, both levels mi
 - Surface level theme (ideally one for sunrise/-set, midday, night)
   - [x] Midday
     - [x] Midday alt.
-  - [ ] Sunset
+  - [x] Sunset
   - [ ] Night
 - [ ] Underground level theme
 - [ ] Sky/Airborne level theme
@@ -103,7 +103,7 @@ you cannot quite put your finger on. Depending on how it is done, both levels mi
 - [ ] Tower level theme
 - [ ] Mini boss theme (more info must be gathered prior)
 - [ ] Thunderstorm level theme
-- [ ] Granito Village level theme
+- [x] Granito Village level theme
 - [ ] Granito Ruin level theme
 - [ ] Very dark underground level theme
 - [ ] Underground Outpost level theme
