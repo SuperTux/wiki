@@ -24,7 +24,6 @@ The following classes inherit functions and variables from this class:
 * BicyclePlatformChild
 * BigSnowball
 * Block
-* Bomb
 * BonusBlock
 * Boss
 * BouncingSnowball
