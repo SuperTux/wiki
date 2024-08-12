@@ -32,7 +32,10 @@ Method | Explanation
 Variables
 ---------
 
-None.
+Variable | Explanation
+---------|---------
+`std::string light_action` | The current light sprite action.
+
 
 Constants
 ---------

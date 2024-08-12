@@ -33,7 +33,10 @@ Method | Explanation
 Variables
 ---------
 
-None.
+Variable | Explanation
+---------|---------
+`bool burning` | The burning state of the candle.true if candle is currently lighted 
+
 
 Constants
 ---------

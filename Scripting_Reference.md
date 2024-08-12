@@ -92,6 +92,7 @@ using a function that actually doesn't exist.
 * [RainParticleSystem](https://github.com/SuperTux/supertux/wiki/ScriptingRainParticleSystem)
 * [ScriptedObject](https://github.com/SuperTux/supertux/wiki/ScriptingScriptedObject)
 * [Sector](https://github.com/SuperTux/supertux/wiki/ScriptingSector)
+* [SoundObject](https://github.com/SuperTux/supertux/wiki/ScriptingSoundObject)
 * [Spotlight](https://github.com/SuperTux/supertux/wiki/ScriptingSpotlight)
 * [TextArrayObject](https://github.com/SuperTux/supertux/wiki/ScriptingTextArrayObject)
 * [TextObject](https://github.com/SuperTux/supertux/wiki/ScriptingTextObject)

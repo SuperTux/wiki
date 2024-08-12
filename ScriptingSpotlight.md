@@ -24,13 +24,13 @@ Methods
 
 Method | Explanation
 -------|-------
-`void set_enabled(bool enabled)` | **Deprecated!** Use the `enabled` property instead! <br /><br />Enables/disables the spotlight.
-`bool is_enabled()` | **Deprecated!** Use the `enabled` property instead! <br /><br />Returns `true` if the spotlight is enabled.
+`void set_enabled(bool enabled)` | Enables/disables the spotlight.
+`bool is_enabled()` | Returns `true` if the spotlight is enabled.
 `void set_direction(string direction)` | Sets the direction of the spotlight.
-`void set_angle(float angle)` | **Deprecated!** Use the `angle` property instead! <br /><br />Sets the angle of the spotlight.
+`void set_angle(float angle)` | Sets the angle of the spotlight.
 `void fade_angle(float angle, float time)` | Fades the angle of the spotlight in `time` seconds.
 `void ease_angle(float angle, float time, string easing)` | Fades the angle of the spotlight in `time` seconds, with easing.
-`void set_speed(float speed)` | **Deprecated!** Use the `speed` property instead! <br /><br />Sets the speed of the spotlight.
+`void set_speed(float speed)` | Sets the speed of the spotlight.
 `void fade_speed(float speed, float time)` | Fades the speed of the spotlight in `time` seconds.
 `void ease_speed(float speed, float time, string easing)` | Fades the speed of the spotlight in `time` seconds, with easing.
 `void set_color_rgba(float r, float g, float b, float a)` | Sets the RGBA color of the spotlight.

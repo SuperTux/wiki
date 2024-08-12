@@ -31,7 +31,10 @@ Method | Explanation
 Variables
 ---------
 
-None.
+Variable | Explanation
+---------|---------
+`float time` | The number of seconds left on the clock.
+
 
 Constants
 ---------

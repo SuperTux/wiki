@@ -26,8 +26,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`void set_layer(int layer)` | **Deprecated!** Use the `layer` property instead! <br /><br />Sets the layer of the floating image.
-`int get_layer()` | **Deprecated!** Use the `layer` property instead! <br /><br />Returns the layer the floating image is on.
+`void set_layer(int layer)` | Sets the layer of the floating image.
+`int get_layer()` | Returns the layer the floating image is on.
 `void set_pos(float x, float y)` | Sets the location of the image in relation to the current anchor point.
 `float get_x()` | Returns the image's X coordinate relative to the current anchor point.
 `float get_y()` | Returns the image's Y coordinate relative to the current anchor point.
@@ -35,8 +35,8 @@ Method | Explanation
 `float get_pos_y()` | **Deprecated!** Use `get_y()` instead! <br /><br />Returns the image's Y coordinate relative to the current anchor point.
 `void set_anchor_point(int anchor)` | Sets the image's anchor point.<br /><br /> `anchor` - Anchor point as represented by the `ANCHOR_*` constants (see [AnchorPoints](https://github.com/SuperTux/supertux/wiki/ScriptingAnchorPoints)). 
 `int get_anchor_point()` | Returns the current anchor point.
-`void set_visible(bool visible)` | **Deprecated!** Use the `visible` property instead! <br /><br />Sets the visibility of the floating image.
-`bool get_visible()` | **Deprecated!** Use the `visible` property instead! <br /><br />Returns the visibility state of the floating image.
+`void set_visible(bool visible)` | Sets the visibility of the floating image.
+`bool get_visible()` | Returns the visibility state of the floating image.
 `void set_action(string action)` | Sets the action of the image.<br /><br /> `action` - Name of the action, as defined in the sprite. 
 `string get_action()` | Returns the name of the action of the image, as defined in the sprite.
 `void fade_in(float time)` | Fades in the image for the next `time` seconds.
@@ -50,6 +50,7 @@ Variable | Explanation
 ---------|---------
 `int layer` | 
 `bool visible` | 
+`int anchor_point` | The current anchor point.
 
 
 Constants

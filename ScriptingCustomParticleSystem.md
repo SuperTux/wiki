@@ -29,8 +29,8 @@ Method | Explanation
 -------|-------
 `void clear()` | Instantly removes all particles of that type on the screen.
 `void spawn_particles(int amount, bool instantly)` | Spawns particles, regardless of whether or not particles are enabled.<br /><br /> `instantly` - If `true`, disregard the delay settings. 
-`int get_max_amount()` | **Deprecated!** Use the `max_amount` property instead! 
-`void set_max_amount(int amount)` | **Deprecated!** Use the `max_amount` property instead! 
+`int get_max_amount()` | 
+`void set_max_amount(int amount)` | 
 `string get_birth_mode()` | Returns "None", "Fade", "Shrink".
 `void set_birth_mode(string mode)` |  `mode` - Possible values: "None", "Fade", "Shrink". 
 `string get_death_mode()` | Returns "None", "Fade", "Shrink".
@@ -41,94 +41,94 @@ Method | Explanation
 `void set_collision_mode(string mode)` |  `mode` - Possible values: "Ignore", "Stick", "StickForever", "BounceHeavy", "BounceLight", "Destroy". 
 `string get_offscreen_mode()` | Returns "Never", "OnlyOnExit", "Always".
 `void set_offscreen_mode(string mode)` |  `mode` - Possible values: "Never", "OnlyOnExit", "Always". 
-`bool get_cover_screen()` | **Deprecated!** Use the `cover_screen` property instead! 
-`void set_cover_screen(bool cover)` | **Deprecated!** Use the `cover_screen` property instead! 
-`float get_delay()` | **Deprecated!** Use the `delay` property instead! 
-`void set_delay(float delay)` | **Deprecated!** Use the `delay` property instead! 
+`bool get_cover_screen()` | 
+`void set_cover_screen(bool cover)` | 
+`float get_delay()` | 
+`void set_delay(float delay)` | 
 `void fade_delay(float delay, float time)` | 
 `void ease_delay(float delay, float time, string easing)` | 
-`float get_lifetime()` | **Deprecated!** Use the `particle_lifetime` property instead! 
-`void set_lifetime(float lifetime)` | **Deprecated!** Use the `particle_lifetime` property instead! 
+`float get_lifetime()` | 
+`void set_lifetime(float lifetime)` | 
 `void fade_lifetime(float lifetime, float time)` | 
 `void ease_lifetime(float lifetime, float time, string easing)` | 
-`float get_lifetime_variation()` | **Deprecated!** Use the `particle_lifetime_variation` property instead! 
-`void set_lifetime_variation(float lifetime_variation)` | **Deprecated!** Use the `particle_lifetime_variation` property instead! 
+`float get_lifetime_variation()` | 
+`void set_lifetime_variation(float lifetime_variation)` | 
 `void fade_lifetime_variation(float lifetime_variation, float time)` | 
 `void ease_lifetime_variation(float lifetime_variation, float time, string easing)` | 
-`float get_birth_time()` | **Deprecated!** Use the `particle_birth_time` property instead! 
-`void set_birth_time(float birth_time)` | **Deprecated!** Use the `particle_birth_time` property instead! 
+`float get_birth_time()` | 
+`void set_birth_time(float birth_time)` | 
 `void fade_birth_time(float birth_time, float time)` | 
 `void ease_birth_time(float birth_time, float time, string easing)` | 
-`float get_birth_time_variation()` | **Deprecated!** Use the `particle_birth_time_variation` property instead! 
-`void set_birth_time_variation(float birth_time_variation)` | **Deprecated!** Use the `particle_birth_time_variation` property instead! 
+`float get_birth_time_variation()` | 
+`void set_birth_time_variation(float birth_time_variation)` | 
 `void fade_birth_time_variation(float birth_time_variation, float time)` | 
 `void ease_birth_time_variation(float birth_time_variation, float time, string easing)` | 
-`float get_death_time()` | **Deprecated!** Use the `particle_death_time` property instead! 
-`void set_death_time(float death_time)` | **Deprecated!** Use the `particle_death_time` property instead! 
+`float get_death_time()` | 
+`void set_death_time(float death_time)` | 
 `void fade_death_time(float death_time, float time)` | 
 `void ease_death_time(float death_time, float time, string easing)` | 
-`float get_death_time_variation()` | **Deprecated!** Use the `particle_death_time_variation` property instead! 
-`void set_death_time_variation(float death_time_variation)` | **Deprecated!** Use the `particle_death_time_variation` property instead! 
+`float get_death_time_variation()` | 
+`void set_death_time_variation(float death_time_variation)` | 
 `void fade_death_time_variation(float death_time_variation, float time)` | 
 `void ease_death_time_variation(float death_time_variation, float time, string easing)` | 
-`float get_speed_x()` | **Deprecated!** Use the `particle_speed_x` property instead! 
-`void set_speed_x(float speed_x)` | **Deprecated!** Use the `particle_speed_x` property instead! 
+`float get_speed_x()` | 
+`void set_speed_x(float speed_x)` | 
 `void fade_speed_x(float speed_x, float time)` | 
 `void ease_speed_x(float speed_x, float time, string easing)` | 
-`float get_speed_y()` | **Deprecated!** Use the `particle_speed_y` property instead! 
-`void set_speed_y(float speed_y)` | **Deprecated!** Use the `particle_speed_y` property instead! 
+`float get_speed_y()` | 
+`void set_speed_y(float speed_y)` | 
 `void fade_speed_y(float speed_y, float time)` | 
 `void ease_speed_y(float speed_y, float time, string easing)` | 
-`float get_speed_variation_x()` | **Deprecated!** Use the `particle_speed_variation_x` property instead! 
-`void set_speed_variation_x(float speed_variation_x)` | **Deprecated!** Use the `particle_speed_variation_x` property instead! 
+`float get_speed_variation_x()` | 
+`void set_speed_variation_x(float speed_variation_x)` | 
 `void fade_speed_variation_x(float speed_variation_x, float time)` | 
 `void ease_speed_variation_x(float speed_variation_x, float time, string easing)` | 
-`float get_speed_variation_y()` | **Deprecated!** Use the `particle_speed_variation_y` property instead! 
-`void set_speed_variation_y(float speed_variation_y)` | **Deprecated!** Use the `particle_speed_variation_y` property instead! 
+`float get_speed_variation_y()` | 
+`void set_speed_variation_y(float speed_variation_y)` | 
 `void fade_speed_variation_y(float speed_variation_y, float time)` | 
 `void ease_speed_variation_y(float speed_variation_y, float time, string easing)` | 
-`float get_acceleration_x()` | **Deprecated!** Use the `particle_acceleration_x` property instead! 
-`void set_acceleration_x(float acceleration_x)` | **Deprecated!** Use the `particle_acceleration_x` property instead! 
+`float get_acceleration_x()` | 
+`void set_acceleration_x(float acceleration_x)` | 
 `void fade_acceleration_x(float acceleration_x, float time)` | 
 `void ease_acceleration_x(float acceleration_x, float time, string easing)` | 
-`float get_acceleration_y()` | **Deprecated!** Use the `particle_acceleration_y` property instead! 
-`void set_acceleration_y(float acceleration_y)` | **Deprecated!** Use the `particle_acceleration_y` property instead! 
+`float get_acceleration_y()` | 
+`void set_acceleration_y(float acceleration_y)` | 
 `void fade_acceleration_y(float acceleration_y, float time)` | 
 `void ease_acceleration_y(float acceleration_y, float time, string easing)` | 
-`float get_friction_x()` | **Deprecated!** Use the `particle_friction_x` property instead! 
-`void set_friction_x(float friction_x)` | **Deprecated!** Use the `particle_friction_x` property instead! 
+`float get_friction_x()` | 
+`void set_friction_x(float friction_x)` | 
 `void fade_friction_x(float friction_x, float time)` | 
 `void ease_friction_x(float friction_x, float time, string easing)` | 
-`float get_friction_y()` | **Deprecated!** Use the `particle_friction_y` property instead! 
-`void set_friction_y(float friction_y)` | **Deprecated!** Use the `particle_friction_y` property instead! 
+`float get_friction_y()` | 
+`void set_friction_y(float friction_y)` | 
 `void fade_friction_y(float friction_y, float time)` | 
 `void ease_friction_y(float friction_y, float time, string easing)` | 
-`float get_feather_factor()` | **Deprecated!** Use the `particle_feather_factor` property instead! 
-`void set_feather_factor(float feather_factor)` | **Deprecated!** Use the `particle_feather_factor` property instead! 
+`float get_feather_factor()` | 
+`void set_feather_factor(float feather_factor)` | 
 `void fade_feather_factor(float feather_factor, float time)` | 
 `void ease_feather_factor(float feather_factor, float time, string easing)` | 
-`float get_rotation()` | **Deprecated!** Use the `particle_rotation` property instead! 
-`void set_rotation(float rotation)` | **Deprecated!** Use the `particle_rotation` property instead! 
+`float get_rotation()` | 
+`void set_rotation(float rotation)` | 
 `void fade_rotation(float rotation, float time)` | 
 `void ease_rotation(float rotation, float time, string easing)` | 
-`float get_rotation_variation()` | **Deprecated!** Use the `particle_rotation_variation` property instead! 
-`void set_rotation_variation(float rotation_variation)` | **Deprecated!** Use the `particle_rotation_variation` property instead! 
+`float get_rotation_variation()` | 
+`void set_rotation_variation(float rotation_variation)` | 
 `void fade_rotation_variation(float rotation_variation, float time)` | 
 `void ease_rotation_variation(float rotation_variation, float time, string easing)` | 
-`float get_rotation_speed()` | **Deprecated!** Use the `particle_rotation_speed` property instead! 
-`void set_rotation_speed(float rotation_speed)` | **Deprecated!** Use the `particle_rotation_speed` property instead! 
+`float get_rotation_speed()` | 
+`void set_rotation_speed(float rotation_speed)` | 
 `void fade_rotation_speed(float rotation_speed, float time)` | 
 `void ease_rotation_speed(float rotation_speed, float time, string easing)` | 
-`float get_rotation_speed_variation()` | **Deprecated!** Use the `particle_rotation_speed_variation` property instead! 
-`void set_rotation_speed_variation(float rotation_speed_variation)` | **Deprecated!** Use the `particle_rotation_speed_variation` property instead! 
+`float get_rotation_speed_variation()` | 
+`void set_rotation_speed_variation(float rotation_speed_variation)` | 
 `void fade_rotation_speed_variation(float rotation_speed_variation, float time)` | 
 `void ease_rotation_speed_variation(float rotation_speed_variation, float time, string easing)` | 
-`float get_rotation_acceleration()` | **Deprecated!** Use the `particle_rotation_acceleration` property instead! 
-`void set_rotation_acceleration(float rotation_acceleration)` | **Deprecated!** Use the `particle_rotation_acceleration` property instead! 
+`float get_rotation_acceleration()` | 
+`void set_rotation_acceleration(float rotation_acceleration)` | 
 `void fade_rotation_acceleration(float rotation_acceleration, float time)` | 
 `void ease_rotation_acceleration(float rotation_acceleration, float time, string easing)` | 
-`float get_rotation_decceleration()` | **Deprecated!** Use the `particle_rotation_decceleration` property instead! 
-`void set_rotation_decceleration(float rotation_decceleration)` | **Deprecated!** Use the `particle_rotation_decceleration` property instead! 
+`float get_rotation_decceleration()` | 
+`void set_rotation_decceleration(float rotation_decceleration)` | 
 `void fade_rotation_decceleration(float rotation_decceleration, float time)` | 
 `void ease_rotation_decceleration(float rotation_decceleration, float time, string easing)` | 
 

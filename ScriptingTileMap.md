@@ -24,6 +24,7 @@ Methods
 Method | Explanation
 -------|-------
 `void set_solid(bool solid)` | Switches the tilemap's real solidity to `solid`.
+`bool get_solid()` | Returns the effective solidity of the tilemap.
 `int get_tile_id(int x, int y)` | Returns the ID of the tile at the given coordinates or 0 if out of bounds.
 `int get_tile_id_at(float x, float y)` | Returns the ID of the tile at the given position (in world coordinates).
 `void change(int x, int y, int newtile)` | Changes the tile at the given coordinates to `newtile`.
@@ -38,7 +39,11 @@ Method | Explanation
 Variables
 ---------
 
-None.
+Variable | Explanation
+---------|---------
+`bool solid` | Equivalent to `get_solid()` and `set_solid()`.
+`float alpha` | Determines the tilemap's current opacity.requested tilemap opacity 
+
 
 Constants
 ---------

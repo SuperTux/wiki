@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `TextArrayObject` that was given a name can be controlled by scripts. Supports all functions of [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText), applying them to the current text item.
+A `TextArrayObject` that was given a name can be controlled by scripts. Supports all functions and variables of [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText), applying them to the current text item. If no text item is available, calling functions or using variables of [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText) (other than `set_text()`) will result in an error.
 
 Intended for scripts with narration. 
 
@@ -28,10 +28,10 @@ Method | Explanation
 `void add_text(string text)` | Adds a text object with a specific text at the end of the stack.
 `void add_text_duration(string text, float duration)` | Adds a text object with a specific text and duration at the end of the stack.
 `void set_text_index(int index)` | Sets the current text object by its index.
-`void set_keep_visible(bool keep_visible)` | **Deprecated!** Use the `keep_visible` property instead! <br /><br />If set, keeps the current text object visible.
-`void set_fade_transition(bool fade_transition)` | **Deprecated!** Use the `fade_transition` property instead! <br /><br />If set, allows for a fade-in and fade-out transition.
+`void set_keep_visible(bool keep_visible)` | If set, keeps the current text object visible.
+`void set_fade_transition(bool fade_transition)` | If set, allows for a fade-in and fade-out transition.
 `void set_fade_time(float fadetime)` | Sets the fade-in and fade-out time.
-`void set_done(bool done)` | **Deprecated!** Use the `finished` property instead! <br /><br />If set, sets the text array as finished going through all text objects.
+`void set_done(bool done)` | If set, sets the text array as finished going through all text objects.
 `void set_auto(bool is_auto)` | If set, lets the text array automatically go through all text objects.
 `void next_text()` | If available, goes to the next text object in the stack.
 `void prev_text()` | If available, goes to the previous text object in the stack.

@@ -32,8 +32,8 @@ Method | Explanation
 `float get_velocity_y()` | Returns the Y coordinate of the object's velocity.
 `void enable_gravity(bool enabled)` | Enables or disables gravity, according to the value of `enabled`.
 `bool gravity_enabled()` | Returns `true` if the object's gravity is enabled.
-`void set_visible(bool visible)` | **Deprecated!** Use the `visible` property instead! <br /><br />Shows or hides the object, according to the value of `visible`.
-`bool is_visible()` | **Deprecated!** Use the `visible` property instead! <br /><br />Returns `true` if the object is visible.
+`void set_visible(bool visible)` | Shows or hides the object, according to the value of `visible`.
+`bool is_visible()` | Returns `true` if the object is visible.
 `void set_solid(bool solid)` | Changes the solidity, according to the value of `solid`.
 `bool is_solid()` | Returns `true` if the object is solid.
 
@@ -43,6 +43,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
+`bool solid` | Determines whether the object is solid.
 `bool visible` | Determines whether the object is visible.
 
 

@@ -33,7 +33,10 @@ Method | Explanation
 Variables
 ---------
 
-None.
+Variable | Explanation
+---------|---------
+`bool black` | Determines whether the screen has been blackened.
+
 
 Constants
 ---------

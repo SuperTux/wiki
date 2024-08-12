@@ -149,7 +149,7 @@ Methods
 
 Method | Explanation
 -------|-------
-`void set_sprite(string file)` | Sets the sprite of the object.
+`bool set_sprite(string file)` | Sets the sprite of the object.
 `string get_sprite()` | Returns the file of the object's sprite.
 `string get_action()` | Returns the name of the current action of the sprite.
 `void set_action(string name)` | Sets the current action of the sprite and resizes the bounding box.

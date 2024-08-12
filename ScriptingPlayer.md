@@ -43,8 +43,8 @@ Method | Explanation
 `float get_velocity_x()` | Returns Tux’s velocity in X direction.
 `float get_velocity_y()` | Returns Tux’s velocity in Y direction.
 `void set_velocity(float x, float y)` | Sets the velocity of the player to a programmable/variable speed.<br /><br /> `x` - The speed Tux will move on the x axis. <br /> `y` - The speed Tux will move on the y axis. 
-`void set_visible(bool visible)` | **Deprecated!**<br /><br />Set Tux visible or invisible.
-`bool get_visible()` | **Deprecated!**<br /><br />Returns `true` if Tux is currently visible (has not been set invisible by the `set_visible()` method).
+`void set_visible(bool visible)` | Set Tux visible or invisible.
+`bool get_visible()` | Returns `true` if Tux is currently visible (has not been set invisible by the `set_visible()` method).
 `bool has_grabbed(string name)` | Returns whether the player is carrying a certain object.<br /><br /> `name` - Name of the portable object to check for. 
 `void set_ghost_mode(bool enable)` | Switches ghost mode on/off.
 `bool get_ghost_mode()` | Returns whether ghost mode is currently enabled.
@@ -61,7 +61,10 @@ Method | Explanation
 Variables
 ---------
 
-None.
+Variable | Explanation
+---------|---------
+`bool visible` | Determines whether Tux is visible.
+
 
 Constants
 ---------

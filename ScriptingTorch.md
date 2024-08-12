@@ -25,8 +25,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`bool get_burning()` | **Deprecated!** Use the `burning` property instead! <br /><br />Returns `true` if the torch is burning.
-`void set_burning(bool burning)` | **Deprecated!** Use the `burning` property instead! <br /><br />Switches the burning state of the torch.
+`bool get_burning()` | Returns `true` if the torch is burning.
+`void set_burning(bool burning)` | Switches the burning state of the torch.
 
 
 Variables

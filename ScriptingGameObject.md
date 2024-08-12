@@ -157,7 +157,7 @@ The following classes inherit functions and variables from this class:
 * SnowExplosionParticle
 * SnowParticleSystem
 * Snowman
-* SoundObject
+* [SoundObject](https://github.com/SuperTux/supertux/wiki/ScriptingSoundObject)
 * SpawnPointMarker
 * SpawnPointObject
 * SpecialRiser

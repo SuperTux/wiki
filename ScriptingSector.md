@@ -27,8 +27,8 @@ Method | Explanation
 `bool is_free_of_statics(float left, float top, float right, float bottom, bool ignore_unisolid)` | Checks if the specified sector-relative rectangle is free of both: 1) Solid tiles.<br /><br /> `ignore_unisolid` - If `true`, unisolid tiles will be ignored. 
 `bool is_free_of_movingstatics(float left, float top, float right, float bottom)` | Checks if the specified sector-relative rectangle is free of both: 1) Solid tiles.
 `bool is_free_of_specifically_movingstatics(float left, float top, float right, float bottom)` | Checks if the specified sector-relative rectangle is free of `MovingObject`s in `COLGROUP_MOVINGSTATIC`.
-`void set_gravity(float gravity)` | **Deprecated!** Use the `gravity` property instead! Sets the sector's gravity.
-`float get_gravity(float gravity)` | **Deprecated!** Use the `gravity` property instead! Returns the sector's gravity.
+`void set_gravity(float gravity)` | 
+`float get_gravity(float gravity)` | 
 
 
 Variables

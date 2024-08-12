@@ -25,17 +25,21 @@ Methods
 
 Method | Explanation
 -------|-------
-`void start()` | 
-`void stop()` | 
-`void move_left()` | 
-`void move_right()` | 
-`void set_speed(float target_speed)` | 
+`void start()` | Starts the conveyor belt.
+`void stop()` | Stops the conveyor belt.
+`void move_left()` | Makes the conveyor shift objects to the left.
+`void move_right()` | Makes the conveyor shift objects to the right.
+`void set_speed(float target_speed)` | Change the shifting speed of the conveyor.
+`float get_speed()` | Returns the shifting speed of the conveyor.
 
 
 Variables
 ---------
 
-None.
+Variable | Explanation
+---------|---------
+`float speed` | The shifting speed of the conveyor.
+
 
 Constants
 ---------
