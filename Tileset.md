@@ -173,7 +173,7 @@ Attribute combination examples:
 | water slope   | `0x0210` / 528 | `0x0010 + 0x0200` / 16 + 512     | The tile is swimmable but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
 | harmful unisolid | `0x0402` / 1026 | `0x0002 + 0x0400` / 2 + 1024 | The tile hurts the player, but only if touched from a certain side. | Unisolid side. `0` = up / `1` = down / `2` = left / `3` = right. |
 | harmful slope | `0x0410` / 1040 | `0x0400 + 0x0010` / 16 + 1024   | The tile hurts the player, but only at the area of a slope. | Type of slope. [See below](#slope-types) for possible values. |
-| harmful water | `0x0600` / 1280 | `0x0400 + 0x0800` / 512 + 1024  | The tile is swimmable and hurts the player.     |             |
+| harmful water | `0x0600` / 1536 | `0x0400 + 0x0800` / 512 + 1024  | The tile is swimmable and hurts the player.     |             |
 | light block   | `0x0801` / 2049 | `0x0001 + 0x0800` / 1 + 2048    | The tile is solid and emits light.              |             |
 | fire          | `0x0C00` / 3072 | `0x0400 + 0x0800` / 1024 + 2048 | The tile hurts the player and emits a red light. |            |
 | lava          | `0x0E00` / 3584 | `0x0200 + 0x0400 + 0x0800` / 512 + 1024 + 2048 | The tile is swimmable, hurts the player and emits a red light. | |
