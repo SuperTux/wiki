@@ -208,7 +208,7 @@ Uploading The Add-On
 --------------------
 
 Now you can upload your file. We recommend creating a new topic at the
-[Levels & Add-ons forum](https://forum.freegamedev.net/viewforum.php?f=69).
+[SuperTux Forum](https://groups.f-hub.org/g/8AKEaTgZ) with the "Add-on/Levels" tag.
 
 Describe your worldmap, and add one or two screenshots, depending on the number of levels you created.
 Then attach your .zip-file to the post. *Caution: Files larger than 2MB in size cannot be uploaded there.*
