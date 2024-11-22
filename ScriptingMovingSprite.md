@@ -91,6 +91,7 @@ The following classes inherit functions and variables from this class:
 * Plant
 * Platform
 * PneumaticPlatformChild
+* PocketPowerUp
 * PowerUp
 * PushButton
 * RCrystallo

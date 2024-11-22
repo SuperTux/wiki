@@ -128,6 +128,7 @@ The following classes inherit functions and variables from this class:
 * PlayerStatusHUD
 * PneumaticPlatform
 * PneumaticPlatformChild
+* PocketPowerUp
 * PowerUp
 * PulsingLight
 * PushButton

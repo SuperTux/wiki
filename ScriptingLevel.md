@@ -32,6 +32,9 @@ Method | Explanation
 `void toggle_pause()` | Toggles pause.
 `void pause_target_timer()` | Pauses the target timer.
 `void resume_target_timer()` | Resumes the target timer.
+`void override_item_pocket(string allow)` | Override the Item Pocket setting in the Level.<br /><br /> `allow` - Can be "on", "off", or "inherit" (use the setting in the Level). 
+`string is_item_pocket_overridden()` | Get the override value for the Item Pocket.
+`bool is_item_pocket_allowed()` | Check if the Item Pocket is allowed in this level.
 
 
 Variables

@@ -101,6 +101,7 @@ The following classes inherit functions and variables from this class:
 * Platform
 * [Player](https://github.com/SuperTux/supertux/wiki/ScriptingPlayer)
 * PneumaticPlatformChild
+* PocketPowerUp
 * PowerUp
 * PushButton
 * RCrystallo

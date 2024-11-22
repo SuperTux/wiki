@@ -51,11 +51,14 @@ Method | Explanation
 `void trigger_sequence(string sequence_name)` | Orders the current `GameSession` to start a sequence.<br /><br /> `sequence_name` - One of “stoptux”, “endsequence” or “fireworks”. 
 `void activate()` | Give control back to user/scripting.
 `void deactivate()` | Deactivate user/scripting input for Tux.
-`bool get_input_pressed(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been pressed.<br /><br /> `input` - Can be “left”, “right”, “up”, “down”, “jump”, “action”, “start”, “escape”, “menu-select”, “menu-select-space”, “menu-back”, “remove”, “cheat-menu”, “debug-menu”, “console”, “peek-left”, “peek-right”, “peek-up” or “peek-down”. 
+`bool get_input_pressed(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been pressed.<br /><br /> `input` - Can be “left”, “right”, “up”, “down”, “jump”, “action”, "item", “start”, “escape”, “menu-select”, “menu-select-space”, “menu-back”, “remove”, “cheat-menu”, “debug-menu”, “console”, “peek-left”, “peek-right”, “peek-up” or “peek-down”. 
 `bool get_input_held(string input)` | Gets whether the current input on the keyboard/controller/touchpad is being held.<br /><br /> `input` - Valid values are listed above. 
 `bool get_input_released(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been released.<br /><br /> `input` - Valid values are listed above. 
 `void walk(float speed)` | Makes Tux walk.
 `void set_dir(bool right)` | Face Tux in the proper direction.<br /><br /> `right` - Set to `true` to make Tux face right, `false` to face left. 
+`void eject_item_pocket()` | Ejects the item in the player's Item Pocket.
+`int get_item_pocket()` | Returns the item currently in the player's Item Pocket as a `BONUS` enum value.
+`void set_item_pocket()` | Ejects the item in the player's Item Pocket.
 
 
 Variables
