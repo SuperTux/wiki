@@ -416,7 +416,7 @@ If you find it difficult to write the object proprieties you want to add as a ti
 
 ```
 (snowball
-      (z-pos 52)
+      (z-pos 50)
       (direction "left")
       (x 288)
       (y 128)
@@ -453,7 +453,7 @@ For another example, here is a rock added as a tile:
 )
 ```
 ---
-Now, a not-portable trampoline as a tile:
+Now, a non-portable trampoline as a tile:
 
 ```
 (tile
