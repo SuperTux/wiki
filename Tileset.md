@@ -413,7 +413,7 @@ If you find it difficult to write the object proprieties you want to add as a ti
       (y 128)
 )
 ```
-From this information, you may extract what you want to turn into a tile, you must ignore the x and y positions as they will be defined as where the tile is.
+From this information, you may extract what you want to turn into a tile. You must ignore the `x` and `y` position properties as they will be defined, depending on where the tile is.
 
 ---
 Let's turn that Mr. Snowball into a tile, then:
