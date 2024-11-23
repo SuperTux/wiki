@@ -497,7 +497,7 @@ Again, if you feel confused with what information you must type in the object na
 Deprecated Tiles
 ================
 
-When a tile becomes outdated due to it being replaced by a different tile / object / decal - or when it is no longer necessary for level design, this tile is usually made deprecated for the sake of compatibility with older levels that were built with them before. Deprecated tiles can still be loaded by the level and will work as they used to, but they're not available to build with, nor can they be copied when editing the level. 
+When a tile becomes outdated due to it being replaced by a different tile / object / decal, or when it is no longer necessary for level design, it is usually made deprecated for the sake of compatibility with older levels which include it. Deprecated tiles can still be loaded by the level and will work as they used to, but they cannot be added to tilegroups, nor can they be copied when editing the level.
 
 Deprecating Your Old Tiles
 --------------------------
