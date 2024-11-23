@@ -403,7 +403,7 @@ The general structure for adding a special tile in your tileset is the following
 Be aware that any quotation mark in `object-data` must be escaped by adding a backslash (`\`) before it, as it's a quotation mark inside other quotation marks.
 
 ---
-If you find it difficult to write the object proprieties you want to add as a tile, you can place this object in your level, open the level in a text editor and copy the information you'll find about this object, for example, if you want a Mr.Snowball, you get in the level file and search for it, you'll find:
+If you find it difficult to write the object proprieties you want to add as a tile, you can place the object in your level, open the level in a text editor and copy the properties present for the object. For example, if you add a Mr.Snowball to a level and customize it, in the level file you'll find:
 
 ```
 (snowball
