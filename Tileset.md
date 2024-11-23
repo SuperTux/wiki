@@ -17,6 +17,10 @@ These tilesets are included into the level by a `tiles` and `tilegroup` entry.
    * [Adding Tilegroups](#step-3-adding-tilegroups)
 5. [Special Tiles](#special-tiles)
    * [Adding Objects As Tiles](#adding-objects-as-tiles)
+6. [Deprecated Tiles](#deprecated-tiles)
+   * [Deprecating Your Old Tiles](#deprecating-your-old-tiles)
+
+<hr>
 
 Introduction
 ============
@@ -80,7 +84,7 @@ It is also possible to extract parts of bigger images to create tiles:
   (attributes
     0 0 0 0
     1 1 0 0)
-  (image "tiles/[tilegroup]/[multipletiles].png")
+  (images "tiles/[tilegroup]/[multipletiles].png")
 )
 ```
 
@@ -133,9 +137,11 @@ More on tile datas can be read [here](#tile-datas).
     0 0 0 33 17 19 35 1 3 50 64
     0 0 0 0  0  0  0  0 0 49 67
     0 0 0 0  0  0  0  0 0 65 51)
-  (image "tiles/[tilegroup]/tileset_example.png")
+  (images "tiles/[tilegroup]/tileset_example.png")
 )
 ```
+
+<hr>
 
 Tile Attributes
 ===============
@@ -194,6 +200,8 @@ Some attributes that were used to make a tile have a special behavior don't seem
 | coin      | `0x0040` / 64  | The tile would act as a coin. |
 | ???       | `0x0080` / 128 | This attribute doesn't seem to do anything at all. |
 
+<hr>
+
 Tile Datas
 ==========
 
@@ -229,7 +237,7 @@ The important part is that the deformation determines which part of the tile is 
 not the actual **form** of the tile. For example, the `0+48` tile is a (steep, south-west)
 **triangle**, while `2+48` is a (steep, south-east) **trapezoid**.
 
----
+<hr>
 
 Adding Your Own Tiles
 =====================
@@ -280,7 +288,7 @@ entries into one big tile entry. But for simplicity and better readability it is
       1 1 1
       1 1 1
       1 1 1)
-    (image "tiles/[tilegroup]/[tiles1].png")
+    (images "tiles/[tilegroup]/[tiles1].png")
   )
   (tiles
     (width 4)
@@ -306,7 +314,7 @@ entries into one big tile entry. But for simplicity and better readability it is
       1  3  50 64
       0  0  49 67
       0  0  65 51)
-    (image "tiles/[tilegroup]/[tiles2].png")
+    (images "tiles/[tilegroup]/[tiles2].png")
   )
 )
 ```
@@ -345,7 +353,7 @@ tilegroup.
       1 1 1
       1 1 1
       1 1 1)
-    (image "tiles/[tilegroup]/[tiles1].png")
+    (images "tiles/[tilegroup]/[tiles1].png")
   )
   (tiles
     (width 4)
@@ -371,10 +379,11 @@ tilegroup.
       1  3  50 64
       0  0  49 67
       0  0  65 51)
-    (image "tiles/[tilegroup]/[tiles2].png")
+    (images "tiles/[tilegroup]/[tiles2].png")
   )
 )
 ```
+<hr>
 
 Special Tiles
 =============
@@ -483,10 +492,40 @@ Now let's be creative, let's say you want to add a bonus block that is orange an
 )
 ```
 Again, if you feel confused with what information you must type in the object name and data sections, you can copy them from an object that's already placed in your level file!
+<hr>
+
+Deprecated Tiles
+================
+
+When a tile becomes outdated due to it being replaced by a different tile / object / decal - or when it is no longer necessary for level design, this tile is usually made deprecated for the sake of compatibility with older levels that were built with them before. Deprecated tiles can still be loaded by the level and will work as they used to, but they're not available to build with, nor can they be copied when editing the level. 
+
+Deprecating Your Old Tiles
+--------------------------
+
+If you need to deprecate a tile, it is recommended to move the images of this tile into a subfolder called `deprecated`. It is also recommended to remove every deprecated tile from the tilegroups you made with them before.
+
+Then, you'll add a `(deprecated #t)` value to your tile structure to indicate that this tile or tileset is not supposed to be used anymore, and change the path of the images into its new file destination.
+
+```
+(tiles
+  (width 3)
+  (height 2)
+  (ids
+    3 4 5 6
+    7 8 0 0)
+  (attributes
+    0 0 0 0
+    1 1 0 0)
+  (deprecated #t)
+  (images "tiles/[tilegroup]/deprecated/[multipletiles].png")
+)
+```
+
+Be aware that deprecated tiles still need their own IDs to exist. If a tile is deprecated, it doesn't mean its ID can be overwritten by other tiles, but as they are not supposed to be used, it is highly recommended to replace or erase these tiles from your levels to avoid a loss of compatibility in future builds of the game that may or may not overwrite these IDs.
 
 ---
 
-And that is all! Go open / create a new level in the Level Editor and select your tileset file in the Level
+And that is all! Go open / create a new level in the Level Editor, select your tileset file in the Level
 Properties and see if your tiles and / or tilegroups appear in the tiles menu.
 
 ---
