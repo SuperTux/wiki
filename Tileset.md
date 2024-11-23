@@ -98,7 +98,7 @@ For a tile which looks different in the editor, you can set the images separatel
   (editor-images "tiles/[tilegroup]/[tile]-editor.png")
 )
 ```
-If you want the tile to be invisible in game, you just remove the "(images)" section
+If you want the tile to be invisible in-game, remove the `(images)` section.
 
 ---
 
