@@ -86,7 +86,7 @@ It is also possible to extract parts of bigger images to create tiles:
 
 ---
 
-For a tile that looks one way in editor and other way in game, you can set the images separately:
+For a tile which looks different in the editor, you can set the images separately:
 
 ```
 (tiles
