@@ -460,7 +460,7 @@ Now, a not-portable trampoline as a tile:
 )
 ```
 ---
-Now let's be creative, let's say you want to add a bonus block that is orange and has 2 Mr.Icecubes inside it:
+Now let's be creative, let's say you want to add a bonus block that is orange and has 2 Mr.Iceblocks inside it:
 
 ```
 (tile
