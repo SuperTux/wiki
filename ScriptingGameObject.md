@@ -96,6 +96,7 @@ The following classes inherit functions and variables from this class:
 * Key
 * Kugelblitz
 * Lantern
+* LayerObject
 * LeafShot
 * LevelTile
 * [LevelTime](https://github.com/SuperTux/supertux/wiki/ScriptingLevelTime)

@@ -16,6 +16,7 @@ Inheritance
 --------
 
 This class inherits functions and variables from the following base classes:
+* LayerObject
 * [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
 * [PathObject](https://github.com/SuperTux/supertux/wiki/ScriptingPathObject)
 

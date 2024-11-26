@@ -16,6 +16,7 @@ Inheritance
 This class inherits functions and variables from the following base classes:
 * ParticleSystem_Interactive
 * ParticleSystem
+* LayerObject
 * [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
 
 The following classes inherit functions and variables from this class:

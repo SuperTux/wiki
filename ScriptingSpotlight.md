@@ -16,7 +16,6 @@ Inheritance
 This class inherits functions and variables from the following base classes:
 * [MovingObject](https://github.com/SuperTux/supertux/wiki/ScriptingMovingObject)
 * [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
-* CollisionListener
 
 
 Methods

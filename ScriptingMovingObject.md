@@ -15,7 +15,6 @@ Inheritance
 
 This class inherits functions and variables from the following base classes:
 * [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
-* CollisionListener
 
 The following classes inherit functions and variables from this class:
 * [AmbientSound](https://github.com/SuperTux/supertux/wiki/ScriptingAmbientSound)
