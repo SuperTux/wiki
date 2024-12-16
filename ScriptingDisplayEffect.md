@@ -3,12 +3,12 @@
 Summary
 -------
 
-""DisplayEffect"" is an interface for toying with the display.
+`DisplayEffect` is an interface for toying with the display.
 
 Instances
 --------
 
-SuperTux creates an instance named ""Effect"" when starting the scripting engine. Its usage is preferred – creating another instance might have unexpected side effects and is strongly discouraged. (Use ""sector.Effect"" in the console.) 
+SuperTux creates an instance named `Effect` when starting the scripting engine. Its usage is preferred – creating another instance might have unexpected side effects and is strongly discouraged. (Use `sector.Effect` in the console.) 
 
 Inheritance
 --------

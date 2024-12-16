@@ -8,7 +8,7 @@ This class provides additional controlling functions for a worldmap sector, othe
 Instances
 --------
 
-An instance under ""worldmap.settings"" is available from scripts and the console. 
+An instance under `worldmap.settings` is available from scripts and the console. 
 
 Inheritance
 --------

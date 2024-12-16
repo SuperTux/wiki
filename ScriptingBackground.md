@@ -3,12 +3,12 @@
 Summary
 -------
 
-A ""Background"" that was given a name can be manipulated by scripts.
+A `Background` that was given a name can be manipulated by scripts.
 
 Instances
 --------
 
-A ""Background"" can be accessed by its name from a script or via ""sector.name"" from the console. 
+A `Background` can be accessed by its name from a script or via `sector.name` from the console. 
 
 Inheritance
 --------

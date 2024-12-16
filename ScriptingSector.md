@@ -8,7 +8,7 @@ This class provides additional controlling functions for a sector, other than th
 Instances
 --------
 
-An instance under ""sector.settings"" is available from scripts and the console. 
+An instance under `sector.settings` is available from scripts and the console. 
 
 Inheritance
 --------

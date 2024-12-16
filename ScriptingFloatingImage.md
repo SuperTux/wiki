@@ -10,9 +10,9 @@ Instances
 
 Floating Images are created in a script or from the console. Constructor:
 
-""""""<floatimage> <- FloatingImage(string filename)""""""
+```<floatimage> <- FloatingImage(string filename)```
 
-This creates a ""FloatingImage"" from ""filename"" (which is relative to the data directory root). 
+This creates a `FloatingImage` from `filename` (which is relative to the data directory root). 
 
 Inheritance
 --------

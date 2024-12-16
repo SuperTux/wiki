@@ -3,14 +3,14 @@
 Summary
 -------
 
-A ""Camera"" that was given a name can be manipulated by scripts.
+A `Camera` that was given a name can be manipulated by scripts.
 
 Instances
 --------
 
-An instance named ""Camera"" (""sector.Camera"" in the console) is available.
+An instance named `Camera` (`sector.Camera` in the console) is available.
 
-The mode of the camera is either ""normal"" (the camera is following the player) or ""autoscroll"". In the latter mode, the camera is forced along a specified path. 
+The mode of the camera is either `normal` (the camera is following the player) or `autoscroll`. In the latter mode, the camera is forced along a specified path. 
 
 Inheritance
 --------

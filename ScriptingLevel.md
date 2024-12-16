@@ -3,7 +3,7 @@
 Summary
 -------
 
-The ""Level"" table provides basic controlling functions for the current level.
+The `Level` table provides basic controlling functions for the current level.
 
 Instances
 --------

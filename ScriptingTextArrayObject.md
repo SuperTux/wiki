@@ -3,14 +3,14 @@
 Summary
 -------
 
-A ""TextArrayObject"" that was given a name can be controlled by scripts. Supports all functions and variables of [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText), applying them to the current text item. If no text item is available, calling functions or using variables of [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText) (other than ""set_text()"") will result in an error.
+A `TextArrayObject` that was given a name can be controlled by scripts. Supports all functions and variables of [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText), applying them to the current text item. If no text item is available, calling functions or using variables of [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText) (other than `set_text()`) will result in an error.
 
 Intended for scripts with narration. 
 
 Instances
 --------
 
-A ""TextArrayObject"" is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via ""sector.name"" from the console. 
+A `TextArrayObject` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
 
 Inheritance
 --------

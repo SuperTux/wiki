@@ -3,12 +3,12 @@
 Summary
 -------
 
-A ""TileMap"" that was given a name can be controlled by scripts. The tilemap can be moved by specifying a path for it. 
+A `TileMap` that was given a name can be controlled by scripts. The tilemap can be moved by specifying a path for it. 
 
 Instances
 --------
 
-A ""TileMap"" is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via ""sector.name"" from the console. 
+A `TileMap` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
 
 Inheritance
 --------

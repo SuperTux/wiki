@@ -3,7 +3,7 @@
 Summary
 -------
 
-Abstract base class for ""MovingObject""s, that are represented by a sprite.
+Abstract base class for `MovingObject`s, that are represented by a sprite.
 
 Instances
 --------
