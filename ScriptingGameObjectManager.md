@@ -8,9 +8,9 @@ This class provides basic controlling functions for a sector.
 Instances
 --------
 
-For in-level sectors, an instance under `sector.settings` is available from scripts and the console.
+For in-level sectors, an instance under ""sector.settings"" is available from scripts and the console.
 
-For worldmap sectors, such instance is available under `worldmap.settings`. 
+For worldmap sectors, such instance is available under ""worldmap.settings"". 
 
 Inheritance
 --------

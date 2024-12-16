@@ -3,12 +3,12 @@
 Summary
 -------
 
-A `TileMap` that was given a name can be controlled by scripts. The tilemap can be moved by specifying a path for it. 
+A ""TileMap"" that was given a name can be controlled by scripts. The tilemap can be moved by specifying a path for it. 
 
 Instances
 --------
 
-A `TileMap` is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via `sector.name` from the console. 
+A ""TileMap"" is instantiated by placing a definition inside a level. It can then be accessed by its name from a script or via ""sector.name"" from the console. 
 
 Inheritance
 --------
@@ -24,7 +24,7 @@ Methods
 
 Method | Explanation
 -------|-------
-`void set_solid(bool solid)` | Switches the tilemap's real solidity to `solid`.
+`void set_solid(bool solid = true)` | Switches the tilemap's real solidity to `solid`.
 `bool get_solid()` | Returns the effective solidity of the tilemap.
 `int get_tile_id(int x, int y)` | Returns the ID of the tile at the given coordinates or 0 if out of bounds.
 `int get_tile_id_at(float x, float y)` | Returns the ID of the tile at the given position (in world coordinates).

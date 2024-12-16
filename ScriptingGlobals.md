@@ -27,7 +27,7 @@ Method | Explanation
 `void start_cutscene()` | Starts a skippable cutscene.
 `void end_cutscene()` | Ends a skippable cutscene.
 `bool check_cutscene()` | Checks if a skippable cutscene is currently running.
-`void wait(float seconds)` | Suspends the script execution for a specified number of seconds.
+`void wait(float seconds, bool forced = false)` | Suspends the script execution for a specified number of seconds.<br /><br /> `forced` - Optional, enforces waiting while a cutscene is being skipped. 
 `void wait_for_screenswitch()` | Suspends the script execution until the current screen has been changed.
 `void exit_screen()` | Exits the currently running screen (for example, force exits from worldmap or scrolling text).
 `string translate(string text)` | Translates a text into the user's language (by looking in the `.po` files).

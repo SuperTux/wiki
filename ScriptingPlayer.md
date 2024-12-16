@@ -8,7 +8,7 @@ This module contains methods controlling the player.
 Instances
 --------
 
-The first player can be accessed using `Tux`, or `sector.Tux` from the console. All following players (2nd, 3rd, etc...) can be accessed by `Tux{index}`. For example, to access the 2nd player, use `Tux1` (or `sector.Tux1` from the console). 
+The first player can be accessed using ""Tux"", or ""sector.Tux"" from the console. All following players (2nd, 3rd, etc...) can be accessed by ""Tux{index}"". For example, to access the 2nd player, use ""Tux1"" (or ""sector.Tux1"" from the console). 
 
 Inheritance
 --------
