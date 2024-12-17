@@ -141,8 +141,6 @@ More on tile datas can be read [here](#tile-datas).
 )
 ```
 
-<hr>
-
 Tile Attributes
 ===============
 
