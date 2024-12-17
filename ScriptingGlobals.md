@@ -29,14 +29,12 @@ Method | Explanation
 `bool check_cutscene()` | Checks if a skippable cutscene is currently running.
 `void wait(float seconds, bool forced = false)` | Suspends the script execution for a specified number of seconds.<br /><br /> `forced` - Optional, enforces waiting while a cutscene is being skipped. 
 `void wait_for_screenswitch()` | Suspends the script execution until the current screen has been changed.
-`void exit_screen()` | Exits the currently running screen (for example, force exits from worldmap or scrolling text).
 `string translate(string text)` | Translates a text into the user's language (by looking in the `.po` files).
 `string _(string text)` | Same function as `translate()`.
 `string translate_plural(string text, string text_plural, int num)` | Translates a text into the user's language (by looking in the `.po` files).
 `string __(string text, string text_plural, int num)` | Same function as `translate_plural()`.
 `void display_text_file(string filename)` | Displays a text file and scrolls it over the screen (on next screenswitch).
 `void load_worldmap(string filename, string sector, string spawnpoint)` | Loads and displays a worldmap (on next screenswitch), using the savegame of the current worldmap.<br /><br /> `sector` - Forced sector to spawn in the worldmap on. Leave empty to use last sector from savegame. <br /> `spawnpoint` - Forced spawnpoint to spawn in the worldmap on. Leave empty to use last position from savegame. 
-`void set_next_worldmap(string dirname, string sector, string spawnpoint)` | Switches to a different worldmap after unloading the current one, after `exit_screen()` is called.<br /><br /> `dirname` - The world directory, where the "worldmap.stwm" file is located. <br /> `sector` - Forced sector to spawn in the worldmap on. Leave empty to use last sector from savegame. <br /> `spawnpoint` - Forced spawnpoint to spawn in the worldmap on. Leave empty to use last position from savegame. 
 `void load_level(string filename)` | Loads and displays a level (on next screenswitch), using the savegame of the current level.
 `void import(string filename)` | Loads a script file and executes it.
 `void debug_collrects(bool enable)` | Enables/disables drawing of collision rectangles.
@@ -60,7 +58,6 @@ Method | Explanation
 `void restart()` | Re-initializes and respawns Tux at the beginning of the current level.
 `void gotoend()` | Moves Tux near the end of the current level.
 `void warp(float offset_x, float offset_y)` | Moves Tux to the X and Y blocks, relative to his position.
-`void set_gamma(float gamma)` | Adjusts the gamma.
 `int rand()` | Returns a random integer.
 `void set_title_frame(string image)` | Sets the frame, displayed on the title screen.
 
