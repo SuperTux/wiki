@@ -24,9 +24,9 @@ Methods
 
 Method | Explanation
 -------|-------
-`void puff_smoke()` | Spawns a puff of smoke.
-`bool get_burning()` | Returns `true` if the candle is lit up.
-`void set_burning(bool burning)` | Sets the burning state of the candle.<br /><br /> `burning` - If `true`, the candle is lit up. If `false`, it's extinguished. 
+`void puff_smoke()` | Spawns a puff of smoke. 
+`bool get_burning()` | Returns `true` if the candle is lit up. 
+`void set_burning(bool burning)` | Sets the burning state of the candle. <br /><br /> `burning` - If `true`, the candle is lit up. If `false`, it's extinguished. 
 
 
 Variables
@@ -34,7 +34,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
-`bool burning` | The burning state of the candle.true if candle is currently lighted 
+`bool burning` | The burning state of the candle. true if candle is currently lighted 
 
 
 Constants

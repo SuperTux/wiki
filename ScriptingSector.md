@@ -3,7 +3,7 @@
 Summary
 -------
 
-This class provides additional controlling functions for a sector, other than the ones listed at [GameObjectManager](https://github.com/SuperTux/supertux/wiki/ScriptingGameObjectManager).
+This class provides additional controlling functions for a sector, other than the ones listed at [GameObjectManager](https://github.com/SuperTux/supertux/wiki/ScriptingGameObjectManager). 
 
 Instances
 --------
@@ -23,10 +23,10 @@ Methods
 
 Method | Explanation
 -------|-------
-`bool is_free_of_solid_tiles(float left, float top, float right, float bottom, bool ignore_unisolid)` | Checks if the specified sector-relative rectangle is free of solid tiles.<br /><br /> `ignore_unisolid` - If `true`, unisolid tiles will be ignored. 
-`bool is_free_of_statics(float left, float top, float right, float bottom, bool ignore_unisolid)` | Checks if the specified sector-relative rectangle is free of both: 1) Solid tiles.<br /><br /> `ignore_unisolid` - If `true`, unisolid tiles will be ignored. 
-`bool is_free_of_movingstatics(float left, float top, float right, float bottom)` | Checks if the specified sector-relative rectangle is free of both: 1) Solid tiles.
-`bool is_free_of_specifically_movingstatics(float left, float top, float right, float bottom)` | Checks if the specified sector-relative rectangle is free of `MovingObject`s in `COLGROUP_MOVINGSTATIC`.
+`bool is_free_of_solid_tiles(float left, float top, float right, float bottom, bool ignore_unisolid)` | Checks if the specified sector-relative rectangle is free of solid tiles. <br /><br /> `ignore_unisolid` - If `true`, unisolid tiles will be ignored. 
+`bool is_free_of_statics(float left, float top, float right, float bottom, bool ignore_unisolid)` | Checks if the specified sector-relative rectangle is free of both: 1) Solid tiles. 2) `MovingObject`s in `COLGROUP_STATIC`. <br /><br />**NOTE:** This does not include badguys or players. <br /><br /> `ignore_unisolid` - If `true`, unisolid tiles will be ignored. 
+`bool is_free_of_movingstatics(float left, float top, float right, float bottom)` | Checks if the specified sector-relative rectangle is free of both: 1) Solid tiles. 2) `MovingObject`s in `COLGROUP_STATIC`, `COLGROUP_MOVINGSTATIC` or `COLGROUP_MOVING`. This includes badguys and players. 
+`bool is_free_of_specifically_movingstatics(float left, float top, float right, float bottom)` | Checks if the specified sector-relative rectangle is free of `MovingObject`s in `COLGROUP_MOVINGSTATIC`. <br /><br />**NOTE:** This does not include moving badguys or players. 
 `void set_gravity(float gravity)` | 
 `float get_gravity(float gravity)` | 
 
@@ -36,7 +36,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
-`float gravity` | The sector's gravity.
+`float gravity` | The sector's gravity. 
 
 
 Constants

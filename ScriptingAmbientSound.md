@@ -3,7 +3,7 @@
 Summary
 -------
 
-An `AmbientSound` that was given a name can be controlled by scripts.
+An `AmbientSound` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -23,8 +23,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`float get_pos_x()` | **Deprecated!** Use `get_x()` instead! <br /><br />Returns the ambient sound's X coordinate.
-`float get_pos_y()` | **Deprecated!** Use `get_y()` instead! <br /><br />Returns the ambient sound's Y coordinate.
+`float get_pos_x()` | **Deprecated!** Use `get_x()` instead! <br /><br />Returns the ambient sound's X coordinate. 
+`float get_pos_y()` | **Deprecated!** Use `get_y()` instead! <br /><br />Returns the ambient sound's Y coordinate. 
 
 
 Variables

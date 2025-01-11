@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `LevelTime` that was given a name can be controlled by scripts.
+A `LevelTime` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -23,10 +23,10 @@ Methods
 
 Method | Explanation
 -------|-------
-`void start()` | Resumes the countdown (assuming it isn't already started, in which case it does nothing).
-`void stop()` | Pauses the countdown (assuming it isn't already stopped, in which case it does nothing).
-`float get_time()` | Returns the number of seconds left on the clock.
-`void set_time(float time_left)` | Sets the number of seconds left on the clock.
+`void start()` | Resumes the countdown (assuming it isn't already started, in which case it does nothing). 
+`void stop()` | Pauses the countdown (assuming it isn't already stopped, in which case it does nothing). 
+`float get_time()` | Returns the number of seconds left on the clock. 
+`void set_time(float time_left)` | Sets the number of seconds left on the clock. 
 
 
 Variables
@@ -34,7 +34,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
-`float time` | The number of seconds left on the clock.
+`float time` | The number of seconds left on the clock. 
 
 
 Constants

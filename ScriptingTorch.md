@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `Torch` that was given a name can be controlled by scripts.
+A `Torch` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -24,8 +24,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`bool get_burning()` | Returns `true` if the torch is burning.
-`void set_burning(bool burning)` | Switches the burning state of the torch.
+`bool get_burning()` | Returns `true` if the torch is burning. 
+`void set_burning(bool burning)` | Switches the burning state of the torch. 
 
 
 Variables
@@ -33,7 +33,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
-`bool burning` | Determines whether the torch is burning.
+`bool burning` | Determines whether the torch is burning. 
 
 
 Constants

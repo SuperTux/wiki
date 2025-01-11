@@ -3,7 +3,7 @@
 Summary
 -------
 
-Abstract base class for `MovingObject`s, that are represented by a sprite.
+Abstract base class for `MovingObject`s, that are represented by a sprite. 
 
 Instances
 --------
@@ -149,11 +149,11 @@ Methods
 
 Method | Explanation
 -------|-------
-`bool set_sprite(string file)` | Sets the sprite of the object.
-`string get_sprite()` | Returns the file of the object's sprite.
-`string get_action()` | Returns the name of the current action of the sprite.
-`void set_action(string name, int loops = -1)` | Sets the current action of the sprite, as well as the number of times it should loop, and resizes the bounding box.<br /><br /> `loops` - Optional, -1 by default (negative value means infinite). Set to -100 to continue looping from the previous action. 
-`void set_action_loops(string name, int loops)` | **Deprecated!** Use `set_action()` instead! <br /><br />Sets the current action of the sprite, as well as the number of times it should loop, and resizes the bounding box.<br /><br /> `loops` - Negative value means infinite. Set to -100 to continue looping from the previous action. 
+`bool set_sprite(string file)` | Sets the sprite of the object. Returns `true` on success. 
+`string get_sprite()` | Returns the file of the object's sprite. 
+`string get_action()` | Returns the name of the current action of the sprite. 
+`void set_action(string name, int loops = -1)` | Sets the current action of the sprite, as well as the number of times it should loop, and resizes the bounding box. <br /><br />**NOTE:** Use with care as you can easily get stuck when resizing the bounding box. <br /><br /> `loops` - Optional, -1 by default (negative value means infinite). Set to -100 to continue looping from the previous action. 
+`void set_action_loops(string name, int loops)` | **Deprecated!** Use `set_action()` instead! <br /><br />Sets the current action of the sprite, as well as the number of times it should loop, and resizes the bounding box. <br /><br />**NOTE:** Use with care as you can easily get stuck when resizing the bounding box. <br /><br /> `loops` - Negative value means infinite. Set to -100 to continue looping from the previous action. 
 
 
 Variables

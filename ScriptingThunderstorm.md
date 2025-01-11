@@ -23,12 +23,12 @@ Methods
 
 Method | Explanation
 -------|-------
-`void start()` | Starts playing thunder and lightning at a configured interval.
-`void stop()` | Stops playing thunder and lightning at a configured interval.
-`void thunder()` | Plays thunder.
-`void lightning()` | Plays lightning, i.e.
-`void flash()` | Displays a flash.
-`void electrify()` | Electrifies water throughout the whole sector for a short time.
+`void start()` | Starts playing thunder and lightning at a configured interval. 
+`void stop()` | Stops playing thunder and lightning at a configured interval. 
+`void thunder()` | Plays thunder. 
+`void lightning()` | Plays lightning, i.e. calls `flash()` and `electrify()`. 
+`void flash()` | Displays a flash. 
+`void electrify()` | Electrifies water throughout the whole sector for a short time. 
 
 
 Variables

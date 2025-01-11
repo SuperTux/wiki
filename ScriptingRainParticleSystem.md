@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `RainParticleSystem` that was given a name can be controlled by scripts.
+A `RainParticleSystem` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -25,9 +25,9 @@ Methods
 
 Method | Explanation
 -------|-------
-`void fade_speed(float speed, float time)` | Smoothly changes the rain speed to the given value in `time` seconds.
-`void fade_amount(float amount, float time)` | Smoothly changes the amount of particles to the given value in `time` seconds.
-`void fade_angle(float angle, float time, string ease)` | Smoothly changes the angle of the rain the given value in `time` seconds, according to the provided easing function.
+`void fade_speed(float speed, float time)` | Smoothly changes the rain speed to the given value in `time` seconds. 
+`void fade_amount(float amount, float time)` | Smoothly changes the amount of particles to the given value in `time` seconds. 
+`void fade_angle(float angle, float time, string ease)` | Smoothly changes the angle of the rain the given value in `time` seconds, according to the provided easing function. 
 
 
 Variables

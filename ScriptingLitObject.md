@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `LitObject` that was given a name can be controlled by scripts.
+A `LitObject` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -24,8 +24,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`string get_light_action()` | Returns the current light sprite action.
-`void set_light_action(string action)` | Sets the light sprite action.
+`string get_light_action()` | Returns the current light sprite action. 
+`void set_light_action(string action)` | Sets the light sprite action. 
 
 
 Variables
@@ -33,7 +33,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
-`std::string light_action` | The current light sprite action.
+`std::string light_action` | The current light sprite action. 
 
 
 Constants

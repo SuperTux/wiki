@@ -3,7 +3,7 @@
 Summary
 -------
 
-Base class for all dynamic/moving game objects.
+Base class for all dynamic/moving game objects. This class contains things for handling the bounding boxes and collision feedback. 
 
 Instances
 --------
@@ -169,12 +169,12 @@ Methods
 
 Method | Explanation
 -------|-------
-`float get_x()` | Returns the object's X coordinate.
-`float get_y()` | Returns the object's Y coordinate.
-`void set_pos(float x, float y)` | Sets the position of the object.
-`void move(float x, float y)` | Moves the object by `x` units to the right and `y` down, relative to its current position.
-`float get_width()` | Returns the object's hitbox width.
-`float get_height()` | Returns the object's hitbox height.
+`float get_x()` | Returns the object's X coordinate. 
+`float get_y()` | Returns the object's Y coordinate. 
+`void set_pos(float x, float y)` | Sets the position of the object. 
+`void move(float x, float y)` | Moves the object by `x` units to the right and `y` down, relative to its current position. 
+`float get_width()` | Returns the object's hitbox width. 
+`float get_height()` | Returns the object's hitbox height. 
 
 
 Variables

@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `WillOWisp` that was given a name can be controlled by scripts.
+A `WillOWisp` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -28,7 +28,7 @@ Methods
 
 Method | Explanation
 -------|-------
-`void set_state(string state)` | Sets the state of the WillOWisp.<br /><br /> `state` - One of the following: "stopped", "move_path" (moves along a path), "move_path_track" (moves along a path but catches Tux when he is near), "normal" (starts tracking Tux when he is near enough), "vanish". 
+`void set_state(string state)` | Sets the state of the WillOWisp. <br /><br /> `state` - One of the following: "stopped", "move_path" (moves along a path), "move_path_track" (moves along a path but catches Tux when he is near), "normal" (starts tracking Tux when he is near enough), "vanish". 
 
 
 Variables

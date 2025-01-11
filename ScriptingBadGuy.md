@@ -96,8 +96,8 @@ Methods
 
 Method | Explanation
 -------|-------
-`void kill()` | Sets the badguy to kill/falling state, which makes it fall of the screen (its sprite is turned upside-down).
-`void ignite()` | Kills the badguy by igniting it.
+`void kill()` | Sets the badguy to kill/falling state, which makes it fall of the screen (its sprite is turned upside-down). 
+`void ignite()` | Kills the badguy by igniting it. 
 
 
 Variables

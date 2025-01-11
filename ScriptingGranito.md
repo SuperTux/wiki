@@ -31,18 +31,18 @@ Methods
 
 Method | Explanation
 -------|-------
-`void wave()` | Makes the Granito wave.
-`void sit()` | Makes the Granito sit.
-`void turn(string direction)` | Makes the Granito sit.<br /><br /> `direction` - Direction to turn to. Can be "left or "right". 
-`void set_walking(bool walking)` | Sets the walking state for the Granito.
-`void walk()` | Makes the Granito walk.
-`void walk_for(float seconds)` | Makes the Granito walk for a specified amount of seconds.
-`void stand()` | Makes the Granito stand, or stop if walking.
-`void jump()` | Makes the Granito jump.
-`void eject()` | Eject itself from the Big Granito.
-`int get_state()` | Gets the current Granito state.
-`string get_carrier_name()` | Gets the name of the Big Granito that is carrying the Granito.
-`void reset_detection()` | Resets the player detection used for waving, allowing the Detect Script to be ran again.
+`void wave()` | Makes the Granito wave. 
+`void sit()` | Makes the Granito sit. 
+`void turn(string direction)` | Makes the Granito sit. <br /><br /> `direction` - Direction to turn to. Can be "left or "right". 
+`void set_walking(bool walking)` | Sets the walking state for the Granito. 
+`void walk()` | Makes the Granito walk. 
+`void walk_for(float seconds)` | Makes the Granito walk for a specified amount of seconds. 
+`void stand()` | Makes the Granito stand, or stop if walking. 
+`void jump()` | Makes the Granito jump. 
+`void eject()` | Eject itself from the Big Granito. 
+`int get_state()` | Gets the current Granito state. Value is any of the `GRANITO_STATE` enumerators. 
+`string get_carrier_name()` | Gets the name of the Big Granito that is carrying the Granito. 
+`void reset_detection()` | Resets the player detection used for waving, allowing the Detect Script to be ran again. Only works on Standing and Default granito. 
 
 
 Variables

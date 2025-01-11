@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `ScriptedObject` that was given a name can be controlled by scripts.
+A `ScriptedObject` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -24,17 +24,17 @@ Methods
 
 Method | Explanation
 -------|-------
-`float get_pos_x()` | **Deprecated!** Use `get_x()` instead! <br /><br />Returns the X coordinate of the object's position.
-`float get_pos_y()` | **Deprecated!** Use `get_y()` instead! <br /><br />Returns the Y coordinate of the object's position.
-`void set_velocity(float x, float y)` | Makes the object move in a certain `x` and `y` direction (with a certain speed).
-`float get_velocity_x()` | Returns the X coordinate of the object's velocity.
-`float get_velocity_y()` | Returns the Y coordinate of the object's velocity.
-`void enable_gravity(bool enabled)` | Enables or disables gravity, according to the value of `enabled`.
-`bool gravity_enabled()` | Returns `true` if the object's gravity is enabled.
-`void set_visible(bool visible)` | Shows or hides the object, according to the value of `visible`.
-`bool is_visible()` | Returns `true` if the object is visible.
-`void set_solid(bool solid)` | Changes the solidity, according to the value of `solid`.
-`bool is_solid()` | Returns `true` if the object is solid.
+`float get_pos_x()` | **Deprecated!** Use `get_x()` instead! <br /><br />Returns the X coordinate of the object's position. 
+`float get_pos_y()` | **Deprecated!** Use `get_y()` instead! <br /><br />Returns the Y coordinate of the object's position. 
+`void set_velocity(float x, float y)` | Makes the object move in a certain `x` and `y` direction (with a certain speed). 
+`float get_velocity_x()` | Returns the X coordinate of the object's velocity. 
+`float get_velocity_y()` | Returns the Y coordinate of the object's velocity. 
+`void enable_gravity(bool enabled)` | Enables or disables gravity, according to the value of `enabled`. 
+`bool gravity_enabled()` | Returns `true` if the object's gravity is enabled. 
+`void set_visible(bool visible)` | Shows or hides the object, according to the value of `visible`. 
+`bool is_visible()` | Returns `true` if the object is visible. 
+`void set_solid(bool solid)` | Changes the solidity, according to the value of `solid`. 
+`bool is_solid()` | Returns `true` if the object is solid. 
 
 
 Variables
@@ -42,8 +42,8 @@ Variables
 
 Variable | Explanation
 ---------|---------
-`bool solid` | Determines whether the object is solid.
-`bool visible` | Determines whether the object is visible.
+`bool solid` | Determines whether the object is solid. 
+`bool visible` | Determines whether the object is visible. 
 
 
 Constants

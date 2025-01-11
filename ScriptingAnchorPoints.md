@@ -3,7 +3,7 @@
 Summary
 -------
 
-This module contains global anchor constants.
+This module contains global anchor constants. 
 
 Instances
 --------

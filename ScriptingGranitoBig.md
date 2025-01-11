@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `GranitoBig` that was given a name can be controlled by scripts.
+A `GranitoBig` that was given a name can be controlled by scripts. It has some features from its base class, `Granito`, disabled. 
 
 Instances
 --------
@@ -29,7 +29,7 @@ Methods
 
 Method | Explanation
 -------|-------
-`string get_carrying_name()` | Gets the name of the Granito being carried by the Big Granito.
+`string get_carrying_name()` | Gets the name of the Granito being carried by the Big Granito. 
 
 
 Variables

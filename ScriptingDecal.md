@@ -24,10 +24,10 @@ Methods
 
 Method | Explanation
 -------|-------
-`void fade_sprite(string sprite, float time)` | Fades the decal sprite to a new one in `time` seconds.
-`void change_sprite(string sprite)` | **Deprecated!** Use `set_sprite()` instead! <br /><br />Changes the decal sprite.
-`void fade_in(float time)` | Fades in the decal in `time` seconds.
-`void fade_out(float time)` | Fades out the decal in `time` seconds.
+`void fade_sprite(string sprite, float time)` | Fades the decal sprite to a new one in `time` seconds. 
+`void change_sprite(string sprite)` | **Deprecated!** Use `set_sprite()` instead! <br /><br />Changes the decal sprite. 
+`void fade_in(float time)` | Fades in the decal in `time` seconds. 
+`void fade_out(float time)` | Fades out the decal in `time` seconds. 
 
 
 Variables

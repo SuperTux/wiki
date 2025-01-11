@@ -3,7 +3,7 @@
 Summary
 -------
 
-A `CustomParticleSystem` that was given a name can be controlled by scripts.
+A `CustomParticleSystem` that was given a name can be controlled by scripts. 
 
 Instances
 --------
@@ -28,19 +28,19 @@ Methods
 
 Method | Explanation
 -------|-------
-`void clear()` | Instantly removes all particles of that type on the screen.
-`void spawn_particles(int amount, bool instantly)` | Spawns particles, regardless of whether or not particles are enabled.<br /><br /> `instantly` - If `true`, disregard the delay settings. 
+`void clear()` | Instantly removes all particles of that type on the screen. 
+`void spawn_particles(int amount, bool instantly)` | Spawns particles, regardless of whether or not particles are enabled. <br /><br /> `instantly` - If `true`, disregard the delay settings. 
 `int get_max_amount()` | 
 `void set_max_amount(int amount)` | 
-`string get_birth_mode()` | Returns "None", "Fade", "Shrink".
+`string get_birth_mode()` | Returns "None", "Fade", "Shrink". 
 `void set_birth_mode(string mode)` |  `mode` - Possible values: "None", "Fade", "Shrink". 
-`string get_death_mode()` | Returns "None", "Fade", "Shrink".
+`string get_death_mode()` | Returns "None", "Fade", "Shrink". 
 `void set_death_mode(string mode)` |  `mode` - Possible values: "None", "Fade", "Shrink". 
-`string get_rotation_mode()` | Returns "Fixed", "Facing", "Wiggling".
+`string get_rotation_mode()` | Returns "Fixed", "Facing", "Wiggling". 
 `void set_rotation_mode(string mode)` |  `mode` - Possible values: "Fixed", "Facing", "Wiggling". 
-`string get_collision_mode()` | Returns "Ignore", "Stick", "StickForever", "BounceHeavy", "BounceLight", "Destroy".
+`string get_collision_mode()` | Returns "Ignore", "Stick", "StickForever", "BounceHeavy", "BounceLight", "Destroy". 
 `void set_collision_mode(string mode)` |  `mode` - Possible values: "Ignore", "Stick", "StickForever", "BounceHeavy", "BounceLight", "Destroy". 
-`string get_offscreen_mode()` | Returns "Never", "OnlyOnExit", "Always".
+`string get_offscreen_mode()` | Returns "Never", "OnlyOnExit", "Always". 
 `void set_offscreen_mode(string mode)` |  `mode` - Possible values: "Never", "OnlyOnExit", "Always". 
 `bool get_cover_screen()` | 
 `void set_cover_screen(bool cover)` | 
