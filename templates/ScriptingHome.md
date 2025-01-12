@@ -49,6 +49,18 @@ a half seconds right after the level is loaded. (Mind you, this would
 be a frustrating experience for the player if you add a horde of
 badguys near the spawn point...)
 
+Squirrel language reference
+---------------------------
+
+For documentation of the Squirrel scripting language itself, check out the [Squirrel 3.2 Reference Manual](http://squirrel-lang.org/squirreldoc/reference/index.html).
+
+The [Squirrel Standard Library 3.2](http://squirrel-lang.org/squirreldoc/stdlib/index.html) has a lot of functions that can be used in SuperTux, namely the ones found in the following libraries:
+
+* [Blob](http://squirrel-lang.org/squirreldoc/stdlib/stdbloblib.html)
+* [Math](http://squirrel-lang.org/squirreldoc/stdlib/stdmathlib.html)
+* [String](http://squirrel-lang.org/squirreldoc/stdlib/stdstringlib.html)
+
+
 Object reference
 ----------------
 
