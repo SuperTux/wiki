@@ -25,10 +25,10 @@ bonus worlds, alongside its story mode.
 
 ### Bonus Islands
 
-* Bonus Island I
-* Bonus Island II
-* Bonus Island III
-* Bonus Island IV
+* [Bonus Island I](https://github.com/SuperTux/supertux/wiki/Bonus-Island-I)
+* [Bonus Island II](https://github.com/SuperTux/supertux/wiki/Bonus-Island-II)
+* [Bonus Island III](https://github.com/SuperTux/supertux/wiki/Bonus-Island-III)
+* [Bonus Island IV](https://github.com/SuperTux/supertux/wiki/Bonus-Island-IV)
 
 ### Level Packs
 
