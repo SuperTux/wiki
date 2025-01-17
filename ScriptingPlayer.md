@@ -44,6 +44,8 @@ Method | Explanation
 `void set_velocity(float x, float y)` | Sets the velocity of the player to a programmable/variable speed. <br /><br /> `x` - The speed Tux will move on the x axis. <br /> `y` - The speed Tux will move on the y axis. 
 `void set_visible(bool visible)` | Set Tux visible or invisible. 
 `bool get_visible()` | Returns `true` if Tux is currently visible (has not been set invisible by the `set_visible()` method). 
+`void set_is_intentionally_safe(bool safe)` | Make tux invincible without the star effect. 
+`bool get_is_intentionally_safe()` | Returns `true` if Tux is currently intentionally safe. 
 `bool has_grabbed(string name)` | Returns whether the player is carrying a certain object. <br /><br /> `name` - Name of the portable object to check for. 
 `void set_ghost_mode(bool enable)` | Switches ghost mode on/off. Lets Tux float around and through solid objects. 
 `bool get_ghost_mode()` | Returns whether ghost mode is currently enabled. 
@@ -65,6 +67,7 @@ Variables
 
 Variable | Explanation
 ---------|---------
+`bool is_intentionally_safe` | Determines whether Tux is invincible. 
 `bool visible` | Determines whether Tux is visible. 
 
 
