@@ -90,6 +90,9 @@ Original And Past Developers of SuperTux
 #### Tim *"tuxdev"* Goya
 - Programming
 
+#### Ricardo (blacksheep) Cruz
+- Programming
+
 #### LMH
 - Programming
 
