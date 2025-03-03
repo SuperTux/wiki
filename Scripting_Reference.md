@@ -112,5 +112,6 @@ using a function that actually doesn't exist.
 * [TileMap](https://github.com/SuperTux/supertux/wiki/ScriptingTileMap)
 * [Torch](https://github.com/SuperTux/supertux/wiki/ScriptingTorch)
 * [WillOWisp](https://github.com/SuperTux/supertux/wiki/ScriptingWillOWisp)
+* [Wind](https://github.com/SuperTux/supertux/wiki/ScriptingWind)
 * [WorldMapSector](https://github.com/SuperTux/supertux/wiki/ScriptingWorldMapSector)
 

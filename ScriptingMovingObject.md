@@ -158,7 +158,7 @@ The following classes inherit functions and variables from this class:
 * WaterDrop
 * WeakBlock
 * [WillOWisp](https://github.com/SuperTux/supertux/wiki/ScriptingWillOWisp)
-* Wind
+* [Wind](https://github.com/SuperTux/supertux/wiki/ScriptingWind)
 * WorldMapObject
 * Yeti
 * YetiStalactite
