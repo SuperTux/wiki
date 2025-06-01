@@ -39,7 +39,6 @@ The following classes inherit functions and variables from this class:
 * CorruptedGranito
 * CorruptedGranitoBig
 * Crusher
-* CrusherRoot
 * Crystallo
 * Dart
 * DartTrap

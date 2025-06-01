@@ -46,7 +46,6 @@ The following classes inherit functions and variables from this class:
 * CorruptedGranito
 * CorruptedGranitoBig
 * Crusher
-* CrusherRoot
 * Crystallo
 * [CustomParticleSystem](https://github.com/SuperTux/supertux/wiki/ScriptingCustomParticleSystem)
 * CustomParticleSystemFile
