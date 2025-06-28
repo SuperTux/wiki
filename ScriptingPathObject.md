@@ -16,7 +16,6 @@ Inheritance
 The following classes inherit functions and variables from this class:
 * [Camera](https://github.com/SuperTux/supertux/wiki/ScriptingCamera)
 * Coin
-* Ghoul
 * HeavyCoin
 * HurtingPlatform
 * Platform
