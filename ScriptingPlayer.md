@@ -52,6 +52,8 @@ Method | Explanation
 `void trigger_sequence(string sequence_name)` | Orders the current `GameSession` to start a sequence. <br /><br /> `sequence_name` - One of “stoptux”, “endsequence” or “fireworks”. 
 `void activate()` | Give control back to user/scripting. 
 `void deactivate()` | Deactivate user/scripting input for Tux. Carried items like trampolines won't be dropped. 
+`void enable_fancy_idling()` | Enables Tux's fancy idle animations. 
+`void disable_fancy_idling()` | Disables Tux's fancy idle animations. 
 `bool get_input_pressed(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been pressed. <br /><br /> `input` - Can be “left”, “right”, “up”, “down”, “jump”, “action”, "item", “start”, “escape”, “menu-select”, “menu-select-space”, “menu-back”, “remove”, “cheat-menu”, “debug-menu”, “console”, “peek-left”, “peek-right”, “peek-up” or “peek-down”. 
 `bool get_input_held(string input)` | Gets whether the current input on the keyboard/controller/touchpad is being held. <br /><br /> `input` - Valid values are listed above. 
 `bool get_input_released(string input)` | Gets whether the current input on the keyboard/controller/touchpad has been released. <br /><br /> `input` - Valid values are listed above. 
