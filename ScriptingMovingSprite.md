@@ -88,6 +88,7 @@ The following classes inherit functions and variables from this class:
 * Owl
 * Plant
 * Platform
+* [Player](https://github.com/SuperTux/supertux/wiki/ScriptingPlayer)
 * PneumaticPlatformChild
 * PocketPowerUp
 * PowerUp

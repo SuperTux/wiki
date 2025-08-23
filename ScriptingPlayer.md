@@ -3,7 +3,7 @@
 Summary
 -------
 
-This module contains methods controlling the player. (No, SuperTux doesn't use mind control. `Player` refers to the type of the player object.) 
+This module contains methods controlling the player. 
 
 Instances
 --------
@@ -14,6 +14,7 @@ Inheritance
 --------
 
 This class inherits functions and variables from the following base classes:
+* [MovingSprite](https://github.com/SuperTux/supertux/wiki/ScriptingMovingSprite)
 * [MovingObject](https://github.com/SuperTux/supertux/wiki/ScriptingMovingObject)
 * [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
 
