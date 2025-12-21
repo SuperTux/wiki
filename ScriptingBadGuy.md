@@ -39,6 +39,12 @@ The following classes inherit functions and variables from this class:
 * Flame
 * FlyingSnowBall
 * GhostTree
+* GhostTreeRoot
+* GhostTreeRootBlue
+* GhostTreeRootGreen
+* GhostTreeRootMain
+* GhostTreeRootPinch
+* GhostTreeRootRed
 * Ghoul
 * GoldBomb
 * [Granito](https://github.com/SuperTux/supertux/wiki/ScriptingGranito)

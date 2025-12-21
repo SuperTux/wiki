@@ -77,6 +77,12 @@ The following classes inherit functions and variables from this class:
 * FlyingSnowBall
 * GhostParticleSystem
 * GhostTree
+* GhostTreeRoot
+* GhostTreeRootBlue
+* GhostTreeRootGreen
+* GhostTreeRootMain
+* GhostTreeRootPinch
+* GhostTreeRootRed
 * Ghoul
 * GoldBomb
 * [Gradient](https://github.com/SuperTux/supertux/wiki/ScriptingGradient)
