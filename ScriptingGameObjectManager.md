@@ -31,7 +31,7 @@ Method | Explanation
 `float get_ambient_green()` | Returns the green channel of the ambient light color. 
 `float get_ambient_blue()` | Returns the blue channel of the ambient light color. 
 `void set_music(string music)` | Sets the sector's music. <br /><br /> `music` - Full filename, relative to the "music" folder. 
-`void add_object(string class_name, string name, float pos_x, float pos_y, string direction, string data)` | Adds a `MovingObject` to the manager. <br /><br />**NOTE:** If adding objects to a worldmap sector, `posX` and `posY` have to be tile positions (sector position / 32). <br /><br /> `class_name` - GameObject's class. <br /> `name` - Name of the created object. <br /> `pos_x` - X position inside the current sector. <br /> `pos_y` - Y position inside the current sector. <br /> `direction` - Direction. <br /> `data` - Additional data in S-Expression format (check object definitions in level files). 
+`void add_object(string class_name, string name, float pos_x, float pos_y, string direction = "auto", string data = "")` | Adds a `MovingObject` to the manager. <br /><br />**NOTE:** If adding objects to a worldmap sector, `posX` and `posY` have to be tile positions (sector position / 32). <br /><br /> `class_name` - GameObject's class. <br /> `name` - Name of the created object. <br /> `pos_x` - X position inside the current sector. <br /> `pos_y` - Y position inside the current sector. <br /> `direction` - Direction. <br /> `data` - Additional data in S-Expression format (check object definitions in level files). 
 
 
 Variables
