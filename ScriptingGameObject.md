@@ -56,6 +56,7 @@ The following classes inherit functions and variables from this class:
 * [DisplayEffect](https://github.com/SuperTux/supertux/wiki/ScriptingDisplayEffect)
 * DiveMine
 * Door
+* DraggableRegion
 * EditorComment
 * Electrifier
 * EndSequence

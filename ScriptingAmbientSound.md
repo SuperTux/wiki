@@ -14,6 +14,7 @@ Inheritance
 --------
 
 This class inherits functions and variables from the following base classes:
+* DraggableRegion
 * [MovingObject](https://github.com/SuperTux/supertux/wiki/ScriptingMovingObject)
 * [GameObject](https://github.com/SuperTux/supertux/wiki/ScriptingGameObject)
 
