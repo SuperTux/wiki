@@ -125,7 +125,6 @@ The following classes inherit functions and variables from this class:
 * MrTree
 * MusicObject
 * NodeMarker
-* OneUp
 * Owl
 * ParticleSystem
 * ParticleSystem_Interactive
@@ -200,6 +199,7 @@ The following classes inherit functions and variables from this class:
 * TreeWillOWisp
 * Trigger
 * Tux
+* TuxDoll
 * UnstableTile
 * VerticalStripes
 * ViciousIvy

@@ -90,7 +90,6 @@ The following classes inherit functions and variables from this class:
 * MrBomb
 * MrIceBlock
 * MrTree
-* OneUp
 * Owl
 * Plant
 * Platform
@@ -136,6 +135,7 @@ The following classes inherit functions and variables from this class:
 * Totem
 * Trampoline
 * TreeWillOWisp
+* TuxDoll
 * UnstableTile
 * ViciousIvy
 * WalkingBadguy

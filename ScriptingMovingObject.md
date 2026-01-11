@@ -100,7 +100,6 @@ The following classes inherit functions and variables from this class:
 * MrIceBlock
 * MrTree
 * NodeMarker
-* OneUp
 * Owl
 * ParticleZone
 * Plant
@@ -156,6 +155,7 @@ The following classes inherit functions and variables from this class:
 * Trampoline
 * TreeWillOWisp
 * Trigger
+* TuxDoll
 * UnstableTile
 * ViciousIvy
 * WalkingBadguy
