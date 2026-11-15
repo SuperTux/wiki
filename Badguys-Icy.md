@@ -162,8 +162,7 @@ Like *Mr. Snowball*, Mr. Iceblock is a simple straight forward enemy. He will no
 jumped upon he will get knocked out and become a portable item that one can use to throw or be kicked at other
 enemies.
 
-Continually squishing Mr. Iceblock will eventually kill him. Since version 0.3, he only walks off a cliff if
-there is something safe on which he can land.
+Continually squishing Mr. Iceblock will eventually kill him.
 
 
 | Property       | Status |
